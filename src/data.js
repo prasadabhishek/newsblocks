@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-17T06:20:15.141Z",
+  "lastUpdated": "2026-03-17T06:26:26.429Z",
   "children": [
     {
       "name": "Politics",
@@ -413,8 +413,8 @@ export const newsData = {
           "representativeTitle": "Judge blocks US government from slimming down vaccine recommendations",
           "sources": [
             "The Journal Gazette",
-            "Sun Sentinel",
-            "WAVY.com"
+            "Lowell Sun",
+            "WPRI.com"
           ],
           "citationCount": 3,
           "rawArticles": [
@@ -427,16 +427,16 @@ export const newsData = {
             },
             {
               "title": "Judge blocks US government from slimming down vaccine recommendations",
-              "source": "Sun Sentinel",
-              "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5aGoxbF9XNmZuaUNLb2VGdnRiMU40WjFkd1ZYRGxVVnQ2dmh4QklwM3lacDZwMkxldERybS1YaFhFY1ZCX3lSWERFb01qR0U3ckFMalpOTjVFZlVDMldtbFNOazZSTFFCRFVsS3VFazFZZS1KVWRDaGZiNHhFQQ?oc=5",
-              "pubDate": "2026-03-16T20:53:33.000Z",
+              "source": "Lowell Sun",
+              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBwOTZ0QkRTczVCVm95WDY5RXBqVW1TOEZXcV9oc2xXUy1TU2pZWXJTZ2hRRlQ3T2F2U1p1TzJ5TnZvZk1DUHk2NG0wbk4wR0Z6cjJGNXhCUmR3YWJmaVVmQldsOTZkVmR5Y05MWC1YdTdwYm1yb0p3TlVB?oc=5",
+              "pubDate": "2026-03-16T20:56:59.000Z",
               "tier": 2
             },
             {
               "title": "Judge blocks US government from slimming down vaccine recommendations",
-              "source": "WAVY.com",
-              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZjZxcUhyb2YweUdSc2l6WC1ka0VRV3AwdmdsVnJ6cWw4NlN3Z1dJaFppdjhYMWJnZUJieTBxLTE2XzlYU3A1STlYbVZsd1NiblZiSU55VnNKejc4ZDdicE1RaklfWTdBeVVoVE9ocHVNWnM0dnd6QU5WLWx4WWp5ZGFUa3hqWXhCR1duNzY1VWN4bS1pdDhCUHowT0I1QmVxV0lOWUJxNUVabWxW0gGyAUFVX3lxTFBwUGdsUERNZFhZaFFVQ1pxWnMtQkRDb1RYNkJGcWJQLXVKM3RHNU96d1hyQndWejUzdzV1NWJYYzJOeXJvWXg3MEViektwOGoyYjdVM3d3M1dmU05WZ1pLaThRR2pXZnJmVVoyMFdjWjFCYnZEWUstZVZFMG9UaVZhZlN5MmtfZnVNNWJfTkJIa0tKU2tucmdVaDBNQ1EzRk0yMnNkLWtHV1R0MzNuQXR1TUE?oc=5",
-              "pubDate": "2026-03-16T20:50:56.000Z",
+              "source": "WPRI.com",
+              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSmdwTHp3QmhzdGxyTlRTaEZsejE5RnpwblpJbkljY3RvMmJaU2p4MTRRY29rNXAtVTBfRUJ0UWFYbmY2Tkd3ZVJ5SjRpbzU5aWg3bzRnUHdhUkMtSHVOQnFkRGc1SHJEdHJCQTJWdVplczVZdXpwQ1JHemFGcXhsNGI4RFZsUjlhYVUtMi1lRF9HOU1KTVdNRGxYbVo0dUhrZzI5TNIBpAFBVV95cUxNSmdwTHp3QmhzdGxyTlRTaEZsejE5RnpwblpJbkljY3RvMmJaU2p4MTRRY29rNXAtVTBfRUJ0UWFYbmY2Tkd3ZVJ5SjRpbzU5aWg3bzRnUHdhUkMtSHVOQnFkRGc1SHJEdHJCQTJWdVplczVZdXpwQ1JHemFGcXhsNGI4RFZsUjlhYVUtMi1lRF9HOU1KTVdNRGxYbVo0dUhrZzI5TA?oc=5",
+              "pubDate": "2026-03-16T16:55:04.000Z",
               "tier": 2
             }
           ],
@@ -526,6 +526,26 @@ export const newsData = {
           "slug": "say-goodbye-to-tsa-officers-after-hundreds-quit-during-government-shutdown"
         },
         {
+          "representativeTitle": "Airline executives urge Congress to end partial government shutdown",
+          "sources": [
+            "MSN"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Airline executives urge Congress to end partial government shutdown",
+              "source": "MSN",
+              "link": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxNT1ZtbElCZlYwNGlKRmc5UnBfd0k5ZERrN0I1TFl4WGNLWUh3SlpOSzhpaElfZFQ2V1dPcnJGcUVIZHBmbC1Ea0MyN1lmdW1sUFpRTmNBeFVlWEs2Sm5JcFVycTlWT29uSkVSdTFZUDFEY0JTbnpGNnZ2YlNzQ0VkdndRTC14SFhSWEpqMHZudVJrY3ZHMTNfelZoT0hFUXNiQ1VyM3d1VjBjTXZTSWpGVUpqbzRHakNVS1ZxU1paSG05eHVYUGRsNTFOTFFhcDNrSVppLTM1eGJLaUVPWXJjNWRMM0tnQnp6Z0xWb1kyVjIxcUhQWVBZUlNoWWtxamZmSnlqRGVvWVVvVHhfRTIzTFd3ZUg1ZDJGZl9meVdaMWNXbGZiLTd4Q3lWR3RkWVUzcUVzczlpd2FWWWF3NHY5R1N3QkdBU3FhZWhlZ1FfZVFUVFp4OWlsaVFYWnNpUndXU1duV21uOUQyNTlNTnd3?oc=5",
+              "pubDate": "2026-03-16T08:56:07.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "airline-executives-urge-congress-to-end-partial-government-shutdown"
+        },
+        {
           "representativeTitle": "Iran war 'nothing to do with NATO', says German government",
           "sources": [
             "Euractiv"
@@ -566,24 +586,24 @@ export const newsData = {
           "slug": "trumps-10b-tiktok-fee-sparks-uproar"
         },
         {
-          "representativeTitle": "Musk’s Grok Chatbot Made Sexual Images of Minors, Teens Allege in Lawsuit",
+          "representativeTitle": "Cong flags call by US govt body for sanctions against RSS, RAW",
           "sources": [
-            "Rolling Stone"
+            "National Herald"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Musk’s Grok Chatbot Made Sexual Images of Minors, Teens Allege in Lawsuit",
-              "source": "Rolling Stone",
-              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOVMwWGg1M1F5ZXVPU284VGlfRDhqWVlVVEN6T3JLbzRraV85ZU8xbWVzaHd2Yl9aUW5oWEh4VE5qUFhDYnpnQnBTSXZJZ3pacUI1bTFQVFkxSVJrR09Id3hjS2VYOVZGNWgxbGM1NW5XWWJpcHVFNmgxMFJZLTVlbTVlSmpIc0VZMUkwb1pZbkV4QTc2UkxNSzktUHY4aGhBY2p3ckhn?oc=5",
-              "pubDate": "2026-03-16T20:54:48.000Z",
+              "title": "Cong flags call by US govt body for sanctions against RSS, RAW",
+              "source": "National Herald",
+              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSjhDMnI2aVY0WEl0OXVGMm9wajkydHpwWHNYNkJjemZWeFFwbUNtS3pESGNCbERsWHlJdHJLWUlFR2NkcDI3c0UtRTNVOEhKMERTX2ZZLU5MeUFVZDdvTml4SllqeUVIZXlLUGRMa1ZRNTRVUmZOZ0JVcFpUdTJ1blVMSnFmTDh2US1hbnhPREtvVmhxTTF2R2VFa0M5VnpLb1dlR0N4SWxsT1U1Nmt4TVFrX2pUYnN3R05WbHlXVkF3Z9IBzwFBVV95cUxPdEppLWJ1WTROeDlSdmZWZjlFMWtfMGtRZ056V0NqT3lWcjFZNUpWclp2T29HM0xWcXJZbnQwODZubnZ6UnNKa21XcmNXX0dKVGFsWWdpUW9ucXd1ZG9LaFBMTW1FcDVzMnZjZWtfTWc1REZTMGQzaGszMUdHOTY0U0kxZnVEeGxlQkx2UEs2ZFlTS0czeE5FaUozcmJDaWotS29PdDNtamgyZkZYQTV2SnRWZFkwdExUczdkeHp2em05d2E3Tno5T2ducldWT28?oc=5",
+              "pubDate": "2026-03-16T13:11:28.000Z",
               "tier": 2
             }
           ],
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "musks-grok-chatbot-made-sexual-images-of-minors-teens-allege-in-lawsuit"
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "cong-flags-call-by-us-govt-body-for-sanctions-against-rss-raw"
         },
         {
           "representativeTitle": "Oil Shocks, Political Upheaval and the One Solution Governments Keep Ignoring",
