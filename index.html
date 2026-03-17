@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A real-time visual map of global news sentiment and trends, powered by AI." />
+
+  <!-- Open Graph / LinkedIn / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="NewsBlocks" />
+  <meta property="og:url" content="https://newsblocks.org/" />
+  <meta property="og:title" content="NewsBlocks | Visual News Sentiment" />
+  <meta property="og:description"
+    content="Explore global news through an interactive treemap. AI-clustered headlines and sentiment analysis updated hourly." />
+  <meta property="og:image" content="https://newsblocks.org/og-image.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://newsblocks.org/" />
+  <meta property="twitter:title" content="NewsBlocks | Visual News Sentiment" />
+  <meta property="twitter:description"
+    content="Explore global news through an interactive treemap. AI-clustered headlines and sentiment analysis updated hourly." />
+  <meta property="twitter:image" content="https://newsblocks.org/og-image.png" />
+
+  <!-- Author/Publisher -->
+  <meta name="author" content="Abhishek Prasad" />
+
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' ws: localhost:* https://*.google.com;" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Roboto+Slab:wght@700;900&display=swap"
+    rel="stylesheet">
+  <link rel="canonical" href="https://newsblocks.org/" />
+
+  <!-- Structured Data: WebSite Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "NewsBlocks",
+    "url": "https://newsblocks.org/",
+    "description": "Real-time visual news sentiment and story clustering powered by AI."
+  }
+  </script>
+  <title>NewsBlocks | Visual News Sentiment</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

@@ -1,0 +1,2320 @@
+{
+  "feeds": {
+    "https://www.theguardian.com/politics/rss": {
+      "timestamp": "2026-03-17T03:06:11.706Z",
+      "items": [
+        {
+          "title": "EU calls for urgent reboot in talks with UK to stop reset deal failing",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/2026/mar/16/eu-urgent-reboot-uk-talks-stop-reset-deal-failing",
+          "pubDate": "2026-03-16T19:40:07.000Z"
+        },
+        {
+          "title": "Starmer distances UK from Iran war as EU leaders rule out sending warships",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/2026/mar/16/starmer-distances-uk-from-iran-war-as-eu-leaders-rule-out-sending-warships",
+          "pubDate": "2026-03-16T19:29:20.000Z"
+        },
+        {
+          "title": "Trump says he is ‘not happy’ with UK as he criticises Starmer for being overly reliant on advisers – as it happened",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/politics/live/2026/mar/16/keir-starmer-donald-trump-iran-nato-oil-cost-of-living-latest-news-updates",
+          "pubDate": "2026-03-16T18:19:29.000Z"
+        },
+        {
+          "title": "Labour MPs have no reason to oppose new welfare reforms, says minister",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/politics/2026/mar/16/labour-mps-no-reason-oppose-new-welfare-reforms-pat-mcfadden",
+          "pubDate": "2026-03-16T15:30:22.000Z"
+        },
+        {
+          "title": "Can Starmer avoid being drawn into the US-Iran war? – podcast",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/politics/audio/2026/mar/16/keir-starmer-cost-of-living-crisis-us-iran-war-podcast",
+          "pubDate": "2026-03-16T14:45:29.000Z"
+        },
+        {
+          "title": "UK will not be drawn into wider war in Middle East, says Keir Starmer",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/2026/mar/16/uk-will-not-be-drawn-into-wider-war-in-middle-east-says-keir-starmer",
+          "pubDate": "2026-03-16T14:15:30.000Z"
+        },
+        {
+          "title": "One day Keir Starmer might say what he really thinks of Trump. But not today | John Crace",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/politics/2026/mar/16/starmer-speech-on-iran-leaves-reform-uk-and-the-tories-playing-catch-up",
+          "pubDate": "2026-03-16T18:19:32.000Z"
+        },
+        {
+          "title": "Trump’s war is bringing economic calamity to the UK – and another shock to our politics | Gaby Hinsliff",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/commentisfree/2026/mar/16/iran-war-fuel-prices-economic-calamity-uk-politics",
+          "pubDate": "2026-03-16T18:08:19.000Z"
+        },
+        {
+          "title": "What's worth more: Churchill or a woke badger? Welcome to Britain's banknote culture war | Jonn Elledge",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/commentisfree/2026/mar/16/britain-banknote-winston-churchill-badger-wildlife",
+          "pubDate": "2026-03-16T10:00:15.000Z"
+        }
+      ]
+    },
+    "http://feeds.bbci.co.uk/news/politics/rss.xml": {
+      "timestamp": "2026-03-17T03:06:12.129Z",
+      "items": [
+        {
+          "title": "Trump 'not happy' with UK response to Iran conflict",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/cp816jwg411o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-17T01:34:35.000Z"
+        },
+        {
+          "title": "Chris Mason: Why Starmer thinks he's called it right on war despite Trump barbs",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/cn9e0zr5qy2o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-17T01:56:53.000Z"
+        },
+        {
+          "title": "Wary allies show there's no quick fix to Trump's Iran crisis",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/c8r17plnvy3o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T17:34:13.000Z"
+        },
+        {
+          "title": "Reeves vows to stop UK tech from 'drifting abroad'",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/c0k16zdr1r1o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-17T00:01:07.000Z"
+        },
+        {
+          "title": "Starmer announces £53m support to help with heating oil costs",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/cp9mgpzn901o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T21:25:52.000Z"
+        },
+        {
+          "title": "Companies offered £3,000 to hire jobless under-24s",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/cz9qdpzqnl2o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T13:02:46.000Z"
+        },
+        {
+          "title": "Scotland's assisted dying debate reaches final stages on eve of vote",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/cp854zygjjdo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T06:18:49.000Z"
+        },
+        {
+          "title": "Starmer warned over assisted dying bill by more than 100 Labour MPs",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/cy8lzn05w46o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T18:00:03.000Z"
+        },
+        {
+          "title": "Labour calls for tax investigation into Reform's Tice",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/clyz0ep9g8lo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T16:03:34.000Z"
+        },
+        {
+          "title": "Chris Mason: Why Starmer thinks he's called it right on war despite Trump barbs",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/cn9e0zr5qy2o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-17T01:56:53.000Z"
+        }
+      ]
+    },
+    "https://news.google.com/rss/search?q=US+Politics+government+when:1d&hl=en-US&gl=US&ceid=US:en": {
+      "timestamp": "2026-03-17T03:06:18.067Z",
+      "items": [
+        {
+          "title": "Warner files for reelection, launching bid for fourth U.S. Senate term",
+          "source": "Rappahannock News",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQVWIweEtYeG9yLTJpMVczOUQ0eUU5VFMzWWY3eDRFMExDeHZjSTJ6TnpkcU02b3lhZ1VrTXFJVVFyV1BvUHZwZnNnelBESUUtX1pjYnY3TnJ6ZnoycnFBdEJOOVNzeDB1X251WmFMYU9Hd3VJRlVGTFQ4VDhacTVPdEpYY1FIZDd0Qm93RUp1Z2d3SEJCaFNWN2pqUXYxUHBER3JXTlIyd1ZYS2M1WlF0V3ZRcnhLZ3BXSThtTUlKd2MwOEpHY1lGM2ZOUjVGVXJ1RXdfaF9HSl9kWGx6UFlNWXd3MmFrNHpocTdsLW93?oc=5",
+          "pubDate": "2026-03-17T02:47:57.000Z"
+        },
+        {
+          "title": "Judge blocks US government from slimming down vaccine recommendations",
+          "source": "The Journal Gazette",
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQRGJYbnlrZGo1MXduWG1QQ290SkZNdmFYNFd3UWFRNEZkc0gxLXEyTE13VXRUNHRJcVJXXzBib0FMS2xKZDFBQ29CX21lUzRjYzhqRkJTVnRLVXlmLXE2SlBGTzdQOGttMFYtTnpfS1VERm9WanlIWjktRUl0ZkNQamdBRFZGNjhTbWwzNlNtcUU3VTdYRXRQaERlTTJWd0owWThPSno4azNsYnR6RWl5b05xeVMyRnU1ajVFWjdOT1pueUVhOEE1ZnVrNTBYYXcySWVkSWtzWG9sU0Z6eHM5TW5NNzZjZW52dWJkVzJsTkJRc0JXeUxMRGV6WGRESW9QSmE0?oc=5",
+          "pubDate": "2026-03-16T23:00:00.000Z"
+        },
+        {
+          "title": "Trump Officials Look to More Managed Approach to Trade With China",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa1hBRnBWcWRzdWpiNUNfVFgxMEpUWEQycXBwVk1mN3V1bU50ZVBQQWFneFlrNU5KUUdqdWdUSnhaWGxzSzBSUGcxMlJxaERYLVp4UGtJRjBPeFU1MVdWYVNSRVBXcmk1R0l1MUFvaDN0a0hSaEN2Z2tBVVB4SVlkWlVRNEl2cnBSSUtWemMwVVZ4MFlpSWVJ?oc=5",
+          "pubDate": "2026-03-16T21:03:07.000Z"
+        },
+        {
+          "title": "As Florida leads on free-market policies, new poll shows voters want federal regulators to follow suit",
+          "source": "Florida Politics",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd1pQVThGRGxVbjlWR21kQzZ3WWl0dThMZXNJR0h2bFFCSXBSbVNtdHZqUV9vSUdONmZuYUtTZ2o5ZFhKaUdKMXlRUmx4NmpLekxHM2g4a3puWHF3OFRiZDFlVXM3SG5ISlBsejZ5aUVrZmxHTUhJY3lSWXBMazJka1JSb1p0TndiQkRjc1J5d2FERjA3WG1qZjlFbXEzMVFEX0lxR2syc2MxNXJ0elc2WmtQWjg3eDFXeVBkSG13aEFuemZ3aTNwNVNUdnpHU2JEZXk0RmFveDhuaGRSMUhV?oc=5",
+          "pubDate": "2026-03-16T13:13:56.000Z"
+        },
+        {
+          "title": "Judge blocks US government from slimming down vaccine recommendations",
+          "source": "WJBF",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ3JTcEI2UTJ6VUcyUXVUWWpmMW92Z19hclotZkRiS21pQlJqMjEtaUM0dVR4bUloVVhfREwtd3pobE5vVXNsTWlJelJYZVVuU2diSG9aTm9HZENPbkRRLW5ja1JwWWJERWhQVUNPbDdoa1VpaGZSSnBVV2NyTXJSVDZob1N2QUZkclhvVjJZWTFKUEF6U21UWV9SX2ZzaEFsOU0yRlFOM1c1dUpILTRGdExuOVp4amo5M1lBbHZ30gHDAUFVX3lxTFBLNzJRbFV4XzNueWxYTDNpNDRQY1pKVzZuTndvQ096dE1wNmwzTDQ3Tk5Ca1VoUi16QnptSDlrN1RmZU9UMmMyRUY1ajhiNEFuNmRjQXhJRWx5RGRvZmlGOXVuVng4S0tYZVNZcTIxVWlWOU1WaE5hR2ZoWjVXWEgxaWxSdkRKQVVjZzJfdmN2d2NfdGlOOVhHamd1SE1rYjQ3Nm5XdzVrbkZTTTZIOWJINFFXM3cycWZWdmNrM1BnaUpfZw?oc=5",
+          "pubDate": "2026-03-16T20:39:54.000Z"
+        },
+        {
+          "title": "Cuban leaders signal concessions to appease Trump, but also ensure political survival",
+          "source": "Los Angeles Times",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZVdNTTREbS1sdFFRNnlGMVlQa0wzVE9NYnJSN0duVFZSZXdnMjZ6YU84U3JRaHJxa0NSMzU3dmI0VUEwRnVFTnhxcmlEOU0zbFBNV240dmhVaWJMYnF6bHpJMmRRV1FLWjV6cHZPcFlNanQwUGVfY2NVMVNOX3NIcnBQVEpvTjdVcm5sUDN0SDJPaHlmdFZGMkl0S0tTcDNmem9aOUV5MUNoSzE2WDZFcU85eDgxQnhCMHRlcFJ1QWpFcGFzNEhqRFpXblp4REI2T1FrcQ?oc=5",
+          "pubDate": "2026-03-16T10:00:00.000Z"
+        },
+        {
+          "title": "US economic growth slowed sharply to 0.7% in fourth quarter",
+          "source": "Scripps News",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRG9ZNEszRVNkd0hUUjllM0czSk9aLWROeURkdDJ4SGpicXFQLTlfNG9KZXIxekJqU3o5TjgtOUlZMDRxSEFXZWEzTGpYTDFOMXVPdndpZi1tbEVKMThIOXRBVmxObGhEcjFNMGprTWdscDlCTm1TUFNOSDRfZm52VFRSZ09VNkhCWXhha1g0Tk5nZEp3cC02a0JZaklnU1JRaldjOVhR?oc=5",
+          "pubDate": "2026-03-16T15:11:07.000Z"
+        },
+        {
+          "title": "Can Starmer avoid being drawn into the US-Iran war? – podcast",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX0pORllENWpUYVA2ZWxOSWJQc2RQcDVGNE5ZS2NKX3lrYUl3c3Q0N0pzSDE1U0s5RmIzdlFDMmtVTE05RWJ2eVZTcHpxNnotYUhHbzUyUlk2VVQ5ZkpXaHo3N2gtczlFTmlZYU9CSUdjdjlsTHgwUFptREZsMDVRQXhoMHM0MDFrajBPend2RnVCa0x5NEpyV3Q2dkttd1R5RUVhenh0NWpkd3dRa2c?oc=5",
+          "pubDate": "2026-03-16T15:07:00.000Z"
+        },
+        {
+          "title": "Judge blocks US government from slimming down vaccine recommendations",
+          "source": "FOX40",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdFJhbEhhU09lcEZSQi1ZLXJYakRxRGFCVEIyNFVsNnJTT0ctVU9kUUdLQ2I2OF9feEdqQmdQQ3RCamxCY05BNkhzWUdTYjFFdWY2Y2dkMUZ3Tjd1eU84cFJSSGNZckh6Yml5SkdrOG5pYVlJZ3Z4UU5BekhiQTY0U1d0bldyRDRPVmRkaVlNWk8xMEl3eHozR1Z6NmtTZEJMWGU0UVh0M18xbzJ5UENfNFY3THNTNTNFQzc4cHZUY09ubkV1bmdkONIBzgFBVV95cUxQMFQ3d0JPMWZmMVgyQ293Y0NsQ09xckMtZno1dWdBZm5icFNJc3dIOXBYQU9kTl9jVjlQTnBhc2g2X1NxZGpyYnVUU3pHYzdmejAzWjVWVnZXc3hIYXJDa091MzE4UXFETVYwa3A0QmFCeG9aUF85ZHV3Z3lZZ0lIdURudkxoS0dxYkEtVXFaR0xacUw4azFvMjlqMFRHbWNkenozTFc0MkZqQXZVY2Y5dG5Kblh1V2hHY0hZVTlTRVpadDM3XzQ3OGs3Ql9KZw?oc=5",
+          "pubDate": "2026-03-16T20:50:56.000Z"
+        },
+        {
+          "title": "Some Team USA athletes speak out about politics at home",
+          "source": "AOL.com",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUWdXeFNIdEJjMGNDUjFTWFgxV1JxSy01MWdtb1cxLWt6TDJ0eHR6NEpabXl0elI1LW1XdmxSZ1ZhbGlHRmtMcnhzYkU2VUxXMk9ITlVsZUVjbVhxWkdJMURIMXV1UkVkQmxEcmx6UHZ2bUV3RGIyZWNDQnQtdGVXZmF3?oc=5",
+          "pubDate": "2026-03-16T13:12:48.000Z"
+        },
+        {
+          "title": "In Illinois, Krishnamoorthi’s Indian American Heritage Shapes Bid",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSWUtakY3N1dmNzVCSC1oSGRLRUZlLUR4cTBVYm5YU0VUZEFqc2o5NjZEZG5XLW5OOVVxY25PandveXNyTXo4d3lXRUtyd3VSVUFIZ0xuT2ttUmswRmo1bkt5aEladlFjQUxxbk9XN0JQZjE5cnV2WEhWX09CYjVSdmVXR2dCWm54eXhJWGs1ck82OWdCXzJxd2VzenlaYjVQc292Ug?oc=5",
+          "pubDate": "2026-03-16T09:02:06.000Z"
+        },
+        {
+          "title": "Iran war 'nothing to do with NATO', says German government",
+          "source": "Euractiv",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS0o4VFByVndDbFIxYTZUOTZpWFlJWDY3cmo5ckhHMHprR1pjWTc3ekJaUGw1VXVSRmNoc1JZTjBjV3RhQi03WWlUdXNSeERfMUl4aG9ZOVNaQVMwU0l4SV9ucW4xNHp2UjROdDk2aVdBQ19aeFdjRTF0QkdnVTFoN2dpZ2lGbVM5d2ZEMVVyYw?oc=5",
+          "pubDate": "2026-03-16T12:12:19.000Z"
+        },
+        {
+          "title": "Say goodbye to TSA officers after hundreds quit during government shutdown",
+          "source": "the-sun.com",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUkhPVVpSUlFvZUpLcFhGb0hYejFEUE1PbzJRdzV4QzZ0ZzBfOVlzakpVQk9LZmp0dVFrcXdfWk94U1pjVFBxODhxVm9SN05QTTJoTTlCZ0lRN1FHd3NRdjJhNEVZYXBZRlQyUDZnc1kxdnJ3cE9PWmlad1hOaHd6OTFZbXhQOEVEeDV2QnFn?oc=5",
+          "pubDate": "2026-03-16T12:06:09.000Z"
+        },
+        {
+          "title": "Airline executives urge Congress to end partial government shutdown",
+          "source": "MSN",
+          "link": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxNT1ZtbElCZlYwNGlKRmc5UnBfd0k5ZERrN0I1TFl4WGNLWUh3SlpOSzhpaElfZFQ2V1dPcnJGcUVIZHBmbC1Ea0MyN1lmdW1sUFpRTmNBeFVlWEs2Sm5JcFVycTlWT29uSkVSdTFZUDFEY0JTbnpGNnZ2YlNzQ0VkdndRTC14SFhSWEpqMHZudVJrY3ZHMTNfelZoT0hFUXNiQ1VyM3d1VjBjTXZTSWpGVUpqbzRHakNVS1ZxU1paSG05eHVYUGRsNTFOTFFhcDNrSVppLTM1eGJLaUVPWXJjNWRMM0tnQnp6Z0xWb1kyVjIxcUhQWVBZUlNoWWtxamZmSnlqRGVvWVVvVHhfRTIzTFd3ZUg1ZDJGZl9meVdaMWNXbGZiLTd4Q3lWR3RkWVUzcUVzczlpd2FWWWF3NHY5R1N3QkdBU3FhZWhlZ1FfZVFUVFp4OWlsaVFYWnNpUndXU1duV21uOUQyNTlNTnd3?oc=5",
+          "pubDate": "2026-03-16T08:56:07.000Z"
+        },
+        {
+          "title": "Cong flags call by US govt body for sanctions against RSS, RAW",
+          "source": "National Herald",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSjhDMnI2aVY0WEl0OXVGMm9wajkydHpwWHNYNkJjemZWeFFwbUNtS3pESGNCbERsWHlJdHJLWUlFR2NkcDI3c0UtRTNVOEhKMERTX2ZZLU5MeUFVZDdvTml4SllqeUVIZXlLUGRMa1ZRNTRVUmZOZ0JVcFpUdTJ1blVMSnFmTDh2US1hbnhPREtvVmhxTTF2R2VFa0M5VnpLb1dlR0N4SWxsT1U1Nmt4TVFrX2pUYnN3R05WbHlXVkF3Z9IBzwFBVV95cUxPdEppLWJ1WTROeDlSdmZWZjlFMWtfMGtRZ056V0NqT3lWcjFZNUpWclp2T29HM0xWcXJZbnQwODZubnZ6UnNKa21XcmNXX0dKVGFsWWdpUW9ucXd1ZG9LaFBMTW1FcDVzMnZjZWtfTWc1REZTMGQzaGszMUdHOTY0U0kxZnVEeGxlQkx2UEs2ZFlTS0czeE5FaUozcmJDaWotS29PdDNtamgyZkZYQTV2SnRWZFkwdExUczdkeHp2em05d2E3Tno5T2ducldWT28?oc=5",
+          "pubDate": "2026-03-16T13:11:28.000Z"
+        },
+        {
+          "title": "Children’s well-being caught in the political crossfire in Minneapolis",
+          "source": "Brookings",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUE1tS1d6ZHByTUh5MGdxX1JwRmVJYUI4M1RRaW9SajJMNDNKb0JEQ1J5MWpxU2hiZVpUVWNzYjZFUldEUU94U1JZWE1yWUFfNzhJWkZpNEhJbmNZUDNtbk5HOHVUVy02YnZqdXY5S2p4anR2TTJ2dkVtbC1uVzJpb3JvMHZUODliT19OLTI1UjdmdVhDZWlVdlp2WmFCQ3lpaGt5Sml3VW8?oc=5",
+          "pubDate": "2026-03-16T15:28:08.000Z"
+        },
+        {
+          "title": "WADA is weighing a rule to bar Trump and US officials from major events. Can it really do that?",
+          "source": "The Washington Post",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcUdKeTdYc2k4X0NYSEgySVdOWFYwdXRJdXo3SFRMSElzczRDUnVjN0E2UmhucXExSUR5WWVqRHpuNFA0aVQxNEM4UU81RW9zYlladVhLRGtXdzJOZ2xOWjMzTDZRNEJiaVpiMXdEd2llaVVtcDVWaTV2QUx0VWQ5MFlvam1hUVduMTIzaTV5OWRpcklqeVozOVpqYzdmcE8wRUVNOVZVcjlDMlFrZjZRdk5Ub2hMR0FlaXRwcTd5UzdYV2tjekZZ?oc=5",
+          "pubDate": "2026-03-17T00:25:09.000Z"
+        },
+        {
+          "title": "Trump Administration Seeks to Remove Cuba’s President From Power During Negotiations",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWEk5VHVqX2g3TlFWRXRid05MVkpTTDBJeFF6MFVmU1FiQ09RcjRrR3dSQzBzSUVYZ3FsYTlPR1dTYllKWUZMWnUxT2dOZy12cVlzWWdPd1BkU3BYWlFjNndpSy1RbXByUTJWOFhad05LWVI2WE5LaFM4RW5xMFE0SzMyQ1c4aDRxQk5STDFDNA?oc=5",
+          "pubDate": "2026-03-17T01:54:40.000Z"
+        },
+        {
+          "title": "Congress still searching for DHS compromise as government shutdown nears the month mark",
+          "source": "Scripps News",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbloyTnFtMlBYaW5NU2c3MmxOV2NxVlp2eVNKY1hIcDBIbkp0X2VpS0RIeGJnZktyMkVxTnV6TlU1VEpuMzFmRk5xYmF1YXUzLXFkNldhVmlYN3V1Z1cwbUYxVzVvbDBIZGNFVmZNY3dTVkRjZUVlOXNuREVyZVE5Q2ZTOWRXYWZyQWtyRHZIWDMzMnhGWTVMdWNJVXN3alQ5WVhHMmZqMl85a1V6VTkwb2lzX3ZtbWhwc1Z6N1JaSWVuVGVzQTNNNXZyRm0xQQ?oc=5",
+          "pubDate": "2026-03-16T17:05:47.000Z"
+        },
+        {
+          "title": "Airport Security Lines Grow as TSA Goes Unpaid in Partial Shutdown",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByRHZmN2N1OHV2alA5TFh1Njg2VUFSRWxvQ1h3UzNNX3U2TWhRNFZlQmtPUWJIVVJsNVhIakV2blNjY2EyNVFpc0pscEsydnBDOFhnRGpIamVJVU9Vb2FoNG00cXJPY3IzRHEyR1lOeVZZbmNDVkpaZjI4V0hGVDA?oc=5",
+          "pubDate": "2026-03-17T01:37:58.000Z"
+        },
+        {
+          "title": "Trump’s war is bringing economic calamity to the UK – and another shock to our politics | Gaby Hinsliff",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOckVGQW1fdzI4Z2g0ZUhpNUx1aTJpTHRqcFJBWnJvNVhxclE3WXpMMllFaVZSeWNhd19XekVGSmxXRFVqNHNhN19tVm9ySE13WHA5M1VLRTAzZzNua3hoX0hXaDhwdXZ3T0hqZHdHVHBDYVF4ZnhjcHJzeXBtSUpmQVF1VmV5NjRzMTJTR2dPNlhUZTFUVnVjV3NuSElvNnVyWk1vN1ltUQ?oc=5",
+          "pubDate": "2026-03-16T18:43:00.000Z"
+        },
+        {
+          "title": "Musk’s Grok Chatbot Made Sexual Images of Minors, Teens Allege in Lawsuit",
+          "source": "Rolling Stone",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOVMwWGg1M1F5ZXVPU284VGlfRDhqWVlVVEN6T3JLbzRraV85ZU8xbWVzaHd2Yl9aUW5oWEh4VE5qUFhDYnpnQnBTSXZJZ3pacUI1bTFQVFkxSVJrR09Id3hjS2VYOVZGNWgxbGM1NW5XWWJpcHVFNmgxMFJZLTVlbTVlSmpIc0VZMUkwb1pZbkV4QTc2UkxNSzktUHY4aGhBY2p3ckhn?oc=5",
+          "pubDate": "2026-03-16T20:54:48.000Z"
+        },
+        {
+          "title": "School politics class: Government overcomes backbench rebellion to pass jury plan",
+          "source": "Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xNnYydDhVR3BWZmIzMmJOLTlJaWQ5M3RKMk9oRW8yTEtmZmJHeDhDVmttQzRUS3RPMmFHMzdGWHNPdXJJS19LVjBxSERycTY3QjRjX08ySmo0UEx2bGVRYWdfTllOSWkxd1B6bGs1S2g?oc=5",
+          "pubDate": "2026-03-16T03:56:01.000Z"
+        },
+        {
+          "title": "Political contributor Chris Uhlmann thinks Australian politicians have “worked” themselves into the position Australia is in now in relation to a fuel shortage.",
+          "source": "facebook.com",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZVMwTFA3b2FkU0h2MUtsbkQ3RWdqSnJYVUxuZHdUSnBURmlNRWotVW0zU29tVDd0NWtoa1Rid1JxdVUwc0JXMlc0Q3FEcUxiQUdBMjBiWVFyLVVFZjVGOW9uQ09Vc1dSSEhxYjAteXlvTU5nVW5tcVRmOGRiUW9fenNrSDRtYloyZXB0aUhETkZIZFljdXA3blRhX1RSbnY4UmFWT0JCYUJRZHVULVI1ODJrOUNwaWdVNDBkRVZMeEtla3NpOTJ1TlpLZk5GMnpqejYzSDVJM2N2WlRJTzBv?oc=5",
+          "pubDate": "2026-03-16T14:22:14.000Z"
+        },
+        {
+          "title": "It's Your Call for March 16",
+          "source": "News-Press NOW",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNelF4UnhaeXU4MURXeXc5RkFZZnBaM2JPRUdmbGExMEVDU3F1SFNqLUVKOXoxaHRIM1JTZmt4RGRzSkduVVVMSW0wVDhxNGxWWS02UW5TSUdudEJBd3BGM2h1bDhpVkM4XzR3V0hFa3pJUHFiQkdvTXktM3libUkwdDNMTk1LY1B0bDEyV3JDZUFUUnZSa0p4TWNpV3pRSU9tdGVYWVcyS1RPMUctTWNoZ2g0a2NXb1UwLUlPVGFSZ0tuQjJDbHc?oc=5",
+          "pubDate": "2026-03-16T05:00:00.000Z"
+        }
+      ]
+    },
+    "https://www.cnbc.com/id/10000664/device/rss/rss.html": {
+      "timestamp": "2026-03-17T03:06:18.294Z",
+      "items": [
+        {
+          "title": "Apollo's John Zito questions private equity's software valuations: 'All the marks are wrong'",
+          "source": "CNBC Markets",
+          "link": "https://www.cnbc.com/2026/03/16/apollo-john-zito-private-equity-software-valuations.html",
+          "pubDate": "2026-03-16T17:17:36.000Z"
+        },
+        {
+          "title": "China talks up oil sufficiency as Trump seeks Beijing's help on securing Hormuz energy route",
+          "source": "CNBC Markets",
+          "link": "https://www.cnbc.com/2026/03/16/china-oil-reserves-trump-iran-war-hormuz.html",
+          "pubDate": "2026-03-16T13:56:51.000Z"
+        },
+        {
+          "title": "Holiday spending, export demand drive China’s economic momentum as Iran war headwinds loom",
+          "source": "CNBC Markets",
+          "link": "https://www.cnbc.com/2026/03/16/china-data-today-retail-sales-property-industrial-production.html",
+          "pubDate": "2026-03-16T06:11:06.000Z"
+        }
+      ]
+    },
+    "https://finance.yahoo.com/news/rssindex": {
+      "timestamp": "2026-03-17T03:06:18.509Z",
+      "items": [
+        {
+          "title": "Analyst Report: Illinois Tool Works Inc",
+          "source": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/research/reports/ARGUS_3094_AnalystReport_1773681533000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+          "pubDate": "2026-03-16T17:18:53.000Z"
+        },
+        {
+          "title": "Analyst Report: Best Buy Co Inc",
+          "source": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/research/reports/ARGUS_2762_AnalystReport_1773681533000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+          "pubDate": "2026-03-16T17:18:53.000Z"
+        },
+        {
+          "title": "Market Update: BBY, ITW, SHW",
+          "source": "Yahoo Finance",
+          "link": "https://finance.yahoo.com/research/reports/ARGUS_46441_MarketUpdate_1773680633000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+          "pubDate": "2026-03-16T17:03:53.000Z"
+        }
+      ]
+    },
+    "http://feeds.marketwatch.com/marketwatch/topstories/": {
+      "timestamp": "2026-03-17T03:06:18.907Z",
+      "items": [
+        {
+          "title": "This biotech is working on a GLP-1 pill that could be better than the Wegovy version",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/story/this-biotech-is-working-on-an-glp-1-drug-that-could-be-better-than-the-wegovy-pill-94c8572c?mod=mw_rss_topstories",
+          "pubDate": "2026-03-17T00:31:00.000Z"
+        },
+        {
+          "title": "Moody’s says a recession will be hard to avoid if oil prices stay elevated for even a few more weeks",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/story/moodys-says-a-recession-will-be-hard-to-avoid-if-oil-prices-stay-elevated-for-even-a-few-more-weeks-cd53a198?mod=mw_rss_topstories",
+          "pubDate": "2026-03-16T22:01:00.000Z"
+        },
+        {
+          "title": "U.S. stocks have been surprisingly resilient as the Iran conflict threatens global economic disruption. Thank industry analysts?",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/story/u-s-stocks-have-been-surprisingly-resilient-as-the-iran-conflict-threatens-global-economic-disruption-thank-industry-analysts-fba3b2ca?mod=mw_rss_topstories",
+          "pubDate": "2026-03-16T21:28:00.000Z"
+        },
+        {
+          "title": "‘Healthcare is important to me’: I’m worried about relocating to Florida from New Jersey. Are hospitals there under stress?",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/story/healthcare-is-important-to-me-im-worried-about-relocating-to-florida-from-new-jersey-are-hospitals-there-under-stress-5c270b07?mod=mw_rss_topstories",
+          "pubDate": "2026-03-16T20:58:00.000Z"
+        },
+        {
+          "title": "Upstart’s stock rises as analyst says investors have been ignoring a key catalyst",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/story/upstarts-stock-rises-as-analyst-says-investors-have-been-ignoring-a-key-catalyst-81fbde00?mod=mw_rss_topstories",
+          "pubDate": "2026-03-16T20:57:00.000Z"
+        },
+        {
+          "title": "Warren Buffett’s parting gift to Berkshire Hathaway: A $2 billion Iran oil windfall",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/story/warren-buffetts-parting-gift-to-berkshire-hathaway-a-2-billion-iran-oil-windfall-4daf28ba?mod=mw_rss_topstories",
+          "pubDate": "2026-03-16T20:52:00.000Z"
+        },
+        {
+          "title": "‘I’m so screwed’: How can I afford to care for a mom with dementia and send my teen to college?",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/story/im-so-screwed-how-can-i-afford-to-care-for-a-mom-with-dementia-and-send-my-teen-to-college-9d127f90?mod=mw_rss_topstories",
+          "pubDate": "2026-03-16T20:41:00.000Z"
+        },
+        {
+          "title": "Elon Musk’s xAI is facing a growing number of lawsuits over AI-generated deepfakes",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/story/elon-musks-xai-is-facing-a-growing-number-of-lawsuits-over-ai-generated-deepfakes-08fa166b?mod=mw_rss_topstories",
+          "pubDate": "2026-03-16T20:39:00.000Z"
+        },
+        {
+          "title": "Dollar is benefiting from Iran conflict as investors worry about inflation",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/story/the-u-s-dollar-and-crypto-are-both-benefiting-from-the-iran-crisis-in-an-unusual-move-85873834?mod=mw_rss_topstories",
+          "pubDate": "2026-03-16T20:36:00.000Z"
+        },
+        {
+          "title": "‘It’s complicated’: My husband, 61, wants to leave me everything. His kids will hate me. What should I do?",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/story/its-complicated-my-husband-61-wants-to-leave-me-everything-his-kids-will-hate-me-what-should-i-do-b1d06504?mod=mw_rss_topstories",
+          "pubDate": "2026-03-16T20:30:00.000Z"
+        }
+      ]
+    },
+    "https://www.cnbc.com/id/10001147/device/rss/rss.html": {
+      "timestamp": "2026-03-17T03:06:19.027Z",
+      "items": [
+        {
+          "title": "Nvidia adds Hyundai, BYD and other automakers to self-driving tech business",
+          "source": "CNBC Economy",
+          "link": "https://www.cnbc.com/2026/03/16/nvidia-hyundai-byd-nissan-self-driving-tech.html",
+          "pubDate": "2026-03-16T22:06:38.000Z"
+        },
+        {
+          "title": "Apollo's John Zito questions private equity's software valuations: 'All the marks are wrong'",
+          "source": "CNBC Economy",
+          "link": "https://www.cnbc.com/2026/03/16/apollo-john-zito-private-equity-software-valuations.html",
+          "pubDate": "2026-03-16T17:17:36.000Z"
+        },
+        {
+          "title": "Peloton is launching bikes and treadmills for gyms, accelerating commercial strategy",
+          "source": "CNBC Economy",
+          "link": "https://www.cnbc.com/2026/03/16/peloton-launches-bike-and-tread-for-gyms.html",
+          "pubDate": "2026-03-16T16:00:41.000Z"
+        },
+        {
+          "title": "NFL, Paramount discussing media deal that could mean CBS pays an extra $1 billion or more",
+          "source": "CNBC Economy",
+          "link": "https://www.cnbc.com/2026/03/13/nfl-media-deal-paramount.html",
+          "pubDate": "2026-03-16T17:35:09.000Z"
+        }
+      ]
+    },
+    "https://www.ft.com/?format=rss": {
+      "timestamp": "2026-03-17T03:06:19.569Z",
+      "items": [
+        {
+          "title": "Trump asks to postpone summit with China’s Xi due to Iran war",
+          "source": "Financial Times",
+          "link": "https://www.ft.com/content/be66297c-dd84-4dc8-914b-698e46261b0a",
+          "pubDate": "2026-03-16T22:07:51.000Z"
+        },
+        {
+          "title": "Trump says China, Japan and Korea should be ‘thanking’ US for strikes",
+          "source": "Financial Times",
+          "link": "https://www.ft.com/content/3b4fd03c-e416-4cbd-bf5c-adca908e6911",
+          "pubDate": "2026-03-17T00:01:55.000Z"
+        },
+        {
+          "title": "Donald Trump launches fresh attack on UK’s ‘terrible’ Iran war stance",
+          "source": "Financial Times",
+          "link": "https://www.ft.com/content/7b790f92-43eb-4471-a672-9949816ae21e",
+          "pubDate": "2026-03-16T18:08:17.000Z"
+        },
+        {
+          "title": "Iran earns oil windfall as US turns blind eye",
+          "source": "Financial Times",
+          "link": "https://www.ft.com/content/35e815ef-46f3-4169-a39d-cc6bafdfbc1c",
+          "pubDate": "2026-03-16T17:54:53.000Z"
+        },
+        {
+          "title": "Why Hormuz will haunt us long after this war ends",
+          "source": "Financial Times",
+          "link": "https://www.ft.com/content/175a9a69-4026-4680-9d9f-14ead972f5b1",
+          "pubDate": "2026-03-16T11:12:36.000Z"
+        },
+        {
+          "title": "US says 2 of its 3 Gulf-based minesweepers are in Malaysia",
+          "source": "Financial Times",
+          "link": "https://www.ft.com/content/e8c8e0f3-2561-4617-8957-70b5db08510e",
+          "pubDate": "2026-03-16T20:59:11.000Z"
+        },
+        {
+          "title": "Angela Rayner aims to reassure investors with City charm offensive",
+          "source": "Financial Times",
+          "link": "https://www.ft.com/content/a1ff7cdd-1ba9-422b-8890-8445d97796b3",
+          "pubDate": "2026-03-16T21:00:01.000Z"
+        },
+        {
+          "title": "Nvidia’s Huang predicts $1tn in AI chip revenue over 2 years",
+          "source": "Financial Times",
+          "link": "https://www.ft.com/content/205591d9-2785-4897-808c-739dc223b3d0",
+          "pubDate": "2026-03-17T01:58:52.000Z"
+        },
+        {
+          "title": "Donald Trump says he will have the ‘honour’ of ‘taking Cuba in some form’",
+          "source": "Financial Times",
+          "link": "https://www.ft.com/content/fc621071-0ecc-440d-beb0-aee688ca33da",
+          "pubDate": "2026-03-17T00:41:57.000Z"
+        },
+        {
+          "title": "Cuba hit by nationwide blackout as energy grid collapses",
+          "source": "Financial Times",
+          "link": "https://www.ft.com/content/ebc459c6-6cb5-46db-8fac-41b6a288977f",
+          "pubDate": "2026-03-16T23:01:30.000Z"
+        },
+        {
+          "title": "Mandelson received more than £1.5mn for stake in collapsed advisory firm",
+          "source": "Financial Times",
+          "link": "https://www.ft.com/content/87854fcd-3de0-4b81-8955-f50134e2b265",
+          "pubDate": "2026-03-16T17:10:58.000Z"
+        }
+      ]
+    },
+    "https://techcrunch.com/feed/": {
+      "timestamp": "2026-03-17T03:06:19.663Z",
+      "items": [
+        {
+          "title": "SEC eyes shift to twice-yearly earnings reports",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/sec-eyes-shift-to-twice-yearly-earnings-reports/",
+          "pubDate": "2026-03-17T00:27:10.000Z"
+        },
+        {
+          "title": "Nvidia’s version of OpenClaw could solve its biggest problem: security",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/",
+          "pubDate": "2026-03-16T22:45:51.000Z"
+        },
+        {
+          "title": "Jensen Huang just put Nvidia’s Blackwell and Vera Rubin sales projections into the $1 trillion stratosphere",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/jensen-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere/",
+          "pubDate": "2026-03-16T21:41:37.000Z"
+        },
+        {
+          "title": "Warren presses Pentagon over decision to grant xAI access to classified networks",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/warren-presses-pentagon-over-decision-to-grant-xai-access-to-classified-networks/",
+          "pubDate": "2026-03-16T20:58:36.000Z"
+        },
+        {
+          "title": "Memories AI is building the visual memory layer for wearables and robotics",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/memories-ai-is-building-the-visual-memory-layer-for-wearables-and-robotics/",
+          "pubDate": "2026-03-16T20:30:00.000Z"
+        },
+        {
+          "title": "Samsung bets this island startup can tame the grid with software and batteries",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/samsung-bets-this-island-startup-can-tame-the-grid-with-software-and-batteries/",
+          "pubDate": "2026-03-16T20:00:00.000Z"
+        },
+        {
+          "title": "Apple acquires video editing software company MotionVFX",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/apple-acquires-video-editing-software-company-motionvfx/",
+          "pubDate": "2026-03-16T19:23:44.000Z"
+        },
+        {
+          "title": "Elon Musk’s xAI faces child porn lawsuit from minors Grok allegedly undressed",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/elon-musks-xai-faces-child-porn-lawsuit-from-minors-grok-allegedly-undressed/",
+          "pubDate": "2026-03-16T19:18:44.000Z"
+        },
+        {
+          "title": "Nvidia’s DLSS 5 uses generative AI to boost photorealism in video games, with ambitions beyond gaming",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/nvidias-dlss-5-uses-generative-ai-to-boost-photo-realism-in-video-games-with-ambitions-beyond-gaming/",
+          "pubDate": "2026-03-16T19:12:19.000Z"
+        },
+        {
+          "title": "The MacBook Neo is ‘the most repairable MacBook’ in years, according to iFixit",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/macbook-neo-ifixit-most-repairable-macbook-in-years-battery-replacement/",
+          "pubDate": "2026-03-16T18:36:42.000Z"
+        },
+        {
+          "title": "How to watch Jensen Huang’s Nvidia GTC 2026 keynote — and what to expect",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/nvidia-gtc-how-to-watch-jensen-huang-2026-keynote/",
+          "pubDate": "2026-03-16T17:51:46.000Z"
+        },
+        {
+          "title": "Another deep tech chip startup becomes a unicorn: Frore hits $1.64B",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/another-deep-tech-chip-startup-becomes-a-unicorn-frore-hits-1-64b/",
+          "pubDate": "2026-03-16T17:47:32.000Z"
+        },
+        {
+          "title": "Fuse raises $25M  to disrupt aging loan origination systems used by US credit unions",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/fuse-raises-25m-to-disrupt-aging-loan-origination-systems-used-by-u-s-credit-unions/",
+          "pubDate": "2026-03-16T17:43:27.000Z"
+        },
+        {
+          "title": "The dictionary sues OpenAI",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/merriam-webster-openai-encyclopedia-brittanica-lawsuit/",
+          "pubDate": "2026-03-16T17:38:34.000Z"
+        },
+        {
+          "title": "Antonio Gracias says he’s longing for ‘proentropic’ startups — those that are built to survive chaos",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/antonio-gracias-says-hes-loomg-for-proentropic-startups-those-that-are-built-to-survive-chaos/",
+          "pubDate": "2026-03-16T15:57:02.000Z"
+        },
+        {
+          "title": "Shopify is preparing for AI shopping agents to change everything, exec says",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/shopify-is-preparing-for-ai-shopping-agents-to-change-everything-exec-says/",
+          "pubDate": "2026-03-16T15:56:39.000Z"
+        },
+        {
+          "title": "Apple quietly launches AirPods Max 2",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/apple-quietly-launches-airpods-max-2/",
+          "pubDate": "2026-03-16T14:12:50.000Z"
+        },
+        {
+          "title": "Walmart-backed PhonePe shelves IPO as global tensions rattle markets",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/walmart-backed-phonepe-shelves-ipo-as-global-tensions-rattle-markets/",
+          "pubDate": "2026-03-16T13:02:47.000Z"
+        },
+        {
+          "title": "The billionaires made a promise — now some want out",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/15/the-billionaires-made-a-promise-now-some-want-out/",
+          "pubDate": "2026-03-16T04:40:24.000Z"
+        }
+      ]
+    },
+    "https://www.theverge.com/rss/index.xml": {
+      "timestamp": "2026-03-17T03:06:19.765Z",
+      "items": [
+        {
+          "title": "The Live Nation trial restarts with a &#8216;velvet hammer&#8217;",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/policy/895778/live-nation-ticketmaster-states-trial-continues",
+          "pubDate": "2026-03-17T00:08:31.000Z"
+        },
+        {
+          "title": "DLSS 5 looks like a real-time generative AI filter for video games",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/news/895472/nvidia-dlss5-generative-ai-pc-graphics",
+          "pubDate": "2026-03-16T21:56:05.000Z"
+        },
+        {
+          "title": "Teens sue Elon Musk’s xAI over Grok’s AI-generated CSAM",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/895639/xai-grok-teens-lawsuit-grok-ai-elon-musk",
+          "pubDate": "2026-03-16T21:44:11.000Z"
+        },
+        {
+          "title": "Ecovacs’ Deebot X8 and X9 Pro Omni robovacs are nearly 50 percent off",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/gadgets/895458/ecovacs-deebot-x8-x9-pro-omni-robot-vacuum-amazon-big-spring-sale-deal-2026",
+          "pubDate": "2026-03-16T21:21:31.000Z"
+        },
+        {
+          "title": "Benjamin Netanyahu is struggling to prove he&#8217;s not an AI clone",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/895453/ai-deepfake-netanyahu-claims-conspiracy",
+          "pubDate": "2026-03-16T20:41:55.000Z"
+        },
+        {
+          "title": "Nvidia says China’s BYD and Geely will use its robotaxi platform",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/895301/nvidia-robotaxi-byd-geely-hyperion-lyft-halos",
+          "pubDate": "2026-03-16T20:30:00.000Z"
+        },
+        {
+          "title": "I met Olaf — the Frozen robot who might be the future of Disney Parks",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/895369/olaf-disney-imagineering-frozen-robot-up-close",
+          "pubDate": "2026-03-16T20:30:00.000Z"
+        },
+        {
+          "title": "Sony&#8217;s AI graphics upscaling for PS5 Pro games is getting a big update tonight",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/games/895396/playstation-pssr-upscaling-cyberpunk-2077-silent-hill",
+          "pubDate": "2026-03-16T18:07:30.000Z"
+        },
+        {
+          "title": "Encyclopedia Britannica is suing OpenAI for allegedly ‘memorizing’ its content with ChatGPT",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit",
+          "pubDate": "2026-03-16T17:04:06.000Z"
+        },
+        {
+          "title": "Amazon’s Fire TV Stick 4K Max and 4K Plus sticks are up to 50 percent off",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/gadgets/895340/fire-tv-stick-4k-max-plus-amazon-early-big-spring-sale-deal-sale",
+          "pubDate": "2026-03-16T17:00:00.000Z"
+        }
+      ]
+    },
+    "https://feeds.arstechnica.com/arstechnica/index": {
+      "timestamp": "2026-03-17T03:06:19.897Z",
+      "items": [
+        {
+          "title": "RFK Jr.’s anti-vaccine changes to CDC vaccine guidance blocked by judge",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/health/2026/03/judge-temporarily-blocks-rfk-jr-s-changes-to-cdc-vaccine-recommendations/",
+          "pubDate": "2026-03-16T22:20:39.000Z"
+        },
+        {
+          "title": "Elon Musk's xAI sued for turning three girls' real photos into AI CSAM",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/03/elon-musks-xai-sued-for-turning-three-girls-real-photos-into-ai-csam/",
+          "pubDate": "2026-03-16T21:51:16.000Z"
+        },
+        {
+          "title": "National Academies of Sciences says no to demands it remove climate info",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/science/2026/03/national-academies-of-sciences-resisting-pressure-to-pull-climate-info/",
+          "pubDate": "2026-03-16T20:33:41.000Z"
+        },
+        {
+          "title": "New \"vibe coded\" AI translation tool splits the video game preservation community",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/03/new-vibe-coded-ai-translation-tool-splits-the-video-game-preservation-community/",
+          "pubDate": "2026-03-16T20:06:56.000Z"
+        },
+        {
+          "title": "Trump and his FCC chair demand more positive news coverage of Iran war",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/03/trump-and-his-fcc-chair-demand-more-positive-news-coverage-of-iran-war/",
+          "pubDate": "2026-03-16T19:41:26.000Z"
+        },
+        {
+          "title": "OpenAI’s own mental health experts unanimously opposed “naughty” ChatGPT launch",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/03/chatgpt-may-soon-become-sexy-suicide-coach-openai-advisor-reportedly-warned/",
+          "pubDate": "2026-03-16T18:30:23.000Z"
+        },
+        {
+          "title": "Driving the $375,000 Porsche race car that debuted as a $12 DLC in iRacing",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/cars/2026/03/from-pixels-to-pavement-testing-the-new-porsche-911-cup-in-iracing-and-irl/",
+          "pubDate": "2026-03-16T18:00:13.000Z"
+        },
+        {
+          "title": "F1 in China: I've never seen so many people in those grandstands",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/cars/2026/03/f1-in-china-ive-never-seen-so-many-people-in-those-grandstands/",
+          "pubDate": "2026-03-16T17:11:42.000Z"
+        },
+        {
+          "title": "Apple’s AirPods Max 2 bring H2 chip, boosted ANC in April for $549",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/gadgets/2026/03/apples-airpods-max-2-release-with-h2-chip-boosted-anc-in-april-for-549/",
+          "pubDate": "2026-03-16T16:51:00.000Z"
+        },
+        {
+          "title": "100 years later, where is Robert Goddard's first liquid-fueled rocket?",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/space/2026/03/100-years-later-where-is-robert-goddards-first-liquid-fuel-rocket/",
+          "pubDate": "2026-03-16T16:38:45.000Z"
+        },
+        {
+          "title": "No accountability: Bills would ban liability lawsuits for climate change",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/03/emerging-legislation-would-shield-polluters-from-liability-for-climate-change/",
+          "pubDate": "2026-03-16T13:33:15.000Z"
+        },
+        {
+          "title": "The science of how fireflies stay in sync",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/science/2026/03/the-science-of-how-fireflies-stay-in-sync/",
+          "pubDate": "2026-03-16T12:25:31.000Z"
+        },
+        {
+          "title": "A century after the first rocket launch, Ars staffers pick their favorites",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/space/2026/03/a-century-after-the-first-rocket-launch-ars-staffers-pick-their-favorites/",
+          "pubDate": "2026-03-16T11:00:56.000Z"
+        }
+      ]
+    },
+    "https://www.technologyreview.com/feed/": {
+      "timestamp": "2026-03-17T03:06:19.997Z",
+      "items": [
+        {
+          "title": "Where OpenAI’s technology could show up in Iran",
+          "source": "MIT Tech Review",
+          "link": "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/",
+          "pubDate": "2026-03-16T17:06:21.000Z"
+        },
+        {
+          "title": "Nurturing agentic AI beyond the toddler stage",
+          "source": "MIT Tech Review",
+          "link": "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/",
+          "pubDate": "2026-03-16T13:00:00.000Z"
+        },
+        {
+          "title": "The Download: glass chips and “AI-free” logos",
+          "source": "MIT Tech Review",
+          "link": "https://www.technologyreview.com/2026/03/16/1134301/the-download-glass-ai-chips-ai-free-logo/",
+          "pubDate": "2026-03-16T12:35:00.000Z"
+        },
+        {
+          "title": "Securing digital assets against future threats",
+          "source": "MIT Tech Review",
+          "link": "https://www.technologyreview.com/2026/03/16/1134287/securing-digital-assets-against-future-threats/",
+          "pubDate": "2026-03-16T11:00:00.000Z"
+        }
+      ]
+    },
+    "http://feeds.bbci.co.uk/news/world/rss.xml": {
+      "timestamp": "2026-03-17T03:06:20.126Z",
+      "items": [
+        {
+          "title": "Wary allies show there's no quick fix to Trump's Iran crisis",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/articles/c8r17plnvy3o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T17:34:13.000Z"
+        },
+        {
+          "title": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/articles/cqj9kgxqjwjo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T06:10:55.000Z"
+        },
+        {
+          "title": "Iran hits key UAE oil port and Dubai airport",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/articles/crl4gxgkkylo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T12:43:32.000Z"
+        },
+        {
+          "title": "'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/articles/c70n2x7p22do?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T17:57:45.000Z"
+        },
+        {
+          "title": "UN receives reports alleging torture of detainees in Venezuela continues",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/articles/c0e5v9n1qqwo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T19:08:13.000Z"
+        },
+        {
+          "title": "Whistleblower murder suspect is former elite officer, South African police say",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/articles/czr05nz3dp8o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T12:36:51.000Z"
+        },
+        {
+          "title": "Russia agrees to stop using Kenyan recruits in Ukraine conflict, Kenya says",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/articles/cev7rdwmky9o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T14:09:58.000Z"
+        },
+        {
+          "title": "Ecuador deploys 75,000 soldiers and police to combat drug gangs",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/articles/cp32vy321r7o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T11:58:42.000Z"
+        },
+        {
+          "title": "French national jailed for 10 years in Azerbaijan for spying",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/articles/c2lr5j84gd1o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T11:47:16.000Z"
+        },
+        {
+          "title": "Ten killed in fire at India hospital intensive care unit",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/articles/c363gpe3exjo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T05:41:28.000Z"
+        },
+        {
+          "title": "Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/articles/clygdwqw5dvo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T04:43:43.000Z"
+        },
+        {
+          "title": "Far-left and far-right gains throw French mainstream parties into a quandary",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/articles/c8r17knnz5vo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T10:46:41.000Z"
+        },
+        {
+          "title": "Who wants what from the Iran war?",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/articles/cgk2lm5znyro?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T11:00:03.000Z"
+        },
+        {
+          "title": "'A new norm': BBC visits Doha market starting to fill up again two weeks into Iran war",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/videos/cp32gez414yo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T05:14:45.000Z"
+        },
+        {
+          "title": "Watch: Reunion resident gets close to lava from erupting volcano",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/videos/c23zj1e0lxmo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T20:39:01.000Z"
+        },
+        {
+          "title": "Historic firsts, emotional speeches, and a tie: Watch the top Oscars moments",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/videos/cedzq0q6x5lo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T03:15:43.000Z"
+        },
+        {
+          "title": "Mexico City breaks Guinness Record with giant football training session",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/videos/cy7jrymgpjyo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-16T17:23:27.000Z"
+        }
+      ]
+    },
+    "https://www.theguardian.com/world/rss": {
+      "timestamp": "2026-03-17T03:06:20.316Z",
+      "items": [
+        {
+          "title": "Africa particularly vulnerable as Iran conflict disrupts supply chains, say experts",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/2026/mar/16/africa-particularly-vulnerable-iran-conflict-disrupts-supply-chains",
+          "pubDate": "2026-03-16T12:03:00.000Z"
+        },
+        {
+          "title": "Cuba’s electrical grid collapses amid US oil blockade",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/2026/mar/16/cuba-electrical-grid-collapses-amid-us-oil-blockade",
+          "pubDate": "2026-03-16T19:41:29.000Z"
+        },
+        {
+          "title": "Trump seeks to delay China summit as Vance denies ‘wedge’ over Iran war",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/us-news/2026/mar/16/trump-china-summit-iran-war",
+          "pubDate": "2026-03-16T23:52:13.000Z"
+        },
+        {
+          "title": "Trump asks China if visit to Beijing can be delayed a month due to Iran war",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/2026/mar/16/china-us-trump-visit-strait-of-hormuz",
+          "pubDate": "2026-03-16T22:17:11.000Z"
+        },
+        {
+          "title": "Let the games begin: Victorian Liberals fail at sport but surprise with teamwork in viral video",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/australia-news/2026/mar/17/victorian-liberals-sport-video-australia",
+          "pubDate": "2026-03-17T02:50:10.000Z"
+        },
+        {
+          "title": "News live: Chris Bowen says people buying up Bunnings’ jerry cans amid fuel crisis ‘unhelpful and unAustralian’; RBA interest rates decision today",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/australia-news/live/2026/mar/17/bowen-rba-interest-rates-decision-cost-of-living-inflation-fuel-price-shortages-petrol-jim-chalmers-economy-war-iran-anthony-albanese-ntwnfb",
+          "pubDate": "2026-03-17T02:44:45.000Z"
+        },
+        {
+          "title": "Naveed Akram’s family members could be killed if their identities aren’t suppressed, court told",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/australia-news/2026/mar/17/naveed-akram-bondi-shooter-family-members-identities-death-threats-ntwnfb",
+          "pubDate": "2026-03-17T02:42:08.000Z"
+        },
+        {
+          "title": "Child abuse material ‘systemic’ on Elon Musk’s X amid Grok scandal, Australian online safety regulator warned",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/technology/2026/mar/17/x-csam-child-abuse-material-grok-australian-online-safety-regulator-ntwnfb",
+          "pubDate": "2026-03-16T23:30:30.000Z"
+        },
+        {
+          "title": "Replacing 1m petrol cars with EVs could cut Australia’s reliance on foreign fuel by 1bn litres a year",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/environment/2026/mar/16/electric-vehicles-australia-reduce-reliance-on-foreign-fuel",
+          "pubDate": "2026-03-16T14:00:22.000Z"
+        },
+        {
+          "title": "EU calls for urgent reboot in talks with UK to stop reset deal failing",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/2026/mar/16/eu-urgent-reboot-uk-talks-stop-reset-deal-failing",
+          "pubDate": "2026-03-16T19:40:07.000Z"
+        },
+        {
+          "title": "Starmer distances UK from Iran war as EU leaders rule out sending warships",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/2026/mar/16/starmer-distances-uk-from-iran-war-as-eu-leaders-rule-out-sending-warships",
+          "pubDate": "2026-03-16T19:29:20.000Z"
+        },
+        {
+          "title": "French political parties seek alliances before final round of local elections",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/2026/mar/16/french-political-parties-alliances-local-elections",
+          "pubDate": "2026-03-16T17:58:14.000Z"
+        },
+        {
+          "title": "European takeover battle hots up with UniCredit’s ‘unfriendly attack’ on Commerzbank",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/business/2026/mar/16/european-banking-takeover-battle-unicredit-commerzbank",
+          "pubDate": "2026-03-16T14:34:18.000Z"
+        },
+        {
+          "title": "Nicolas Sarkozy back in court for fresh trial over alleged Libya funding",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/2026/mar/16/nicolas-sarkozy-appeal-court-trial-alleged-libya-funding-gaddafi",
+          "pubDate": "2026-03-16T10:53:34.000Z"
+        },
+        {
+          "title": "Middle East crisis live: Trump vents frustration with allies over strait of Hormuz; US embassy in Baghdad reportedly targeted in air attack",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/live/2026/mar/16/iran-war-live-updates-news-oil-trump-hormuz-dubai-airport-israel-targets",
+          "pubDate": "2026-03-17T02:52:15.000Z"
+        },
+        {
+          "title": "At least 200 American troops wounded in Iran war, US military says",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/us-news/2026/mar/16/us-troops-iran-war",
+          "pubDate": "2026-03-16T21:31:48.000Z"
+        },
+        {
+          "title": "Gulf states may be covertly encouraging attacks by US, Iran foreign minister says",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/2026/mar/16/gulf-states-may-be-covertly-encouraging-attacks-by-us-irans-foreign-minister-says",
+          "pubDate": "2026-03-16T20:27:51.000Z"
+        },
+        {
+          "title": "European countries reject Trump’s call for help to reopen strait of Hormuz",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/2026/mar/16/europe-donald-trump-strait-hormuz-iran",
+          "pubDate": "2026-03-16T19:30:43.000Z"
+        },
+        {
+          "title": "Sri Lanka brings in four-day week to eke out stocks of oil and gas hit by Iran war",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/2026/mar/16/sri-lanka-four-day-week-oil-and-gas-iran-war",
+          "pubDate": "2026-03-16T18:52:04.000Z"
+        },
+        {
+          "title": "Afghanistan accuses Pakistan of deadly strike on Kabul hospital",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/2026/mar/16/afghanistan-accuses-pakistan-of-kabul-hospital-strike-killed",
+          "pubDate": "2026-03-17T01:08:53.000Z"
+        },
+        {
+          "title": "Train delays: compensation claims to be easier under Great British Railways",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/business/2026/mar/17/train-delays-compensation-claims-great-british-railways",
+          "pubDate": "2026-03-17T00:01:33.000Z"
+        },
+        {
+          "title": "Cannabis is not an effective treatment for common mental health conditions, says review",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/society/2026/mar/16/cannabis-inot-effective-treatment-for-common-mental-health-conditions-review",
+          "pubDate": "2026-03-16T23:30:32.000Z"
+        },
+        {
+          "title": "Tina Fey, Jamie Dornan and Riz Ahmed first three guest hosts of UK Saturday Night Live",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/tv-and-radio/2026/mar/16/tina-fey-jamie-dornan-riz-ahmed-first-three-guest-hosts-of-uk-saturday-night-live",
+          "pubDate": "2026-03-16T20:18:27.000Z"
+        },
+        {
+          "title": "‘The videos are terrifying’: students describe spreading panic amid Kent meningitis outbreak",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/society/2026/mar/16/students-fear-spreading-online-meningitis-outbreak-canterbury",
+          "pubDate": "2026-03-16T19:44:23.000Z"
+        },
+        {
+          "title": "Meningitis outbreak at University of Kent and three schools kills two young people with 11 in hospital",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/society/2026/mar/16/school-student-second-person-die-kent-meningitis-outbreak-says-mp",
+          "pubDate": "2026-03-16T19:21:09.000Z"
+        }
+      ]
+    },
+    "https://www.aljazeera.com/xml/rss/all.xml": {
+      "timestamp": "2026-03-17T03:06:20.433Z",
+      "items": [
+        {
+          "title": "Palestinian activist Leqaa Kordia released from ICE detention",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/palestinian-activist-leqaa-kordia-released-from-ice-detention?traffic_source=rss",
+          "pubDate": "2026-03-17T02:47:04.000Z"
+        },
+        {
+          "title": "Iran says wars are not won on social media",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/iran-says-wars-are-not-won-on-social-media?traffic_source=rss",
+          "pubDate": "2026-03-17T02:24:30.000Z"
+        },
+        {
+          "title": "Attempts to open Strait of Hormuz by force would be ‘almost suicidal’",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/quotable/2026/3/17/attempts-to-open-strait-of-hormuz-by-force-would-be-almost-suicidal?traffic_source=rss",
+          "pubDate": "2026-03-17T01:52:09.000Z"
+        },
+        {
+          "title": "Afghanistan accuses Pakistan of air strike on drug rehab centre",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/afghanistan-accuses-pakistan-of-air-strike-on-drug-rehab-centre?traffic_source=rss",
+          "pubDate": "2026-03-17T01:35:36.000Z"
+        },
+        {
+          "title": "Many killed, wounded after blasts hit Nigeria’s Maiduguri, witnesses say",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/3/17/many-killed-wounded-after-blasts-hit-nigerias-maiduguri-witnesses-say?traffic_source=rss",
+          "pubDate": "2026-03-17T01:05:44.000Z"
+        },
+        {
+          "title": "Experts say global response may evolve over Hormuz security",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/experts-say-global-response-may-evolve-over-hormuz-security?traffic_source=rss",
+          "pubDate": "2026-03-17T00:54:58.000Z"
+        },
+        {
+          "title": "Scores of people killed in series of bomb blasts in northern Nigeria",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/scores-of-people-killed-in-series-of-bomb-blasts-in-northern-nigeria?traffic_source=rss",
+          "pubDate": "2026-03-17T00:35:27.000Z"
+        },
+        {
+          "title": "Iran war live: Trump scolds allies for not joining Strait of Hormuz mission",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/3/17/iran-war-live-trump-scolds-allies-for-not-joining-strait-of-hormuz-mission?traffic_source=rss",
+          "pubDate": "2026-03-17T00:00:00.000Z"
+        },
+        {
+          "title": "Pro-Palestine protester Leqaa Kordia freed from US immigration detention",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/3/16/pro-palestine-protester-leqaa-kordia-freed-from-us-immigration-detention?traffic_source=rss",
+          "pubDate": "2026-03-16T23:39:13.000Z"
+        },
+        {
+          "title": "Hotel in Iraqi capital Baghdad struck as attacks on US embassy intercepted",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/3/16/hotel-in-iraqi-capital-baghdad-struck-as-attacks-on-us-embassy-intercepted?traffic_source=rss",
+          "pubDate": "2026-03-16T23:00:11.000Z"
+        },
+        {
+          "title": "Trump claims strikes on Iran prevented nuclear war",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/trump-claims-strikes-on-iran-prevented-nuclear-war?traffic_source=rss",
+          "pubDate": "2026-03-16T22:34:59.000Z"
+        },
+        {
+          "title": "Trump seeks to delay meeting with China’s Xi by ‘month or so’ amid Iran war",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/3/16/trump-seeks-to-delay-meeting-with-chinas-xi-by-month-or-so-amid-iran-war?traffic_source=rss",
+          "pubDate": "2026-03-16T22:25:55.000Z"
+        },
+        {
+          "title": "‘Fourth world nation’: Trump slams Somalia, Ilhan Omar",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/fourth-world-nation-trump-slams-somalia-ilhan-omar?traffic_source=rss",
+          "pubDate": "2026-03-16T21:16:51.000Z"
+        },
+        {
+          "title": "Ten ICU patients killed in hospital fire in eastern India",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/ten-icu-patients-killed-in-hospital-fire-in-eastern-india?traffic_source=rss",
+          "pubDate": "2026-03-16T21:01:22.000Z"
+        },
+        {
+          "title": "Who is answering Trump’s call for help with Strait of Hormuz?",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/who-is-answering-trumps-call-for-help-with-strait-of-hormuz?traffic_source=rss",
+          "pubDate": "2026-03-16T21:00:54.000Z"
+        },
+        {
+          "title": "Trump threatens to ‘take’ Cuba amid island-wide power crisis",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/3/16/cuba-electric-grid-collapses-amid-us-oil-blockade-causing-national-blackout?traffic_source=rss",
+          "pubDate": "2026-03-16T20:45:55.000Z"
+        },
+        {
+          "title": "BBC files motion asking US court to throw out Trump’s $10bn lawsuit",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/3/16/bbc-files-motion-asking-us-court-to-throw-out-trumps-10bn-lawsuit?traffic_source=rss",
+          "pubDate": "2026-03-16T20:42:07.000Z"
+        },
+        {
+          "title": "How big of a problem is the Strait of Hormuz for Donald Trump?",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/inside-story/2026/3/16/how-big-of-a-problem-is-the-strait-of-hormuz-for-donald-trump?traffic_source=rss",
+          "pubDate": "2026-03-16T20:41:10.000Z"
+        },
+        {
+          "title": "Hezbollah rocket hits a residential building in Israel’s Nahariya",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/hezbollah-rocket-hits-a-residential-building-in-israels-nahariya?traffic_source=rss",
+          "pubDate": "2026-03-16T20:27:10.000Z"
+        },
+        {
+          "title": "Israeli forces in southern Lebanon as ground operation announced",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/israeli-forces-in-southern-lebanon-as-ground-operation-announced?traffic_source=rss",
+          "pubDate": "2026-03-16T19:14:42.000Z"
+        },
+        {
+          "title": "Trump says Hormuz Strait help ‘on the way’ as allies reject military action",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/3/16/trump-says-hormuz-strait-help-on-the-way-as-allies-reject-military-action?traffic_source=rss",
+          "pubDate": "2026-03-16T18:53:32.000Z"
+        },
+        {
+          "title": "Outrage as Afghan asylum seeker who fought alongside US dies in ICE custody",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/3/16/outrage-as-afghan-asylum-seeker-who-fought-alongside-us-dies-in-ice-custody?traffic_source=rss",
+          "pubDate": "2026-03-16T18:33:08.000Z"
+        },
+        {
+          "title": "Indian farmers dress up as bears to protect crops from monkeys",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/indian-farmers-dress-up-as-bears-to-protect-crops-from-monkeys?traffic_source=rss",
+          "pubDate": "2026-03-16T17:37:08.000Z"
+        },
+        {
+          "title": "Civilians pulled from rubble after US-Israeli strikes on Tehran",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/civilians-pulled-from-rubble-after-us-israeli-strikes-on-tehran?traffic_source=rss",
+          "pubDate": "2026-03-16T17:27:54.000Z"
+        },
+        {
+          "title": "US responsible for deadly attack on Iranian school: Amnesty International",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/3/16/us-responsible-for-deadly-attack-on-iranian-school-amnesty-international?traffic_source=rss",
+          "pubDate": "2026-03-16T17:01:52.000Z"
+        }
+      ]
+    },
+    "https://www.wired.com/feed/category/science/latest/rss": {
+      "timestamp": "2026-03-17T03:06:20.598Z",
+      "items": []
+    },
+    "https://www.sciencedaily.com/rss/all.xml": {
+      "timestamp": "2026-03-17T03:06:21.005Z",
+      "items": [
+        {
+          "title": "The smell of Egyptian mummies is revealing 2,000-year-old secrets",
+          "source": "Science Daily",
+          "link": "https://www.sciencedaily.com/releases/2026/03/260315225153.htm",
+          "pubDate": "2026-03-16T10:46:21.000Z"
+        },
+        {
+          "title": "Scientists unlock a powerful new way to turn sunlight into fuel",
+          "source": "Science Daily",
+          "link": "https://www.sciencedaily.com/releases/2026/03/260315225149.htm",
+          "pubDate": "2026-03-16T08:01:39.000Z"
+        },
+        {
+          "title": "A strange twist in the universe’s oldest light may be bigger than we thought",
+          "source": "Science Daily",
+          "link": "https://www.sciencedaily.com/releases/2026/03/260315225141.htm",
+          "pubDate": "2026-03-17T02:53:18.000Z"
+        },
+        {
+          "title": "A strange new quantum state appears when atoms get “frustrated”",
+          "source": "Science Daily",
+          "link": "https://www.sciencedaily.com/releases/2026/03/260315225137.htm",
+          "pubDate": "2026-03-16T10:19:03.000Z"
+        },
+        {
+          "title": "Just 24 minutes of specially designed music could significantly reduce anxiety",
+          "source": "Science Daily",
+          "link": "https://www.sciencedaily.com/releases/2026/03/260315225133.htm",
+          "pubDate": "2026-03-16T11:04:39.000Z"
+        },
+        {
+          "title": "Scientists discover what really happens during sourdough fermentation",
+          "source": "Science Daily",
+          "link": "https://www.sciencedaily.com/releases/2026/03/260315225130.htm",
+          "pubDate": "2026-03-16T10:59:06.000Z"
+        },
+        {
+          "title": "Common pesticide may more than double Parkinson’s disease risk",
+          "source": "Science Daily",
+          "link": "https://www.sciencedaily.com/releases/2026/03/260315225125.htm",
+          "pubDate": "2026-03-16T22:49:45.000Z"
+        },
+        {
+          "title": "Scientists inject one tumor and watch cancer vanish across the body",
+          "source": "Science Daily",
+          "link": "https://www.sciencedaily.com/releases/2026/03/260315225121.htm",
+          "pubDate": "2026-03-17T00:18:42.000Z"
+        },
+        {
+          "title": "MIT scientists discover gut protein that traps and kills dangerous bacteria",
+          "source": "Science Daily",
+          "link": "https://www.sciencedaily.com/releases/2026/03/260315004403.htm",
+          "pubDate": "2026-03-16T04:05:04.000Z"
+        },
+        {
+          "title": "Scientists create a cancer flashlight that lights up tumors",
+          "source": "Science Daily",
+          "link": "https://www.sciencedaily.com/releases/2026/03/260315004359.htm",
+          "pubDate": "2026-03-16T05:04:50.000Z"
+        },
+        {
+          "title": "Cells can sense 10x farther than expected and it may explain cancer spread",
+          "source": "Science Daily",
+          "link": "https://www.sciencedaily.com/releases/2026/03/260315004351.htm",
+          "pubDate": "2026-03-16T05:51:18.000Z"
+        }
+      ]
+    },
+    "https://www.nature.com/nature.rss": {
+      "timestamp": "2026-03-17T03:06:21.179Z",
+      "items": []
+    },
+    "https://phys.org/rss-feed/": {
+      "timestamp": "2026-03-17T03:06:21.399Z",
+      "items": [
+        {
+          "title": "It's coyote puppy season; here's what you need to know",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-coyote-puppy-season.html",
+          "pubDate": "2026-03-17T02:40:01.000Z"
+        },
+        {
+          "title": "Carbon trading cuts emissions better than carbon taxes",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-carbon-emissions-taxes.html",
+          "pubDate": "2026-03-17T02:20:01.000Z"
+        },
+        {
+          "title": "A milestone voyage for Antarctic science",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-milestone-voyage-antarctic-science.html",
+          "pubDate": "2026-03-17T02:00:01.000Z"
+        },
+        {
+          "title": "A 60-year old mystery about the moon's magnetosphere is finally solved",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-year-mystery-moon-magnetosphere.html",
+          "pubDate": "2026-03-17T01:30:03.000Z"
+        },
+        {
+          "title": "Ticketmaster's Eras Tour chaos made worse by crisis communication failures",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-ticketmaster-eras-chaos-worse-crisis.html",
+          "pubDate": "2026-03-17T01:00:01.000Z"
+        },
+        {
+          "title": "Maize mysteries: Scientists uncover new information on how DNA works in maize",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-maize-mysteries-scientists-uncover-dna.html",
+          "pubDate": "2026-03-17T00:20:01.000Z"
+        },
+        {
+          "title": "Why sugar breakdown matters beyond energy—new insights into how it makes cells move",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-sugar-breakdown-energy-insights-cells.html",
+          "pubDate": "2026-03-16T23:50:01.000Z"
+        },
+        {
+          "title": "Study identifies causes of potato dry rot in Colorado",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-potato-dry-colorado.html",
+          "pubDate": "2026-03-16T23:40:03.000Z"
+        },
+        {
+          "title": "High-resolution electron microscopy sheds light on the cellular responses to stress",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-high-resolution-electron-microscopy-cellular.html",
+          "pubDate": "2026-03-16T23:40:01.000Z"
+        },
+        {
+          "title": "Clustering-based AI forecasts river water levels using just a few long records",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-clustering-based-ai-river.html",
+          "pubDate": "2026-03-16T23:30:08.000Z"
+        },
+        {
+          "title": "Amazonian chocolate: Combining cocoa clones with different post-harvest processes balances flavor and nutritional value",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-amazonian-chocolate-combining-cocoa-clones.html",
+          "pubDate": "2026-03-16T23:30:05.000Z"
+        },
+        {
+          "title": "Milk-derived nanoparticles may enable physicians to target aggressive bile duct cancer",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-derived-nanoparticles-enable-physicians-aggressive.html",
+          "pubDate": "2026-03-16T23:20:01.000Z"
+        },
+        {
+          "title": "Bull sharks form social relationships with specific 'friends,' research reveals",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-bull-sharks-social-relationships-specific.html",
+          "pubDate": "2026-03-16T23:10:06.000Z"
+        },
+        {
+          "title": "Q&A: Reevaluating reaction rates to better understand the stars",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-qa-reevaluating-reaction-stars.html",
+          "pubDate": "2026-03-16T23:10:01.000Z"
+        },
+        {
+          "title": "Life, but not as we know it",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-life.html",
+          "pubDate": "2026-03-16T23:00:05.000Z"
+        },
+        {
+          "title": "A clear roadmap for engineering combs of light",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-roadmap.html",
+          "pubDate": "2026-03-16T22:50:01.000Z"
+        },
+        {
+          "title": "JWST maps Europa's CO₂ beyond Tara Regio, hinting at subsurface exchange",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-jwst-europa-tara-regio-hinting.html",
+          "pubDate": "2026-03-16T22:40:03.000Z"
+        },
+        {
+          "title": "A galaxy next door is transforming, and astronomers can see it happening",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-galaxy-door-astronomers.html",
+          "pubDate": "2026-03-16T22:30:03.000Z"
+        },
+        {
+          "title": "Climate action could prevent over 13 million premature deaths, but equity choices matter for global health",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-climate-action-million-premature-deaths.html",
+          "pubDate": "2026-03-16T22:30:02.000Z"
+        },
+        {
+          "title": "Laser-assisted electron scattering seen with circularly polarized light for the first time",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-laser-electron-circularly-polarized.html",
+          "pubDate": "2026-03-16T22:20:01.000Z"
+        },
+        {
+          "title": "New study offers insight into tissue-specific gene regulation of sheep",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-insight-tissue-specific-gene-sheep.html",
+          "pubDate": "2026-03-16T22:10:06.000Z"
+        },
+        {
+          "title": "What you study in school shapes your voting choices in adulthood",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-school-voting-choices-adulthood.html",
+          "pubDate": "2026-03-16T22:10:01.000Z"
+        },
+        {
+          "title": "Microbes in Antarctica survive the freezing and dark winter by living on air",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-microbes-antarctica-survive-dark-winter.html",
+          "pubDate": "2026-03-16T22:00:02.000Z"
+        },
+        {
+          "title": "Light-controlled hydrogel mimics soft human tissue for more realistic cell studies",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-hydrogel-mimics-soft-human-tissue.html",
+          "pubDate": "2026-03-16T21:50:04.000Z"
+        },
+        {
+          "title": "Gold nanoclusters could selectively recognize chiral biomolecules to help detect certain diseases",
+          "source": "Phys.org",
+          "link": "https://phys.org/news/2026-03-gold-nanoclusters-chiral-biomolecules-diseases.html",
+          "pubDate": "2026-03-16T21:50:01.000Z"
+        }
+      ]
+    },
+    "https://www.theguardian.com/science/rss": {
+      "timestamp": "2026-03-17T03:06:21.547Z",
+      "items": [
+        {
+          "title": "‘A molten, mushy state’: scientists may have found a new type of liquid planet",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/science/2026/mar/16/a-molten-mushy-state-scientists-may-have-found-a-new-type-of-liquid-planet",
+          "pubDate": "2026-03-16T10:00:14.000Z"
+        },
+        {
+          "title": "A petri dish of human brain cells is currently playing Doom. Should we be worried?",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/games/2026/mar/16/petri-dish-brain-cells-playing-doom-cortical-labs",
+          "pubDate": "2026-03-16T13:30:20.000Z"
+        },
+        {
+          "title": "Oldest-known whale song recording provides new insight into ocean sounds",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/environment/2026/mar/16/oldest-known-whale-song-recording-ocean-sounds",
+          "pubDate": "2026-03-16T13:05:24.000Z"
+        },
+        {
+          "title": "Officials ‘missed 99% of data’ before ending Covid vaccine recommendation, memos reveal",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/us-news/2026/mar/16/covid-vaccine-recommendation-kids-pregnant-people-data",
+          "pubDate": "2026-03-16T11:00:15.000Z"
+        },
+        {
+          "title": "Did you solve it? Are you a match for the dinkiest mag in maths?",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/science/2026/mar/16/did-you-solve-it-are-you-a-match-for-the-dinkiest-mag-in-maths",
+          "pubDate": "2026-03-16T17:00:24.000Z"
+        },
+        {
+          "title": "Can you solve it? Are you a match for the dinkiest mag in maths?",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/science/2026/mar/16/can-you-solve-it-are-you-a-match-for-the-dinkiest-mag-in-maths",
+          "pubDate": "2026-03-16T07:10:09.000Z"
+        }
+      ]
+    }
+  },
+  "inference": {
+    "3084536": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes a large-scale deployment of soldiers and police to combat drug gangs, indicating a severe internal conflict, crisis, and disruption within the country, which falls under the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule."
+    },
+    "32802600": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a scientific discovery (oldest-known whale song recording) that provides 'new insight', indicating a breakthrough or growth in knowledge, which is a positive development."
+    },
+    "33029442": {
+      "sentiment": "POSITIVE",
+      "reasoning": "Solving a 60-year old mystery represents a breakthrough and success in scientific understanding, aligning with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' rule."
+    },
+    "34009035": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes 'far-left and far-right gains' leading to French mainstream parties being in a 'quandary,' which implies a difficult, uncertain, and disruptive situation for the established political order, aligning with the 'DISRUPTION' or 'CRISIS' criteria."
+    },
+    "34290060": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline links a scientific discovery to 'cancer spread', which is a severe health crisis and falls under the 'DISRUPTION' or 'CRISIS' category, making the sentiment negative despite the scientific breakthrough aspect."
+    },
+    "78610699": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline indicates a potential solution ('could solve') to a major challenge ('biggest problem: security'), which signifies a potential breakthrough or success for Nvidia."
+    },
+    "79858292": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions a 'collapsed advisory firm,' which signifies a business failure and crisis (disruption). While Mandelson received money, this gain is presented in the context of the firm's collapse, making the overall sentiment negative as per the critical hierarchy."
+    },
+    "84598483": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline announces a significant discount (up to 50% off) on consumer electronics, which is a positive event for potential buyers, fitting the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' category in the sense of a beneficial offer."
+    },
+    "95468770": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a company preparing for a significant technological transformation ('AI shopping agents to change everything'), which implies proactive adaptation to future innovation and potential growth or breakthrough."
+    },
+    "110590843": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline describes the killing of an entire family by armed forces, as recounted by a child survivor. This involves multiple deaths and extreme violence, clearly falling under 'WAR, CONFLICT, DISRUPTION, or CRISIS' and signifying a catastrophic event."
+    },
+    "114953193": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes an incentive program designed to combat joblessness among young people, which is a positive action aimed at economic recovery and social improvement."
+    },
+    "143532625": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline expresses a 'longing for' startups that are 'built to survive chaos' (proentropic). While 'chaos' can be negative, the desire for entities built to *survive* it highlights resilience, strength, and a positive attribute for success, aligning with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' rule."
+    },
+    "144321598": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline is a pure statement describing a relationship between education and voting choices. It does not indicate conflict, crisis, growth, success, or any inherently positive or negative event, aligning with the 'ADMINISTRATIVE, SCHEDULING, or PURE STATEMENTS' rule."
+    },
+    "182412743": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline describes a public health crisis (meningitis outbreak) characterized by 'terrifying' videos and 'spreading panic', indicating a severe disruption and widespread distress."
+    },
+    "207478868": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline reports a 'deadly attack' on an 'Iranian school', which signifies a significant loss of life and a severe act of violence. This falls under 'DISRUPTION' or 'CRISIS' according to the critical hierarchy, classifying it as either 'NEGATIVE' or 'DISASTER'. Given the direct mention of 'deadly' and the target being a school, 'DISASTER' is the most appropriate classification due to the extreme negative impact and loss of life."
+    },
+    "234546347": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a biotech company developing a new medical product with the potential to be 'better' than an existing successful version, indicating potential for breakthrough and success, aligning with Hierarchy 2."
+    },
+    "258870085": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline states that Benjamin Netanyahu 'is struggling,' which implies a difficult and unfavorable situation regarding his public image and authenticity."
+    },
+    "280481503": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a major company (Samsung) investing in a startup to solve a significant problem ('tame the grid') with technology. This indicates potential for growth, breakthrough, and success, aligning with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' rule."
+    },
+    "283334617": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline reports 'child abuse material' being 'systemic' on a major platform amid a 'scandal', which represents a severe crisis and disruption, triggering the 'DISASTER' classification under the critical hierarchy."
+    },
+    "328954682": {
+      "sentiment": "EUPHORIC",
+      "reasoning": "The statement 'I've never seen so many people in those grandstands' expresses extreme positive surprise and delight at the exceptionally high attendance for the F1 event, indicating a highly successful and popular turnout, which aligns with 'EUPHORIC' under the 'SUCCESS' criteria."
+    },
+    "369177655": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a successful application of AI for forecasting river water levels efficiently ('using just a few long records'), which is a beneficial technological advancement and falls under 'SUCCESS' or 'BREAKTHROUGH' criteria."
+    },
+    "384824770": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline explicitly states 'war', 'economic calamity', and 'another shock to our politics', all of which indicate severe disruption and crisis, aligning with the 'DISASTER' classification."
+    },
+    "387595974": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline indicates a 'split' within a community, which signifies disruption or conflict, falling under the 'DISRUPTION' criterion of the critical hierarchy."
+    },
+    "412223045": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes the BBC's action to dismiss a significant $10bn lawsuit. Facing a lawsuit of this magnitude is a legal conflict and disruption, which falls under the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule, making the underlying situation negative. The action described is an attempt to resolve this negative state."
+    },
+    "492941050": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes WADA weighing a rule to 'bar' officials from major events, which signifies a potential disruption, conflict, or punitive action, falling under the 'CRISIS' or 'DISRUPTION' clause of the critical hierarchy."
+    },
+    "496582384": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline announces a new product with improved features ('H2 chip, boosted ANC'), indicating product growth and advancement, which aligns with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' criterion."
+    },
+    "503557252": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "A national being jailed for 10 years for spying represents a severe legal punishment and a significant personal crisis, fitting the 'NEGATIVE' classification due to the inherent harm and unfavorable outcome."
+    },
+    "523526794": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes Florida 'leading' on policies, indicating success or pioneering, and notes that 'voters want federal regulators to follow suit', signifying public support for this direction. This aligns with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' criteria."
+    },
+    "535784995": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions 'Iran war live' and 'Strait of Hormuz mission,' which is a security threat/conflict zone. This aligns with the critical hierarchy that 'WAR, CONFLICT, DISRUPTION, or CRISIS = ALWAYS 'NEGATIVE' or 'DISASTER'' and the instruction that 'If it involves a security threat or a war zone (e.g. Hormuz), it is NEGATIVE.' Additionally, 'Trump scolds allies' indicates negative political relations and disagreement."
+    },
+    "551036186": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The National Academies of Sciences' refusal to remove climate information is a positive stand for scientific integrity and the open dissemination of critical data, resisting negative pressure."
+    },
+    "582071284": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes a complicated personal situation involving anticipated family conflict and 'hatred' from the husband's children over inheritance, indicating significant emotional distress and disruption. This aligns with the 'DISRUPTION' or 'CRISIS' aspect of the 'NEGATIVE' classification in the critical hierarchy, even if on a personal scale."
+    },
+    "616098101": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline is a pure statement about an analyst report concerning a company, without any indication of positive or negative events, growth, or crisis."
+    },
+    "622867414": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a business success for Nvidia, as major automotive companies (BYD and Geely) will adopt its robotaxi platform, indicating growth and market penetration for Nvidia's technology. This falls under the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' category."
+    },
+    "652870694": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes a vow to stop UK tech from 'drifting abroad,' implying an existing or potential negative trend (loss/disruption) for the UK's tech sector that needs intervention."
+    },
+    "654814747": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes 'new insights' into a biological process, indicating a scientific breakthrough or advancement in understanding, which falls under the 'GROWTH, BREAKTHROUGH' criteria."
+    },
+    "683261282": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline, despite describing a scientific breakthrough, explicitly asks 'Should we be worried?', which introduces a strong element of apprehension, potential threat, or disruption, overshadowing any initial positivity."
+    },
+    "789883585": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes the revelation of 2,000-year-old secrets through scientific study, which signifies a discovery or breakthrough in historical and scientific understanding, aligning with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' rule."
+    },
+    "790290585": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline reports on a 'whistleblower murder suspect,' which signifies a crime and a serious disruption."
+    },
+    "814848765": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline mentions 'strikes,' which signifies military action or conflict. According to the critical hierarchy, conflict or disruption is classified as 'NEGATIVE'."
+    },
+    "824793101": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes an 'Iran conflict' that 'disrupts supply chains' and makes Africa 'particularly vulnerable', aligning with the rule that 'WAR, CONFLICT, DISRUPTION, or CRISIS' is always 'NEGATIVE' or 'DISASTER'. The terms 'conflict', 'disrupts', and 'vulnerable' indicate a severe negative situation."
+    },
+    "840633287": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "A lawsuit ('sues') signifies a legal conflict or disruption between parties, which falls under the 'CONFLICT, DISRUPTION' rule, classifying it as NEGATIVE."
+    },
+    "865180069": {
+      "sentiment": "POSITIVE",
+      "reasoning": "Scientists have 'uncovered new information' and solved 'maize mysteries' regarding DNA, which represents a scientific breakthrough and success, aligning with Rule 2."
+    },
+    "888148423": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline mentions 'Iran war,' which falls under the critical hierarchy rule of 'WAR, CONFLICT, DISRUPTION, or CRISIS' being classified as 'NEGATIVE' or 'DISASTER'. Additionally, 'delay China summit' indicates a disruption."
+    },
+    "911445770": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline discusses the need for 'securing Hormuz energy route,' which implies a security threat or potential disruption in a critical global chokepoint, aligning with the 'DISRUPTION' or 'CRISIS' criteria."
+    },
+    "915585060": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline reports hundreds of TSA officers quitting due to a government shutdown, which signifies a major disruption, staffing crisis, and a negative impact on public services and security. This falls under the 'DISRUPTION' or 'CRISIS' category."
+    },
+    "918056985": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline uses terms like 'chaos' and 'crisis communication failures,' which directly align with 'DISRUPTION' and 'CRISIS' in the critical hierarchy, classifying the sentiment as NEGATIVE."
+    },
+    "977229198": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline reports a minister's statement regarding proposed welfare reforms and anticipated political opposition. This falls under the 'ADMINISTRATIVE, SCHEDULING, or PURE STATEMENTS' category, making it NEUTRAL."
+    },
+    "982378401": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline announces 'support' to 'help' with costs, indicating a beneficial action to alleviate a financial burden, which is a positive development."
+    },
+    "990039477": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions 'Iran war headwinds loom,' which signifies an impending disruption or crisis, overriding the positive economic momentum according to Critical Hierarchy Rule 1 regarding war, conflict, and disruption."
+    },
+    "1006951751": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline references 'Hormuz security,' which is consistently associated with geopolitical tensions, security threats, and potential disruption, implying an underlying negative or unstable situation requiring a 'global response.'"
+    },
+    "1011969076": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes significant disruption (growing airport security lines) and a crisis (TSA employees going unpaid due to a partial government shutdown), which falls under the critical hierarchy's first rule for 'DISRUPTION' or 'CRISIS'."
+    },
+    "1045386823": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline reports a call for 'sanctions', which are punitive and disruptive measures. This indicates a negative development or potential conflict, aligning with the 'DISRUPTION or CRISIS' rule."
+    },
+    "1046816142": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline describes a 'nationwide blackout' caused by an 'energy grid collapse,' which signifies a major system failure and widespread disruption, fitting the 'DISRUPTION' or 'CRISIS' criteria under the DISASTER/NEGATIVE category, with the scale suggesting DISASTER."
+    },
+    "1057720612": {
+      "sentiment": "DISASTER",
+      "reasoning": "A rocket hitting a residential building in a conflict zone represents an act of war, causing destruction and potential harm to civilians, classifying it as a disaster."
+    },
+    "1060711381": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The phrase 'A clear roadmap' indicates progress, good planning, and a path towards a successful achievement in engineering, aligning with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' criteria."
+    },
+    "1085586193": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline uses strong negative language ('slams') and a derogatory term ('Fourth world nation') to describe Somalia and Ilhan Omar, indicating severe criticism and disruption rather than a neutral statement or positive development."
+    },
+    "1103715955": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions 'Iran crisis' and 'no quick fix', indicating an ongoing negative and unresolved situation, which falls under the 'CRISIS' category in the critical hierarchy."
+    },
+    "1119871606": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions 'Iran war stance' and describes it as 'terrible', which directly falls under the critical hierarchy rule 1 (WAR, CONFLICT, DISRUPTION, or CRISIS = ALWAYS 'NEGATIVE' or 'DISASTER'). The 'attack' further reinforces the negative sentiment."
+    },
+    "1122637752": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline reports a significant funding raise ($25M), which signals growth and success. The goal to 'disrupt aging systems' implies innovation and improvement, aligning with 'BREAKTHROUGH' and 'SUCCESS' categories."
+    },
+    "1130778872": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline reports athletes speaking out about 'politics at home.' In the context of team sports and public representation, athletes engaging in political discourse is often perceived as a 'DISRUPTION' to the focus on sports or a source of 'CONFLICT' and controversy, aligning with rule 1 of the critical hierarchy."
+    },
+    "1156046721": {
+      "sentiment": "EUPHORIC",
+      "reasoning": "The headline describes a significant scientific breakthrough ('unlock a powerful new way') for renewable energy ('turn sunlight into fuel'), indicating a major positive advancement and potential game-changer, aligning with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' rule."
+    },
+    "1173783579": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline reports a significant increase in the risk of a severe and debilitating disease (Parkinson's) due to a common substance, which represents a serious negative health implication and a potential public health crisis or disruption. This aligns with Critical Hierarchy rule 1."
+    },
+    "1198595567": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes government actions to 'prevent anti-establishment protests,' indicating internal conflict, disruption, and suppression of dissent, which falls under the 'CRISIS' or 'DISRUPTION' criteria."
+    },
+    "1201954879": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a potential breakthrough in medical treatment (using nanoparticles to target aggressive cancer), aligning with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' rule, which categorizes it as POSITIVE or EUPHORIC. 'May enable' suggests a strong positive potential."
+    },
+    "1254948610": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline describes multiple deaths ('scores of people killed') due to violent acts ('bomb blasts'), which constitutes a severe crisis and falls under the 'DISASTER' classification as per Rule 1 (WAR, CONFLICT, DISRUPTION, or CRISIS)."
+    },
+    "1280916157": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline is a playful and engaging challenge to solve a mathematical problem, inviting intellectual participation and skill demonstration, which are positive activities."
+    },
+    "1302659929": {
+      "sentiment": "EUPHORIC",
+      "reasoning": "The headline highlights 'Historic firsts' and 'top Oscars moments,' indicating significant breakthroughs, achievements, and the most memorable, celebratory events, which evokes strong positive and elated emotion."
+    },
+    "1307296894": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline explicitly states 'stock rises,' which indicates positive financial performance. The mention of a 'key catalyst' suggests an underlying factor for growth, aligning with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' critical hierarchy."
+    },
+    "1319356895": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "Mental health experts *unanimously opposed* the launch, indicating internal conflict and disruption due to perceived negative implications."
+    },
+    "1343127170": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline describes a scientific topic of how fireflies synchronize, which is an informational and explanatory statement, not indicative of conflict, success, or failure."
+    },
+    "1356297117": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes an attempt to remove a foreign president from power, which is a significant act of political disruption and potential conflict in international relations. This aligns with the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule, making it NEGATIVE."
+    },
+    "1386953453": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline presents topics ('glass chips' and 'AI-free logos') as a general overview ('The Download') without using emotionally charged language or indicating any specific crisis, conflict, growth, or setback, aligning with pure statements."
+    },
+    "1388998069": {
+      "sentiment": "EUPHORIC",
+      "reasoning": "The headline describes sales projections reaching the '$1 trillion stratosphere,' indicating an extremely high and overwhelmingly successful outlook, which aligns with growth and success."
+    },
+    "1390993457": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline reports a lawsuit ('suing'), which signifies a conflict or dispute between parties, aligning with the 'CONFLICT, DISRUPTION' criteria for a negative sentiment."
+    },
+    "1409024322": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes astronomers observing a galaxy transforming, which signifies scientific discovery and new knowledge, aligning with the 'GROWTH, BREAKTHROUGH' criteria for positive sentiment in a scientific context."
+    },
+    "1419545446": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline refers to 'Train delays,' which constitutes a 'DISRUPTION.' According to the Critical Hierarchy Rule 1, any mention of 'DISRUPTION' results in a 'NEGATIVE' or 'DISASTER' classification. Even though 'compensation claims to be easier' signifies a positive measure or 'aid,' the rule explicitly states that the underlying negative state of disruption takes precedence."
+    },
+    "1430299922": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline describes a standard administrative or strategic activity within the political process (parties seeking alliances before elections). It does not indicate conflict, disaster, growth, or recovery."
+    },
+    "1474158506": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline discusses a 'fuel shortage,' which is a significant disruption or crisis for a nation. The statement that politicians 'worked' themselves into this position implies criticism and a negative outcome caused by their actions, fitting the 'disruption or crisis' criteria for a NEGATIVE classification."
+    },
+    "1475432134": {
+      "sentiment": "POSITIVE",
+      "reasoning": "A judge blocked 'anti-vaccine changes' to CDC guidance, which is a positive outcome for public health and the preservation of established medical recommendations, preventing a potential disruption."
+    },
+    "1476094094": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a technological advancement ('uses generative AI to boost photorealism') and future growth ('ambitions beyond gaming'), which aligns with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' criteria."
+    },
+    "1504108044": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline warns of a recession, an economic crisis, that will be 'hard to avoid' if oil prices remain elevated, indicating a significant negative economic outlook."
+    },
+    "1511042185": {
+      "sentiment": "EUPHORIC",
+      "reasoning": "The headline highlights the potential to prevent over 13 million premature deaths through climate action, which represents an enormous positive outcome and a monumental success in public health, even with the added condition about equity choices."
+    },
+    "1515287645": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions 'Iran war', which is classified as 'NEGATIVE' according to the critical hierarchy rule for war, conflict, or security threats."
+    },
+    "1564852124": {
+      "sentiment": "EUPHORIC",
+      "reasoning": "The headline describes a significant positive improvement ('the most repairable in years') for a product, indicating a breakthrough or success in design that benefits consumers, aligning with rule #2."
+    },
+    "1580701980": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline indicates a senator 'presses' the Pentagon, implying scrutiny, concern, or opposition over a decision to grant a private entity access to classified networks. This signals a perceived issue, potential risk, or controversy related to national security, aligning with a 'NEGATIVE' sentiment due to the implication of disruption or potential security concern."
+    },
+    "1617205986": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline is a factual announcement about celebrity guest hosts for a television show, which falls under administrative or scheduling information."
+    },
+    "1630549688": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline reports a factual, administrative action: a political figure filing for reelection and launching a campaign bid. It does not describe conflict, success, failure, or emotionally charged events."
+    },
+    "1642550297": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline reveals a severe failure where officials 'missed 99% of data' before making a public health recommendation. This indicates significant incompetence and a major disruption to sound policy, fitting the 'NEGATIVE' classification due to the underlying failure and potential crisis of public trust."
+    },
+    "1645927553": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a scientific discovery that successfully combats 'dangerous bacteria,' which is a breakthrough and a positive development in health."
+    },
+    "1660687825": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions 'Iran conflict' and 'threatens global economic disruption', which falls under the critical hierarchy rule 1: 'WAR, CONFLICT, DISRUPTION, or CRISIS = ALWAYS 'NEGATIVE' or 'DISASTER''. While U.S. stocks are described as 'resilient', the underlying situation (conflict and threat of disruption) is inherently negative."
+    },
+    "1705935460": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes a legal trial, which by nature involves a dispute or conflict, qualifying as a 'disruption' under Critical Hierarchy 1. The phrase 'velvet hammer' implies a strong, forceful, or potentially punitive action, further reinforcing the negative context of a legal struggle."
+    },
+    "1716788467": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline includes the words 'Outrage' and 'dies in ICE custody', both of which indicate a highly negative event and public response. A death in custody, particularly for an asylum seeker who fought alongside the US, constitutes a significant disruption and crisis, fitting the 'NEGATIVE' classification under the critical hierarchy."
+    },
+    "1753353417": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline commemorates a century of a technological breakthrough (the first rocket launch) and describes an activity where staffers 'pick their favorites,' indicating appreciation and positive engagement with the subject matter, aligning with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' rule."
+    },
+    "1755045264": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes an action aimed at 'reassuring investors,' which is a positive effort to build confidence and promote stability. While the need for reassurance might stem from prior concerns, the headline focuses on the proactive and positive measure being taken."
+    },
+    "1763219116": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes a former head of state facing a 'fresh trial' for 'alleged Libya funding'. Being subject to a trial, especially for alleged illicit funding, constitutes a legal crisis or significant disruption for the individual and implies negative conduct. It does not fit growth, recovery, or pure administrative statements."
+    },
+    "1822443467": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a 'big update' to 'AI graphics upscaling' for PS5 Pro games, indicating a significant improvement and enhancement of a product feature, which is a positive development for consumers and the company."
+    },
+    "1856105759": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline reports on 'potato dry rot,' which is a disruption and crisis for agriculture. According to Critical Hierarchy Rule 1, any disruption or crisis leads to a 'NEGATIVE' or 'DISASTER' sentiment. The phrase 'Study identifies causes' signifies a positive step (akin to 'aid' or 'talks' in the rule's context), but the rule explicitly states that such mentions do not change the underlying negative sentiment of the crisis itself. 'NEGATIVE' is chosen over 'DISASTER' as dry rot, while a serious problem, is typically not classified as a widespread disaster."
+    },
+    "1871581856": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a scientific discovery by the JWST (mapping CO2 on Europa) and hints at a significant new understanding (subsurface exchange), which constitutes a breakthrough or success in scientific knowledge."
+    },
+    "1874333780": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a potential new scientific discovery – 'scientists may have found a new type of liquid planet' – which constitutes a breakthrough in knowledge and exploration, aligning with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' rule."
+    },
+    "1887302372": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions 'Iran war', which according to critical hierarchy Rule 1, classifies the sentiment as 'NEGATIVE' or 'DISASTER'. While the market 'starting to fill up again' indicates adaptation, it occurs 'two weeks into Iran war', signifying a 'new norm' born from an ongoing negative conflict rather than a positive development in itself."
+    },
+    "1898653898": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a scientific observation achieved 'for the first time,' which signifies a breakthrough or a successful advancement in research, aligning with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' rule."
+    },
+    "1903301699": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline explicitly mentions 'Iran war' as the reason for postponing the summit, which falls under the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule and signifies a catastrophic event."
+    },
+    "1903614054": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a method ('Carbon trading') that successfully achieves a desirable outcome ('cuts emissions') and is superior ('better than carbon taxes'), aligning with the 'SUCCESS' criteria of the hierarchy."
+    },
+    "1919180159": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline is a pure statement about the administrative location/deployment of military assets (minesweepers). It does not indicate an active conflict, crisis, success, or failure, but merely a factual update on their whereabouts."
+    },
+    "1927587442": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The phrase 'taking Cuba in some form' implies a forceful acquisition, intervention, or disruption to a sovereign nation, which falls under the critical hierarchy for 'WAR, CONFLICT, DISRUPTION, or CRISIS', making the sentiment negative."
+    },
+    "1930055091": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a scientific advancement ('sheds light on') which contributes to new understanding in cellular biology. This aligns with 'BREAKTHROUGH' or 'SUCCESS' in a research context."
+    },
+    "1933929058": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "A government shutdown is a major disruption and crisis in governance, indicating a failure to fund essential services and a lack of political compromise. The mention of 'still searching for compromise' and 'nears the month mark' reinforces the ongoing negative state."
+    },
+    "1939382509": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions a 'fuel crisis', which falls under the critical hierarchy rule 1 (DISRUPTION or CRISIS) and uses negative descriptors like 'unhelpful and unAustralian' regarding actions taken during this crisis."
+    },
+    "1967760272": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a significant potential positive outcome (cutting reliance on foreign fuel by 1bn litres/year) through the adoption of EVs, aligning with 'GROWTH' and 'SUCCESS' in terms of energy independence and economic benefit."
+    },
+    "2113514378": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline indicates a company is 'facing a growing number of lawsuits,' which represents a legal 'disruption' or 'crisis' for the entity, aligning with the negative classification criteria."
+    },
+    "2119986864": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline refers to 'Trade With China' during a period characterized by significant trade conflict and disruption (often termed a 'trade war') under the Trump administration. According to the critical hierarchy, 'disruption' or 'conflict' makes the sentiment 'NEGATIVE'. A 'more managed approach' describes an administrative strategy to deal with this existing negative situation, but it does not negate the underlying negative context."
+    },
+    "2137675940": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline addresses 'threats', which represent a potential disruption or crisis. While 'securing' is a proactive measure, the underlying context necessitating this action is the existence of these negative threats, aligning with the rule that an underlying state of conflict, disruption, or crisis results in a negative classification."
+    },
+    "2138762817": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions 'war' and the phrase 'haunt us long after this war ends,' which falls under the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule, indicating lasting negative consequences of conflict."
+    },
+    "-21669904": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline indicates a critical situation where a 'deal failing' is imminent, necessitating an 'urgent reboot' of talks to prevent a negative outcome. The underlying state described is one of potential failure, aligning with 'DISRUPTION' or 'CRISIS' in the hierarchy."
+    },
+    "-1996761353": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline directly mentions 'Iran war,' which signifies a state of conflict or crisis. According to Critical Hierarchy rule #1, any mention of 'WAR, CONFLICT, DISRUPTION, or CRISIS' always results in a 'NEGATIVE' or 'DISASTER' classification, even if actions like 'distancing' or 'ruling out' military involvement are mentioned, as the underlying state remains negative."
+    },
+    "-2050992549": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline reports Trump's dissatisfaction with the UK ('not happy') and his criticism of Starmer, which falls under the 'CONFLICT' or 'DISRUPTION' criteria of the critical hierarchy."
+    },
+    "-1793299826": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline explicitly mentions 'US-Iran war', which falls under the 'WAR' category of the critical hierarchy. A war of this nature implies catastrophic consequences, aligning with the 'DISASTER' classification."
+    },
+    "-1781294613": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline's core subject is the potential for a 'wider war in the Middle East,' which is explicitly defined as 'WAR, CONFLICT, DISRUPTION, or CRISIS' and is always 'NEGATIVE' or 'DISASTER' according to critical hierarchy rule 1. Even though the UK is stated to avoid involvement, the underlying context of war makes the sentiment negative."
+    },
+    "-752949929": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline is a pure statement about a political figure (Keir Starmer) not making a specific comment today, with a possibility of doing so in the future. It is a commentary on a political non-event or deferral, which fits the 'ADMINISTRATIVE, SCHEDULING, or PURE STATEMENTS' criteria for NEUTRAL, as it does not describe a war, conflict, growth, breakthrough, or any inherently positive or negative event."
+    },
+    "-972691660": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly uses the term 'culture war,' which denotes conflict and disruption, falling under the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule."
+    },
+    "-1077709253": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions 'Iran conflict,' which is a security threat/crisis. Additionally, it states Trump is 'not happy,' indicating dissatisfaction. Both factors contribute to a negative sentiment."
+    },
+    "-1526674662": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline directly references 'war' and 'Trump barbs,' both indicating conflict and falling under the critical hierarchy's rule 1 (WAR, CONFLICT, DISRUPTION, or CRISIS = ALWAYS 'NEGATIVE' or 'DISASTER'). The focus on political judgment on war and criticism makes 'NEGATIVE' the appropriate classification."
+    },
+    "-396652368": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline reports on the administrative progress of a legislative debate reaching its final stages before a vote, which is a procedural and scheduling statement."
+    },
+    "-464710332": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline indicates a political warning and significant opposition (more than 100 MPs) to Starmer regarding a bill, implying internal disruption or conflict within the party, which falls under the 'DISRUPTION' aspect of Rule 1."
+    },
+    "-67027190": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "A call for a tax investigation implies scrutiny, potential wrongdoing, and negative implications for the individual and party involved, classifying it as a disruption or negative event."
+    },
+    "-613118969": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline reports a factual legal action: a judge blocking a government initiative. This falls under administrative/pure statements. The phrase 'slimming down vaccine recommendations' is ambiguous in its universal sentiment, as some may view it positively and others negatively. Therefore, the act of 'blocking' it does not lend a definitive positive or negative sentiment to the headline itself without taking a specific political stance. The 'disruption' criteria for 'NEGATIVE' or 'DISASTER' is reserved for severe events like war, conflict, or security threats, which is not applicable here."
+    },
+    "-12639727": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes leaders making 'concessions' to 'appease' another party and 'ensure political survival,' which indicates an underlying state of political pressure, conflict, or disruption, fitting the first critical hierarchy rule."
+    },
+    "-1200256487": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline reports that economic growth 'slowed sharply', indicating a negative trend in economic performance, which is contrary to 'GROWTH' being a positive event as per the hierarchy."
+    },
+    "-1495338157": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline is a pure descriptive statement about a candidate's heritage influencing their political bid. It does not contain elements of conflict, crisis, growth, success, or strong emotional language, thus falling under the 'PURE STATEMENTS' category."
+    },
+    "-1032732978": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions 'Iran war', which falls under the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule. The presence of 'war' signifies a negative underlying state, even though the statement is about non-involvement."
+    },
+    "-731172814": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline refers to a 'partial government shutdown,' which is a significant disruption to governmental functions and services, qualifying as a negative event or crisis."
+    },
+    "-1164020880": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline indicates children's well-being is negatively affected by political conflict ('caught in the political crossfire'), which falls under the 'CONFLICT, DISRUPTION' criteria for 'NEGATIVE'."
+    },
+    "-1182195015": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline alleges a chatbot created sexual images of minors, which represents a severe crisis and a profound societal harm, falling under the 'DISASTER' category due to the nature of the alleged content and its legal implications."
+    },
+    "-596688385": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline includes 'backbench rebellion,' which constitutes a political conflict and disruption. According to Critical Hierarchy Rule 1, 'WAR, CONFLICT, DISRUPTION, or CRISIS = ALWAYS 'NEGATIVE' or 'DISASTER',' making the sentiment NEGATIVE, even though the government ultimately overcame the rebellion."
+    },
+    "-1487969001": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline is an administrative or scheduling statement, indicating a date for an event called 'It's Your Call' without any positive or negative emotional indicators."
+    },
+    "-207749795": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "A prominent figure in finance is questioning existing valuations and stating 'All the marks are wrong,' indicating a perceived problem or impending correction in a market sector, which constitutes a financial disruption or a negative assessment of market conditions."
+    },
+    "-2044356536": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline describes an administrative document (an analyst report) for a company, which is a pure statement of fact and does not convey inherent positive, negative, or crisis sentiment."
+    },
+    "-474811972": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline is a pure statement announcing a market update for specific companies, with no inherent positive or negative sentiment expressed. It falls under the 'ADMINISTRATIVE, SCHEDULING, or PURE STATEMENTS' category."
+    },
+    "-634549593": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly states personal worry ('I’m worried') and concern about hospitals being 'under stress,' indicating a negative sentiment regarding a potential situation."
+    },
+    "-1225531194": {
+      "sentiment": "EUPHORIC",
+      "reasoning": "The headline describes a significant financial gain of $2 billion for Berkshire Hathaway, characterized as a 'parting gift' and a 'windfall'. This indicates a major, unexpected financial success and growth for the company, aligning with the 'SUCCESS' criteria for 'POSITIVE' or 'EUPHORIC' classification. The terms 'gift' and 'windfall' combined with the large sum suggest an overwhelmingly positive and highly beneficial event."
+    },
+    "-1480127068": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline expresses an individual's dire financial and emotional crisis due to overwhelming caregiving and education costs, explicitly stating 'I’m so screwed.' This constitutes a personal 'CRISIS' as per critical hierarchy rule 1."
+    },
+    "-843682180": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions 'Iran conflict' and 'investors worry about inflation,' which are clear indicators of disruption and negative sentiment, aligning with Critical Hierarchy 1 regarding war, conflict, and crisis."
+    },
+    "-1950194356": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes Nvidia adding major automakers (Hyundai, BYD) to its self-driving tech business, which signifies growth, expansion, and success for the company. This aligns with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' rule."
+    },
+    "-1369047104": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a company 'launching' new products and 'accelerating commercial strategy,' which signifies growth and success, aligning with the 'POSITIVE' or 'EUPHORIC' classification under the provided hierarchy."
+    },
+    "-1809563738": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline indicates CBS may pay an 'extra $1 billion or more,' highlighting a significant increased expenditure for the company. While securing media rights can be strategic, the focus on 'extra payment' signifies a large financial burden or cost, which is a negative financial event for the payer."
+    },
+    "-1956369528": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes Iran earning an oil windfall due to the US 'turning a blind eye,' which implies a failure or disruption in the enforcement of US sanctions policy. This undermining of policy to constrain an adversarial nation in a context of geopolitical conflict is classified as a 'DISRUPTION' under Rule 1, making the sentiment NEGATIVE."
+    },
+    "-879619962": {
+      "sentiment": "EUPHORIC",
+      "reasoning": "The headline predicts an immense $1 trillion in AI chip revenue, which signifies massive growth and financial success, aligning with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' rule and indicating an extremely optimistic outlook."
+    },
+    "-955702399": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline describes an administrative consideration by the SEC regarding the frequency of earnings reports, which falls under administrative/scheduling changes."
+    },
+    "-1121020897": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a company building a new technological layer for wearables and robotics, indicating innovation and development, which aligns with 'GROWTH' and 'BREAKTHROUGH' in the critical hierarchy."
+    },
+    "-322290112": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a business acquisition by Apple, which signifies growth and strategic success for the company."
+    },
+    "-1024017713": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline reports a lawsuit against an AI company for its product generating 'CSAM' (Child Sexual Abuse Material). The involvement of CSAM signifies an extreme ethical and legal crisis, representing a catastrophic failure of the AI system and a major disruption for the company."
+    },
+    "-1611380270": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a startup achieving 'unicorn' status with a valuation of $1.64B, which represents significant financial success and growth, aligning with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' criteria."
+    },
+    "-1711684364": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes the launch of a new product from Apple, which signifies business activity, innovation, and potential sales, aligning with the 'SUCCESS' criteria."
+    },
+    "-280836867": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline reports an IPO being 'shelved' (a negative action) due to 'global tensions rattling markets,' which signifies disruption and crisis under Critical Hierarchy Rule 1."
+    },
+    "-1062477825": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The phrase 'now some want out' indicates a disruption of an earlier promise or agreement, suggesting a failure to uphold commitments or a breakdown in solidarity, which is a negative development."
+    },
+    "-1638544153": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline announces a significant discount (nearly 50 percent off) on consumer products, which is a positive event for potential buyers."
+    },
+    "-138355502": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a potential technological breakthrough ('robot') involving a popular character ('Olaf' from 'Frozen') that suggests a positive future for 'Disney Parks'. This aligns with the 'GROWTH, BREAKTHROUGH, or SUCCESS' criterion."
+    },
+    "-634224349": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes the enjoyable and exciting experience of driving a high-value, high-performance Porsche race car, which is an inherently positive activity."
+    },
+    "-1058700272": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline is a factual, historical inquiry about the location of an object. It does not describe any conflict, crisis, growth, breakthrough, or recovery, nor does it have an inherent positive or negative emotional charge."
+    },
+    "-1931410567": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly states 'No accountability' and describes legislative action that would prevent legal redress for climate change, which is a significant negative disruption regarding responsibility for a major crisis."
+    },
+    "-643646761": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The mention of advanced technology (OpenAI) potentially showing up in Iran raises geopolitical concerns about dual-use technology, potential misuse, or circumvention of international sanctions, aligning with 'disruption' or 'conflict' under the critical hierarchy."
+    },
+    "-18453617": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes the nurturing and advancement ('beyond the toddler stage') of agentic AI, which indicates growth and progress, aligning with the 'GROWTH, BREAKTHROUGH' criteria."
+    },
+    "-758656398": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes major platforms allowing 'harmful content' to 'rise' due to 'outrage' driving engagement, as reported by whistleblowers. This indicates a significant failure and negative impact, fitting the 'DISRUPTION' or 'CRISIS' criteria under the 'NEGATIVE' bucket, rather than an administrative statement or a positive event."
+    },
+    "-119945176": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline describes an attack ('hits') by Iran on critical infrastructure (key UAE oil port and Dubai airport), which constitutes a severe act of conflict and disruption, fitting the criteria for a disaster."
+    },
+    "-1683036249": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline reports allegations of ongoing torture, which constitutes a severe human rights crisis and disruption. As per the critical hierarchy, 'DISRUPTION' or 'CRISIS' is always classified as 'NEGATIVE' or 'DISASTER'."
+    },
+    "-1261324052": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline refers to the 'Ukraine conflict,' which is explicitly categorized as 'WAR, CONFLICT, DISRUPTION, or CRISIS' under Critical Hierarchy Rule 1, making the sentiment 'NEGATIVE' or 'DISASTER'. Even though Russia 'agrees to stop using Kenyan recruits,' which is a positive action, the underlying state of conflict remains negative as per the rule: 'Even if \"aid\" or \"talks\" are mentioned, the underlying state is negative.'"
+    },
+    "-2034437946": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline describes a catastrophic event involving a hospital fire and the death of ten vulnerable ICU patients, which is a major crisis and severe disruption, classifying it as a DISASTER."
+    },
+    "-154930375": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline explicitly mentions 'Iran war', which falls under the critical hierarchy rule 'WAR, CONFLICT, DISRUPTION, or CRISIS = ALWAYS 'NEGATIVE' or 'DISASTER''. A 'war' is a catastrophic event, justifying the 'DISASTER' classification."
+    },
+    "-344837969": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "An erupting volcano is a natural disruption and crisis. Lava is inherently dangerous, making the event and the act of getting close to it negative."
+    },
+    "-749496183": {
+      "sentiment": "EUPHORIC",
+      "reasoning": "The headline clearly states 'Mexico City breaks Guinness Record', which is a significant and celebratory success, indicating an overwhelmingly positive achievement."
+    },
+    "-1627614563": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline reports the 'collapse' of an electrical grid, a critical infrastructure, which is a severe disruption and crisis for a nation, further indicating 'disruption' and 'conflict' with the mention of an 'oil blockade'."
+    },
+    "-433282683": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions 'Iran war', which falls under the critical hierarchy rule 'WAR, CONFLICT, DISRUPTION, or CRISIS = ALWAYS NEGATIVE or DISASTER'."
+    },
+    "-1288302106": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline presents a contrast where an initial 'fail at sport' is overshadowed by a 'surprise with teamwork' that resulted in a 'viral video', indicating a positive outcome and widespread recognition for an unexpected good quality. This aligns with Rule 2 (SUCCESS)."
+    },
+    "-996084247": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes a severe threat to human life ('family members could be killed'), which constitutes a major crisis or disruption, fitting the 'NEGATIVE' classification as per the critical hierarchy."
+    },
+    "-2082556345": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes a 'takeover battle' that 'hots up' with an 'unfriendly attack,' indicating conflict and disruption in a corporate context, aligning with the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule."
+    },
+    "-275763481": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline explicitly states 'Iran war' and reports 'at least 200 American troops wounded', which falls under the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule, specifically indicating a disastrous outcome with significant casualties."
+    },
+    "-114816573": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes the potential encouragement of 'attacks,' which falls under conflict and disruption as per Critical Hierarchy Rule 1."
+    },
+    "-2043404004": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline references a 'call for help' concerning the Strait of Hormuz, which is explicitly listed as an example of a security threat/war zone context. The need for 'help' signifies an underlying disruption or crisis, aligning with the 'NEGATIVE' classification under the critical hierarchy."
+    },
+    "-167704798": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes a country implementing a four-day week to conserve oil and gas, explicitly stating the scarcity is 'hit by Iran war.' This indicates a severe disruption and crisis caused by conflict, aligning with the rule 'WAR, CONFLICT, DISRUPTION, or CRISIS = ALWAYS 'NEGATIVE' or 'DISASTER'.'"
+    },
+    "-330788732": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline reports an accusation of a 'deadly strike' on a 'Kabul hospital,' signifying conflict, loss of life, and a severe crisis, which falls under the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule and implies a catastrophic event."
+    },
+    "-1276241823": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline presents a finding that a potential treatment ('Cannabis') is 'not an effective treatment' for common mental health conditions, which is a negative outcome for those seeking solutions for these conditions."
+    },
+    "-1936563107": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline describes a meningitis outbreak resulting in deaths and multiple hospitalizations, which constitutes a severe public health crisis and tragic loss of life."
+    },
+    "-1374430119": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline reports the 'release from ICE detention' of an individual. Being released from detention is a positive development, signifying freedom and the end of a restrictive state, which aligns with 'recovery' or 'success' under the critical hierarchy."
+    },
+    "-275337816": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions 'wars', which triggers the critical hierarchy rule stating that WAR, CONFLICT, DISRUPTION, or CRISIS are ALWAYS 'NEGATIVE' or 'DISASTER'."
+    },
+    "-1338316353": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline warns of an 'almost suicidal' act involving the use of 'force' in the Strait of Hormuz, directly indicating a potential for catastrophic conflict and self-destruction, fitting the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule."
+    },
+    "-1030832810": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline reports multiple fatalities and injuries from blasts, indicating a severe crisis and human suffering, which falls under DISASTER."
+    },
+    "-1063596845": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline reports a hotel being struck and attacks on the US embassy, indicating a clear security threat, conflict, and disruption in the Iraqi capital, which falls under the 'NEGATIVE' classification according to the critical hierarchy."
+    },
+    "-543135142": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline discusses 'strikes on Iran' (conflict/disruption) and the prevention of 'nuclear war' (a severe crisis). According to the critical hierarchy, any mention of war, conflict, disruption, or crisis, even with an implied positive outcome like prevention, always results in a 'NEGATIVE' or 'DISASTER' sentiment. Since a nuclear war was reportedly prevented, it's not an active disaster, but the underlying context of military action and the threat of such a catastrophic event is inherently negative."
+    },
+    "-378459916": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline describes an 'island-wide power crisis', which is an explicit crisis causing widespread disruption and hardship. This is coupled with a threat to 'take' Cuba, indicating potential conflict or severe political disruption. Both elements are highly severe and combine to paint a picture of an unfolding disaster and potential catastrophe, aligning with the 'CRISIS' and 'CONFLICT' criteria for 'NEGATIVE' or 'DISASTER'."
+    },
+    "-1806458225": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly uses the word 'problem' and references the 'Strait of Hormuz,' which the instructions categorize as a location associated with security threats or conflict, leading to a NEGATIVE classification."
+    },
+    "-2143179462": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline announces a 'ground operation' by military forces in a conflict zone, representing a severe escalation of war and conflict, which falls under the 'DISASTER' category due to the implication of immediate and potentially catastrophic consequences."
+    },
+    "-685849039": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes farmers taking action to 'protect crops' from monkeys, indicating an existing threat or disruption to their livelihood and agricultural production, which falls under the 'DISRUPTION' or 'CRISIS' criteria for farmers."
+    },
+    "-1661896702": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline describes military strikes ('US-Israeli strikes on Tehran') leading to severe consequences ('Civilians pulled from rubble'), which indicates a major conflict, destruction, and harm to civilians. This aligns with the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule, specifically pointing to a catastrophic event."
+    },
+    "-242415996": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a significant and intriguing scientific observation ('strange twist') that 'may be bigger than we thought'. This language suggests a potential breakthrough or a greater understanding of the universe, which aligns with 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' in the critical hierarchy."
+    },
+    "-721897892": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes the appearance of a 'new quantum state,' which signifies a scientific discovery or breakthrough in understanding. Such advancements are generally considered positive."
+    },
+    "-1505178185": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a method ('specially designed music') that could 'significantly reduce anxiety', which is a beneficial outcome related to well-being and recovery from a negative state."
+    },
+    "-235105257": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a scientific discovery ('Scientists discover'), which falls under the 'BREAKTHROUGH' or 'SUCCESS' criteria, indicating a positive development in understanding."
+    },
+    "-2002036258": {
+      "sentiment": "EUPHORIC",
+      "reasoning": "The headline describes a monumental medical breakthrough where cancer vanishes across the body due to a single injection, representing an extremely positive and significant success in combating a deadly disease."
+    },
+    "-1161139737": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a scientific breakthrough in medical technology ('create a cancer flashlight') designed to aid in the detection of tumors ('lights up tumors'), which is a positive development for health and aligns with the 'BREAKTHROUGH' criteria."
+    },
+    "-246023401": {
+      "sentiment": "NEUTRAL",
+      "reasoning": "The headline is purely informative, announcing a natural season ('coyote puppy season') and offering related information. It does not contain elements of conflict, growth, crisis, or explicit positivity/negativity, fitting the 'ADMINISTRATIVE, SCHEDULING, or PURE STATEMENTS' criteria."
+    },
+    "-1985489570": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The term 'milestone' signifies a significant and positive achievement or breakthrough, aligning with the 'GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS' criteria for a positive sentiment."
+    },
+    "-664912911": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a successful method that 'balances flavor and nutritional value' in Amazonian chocolate, indicating a positive outcome and improvement."
+    },
+    "-1415357117": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline reveals new research about animal social behavior, which is a positive discovery and breakthrough in scientific understanding."
+    },
+    "-335289222": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a scientific endeavor focused on improving understanding ('better understand the stars'), which represents growth in knowledge and a positive development in research."
+    },
+    "-1522927040": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline 'Life, but not as we know it' implies a significant change or disruption to the familiar and established order of life. This deviation from the norm often carries a connotation of challenge, uncertainty, or loss of what was known, aligning with the 'DISRUPTION' aspect of the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule, thus classifying it as NEGATIVE."
+    },
+    "-1827611831": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a 'new study' that 'offers insight,' indicating a growth in knowledge and scientific understanding, aligning with the 'GROWTH' or 'BREAKTHROUGH' criteria for a POSITIVE sentiment."
+    },
+    "-377289531": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a scientific discovery about the remarkable ability of microbes to 'survive' extreme conditions ('freezing and dark winter') by a novel mechanism ('living on air'). This signifies a breakthrough in understanding life's resilience and adaptations, aligning with the 'BREAKTHROUGH' or 'SUCCESS' criteria under POSITIVE."
+    },
+    "-24267244": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a scientific breakthrough – the development of a hydrogel that mimics human tissue for improved cell studies, indicating progress and success in research."
+    },
+    "-516407351": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes a scientific development that 'could selectively recognize chiral biomolecules to help detect certain diseases,' indicating a potential breakthrough or success in medical diagnostics and offering a beneficial future application."
+    }
+  }
+}
