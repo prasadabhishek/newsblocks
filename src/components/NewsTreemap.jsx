@@ -59,13 +59,14 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
     }, [data]);
 
     useEffect(() => {
-        if (selectedStory && root) {
+        if (selectedStory && root && svgRef.current) {
             const node = root.leaves().find(d => d.data.slug === selectedStory.slug);
             if (node) {
+                const rect = svgRef.current.getBoundingClientRect();
                 setTooltip({
                     visible: true,
-                    x: node.x0 + (node.x1 - node.x0) / 2,
-                    y: node.y0 + (node.y1 - node.y0) / 2,
+                    x: rect.left + node.x0 + (node.x1 - node.x0) / 2,
+                    y: rect.top + node.y0 + (node.y1 - node.y0) / 2,
                     content: node.data,
                     locked: true
                 });
@@ -277,8 +278,8 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
         pointerEvents: tooltip.locked || isMobile ? 'auto' : 'none',
         transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
         fontFamily: "'Inter', sans-serif",
-        left: isMobile ? '0' : `${tooltip.x + 340 > window.innerWidth ? tooltip.x - 335 : tooltip.x + 15}px`,
-        top: isMobile ? 'auto' : `${tooltip.y + 400 > window.innerHeight ? Math.max(10, tooltip.y - 410) : tooltip.y + 15}px`,
+        left: isMobile ? '0' : (tooltip.x + 360 > window.innerWidth ? `${tooltip.x - 340}px` : `${tooltip.x + 20}px`),
+        top: isMobile ? 'auto' : (tooltip.y + 420 > window.innerHeight ? `${Math.max(10, tooltip.y - 420)}px` : `${tooltip.y + 20}px`),
         bottom: isMobile ? (tooltip.visible ? '0' : '-100%') : 'auto',
         width: isMobile ? '100%' : '320px',
         maxHeight: isMobile ? '70vh' : '420px',
