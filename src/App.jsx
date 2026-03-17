@@ -122,7 +122,8 @@ function App() {
             day: 'numeric',
             hour: 'numeric',
             minute: '2-digit',
-            hour12: true
+            hour12: true,
+            timeZoneName: 'short'
           }).toUpperCase() : 'JUST NOW'}</span>
         </div>
 
