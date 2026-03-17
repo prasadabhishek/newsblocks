@@ -278,13 +278,15 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
         pointerEvents: tooltip.locked || isMobile ? 'auto' : 'none',
         transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
         fontFamily: "'Inter', sans-serif",
-        left: isMobile ? '0' : (tooltip.x + 360 > window.innerWidth ? `${tooltip.x - 340}px` : `${tooltip.x + 20}px`),
-        top: isMobile ? 'auto' : (tooltip.y + 420 > window.innerHeight ? `${Math.max(10, tooltip.y - 420)}px` : `${tooltip.y + 20}px`),
+        left: isMobile ? '0' : `${tooltip.x}px`,
+        top: isMobile ? 'auto' : `${tooltip.y}px`,
         bottom: isMobile ? (tooltip.visible ? '0' : '-100%') : 'auto',
         width: isMobile ? '100%' : '320px',
         maxHeight: isMobile ? '70vh' : '420px',
         opacity: tooltip.visible ? 1 : 0,
-        transform: !isMobile && !tooltip.visible ? 'scale(0.95)' : 'none',
+        transform: isMobile
+            ? 'none'
+            : `translate(${tooltip.x + 360 > window.innerWidth ? '-105%' : '15%'}, ${tooltip.y + 400 > window.innerHeight ? '-105%' : '15%'}) scale(${tooltip.visible ? 1 : 0.95})`,
         overflowY: 'auto',
         boxSizing: 'border-box'
     };
