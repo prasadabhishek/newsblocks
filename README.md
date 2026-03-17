@@ -1,73 +1,70 @@
-# 📰 NewsBlocks | Visual News Sentiment
+# 📰 NewsBlocks
 
 [![Update News Map Data](https://github.com/prasadabhishek/newsblocks/actions/workflows/update-news.yml/badge.svg)](https://github.com/prasadabhishek/newsblocks/actions/workflows/update-news.yml)
 [![Live Site](https://img.shields.io/badge/Live-newsblocks.org-blue)](https://newsblocks.org)
 
-**NewsBlocks** is a real-time, AI-powered news sentiment visualizer. It aggregates global headlines from elite journalistic sources, clusters them into semantic story-arcs using high-dimensional embeddings, and projects them into a dynamic, interactive treemap.
+NewsBlocks is a simple, visual way to see global news. It gathers headlines from major publishers, groups them into related stories using AI, and displays them as a treemap.
 
 ![NewsBlocks Screenshot](public/screenshot.png)
 
-## 🌐 The V3 Upgrade: Performance & Discoverability
+## How it Works
 
-The V3 milestone transforms NewsBlocks from a local interactive tool into a search-engine-optimized, high-gravity news platform.
+The app runs on an automated pipeline that updates every 8 hours:
 
-### 🔗 Deep Linking & SPA Routing
-- **Semantic Slugs:** The pipeline automatically generates human-readable URLs for every story (e.g., `/story/nvidia-shares-surge`).
-- **State Restoration:** Refreshing a specific story URL restores the exact treemap state and reopens the relative tooltip.
-- **History Support:** Full support for browser `Back` and `Forward` buttons.
+1.  **Gather:** Scrapes RSS feeds from trusted sources (BBC, Reuters, Al Jazeera, etc.).
+2.  **Filter:** Removes non-news content like podcasts, editorial guides, and pricing alerts.
+3.  **Group:** Uses AI embeddings to cluster similar headlines into a single "story."
+4.  **Score:** Gemini AI analyzes each story for sentiment (positive/negative) and relevance.
+5.  **Clean:** If a story only has one source, it's dropped unless it comes from an elite publisher or has a high relevance score.
+6.  **Deploy:** Updates the dashboard and generates static search-engine-friendly pages for every story.
 
-### 🔍 SEO Content Powerhouse
-- **Shadow Pages:** Automated generation of 200+ indexable HTML files for every story.
-- **Sitemap:** Dynamic `sitemap.xml` updated every 8 hours.
-- **Meta Tags:** Each story page includes unique Open Graph and Twitter tags for social sharing.
-- **Branded Referrals:** All outgoing news links include `utm_source=newsblocks.org` to build referral authority with publishers.
+### The News Pipeline
 
-### ⚡ Performance Overhaul
-- **Forced Reflow Mitigation:** Moved all text measurement to an off-screen Canvas, eliminating the 100ms lag during window resizes.
-- **Font Optimization:** Implemented preloading and font-display strategies to fix render-blocking delays.
-- **Safari Cross-Browser Fix:** Resolved SVG clipping issues with baseline-relative text positioning.
+```mermaid
+graph TD
+    A[RSS Feeds] -->|Scrape| B(Filter out noise)
+    B -->|Clean Headlines| C(Group stories with AI)
+    C -->|Story Clusters| D(Score Sentiment & Relevance)
+    D --> E{Smart Signal Gate}
+    
+    E -->|Elite Source| F[✅ Keep]
+    E -->|Multiple Sources| F
+    E -->|High Importance| F
+    E -->|Single Source Noise| G[❌ Drop]
+    
+    F --> H[Update Dashboard]
+    F --> I[Generate SEO Pages]
+```
 
-## 🛠️ Tech Stack
+## Setup & Running Locally
 
-- **Frontend:** React 19, Vite, D3.js (Advanced `.join()` transitions)
-- **Styling:** Vanilla CSS with custom design tokens.
-- **AI Engine:** Google Gemini 2.5 Flash + Google Embeddings.
-- **SEO:** Automated 200+ Shadow Pages + Sitemap Generation.
-- **Automation:** GitHub Actions (Running every 8 hours).
-- **Deployment:** Cloudflare Pages (Automatic production builds).
+### 1. Requirements
+- Node.js (v18+)
+- A [Gemini API Key](https://aistudio.google.com/app/apikey)
 
-## 🏃‍♂️ Running Locally
+### 2. Install
+```bash
+git clone https://github.com/prasadabhishek/newsblocks.git
+cd newsblocks
+npm install
+```
 
-1. **Clone the repo:**
-   ```bash
-   git clone https://github.com/prasadabhishek/newsblocks.git
-   cd newsblocks
-   ```
+### 3. Configure
+Create a `.env` file in the root directory:
+```env
+GEMINI_API_KEY=your_key_here
+```
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+### 4. Run
+- **Development Server:** `npm run dev` (View at http://localhost:5173)
+- **Data Update:** `node scripts/gather-news.js` (Manually run the news scraper)
+- **Tests:** `npm run test` (Run the unit tests)
 
-3. **Set up Environment Variables:**
-   Create a `.env` file in the root:
-   ```env
-   GEMINI_API_KEY=your_api_key_here
-   ```
-
-4. **Run the pipeline (optional):**
-   ```bash
-   node scripts/gather-news.js
-   ```
-
-5. **Start the dev server:**
-   ```bash
-   npm run dev
-   ```
-
-## 🛡️ Security & Privacy
-- **No Tracking:** NewsBlocks uses Cloudflare's privacy-first web analytics (No cookies, no GDPR banners needed).
-- **Static First:** The site is served as a static asset. All AI processing happens in the background via secure GitHub Action runners, never exposing API keys to the client.
+## Built With
+- **Frontend:** React + D3.js
+- **AI:** Google Gemini (Sentiment & Relevance)
+- **Persistence:** Local JSON caching (improves speed and saves API costs)
+- **Hosting:** Cloudflare Pages + GitHub Actions
 
 ---
-Made with ❤️ by [Abhishek Prasad](https://www.linkedin.com/in/abhishekaprasad/)
+[Abhishek Prasad](https://www.linkedin.com/in/abhishekaprasad/)

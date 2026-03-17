@@ -25,6 +25,19 @@ export class Pipeline {
             for (const c of clusters) {
                 const scored = await this.scoring.calculateScores(c);
                 if (scored) {
+                    // --- V4 SMART CONSENSUS GATE ---
+                    const hasConsensus = scored.citationCount > 1;
+                    const isTier1 = scored.rawArticles.some(a => a.tier === 1);
+                    const isHighRelevance = (scored.relevance_score || 0) >= 7;
+
+                    // 1. Always keep Tier 1 stories (Elite publishers are high-signal by default)
+                    // 2. Keep Tier 2 stories ONLY if they have consensus OR high relevance.
+                    if (!isTier1 && !hasConsensus && !isHighRelevance) {
+                        console.log(`  └─ Dropping low-signal Tier 2 story: ${scored.representativeTitle.substring(0, 50)}...`);
+                        continue;
+                    }
+                    // --------------------------
+
                     const titleHash = scored.representativeTitle.toLowerCase().trim();
 
                     if (seenStoryHashes.has(titleHash)) {

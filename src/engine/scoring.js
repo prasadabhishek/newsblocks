@@ -16,7 +16,9 @@ export class ScoringEngine {
             return null;
         }
 
-        let sentimentStr = await AI.analyzeSentiment(cluster.representativeTitle);
+        const aiResult = await AI.analyzeSentiment(cluster.representativeTitle);
+        let sentimentStr = aiResult ? aiResult.sentiment : null;
+        const relevance = aiResult ? aiResult.relevance : 5;
 
         if (!sentimentStr || !['DISASTER', 'NEGATIVE', 'NEUTRAL', 'POSITIVE', 'EUPHORIC'].includes(sentimentStr.toUpperCase())) {
             let heuristicScore = this.analyzeSentiment(cluster.representativeTitle);
@@ -32,7 +34,8 @@ export class ScoringEngine {
         return {
             ...cluster,
             sentiment: bucketMap[sentimentStr.toUpperCase()] || 0,
-            importance: this.calculateImportance(cluster)
+            relevance_score: relevance,
+            importance: this.calculateImportance({ ...cluster, relevance_score: relevance })
         };
     }
 
@@ -64,33 +67,47 @@ export class ScoringEngine {
     }
 
     calculateImportance(cluster) {
-        // Formula: Log-weighted citation count + bonus for variety of sources
-        const base = Math.log2(cluster.citationCount + 1) * 30; // 1 cite = 30, 3 cites = 60, etc
+        // 1. Base Relevance from AI (Scaled 0-50)
+        const relevanceBase = (cluster.relevance_score || 5) * 5;
+
+        // 2. Source Power (Elite sources provide high signal)
+        const tier1Count = (cluster.rawArticles || []).filter(a => a.tier === 1).length;
+        const tierBonus = tier1Count * 10;
+
+        // 3. Citation Velocity (Variety of sources)
         const sourceVariety = new Set(cluster.sources).size * 5;
 
-        return Math.min(100, Math.floor(base + sourceVariety));
+        const total = Math.floor(relevanceBase + tierBonus + sourceVariety);
+
+        // Clamp between 10 and 100
+        return Math.max(10, Math.min(100, total));
     }
 
     /**
-     * Editorial filter to drop promotional or generic content.
+     * Editorial filter to drop promotional, niche listicles, or generic service content.
      */
     isHardNews(title) {
         const t = title.toLowerCase();
 
-        // Promotional/Advice "Red Flags"
+        // High-confidence Ref Flags for V4
         const redFlags = [
-            'picks', 'best stocks', 'to buy', 'how to', 'top funds', 'top 2', 'top 5',
+            'ticker:', 'price alert', 'stock update', 'how to buy', 'where to watch', 'live stream',
+            'picks', 'best stocks', 'to buy', 'how to', 'top funds', 'top 2', 'top 5', 'top 10',
             'should you', 'recommends', 'outlook', 'prediction', 'market roundup',
-            'morning brief', 'daily brief', 'newsletter', 'explained'
+            'morning brief', 'daily brief', 'newsletter', 'explained', 'checklist',
+            'reasons why', 'gift ideas', 'buying guide', 'where to watch', 'live stream',
+            'podcast', 'analysis:', 'opinion:', 'video:', 'watch now', 'inside story'
         ];
 
         if (redFlags.some(flag => t.includes(flag))) {
             return false;
         }
 
+        // Question marks often imply discussion/features rather than events
+        if (t.includes('?')) return false;
+
         // Must look like an event (has a verb or clear entity action)
-        // This is a soft check, often articles with punctuation like ":" or " - " are reports too
-        if (t.split(' ').length < 3) return false;
+        if (t.split(' ').length < 4) return false;
 
         return true;
     }

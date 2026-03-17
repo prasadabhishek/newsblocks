@@ -55,21 +55,41 @@ export const AI = {
             return null;
         }
 
+        const hashes = headlines.map(h => hashString(h));
+        const results = new Array(headlines.length).fill(null);
+        const missingIndices = [];
+
+        // 1. Check Cache
+        hashes.forEach((hash, i) => {
+            const cached = Cache.getEmbedding(hash);
+            if (cached) results[i] = cached;
+            else missingIndices.push(i);
+        });
+
+        if (missingIndices.length === 0) return results;
+
         try {
             const model = genAI.getGenerativeModel({ model: MODELS.EMBEDDING });
+            const missingHeadlines = missingIndices.map(i => headlines[i]);
 
-            const requests = headlines.map(h => ({
+            const requests = missingHeadlines.map(h => ({
                 content: { parts: [{ text: h }] }
             }));
 
             // Pacing for free tier
             await sleep(500);
 
-            console.log(`AI: Fetching embeddings for ${headlines.length} headlines in one batch...`);
+            console.log(`AI: Fetching embeddings for ${missingHeadlines.length} NEW headlines...`);
             const result = await retry(() => model.batchEmbedContents({ requests }), 2, 20000);
 
             if (result && result.embeddings) {
-                return result.embeddings.map(e => e.values);
+                result.embeddings.forEach((e, i) => {
+                    const originalIndex = missingIndices[i];
+                    const val = e.values;
+                    results[originalIndex] = val;
+                    Cache.setEmbedding(hashes[originalIndex], val);
+                });
+                return results;
             }
             return null;
         } catch (e) {
@@ -86,23 +106,27 @@ export const AI = {
 
         const hash = hashString(headline);
         const cached = Cache.getInference(hash);
-        // Note: checking specifically for the new string-based sentiment 
-        // to naturally bust the old float-based cache
-        if (cached && typeof cached.sentiment === 'string') return cached.sentiment;
+        // Requirement: Must have both sentiment and the new relevance score
+        if (cached && cached.sentiment && typeof cached.relevance === 'number') {
+            return { sentiment: cached.sentiment, relevance: cached.relevance };
+        }
 
         const prompt = `
-      Analyze the sentiment of this headline and classify it exactly into one of these buckets:
-      ["DISASTER", "NEGATIVE", "NEUTRAL", "POSITIVE", "EUPHORIC"]
+      Analyze this news headline for a high-signal news dashboard.
       
-      CRITICAL HIERARCHY:
-      1. WAR, CONFLICT, DISRUPTION, or CRISIS = ALWAYS "NEGATIVE" or "DISASTER". Even if "aid" or "talks" are mentioned, the underlying state is negative.
-      2. GROWTH, BREAKTHROUGH, RECOVERY, or SUCCESS = "POSITIVE" or "EUPHORIC".
-      3. ADMINISTRATIVE, SCHEDULING, or PURE STATEMENTS = "NEUTRAL".
-
-      Step 1: Identify key events. If it involves a security threat or a war zone (e.g. Hormuz, Gaza, Ukraine), it is NEGATIVE.
-      Step 2: Output ONLY a JSON object: { "sentiment": "NEGATIVE", "reasoning": "brief string" }
-
       Headline: "${headline}"
+
+      Return a JSON object with:
+      1. "sentiment": Classify exactly into ["DISASTER", "NEGATIVE", "NEUTRAL", "POSITIVE", "EUPHORIC"].
+         - WAR, CONFLICT, CRISIS = DISASTER or NEGATIVE.
+         - SUCCESS, BREAKTHROUGH, RECOVERY = POSITIVE or EUPHORIC.
+      2. "relevance": A score from 1 to 10 based on GLOBAL or REGIONAL significance.
+         - 10: World-changing event (War, Global Election, Pandemic).
+         - 5-7: Major corporate news, significant policy changes, regional crises.
+         - 1-3: Niche news, stock tickers, routine announcements.
+      3. "reasoning": Brief 1-sentence explanation.
+
+      Output ONLY JSON.
     `;
 
         try {
@@ -112,9 +136,12 @@ export const AI = {
             if (!json || !json.sentiment) return null;
 
             const sentiment = json.sentiment.toUpperCase();
+            const relevance = Number(json.relevance) || 5;
+
             if (["DISASTER", "NEGATIVE", "NEUTRAL", "POSITIVE", "EUPHORIC"].includes(sentiment)) {
-                Cache.setInference(hash, { sentiment: sentiment, reasoning: json.reasoning });
-                return sentiment;
+                const result = { sentiment, relevance, reasoning: json.reasoning };
+                Cache.setInference(hash, result);
+                return result;
             }
             return null;
         } catch (e) {

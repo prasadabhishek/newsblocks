@@ -68,10 +68,10 @@ describe('Performance & Accuracy Tests', () => {
             {
                 name: 'World',
                 rawArticles: [
-                    { title: 'Conflict erupts in Middle East', source: 'Source A' },
-                    { title: 'New war breaks out in Middle East', source: 'Source B' },
-                    { title: 'SpaceX launches Starship', source: 'Source C' },
-                    { title: 'Elon Musk rockets Starship to space', source: 'Source D' }
+                    { title: 'Conflict erupts in Middle East', source: 'Source A', tier: 1 },
+                    { title: 'New war breaks out in Middle East', source: 'Source B', tier: 1 },
+                    { title: 'SpaceX launches Starship', source: 'Source C', tier: 1 },
+                    { title: 'Elon Musk rockets Starship to space', source: 'Source D', tier: 1 }
                 ]
             }
         ];
@@ -96,7 +96,7 @@ describe('Performance & Accuracy Tests', () => {
             {
                 name: 'Tech',
                 rawArticles: [
-                    { title: 'Nvidia: The GPU King of Silicon Valley!', source: 'Tech News' }
+                    { title: 'Nvidia: The GPU King of Silicon Valley!', source: 'Tech News', tier: 1 }
                 ]
             }
         ];
@@ -110,7 +110,7 @@ describe('Performance & Accuracy Tests', () => {
     });
 
     it('Hierarchy Structure: should include essential fields for deep linking', async () => {
-        const rawData = [{ name: 'World', rawArticles: [{ title: 'Middle East conflict escalates today', source: 'Global News' }] }];
+        const rawData = [{ name: 'World', rawArticles: [{ title: 'Middle East conflict escalates today', source: 'Global News', tier: 1 }] }];
         const result = await pipeline.run(rawData);
 
         expect(result.children).toHaveLength(1);

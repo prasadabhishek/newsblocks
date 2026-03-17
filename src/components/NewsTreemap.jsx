@@ -44,7 +44,16 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
 
     const root = useMemo(() => {
         if (!data || !data.children) return null;
-        return d3.hierarchy(data)
+
+        // Safety: Filter out empty categories to prevent D3 layout crashes
+        const filteredData = {
+            ...data,
+            children: data.children.filter(cat => cat.children && cat.children.length > 0)
+        };
+
+        if (filteredData.children.length === 0) return null;
+
+        return d3.hierarchy(filteredData)
             .sum(d => d.citationCount || 1)
             .sort((a, b) => (b.value || 0) - (a.value || 0));
     }, [data]);
@@ -339,6 +348,14 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
                             </a>
                         ))}
                     </div>
+                </div>
+            )}
+
+            {!root && (
+                <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8 bg-slate-900/50 backdrop-blur-sm">
+                    <div className="text-4xl mb-4">💎</div>
+                    <h2 className="text-xl font-black text-white mb-2 uppercase tracking-tight">Filtering for High Signal...</h2>
+                    <p className="text-slate-400 text-sm max-w-xs">Our AI is currently suppressing low-consensus noise to bring you major news events.</p>
                 </div>
             )}
         </div>

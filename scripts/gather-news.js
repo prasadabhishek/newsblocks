@@ -19,35 +19,35 @@ const pipeline = new Pipeline();
 // ELITE NEWS SOURCES: Verified endpoints for 2026
 const PREMIUM_FEEDS = [
     // POLITICS
-    { name: 'Politics', url: 'https://www.theguardian.com/politics/rss', publisher: 'The Guardian' },
-    { name: 'Politics', url: 'http://feeds.bbci.co.uk/news/politics/rss.xml', publisher: 'BBC News' },
-    { name: 'Politics', url: 'http://www.politico.com/rss/politicopicks.xml', publisher: 'Politico' },
-    { name: 'Politics', url: 'https://news.google.com/rss/search?q=US+Politics+government+when:1d&hl=en-US&gl=US&ceid=US:en', publisher: 'Various' },
+    { name: 'Politics', url: 'https://www.theguardian.com/politics/rss', publisher: 'The Guardian', tier: 1 },
+    { name: 'Politics', url: 'http://feeds.bbci.co.uk/news/politics/rss.xml', publisher: 'BBC News', tier: 1 },
+    { name: 'Politics', url: 'http://www.politico.com/rss/politicopicks.xml', publisher: 'Politico', tier: 1 },
+    { name: 'Politics', url: 'https://news.google.com/rss/search?q=US+Politics+government+when:1d&hl=en-US&gl=US&ceid=US:en', publisher: 'Various', tier: 2 },
 
     // STOCKS & FINANCE
-    { name: 'Stocks', url: 'https://www.cnbc.com/id/10000664/device/rss/rss.html', publisher: 'CNBC Markets' },
-    { name: 'Stocks', url: 'https://finance.yahoo.com/news/rssindex', publisher: 'Yahoo Finance' },
-    { name: 'Stocks', url: 'http://feeds.marketwatch.com/marketwatch/topstories/', publisher: 'MarketWatch' },
-    { name: 'Finance', url: 'https://www.cnbc.com/id/10001147/device/rss/rss.html', publisher: 'CNBC Economy' },
-    { name: 'Finance', url: 'https://www.ft.com/?format=rss', publisher: 'Financial Times' },
+    { name: 'Stocks', url: 'https://www.cnbc.com/id/10000664/device/rss/rss.html', publisher: 'CNBC Markets', tier: 1 },
+    { name: 'Stocks', url: 'https://finance.yahoo.com/news/rssindex', publisher: 'Yahoo Finance', tier: 2 },
+    { name: 'Stocks', url: 'http://feeds.marketwatch.com/marketwatch/topstories/', publisher: 'MarketWatch', tier: 2 },
+    { name: 'Finance', url: 'https://www.cnbc.com/id/10001147/device/rss/rss.html', publisher: 'CNBC Economy', tier: 1 },
+    { name: 'Finance', url: 'https://www.ft.com/?format=rss', publisher: 'Financial Times', tier: 1 },
 
     // TECHNOLOGY
-    { name: 'Technology', url: 'https://techcrunch.com/feed/', publisher: 'TechCrunch' },
-    { name: 'Technology', url: 'https://www.theverge.com/rss/index.xml', publisher: 'The Verge' },
-    { name: 'Technology', url: 'https://feeds.arstechnica.com/arstechnica/index', publisher: 'Ars Technica' },
-    { name: 'Technology', url: 'https://www.technologyreview.com/feed/', publisher: 'MIT Tech Review' },
+    { name: 'Technology', url: 'https://techcrunch.com/feed/', publisher: 'TechCrunch', tier: 1 },
+    { name: 'Technology', url: 'https://www.theverge.com/rss/index.xml', publisher: 'The Verge', tier: 2 },
+    { name: 'Technology', url: 'https://feeds.arstechnica.com/arstechnica/index', publisher: 'Ars Technica', tier: 2 },
+    { name: 'Technology', url: 'https://www.technologyreview.com/feed/', publisher: 'MIT Tech Review', tier: 1 },
 
     // WORLD
-    { name: 'World', url: 'http://feeds.bbci.co.uk/news/world/rss.xml', publisher: 'BBC World' },
-    { name: 'World', url: 'https://www.theguardian.com/world/rss', publisher: 'The Guardian' },
-    { name: 'World', url: 'https://www.aljazeera.com/xml/rss/all.xml', publisher: 'Al Jazeera' },
+    { name: 'World', url: 'http://feeds.bbci.co.uk/news/world/rss.xml', publisher: 'BBC World', tier: 1 },
+    { name: 'World', url: 'https://www.theguardian.com/world/rss', publisher: 'The Guardian', tier: 1 },
+    { name: 'World', url: 'https://www.aljazeera.com/xml/rss/all.xml', publisher: 'Al Jazeera', tier: 1 },
 
     // SCIENCE
-    { name: 'Science', url: 'https://www.wired.com/feed/category/science/latest/rss', publisher: 'Wired' },
-    { name: 'Science', url: 'https://www.sciencedaily.com/rss/all.xml', publisher: 'Science Daily' },
-    { name: 'Science', url: 'https://www.nature.com/nature.rss', publisher: 'Nature' },
-    { name: 'Science', url: 'https://phys.org/rss-feed/', publisher: 'Phys.org' },
-    { name: 'Science', url: 'https://www.theguardian.com/science/rss', publisher: 'The Guardian' }
+    { name: 'Science', url: 'https://www.wired.com/feed/category/science/latest/rss', publisher: 'Wired', tier: 1 },
+    { name: 'Science', url: 'https://www.sciencedaily.com/rss/all.xml', publisher: 'Science Daily', tier: 2 },
+    { name: 'Science', url: 'https://www.nature.com/nature.rss', publisher: 'Nature', tier: 1 },
+    { name: 'Science', url: 'https://phys.org/rss-feed/', publisher: 'Phys.org', tier: 2 },
+    { name: 'Science', url: 'https://www.theguardian.com/science/rss', publisher: 'The Guardian', tier: 1 }
 ];
 
 async function gatherNews() {
@@ -80,7 +80,8 @@ async function gatherNews() {
                         title: cleanTitle.trim(),
                         source: source.trim(),
                         link: item.link,
-                        pubDate: new Date(item.isoDate || item.pubDate)
+                        pubDate: new Date(item.isoDate || item.pubDate),
+                        tier: feed.tier
                     };
                 })
                 .filter(item => {
