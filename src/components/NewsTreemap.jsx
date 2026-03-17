@@ -1,6 +1,18 @@
 import React, { useMemo, useRef, useEffect, useState } from 'react';
 import * as d3 from 'd3';
 
+// Performance Optimization: Singleton canvas for measuring text widths off-screen
+// This avoids "Forced Reflow" (layout thrashing) by not querying the DOM for geometric properties.
+const getCanvasMeasurement = (() => {
+    let canvas = null;
+    return (text, font) => {
+        if (!canvas) canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+        context.font = font;
+        return context.measureText(text).width;
+    };
+})();
+
 const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
     const svgRef = useRef(null);
     const [tooltip, setTooltip] = useState({
@@ -13,7 +25,6 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
     const timerRef = useRef(null);
     const tooltipRef = useRef(tooltip);
 
-    // Keep tooltipRef in sync for D3 event closures
     useEffect(() => {
         tooltipRef.current = tooltip;
     }, [tooltip]);
@@ -25,12 +36,10 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
             .sort((a, b) => (b.value || 0) - (a.value || 0));
     }, [data]);
 
-    // Handle deep-linked selectedStory from props
     useEffect(() => {
         if (selectedStory && root) {
             const node = root.leaves().find(d => d.data.slug === selectedStory.slug);
             if (node) {
-                // Approximate position for tooltip (center of the block)
                 setTooltip({
                     visible: true,
                     x: node.x0 + (node.x1 - node.x0) / 2,
@@ -149,40 +158,45 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
             if (blockWidth > 35 && blockHeight > 18) {
                 const titleText = d.data.representativeTitle || d.data.title || "";
                 const words = titleText.split(/\s+/);
-                let line = [];
-                let lineNumber = 0;
-
-                const maxLines = blockHeight > 50 ? 3 : (blockHeight > 30 ? 2 : 1);
+                const fontWeight = fontSize < 10 ? '500' : '600';
+                const fontSpec = `${fontWeight} ${fontSize}px 'Inter', sans-serif`;
 
                 const textEl = el.append('text')
                     .attr('clip-path', `url(#clip-${d.data.representativeTitle.replace(/[^a-zA-Z0-9]/g, '')})`)
                     .attr('x', 5).attr('y', 4)
                     .attr('fill', '#f8fafc').attr('font-size', `${fontSize}px`)
-                    .attr('font-weight', fontSize < 10 ? '500' : '600')
+                    .attr('font-weight', fontWeight)
                     .style('font-family', "'Inter', sans-serif")
                     .style('pointer-events', 'none')
                     .style('dominant-baseline', 'text-before-edge');
 
-                let tspan = textEl.append('tspan').attr('x', 4).attr('dy', '0em');
+                let line = [];
+                let lineNumber = 0;
+                const maxLines = blockHeight > 50 ? 3 : (blockHeight > 30 ? 2 : 1);
+
+                let currentLineText = "";
 
                 for (let n = 0; n < words.length; n++) {
-                    line.push(words[n]);
-                    tspan.text(line.join(' '));
-                    if (tspan.node().getComputedTextLength() > blockWidth) {
-                        line.pop();
-                        tspan.text(line.join(' '));
-                        line = [words[n]];
+                    const testLine = currentLineText ? currentLineText + " " + words[n] : words[n];
+                    const testWidth = getCanvasMeasurement(testLine, fontSpec);
 
-                        if (++lineNumber < maxLines) {
-                            tspan = textEl.append('tspan').attr('x', 4).attr('dy', '1.1em').text(words[n]);
-                        } else {
-                            if (maxLines > 0) {
-                                const lastText = tspan.text();
-                                tspan.text(lastText.length > 3 ? lastText.slice(0, -2) + ".." : lastText);
-                            }
-                            break;
-                        }
+                    if (testWidth > blockWidth && n > 0) {
+                        // Push current line and start new one
+                        textEl.append('tspan')
+                            .attr('x', 4).attr('dy', lineNumber === 0 ? '0em' : '1.1em')
+                            .text(currentLineText);
+
+                        currentLineText = words[n];
+                        if (++lineNumber >= maxLines) break;
+                    } else {
+                        currentLineText = testLine;
                     }
+                }
+
+                if (lineNumber < maxLines) {
+                    textEl.append('tspan')
+                        .attr('x', 4).attr('dy', lineNumber === 0 ? '0em' : '1.1em')
+                        .text(currentLineText);
                 }
             }
         });

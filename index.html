@@ -32,9 +32,25 @@
     content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' ws: localhost:* https://*.google.com;" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Roboto:wght@700;900&family=Roboto+Slab:wght@700;900&display=swap">
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Roboto:wght@700;900&family=Roboto+Slab:wght@700;900&display=swap"
-    rel="stylesheet">
+    rel="stylesheet" media="print" onload="this.media='all'">
+  <style>
+    body {
+      background-color: #020617;
+      color: white;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    #root {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
   <link rel="canonical" href="https://newsblocks.org/" />
 
   <!-- Structured Data: WebSite Schema -->
