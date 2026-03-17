@@ -1,7 +1,7 @@
 {
   "feeds": {
     "https://www.theguardian.com/politics/rss": {
-      "timestamp": "2026-03-17T03:38:12.849Z",
+      "timestamp": "2026-03-17T04:05:57.814Z",
       "items": [
         {
           "title": "EU calls for urgent reboot in talks with UK to stop reset deal failing",
@@ -60,7 +60,7 @@
       ]
     },
     "http://feeds.bbci.co.uk/news/politics/rss.xml": {
-      "timestamp": "2026-03-17T03:38:13.340Z",
+      "timestamp": "2026-03-17T04:05:58.428Z",
       "items": [
         {
           "title": "Trump 'not happy' with UK response to Iran conflict",
@@ -125,13 +125,19 @@
       ]
     },
     "https://news.google.com/rss/search?q=US+Politics+government+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "timestamp": "2026-03-17T03:38:19.160Z",
+      "timestamp": "2026-03-17T04:06:04.224Z",
       "items": [
         {
           "title": "Warner files for reelection, launching bid for fourth U.S. Senate term",
           "source": "Rappahannock News",
           "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQVWIweEtYeG9yLTJpMVczOUQ0eUU5VFMzWWY3eDRFMExDeHZjSTJ6TnpkcU02b3lhZ1VrTXFJVVFyV1BvUHZwZnNnelBESUUtX1pjYnY3TnJ6ZnoycnFBdEJOOVNzeDB1X251WmFMYU9Hd3VJRlVGTFQ4VDhacTVPdEpYY1FIZDd0Qm93RUp1Z2d3SEJCaFNWN2pqUXYxUHBER3JXTlIyd1ZYS2M1WlF0V3ZRcnhLZ3BXSThtTUlKd2MwOEpHY1lGM2ZOUjVGVXJ1RXdfaF9HSl9kWGx6UFlNWXd3MmFrNHpocTdsLW93?oc=5",
           "pubDate": "2026-03-17T02:47:57.000Z"
+        },
+        {
+          "title": "Trump Officials Look to More Managed Approach to Trade With China",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa1hBRnBWcWRzdWpiNUNfVFgxMEpUWEQycXBwVk1mN3V1bU50ZVBQQWFneFlrNU5KUUdqdWdUSnhaWGxzSzBSUGcxMlJxaERYLVp4UGtJRjBPeFU1MVdWYVNSRVBXcmk1R0l1MUFvaDN0a0hSaEN2Z2tBVVB4SVlkWlVRNEl2cnBSSUtWemMwVVZ4MFlpSWVJ?oc=5",
+          "pubDate": "2026-03-16T21:03:07.000Z"
         },
         {
           "title": "Judge blocks US government from slimming down vaccine recommendations",
@@ -146,28 +152,22 @@
           "pubDate": "2026-03-17T02:41:15.000Z"
         },
         {
-          "title": "Trump Officials Look to More Managed Approach to Trade With China",
-          "source": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa1hBRnBWcWRzdWpiNUNfVFgxMEpUWEQycXBwVk1mN3V1bU50ZVBQQWFneFlrNU5KUUdqdWdUSnhaWGxzSzBSUGcxMlJxaERYLVp4UGtJRjBPeFU1MVdWYVNSRVBXcmk1R0l1MUFvaDN0a0hSaEN2Z2tBVVB4SVlkWlVRNEl2cnBSSUtWemMwVVZ4MFlpSWVJ?oc=5",
-          "pubDate": "2026-03-16T21:03:07.000Z"
-        },
-        {
           "title": "Judge blocks US government from slimming down vaccine recommendations",
           "source": "Greeley Tribune",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQXUzenl2UkE4U09NdndQbUk1dHdZc0lNQXdZblE5SDFOVTVNTVdjcVBSbGtNMEFyNlNPRDY4SDlZb3JWdW16TVJadjZHQ0NIRDZlVWZNRGdpQ2VPak5FczYtUGZ3UEhSTXhSSEI5RTZpRG1HU0J2akw1b3pheWdTVQ?oc=5",
           "pubDate": "2026-03-16T20:53:47.000Z"
         },
         {
+          "title": "Cuban leaders signal concessions to appease Trump, but also ensure political survival - Los Angeles Times",
+          "source": "Los Angeles Times",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZVdNTTREbS1sdFFRNnlGMVlQa0wzVE9NYnJSN0duVFZSZXdnMjZ6YU84U3JRaHJxa0NSMzU3dmI0VUEwRnVFTnhxcmlEOU0zbFBNV240dmhVaWJMYnF6bHpJMmRRV1FLWjV6cHZPcFlNanQwUGVfY2NVMVNOX3NIcnBQVEpvTjdVcm5sUDN0SDJPaHlmdFZGMkl0S0tTcDNmem9aOUV5MUNoSzE2WDZFcU85eDgxQnhCMHRlcFJ1QWpFcGFzNEhqRFpXblp4REI2T1FrcQ?oc=5",
+          "pubDate": "2026-03-16T10:00:00.000Z"
+        },
+        {
           "title": "Congress still searching for DHS compromise as government shutdown nears the month mark",
           "source": "Scripps News",
           "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbloyTnFtMlBYaW5NU2c3MmxOV2NxVlp2eVNKY1hIcDBIbkp0X2VpS0RIeGJnZktyMkVxTnV6TlU1VEpuMzFmRk5xYmF1YXUzLXFkNldhVmlYN3V1Z1cwbUYxVzVvbDBIZGNFVmZNY3dTVkRjZUVlOXNuREVyZVE5Q2ZTOWRXYWZyQWtyRHZIWDMzMnhGWTVMdWNJVXN3alQ5WVhHMmZqMl85a1V6VTkwb2lzX3ZtbWhwc1Z6N1JaSWVuVGVzQTNNNXZyRm0xQQ?oc=5",
           "pubDate": "2026-03-16T20:20:32.000Z"
-        },
-        {
-          "title": "Cuban leaders signal concessions to appease Trump, but also ensure political survival",
-          "source": "Los Angeles Times",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZVdNTTREbS1sdFFRNnlGMVlQa0wzVE9NYnJSN0duVFZSZXdnMjZ6YU84U3JRaHJxa0NSMzU3dmI0VUEwRnVFTnhxcmlEOU0zbFBNV240dmhVaWJMYnF6bHpJMmRRV1FLWjV6cHZPcFlNanQwUGVfY2NVMVNOX3NIcnBQVEpvTjdVcm5sUDN0SDJPaHlmdFZGMkl0S0tTcDNmem9aOUV5MUNoSzE2WDZFcU85eDgxQnhCMHRlcFJ1QWpFcGFzNEhqRFpXblp4REI2T1FrcQ?oc=5",
-          "pubDate": "2026-03-16T10:00:00.000Z"
         },
         {
           "title": "Judge blocks US government from slimming down vaccine recommendations",
@@ -200,14 +200,8 @@
           "pubDate": "2026-03-16T09:02:06.000Z"
         },
         {
-          "title": "US economic growth slowed sharply to 0.7% in fourth quarter",
-          "source": "Scripps News",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRG9ZNEszRVNkd0hUUjllM0czSk9aLWROeURkdDJ4SGpicXFQLTlfNG9KZXIxekJqU3o5TjgtOUlZMDRxSEFXZWEzTGpYTDFOMXVPdndpZi1tbEVKMThIOXRBVmxObGhEcjFNMGprTWdscDlCTm1TUFNOSDRfZm52VFRSZ09VNkhCWXhha1g0Tk5nZEp3cC02a0JZaklnU1JRaldjOVhR?oc=5",
-          "pubDate": "2026-03-16T21:11:07.000Z"
-        },
-        {
           "title": "Say goodbye to TSA officers after hundreds quit during government shutdown",
-          "source": "The US Sun",
+          "source": "the-sun.com",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUkhPVVpSUlFvZUpLcFhGb0hYejFEUE1PbzJRdzV4QzZ0ZzBfOVlzakpVQk9LZmp0dVFrcXdfWk94U1pjVFBxODhxVm9SN05QTTJoTTlCZ0lRN1FHd3NRdjJhNEVZYXBZRlQyUDZnc1kxdnJ3cE9PWmlad1hOaHd6OTFZbXhQOEVEeDV2QnFn?oc=5",
           "pubDate": "2026-03-16T12:06:09.000Z"
         },
@@ -242,12 +236,6 @@
           "pubDate": "2026-03-16T20:54:48.000Z"
         },
         {
-          "title": "Cong flags call by US govt body for sanctions against RSS, RAW",
-          "source": "National Herald",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdEppLWJ1WTROeDlSdmZWZjlFMWtfMGtRZ056V0NqT3lWcjFZNUpWclp2T29HM0xWcXJZbnQwODZubnZ6UnNKa21XcmNXX0dKVGFsWWdpUW9ucXd1ZG9LaFBMTW1FcDVzMnZjZWtfTWc1REZTMGQzaGszMUdHOTY0U0kxZnVEeGxlQkx2UEs2ZFlTS0czeE5FaUozcmJDaWotS29PdDNtamgyZkZYQTV2SnRWZFkwdExUczdkeHp2em05d2E3Tno5T2ducldWT2_SAc8BQVVfeXFMT3RKaS1idVk0Tng5UnZmVmY5RTFrXzBrUWdOeldDak95VnIxWTVKVnJadk9vRzNMVnFyWW50MDg2bm52elJzSmttV3JjV19HSlRhbFlnaVFvbnF3dWRvS2hQTE1tRXA1czJ2Y2VrX01nNURGUzBkM2hrMzFHRzk2NFNJMWZ1RHhsZUJMdlBLNmRZU0tHM3hORWlKM3JiQ2lqLUtvT3QzbWpoMmZGWEE1dkp0VmRZMHRMVHM3ZHh6dnptOXdhN056OU9nbnJXVk9v?oc=5",
-          "pubDate": "2026-03-16T13:11:28.000Z"
-        },
-        {
           "title": "Oil Shocks, Political Upheaval and the One Solution Governments Keep Ignoring",
           "source": "ipsnews.net",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOekZZTTBNWGU3YTNLOEYyYTdKTUw5c2NmcFNIazBQM0R0cXgyUnhiTTVQRkFtbFlWVUN6SHY5QTZrZ1gzck8zR3B3a09iU09ST2lmZUpwY0pJdXh4OVlnaFdKTUpzS05ESXhxS2c3cXFaWmhCMGc1ZnlOYnRmY1RhYjRqNGY2WFZtQ2hQV3VMWVZHTnhVQ2EzMXlyZVRCU0xKOGR1RDJBbFpwVS1rWGc?oc=5",
@@ -256,7 +244,7 @@
       ]
     },
     "https://www.cnbc.com/id/10000664/device/rss/rss.html": {
-      "timestamp": "2026-03-17T03:38:19.365Z",
+      "timestamp": "2026-03-17T04:06:04.405Z",
       "items": [
         {
           "title": "Apollo's John Zito questions private equity's software valuations: 'All the marks are wrong'",
@@ -279,7 +267,7 @@
       ]
     },
     "https://finance.yahoo.com/news/rssindex": {
-      "timestamp": "2026-03-17T03:38:19.516Z",
+      "timestamp": "2026-03-17T04:06:04.544Z",
       "items": [
         {
           "title": "Analyst Report: Illinois Tool Works Inc",
@@ -292,17 +280,11 @@
           "source": "Yahoo Finance",
           "link": "https://finance.yahoo.com/research/reports/ARGUS_2762_AnalystReport_1773681533000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
           "pubDate": "2026-03-16T17:18:53.000Z"
-        },
-        {
-          "title": "Market Update: BBY, ITW, SHW",
-          "source": "Yahoo Finance",
-          "link": "https://finance.yahoo.com/research/reports/ARGUS_46441_MarketUpdate_1773680633000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-          "pubDate": "2026-03-16T17:03:53.000Z"
         }
       ]
     },
     "http://feeds.marketwatch.com/marketwatch/topstories/": {
-      "timestamp": "2026-03-17T03:38:20.006Z",
+      "timestamp": "2026-03-17T04:06:04.925Z",
       "items": [
         {
           "title": "This biotech is working on a GLP-1 pill that could be better than the Wegovy version",
@@ -367,7 +349,7 @@
       ]
     },
     "https://www.cnbc.com/id/10001147/device/rss/rss.html": {
-      "timestamp": "2026-03-17T03:38:20.140Z",
+      "timestamp": "2026-03-17T04:06:05.070Z",
       "items": [
         {
           "title": "Nvidia adds Hyundai, BYD and other automakers to self-driving tech business",
@@ -396,7 +378,7 @@
       ]
     },
     "https://www.ft.com/?format=rss": {
-      "timestamp": "2026-03-17T03:38:20.591Z",
+      "timestamp": "2026-03-17T04:06:05.653Z",
       "items": [
         {
           "title": "Trump asks to postpone summit with China’s Xi due to Iran war",
@@ -467,8 +449,14 @@
       ]
     },
     "https://techcrunch.com/feed/": {
-      "timestamp": "2026-03-17T03:38:20.677Z",
+      "timestamp": "2026-03-17T04:06:05.790Z",
       "items": [
+        {
+          "title": "Picsart now allows creators to ‘hire’ AI assistants through agent marketplace",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/03/16/picsart-now-allows-creators-to-hire-ai-assistants-through-agent-marketplace/",
+          "pubDate": "2026-03-17T04:01:00.000Z"
+        },
         {
           "title": "SEC eyes shift to twice-yearly earnings reports",
           "source": "TechCrunch",
@@ -586,7 +574,7 @@
       ]
     },
     "https://www.theverge.com/rss/index.xml": {
-      "timestamp": "2026-03-17T03:38:20.798Z",
+      "timestamp": "2026-03-17T04:06:05.873Z",
       "items": [
         {
           "title": "The Live Nation trial restarts with a &#8216;velvet hammer&#8217;",
@@ -651,7 +639,7 @@
       ]
     },
     "https://feeds.arstechnica.com/arstechnica/index": {
-      "timestamp": "2026-03-17T03:38:20.944Z",
+      "timestamp": "2026-03-17T04:06:06.005Z",
       "items": [
         {
           "title": "RFK Jr.’s anti-vaccine changes to CDC vaccine guidance blocked by judge",
@@ -734,7 +722,7 @@
       ]
     },
     "https://www.technologyreview.com/feed/": {
-      "timestamp": "2026-03-17T03:38:21.051Z",
+      "timestamp": "2026-03-17T04:06:06.140Z",
       "items": [
         {
           "title": "Where OpenAI’s technology could show up in Iran",
@@ -763,7 +751,7 @@
       ]
     },
     "http://feeds.bbci.co.uk/news/world/rss.xml": {
-      "timestamp": "2026-03-17T03:38:21.178Z",
+      "timestamp": "2026-03-17T04:06:06.262Z",
       "items": [
         {
           "title": "Trump's confidence is undimmed",
@@ -806,6 +794,12 @@
           "source": "BBC World",
           "link": "https://www.bbc.com/news/articles/c4g5n58rlnzo?at_medium=RSS&at_campaign=rss",
           "pubDate": "2026-03-17T03:26:37.000Z"
+        },
+        {
+          "title": "Millions without electricity as Cuba's power grid collapses",
+          "source": "BBC World",
+          "link": "https://www.bbc.com/news/articles/c07j40dyx53o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-03-17T03:46:22.000Z"
         },
         {
           "title": "Utah bereavement author found guilty of fatally poisoning her husband",
@@ -900,7 +894,7 @@
       ]
     },
     "https://www.theguardian.com/world/rss": {
-      "timestamp": "2026-03-17T03:38:21.342Z",
+      "timestamp": "2026-03-17T04:06:06.401Z",
       "items": [
         {
           "title": "Africa particularly vulnerable as Iran conflict disrupts supply chains, say experts",
@@ -927,10 +921,16 @@
           "pubDate": "2026-03-16T22:17:11.000Z"
         },
         {
-          "title": "Australia news live: RBA interest rates decision due; people buying up Bunnings’ jerry cans ‘unAustralian’, Bowen says",
+          "title": "Australia news live: fresh blow to mortgage holders as RBA hikes official interest rate to 4.1% in second consecutive increase",
           "source": "The Guardian",
           "link": "https://www.theguardian.com/australia-news/live/2026/mar/17/bowen-rba-interest-rates-decision-cost-of-living-inflation-fuel-price-shortages-petrol-jim-chalmers-economy-war-iran-anthony-albanese-ntwnfb",
-          "pubDate": "2026-03-17T03:23:16.000Z"
+          "pubDate": "2026-03-17T03:56:45.000Z"
+        },
+        {
+          "title": "RBA interest rates: Reserve Bank raises official cash rate to 4.1% in blow to mortgage holders",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/australia-news/2026/mar/17/rba-interest-rate-australia-increase-fuel-petrol-prices",
+          "pubDate": "2026-03-17T03:48:54.000Z"
         },
         {
           "title": "Let the games begin: Victorian Liberals fail at sport but surprise with teamwork in viral video",
@@ -949,12 +949,6 @@
           "source": "The Guardian",
           "link": "https://www.theguardian.com/technology/2026/mar/17/x-csam-child-abuse-material-grok-australian-online-safety-regulator-ntwnfb",
           "pubDate": "2026-03-16T23:30:30.000Z"
-        },
-        {
-          "title": "Replacing 1m petrol cars with EVs could cut Australia’s reliance on foreign fuel by 1bn litres a year",
-          "source": "The Guardian",
-          "link": "https://www.theguardian.com/environment/2026/mar/16/electric-vehicles-australia-reduce-reliance-on-foreign-fuel",
-          "pubDate": "2026-03-16T14:00:22.000Z"
         },
         {
           "title": "EU calls for urgent reboot in talks with UK to stop reset deal failing",
@@ -987,16 +981,16 @@
           "pubDate": "2026-03-16T10:53:34.000Z"
         },
         {
+          "title": "UAE reopens airspace after Iran attack – as it happened",
+          "source": "The Guardian",
+          "link": "https://www.theguardian.com/world/live/2026/mar/16/iran-war-live-updates-news-oil-trump-hormuz-dubai-airport-israel-targets",
+          "pubDate": "2026-03-17T03:28:09.000Z"
+        },
+        {
           "title": "Will the strait of Hormuz torpedo Trump’s war? – podcast",
           "source": "The Guardian",
           "link": "https://www.theguardian.com/news/audio/2026/mar/17/will-the-strait-of-hormuz-torpedo-trumps-war-podcast",
           "pubDate": "2026-03-17T03:00:36.000Z"
-        },
-        {
-          "title": "Middle East crisis live: Trump vents frustration with allies over strait of Hormuz; US embassy in Baghdad reportedly targeted in air attack",
-          "source": "The Guardian",
-          "link": "https://www.theguardian.com/world/live/2026/mar/16/iran-war-live-updates-news-oil-trump-hormuz-dubai-airport-israel-targets",
-          "pubDate": "2026-03-17T02:52:15.000Z"
         },
         {
           "title": "At least 200 American troops wounded in Iran war, US military says",
@@ -1055,8 +1049,14 @@
       ]
     },
     "https://www.aljazeera.com/xml/rss/all.xml": {
-      "timestamp": "2026-03-17T03:38:21.442Z",
+      "timestamp": "2026-03-17T04:06:06.530Z",
       "items": [
+        {
+          "title": "Cuba faces nationwide blackouts amid US oil blockade",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/cuba-faces-nationwide-blackouts-amid-us-oil-blockade?traffic_source=rss",
+          "pubDate": "2026-03-17T03:52:10.000Z"
+        },
         {
           "title": "Top Democrat in US House slams Trump’s ‘reckless war of choice’",
           "source": "Al Jazeera",
@@ -1200,21 +1200,15 @@
           "source": "Al Jazeera",
           "link": "https://www.aljazeera.com/news/2026/3/16/outrage-as-afghan-asylum-seeker-who-fought-alongside-us-dies-in-ice-custody?traffic_source=rss",
           "pubDate": "2026-03-16T18:33:08.000Z"
-        },
-        {
-          "title": "Indian farmers dress up as bears to protect crops from monkeys",
-          "source": "Al Jazeera",
-          "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/indian-farmers-dress-up-as-bears-to-protect-crops-from-monkeys?traffic_source=rss",
-          "pubDate": "2026-03-16T17:37:08.000Z"
         }
       ]
     },
     "https://www.wired.com/feed/category/science/latest/rss": {
-      "timestamp": "2026-03-17T03:38:21.557Z",
+      "timestamp": "2026-03-17T04:06:06.681Z",
       "items": []
     },
     "https://www.sciencedaily.com/rss/all.xml": {
-      "timestamp": "2026-03-17T03:38:22.007Z",
+      "timestamp": "2026-03-17T04:06:07.014Z",
       "items": [
         {
           "title": "The smell of Egyptian mummies is revealing 2,000-year-old secrets",
@@ -1265,12 +1259,6 @@
           "pubDate": "2026-03-17T00:18:42.000Z"
         },
         {
-          "title": "MIT scientists discover gut protein that traps and kills dangerous bacteria",
-          "source": "Science Daily",
-          "link": "https://www.sciencedaily.com/releases/2026/03/260315004403.htm",
-          "pubDate": "2026-03-16T04:05:04.000Z"
-        },
-        {
           "title": "Scientists create a cancer flashlight that lights up tumors",
           "source": "Science Daily",
           "link": "https://www.sciencedaily.com/releases/2026/03/260315004359.htm",
@@ -1285,11 +1273,11 @@
       ]
     },
     "https://www.nature.com/nature.rss": {
-      "timestamp": "2026-03-17T03:38:22.176Z",
+      "timestamp": "2026-03-17T04:06:07.153Z",
       "items": []
     },
     "https://phys.org/rss-feed/": {
-      "timestamp": "2026-03-17T03:38:22.395Z",
+      "timestamp": "2026-03-17T04:06:07.378Z",
       "items": [
         {
           "title": "It's coyote puppy season; here's what you need to know",
@@ -1444,7 +1432,7 @@
       ]
     },
     "https://www.theguardian.com/science/rss": {
-      "timestamp": "2026-03-17T03:38:22.454Z",
+      "timestamp": "2026-03-17T04:06:07.652Z",
       "items": [
         {
           "title": "‘A molten, mushy state’: scientists may have found a new type of liquid planet",
@@ -1946,6 +1934,10 @@
       "sentiment": "NEGATIVE",
       "reasoning": "The headline explicitly mentions 'Middle East war,' which falls under the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule, making it inherently negative."
     },
+    "2051864491": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes the interest rate hike as 'in blow to mortgage holders,' clearly indicating a negative impact and economic disruption for a significant group, aligning with the 'DISRUPTION' aspect of the 'NEGATIVE' or 'DISASTER' rule."
+    },
     "2113514378": {
       "sentiment": "NEGATIVE",
       "reasoning": "The headline indicates a company is 'facing a growing number of lawsuits,' which represents a legal 'disruption' or 'crisis' for the entity, aligning with the negative classification criteria."
@@ -2385,6 +2377,26 @@
     "-77398032": {
       "sentiment": "NEGATIVE",
       "reasoning": "The headline refers to 'war' and describes it with a negative term 'reckless,' fitting the critical hierarchy rule that war, conflict, or crisis is always 'NEGATIVE' or 'DISASTER'."
+    },
+    "-972468893": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "Cuban leaders are making 'concessions to appease' and to 'ensure political survival', indicating a state of political pressure and disruption for their government, which aligns with the 'DISRUPTION' or 'CRISIS' criteria under NEGATIVE."
+    },
+    "-1783524031": {
+      "sentiment": "POSITIVE",
+      "reasoning": "The headline describes the introduction of a new feature that 'allows creators to 'hire' AI assistants,' which represents an expansion of capabilities, offering new tools and opportunities for creators. This aligns with the 'GROWTH' and 'BREAKTHROUGH' criteria for positive sentiment."
+    },
+    "-115751524": {
+      "sentiment": "DISASTER",
+      "reasoning": "The headline describes a major infrastructure failure ('power grid collapses') leading to widespread disruption and hardship ('millions without electricity'), which constitutes a disaster under the 'DISRUPTION' or 'CRISIS' hierarchy."
+    },
+    "-1027683270": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline explicitly mentions an 'Iran attack', which falls under the 'WAR, CONFLICT, DISRUPTION, or CRISIS' rule, making the sentiment negative. The reopening of airspace is a recovery from this negative event, but the underlying cause and primary event reported is the attack itself."
+    },
+    "-948918347": {
+      "sentiment": "NEGATIVE",
+      "reasoning": "The headline describes 'nationwide blackouts' which is a significant disruption and crisis, and attributes it to a 'US oil blockade,' which signifies conflict and disruption, aligning with Critical Hierarchy rule #1."
     }
   }
 }

@@ -11,6 +11,9 @@ function App() {
     height: typeof window !== 'undefined' ? window.innerHeight - 100 : 700
   });
 
+  // State for the currently selected story (from URL or click)
+  const [selectedStory, setSelectedStory] = useState(null);
+
   useEffect(() => {
     function handleResize() {
       const isMobile = window.innerWidth < 768;
@@ -20,9 +23,46 @@ function App() {
       });
     }
 
+    // Deep Linking parser
+    function parseSlug() {
+      const path = window.location.pathname;
+      if (path.startsWith('/story/')) {
+        const slug = path.replace('/story/', '');
+        let found = null;
+        if (newsData.children) {
+          newsData.children.forEach(cat => {
+            if (cat.children) {
+              const story = cat.children.find(s => s.slug === slug);
+              if (story) found = story;
+            }
+          });
+        }
+        setSelectedStory(found);
+      } else {
+        setSelectedStory(null);
+      }
+    }
+
     window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener('popstate', parseSlug);
+
+    // Initial parse
+    parseSlug();
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('popstate', parseSlug);
+    };
   }, []);
+
+  const handleStorySelect = (story) => {
+    setSelectedStory(story);
+    if (story && story.slug) {
+      window.history.pushState(null, '', `/story/${story.slug}`);
+    } else {
+      window.history.pushState(null, '', '/');
+    }
+  };
 
   // Extract top stories for SEO & Schema
   const seoStories = [];
@@ -72,7 +112,7 @@ function App() {
         </ul>
       </div>
 
-      <header className="header-main">
+      <header className="header-main" onClick={() => handleStorySelect(null)} style={{ cursor: 'pointer' }}>
         <h1 className="logo-text">NewsBlocks</h1>
         <h2 className="subtitle-main">news sentiment visualizer</h2>
 
@@ -101,8 +141,11 @@ function App() {
           data={newsData}
           width={dimensions.width}
           height={dimensions.height}
+          selectedStory={selectedStory}
+          onStorySelect={handleStorySelect}
         />
       </main>
+
       <footer className="footer-container">
         <details className="methodology-details">
           <summary className="methodology-summary">

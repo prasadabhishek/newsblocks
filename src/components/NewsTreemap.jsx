@@ -1,7 +1,7 @@
 import React, { useMemo, useRef, useEffect, useState } from 'react';
 import * as d3 from 'd3';
 
-const NewsTreemap = ({ data, width, height }) => {
+const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
     const svgRef = useRef(null);
     const [tooltip, setTooltip] = useState({
         visible: false,
@@ -25,6 +25,25 @@ const NewsTreemap = ({ data, width, height }) => {
             .sort((a, b) => (b.value || 0) - (a.value || 0));
     }, [data]);
 
+    // Handle deep-linked selectedStory from props
+    useEffect(() => {
+        if (selectedStory && root) {
+            const node = root.leaves().find(d => d.data.slug === selectedStory.slug);
+            if (node) {
+                // Approximate position for tooltip (center of the block)
+                setTooltip({
+                    visible: true,
+                    x: node.x0 + (node.x1 - node.x0) / 2,
+                    y: node.y0 + (node.y1 - node.y0) / 2,
+                    content: node.data,
+                    locked: true
+                });
+            }
+        } else if (!selectedStory) {
+            setTooltip(prev => ({ ...prev, visible: false, locked: false }));
+        }
+    }, [selectedStory, root]);
+
     const treemapLayout = useMemo(() => {
         return d3.treemap()
             .size([width, height])
@@ -40,8 +59,6 @@ const NewsTreemap = ({ data, width, height }) => {
         treemapLayout(root);
 
         const svg = d3.select(svgRef.current);
-        // D3 Joins implemented for smooth transitions
-
         const colorScale = d3.scaleLinear()
             .domain([-1, -0.6, -0.1, 0, 0.1, 0.6, 1])
             .range(['#ef4444', '#b91c1c', '#4d0a0a', '#1e293b', '#064e1c', '#15803d', '#22c55e']);
@@ -83,7 +100,7 @@ const NewsTreemap = ({ data, width, height }) => {
             .on('click', (event, d) => {
                 event.stopPropagation();
                 if (timerRef.current) clearTimeout(timerRef.current);
-                setTooltip({ visible: true, x: event.clientX, y: event.clientY, content: d.data, locked: true });
+                onStorySelect(d.data);
             })
             .on('mouseleave', () => {
                 if (timerRef.current) clearTimeout(timerRef.current);
@@ -120,7 +137,7 @@ const NewsTreemap = ({ data, width, height }) => {
 
         leafUpdate.select('g.text-group').each(function (d) {
             const el = d3.select(this);
-            el.selectAll('*').remove(); // Redraw text for correct word wrapping
+            el.selectAll('*').remove();
 
             const blockWidth = d.x1 - d.x0 - 8;
             const blockHeight = d.y1 - d.y0 - 6;
@@ -134,7 +151,7 @@ const NewsTreemap = ({ data, width, height }) => {
                 const words = titleText.split(/\s+/);
                 let line = [];
                 let lineNumber = 0;
-                
+
                 const maxLines = blockHeight > 50 ? 3 : (blockHeight > 30 ? 2 : 1);
 
                 const textEl = el.append('text')
@@ -145,7 +162,7 @@ const NewsTreemap = ({ data, width, height }) => {
                     .style('font-family', "'Inter', sans-serif")
                     .style('pointer-events', 'none')
                     .style('dominant-baseline', 'text-before-edge');
-                    
+
                 let tspan = textEl.append('tspan').attr('x', 4).attr('dy', '0em');
 
                 for (let n = 0; n < words.length; n++) {
@@ -196,10 +213,9 @@ const NewsTreemap = ({ data, width, height }) => {
             .attr('y', d => d.y0 + 16);
 
         cat.exit().transition(t).style('opacity', 0).remove();
-        
-}, [root, treemapLayout, width, height]);
 
-    // Premium CSS Styles (Inline)
+    }, [root, treemapLayout, width, height]);
+
     const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
 
     const tooltipStyle = {
@@ -209,7 +225,6 @@ const NewsTreemap = ({ data, width, height }) => {
         backdropFilter: 'blur(16px)',
         WebkitBackdropFilter: 'blur(16px)',
         border: isMobile ? 'none' : '1px solid rgba(255,255,255,0.15)',
-        borderTop: isMobile ? '1px solid rgba(255,255,255,0.2)' : tooltip.border,
         borderRadius: isMobile ? '24px 24px 0 0' : '16px',
         padding: isMobile ? '24px 20px 40px' : '20px',
         boxShadow: '0 -10px 40px -10px rgba(0, 0, 0, 0.8)',
@@ -217,8 +232,6 @@ const NewsTreemap = ({ data, width, height }) => {
         pointerEvents: tooltip.locked || isMobile ? 'auto' : 'none',
         transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
         fontFamily: "'Inter', sans-serif",
-
-        // Responsive Layout
         left: isMobile ? '0' : `${tooltip.x + 340 > window.innerWidth ? tooltip.x - 335 : tooltip.x + 15}px`,
         top: isMobile ? 'auto' : `${tooltip.y + 400 > window.innerHeight ? Math.max(10, tooltip.y - 410) : tooltip.y + 15}px`,
         bottom: isMobile ? (tooltip.visible ? '0' : '-100%') : 'auto',
@@ -252,92 +265,40 @@ const NewsTreemap = ({ data, width, height }) => {
                 <div
                     className="no-scrollbar"
                     style={tooltipStyle}
-                    onMouseEnter={() => {
-                        if (timerRef.current) clearTimeout(timerRef.current);
-                    }}
-                    onMouseLeave={() => {
-                        if (!tooltip.locked) {
-                            setTooltip(prev => ({ ...prev, visible: false }));
-                        }
-                    }}
+                    onMouseEnter={() => { if (timerRef.current) clearTimeout(timerRef.current); }}
+                    onMouseLeave={() => { if (!tooltip.locked) setTooltip(prev => ({ ...prev, visible: false })); }}
                 >
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '12px', gap: '8px' }}>
                         <div style={{ fontWeight: '900', fontSize: '18px', lineHeight: 1.1, fontFamily: "'Roboto Slab', serif", letterSpacing: '-0.02em', color: 'white' }}>
-                            {tooltip.content.representativeTitle || tooltip.content.title}
+                            {tooltip.content.representativeTitle}
                         </div>
                         {tooltip.locked && (
-                            <button
-                                onClick={(e) => {
-                                    e.stopPropagation();
-                                    setTooltip(prev => ({ ...prev, locked: false, visible: false }));
-                                }}
+                            <button onClick={(e) => { e.stopPropagation(); onStorySelect(null); }}
                                 style={{
-                                    background: 'rgba(255,255,255,0.1)',
-                                    border: 'none',
-                                    color: 'white',
-                                    borderRadius: '50%',
-                                    width: '24px',
-                                    height: '24px',
-                                    cursor: 'pointer',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    fontSize: '16px',
-                                    flexShrink: 0
+                                    background: 'rgba(255,255,255,0.1)', border: 'none', color: 'white', borderRadius: '50%',
+                                    width: '24px', height: '24px', cursor: 'pointer', display: 'flex', alignItems: 'center',
+                                    justifyContent: 'center', fontSize: '16px', flexShrink: 0
                                 }}
-                            >
-                                ×
-                            </button>
+                            > × </button>
                         )}
                     </div>
 
                     <div style={{ display: 'flex', gap: '8px', marginBottom: '16px', flexWrap: 'wrap' }}>
-                        <div style={{
-                            fontSize: '10px',
-                            fontWeight: '800',
-                            color: '#94a3b8',
-                            backgroundColor: 'rgba(255,255,255,0.05)',
-                            padding: '2px 8px',
-                            borderRadius: '4px',
-                            letterSpacing: '0.05em'
-                        }}>
+                        <div style={{ fontSize: '10px', fontWeight: '800', color: '#94a3b8', backgroundColor: 'rgba(255,255,255,0.05)', padding: '2px 8px', borderRadius: '4px', letterSpacing: '0.05em' }}>
                             {tooltip.content.citationCount || 1} SOURCES
                         </div>
-                        <div style={{
-                            fontSize: '10px',
-                            fontWeight: '800',
-                            color: tooltip.content.sentiment > 0.1 ? '#4ade80' : tooltip.content.sentiment < -0.1 ? '#f87171' : '#94a3b8',
-                            backgroundColor: 'rgba(255,255,255,0.05)',
-                            padding: '2px 8px',
-                            borderRadius: '4px',
-                            letterSpacing: '0.05em'
-                        }}>
+                        <div style={{ fontSize: '10px', fontWeight: '800', color: tooltip.content.sentiment > 0.1 ? '#4ade80' : tooltip.content.sentiment < -0.1 ? '#f87171' : '#94a3b8', backgroundColor: 'rgba(255,255,255,0.05)', padding: '2px 8px', borderRadius: '4px', letterSpacing: '0.05em' }}>
                             SENTIMENT: {Math.round(tooltip.content.sentiment * 100)}%
                         </div>
                     </div>
 
                     <div className="space-y-2">
                         {tooltip.content.rawArticles?.map((article, idx) => (
-                            <a
-                                key={idx}
-                                href={article.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                style={articleItemStyle}
-                                onMouseEnter={(e) => {
-                                    e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
-                                    e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.2)';
-                                    e.currentTarget.style.color = 'white';
-                                }}
-                                onMouseLeave={(e) => {
-                                    e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.05)';
-                                    e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.05)';
-                                    e.currentTarget.style.color = '#cbd5e1';
-                                }}
+                            <a key={idx} href={article.link} target="_blank" rel="noopener noreferrer" style={articleItemStyle}
+                                onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)'; e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.2)'; e.currentTarget.style.color = 'white'; }}
+                                onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.05)'; e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.05)'; e.currentTarget.style.color = '#cbd5e1'; }}
                             >
-                                <span style={{ color: '#94a3b8', fontSize: '11px', fontWeight: '700', textTransform: 'uppercase', marginBottom: '2px', display: 'block' }}>
-                                    {article.source}
-                                </span>
+                                <span style={{ color: '#94a3b8', fontSize: '11px', fontWeight: '700', textTransform: 'uppercase', marginBottom: '2px', display: 'block' }}>{article.source}</span>
                                 {article.title}
                             </a>
                         ))}

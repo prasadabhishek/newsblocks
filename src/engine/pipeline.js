@@ -38,6 +38,13 @@ export class Pipeline {
                         // Recalculate importance based on merged data
                         existing.importance = this.scoring.calculateImportance(existing);
                     } else {
+                        // Create a URL-friendly slug
+                        scored.slug = scored.representativeTitle
+                            .toLowerCase()
+                            .replace(/[^a-z0-9\s-]/g, '') // remove special chars
+                            .trim()
+                            .replace(/\s+/g, '-');        // replace spaces with hyphens
+
                         seenStoryHashes.set(titleHash, {
                             catIndex: root.children.length,
                             childIndex: children.length

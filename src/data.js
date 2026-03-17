@@ -25,7 +25,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 52
+          "importance": 52,
+          "slug": "eu-calls-for-urgent-reboot-in-talks-with-uk-to-stop-reset-deal-failing"
         },
         {
           "representativeTitle": "Starmer distances UK from Iran war as EU leaders rule out sending warships",
@@ -48,7 +49,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 52
+          "importance": 52,
+          "slug": "starmer-distances-uk-from-iran-war-as-eu-leaders-rule-out-sending-warships"
         },
         {
           "representativeTitle": "Trump says he is ‘not happy’ with UK as he criticises Starmer for being overly reliant on advisers – as it happened",
@@ -65,7 +67,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "trump-says-he-is-not-happy-with-uk-as-he-criticises-starmer-for-being-overly-reliant-on-advisers-as-it-happened"
         },
         {
           "representativeTitle": "Labour MPs have no reason to oppose new welfare reforms, says minister",
@@ -82,7 +85,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "labour-mps-have-no-reason-to-oppose-new-welfare-reforms-says-minister"
         },
         {
           "representativeTitle": "Can Starmer avoid being drawn into the US-Iran war? – podcast",
@@ -106,7 +110,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 52
+          "importance": 52,
+          "slug": "can-starmer-avoid-being-drawn-into-the-us-iran-war-podcast"
         },
         {
           "representativeTitle": "UK will not be drawn into wider war in Middle East, says Keir Starmer",
@@ -123,7 +128,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "uk-will-not-be-drawn-into-wider-war-in-middle-east-says-keir-starmer"
         },
         {
           "representativeTitle": "One day Keir Starmer might say what he really thinks of Trump. But not today | John Crace",
@@ -140,7 +146,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "one-day-keir-starmer-might-say-what-he-really-thinks-of-trump-but-not-today-john-crace"
         },
         {
           "representativeTitle": "Trump’s war is bringing economic calamity to the UK – and another shock to our politics | Gaby Hinsliff",
@@ -157,7 +164,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "trumps-war-is-bringing-economic-calamity-to-the-uk-and-another-shock-to-our-politics-gaby-hinsliff"
         },
         {
           "representativeTitle": "What's worth more: Churchill or a woke badger? Welcome to Britain's banknote culture war | Jonn Elledge",
@@ -174,7 +182,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "whats-worth-more-churchill-or-a-woke-badger-welcome-to-britains-banknote-culture-war-jonn-elledge"
         },
         {
           "representativeTitle": "Trump 'not happy' with UK response to Iran conflict",
@@ -191,7 +200,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "trump-not-happy-with-uk-response-to-iran-conflict"
         },
         {
           "representativeTitle": "Chris Mason: Why Starmer thinks he's called it right on war despite Trump barbs",
@@ -215,7 +225,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 52
+          "importance": 52,
+          "slug": "chris-mason-why-starmer-thinks-hes-called-it-right-on-war-despite-trump-barbs"
         },
         {
           "representativeTitle": "Wary allies show there's no quick fix to Trump's Iran crisis",
@@ -239,7 +250,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 57
+          "importance": 57,
+          "slug": "wary-allies-show-theres-no-quick-fix-to-trumps-iran-crisis"
         },
         {
           "representativeTitle": "Reeves vows to stop UK tech from 'drifting abroad'",
@@ -256,7 +268,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "reeves-vows-to-stop-uk-tech-from-drifting-abroad"
         },
         {
           "representativeTitle": "Starmer announces £53m support to help with heating oil costs",
@@ -273,7 +286,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "starmer-announces-53m-support-to-help-with-heating-oil-costs"
         },
         {
           "representativeTitle": "Companies offered £3,000 to hire jobless under-24s",
@@ -290,7 +304,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "companies-offered-3000-to-hire-jobless-under-24s"
         },
         {
           "representativeTitle": "Scotland's assisted dying debate reaches final stages on eve of vote",
@@ -307,7 +322,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "scotlands-assisted-dying-debate-reaches-final-stages-on-eve-of-vote"
         },
         {
           "representativeTitle": "Starmer warned over assisted dying bill by more than 100 Labour MPs",
@@ -324,7 +340,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "starmer-warned-over-assisted-dying-bill-by-more-than-100-labour-mps"
         },
         {
           "representativeTitle": "Labour calls for tax investigation into Reform's Tice",
@@ -341,7 +358,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "labour-calls-for-tax-investigation-into-reforms-tice"
         },
         {
           "representativeTitle": "Warner files for reelection, launching bid for fourth U.S. Senate term",
@@ -358,7 +376,26 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "warner-files-for-reelection-launching-bid-for-fourth-us-senate-term"
+        },
+        {
+          "representativeTitle": "Trump Officials Look to More Managed Approach to Trade With China",
+          "sources": [
+            "The New York Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump Officials Look to More Managed Approach to Trade With China",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa1hBRnBWcWRzdWpiNUNfVFgxMEpUWEQycXBwVk1mN3V1bU50ZVBQQWFneFlrNU5KUUdqdWdUSnhaWGxzSzBSUGcxMlJxaERYLVp4UGtJRjBPeFU1MVdWYVNSRVBXcmk1R0l1MUFvaDN0a0hSaEN2Z2tBVVB4SVlkWlVRNEl2cnBSSUtWemMwVVZ4MFlpSWVJ?oc=5",
+              "pubDate": "2026-03-16T21:03:07.000Z"
+            }
+          ],
+          "sentiment": -0.4,
+          "importance": 35,
+          "slug": "trump-officials-look-to-more-managed-approach-to-trade-with-china"
         },
         {
           "representativeTitle": "Judge blocks US government from slimming down vaccine recommendations",
@@ -389,7 +426,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 75
+          "importance": 75,
+          "slug": "judge-blocks-us-government-from-slimming-down-vaccine-recommendations"
         },
         {
           "representativeTitle": "Switzerland refuses US overflights linked to Middle East war",
@@ -406,24 +444,26 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "switzerland-refuses-us-overflights-linked-to-middle-east-war"
         },
         {
-          "representativeTitle": "Trump Officials Look to More Managed Approach to Trade With China",
+          "representativeTitle": "Cuban leaders signal concessions to appease Trump, but also ensure political survival - Los Angeles Times",
           "sources": [
-            "The New York Times"
+            "Los Angeles Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump Officials Look to More Managed Approach to Trade With China",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa1hBRnBWcWRzdWpiNUNfVFgxMEpUWEQycXBwVk1mN3V1bU50ZVBQQWFneFlrNU5KUUdqdWdUSnhaWGxzSzBSUGcxMlJxaERYLVp4UGtJRjBPeFU1MVdWYVNSRVBXcmk1R0l1MUFvaDN0a0hSaEN2Z2tBVVB4SVlkWlVRNEl2cnBSSUtWemMwVVZ4MFlpSWVJ?oc=5",
-              "pubDate": "2026-03-16T21:03:07.000Z"
+              "title": "Cuban leaders signal concessions to appease Trump, but also ensure political survival - Los Angeles Times",
+              "source": "Los Angeles Times",
+              "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZVdNTTREbS1sdFFRNnlGMVlQa0wzVE9NYnJSN0duVFZSZXdnMjZ6YU84U3JRaHJxa0NSMzU3dmI0VUEwRnVFTnhxcmlEOU0zbFBNV240dmhVaWJMYnF6bHpJMmRRV1FLWjV6cHZPcFlNanQwUGVfY2NVMVNOX3NIcnBQVEpvTjdVcm5sUDN0SDJPaHlmdFZGMkl0S0tTcDNmem9aOUV5MUNoSzE2WDZFcU85eDgxQnhCMHRlcFJ1QWpFcGFzNEhqRFpXblp4REI2T1FrcQ?oc=5",
+              "pubDate": "2026-03-16T10:00:00.000Z"
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "cuban-leaders-signal-concessions-to-appease-trump-but-also-ensure-political-survival---los-angeles-times"
         },
         {
           "representativeTitle": "Congress still searching for DHS compromise as government shutdown nears the month mark",
@@ -440,24 +480,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "Cuban leaders signal concessions to appease Trump, but also ensure political survival",
-          "sources": [
-            "Los Angeles Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cuban leaders signal concessions to appease Trump, but also ensure political survival",
-              "source": "Los Angeles Times",
-              "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZVdNTTREbS1sdFFRNnlGMVlQa0wzVE9NYnJSN0duVFZSZXdnMjZ6YU84U3JRaHJxa0NSMzU3dmI0VUEwRnVFTnhxcmlEOU0zbFBNV240dmhVaWJMYnF6bHpJMmRRV1FLWjV6cHZPcFlNanQwUGVfY2NVMVNOX3NIcnBQVEpvTjdVcm5sUDN0SDJPaHlmdFZGMkl0S0tTcDNmem9aOUV5MUNoSzE2WDZFcU85eDgxQnhCMHRlcFJ1QWpFcGFzNEhqRFpXblp4REI2T1FrcQ?oc=5",
-              "pubDate": "2026-03-16T10:00:00.000Z"
-            }
-          ],
-          "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "congress-still-searching-for-dhs-compromise-as-government-shutdown-nears-the-month-mark"
         },
         {
           "representativeTitle": "Simpson, Little, Bedke speak candidly about state's challenges as America approaches 250",
@@ -474,7 +498,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "simpson-little-bedke-speak-candidly-about-states-challenges-as-america-approaches-250"
         },
         {
           "representativeTitle": "Why aren’t TSA agents getting paid?",
@@ -491,7 +516,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "why-arent-tsa-agents-getting-paid"
         },
         {
           "representativeTitle": "In Illinois, Krishnamoorthi’s Indian American Heritage Shapes Bid",
@@ -508,41 +534,26 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "US economic growth slowed sharply to 0.7% in fourth quarter",
-          "sources": [
-            "Scripps News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US economic growth slowed sharply to 0.7% in fourth quarter",
-              "source": "Scripps News",
-              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRG9ZNEszRVNkd0hUUjllM0czSk9aLWROeURkdDJ4SGpicXFQLTlfNG9KZXIxekJqU3o5TjgtOUlZMDRxSEFXZWEzTGpYTDFOMXVPdndpZi1tbEVKMThIOXRBVmxObGhEcjFNMGprTWdscDlCTm1TUFNOSDRfZm52VFRSZ09VNkhCWXhha1g0Tk5nZEp3cC02a0JZaklnU1JRaldjOVhR?oc=5",
-              "pubDate": "2026-03-16T21:11:07.000Z"
-            }
-          ],
-          "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "in-illinois-krishnamoorthis-indian-american-heritage-shapes-bid"
         },
         {
           "representativeTitle": "Say goodbye to TSA officers after hundreds quit during government shutdown",
           "sources": [
-            "The US Sun"
+            "the-sun.com"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
               "title": "Say goodbye to TSA officers after hundreds quit during government shutdown",
-              "source": "The US Sun",
+              "source": "the-sun.com",
               "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUkhPVVpSUlFvZUpLcFhGb0hYejFEUE1PbzJRdzV4QzZ0ZzBfOVlzakpVQk9LZmp0dVFrcXdfWk94U1pjVFBxODhxVm9SN05QTTJoTTlCZ0lRN1FHd3NRdjJhNEVZYXBZRlQyUDZnc1kxdnJ3cE9PWmlad1hOaHd6OTFZbXhQOEVEeDV2QnFn?oc=5",
               "pubDate": "2026-03-16T12:06:09.000Z"
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "say-goodbye-to-tsa-officers-after-hundreds-quit-during-government-shutdown"
         },
         {
           "representativeTitle": "Airline executives urge Congress to end partial government shutdown",
@@ -559,7 +570,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "airline-executives-urge-congress-to-end-partial-government-shutdown"
         },
         {
           "representativeTitle": "Iran war 'nothing to do with NATO', says German government",
@@ -576,7 +588,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "iran-war-nothing-to-do-with-nato-says-german-government"
         },
         {
           "representativeTitle": "Children’s well-being caught in the political crossfire in Minneapolis",
@@ -593,7 +606,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "childrens-well-being-caught-in-the-political-crossfire-in-minneapolis"
         },
         {
           "representativeTitle": "Trump’s $10B TikTok fee sparks uproar",
@@ -610,7 +624,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "trumps-10b-tiktok-fee-sparks-uproar"
         },
         {
           "representativeTitle": "Musk’s Grok Chatbot Made Sexual Images of Minors, Teens Allege in Lawsuit",
@@ -627,24 +642,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "Cong flags call by US govt body for sanctions against RSS, RAW",
-          "sources": [
-            "National Herald"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cong flags call by US govt body for sanctions against RSS, RAW",
-              "source": "National Herald",
-              "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdEppLWJ1WTROeDlSdmZWZjlFMWtfMGtRZ056V0NqT3lWcjFZNUpWclp2T29HM0xWcXJZbnQwODZubnZ6UnNKa21XcmNXX0dKVGFsWWdpUW9ucXd1ZG9LaFBMTW1FcDVzMnZjZWtfTWc1REZTMGQzaGszMUdHOTY0U0kxZnVEeGxlQkx2UEs2ZFlTS0czeE5FaUozcmJDaWotS29PdDNtamgyZkZYQTV2SnRWZFkwdExUczdkeHp2em05d2E3Tno5T2ducldWT2_SAc8BQVVfeXFMT3RKaS1idVk0Tng5UnZmVmY5RTFrXzBrUWdOeldDak95VnIxWTVKVnJadk9vRzNMVnFyWW50MDg2bm52elJzSmttV3JjV19HSlRhbFlnaVFvbnF3dWRvS2hQTE1tRXA1czJ2Y2VrX01nNURGUzBkM2hrMzFHRzk2NFNJMWZ1RHhsZUJMdlBLNmRZU0tHM3hORWlKM3JiQ2lqLUtvT3QzbWpoMmZGWEE1dkp0VmRZMHRMVHM3ZHh6dnptOXdhN056OU9nbnJXVk9v?oc=5",
-              "pubDate": "2026-03-16T13:11:28.000Z"
-            }
-          ],
-          "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "musks-grok-chatbot-made-sexual-images-of-minors-teens-allege-in-lawsuit"
         },
         {
           "representativeTitle": "Oil Shocks, Political Upheaval and the One Solution Governments Keep Ignoring",
@@ -661,7 +660,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "oil-shocks-political-upheaval-and-the-one-solution-governments-keep-ignoring"
         }
       ]
     },
@@ -690,7 +690,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 57
+          "importance": 57,
+          "slug": "apollos-john-zito-questions-private-equitys-software-valuations-all-the-marks-are-wrong"
         },
         {
           "representativeTitle": "China talks up oil sufficiency as Trump seeks Beijing's help on securing Hormuz energy route",
@@ -707,7 +708,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "china-talks-up-oil-sufficiency-as-trump-seeks-beijings-help-on-securing-hormuz-energy-route"
         },
         {
           "representativeTitle": "Holiday spending, export demand drive China’s economic momentum as Iran war headwinds loom",
@@ -724,7 +726,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "holiday-spending-export-demand-drive-chinas-economic-momentum-as-iran-war-headwinds-loom"
         },
         {
           "representativeTitle": "Analyst Report: Illinois Tool Works Inc",
@@ -741,7 +744,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "analyst-report-illinois-tool-works-inc"
         },
         {
           "representativeTitle": "Analyst Report: Best Buy Co Inc",
@@ -758,24 +762,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "Market Update: BBY, ITW, SHW",
-          "sources": [
-            "Yahoo Finance"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Market Update: BBY, ITW, SHW",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/research/reports/ARGUS_46441_MarketUpdate_1773680633000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-              "pubDate": "2026-03-16T17:03:53.000Z"
-            }
-          ],
-          "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "analyst-report-best-buy-co-inc"
         },
         {
           "representativeTitle": "This biotech is working on a GLP-1 pill that could be better than the Wegovy version",
@@ -792,7 +780,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "this-biotech-is-working-on-a-glp-1-pill-that-could-be-better-than-the-wegovy-version"
         },
         {
           "representativeTitle": "Moody’s says a recession will be hard to avoid if oil prices stay elevated for even a few more weeks",
@@ -809,7 +798,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "moodys-says-a-recession-will-be-hard-to-avoid-if-oil-prices-stay-elevated-for-even-a-few-more-weeks"
         },
         {
           "representativeTitle": "U.S. stocks have been surprisingly resilient as the Iran conflict threatens global economic disruption. Thank industry analysts?",
@@ -826,7 +816,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "us-stocks-have-been-surprisingly-resilient-as-the-iran-conflict-threatens-global-economic-disruption-thank-industry-analysts"
         },
         {
           "representativeTitle": "‘Healthcare is important to me’: I’m worried about relocating to Florida from New Jersey. Are hospitals there under stress?",
@@ -843,7 +834,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "healthcare-is-important-to-me-im-worried-about-relocating-to-florida-from-new-jersey-are-hospitals-there-under-stress"
         },
         {
           "representativeTitle": "Upstart’s stock rises as analyst says investors have been ignoring a key catalyst",
@@ -860,7 +852,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "upstarts-stock-rises-as-analyst-says-investors-have-been-ignoring-a-key-catalyst"
         },
         {
           "representativeTitle": "Warren Buffett’s parting gift to Berkshire Hathaway: A $2 billion Iran oil windfall",
@@ -877,7 +870,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "warren-buffetts-parting-gift-to-berkshire-hathaway-a-2-billion-iran-oil-windfall"
         },
         {
           "representativeTitle": "‘I’m so screwed’: How can I afford to care for a mom with dementia and send my teen to college?",
@@ -894,7 +888,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "im-so-screwed-how-can-i-afford-to-care-for-a-mom-with-dementia-and-send-my-teen-to-college"
         },
         {
           "representativeTitle": "Elon Musk’s xAI is facing a growing number of lawsuits over AI-generated deepfakes",
@@ -911,7 +906,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "elon-musks-xai-is-facing-a-growing-number-of-lawsuits-over-ai-generated-deepfakes"
         },
         {
           "representativeTitle": "Dollar is benefiting from Iran conflict as investors worry about inflation",
@@ -928,7 +924,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "dollar-is-benefiting-from-iran-conflict-as-investors-worry-about-inflation"
         },
         {
           "representativeTitle": "‘It’s complicated’: My husband, 61, wants to leave me everything. His kids will hate me. What should I do?",
@@ -945,7 +942,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "its-complicated-my-husband-61-wants-to-leave-me-everything-his-kids-will-hate-me-what-should-i-do"
         }
       ]
     },
@@ -967,7 +965,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "nvidia-adds-hyundai-byd-and-other-automakers-to-self-driving-tech-business"
         },
         {
           "representativeTitle": "Peloton is launching bikes and treadmills for gyms, accelerating commercial strategy",
@@ -984,7 +983,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "peloton-is-launching-bikes-and-treadmills-for-gyms-accelerating-commercial-strategy"
         },
         {
           "representativeTitle": "NFL, Paramount discussing media deal that could mean CBS pays an extra $1 billion or more",
@@ -1001,7 +1001,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "nfl-paramount-discussing-media-deal-that-could-mean-cbs-pays-an-extra-1-billion-or-more"
         },
         {
           "representativeTitle": "Trump asks to postpone summit with China’s Xi due to Iran war",
@@ -1018,7 +1019,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "trump-asks-to-postpone-summit-with-chinas-xi-due-to-iran-war"
         },
         {
           "representativeTitle": "Trump says China, Japan and Korea should be ‘thanking’ US for strikes",
@@ -1035,7 +1037,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "trump-says-china-japan-and-korea-should-be-thanking-us-for-strikes"
         },
         {
           "representativeTitle": "Donald Trump launches fresh attack on UK’s ‘terrible’ Iran war stance",
@@ -1052,7 +1055,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "donald-trump-launches-fresh-attack-on-uks-terrible-iran-war-stance"
         },
         {
           "representativeTitle": "Iran earns oil windfall as US turns blind eye",
@@ -1069,7 +1073,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "iran-earns-oil-windfall-as-us-turns-blind-eye"
         },
         {
           "representativeTitle": "Why Hormuz will haunt us long after this war ends",
@@ -1086,7 +1091,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "why-hormuz-will-haunt-us-long-after-this-war-ends"
         },
         {
           "representativeTitle": "US says 2 of its 3 Gulf-based minesweepers are in Malaysia",
@@ -1103,7 +1109,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "us-says-2-of-its-3-gulf-based-minesweepers-are-in-malaysia"
         },
         {
           "representativeTitle": "Angela Rayner aims to reassure investors with City charm offensive",
@@ -1120,7 +1127,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "angela-rayner-aims-to-reassure-investors-with-city-charm-offensive"
         },
         {
           "representativeTitle": "Nvidia’s Huang predicts $1tn in AI chip revenue over 2 years",
@@ -1137,7 +1145,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "nvidias-huang-predicts-1tn-in-ai-chip-revenue-over-2-years"
         },
         {
           "representativeTitle": "Donald Trump says he will have the ‘honour’ of ‘taking Cuba in some form’",
@@ -1154,7 +1163,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "donald-trump-says-he-will-have-the-honour-of-taking-cuba-in-some-form"
         },
         {
           "representativeTitle": "Cuba hit by nationwide blackout as energy grid collapses",
@@ -1171,7 +1181,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "cuba-hit-by-nationwide-blackout-as-energy-grid-collapses"
         },
         {
           "representativeTitle": "Mandelson received more than £1.5mn for stake in collapsed advisory firm",
@@ -1188,13 +1199,32 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "mandelson-received-more-than-15mn-for-stake-in-collapsed-advisory-firm"
         }
       ]
     },
     {
       "name": "Technology",
       "children": [
+        {
+          "representativeTitle": "Picsart now allows creators to ‘hire’ AI assistants through agent marketplace",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Picsart now allows creators to ‘hire’ AI assistants through agent marketplace",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/03/16/picsart-now-allows-creators-to-hire-ai-assistants-through-agent-marketplace/",
+              "pubDate": "2026-03-17T04:01:00.000Z"
+            }
+          ],
+          "sentiment": 0.4,
+          "importance": 35,
+          "slug": "picsart-now-allows-creators-to-hire-ai-assistants-through-agent-marketplace"
+        },
         {
           "representativeTitle": "SEC eyes shift to twice-yearly earnings reports",
           "sources": [
@@ -1210,7 +1240,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "sec-eyes-shift-to-twice-yearly-earnings-reports"
         },
         {
           "representativeTitle": "Nvidia’s version of OpenClaw could solve its biggest problem: security",
@@ -1227,7 +1258,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "nvidias-version-of-openclaw-could-solve-its-biggest-problem-security"
         },
         {
           "representativeTitle": "Jensen Huang just put Nvidia’s Blackwell and Vera Rubin sales projections into the $1 trillion stratosphere",
@@ -1244,7 +1276,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "jensen-huang-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere"
         },
         {
           "representativeTitle": "Warren presses Pentagon over decision to grant xAI access to classified networks",
@@ -1261,7 +1294,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "warren-presses-pentagon-over-decision-to-grant-xai-access-to-classified-networks"
         },
         {
           "representativeTitle": "Memories AI is building the visual memory layer for wearables and robotics",
@@ -1278,7 +1312,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "memories-ai-is-building-the-visual-memory-layer-for-wearables-and-robotics"
         },
         {
           "representativeTitle": "Samsung bets this island startup can tame the grid with software and batteries",
@@ -1295,7 +1330,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "samsung-bets-this-island-startup-can-tame-the-grid-with-software-and-batteries"
         },
         {
           "representativeTitle": "Apple acquires video editing software company MotionVFX",
@@ -1312,7 +1348,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "apple-acquires-video-editing-software-company-motionvfx"
         },
         {
           "representativeTitle": "Teens sue Elon Musk’s xAI over Grok’s AI-generated CSAM",
@@ -1343,7 +1380,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 75
+          "importance": 75,
+          "slug": "teens-sue-elon-musks-xai-over-groks-ai-generated-csam"
         },
         {
           "representativeTitle": "Nvidia’s DLSS 5 uses generative AI to boost photorealism in video games, with ambitions beyond gaming",
@@ -1367,7 +1405,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 57
+          "importance": 57,
+          "slug": "nvidias-dlss-5-uses-generative-ai-to-boost-photorealism-in-video-games-with-ambitions-beyond-gaming"
         },
         {
           "representativeTitle": "The MacBook Neo is ‘the most repairable MacBook’ in years, according to iFixit",
@@ -1384,7 +1423,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "the-macbook-neo-is-the-most-repairable-macbook-in-years-according-to-ifixit"
         },
         {
           "representativeTitle": "Another deep tech chip startup becomes a unicorn: Frore hits $1.64B",
@@ -1401,7 +1441,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "another-deep-tech-chip-startup-becomes-a-unicorn-frore-hits-164b"
         },
         {
           "representativeTitle": "Fuse raises $25M  to disrupt aging loan origination systems used by US credit unions",
@@ -1418,7 +1459,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "fuse-raises-25m-to-disrupt-aging-loan-origination-systems-used-by-us-credit-unions"
         },
         {
           "representativeTitle": "The dictionary sues OpenAI",
@@ -1435,7 +1477,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "the-dictionary-sues-openai"
         },
         {
           "representativeTitle": "Antonio Gracias says he’s longing for ‘proentropic’ startups — those that are built to survive chaos",
@@ -1452,7 +1495,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "antonio-gracias-says-hes-longing-for-proentropic-startups-those-that-are-built-to-survive-chaos"
         },
         {
           "representativeTitle": "Shopify is preparing for AI shopping agents to change everything, exec says",
@@ -1469,7 +1513,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "shopify-is-preparing-for-ai-shopping-agents-to-change-everything-exec-says"
         },
         {
           "representativeTitle": "Apple quietly launches AirPods Max 2",
@@ -1486,7 +1531,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "apple-quietly-launches-airpods-max-2"
         },
         {
           "representativeTitle": "Walmart-backed PhonePe shelves IPO as global tensions rattle markets",
@@ -1503,7 +1549,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "walmart-backed-phonepe-shelves-ipo-as-global-tensions-rattle-markets"
         },
         {
           "representativeTitle": "The billionaires made a promise — now some want out",
@@ -1520,7 +1567,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "the-billionaires-made-a-promise-now-some-want-out"
         },
         {
           "representativeTitle": "The Live Nation trial restarts with a &#8216;velvet hammer&#8217;",
@@ -1537,7 +1585,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "the-live-nation-trial-restarts-with-a-8216velvet-hammer8217"
         },
         {
           "representativeTitle": "Ecovacs’ Deebot X8 and X9 Pro Omni robovacs are nearly 50 percent off",
@@ -1554,7 +1603,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "ecovacs-deebot-x8-and-x9-pro-omni-robovacs-are-nearly-50-percent-off"
         },
         {
           "representativeTitle": "Benjamin Netanyahu is struggling to prove he&#8217;s not an AI clone",
@@ -1571,7 +1621,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "benjamin-netanyahu-is-struggling-to-prove-he8217s-not-an-ai-clone"
         },
         {
           "representativeTitle": "Nvidia says China’s BYD and Geely will use its robotaxi platform",
@@ -1588,7 +1639,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "nvidia-says-chinas-byd-and-geely-will-use-its-robotaxi-platform"
         },
         {
           "representativeTitle": "I met Olaf — the Frozen robot who might be the future of Disney Parks",
@@ -1605,7 +1657,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "i-met-olaf-the-frozen-robot-who-might-be-the-future-of-disney-parks"
         },
         {
           "representativeTitle": "Sony&#8217;s AI graphics upscaling for PS5 Pro games is getting a big update tonight",
@@ -1622,7 +1675,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "sony8217s-ai-graphics-upscaling-for-ps5-pro-games-is-getting-a-big-update-tonight"
         },
         {
           "representativeTitle": "Encyclopedia Britannica is suing OpenAI for allegedly ‘memorizing’ its content with ChatGPT",
@@ -1639,7 +1693,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "encyclopedia-britannica-is-suing-openai-for-allegedly-memorizing-its-content-with-chatgpt"
         },
         {
           "representativeTitle": "Amazon’s Fire TV Stick 4K Max and 4K Plus sticks are up to 50 percent off",
@@ -1656,7 +1711,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "amazons-fire-tv-stick-4k-max-and-4k-plus-sticks-are-up-to-50-percent-off"
         },
         {
           "representativeTitle": "RFK Jr.’s anti-vaccine changes to CDC vaccine guidance blocked by judge",
@@ -1673,7 +1729,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "rfk-jrs-anti-vaccine-changes-to-cdc-vaccine-guidance-blocked-by-judge"
         },
         {
           "representativeTitle": "National Academies of Sciences says no to demands it remove climate info",
@@ -1690,7 +1747,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "national-academies-of-sciences-says-no-to-demands-it-remove-climate-info"
         },
         {
           "representativeTitle": "New \"vibe coded\" AI translation tool splits the video game preservation community",
@@ -1707,7 +1765,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "new-vibe-coded-ai-translation-tool-splits-the-video-game-preservation-community"
         },
         {
           "representativeTitle": "Trump and his FCC chair demand more positive news coverage of Iran war",
@@ -1724,7 +1783,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "trump-and-his-fcc-chair-demand-more-positive-news-coverage-of-iran-war"
         },
         {
           "representativeTitle": "OpenAI’s own mental health experts unanimously opposed “naughty” ChatGPT launch",
@@ -1741,7 +1801,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "openais-own-mental-health-experts-unanimously-opposed-naughty-chatgpt-launch"
         },
         {
           "representativeTitle": "Driving the $375,000 Porsche race car that debuted as a $12 DLC in iRacing",
@@ -1758,7 +1819,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "driving-the-375000-porsche-race-car-that-debuted-as-a-12-dlc-in-iracing"
         },
         {
           "representativeTitle": "F1 in China: I've never seen so many people in those grandstands",
@@ -1775,7 +1837,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "f1-in-china-ive-never-seen-so-many-people-in-those-grandstands"
         },
         {
           "representativeTitle": "Apple’s AirPods Max 2 bring H2 chip, boosted ANC in April for $549",
@@ -1792,7 +1855,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "apples-airpods-max-2-bring-h2-chip-boosted-anc-in-april-for-549"
         },
         {
           "representativeTitle": "100 years later, where is Robert Goddard's first liquid-fueled rocket?",
@@ -1809,7 +1873,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "100-years-later-where-is-robert-goddards-first-liquid-fueled-rocket"
         },
         {
           "representativeTitle": "No accountability: Bills would ban liability lawsuits for climate change",
@@ -1826,7 +1891,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "no-accountability-bills-would-ban-liability-lawsuits-for-climate-change"
         },
         {
           "representativeTitle": "The science of how fireflies stay in sync",
@@ -1843,7 +1909,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "the-science-of-how-fireflies-stay-in-sync"
         },
         {
           "representativeTitle": "A century after the first rocket launch, Ars staffers pick their favorites",
@@ -1860,7 +1927,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "a-century-after-the-first-rocket-launch-ars-staffers-pick-their-favorites"
         },
         {
           "representativeTitle": "Where OpenAI’s technology could show up in Iran",
@@ -1877,7 +1945,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "where-openais-technology-could-show-up-in-iran"
         },
         {
           "representativeTitle": "Nurturing agentic AI beyond the toddler stage",
@@ -1894,7 +1963,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "nurturing-agentic-ai-beyond-the-toddler-stage"
         },
         {
           "representativeTitle": "The Download: glass chips and “AI-free” logos",
@@ -1911,7 +1981,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "the-download-glass-chips-and-ai-free-logos"
         },
         {
           "representativeTitle": "Securing digital assets against future threats",
@@ -1928,7 +1999,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "securing-digital-assets-against-future-threats"
         }
       ]
     },
@@ -1950,7 +2022,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "trumps-confidence-is-undimmed"
         },
         {
           "representativeTitle": "Afghanistan accuses Pakistan of deadly strike on Kabul hospital",
@@ -1981,7 +2054,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 75
+          "importance": 75,
+          "slug": "afghanistan-accuses-pakistan-of-deadly-strike-on-kabul-hospital"
         },
         {
           "representativeTitle": "AI firm Anthropic seeks weapons expert to stop users from 'misuse'",
@@ -1998,7 +2072,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "ai-firm-anthropic-seeks-weapons-expert-to-stop-users-from-misuse"
         },
         {
           "representativeTitle": "'Fire came from the sky and burned them'",
@@ -2015,7 +2090,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "fire-came-from-the-sky-and-burned-them"
         },
         {
           "representativeTitle": "'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",
@@ -2032,7 +2108,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "my-mother-cried-out-one-last-time-palestinian-boy-12-describes-how-israeli-forces-killed-his-family-in-car"
         },
         {
           "representativeTitle": "Sri Lanka declares Wednesdays off as Asian countries try to conserve fuel",
@@ -2049,7 +2126,33 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "sri-lanka-declares-wednesdays-off-as-asian-countries-try-to-conserve-fuel"
+        },
+        {
+          "representativeTitle": "Millions without electricity as Cuba's power grid collapses",
+          "sources": [
+            "BBC World",
+            "The Guardian"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Millions without electricity as Cuba's power grid collapses",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/c07j40dyx53o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-17T03:46:22.000Z"
+            },
+            {
+              "title": "Cuba’s electrical grid collapses amid US oil blockade",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/mar/16/cuba-electrical-grid-collapses-amid-us-oil-blockade",
+              "pubDate": "2026-03-16T19:41:29.000Z"
+            }
+          ],
+          "sentiment": -0.9,
+          "importance": 57,
+          "slug": "millions-without-electricity-as-cubas-power-grid-collapses"
         },
         {
           "representativeTitle": "Utah bereavement author found guilty of fatally poisoning her husband",
@@ -2066,7 +2169,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "utah-bereavement-author-found-guilty-of-fatally-poisoning-her-husband"
         },
         {
           "representativeTitle": "Whistleblower murder suspect is former elite officer, South African police say",
@@ -2083,7 +2187,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "whistleblower-murder-suspect-is-former-elite-officer-south-african-police-say"
         },
         {
           "representativeTitle": "Russia agrees to stop using Kenyan recruits in Ukraine conflict, Kenya says",
@@ -2100,7 +2205,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "russia-agrees-to-stop-using-kenyan-recruits-in-ukraine-conflict-kenya-says"
         },
         {
           "representativeTitle": "Moving English tests for migrants online risks criminal abuse, providers warn",
@@ -2117,7 +2223,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "moving-english-tests-for-migrants-online-risks-criminal-abuse-providers-warn"
         },
         {
           "representativeTitle": "Ecuador deploys 75,000 soldiers and police to combat drug gangs",
@@ -2134,7 +2241,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "ecuador-deploys-75000-soldiers-and-police-to-combat-drug-gangs"
         },
         {
           "representativeTitle": "Iran hits key UAE oil port and Dubai airport",
@@ -2151,7 +2259,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "iran-hits-key-uae-oil-port-and-dubai-airport"
         },
         {
           "representativeTitle": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
@@ -2168,7 +2277,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "meta-and-tiktok-let-harmful-content-rise-after-evidence-outrage-drove-engagement-say-whistleblowers"
         },
         {
           "representativeTitle": "UN receives reports alleging torture of detainees in Venezuela continues",
@@ -2185,7 +2295,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "un-receives-reports-alleging-torture-of-detainees-in-venezuela-continues"
         },
         {
           "representativeTitle": "Trump says presidents 'should not have learning disabilities' as he mocks Newsom's dyslexia",
@@ -2202,7 +2313,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "trump-says-presidents-should-not-have-learning-disabilities-as-he-mocks-newsoms-dyslexia"
         },
         {
           "representativeTitle": "Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",
@@ -2219,7 +2331,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "iran-taking-steps-to-prevent-anti-establishment-protests-tehran-residents-tell-bbc"
         },
         {
           "representativeTitle": "Far-left and far-right gains throw French mainstream parties into a quandary",
@@ -2236,7 +2349,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "far-left-and-far-right-gains-throw-french-mainstream-parties-into-a-quandary"
         },
         {
           "representativeTitle": "Who wants what from the Iran war?",
@@ -2253,7 +2367,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "who-wants-what-from-the-iran-war"
         },
         {
           "representativeTitle": "'A new norm': BBC visits Doha market starting to fill up again two weeks into Iran war",
@@ -2270,7 +2385,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "a-new-norm-bbc-visits-doha-market-starting-to-fill-up-again-two-weeks-into-iran-war"
         },
         {
           "representativeTitle": "Watch: Reunion resident gets close to lava from erupting volcano",
@@ -2287,7 +2403,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "watch-reunion-resident-gets-close-to-lava-from-erupting-volcano"
         },
         {
           "representativeTitle": "Mexico City breaks Guinness Record with giant football training session",
@@ -2304,7 +2421,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "mexico-city-breaks-guinness-record-with-giant-football-training-session"
         },
         {
           "representativeTitle": "Africa particularly vulnerable as Iran conflict disrupts supply chains, say experts",
@@ -2321,24 +2439,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "Cuba’s electrical grid collapses amid US oil blockade",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cuba’s electrical grid collapses amid US oil blockade",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/16/cuba-electrical-grid-collapses-amid-us-oil-blockade",
-              "pubDate": "2026-03-16T19:41:29.000Z"
-            }
-          ],
-          "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "africa-particularly-vulnerable-as-iran-conflict-disrupts-supply-chains-say-experts"
         },
         {
           "representativeTitle": "Trump seeks to delay China summit as Vance denies ‘wedge’ over Iran war",
@@ -2355,7 +2457,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "trump-seeks-to-delay-china-summit-as-vance-denies-wedge-over-iran-war"
         },
         {
           "representativeTitle": "Trump asks China if visit to Beijing can be delayed a month due to Iran war",
@@ -2379,24 +2482,33 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 57
+          "importance": 57,
+          "slug": "trump-asks-china-if-visit-to-beijing-can-be-delayed-a-month-due-to-iran-war"
         },
         {
-          "representativeTitle": "Australia news live: RBA interest rates decision due; people buying up Bunnings’ jerry cans ‘unAustralian’, Bowen says",
+          "representativeTitle": "RBA interest rates: Reserve Bank raises official cash rate to 4.1% in blow to mortgage holders",
           "sources": [
+            "The Guardian",
             "The Guardian"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Australia news live: RBA interest rates decision due; people buying up Bunnings’ jerry cans ‘unAustralian’, Bowen says",
+              "title": "Australia news live: fresh blow to mortgage holders as RBA hikes official interest rate to 4.1% in second consecutive increase",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/live/2026/mar/17/bowen-rba-interest-rates-decision-cost-of-living-inflation-fuel-price-shortages-petrol-jim-chalmers-economy-war-iran-anthony-albanese-ntwnfb",
-              "pubDate": "2026-03-17T03:23:16.000Z"
+              "pubDate": "2026-03-17T03:56:45.000Z"
+            },
+            {
+              "title": "RBA interest rates: Reserve Bank raises official cash rate to 4.1% in blow to mortgage holders",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/mar/17/rba-interest-rate-australia-increase-fuel-petrol-prices",
+              "pubDate": "2026-03-17T03:48:54.000Z"
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 52,
+          "slug": "rba-interest-rates-reserve-bank-raises-official-cash-rate-to-41-in-blow-to-mortgage-holders"
         },
         {
           "representativeTitle": "Let the games begin: Victorian Liberals fail at sport but surprise with teamwork in viral video",
@@ -2413,7 +2525,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "let-the-games-begin-victorian-liberals-fail-at-sport-but-surprise-with-teamwork-in-viral-video"
         },
         {
           "representativeTitle": "Naveed Akram’s family members could be killed if their identities aren’t suppressed, court told",
@@ -2430,7 +2543,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "naveed-akrams-family-members-could-be-killed-if-their-identities-arent-suppressed-court-told"
         },
         {
           "representativeTitle": "Child abuse material ‘systemic’ on Elon Musk’s X amid Grok scandal, Australian online safety regulator warned",
@@ -2447,24 +2561,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "Replacing 1m petrol cars with EVs could cut Australia’s reliance on foreign fuel by 1bn litres a year",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Replacing 1m petrol cars with EVs could cut Australia’s reliance on foreign fuel by 1bn litres a year",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/environment/2026/mar/16/electric-vehicles-australia-reduce-reliance-on-foreign-fuel",
-              "pubDate": "2026-03-16T14:00:22.000Z"
-            }
-          ],
-          "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "child-abuse-material-systemic-on-elon-musks-x-amid-grok-scandal-australian-online-safety-regulator-warned"
         },
         {
           "representativeTitle": "French political parties seek alliances before final round of local elections",
@@ -2481,7 +2579,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "french-political-parties-seek-alliances-before-final-round-of-local-elections"
         },
         {
           "representativeTitle": "European takeover battle hots up with UniCredit’s ‘unfriendly attack’ on Commerzbank",
@@ -2498,7 +2597,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "european-takeover-battle-hots-up-with-unicredits-unfriendly-attack-on-commerzbank"
         },
         {
           "representativeTitle": "Nicolas Sarkozy back in court for fresh trial over alleged Libya funding",
@@ -2515,7 +2615,26 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "nicolas-sarkozy-back-in-court-for-fresh-trial-over-alleged-libya-funding"
+        },
+        {
+          "representativeTitle": "UAE reopens airspace after Iran attack – as it happened",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "UAE reopens airspace after Iran attack – as it happened",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/mar/16/iran-war-live-updates-news-oil-trump-hormuz-dubai-airport-israel-targets",
+              "pubDate": "2026-03-17T03:28:09.000Z"
+            }
+          ],
+          "sentiment": -0.4,
+          "importance": 35,
+          "slug": "uae-reopens-airspace-after-iran-attack-as-it-happened"
         },
         {
           "representativeTitle": "Will the strait of Hormuz torpedo Trump’s war? – podcast",
@@ -2532,31 +2651,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "Iran war live: Trump scolds allies for not joining Strait of Hormuz mission",
-          "sources": [
-            "The Guardian",
-            "Al Jazeera"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Middle East crisis live: Trump vents frustration with allies over strait of Hormuz; US embassy in Baghdad reportedly targeted in air attack",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/live/2026/mar/16/iran-war-live-updates-news-oil-trump-hormuz-dubai-airport-israel-targets",
-              "pubDate": "2026-03-17T02:52:15.000Z"
-            },
-            {
-              "title": "Iran war live: Trump scolds allies for not joining Strait of Hormuz mission",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/liveblog/2026/3/17/iran-war-live-trump-scolds-allies-for-not-joining-strait-of-hormuz-mission?traffic_source=rss",
-              "pubDate": "2026-03-17T00:00:00.000Z"
-            }
-          ],
-          "sentiment": -0.4,
-          "importance": 57
+          "importance": 35,
+          "slug": "will-the-strait-of-hormuz-torpedo-trumps-war-podcast"
         },
         {
           "representativeTitle": "At least 200 American troops wounded in Iran war, US military says",
@@ -2573,7 +2669,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "at-least-200-american-troops-wounded-in-iran-war-us-military-says"
         },
         {
           "representativeTitle": "Gulf states may be covertly encouraging attacks by US, Iran foreign minister says",
@@ -2590,7 +2687,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "gulf-states-may-be-covertly-encouraging-attacks-by-us-iran-foreign-minister-says"
         },
         {
           "representativeTitle": "Who is answering Trump’s call for help with Strait of Hormuz?",
@@ -2621,7 +2719,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 70
+          "importance": 70,
+          "slug": "who-is-answering-trumps-call-for-help-with-strait-of-hormuz"
         },
         {
           "representativeTitle": "Train delays: compensation claims to be easier under Great British Railways",
@@ -2638,7 +2737,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "train-delays-compensation-claims-to-be-easier-under-great-british-railways"
         },
         {
           "representativeTitle": "Cannabis is not an effective treatment for common mental health conditions, says review",
@@ -2655,7 +2755,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "cannabis-is-not-an-effective-treatment-for-common-mental-health-conditions-says-review"
         },
         {
           "representativeTitle": "Tina Fey, Jamie Dornan and Riz Ahmed first three guest hosts of UK Saturday Night Live",
@@ -2672,7 +2773,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "tina-fey-jamie-dornan-and-riz-ahmed-first-three-guest-hosts-of-uk-saturday-night-live"
         },
         {
           "representativeTitle": "‘The videos are terrifying’: students describe spreading panic amid Kent meningitis outbreak",
@@ -2689,7 +2791,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "the-videos-are-terrifying-students-describe-spreading-panic-amid-kent-meningitis-outbreak"
         },
         {
           "representativeTitle": "Meningitis outbreak at University of Kent and three schools kills two young people with 11 in hospital",
@@ -2706,7 +2809,26 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "meningitis-outbreak-at-university-of-kent-and-three-schools-kills-two-young-people-with-11-in-hospital"
+        },
+        {
+          "representativeTitle": "Cuba faces nationwide blackouts amid US oil blockade",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Cuba faces nationwide blackouts amid US oil blockade",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/cuba-faces-nationwide-blackouts-amid-us-oil-blockade?traffic_source=rss",
+              "pubDate": "2026-03-17T03:52:10.000Z"
+            }
+          ],
+          "sentiment": -0.4,
+          "importance": 35,
+          "slug": "cuba-faces-nationwide-blackouts-amid-us-oil-blockade"
         },
         {
           "representativeTitle": "Top Democrat in US House slams Trump’s ‘reckless war of choice’",
@@ -2723,7 +2845,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "top-democrat-in-us-house-slams-trumps-reckless-war-of-choice"
         },
         {
           "representativeTitle": "Israel policy looms large over US elections in Illinois amid Iran war",
@@ -2740,7 +2863,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "israel-policy-looms-large-over-us-elections-in-illinois-amid-iran-war"
         },
         {
           "representativeTitle": "Palestinian activist Leqaa Kordia released from ICE detention",
@@ -2764,7 +2888,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 52
+          "importance": 52,
+          "slug": "palestinian-activist-leqaa-kordia-released-from-ice-detention"
         },
         {
           "representativeTitle": "Iran says wars are not won on social media",
@@ -2781,7 +2906,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "iran-says-wars-are-not-won-on-social-media"
         },
         {
           "representativeTitle": "Attempts to open Strait of Hormuz by force would be ‘almost suicidal’",
@@ -2798,7 +2924,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "attempts-to-open-strait-of-hormuz-by-force-would-be-almost-suicidal"
         },
         {
           "representativeTitle": "Many killed, wounded after blasts hit Nigeria’s Maiduguri, witnesses say",
@@ -2815,7 +2942,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "many-killed-wounded-after-blasts-hit-nigerias-maiduguri-witnesses-say"
         },
         {
           "representativeTitle": "Experts say global response may evolve over Hormuz security",
@@ -2832,7 +2960,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "experts-say-global-response-may-evolve-over-hormuz-security"
         },
         {
           "representativeTitle": "Scores of people killed in series of bomb blasts in northern Nigeria",
@@ -2849,7 +2978,26 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "scores-of-people-killed-in-series-of-bomb-blasts-in-northern-nigeria"
+        },
+        {
+          "representativeTitle": "Iran war live: Trump scolds allies for not joining Strait of Hormuz mission",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Iran war live: Trump scolds allies for not joining Strait of Hormuz mission",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/3/17/iran-war-live-trump-scolds-allies-for-not-joining-strait-of-hormuz-mission?traffic_source=rss",
+              "pubDate": "2026-03-17T00:00:00.000Z"
+            }
+          ],
+          "sentiment": -0.4,
+          "importance": 35,
+          "slug": "iran-war-live-trump-scolds-allies-for-not-joining-strait-of-hormuz-mission"
         },
         {
           "representativeTitle": "Hotel in Iraqi capital Baghdad struck as attacks on US embassy intercepted",
@@ -2866,7 +3014,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "hotel-in-iraqi-capital-baghdad-struck-as-attacks-on-us-embassy-intercepted"
         },
         {
           "representativeTitle": "Trump claims strikes on Iran prevented nuclear war",
@@ -2883,7 +3032,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "trump-claims-strikes-on-iran-prevented-nuclear-war"
         },
         {
           "representativeTitle": "‘Fourth world nation’: Trump slams Somalia, Ilhan Omar",
@@ -2900,7 +3050,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "fourth-world-nation-trump-slams-somalia-ilhan-omar"
         },
         {
           "representativeTitle": "Ten ICU patients killed in hospital fire in eastern India",
@@ -2917,7 +3068,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "ten-icu-patients-killed-in-hospital-fire-in-eastern-india"
         },
         {
           "representativeTitle": "Trump threatens to ‘take’ Cuba amid island-wide power crisis",
@@ -2934,7 +3086,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "trump-threatens-to-take-cuba-amid-island-wide-power-crisis"
         },
         {
           "representativeTitle": "BBC files motion asking US court to throw out Trump’s $10bn lawsuit",
@@ -2951,7 +3104,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "bbc-files-motion-asking-us-court-to-throw-out-trumps-10bn-lawsuit"
         },
         {
           "representativeTitle": "How big of a problem is the Strait of Hormuz for Donald Trump?",
@@ -2968,7 +3122,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "how-big-of-a-problem-is-the-strait-of-hormuz-for-donald-trump"
         },
         {
           "representativeTitle": "Hezbollah rocket hits a residential building in Israel’s Nahariya",
@@ -2985,7 +3140,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "hezbollah-rocket-hits-a-residential-building-in-israels-nahariya"
         },
         {
           "representativeTitle": "Israeli forces in southern Lebanon as ground operation announced",
@@ -3002,7 +3158,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "israeli-forces-in-southern-lebanon-as-ground-operation-announced"
         },
         {
           "representativeTitle": "Outrage as Afghan asylum seeker who fought alongside US dies in ICE custody",
@@ -3019,24 +3176,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "Indian farmers dress up as bears to protect crops from monkeys",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Indian farmers dress up as bears to protect crops from monkeys",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/indian-farmers-dress-up-as-bears-to-protect-crops-from-monkeys?traffic_source=rss",
-              "pubDate": "2026-03-16T17:37:08.000Z"
-            }
-          ],
-          "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "outrage-as-afghan-asylum-seeker-who-fought-alongside-us-dies-in-ice-custody"
         }
       ]
     },
@@ -3058,7 +3199,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "the-smell-of-egyptian-mummies-is-revealing-2000-year-old-secrets"
         },
         {
           "representativeTitle": "Scientists unlock a powerful new way to turn sunlight into fuel",
@@ -3075,7 +3217,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "scientists-unlock-a-powerful-new-way-to-turn-sunlight-into-fuel"
         },
         {
           "representativeTitle": "A strange twist in the universe’s oldest light may be bigger than we thought",
@@ -3092,7 +3235,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "a-strange-twist-in-the-universes-oldest-light-may-be-bigger-than-we-thought"
         },
         {
           "representativeTitle": "A strange new quantum state appears when atoms get “frustrated”",
@@ -3109,7 +3253,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "a-strange-new-quantum-state-appears-when-atoms-get-frustrated"
         },
         {
           "representativeTitle": "Just 24 minutes of specially designed music could significantly reduce anxiety",
@@ -3126,7 +3271,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "just-24-minutes-of-specially-designed-music-could-significantly-reduce-anxiety"
         },
         {
           "representativeTitle": "Scientists discover what really happens during sourdough fermentation",
@@ -3143,7 +3289,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "scientists-discover-what-really-happens-during-sourdough-fermentation"
         },
         {
           "representativeTitle": "Common pesticide may more than double Parkinson’s disease risk",
@@ -3160,7 +3307,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "common-pesticide-may-more-than-double-parkinsons-disease-risk"
         },
         {
           "representativeTitle": "Scientists inject one tumor and watch cancer vanish across the body",
@@ -3177,24 +3325,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.9,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "MIT scientists discover gut protein that traps and kills dangerous bacteria",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "MIT scientists discover gut protein that traps and kills dangerous bacteria",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/03/260315004403.htm",
-              "pubDate": "2026-03-16T04:05:04.000Z"
-            }
-          ],
-          "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "scientists-inject-one-tumor-and-watch-cancer-vanish-across-the-body"
         },
         {
           "representativeTitle": "Scientists create a cancer flashlight that lights up tumors",
@@ -3211,7 +3343,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "scientists-create-a-cancer-flashlight-that-lights-up-tumors"
         },
         {
           "representativeTitle": "Cells can sense 10x farther than expected and it may explain cancer spread",
@@ -3228,7 +3361,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "cells-can-sense-10x-farther-than-expected-and-it-may-explain-cancer-spread"
         },
         {
           "representativeTitle": "It's coyote puppy season; here's what you need to know",
@@ -3245,7 +3379,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "its-coyote-puppy-season-heres-what-you-need-to-know"
         },
         {
           "representativeTitle": "Carbon trading cuts emissions better than carbon taxes",
@@ -3262,7 +3397,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "carbon-trading-cuts-emissions-better-than-carbon-taxes"
         },
         {
           "representativeTitle": "A milestone voyage for Antarctic science",
@@ -3279,7 +3415,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "a-milestone-voyage-for-antarctic-science"
         },
         {
           "representativeTitle": "A 60-year old mystery about the moon's magnetosphere is finally solved",
@@ -3296,7 +3433,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "a-60-year-old-mystery-about-the-moons-magnetosphere-is-finally-solved"
         },
         {
           "representativeTitle": "Ticketmaster's Eras Tour chaos made worse by crisis communication failures",
@@ -3313,7 +3451,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "ticketmasters-eras-tour-chaos-made-worse-by-crisis-communication-failures"
         },
         {
           "representativeTitle": "Maize mysteries: Scientists uncover new information on how DNA works in maize",
@@ -3330,7 +3469,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "maize-mysteries-scientists-uncover-new-information-on-how-dna-works-in-maize"
         },
         {
           "representativeTitle": "Why sugar breakdown matters beyond energy—new insights into how it makes cells move",
@@ -3347,7 +3487,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "why-sugar-breakdown-matters-beyond-energynew-insights-into-how-it-makes-cells-move"
         },
         {
           "representativeTitle": "Study identifies causes of potato dry rot in Colorado",
@@ -3364,7 +3505,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "study-identifies-causes-of-potato-dry-rot-in-colorado"
         },
         {
           "representativeTitle": "High-resolution electron microscopy sheds light on the cellular responses to stress",
@@ -3381,7 +3523,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "high-resolution-electron-microscopy-sheds-light-on-the-cellular-responses-to-stress"
         },
         {
           "representativeTitle": "Clustering-based AI forecasts river water levels using just a few long records",
@@ -3398,7 +3541,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "clustering-based-ai-forecasts-river-water-levels-using-just-a-few-long-records"
         },
         {
           "representativeTitle": "Amazonian chocolate: Combining cocoa clones with different post-harvest processes balances flavor and nutritional value",
@@ -3415,7 +3559,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "amazonian-chocolate-combining-cocoa-clones-with-different-post-harvest-processes-balances-flavor-and-nutritional-value"
         },
         {
           "representativeTitle": "Milk-derived nanoparticles may enable physicians to target aggressive bile duct cancer",
@@ -3432,7 +3577,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "milk-derived-nanoparticles-may-enable-physicians-to-target-aggressive-bile-duct-cancer"
         },
         {
           "representativeTitle": "Bull sharks form social relationships with specific 'friends,' research reveals",
@@ -3449,7 +3595,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "bull-sharks-form-social-relationships-with-specific-friends-research-reveals"
         },
         {
           "representativeTitle": "Q&A: Reevaluating reaction rates to better understand the stars",
@@ -3466,7 +3613,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "qa-reevaluating-reaction-rates-to-better-understand-the-stars"
         },
         {
           "representativeTitle": "Life, but not as we know it",
@@ -3483,7 +3631,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "life-but-not-as-we-know-it"
         },
         {
           "representativeTitle": "A clear roadmap for engineering combs of light",
@@ -3500,7 +3649,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "a-clear-roadmap-for-engineering-combs-of-light"
         },
         {
           "representativeTitle": "JWST maps Europa's CO₂ beyond Tara Regio, hinting at subsurface exchange",
@@ -3517,7 +3667,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "jwst-maps-europas-co-beyond-tara-regio-hinting-at-subsurface-exchange"
         },
         {
           "representativeTitle": "A galaxy next door is transforming, and astronomers can see it happening",
@@ -3534,7 +3685,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "a-galaxy-next-door-is-transforming-and-astronomers-can-see-it-happening"
         },
         {
           "representativeTitle": "Climate action could prevent over 13 million premature deaths, but equity choices matter for global health",
@@ -3551,7 +3703,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.9,
-          "importance": 35
+          "importance": 35,
+          "slug": "climate-action-could-prevent-over-13-million-premature-deaths-but-equity-choices-matter-for-global-health"
         },
         {
           "representativeTitle": "Laser-assisted electron scattering seen with circularly polarized light for the first time",
@@ -3568,7 +3721,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "laser-assisted-electron-scattering-seen-with-circularly-polarized-light-for-the-first-time"
         },
         {
           "representativeTitle": "New study offers insight into tissue-specific gene regulation of sheep",
@@ -3585,7 +3739,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "new-study-offers-insight-into-tissue-specific-gene-regulation-of-sheep"
         },
         {
           "representativeTitle": "What you study in school shapes your voting choices in adulthood",
@@ -3602,7 +3757,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "importance": 35
+          "importance": 35,
+          "slug": "what-you-study-in-school-shapes-your-voting-choices-in-adulthood"
         },
         {
           "representativeTitle": "Microbes in Antarctica survive the freezing and dark winter by living on air",
@@ -3619,7 +3775,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "microbes-in-antarctica-survive-the-freezing-and-dark-winter-by-living-on-air"
         },
         {
           "representativeTitle": "Light-controlled hydrogel mimics soft human tissue for more realistic cell studies",
@@ -3636,7 +3793,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "light-controlled-hydrogel-mimics-soft-human-tissue-for-more-realistic-cell-studies"
         },
         {
           "representativeTitle": "Gold nanoclusters could selectively recognize chiral biomolecules to help detect certain diseases",
@@ -3653,7 +3811,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "gold-nanoclusters-could-selectively-recognize-chiral-biomolecules-to-help-detect-certain-diseases"
         },
         {
           "representativeTitle": "‘A molten, mushy state’: scientists may have found a new type of liquid planet",
@@ -3670,7 +3829,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "a-molten-mushy-state-scientists-may-have-found-a-new-type-of-liquid-planet"
         },
         {
           "representativeTitle": "A petri dish of human brain cells is currently playing Doom. Should we be worried?",
@@ -3687,7 +3847,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "a-petri-dish-of-human-brain-cells-is-currently-playing-doom-should-we-be-worried"
         },
         {
           "representativeTitle": "Oldest-known whale song recording provides new insight into ocean sounds",
@@ -3704,7 +3865,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "oldest-known-whale-song-recording-provides-new-insight-into-ocean-sounds"
         },
         {
           "representativeTitle": "Officials ‘missed 99% of data’ before ending Covid vaccine recommendation, memos reveal",
@@ -3721,7 +3883,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
+          "importance": 35,
+          "slug": "officials-missed-99-of-data-before-ending-covid-vaccine-recommendation-memos-reveal"
         },
         {
           "representativeTitle": "Did you solve it? Are you a match for the dinkiest mag in maths?",
@@ -3745,10 +3908,11 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 52
+          "importance": 52,
+          "slug": "did-you-solve-it-are-you-a-match-for-the-dinkiest-mag-in-maths"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-03-17T03:38:12.631Z"
+  "lastUpdated": "2026-03-17T04:05:57.391Z"
 };
