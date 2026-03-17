@@ -1,16 +1,68 @@
-# React + Vite
+# 📰 NewsBlocks | Visual News Sentiment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Update News Map Data](https://github.com/prasadabhishek/newsblocks/actions/workflows/update-news.yml/badge.svg)](https://github.com/prasadabhishek/newsblocks/actions/workflows/update-news.yml)
+[![Live Site](https://img.shields.io/badge/Live-newsblocks.org-blue)](https://newsblocks.org)
 
-Currently, two official plugins are available:
+**NewsBlocks** is a real-time, AI-powered news sentiment visualizer. It aggregates global headlines from elite journalistic sources, clusters them into semantic story-arcs using high-dimensional embeddings, and projects them into a dynamic, interactive treemap.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![NewsBlocks Screenshot](public/screenshot.png)
 
-## React Compiler
+## 🚀 The V2 Architecture: Math over Guesswork
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Unlike traditional news aggregators that rely on keyword matching or simple LLM grouping, NewsBlocks V2 uses a robust, deterministic data pipeline.
 
-## Expanding the ESLint configuration
+### 🧠 Semantic Story Clustering (Embeddings)
+Instead of asking an AI to "group these headlines" (which leads to hallucinations and lazy catch-all categories), we use **`text-embedding-004`**.
+- **Vector Space:** Every headline is converted into a 768-dimensional mathematical vector.
+- **Cosine Similarity:** We calculate the mathematical distance between every headline.
+- **Thresholding:** Articles are only clustered if they share a **>82% semantic similarity**. This guarantees that a cluster about "Nvidia GPU Launch" won't be polluted by general "Tech Stocks" news.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 Deterministic Sentiment (Strict Buckets)
+To solve the "color fluctuation" problem where the same story might look slightly different shades of red or green every hour, we moved to a **Categorical Sentiment Model**.
+- **The Buckets:** `DISASTER`, `NEGATIVE`, `NEUTRAL`, `POSITIVE`, `EUPHORIC`.
+- **The Logic:** The AI classifies the *intent* and *impact* of the headline into a strict string bucket.
+- **The Mapping:** Our scoring engine maps these strings to fixed, deterministic float values (`-0.9` for Disaster, `+0.9` for Euphoric). This ensures perfectly consistent coloring across the entire UI.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React 19, Vite, D3.js (Advanced `.join()` transitions)
+- **Styling:** Vanilla CSS with custom design tokens.
+- **AI Engine:** Google Gemini 2.5 Flash + Google Embeddings.
+- **Automation:** GitHub Actions (Running every 8 hours on a cron schedule).
+- **Deployment:** Cloudflare Pages.
+
+## 🏃‍♂️ Running Locally
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/prasadabhishek/newsblocks.git
+   cd newsblocks
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up Environment Variables:**
+   Create a `.env` file in the root:
+   ```env
+   GEMINI_API_KEY=your_api_key_here
+   ```
+
+4. **Run the pipeline (optional):**
+   ```bash
+   node scripts/gather-news.js
+   ```
+
+5. **Start the dev server:**
+   ```bash
+   npm run dev
+   ```
+
+## 🛡️ Security & Privacy
+- **No Tracking:** NewsBlocks uses Cloudflare's privacy-first web analytics (No cookies, no GDPR banners needed).
+- **Static First:** The site is served as a static asset. All AI processing happens in the background via secure GitHub Action runners, never exposing API keys to the client.
+
+---
+Made with ❤️ by [Abhishek Prasad](https://www.linkedin.com/in/abhishekaprasad/)

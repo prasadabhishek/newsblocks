@@ -145,26 +145,19 @@ export const newsData = {
         {
           "representativeTitle": "Trump’s war is bringing economic calamity to the UK – and another shock to our politics | Gaby Hinsliff",
           "sources": [
-            "The Guardian",
             "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Trump’s war is bringing economic calamity to the UK – and another shock to our politics | Gaby Hinsliff",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/commentisfree/2026/mar/16/iran-war-fuel-prices-economic-calamity-uk-politics",
               "pubDate": "2026-03-16T18:08:19.000Z"
-            },
-            {
-              "title": "Trump’s war is bringing economic calamity to the UK – and another shock to our politics | Gaby Hinsliff",
-              "source": "The Guardian",
-              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOckVGQW1fdzI4Z2g0ZUhpNUx1aTJpTHRqcFJBWnJvNVhxclE3WXpMMllFaVZSeWNhd19XekVGSmxXRFVqNHNhN19tVm9ySE13WHA5M1VLRTAzZzNua3hoX0hXaDhwdXZ3T0hqZHdHVHBDYVF4ZnhjcHJzeXBtSUpmQVF1VmV5NjRzMTJTR2dPNlhUZTFUVnVjV3NuSElvNnVyWk1vN1ltUQ?oc=5",
-              "pubDate": "2026-03-16T18:43:00.000Z"
             }
           ],
           "sentiment": -0.9,
-          "importance": 52
+          "importance": 35
         },
         {
           "representativeTitle": "What's worth more: Churchill or a woke badger? Welcome to Britain's banknote culture war | Jonn Elledge",
@@ -371,8 +364,8 @@ export const newsData = {
           "representativeTitle": "Judge blocks US government from slimming down vaccine recommendations",
           "sources": [
             "The Journal Gazette",
-            "WJBF",
-            "FOX40"
+            "Greeley Tribune",
+            "WAVY.com"
           ],
           "citationCount": 3,
           "rawArticles": [
@@ -384,19 +377,36 @@ export const newsData = {
             },
             {
               "title": "Judge blocks US government from slimming down vaccine recommendations",
-              "source": "WJBF",
-              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ3JTcEI2UTJ6VUcyUXVUWWpmMW92Z19hclotZkRiS21pQlJqMjEtaUM0dVR4bUloVVhfREwtd3pobE5vVXNsTWlJelJYZVVuU2diSG9aTm9HZENPbkRRLW5ja1JwWWJERWhQVUNPbDdoa1VpaGZSSnBVV2NyTXJSVDZob1N2QUZkclhvVjJZWTFKUEF6U21UWV9SX2ZzaEFsOU0yRlFOM1c1dUpILTRGdExuOVp4amo5M1lBbHZ30gHDAUFVX3lxTFBLNzJRbFV4XzNueWxYTDNpNDRQY1pKVzZuTndvQ096dE1wNmwzTDQ3Tk5Ca1VoUi16QnptSDlrN1RmZU9UMmMyRUY1ajhiNEFuNmRjQXhJRWx5RGRvZmlGOXVuVng4S0tYZVNZcTIxVWlWOU1WaE5hR2ZoWjVXWEgxaWxSdkRKQVVjZzJfdmN2d2NfdGlOOVhHamd1SE1rYjQ3Nm5XdzVrbkZTTTZIOWJINFFXM3cycWZWdmNrM1BnaUpfZw?oc=5",
-              "pubDate": "2026-03-16T20:39:54.000Z"
+              "source": "Greeley Tribune",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQXUzenl2UkE4U09NdndQbUk1dHdZc0lNQXdZblE5SDFOVTVNTVdjcVBSbGtNMEFyNlNPRDY4SDlZb3JWdW16TVJadjZHQ0NIRDZlVWZNRGdpQ2VPak5FczYtUGZ3UEhSTXhSSEI5RTZpRG1HU0J2akw1b3pheWdTVQ?oc=5",
+              "pubDate": "2026-03-16T20:53:47.000Z"
             },
             {
               "title": "Judge blocks US government from slimming down vaccine recommendations",
-              "source": "FOX40",
-              "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdFJhbEhhU09lcEZSQi1ZLXJYakRxRGFCVEIyNFVsNnJTT0ctVU9kUUdLQ2I2OF9feEdqQmdQQ3RCamxCY05BNkhzWUdTYjFFdWY2Y2dkMUZ3Tjd1eU84cFJSSGNZckh6Yml5SkdrOG5pYVlJZ3Z4UU5BekhiQTY0U1d0bldyRDRPVmRkaVlNWk8xMEl3eHozR1Z6NmtTZEJMWGU0UVh0M18xbzJ5UENfNFY3THNTNTNFQzc4cHZUY09ubkV1bmdkONIBzgFBVV95cUxQMFQ3d0JPMWZmMVgyQ293Y0NsQ09xckMtZno1dWdBZm5icFNJc3dIOXBYQU9kTl9jVjlQTnBhc2g2X1NxZGpyYnVUU3pHYzdmejAzWjVWVnZXc3hIYXJDa091MzE4UXFETVYwa3A0QmFCeG9aUF85ZHV3Z3lZZ0lIdURudkxoS0dxYkEtVXFaR0xacUw4azFvMjlqMFRHbWNkenozTFc0MkZqQXZVY2Y5dG5Kblh1V2hHY0hZVTlTRVpadDM3XzQ3OGs3Ql9KZw?oc=5",
+              "source": "WAVY.com",
+              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZjZxcUhyb2YweUdSc2l6WC1ka0VRV3AwdmdsVnJ6cWw4NlN3Z1dJaFppdjhYMWJnZUJieTBxLTE2XzlYU3A1STlYbVZsd1NiblZiSU55VnNKejc4ZDdicE1RaklfWTdBeVVoVE9ocHVNWnM0dnd6QU5WLWx4WWp5ZGFUa3hqWXhCR1duNzY1VWN4bS1pdDhCUHowT0I1QmVxV0lOWUJxNUVabWxW0gGyAUFVX3lxTFBwUGdsUERNZFhZaFFVQ1pxWnMtQkRDb1RYNkJGcWJQLXVKM3RHNU96d1hyQndWejUzdzV1NWJYYzJOeXJvWXg3MEViektwOGoyYjdVM3d3M1dmU05WZ1pLaThRR2pXZnJmVVoyMFdjWjFCYnZEWUstZVZFMG9UaVZhZlN5MmtfZnVNNWJfTkJIa0tKU2tucmdVaDBNQ1EzRk0yMnNkLWtHV1R0MzNuQXR1TUE?oc=5",
               "pubDate": "2026-03-16T20:50:56.000Z"
             }
           ],
           "sentiment": 0,
           "importance": 75
+        },
+        {
+          "representativeTitle": "Switzerland refuses US overflights linked to Middle East war",
+          "sources": [
+            "Euractiv"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Switzerland refuses US overflights linked to Middle East war",
+              "source": "Euractiv",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNak5VRU5ISklzX2k0Q3Z2TzZuTVNXTnBTalMyWGd3NVZFVDBkYndudHJCVzFyQ0NaNmV4UXdVXzFYUnprNTJZQU5aWWJrTlRqNXBJdHdnVmlWbENZRmc3XzY0SVMzcHY2a08tNTVGdWc4YThIaWJxV0ZrMnh1NTd5YTZDYnlBRWNpUFhvUVQ5MDV2QzVMeEE?oc=5",
+              "pubDate": "2026-03-17T02:41:15.000Z"
+            }
+          ],
+          "sentiment": -0.4,
+          "importance": 35
         },
         {
           "representativeTitle": "Trump Officials Look to More Managed Approach to Trade With China",
@@ -416,20 +426,20 @@ export const newsData = {
           "importance": 35
         },
         {
-          "representativeTitle": "As Florida leads on free-market policies, new poll shows voters want federal regulators to follow suit",
+          "representativeTitle": "Congress still searching for DHS compromise as government shutdown nears the month mark",
           "sources": [
-            "Florida Politics"
+            "Scripps News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "As Florida leads on free-market policies, new poll shows voters want federal regulators to follow suit",
-              "source": "Florida Politics",
-              "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd1pQVThGRGxVbjlWR21kQzZ3WWl0dThMZXNJR0h2bFFCSXBSbVNtdHZqUV9vSUdONmZuYUtTZ2o5ZFhKaUdKMXlRUmx4NmpLekxHM2g4a3puWHF3OFRiZDFlVXM3SG5ISlBsejZ5aUVrZmxHTUhJY3lSWXBMazJka1JSb1p0TndiQkRjc1J5d2FERjA3WG1qZjlFbXEzMVFEX0lxR2syc2MxNXJ0elc2WmtQWjg3eDFXeVBkSG13aEFuemZ3aTNwNVNUdnpHU2JEZXk0RmFveDhuaGRSMUhV?oc=5",
-              "pubDate": "2026-03-16T13:13:56.000Z"
+              "title": "Congress still searching for DHS compromise as government shutdown nears the month mark",
+              "source": "Scripps News",
+              "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbloyTnFtMlBYaW5NU2c3MmxOV2NxVlp2eVNKY1hIcDBIbkp0X2VpS0RIeGJnZktyMkVxTnV6TlU1VEpuMzFmRk5xYmF1YXUzLXFkNldhVmlYN3V1Z1cwbUYxVzVvbDBIZGNFVmZNY3dTVkRjZUVlOXNuREVyZVE5Q2ZTOWRXYWZyQWtyRHZIWDMzMnhGWTVMdWNJVXN3alQ5WVhHMmZqMl85a1V6VTkwb2lzX3ZtbWhwc1Z6N1JaSWVuVGVzQTNNNXZyRm0xQQ?oc=5",
+              "pubDate": "2026-03-16T20:20:32.000Z"
             }
           ],
-          "sentiment": 0.4,
+          "sentiment": -0.4,
           "importance": 35
         },
         {
@@ -450,34 +460,34 @@ export const newsData = {
           "importance": 35
         },
         {
-          "representativeTitle": "US economic growth slowed sharply to 0.7% in fourth quarter",
+          "representativeTitle": "Simpson, Little, Bedke speak candidly about state's challenges as America approaches 250",
           "sources": [
-            "Scripps News"
+            "rexburgstandardjournal.com"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US economic growth slowed sharply to 0.7% in fourth quarter",
-              "source": "Scripps News",
-              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRG9ZNEszRVNkd0hUUjllM0czSk9aLWROeURkdDJ4SGpicXFQLTlfNG9KZXIxekJqU3o5TjgtOUlZMDRxSEFXZWEzTGpYTDFOMXVPdndpZi1tbEVKMThIOXRBVmxObGhEcjFNMGprTWdscDlCTm1TUFNOSDRfZm52VFRSZ09VNkhCWXhha1g0Tk5nZEp3cC02a0JZaklnU1JRaldjOVhR?oc=5",
-              "pubDate": "2026-03-16T15:11:07.000Z"
+              "title": "Simpson, Little, Bedke speak candidly about state's challenges as America approaches 250",
+              "source": "rexburgstandardjournal.com",
+              "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOeVQzeUNnMGFmczB2Vl9TcEhFLWNKM3d6bVZIME4xM2V5NTB3RnFKN1RnTUFMY1RkTVZoQTVHeXltYkZ3LWZfNTFMOUR1VWNBVXhDNW5vS0FEV28tVk52RDk5c2g0UjlJRnRHcXdiNDFUUFM3N09wQ0h1a0tnU0pnS0N6WnV1Wi1KVC1PRVRlN29TRVBtS1Ntd0FqVlhXVnh4ZlZEUVdvekp4eEFsUk1nNVR6V29sRDVlTC13dkRPSmFUM0JBNzh4NVk1VGtjUkVYZVFreUwxY25nb3NlcGdwT3hOVFdhM0J0SnVzb1k5d09oNVNCM1NXMWJ6bUpiUHM3LVFTUUt6NlJDRllSRnNHWUVONkNtZGVi0gGYAkFVX3lxTE55VDN5Q2cwYWZzMHZWX1NwSEUtY0ozd3ptVkgwTjEzZXk1MHdGcUo3VGdNQUxjVGRNVmhBNUd5eW1iRnctZl81MUw5RHVVY0FVeEM1bm9LQURXby1WTnZEOTlzaDRSOUlGdEdxd2I0MVRQUzc3T3BDSHVrS2dTSmdLQ3padXVaLUpULU9FVGU3b1NFUG1LU213QWpWWFdWeHhmVkRRV296Snh4QWxSTWc1VHpXb2xENWVMLXd2RE9KYVQzQkE3OHg1WTVUa2NSRVhlUWt5TDFjbmdvc2VwZ3BPeE5UV2EzQnRKdXNvWTl3T2g1U0IzU1cxYnptSmJQczctUVNRS3o2UkNGWVJGc0dZRU42Q21kZWI?oc=5",
+              "pubDate": "2026-03-16T20:01:00.000Z"
             }
           ],
           "sentiment": -0.4,
           "importance": 35
         },
         {
-          "representativeTitle": "Some Team USA athletes speak out about politics at home",
+          "representativeTitle": "Why aren’t TSA agents getting paid?",
           "sources": [
-            "AOL.com"
+            "KTSM 9 News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Some Team USA athletes speak out about politics at home",
-              "source": "AOL.com",
-              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUWdXeFNIdEJjMGNDUjFTWFgxV1JxSy01MWdtb1cxLWt6TDJ0eHR6NEpabXl0elI1LW1XdmxSZ1ZhbGlHRmtMcnhzYkU2VUxXMk9ITlVsZUVjbVhxWkdJMURIMXV1UkVkQmxEcmx6UHZ2bUV3RGIyZWNDQnQtdGVXZmF3?oc=5",
-              "pubDate": "2026-03-16T13:12:48.000Z"
+              "title": "Why aren’t TSA agents getting paid?",
+              "source": "KTSM 9 News",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVTYzb3lQTkxLeWN1bDNnYm9sVDNWRnp5NzFUSTQyUjJ1dV9nRUY5cWJZcTRKcjdGYVRUSnVoX0lzWUFCcVR5T3ZLZEhMX3ZuQ0VRSFJYUU81NEU3TFpNVDk3SVJ3b3lYV0hOaTMwbF8weGR2eC1QcWpqNEZuc3BNejFn0gGCAUFVX3lxTFBVNjNveVBOTEt5Y3VsM2dib2xUM1ZGenk3MVRJNDJSMnV1X2dFRjlxYllxNEpyN0ZhVFRKdWhfSXNZQUJxVHlPdktkSExfdm5DRVFIUlhRTzU0RTdMWk1UOTdJUndveVhXSE5pMzBsXzB4ZHZ4LVBxamo0Rm5zcE16MWc?oc=5",
+              "pubDate": "2026-03-16T12:13:41.000Z"
             }
           ],
           "sentiment": -0.4,
@@ -501,17 +511,17 @@ export const newsData = {
           "importance": 35
         },
         {
-          "representativeTitle": "Iran war 'nothing to do with NATO', says German government",
+          "representativeTitle": "US economic growth slowed sharply to 0.7% in fourth quarter",
           "sources": [
-            "Euractiv"
+            "Scripps News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran war 'nothing to do with NATO', says German government",
-              "source": "Euractiv",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS0o4VFByVndDbFIxYTZUOTZpWFlJWDY3cmo5ckhHMHprR1pjWTc3ekJaUGw1VXVSRmNoc1JZTjBjV3RhQi03WWlUdXNSeERfMUl4aG9ZOVNaQVMwU0l4SV9ucW4xNHp2UjROdDk2aVdBQ19aeFdjRTF0QkdnVTFoN2dpZ2lGbVM5d2ZEMVVyYw?oc=5",
-              "pubDate": "2026-03-16T12:12:19.000Z"
+              "title": "US economic growth slowed sharply to 0.7% in fourth quarter",
+              "source": "Scripps News",
+              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRG9ZNEszRVNkd0hUUjllM0czSk9aLWROeURkdDJ4SGpicXFQLTlfNG9KZXIxekJqU3o5TjgtOUlZMDRxSEFXZWEzTGpYTDFOMXVPdndpZi1tbEVKMThIOXRBVmxObGhEcjFNMGprTWdscDlCTm1TUFNOSDRfZm52VFRSZ09VNkhCWXhha1g0Tk5nZEp3cC02a0JZaklnU1JRaldjOVhR?oc=5",
+              "pubDate": "2026-03-16T21:11:07.000Z"
             }
           ],
           "sentiment": -0.4,
@@ -520,13 +530,13 @@ export const newsData = {
         {
           "representativeTitle": "Say goodbye to TSA officers after hundreds quit during government shutdown",
           "sources": [
-            "the-sun.com"
+            "The US Sun"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
               "title": "Say goodbye to TSA officers after hundreds quit during government shutdown",
-              "source": "the-sun.com",
+              "source": "The US Sun",
               "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUkhPVVpSUlFvZUpLcFhGb0hYejFEUE1PbzJRdzV4QzZ0ZzBfOVlzakpVQk9LZmp0dVFrcXdfWk94U1pjVFBxODhxVm9SN05QTTJoTTlCZ0lRN1FHd3NRdjJhNEVZYXBZRlQyUDZnc1kxdnJ3cE9PWmlad1hOaHd6OTFZbXhQOEVEeDV2QnFn?oc=5",
               "pubDate": "2026-03-16T12:06:09.000Z"
             }
@@ -552,17 +562,17 @@ export const newsData = {
           "importance": 35
         },
         {
-          "representativeTitle": "Cong flags call by US govt body for sanctions against RSS, RAW",
+          "representativeTitle": "Iran war 'nothing to do with NATO', says German government",
           "sources": [
-            "National Herald"
+            "Euractiv"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Cong flags call by US govt body for sanctions against RSS, RAW",
-              "source": "National Herald",
-              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSjhDMnI2aVY0WEl0OXVGMm9wajkydHpwWHNYNkJjemZWeFFwbUNtS3pESGNCbERsWHlJdHJLWUlFR2NkcDI3c0UtRTNVOEhKMERTX2ZZLU5MeUFVZDdvTml4SllqeUVIZXlLUGRMa1ZRNTRVUmZOZ0JVcFpUdTJ1blVMSnFmTDh2US1hbnhPREtvVmhxTTF2R2VFa0M5VnpLb1dlR0N4SWxsT1U1Nmt4TVFrX2pUYnN3R05WbHlXVkF3Z9IBzwFBVV95cUxPdEppLWJ1WTROeDlSdmZWZjlFMWtfMGtRZ056V0NqT3lWcjFZNUpWclp2T29HM0xWcXJZbnQwODZubnZ6UnNKa21XcmNXX0dKVGFsWWdpUW9ucXd1ZG9LaFBMTW1FcDVzMnZjZWtfTWc1REZTMGQzaGszMUdHOTY0U0kxZnVEeGxlQkx2UEs2ZFlTS0czeE5FaUozcmJDaWotS29PdDNtamgyZkZYQTV2SnRWZFkwdExUczdkeHp2em05d2E3Tno5T2ducldWT28?oc=5",
-              "pubDate": "2026-03-16T13:11:28.000Z"
+              "title": "Iran war 'nothing to do with NATO', says German government",
+              "source": "Euractiv",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS0o4VFByVndDbFIxYTZUOTZpWFlJWDY3cmo5ckhHMHprR1pjWTc3ekJaUGw1VXVSRmNoc1JZTjBjV3RhQi03WWlUdXNSeERfMUl4aG9ZOVNaQVMwU0l4SV9ucW4xNHp2UjROdDk2aVdBQ19aeFdjRTF0QkdnVTFoN2dpZ2lGbVM5d2ZEMVVyYw?oc=5",
+              "pubDate": "2026-03-16T12:12:19.000Z"
             }
           ],
           "sentiment": -0.4,
@@ -586,68 +596,17 @@ export const newsData = {
           "importance": 35
         },
         {
-          "representativeTitle": "WADA is weighing a rule to bar Trump and US officials from major events. Can it really do that?",
+          "representativeTitle": "Trump’s $10B TikTok fee sparks uproar",
           "sources": [
-            "The Washington Post"
+            "MSN"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "WADA is weighing a rule to bar Trump and US officials from major events. Can it really do that?",
-              "source": "The Washington Post",
-              "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcUdKeTdYc2k4X0NYSEgySVdOWFYwdXRJdXo3SFRMSElzczRDUnVjN0E2UmhucXExSUR5WWVqRHpuNFA0aVQxNEM4UU81RW9zYlladVhLRGtXdzJOZ2xOWjMzTDZRNEJiaVpiMXdEd2llaVVtcDVWaTV2QUx0VWQ5MFlvam1hUVduMTIzaTV5OWRpcklqeVozOVpqYzdmcE8wRUVNOVZVcjlDMlFrZjZRdk5Ub2hMR0FlaXRwcTd5UzdYV2tjekZZ?oc=5",
-              "pubDate": "2026-03-17T00:25:09.000Z"
-            }
-          ],
-          "sentiment": -0.4,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "Trump Administration Seeks to Remove Cuba’s President From Power During Negotiations",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump Administration Seeks to Remove Cuba’s President From Power During Negotiations",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWEk5VHVqX2g3TlFWRXRid05MVkpTTDBJeFF6MFVmU1FiQ09RcjRrR3dSQzBzSUVYZ3FsYTlPR1dTYllKWUZMWnUxT2dOZy12cVlzWWdPd1BkU3BYWlFjNndpSy1RbXByUTJWOFhad05LWVI2WE5LaFM4RW5xMFE0SzMyQ1c4aDRxQk5STDFDNA?oc=5",
-              "pubDate": "2026-03-17T01:54:40.000Z"
-            }
-          ],
-          "sentiment": -0.4,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "Congress still searching for DHS compromise as government shutdown nears the month mark",
-          "sources": [
-            "Scripps News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Congress still searching for DHS compromise as government shutdown nears the month mark",
-              "source": "Scripps News",
-              "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbloyTnFtMlBYaW5NU2c3MmxOV2NxVlp2eVNKY1hIcDBIbkp0X2VpS0RIeGJnZktyMkVxTnV6TlU1VEpuMzFmRk5xYmF1YXUzLXFkNldhVmlYN3V1Z1cwbUYxVzVvbDBIZGNFVmZNY3dTVkRjZUVlOXNuREVyZVE5Q2ZTOWRXYWZyQWtyRHZIWDMzMnhGWTVMdWNJVXN3alQ5WVhHMmZqMl85a1V6VTkwb2lzX3ZtbWhwc1Z6N1JaSWVuVGVzQTNNNXZyRm0xQQ?oc=5",
-              "pubDate": "2026-03-16T17:05:47.000Z"
-            }
-          ],
-          "sentiment": -0.4,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "Airport Security Lines Grow as TSA Goes Unpaid in Partial Shutdown",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Airport Security Lines Grow as TSA Goes Unpaid in Partial Shutdown",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByRHZmN2N1OHV2alA5TFh1Njg2VUFSRWxvQ1h3UzNNX3U2TWhRNFZlQmtPUWJIVVJsNVhIakV2blNjY2EyNVFpc0pscEsydnBDOFhnRGpIamVJVU9Vb2FoNG00cXJPY3IzRHEyR1lOeVZZbmNDVkpaZjI4V0hGVDA?oc=5",
-              "pubDate": "2026-03-17T01:37:58.000Z"
+              "title": "Trump’s $10B TikTok fee sparks uproar",
+              "source": "MSN",
+              "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVDhkSjI5MjUtaVpEUXVza0Q1Wm9LelNRUGlOYldSY2E1bW1ydGkzclVYYXpEUVhvOVRxQXpWZEhNVVY5YjJjTngwaXNzc1ZFdUE3aUZiaHJrQUlUMUkzN01qNndRYlJTRnJhM1hpY1c5OUJwWUdTakdDekZTeDFOVG1VNU9Oa2ZDdEplRHdwcWlmRDd1NVJyUzRaV3JnTFRVN3BUd1NLb3VmZmpELXpUSXd3RER5MTNUSG5hZ3hJdE52bkhIdFg2WE9OQU10cXBDSjhscHhR?oc=5",
+              "pubDate": "2026-03-16T22:25:09.000Z"
             }
           ],
           "sentiment": -0.4,
@@ -671,54 +630,37 @@ export const newsData = {
           "importance": 35
         },
         {
-          "representativeTitle": "School politics class: Government overcomes backbench rebellion to pass jury plan",
+          "representativeTitle": "Cong flags call by US govt body for sanctions against RSS, RAW",
           "sources": [
-            "Financial Times"
+            "National Herald"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "School politics class: Government overcomes backbench rebellion to pass jury plan",
-              "source": "Financial Times",
-              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xNnYydDhVR3BWZmIzMmJOLTlJaWQ5M3RKMk9oRW8yTEtmZmJHeDhDVmttQzRUS3RPMmFHMzdGWHNPdXJJS19LVjBxSERycTY3QjRjX08ySmo0UEx2bGVRYWdfTllOSWkxd1B6bGs1S2g?oc=5",
-              "pubDate": "2026-03-16T03:56:01.000Z"
+              "title": "Cong flags call by US govt body for sanctions against RSS, RAW",
+              "source": "National Herald",
+              "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdEppLWJ1WTROeDlSdmZWZjlFMWtfMGtRZ056V0NqT3lWcjFZNUpWclp2T29HM0xWcXJZbnQwODZubnZ6UnNKa21XcmNXX0dKVGFsWWdpUW9ucXd1ZG9LaFBMTW1FcDVzMnZjZWtfTWc1REZTMGQzaGszMUdHOTY0U0kxZnVEeGxlQkx2UEs2ZFlTS0czeE5FaUozcmJDaWotS29PdDNtamgyZkZYQTV2SnRWZFkwdExUczdkeHp2em05d2E3Tno5T2ducldWT2_SAc8BQVVfeXFMT3RKaS1idVk0Tng5UnZmVmY5RTFrXzBrUWdOeldDak95VnIxWTVKVnJadk9vRzNMVnFyWW50MDg2bm52elJzSmttV3JjV19HSlRhbFlnaVFvbnF3dWRvS2hQTE1tRXA1czJ2Y2VrX01nNURGUzBkM2hrMzFHRzk2NFNJMWZ1RHhsZUJMdlBLNmRZU0tHM3hORWlKM3JiQ2lqLUtvT3QzbWpoMmZGWEE1dkp0VmRZMHRMVHM3ZHh6dnptOXdhN056OU9nbnJXVk9v?oc=5",
+              "pubDate": "2026-03-16T13:11:28.000Z"
             }
           ],
           "sentiment": -0.4,
           "importance": 35
         },
         {
-          "representativeTitle": "Political contributor Chris Uhlmann thinks Australian politicians have “worked” themselves into the position Australia is in now in relation to a fuel shortage.",
+          "representativeTitle": "Oil Shocks, Political Upheaval and the One Solution Governments Keep Ignoring",
           "sources": [
-            "facebook.com"
+            "ipsnews.net"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Political contributor Chris Uhlmann thinks Australian politicians have “worked” themselves into the position Australia is in now in relation to a fuel shortage.",
-              "source": "facebook.com",
-              "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZVMwTFA3b2FkU0h2MUtsbkQ3RWdqSnJYVUxuZHdUSnBURmlNRWotVW0zU29tVDd0NWtoa1Rid1JxdVUwc0JXMlc0Q3FEcUxiQUdBMjBiWVFyLVVFZjVGOW9uQ09Vc1dSSEhxYjAteXlvTU5nVW5tcVRmOGRiUW9fenNrSDRtYloyZXB0aUhETkZIZFljdXA3blRhX1RSbnY4UmFWT0JCYUJRZHVULVI1ODJrOUNwaWdVNDBkRVZMeEtla3NpOTJ1TlpLZk5GMnpqejYzSDVJM2N2WlRJTzBv?oc=5",
-              "pubDate": "2026-03-16T14:22:14.000Z"
+              "title": "Oil Shocks, Political Upheaval and the One Solution Governments Keep Ignoring",
+              "source": "ipsnews.net",
+              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOekZZTTBNWGU3YTNLOEYyYTdKTUw5c2NmcFNIazBQM0R0cXgyUnhiTTVQRkFtbFlWVUN6SHY5QTZrZ1gzck8zR3B3a09iU09ST2lmZUpwY0pJdXh4OVlnaFdKTUpzS05ESXhxS2c3cXFaWmhCMGc1ZnlOYnRmY1RhYjRqNGY2WFZtQ2hQV3VMWVZHTnhVQ2EzMXlyZVRCU0xKOGR1RDJBbFpwVS1rWGc?oc=5",
+              "pubDate": "2026-03-16T17:38:25.000Z"
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "It's Your Call for March 16",
-          "sources": [
-            "News-Press NOW"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "It's Your Call for March 16",
-              "source": "News-Press NOW",
-              "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNelF4UnhaeXU4MURXeXc5RkFZZnBaM2JPRUdmbGExMEVDU3F1SFNqLUVKOXoxaHRIM1JTZmt4RGRzSkduVVVMSW0wVDhxNGxWWS02UW5TSUdudEJBd3BGM2h1bDhpVkM4XzR3V0hFa3pJUHFiQkdvTXktM3libUkwdDNMTk1LY1B0bDEyV3JDZUFUUnZSa0p4TWNpV3pRSU9tdGVYWVcyS1RPMUctTWNoZ2g0a2NXb1UwLUlPVGFSZ0tuQjJDbHc?oc=5",
-              "pubDate": "2026-03-16T05:00:00.000Z"
-            }
-          ],
-          "sentiment": 0,
           "importance": 35
         }
       ]
@@ -1994,34 +1936,82 @@ export const newsData = {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
+          "representativeTitle": "Trump's confidence is undimmed",
           "sources": [
             "BBC World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
+              "title": "Trump's confidence is undimmed",
               "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/cqj9kgxqjwjo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-16T06:10:55.000Z"
+              "link": "https://www.bbc.com/news/articles/c70k29914q4o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-17T00:24:01.000Z"
+            }
+          ],
+          "sentiment": 0.4,
+          "importance": 35
+        },
+        {
+          "representativeTitle": "Afghanistan accuses Pakistan of deadly strike on Kabul hospital",
+          "sources": [
+            "BBC World",
+            "The Guardian",
+            "Al Jazeera"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Afghanistan accuses Pakistan of killing hundreds in hospital strike",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/c4g8n7e0l40o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-17T03:17:57.000Z"
+            },
+            {
+              "title": "Afghanistan accuses Pakistan of deadly strike on Kabul hospital",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/mar/16/afghanistan-accuses-pakistan-of-kabul-hospital-strike-killed",
+              "pubDate": "2026-03-17T01:08:53.000Z"
+            },
+            {
+              "title": "Afghanistan accuses Pakistan of air strike on drug rehab centre",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/afghanistan-accuses-pakistan-of-air-strike-on-drug-rehab-centre?traffic_source=rss",
+              "pubDate": "2026-03-17T01:35:36.000Z"
+            }
+          ],
+          "sentiment": -0.9,
+          "importance": 75
+        },
+        {
+          "representativeTitle": "AI firm Anthropic seeks weapons expert to stop users from 'misuse'",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "AI firm Anthropic seeks weapons expert to stop users from 'misuse'",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/c74721xyd1wo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-17T00:08:32.000Z"
             }
           ],
           "sentiment": -0.4,
           "importance": 35
         },
         {
-          "representativeTitle": "Iran hits key UAE oil port and Dubai airport",
+          "representativeTitle": "'Fire came from the sky and burned them'",
           "sources": [
             "BBC World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran hits key UAE oil port and Dubai airport",
+              "title": "'Fire came from the sky and burned them'",
               "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/crl4gxgkkylo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-16T12:43:32.000Z"
+              "link": "https://www.bbc.com/news/articles/cx2g4v9mzxro?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-17T00:08:56.000Z"
             }
           ],
           "sentiment": -0.9,
@@ -2045,17 +2035,34 @@ export const newsData = {
           "importance": 35
         },
         {
-          "representativeTitle": "UN receives reports alleging torture of detainees in Venezuela continues",
+          "representativeTitle": "Sri Lanka declares Wednesdays off as Asian countries try to conserve fuel",
           "sources": [
             "BBC World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "UN receives reports alleging torture of detainees in Venezuela continues",
+              "title": "Sri Lanka declares Wednesdays off as Asian countries try to conserve fuel",
               "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/c0e5v9n1qqwo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-16T19:08:13.000Z"
+              "link": "https://www.bbc.com/news/articles/c4g5n58rlnzo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-17T03:26:37.000Z"
+            }
+          ],
+          "sentiment": -0.4,
+          "importance": 35
+        },
+        {
+          "representativeTitle": "Utah bereavement author found guilty of fatally poisoning her husband",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Utah bereavement author found guilty of fatally poisoning her husband",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/cdxg1nx2r61o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-17T01:14:04.000Z"
             }
           ],
           "sentiment": -0.4,
@@ -2096,6 +2103,23 @@ export const newsData = {
           "importance": 35
         },
         {
+          "representativeTitle": "Moving English tests for migrants online risks criminal abuse, providers warn",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Moving English tests for migrants online risks criminal abuse, providers warn",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/c8xy05enzj7o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-17T01:02:27.000Z"
+            }
+          ],
+          "sentiment": -0.4,
+          "importance": 35
+        },
+        {
           "representativeTitle": "Ecuador deploys 75,000 soldiers and police to combat drug gangs",
           "sources": [
             "BBC World"
@@ -2113,45 +2137,72 @@ export const newsData = {
           "importance": 35
         },
         {
-          "representativeTitle": "French national jailed for 10 years in Azerbaijan for spying",
+          "representativeTitle": "Iran hits key UAE oil port and Dubai airport",
           "sources": [
             "BBC World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "French national jailed for 10 years in Azerbaijan for spying",
+              "title": "Iran hits key UAE oil port and Dubai airport",
               "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/c2lr5j84gd1o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-16T11:47:16.000Z"
+              "link": "https://www.bbc.com/news/articles/crl4gxgkkylo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-16T12:43:32.000Z"
+            }
+          ],
+          "sentiment": -0.9,
+          "importance": 35
+        },
+        {
+          "representativeTitle": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/cqj9kgxqjwjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-16T06:10:55.000Z"
             }
           ],
           "sentiment": -0.4,
           "importance": 35
         },
         {
-          "representativeTitle": "Ten ICU patients killed in hospital fire in eastern India",
+          "representativeTitle": "UN receives reports alleging torture of detainees in Venezuela continues",
           "sources": [
-            "BBC World",
-            "Al Jazeera"
+            "BBC World"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Ten killed in fire at India hospital intensive care unit",
+              "title": "UN receives reports alleging torture of detainees in Venezuela continues",
               "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/c363gpe3exjo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-16T05:41:28.000Z"
-            },
-            {
-              "title": "Ten ICU patients killed in hospital fire in eastern India",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/ten-icu-patients-killed-in-hospital-fire-in-eastern-india?traffic_source=rss",
-              "pubDate": "2026-03-16T21:01:22.000Z"
+              "link": "https://www.bbc.com/news/articles/c0e5v9n1qqwo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-16T19:08:13.000Z"
             }
           ],
-          "sentiment": -0.9,
-          "importance": 57
+          "sentiment": -0.4,
+          "importance": 35
+        },
+        {
+          "representativeTitle": "Trump says presidents 'should not have learning disabilities' as he mocks Newsom's dyslexia",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump says presidents 'should not have learning disabilities' as he mocks Newsom's dyslexia",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/c4gjnwmm984o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-17T02:04:48.000Z"
+            }
+          ],
+          "sentiment": -0.4,
+          "importance": 35
         },
         {
           "representativeTitle": "Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",
@@ -2236,23 +2287,6 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "Historic firsts, emotional speeches, and a tie: Watch the top Oscars moments",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Historic firsts, emotional speeches, and a tie: Watch the top Oscars moments",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/videos/cedzq0q6x5lo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-16T03:15:43.000Z"
-            }
-          ],
-          "sentiment": 0.9,
           "importance": 35
         },
         {
@@ -2348,6 +2382,23 @@ export const newsData = {
           "importance": 57
         },
         {
+          "representativeTitle": "Australia news live: RBA interest rates decision due; people buying up Bunnings’ jerry cans ‘unAustralian’, Bowen says",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Australia news live: RBA interest rates decision due; people buying up Bunnings’ jerry cans ‘unAustralian’, Bowen says",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/live/2026/mar/17/bowen-rba-interest-rates-decision-cost-of-living-inflation-fuel-price-shortages-petrol-jim-chalmers-economy-war-iran-anthony-albanese-ntwnfb",
+              "pubDate": "2026-03-17T03:23:16.000Z"
+            }
+          ],
+          "sentiment": -0.4,
+          "importance": 35
+        },
+        {
           "representativeTitle": "Let the games begin: Victorian Liberals fail at sport but surprise with teamwork in viral video",
           "sources": [
             "The Guardian"
@@ -2362,23 +2413,6 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "News live: Chris Bowen says people buying up Bunnings’ jerry cans amid fuel crisis ‘unhelpful and unAustralian’; RBA interest rates decision today",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "News live: Chris Bowen says people buying up Bunnings’ jerry cans amid fuel crisis ‘unhelpful and unAustralian’; RBA interest rates decision today",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/live/2026/mar/17/bowen-rba-interest-rates-decision-cost-of-living-inflation-fuel-price-shortages-petrol-jim-chalmers-economy-war-iran-anthony-albanese-ntwnfb",
-              "pubDate": "2026-03-17T02:44:45.000Z"
-            }
-          ],
-          "sentiment": -0.4,
           "importance": 35
         },
         {
@@ -2484,6 +2518,23 @@ export const newsData = {
           "importance": 35
         },
         {
+          "representativeTitle": "Will the strait of Hormuz torpedo Trump’s war? – podcast",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Will the strait of Hormuz torpedo Trump’s war? – podcast",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/news/audio/2026/mar/17/will-the-strait-of-hormuz-torpedo-trumps-war-podcast",
+              "pubDate": "2026-03-17T03:00:36.000Z"
+            }
+          ],
+          "sentiment": -0.4,
+          "importance": 35
+        },
+        {
           "representativeTitle": "Iran war live: Trump scolds allies for not joining Strait of Hormuz mission",
           "sources": [
             "The Guardian",
@@ -2573,47 +2624,6 @@ export const newsData = {
           "importance": 70
         },
         {
-          "representativeTitle": "Sri Lanka brings in four-day week to eke out stocks of oil and gas hit by Iran war",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Sri Lanka brings in four-day week to eke out stocks of oil and gas hit by Iran war",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/16/sri-lanka-four-day-week-oil-and-gas-iran-war",
-              "pubDate": "2026-03-16T18:52:04.000Z"
-            }
-          ],
-          "sentiment": -0.4,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "Afghanistan accuses Pakistan of deadly strike on Kabul hospital",
-          "sources": [
-            "The Guardian",
-            "Al Jazeera"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Afghanistan accuses Pakistan of deadly strike on Kabul hospital",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/16/afghanistan-accuses-pakistan-of-kabul-hospital-strike-killed",
-              "pubDate": "2026-03-17T01:08:53.000Z"
-            },
-            {
-              "title": "Afghanistan accuses Pakistan of air strike on drug rehab centre",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/afghanistan-accuses-pakistan-of-air-strike-on-drug-rehab-centre?traffic_source=rss",
-              "pubDate": "2026-03-17T01:35:36.000Z"
-            }
-          ],
-          "sentiment": -0.9,
-          "importance": 57
-        },
-        {
           "representativeTitle": "Train delays: compensation claims to be easier under Great British Railways",
           "sources": [
             "The Guardian"
@@ -2696,6 +2706,40 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
+          "importance": 35
+        },
+        {
+          "representativeTitle": "Top Democrat in US House slams Trump’s ‘reckless war of choice’",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Top Democrat in US House slams Trump’s ‘reckless war of choice’",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/top-democrat-in-us-house-slams-trumps-reckless-war-of?traffic_source=rss",
+              "pubDate": "2026-03-17T03:27:34.000Z"
+            }
+          ],
+          "sentiment": -0.4,
+          "importance": 35
+        },
+        {
+          "representativeTitle": "Israel policy looms large over US elections in Illinois amid Iran war",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Israel policy looms large over US elections in Illinois amid Iran war",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/17/israel-policy-looms-large-over-us-elections-in-illinois-amid-iran-war?traffic_source=rss",
+              "pubDate": "2026-03-17T03:22:17.000Z"
+            }
+          ],
+          "sentiment": -0.4,
           "importance": 35
         },
         {
@@ -2859,6 +2903,23 @@ export const newsData = {
           "importance": 35
         },
         {
+          "representativeTitle": "Ten ICU patients killed in hospital fire in eastern India",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ten ICU patients killed in hospital fire in eastern India",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/ten-icu-patients-killed-in-hospital-fire-in-eastern-india?traffic_source=rss",
+              "pubDate": "2026-03-16T21:01:22.000Z"
+            }
+          ],
+          "sentiment": -0.9,
+          "importance": 35
+        },
+        {
           "representativeTitle": "Trump threatens to ‘take’ Cuba amid island-wide power crisis",
           "sources": [
             "Al Jazeera"
@@ -2975,40 +3036,6 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "Civilians pulled from rubble after US-Israeli strikes on Tehran",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Civilians pulled from rubble after US-Israeli strikes on Tehran",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/civilians-pulled-from-rubble-after-us-israeli-strikes-on-tehran?traffic_source=rss",
-              "pubDate": "2026-03-16T17:27:54.000Z"
-            }
-          ],
-          "sentiment": -0.9,
-          "importance": 35
-        },
-        {
-          "representativeTitle": "US responsible for deadly attack on Iranian school: Amnesty International",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US responsible for deadly attack on Iranian school: Amnesty International",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/16/us-responsible-for-deadly-attack-on-iranian-school-amnesty-international?traffic_source=rss",
-              "pubDate": "2026-03-16T17:01:52.000Z"
-            }
-          ],
-          "sentiment": -0.9,
           "importance": 35
         }
       ]
@@ -3723,5 +3750,5 @@ export const newsData = {
       ]
     }
   ],
-  "lastUpdated": "2026-03-17T03:06:11.514Z"
+  "lastUpdated": "2026-03-17T03:38:12.631Z"
 };
