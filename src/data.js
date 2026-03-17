@@ -1,10 +1,37 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-17T05:56:34.399Z",
+  "lastUpdated": "2026-03-17T06:14:11.169Z",
   "children": [
     {
       "name": "Politics",
       "children": [
+        {
+          "representativeTitle": "UK must learn lessons from AI race and retain its quantum computing talent, says minister",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "UK must learn lessons from AI race and retain its quantum computing talent, says minister",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/technology/2026/mar/17/uk-must-learn-lessons-from-ai-race-and-retain-its-quantum-computing-talent-says-minister",
+              "pubDate": "2026-03-17T06:00:41.000Z",
+              "tier": 1
+            },
+            {
+              "title": "UK must learn lessons from AI race and retain its quantum computing talent, says minister",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/technology/2026/mar/17/uk-must-learn-lessons-from-ai-race-and-retain-its-quantum-computing-talent-says-minister",
+              "pubDate": "2026-03-17T06:00:41.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 60,
+          "slug": "uk-must-learn-lessons-from-ai-race-and-retain-its-quantum-computing-talent-says-minister"
+        },
         {
           "representativeTitle": "‘National disgrace’: pothole repair backlog hits record £18.6bn in England and Wales",
           "sources": [
@@ -215,34 +242,6 @@ export const newsData = {
           "slug": "chris-mason-why-starmer-thinks-hes-called-it-right-on-war-despite-trump-barbs"
         },
         {
-          "representativeTitle": "Wary allies show there's no quick fix to Trump's Iran crisis",
-          "sources": [
-            "BBC News",
-            "BBC World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Wary allies show there's no quick fix to Trump's Iran crisis",
-              "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/c8r17plnvy3o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-16T17:34:13.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Wary allies show there's no quick fix to Trump's Iran crisis",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/c8r17plnvy3o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-16T17:34:13.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 75,
-          "slug": "wary-allies-show-theres-no-quick-fix-to-trumps-iran-crisis"
-        },
-        {
           "representativeTitle": "Reeves vows to stop UK tech from 'drifting abroad'",
           "sources": [
             "BBC News"
@@ -261,6 +260,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "reeves-vows-to-stop-uk-tech-from-drifting-abroad"
+        },
+        {
+          "representativeTitle": "Reform pledges to scrap VAT and green levies on energy bills",
+          "sources": [
+            "BBC News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Reform pledges to scrap VAT and green levies on energy bills",
+              "source": "BBC News",
+              "link": "https://www.bbc.com/news/articles/cly0j6nnk4zo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-17T06:00:10.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "reform-pledges-to-scrap-vat-and-green-levies-on-energy-bills"
         },
         {
           "representativeTitle": "Starmer announces £53m support to help with heating oil costs",
@@ -363,6 +382,34 @@ export const newsData = {
           "slug": "labour-calls-for-tax-investigation-into-reforms-tice"
         },
         {
+          "representativeTitle": "Wary allies show there's no quick fix to Trump's Iran crisis",
+          "sources": [
+            "BBC News",
+            "BBC World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Wary allies show there's no quick fix to Trump's Iran crisis",
+              "source": "BBC News",
+              "link": "https://www.bbc.com/news/articles/c8r17plnvy3o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-16T17:34:13.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Wary allies show there's no quick fix to Trump's Iran crisis",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/c8r17plnvy3o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-16T17:34:13.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 75,
+          "slug": "wary-allies-show-theres-no-quick-fix-to-trumps-iran-crisis"
+        },
+        {
           "representativeTitle": "Trump Officials Look to More Managed Approach to Trade With China",
           "sources": [
             "The New York Times"
@@ -386,8 +433,8 @@ export const newsData = {
           "representativeTitle": "Judge blocks US government from slimming down vaccine recommendations",
           "sources": [
             "The Journal Gazette",
-            "Sun Sentinel",
-            "WAVY.com"
+            "Macomb Daily",
+            "WPRI.com"
           ],
           "citationCount": 3,
           "rawArticles": [
@@ -400,16 +447,16 @@ export const newsData = {
             },
             {
               "title": "Judge blocks US government from slimming down vaccine recommendations",
-              "source": "Sun Sentinel",
-              "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5aGoxbF9XNmZuaUNLb2VGdnRiMU40WjFkd1ZYRGxVVnQ2dmh4QklwM3lacDZwMkxldERybS1YaFhFY1ZCX3lSWERFb01qR0U3ckFMalpOTjVFZlVDMldtbFNOazZSTFFCRFVsS3VFazFZZS1KVWRDaGZiNHhFQQ?oc=5",
-              "pubDate": "2026-03-16T20:53:33.000Z",
+              "source": "Macomb Daily",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12RFJXalNHUXp0WlB5OVBtVGRUM3JsRXNPS3F5SDdHREJSNEgtQ2ctdjFTZDZfSEZVeUk3dDhFVy1UZnBBWVh2V2Z3QW82cTdKUFA0V3VXeWFPZ0EteW9TSUd1ckFVdjVPdEF1b1ExY3JJcDREeEN5bTZzSVQ?oc=5",
+              "pubDate": "2026-03-16T20:55:51.000Z",
               "tier": 2
             },
             {
               "title": "Judge blocks US government from slimming down vaccine recommendations",
-              "source": "WAVY.com",
-              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZjZxcUhyb2YweUdSc2l6WC1ka0VRV3AwdmdsVnJ6cWw4NlN3Z1dJaFppdjhYMWJnZUJieTBxLTE2XzlYU3A1STlYbVZsd1NiblZiSU55VnNKejc4ZDdicE1RaklfWTdBeVVoVE9ocHVNWnM0dnd6QU5WLWx4WWp5ZGFUa3hqWXhCR1duNzY1VWN4bS1pdDhCUHowT0I1QmVxV0lOWUJxNUVabWxW0gGyAUFVX3lxTFBwUGdsUERNZFhZaFFVQ1pxWnMtQkRDb1RYNkJGcWJQLXVKM3RHNU96d1hyQndWejUzdzV1NWJYYzJOeXJvWXg3MEViektwOGoyYjdVM3d3M1dmU05WZ1pLaThRR2pXZnJmVVoyMFdjWjFCYnZEWUstZVZFMG9UaVZhZlN5MmtfZnVNNWJfTkJIa0tKU2tucmdVaDBNQ1EzRk0yMnNkLWtHV1R0MzNuQXR1TUE?oc=5",
-              "pubDate": "2026-03-16T20:50:56.000Z",
+              "source": "WPRI.com",
+              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSmdwTHp3QmhzdGxyTlRTaEZsejE5RnpwblpJbkljY3RvMmJaU2p4MTRRY29rNXAtVTBfRUJ0UWFYbmY2Tkd3ZVJ5SjRpbzU5aWg3bzRnUHdhUkMtSHVOQnFkRGc1SHJEdHJCQTJWdVplczVZdXpwQ1JHemFGcXhsNGI4RFZsUjlhYVUtMi1lRF9HOU1KTVdNRGxYbVo0dUhrZzI5TNIBpAFBVV95cUxNSmdwTHp3QmhzdGxyTlRTaEZsejE5RnpwblpJbkljY3RvMmJaU2p4MTRRY29rNXAtVTBfRUJ0UWFYbmY2Tkd3ZVJ5SjRpbzU5aWg3bzRnUHdhUkMtSHVOQnFkRGc1SHJEdHJCQTJWdVplczVZdXpwQ1JHemFGcXhsNGI4RFZsUjlhYVUtMi1lRF9HOU1KTVdNRGxYbVo0dUhrZzI5TA?oc=5",
+              "pubDate": "2026-03-16T16:55:04.000Z",
               "tier": 2
             }
           ],
@@ -630,26 +677,6 @@ export const newsData = {
           "relevance_score": 10,
           "importance": 65,
           "slug": "china-talks-up-oil-sufficiency-as-trump-seeks-beijings-help-on-securing-hormuz-energy-route"
-        },
-        {
-          "representativeTitle": "Holiday spending, export demand drive China’s economic momentum as Iran war headwinds loom",
-          "sources": [
-            "CNBC Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Holiday spending, export demand drive China’s economic momentum as Iran war headwinds loom",
-              "source": "CNBC Markets",
-              "link": "https://www.cnbc.com/2026/03/16/china-data-today-retail-sales-property-industrial-production.html",
-              "pubDate": "2026-03-16T06:11:06.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "holiday-spending-export-demand-drive-chinas-economic-momentum-as-iran-war-headwinds-loom"
         },
         {
           "representativeTitle": "This biotech is working on a GLP-1 pill that could be better than the Wegovy version",
@@ -1939,26 +1966,6 @@ export const newsData = {
           "slug": "iran-hits-key-uae-oil-port-and-dubai-airport"
         },
         {
-          "representativeTitle": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/cqj9kgxqjwjo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-16T06:10:55.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "meta-and-tiktok-let-harmful-content-rise-after-evidence-outrage-drove-engagement-say-whistleblowers"
-        },
-        {
           "representativeTitle": "UN receives reports alleging torture of detainees in Venezuela continues",
           "sources": [
             "BBC World"
@@ -2157,7 +2164,7 @@ export const newsData = {
               "title": "Australia news live: Michele Bullock says higher petrol prices ‘not the reason’ for RBA’s decision to hike cash rate",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/live/2026/mar/17/bowen-rba-interest-rates-decision-cost-of-living-inflation-fuel-price-shortages-petrol-jim-chalmers-economy-war-iran-anthony-albanese-ntwnfb",
-              "pubDate": "2026-03-17T05:44:53.000Z",
+              "pubDate": "2026-03-17T05:58:57.000Z",
               "tier": 1
             }
           ],
@@ -2395,6 +2402,26 @@ export const newsData = {
           "slug": "afghanistan-accuses-pakistan-of-deadly-strike-on-kabul-hospital"
         },
         {
+          "representativeTitle": "Women feel coerced during maternity care in England, charity says",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Women feel coerced during maternity care in England, charity says",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/society/2026/mar/17/maternity-care-coercion-pressure-england-birthrights",
+              "pubDate": "2026-03-17T06:00:41.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "women-feel-coerced-during-maternity-care-in-england-charity-says"
+        },
+        {
           "representativeTitle": "Train delays: compensation claims to be easier under Great British Railways",
           "sources": [
             "The Guardian"
@@ -2433,46 +2460,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "cannabis-is-not-an-effective-treatment-for-common-mental-health-conditions-says-review"
-        },
-        {
-          "representativeTitle": "Tina Fey, Jamie Dornan and Riz Ahmed first three guest hosts of UK Saturday Night Live",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Tina Fey, Jamie Dornan and Riz Ahmed first three guest hosts of UK Saturday Night Live",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/tv-and-radio/2026/mar/16/tina-fey-jamie-dornan-riz-ahmed-first-three-guest-hosts-of-uk-saturday-night-live",
-              "pubDate": "2026-03-16T20:18:27.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "tina-fey-jamie-dornan-and-riz-ahmed-first-three-guest-hosts-of-uk-saturday-night-live"
-        },
-        {
-          "representativeTitle": "‘The videos are terrifying’: students describe spreading panic amid Kent meningitis outbreak",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘The videos are terrifying’: students describe spreading panic amid Kent meningitis outbreak",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/society/2026/mar/16/students-fear-spreading-online-meningitis-outbreak-canterbury",
-              "pubDate": "2026-03-16T19:44:23.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "the-videos-are-terrifying-students-describe-spreading-panic-amid-kent-meningitis-outbreak"
         },
         {
           "representativeTitle": "Iran negotiating with FIFA to move World Cup 2026 matches from US to Mexico",
