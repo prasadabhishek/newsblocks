@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import NewsTreemap from './components/NewsTreemap';
 import { newsData } from './data';
-import './App.css';
 
 import { Github, Linkedin } from 'lucide-react';
 

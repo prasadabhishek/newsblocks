@@ -37,18 +37,338 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Roboto:wght@700;900&family=Roboto+Slab:wght@700;900&display=swap"
     rel="stylesheet" media="print" onload="this.media='all'">
+  <link rel="modulepreload" href="/src/main.jsx">
   <style>
+    :root {
+      font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      font-weight: 400;
+      color-scheme: light dark;
+      color: rgba(255, 255, 255, 0.87);
+      background-color: #0f172a;
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
     body {
+      margin: 0;
+      overflow-x: hidden;
       background-color: #020617;
       color: white;
-      margin: 0;
-      font-family: 'Inter', sans-serif;
+      min-width: 320px;
+      min-height: 100vh;
     }
 
     #root {
+      width: 100%;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    /* SEO Only */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+
+    .header-main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      padding: 24px 0 32px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      margin-bottom: 32px;
+      background: radial-gradient(circle at center, rgba(30, 41, 59, 0.5) 0%, transparent 70%);
+    }
+
+    .logo-text {
+      font-family: 'Roboto Slab', serif;
+      font-size: 3rem;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      background: linear-gradient(to bottom, #fff 30%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 0;
+      filter: drop-shadow(0 0 20px rgba(56, 189, 248, 0.2));
+    }
+
+    .subtitle-main {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 0.25em;
+      margin-top: -10px;
+      margin-bottom: 8px;
+      opacity: 0.8;
+    }
+
+    .last-updated-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 12px;
+      background: rgba(30, 41, 59, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 99px;
+      font-family: 'Inter', sans-serif;
+      font-size: 10px;
+      font-weight: 800;
+      color: #94a3b8;
+      letter-spacing: 0.1em;
+      backdrop-filter: blur(4px);
+    }
+
+    .last-updated-dot {
+      width: 6px;
+      height: 6px;
+      background: #10b981;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #10b981;
+    }
+
+    .sentiment-legend-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .sentiment-bar-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      width: 240px;
+    }
+
+    .sentiment-bar {
+      flex: 1;
+      height: 6px;
+      border-radius: 3px;
+      background: linear-gradient(to right, #ef4444, #334155, #22c55e) no-repeat;
+      background-size: 100% 100%;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .sentiment-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 9px;
+      font-weight: 800;
+      color: #64748b;
+      letter-spacing: 0.05em;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .footer-container {
+      max-width: 800px;
+      margin: 32px auto 64px;
+      width: 100%;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .made-by {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      color: #475569;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-right: 8px;
+    }
+
+    .social-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #64748b;
+      text-decoration: none;
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: all 0.2s ease;
+      padding: 6px 12px;
+      border-radius: 99px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .social-link:hover {
+      color: #f1f5f9;
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.15);
+      transform: translateY(-1px);
+    }
+
+    .methodology-details {
+      background: rgba(15, 23, 42, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.03);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .methodology-details[open] {
+      background: rgba(15, 23, 42, 0.6);
+      border-color: rgba(255, 255, 255, 0.08);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    }
+
+    .methodology-summary {
+      list-style: none;
+      padding: 16px 24px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      color: #475569;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      user-select: none;
+      transition: color 0.2s;
+    }
+
+    .methodology-summary:hover {
+      color: #94a3b8;
+    }
+
+    .methodology-summary::-webkit-details-marker {
+      display: none;
+    }
+
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .methodology-content {
+      padding: 0 32px 32px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      border-top: 1px solid rgba(255, 255, 255, 0.03);
+      animation: slideDown 0.3s ease-out;
+    }
+
+    .methodology-section h3 {
+      font-size: 10px;
+      font-weight: 900;
+      color: #cbd5e1;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      background: #334155;
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .methodology-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .methodology-list li {
+      font-size: 11px;
+      background: rgba(255, 255, 255, 0.03);
+      padding: 0;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: all 0.2s ease;
+    }
+
+    .methodology-list li:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.2);
+      transform: translateY(-1px);
+    }
+
+    .methodology-list a {
+      display: block;
+      padding: 4px 10px;
+      color: #94a3b8;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .methodology-list a:hover {
+      color: #f1f5f9;
+    }
+
+    .methodology-text {
+      font-size: 13px;
+      line-height: 1.6;
+      color: #64748b;
+      margin: 0;
+    }
+
+    @media (max-width: 768px) {
+      .methodology-content {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .logo-text {
+        font-size: 2.2rem;
+      }
+
+      .header-main {
+        padding: 16px 0 24px;
+        margin-bottom: 20px;
+      }
     }
   </style>
   <link rel="canonical" href="https://newsblocks.org/" />
