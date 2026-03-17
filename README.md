@@ -7,29 +7,34 @@
 
 ![NewsBlocks Screenshot](public/screenshot.png)
 
-## 🚀 The V2 Architecture: Math over Guesswork
+## 🌐 The V3 Upgrade: Performance & Discoverability
 
-Unlike traditional news aggregators that rely on keyword matching or simple LLM grouping, NewsBlocks V2 uses a robust, deterministic data pipeline.
+The V3 milestone transforms NewsBlocks from a local interactive tool into a search-engine-optimized, high-gravity news platform.
 
-### 🧠 Semantic Story Clustering (Embeddings)
-Instead of asking an AI to "group these headlines" (which leads to hallucinations and lazy catch-all categories), we use **`text-embedding-004`**.
-- **Vector Space:** Every headline is converted into a 768-dimensional mathematical vector.
-- **Cosine Similarity:** We calculate the mathematical distance between every headline.
-- **Thresholding:** Articles are only clustered if they share a **>82% semantic similarity**. This guarantees that a cluster about "Nvidia GPU Launch" won't be polluted by general "Tech Stocks" news.
+### 🔗 Deep Linking & SPA Routing
+- **Semantic Slugs:** The pipeline automatically generates human-readable URLs for every story (e.g., `/story/nvidia-shares-surge`).
+- **State Restoration:** Refreshing a specific story URL restores the exact treemap state and reopens the relative tooltip.
+- **History Support:** Full support for browser `Back` and `Forward` buttons.
 
-### 📊 Deterministic Sentiment (Strict Buckets)
-To solve the "color fluctuation" problem where the same story might look slightly different shades of red or green every hour, we moved to a **Categorical Sentiment Model**.
-- **The Buckets:** `DISASTER`, `NEGATIVE`, `NEUTRAL`, `POSITIVE`, `EUPHORIC`.
-- **The Logic:** The AI classifies the *intent* and *impact* of the headline into a strict string bucket.
-- **The Mapping:** Our scoring engine maps these strings to fixed, deterministic float values (`-0.9` for Disaster, `+0.9` for Euphoric). This ensures perfectly consistent coloring across the entire UI.
+### 🔍 SEO Content Powerhouse
+- **Shadow Pages:** Automated generation of 200+ indexable HTML files for every story.
+- **Sitemap:** Dynamic `sitemap.xml` updated every 8 hours.
+- **Meta Tags:** Each story page includes unique Open Graph and Twitter tags for social sharing.
+- **Branded Referrals:** All outgoing news links include `utm_source=newsblocks.org` to build referral authority with publishers.
+
+### ⚡ Performance Overhaul
+- **Forced Reflow Mitigation:** Moved all text measurement to an off-screen Canvas, eliminating the 100ms lag during window resizes.
+- **Font Optimization:** Implemented preloading and font-display strategies to fix render-blocking delays.
+- **Safari Cross-Browser Fix:** Resolved SVG clipping issues with baseline-relative text positioning.
 
 ## 🛠️ Tech Stack
 
 - **Frontend:** React 19, Vite, D3.js (Advanced `.join()` transitions)
 - **Styling:** Vanilla CSS with custom design tokens.
 - **AI Engine:** Google Gemini 2.5 Flash + Google Embeddings.
-- **Automation:** GitHub Actions (Running every 8 hours on a cron schedule).
-- **Deployment:** Cloudflare Pages.
+- **SEO:** Automated 200+ Shadow Pages + Sitemap Generation.
+- **Automation:** GitHub Actions (Running every 8 hours).
+- **Deployment:** Cloudflare Pages (Automatic production builds).
 
 ## 🏃‍♂️ Running Locally
 
