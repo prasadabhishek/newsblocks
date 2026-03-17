@@ -10,6 +10,7 @@ export class Pipeline {
     async run(categoriesArray) {
         const root = {
             name: "Top News",
+            lastUpdated: new Date().toISOString(),
             children: []
         };
 

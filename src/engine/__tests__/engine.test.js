@@ -90,4 +90,35 @@ describe('Performance & Accuracy Tests', () => {
         expect(warStory).toBeDefined();
         expect(warStory.sentiment).toBeLessThan(0);
     });
+
+    it('Slug Generation: should generate URL-friendly slugs for clusters', async () => {
+        const rawData = [
+            {
+                name: 'Tech',
+                rawArticles: [
+                    { title: 'Nvidia: The GPU King of Silicon Valley!', source: 'Tech News' }
+                ]
+            }
+        ];
+
+        const result = await pipeline.run(rawData);
+        const story = result.children[0].children[0];
+
+        // Expected slug: nvidia-the-gpu-king-of-silicon-valley
+        expect(story.slug).toBe('nvidia-the-gpu-king-of-silicon-valley');
+        expect(story.slug).not.toMatch(/[^a-z0-9-]/); // No special chars
+    });
+
+    it('Hierarchy Structure: should include essential fields for deep linking', async () => {
+        const rawData = [{ name: 'World', rawArticles: [{ title: 'Middle East conflict escalates today', source: 'Global News' }] }];
+        const result = await pipeline.run(rawData);
+
+        expect(result.children).toHaveLength(1);
+        const story = result.children[0].children[0];
+        expect(story).toBeDefined();
+        expect(story).toHaveProperty('slug');
+        expect(story).toHaveProperty('representativeTitle');
+        expect(story).toHaveProperty('sentiment');
+        expect(result).toHaveProperty('lastUpdated');
+    });
 });
