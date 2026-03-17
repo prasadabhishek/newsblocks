@@ -4,6 +4,7 @@ import fs from 'fs';
 import { Pipeline } from '../src/engine/pipeline.js';
 import { retry } from '../src/engine/utils.js';
 import { Cache } from '../src/engine/cache.js';
+import { execSync } from 'child_process';
 
 // Professional headers to avoid blocking
 const parser = new Parser({
@@ -137,6 +138,9 @@ async function gatherNews() {
         const content = `export const newsData = ${JSON.stringify(newsTree, null, 2)};`;
         fs.writeFileSync('./src/data.js', content);
         console.log(`Success! newsData updated for ${now.toLocaleTimeString()}`);
+
+        console.log('Running static SEO generation...');
+        execSync('node scripts/generate-static.js', { stdio: 'inherit' });
     } else {
         console.error("CRITICAL: Data validation failed. Update aborted to prevent dashboard corruption.");
     }
