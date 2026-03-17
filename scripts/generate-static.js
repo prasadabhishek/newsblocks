@@ -68,7 +68,16 @@ function generateStaticPages() {
                     <p>${description}</p>
                     <h2>Sources</h2>
                     <ul>
-                        ${story.rawArticles.map(a => `<li>${a.source}: ${a.title}</li>`).join('')}
+                        ${story.rawArticles.map(a => {
+                let brandedLink = a.link;
+                try {
+                    const u = new URL(a.link);
+                    u.searchParams.set('utm_source', 'newsblocks.org');
+                    u.searchParams.set('utm_medium', 'referral');
+                    brandedLink = u.toString();
+                } catch (e) { }
+                return `<li><a href="${brandedLink}">${a.source}: ${a.title}</a></li>`;
+            }).join('')}
                     </ul>
                 </div>
             `;

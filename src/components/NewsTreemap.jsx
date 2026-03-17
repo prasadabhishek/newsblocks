@@ -13,6 +13,19 @@ const getCanvasMeasurement = (() => {
     };
 })();
 
+// Helper to add referral tags to external links
+const brandLink = (url) => {
+    if (!url) return '#';
+    try {
+        const u = new URL(url);
+        u.searchParams.set('utm_source', 'newsblocks.org');
+        u.searchParams.set('utm_medium', 'referral');
+        return u.toString();
+    } catch (e) {
+        return url;
+    }
+};
+
 const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
     const svgRef = useRef(null);
     const [tooltip, setTooltip] = useState({
@@ -308,7 +321,7 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
 
                     <div className="space-y-2">
                         {tooltip.content.rawArticles?.map((article, idx) => (
-                            <a key={idx} href={article.link} target="_blank" rel="noopener noreferrer" style={articleItemStyle}
+                            <a key={idx} href={brandLink(article.link)} target="_blank" rel="noopener noreferrer" style={articleItemStyle}
                                 onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)'; e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.2)'; e.currentTarget.style.color = 'white'; }}
                                 onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.05)'; e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.05)'; e.currentTarget.style.color = '#cbd5e1'; }}
                             >
