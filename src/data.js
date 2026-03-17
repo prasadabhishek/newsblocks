@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-17T06:14:11.169Z",
+  "lastUpdated": "2026-03-17T06:20:15.141Z",
   "children": [
     {
       "name": "Politics",
@@ -322,26 +322,6 @@ export const newsData = {
           "slug": "companies-offered-3000-to-hire-jobless-under-24s"
         },
         {
-          "representativeTitle": "Scotland's assisted dying debate reaches final stages on eve of vote",
-          "sources": [
-            "BBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Scotland's assisted dying debate reaches final stages on eve of vote",
-              "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/cp854zygjjdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-16T06:18:49.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "scotlands-assisted-dying-debate-reaches-final-stages-on-eve-of-vote"
-        },
-        {
           "representativeTitle": "Starmer warned over assisted dying bill by more than 100 Labour MPs",
           "sources": [
             "BBC News"
@@ -433,8 +413,8 @@ export const newsData = {
           "representativeTitle": "Judge blocks US government from slimming down vaccine recommendations",
           "sources": [
             "The Journal Gazette",
-            "Macomb Daily",
-            "WPRI.com"
+            "Sun Sentinel",
+            "WAVY.com"
           ],
           "citationCount": 3,
           "rawArticles": [
@@ -447,16 +427,16 @@ export const newsData = {
             },
             {
               "title": "Judge blocks US government from slimming down vaccine recommendations",
-              "source": "Macomb Daily",
-              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12RFJXalNHUXp0WlB5OVBtVGRUM3JsRXNPS3F5SDdHREJSNEgtQ2ctdjFTZDZfSEZVeUk3dDhFVy1UZnBBWVh2V2Z3QW82cTdKUFA0V3VXeWFPZ0EteW9TSUd1ckFVdjVPdEF1b1ExY3JJcDREeEN5bTZzSVQ?oc=5",
-              "pubDate": "2026-03-16T20:55:51.000Z",
+              "source": "Sun Sentinel",
+              "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5aGoxbF9XNmZuaUNLb2VGdnRiMU40WjFkd1ZYRGxVVnQ2dmh4QklwM3lacDZwMkxldERybS1YaFhFY1ZCX3lSWERFb01qR0U3ckFMalpOTjVFZlVDMldtbFNOazZSTFFCRFVsS3VFazFZZS1KVWRDaGZiNHhFQQ?oc=5",
+              "pubDate": "2026-03-16T20:53:33.000Z",
               "tier": 2
             },
             {
               "title": "Judge blocks US government from slimming down vaccine recommendations",
-              "source": "WPRI.com",
-              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSmdwTHp3QmhzdGxyTlRTaEZsejE5RnpwblpJbkljY3RvMmJaU2p4MTRRY29rNXAtVTBfRUJ0UWFYbmY2Tkd3ZVJ5SjRpbzU5aWg3bzRnUHdhUkMtSHVOQnFkRGc1SHJEdHJCQTJWdVplczVZdXpwQ1JHemFGcXhsNGI4RFZsUjlhYVUtMi1lRF9HOU1KTVdNRGxYbVo0dUhrZzI5TNIBpAFBVV95cUxNSmdwTHp3QmhzdGxyTlRTaEZsejE5RnpwblpJbkljY3RvMmJaU2p4MTRRY29rNXAtVTBfRUJ0UWFYbmY2Tkd3ZVJ5SjRpbzU5aWg3bzRnUHdhUkMtSHVOQnFkRGc1SHJEdHJCQTJWdVplczVZdXpwQ1JHemFGcXhsNGI4RFZsUjlhYVUtMi1lRF9HOU1KTVdNRGxYbVo0dUhrZzI5TA?oc=5",
-              "pubDate": "2026-03-16T16:55:04.000Z",
+              "source": "WAVY.com",
+              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZjZxcUhyb2YweUdSc2l6WC1ka0VRV3AwdmdsVnJ6cWw4NlN3Z1dJaFppdjhYMWJnZUJieTBxLTE2XzlYU3A1STlYbVZsd1NiblZiSU55VnNKejc4ZDdicE1RaklfWTdBeVVoVE9ocHVNWnM0dnd6QU5WLWx4WWp5ZGFUa3hqWXhCR1duNzY1VWN4bS1pdDhCUHowT0I1QmVxV0lOWUJxNUVabWxW0gGyAUFVX3lxTFBwUGdsUERNZFhZaFFVQ1pxWnMtQkRDb1RYNkJGcWJQLXVKM3RHNU96d1hyQndWejUzdzV1NWJYYzJOeXJvWXg3MEViektwOGoyYjdVM3d3M1dmU05WZ1pLaThRR2pXZnJmVVoyMFdjWjFCYnZEWUstZVZFMG9UaVZhZlN5MmtfZnVNNWJfTkJIa0tKU2tucmdVaDBNQ1EzRk0yMnNkLWtHV1R0MzNuQXR1TUE?oc=5",
+              "pubDate": "2026-03-16T20:50:56.000Z",
               "tier": 2
             }
           ],
@@ -1718,24 +1698,32 @@ export const newsData = {
           "slug": "trumps-confidence-is-undimmed"
         },
         {
-          "representativeTitle": "Dozens killed after Afghanistan rehab hospital struck",
+          "representativeTitle": "Afghanistan accuses Pakistan of air strike on drug rehab centre",
           "sources": [
-            "BBC World"
+            "BBC World",
+            "Al Jazeera"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Dozens killed after Afghanistan rehab hospital struck",
+              "title": "Dozens killed after Afghanistan rehab centre struck",
               "source": "BBC World",
               "link": "https://www.bbc.com/news/articles/c4g8n7e0l40o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-17T03:17:57.000Z",
+              "pubDate": "2026-03-17T06:19:03.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Afghanistan accuses Pakistan of air strike on drug rehab centre",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/afghanistan-accuses-pakistan-of-air-strike-on-drug-rehab-centre?traffic_source=rss",
+              "pubDate": "2026-03-17T01:35:36.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "dozens-killed-after-afghanistan-rehab-hospital-struck"
+          "relevance_score": 7,
+          "importance": 65,
+          "slug": "afghanistan-accuses-pakistan-of-air-strike-on-drug-rehab-centre"
         },
         {
           "representativeTitle": "Utah bereavement author found guilty of fatally poisoning her husband",
@@ -2164,7 +2152,7 @@ export const newsData = {
               "title": "Australia news live: Michele Bullock says higher petrol prices ‘not the reason’ for RBA’s decision to hike cash rate",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/live/2026/mar/17/bowen-rba-interest-rates-decision-cost-of-living-inflation-fuel-price-shortages-petrol-jim-chalmers-economy-war-iran-anthony-albanese-ntwnfb",
-              "pubDate": "2026-03-17T05:58:57.000Z",
+              "pubDate": "2026-03-17T06:14:19.000Z",
               "tier": 1
             }
           ],
@@ -2376,10 +2364,9 @@ export const newsData = {
         {
           "representativeTitle": "Afghanistan accuses Pakistan of deadly strike on Kabul hospital",
           "sources": [
-            "The Guardian",
-            "Al Jazeera"
+            "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Afghanistan accuses Pakistan of deadly strike on Kabul hospital",
@@ -2387,18 +2374,11 @@ export const newsData = {
               "link": "https://www.theguardian.com/world/2026/mar/16/afghanistan-accuses-pakistan-of-kabul-hospital-strike-killed",
               "pubDate": "2026-03-17T05:22:22.000Z",
               "tier": 1
-            },
-            {
-              "title": "Afghanistan accuses Pakistan of air strike on drug rehab centre",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/afghanistan-accuses-pakistan-of-air-strike-on-drug-rehab-centre?traffic_source=rss",
-              "pubDate": "2026-03-17T01:35:36.000Z",
-              "tier": 1
             }
           ],
           "sentiment": -0.9,
           "relevance_score": 8,
-          "importance": 70,
+          "importance": 55,
           "slug": "afghanistan-accuses-pakistan-of-deadly-strike-on-kabul-hospital"
         },
         {
@@ -2460,6 +2440,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "cannabis-is-not-an-effective-treatment-for-common-mental-health-conditions-says-review"
+        },
+        {
+          "representativeTitle": "Epstein urged media mogul to give up control of affairs, citing health",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Epstein urged media mogul to give up control of affairs, citing health",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/economy/2026/3/17/epstein-urged-media-mogul-to-give-up-control-of-affairs-citing-health?traffic_source=rss",
+              "pubDate": "2026-03-17T05:55:27.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "epstein-urged-media-mogul-to-give-up-control-of-affairs-citing-health"
         },
         {
           "representativeTitle": "Iran negotiating with FIFA to move World Cup 2026 matches from US to Mexico",
@@ -2868,26 +2868,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "ten-icu-patients-killed-in-hospital-fire-in-eastern-india"
-        },
-        {
-          "representativeTitle": "Trump threatens to ‘take’ Cuba as island grapples with nationwide blackout",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump threatens to ‘take’ Cuba as island grapples with nationwide blackout",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/16/cuba-electric-grid-collapses-amid-us-oil-blockade-causing-national-blackout?traffic_source=rss",
-              "pubDate": "2026-03-16T20:45:55.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trump-threatens-to-take-cuba-as-island-grapples-with-nationwide-blackout"
         }
       ]
     },
