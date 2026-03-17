@@ -332,8 +332,23 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
                         <div style={{ fontSize: '10px', fontWeight: '800', color: '#94a3b8', backgroundColor: 'rgba(255,255,255,0.05)', padding: '2px 8px', borderRadius: '4px', letterSpacing: '0.05em' }}>
                             {tooltip.content.citationCount || 1} SOURCES
                         </div>
-                        <div style={{ fontSize: '10px', fontWeight: '800', color: tooltip.content.sentiment > 0.1 ? '#4ade80' : tooltip.content.sentiment < -0.1 ? '#f87171' : '#94a3b8', backgroundColor: 'rgba(255,255,255,0.05)', padding: '2px 8px', borderRadius: '4px', letterSpacing: '0.05em' }}>
-                            SENTIMENT: {Math.round(tooltip.content.sentiment * 100)}%
+                        <div style={{
+                            fontSize: '10px',
+                            fontWeight: '800',
+                            color: tooltip.content.sentiment >= 0.1 ? '#4ade80' : tooltip.content.sentiment <= -0.1 ? '#f87171' : '#94a3b8',
+                            backgroundColor: 'rgba(255,255,255,0.05)',
+                            padding: '2px 8px',
+                            borderRadius: '4px',
+                            letterSpacing: '0.05em'
+                        }}>
+                            {(() => {
+                                const s = tooltip.content.sentiment;
+                                if (s <= -0.7) return 'STRONG NEGATIVE';
+                                if (s <= -0.1) return 'NEGATIVE';
+                                if (s >= 0.7) return 'STRONG POSITIVE';
+                                if (s >= 0.1) return 'POSITIVE';
+                                return 'NEUTRAL';
+                            })()}
                         </div>
                     </div>
 
