@@ -88,6 +88,10 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
         const t = d3.transition().duration(750).ease(d3.easeCubicOut);
 
         // --- 1. LEAVES (Interactive Blocks) ---
+        // Create a defs section if not exists
+        let defs = svg.select('defs');
+        if (defs.empty()) defs = svg.append('defs');
+
         const leavesData = root.leaves();
         const leaf = svg.selectAll('.leaf-node')
             .data(leavesData, d => d.data.representativeTitle);
@@ -100,10 +104,6 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
             .attr('aria-label', d => d.data.representativeTitle);
 
         leafEnter.append('title').text(d => d.data.representativeTitle);
-
-        leafEnter.append('clipPath')
-            .attr('id', (d, i) => `clip-${d.data.representativeTitle.replace(/[^a-zA-Z0-9]/g, '')}`)
-            .append('rect');
 
         leafEnter.append('rect')
             .attr('class', 'bg-rect')
@@ -140,10 +140,19 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
         leafUpdate.transition(t)
             .attr('transform', d => `translate(${d.x0},${d.y0})`);
 
-        leafUpdate.select('clipPath').attr('id', d => `clip-${d.data.representativeTitle.replace(/[^a-zA-Z0-9]/g, '')}`);
-        leafUpdate.select('clipPath rect').transition(t)
-            .attr('width', d => Math.max(0, d.x1 - d.x0))
-            .attr('height', d => Math.max(0, d.y1 - d.y0));
+        // Move clipPath to defs for better standards compliance and Safari stability
+        leafUpdate.each(function (d) {
+            const clipId = `clip-${d.data.slug || d.data.representativeTitle.replace(/[^a-zA-Z0-9]/g, '')}`;
+            let clip = defs.select(`#${clipId}`);
+            if (clip.empty()) {
+                clip = defs.append('clipPath').attr('id', clipId);
+                clip.append('rect');
+            }
+            clip.select('rect').transition(t)
+                .attr('x', 0).attr('y', 0)
+                .attr('width', Math.max(0, d.x1 - d.x0))
+                .attr('height', Math.max(0, d.y1 - d.y0));
+        });
 
         leafUpdate.select('rect.bg-rect').transition(t)
             .attr('width', d => Math.max(0, d.x1 - d.x0))
@@ -154,7 +163,8 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
             .attr('x', 5).attr('y', d => (d.y1 - d.y0) - 8)
             .text(d => {
                 const count = d.data.citationCount || (d.data.rawArticles ? d.data.rawArticles.length : 1);
-                return ((d.x1 - d.x0) > 60 && (d.y1 - d.y0) > 55) ? `${count} SOURCES` : '';
+                // Increased depth requirement to avoid overlap with multi-line titles
+                return ((d.x1 - d.x0) > 60 && (d.y1 - d.y0) > 65) ? `${count} SOURCES` : '';
             });
 
         leafUpdate.select('g.text-group').each(function (d) {
@@ -175,13 +185,12 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
                 const fontSpec = `${fontWeight} ${fontSize}px 'Inter', sans-serif`;
 
                 const textEl = el.append('text')
-                    .attr('clip-path', `url(#clip-${d.data.representativeTitle.replace(/[^a-zA-Z0-9]/g, '')})`)
-                    .attr('x', 5).attr('y', 4)
+                    .attr('clip-path', `url(#clip-${d.data.slug || d.data.representativeTitle.replace(/[^a-zA-Z0-9]/g, '')})`)
+                    .attr('x', 5).attr('y', 6 + fontSize * 0.7) // Roughly 6px margin from top to cap-height
                     .attr('fill', '#f8fafc').attr('font-size', `${fontSize}px`)
                     .attr('font-weight', fontWeight)
                     .style('font-family', "'Inter', sans-serif")
-                    .style('pointer-events', 'none')
-                    .style('dominant-baseline', 'text-before-edge');
+                    .style('pointer-events', 'none');
 
                 let line = [];
                 let lineNumber = 0;
@@ -196,7 +205,7 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
                     if (testWidth > blockWidth && n > 0) {
                         // Push current line and start new one
                         textEl.append('tspan')
-                            .attr('x', 4).attr('dy', lineNumber === 0 ? '0em' : '1.1em')
+                            .attr('x', 5).attr('dy', lineNumber === 0 ? '0' : '1.1em')
                             .text(currentLineText);
 
                         currentLineText = words[n];
@@ -208,7 +217,7 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
 
                 if (lineNumber < maxLines) {
                     textEl.append('tspan')
-                        .attr('x', 4).attr('dy', lineNumber === 0 ? '0em' : '1.1em')
+                        .attr('x', 5).attr('dy', lineNumber === 0 ? '0' : '1.1em')
                         .text(currentLineText);
                 }
             }
