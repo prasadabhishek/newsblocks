@@ -189,4 +189,9 @@ function validateOutput(tree) {
     return true;
 }
 
-gatherNews();
+gatherNews().then(() => {
+    process.exit(0);
+}).catch(err => {
+    console.error("Scraper failed:", err);
+    process.exit(1);
+});
