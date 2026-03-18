@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-18T07:25:05.011Z",
+  "lastUpdated": "2026-03-18T08:16:06.083Z",
   "children": [
     {
       "name": "Politics",
@@ -26,26 +26,6 @@ export const newsData = {
           "slug": "lords-urged-to-ensure-women-criminalised-for-abortion-are-not-left-behind"
         },
         {
-          "representativeTitle": "‘Basics’ of life in Britain have been sold for profit, says Polanski",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘Basics’ of life in Britain have been sold for profit, says Polanski",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/mar/18/basics-of-life-in-britain-have-been-sold-for-profit-says-polanski",
-              "pubDate": "2026-03-18T00:01:18.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "basics-of-life-in-britain-have-been-sold-for-profit-says-polanski"
-        },
-        {
           "representativeTitle": "Reeves plans to give England’s regional leaders a share of national tax revenues",
           "sources": [
             "The Guardian"
@@ -64,6 +44,26 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "reeves-plans-to-give-englands-regional-leaders-a-share-of-national-tax-revenues"
+        },
+        {
+          "representativeTitle": "‘Basics’ of life in Britain have been sold for profit, says Polanski",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘Basics’ of life in Britain have been sold for profit, says Polanski",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/2026/mar/18/basics-of-life-in-britain-have-been-sold-for-profit-says-polanski",
+              "pubDate": "2026-03-18T00:01:18.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "basics-of-life-in-britain-have-been-sold-for-profit-says-polanski"
         },
         {
           "representativeTitle": "Scotland's assisted dying bill rejected after emotional debate",
@@ -242,24 +242,24 @@ export const newsData = {
           "slug": "revealed-nigel-farage-cameo-videos-show-support-for-neo-nazi-event-and-far-right-slogans"
         },
         {
-          "representativeTitle": "Zelensky calls for Trump and Starmer to meet and find common ground",
+          "representativeTitle": "Ukraine faces missile shortage due to Middle East war, says Zelensky",
           "sources": [
             "BBC News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Zelensky calls for Trump and Starmer to meet and find common ground",
+              "title": "Ukraine faces missile shortage due to Middle East war, says Zelensky",
               "source": "BBC News",
               "link": "https://www.bbc.com/news/articles/cp8r813x66jo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-17T23:15:26.000Z",
+              "pubDate": "2026-03-18T07:56:49.000Z",
               "tier": 1
             }
           ],
-          "sentiment": 0.4,
+          "sentiment": -0.4,
           "relevance_score": 9,
           "importance": 60,
-          "slug": "zelensky-calls-for-trump-and-starmer-to-meet-and-find-common-ground"
+          "slug": "ukraine-faces-missile-shortage-due-to-middle-east-war-says-zelensky"
         },
         {
           "representativeTitle": "Rayner warns immigration reforms risk being 'un-British'",
@@ -450,94 +450,6 @@ export const newsData = {
           "slug": "white-house-news-latest-updates-and-video-on-us-politics-and-government"
         },
         {
-          "representativeTitle": "WADA weighing a rule to bar Trump and U.S. officials from major events",
-          "sources": [
-            "PBS"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "WADA weighing a rule to bar Trump and U.S. officials from major events",
-              "source": "PBS",
-              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSkRLYU5OdFJmRUJqbG9zZ1JkWjBJb25oWURWa3dac3g1WjJtQzVIMmhqMDRWQ1NyVVVRcEktWm5qUHhISDNnSVdFeENsZHBJajRnemZqRDFQLVVXVVJPektiWHFCdFZPb0VMdzRaMS1CUW9OVjRPYXVxNkpSbmIxTkZWb25oVkt1RFlfUzZoOEVvaDJXV1B4d2VpY1Baalh0WGJvODJ4UUtMbW1L0gGsAUFVX3lxTE1KREthTk50UmZFQmpsb3NnUmRaMElvbmhZRFZrd1pzeDVaMm1DNUgyaGowNFZDU3JVVVFwSS1abmpQeEhIM2dJV0V4Q2xkcElqNGd6ZmpEMVAtVVdVUk96S2JYcUJ0Vk9vRUx3NFoxLUJRb05WNE9hdXE2SlJuYjFORlZvbmhWS3VEWV9TNmg4RW9oMldXUHh3ZWljUFpqWHRYYm84MnhRS0xtbUs?oc=5",
-              "pubDate": "2026-03-17T18:39:27.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "wada-weighing-a-rule-to-bar-trump-and-us-officials-from-major-events"
-        },
-        {
-          "representativeTitle": "Miami Cubans Fear Trump Won’t Go Far Enough: ‘The Castros Have to Go’",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Miami Cubans Fear Trump Won’t Go Far Enough: ‘The Castros Have to Go’",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jSDczemduQUZ6VjJoNFBreUlsQWUwc0dyc0NLNDdCT19NVF9DajhNb0o1bkVST2lwME5kZlFoUFl4SV92ZnhmS2Q0Yy1vZ1dZYl95MlBsVUtpTk5tRGNUUnh3bDA1bFVaVEFJZEJWTUIzRU9aczRJWHZB?oc=5",
-              "pubDate": "2026-03-17T20:29:52.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "miami-cubans-fear-trump-wont-go-far-enough-the-castros-have-to-go"
-        },
-        {
-          "representativeTitle": "National Counterterrorism Center director resigns over Iran war",
-          "sources": [
-            "The Guardian",
-            "NBC News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Trump counter-terrorism chief quits over Iran war, blaming Israel",
-              "source": "The Guardian",
-              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxON1JjWkJ2UW00T1plYzhnTWFfWHNuU2FoOXRUR2luNnRXYTh5dVpfZ3M2eFNhSmQ2eXdubGw4enNZYzZMV1RuTGkyNzZ4YWlqYl90UWZBNWh4UlNEN2wxeXR6MVE5aXVqVFIwbUlqV054QmdnbXJWbk5PS2h1ZHVYWllQMHFVcm93Tk5ycG9XNXR4ai1RazQ4ck9hSlVKdEZrU0FTOUF5ZVlyQQ?oc=5",
-              "pubDate": "2026-03-18T02:30:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "National Counterterrorism Center director resigns over Iran war",
-              "source": "NBC News",
-              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdHlUMkdxSWgwZmRwbFRFN3BlWUN6Y1ZMOERxeFBmS2d1b28xNDdidG9vaWxUYzFUYTctWnotdHRqZDBXZlQyZ3VWaEVpQ0VuRDlEZ1NGazE4ZkRvbERpQmhmR0ZNa1NEY3BvZVA3WUpoZFJJSkFuUFZRT0JxYmd3eE1CU2V3LW9KQ3U0U1VVQ2dvNk9Kdm5sMzRjbnJ0Vk9DeXA2c2Y5ZkRuSVdPNTVueg?oc=5",
-              "pubDate": "2026-03-17T22:25:36.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 55,
-          "slug": "national-counterterrorism-center-director-resigns-over-iran-war"
-        },
-        {
-          "representativeTitle": "‘Iran posed no imminent threat to our nation’: Trump-appointed intelligence official resigns over Iran war",
-          "sources": [
-            "CNN"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘Iran posed no imminent threat to our nation’: Trump-appointed intelligence official resigns over Iran war",
-              "source": "CNN",
-              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5uNVZKd2dBQWMzaTlCQjNKN0prWG1aUll2eEoxRHFwTk0tRjhVUTJzVnV3OG5JelRBaUE4T2h2Z01ubTBpc1pHQkwwLS1weVE3ZXpvNWdSTGtVUnNqLUZPNE9oTV91SWwtUVBxdnJNTDdlREk?oc=5",
-              "pubDate": "2026-03-17T14:02:02.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "iran-posed-no-imminent-threat-to-our-nation-trump-appointed-intelligence-official-resigns-over-iran-war"
-        },
-        {
           "representativeTitle": "WATCH LIVE: Senate begins extended debate over SAVE America Act",
           "sources": [
             "PBS"
@@ -558,6 +470,46 @@ export const newsData = {
           "slug": "watch-live-senate-begins-extended-debate-over-save-america-act"
         },
         {
+          "representativeTitle": "Trump Administration Seeks to Remove Cuba’s President From Power During Negotiations",
+          "sources": [
+            "The New York Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump Administration Seeks to Remove Cuba’s President From Power During Negotiations",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWEk5VHVqX2g3TlFWRXRid05MVkpTTDBJeFF6MFVmU1FiQ09RcjRrR3dSQzBzSUVYZ3FsYTlPR1dTYllKWUZMWnUxT2dOZy12cVlzWWdPd1BkU3BYWlFjNndpSy1RbXByUTJWOFhad05LWVI2WE5LaFM4RW5xMFE0SzMyQ1c4aDRxQk5STDFDNA?oc=5",
+              "pubDate": "2026-03-17T19:34:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "trump-administration-seeks-to-remove-cubas-president-from-power-during-negotiations"
+        },
+        {
+          "representativeTitle": "Congress still searching for DHS compromise as government shutdown nears the month mark",
+          "sources": [
+            "Scripps News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Congress still searching for DHS compromise as government shutdown nears the month mark",
+              "source": "Scripps News",
+              "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbloyTnFtMlBYaW5NU2c3MmxOV2NxVlp2eVNKY1hIcDBIbkp0X2VpS0RIeGJnZktyMkVxTnV6TlU1VEpuMzFmRk5xYmF1YXUzLXFkNldhVmlYN3V1Z1cwbUYxVzVvbDBIZGNFVmZNY3dTVkRjZUVlOXNuREVyZVE5Q2ZTOWRXYWZyQWtyRHZIWDMzMnhGWTVMdWNJVXN3alQ5WVhHMmZqMl85a1V6VTkwb2lzX3ZtbWhwc1Z6N1JaSWVuVGVzQTNNNXZyRm0xQQ?oc=5",
+              "pubDate": "2026-03-17T23:43:48.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "congress-still-searching-for-dhs-compromise-as-government-shutdown-nears-the-month-mark"
+        },
+        {
           "representativeTitle": "Partial government shutdown approaches second longest in U.S. history",
           "sources": [
             "KOMO"
@@ -567,8 +519,8 @@ export const newsData = {
             {
               "title": "Partial government shutdown approaches second longest in U.S. history",
               "source": "KOMO",
-              "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNSWdVLXRQZk40ZVdveEIteEJ4T2phT2FzV0E1eUNwaWpkTHRDeHFqWExYYWhpTEFpMnN1ODg5VEhRT3NyMWR3eUYzNXVHeFlUdElhemwzUzVMeVBkbmI0Y1RsUDFjV2xpaTl5Z1liVzJEN3ctSkZSSVhrU0Q1YVZ5Q1gyWDZDTGd0MnB4TEIwMGpsWDB5SFg2cDdsck9WbmkyTE93Z3BfRlBmZnk4RXRNdm93MzB3cUt2dkxZOU5FcVVEWkpBeWlxdW5NXzhUVTFPWVh2MjJ4NV9ESWNmeXZNcHBZb2c4TWpCNlR2bHFpc2JkcWVhTmxkMUNValJhQXBtblE?oc=5",
-              "pubDate": "2026-03-17T17:10:31.000Z",
+              "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQY3JCczBpUWFqQmV0ME10eTNFZjNGWnBOcS14U21jVkhYSk9VSFFSMGVzeHhiR3lxR2VqRTdaeUgySkFTRjRpclJYa1A5ZWd1bmdXeGpmbDJKWk9GVENBWkNIdFI5YkI1QVM0R3V4TnlpSVFEc0VDd2RuVlpRdUJXODQ3ZWtqQ205bzZ3QzdycjNKTWlBWUlxWkUzVHB0ZjEzVFh0YU5xWjB5RU00clprai1RSlVkUW4tdndwcXU0VUotb0tHS2U0blFJNktpZlAwV200QXRfc19MOTd5Q3VpV2NhQ3VDeEFOR2YxeXhiSVJVLXNUQWFKMTFB?oc=5",
+              "pubDate": "2026-03-17T16:16:30.000Z",
               "tier": 2
             }
           ],
@@ -576,6 +528,26 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "partial-government-shutdown-approaches-second-longest-in-us-history"
+        },
+        {
+          "representativeTitle": "‘Iran posed no imminent threat to our nation’: Trump-appointed intelligence official resigns over Iran war",
+          "sources": [
+            "CNN"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘Iran posed no imminent threat to our nation’: Trump-appointed intelligence official resigns over Iran war",
+              "source": "CNN",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5uNVZKd2dBQWMzaTlCQjNKN0prWG1aUll2eEoxRHFwTk0tRjhVUTJzVnV3OG5JelRBaUE4T2h2Z01ubTBpc1pHQkwwLS1weVE3ZXpvNWdSTGtVUnNqLUZPNE9oTV91SWwtUVBxdnJNTDdlREk?oc=5",
+              "pubDate": "2026-03-17T14:02:02.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "iran-posed-no-imminent-threat-to-our-nation-trump-appointed-intelligence-official-resigns-over-iran-war"
         },
         {
           "representativeTitle": "US sounds alarm over China’s humanoid robots amid security concerns",
@@ -600,18 +572,10 @@ export const newsData = {
         {
           "representativeTitle": "U.S. government orders TransAlta coal plant to stay online for another 90 days",
           "sources": [
-            "TownAndCountryToday.com",
             "thecanadianpressnews.ca"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
-            {
-              "title": "U.S. government orders TransAlta coal plant to stay online for another 90 days",
-              "source": "TownAndCountryToday.com",
-              "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSy1DUXZNelhUVjNFV3RDUTlyVmpscnM1Vms3RF9FeURyYm5BdWhWaUZPcWhTdVBKV2g5RE8wU2kyMjVJVTM3YWJFQTdzcFI5UFRDcXR2Y3NzdE1NRGtTcUF0ZGZUZnRCeU1YUm9zWFFTRzl4aWxFU2d0N3hqLTNCa0oxZVJ6OWpVRFh2LWhKYUVNTWxrdlZWb0FMaHo2aDBWTVB3dURfbVltUmZicWNUcjZzaF84VWl1Q3NXOW9Hd2Y5RGk3UkQ5aFR3?oc=5",
-              "pubDate": "2026-03-17T21:59:19.000Z",
-              "tier": 2
-            },
             {
               "title": "U.S. government orders TransAlta coal plant to stay online for another 90 days",
               "source": "thecanadianpressnews.ca",
@@ -622,48 +586,8 @@ export const newsData = {
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 45,
-          "slug": "us-government-orders-transalta-coal-plant-to-stay-online-for-another-90-days"
-        },
-        {
-          "representativeTitle": "The best gift for America’s 250th Birthday — a revitalized nondelegation | Guest Commentary",
-          "sources": [
-            "Santa Ynez Valley News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The best gift for America’s 250th Birthday — a revitalized nondelegation | Guest Commentary",
-              "source": "Santa Ynez Valley News",
-              "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOYkN4dlpGWW95TFB4dnV2V3ZZU21KblZnU09vc1dGX3A2SF90S2JkM0JiRFRSR1Nkbms5OXRUT2NTRUwzTkNaNTBjbGV5TDIzNmJnUEtWM3B5QlFpRWx5R20zc2swbHhlTmxkaGNueHNhOS1aVTdSUXZhTklCbElVeXRGWTBpS0ZsWlp6YnNXWkdwT093UG1TTE1HT1lYbFBuVThiOFdpVnBBNklFMS1ha1B6eWZzb21ZQTMzOGM5TEFfS3RZdWZNOGdkTlQxU3ZYRlFOWlZmNEtpQTBGOEdfUnF4amc5RjRUbk9yNXI5cmZaNk9HT2V2aGtfZzAxbFMxeXNhNzlB?oc=5",
-              "pubDate": "2026-03-17T12:30:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
           "importance": 40,
-          "slug": "the-best-gift-for-americas-250th-birthday-a-revitalized-nondelegation-guest-commentary"
-        },
-        {
-          "representativeTitle": "Trump Administration Seeks to Remove Cuba’s President From Power During Negotiations",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump Administration Seeks to Remove Cuba’s President From Power During Negotiations",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWEk5VHVqX2g3TlFWRXRid05MVkpTTDBJeFF6MFVmU1FiQ09RcjRrR3dSQzBzSUVYZ3FsYTlPR1dTYllKWUZMWnUxT2dOZy12cVlzWWdPd1BkU3BYWlFjNndpSy1RbXByUTJWOFhad05LWVI2WE5LaFM4RW5xMFE0SzMyQ1c4aDRxQk5STDFDNA?oc=5",
-              "pubDate": "2026-03-17T19:34:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "trump-administration-seeks-to-remove-cubas-president-from-power-during-negotiations"
+          "slug": "us-government-orders-transalta-coal-plant-to-stay-online-for-another-90-days"
         },
         {
           "representativeTitle": "TSA Official Warns Some Airports Could Be Forced To Close Amid DHS Shutdown",
@@ -694,6 +618,34 @@ export const newsData = {
           "slug": "tsa-official-warns-some-airports-could-be-forced-to-close-amid-dhs-shutdown"
         },
         {
+          "representativeTitle": "Joe Kent, a Top Counterterrorism Official for the Trump Administration, Resigns, Citing Iran War",
+          "sources": [
+            "NBC News",
+            "The New York Times"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "National Counterterrorism Center director resigns over Iran war",
+              "source": "NBC News",
+              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdHlUMkdxSWgwZmRwbFRFN3BlWUN6Y1ZMOERxeFBmS2d1b28xNDdidG9vaWxUYzFUYTctWnotdHRqZDBXZlQyZ3VWaEVpQ0VuRDlEZ1NGazE4ZkRvbERpQmhmR0ZNa1NEY3BvZVA3WUpoZFJJSkFuUFZRT0JxYmd3eE1CU2V3LW9KQ3U0U1VVQ2dvNk9Kdm5sMzRjbnJ0Vk9DeXA2c2Y5ZkRuSVdPNTVueg?oc=5",
+              "pubDate": "2026-03-17T22:25:36.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Joe Kent, a Top Counterterrorism Official for the Trump Administration, Resigns, Citing Iran War",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWENsMjlQYWxsTFEtT1dZLWtabFNSNFk5aFBmWUFYWFlEX2RwQ0RxNjM2Mi1JMFdTLVg5RkxXbk9oWWNjMzZiSlJRTnBCZGJVQVVxWmdZX3FsQ3I1SU5vT0Y1anpOSnNubnhoczh4bkUyWkNtVThIakZfaHZaa29oWkFpNGVXcUhsM0Nnejd4T0lLTGVJdnB6YzZB?oc=5",
+              "pubDate": "2026-03-17T23:29:32.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "joe-kent-a-top-counterterrorism-official-for-the-trump-administration-resigns-citing-iran-war"
+        },
+        {
           "representativeTitle": "Judge blocks US government from slimming down vaccine recommendations",
           "sources": [
             "The Virginian-Pilot"
@@ -712,6 +664,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "judge-blocks-us-government-from-slimming-down-vaccine-recommendations"
+        },
+        {
+          "representativeTitle": "DHS suspends PreCheck and Global Entry amid government shutdown",
+          "sources": [
+            "MSN"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "DHS suspends PreCheck and Global Entry amid government shutdown",
+              "source": "MSN",
+              "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUE9OOVpMQ0ZLSzlSeVREelJEM3lGYVgzWnFXWWVBaGFrb3g2WHNMZG9TX2ZxVHNxcFAtOHg5YXVzSHVraHNwU2FXQzRkNG5hcVhsZkJKenBlYzRXMUV1TUpHWk1EbmJULUVCLWpacHJWeUFoUkVoTWo3ZDgyWkNtcGY5UTR3cTlqLTdMb3djRTJ3M2NsY2ZEdWRpX256eXhyZnFuS2pEX0xPWGN2TnNtSkNVdEJKcXctOURwSFBtNm00ZzI4RHh4cm1HdkVxSjRlLWpr?oc=5",
+              "pubDate": "2026-03-18T07:03:36.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "dhs-suspends-precheck-and-global-entry-amid-government-shutdown"
         },
         {
           "representativeTitle": "U.S. seeks political signal from Brazil on critical minerals deal",
@@ -734,24 +706,124 @@ export const newsData = {
           "slug": "us-seeks-political-signal-from-brazil-on-critical-minerals-deal"
         },
         {
-          "representativeTitle": "Airline executives urge Congress to end partial government shutdown",
+          "representativeTitle": "WADA weighing a rule to bar Trump and U.S. officials from major events",
           "sources": [
-            "MSN"
+            "PBS"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Airline executives urge Congress to end partial government shutdown",
-              "source": "MSN",
-              "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNX0F6OXdveUM2VmhYTmdQd1YzNW1YQlNVLTh4RjI0enl2RTdsdVFCVW1kRHJUQ25VS2I5b2Rkd2tVT3k3dUJXOVo4dWpvOGNKcHZkWWphNnRReWhTU0FITHVjM2V6VWMwWURIX1FVQ3NUdjlLM3ZGd1R2RG5fNlFmeXBUdGd0V1NtbVA1Wi1SclBzVHlsQUZYNE1ZbDl3amNndHlmVVV1R2RTcGloaUJGYnFKdlhuUkR4cDFId1p4RlhkWk5MSXlqVDU1YzRlV1l0aHVyYmRLNmk?oc=5",
-              "pubDate": "2026-03-17T14:04:28.000Z",
+              "title": "WADA weighing a rule to bar Trump and U.S. officials from major events",
+              "source": "PBS",
+              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSkRLYU5OdFJmRUJqbG9zZ1JkWjBJb25oWURWa3dac3g1WjJtQzVIMmhqMDRWQ1NyVVVRcEktWm5qUHhISDNnSVdFeENsZHBJajRnemZqRDFQLVVXVVJPektiWHFCdFZPb0VMdzRaMS1CUW9OVjRPYXVxNkpSbmIxTkZWb25oVkt1RFlfUzZoOEVvaDJXV1B4d2VpY1Baalh0WGJvODJ4UUtMbW1L0gGsAUFVX3lxTE1KREthTk50UmZFQmpsb3NnUmRaMElvbmhZRFZrd1pzeDVaMm1DNUgyaGowNFZDU3JVVVFwSS1abmpQeEhIM2dJV0V4Q2xkcElqNGd6ZmpEMVAtVVdVUk96S2JYcUJ0Vk9vRUx3NFoxLUJRb05WNE9hdXE2SlJuYjFORlZvbmhWS3VEWV9TNmg4RW9oMldXUHh3ZWljUFpqWHRYYm84MnhRS0xtbUs?oc=5",
+              "pubDate": "2026-03-17T18:39:27.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "airline-executives-urge-congress-to-end-partial-government-shutdown"
+          "slug": "wada-weighing-a-rule-to-bar-trump-and-us-officials-from-major-events"
+        },
+        {
+          "representativeTitle": "Miami Cubans Fear Trump Won’t Go Far Enough: ‘The Castros Have to Go’",
+          "sources": [
+            "The New York Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Miami Cubans Fear Trump Won’t Go Far Enough: ‘The Castros Have to Go’",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jSDczemduQUZ6VjJoNFBreUlsQWUwc0dyc0NLNDdCT19NVF9DajhNb0o1bkVST2lwME5kZlFoUFl4SV92ZnhmS2Q0Yy1vZ1dZYl95MlBsVUtpTk5tRGNUUnh3bDA1bFVaVEFJZEJWTUIzRU9aczRJWHZB?oc=5",
+              "pubDate": "2026-03-17T21:56:32.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "miami-cubans-fear-trump-wont-go-far-enough-the-castros-have-to-go"
+        },
+        {
+          "representativeTitle": "DC Wrap: Trump chides NATO allies; counterterrorism official resigns over war",
+          "sources": [
+            "Spectrum News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "DC Wrap: Trump chides NATO allies; counterterrorism official resigns over war",
+              "source": "Spectrum News",
+              "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdXY2ckdWYlRKYjQyV09oRjZkUTJGdFB0SU1vYmc3Rjh6N05CS0J1MWxBRXNlcnlkN1M5M2pIQnFoQVNBMWFrWXE4WTBudk1ySFZlY2VJc3FrTzJjUXg4bEkzZHBiN2tTLXB3aVo0cTlkTmZJZFN4d2s0LXZZcFcxdUtUVjI3Wm9Hd0NEb2NUb3k1YVM5ZHZyNmxKdDI2djZuOFNGTEhUSndNZDY1NmpGS0ZQajhGVVlZR01CM1ZQRjNmYkNlZ2xXU3l2UzQ1UmplNUVOQ053?oc=5",
+              "pubDate": "2026-03-17T21:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "dc-wrap-trump-chides-nato-allies-counterterrorism-official-resigns-over-war"
+        },
+        {
+          "representativeTitle": "As Trump floats \"taking Cuba,\" island's president warns any aggression will be met with \"impregnable resistance\"",
+          "sources": [
+            "CBS News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "As Trump floats \"taking Cuba,\" island's president warns any aggression will be met with \"impregnable resistance\"",
+              "source": "CBS News",
+              "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOTkyQXJuUGF4Z1pWUjgwNm9pOFhTbklDb1V4UFBhNVhFb3ZYR3ctcnVIS0JBVGhrS3JzcW9ubG5HSGtTOVdGTm9GZ3I1dzVsckV3bUlYalBKVDRxd3JEdXJIWnd3dkUtV1JLSTdJb1gxWkY1SjhQc2l3VENLclJmLUZQY3JYVS1oQUpTZmd4R25MX2hiM3JibGkzZFlNNVhlbnZOcXdqR2tSRnY5cHI5RDh1NWY5elg3RVZBOGQwMWlXblEzZW40LWFfaHlSYk1tenfSAdcBQVVfeXFMTlU0UjJJek9YazNLR0lmbDRIR0hhZDVnajZpUEFacDJ1djQ4Y0Z2OFJGa0hWaUJWUm1kNmZpV0FOTWsxOUJaLVY4S3dkWVZDc09BY2ZYY0poS3Bxa0g0Mjl2UEdDR0pLWndMQnlzZ3R1VnE1eDN1M3Y0R0dXa2x6TjJZbmVtNl9xV3hBV0U5Uk5uZjFPR0pVMUxBRHZMWUh6RTFDbkhKUGM4TU5IVVNJWU8tZVRsNVVubXJIMFBVNnhFRGJVNU8zNW9FUXlrZEVXSkZkbXBQWlk?oc=5",
+              "pubDate": "2026-03-18T02:50:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "as-trump-floats-taking-cuba-islands-president-warns-any-aggression-will-be-met-with-impregnable-resistance"
+        },
+        {
+          "representativeTitle": "Lawmakers unflinching in DHS shutdown fight that could drag on for weeks as airport lines and travel anxieties grow",
+          "sources": [
+            "CNN"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Lawmakers unflinching in DHS shutdown fight that could drag on for weeks as airport lines and travel anxieties grow",
+              "source": "CNN",
+              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONVQtN29qZllkOFducFZDQTVBZHRiQzRzNExJUXBFWUtkSFl6bjhwYTV0VWdDWlhkaGNLVFljeGppZmNueHF4WmswX0JPSEJaZzgxTE11OVhBREI0NjVZb1RDNlgtMXQyc2VteFhuVHNNelpEdmkwS1F2UXNRUVZaS0o5SG0?oc=5",
+              "pubDate": "2026-03-17T21:06:05.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "lawmakers-unflinching-in-dhs-shutdown-fight-that-could-drag-on-for-weeks-as-airport-lines-and-travel-anxieties-grow"
+        },
+        {
+          "representativeTitle": "Cuba-wide blackout ignites anti-government anger",
+          "sources": [
+            "dw.com"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Cuba-wide blackout ignites anti-government anger",
+              "source": "dw.com",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaVc2ZUxDeVlVWGFsazhiQ1lObzhUVEgyY2VRTDJyMjBWRVhQd0NQQnhxZzgwWHVPOFFlNVF2OVNqNzdiT0RIdnhTZ1FhUTlPWVpPMHBWSkZMczZUWDVvbDFsSnh3bGZxUWh3UUpWUUlCZGI0ekhnVGk3YklMbERoY2t3bG5qYU1QbklyUDZR?oc=5",
+              "pubDate": "2026-03-17T20:49:32.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "cuba-wide-blackout-ignites-anti-government-anger"
         }
       ]
     },
@@ -1072,24 +1144,24 @@ export const newsData = {
           "slug": "iran-conflict-turns-shipping-market-into-wild-west"
         },
         {
-          "representativeTitle": "Cathay extends Middle East flight cuts to end of April",
+          "representativeTitle": "Israeli air strikes rock central Beirut",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Cathay extends Middle East flight cuts to end of April",
+              "title": "Israeli air strikes rock central Beirut",
               "source": "Financial Times",
               "link": "https://www.ft.com/content/6112e127-3ee2-4fce-acfc-f7644e5c6c30",
               "pubDate": "2026-03-17T23:40:46.000Z",
               "tier": 1
             }
           ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "cathay-extends-middle-east-flight-cuts-to-end-of-april"
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "israeli-air-strikes-rock-central-beirut"
         },
         {
           "representativeTitle": "Iran still seen capable of escalating attacks on Gulf’s energy",
@@ -1192,6 +1264,26 @@ export const newsData = {
           "slug": "uae-set-to-show-leniency-on-tax-rules-for-expats-leaving-to-avoid-iran-war"
         },
         {
+          "representativeTitle": "Takaichi set for high-stakes meeting with Trump over Iran",
+          "sources": [
+            "Financial Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Takaichi set for high-stakes meeting with Trump over Iran",
+              "source": "Financial Times",
+              "link": "https://www.ft.com/content/528ea926-606f-4db6-81f1-dc3831b47f6d",
+              "pubDate": "2026-03-18T02:26:27.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "takaichi-set-for-high-stakes-meeting-with-trump-over-iran"
+        },
+        {
           "representativeTitle": "Suspicions grow that China is exploiting FOI laws to gather UK security data",
           "sources": [
             "Financial Times"
@@ -1210,6 +1302,26 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "suspicions-grow-that-china-is-exploiting-foi-laws-to-gather-uk-security-data"
+        },
+        {
+          "representativeTitle": "Rayner warns Starmer his government is ‘running out of time’",
+          "sources": [
+            "Financial Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Rayner warns Starmer his government is ‘running out of time’",
+              "source": "Financial Times",
+              "link": "https://www.ft.com/content/b614c368-dda0-4623-8bcd-8f7762803d9d",
+              "pubDate": "2026-03-18T07:49:32.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "rayner-warns-starmer-his-government-is-running-out-of-time"
         },
         {
           "representativeTitle": "Trump lashes out at Starmer while UK works with allies to de-escalate Iran crisis",
@@ -1232,44 +1344,24 @@ export const newsData = {
           "slug": "trump-lashes-out-at-starmer-while-uk-works-with-allies-to-de-escalate-iran-crisis"
         },
         {
-          "representativeTitle": "Oil price surge will hurt US growth and fuel inflation, say economists",
+          "representativeTitle": "MFS lent to company tied to accountant charged over alleged crime-family work",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Oil price surge will hurt US growth and fuel inflation, say economists",
+              "title": "MFS lent to company tied to accountant charged over alleged crime-family work",
               "source": "Financial Times",
-              "link": "https://www.ft.com/content/d4c3f857-eb50-47c5-a109-050a8c2f2346",
-              "pubDate": "2026-03-18T01:32:33.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "oil-price-surge-will-hurt-us-growth-and-fuel-inflation-say-economists"
-        },
-        {
-          "representativeTitle": "UK price gap between first-time properties and bigger homes at record high",
-          "sources": [
-            "Financial Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "UK price gap between first-time properties and bigger homes at record high",
-              "source": "Financial Times",
-              "link": "https://www.ft.com/content/d2c3ea11-a462-47ea-aed4-825e9ba55d87",
-              "pubDate": "2026-03-18T00:01:01.000Z",
+              "link": "https://www.ft.com/content/60b4ea7c-ed4a-4873-8498-dab6506a6e4a",
+              "pubDate": "2026-03-18T05:00:15.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "uk-price-gap-between-first-time-properties-and-bigger-homes-at-record-high"
+          "slug": "mfs-lent-to-company-tied-to-accountant-charged-over-alleged-crime-family-work"
         }
       ]
     },
@@ -2313,24 +2405,44 @@ export const newsData = {
           "slug": "how-you-walk-reveals-to-others-how-you-are-feeling-researchers-say"
         },
         {
-          "representativeTitle": "Australia news live: Chalmers says Iran war could wipe $16.5bn from economy by next year and push inflation even higher",
+          "representativeTitle": "‘A bigger scar’: prolonged war in Middle East could slash $16.5bn from Australian economy, Chalmers warns",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Australia news live: Chalmers says Iran war could wipe $16.5bn from economy by next year and push inflation even higher",
+              "title": "‘A bigger scar’: prolonged war in Middle East could slash $16.5bn from Australian economy, Chalmers warns",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/mar/18/anthony-albanese-national-cabinet-iran-war-fuel-shortages-self-reliance-economic-resilience",
+              "pubDate": "2026-03-18T07:16:37.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "a-bigger-scar-prolonged-war-in-middle-east-could-slash-165bn-from-australian-economy-chalmers-warns"
+        },
+        {
+          "representativeTitle": "PM calls national cabinet meeting over fuel crisis – as it happened",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "PM calls national cabinet meeting over fuel crisis – as it happened",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/live/2026/mar/18/australia-news-live-trump-iran-nato-hormuz-interest-rates-rba-cost-of-living-jim-chalmers-economy-fuel-price-crisis-ntwnfb",
               "pubDate": "2026-03-18T07:13:37.000Z",
               "tier": 1
             }
           ],
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "australia-news-live-chalmers-says-iran-war-could-wipe-165bn-from-economy-by-next-year-and-push-inflation-even-higher"
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "pm-calls-national-cabinet-meeting-over-fuel-crisis-as-it-happened"
         },
         {
           "representativeTitle": "DiDi raises prices in Australia to cover soaring petrol costs amid conflict in the Middle East",
@@ -2371,46 +2483,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "australias-high-court-orders-ankle-bracelets-be-removed-and-curfews-end-for-43-former-immigration-detainees"
-        },
-        {
-          "representativeTitle": "Myki-less public transport for all passengers won’t happen until 2027, Victorian auditor reveals",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Myki-less public transport for all passengers won’t happen until 2027, Victorian auditor reveals",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/mar/18/myki-less-public-transport-for-all-passengers-2027-victorian-auditor",
-              "pubDate": "2026-03-18T04:57:38.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "myki-less-public-transport-for-all-passengers-wont-happen-until-2027-victorian-auditor-reveals"
-        },
-        {
-          "representativeTitle": "Iranian strikes hit near Australian airbase in UAE, Albanese confirms",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iranian strikes hit near Australian airbase in UAE, Albanese confirms",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/mar/18/iran-war-strikes-near-australian-airbase-uae",
-              "pubDate": "2026-03-18T03:15:55.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "iranian-strikes-hit-near-australian-airbase-in-uae-albanese-confirms"
         },
         {
           "representativeTitle": "‘Old masters too’: Ghent exhibition celebrates female artists of the baroque",
@@ -2611,6 +2683,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "how-pakistans-people-led-solar-boom-is-easing-impact-of-middle-east-energy-crisis"
+        },
+        {
+          "representativeTitle": "‘US distraction in the Middle East is in China’s interest’",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘US distraction in the Middle East is in China’s interest’",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/quotable/2026/3/18/us-distraction-in-the-middle-east-is-in-chinas?traffic_source=rss",
+              "pubDate": "2026-03-18T07:31:42.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "us-distraction-in-the-middle-east-is-in-chinas-interest"
         },
         {
           "representativeTitle": "Israel bombs central Beirut, killing 6, strafes south, east Lebanon",
@@ -2993,12 +3085,11 @@ export const newsData = {
           "slug": "xi-jinpings-anticorruption-drive-sweeps-up-senior-chinese-military-chiefs"
         },
         {
-          "representativeTitle": "Israel killed Larijani hoping to ‘torpedo’ chance of US-Iran talks",
+          "representativeTitle": "Larijani’s warning to US, Israel before his killing",
           "sources": [
-            "Al Jazeera",
             "Al Jazeera"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Larijani’s warning to US, Israel before his killing",
@@ -3006,19 +3097,12 @@ export const newsData = {
               "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/larijanis-warning-to-us-israel-before-his-killing?traffic_source=rss",
               "pubDate": "2026-03-18T00:52:29.000Z",
               "tier": 1
-            },
-            {
-              "title": "Israel killed Larijani hoping to ‘torpedo’ chance of US-Iran talks",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/quotable/2026/3/17/israel-killed-larijani-hoping-to-torpedo-chance-of-us-iran-talks?traffic_source=rss",
-              "pubDate": "2026-03-17T23:57:26.000Z",
-              "tier": 1
             }
           ],
           "sentiment": -0.9,
           "relevance_score": 9,
-          "importance": 70,
-          "slug": "israel-killed-larijani-hoping-to-torpedo-chance-of-us-iran-talks"
+          "importance": 60,
+          "slug": "larijanis-warning-to-us-israel-before-his-killing"
         },
         {
           "representativeTitle": "Burning debris from missile interceptions showers Dubai",
@@ -3424,26 +3508,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "what-happens-to-cigarette-butts-after-10-years-in-the-environment"
-        },
-        {
-          "representativeTitle": "Scientists discover heavier version of proton with upgraded detector",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Scientists discover heavier version of proton with upgraded detector",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/science/2026/mar/17/scientists-discover-heavier-proton-upgraded-detector",
-              "pubDate": "2026-03-17T08:00:42.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "scientists-discover-heavier-version-of-proton-with-upgraded-detector"
         },
         {
           "representativeTitle": "Meteor over Ohio causes large boom heard as far away as Pennsylvania",
