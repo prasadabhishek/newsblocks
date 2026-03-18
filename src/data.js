@@ -1,29 +1,29 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-18T04:41:27.883Z",
+  "lastUpdated": "2026-03-18T05:32:23.046Z",
   "children": [
     {
       "name": "Politics",
       "children": [
         {
-          "representativeTitle": "‘Basics’ of life in Britain have been sold for profit, says Polanski",
+          "representativeTitle": "Lords urged to ensure women criminalised for abortion are ‘not left behind’",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "‘Basics’ of life in Britain have been sold for profit, says Polanski",
+              "title": "Lords urged to ensure women criminalised for abortion are ‘not left behind’",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/mar/18/basics-of-life-in-britain-have-been-sold-for-profit-says-polanski",
-              "pubDate": "2026-03-18T00:01:18.000Z",
+              "link": "https://www.theguardian.com/world/2026/mar/18/lords-urged-to-ensure-women-criminalised-for-abortion-are-not-left-behind",
+              "pubDate": "2026-03-18T05:00:24.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "basics-of-life-in-britain-have-been-sold-for-profit-says-polanski"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "lords-urged-to-ensure-women-criminalised-for-abortion-are-not-left-behind"
         },
         {
           "representativeTitle": "Reeves plans to give England’s regional leaders a share of national tax revenues",
@@ -44,6 +44,26 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "reeves-plans-to-give-englands-regional-leaders-a-share-of-national-tax-revenues"
+        },
+        {
+          "representativeTitle": "‘Basics’ of life in Britain have been sold for profit, says Polanski",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘Basics’ of life in Britain have been sold for profit, says Polanski",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/2026/mar/18/basics-of-life-in-britain-have-been-sold-for-profit-says-polanski",
+              "pubDate": "2026-03-18T00:01:18.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "basics-of-life-in-britain-have-been-sold-for-profit-says-polanski"
         },
         {
           "representativeTitle": "Scotland's assisted dying bill rejected after emotional debate",
@@ -92,33 +112,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "rayner-government-cannot-just-go-through-the-motions-in-the-face-of-decline"
-        },
-        {
-          "representativeTitle": "Europe must prepare for drone strikes by terrorists and criminals, warns Zelenskyy",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Europe must prepare for drone strikes by terrorists and criminals, warns Zelenskyy",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/17/europe-must-prepare-for-drone-strikes-volodymyr-zelenskyy",
-              "pubDate": "2026-03-17T19:38:59.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Europe must prepare for drone strikes by terrorists and criminals, warns Zelenskyy",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/17/europe-must-prepare-for-drone-strikes-volodymyr-zelenskyy",
-              "pubDate": "2026-03-17T19:38:59.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "europe-must-prepare-for-drone-strikes-by-terrorists-and-criminals-warns-zelenskyy"
         },
         {
           "representativeTitle": "The Guardian view on the fragile politics of the union: Labour’s woes have consequences beyond Westminster | Editorial",
@@ -467,7 +460,7 @@ export const newsData = {
               "title": "Miami Cubans Fear Trump Won’t Go Far Enough: ‘The Castros Have to Go’",
               "source": "The New York Times",
               "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jSDczemduQUZ6VjJoNFBreUlsQWUwc0dyc0NLNDdCT19NVF9DajhNb0o1bkVST2lwME5kZlFoUFl4SV92ZnhmS2Q0Yy1vZ1dZYl95MlBsVUtpTk5tRGNUUnh3bDA1bFVaVEFJZEJWTUIzRU9aczRJWHZB?oc=5",
-              "pubDate": "2026-03-17T21:56:32.000Z",
+              "pubDate": "2026-03-17T20:29:52.000Z",
               "tier": 2
             }
           ],
@@ -613,6 +606,26 @@ export const newsData = {
           "slug": "the-best-gift-for-americas-250th-birthday-a-revitalized-nondelegation-guest-commentary"
         },
         {
+          "representativeTitle": "Khamenei's killing renews questions about US assassinating foreign leaders",
+          "sources": [
+            "WXXI News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Khamenei's killing renews questions about US assassinating foreign leaders",
+              "source": "WXXI News",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPODJsWHZJd0NySVdoMm44M1QxVjJXNTFVQ0FadzBxSXlRazdhUXJkQk9qT3VaT0oyZFYwRWx0UWJkM09pX2dtNFdUWEt5ZjZlNVZaMHVhSnF1Z1pidnJyOEJCRHV3eURjN2FJSkNPamVPNWhtZDFZeEl3Q2FoREp4QjltN2ZNU240YzlITnAyWGczbnU0TkdmM3lEdllOSFAtRWs2MW1OcC05MjF3ZzZyVVNSMDVJY29icnc?oc=5",
+              "pubDate": "2026-03-17T19:22:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 55,
+          "slug": "khameneis-killing-renews-questions-about-us-assassinating-foreign-leaders"
+        },
+        {
           "representativeTitle": "Trump Administration Seeks to Remove Cuba’s President From Power During Negotiations",
           "sources": [
             "The New York Times"
@@ -741,24 +754,24 @@ export const newsData = {
           "slug": "trump-calls-out-australia-over-role-in-us-iran-war"
         },
         {
-          "representativeTitle": "DC Wrap: Trump chides NATO allies; counterterrorism official resigns over war",
+          "representativeTitle": "As Trump floats \"taking Cuba,\" island's president warns any aggression will be met with \"impregnable resistance\"",
           "sources": [
-            "Spectrum News"
+            "CBS News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "DC Wrap: Trump chides NATO allies; counterterrorism official resigns over war",
-              "source": "Spectrum News",
-              "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdXY2ckdWYlRKYjQyV09oRjZkUTJGdFB0SU1vYmc3Rjh6N05CS0J1MWxBRXNlcnlkN1M5M2pIQnFoQVNBMWFrWXE4WTBudk1ySFZlY2VJc3FrTzJjUXg4bEkzZHBiN2tTLXB3aVo0cTlkTmZJZFN4d2s0LXZZcFcxdUtUVjI3Wm9Hd0NEb2NUb3k1YVM5ZHZyNmxKdDI2djZuOFNGTEhUSndNZDY1NmpGS0ZQajhGVVlZR01CM1ZQRjNmYkNlZ2xXU3l2UzQ1UmplNUVOQ053?oc=5",
-              "pubDate": "2026-03-17T21:00:00.000Z",
+              "title": "As Trump floats \"taking Cuba,\" island's president warns any aggression will be met with \"impregnable resistance\"",
+              "source": "CBS News",
+              "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOTkyQXJuUGF4Z1pWUjgwNm9pOFhTbklDb1V4UFBhNVhFb3ZYR3ctcnVIS0JBVGhrS3JzcW9ubG5HSGtTOVdGTm9GZ3I1dzVsckV3bUlYalBKVDRxd3JEdXJIWnd3dkUtV1JLSTdJb1gxWkY1SjhQc2l3VENLclJmLUZQY3JYVS1oQUpTZmd4R25MX2hiM3JibGkzZFlNNVhlbnZOcXdqR2tSRnY5cHI5RDh1NWY5elg3RVZBOGQwMWlXblEzZW40LWFfaHlSYk1tenfSAdcBQVVfeXFMTlU0UjJJek9YazNLR0lmbDRIR0hhZDVnajZpUEFacDJ1djQ4Y0Z2OFJGa0hWaUJWUm1kNmZpV0FOTWsxOUJaLVY4S3dkWVZDc09BY2ZYY0poS3Bxa0g0Mjl2UEdDR0pLWndMQnlzZ3R1VnE1eDN1M3Y0R0dXa2x6TjJZbmVtNl9xV3hBV0U5Uk5uZjFPR0pVMUxBRHZMWUh6RTFDbkhKUGM4TU5IVVNJWU8tZVRsNVVubXJIMFBVNnhFRGJVNU8zNW9FUXlrZEVXSkZkbXBQWlk?oc=5",
+              "pubDate": "2026-03-18T02:50:00.000Z",
               "tier": 2
             }
           ],
-          "sentiment": -0.4,
+          "sentiment": -0.9,
           "relevance_score": 9,
           "importance": 50,
-          "slug": "dc-wrap-trump-chides-nato-allies-counterterrorism-official-resigns-over-war"
+          "slug": "as-trump-floats-taking-cuba-islands-president-warns-any-aggression-will-be-met-with-impregnable-resistance"
         }
       ]
     },
@@ -1059,34 +1072,34 @@ export const newsData = {
           "slug": "nissan-joins-toyota-honda-in-plans-to-export-us-cars-to-japan"
         },
         {
-          "representativeTitle": "Top US counterterrorism official resigns over war against Iran",
+          "representativeTitle": "Iran conflict turns shipping market into ‘wild west’",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Top US counterterrorism official resigns over war against Iran",
+              "title": "Iran conflict turns shipping market into ‘wild west’",
               "source": "Financial Times",
-              "link": "https://www.ft.com/content/f3dad979-875e-4ee7-836c-264890d5df6b",
-              "pubDate": "2026-03-17T16:35:07.000Z",
+              "link": "https://www.ft.com/content/69f0f8a4-2567-44f4-a7b7-6ce4c62ab0e2",
+              "pubDate": "2026-03-18T05:00:27.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "top-us-counterterrorism-official-resigns-over-war-against-iran"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "iran-conflict-turns-shipping-market-into-wild-west"
         },
         {
-          "representativeTitle": "Iran confirms death of top security official Ali Larijani",
+          "representativeTitle": "Cathay extends Middle East flight cuts to end of April",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran confirms death of top security official Ali Larijani",
+              "title": "Cathay extends Middle East flight cuts to end of April",
               "source": "Financial Times",
               "link": "https://www.ft.com/content/6112e127-3ee2-4fce-acfc-f7644e5c6c30",
               "pubDate": "2026-03-17T23:40:46.000Z",
@@ -1094,9 +1107,69 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "cathay-extends-middle-east-flight-cuts-to-end-of-april"
+        },
+        {
+          "representativeTitle": "Iran could escalate attacks on the Gulf’s energy sector",
+          "sources": [
+            "Financial Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Iran could escalate attacks on the Gulf’s energy sector",
+              "source": "Financial Times",
+              "link": "https://www.ft.com/content/69226210-a489-45aa-9993-32ed5359fe18",
+              "pubDate": "2026-03-18T05:00:36.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "iran-could-escalate-attacks-on-the-gulfs-energy-sector"
+        },
+        {
+          "representativeTitle": "The sum of all fears for Lebanon",
+          "sources": [
+            "Financial Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The sum of all fears for Lebanon",
+              "source": "Financial Times",
+              "link": "https://www.ft.com/content/9ef95667-0a78-4fcc-b1f1-3e4bdaf25c73",
+              "pubDate": "2026-03-18T05:00:27.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "iran-confirms-death-of-top-security-official-ali-larijani"
+          "slug": "the-sum-of-all-fears-for-lebanon"
+        },
+        {
+          "representativeTitle": "Trump has broken it. Now he owns it",
+          "sources": [
+            "Financial Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump has broken it. Now he owns it",
+              "source": "Financial Times",
+              "link": "https://www.ft.com/content/86be5097-1a9c-4dd6-bf53-1f2b429592c7",
+              "pubDate": "2026-03-18T05:00:36.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "trump-has-broken-it-now-he-owns-it"
         },
         {
           "representativeTitle": "‘Philosophical differences’: Iran war exposes rifts in Trump’s Maga base",
@@ -1119,44 +1192,44 @@ export const newsData = {
           "slug": "philosophical-differences-iran-war-exposes-rifts-in-trumps-maga-base"
         },
         {
-          "representativeTitle": "China is not going to bail Trump out",
+          "representativeTitle": "UAE set to show leniency on tax rules for expats leaving to avoid Iran war",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "China is not going to bail Trump out",
+              "title": "UAE set to show leniency on tax rules for expats leaving to avoid Iran war",
               "source": "Financial Times",
-              "link": "https://www.ft.com/content/18106ca2-7ba1-4b10-ad71-9247c42da1df",
-              "pubDate": "2026-03-17T11:52:28.000Z",
+              "link": "https://www.ft.com/content/ea6c84c9-3385-4b32-ab25-0f439a26891d",
+              "pubDate": "2026-03-18T05:00:15.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 9,
           "importance": 60,
-          "slug": "china-is-not-going-to-bail-trump-out"
+          "slug": "uae-set-to-show-leniency-on-tax-rules-for-expats-leaving-to-avoid-iran-war"
         },
         {
-          "representativeTitle": "The era of US dominance in economic warfare is over",
+          "representativeTitle": "Suspicions grow that China is exploiting FOI laws to gather UK security data",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "The era of US dominance in economic warfare is over",
+              "title": "Suspicions grow that China is exploiting FOI laws to gather UK security data",
               "source": "Financial Times",
-              "link": "https://www.ft.com/content/ae458591-5941-45f1-bf7b-7110bc35eb88",
-              "pubDate": "2026-03-17T15:22:36.000Z",
+              "link": "https://www.ft.com/content/2f51a343-0e9b-4e1d-8d1f-f33232d439a7",
+              "pubDate": "2026-03-18T05:00:15.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "the-era-of-us-dominance-in-economic-warfare-is-over"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "suspicions-grow-that-china-is-exploiting-foi-laws-to-gather-uk-security-data"
         },
         {
           "representativeTitle": "Trump lashes out at Starmer while UK works with allies to de-escalate Iran crisis",
@@ -1179,84 +1252,24 @@ export const newsData = {
           "slug": "trump-lashes-out-at-starmer-while-uk-works-with-allies-to-de-escalate-iran-crisis"
         },
         {
-          "representativeTitle": "Oil in Oman soars above $150 as buyers rush to replace Gulf barrels",
+          "representativeTitle": "Oil price surge will hurt US growth and fuel inflation, say economists",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Oil in Oman soars above $150 as buyers rush to replace Gulf barrels",
+              "title": "Oil price surge will hurt US growth and fuel inflation, say economists",
               "source": "Financial Times",
-              "link": "https://www.ft.com/content/e9d8e871-8344-487c-b0d7-aec8fd225d59",
-              "pubDate": "2026-03-17T18:33:56.000Z",
+              "link": "https://www.ft.com/content/d4c3f857-eb50-47c5-a109-050a8c2f2346",
+              "pubDate": "2026-03-18T01:32:33.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "oil-in-oman-soars-above-150-as-buyers-rush-to-replace-gulf-barrels"
-        },
-        {
-          "representativeTitle": "Drone company backed by Erik Prince surges 500% in Wall Street debut",
-          "sources": [
-            "Financial Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Drone company backed by Erik Prince surges 500% in Wall Street debut",
-              "source": "Financial Times",
-              "link": "https://www.ft.com/content/fe8898aa-cc23-40a7-a366-157cac697767",
-              "pubDate": "2026-03-17T23:13:02.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "drone-company-backed-by-erik-prince-surges-500-in-wall-street-debut"
-        },
-        {
-          "representativeTitle": "Microsoft reshuffles AI team to catch up on Copilot and model building",
-          "sources": [
-            "Financial Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Microsoft reshuffles AI team to catch up on Copilot and model building",
-              "source": "Financial Times",
-              "link": "https://www.ft.com/content/60646cbf-0445-4841-81e1-32efc4b32907",
-              "pubDate": "2026-03-17T21:34:14.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "microsoft-reshuffles-ai-team-to-catch-up-on-copilot-and-model-building"
-        },
-        {
-          "representativeTitle": "Nvidia restarts manufacturing of AI chips for China",
-          "sources": [
-            "Financial Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Nvidia restarts manufacturing of AI chips for China",
-              "source": "Financial Times",
-              "link": "https://www.ft.com/content/a887194b-fdb3-47ab-89ce-60771a4da43f",
-              "pubDate": "2026-03-17T20:38:47.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "nvidia-restarts-manufacturing-of-ai-chips-for-china"
+          "slug": "oil-price-surge-will-hurt-us-growth-and-fuel-inflation-say-economists"
         },
         {
           "representativeTitle": "UK price gap between first-time properties and bigger homes at record high",
@@ -2133,26 +2146,6 @@ export const newsData = {
           "slug": "pakistan-air-strike-kills-at-least-100-at-kabul-drug-rehab-centre"
         },
         {
-          "representativeTitle": "And the burger goes to... Michael B Jordan marks Oscars win at In-N-Out",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "And the burger goes to... Michael B Jordan marks Oscars win at In-N-Out",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/cpd8w5y0dpdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-17T04:41:58.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 2,
-          "importance": 25,
-          "slug": "and-the-burger-goes-to-michael-b-jordan-marks-oscars-win-at-in-n-out"
-        },
-        {
           "representativeTitle": "Aspiring female Zambian politicians were asked for sexual favours, official says",
           "sources": [
             "BBC World"
@@ -2340,24 +2333,44 @@ export const newsData = {
           "slug": "how-you-walk-reveals-to-others-how-you-are-feeling-researchers-say"
         },
         {
-          "representativeTitle": "Australia news live: high court orders removal of ankle bracelets and end of curfews for 43 noncitizens released from detention centres",
+          "representativeTitle": "Australia news live: Chalmers says Labor modelling different budget scenarios including ‘more concerning’ one due to Iran war",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Australia news live: high court orders removal of ankle bracelets and end of curfews for 43 noncitizens released from detention centres",
+              "title": "Australia news live: Chalmers says Labor modelling different budget scenarios including ‘more concerning’ one due to Iran war",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/live/2026/mar/18/australia-news-live-trump-iran-nato-hormuz-interest-rates-rba-cost-of-living-jim-chalmers-economy-fuel-price-crisis-ntwnfb",
-              "pubDate": "2026-03-18T04:22:23.000Z",
+              "pubDate": "2026-03-18T05:24:56.000Z",
               "tier": 1
             }
           ],
-          "sentiment": 0.4,
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "australia-news-live-chalmers-says-labor-modelling-different-budget-scenarios-including-more-concerning-one-due-to-iran-war"
+        },
+        {
+          "representativeTitle": "Myki-less public transport for all passengers won’t happen until 2027, Victorian auditor reveals",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Myki-less public transport for all passengers won’t happen until 2027, Victorian auditor reveals",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/mar/18/myki-less-public-transport-for-all-passengers-2027-victorian-auditor",
+              "pubDate": "2026-03-18T04:57:38.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "australia-news-live-high-court-orders-removal-of-ankle-bracelets-and-end-of-curfews-for-43-noncitizens-released-from-detention-centres"
+          "slug": "myki-less-public-transport-for-all-passengers-wont-happen-until-2027-victorian-auditor-reveals"
         },
         {
           "representativeTitle": "Iranian strikes hit near Australian airbase in UAE, Albanese confirms",
@@ -2400,24 +2413,44 @@ export const newsData = {
           "slug": "its-a-different-world-now-albanese-calls-snap-national-cabinet-meeting-over-fuel-crisis"
         },
         {
-          "representativeTitle": "CCTV shows three men near Sydney ‘stronghold’ where kidnapped Chris Baghsarian held, police allege",
+          "representativeTitle": "‘Old masters too’: Ghent exhibition celebrates female artists of the baroque",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "CCTV shows three men near Sydney ‘stronghold’ where kidnapped Chris Baghsarian held, police allege",
+              "title": "‘Old masters too’: Ghent exhibition celebrates female artists of the baroque",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/mar/18/chris-baghsarian-cctv-footage-three-men-sydney-stronghold-kidnapped-murdered-police-allege-ntwnfb",
-              "pubDate": "2026-03-17T23:56:08.000Z",
+              "link": "https://www.theguardian.com/world/2026/mar/18/ghent-exhibition-celebrates-female-artists-baroque-low-countries",
+              "pubDate": "2026-03-18T05:00:23.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 3,
+          "importance": 30,
+          "slug": "old-masters-too-ghent-exhibition-celebrates-female-artists-of-the-baroque"
+        },
+        {
+          "representativeTitle": "Europe must prepare for drone strikes by terrorists and criminals, warns Zelenskyy",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Europe must prepare for drone strikes by terrorists and criminals, warns Zelenskyy",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/mar/17/europe-must-prepare-for-drone-strikes-volodymyr-zelenskyy",
+              "pubDate": "2026-03-17T19:38:59.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "cctv-shows-three-men-near-sydney-stronghold-where-kidnapped-chris-baghsarian-held-police-allege"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "europe-must-prepare-for-drone-strikes-by-terrorists-and-criminals-warns-zelenskyy"
         },
         {
           "representativeTitle": "Norway to investigate links between Jeffrey Epstein and foreign office",
@@ -2458,26 +2491,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "bentley-to-cut-hundreds-of-uk-jobs-amid-challenging-global-market-environment"
-        },
-        {
-          "representativeTitle": "‘We are the family’: low-budget thriller highlights Hungary’s election tension",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘We are the family’: low-budget thriller highlights Hungary’s election tension",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/17/low-budget-thriller-highlights-hungary-election-divide",
-              "pubDate": "2026-03-17T05:00:40.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "we-are-the-family-low-budget-thriller-highlights-hungarys-election-tension"
         },
         {
           "representativeTitle": "Tulsi Gabbard, who warned of war with Iran, now defends Trump’s decision to attack – as it happened",
@@ -2522,10 +2535,9 @@ export const newsData = {
         {
           "representativeTitle": "Trump says US does not need Nato after being rebuffed over strait of Hormuz",
           "sources": [
-            "The Guardian",
-            "Al Jazeera"
+            "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Trump says US does not need Nato after being rebuffed over strait of Hormuz",
@@ -2533,18 +2545,11 @@ export const newsData = {
               "link": "https://www.theguardian.com/world/2026/mar/17/trump-us-president-nato-strait-of-hormuz-iran-middle-east",
               "pubDate": "2026-03-17T19:06:07.000Z",
               "tier": 1
-            },
-            {
-              "title": "Trump says US does not ‘need’ Strait of Hormuz help, despite appeal",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/17/trump-says-us-does-not-need-strait-of-hormuz-help-despite-appeal?traffic_source=rss",
-              "pubDate": "2026-03-17T21:17:56.000Z",
-              "tier": 1
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 9,
-          "importance": 75,
+          "importance": 60,
           "slug": "trump-says-us-does-not-need-nato-after-being-rebuffed-over-strait-of-hormuz"
         },
         {
@@ -2606,6 +2611,66 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "how-pakistans-people-led-solar-boom-is-easing-impact-of-middle-east-energy-crisis"
+        },
+        {
+          "representativeTitle": "Cuba restores power after 29-hour blackout amid US oil blockade",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Cuba restores power after 29-hour blackout amid US oil blockade",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/economy/2026/3/18/cuba-restores-power-after-29-hour-blackout-amid-us-oil-blockade?traffic_source=rss",
+              "pubDate": "2026-03-18T04:58:32.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "cuba-restores-power-after-29-hour-blackout-amid-us-oil-blockade"
+        },
+        {
+          "representativeTitle": "Trump confirms meeting with China’s Xi Jinping delayed as war on Iran rages",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump confirms meeting with China’s Xi Jinping delayed as war on Iran rages",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/18/trump-delays-meeting-with-chinas-xi-jinping-as-war-on-iran-rages?traffic_source=rss",
+              "pubDate": "2026-03-18T04:43:27.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "trump-confirms-meeting-with-chinas-xi-jinping-delayed-as-war-on-iran-rages"
+        },
+        {
+          "representativeTitle": "Actor Sean Penn gifted a special ‘Oscar’ by Ukraine’s railway company",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Actor Sean Penn gifted a special ‘Oscar’ by Ukraine’s railway company",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/actor-sean-penn-gifted-a-special-oscar-by-ukraines-railway-company?traffic_source=rss",
+              "pubDate": "2026-03-18T04:37:47.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 2,
+          "importance": 25,
+          "slug": "actor-sean-penn-gifted-a-special-oscar-by-ukraines-railway-company"
         },
         {
           "representativeTitle": "Trump administration defends Anthropic blacklisting in US court",
@@ -2768,14 +2833,14 @@ export const newsData = {
           "slug": "iran-allowing-more-ships-through-strait-of-hormuz-data-suggest"
         },
         {
-          "representativeTitle": "Over 200 Ukrainian military experts in Gulf region to counter Iran’s drones",
+          "representativeTitle": "Ukraine sends 201 military experts to counter Iranian drones in the Gulf",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Over 200 Ukrainian military experts in Gulf region to counter Iran’s drones",
+              "title": "Ukraine sends 201 military experts to counter Iranian drones in the Gulf",
               "source": "Al Jazeera",
               "link": "https://www.aljazeera.com/news/2026/3/18/over-200-ukrainian-military-experts-in-gulf-region-to-counter-irans-drones?traffic_source=rss",
               "pubDate": "2026-03-18T01:58:55.000Z",
@@ -2785,7 +2850,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "over-200-ukrainian-military-experts-in-gulf-region-to-counter-irans-drones"
+          "slug": "ukraine-sends-201-military-experts-to-counter-iranian-drones-in-the-gulf"
         },
         {
           "representativeTitle": "Xi Jinping’s anticorruption drive sweeps up senior Chinese military chiefs",
@@ -3014,46 +3079,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "argentina-officially-withdraws-from-world-health-organization-following-us"
-        },
-        {
-          "representativeTitle": "Pakistan denies hospital strike in Afghanistan as death toll hits 400",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Pakistan denies hospital strike in Afghanistan as death toll hits 400",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/17/pakistan-denies-hospital-strike-in-afghanistan-as-death-toll-hits-400?traffic_source=rss",
-              "pubDate": "2026-03-17T22:06:38.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "pakistan-denies-hospital-strike-in-afghanistan-as-death-toll-hits-400"
-        },
-        {
-          "representativeTitle": "Photos show ‘grave-like plots’ at Epstein’s Zorro Ranch, tipster claims",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Photos show ‘grave-like plots’ at Epstein’s Zorro Ranch, tipster claims",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/17/tipster-claims-to-have-seen-grave-like-plots-at-epsteins-zorro-ranch?traffic_source=rss",
-              "pubDate": "2026-03-17T22:06:10.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "photos-show-grave-like-plots-at-epsteins-zorro-ranch-tipster-claims"
         }
       ]
     },
@@ -3219,6 +3244,26 @@ export const newsData = {
           "relevance_score": 2,
           "importance": 25,
           "slug": "knock-knock-no-ones-there-study-finds-scientists-jokes-mostly-fall-flat"
+        },
+        {
+          "representativeTitle": "A 'consortium' of bacteria cooperates to eat phthalate plasticizers that single microbes can't stomach",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "A 'consortium' of bacteria cooperates to eat phthalate plasticizers that single microbes can't stomach",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-consortium-bacteria-cooperates-phthalate-plasticizers.html",
+              "pubDate": "2026-03-18T05:00:01.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "a-consortium-of-bacteria-cooperates-to-eat-phthalate-plasticizers-that-single-microbes-cant-stomach"
         },
         {
           "representativeTitle": "Targeted alpha therapy: One compound holds promise for unified cancer care",
@@ -3439,26 +3484,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "what-happens-to-cigarette-butts-after-10-years-in-the-environment"
-        },
-        {
-          "representativeTitle": "From dust to planets: Parabolic flight reveal a turbulent path",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "From dust to planets: Parabolic flight reveal a turbulent path",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-planets-parabolic-flight-reveal-turbulent.html",
-              "pubDate": "2026-03-17T21:40:01.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "from-dust-to-planets-parabolic-flight-reveal-a-turbulent-path"
         },
         {
           "representativeTitle": "Scientists discover heavier version of proton with upgraded detector",
