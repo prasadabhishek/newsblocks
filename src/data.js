@@ -1,10 +1,30 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-18T20:13:14.134Z",
+  "lastUpdated": "2026-03-18T21:13:09.337Z",
   "children": [
     {
       "name": "Politics",
       "children": [
+        {
+          "representativeTitle": "Angela Rayner’s allies say HMRC inquiry set to be resolved before May elections",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Angela Rayner’s allies say HMRC inquiry set to be resolved before May elections",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/2026/mar/18/angela-rayners-allies-say-hmrc-inquiry-set-to-be-resolved-before-may-elections",
+              "pubDate": "2026-03-18T20:07:18.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "angela-rayners-allies-say-hmrc-inquiry-set-to-be-resolved-before-may-elections"
+        },
         {
           "representativeTitle": "Starmer plans to ease impact of immigration policy changes after backlash from Labour MPs",
           "sources": [
@@ -131,26 +151,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "actors-musicians-and-writers-welcome-uk-u-turn-on-ai-use-of-copyrighted-work"
-        },
-        {
-          "representativeTitle": "Starmer unlikely to allocate more time for assisted dying bill, ministers believe",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Starmer unlikely to allocate more time for assisted dying bill, ministers believe",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/society/2026/mar/18/starmer-unlikely-to-allocate-more-time-for-assisted-dying-bill-ministers-believe",
-              "pubDate": "2026-03-18T18:17:40.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "starmer-unlikely-to-allocate-more-time-for-assisted-dying-bill-ministers-believe"
         },
         {
           "representativeTitle": "The Guardian view on Rachel Reeves and the EU: the right ambition is held back by outdated red lines | Editorial",
@@ -620,24 +620,24 @@ export const newsData = {
           "slug": "delta-ceo-slams-washington-over-unpaid-tsa-agents-says-front-line-workers-are-being-used-as-political-chips"
         },
         {
-          "representativeTitle": "Despite Republicans controlling three branches of government, Trump blames Dems for shutdown",
+          "representativeTitle": "WATCH: Gabbard, Ratcliffe and Patel testify on worldwide threats in Senate Intelligence hearing",
           "sources": [
-            "The Independent"
+            "PBS"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Despite Republicans controlling three branches of government, Trump blames Dems for shutdown",
-              "source": "The Independent",
-              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOM1NTZVJqNVd0ZmZDM2RwZjBqVjNhNTRLTmhGQ1B5TTU5eU5tVUpWMWN0UDRaNHpqb3BPdTJvVVhBQ0NyVjcyekhTRTUwWnVnX2huMzhtQ2FDNjBjalFnb3BscXdjWkhrNW5rWm10LVdBVm9ZaGw1ZEx2ZUhvT3lYN2NDMEVIWTdkRDF5Y0x0YV9sc0E2Mk10STVPbUQ3UkdJNHV2clhlZTJtREVaazRJQ1J0R2tUWjhZTE5Kcw?oc=5",
-              "pubDate": "2026-03-18T19:36:00.000Z",
+              "title": "WATCH: Gabbard, Ratcliffe and Patel testify on worldwide threats in Senate Intelligence hearing",
+              "source": "PBS",
+              "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUTh2dm12dDdWODJnQTlNSThYY1RLT1g4aHQ0UTRJY3JZZ1lCMW03TUVlelQ0d2d2NXRyVTVRYkdncE5CVzFSYTFHQnRGZURiUTVxeURqTERTek9ic1RKRElqNXhLRWl2VGc2dHlKT1RXU2tfZGoxUlpmZzZ0anVCaXh1bjBYWllzOHVmazJwV0VlX0ZQVmZKWklEalotQmxVd01VYUhLdkwwSm1nWUcyaVVyT1VsN2VrdHJMOC1ldVZjajlmVG9TSXhfbFVzQVNCMHfSAdcBQVVfeXFMT2lDOUVwNDNVc3p3YnowZnZ5alEzZGJIN2l3ZVNNLTNNcFJiSTFJODBJMGdobDFTZFM2bUxPVndLQTNsUUlJUENITjgzRkp2cXpZcVR0QkV2NWN2YlEtd21sQnlodXRIaVh0RW5MR1pBd203V0FQbVBad09WRnFWNkREUC1RTk16VHVONHdNSm53SXBPTzFPbDR2Z1Q5TVdid0FUTmpHeDc4TDN1S3FPUmVNWXJxQURUdTFQSExhVlpQWVl4TU5JeDFLSDNhZkJMQjdycXowNjg?oc=5",
+              "pubDate": "2026-03-18T13:05:42.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "despite-republicans-controlling-three-branches-of-government-trump-blames-dems-for-shutdown"
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "watch-gabbard-ratcliffe-and-patel-testify-on-worldwide-threats-in-senate-intelligence-hearing"
         },
         {
           "representativeTitle": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
@@ -660,54 +660,6 @@ export const newsData = {
           "slug": "firm-that-planned-trumps-jan-6-rally-received-no-bid-contracts"
         },
         {
-          "representativeTitle": "Opinion | Why Americans should welcome China’s rise in science",
-          "sources": [
-            "South China Morning Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Opinion | Why Americans should welcome China’s rise in science",
-              "source": "South China Morning Post",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObzkxemlCc28yUmlNcmd6UjBPMGxnc2V5NEptQndjV25Oa1dBemI5a3RlcnlLOG1nSUFzZk9EU1ZUS2JOZ3VoRXV2Xzh3aGQ1dmdDdDV1NGtEbDdldG11T0dvODRvZ1piNThZWVBXU2xUWHNDc2p4eEhXWUpqeFhad3l4LVRVVEVlTkdlVUNPWm1TN3hUSmcxYlRhTC1ZdzZmcWljOVhXOFZhSnE2R25JdlZkQVZzOXlVZ0HSAboBQVVfeXFMUHZNaVRubXBBcUptemlmUVktZ0ZVMlNFS2FQZ2JDSUhTRGdRTVRTTDhpM3k2ak5hNHhBdEJRcUF0T3lZLTRXU2JBaVFGeXRZUGdlVC04Y2tsYmVfR3BQS3JJTXhqcHZ0ZmJvbUdIejZxYUJDRF9vQVc5UHhYZ3Y5eGFkaWtrUnpzeFpwN3BtQ2psWloyMUVMVHpWdkgtWEtDd1VFZWdUWHhlRGZuXy11WnhIQk1rTW5SWXVR?oc=5",
-              "pubDate": "2026-03-18T12:30:07.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "opinion-why-americans-should-welcome-chinas-rise-in-science"
-        },
-        {
-          "representativeTitle": "Government shutdown could lead to airports being closed, TSA official warns",
-          "sources": [
-            "The Times",
-            "The Independent"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Airports may close if government shutdown continues, TSA official warns",
-              "source": "The Times",
-              "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPUDBOeTVIUExuRTRtUzBkSnhxNVJlTFIzY1BUbENUQlJ6NV9PYjBGcTNiU3RNcGR4R1M4UnVpTkQ4UjdyLWUxQnhkSWgzLTByOEozY1lUTm9nVkdhNW94SG1hU3NlY214QVRyUk5Vek9Zc3Ffb2c0VEhKcTNBUERiaDFmdmV2S2dhNURKTTN2cFdvaV9DLUQxVnBObnFURW9SVkdUN25KUEpPS0lPdjVvby1QeXl3WWNtaFUxXzlVa3dXYlVYNXlEQlJHOXZxTHNMWWd2TUMzcmhkNWlIYTMwNmhFdEg3UmxPdkVRRWo3UHkzckJHbjgxUUlZZTV6aU4yVVV0MnRnY3hidEtaa18zZVloVHg5OUEyT3pkb05fLVprWVpGVXhtSktXdDNjQzl3THJ4UF9JaU4yQWhBRGZKU3pCXzlQdFJSQzRCLW1YRVhNa0x0VGNZQzM0VEFJV1N4MjBkNkFtZUJ0RHM3YWtqeGVTSVRTZENrNGYzUnVpb0trWWFvU3NjSUhzblVlNGE1bngtOWVVTlNlYm1BcGdEWURjMnVsdkJhczgxRGVmZFBZV2VucmJVaFFLd1ItZw?oc=5",
-              "pubDate": "2026-03-18T15:05:26.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Government shutdown could lead to airports being closed, TSA official warns",
-              "source": "The Independent",
-              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSFNIX2RheXJ3UE13Q3BiQmdwdnVwN2RucGxnV2ZkVFRtalc4T2pNOFZpVUx3aGZDNVk2ZS05YXdvcTlaNHhOSVo1SVZISEtPNnlraDdsbnd2MVg1ak1HRGI5elYyOHB4czNCQ2FnLWNIUVFJTUJfMkg5VXRmSE9QM05ZNl9xSU96SUxBbm82R3NBbWEtT3JrdWtQRlM5cGJjelpJZnZRQ08?oc=5",
-              "pubDate": "2026-03-17T20:28:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "government-shutdown-could-lead-to-airports-being-closed-tsa-official-warns"
-        },
-        {
           "representativeTitle": "US Snubbed by Lula Government at Brazil Critical Minerals Summit",
           "sources": [
             "Bloomberg.com"
@@ -728,11 +680,72 @@ export const newsData = {
           "slug": "us-snubbed-by-lula-government-at-brazil-critical-minerals-summit"
         },
         {
-          "representativeTitle": "Tim Cook on backlash against his relationship with the US government; says: I focus on policy, so I am ve",
+          "representativeTitle": "Despite Republicans controlling three branches of government, Trump blames Dems for shutdown",
           "sources": [
-            "The Times of India"
+            "The Independent"
           ],
           "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Despite Republicans controlling three branches of government, Trump blames Dems for shutdown",
+              "source": "The Independent",
+              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOM1NTZVJqNVd0ZmZDM2RwZjBqVjNhNTRLTmhGQ1B5TTU5eU5tVUpWMWN0UDRaNHpqb3BPdTJvVVhBQ0NyVjcyekhTRTUwWnVnX2huMzhtQ2FDNjBjalFnb3BscXdjWkhrNW5rWm10LVdBVm9ZaGw1ZEx2ZUhvT3lYN2NDMEVIWTdkRDF5Y0x0YV9sc0E2Mk10STVPbUQ3UkdJNHV2clhlZTJtREVaazRJQ1J0R2tUWjhZTE5Kcw?oc=5",
+              "pubDate": "2026-03-18T19:36:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "despite-republicans-controlling-three-branches-of-government-trump-blames-dems-for-shutdown"
+        },
+        {
+          "representativeTitle": "Opinion | Why Americans should welcome China’s rise in science",
+          "sources": [
+            "South China Morning Post"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Opinion | Why Americans should welcome China’s rise in science",
+              "source": "South China Morning Post",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObzkxemlCc28yUmlNcmd6UjBPMGxnc2V5NEptQndjV25Oa1dBemI5a3RlcnlLOG1nSUFzZk9EU1ZUS2JOZ3VoRXV2Xzh3aGQ1dmdDdDV1NGtEbDdldG11T0dvODRvZ1piNThZWVBXU2xUWHNDc2p4eEhXWUpqeFhad3l4LVRVVEVlTkdlVUNPWm1TN3hUSmcxYlRhTC1ZdzZmcWljOVhXOFZhSnE2R25JdlZkQVZzOXlVZ0HSAboBQVVfeXFMUHZNaVRubXBBcUptemlmUVktZ0ZVMlNFS2FQZ2JDSUhTRGdRTVRTTDhpM3k2ak5hNHhBdEJRcUF0T3lZLTRXU2JBaVFGeXRZUGdlVC04Y2tsYmVfR3BQS3JJTXhqcHZ0ZmJvbUdIejZxYUJDRF9vQVc5UHhYZ3Y5eGFkaWtrUnpzeFpwN3BtQ2psWloyMUVMVHpWdkgtWEtDd1VFZWdUWHhlRGZuXy11WnhIQk1rTW5SWXVR?oc=5",
+              "pubDate": "2026-03-18T12:30:07.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "opinion-why-americans-should-welcome-chinas-rise-in-science"
+        },
+        {
+          "representativeTitle": "Airports may close if government shutdown continues, TSA official warns",
+          "sources": [
+            "The Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Airports may close if government shutdown continues, TSA official warns",
+              "source": "The Times",
+              "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxOb1FXUlFqTldzZjJzdXVGLTNBZG81WU96ZFJVQi12YmtJYUlkOThTMXlRdlItVXdKdi1IVHVVcVh1cm93eGZqSWpxNTJIU0xpYjRBOWxQMGxFZU90Nks1Q3pfellKZU1NYUlJbHFOeTdCN29hbWN1ZVZONlZhZmhaTHJaS2F5TFBBbWRGU25xUW9aSFZMUTAyaGpld0VGRWtTa3hxTnVqbXFYal8tMlcxRnpTcW1McS1PYjdoVm5zX3FodTAxOVRYM2dTQUdVTF9WR01DanJaQU1vNks3WjB0N0VoYmthV0ExazBqNjlTYUMyUDVJZk5sckVHY1pTOFJVVGdldE4zSHMwSW1CZVg0Ql83WWxmZWotN2lLZXloSkR6TEJLUldRX3h3OXJCOHlxbUhQY2l0eUFCeDh2UDctOWd5U1YyTG1RT0o5R2UwczRxSFRqVFZ1QzJOd0lCdUZkVnNlWm13V2xJQlJMLWVlWl9VS3k0UGc5MWUzM3V3d2NxVUtaMzZ6UnBjc0hTS1c5OXZ5enVVTFRBUnVRaXp6c1pNUXpXWkJSeC00a2VvRGtMRUlpd0NXN2ctcmtjQQ?oc=5",
+              "pubDate": "2026-03-18T15:05:26.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "airports-may-close-if-government-shutdown-continues-tsa-official-warns"
+        },
+        {
+          "representativeTitle": "Tim Cook on backlash against his relationship with the US government; says: I focus on policy, so I am very pleased that President Trump is ...",
+          "sources": [
+            "The Times of India",
+            "MSN"
+          ],
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Tim Cook on backlash against his relationship with the US government; says: I focus on policy, so I am ve",
@@ -740,12 +753,19 @@ export const newsData = {
               "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQbWItbjJtUmRMMENZbnJhUDlUbjN0dGJuQ1FoTkwtOWMyMWtnRTJNQlJNMW1HNXlIWFZMNnlpR1BLcFBXd2dxVTB0cUUwa1dyYTRXM3dwNk1ndlN2V2ctd3NOUlUtbVdRbnp3NS1Vejd4UjJuZHJBeGk1M1Bra3p5MUhKUkJaSVZzbXVFcGpTVFRMdmpycFhLRDN1aF8xd01XMWVGNEFwbjFWRm1lN2N6c0xjejlwNjMwaXhzelBGZUFZblU2ZXVhV2tocVRSSW02ZXJkNkUzYlZOUFk3Zy1KOS1GUDBGX09zNURSc205QmVOcVNoYWRsN09sWFIxMmVkUXBZV19FVXE1aFBaa2R0c290OWFpb0V0RjRSeUswVGpvcHFUZTN0VlFnbnBieVpLanFEeF9WVUhSRDlLcUVqSC1n0gHHAkFVX3lxTE0yRUtGcnVUbHc3R2lybnQyU28yMDFiMlB1SktRemV4QVF4REpGMlpvdm9VVkpfQk9SNWhXR3NPN0kxcS1zTHI1UHdwYWlvNTNVSkJSeXZIa3NsQ3doOWV4X0pHSWxGaVJuMjlJdVFRTERTNDduczhFU3NvVk5xUDRwUnkxaEFaX2ljWGVBNGdUdVhQNmJsTWZneXJmZGE5aFJNWWQyNktqRlJFSURSV0dwcTJzRm9BYVZOb0EwZk5SdGdsUzV3XzVnamU1aFVhRzB5ZGRVaWl3MDNlREtXSGI5U2NmN3NQaGVnbWRLeVlSTlVzVDdLc2ZrT2Nma2pOY04xREhpU0QwaWdyektHREltbzZyY21aU2NYeUI5dEt3X0h5QUNNbUlZM0pta1gxbW1hRjlXWVJ5bnA2UEtFa05kdVRlX2tDWQ?oc=5",
               "pubDate": "2026-03-18T13:48:00.000Z",
               "tier": 2
+            },
+            {
+              "title": "Tim Cook on backlash against his relationship with the US government; says: I focus on policy, so I am very pleased that President Trump is ...",
+              "source": "MSN",
+              "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxONTh0TzJnOTRVUTU1Y0FBTG04QnFjTjVSaGxTTTB3TjUyR3RVb1c2dWZVdUZwTS1IaFZoUFhNcWIwMmIxSGh6cDlLem1VTjJKMnRUdkFOZ201MXVIa094aXVkMWQyQ0xNTlR4bGQzOXNoTnpMbGJiMUc4eTRJbGhDRmE3QWg2OFJXU2MxUktza2g3VzBWZGdwdVNoTS03ZW0yMjU5aXg1elVPOVFiUXV5YTVaY2pFS3VEbGFfYWZyTFA5Z2d3QTkzVWF2Z1Z0cjJpdFF6MGFMcUtsT1RjM0lhOFh4NUJIZ3hXMGc2ZUlaVGQ4ZE5qUmZNclR5cTZObVFuNm1aaDEwNmpUSjgzM3lRWWZ5SQ?oc=5",
+              "pubDate": "2026-03-18T17:29:59.000Z",
+              "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 40,
-          "slug": "tim-cook-on-backlash-against-his-relationship-with-the-us-government-says-i-focus-on-policy-so-i-am-ve"
+          "importance": 45,
+          "slug": "tim-cook-on-backlash-against-his-relationship-with-the-us-government-says-i-focus-on-policy-so-i-am-very-pleased-that-president-trump-is"
         },
         {
           "representativeTitle": "Congress still searching for DHS compromise as government shutdown nears the month mark",
@@ -788,46 +808,6 @@ export const newsData = {
           "slug": "partial-government-shutdown-approaches-second-longest-in-us-history"
         },
         {
-          "representativeTitle": "White House details offer to end partial government shutdown",
-          "sources": [
-            "The Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "White House details offer to end partial government shutdown",
-              "source": "The Washington Post",
-              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZUtEbFVLbzY0ZDFkVlNrbXJIUDY4NHZpQUs3UW1GVi1Sa2dFMGVJNzVndFhzd3R1cmY2LVlKNDJlRVV4ZklLN2RkUXlYV2RpbkJqNmxiX0hkSTctaG9uRk04NmplRXhPOE4weWhfcHhSQ29Yc1R6a1lIa3ROMzdJQUVoWXl2TlRsTVNlSFZGeUtUbVRtN3h5UGVWNk9yZw?oc=5",
-              "pubDate": "2026-03-18T03:50:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "white-house-details-offer-to-end-partial-government-shutdown"
-        },
-        {
-          "representativeTitle": "National Counterterrorism Center director resigns over Iran war",
-          "sources": [
-            "NBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "National Counterterrorism Center director resigns over Iran war",
-              "source": "NBC News",
-              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdHlUMkdxSWgwZmRwbFRFN3BlWUN6Y1ZMOERxeFBmS2d1b28xNDdidG9vaWxUYzFUYTctWnotdHRqZDBXZlQyZ3VWaEVpQ0VuRDlEZ1NGazE4ZkRvbERpQmhmR0ZNa1NEY3BvZVA3WUpoZFJJSkFuUFZRT0JxYmd3eE1CU2V3LW9KQ3U0U1VVQ2dvNk9Kdm5sMzRjbnJ0Vk9DeXA2c2Y5ZkRuSVdPNTVueg?oc=5",
-              "pubDate": "2026-03-17T22:25:36.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "national-counterterrorism-center-director-resigns-over-iran-war"
-        },
-        {
           "representativeTitle": "Miami Cubans Fear Trump Won’t Go Far Enough: ‘The Castros Have to Go’",
           "sources": [
             "The New York Times"
@@ -838,7 +818,7 @@ export const newsData = {
               "title": "Miami Cubans Fear Trump Won’t Go Far Enough: ‘The Castros Have to Go’",
               "source": "The New York Times",
               "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jSDczemduQUZ6VjJoNFBreUlsQWUwc0dyc0NLNDdCT19NVF9DajhNb0o1bkVST2lwME5kZlFoUFl4SV92ZnhmS2Q0Yy1vZ1dZYl95MlBsVUtpTk5tRGNUUnh3bDA1bFVaVEFJZEJWTUIzRU9aczRJWHZB?oc=5",
-              "pubDate": "2026-03-17T20:29:52.000Z",
+              "pubDate": "2026-03-17T21:56:32.000Z",
               "tier": 2
             }
           ],
@@ -848,24 +828,24 @@ export const newsData = {
           "slug": "miami-cubans-fear-trump-wont-go-far-enough-the-castros-have-to-go"
         },
         {
-          "representativeTitle": "US sounds alarm over China’s humanoid robots amid security concerns",
+          "representativeTitle": "Joe Kent, a Top Counterterrorism Official for the Trump Administration, Resigns, Citing Iran War",
           "sources": [
-            "South China Morning Post"
+            "The New York Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US sounds alarm over China’s humanoid robots amid security concerns",
-              "source": "South China Morning Post",
-              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbGdIekRobU9qY0hrTVoxWnZhX3lQb3U3VElXVno4ZUlKanFxYjJvRExIUnRWdzZwY0V2RzQ4cF9HVlk1M1I2OHZXbzNtLVF1WWRucGtlREZBdWJIVVpReEc3UksxUXRLbWFRT2pVVC1QQ3ZZOGxqeHdfNmRSMkVuT1hqNFlKX05VSFFGTEVHWFk3ZTZibHRqempnREowN3hWV2ZhSzRXeU0tVk9LM1I4OUtVNzdDSnFEUXRPedIBvAFBVV95cUxQczg0MFZoU2l5M2NESHNVNUdoaWl3MlVOaVFWa1ZBTnFwVVZFRzFRcWR0VTBWVDRMTWhUU2dPNkQxMDlRQkNwdDdKYlZETFFGeFg3b19SWmh3aTkxLTVSeUNGaE5Wa2NNcElVeTBOcWZjYzlPbFRYNzRrNlp1dC1VYmNkU2c3ZjlMY29TTmh4N1NPQXZqcDBtZlZNZllaT3lobXNJTmhiTnFCY3Jvb3Y2R3lNRXFHYXUxeGlHaw?oc=5",
-              "pubDate": "2026-03-17T22:00:19.000Z",
+              "title": "Joe Kent, a Top Counterterrorism Official for the Trump Administration, Resigns, Citing Iran War",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWENsMjlQYWxsTFEtT1dZLWtabFNSNFk5aFBmWUFYWFlEX2RwQ0RxNjM2Mi1JMFdTLVg5RkxXbk9oWWNjMzZiSlJRTnBCZGJVQVVxWmdZX3FsQ3I1SU5vT0Y1anpOSnNubnhoczh4bkUyWkNtVThIakZfaHZaa29oWkFpNGVXcUhsM0Nnejd4T0lLTGVJdnB6YzZB?oc=5",
+              "pubDate": "2026-03-17T23:29:32.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "us-sounds-alarm-over-chinas-humanoid-robots-amid-security-concerns"
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "joe-kent-a-top-counterterrorism-official-for-the-trump-administration-resigns-citing-iran-war"
         },
         {
           "representativeTitle": "Rayner: government ‘cannot just go through the motions in the face of decline’",
@@ -888,64 +868,44 @@ export const newsData = {
           "slug": "rayner-government-cannot-just-go-through-the-motions-in-the-face-of-decline"
         },
         {
-          "representativeTitle": "U.S. government orders TransAlta coal plant to stay online for another 90 days",
+          "representativeTitle": "US sounds alarm over China’s humanoid robots amid security concerns",
           "sources": [
-            "thecanadianpressnews.ca"
+            "South China Morning Post"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "U.S. government orders TransAlta coal plant to stay online for another 90 days",
-              "source": "thecanadianpressnews.ca",
-              "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMkRYN3Nlek93SU1FNVpVbWRzdDkyMXFZbzVfTm5ZbUN4UVhVZEFwRWU5R2NsajNvUzFCSG5Sc3dDQzBSSmUzTWxDM0tRaFpyY0dzQUt1SjQ2YWVicVV1RlY5TVhOZXBPRlhCWVhDa0FsSDFuMFNYSnFTdnB5UTJqQWtzaDc4Z3Fla09XVnZGMzJ6dk51bWE0Zl81aUlqSmJ2RlR5al9kRVRkV3hyZTlKQlRQaDNNTGRENEQ0a1QyVmZvSW9sVEctbmFmN1N6Ukc2WWJGNTluTGo2eEpXcVVZUjk1aVZFTHNoT1pBdU1IVmxqbDN0WFUtLTdZVGE1RVEwQ3c?oc=5",
-              "pubDate": "2026-03-17T21:10:39.000Z",
+              "title": "US sounds alarm over China’s humanoid robots amid security concerns",
+              "source": "South China Morning Post",
+              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbGdIekRobU9qY0hrTVoxWnZhX3lQb3U3VElXVno4ZUlKanFxYjJvRExIUnRWdzZwY0V2RzQ4cF9HVlk1M1I2OHZXbzNtLVF1WWRucGtlREZBdWJIVVpReEc3UksxUXRLbWFRT2pVVC1QQ3ZZOGxqeHdfNmRSMkVuT1hqNFlKX05VSFFGTEVHWFk3ZTZibHRqempnREowN3hWV2ZhSzRXeU0tVk9LM1I4OUtVNzdDSnFEUXRPedIBvAFBVV95cUxQczg0MFZoU2l5M2NESHNVNUdoaWl3MlVOaVFWa1ZBTnFwVVZFRzFRcWR0VTBWVDRMTWhUU2dPNkQxMDlRQkNwdDdKYlZETFFGeFg3b19SWmh3aTkxLTVSeUNGaE5Wa2NNcElVeTBOcWZjYzlPbFRYNzRrNlp1dC1VYmNkU2c3ZjlMY29TTmh4N1NPQXZqcDBtZlZNZllaT3lobXNJTmhiTnFCY3Jvb3Y2R3lNRXFHYXUxeGlHaw?oc=5",
+              "pubDate": "2026-03-17T22:00:19.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "us-sounds-alarm-over-chinas-humanoid-robots-amid-security-concerns"
+        },
+        {
+          "representativeTitle": "American Jewish organizations are making a dangerous mistake",
+          "sources": [
+            "The Boston Globe"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "American Jewish organizations are making a dangerous mistake",
+              "source": "The Boston Globe",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbmxsUG1FbkVkWmZBcWFDU1lhRVItcGI0NHV0S01pRk1YMmlseEs5ZEJkZk9YMmxhT3JFcU1hZk00b0R2Mnd3R2dXbXBYaVZjbWx1N1Y5c3dMN2RYYzcxaVNYSU50NS1sRDc2c1BEbWl3WEdWWDNtcDMycjBMcDFpRG9n?oc=5",
+              "pubDate": "2026-03-18T07:01:54.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "us-government-orders-transalta-coal-plant-to-stay-online-for-another-90-days"
-        },
-        {
-          "representativeTitle": "Lisa Nandy vows to give BBC permanent charter to prevent political interference",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Lisa Nandy vows to give BBC permanent charter to prevent political interference",
-              "source": "The Guardian",
-              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSkZoNDdoLXBxQURRVlg0d2R2UG5qNjY1SDlLVllkdElPVm5kWnBKcVBDY1R6OVRxbjV5blZNbXpJTDMwZmNzdElHZFZ5bkdGZ1hTLThLNXkxTmJyNmd3dWFBSFNWLUR1cEt6bHJlOVA4dVJDdWFMNlQteHZZVDdYQ2poX3pYUWJKOWlHY2NrUmZqVU9jNkg4eUIydXZ2ZXVScWVTUGVZS3JvUQ?oc=5",
-              "pubDate": "2026-03-17T20:49:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "lisa-nandy-vows-to-give-bbc-permanent-charter-to-prevent-political-interference"
-        },
-        {
-          "representativeTitle": "Judge orders restoration of Voice of America, putting hundreds of jour­nalists back to work",
-          "sources": [
-            "Spectrum News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Judge orders restoration of Voice of America, putting hundreds of jour­nalists back to work",
-              "source": "Spectrum News",
-              "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVi1DV1BmZG9rczAyVmx3c0I4bUptdEs2djhfRTd0a3hNbWpTUkVnR0x0ZlloeThMX3VVczB6bktEeXU3cG9aVkNmcFZ2STE4WHh3WUIzbnE0aHFXMzFITzFycmphT08xWWcwUzJKLW5JRy01VjlNeFpaTVpRb3c0bWt6MTdtVVFLektwS3VnTDVRdTVQQWFpaXo2Nlc3V09vbHJRZlZEdVlJbXdsVTVWdElsYS1LanNkUEd2SDFtRFktOHdrYl9DZUk2azdGUGdJSVRoRkpCQUFkUWJHb1pF?oc=5",
-              "pubDate": "2026-03-17T23:50:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "judge-orders-restoration-of-voice-of-america-putting-hundreds-of-journalists-back-to-work"
+          "slug": "american-jewish-organizations-are-making-a-dangerous-mistake"
         },
         {
           "representativeTitle": "Spain-US rift: Pedro Sánchez’ defiance of Trump is dictated by domestic politics – but it’s also a litmus test for Europe",
@@ -968,26 +928,6 @@ export const newsData = {
           "slug": "spain-us-rift-pedro-snchez-defiance-of-trump-is-dictated-by-domestic-politics-but-its-also-a-litmus-test-for-europe"
         },
         {
-          "representativeTitle": "WATCH LIVE: Gabbard, Ratcliffe and Patel testify on worldwide threats in Senate Intelligence hearing",
-          "sources": [
-            "PBS"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "WATCH LIVE: Gabbard, Ratcliffe and Patel testify on worldwide threats in Senate Intelligence hearing",
-              "source": "PBS",
-              "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUTh2dm12dDdWODJnQTlNSThYY1RLT1g4aHQ0UTRJY3JZZ1lCMW03TUVlelQ0d2d2NXRyVTVRYkdncE5CVzFSYTFHQnRGZURiUTVxeURqTERTek9ic1RKRElqNXhLRWl2VGc2dHlKT1RXU2tfZGoxUlpmZzZ0anVCaXh1bjBYWllzOHVmazJwV0VlX0ZQVmZKWklEalotQmxVd01VYUhLdkwwSm1nWUcyaVVyT1VsN2VrdHJMOC1ldVZjajlmVG9TSXhfbFVzQVNCMHfSAdcBQVVfeXFMT2lDOUVwNDNVc3p3YnowZnZ5alEzZGJIN2l3ZVNNLTNNcFJiSTFJODBJMGdobDFTZFM2bUxPVndLQTNsUUlJUENITjgzRkp2cXpZcVR0QkV2NWN2YlEtd21sQnlodXRIaVh0RW5MR1pBd203V0FQbVBad09WRnFWNkREUC1RTk16VHVONHdNSm53SXBPTzFPbDR2Z1Q5TVdid0FUTmpHeDc4TDN1S3FPUmVNWXJxQURUdTFQSExhVlpQWVl4TU5JeDFLSDNhZkJMQjdycXowNjg?oc=5",
-              "pubDate": "2026-03-18T16:25:46.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "watch-live-gabbard-ratcliffe-and-patel-testify-on-worldwide-threats-in-senate-intelligence-hearing"
-        },
-        {
           "representativeTitle": "Inside the Shutdown Stalemate Crippling the TSA and Airports",
           "sources": [
             "Time Magazine"
@@ -1008,24 +948,64 @@ export const newsData = {
           "slug": "inside-the-shutdown-stalemate-crippling-the-tsa-and-airports"
         },
         {
-          "representativeTitle": "DC Wrap: Trump chides NATO allies; counterterrorism official resigns over war",
+          "representativeTitle": "Judge orders restoration of Voice of America, putting hundreds of jour­nalists back to work",
           "sources": [
             "Spectrum News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "DC Wrap: Trump chides NATO allies; counterterrorism official resigns over war",
+              "title": "Judge orders restoration of Voice of America, putting hundreds of jour­nalists back to work",
               "source": "Spectrum News",
-              "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOc1ZVNmhjMWJWRzh6bTg0Z0ttREZrV1BmYXhuMzdWeFAtNTVocExkY25XQW5aZU82T1RWbWFzS1FuLUlOR3pobEdvUlRyaG4xd2dMSkRLc0NkWnAzLWs2eVdrUHFBY29MOHVTZUZEZ0pnTndYTmZmUW9hdUxVMGNzMVVQcEVuckd2YTFWN1NLSTZ1N1U2RU1VbVo4RVhEdDh6OC01UHphWDB4bjBXMmNXMUVDQ3Ffc05VZ1pUcVVRY2lfYUMzcjA0X1I3MmlBOW51QzNfa1lB?oc=5",
-              "pubDate": "2026-03-17T21:00:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNS3Vqd1Z0NERpcXpCMFFRR3AyS1Z6Wl9wSEpia0JXVVBDNUF3UkhON0lNMVBVc3hMWUgxZWpuRmltSF9Jb2REZlFuUllMNkJJZmlLcGdjd3RaMVQ0NmFzU2liYVRGaV9NRm5EY1dIMzhmUkVURnBUcGY4WU8tNG54VFJkRExDelltSnh2VW42bGhFdjRQenZVZlpEZ01xODVvMllTMGx1X0FrWVpaQkdUdDJ4ZS1zXzBLbGxXT1hCa0dJdDBXWFZqa1lLdUdILTk0UlgwMVRJNktCQ3h6ZHdjQVpR?oc=5",
+              "pubDate": "2026-03-17T23:50:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "judge-orders-restoration-of-voice-of-america-putting-hundreds-of-journalists-back-to-work"
+        },
+        {
+          "representativeTitle": "White House says it is offering 5 DHS reforms to Democrats amid shutdown at de­partment",
+          "sources": [
+            "Spectrum News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "White House says it is offering 5 DHS reforms to Democrats amid shutdown at de­partment",
+              "source": "Spectrum News",
+              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRU9oVTVQcUY1bXVfazEyc1V3b0VzVVBHcXZ4cFlVZ3RlOHVUbWsyeTA4SXlQS3dwM0wtcUxSRjZKZWlwUkF0NjB4Zlpsb2xienYwWkJhUXhKWi1rM1gwWGVjZGc0aTBvUkotaHVoSndtVzIwczRFcDRXUEtwbDh4UXBFaG9mZDRNNXlaTnRrTU5Sb3VTeUFKVi05YUE1N1dY?oc=5",
+              "pubDate": "2026-03-17T21:25:00.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "dc-wrap-trump-chides-nato-allies-counterterrorism-official-resigns-over-war"
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "white-house-says-it-is-offering-5-dhs-reforms-to-democrats-amid-shutdown-at-department"
+        },
+        {
+          "representativeTitle": "Israel kills Iran’s spy chief; Gabbard says government is ‘intact but largely degraded’",
+          "sources": [
+            "Los Angeles Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Israel kills Iran’s spy chief; Gabbard says government is ‘intact but largely degraded’",
+              "source": "Los Angeles Times",
+              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTFhtdXhiVHNNVmcyRWhIeVFBRk5yMnJDeWVucFJLck8tNWpLSS02d3hTVEhvVHJ4aUdJOFhyV3B5cXdpS2ZZV3VlQ21jX1hpMHRtWmVqMURKZ2dGR1N0ZkpnbU5LcU1xR05XMXY5RU1BNWFPOE8tVDJ0c0FBSTk3dEFUSHdOdmpFc0VvbkhPS21WcHZpallGY3JSOWlGUWhEVlhRS2o0U19vV2N2RUJVYnRWSi0?oc=5",
+              "pubDate": "2026-03-18T20:30:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 55,
+          "slug": "israel-kills-irans-spy-chief-gabbard-says-government-is-intact-but-largely-degraded"
         }
       ]
     },
@@ -1104,14 +1084,14 @@ export const newsData = {
               "title": "JPMorgan Chase taps Dwyane Wade, Tom Brady for new athlete wealth management push",
               "source": "CNBC Markets",
               "link": "https://www.cnbc.com/2026/03/18/jpmorgan-athlete-wealth-management-tom-brady-dwyane-wade.html",
-              "pubDate": "2026-03-18T19:53:52.000Z",
+              "pubDate": "2026-03-18T20:15:24.000Z",
               "tier": 1
             },
             {
               "title": "JPMorgan Chase taps Dwyane Wade, Tom Brady for new athlete wealth management push",
               "source": "CNBC Economy",
               "link": "https://www.cnbc.com/2026/03/18/jpmorgan-athlete-wealth-management-tom-brady-dwyane-wade.html",
-              "pubDate": "2026-03-18T19:53:52.000Z",
+              "pubDate": "2026-03-18T20:15:24.000Z",
               "tier": 1
             }
           ],
@@ -1141,26 +1121,6 @@ export const newsData = {
           "slug": "expectations-for-the-next-fed-rate-cut-get-pushed-back-after-hot-inflation-report"
         },
         {
-          "representativeTitle": "The Fed issues its latest interest rate decision Wednesday. Here's what to expect",
-          "sources": [
-            "CNBC Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The Fed issues its latest interest rate decision Wednesday. Here's what to expect",
-              "source": "CNBC Markets",
-              "link": "https://www.cnbc.com/2026/03/17/the-fed-issues-its-latest-interest-rate-decision-wednesday-heres-what-to-expect.html",
-              "pubDate": "2026-03-17T20:29:55.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "the-fed-issues-its-latest-interest-rate-decision-wednesday-heres-what-to-expect"
-        },
-        {
           "representativeTitle": "Orlando Bravo pushes back on private markets criticism: 'Everybody's extremely comfortable'",
           "sources": [
             "CNBC Markets"
@@ -1179,6 +1139,46 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "orlando-bravo-pushes-back-on-private-markets-criticism-everybodys-extremely-comfortable"
+        },
+        {
+          "representativeTitle": "Treasury market flashes sign of growing stagflation risks",
+          "sources": [
+            "MarketWatch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Treasury market flashes sign of growing stagflation risks",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/treasury-market-flashes-sign-of-growing-stagflation-risks-52bc33e0?mod=mw_rss_topstories",
+              "pubDate": "2026-03-18T20:33:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "treasury-market-flashes-sign-of-growing-stagflation-risks"
+        },
+        {
+          "representativeTitle": "Betting scandals leave pro sports just one way to save the $165 billion gaming market",
+          "sources": [
+            "MarketWatch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Betting scandals leave pro sports just one way to save the $165 billion gaming market",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/wave-of-sports-betting-scandals-proves-the-need-for-an-independent-watchdog-to-protect-a-165-billion-market-08b15d7d?mod=mw_rss_topstories",
+              "pubDate": "2026-03-18T20:16:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "betting-scandals-leave-pro-sports-just-one-way-to-save-the-165-billion-gaming-market"
         },
         {
           "representativeTitle": "The 6 biggest changes to Social Security over the past 20 years that affect how much money you’ll get in retirement",
@@ -1241,46 +1241,6 @@ export const newsData = {
           "slug": "netflix-more-likely-to-raise-prices-with-warner-bros-deal-out-of-the-way-citi-says"
         },
         {
-          "representativeTitle": "Wave of betting scandals leaves sports leagues with one way to save the $165 billion gaming market",
-          "sources": [
-            "MarketWatch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Wave of betting scandals leaves sports leagues with one way to save the $165 billion gaming market",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/wave-of-sports-betting-scandals-proves-the-need-for-an-independent-watchdog-to-protect-a-165-billion-market-08b15d7d?mod=mw_rss_topstories",
-              "pubDate": "2026-03-18T19:03:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "wave-of-betting-scandals-leaves-sports-leagues-with-one-way-to-save-the-165-billion-gaming-market"
-        },
-        {
-          "representativeTitle": "Treasury market flashes sign of growing stagflation risks",
-          "sources": [
-            "MarketWatch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Treasury market flashes sign of growing stagflation risks",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/treasury-market-flashes-sign-of-growing-stagflation-risks-52bc33e0?mod=mw_rss_topstories",
-              "pubDate": "2026-03-18T17:19:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "treasury-market-flashes-sign-of-growing-stagflation-risks"
-        },
-        {
           "representativeTitle": "China’s middle class is quietly stockpiling cash — ‘shadow saving’ — and it could short-circuit the global economy",
           "sources": [
             "MarketWatch"
@@ -1319,26 +1279,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "why-starbucks-expensive-revamp-might-not-win-over-a-younger-crowd"
-        },
-        {
-          "representativeTitle": "Attack on key Iranian gas field marks escalation of conflict, lifting global oil prices by nearly 4%",
-          "sources": [
-            "MarketWatch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Attack on key Iranian gas field marks escalation of conflict, lifting global oil prices by nearly 4%",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/oil-prices-dip-after-iraq-resumes-oil-exports-via-pipeline-to-turkey-7e706930?mod=mw_rss_topstories",
-              "pubDate": "2026-03-18T16:46:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "attack-on-key-iranian-gas-field-marks-escalation-of-conflict-lifting-global-oil-prices-by-nearly-4"
         }
       ]
     },
@@ -1466,24 +1406,24 @@ export const newsData = {
           "slug": "trump-ally-warns-us-economy-not-strong-enough-to-cope-with-iran-war"
         },
         {
-          "representativeTitle": "Iran inflicts ‘extensive damage’ on site of world’s largest LNG plant in Qatar",
+          "representativeTitle": "Iran inflicts ‘extensive damage’ on site of world’s largest LNG facility in Qatar",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran inflicts ‘extensive damage’ on site of world’s largest LNG plant in Qatar",
+              "title": "Iran inflicts ‘extensive damage’ on site of world’s largest LNG facility in Qatar",
               "source": "Financial Times",
               "link": "https://www.ft.com/content/e3814e6f-a1c9-4ad4-b449-c14064d58f42",
-              "pubDate": "2026-03-18T19:36:17.000Z",
+              "pubDate": "2026-03-18T20:45:18.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.9,
           "relevance_score": 9,
           "importance": 60,
-          "slug": "iran-inflicts-extensive-damage-on-site-of-worlds-largest-lng-plant-in-qatar"
+          "slug": "iran-inflicts-extensive-damage-on-site-of-worlds-largest-lng-facility-in-qatar"
         },
         {
           "representativeTitle": "Trump has broken it. Now he owns it",
@@ -1626,30 +1566,50 @@ export const newsData = {
           "slug": "starmer-calls-on-badenoch-to-sack-shadow-minister-over-muslim-prayer-comments"
         },
         {
-          "representativeTitle": "BofA pitches bets against European private credit",
+          "representativeTitle": "Russia considers sending armed naval patrols to protect ‘shadow fleet’",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "BofA pitches bets against European private credit",
+              "title": "Russia considers sending armed naval patrols to protect ‘shadow fleet’",
               "source": "Financial Times",
-              "link": "https://www.ft.com/content/9719a659-083d-4605-9238-4292b851439a",
-              "pubDate": "2026-03-18T17:52:56.000Z",
+              "link": "https://www.ft.com/content/6ba075d8-890b-40d8-a1a8-8be8ad250822",
+              "pubDate": "2026-03-18T20:21:39.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "bofa-pitches-bets-against-european-private-credit"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "russia-considers-sending-armed-naval-patrols-to-protect-shadow-fleet"
         }
       ]
     },
     {
       "name": "Technology",
       "children": [
+        {
+          "representativeTitle": "Nothing CEO Carl Pei says smartphone apps will disappear as AI agents take their place",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Nothing CEO Carl Pei says smartphone apps will disappear as AI agents take their place",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/03/18/nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place/",
+              "pubDate": "2026-03-18T20:30:52.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place"
+        },
         {
           "representativeTitle": "Nvidia is quietly building a multibillion-dollar behemoth to rival its chips business",
           "sources": [
@@ -1971,84 +1931,44 @@ export const newsData = {
           "slug": "kalshis-legal-troubles-pile-up-as-arizona-files-first-ever-criminal-charges-over-illegal-gambling-business"
         },
         {
-          "representativeTitle": "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
-              "pubDate": "2026-03-17T21:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "mistral-bets-on-build-your-own-ai-as-it-takes-on-openai-anthropic-in-the-enterprise"
-        },
-        {
-          "representativeTitle": "Why Garry Tan’s Claude Code setup has gotten so much love, and hate",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Why Garry Tan’s Claude Code setup has gotten so much love, and hate",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
-              "pubDate": "2026-03-17T20:50:04.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate"
-        },
-        {
-          "representativeTitle": "Dvid Sacks’ big Iran warning gets big time ignored",
+          "representativeTitle": "Amazon doesn’t want the blame for the Post Office going under",
           "sources": [
             "The Verge"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Dvid Sacks’ big Iran warning gets big time ignored",
+              "title": "Amazon doesn’t want the blame for the Post Office going under",
               "source": "The Verge",
-              "link": "https://www.theverge.com/column/896949/regulator-david-sacks-iran-polymarket",
-              "pubDate": "2026-03-18T18:44:21.000Z",
+              "link": "https://www.theverge.com/tech/897114/amazon-usps-contract-money-running-out",
+              "pubDate": "2026-03-18T20:55:40.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "dvid-sacks-big-iran-warning-gets-big-time-ignored"
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "amazon-doesnt-want-the-blame-for-the-post-office-going-under"
         },
         {
-          "representativeTitle": "PSA: Hackers can raid iOS 18 with an infected link",
+          "representativeTitle": "Congress considers blowing up internet law",
           "sources": [
             "The Verge"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "PSA: Hackers can raid iOS 18 with an infected link",
+              "title": "Congress considers blowing up internet law",
               "source": "The Verge",
-              "link": "https://www.theverge.com/tech/896841/iphone-ios-18-attack-darksword",
-              "pubDate": "2026-03-18T16:45:45.000Z",
+              "link": "https://www.theverge.com/policy/897106/section-230-reform-hearing-jawboning-social-media",
+              "pubDate": "2026-03-18T20:54:16.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "psa-hackers-can-raid-ios-18-with-an-infected-link"
+          "slug": "congress-considers-blowing-up-internet-law"
         },
         {
           "representativeTitle": "A private space company has a radical new plan to bag an asteroid",
@@ -2218,10 +2138,9 @@ export const newsData = {
         {
           "representativeTitle": "Iran's intelligence minister Esmail Khatib killed in air strike",
           "sources": [
-            "BBC World",
-            "Al Jazeera"
+            "BBC World"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Iran's intelligence minister Esmail Khatib killed in air strike",
@@ -2229,18 +2148,11 @@ export const newsData = {
               "link": "https://www.bbc.com/news/articles/c2d1dz14k51o?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-03-18T17:05:46.000Z",
               "tier": 1
-            },
-            {
-              "title": "Israel says it killed Iranian intelligence chief Khatib",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/israel-says-it-killed-iranian-intelligence-chief-khatib?traffic_source=rss",
-              "pubDate": "2026-03-18T13:15:07.000Z",
-              "tier": 1
             }
           ],
           "sentiment": -0.9,
           "relevance_score": 9,
-          "importance": 75,
+          "importance": 60,
           "slug": "irans-intelligence-minister-esmail-khatib-killed-in-air-strike"
         },
         {
@@ -2346,10 +2258,9 @@ export const newsData = {
         {
           "representativeTitle": "Russian archaeologist can be sent to Ukraine for trial, Polish judge rules",
           "sources": [
-            "BBC World",
-            "Al Jazeera"
+            "BBC World"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Russian archaeologist can be sent to Ukraine for trial, Polish judge rules",
@@ -2357,18 +2268,11 @@ export const newsData = {
               "link": "https://www.bbc.com/news/articles/c86y65j26xno?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-03-18T16:39:00.000Z",
               "tier": 1
-            },
-            {
-              "title": "Polish court clears extradition of Russian archaeologist to Ukraine",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/18/polish-court-clears-extradition-of-russian-archaeologist-to-ukraine?traffic_source=rss",
-              "pubDate": "2026-03-18T13:00:46.000Z",
-              "tier": 1
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 70,
+          "importance": 55,
           "slug": "russian-archaeologist-can-be-sent-to-ukraine-for-trial-polish-judge-rules"
         },
         {
@@ -2420,24 +2324,24 @@ export const newsData = {
           "slug": "us-judge-orders-trump-administration-to-reopen-voice-of-america"
         },
         {
-          "representativeTitle": "King Charles greets Nigerian president in Windsor sunshine",
+          "representativeTitle": "King praises 'living bridge' with Nigeria at glitzy banquet",
           "sources": [
             "BBC World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "King Charles greets Nigerian president in Windsor sunshine",
+              "title": "King praises 'living bridge' with Nigeria at glitzy banquet",
               "source": "BBC World",
               "link": "https://www.bbc.com/news/articles/cedzqqp9x2do?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T14:58:11.000Z",
+              "pubDate": "2026-03-18T20:59:48.000Z",
               "tier": 1
             }
           ],
           "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "king-charles-greets-nigerian-president-in-windsor-sunshine"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "king-praises-living-bridge-with-nigeria-at-glitzy-banquet"
         },
         {
           "representativeTitle": "Quantum pioneers win Turing Award for encryption breakthrough",
@@ -2762,10 +2666,9 @@ export const newsData = {
         {
           "representativeTitle": "How you walk reveals to others how you are feeling, researchers say",
           "sources": [
-            "The Guardian",
-            "Phys.org"
+            "The Guardian"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "How you walk reveals to others how you are feeling, researchers say",
@@ -2773,13 +2676,6 @@ export const newsData = {
               "link": "https://www.theguardian.com/science/2026/mar/18/how-you-walk-reveals-to-others-how-you-are-feeling-researchers-say",
               "pubDate": "2026-03-18T00:01:17.000Z",
               "tier": 1
-            },
-            {
-              "title": "The way you walk can reveal your true feelings",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-reveal-true.html",
-              "pubDate": "2026-03-18T17:20:09.000Z",
-              "tier": 2
             },
             {
               "title": "How you walk reveals to others how you are feeling, researchers say",
@@ -2791,28 +2687,28 @@ export const newsData = {
           ],
           "sentiment": 0,
           "relevance_score": 3,
-          "importance": 45,
+          "importance": 40,
           "slug": "how-you-walk-reveals-to-others-how-you-are-feeling-researchers-say"
         },
         {
-          "representativeTitle": "Australia news live: Jim Chalmers promises more tax reform in budget as war threatens to send inflation past 5%",
+          "representativeTitle": "Australia news live: Cyclone Narelle builds to category four storm as it nears Queensland coast; Iranian footballers arrive home",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Australia news live: Jim Chalmers promises more tax reform in budget as war threatens to send inflation past 5%",
+              "title": "Australia news live: Cyclone Narelle builds to category four storm as it nears Queensland coast; Iranian footballers arrive home",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/live/2026/mar/19/australia-news-live-jim-chalmers-tax-inflation-budget-cost-of-living-war-fuel-crisis-shortage-inflation-cyclone-narelle-queensland-ntwnfb",
-              "pubDate": "2026-03-18T19:59:43.000Z",
+              "pubDate": "2026-03-18T20:46:22.000Z",
               "tier": 1
             }
           ],
-          "sentiment": -0.4,
+          "sentiment": -0.9,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "australia-news-live-jim-chalmers-promises-more-tax-reform-in-budget-as-war-threatens-to-send-inflation-past-5"
+          "slug": "australia-news-live-cyclone-narelle-builds-to-category-four-storm-as-it-nears-queensland-coast-iranian-footballers-arrive-home"
         },
         {
           "representativeTitle": "NSW police overusing ‘highly intrusive’ legal powers to monitor phones and computers, national watchdog finds",
@@ -2972,7 +2868,7 @@ export const newsData = {
               "title": "Middle East crisis live: Israel strike on Iranian gas field reportedly coordinated with US; Iran’s president warns of ‘uncontrollable consequences’ for further attacks",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/live/2026/mar/18/iran-war-live-updates-oil-prices-hormuz-trump-larijani-key-leader-killed-israel-strikes",
-              "pubDate": "2026-03-18T19:45:57.000Z",
+              "pubDate": "2026-03-18T20:45:46.000Z",
               "tier": 1
             }
           ],
@@ -3070,24 +2966,124 @@ export const newsData = {
           "slug": "pakistan-hopes-steep-cost-of-airstrikes-on-taliban-targets-will-protect-against-terror-attacks"
         },
         {
-          "representativeTitle": "Kent meningitis outbreak has been contained, health officials believe",
+          "representativeTitle": "Two men charged with allegedly spying on London Jewish community for Iran",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Kent meningitis outbreak has been contained, health officials believe",
+              "title": "Two men charged with allegedly spying on London Jewish community for Iran",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/society/2026/mar/18/kent-meningitis-outbreak-has-been-contained-health-officials-believe",
-              "pubDate": "2026-03-18T19:54:15.000Z",
+              "link": "https://www.theguardian.com/uk-news/2026/mar/18/two-men-charged-with-allegedly-spying-on-london-jewish-community-for-iran",
+              "pubDate": "2026-03-18T20:53:56.000Z",
               "tier": 1
             }
           ],
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "kent-meningitis-outbreak-has-been-contained-health-officials-believe"
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "two-men-charged-with-allegedly-spying-on-london-jewish-community-for-iran"
+        },
+        {
+          "representativeTitle": "Iranians burn Trump, Netanyahu effigies at warship victim rally",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Iranians burn Trump, Netanyahu effigies at warship victim rally",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/iranians-burn-trump-netanyahu-effigies-at-warship-victim-rally?traffic_source=rss",
+              "pubDate": "2026-03-18T20:42:32.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "iranians-burn-trump-netanyahu-effigies-at-warship-victim-rally"
+        },
+        {
+          "representativeTitle": "US Fed keeps interest rates steady amid economic, geopolitical uncertainty",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US Fed keeps interest rates steady amid economic, geopolitical uncertainty",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/economy/2026/3/18/us-fed-keeps-interest-rates-steady-amid-economic-geopolitical-uncertainty?traffic_source=rss",
+              "pubDate": "2026-03-18T20:34:19.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "us-fed-keeps-interest-rates-steady-amid-economic-geopolitical-uncertainty"
+        },
+        {
+          "representativeTitle": "Israel holding more than half of Palestinian child detainees without charge",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Israel holding more than half of Palestinian child detainees without charge",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/18/israel-holding-more-than-half-of-palestinian-child-detainees-without-charge?traffic_source=rss",
+              "pubDate": "2026-03-18T20:25:52.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "israel-holding-more-than-half-of-palestinian-child-detainees-without-charge"
+        },
+        {
+          "representativeTitle": "Delcy Rodriguez replaces Venezuela’s Defence Minister Vladimir Padrino",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Delcy Rodriguez replaces Venezuela’s Defence Minister Vladimir Padrino",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/18/delcy-rodriguez-replaces-venezuelas-defence-minister-vladimir-padrino?traffic_source=rss",
+              "pubDate": "2026-03-18T20:11:42.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "delcy-rodriguez-replaces-venezuelas-defence-minister-vladimir-padrino"
+        },
+        {
+          "representativeTitle": "Oil prices surge after Israeli strike on Iran’s South Pars gasfield",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Oil prices surge after Israeli strike on Iran’s South Pars gasfield",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/18/oil-prices-surge-after-israeli-strike-on-iran-gasfield-irans-threats?traffic_source=rss",
+              "pubDate": "2026-03-18T19:56:15.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "oil-prices-surge-after-israeli-strike-on-irans-south-pars-gasfield"
         },
         {
           "representativeTitle": "Top US spy accused of omitting Iran intel that contradicts Trump",
@@ -3408,66 +3404,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 60,
           "slug": "how-dubai-and-uae-are-being-affected-by-iran-attacks-and-us-israeli-war"
-        },
-        {
-          "representativeTitle": "Iran announces arrests, says US and Israel suffering ‘defeats’",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran announces arrests, says US and Israel suffering ‘defeats’",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/18/iran-announces-arrests-says-us-and-israel-suffering?traffic_source=rss",
-              "pubDate": "2026-03-18T13:10:31.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "iran-announces-arrests-says-us-and-israel-suffering-defeats"
-        },
-        {
-          "representativeTitle": "Kenya’s ‘drought amid plenty’",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Kenya’s ‘drought amid plenty’",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/kenyas-drought-amid-plenty?traffic_source=rss",
-              "pubDate": "2026-03-18T13:09:39.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "kenyas-drought-amid-plenty"
-        },
-        {
-          "representativeTitle": "Iran holds funerals for officials Larijani and Soleimani",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran holds funerals for officials Larijani and Soleimani",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/iran-holds-funerals-for-officials-larijani-and-soleimani?traffic_source=rss",
-              "pubDate": "2026-03-18T13:03:23.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "iran-holds-funerals-for-officials-larijani-and-soleimani"
         }
       ]
     },
@@ -3477,9 +3413,10 @@ export const newsData = {
         {
           "representativeTitle": "A Quantum Leap for the Turing Award",
           "sources": [
-            "Wired"
+            "Wired",
+            "Nature"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "A Quantum Leap for the Turing Award",
@@ -3487,11 +3424,18 @@ export const newsData = {
               "link": "https://www.wired.com/story/a-quantum-leap-for-the-turing-award/",
               "pubDate": "2026-03-18T09:00:00.000Z",
               "tier": 1
+            },
+            {
+              "title": "Major Turing computing award goes to quantum science for first time",
+              "source": "Nature",
+              "link": "https://www.nature.com/articles/d41586-026-00818-z",
+              "pubDate": "2026-03-18T00:00:00.000Z",
+              "tier": 1
             }
           ],
           "sentiment": 0.9,
           "relevance_score": 7,
-          "importance": 50,
+          "importance": 65,
           "slug": "a-quantum-leap-for-the-turing-award"
         },
         {
@@ -3635,116 +3579,36 @@ export const newsData = {
           "slug": "author-correction-autoimmune-response-to-c9orf72-protein-in-amyotrophic-lateral-sclerosis"
         },
         {
-          "representativeTitle": "Publisher Correction: Atlas-guided discovery of transcription factors for T cell programming",
+          "representativeTitle": "AI set to map risks of future climate disasters",
           "sources": [
             "Nature"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Publisher Correction: Atlas-guided discovery of transcription factors for T cell programming",
+              "title": "AI set to map risks of future climate disasters",
               "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10382-1",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 2,
-          "importance": 25,
-          "slug": "publisher-correction-atlas-guided-discovery-of-transcription-factors-for-t-cell-programming"
-        },
-        {
-          "representativeTitle": "Botanical mystery solved: how plants make a crucial malaria drug",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Botanical mystery solved: how plants make a crucial malaria drug",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/d41586-026-00891-4",
+              "link": "https://www.nature.com/articles/d41586-026-00835-y",
               "pubDate": "2026-03-18T00:00:00.000Z",
               "tier": 1
             }
           ],
           "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "botanical-mystery-solved-how-plants-make-a-crucial-malaria-drug"
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "ai-set-to-map-risks-of-future-climate-disasters"
         },
         {
-          "representativeTitle": "Integrated memristor for mitigating reverse-bias in perovskite solar cells",
+          "representativeTitle": "Affordable mobility for all: why we need smaller, cheaper electric vehicles",
           "sources": [
             "Nature"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Integrated memristor for mitigating reverse-bias in perovskite solar cells",
+              "title": "Affordable mobility for all: why we need smaller, cheaper electric vehicles",
               "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10275-3",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 2,
-          "importance": 25,
-          "slug": "integrated-memristor-for-mitigating-reverse-bias-in-perovskite-solar-cells"
-        },
-        {
-          "representativeTitle": "Magnetic resonance control of spin-correlated radical pair dynamics in vivo",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Magnetic resonance control of spin-correlated radical pair dynamics in vivo",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10282-4",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 2,
-          "importance": 25,
-          "slug": "magnetic-resonance-control-of-spin-correlated-radical-pair-dynamics-in-vivo"
-        },
-        {
-          "representativeTitle": "In vivo site-specific engineering to reprogram T cells",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "In vivo site-specific engineering to reprogram T cells",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10235-x",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "in-vivo-site-specific-engineering-to-reprogram-t-cells"
-        },
-        {
-          "representativeTitle": "Synthetic circuits for cell ratio control",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Synthetic circuits for cell ratio control",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10259-3",
+              "link": "https://www.nature.com/articles/d41586-026-00779-3",
               "pubDate": "2026-03-18T00:00:00.000Z",
               "tier": 1
             }
@@ -3752,367 +3616,127 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "synthetic-circuits-for-cell-ratio-control"
+          "slug": "affordable-mobility-for-all-why-we-need-smaller-cheaper-electric-vehicles"
         },
         {
-          "representativeTitle": "Observing the tidal pulse of rivers from wide-swath satellite altimetry",
+          "representativeTitle": "Knock knock, no one’s there. Study finds scientists’ jokes mostly fall flat",
           "sources": [
             "Nature"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Observing the tidal pulse of rivers from wide-swath satellite altimetry",
+              "title": "Knock knock, no one’s there. Study finds scientists’ jokes mostly fall flat",
               "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10287-z",
+              "link": "https://www.nature.com/articles/d41586-026-00854-9",
               "pubDate": "2026-03-18T00:00:00.000Z",
               "tier": 1
             }
           ],
           "sentiment": 0,
-          "relevance_score": 5,
+          "relevance_score": 2,
+          "importance": 25,
+          "slug": "knock-knock-no-ones-there-study-finds-scientists-jokes-mostly-fall-flat"
+        },
+        {
+          "representativeTitle": "Satellite data reconstruct 2025 LA fires, showing rapid spread in first day",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Satellite data reconstruct 2025 LA fires, showing rapid spread in first day",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-satellite-reconstruct-la-rapid-day.html",
+              "pubDate": "2026-03-18T21:00:05.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 7,
           "importance": 40,
-          "slug": "observing-the-tidal-pulse-of-rivers-from-wide-swath-satellite-altimetry"
+          "slug": "satellite-data-reconstruct-2025-la-fires-showing-rapid-spread-in-first-day"
         },
         {
-          "representativeTitle": "Thymic health consequences in adults",
+          "representativeTitle": "New approach improves precipitation accuracy for hydrological models",
           "sources": [
-            "Nature"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Thymic health consequences in adults",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10242-y",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 3,
-          "importance": 30,
-          "slug": "thymic-health-consequences-in-adults"
-        },
-        {
-          "representativeTitle": "Adaptive evolution of gene regulatory networks in mammalian neocortex",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Adaptive evolution of gene regulatory networks in mammalian neocortex",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10226-y",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
+              "title": "New approach improves precipitation accuracy for hydrological models",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-approach-precipitation-accuracy-hydrological.html",
+              "pubDate": "2026-03-18T21:00:01.000Z",
+              "tier": 2
             }
           ],
           "sentiment": 0.4,
-          "relevance_score": 2,
-          "importance": 25,
-          "slug": "adaptive-evolution-of-gene-regulatory-networks-in-mammalian-neocortex"
-        },
-        {
-          "representativeTitle": "Broadly stable atmospheric CO<sub>2</sub> and CH<sub>4</sub> levels over the past 3 million years",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Broadly stable atmospheric CO<sub>2</sub> and CH<sub>4</sub> levels over the past 3 million years",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-025-10032-y",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "broadly-stable-atmospheric-cosub2sub-and-chsub4sub-levels-over-the-past-3-million-years"
-        },
-        {
-          "representativeTitle": "Local agricultural transition, crisis and migration in the Southern Andes",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Local agricultural transition, crisis and migration in the Southern Andes",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10233-z",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "local-agricultural-transition-crisis-and-migration-in-the-southern-andes"
-        },
-        {
-          "representativeTitle": "Bistable superlattice switching in a quantum spin Hall insulator",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Bistable superlattice switching in a quantum spin Hall insulator",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10309-w",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 2,
-          "importance": 25,
-          "slug": "bistable-superlattice-switching-in-a-quantum-spin-hall-insulator"
-        },
-        {
-          "representativeTitle": "Observation of self-bound droplets of ultracold dipolar molecules",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Observation of self-bound droplets of ultracold dipolar molecules",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10245-9",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 2,
-          "importance": 25,
-          "slug": "observation-of-self-bound-droplets-of-ultracold-dipolar-molecules"
-        },
-        {
-          "representativeTitle": "Global ocean heat content over the past 3 million years",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Global ocean heat content over the past 3 million years",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10116-3",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "global-ocean-heat-content-over-the-past-3-million-years"
-        },
-        {
-          "representativeTitle": "Thymic health and immunotherapy outcomes in patients with cancer",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Thymic health and immunotherapy outcomes in patients with cancer",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10243-x",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "thymic-health-and-immunotherapy-outcomes-in-patients-with-cancer"
-        },
-        {
-          "representativeTitle": "Contrasting thermophilization among forests, grasslands and alpine summits",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Contrasting thermophilization among forests, grasslands and alpine summits",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-025-09622-7",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
           "relevance_score": 7,
-          "importance": 50,
-          "slug": "contrasting-thermophilization-among-forests-grasslands-and-alpine-summits"
+          "importance": 40,
+          "slug": "new-approach-improves-precipitation-accuracy-for-hydrological-models"
         },
         {
-          "representativeTitle": "Proteasome-guided haem signalling axis contributes to T cell exhaustion",
+          "representativeTitle": "Study reveals hidden 'chemical currency' fueling the ocean's carbon cycle",
           "sources": [
-            "Nature"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Proteasome-guided haem signalling axis contributes to T cell exhaustion",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10250-y",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "proteasome-guided-haem-signalling-axis-contributes-to-t-cell-exhaustion"
-        },
-        {
-          "representativeTitle": "Biosynthesis of cinchona alkaloids",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Biosynthesis of cinchona alkaloids",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10227-x",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 2,
-          "importance": 25,
-          "slug": "biosynthesis-of-cinchona-alkaloids"
-        },
-        {
-          "representativeTitle": "Integrated photonic neural network with on-chip backpropagation training",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Integrated photonic neural network with on-chip backpropagation training",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10262-8",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "integrated-photonic-neural-network-with-on-chip-backpropagation-training"
-        },
-        {
-          "representativeTitle": "The E3 ubiquitin ligase mechanism specifying targeted microRNA degradation",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The E3 ubiquitin ligase mechanism specifying targeted microRNA degradation",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10232-0",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 2,
-          "importance": 25,
-          "slug": "the-e3-ubiquitin-ligase-mechanism-specifying-targeted-microrna-degradation"
-        },
-        {
-          "representativeTitle": "Adventitious carbon breaks symmetry in oxide contact electrification",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Adventitious carbon breaks symmetry in oxide contact electrification",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-025-10088-w",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 1,
-          "importance": 20,
-          "slug": "adventitious-carbon-breaks-symmetry-in-oxide-contact-electrification"
-        },
-        {
-          "representativeTitle": "Climbing fibres recruit disinhibition to enhance Purkinje cell calcium signals",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Climbing fibres recruit disinhibition to enhance Purkinje cell calcium signals",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10220-4",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 2,
-          "importance": 25,
-          "slug": "climbing-fibres-recruit-disinhibition-to-enhance-purkinje-cell-calcium-signals"
-        },
-        {
-          "representativeTitle": "A strong constraint on radiative forcing of well-mixed greenhouse gases",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "A strong constraint on radiative forcing of well-mixed greenhouse gases",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10289-x",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
+              "title": "Study reveals hidden 'chemical currency' fueling the ocean's carbon cycle",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-reveals-hidden-chemical-currency-fueling.html",
+              "pubDate": "2026-03-18T20:40:06.000Z",
+              "tier": 2
             }
           ],
           "sentiment": 0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "a-strong-constraint-on-radiative-forcing-of-well-mixed-greenhouse-gases"
+          "importance": 45,
+          "slug": "study-reveals-hidden-chemical-currency-fueling-the-oceans-carbon-cycle"
         },
         {
-          "representativeTitle": "Catabolism of extracellular glutathione supplies cysteine to support tumours",
+          "representativeTitle": "Increasing the share of organic farming leads to healthier, more diverse soils, international study finds",
           "sources": [
-            "Nature"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Catabolism of extracellular glutathione supplies cysteine to support tumours",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/s41586-026-10268-2",
-              "pubDate": "2026-03-18T00:00:00.000Z",
-              "tier": 1
+              "title": "Increasing the share of organic farming leads to healthier, more diverse soils, international study finds",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-farming-healthier-diverse-soils-international.html",
+              "pubDate": "2026-03-18T20:30:03.000Z",
+              "tier": 2
             }
           ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "catabolism-of-extracellular-glutathione-supplies-cysteine-to-support-tumours"
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "increasing-the-share-of-organic-farming-leads-to-healthier-more-diverse-soils-international-study-finds"
+        },
+        {
+          "representativeTitle": "Terahertz spin waves can be converted into computer signals, study shows",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Terahertz spin waves can be converted into computer signals, study shows",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-terahertz.html",
+              "pubDate": "2026-03-18T20:20:04.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "terahertz-spin-waves-can-be-converted-into-computer-signals-study-shows"
         },
         {
           "representativeTitle": "AI rebuilds molecules from exploding fragments",
@@ -4295,46 +3919,6 @@ export const newsData = {
           "slug": "new-study-shows-democracy-has-deep-global-rootsnot-just-greece-and-rome"
         },
         {
-          "representativeTitle": "Remote working challenges linked to management issues",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Remote working challenges linked to management issues",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-remote-linked-issues.html",
-              "pubDate": "2026-03-18T17:50:01.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "remote-working-challenges-linked-to-management-issues"
-        },
-        {
-          "representativeTitle": "Beavers can turn streams into carbon stores. We measured how much",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Beavers can turn streams into carbon stores. We measured how much",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-beavers-streams-carbon.html",
-              "pubDate": "2026-03-18T17:20:08.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "beavers-can-turn-streams-into-carbon-stores-we-measured-how-much"
-        },
-        {
           "representativeTitle": "Butterflies crossing oceans, moths navigating by the stars: unravelling the mysteries of insect migrations",
           "sources": [
             "The Guardian"
@@ -4357,10 +3941,9 @@ export const newsData = {
         {
           "representativeTitle": "Meteor over Ohio causes large boom heard as far away as Pennsylvania",
           "sources": [
-            "The Guardian",
             "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Meteor over Ohio causes large boom heard as far away as Pennsylvania",
@@ -4368,18 +3951,11 @@ export const newsData = {
               "link": "https://www.theguardian.com/us-news/2026/mar/17/ohio-meteor-pennsylvania",
               "pubDate": "2026-03-18T01:38:09.000Z",
               "tier": 1
-            },
-            {
-              "title": "Meteor seen across northern Ohio – video",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/science/video/2026/mar/17/meteor-seen-across-northern-ohio-video",
-              "pubDate": "2026-03-17T20:29:59.000Z",
-              "tier": 1
             }
           ],
           "sentiment": 0,
           "relevance_score": 5,
-          "importance": 50,
+          "importance": 40,
           "slug": "meteor-over-ohio-causes-large-boom-heard-as-far-away-as-pennsylvania"
         },
         {
