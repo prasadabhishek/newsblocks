@@ -1,29 +1,29 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-18T11:18:38.094Z",
+  "lastUpdated": "2026-03-18T12:18:42.137Z",
   "children": [
     {
       "name": "Politics",
       "children": [
         {
-          "representativeTitle": "‘Unacceptable’ that people facing ‘enormous spike’ in costs due to Iran war, says Polanski – UK politics live",
+          "representativeTitle": "Keir Starmer to face Kemi Badenoch at prime minister’s questions – UK politics live",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "‘Unacceptable’ that people facing ‘enormous spike’ in costs due to Iran war, says Polanski – UK politics live",
+              "title": "Keir Starmer to face Kemi Badenoch at prime minister’s questions – UK politics live",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/politics/live/2026/mar/18/angela-rayner-andy-burnham-labour-keir-starmer-kemi-badenoch-pmqs-uk-politics-latest-news-updates",
-              "pubDate": "2026-03-18T11:10:06.000Z",
+              "pubDate": "2026-03-18T11:57:24.000Z",
               "tier": 1
             }
           ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "unacceptable-that-people-facing-enormous-spike-in-costs-due-to-iran-war-says-polanski-uk-politics-live"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "keir-starmer-to-face-kemi-badenoch-at-prime-ministers-questions-uk-politics-live"
         },
         {
           "representativeTitle": "Jeffrey Epstein’s elite relationships visualised: the prince, the sultan and the politicians",
@@ -86,24 +86,24 @@ export const newsData = {
           "slug": "lords-urged-to-ensure-women-criminalised-for-abortion-are-not-left-behind"
         },
         {
-          "representativeTitle": "‘Basics’ of life in Britain have been sold for profit, says Polanski",
+          "representativeTitle": "Reeves plans to give England’s regional leaders a share of national tax revenues",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "‘Basics’ of life in Britain have been sold for profit, says Polanski",
+              "title": "Reeves plans to give England’s regional leaders a share of national tax revenues",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/mar/18/basics-of-life-in-britain-have-been-sold-for-profit-says-polanski",
+              "link": "https://www.theguardian.com/business/2026/mar/17/rachel-reeves-plans-regional-national-tax-revenues-mais-lecture",
               "pubDate": "2026-03-18T00:01:18.000Z",
               "tier": 1
             }
           ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "basics-of-life-in-britain-have-been-sold-for-profit-says-polanski"
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "reeves-plans-to-give-englands-regional-leaders-a-share-of-national-tax-revenues"
         },
         {
           "representativeTitle": "The Guardian view on the fragile politics of the union: Labour’s woes have consequences beyond Westminster | Editorial",
@@ -144,26 +144,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "nige-and-honest-bob-want-to-turn-politics-into-a-downmarket-reality-gameshow"
-        },
-        {
-          "representativeTitle": "Juries want fairness in court and don’t just obey the government. That’s why ministers are attacking them | Michael Mansfield",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Juries want fairness in court and don’t just obey the government. That’s why ministers are attacking them | Michael Mansfield",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/law/commentisfree/2026/mar/17/labour-juries-court-proposals-government-ministers-criminal-justice-system",
-              "pubDate": "2026-03-17T12:08:16.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "juries-want-fairness-in-court-and-dont-just-obey-the-government-thats-why-ministers-are-attacking-them-michael-mansfield"
         },
         {
           "representativeTitle": "Side hustles: what you need to know about paying tax in the UK",
@@ -314,26 +294,6 @@ export const newsData = {
           "slug": "ministers-still-wrangling-over-delayed-defence-investment-plan"
         },
         {
-          "representativeTitle": "Unite fined £265k for 'slow walk' bin strike protests",
-          "sources": [
-            "BBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Unite fined £265k for 'slow walk' bin strike protests",
-              "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/cze07715w9do?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-17T14:24:30.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "unite-fined-265k-for-slow-walk-bin-strike-protests"
-        },
-        {
           "representativeTitle": "Mayors to gain more spending power under Reeves tax plans",
           "sources": [
             "BBC News"
@@ -374,6 +334,46 @@ export const newsData = {
           "slug": "iran-and-russia-are-brothers-in-hatred-zelensky-tells-mps"
         },
         {
+          "representativeTitle": "Unite fined £265k for 'slow walk' bin strike protests",
+          "sources": [
+            "BBC News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Unite fined £265k for 'slow walk' bin strike protests",
+              "source": "BBC News",
+              "link": "https://www.bbc.com/news/articles/cze07715w9do?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-17T14:24:30.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "unite-fined-265k-for-slow-walk-bin-strike-protests"
+        },
+        {
+          "representativeTitle": "Reform pledges to scrap VAT and green levies on energy bills",
+          "sources": [
+            "BBC News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Reform pledges to scrap VAT and green levies on energy bills",
+              "source": "BBC News",
+              "link": "https://www.bbc.com/news/articles/cly0j6nnk4zo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-17T14:50:48.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "reform-pledges-to-scrap-vat-and-green-levies-on-energy-bills"
+        },
+        {
           "representativeTitle": "Reform UK council leader narrowly survives no confidence vote",
           "sources": [
             "BBC News",
@@ -402,84 +402,24 @@ export const newsData = {
           "slug": "reform-uk-council-leader-narrowly-survives-no-confidence-vote"
         },
         {
-          "representativeTitle": "Reform pledges to scrap VAT and green levies on energy bills",
+          "representativeTitle": "Irish PM boxes clever as Trump doubles down on Starmer 'disappointment'",
           "sources": [
             "BBC News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Reform pledges to scrap VAT and green levies on energy bills",
+              "title": "Irish PM boxes clever as Trump doubles down on Starmer 'disappointment'",
               "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/cly0j6nnk4zo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-17T14:50:48.000Z",
+              "link": "https://www.bbc.com/news/articles/c0k1k3r7dxko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-18T11:55:06.000Z",
               "tier": 1
             }
           ],
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "reform-pledges-to-scrap-vat-and-green-levies-on-energy-bills"
-        },
-        {
-          "representativeTitle": "White House News: Latest Updates and Video on U.S. Politics and Government",
-          "sources": [
-            "NBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "White House News: Latest Updates and Video on U.S. Politics and Government",
-              "source": "NBC News",
-              "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1nbVA0aUc3a0VSNFZVQ00zeVZqZ3drT19iaGRmZlE5VGVsRThfYXlMTnBnV0NxUFdVVE9QdDJzSFlOX2ZfbGVxNl80X2tXMndrdlVta0wtOA?oc=5",
-              "pubDate": "2026-03-18T02:07:43.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "white-house-news-latest-updates-and-video-on-us-politics-and-government"
-        },
-        {
-          "representativeTitle": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR1FDR1U0cDNzOWRQLVU5S3RpVk9fSkZhQm4yREdZYnpTVUdlNlpnUGtVbDVpQ0pQcjhGbmp0ZjQ4S045TXZMVEUwdGI5R25yOGlJeHE1WjR3eHdRa01uSDZadzZEc0k4eTdBeWtOXzY4OFBzWEFUWDhGaHo0Y2NjYw?oc=5",
-              "pubDate": "2026-03-18T09:01:24.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "firm-that-planned-trumps-jan-6-rally-received-no-bid-contracts"
-        },
-        {
-          "representativeTitle": "WATCH LIVE: Senate begins extended debate over SAVE America Act",
-          "sources": [
-            "PBS"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "WATCH LIVE: Senate begins extended debate over SAVE America Act",
-              "source": "PBS",
-              "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLWpFX1E1QVpuSmRpWnY3T3dhNGpiOFNpRDQtbjlra1ktcW5jbWhDUmRQMk9OZll0dmtzLXFwMlFaMDdjbGNRS2pCZXp2cWp0bWNZUHd1R0pUVE1yWEN3Yi1BSWJHOUIxN2hFSndBS0V1TVlkakZaQVBMQklNem8tSi1HTEQzY21vRmY3VWpoWjRSb3BzYzg5SHJoTG_SAaIBQVVfeXFMTnNIakFGVHZWUTVocGVBZHBrZGJzYWYxSVlkS0tiMFNqRDU4Q2t4VEcySkFYWkFrRUFDb19JNVJYY0xhaTJIM1FBY0JUWkRMckpQVVRsRk9uQUtzM0ZRcjdSd0FjTjNnQUJ2dGEtS0EtTW96c3d1WHVzN2hKcm10azhyYlVlN1hoTWtfTE9Ccld4UDlrUDBVamRhYkI1LUxWX2l3?oc=5",
-              "pubDate": "2026-03-17T13:47:10.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "watch-live-senate-begins-extended-debate-over-save-america-act"
+          "slug": "irish-pm-boxes-clever-as-trump-doubles-down-on-starmer-disappointment"
         },
         {
           "representativeTitle": "Killing of Larijani will not destabilise Iranian political system: Minister",
@@ -502,24 +442,84 @@ export const newsData = {
           "slug": "killing-of-larijani-will-not-destabilise-iranian-political-system-minister"
         },
         {
-          "representativeTitle": "Congress still searching for DHS compromise as government shutdown nears the month mark",
+          "representativeTitle": "White House News: Latest Updates and Video on U.S. Politics and Government",
           "sources": [
-            "Scripps News"
+            "NBC News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Congress still searching for DHS compromise as government shutdown nears the month mark",
-              "source": "Scripps News",
-              "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbloyTnFtMlBYaW5NU2c3MmxOV2NxVlp2eVNKY1hIcDBIbkp0X2VpS0RIeGJnZktyMkVxTnV6TlU1VEpuMzFmRk5xYmF1YXUzLXFkNldhVmlYN3V1Z1cwbUYxVzVvbDBIZGNFVmZNY3dTVkRjZUVlOXNuREVyZVE5Q2ZTOWRXYWZyQWtyRHZIWDMzMnhGWTVMdWNJVXN3alQ5WVhHMmZqMl85a1V6VTkwb2lzX3ZtbWhwc1Z6N1JaSWVuVGVzQTNNNXZyRm0xQQ?oc=5",
-              "pubDate": "2026-03-18T08:41:38.000Z",
+              "title": "White House News: Latest Updates and Video on U.S. Politics and Government",
+              "source": "NBC News",
+              "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1nbVA0aUc3a0VSNFZVQ00zeVZqZ3drT19iaGRmZlE5VGVsRThfYXlMTnBnV0NxUFdVVE9QdDJzSFlOX2ZfbGVxNl80X2tXMndrdlVta0wtOA?oc=5",
+              "pubDate": "2026-03-18T08:51:35.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "white-house-news-latest-updates-and-video-on-us-politics-and-government"
+        },
+        {
+          "representativeTitle": "WADA weighing a rule to bar Trump and U.S. officials from major events",
+          "sources": [
+            "PBS"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "WADA weighing a rule to bar Trump and U.S. officials from major events",
+              "source": "PBS",
+              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSkRLYU5OdFJmRUJqbG9zZ1JkWjBJb25oWURWa3dac3g1WjJtQzVIMmhqMDRWQ1NyVVVRcEktWm5qUHhISDNnSVdFeENsZHBJajRnemZqRDFQLVVXVVJPektiWHFCdFZPb0VMdzRaMS1CUW9OVjRPYXVxNkpSbmIxTkZWb25oVkt1RFlfUzZoOEVvaDJXV1B4d2VpY1Baalh0WGJvODJ4UUtMbW1L0gGsAUFVX3lxTE1KREthTk50UmZFQmpsb3NnUmRaMElvbmhZRFZrd1pzeDVaMm1DNUgyaGowNFZDU3JVVVFwSS1abmpQeEhIM2dJV0V4Q2xkcElqNGd6ZmpEMVAtVVdVUk96S2JYcUJ0Vk9vRUx3NFoxLUJRb05WNE9hdXE2SlJuYjFORlZvbmhWS3VEWV9TNmg4RW9oMldXUHh3ZWljUFpqWHRYYm84MnhRS0xtbUs?oc=5",
+              "pubDate": "2026-03-17T18:39:27.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "wada-weighing-a-rule-to-bar-trump-and-us-officials-from-major-events"
+        },
+        {
+          "representativeTitle": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
+          "sources": [
+            "The New York Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR1FDR1U0cDNzOWRQLVU5S3RpVk9fSkZhQm4yREdZYnpTVUdlNlpnUGtVbDVpQ0pQcjhGbmp0ZjQ4S045TXZMVEUwdGI5R25yOGlJeHE1WjR3eHdRa01uSDZadzZEc0k4eTdBeWtOXzY4OFBzWEFUWDhGaHo0Y2NjYw?oc=5",
+              "pubDate": "2026-03-18T09:01:24.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "congress-still-searching-for-dhs-compromise-as-government-shutdown-nears-the-month-mark"
+          "slug": "firm-that-planned-trumps-jan-6-rally-received-no-bid-contracts"
+        },
+        {
+          "representativeTitle": "DC Wrap: Trump chides NATO allies; counterterrorism official resigns over war",
+          "sources": [
+            "Spectrum News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "DC Wrap: Trump chides NATO allies; counterterrorism official resigns over war",
+              "source": "Spectrum News",
+              "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOc1ZVNmhjMWJWRzh6bTg0Z0ttREZrV1BmYXhuMzdWeFAtNTVocExkY25XQW5aZU82T1RWbWFzS1FuLUlOR3pobEdvUlRyaG4xd2dMSkRLc0NkWnAzLWs2eVdrUHFBY29MOHVTZUZEZ0pnTndYTmZmUW9hdUxVMGNzMVVQcEVuckd2YTFWN1NLSTZ1N1U2RU1VbVo4RVhEdDh6OC01UHphWDB4bjBXMmNXMUVDQ3Ffc05VZ1pUcVVRY2lfYUMzcjA0X1I3MmlBOW51QzNfa1lB?oc=5",
+              "pubDate": "2026-03-17T21:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "dc-wrap-trump-chides-nato-allies-counterterrorism-official-resigns-over-war"
         },
         {
           "representativeTitle": "Partial government shutdown approaches second longest in U.S. history",
@@ -618,18 +618,38 @@ export const newsData = {
           "slug": "tsa-official-warns-some-airports-could-be-forced-to-close-amid-dhs-shutdown"
         },
         {
+          "representativeTitle": "WATCH LIVE: Senate begins extended debate over SAVE America Act",
+          "sources": [
+            "PBS"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "WATCH LIVE: Senate begins extended debate over SAVE America Act",
+              "source": "PBS",
+              "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLWpFX1E1QVpuSmRpWnY3T3dhNGpiOFNpRDQtbjlra1ktcW5jbWhDUmRQMk9OZll0dmtzLXFwMlFaMDdjbGNRS2pCZXp2cWp0bWNZUHd1R0pUVE1yWEN3Yi1BSWJHOUIxN2hFSndBS0V1TVlkakZaQVBMQklNem8tSi1HTEQzY21vRmY3VWpoWjRSb3BzYzg5SHJoTG_SAaIBQVVfeXFMTnNIakFGVHZWUTVocGVBZHBrZGJzYWYxSVlkS0tiMFNqRDU4Q2t4VEcySkFYWkFrRUFDb19JNVJYY0xhaTJIM1FBY0JUWkRMckpQVVRsRk9uQUtzM0ZRcjdSd0FjTjNnQUJ2dGEtS0EtTW96c3d1WHVzN2hKcm10azhyYlVlN1hoTWtfTE9Ccld4UDlrUDBVamRhYkI1LUxWX2l3?oc=5",
+              "pubDate": "2026-03-17T13:47:10.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "watch-live-senate-begins-extended-debate-over-save-america-act"
+        },
+        {
           "representativeTitle": "U.S. government orders TransAlta coal plant to stay online for another 90 days",
           "sources": [
-            "TownAndCountryToday.com",
+            "The Albertan",
             "thecanadianpressnews.ca"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
               "title": "U.S. government orders TransAlta coal plant to stay online for another 90 days",
-              "source": "TownAndCountryToday.com",
-              "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSy1DUXZNelhUVjNFV3RDUTlyVmpscnM1Vms3RF9FeURyYm5BdWhWaUZPcWhTdVBKV2g5RE8wU2kyMjVJVTM3YWJFQTdzcFI5UFRDcXR2Y3NzdE1NRGtTcUF0ZGZUZnRCeU1YUm9zWFFTRzl4aWxFU2d0N3hqLTNCa0oxZVJ6OWpVRFh2LWhKYUVNTWxrdlZWb0FMaHo2aDBWTVB3dURfbVltUmZicWNUcjZzaF84VWl1Q3NXOW9Hd2Y5RGk3UkQ5aFR3?oc=5",
-              "pubDate": "2026-03-17T21:59:19.000Z",
+              "source": "The Albertan",
+              "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQa2t2UXlUS2NrSzQtWE14bXV2X0tsdWkwVkRUTGpsLUFDbTIzdGI4cjM3c0RaZ1JuQ1JzbGpGdVpMc3M2T29odnNrd3JaUlBuRTdJemRGa0gxbHRnZHhkb2MwdzlYMldEYmp6MU95Z2xMU05LUERlVUNMclNMekQ1alhidnJ1T19qN3BFN1VycURLbERBTThFbFlIN0hBalUxZ3UtMzZjTlBwejN4c0J5cHpjY0xUS0tSWnZmMFU5QQ?oc=5",
+              "pubDate": "2026-03-17T21:48:32.000Z",
               "tier": 2
             },
             {
@@ -644,26 +664,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 45,
           "slug": "us-government-orders-transalta-coal-plant-to-stay-online-for-another-90-days"
-        },
-        {
-          "representativeTitle": "US sounds alarm over China’s humanoid robots amid security concerns",
-          "sources": [
-            "South China Morning Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US sounds alarm over China’s humanoid robots amid security concerns",
-              "source": "South China Morning Post",
-              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbGdIekRobU9qY0hrTVoxWnZhX3lQb3U3VElXVno4ZUlKanFxYjJvRExIUnRWdzZwY0V2RzQ4cF9HVlk1M1I2OHZXbzNtLVF1WWRucGtlREZBdWJIVVpReEc3UksxUXRLbWFRT2pVVC1QQ3ZZOGxqeHdfNmRSMkVuT1hqNFlKX05VSFFGTEVHWFk3ZTZibHRqempnREowN3hWV2ZhSzRXeU0tVk9LM1I4OUtVNzdDSnFEUXRPedIBvAFBVV95cUxQczg0MFZoU2l5M2NESHNVNUdoaWl3MlVOaVFWa1ZBTnFwVVZFRzFRcWR0VTBWVDRMTWhUU2dPNkQxMDlRQkNwdDdKYlZETFFGeFg3b19SWmh3aTkxLTVSeUNGaE5Wa2NNcElVeTBOcWZjYzlPbFRYNzRrNlp1dC1VYmNkU2c3ZjlMY29TTmh4N1NPQXZqcDBtZlZNZllaT3lobXNJTmhiTnFCY3Jvb3Y2R3lNRXFHYXUxeGlHaw?oc=5",
-              "pubDate": "2026-03-17T22:00:19.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "us-sounds-alarm-over-chinas-humanoid-robots-amid-security-concerns"
         },
         {
           "representativeTitle": "Miami Cubans Fear Trump Won’t Go Far Enough: ‘The Castros Have to Go’",
@@ -726,6 +726,26 @@ export const newsData = {
           "slug": "trump-administration-seeks-to-remove-cubas-president-from-power-during-negotiations"
         },
         {
+          "representativeTitle": "US sounds alarm over China’s humanoid robots amid security concerns",
+          "sources": [
+            "South China Morning Post"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US sounds alarm over China’s humanoid robots amid security concerns",
+              "source": "South China Morning Post",
+              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbGdIekRobU9qY0hrTVoxWnZhX3lQb3U3VElXVno4ZUlKanFxYjJvRExIUnRWdzZwY0V2RzQ4cF9HVlk1M1I2OHZXbzNtLVF1WWRucGtlREZBdWJIVVpReEc3UksxUXRLbWFRT2pVVC1QQ3ZZOGxqeHdfNmRSMkVuT1hqNFlKX05VSFFGTEVHWFk3ZTZibHRqempnREowN3hWV2ZhSzRXeU0tVk9LM1I4OUtVNzdDSnFEUXRPedIBvAFBVV95cUxQczg0MFZoU2l5M2NESHNVNUdoaWl3MlVOaVFWa1ZBTnFwVVZFRzFRcWR0VTBWVDRMTWhUU2dPNkQxMDlRQkNwdDdKYlZETFFGeFg3b19SWmh3aTkxLTVSeUNGaE5Wa2NNcElVeTBOcWZjYzlPbFRYNzRrNlp1dC1VYmNkU2c3ZjlMY29TTmh4N1NPQXZqcDBtZlZNZllaT3lobXNJTmhiTnFCY3Jvb3Y2R3lNRXFHYXUxeGlHaw?oc=5",
+              "pubDate": "2026-03-17T22:00:19.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "us-sounds-alarm-over-chinas-humanoid-robots-amid-security-concerns"
+        },
+        {
           "representativeTitle": "Rayner: government ‘cannot just go through the motions in the face of decline’",
           "sources": [
             "The Guardian"
@@ -744,26 +764,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "rayner-government-cannot-just-go-through-the-motions-in-the-face-of-decline"
-        },
-        {
-          "representativeTitle": "American Jewish organizations are making a dangerous mistake",
-          "sources": [
-            "The Boston Globe"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "American Jewish organizations are making a dangerous mistake",
-              "source": "The Boston Globe",
-              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbmxsUG1FbkVkWmZBcWFDU1lhRVItcGI0NHV0S01pRk1YMmlseEs5ZEJkZk9YMmxhT3JFcU1hZk00b0R2Mnd3R2dXbXBYaVZjbWx1N1Y5c3dMN2RYYzcxaVNYSU50NS1sRDc2c1BEbWl3WEdWWDNtcDMycjBMcDFpRG9n?oc=5",
-              "pubDate": "2026-03-18T07:01:54.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "american-jewish-organizations-are-making-a-dangerous-mistake"
         },
         {
           "representativeTitle": "U.S. seeks political signal from Brazil on critical minerals deal",
@@ -871,160 +871,224 @@ export const newsData = {
           "slug": "mastercard-says-its-acquiring-stablecoin-startup-bvnk-in-18-billion-bet-on-future-of-payments"
         },
         {
-          "representativeTitle": "Wolfe Research: Nvidia’s $1T Orders Guidance Is a Floor, Not a Ceiling",
+          "representativeTitle": "Stock market today: Dow, S&P 500, Nasdaq futures rise as oil tops $104 again with Fed decision on deck",
           "sources": [
             "Yahoo Finance"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Wolfe Research: Nvidia’s $1T Orders Guidance Is a Floor, Not a Ceiling",
+              "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as oil tops $104 again with Fed decision on deck",
               "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/news/wolfe-research-nvidia-1t-orders-111125907.html",
-              "pubDate": "2026-03-18T11:11:25.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "wolfe-research-nvidias-1t-orders-guidance-is-a-floor-not-a-ceiling"
-        },
-        {
-          "representativeTitle": "Stock market today: Dow, S&P 500, Nasdaq futures rise with Fed decision on deck",
-          "sources": [
-            "Yahoo Finance"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise with Fed decision on deck",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-rise-with-fed-decision-on-deck-225450963.html",
+              "link": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-rise-as-oil-tops-104-again-with-fed-decision-on-deck-225450151.html",
               "pubDate": "2026-03-17T22:54:50.000Z",
               "tier": 2
             }
           ],
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "stock-market-today-dow-sp-500-nasdaq-futures-rise-with-fed-decision-on-deck"
+          "slug": "stock-market-today-dow-sp-500-nasdaq-futures-rise-as-oil-tops-104-again-with-fed-decision-on-deck"
         },
         {
-          "representativeTitle": "Leon Cooperman warns markets are 'too expensive' as war raises questions about investing rules and stagflation fears",
+          "representativeTitle": "Stock Market Today: Dow Rises Ahead Of Fed, Powell Press Briefing; Inflation Report Up Next (Live Coverage)",
           "sources": [
             "Yahoo Finance"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Leon Cooperman warns markets are 'too expensive' as war raises questions about investing rules and stagflation fears",
+              "title": "Stock Market Today: Dow Rises Ahead Of Fed, Powell Press Briefing; Inflation Report Up Next (Live Coverage)",
               "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/news/leon-cooperman-warns-markets-too-105700170.html",
-              "pubDate": "2026-03-18T10:57:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "leon-cooperman-warns-markets-are-too-expensive-as-war-raises-questions-about-investing-rules-and-stagflation-fears"
-        },
-        {
-          "representativeTitle": "Dow Jones Futures Rise, Oil Prices Fall, Nvidia Up On China News; Fed Decision, Micron Earnings Loom",
-          "sources": [
-            "Yahoo Finance"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Dow Jones Futures Rise, Oil Prices Fall, Nvidia Up On China News; Fed Decision, Micron Earnings Loom",
-              "source": "Yahoo Finance",
-              "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-rise-fed-decision-micron-earnings/?src=A00220&yptr=yahoo",
-              "pubDate": "2026-03-18T10:54:39.000Z",
+              "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-decision-powell-inflation-data/?src=A00220&yptr=yahoo",
+              "pubDate": "2026-03-18T12:08:01.000Z",
               "tier": 2
             }
           ],
           "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "dow-jones-futures-rise-oil-prices-fall-nvidia-up-on-china-news-fed-decision-micron-earnings-loom"
-        },
-        {
-          "representativeTitle": "Morning Bid: Fed plot unfolds",
-          "sources": [
-            "Yahoo Finance"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Morning Bid: Fed plot unfolds",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/news/morning-bid-fed-plot-unfolds-104900009.html",
-              "pubDate": "2026-03-18T10:49:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "morning-bid-fed-plot-unfolds"
+          "slug": "stock-market-today-dow-rises-ahead-of-fed-powell-press-briefing-inflation-report-up-next-live-coverage"
         },
         {
-          "representativeTitle": "US drivers face long-term pain at pump, analysts say; Trump bets they are wrong",
+          "representativeTitle": "Dow Jones Futures Rise, Oil Prices Fall, Nvidia Up On China News; Fed, Micron Earnings Loom",
           "sources": [
             "Yahoo Finance"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US drivers face long-term pain at pump, analysts say; Trump bets they are wrong",
+              "title": "Dow Jones Futures Rise, Oil Prices Fall, Nvidia Up On China News; Fed, Micron Earnings Loom",
               "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/news/us-drivers-face-long-term-100301925.html",
-              "pubDate": "2026-03-18T10:27:24.000Z",
+              "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-rise-fed-decision-micron-earnings/?src=A00220&yptr=yahoo",
+              "pubDate": "2026-03-18T12:07:45.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "dow-jones-futures-rise-oil-prices-fall-nvidia-up-on-china-news-fed-micron-earnings-loom"
+        },
+        {
+          "representativeTitle": "Elon Musk Admits xAI Passing On Promising Candidates — Launches New Hiring Review",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Elon Musk Admits xAI Passing On Promising Candidates — Launches New Hiring Review",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/news/elon-musk-admits-xai-passing-120627338.html",
+              "pubDate": "2026-03-18T12:06:27.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "us-drivers-face-long-term-pain-at-pump-analysts-say-trump-bets-they-are-wrong"
+          "slug": "elon-musk-admits-xai-passing-on-promising-candidates-launches-new-hiring-review"
         },
         {
-          "representativeTitle": "Best high-yield savings interest rates today, March 18, 2026 (Earn up to 4% APY)",
+          "representativeTitle": "Daily Spotlight: Bond Spreads Widen along with Mideast Conflict",
           "sources": [
-            "Yahoo Finance",
-            "Yahoo Finance",
             "Yahoo Finance"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Best money market account rates today, March 18, 2026 (secure up to 4.01% APY)",
+              "title": "Daily Spotlight: Bond Spreads Widen along with Mideast Conflict",
               "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-account-rates-today-wednesday-march-18-2026-100041568.html",
-              "pubDate": "2026-03-18T10:00:41.000Z",
+              "link": "https://finance.yahoo.com/research/reports/ARGUS_46463_MarketOutlook_1773833527000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+              "pubDate": "2026-03-18T11:32:07.000Z",
               "tier": 2
-            },
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 55,
+          "slug": "daily-spotlight-bond-spreads-widen-along-with-mideast-conflict"
+        },
+        {
+          "representativeTitle": "ASML Holding N.V. (ASML) is Benefiting from Investors’ Optimism Around AI",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Best CD rates today, March 18, 2026 (Earn up to 4.1% APY)",
+              "title": "ASML Holding N.V. (ASML) is Benefiting from Investors’ Optimism Around AI",
               "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-wednesday-march-18-2026-100036940.html",
-              "pubDate": "2026-03-18T10:00:36.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Best high-yield savings interest rates today, March 18, 2026 (Earn up to 4% APY)",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-wednesday-march-18-2026-100018851.html",
-              "pubDate": "2026-03-18T10:00:18.000Z",
+              "link": "https://finance.yahoo.com/news/asml-holding-n-v-asml-120537074.html",
+              "pubDate": "2026-03-18T12:05:37.000Z",
               "tier": 2
             }
           ],
           "sentiment": 0.4,
-          "relevance_score": 3,
-          "importance": 20,
-          "slug": "best-high-yield-savings-interest-rates-today-march-18-2026-earn-up-to-4-apy"
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "asml-holding-nv-asml-is-benefiting-from-investors-optimism-around-ai"
+        },
+        {
+          "representativeTitle": "Alibaba Stock Rallies After AI Price Hikes. Earnings Are Due Soon.",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Alibaba Stock Rallies After AI Price Hikes. Earnings Are Due Soon.",
+              "source": "Yahoo Finance",
+              "link": "https://www.investors.com/news/technology/alibaba-stock-ai-price-hikes-earnings/?src=A00220&yptr=yahoo",
+              "pubDate": "2026-03-18T11:55:37.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "alibaba-stock-rallies-after-ai-price-hikes-earnings-are-due-soon"
+        },
+        {
+          "representativeTitle": "The $2,000 Drug Cap Is Saving Medicare Retirees Over $1,500 a Year Right Now",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The $2,000 Drug Cap Is Saving Medicare Retirees Over $1,500 a Year Right Now",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/news/2-000-drug-cap-saving-120431064.html",
+              "pubDate": "2026-03-18T12:04:31.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "the-2000-drug-cap-is-saving-medicare-retirees-over-1500-a-year-right-now"
+        },
+        {
+          "representativeTitle": "JD.com (JD) and BYD Enters a Strategic Partnership",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "JD.com (JD) and BYD Enters a Strategic Partnership",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/news/jd-com-jd-byd-enters-114328249.html",
+              "pubDate": "2026-03-18T11:43:28.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "jdcom-jd-and-byd-enters-a-strategic-partnership"
+        },
+        {
+          "representativeTitle": "Stock market today: Dow, S&P 500, Nasdaq rise for second day in a row with Fed decision on deck",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Stock market today: Dow, S&P 500, Nasdaq rise for second day in a row with Fed decision on deck",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-rise-for-second-day-in-a-row-with-fed-decision-on-deck-200307065.html",
+              "pubDate": "2026-03-17T20:03:07.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "stock-market-today-dow-sp-500-nasdaq-rise-for-second-day-in-a-row-with-fed-decision-on-deck"
+        },
+        {
+          "representativeTitle": "SEC Approved XRP ETFs That Let You Ride The Crypto Boom",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "SEC Approved XRP ETFs That Let You Ride The Crypto Boom",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/news/sec-approved-xrp-etfs-let-120412201.html",
+              "pubDate": "2026-03-18T12:04:12.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.9,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "sec-approved-xrp-etfs-that-let-you-ride-the-crypto-boom"
         },
         {
           "representativeTitle": "It’s a ‘black swan’ moment in oil but nowhere else. The stock market is at risk of a 20% fall, say these strategists.",
@@ -1037,7 +1101,7 @@ export const newsData = {
               "title": "It’s a ‘black swan’ moment in oil but nowhere else. The stock market is at risk of a 20% fall, say these strategists.",
               "source": "MarketWatch",
               "link": "https://www.marketwatch.com/story/why-the-real-black-swan-of-the-iran-war-is-the-lack-of-them-in-stocks-bonds-or-almost-anything-but-oil-79fa1504?mod=mw_rss_topstories",
-              "pubDate": "2026-03-18T11:10:00.000Z",
+              "pubDate": "2026-03-18T12:06:00.000Z",
               "tier": 2
             }
           ],
@@ -1045,6 +1109,46 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 50,
           "slug": "its-a-black-swan-moment-in-oil-but-nowhere-else-the-stock-market-is-at-risk-of-a-20-fall-say-these-strategists"
+        },
+        {
+          "representativeTitle": "Fed’s Powell to deliver a gut check for markets as stocks climb alongside oil prices",
+          "sources": [
+            "MarketWatch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Fed’s Powell to deliver a gut check for markets as stocks climb alongside oil prices",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/feds-powell-to-deliver-a-gut-check-for-markets-as-stocks-climb-alongside-oil-prices-4c85e342?mod=mw_rss_topstories",
+              "pubDate": "2026-03-18T12:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "feds-powell-to-deliver-a-gut-check-for-markets-as-stocks-climb-alongside-oil-prices"
+        },
+        {
+          "representativeTitle": "Why Europe may be the best place to bet on defense stocks",
+          "sources": [
+            "MarketWatch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Why Europe may be the best place to bet on defense stocks",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/why-europe-may-be-the-best-place-to-bet-on-defense-stocks-108bd0ca?mod=mw_rss_topstories",
+              "pubDate": "2026-03-18T11:44:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "why-europe-may-be-the-best-place-to-bet-on-defense-stocks"
         },
         {
           "representativeTitle": "Oil prices dip after Iraq resumes oil exports via pipeline to Turkey",
@@ -1065,32 +1169,52 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "oil-prices-dip-after-iraq-resumes-oil-exports-via-pipeline-to-turkey"
-        },
-        {
-          "representativeTitle": "Instead of shopping they’re quietly stockpiling cash — ‘shadow saving’ — and it could short-circuit the global economy",
-          "sources": [
-            "MarketWatch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Instead of shopping they’re quietly stockpiling cash — ‘shadow saving’ — and it could short-circuit the global economy",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/instead-of-shopping-theyre-quietly-stockpiling-cash-shadow-saving-and-it-could-short-circuit-the-global-economy-5ebc81a6?mod=mw_rss_topstories",
-              "pubDate": "2026-03-18T10:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 10,
-          "importance": 55,
-          "slug": "instead-of-shopping-theyre-quietly-stockpiling-cash-shadow-saving-and-it-could-short-circuit-the-global-economy"
         }
       ]
     },
     {
       "name": "Finance",
       "children": [
+        {
+          "representativeTitle": "Disney embarks on new chapter as Josh D'Amaro takes over as CEO",
+          "sources": [
+            "CNBC Economy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Disney embarks on new chapter as Josh D'Amaro takes over as CEO",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/03/18/disney-josh-damaro-ceo-new-chapter.html",
+              "pubDate": "2026-03-18T12:15:27.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "disney-embarks-on-new-chapter-as-josh-damaro-takes-over-as-ceo"
+        },
+        {
+          "representativeTitle": "Macy's expects sales to fall this year, even as store revamp shows progress",
+          "sources": [
+            "CNBC Economy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Macy's expects sales to fall this year, even as store revamp shows progress",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/03/18/macys-m-q4-2025-earnings-.html",
+              "pubDate": "2026-03-18T11:19:30.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "macys-expects-sales-to-fall-this-year-even-as-store-revamp-shows-progress"
+        },
         {
           "representativeTitle": "Lululemon reports weak guidance as proxy battle, tariffs weigh on bottom line",
           "sources": [
@@ -1102,7 +1226,7 @@ export const newsData = {
               "title": "Lululemon reports weak guidance as proxy battle, tariffs weigh on bottom line",
               "source": "CNBC Economy",
               "link": "https://www.cnbc.com/2026/03/17/lululemon-lulu-earnings-q4-2025.html",
-              "pubDate": "2026-03-17T22:38:12.000Z",
+              "pubDate": "2026-03-18T11:38:07.000Z",
               "tier": 1
             }
           ],
@@ -1272,24 +1396,24 @@ export const newsData = {
           "slug": "trump-has-broken-it-now-he-owns-it"
         },
         {
-          "representativeTitle": "Iran strikes blow open divisions in Maga base",
+          "representativeTitle": "How the world learned to love the bomb",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran strikes blow open divisions in Maga base",
+              "title": "How the world learned to love the bomb",
               "source": "Financial Times",
-              "link": "https://www.ft.com/content/957e4ae5-9e03-4f62-948b-8e7663b0117d",
-              "pubDate": "2026-03-18T00:09:08.000Z",
+              "link": "https://www.ft.com/content/ba5f719a-974a-46a5-94dd-773361f9bee4",
+              "pubDate": "2026-03-18T12:06:15.000Z",
               "tier": 1
             }
           ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "iran-strikes-blow-open-divisions-in-maga-base"
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "how-the-world-learned-to-love-the-bomb"
         },
         {
           "representativeTitle": "UAE set to show leniency on tax rules for expats leaving to avoid Iran war",
@@ -1805,26 +1929,6 @@ export const newsData = {
           "slug": "gamma-adds-ai-image-generation-tools-in-bid-to-take-on-canva-and-adobe"
         },
         {
-          "representativeTitle": "Amazon adds 1-hour and 3-hour delivery options in the US",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Amazon adds 1-hour and 3-hour delivery options in the US",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/03/17/amazon-adds-1-hour-and-3-hour-delivery-options-in-the-us/",
-              "pubDate": "2026-03-17T11:34:35.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "amazon-adds-1-hour-and-3-hour-delivery-options-in-the-us"
-        },
-        {
           "representativeTitle": "I went to the Pentagon to watch Pete Hegseth scold war reporters",
           "sources": [
             "The Verge"
@@ -2118,46 +2222,6 @@ export const newsData = {
           "slug": "top-us-counterterrorism-official-resigns-over-iran-war-urging-trump-to-reverse-course"
         },
         {
-          "representativeTitle": "Spanish king reopens debate on conquest of Mexico by acknowledging 'abuse'",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Spanish king reopens debate on conquest of Mexico by acknowledging 'abuse'",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/c33j3ne2mjlo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-17T18:55:17.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "spanish-king-reopens-debate-on-conquest-of-mexico-by-acknowledging-abuse"
-        },
-        {
-          "representativeTitle": "Air strike hit Kabul rehab centre as patients ate dinner, survivor tells BBC",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Air strike hit Kabul rehab centre as patients ate dinner, survivor tells BBC",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/ckg1kgz6wkgo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-17T18:45:54.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "air-strike-hit-kabul-rehab-centre-as-patients-ate-dinner-survivor-tells-bbc"
-        },
-        {
           "representativeTitle": "India's cheap weight-loss drugs could reshape global obesity fight",
           "sources": [
             "BBC World"
@@ -2178,6 +2242,54 @@ export const newsData = {
           "slug": "indias-cheap-weight-loss-drugs-could-reshape-global-obesity-fight"
         },
         {
+          "representativeTitle": "US judge orders Trump administration to reopen Voice of America",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US judge orders Trump administration to reopen Voice of America",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/ce3g3j1y2ldo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-18T11:01:43.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "us-judge-orders-trump-administration-to-reopen-voice-of-america"
+        },
+        {
+          "representativeTitle": "Afghans search for loved ones at Kabul rehab centre hit by Pakistani airstrike",
+          "sources": [
+            "BBC World",
+            "The Guardian"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Air strike hit Kabul rehab centre as patients ate dinner, survivor tells BBC",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/ckg1kgz6wkgo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-17T18:45:54.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Afghans search for loved ones at Kabul rehab centre hit by Pakistani airstrike",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/mar/18/afghans-search-for-loved-ones-kabul-rehab-centre-pakistan-airstrike",
+              "pubDate": "2026-03-18T11:53:51.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "afghans-search-for-loved-ones-at-kabul-rehab-centre-hit-by-pakistani-airstrike"
+        },
+        {
           "representativeTitle": "Italy warns Russian tanker could explode in Mediterranean at any time",
           "sources": [
             "BBC World"
@@ -2196,6 +2308,26 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "italy-warns-russian-tanker-could-explode-in-mediterranean-at-any-time"
+        },
+        {
+          "representativeTitle": "Spanish king reopens debate on conquest of Mexico by acknowledging 'abuse'",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Spanish king reopens debate on conquest of Mexico by acknowledging 'abuse'",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/c33j3ne2mjlo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-17T18:55:17.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "spanish-king-reopens-debate-on-conquest-of-mexico-by-acknowledging-abuse"
         },
         {
           "representativeTitle": "US Attorney General Bondi formally summoned to Congress in Epstein case",
@@ -2336,26 +2468,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "belgian-court-sends-ex-diplomat-93-to-trial-over-1961-murder-of-congo-leader"
-        },
-        {
-          "representativeTitle": "At least 23 people killed in suspected suicide attacks in north-eastern Nigeria",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "At least 23 people killed in suspected suicide attacks in north-eastern Nigeria",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/17/bombings-north-eastern-nigeria-maiduguri",
-              "pubDate": "2026-03-17T11:28:01.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "at-least-23-people-killed-in-suspected-suicide-attacks-in-north-eastern-nigeria"
         },
         {
           "representativeTitle": "Canada wants to build up its long-neglected Arctic. The hard question is how",
@@ -2765,14 +2877,94 @@ export const newsData = {
           "slug": "pakistan-hopes-steep-cost-of-airstrikes-on-taliban-targets-will-protect-against-terror-attacks"
         },
         {
-          "representativeTitle": "Israel says it killed Iran intel minister in third assassination in 2 days",
+          "representativeTitle": "Olympics urged to drop reported gender test plans for female athletes",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Israel says it killed Iran intel minister in third assassination in 2 days",
+              "title": "Olympics urged to drop reported gender test plans for female athletes",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/sports/2026/3/18/olympics-urged-to-drop-reported-gender-test-plans-for-female-athletes?traffic_source=rss",
+              "pubDate": "2026-03-18T11:41:09.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "olympics-urged-to-drop-reported-gender-test-plans-for-female-athletes"
+        },
+        {
+          "representativeTitle": "Turkiye says NATO bringing in more defences after missile interceptions",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Turkiye says NATO bringing in more defences after missile interceptions",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/18/turkiye-says-nato-bringing-in-more-defences-after-missile-interceptions?traffic_source=rss",
+              "pubDate": "2026-03-18T11:24:40.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "turkiye-says-nato-bringing-in-more-defences-after-missile-interceptions"
+        },
+        {
+          "representativeTitle": "Iranian women footballers arrive in eastern Turkiye, on home border",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Iranian women footballers arrive in eastern Turkiye, on home border",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/sports/2026/3/18/iran-womens-football-team-arrive-in-eastern-turkiye-on-home-border?traffic_source=rss",
+              "pubDate": "2026-03-18T11:23:56.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 3,
+          "importance": 30,
+          "slug": "iranian-women-footballers-arrive-in-eastern-turkiye-on-home-border"
+        },
+        {
+          "representativeTitle": "How Iran defied Trump threats to emerge as Strait of Hormuz gatekeeper",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "How Iran defied Trump threats to emerge as Strait of Hormuz gatekeeper",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/18/how-iran-defied-trump-threats-to-emerge-as-strait-of-hormuz-gatekeeper?traffic_source=rss",
+              "pubDate": "2026-03-18T11:17:38.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "how-iran-defied-trump-threats-to-emerge-as-strait-of-hormuz-gatekeeper"
+        },
+        {
+          "representativeTitle": "Israel says it kills Iran intel minister in third assassination in two days",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Israel says it kills Iran intel minister in third assassination in two days",
               "source": "Al Jazeera",
               "link": "https://www.aljazeera.com/news/2026/3/18/israel-says-it-killed-iran-intel-minister-in-third-assassination-in-2-days?traffic_source=rss",
               "pubDate": "2026-03-18T10:33:12.000Z",
@@ -2782,7 +2974,7 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 9,
           "importance": 60,
-          "slug": "israel-says-it-killed-iran-intel-minister-in-third-assassination-in-2-days"
+          "slug": "israel-says-it-kills-iran-intel-minister-in-third-assassination-in-two-days"
         },
         {
           "representativeTitle": "Senegal to appeal decision to award AFCON title to Morocco",
@@ -3091,86 +3283,6 @@ export const newsData = {
           "relevance_score": 10,
           "importance": 65,
           "slug": "iran-launches-revenge-missile-attack-on-israel-after-assassinations"
-        },
-        {
-          "representativeTitle": "Qatar can keep goods flowing amid tensions, customs chief says",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Qatar can keep goods flowing amid tensions, customs chief says",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/economy/2026/3/18/qatar-can-keep-goods-flowing-amid-tensions-customs-chief-says?traffic_source=rss",
-              "pubDate": "2026-03-18T06:19:46.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "qatar-can-keep-goods-flowing-amid-tensions-customs-chief-says"
-        },
-        {
-          "representativeTitle": "Iran fires missiles, drones across Gulf, region remains in war crosshairs",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran fires missiles, drones across Gulf, region remains in war crosshairs",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/18/iran-fires-missiles-drones-across-gulf-region-remains-in-war-crosshairs?traffic_source=rss",
-              "pubDate": "2026-03-18T05:52:26.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "iran-fires-missiles-drones-across-gulf-region-remains-in-war-crosshairs"
-        },
-        {
-          "representativeTitle": "Venezuela defeat USA, win first World Baseball Classic championship",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Venezuela defeat USA, win first World Baseball Classic championship",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/sports/2026/3/18/venezuela-defeat-usa-win-first-world-baseball-classic-championship?traffic_source=rss",
-              "pubDate": "2026-03-18T05:50:31.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "venezuela-defeat-usa-win-first-world-baseball-classic-championship"
-        },
-        {
-          "representativeTitle": "Cuba restores power after 29-hour blackout amid US oil blockade",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cuba restores power after 29-hour blackout amid US oil blockade",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/economy/2026/3/18/cuba-restores-power-after-29-hour-blackout-amid-us-oil-blockade?traffic_source=rss",
-              "pubDate": "2026-03-18T04:58:32.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "cuba-restores-power-after-29-hour-blackout-amid-us-oil-blockade"
         }
       ]
     },
@@ -3286,26 +3398,6 @@ export const newsData = {
           "slug": "scientists-used-7000-gpus-to-simulate-a-tiny-quantum-chip-in-extreme-detail"
         },
         {
-          "representativeTitle": "Scientists finally reveal how this Alzheimer’s drug really works",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Scientists finally reveal how this Alzheimer’s drug really works",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/03/260317064457.htm",
-              "pubDate": "2026-03-17T11:44:52.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "scientists-finally-reveal-how-this-alzheimers-drug-really-works"
-        },
-        {
           "representativeTitle": "Study finds ChatGPT gets science wrong more often than you think",
           "sources": [
             "Science Daily"
@@ -3346,26 +3438,6 @@ export const newsData = {
           "slug": "scientists-link-childhood-stress-to-lifelong-digestive-issues"
         },
         {
-          "representativeTitle": "This massive crater could expose the heart of a lost planet",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "This massive crater could expose the heart of a lost planet",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/03/260317064440.htm",
-              "pubDate": "2026-03-17T11:19:15.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "this-massive-crater-could-expose-the-heart-of-a-lost-planet"
-        },
-        {
           "representativeTitle": "Author Correction: Autoimmune response to C9orf72 protein in amyotrophic lateral sclerosis",
           "sources": [
             "Nature"
@@ -3384,6 +3456,26 @@ export const newsData = {
           "relevance_score": 2,
           "importance": 25,
           "slug": "author-correction-autoimmune-response-to-c9orf72-protein-in-amyotrophic-lateral-sclerosis"
+        },
+        {
+          "representativeTitle": "AI set to map risks of future climate disasters",
+          "sources": [
+            "Nature"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "AI set to map risks of future climate disasters",
+              "source": "Nature",
+              "link": "https://www.nature.com/articles/d41586-026-00835-y",
+              "pubDate": "2026-03-18T00:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "ai-set-to-map-risks-of-future-climate-disasters"
         },
         {
           "representativeTitle": "Affordable mobility for all: why we need smaller, cheaper electric vehicles",
@@ -3424,6 +3516,86 @@ export const newsData = {
           "relevance_score": 2,
           "importance": 25,
           "slug": "knock-knock-no-ones-there-study-finds-scientists-jokes-mostly-fall-flat"
+        },
+        {
+          "representativeTitle": "Snail-derived compound could be a safer anticoagulant compared to heparin",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Snail-derived compound could be a safer anticoagulant compared to heparin",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-snail-derived-compound-safer-anticoagulant.html",
+              "pubDate": "2026-03-18T12:00:04.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "snail-derived-compound-could-be-a-safer-anticoagulant-compared-to-heparin"
+        },
+        {
+          "representativeTitle": "Reasons for illegal fishing 'more nuanced' than previously thought, international research shows",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Reasons for illegal fishing 'more nuanced' than previously thought, international research shows",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-illegal-fishing-nuanced-previously-thought.html",
+              "pubDate": "2026-03-18T11:50:01.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "reasons-for-illegal-fishing-more-nuanced-than-previously-thought-international-research-shows"
+        },
+        {
+          "representativeTitle": "Microwave quantum network shows resilience against heat-related disturbances",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Microwave quantum network shows resilience against heat-related disturbances",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-microwave-quantum-network-resilience-disturbances.html",
+              "pubDate": "2026-03-18T11:40:02.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "microwave-quantum-network-shows-resilience-against-heat-related-disturbances"
+        },
+        {
+          "representativeTitle": "Dark matter experiment reaches ultracold milestone",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Dark matter experiment reaches ultracold milestone",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-dark-ultracold-milestone.html",
+              "pubDate": "2026-03-18T11:20:02.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "dark-matter-experiment-reaches-ultracold-milestone"
         },
         {
           "representativeTitle": "Study links artificial turf fields to lethal chemical threat for salmon",
@@ -3726,24 +3898,24 @@ export const newsData = {
           "slug": "why-models-and-longitudinal-data-on-adherence-to-non-pharmaceutical-interventions-must-come-together"
         },
         {
-          "representativeTitle": "Plantwatch: the Natal crocus co-opts fire, bees and ants to reproduce",
+          "representativeTitle": "Butterflies crossing oceans, moths navigating by the stars: unravelling the mysteries of insect migrations",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Plantwatch: the Natal crocus co-opts fire, bees and ants to reproduce",
+              "title": "Butterflies crossing oceans, moths navigating by the stars: unravelling the mysteries of insect migrations",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/science/2026/mar/18/plantwatch-the-natal-crocus-co-opts-fire-bees-and-ants-to-reproduce",
-              "pubDate": "2026-03-18T06:00:24.000Z",
+              "link": "https://www.theguardian.com/environment/ng-interactive/2026/mar/18/butterflies-crossing-oceans-moths-navigating-stars-insect-migrations-aoe",
+              "pubDate": "2026-03-18T08:00:27.000Z",
               "tier": 1
             }
           ],
-          "sentiment": 0,
-          "relevance_score": 2,
-          "importance": 25,
-          "slug": "plantwatch-the-natal-crocus-co-opts-fire-bees-and-ants-to-reproduce"
+          "sentiment": 0.4,
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "butterflies-crossing-oceans-moths-navigating-by-the-stars-unravelling-the-mysteries-of-insect-migrations"
         },
         {
           "representativeTitle": "Meteor over Ohio causes large boom heard as far away as Pennsylvania",
@@ -3772,6 +3944,26 @@ export const newsData = {
           "relevance_score": 5,
           "importance": 50,
           "slug": "meteor-over-ohio-causes-large-boom-heard-as-far-away-as-pennsylvania"
+        },
+        {
+          "representativeTitle": "Plantwatch: the Natal crocus co-opts fire, bees and ants to reproduce",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Plantwatch: the Natal crocus co-opts fire, bees and ants to reproduce",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/science/2026/mar/18/plantwatch-the-natal-crocus-co-opts-fire-bees-and-ants-to-reproduce",
+              "pubDate": "2026-03-18T06:00:24.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 2,
+          "importance": 25,
+          "slug": "plantwatch-the-natal-crocus-co-opts-fire-bees-and-ants-to-reproduce"
         },
         {
           "representativeTitle": "Desperate parents calling pharmacies for meningitis jab as stocks run low",
