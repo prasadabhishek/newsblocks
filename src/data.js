@@ -1,10 +1,30 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-19T05:30:45.793Z",
+  "lastUpdated": "2026-03-19T06:23:00.962Z",
   "children": [
     {
       "name": "Politics",
       "children": [
+        {
+          "representativeTitle": "Nigel Farage Cameo videos backed cryptocurrencies that collapsed in value",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Nigel Farage Cameo videos backed cryptocurrencies that collapsed in value",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/uk-news/ng-interactive/2026/mar/19/nigel-farage-cameo-videos-backed-cryptocurrencies-that-collapsed-in-value",
+              "pubDate": "2026-03-19T06:00:02.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "nigel-farage-cameo-videos-backed-cryptocurrencies-that-collapsed-in-value"
+        },
         {
           "representativeTitle": "UK to double steel tariffs to 50% to save plants from collapse",
           "sources": [
@@ -119,26 +139,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "angela-rayners-allies-say-hmrc-inquiry-set-to-be-resolved-before-may-elections"
-        },
-        {
-          "representativeTitle": "Starmer plans to ease impact of immigration policy changes after backlash from Labour MPs",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Starmer plans to ease impact of immigration policy changes after backlash from Labour MPs",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/mar/18/starmer-immigration-policy-labour-backlash",
-              "pubDate": "2026-03-18T19:43:22.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "starmer-plans-to-ease-impact-of-immigration-policy-changes-after-backlash-from-labour-mps"
         },
         {
           "representativeTitle": "The Guardian view on Rachel Reeves and the EU: the right ambition is held back by outdated red lines | Editorial",
@@ -541,26 +541,6 @@ export const newsData = {
           "slug": "irish-pm-dodges-potential-st-patricks-day-bruises-at-trump-meeting"
         },
         {
-          "representativeTitle": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against gov­ernment",
-          "sources": [
-            "Spectrum News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against gov­ernment",
-              "source": "Spectrum News",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbi1GNTl5MDhEcEZUVHg5UUlyRW9Rak13ZXUtc1BfWDJRTUFWRkJ0MlhUdG1Td0ZmMEc5U2ttMnBrQnozdF92d1lvQWpvRXdlQk44YzBDVExLZV9VUUlYd0ZfaHBhVDN6cS14bVlSSTMtNUwtRDVNYzJ2U0E5T3NHYUxyUjc5N1ljOHVWVS03bw?oc=5",
-              "pubDate": "2026-03-18T21:44:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "concern-anger-and-hope-simmer-in-cuba-after-trump-calls-for-imminent-action-against-government"
-        },
-        {
           "representativeTitle": "US Snubbed by Lula Government at Brazil Critical Minerals Summit",
           "sources": [
             "Bloomberg.com"
@@ -579,26 +559,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "us-snubbed-by-lula-government-at-brazil-critical-minerals-summit"
-        },
-        {
-          "representativeTitle": "Virginia joins national push for refunds after US Supreme Court voids Trump tariffs",
-          "sources": [
-            "Virginia Mercury"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Virginia joins national push for refunds after US Supreme Court voids Trump tariffs",
-              "source": "Virginia Mercury",
-              "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbDBQSTFVeFc1REtEOW12emFRZldXclFBVHBCaFpFalJSUFBPeWVLYk9NS0dXZEdwazBpTWhqZ1ppNVNIbDE1eUg3Sml0WWFyZ3Z0ZGc1OU9lNVVkcWNFMnNGZVluWFdxRXBaaDhWMlVVb2daM1hqbFRMMFBXNFcyNmlFN05aTjZJS0ltb1A0QXBSbkI1R2d4aUVUTXFTdllyTWhqS2t3N3ZLMWJJWGZhZFljbVNLWVp0S3RwZlZmd3E?oc=5",
-              "pubDate": "2026-03-18T18:21:28.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "virginia-joins-national-push-for-refunds-after-us-supreme-court-voids-trump-tariffs"
         },
         {
           "representativeTitle": "Delta CEO slams Washington over unpaid TSA agents, says front-line workers are being used as ‘political chips’",
@@ -649,6 +609,26 @@ export const newsData = {
           "slug": "israel-kills-irans-spy-chief-gabbard-says-government-is-intact-but-largely-degraded"
         },
         {
+          "representativeTitle": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against government",
+          "sources": [
+            "WRAL"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against government",
+              "source": "WRAL",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnRPSGYwM2hBbVpfTkpaVWlzZFpRbG5GSUhBNUFYNFZkc3N1eDN3aDdBLUhtbjIyNXhaV0VVTkxIYkdzNmhtRXV0X1lXZ013MW94NnhQTW5lNGwxTDdpMnJ0ZF9oRVF6cGpzX3JkQmo1Yi05bk5IOERNUGVQd3F4cnlUN09Tc3NseUQzTXZaVkxndFNoQS1DeFNRS2NBZGhPdTlB?oc=5",
+              "pubDate": "2026-03-18T22:15:46.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "concern-anger-and-hope-simmer-in-cuba-after-trump-calls-for-imminent-action-against-government"
+        },
+        {
           "representativeTitle": "Newsmax Executive Named as Voice of America’s Deputy",
           "sources": [
             "The New York Times"
@@ -669,26 +649,6 @@ export const newsData = {
           "slug": "newsmax-executive-named-as-voice-of-americas-deputy"
         },
         {
-          "representativeTitle": "WATCH: Gabbard, Ratcliffe and Patel testify on worldwide threats in Senate Intelligence hearing",
-          "sources": [
-            "PBS"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "WATCH: Gabbard, Ratcliffe and Patel testify on worldwide threats in Senate Intelligence hearing",
-              "source": "PBS",
-              "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUTh2dm12dDdWODJnQTlNSThYY1RLT1g4aHQ0UTRJY3JZZ1lCMW03TUVlelQ0d2d2NXRyVTVRYkdncE5CVzFSYTFHQnRGZURiUTVxeURqTERTek9ic1RKRElqNXhLRWl2VGc2dHlKT1RXU2tfZGoxUlpmZzZ0anVCaXh1bjBYWllzOHVmazJwV0VlX0ZQVmZKWklEalotQmxVd01VYUhLdkwwSm1nWUcyaVVyT1VsN2VrdHJMOC1ldVZjajlmVG9TSXhfbFVzQVNCMHfSAdcBQVVfeXFMT2lDOUVwNDNVc3p3YnowZnZ5alEzZGJIN2l3ZVNNLTNNcFJiSTFJODBJMGdobDFTZFM2bUxPVndLQTNsUUlJUENITjgzRkp2cXpZcVR0QkV2NWN2YlEtd21sQnlodXRIaVh0RW5MR1pBd203V0FQbVBad09WRnFWNkREUC1RTk16VHVONHdNSm53SXBPTzFPbDR2Z1Q5TVdid0FUTmpHeDc4TDN1S3FPUmVNWXJxQURUdTFQSExhVlpQWVl4TU5JeDFLSDNhZkJMQjdycXowNjg?oc=5",
-              "pubDate": "2026-03-18T13:05:42.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "watch-gabbard-ratcliffe-and-patel-testify-on-worldwide-threats-in-senate-intelligence-hearing"
-        },
-        {
           "representativeTitle": "Spain-US rift: Pedro Sánchez’ defiance of Trump is dictated by domestic politics – but it’s also a litmus test for Europe",
           "sources": [
             "The Conversation"
@@ -707,6 +667,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "spain-us-rift-pedro-snchez-defiance-of-trump-is-dictated-by-domestic-politics-but-its-also-a-litmus-test-for-europe"
+        },
+        {
+          "representativeTitle": "WATCH: Gabbard, Ratcliffe and Patel testify on worldwide threats in Senate Intelligence hearing",
+          "sources": [
+            "PBS"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "WATCH: Gabbard, Ratcliffe and Patel testify on worldwide threats in Senate Intelligence hearing",
+              "source": "PBS",
+              "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUTh2dm12dDdWODJnQTlNSThYY1RLT1g4aHQ0UTRJY3JZZ1lCMW03TUVlelQ0d2d2NXRyVTVRYkdncE5CVzFSYTFHQnRGZURiUTVxeURqTERTek9ic1RKRElqNXhLRWl2VGc2dHlKT1RXU2tfZGoxUlpmZzZ0anVCaXh1bjBYWllzOHVmazJwV0VlX0ZQVmZKWklEalotQmxVd01VYUhLdkwwSm1nWUcyaVVyT1VsN2VrdHJMOC1ldVZjajlmVG9TSXhfbFVzQVNCMHfSAdcBQVVfeXFMT2lDOUVwNDNVc3p3YnowZnZ5alEzZGJIN2l3ZVNNLTNNcFJiSTFJODBJMGdobDFTZFM2bUxPVndLQTNsUUlJUENITjgzRkp2cXpZcVR0QkV2NWN2YlEtd21sQnlodXRIaVh0RW5MR1pBd203V0FQbVBad09WRnFWNkREUC1RTk16VHVONHdNSm53SXBPTzFPbDR2Z1Q5TVdid0FUTmpHeDc4TDN1S3FPUmVNWXJxQURUdTFQSExhVlpQWVl4TU5JeDFLSDNhZkJMQjdycXowNjg?oc=5",
+              "pubDate": "2026-03-18T13:05:42.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "watch-gabbard-ratcliffe-and-patel-testify-on-worldwide-threats-in-senate-intelligence-hearing"
         },
         {
           "representativeTitle": "Opinion | Why Americans should welcome China’s rise in science",
@@ -789,6 +769,26 @@ export const newsData = {
           "slug": "tim-cook-on-backlash-against-his-relationship-with-the-us-government-says-i-focus-on-policy-so-i-am-ve"
         },
         {
+          "representativeTitle": "Cornyn reconsiders Senate filibuster as he and Paxton stay in runoff race",
+          "sources": [
+            "Spectrum News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Cornyn reconsiders Senate filibuster as he and Paxton stay in runoff race",
+              "source": "Spectrum News",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUFp6VGlUSmg1cWgxRHhRaEs4NHFuWk9VM2VDcEJEbXR2NDFjQnBiWjJLQTdrWVV0azNydTRRWWVUQjFZTDRZVmV0aHVfVG9IenB2b0p0UktfWXBHLWxqTi1INlN1d2h0bjRBdWdIYWt5ZzFrbmFwV3RPUjFHWWJva3pMbjV0elRvVE43QVZfVFdVSGI2ZlV2eWw4TkVQR014Y05LWnRnaVVNX0pLTEVVQ3ZB?oc=5",
+              "pubDate": "2026-03-18T13:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "cornyn-reconsiders-senate-filibuster-as-he-and-paxton-stay-in-runoff-race"
+        },
+        {
           "representativeTitle": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
           "sources": [
             "The New York Times"
@@ -838,7 +838,7 @@ export const newsData = {
             {
               "title": "Airports may close if government shutdown continues, TSA official warns",
               "source": "The Times",
-              "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPOTl6SnNnNkpfZFpDaXRFOUxaSXhfTzNKaDhMV0hBZ0dLdkp6TG4tM1B2T2FVWjNKakRqM3pnLXFOMnhLU05XNGk3cHVMajBadEdKNGRZLVZvaldLZDVzLWFiVGtHcG13d1lDdTdBeTM0V05PSHRXZDl2WWxtY19mV3hMcWI3SXc2UmJQUWltcXV0QS1NNEFBWEpWWFhrV2FnbjdzVDktclZHdlpjLTBFVW9KZFRBR0lITTFDQXNQelZxNDB3OWR4Y2JiUXVtdTFxaVBGaHJUa0QwZUl0NjM3RFo5dkxjaHJTbjNnSmhpVjhZVUl1MlBjTVJHYmpXY2JTRkpXV2pkYko5WVBibGhZNTYtR0dBbnZYWFlPSTR3N3hKYTFNZ2pVUVFqV1BzSFZQejVLSkQ3RnBkekJ4MTQ5VXpUX21OdGswbnpGV3NvV1lSLTlLVS1hNl9NN3gyQU9lWndWeFpoYldhVUVQQk5aajlyQkpYTkFGcXJUWkMzNjM4TFBNZC1DbTFqQjFRNWlLYlRhTFgxQzRDTXU3OEM4N3M1Slp6WlQ0bWFGNDZqUXQzQ05jb1M0aW1FVHQyZw?oc=5",
+              "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxQVms4N3JSTXl3WjN4X3RwOVpfX29hOFNqSHIxdkRjM0tMRHdGX2VabWxVVDhJcEFIdjNveFB6T2NBdnJ5dm56LXBnUlhCdnBYdXNCYmlTNjRPWkhlTW1yaGdVb3k1MWx3ZVdUb1AtYkVKdVZHcjRad2FiVW8zck9GbnhYZVRWVjJFQ2l2TVFMMmhaUnV2WXpMQTF3OHpmZmpibmxxa3VENDZQZFBRVXJMNmtHU185Z3NHbFRGMml0ME9nYkluRF9nM3A3UEtMelZzM29TbnVuNFhTRDRLbi1ST1YzQkU1eUtQYlhvdk9Wc29hMng3ZEZ4cnV1OERmZnNoazdnOTUyTE92aXdTTmhYVDhMOXpuYU83MlZsVDdISjBSZW13RTA1VHA3SVphNEJXNDhWVGgwcXRZZFQyczR0Yk9GLUVVczBfemtRc1dEMDE2aHRqanNLM1RjMlhxSzBrQUt0QjZQSkFVdEo3dHhDeUNsRElyQld3VHpBZDRWakllZGdsU1R4ZjJWTVJoX0JGNzFVSTV3b1BWSzNLbEd5M2tMejlMcjJ3eG1uNHdFVWY0VWE3Qkc1Rmk4RnNzUQ?oc=5",
               "pubDate": "2026-03-18T15:05:26.000Z",
               "tier": 2
             }
@@ -851,13 +851,13 @@ export const newsData = {
         {
           "representativeTitle": "US, Venezuela to restore diplomatic ties",
           "sources": [
-            "DW.com"
+            "dw.com"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
               "title": "US, Venezuela to restore diplomatic ties",
-              "source": "DW.com",
+              "source": "dw.com",
               "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjWEhtVjNXeHhHc1F0U0JKNXRtdnJzZmM4ZmxVUmJpeUJ1cEVqV3AxS1BtV1NfamxlUlZMYzU1TExrRVNrZEtNZTBJXzNISWFGcHVVaWw1RV9McVRNT2otZGVBa2pJR1dNQXRET0dBUG9ObHJRUW5WZDhIbl_SAXxBVV95cUxPVjF2VE9fS3JjTkxxTXI2S0s3ZXlmZXZ4MUl3U0U5R1BWOGdQdm9lREpLSGlVb1ZHTVRpc0NhNFBEaG5nOWhFTFhrZ1FMLTladDFKXzZ0bktydHo4NmZIaV93VExUcGlvWU9QYWVpSWNwbVo1dWxxU1JqU0tW?oc=5",
               "pubDate": "2026-03-18T11:07:01.000Z",
               "tier": 2
@@ -907,26 +907,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "government-shutdown-sparks-new-round-of-partisan-fingerpointing"
-        },
-        {
-          "representativeTitle": "Chile Digs Its Desert Line as Latin America Shifts Right",
-          "sources": [
-            "LatinAmerican Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Chile Digs Its Desert Line as Latin America Shifts Right",
-              "source": "LatinAmerican Post",
-              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcTRTTW1COVY1b3FiVTZ1enlwUzRFYUJjR3VodDZncWV4bTJ4MTdrT01zeTVZV0hwZlNkODRJQUExWmZFeDA5NDdKMmxEWHp1Z1ZFczQyc2JfNU9DNzVrMEJjTFJaUUV3d2ZmNmdZaGxfWjJEcDdWN2dScW1UTWlfWkxRa0hnejFxYUZzWU1mTnNoeHpTb2I1MkU1Q3hSd0tLV0owZ3hMaTJNbFFHYkpxQkZyMUhJMks5VnI0ZXpR?oc=5",
-              "pubDate": "2026-03-18T19:02:58.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "chile-digs-its-desert-line-as-latin-america-shifts-right"
         }
       ]
     },
@@ -1297,7 +1277,7 @@ export const newsData = {
               "title": "Iran inflicts ‘extensive damage’ on site of world’s largest LNG facility in Qatar",
               "source": "Financial Times",
               "link": "https://www.ft.com/content/e3814e6f-a1c9-4ad4-b449-c14064d58f42",
-              "pubDate": "2026-03-18T23:04:42.000Z",
+              "pubDate": "2026-03-19T05:59:51.000Z",
               "tier": 1
             }
           ],
@@ -1531,6 +1511,26 @@ export const newsData = {
     {
       "name": "Technology",
       "children": [
+        {
+          "representativeTitle": "Two Palantir veterans just came out of stealth with $30 million and a Sequoia stamp of approval",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Two Palantir veterans just came out of stealth with $30 million and a Sequoia stamp of approval",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/03/18/two-palantir-veterans-just-came-out-of-stealth-with-30-million-and-a-sequoia-stamp-of-approval/",
+              "pubDate": "2026-03-19T06:11:53.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "two-palantir-veterans-just-came-out-of-stealth-with-30-million-and-a-sequoia-stamp-of-approval"
+        },
         {
           "representativeTitle": "Meta is having trouble with rogue AI agents",
           "sources": [
@@ -2065,6 +2065,34 @@ export const newsData = {
       "name": "World",
       "children": [
         {
+          "representativeTitle": "How the Iran war has left Europe facing yet another energy crisis",
+          "sources": [
+            "BBC World",
+            "BBC World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "How the Iran war has left Europe facing yet another energy crisis",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/c24de9e97vno?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-19T05:59:49.000Z",
+              "tier": 1
+            },
+            {
+              "title": "The Iran war is causing a global energy crisis",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/cyv9lzn0816o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-18T23:31:03.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 75,
+          "slug": "how-the-iran-war-has-left-europe-facing-yet-another-energy-crisis"
+        },
+        {
           "representativeTitle": "US intelligence chief says Iran's regime 'intact' but 'degraded'",
           "sources": [
             "BBC World"
@@ -2083,26 +2111,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "us-intelligence-chief-says-irans-regime-intact-but-degraded"
-        },
-        {
-          "representativeTitle": "Iran's intelligence minister Esmail Khatib killed in air strike",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran's intelligence minister Esmail Khatib killed in air strike",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/c2d1dz14k51o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T17:05:46.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "irans-intelligence-minister-esmail-khatib-killed-in-air-strike"
         },
         {
           "representativeTitle": "One killed as ski gondola crashes down mountain at Swiss resort",
@@ -2191,6 +2199,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 65,
           "slug": "dolores-huerta-sexual-violence-survivors-speak-out-against-cesar-chavez"
+        },
+        {
+          "representativeTitle": "Iran's intelligence minister Esmail Khatib killed in air strike",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Iran's intelligence minister Esmail Khatib killed in air strike",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/c2d1dz14k51o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-18T17:05:46.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "irans-intelligence-minister-esmail-khatib-killed-in-air-strike"
         },
         {
           "representativeTitle": "Oil crosses $110 a barrel after gas field strike",
@@ -2353,52 +2381,24 @@ export const newsData = {
           "slug": "russian-archaeologist-can-be-sent-to-ukraine-for-trial-polish-judge-rules"
         },
         {
-          "representativeTitle": "Prosecutors seek more than seven years in jail for son of Norway’s crown princess",
-          "sources": [
-            "BBC World",
-            "The Guardian"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Norway prosecutor asks for seven years' jail for crown princess's son in rape trial",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/c74741pgleko?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T12:44:12.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Prosecutors seek more than seven years in jail for son of Norway’s crown princess",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/18/norway-prosecutors-seek-jail-sentence-son-crown-princess-marius-borg-hoiby",
-              "pubDate": "2026-03-18T14:57:55.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "prosecutors-seek-more-than-seven-years-in-jail-for-son-of-norways-crown-princess"
-        },
-        {
-          "representativeTitle": "The Iran war is causing a global energy crisis",
+          "representativeTitle": "South Africans say criminal gangs are exploiting the water crisis",
           "sources": [
             "BBC World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "The Iran war is causing a global energy crisis",
+              "title": "South Africans say criminal gangs are exploiting the water crisis",
               "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/cyv9lzn0816o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T23:31:03.000Z",
+              "link": "https://www.bbc.com/news/articles/cvg3gjx22j0o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-19T06:01:49.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "the-iran-war-is-causing-a-global-energy-crisis"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "south-africans-say-criminal-gangs-are-exploiting-the-water-crisis"
         },
         {
           "representativeTitle": "Afghan evacuees in limbo in Qatar camp accuse US of betrayal",
@@ -2519,26 +2519,6 @@ export const newsData = {
           "relevance_score": 2,
           "importance": 25,
           "slug": "famous-iditarod-dog-sled-race-ends-in-repeat-win-for-jessie-holmes"
-        },
-        {
-          "representativeTitle": "Venezuelans in Miami and Caracas celebrate historic WBC victory over USA",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Venezuelans in Miami and Caracas celebrate historic WBC victory over USA",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/videos/c3wlw788glvo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T14:40:06.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.9,
-          "relevance_score": 5,
-          "importance": 40,
-          "slug": "venezuelans-in-miami-and-caracas-celebrate-historic-wbc-victory-over-usa"
         },
         {
           "representativeTitle": "Jihadist violence in Nigeria and DRC rose sharply last year even as global deaths from terror fell",
@@ -2711,7 +2691,7 @@ export const newsData = {
               "title": "Australia news live: Tropical Cyclone Narelle forecast to hit far north Queensland three hours earlier than expected; ASX plunges amid Iran war",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/live/2026/mar/19/australia-news-live-jim-chalmers-tax-inflation-budget-cost-of-living-war-fuel-crisis-shortage-inflation-cyclone-narelle-queensland-ntwnfb",
-              "pubDate": "2026-03-19T05:14:22.000Z",
+              "pubDate": "2026-03-19T06:13:01.000Z",
               "tier": 1
             }
           ],
@@ -2721,24 +2701,44 @@ export const newsData = {
           "slug": "australia-news-live-tropical-cyclone-narelle-forecast-to-hit-far-north-queensland-three-hours-earlier-than-expected-asx-plunges-amid-iran-war"
         },
         {
-          "representativeTitle": "Power bills expected to fall by up to 10% from July, bringing ‘welcome relief’ to Australia’s east coast",
+          "representativeTitle": "Power prices expected to fall by up to 10% from July, bringing ‘welcome relief’ to Australia’s east coast",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Power bills expected to fall by up to 10% from July, bringing ‘welcome relief’ to Australia’s east coast",
+              "title": "Power prices expected to fall by up to 10% from July, bringing ‘welcome relief’ to Australia’s east coast",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/2026/mar/19/power-bills-on-australias-east-coast-expected-to-fall-by-up-to-10-from-july-bringing-welcome-relief",
-              "pubDate": "2026-03-19T05:00:26.000Z",
+              "pubDate": "2026-03-19T06:06:12.000Z",
               "tier": 1
             }
           ],
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "power-bills-expected-to-fall-by-up-to-10-from-july-bringing-welcome-relief-to-australias-east-coast"
+          "slug": "power-prices-expected-to-fall-by-up-to-10-from-july-bringing-welcome-relief-to-australias-east-coast"
+        },
+        {
+          "representativeTitle": "Tropical Cyclone Narelle to make landfall in far north Qld on Friday as category four storm, bringing 200km/h winds",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Tropical Cyclone Narelle to make landfall in far north Qld on Friday as category four storm, bringing 200km/h winds",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/mar/19/tropical-cyclone-narelle-qld-storm-tracker-path-tracking-map-bom",
+              "pubDate": "2026-03-19T05:50:49.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "tropical-cyclone-narelle-to-make-landfall-in-far-north-qld-on-friday-as-category-four-storm-bringing-200kmh-winds"
         },
         {
           "representativeTitle": "Possum found nestled in with plush toys at airport gift shop in Tasmania",
@@ -2821,6 +2821,26 @@ export const newsData = {
           "slug": "the-eus-hungary-problem-wont-be-solved-even-if-viktor-orbn-is-ousted"
         },
         {
+          "representativeTitle": "Prosecutors seek more than seven years in jail for son of Norway’s crown princess",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Prosecutors seek more than seven years in jail for son of Norway’s crown princess",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/mar/18/norway-prosecutors-seek-jail-sentence-son-crown-princess-marius-borg-hoiby",
+              "pubDate": "2026-03-18T14:57:55.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "prosecutors-seek-more-than-seven-years-in-jail-for-son-of-norways-crown-princess"
+        },
+        {
           "representativeTitle": "Middle East crisis live: Trump threatens to ‘blow up’ entire South Pars gasfield if Iran strikes Qatar",
           "sources": [
             "The Guardian"
@@ -2831,7 +2851,7 @@ export const newsData = {
               "title": "Middle East crisis live: Trump threatens to ‘blow up’ entire South Pars gasfield if Iran strikes Qatar",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/live/2026/mar/19/iran-war-live-updates-oil-prices-gas-field-strikes-pentagon-more-funds-trump-news",
-              "pubDate": "2026-03-19T05:01:29.000Z",
+              "pubDate": "2026-03-19T06:13:51.000Z",
               "tier": 1
             }
           ],
@@ -2921,6 +2941,26 @@ export const newsData = {
           "slug": "us-and-israels-strategy-to-kill-irans-top-figures-may-prove-counterproductive"
         },
         {
+          "representativeTitle": "‘Waiting for days’: India feels impact of gas supply chain disruption amid Iran conflict",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘Waiting for days’: India feels impact of gas supply chain disruption amid Iran conflict",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/mar/19/india-liquefied-petroleum-gas-lpg-supply-chain-disruption-iran-conflict",
+              "pubDate": "2026-03-19T06:00:01.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "waiting-for-days-india-feels-impact-of-gas-supply-chain-disruption-amid-iran-conflict"
+        },
+        {
           "representativeTitle": "Pakistan to pause Afghan strikes for Eid, two days after deadly Kabul attack",
           "sources": [
             "The Guardian"
@@ -2939,26 +2979,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "pakistan-to-pause-afghan-strikes-for-eid-two-days-after-deadly-kabul-attack"
-        },
-        {
-          "representativeTitle": "UK banks keep £100 limit for contactless card payments despite FCA scrapping it",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "UK banks keep £100 limit for contactless card payments despite FCA scrapping it",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/money/2026/mar/19/uk-banks-keep-100-limit-for-contactless-card-payments-despite-fca-scrapping-it",
-              "pubDate": "2026-03-19T05:00:58.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "uk-banks-keep-100-limit-for-contactless-card-payments-despite-fca-scrapping-it"
         },
         {
           "representativeTitle": "US intelligence agencies not expecting China to invade Taiwan in 2027",
@@ -3760,26 +3780,6 @@ export const newsData = {
           "relevance_score": 4,
           "importance": 35,
           "slug": "butterflies-crossing-oceans-moths-navigating-by-the-stars-unravelling-the-mysteries-of-insect-migrations"
-        },
-        {
-          "representativeTitle": "Plantwatch: the Natal crocus co-opts fire, bees and ants to reproduce",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Plantwatch: the Natal crocus co-opts fire, bees and ants to reproduce",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/science/2026/mar/18/plantwatch-the-natal-crocus-co-opts-fire-bees-and-ants-to-reproduce",
-              "pubDate": "2026-03-18T06:00:24.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 2,
-          "importance": 25,
-          "slug": "plantwatch-the-natal-crocus-co-opts-fire-bees-and-ants-to-reproduce"
         },
         {
           "representativeTitle": "GLP-1 diabetes drugs could stop anxiety and depression worsening, study finds",
