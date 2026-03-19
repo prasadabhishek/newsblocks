@@ -1,10 +1,77 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-19T15:18:41.527Z",
+  "lastUpdated": "2026-03-19T16:20:55.030Z",
   "children": [
     {
       "name": "Politics",
       "children": [
+        {
+          "representativeTitle": "Farage backs Tory attack on Muslim iftar event, saying public prayer ‘was a shock’ – UK politics live",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Farage backs Tory attack on Muslim iftar event, saying public prayer ‘was a shock’ – UK politics live",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/live/2026/mar/19/labour-eu-iran-covid-local-elections-meningitis-latest-news-updates",
+              "pubDate": "2026-03-19T16:09:17.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Farage backs Tory attack on Muslim iftar event, saying public prayer ‘was a shock’ – UK politics live",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/live/2026/mar/19/labour-eu-iran-covid-local-elections-meningitis-latest-news-updates",
+              "pubDate": "2026-03-19T15:47:56.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "farage-backs-tory-attack-on-muslim-iftar-event-saying-public-prayer-was-a-shock-uk-politics-live"
+        },
+        {
+          "representativeTitle": "Essex police pause facial recognition camera use after study finds racial bias",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Essex police pause facial recognition camera use after study finds racial bias",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/technology/2026/mar/19/essex-police-pause-facial-recognition-camera-use-study-racial-bias",
+              "pubDate": "2026-03-19T15:26:54.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "essex-police-pause-facial-recognition-camera-use-after-study-finds-racial-bias"
+        },
+        {
+          "representativeTitle": "NHS was ‘on brink of collapse’ during pandemic, Covid inquiry finds",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "NHS was ‘on brink of collapse’ during pandemic, Covid inquiry finds",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/society/2026/mar/19/superhuman-healthcare-workers-saved-nhs-from-collapse-covid-inquiry-concludes",
+              "pubDate": "2026-03-19T15:12:34.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "nhs-was-on-brink-of-collapse-during-pandemic-covid-inquiry-finds"
+        },
         {
           "representativeTitle": "Nigel Farage stops accepting Cameo requests after revelations about his use of platform",
           "sources": [
@@ -24,26 +91,6 @@ export const newsData = {
           "relevance_score": 2,
           "importance": 25,
           "slug": "nigel-farage-stops-accepting-cameo-requests-after-revelations-about-his-use-of-platform"
-        },
-        {
-          "representativeTitle": "Badenoch offers new explanation for Tory attack on Muslim event, saying party objecting to gender segregation – UK politics live",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Badenoch offers new explanation for Tory attack on Muslim event, saying party objecting to gender segregation – UK politics live",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/live/2026/mar/19/labour-eu-iran-covid-local-elections-meningitis-latest-news-updates",
-              "pubDate": "2026-03-19T14:56:29.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "badenoch-offers-new-explanation-for-tory-attack-on-muslim-event-saying-party-objecting-to-gender-segregation-uk-politics-live"
         },
         {
           "representativeTitle": "Some of the world’s poorest countries to lose UK aid due to 56% budget cut",
@@ -125,54 +172,6 @@ export const newsData = {
           "relevance_score": 3,
           "importance": 40,
           "slug": "british-schoolgirl-stranded-in-denmark-after-return-flight-blocked-over-uk-border-rules"
-        },
-        {
-          "representativeTitle": "House of Lords backs bid to decriminalise abortion",
-          "sources": [
-            "The Guardian",
-            "BBC News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Lords vote to back clause pardoning women convicted over illegal abortions",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/mar/19/peers-vote-to-back-clause-pardoning-women-convicted-over-abortions",
-              "pubDate": "2026-03-19T12:53:35.000Z",
-              "tier": 1
-            },
-            {
-              "title": "House of Lords backs bid to decriminalise abortion",
-              "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/cp323zpxp11o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-19T08:47:28.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 65,
-          "slug": "house-of-lords-backs-bid-to-decriminalise-abortion"
-        },
-        {
-          "representativeTitle": "NHS was ‘on brink of collapse’ during pandemic, Covid inquiry finds",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "NHS was ‘on brink of collapse’ during pandemic, Covid inquiry finds",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/society/2026/mar/19/superhuman-healthcare-workers-saved-nhs-from-collapse-covid-inquiry-concludes",
-              "pubDate": "2026-03-19T12:01:15.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "nhs-was-on-brink-of-collapse-during-pandemic-covid-inquiry-finds"
         },
         {
           "representativeTitle": "Spending more on defence and less on aid does not mean walking away from our values and responsibilities – here’s why | Yvette Cooper",
@@ -295,26 +294,6 @@ export const newsData = {
           "slug": "as-trump-shows-lack-of-direction-on-iran-even-badenoch-distances-herself"
         },
         {
-          "representativeTitle": "Polanski positions Greens’ economic policy as radical alternative to Reeves",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Polanski positions Greens’ economic policy as radical alternative to Reeves",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/mar/18/zack-polanski-greens-economic-policy-reeves-taxes-labour",
-              "pubDate": "2026-03-18T15:45:59.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "polanski-positions-greens-economic-policy-as-radical-alternative-to-reeves"
-        },
-        {
           "representativeTitle": "Ben Jennings on Nigel Farage’s content creation – cartoon",
           "sources": [
             "The Guardian"
@@ -353,6 +332,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "tories-only-party-with-a-plan-says-badenoch-as-she-launches-election-campaign"
+        },
+        {
+          "representativeTitle": "UK reveals aid priorities after major cuts to budget",
+          "sources": [
+            "BBC News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "UK reveals aid priorities after major cuts to budget",
+              "source": "BBC News",
+              "link": "https://www.bbc.com/news/articles/cew7ll9v0wqo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-19T15:20:05.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "uk-reveals-aid-priorities-after-major-cuts-to-budget"
         },
         {
           "representativeTitle": "Police investigating bailout email from Mandelson to Epstein",
@@ -403,24 +402,44 @@ export const newsData = {
           "slug": "cyprus-leader-calls-for-frank-discussion-on-colonial-uk-bases"
         },
         {
-          "representativeTitle": "Bank of England 'ready to act' as it warns Iran war 'shock' will push up inflation",
+          "representativeTitle": "Bank ready to raise interest rates if Iran war price 'shock' persists",
           "sources": [
             "BBC News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Bank of England 'ready to act' as it warns Iran war 'shock' will push up inflation",
+              "title": "Bank ready to raise interest rates if Iran war price 'shock' persists",
               "source": "BBC News",
               "link": "https://www.bbc.com/news/articles/c8d5dee3ep8o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-19T14:09:49.000Z",
+              "pubDate": "2026-03-19T15:44:09.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 9,
           "importance": 60,
-          "slug": "bank-of-england-ready-to-act-as-it-warns-iran-war-shock-will-push-up-inflation"
+          "slug": "bank-ready-to-raise-interest-rates-if-iran-war-price-shock-persists"
+        },
+        {
+          "representativeTitle": "Sadiq Khan says Labour should pledge to rejoin EU",
+          "sources": [
+            "BBC News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Sadiq Khan says Labour should pledge to rejoin EU",
+              "source": "BBC News",
+              "link": "https://www.bbc.com/news/articles/c62g2e08jpno?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-19T07:10:33.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "sadiq-khan-says-labour-should-pledge-to-rejoin-eu"
         },
         {
           "representativeTitle": "Starmer meets Nigerian president as record steel deal agreed",
@@ -443,24 +462,24 @@ export const newsData = {
           "slug": "starmer-meets-nigerian-president-as-record-steel-deal-agreed"
         },
         {
-          "representativeTitle": "Sadiq Khan says Labour should pledge to rejoin EU",
+          "representativeTitle": "House of Lords backs bid to decriminalise abortion",
           "sources": [
             "BBC News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Sadiq Khan says Labour should pledge to rejoin EU",
+              "title": "House of Lords backs bid to decriminalise abortion",
               "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/c62g2e08jpno?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-19T07:10:33.000Z",
+              "link": "https://www.bbc.com/news/articles/cp323zpxp11o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-19T08:47:28.000Z",
               "tier": 1
             }
           ],
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "sadiq-khan-says-labour-should-pledge-to-rejoin-eu"
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "house-of-lords-backs-bid-to-decriminalise-abortion"
         },
         {
           "representativeTitle": "UK sets target to boost steel making and cut imports",
@@ -501,26 +520,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "pay-grows-at-slowest-rate-in-more-than-five-years"
-        },
-        {
-          "representativeTitle": "Rayner warns immigration reforms risk being 'un-British'",
-          "sources": [
-            "BBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Rayner warns immigration reforms risk being 'un-British'",
-              "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/c7434xv1pmeo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T15:52:20.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "rayner-warns-immigration-reforms-risk-being-un-british"
         },
         {
           "representativeTitle": "King praises 'living bridge' with Nigeria at glitzy banquet",
@@ -623,26 +622,6 @@ export const newsData = {
           "slug": "nearly-400-firms-fined-over-failure-to-pay-minimum-wage"
         },
         {
-          "representativeTitle": "Irish PM dodges potential St Patrick's Day bruises at Trump meeting",
-          "sources": [
-            "BBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Irish PM dodges potential St Patrick's Day bruises at Trump meeting",
-              "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/c0k1k3r7dxko?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T15:31:13.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "irish-pm-dodges-potential-st-patricks-day-bruises-at-trump-meeting"
-        },
-        {
           "representativeTitle": "The insane government shutdown | Byron York",
           "sources": [
             "Santa Maria Times"
@@ -713,7 +692,7 @@ export const newsData = {
               "title": "Alien.gov launched by Homeland Security. What we know about new website.",
               "source": "USA Today",
               "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc0taUGx2YU9LM3Y5Rm1oVW1FLVN3UEhGOFd1ZzZKR3FCTUZ5OGV1bVk1aGUxR2VIUS04RzdzVjhPbGJ1MTVLT1VQTEt0ZHAyRVZmb1JkUGpOV2ZDTFhGdXNEM2N5RUVhcllpWGZwRXMxaWl6ZHFqa0ZSNWgxa0I4Z3BCSkU0dXBjMTRwU1pWcThFUzJkWFBzTUptME1yYnN3MlBuclR4MDhIeHhn?oc=5",
-              "pubDate": "2026-03-19T15:00:34.000Z",
+              "pubDate": "2026-03-19T14:54:37.000Z",
               "tier": 2
             }
           ],
@@ -763,24 +742,24 @@ export const newsData = {
           "slug": "vance-defends-trump-agenda-in-michigan"
         },
         {
-          "representativeTitle": "Delta CEO slams Washington over unpaid TSA agents, says front-line workers are being used as ‘political chips’",
+          "representativeTitle": "Japan's Takaichi arrives in U.S. to meet Trump amid Mideast conflict",
           "sources": [
-            "Fortune"
+            "Qazinform"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Delta CEO slams Washington over unpaid TSA agents, says front-line workers are being used as ‘political chips’",
-              "source": "Fortune",
-              "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORnBjZUw3VngyMEhTcXRJU3NVenI3YVo0ckh2REh0dkl0VFFKZ1BOZklLam5MclJ0a3RqWE9mNGQ4TzJpazFsbGJxemlQcFg1TFJ1cGl4b3g3NWp5NHdXTWdGM0xVMWpVT0szZm5INjBROTRNbTNMQ0dpOFVQQTdlcnlSZlJyODZYazh6LVpVaFhoY01laVJ6Q3A2QUpCbXQ4ZEpiUDRFblk1VjFaN05idkRSc19HZlIyYVMyU2NQS3RUb0dnejB6aVhFTmhPaDRMb1MtRFV3?oc=5",
-              "pubDate": "2026-03-18T19:32:00.000Z",
+              "title": "Japan's Takaichi arrives in U.S. to meet Trump amid Mideast conflict",
+              "source": "Qazinform",
+              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTjM2cHFlTl9feTg1OG9HSXlfZlU1YU80WHNFQWFhMHJrTnl6bGxsSmZtYnUxMFdRbXZtSDhTSHRuUURJSkdFM3ByV3ZOc2hyZWM2TDViczJoTGhXU2tJdWk3WURWYUQxeGU3XzhDWXBlYW1aVzNhSVBaaHA3Z0FSM0NaUjBWckFCSEdQQ28zZU5PdzdQOEwzTXJjUk5rX0tf0gGgAUFVX3lxTE5OMzZwcWVOX195ODU4b0dJeV9mVTVhTzRYc0VBYWEwcmtOeXpsbGxKZm1idTEwV1Ftdm1IOFNIdG5RRElKR0UzcHJXdk5zaHJlYzZMNWJzMmhMaFdTa0l1aTdZRFZhRDF4ZTdfOENZcGVhbVpXM2FJUFpocDdnQVIzQ1pSMFZyQUJIR1BDbzNlTk93N1A4TDNNcmNSTmtfS18?oc=5",
+              "pubDate": "2026-03-19T11:01:20.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "delta-ceo-slams-washington-over-unpaid-tsa-agents-says-front-line-workers-are-being-used-as-political-chips"
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "japans-takaichi-arrives-in-us-to-meet-trump-amid-mideast-conflict"
         },
         {
           "representativeTitle": "US Snubbed by Lula Government at Brazil Critical Minerals Summit",
@@ -801,6 +780,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "us-snubbed-by-lula-government-at-brazil-critical-minerals-summit"
+        },
+        {
+          "representativeTitle": "Delta CEO slams Washington over unpaid TSA agents, says front-line workers are being used as ‘political chips’",
+          "sources": [
+            "Fortune"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Delta CEO slams Washington over unpaid TSA agents, says front-line workers are being used as ‘political chips’",
+              "source": "Fortune",
+              "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORnBjZUw3VngyMEhTcXRJU3NVenI3YVo0ckh2REh0dkl0VFFKZ1BOZklLam5MclJ0a3RqWE9mNGQ4TzJpazFsbGJxemlQcFg1TFJ1cGl4b3g3NWp5NHdXTWdGM0xVMWpVT0szZm5INjBROTRNbTNMQ0dpOFVQQTdlcnlSZlJyODZYazh6LVpVaFhoY01laVJ6Q3A2QUpCbXQ4ZEpiUDRFblk1VjFaN05idkRSc19HZlIyYVMyU2NQS3RUb0dnejB6aVhFTmhPaDRMb1MtRFV3?oc=5",
+              "pubDate": "2026-03-18T19:32:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "delta-ceo-slams-washington-over-unpaid-tsa-agents-says-front-line-workers-are-being-used-as-political-chips"
         },
         {
           "representativeTitle": "The Quietest Government Shutdown",
@@ -843,26 +842,6 @@ export const newsData = {
           "slug": "israel-kills-irans-spy-chief-gabbard-says-government-is-intact-but-largely-degraded"
         },
         {
-          "representativeTitle": "Newsmax Executive Named as Voice of America’s Deputy",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Newsmax Executive Named as Voice of America’s Deputy",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWjJ1YUgyLXl0d0VmaE54ZDdwX256QV8tOURORDRWQ3lOX1BfUEVodUs0R0Z2MlZaX2cyXzAtTEg1cnF4a0k3WXR0Z0dmdERUOGI2VzZQUkR5Z2FrOGg4bm1jUS1mRlE2a3dGT1JOUUNwSHV3MFdtMnN1UHNBODZnV2RkMURsQQ?oc=5",
-              "pubDate": "2026-03-19T02:04:50.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "newsmax-executive-named-as-voice-of-americas-deputy"
-        },
-        {
           "representativeTitle": "Trump news at a glance: president’s war on Iran is putting billions on the US till",
           "sources": [
             "The Guardian"
@@ -881,46 +860,6 @@ export const newsData = {
           "relevance_score": 10,
           "importance": 55,
           "slug": "trump-news-at-a-glance-presidents-war-on-iran-is-putting-billions-on-the-us-till"
-        },
-        {
-          "representativeTitle": "Political scientist to discuss the ‘U.S.-China AI Race’",
-          "sources": [
-            "Delaware Gazette"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Political scientist to discuss the ‘U.S.-China AI Race’",
-              "source": "Delaware Gazette",
-              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd0Exel9ZUUdob0VGUzFyVU9fUGM1dVg5MFFnMVF0WGpuNEZKcmtsUDFraEh2SXkxWVEwTzZYeGFuUWF3MktMS0R6bWtfaXF1UV9KR3AwQXJGS3NjdGw4YW5VclZfd3dad1dUSGlMVGRJOS1pWGR3bHRjVUlzU2RsMGRIQ1FIUkJQN2JjTkUxMzNEM3EyY3c?oc=5",
-              "pubDate": "2026-03-19T10:45:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "political-scientist-to-discuss-the-us-china-ai-race"
-        },
-        {
-          "representativeTitle": "Japan rejects U.S. report calling PM’s remarks over Taiwan ‘a significant shift’",
-          "sources": [
-            "The Japan Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Japan rejects U.S. report calling PM’s remarks over Taiwan ‘a significant shift’",
-              "source": "The Japan Times",
-              "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMlUzcC01cjNRelAwcy0yVHNyaEdJSklOWXFROHoyTGhnbHhlLU9JcldfQ1B2ZW1EX0N6dFROMEpHLVBORlZPRE1tNEJnamVmVDFfYTBZSTZQdmVnaXNWRjlEbVlCQ1czMHBPdTE5Mm0zSGpocjJyY1BiXzR5dXdvMkRTX284TWFqMElnYXVvekVqbU9sc3M0?oc=5",
-              "pubDate": "2026-03-19T06:14:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "japan-rejects-us-report-calling-pms-remarks-over-taiwan-a-significant-shift"
         },
         {
           "representativeTitle": "Dallas One of Many U.S. Cities Rocked by Report of Cesar Chavez Sexual Abuse",
@@ -943,24 +882,24 @@ export const newsData = {
           "slug": "dallas-one-of-many-us-cities-rocked-by-report-of-cesar-chavez-sexual-abuse"
         },
         {
-          "representativeTitle": "US national debt surges past $39T just weeks into war in Iran",
+          "representativeTitle": "Japan rejects U.S. report calling PM’s remarks over Taiwan ‘a significant shift’",
           "sources": [
-            "Las Vegas Review-Journal"
+            "The Japan Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US national debt surges past $39T just weeks into war in Iran",
-              "source": "Las Vegas Review-Journal",
-              "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVk5CVFBPWmFnV1RUQ0JxdlhyNDd0NUszZEtRYjF3T2pad29mQXpzUHZ6emZWS3Rib1F4YnFLTmhCWlJmV0JHaG9yX01RQ0VhTVpxNUNNQ0lRc0I1VmlUTGprcXljMTZTSG50NzJtUkNtQXcyWHdjOGZfUFVOd3hEUVpKcDEzNUJfdWZfa3E4RmZzM2p3UDV3TldONnFsYTJrS0ZfRGlGbWNLZGNaSTFlSEVUUGFLQjNRVlRxaXMxcUwtdkJWdm44?oc=5",
-              "pubDate": "2026-03-18T22:09:50.000Z",
+              "title": "Japan rejects U.S. report calling PM’s remarks over Taiwan ‘a significant shift’",
+              "source": "The Japan Times",
+              "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMlUzcC01cjNRelAwcy0yVHNyaEdJSklOWXFROHoyTGhnbHhlLU9JcldfQ1B2ZW1EX0N6dFROMEpHLVBORlZPRE1tNEJnamVmVDFfYTBZSTZQdmVnaXNWRjlEbVlCQ1czMHBPdTE5Mm0zSGpocjJyY1BiXzR5dXdvMkRTX284TWFqMElnYXVvekVqbU9sc3M0?oc=5",
+              "pubDate": "2026-03-19T06:14:00.000Z",
               "tier": 2
             }
           ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 55,
-          "slug": "us-national-debt-surges-past-39t-just-weeks-into-war-in-iran"
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "japan-rejects-us-report-calling-pms-remarks-over-taiwan-a-significant-shift"
         },
         {
           "representativeTitle": "Cuba’s leader says US aggression would meet ‘impregnable resistance’",
@@ -983,24 +922,64 @@ export const newsData = {
           "slug": "cubas-leader-says-us-aggression-would-meet-impregnable-resistance"
         },
         {
-          "representativeTitle": "Bondi Doesn’t Commit to Deposition With House Panel Over Epstein Files",
+          "representativeTitle": "US national debt surges past $39T just weeks into war in Iran",
           "sources": [
-            "The New York Times"
+            "Las Vegas Review-Journal"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Bondi Doesn’t Commit to Deposition With House Panel Over Epstein Files",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWE01X2ozUmtsNEdfQTFmc3pUQnVhYUYzUzN0eERUNUdyTGxtVGZCdk52dUg2Sk9STkwyNEhMek02VThXeWgzRXpObnFUN1NzelA3MmdfMGptMEJGNkI4SnFBenpGU0JXa2NfWTBRWXpWX19HQ01EdWpRT2Rxbm9oRURIVGdpaDRfNWVRaHBwTnUydmxUZnc?oc=5",
-              "pubDate": "2026-03-19T01:33:43.000Z",
+              "title": "US national debt surges past $39T just weeks into war in Iran",
+              "source": "Las Vegas Review-Journal",
+              "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVk5CVFBPWmFnV1RUQ0JxdlhyNDd0NUszZEtRYjF3T2pad29mQXpzUHZ6emZWS3Rib1F4YnFLTmhCWlJmV0JHaG9yX01RQ0VhTVpxNUNNQ0lRc0I1VmlUTGprcXljMTZTSG50NzJtUkNtQXcyWHdjOGZfUFVOd3hEUVpKcDEzNUJfdWZfa3E4RmZzM2p3UDV3TldONnFsYTJrS0ZfRGlGbWNLZGNaSTFlSEVUUGFLQjNRVlRxaXMxcUwtdkJWdm44?oc=5",
+              "pubDate": "2026-03-18T22:09:50.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 55,
+          "slug": "us-national-debt-surges-past-39t-just-weeks-into-war-in-iran"
+        },
+        {
+          "representativeTitle": "Tulsi Gabbard says Iran’s government still intact but refuses to discuss talks with Trump about war",
+          "sources": [
+            "WAVY.com"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Tulsi Gabbard says Iran’s government still intact but refuses to discuss talks with Trump about war",
+              "source": "WAVY.com",
+              "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbHpsQ2Jfb1BKS1NFY1ltcHVPUjV4T1lobllWNS1zYVc3NDRSMzRrdklFQ0F1d1FxTDVDV3dtM1VfZ3FSdlN2YTVQWFZuQjUxMUFUYVdrb2g5R3ZHMFBCR3poSEE0X3k3S0FhdDV4enlXYnlhb3pQMDU4XzF1RUJfN3Rjb3lVaVNMaVNzZndIWjlwZ2VFemxsMHZTZ05XTENFZFJVYVhmdDV5N1FLT2QyY3poZ3ZraGVwSXd6ZkxLXzZua29VVXBEQmFyZ9IB0AFBVV95cUxQejRfaEJzaXUtVllxRFA0UFBSb3FWa0FvSUFYR0JrYVUzQTJUZGI0dnNJS2xjM0R6WUx5MzhKNXBVZ082VG1kLWJVYUszTGo5TWhPTlB5NjVrYnZMSTh2NE9YX0o1bENyOG8zcVZ6dnJtSXNiaXBtUmZWa3N0bzhncjlfMHRCNnpVNzFGT3FxMHFMMFJ3RUFiN2p4YlYxb3RpVENjRXo3SEF4N0lTYnJKR0pUYU1ESUc2WVVKcUxySHhuaTMyUWxZdUJ1azRiTU56?oc=5",
+              "pubDate": "2026-03-19T09:02:21.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "bondi-doesnt-commit-to-deposition-with-house-panel-over-epstein-files"
+          "slug": "tulsi-gabbard-says-irans-government-still-intact-but-refuses-to-discuss-talks-with-trump-about-war"
+        },
+        {
+          "representativeTitle": "Political scientist to discuss the ‘U.S.-China AI Race’",
+          "sources": [
+            "Delaware Gazette"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Political scientist to discuss the ‘U.S.-China AI Race’",
+              "source": "Delaware Gazette",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd0Exel9ZUUdob0VGUzFyVU9fUGM1dVg5MFFnMVF0WGpuNEZKcmtsUDFraEh2SXkxWVEwTzZYeGFuUWF3MktMS0R6bWtfaXF1UV9KR3AwQXJGS3NjdGw4YW5VclZfd3dad1dUSGlMVGRJOS1pWGR3bHRjVUlzU2RsMGRIQ1FIUkJQN2JjTkUxMzNEM3EyY3c?oc=5",
+              "pubDate": "2026-03-19T10:45:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "political-scientist-to-discuss-the-us-china-ai-race"
         }
       ]
     },
@@ -1156,44 +1135,152 @@ export const newsData = {
           "slug": "expectations-for-the-next-fed-rate-cut-get-pushed-back-after-hot-inflation-report"
         },
         {
-          "representativeTitle": "Financial stocks on pace for worst first quarter since 2020 as private credit cracks flash 'yellow warning'",
+          "representativeTitle": "Middle East chaos continues to drain your pocketbook",
           "sources": [
             "Yahoo Finance"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Financial stocks on pace for worst first quarter since 2020 as private credit cracks flash 'yellow warning'",
+              "title": "Middle East chaos continues to drain your pocketbook",
               "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/news/financial-stocks-on-pace-for-worst-first-quarter-since-2020-as-private-credit-cracks-flash-yellow-warning-150941672.html",
-              "pubDate": "2026-03-19T15:09:41.000Z",
+              "link": "https://finance.yahoo.com/sectors/energy/articles/middle-east-chaos-continues-drain-161010273.html",
+              "pubDate": "2026-03-19T16:10:10.000Z",
               "tier": 2
             }
           ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "financial-stocks-on-pace-for-worst-first-quarter-since-2020-as-private-credit-cracks-flash-yellow-warning"
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "middle-east-chaos-continues-to-drain-your-pocketbook"
         },
         {
-          "representativeTitle": "Bitcoin Price Undercuts $70,000 As Higher-For-Longer Policy Weighs",
+          "representativeTitle": "Average US long-term mortgage rate rises to 6.22%, highest level in more than 3 months",
           "sources": [
             "Yahoo Finance"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Bitcoin Price Undercuts $70,000 As Higher-For-Longer Policy Weighs",
+              "title": "Average US long-term mortgage rate rises to 6.22%, highest level in more than 3 months",
               "source": "Yahoo Finance",
-              "link": "https://www.investors.com/news/bitcoin-price-fall-70k-federal-reserve-rates-oil-prices-iran-cryptocurrency-stocks-sec-nasdaq/?src=A00220&yptr=yahoo",
-              "pubDate": "2026-03-19T15:01:42.000Z",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/average-us-long-term-mortgage-160540979.html",
+              "pubDate": "2026-03-19T16:05:40.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "bitcoin-price-undercuts-70000-as-higher-for-longer-policy-weighs"
+          "slug": "average-us-long-term-mortgage-rate-rises-to-622-highest-level-in-more-than-3-months"
+        },
+        {
+          "representativeTitle": "Defense Stocks Are Surging and This ETF Lets You Collect Dividends From the Global Arms Race",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Defense Stocks Are Surging and This ETF Lets You Collect Dividends From the Global Arms Race",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/defense-stocks-surging-etf-lets-160520272.html",
+              "pubDate": "2026-03-19T16:05:20.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "defense-stocks-are-surging-and-this-etf-lets-you-collect-dividends-from-the-global-arms-race"
+        },
+        {
+          "representativeTitle": "Gold, silver, bitcoin crash as safe-haven luster fades following Fed decision",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Gold, silver, bitcoin crash as safe-haven luster fades following Fed decision",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/news/gold-silver-bitcoin-crash-as-safe-haven-luster-fades-following-fed-decision-160420933.html",
+              "pubDate": "2026-03-19T16:04:20.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "gold-silver-bitcoin-crash-as-safe-haven-luster-fades-following-fed-decision"
+        },
+        {
+          "representativeTitle": "Here’s How Quantum Computing (QUBT)’s Shares Behaved After Jim Cramer Said He Was “Concerned” In January 2025",
+          "sources": [
+            "Yahoo Finance",
+            "Yahoo Finance"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Here’s How D-Wave (QBTS)’s Shares Behaved After Jim Cramer Said He Was “Wary” In January 2025",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/d-wave-qbts-shares-behaved-160334879.html",
+              "pubDate": "2026-03-19T16:03:34.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Here’s How Quantum Computing (QUBT)’s Shares Behaved After Jim Cramer Said He Was “Concerned” In January 2025",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/quantum-computing-qubt-shares-behaved-160247380.html",
+              "pubDate": "2026-03-19T16:02:47.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 2,
+          "importance": 15,
+          "slug": "heres-how-quantum-computing-qubts-shares-behaved-after-jim-cramer-said-he-was-concerned-in-january-2025"
+        },
+        {
+          "representativeTitle": "Mortgage rates jump further above 6% as Fed warns on inflation: Mortgage and refinance interest rates today",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Mortgage rates jump further above 6% as Fed warns on inflation: Mortgage and refinance interest rates today",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rates-jump-further-above-6-as-fed-warns-on-inflation-mortgage-and-refinance-interest-rates-today-100000735.html",
+              "pubDate": "2026-03-19T10:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "mortgage-rates-jump-further-above-6-as-fed-warns-on-inflation-mortgage-and-refinance-interest-rates-today"
+        },
+        {
+          "representativeTitle": "Defense Stocks Show Clear Winners, Losers Amid Ongoing U.S.-Iran Conflict",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Defense Stocks Show Clear Winners, Losers Amid Ongoing U.S.-Iran Conflict",
+              "source": "Yahoo Finance",
+              "link": "https://www.investors.com/research/ibd-industry-themes/defense-stocks-us-iran-boeing-karman/?src=A00220&yptr=yahoo",
+              "pubDate": "2026-03-19T15:56:47.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "defense-stocks-show-clear-winners-losers-amid-ongoing-us-iran-conflict"
         },
         {
           "representativeTitle": "Stock market today: Dow, S&P 500, Nasdaq slide amid inflation worries as Iran war sends oil surging",
@@ -1216,224 +1303,64 @@ export const newsData = {
           "slug": "stock-market-today-dow-sp-500-nasdaq-slide-amid-inflation-worries-as-iran-war-sends-oil-surging"
         },
         {
-          "representativeTitle": "US new home sales drop to near 3-1/2-year low in January",
+          "representativeTitle": "Micron Crushed Earnings. Wall Street Shrugged.",
           "sources": [
             "Yahoo Finance"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US new home sales drop to near 3-1/2-year low in January",
+              "title": "Micron Crushed Earnings. Wall Street Shrugged.",
               "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/news/us-home-sales-drop-near-145021973.html",
-              "pubDate": "2026-03-19T14:50:21.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "us-new-home-sales-drop-to-near-3-12-year-low-in-january"
-        },
-        {
-          "representativeTitle": "Live updates: Interest rates steady, Federal Reserve forecasts 1 rate cut in 2026",
-          "sources": [
-            "Yahoo Finance"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Live updates: Interest rates steady, Federal Reserve forecasts 1 rate cut in 2026",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/news/live/fed-meeting-live-updates-federal-reserve-holds-rates-steady-forecasts-1-rate-cut-in-2026-180216872.html",
-              "pubDate": "2026-03-18T18:02:16.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "live-updates-interest-rates-steady-federal-reserve-forecasts-1-rate-cut-in-2026"
-        },
-        {
-          "representativeTitle": "Gold, silver, bitcoin crash as safe-haven appeal fades following Fed decision",
-          "sources": [
-            "Yahoo Finance"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Gold, silver, bitcoin crash as safe-haven appeal fades following Fed decision",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/news/gold-silver-bitcoin-crash-as-safe-haven-appeal-fades-following-fed-decision-143656435.html",
-              "pubDate": "2026-03-19T14:36:56.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "gold-silver-bitcoin-crash-as-safe-haven-appeal-fades-following-fed-decision"
-        },
-        {
-          "representativeTitle": "Big central banks keep options open as traders suspect war will bring rate hikes",
-          "sources": [
-            "Yahoo Finance"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Big central banks keep options open as traders suspect war will bring rate hikes",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/economy/policy/articles/big-central-banks-keep-options-143502749.html",
-              "pubDate": "2026-03-19T14:35:02.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "big-central-banks-keep-options-open-as-traders-suspect-war-will-bring-rate-hikes"
-        },
-        {
-          "representativeTitle": "Stock Market Today: Dow, Nasdaq Keep Dropping As Oil Prices Jump; Micron Tumbles On Earnings (Live Coverage)",
-          "sources": [
-            "Yahoo Finance"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Stock Market Today: Dow, Nasdaq Keep Dropping As Oil Prices Jump; Micron Tumbles On Earnings (Live Coverage)",
-              "source": "Yahoo Finance",
-              "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-micron-stock-mu/?src=A00220&yptr=yahoo",
-              "pubDate": "2026-03-19T14:30:17.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "stock-market-today-dow-nasdaq-keep-dropping-as-oil-prices-jump-micron-tumbles-on-earnings-live-coverage"
-        },
-        {
-          "representativeTitle": "Federal Reserve proposes lowering capital requirements for banks",
-          "sources": [
-            "Yahoo Finance"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Federal Reserve proposes lowering capital requirements for banks",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/news/federal-reserve-proposes-lowering-capital-requirements-for-banks-142827138.html",
-              "pubDate": "2026-03-19T14:28:27.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "federal-reserve-proposes-lowering-capital-requirements-for-banks"
-        },
-        {
-          "representativeTitle": "Micron posts better-than-expected Q2 results and Q3 guidance",
-          "sources": [
-            "Yahoo Finance"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Micron posts better-than-expected Q2 results and Q3 guidance",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/news/micron-posts-better-than-expected-q2-results-and-q3-guidance-194142932.html",
-              "pubDate": "2026-03-19T14:28:23.000Z",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/micron-crushed-earnings-wall-street-155126080.html",
+              "pubDate": "2026-03-19T15:51:26.000Z",
               "tier": 2
             }
           ],
           "sentiment": 0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "micron-posts-better-than-expected-q2-results-and-q3-guidance"
+          "slug": "micron-crushed-earnings-wall-street-shrugged"
         },
         {
-          "representativeTitle": "Oil Prices Surge Overseas, Gold Slumps, As Iran War Escalates",
-          "sources": [
-            "Yahoo Finance"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Oil Prices Surge Overseas, Gold Slumps, As Iran War Escalates",
-              "source": "Yahoo Finance",
-              "link": "https://www.investors.com/news/oil-prices-iran-war-escalates-south-pars-brent-gold-dollar-sp-500/?src=A00220&yptr=yahoo",
-              "pubDate": "2026-03-19T14:25:16.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 55,
-          "slug": "oil-prices-surge-overseas-gold-slumps-as-iran-war-escalates"
-        },
-        {
-          "representativeTitle": "How America’s war is turning into a European market nightmare",
+          "representativeTitle": "The ‘smart money’ fled software stocks after that viral AI doomsday report. Here’s where it’s going.",
           "sources": [
             "MarketWatch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "How America’s war is turning into a European market nightmare",
+              "title": "The ‘smart money’ fled software stocks after that viral AI doomsday report. Here’s where it’s going.",
               "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/how-americas-war-is-turning-into-a-european-market-nightmare-a43ffb4a?mod=mw_rss_topstories",
-              "pubDate": "2026-03-19T13:51:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 55,
-          "slug": "how-americas-war-is-turning-into-a-european-market-nightmare"
-        },
-        {
-          "representativeTitle": "Alibaba’s stock slips as a big drop in net income overshadows AI progress",
-          "sources": [
-            "MarketWatch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Alibaba’s stock slips as a big drop in net income overshadows AI progress",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/alibabas-stock-slips-as-a-big-drop-in-net-income-overshadows-ai-progress-0aefbd83?mod=mw_rss_topstories",
-              "pubDate": "2026-03-19T13:47:00.000Z",
+              "link": "https://www.marketwatch.com/story/a-research-firms-obituary-for-software-stocks-vaporized-billions-heres-the-part-the-market-is-finally-admitting-698ad05b?mod=mw_rss_topstories",
+              "pubDate": "2026-03-19T15:38:00.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "alibabas-stock-slips-as-a-big-drop-in-net-income-overshadows-ai-progress"
+          "slug": "the-smart-money-fled-software-stocks-after-that-viral-ai-doomsday-report-heres-where-its-going"
         },
         {
-          "representativeTitle": "‘Epic Fury’ has already canceled out Big Beautiful Bill’s tax refunds — even if the Iran war ended today",
+          "representativeTitle": "American teens spend an average of 5 hours a day on social media. Here’s what it’s costing them.",
           "sources": [
             "MarketWatch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "‘Epic Fury’ has already canceled out Big Beautiful Bill’s tax refunds — even if the Iran war ended today",
+              "title": "American teens spend an average of 5 hours a day on social media. Here’s what it’s costing them.",
               "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/epic-fury-has-already-cancelled-out-big-beautiful-bills-tax-refunds-even-if-the-iran-war-ended-today-cf8ed3fa?mod=mw_rss_topstories",
-              "pubDate": "2026-03-19T13:46:00.000Z",
+              "link": "https://www.marketwatch.com/story/social-media-is-eroding-young-peoples-happiness-low-income-teens-may-be-most-at-risk-446a0965?mod=mw_rss_topstories",
+              "pubDate": "2026-03-19T15:27:00.000Z",
               "tier": 2
             }
           ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 55,
-          "slug": "epic-fury-has-already-canceled-out-big-beautiful-bills-tax-refunds-even-if-the-iran-war-ended-today"
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "american-teens-spend-an-average-of-5-hours-a-day-on-social-media-heres-what-its-costing-them"
         }
       ]
     },
@@ -1551,7 +1478,7 @@ export const newsData = {
               "title": "Stocks and bonds tumble as investors price in ‘protracted energy shock’",
               "source": "Financial Times",
               "link": "https://www.ft.com/content/3f4a6ad4-9216-4b5c-830f-11854787bb52",
-              "pubDate": "2026-03-19T14:36:30.000Z",
+              "pubDate": "2026-03-19T15:56:49.000Z",
               "tier": 1
             }
           ],
@@ -1561,24 +1488,24 @@ export const newsData = {
           "slug": "stocks-and-bonds-tumble-as-investors-price-in-protracted-energy-shock"
         },
         {
-          "representativeTitle": "US floats second release of strategic oil reserves to stem rising prices",
+          "representativeTitle": "White House ‘not considering’ US oil export ban",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US floats second release of strategic oil reserves to stem rising prices",
+              "title": "White House ‘not considering’ US oil export ban",
               "source": "Financial Times",
               "link": "https://www.ft.com/content/07f52f59-528b-4bc4-9fca-5fee5f7f6e86",
-              "pubDate": "2026-03-18T23:37:56.000Z",
+              "pubDate": "2026-03-19T15:59:11.000Z",
               "tier": 1
             }
           ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "us-floats-second-release-of-strategic-oil-reserves-to-stem-rising-prices"
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "white-house-not-considering-us-oil-export-ban"
         },
         {
           "representativeTitle": "Dubai tourism reels from Iranian missiles",
@@ -1621,6 +1548,26 @@ export const newsData = {
           "slug": "armageddon-scenario-for-gas-markets-as-qatar-hit-by-missiles"
         },
         {
+          "representativeTitle": "Trump struggles to distance himself from Israel over strike on Iran gasfield",
+          "sources": [
+            "Financial Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump struggles to distance himself from Israel over strike on Iran gasfield",
+              "source": "Financial Times",
+              "link": "https://www.ft.com/content/1711be35-3d44-4f1e-b774-5b8595b8e068",
+              "pubDate": "2026-03-19T15:16:26.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "trump-struggles-to-distance-himself-from-israel-over-strike-on-iran-gasfield"
+        },
+        {
           "representativeTitle": "Iran sets its price to end the war",
           "sources": [
             "Financial Times"
@@ -1639,26 +1586,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 60,
           "slug": "iran-sets-its-price-to-end-the-war"
-        },
-        {
-          "representativeTitle": "Iranian hospital in Dubai closed as UAE suffers third week of attacks",
-          "sources": [
-            "Financial Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iranian hospital in Dubai closed as UAE suffers third week of attacks",
-              "source": "Financial Times",
-              "link": "https://www.ft.com/content/e97dabef-2494-4da1-8138-c4c94f8021e3",
-              "pubDate": "2026-03-19T09:54:07.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "iranian-hospital-in-dubai-closed-as-uae-suffers-third-week-of-attacks"
         },
         {
           "representativeTitle": "Battersea Power Station in dispute with fired CEO over accounts",
@@ -1786,6 +1713,46 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
+          "representativeTitle": "DoorDash launches a new ‘Tasks’ app that pays couriers to submit videos to train AI",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "DoorDash launches a new ‘Tasks’ app that pays couriers to submit videos to train AI",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/03/19/doordash-launches-a-new-tasks-app-that-pays-couriers-to-submit-videos-to-train-ai/",
+              "pubDate": "2026-03-19T16:14:00.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "doordash-launches-a-new-tasks-app-that-pays-couriers-to-submit-videos-to-train-ai"
+        },
+        {
+          "representativeTitle": "Meta decides not to shut down Horizon Worlds on VR after all",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Meta decides not to shut down Horizon Worlds on VR after all",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/03/19/meta-decides-not-to-shut-down-horizon-worlds-on-vr-after-all/",
+              "pubDate": "2026-03-19T15:36:32.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "meta-decides-not-to-shut-down-horizon-worlds-on-vr-after-all"
+        },
+        {
           "representativeTitle": "FBI seizes pro-Iranian hacking group’s websites after destructive Stryker hack",
           "sources": [
             "TechCrunch"
@@ -1906,14 +1873,14 @@ export const newsData = {
           "slug": "tools-for-founders-to-navigate-and-move-past-conflict"
         },
         {
-          "representativeTitle": "Anori, Alphabet’s new X spinout, is tackling one of the world’s most expensive bureaucratic nightmares",
+          "representativeTitle": "Alphabet’s X has a new spinout, and it’s going after one of the world’s most expensive bureaucratic nightmares",
           "sources": [
             "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Anori, Alphabet’s new X spinout, is tackling one of the world’s most expensive bureaucratic nightmares",
+              "title": "Alphabet’s X has a new spinout, and it’s going after one of the world’s most expensive bureaucratic nightmares",
               "source": "TechCrunch",
               "link": "https://techcrunch.com/2026/03/19/alphabets-x-has-a-new-spinout-and-its-going-after-one-of-the-worlds-most-expensive-bureaucratic-nightmares/",
               "pubDate": "2026-03-19T14:00:00.000Z",
@@ -1923,7 +1890,7 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "anori-alphabets-new-x-spinout-is-tackling-one-of-the-worlds-most-expensive-bureaucratic-nightmares"
+          "slug": "alphabets-x-has-a-new-spinout-and-its-going-after-one-of-the-worlds-most-expensive-bureaucratic-nightmares"
         },
         {
           "representativeTitle": "Consumer-focused privacy company Cloaked raises $375M as it expands to enterprise",
@@ -2154,54 +2121,34 @@ export const newsData = {
           "slug": "sam-altmans-thank-you-to-coders-draws-the-memes"
         },
         {
-          "representativeTitle": "Nothing CEO Carl Pei says smartphone apps will disappear as AI agents take their place",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Nothing CEO Carl Pei says smartphone apps will disappear as AI agents take their place",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/03/18/nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place/",
-              "pubDate": "2026-03-18T20:30:52.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place"
-        },
-        {
-          "representativeTitle": "Nvidia is quietly building a multibillion-dollar behemoth to rival its chips business",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Nvidia is quietly building a multibillion-dollar behemoth to rival its chips business",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/03/18/nvidia-networking-division-building-a-multibillion-dollar-behemoth-to-rival-its-chips-business/",
-              "pubDate": "2026-03-18T20:01:19.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "nvidia-is-quietly-building-a-multibillion-dollar-behemoth-to-rival-its-chips-business"
-        },
-        {
-          "representativeTitle": "Lina Khan was right about the metaverse",
+          "representativeTitle": "Epic and Disney now let Fortnite creators make Star Wars games",
           "sources": [
             "The Verge"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Lina Khan was right about the metaverse",
+              "title": "Epic and Disney now let Fortnite creators make Star Wars games",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/games/897163/fortnite-star-wars-creators-uefn-epic-games-disney",
+              "pubDate": "2026-03-19T16:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "epic-and-disney-now-let-fortnite-creators-make-star-wars-games"
+        },
+        {
+          "representativeTitle": "Lina Khan was right",
+          "sources": [
+            "The Verge"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Lina Khan was right",
               "source": "The Verge",
               "link": "https://www.theverge.com/report/896820/lina-khan-ftc-meta-supernatural-antitrust",
               "pubDate": "2026-03-19T15:12:45.000Z",
@@ -2211,7 +2158,7 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "lina-khan-was-right-about-the-metaverse"
+          "slug": "lina-khan-was-right"
         },
         {
           "representativeTitle": "Waymo hits 170 million miles while avoiding serious mayhem",
@@ -2272,46 +2219,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "paramounts-110-billion-warner-bros-gamble"
-        },
-        {
-          "representativeTitle": "Adobe’s AI image generator can now be trained on your own art",
-          "sources": [
-            "The Verge"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Adobe’s AI image generator can now be trained on your own art",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/897243/adobe-firefly-ai-custom-models-image-public-beta",
-              "pubDate": "2026-03-19T13:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "adobes-ai-image-generator-can-now-be-trained-on-your-own-art"
-        },
-        {
-          "representativeTitle": "Fitbit&#8217;s AI health coach will soon be able to read your medical records",
-          "sources": [
-            "The Verge"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Fitbit&#8217;s AI health coach will soon be able to read your medical records",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/ai-artificial-intelligence/897250/fitbits-ai-health-coach-reads-medical-records",
-              "pubDate": "2026-03-19T12:27:23.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "fitbit8217s-ai-health-coach-will-soon-be-able-to-read-your-medical-records"
         },
         {
           "representativeTitle": "Musk’s tactic of blaming users for Grok sex images may be foiled by EU law",
@@ -2392,26 +2299,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "the-download-quantum-computing-for-health-and-why-the-world-doesnt-recycle-more-nuclear-waste"
-        },
-        {
-          "representativeTitle": "A $5 million prize awaits proof that quantum computers can solve health care problems",
-          "sources": [
-            "MIT Tech Review"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "A $5 million prize awaits proof that quantum computers can solve health care problems",
-              "source": "MIT Tech Review",
-              "link": "https://www.technologyreview.com/2026/03/19/1134409/a-5-million-prize-awaits-proof-that-quantum-computers-can-solve-health-care-problems/",
-              "pubDate": "2026-03-19T10:51:43.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "a-5-million-prize-awaits-proof-that-quantum-computers-can-solve-health-care-problems"
         },
         {
           "representativeTitle": "Why the world doesn’t recycle more nuclear waste",
@@ -2577,7 +2464,7 @@ export const newsData = {
               "title": "Japan PM to hold 'difficult' talks with Trump as Iran conflict looms large",
               "source": "BBC World",
               "link": "https://www.bbc.com/news/articles/cde4e2xyelpo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-19T10:30:42.000Z",
+              "pubDate": "2026-03-19T16:16:05.000Z",
               "tier": 1
             }
           ],
@@ -2587,24 +2474,24 @@ export const newsData = {
           "slug": "japan-pm-to-hold-difficult-talks-with-trump-as-iran-conflict-looms-large"
         },
         {
-          "representativeTitle": "Three Palestinian women killed during Iranian missile attack",
+          "representativeTitle": "Three Palestinian women killed in beauty salon during Iranian missile attack",
           "sources": [
             "BBC World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Three Palestinian women killed during Iranian missile attack",
+              "title": "Three Palestinian women killed in beauty salon during Iranian missile attack",
               "source": "BBC World",
               "link": "https://www.bbc.com/news/articles/c0ljl23plpzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-19T12:32:38.000Z",
+              "pubDate": "2026-03-19T15:38:16.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "three-palestinian-women-killed-during-iranian-missile-attack"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "three-palestinian-women-killed-in-beauty-salon-during-iranian-missile-attack"
         },
         {
           "representativeTitle": "Labubu film is official with Paddington director at the helm",
@@ -2685,26 +2572,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "afghan-evacuees-in-limbo-in-qatar-camp-accuse-us-of-betrayal"
-        },
-        {
-          "representativeTitle": "'Very difficult to stop': BBC visits scene of Iran cluster bomb strike on Israel",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "'Very difficult to stop': BBC visits scene of Iran cluster bomb strike on Israel",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/cwy9yldgn7qo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T16:04:29.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "very-difficult-to-stop-bbc-visits-scene-of-iran-cluster-bomb-strike-on-israel"
         },
         {
           "representativeTitle": "Watch: Gabbard faces scrutiny over Iran nuclear intelligence claims",
@@ -2807,26 +2674,6 @@ export const newsData = {
           "slug": "canada-in-push-for-joint-g7-and-middle-east-effort-to-de-escalate-iran-war"
         },
         {
-          "representativeTitle": "Farage called for release of Sean ‘Diddy’ Combs and praised effort to free drug trafficker",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Farage called for release of Sean ‘Diddy’ Combs and praised effort to free drug trafficker",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/ng-interactive/2026/mar/18/farage-called-release-sean-diddy-combs-praised-effort-free-drug-trafficker",
-              "pubDate": "2026-03-18T16:00:43.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "farage-called-for-release-of-sean-diddy-combs-and-praised-effort-to-free-drug-trafficker"
-        },
-        {
           "representativeTitle": "Hong Kong apartment fires: hearings to begin into Wang Fuk blaze that killed 168 people",
           "sources": [
             "The Guardian"
@@ -2865,26 +2712,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "seoul-raises-terror-alert-as-it-prepares-to-host-bts-comeback-concert"
-        },
-        {
-          "representativeTitle": "Looking for leverage: China keeps close eye on US politics after summit delay",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Looking for leverage: China keeps close eye on US politics after summit delay",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/mar/18/looking-for-leverage-china-keeps-close-eye-on-us-politics-after-summit-delay",
-              "pubDate": "2026-03-18T15:25:18.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "looking-for-leverage-china-keeps-close-eye-on-us-politics-after-summit-delay"
         },
         {
           "representativeTitle": "Tropical Cyclone Narelle to make landfall in far north Qld on Friday as category 5 storm, bringing 315km/h wind gusts",
@@ -2997,7 +2824,7 @@ export const newsData = {
               "title": "No breakthrough on Hungary’s veto of EU’s €90bn loan to Ukraine – Europe live",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/live/2026/mar/19/europe-ukraine-russian-eu-loan-orban-hungary-tariffs-iran-nato-latest-news-updates",
-              "pubDate": "2026-03-19T14:53:09.000Z",
+              "pubDate": "2026-03-19T16:04:52.000Z",
               "tier": 1
             }
           ],
@@ -3005,6 +2832,26 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "no-breakthrough-on-hungarys-veto-of-eus-90bn-loan-to-ukraine-europe-live"
+        },
+        {
+          "representativeTitle": "Denmark reportedly prepared itself for US attack amid Trump’s Greenland threats",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Denmark reportedly prepared itself for US attack amid Trump’s Greenland threats",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/mar/19/denmark-prepared-for-us-attack-donald-trump-greenland",
+              "pubDate": "2026-03-19T16:00:27.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "denmark-reportedly-prepared-itself-for-us-attack-amid-trumps-greenland-threats"
         },
         {
           "representativeTitle": "Europe’s biggest airlines say fuel price spike caused by Iran war will drive up fares",
@@ -3027,26 +2874,6 @@ export const newsData = {
           "slug": "europes-biggest-airlines-say-fuel-price-spike-caused-by-iran-war-will-drive-up-fares"
         },
         {
-          "representativeTitle": "St Patrick’s Day float referencing Epstein files draws condemnation in Ireland",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "St Patrick’s Day float referencing Epstein files draws condemnation in Ireland",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/19/st-patricks-day-float-mimicked-sexual-assault-epstein-andrew-condemned",
-              "pubDate": "2026-03-19T12:26:51.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "st-patricks-day-float-referencing-epstein-files-draws-condemnation-in-ireland"
-        },
-        {
           "representativeTitle": "Middle East crisis live: Israeli officials push back on US claim that Trump knew nothing about gasfield attack",
           "sources": [
             "The Guardian"
@@ -3057,7 +2884,7 @@ export const newsData = {
               "title": "Middle East crisis live: Israeli officials push back on US claim that Trump knew nothing about gasfield attack",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/live/2026/mar/19/iran-war-live-updates-oil-prices-gas-field-strikes-pentagon-more-funds-trump-news",
-              "pubDate": "2026-03-19T14:46:33.000Z",
+              "pubDate": "2026-03-19T16:04:10.000Z",
               "tier": 1
             }
           ],
@@ -3067,14 +2894,34 @@ export const newsData = {
           "slug": "middle-east-crisis-live-israeli-officials-push-back-on-us-claim-that-trump-knew-nothing-about-gasfield-attack"
         },
         {
-          "representativeTitle": "Analysis from West Point warns that strait of Hormuz blockade will strangle US defense industry",
+          "representativeTitle": "US has ‘lost control of its own foreign policy’, says Oman’s foreign minister",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Analysis from West Point warns that strait of Hormuz blockade will strangle US defense industry",
+              "title": "US has ‘lost control of its own foreign policy’, says Oman’s foreign minister",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/mar/19/us-lost-control-of-its-own-foreign-policy-oman-foreign-minister",
+              "pubDate": "2026-03-19T15:50:13.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "us-has-lost-control-of-its-own-foreign-policy-says-omans-foreign-minister"
+        },
+        {
+          "representativeTitle": "West Point analysis warns that strait of Hormuz blockade will strangle US defense industry",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "West Point analysis warns that strait of Hormuz blockade will strangle US defense industry",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/2026/mar/19/west-point-analysis-iran-war-costs",
               "pubDate": "2026-03-19T11:00:07.000Z",
@@ -3084,7 +2931,7 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 10,
           "importance": 65,
-          "slug": "analysis-from-west-point-warns-that-strait-of-hormuz-blockade-will-strangle-us-defense-industry"
+          "slug": "west-point-analysis-warns-that-strait-of-hormuz-blockade-will-strangle-us-defense-industry"
         },
         {
           "representativeTitle": "Cathay Pacific suspends flights to and from Dubai until end of April – as it happened",
@@ -3127,26 +2974,6 @@ export const newsData = {
           "slug": "israel-strikes-irans-south-pars-gasfield-hours-after-forces-kill-intelligence-minister"
         },
         {
-          "representativeTitle": "UK says it remains in talks over escorting ships through strait of Hormuz",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "UK says it remains in talks over escorting ships through strait of Hormuz",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/18/uk-says-it-remains-in-talks-over-escorting-ships-through-strait-of-hormuz",
-              "pubDate": "2026-03-18T18:52:33.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "uk-says-it-remains-in-talks-over-escorting-ships-through-strait-of-hormuz"
-        },
-        {
           "representativeTitle": "‘Waiting for days’: India feels impact of gas supply chain disruption amid Iran conflict",
           "sources": [
             "The Guardian"
@@ -3185,6 +3012,106 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "pakistan-to-pause-afghan-strikes-for-eid-two-days-after-deadly-kabul-attack"
+        },
+        {
+          "representativeTitle": "Badenoch backs Nick Timothy after he calls Islamic public prayers ‘act of domination’",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Badenoch backs Nick Timothy after he calls Islamic public prayers ‘act of domination’",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/2026/mar/19/badenoch-nick-timothy-islamic-prayer-act-of-domination",
+              "pubDate": "2026-03-19T15:47:02.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "badenoch-backs-nick-timothy-after-he-calls-islamic-public-prayers-act-of-domination"
+        },
+        {
+          "representativeTitle": "Death toll surpasses 1,000 in Lebanon as Israeli bombardment continues",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Death toll surpasses 1,000 in Lebanon as Israeli bombardment continues",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/19/death-toll-surpasses-1000-in-lebanon-as-israeli-bombardment-continues?traffic_source=rss",
+              "pubDate": "2026-03-19T15:47:11.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "death-toll-surpasses-1000-in-lebanon-as-israeli-bombardment-continues"
+        },
+        {
+          "representativeTitle": "Hegseth insists US is meeting Iran war objectives",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hegseth insists US is meeting Iran war objectives",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/2026/3/19/hegseth-insists-us-is-meeting-iran-war-objectives?traffic_source=rss",
+              "pubDate": "2026-03-19T15:38:54.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "hegseth-insists-us-is-meeting-iran-war-objectives"
+        },
+        {
+          "representativeTitle": "Hegseth says no ‘timeframe’ for war on Iran as Pentagon asks for $200bn",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hegseth says no ‘timeframe’ for war on Iran as Pentagon asks for $200bn",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/19/hegseth-says-no-timeframe-for-war-on-iran-as-pentagon-asks-for-200bn?traffic_source=rss",
+              "pubDate": "2026-03-19T15:37:40.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "hegseth-says-no-timeframe-for-war-on-iran-as-pentagon-asks-for-200bn"
+        },
+        {
+          "representativeTitle": "“It’s time to end the war.” UN’s Guterres urges US, Israel to cease attacks",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "“It’s time to end the war.” UN’s Guterres urges US, Israel to cease attacks",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/19/its-time-to-end-the-war-uns-guterres-urges-us-israel-to-cease?traffic_source=rss",
+              "pubDate": "2026-03-19T15:28:19.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "its-time-to-end-the-war-uns-guterres-urges-us-israel-to-cease-attacks"
         },
         {
           "representativeTitle": "Child among survivors pulled from rubble of US-Israeli attack in Iran",
@@ -3465,66 +3392,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "trump-denies-knowledge-of-israeli-gas-field-attack"
-        },
-        {
-          "representativeTitle": "US weighs sending thousands of troops to region as Iran war rages: Report",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US weighs sending thousands of troops to region as Iran war rages: Report",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/19/us-weighs-sending-thousands-of-troops-to-region-as-iran-war-rages-report?traffic_source=rss",
-              "pubDate": "2026-03-19T08:09:49.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "us-weighs-sending-thousands-of-troops-to-region-as-iran-war-rages-report"
-        },
-        {
-          "representativeTitle": "War enters new phase as Israel attack on Iran gasfield sparks Gulf response",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "War enters new phase as Israel attack on Iran gasfield sparks Gulf response",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/19/wrap-iran-ratchets-up-pressure-on-gulf-states?traffic_source=rss",
-              "pubDate": "2026-03-19T07:57:59.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "war-enters-new-phase-as-israel-attack-on-iran-gasfield-sparks-gulf-response"
-        },
-        {
-          "representativeTitle": "Baking in rubble: Gaza woman keeps Eid traditions alive despite shortages",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Baking in rubble: Gaza woman keeps Eid traditions alive despite shortages",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/features/2026/3/19/baking-rubble-gaza-woman-keeps-eid-traditions-alive-despite-shortages?traffic_source=rss",
-              "pubDate": "2026-03-19T07:19:59.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "baking-in-rubble-gaza-woman-keeps-eid-traditions-alive-despite-shortages"
         }
       ]
     },
@@ -3752,6 +3619,86 @@ export const newsData = {
           "slug": "masked-mitochondria-slip-into-cells-to-treat-disease-in-mice"
         },
         {
+          "representativeTitle": "'Mini earthquakes' turn tiny chips into radio signal powerhouses",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "'Mini earthquakes' turn tiny chips into radio signal powerhouses",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-mini-earthquakes-tiny-chips-radio.html",
+              "pubDate": "2026-03-19T16:20:03.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "mini-earthquakes-turn-tiny-chips-into-radio-signal-powerhouses"
+        },
+        {
+          "representativeTitle": "A multi-lane highway for light: Topology helps build more robust photonic networks",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "A multi-lane highway for light: Topology helps build more robust photonic networks",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-multi-lane-highway-topology-robust.html",
+              "pubDate": "2026-03-19T15:40:06.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "a-multi-lane-highway-for-light-topology-helps-build-more-robust-photonic-networks"
+        },
+        {
+          "representativeTitle": "Potential Strait of Hormuz blockade could disrupt global supply chains, study finds",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Potential Strait of Hormuz blockade could disrupt global supply chains, study finds",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-potential-strait-hormuz-blockade-disrupt.html",
+              "pubDate": "2026-03-19T15:20:02.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 10,
+          "importance": 55,
+          "slug": "potential-strait-of-hormuz-blockade-could-disrupt-global-supply-chains-study-finds"
+        },
+        {
+          "representativeTitle": "Carefully controlled atoms make renewables more viable for plastics and fuels production",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Carefully controlled atoms make renewables more viable for plastics and fuels production",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-atoms-renewables-viable-plastics-fuels.html",
+              "pubDate": "2026-03-19T15:20:01.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "carefully-controlled-atoms-make-renewables-more-viable-for-plastics-and-fuels-production"
+        },
+        {
           "representativeTitle": "The discovery of a buried delta on Mars could boost the search for life",
           "sources": [
             "Phys.org"
@@ -3972,74 +3919,6 @@ export const newsData = {
           "slug": "more-and-more-teachers-and-students-are-using-ai-even-though-it-might-do-more-harm-than-good"
         },
         {
-          "representativeTitle": "Some 'designer' crossbreed dogs may have more problem behaviors than pure breeds",
-          "sources": [
-            "Phys.org",
-            "The Guardian"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Some 'designer' crossbreed dogs may have more problem behaviors than pure breeds",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-crossbreed-dogs-problem-behaviors-pure.html",
-              "pubDate": "2026-03-19T00:10:01.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Crossbreed dogs show more behavioural problems than pure breeds, study suggests",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/lifeandstyle/2026/mar/19/crossbreed-dogs-cockapoo-cavapoo-labradoodle-behavioural-problems-study-research",
-              "pubDate": "2026-03-19T00:01:52.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 3,
-          "importance": 35,
-          "slug": "some-designer-crossbreed-dogs-may-have-more-problem-behaviors-than-pure-breeds"
-        },
-        {
-          "representativeTitle": "New DNA base editor minimizes bystander edits while maintaining high efficiency",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "New DNA base editor minimizes bystander edits while maintaining high efficiency",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-dna-base-editor-minimizes-bystander.html",
-              "pubDate": "2026-03-18T23:40:01.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "new-dna-base-editor-minimizes-bystander-edits-while-maintaining-high-efficiency"
-        },
-        {
-          "representativeTitle": "New ice core studies expand histories of greenhouse gases and ocean temperature to 3 million years",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "New ice core studies expand histories of greenhouse gases and ocean temperature to 3 million years",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-ice-core-histories-greenhouse-gases.html",
-              "pubDate": "2026-03-18T23:20:01.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "new-ice-core-studies-expand-histories-of-greenhouse-gases-and-ocean-temperature-to-3-million-years"
-        },
-        {
           "representativeTitle": "Molecule in python blood could pave way for new obesity drugs, scientists say",
           "sources": [
             "The Guardian"
@@ -4058,6 +3937,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "molecule-in-python-blood-could-pave-way-for-new-obesity-drugs-scientists-say"
+        },
+        {
+          "representativeTitle": "Crossbreed dogs show more behavioural problems than pure breeds, study suggests",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Crossbreed dogs show more behavioural problems than pure breeds, study suggests",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/lifeandstyle/2026/mar/19/crossbreed-dogs-cockapoo-cavapoo-labradoodle-behavioural-problems-study-research",
+              "pubDate": "2026-03-19T00:01:52.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 2,
+          "importance": 25,
+          "slug": "crossbreed-dogs-show-more-behavioural-problems-than-pure-breeds-study-suggests"
         },
         {
           "representativeTitle": "GLP-1 diabetes drugs could stop anxiety and depression worsening, study finds",
