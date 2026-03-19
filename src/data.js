@@ -1,10 +1,30 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-19T08:14:49.373Z",
+  "lastUpdated": "2026-03-19T09:17:02.141Z",
   "children": [
     {
       "name": "Politics",
       "children": [
+        {
+          "representativeTitle": "Khan says Labour should rejoin EU customs union and single market this parliament – UK politics live",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Khan says Labour should rejoin EU customs union and single market this parliament – UK politics live",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/live/2026/mar/19/labour-eu-iran-covid-local-elections-meningitis-latest-news-updates",
+              "pubDate": "2026-03-19T08:57:00.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "khan-says-labour-should-rejoin-eu-customs-union-and-single-market-this-parliament-uk-politics-live"
+        },
         {
           "representativeTitle": "UK to cut climate aid to developing countries by 14% to £2bn a year in ‘refocus’",
           "sources": [
@@ -119,26 +139,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 75,
           "slug": "sadiq-khan-urges-labour-to-campaign-on-rejoining-eu-at-next-election"
-        },
-        {
-          "representativeTitle": "BBC World Service to get extra £11m a year in deal ending funding uncertainty",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "BBC World Service to get extra £11m a year in deal ending funding uncertainty",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/media/2026/mar/18/bbc-world-service-extra-funding-foreign-office",
-              "pubDate": "2026-03-18T22:00:50.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "bbc-world-service-to-get-extra-11m-a-year-in-deal-ending-funding-uncertainty"
         },
         {
           "representativeTitle": "The Guardian view on Rachel Reeves and the EU: the right ambition is held back by outdated red lines | Editorial",
@@ -331,7 +331,7 @@ export const newsData = {
               "title": "Pay grows at slowest rate in more than five years",
               "source": "BBC News",
               "link": "https://www.bbc.com/news/articles/cn0z0x82r00o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-19T08:05:59.000Z",
+              "pubDate": "2026-03-19T08:48:29.000Z",
               "tier": 1
             }
           ],
@@ -341,24 +341,24 @@ export const newsData = {
           "slug": "pay-grows-at-slowest-rate-in-more-than-five-years"
         },
         {
-          "representativeTitle": "PM swerves questions on whether he spoke to Mandelson over Epstein friendship",
+          "representativeTitle": "House of Lords backs bid to decriminalise abortion",
           "sources": [
             "BBC News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "PM swerves questions on whether he spoke to Mandelson over Epstein friendship",
+              "title": "House of Lords backs bid to decriminalise abortion",
               "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/c7vjv17q0rmo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T15:01:16.000Z",
+              "link": "https://www.bbc.com/news/articles/cp323zpxp11o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-19T08:47:28.000Z",
               "tier": 1
             }
           ],
-          "sentiment": -0.4,
+          "sentiment": 0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "pm-swerves-questions-on-whether-he-spoke-to-mandelson-over-epstein-friendship"
+          "slug": "house-of-lords-backs-bid-to-decriminalise-abortion"
         },
         {
           "representativeTitle": "UK sets target to boost steel making and cut imports",
@@ -381,6 +381,26 @@ export const newsData = {
           "slug": "uk-sets-target-to-boost-steel-making-and-cut-imports"
         },
         {
+          "representativeTitle": "PM swerves questions on whether he spoke to Mandelson over Epstein friendship",
+          "sources": [
+            "BBC News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "PM swerves questions on whether he spoke to Mandelson over Epstein friendship",
+              "source": "BBC News",
+              "link": "https://www.bbc.com/news/articles/c7vjv17q0rmo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-18T15:01:16.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "pm-swerves-questions-on-whether-he-spoke-to-mandelson-over-epstein-friendship"
+        },
+        {
           "representativeTitle": "Cost of online passport application could rise to over £100",
           "sources": [
             "BBC News"
@@ -401,24 +421,24 @@ export const newsData = {
           "slug": "cost-of-online-passport-application-could-rise-to-over-100"
         },
         {
-          "representativeTitle": "Government backtracks on AI and copyright after outcry from major artists",
+          "representativeTitle": "King praises 'living bridge' with Nigeria at glitzy banquet",
           "sources": [
             "BBC News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Government backtracks on AI and copyright after outcry from major artists",
+              "title": "King praises 'living bridge' with Nigeria at glitzy banquet",
               "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/cvg1gr5v333o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T13:24:39.000Z",
+              "link": "https://www.bbc.com/news/articles/cedzqqp9x2do?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-19T03:16:18.000Z",
               "tier": 1
             }
           ],
           "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "government-backtracks-on-ai-and-copyright-after-outcry-from-major-artists"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "king-praises-living-bridge-with-nigeria-at-glitzy-banquet"
         },
         {
           "representativeTitle": "Rayner warns immigration reforms risk being 'un-British'",
@@ -459,6 +479,26 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "pm-urges-badenoch-to-sack-shadow-minister-over-muslim-comments"
+        },
+        {
+          "representativeTitle": "Government backtracks on AI and copyright after outcry from major artists",
+          "sources": [
+            "BBC News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Government backtracks on AI and copyright after outcry from major artists",
+              "source": "BBC News",
+              "link": "https://www.bbc.com/news/articles/cvg1gr5v333o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-18T13:24:39.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "government-backtracks-on-ai-and-copyright-after-outcry-from-major-artists"
         },
         {
           "representativeTitle": "Fly tippers face clearing up own rubbish as punishment",
@@ -561,6 +601,26 @@ export const newsData = {
           "slug": "politics-of-indigenous-peoples-in-the-west"
         },
         {
+          "representativeTitle": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against gov­ernment",
+          "sources": [
+            "Spectrum News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against gov­ernment",
+              "source": "Spectrum News",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbi1GNTl5MDhEcEZUVHg5UUlyRW9Rak13ZXUtc1BfWDJRTUFWRkJ0MlhUdG1Td0ZmMEc5U2ttMnBrQnozdF92d1lvQWpvRXdlQk44YzBDVExLZV9VUUlYd0ZfaHBhVDN6cS14bVlSSTMtNUwtRDVNYzJ2U0E5T3NHYUxyUjc5N1ljOHVWVS03bw?oc=5",
+              "pubDate": "2026-03-18T21:44:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "concern-anger-and-hope-simmer-in-cuba-after-trump-calls-for-imminent-action-against-government"
+        },
+        {
           "representativeTitle": "Delta CEO slams Washington over unpaid TSA agents, says front-line workers are being used as ‘political chips’",
           "sources": [
             "Fortune"
@@ -579,6 +639,34 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "delta-ceo-slams-washington-over-unpaid-tsa-agents-says-front-line-workers-are-being-used-as-political-chips"
+        },
+        {
+          "representativeTitle": "Israel kills Iran’s spy chief; Gabbard says government is ‘intact but largely degraded’",
+          "sources": [
+            "Los Angeles Times",
+            "The Detroit News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Israel kills Iran’s spy chief; Gabbard says government is ‘intact but largely degraded’",
+              "source": "Los Angeles Times",
+              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTFhtdXhiVHNNVmcyRWhIeVFBRk5yMnJDeWVucFJLck8tNWpLSS02d3hTVEhvVHJ4aUdJOFhyV3B5cXdpS2ZZV3VlQ21jX1hpMHRtWmVqMURKZ2dGR1N0ZkpnbU5LcU1xR05XMXY5RU1BNWFPOE8tVDJ0c0FBSTk3dEFUSHdOdmpFc0VvbkhPS21WcHZpallGY3JSOWlGUWhEVlhRS2o0U19vV2N2RUJVYnRWSi0?oc=5",
+              "pubDate": "2026-03-18T20:30:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Iran's government degraded but appears intact, Gabbard says",
+              "source": "The Detroit News",
+              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ2FWSVNONG1ET1N5ZmFyOE9mRUJ0SFU2ckZHd3FKZnV1UGNncGREOXRGX0ItLUhMYnY4dUdLM3c4N1lQYlNpOHFVdWNGRHduRXVtbUE4Y3lVdzdYSE5pSVJld1VpeHRyWldfMXpOUHdJV2RFVFVFOUFpZWNMWENWZjJiUktRdXpCTjdrY2ZEOE9sRWRzQURkMlk4MnNSLWxKbURCQUhIRU9Wa3l0T0hV?oc=5",
+              "pubDate": "2026-03-18T16:28:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 60,
+          "slug": "israel-kills-irans-spy-chief-gabbard-says-government-is-intact-but-largely-degraded"
         },
         {
           "representativeTitle": "US Snubbed by Lula Government at Brazil Critical Minerals Summit",
@@ -601,24 +689,44 @@ export const newsData = {
           "slug": "us-snubbed-by-lula-government-at-brazil-critical-minerals-summit"
         },
         {
-          "representativeTitle": "Israel kills Iran’s spy chief; Gabbard says government is ‘intact but largely degraded’",
+          "representativeTitle": "Vance defends Trump agenda in Auburn Hills",
           "sources": [
-            "Los Angeles Times"
+            "Michigan Public"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Israel kills Iran’s spy chief; Gabbard says government is ‘intact but largely degraded’",
-              "source": "Los Angeles Times",
-              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTFhtdXhiVHNNVmcyRWhIeVFBRk5yMnJDeWVucFJLck8tNWpLSS02d3hTVEhvVHJ4aUdJOFhyV3B5cXdpS2ZZV3VlQ21jX1hpMHRtWmVqMURKZ2dGR1N0ZkpnbU5LcU1xR05XMXY5RU1BNWFPOE8tVDJ0c0FBSTk3dEFUSHdOdmpFc0VvbkhPS21WcHZpallGY3JSOWlGUWhEVlhRS2o0U19vV2N2RUJVYnRWSi0?oc=5",
-              "pubDate": "2026-03-18T20:30:00.000Z",
+              "title": "Vance defends Trump agenda in Auburn Hills",
+              "source": "Michigan Public",
+              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOU5RaldZNE0wLV9RR1hXNlJJNGxWd3ZBcWsxTHFiUFVQbkxvRWg3TjQ3RXIwT2xuTzlTbE8wcERlWXZER2EtdXZYNnNPUG1wYzhubFV6SGtnR1l5bWQzazlPb2I1M2JwZmk1TmRIb3V3eE42eEZtd3VWLXNnYXdwZTE0aklibzVPdHh0S1NpV2ttUVRQcHBUYjFteFpJa1ExQ3lJdkVkZw?oc=5",
+              "pubDate": "2026-03-19T03:09:00.000Z",
               "tier": 2
             }
           ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 55,
-          "slug": "israel-kills-irans-spy-chief-gabbard-says-government-is-intact-but-largely-degraded"
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "vance-defends-trump-agenda-in-auburn-hills"
+        },
+        {
+          "representativeTitle": "Newsmax Executive Named as Voice of America’s Deputy",
+          "sources": [
+            "The New York Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Newsmax Executive Named as Voice of America’s Deputy",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWjJ1YUgyLXl0d0VmaE54ZDdwX256QV8tOURORDRWQ3lOX1BfUEVodUs0R0Z2MlZaX2cyXzAtTEg1cnF4a0k3WXR0Z0dmdERUOGI2VzZQUkR5Z2FrOGg4bm1jUS1mRlE2a3dGT1JOUUNwSHV3MFdtMnN1UHNBODZnV2RkMURsQQ?oc=5",
+              "pubDate": "2026-03-19T02:04:50.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "newsmax-executive-named-as-voice-of-americas-deputy"
         },
         {
           "representativeTitle": "WATCH: Gabbard, Ratcliffe and Patel testify on worldwide threats in Senate Intelligence hearing",
@@ -661,26 +769,6 @@ export const newsData = {
           "slug": "spain-us-rift-pedro-snchez-defiance-of-trump-is-dictated-by-domestic-politics-but-its-also-a-litmus-test-for-europe"
         },
         {
-          "representativeTitle": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vWXhrS1R6Wlk1cmFTYmg0ZWNETGNwYWRrSTJqQVE1T19BbWZQQ1JhM1JwTTBhcVNpajN4T3p4LW53Z3Q1Q2xfWDB1R0oxTWUtRkxjbFJnS2xidFpxdEtXeGlQV25TOFpfbzh2YWI2REdxWDJadWc?oc=5",
-              "pubDate": "2026-03-18T09:01:25.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "firm-that-planned-trumps-jan-6-rally-received-no-bid-contracts"
-        },
-        {
           "representativeTitle": "Opinion | Why Americans should welcome China’s rise in science",
           "sources": [
             "South China Morning Post"
@@ -699,6 +787,26 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "opinion-why-americans-should-welcome-chinas-rise-in-science"
+        },
+        {
+          "representativeTitle": "Cuba’s leader says US aggression would meet ‘impregnable resistance’",
+          "sources": [
+            "Boston.com"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Cuba’s leader says US aggression would meet ‘impregnable resistance’",
+              "source": "Boston.com",
+              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQckNrdDlkbllrOF9iMFcxcGtIejMtdnJOcHg4S3lSUUMxMXRNd2RuamJpOGNVN3lHd05SSml4SC1aTi1jWkI2SWJTb2JfNWNKWXhVZVBxUndlbnJGYnpnenVscEZrUjlBMmlSc09JYnlmcDNzejluTF9fRW1FNlVjMEhMRm9keXhoRUFpRU9iTlZKRmcxek1aT2VRM2p0TklpcnB6bGlsOV9pUVFFclJhNldPLU4?oc=5",
+              "pubDate": "2026-03-18T20:17:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "cubas-leader-says-us-aggression-would-meet-impregnable-resistance"
         },
         {
           "representativeTitle": "Sánchez’s anti-Israel, anti-American politics may cost Spain its last African colonies",
@@ -721,6 +829,26 @@ export const newsData = {
           "slug": "snchezs-anti-israel-anti-american-politics-may-cost-spain-its-last-african-colonies"
         },
         {
+          "representativeTitle": "'It's got to stop': Chief Justice Roberts warns of 'dangerous' personal crit­i­cisms of judges",
+          "sources": [
+            "Spectrum News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "'It's got to stop': Chief Justice Roberts warns of 'dangerous' personal crit­i­cisms of judges",
+              "source": "Spectrum News",
+              "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUnhXcUtjYVpEUWo0TENPcW5ObFM1Y3ZiY1ZjVE9uc2gtZkRUZGV6NGJjVllteUI1bmF6R2ZCSG85YVlPTGVreExsSXY4RXRuQW1mLWhsdVZTalpubzZmZkFQRUY3WGFXRWtyRUVSME5vZUVHUVRfQ0Nxa2J2eHRkdHdsbXJ3R3VDa3QtblA5TTJDQ3gtMVVQUzhZaVpDeDBIaFVSNmMzTUxGWmNLZXkxQ0pGaExsZ0dFLUpsSHFKSmcwODloMG1Ub1dn?oc=5",
+              "pubDate": "2026-03-18T18:46:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "its-got-to-stop-chief-justice-roberts-warns-of-dangerous-personal-criticisms-of-judges"
+        },
+        {
           "representativeTitle": "Tim Cook on backlash against his relationship with the US government; says: I focus on policy, so I am ve",
           "sources": [
             "The Times of India"
@@ -741,26 +869,6 @@ export const newsData = {
           "slug": "tim-cook-on-backlash-against-his-relationship-with-the-us-government-says-i-focus-on-policy-so-i-am-ve"
         },
         {
-          "representativeTitle": "Vance defends Trump agenda in Auburn Hills",
-          "sources": [
-            "Michigan Public"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Vance defends Trump agenda in Auburn Hills",
-              "source": "Michigan Public",
-              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOU5RaldZNE0wLV9RR1hXNlJJNGxWd3ZBcWsxTHFiUFVQbkxvRWg3TjQ3RXIwT2xuTzlTbE8wcERlWXZER2EtdXZYNnNPUG1wYzhubFV6SGtnR1l5bWQzazlPb2I1M2JwZmk1TmRIb3V3eE42eEZtd3VWLXNnYXdwZTE0aklibzVPdHh0S1NpV2ttUVRQcHBUYjFteFpJa1ExQ3lJdkVkZw?oc=5",
-              "pubDate": "2026-03-19T03:09:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "vance-defends-trump-agenda-in-auburn-hills"
-        },
-        {
           "representativeTitle": "Airports may close if government shutdown continues, TSA official warns",
           "sources": [
             "The Times"
@@ -770,7 +878,7 @@ export const newsData = {
             {
               "title": "Airports may close if government shutdown continues, TSA official warns",
               "source": "The Times",
-              "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxNR0tSUE5LMlBOUDhRYjN3VnpZaFhQdmh5M1Zvbi1YSjBCai11WEM2UUVpQjh0ek1aVTZkc0otM1FkMDFtRF9KMU4xbkxqTjVkRldVVU82OU0xcFlnOVMydnR4TmtYN0ZjcGN5RmR3VnBNWUJnMlNnbVNlb0VLemo3MktuZU5VMktIRGNLelA0alVpSDh3bU9RdXdpemdMREk3OHJxVFpKYzNWTWFxbXZCSmJ6VUhQdWl1eTE2My1Ndk11WDltbEZydzQ2NERBQWVxbjZIV2Fibkx5MnFSR3hBODVOdlY2amd3V1hPVk13ejhiV1NFRXNYalh4bzdfckJLX3pqZUNaNlo0c0hCQ1NXU3lQMzJwOVE2SEZRZWM0SVNtUGc0ZHRROE9BV2JLMkxOYVg2S29XWDJJdy1mYjVxbmFvbzNwMXB4cUhYVDYzOUR4RWtRNjV3SlhnUnAtbEdQaEs4SF9rODRxdzBIWVJHdmtZNktxaThlbUtDeFR4Zl94M1F0TTlDLW9TY1FiZlhrV1pEaTVnMXdGclRWTEd5cC1VeW8tam5TVXBMS1lheTJyNkpabGNQcVVpbmVtdw?oc=5",
+              "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPNW54T0lLWHNraFVvWUd2MXBmNHBjMHhNQkRhM2t4VVR6VWNacU5CX2Q3c2hxdS1GS2dQamplLWJ1U1hpZFkyZWg5Z1dKS1RtcEFRUDZlVG1aYkhHenpXend5RXkweFpITjM0UW5xWFB5STdoU2NCaGVGcDJSNGtJSHNGQ3NKdXV6SnFxV3FkM2FlQ1QtMFBKQko2dkxCcjZzdFVmSENfOWNNVl9KRWZacGhHNUZtV2xCZF81bHlCSDNYajFqaV9ZYmlvVHhCRVN0Zkpwc2tpSmRlQ2xDWDVvcW94T3RBbXdiNXR0QnBQX25xb3pnY3c5c3VOUGVXMFMwajVmSk5LaElOTWVJTWlRSGFsT2JTWTdfQ2c3M0FoV2lhZ0d0RE9kbGJhdy1Zczkwelo3Z1dpVWFMa0tnMU5EdFJOdDZNa0VZa3VjTzhkRnFfYnk3Ml85VC15anhiQ3hUMDdaeDNqRmRzQUpNQWN1anNLQm5qWDlVaTVUaHNKX1JiMTAyZ0RYSG5aTVJyZUgzclRYRzBZYlpKWjl2Z2ZmMnJlenFSNm1rb3hSZkJFSVdVNnVWTHFNdThtMnNqdw?oc=5",
               "pubDate": "2026-03-18T15:05:26.000Z",
               "tier": 2
             }
@@ -779,6 +887,26 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "airports-may-close-if-government-shutdown-continues-tsa-official-warns"
+        },
+        {
+          "representativeTitle": "Airline executives urge Congress to end partial government shutdown",
+          "sources": [
+            "MSN"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Airline executives urge Congress to end partial government shutdown",
+              "source": "MSN",
+              "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNX0F6OXdveUM2VmhYTmdQd1YzNW1YQlNVLTh4RjI0enl2RTdsdVFCVW1kRHJUQ25VS2I5b2Rkd2tVT3k3dUJXOVo4dWpvOGNKcHZkWWphNnRReWhTU0FITHVjM2V6VWMwWURIX1FVQ3NUdjlLM3ZGd1R2RG5fNlFmeXBUdGd0V1NtbVA1Wi1SclBzVHlsQUZYNE1ZbDl3amNndHlmVVV1R2RTcGloaUJGYnFKdlhuUkR4cDFId1p4RlhkWk5MSXlqVDU1YzRlV1l0aHVyYmRLNmk?oc=5",
+              "pubDate": "2026-03-19T06:08:49.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "airline-executives-urge-congress-to-end-partial-government-shutdown"
         },
         {
           "representativeTitle": "Despite Republicans controlling three branches of government, Trump blames Dems for shutdown",
@@ -799,126 +927,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "despite-republicans-controlling-three-branches-of-government-trump-blames-dems-for-shutdown"
-        },
-        {
-          "representativeTitle": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against gov­ernment",
-          "sources": [
-            "Spectrum News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against gov­ernment",
-              "source": "Spectrum News",
-              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNX1BNcUJ2SDdKanctMU92SjdTbURVNURoT2hVZlV5eVMwSEtyWVp3M2xzYUpmVkZ6SDZaZXVKOU1jQjd3eTBsUGVFUkNKVlRJZlp3cjg3dDZFUHFiemJZYW55NnNXaWlpQ0JscHQwRlI3d2hPSjI4REhTeDFWZWFyaVZRZHZXMUxVVHJYdUlyckhQWTQ?oc=5",
-              "pubDate": "2026-03-18T21:44:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "concern-anger-and-hope-simmer-in-cuba-after-trump-calls-for-imminent-action-against-government"
-        },
-        {
-          "representativeTitle": "Chile Digs Its Desert Line as Latin America Shifts Right",
-          "sources": [
-            "LatinAmerican Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Chile Digs Its Desert Line as Latin America Shifts Right",
-              "source": "LatinAmerican Post",
-              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcTRTTW1COVY1b3FiVTZ1enlwUzRFYUJjR3VodDZncWV4bTJ4MTdrT01zeTVZV0hwZlNkODRJQUExWmZFeDA5NDdKMmxEWHp1Z1ZFczQyc2JfNU9DNzVrMEJjTFJaUUV3d2ZmNmdZaGxfWjJEcDdWN2dScW1UTWlfWkxRa0hnejFxYUZzWU1mTnNoeHpTb2I1MkU1Q3hSd0tLV0owZ3hMaTJNbFFHYkpxQkZyMUhJMks5VnI0ZXpR?oc=5",
-              "pubDate": "2026-03-18T19:02:58.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "chile-digs-its-desert-line-as-latin-america-shifts-right"
-        },
-        {
-          "representativeTitle": "Iran’s government degraded but still intact, says Trump’s top intelligence official",
-          "sources": [
-            "The Globe and Mail"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran’s government degraded but still intact, says Trump’s top intelligence official",
-              "source": "The Globe and Mail",
-              "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR3dtNDc1TGpyTzktcmc1VHlZOTBEQlVSZloxR1Z0aDU0OVlzYk4zVGRtcXlueDFjbk1aSVRVbjdqTGdWcU1odGVfcmhZOW1Qb0RMemlTX1lMT1d0RHN0bjBTaWNoUmZDcUdmdXJjWUhRQXZhYXFvbENiNmlHTWItYUpjWDVocXlhcWFnQVRzSHAtdXljNUl5RE1wbTlhY3dHb05rTXB6blk1T0JQQTdjMzdDSVlGaWl2X1EzOHhsRG9Sam8?oc=5",
-              "pubDate": "2026-03-18T11:51:08.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "irans-government-degraded-but-still-intact-says-trumps-top-intelligence-official"
-        },
-        {
-          "representativeTitle": "Cornyn reconsiders Senate filibuster as he and Paxton stay in runoff race",
-          "sources": [
-            "Spectrum News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cornyn reconsiders Senate filibuster as he and Paxton stay in runoff race",
-              "source": "Spectrum News",
-              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUFp6VGlUSmg1cWgxRHhRaEs4NHFuWk9VM2VDcEJEbXR2NDFjQnBiWjJLQTdrWVV0azNydTRRWWVUQjFZTDRZVmV0aHVfVG9IenB2b0p0UktfWXBHLWxqTi1INlN1d2h0bjRBdWdIYWt5ZzFrbmFwV3RPUjFHWWJva3pMbjV0elRvVE43QVZfVFdVSGI2ZlV2eWw4TkVQR014Y05LWnRnaVVNX0pLTEVVQ3ZB?oc=5",
-              "pubDate": "2026-03-18T13:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "cornyn-reconsiders-senate-filibuster-as-he-and-paxton-stay-in-runoff-race"
-        },
-        {
-          "representativeTitle": "Amid political uncertainty, Netanyahu urges government responsibility",
-          "sources": [
-            "JNS.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Amid political uncertainty, Netanyahu urges government responsibility",
-              "source": "JNS.org",
-              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeGJqYlVOMVpMcnhnSDl0NUtncHVscnNyZTdya3d3OE5lN1l2OGpzQ0g2SHpOOS03TS1RZW5VR0FCc3NKeTh0NS1PdU0wUmxqZXRMWUw1MTMzaVg4dDJWejg5M2R5V3d3YXE5YWtlaFV1TzROMzNUalRobEdKLUl5LVZJamdYU0I1eUs3VUUwZFJfZEFGaHp4dQ?oc=5",
-              "pubDate": "2026-03-18T17:23:57.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "amid-political-uncertainty-netanyahu-urges-government-responsibility"
-        },
-        {
-          "representativeTitle": "Newsmax Executive Named as Voice of America’s Deputy",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Newsmax Executive Named as Voice of America’s Deputy",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWjJ1YUgyLXl0d0VmaE54ZDdwX256QV8tOURORDRWQ3lOX1BfUEVodUs0R0Z2MlZaX2cyXzAtTEg1cnF4a0k3WXR0Z0dmdERUOGI2VzZQUkR5Z2FrOGg4bm1jUS1mRlE2a3dGT1JOUUNwSHV3MFdtMnN1UHNBODZnV2RkMURsQQ?oc=5",
-              "pubDate": "2026-03-19T02:04:50.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "newsmax-executive-named-as-voice-of-americas-deputy"
         }
       ]
     },
@@ -1054,6 +1062,26 @@ export const newsData = {
           "slug": "expectations-for-the-next-fed-rate-cut-get-pushed-back-after-hot-inflation-report"
         },
         {
+          "representativeTitle": "Oil prices surge after Iran attacks Middle East energy facilities",
+          "sources": [
+            "MarketWatch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Oil prices surge after Iran attacks Middle East energy facilities",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/oil-prices-surge-after-iran-attacks-middle-east-energy-facilities-c43c7d1e?mod=mw_rss_topstories",
+              "pubDate": "2026-03-19T09:08:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 55,
+          "slug": "oil-prices-surge-after-iran-attacks-middle-east-energy-facilities"
+        },
+        {
           "representativeTitle": "Almost 1 in 3 Americans doesn’t know when — or even if — they can retire",
           "sources": [
             "MarketWatch"
@@ -1152,46 +1180,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "netflix-more-likely-to-raise-prices-with-warner-bros-deal-out-of-the-way-citi-says"
-        },
-        {
-          "representativeTitle": "Powell offers his clearest statement yet on staying at the Fed even as leadership shifts",
-          "sources": [
-            "MarketWatch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Powell offers his clearest statement yet on staying at the Fed even as leadership shifts",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/powell-delivers-his-most-definitive-answer-yet-on-how-long-hell-stay-on-as-fed-chair-1b2a5787?mod=mw_rss_topstories",
-              "pubDate": "2026-03-18T22:25:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "powell-offers-his-clearest-statement-yet-on-staying-at-the-fed-even-as-leadership-shifts"
-        },
-        {
-          "representativeTitle": "U.S. stocks have reached a critical line in the sand. Why the next move could be a 10% drop.",
-          "sources": [
-            "MarketWatch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "U.S. stocks have reached a critical line in the sand. Why the next move could be a 10% drop.",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/u-s-stocks-have-reached-a-critical-line-in-the-sand-why-the-next-move-could-be-a-10-drop-c9451111?mod=mw_rss_topstories",
-              "pubDate": "2026-03-18T22:13:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "us-stocks-have-reached-a-critical-line-in-the-sand-why-the-next-move-could-be-a-10-drop"
         }
       ]
     },
@@ -1297,26 +1285,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 60,
           "slug": "gas-price-surges-30-and-oil-hits-114-as-strikes-rattle-markets"
-        },
-        {
-          "representativeTitle": "Iran inflicts ‘extensive damage’ on site of world’s largest LNG facility in Qatar",
-          "sources": [
-            "Financial Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran inflicts ‘extensive damage’ on site of world’s largest LNG facility in Qatar",
-              "source": "Financial Times",
-              "link": "https://www.ft.com/content/e3814e6f-a1c9-4ad4-b449-c14064d58f42",
-              "pubDate": "2026-03-19T05:59:51.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "iran-inflicts-extensive-damage-on-site-of-worlds-largest-lng-facility-in-qatar"
         },
         {
           "representativeTitle": "US explored tying naval escorts in Strait of Hormuz to government insurance",
@@ -1479,14 +1447,14 @@ export const newsData = {
           "slug": "bank-of-japan-postpones-rate-rise-after-middle-east-war-erupts"
         },
         {
-          "representativeTitle": "KPMG and Harvey Nichols among employers found to have paid less than UK minimum wage",
+          "representativeTitle": "KPMG and Harvey Nichols among employers to have paid less than UK minimum wage",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "KPMG and Harvey Nichols among employers found to have paid less than UK minimum wage",
+              "title": "KPMG and Harvey Nichols among employers to have paid less than UK minimum wage",
               "source": "Financial Times",
               "link": "https://www.ft.com/content/1837f2e4-d7a5-45d8-9e05-ccabcff1ba76",
               "pubDate": "2026-03-19T00:02:32.000Z",
@@ -1496,7 +1464,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "kpmg-and-harvey-nichols-among-employers-found-to-have-paid-less-than-uk-minimum-wage"
+          "slug": "kpmg-and-harvey-nichols-among-employers-to-have-paid-less-than-uk-minimum-wage"
         }
       ]
     },
@@ -1892,6 +1860,26 @@ export const newsData = {
           "slug": "dod-says-anthropics-red-lines-make-it-an-unacceptable-risk-to-national-security"
         },
         {
+          "representativeTitle": "Trump is threatening international students, and a new bill could help stop him",
+          "sources": [
+            "The Verge"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump is threatening international students, and a new bill could help stop him",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/policy/897097/opt-bill-international-student-visas",
+              "pubDate": "2026-03-19T09:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "trump-is-threatening-international-students-and-a-new-bill-could-help-stop-him"
+        },
+        {
           "representativeTitle": "Amazon doesn’t want the blame for the Post Office going under",
           "sources": [
             "The Verge"
@@ -2105,6 +2093,46 @@ export const newsData = {
           "slug": "us-intelligence-chief-says-irans-regime-intact-but-degraded"
         },
         {
+          "representativeTitle": "Gas price soars nearly 25% after strikes on Qatar hub",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Gas price soars nearly 25% after strikes on Qatar hub",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/c78x83lpgngo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-19T09:16:00.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "gas-price-soars-nearly-25-after-strikes-on-qatar-hub"
+        },
+        {
+          "representativeTitle": "DR Congo and Rwanda agree to ease tensions after talks in US",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "DR Congo and Rwanda agree to ease tensions after talks in US",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/c15x5ejgyl3o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-19T08:42:38.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "dr-congo-and-rwanda-agree-to-ease-tensions-after-talks-in-us"
+        },
+        {
           "representativeTitle": "One killed as ski gondola crashes down mountain at Swiss resort",
           "sources": [
             "BBC World"
@@ -2123,6 +2151,26 @@ export const newsData = {
           "relevance_score": 4,
           "importance": 35,
           "slug": "one-killed-as-ski-gondola-crashes-down-mountain-at-swiss-resort"
+        },
+        {
+          "representativeTitle": "Sony removes 135,000 'deepfakes' of its artists' music",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Sony removes 135,000 'deepfakes' of its artists' music",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/cy57593gxe0o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-18T17:19:41.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "sony-removes-135000-deepfakes-of-its-artists-music"
         },
         {
           "representativeTitle": "Ecuador gang leader wanted for murder of presidential candidate arrested",
@@ -2145,26 +2193,6 @@ export const newsData = {
           "slug": "ecuador-gang-leader-wanted-for-murder-of-presidential-candidate-arrested"
         },
         {
-          "representativeTitle": "Hittler faces Zielinski as French town's election contest goes viral",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Hittler faces Zielinski as French town's election contest goes viral",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/c2d1drzgxzyo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T13:57:26.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "hittler-faces-zielinski-as-french-towns-election-contest-goes-viral"
-        },
-        {
           "representativeTitle": "US civil rights leader Cesar Chavez accused of sexual abuse",
           "sources": [
             "BBC World"
@@ -2183,46 +2211,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "us-civil-rights-leader-cesar-chavez-accused-of-sexual-abuse"
-        },
-        {
-          "representativeTitle": "Iran's intelligence minister Esmail Khatib killed in air strike",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran's intelligence minister Esmail Khatib killed in air strike",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/c2d1dz14k51o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T17:05:46.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "irans-intelligence-minister-esmail-khatib-killed-in-air-strike"
-        },
-        {
-          "representativeTitle": "Oil crosses $110 a barrel after gas field strike",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Oil crosses $110 a barrel after gas field strike",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/c78x83lpgngo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-19T01:35:37.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "oil-crosses-110-a-barrel-after-gas-field-strike"
         },
         {
           "representativeTitle": "Labubu film is official with Paddington director at the helm",
@@ -2285,54 +2273,14 @@ export const newsData = {
           "slug": "alberta-seeks-to-set-limits-on-use-of-medically-assisted-dying"
         },
         {
-          "representativeTitle": "Israel destroys river bridges in southern Lebanon",
+          "representativeTitle": "Rhinos back in the wild in Uganda for the first time in 40 years",
           "sources": [
             "BBC World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Israel destroys river bridges in southern Lebanon",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/cvg8g98ezmzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T19:40:15.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "israel-destroys-river-bridges-in-southern-lebanon"
-        },
-        {
-          "representativeTitle": "US holds interest rates as Iran war triggers inflation fears",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US holds interest rates as Iran war triggers inflation fears",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/c36364d06x3o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T20:20:24.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "us-holds-interest-rates-as-iran-war-triggers-inflation-fears"
-        },
-        {
-          "representativeTitle": "Forty years after the last one was poached, rhinos are back in the wild in Uganda",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Forty years after the last one was poached, rhinos are back in the wild in Uganda",
+              "title": "Rhinos back in the wild in Uganda for the first time in 40 years",
               "source": "BBC World",
               "link": "https://www.bbc.com/news/articles/cn4g41n9j4lo?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-03-18T17:36:05.000Z",
@@ -2340,29 +2288,9 @@ export const newsData = {
             }
           ],
           "sentiment": 0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "forty-years-after-the-last-one-was-poached-rhinos-are-back-in-the-wild-in-uganda"
-        },
-        {
-          "representativeTitle": "Russian archaeologist can be sent to Ukraine for trial, Polish judge rules",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Russian archaeologist can be sent to Ukraine for trial, Polish judge rules",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/c86y65j26xno?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T16:39:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "russian-archaeologist-can-be-sent-to-ukraine-for-trial-polish-judge-rules"
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "rhinos-back-in-the-wild-in-uganda-for-the-first-time-in-40-years"
         },
         {
           "representativeTitle": "South Africans say criminal gangs are exploiting the water crisis",
@@ -2425,46 +2353,6 @@ export const newsData = {
           "slug": "very-difficult-to-stop-bbc-visits-scene-of-iran-cluster-bomb-strike-on-israel"
         },
         {
-          "representativeTitle": "Five takeaways from Markwayne Mullin's Homeland Security confirmation hearing",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Five takeaways from Markwayne Mullin's Homeland Security confirmation hearing",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/c2k8kp7d832o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T18:51:07.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "five-takeaways-from-markwayne-mullins-homeland-security-confirmation-hearing"
-        },
-        {
-          "representativeTitle": "Celebrations in Morocco but devastation in Senegal after Africa Cup of Nations decision",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Celebrations in Morocco but devastation in Senegal after Africa Cup of Nations decision",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/crm8mem74mko?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T15:48:41.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "celebrations-in-morocco-but-devastation-in-senegal-after-africa-cup-of-nations-decision"
-        },
-        {
           "representativeTitle": "Watch: Gabbard faces scrutiny over Iran nuclear intelligence claims",
           "sources": [
             "BBC World"
@@ -2503,6 +2391,26 @@ export const newsData = {
           "relevance_score": 2,
           "importance": 25,
           "slug": "famous-iditarod-dog-sled-race-ends-in-repeat-win-for-jessie-holmes"
+        },
+        {
+          "representativeTitle": "Venezuelans in Miami and Caracas celebrate historic WBC victory over USA",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Venezuelans in Miami and Caracas celebrate historic WBC victory over USA",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/videos/c3wlw788glvo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-18T14:40:06.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.9,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "venezuelans-in-miami-and-caracas-celebrate-historic-wbc-victory-over-usa"
         },
         {
           "representativeTitle": "Jihadist violence in Nigeria and DRC rose sharply last year even as global deaths from terror fell",
@@ -2745,6 +2653,26 @@ export const newsData = {
           "slug": "power-prices-expected-to-fall-by-up-to-10-from-july-bringing-welcome-relief-to-australias-east-coast"
         },
         {
+          "representativeTitle": "Hungary’s Orbán says he won’t back down and allow EU’s €90bn loan to Ukraine – Europe live",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hungary’s Orbán says he won’t back down and allow EU’s €90bn loan to Ukraine – Europe live",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/mar/19/europe-ukraine-russian-eu-loan-orban-hungary-tariffs-iran-nato-latest-news-updates",
+              "pubDate": "2026-03-19T08:56:49.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "hungarys-orbn-says-he-wont-back-down-and-allow-eus-90bn-loan-to-ukraine-europe-live"
+        },
+        {
           "representativeTitle": "Leo Varadkar: LGBTQ+ rights in Europe face ‘chill wind’ from east and west",
           "sources": [
             "The Guardian"
@@ -2805,26 +2733,6 @@ export const newsData = {
           "slug": "damaged-russian-tanker-carrying-natural-gas-floats-into-libyan-waters"
         },
         {
-          "representativeTitle": "The EU’s Hungary problem won’t be solved even if Viktor Orbán is ousted",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The EU’s Hungary problem won’t be solved even if Viktor Orbán is ousted",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/18/viktor-orban-hungary-parliamentary-election-eu-ukraine",
-              "pubDate": "2026-03-18T15:33:35.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "the-eus-hungary-problem-wont-be-solved-even-if-viktor-orbn-is-ousted"
-        },
-        {
           "representativeTitle": "Middle East crisis live: Trump threatens to ‘blow up’ entire South Pars gasfield if Iran strikes Qatar",
           "sources": [
             "The Guardian"
@@ -2835,7 +2743,7 @@ export const newsData = {
               "title": "Middle East crisis live: Trump threatens to ‘blow up’ entire South Pars gasfield if Iran strikes Qatar",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/live/2026/mar/19/iran-war-live-updates-oil-prices-gas-field-strikes-pentagon-more-funds-trump-news",
-              "pubDate": "2026-03-19T08:00:13.000Z",
+              "pubDate": "2026-03-19T08:47:46.000Z",
               "tier": 1
             }
           ],
@@ -2965,7 +2873,47 @@ export const newsData = {
           "slug": "pakistan-to-pause-afghan-strikes-for-eid-two-days-after-deadly-kabul-attack"
         },
         {
-          "representativeTitle": "War enters new phase as Israel attack on Iran gasfield sparks Gulf response",
+          "representativeTitle": "US East Asian allies in legal quandary as Trump seeks help in the Middle East",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US East Asian allies in legal quandary as Trump seeks help in the Middle East",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/19/us-east-asian-allies-in-legal-quandary-as-trump-seeks-help-in-the-middle-east?traffic_source=rss",
+              "pubDate": "2026-03-19T09:10:07.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "us-east-asian-allies-in-legal-quandary-as-trump-seeks-help-in-the-middle-east"
+        },
+        {
+          "representativeTitle": "Iran to ‘boycott’ World Cup in US but will not withdraw from 2026 event",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Iran to ‘boycott’ World Cup in US but will not withdraw from 2026 event",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/sports/2026/3/19/iran-to-boycott-world-cup-games-in-us-but-will-not-withdraw-from-2026-event?traffic_source=rss",
+              "pubDate": "2026-03-19T09:06:01.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "iran-to-boycott-world-cup-in-us-but-will-not-withdraw-from-2026-event"
+        },
+        {
+          "representativeTitle": "Trump attempts to distance US from Israeli strikes on key Iranian gasfield",
           "sources": [
             "Al Jazeera",
             "Al Jazeera"
@@ -2973,23 +2921,63 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "War enters new phase as Israel attack on Iran gasfield sparks Gulf response",
+              "title": "Trump denies knowledge of Israeli gas field attack",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/19/wrap-iran-ratchets-up-pressure-on-gulf-states?traffic_source=rss",
-              "pubDate": "2026-03-19T07:57:59.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/19/trump-denies-knowledge-of-israeli-gas-field-attack?traffic_source=rss",
+              "pubDate": "2026-03-19T08:39:50.000Z",
               "tier": 1
             },
             {
-              "title": "Iran war live: Gulf energy sites targeted after Israeli attack on gasfield",
+              "title": "Trump attempts to distance US from Israeli strikes on key Iranian gasfield",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/liveblog/2026/3/19/iran-war-live-qatar-saudi-energy-sites-attacked-riyadh-says-trust-gone?traffic_source=rss",
-              "pubDate": "2026-03-19T00:30:00.000Z",
+              "link": "https://www.aljazeera.com/news/2026/3/19/trump-attempts-to-distance-us-from-israeli-strikes-on-key-iranian-gasfield?traffic_source=rss",
+              "pubDate": "2026-03-19T07:09:34.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 70,
+          "slug": "trump-attempts-to-distance-us-from-israeli-strikes-on-key-iranian-gasfield"
+        },
+        {
+          "representativeTitle": "US weighs sending thousands of troops to region as Iran war rages: Report",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US weighs sending thousands of troops to region as Iran war rages: Report",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/19/us-weighs-sending-thousands-of-troops-to-region-as-iran-war-rages-report?traffic_source=rss",
+              "pubDate": "2026-03-19T08:09:49.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.9,
           "relevance_score": 10,
-          "importance": 75,
+          "importance": 65,
+          "slug": "us-weighs-sending-thousands-of-troops-to-region-as-iran-war-rages-report"
+        },
+        {
+          "representativeTitle": "War enters new phase as Israel attack on Iran gasfield sparks Gulf response",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "War enters new phase as Israel attack on Iran gasfield sparks Gulf response",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/19/wrap-iran-ratchets-up-pressure-on-gulf-states?traffic_source=rss",
+              "pubDate": "2026-03-19T07:57:59.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 65,
           "slug": "war-enters-new-phase-as-israel-attack-on-iran-gasfield-sparks-gulf-response"
         },
         {
@@ -3011,26 +2999,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 60,
           "slug": "baking-in-rubble-gaza-woman-keeps-eid-traditions-alive-despite-shortages"
-        },
-        {
-          "representativeTitle": "Trump attempts to distance US from Israeli strikes on key Iranian gasfield",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump attempts to distance US from Israeli strikes on key Iranian gasfield",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/19/trump-attempts-to-distance-us-from-israeli-strikes-on-key-iranian-gasfield?traffic_source=rss",
-              "pubDate": "2026-03-19T07:09:34.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "trump-attempts-to-distance-us-from-israeli-strikes-on-key-iranian-gasfield"
         },
         {
           "representativeTitle": "Israeli air raids devastate southern Lebanon, dozens killed in two days",
@@ -3275,10 +3243,9 @@ export const newsData = {
         {
           "representativeTitle": "Three Palestinian women killed during Iranian missile attack in West Bank",
           "sources": [
-            "Al Jazeera",
             "Al Jazeera"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Three Palestinian women killed during Iranian missile attack in West Bank",
@@ -3286,79 +3253,12 @@ export const newsData = {
               "link": "https://www.aljazeera.com/news/2026/3/19/three-palestinian-women-killed-during-iranian-missile-attack-in-west-bank?traffic_source=rss",
               "pubDate": "2026-03-19T03:58:49.000Z",
               "tier": 1
-            },
-            {
-              "title": "Three women killed in occupied West Bank missile attack",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/19/three-women-killed-in-occupied-west-bank-missile-attack?traffic_source=rss",
-              "pubDate": "2026-03-19T02:19:28.000Z",
-              "tier": 1
             }
           ],
           "sentiment": -0.9,
           "relevance_score": 9,
-          "importance": 70,
+          "importance": 60,
           "slug": "three-palestinian-women-killed-during-iranian-missile-attack-in-west-bank"
-        },
-        {
-          "representativeTitle": "Saudi FM warns Iran that patience in Gulf not ‘unlimited’ amid attacks",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Saudi FM warns Iran that patience in Gulf not ‘unlimited’ amid attacks",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/19/saudi-fm-warns-iran-that-patience-in-gulf-not-unlimited-amid-attacks?traffic_source=rss",
-              "pubDate": "2026-03-19T02:11:25.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "saudi-fm-warns-iran-that-patience-in-gulf-not-unlimited-amid-attacks"
-        },
-        {
-          "representativeTitle": "Qatar expels Iranian attaches after LNG facility strike",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Qatar expels Iranian attaches after LNG facility strike",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/19/qatar-expels-iranian-attaches-after-lng-facility-strike?traffic_source=rss",
-              "pubDate": "2026-03-19T00:20:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "qatar-expels-iranian-attaches-after-lng-facility-strike"
-        },
-        {
-          "representativeTitle": "Funerals held for Afghans killed in Pakistani strike on Kabul hospital",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Funerals held for Afghans killed in Pakistani strike on Kabul hospital",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/19/funerals-held-for-afghans-killed-in-pakistani-strike-on-kabul-hospital?traffic_source=rss",
-              "pubDate": "2026-03-19T00:14:18.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "funerals-held-for-afghans-killed-in-pakistani-strike-on-kabul-hospital"
         }
       ]
     },
@@ -3366,24 +3266,24 @@ export const newsData = {
       "name": "Science",
       "children": [
         {
-          "representativeTitle": "A Quantum Leap for the Turing Award",
+          "representativeTitle": "Get Ready for a Year of Chaotic Weather in the US",
           "sources": [
             "Wired"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "A Quantum Leap for the Turing Award",
+              "title": "Get Ready for a Year of Chaotic Weather in the US",
               "source": "Wired",
-              "link": "https://www.wired.com/story/a-quantum-leap-for-the-turing-award/",
-              "pubDate": "2026-03-18T09:00:00.000Z",
+              "link": "https://www.wired.com/story/get-ready-for-a-year-of-chaotic-weather-in-the-us/",
+              "pubDate": "2026-03-19T09:00:00.000Z",
               "tier": 1
             }
           ],
-          "sentiment": 0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "a-quantum-leap-for-the-turing-award"
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "get-ready-for-a-year-of-chaotic-weather-in-the-us"
         },
         {
           "representativeTitle": "Wildfires in carbon-rich tropical peatlands hit 2000-year high",
