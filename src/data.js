@@ -1,10 +1,30 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-19T06:23:00.962Z",
+  "lastUpdated": "2026-03-19T07:22:42.736Z",
   "children": [
     {
       "name": "Politics",
       "children": [
+        {
+          "representativeTitle": "UK to cut climate aid to developing countries by 14% to £2bn a year in ‘refocus’",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "UK to cut climate aid to developing countries by 14% to £2bn a year in ‘refocus’",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/environment/2026/mar/19/uk-cut-climate-aid-budget-developing-countries-refocus",
+              "pubDate": "2026-03-19T07:00:02.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "uk-to-cut-climate-aid-to-developing-countries-by-14-to-2bn-a-year-in-refocus"
+        },
         {
           "representativeTitle": "Nigel Farage Cameo videos backed cryptocurrencies that collapsed in value",
           "sources": [
@@ -84,7 +104,7 @@ export const newsData = {
               "title": "Sadiq Khan says Labour should pledge to rejoin EU",
               "source": "BBC News",
               "link": "https://www.bbc.com/news/articles/c62g2e08jpno?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T23:45:37.000Z",
+              "pubDate": "2026-03-19T07:10:33.000Z",
               "tier": 1
             },
             {
@@ -119,26 +139,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "bbc-world-service-to-get-extra-11m-a-year-in-deal-ending-funding-uncertainty"
-        },
-        {
-          "representativeTitle": "Angela Rayner’s allies say HMRC inquiry set to be resolved before May elections",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Angela Rayner’s allies say HMRC inquiry set to be resolved before May elections",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/mar/18/angela-rayners-allies-say-hmrc-inquiry-set-to-be-resolved-before-may-elections",
-              "pubDate": "2026-03-18T20:07:18.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "angela-rayners-allies-say-hmrc-inquiry-set-to-be-resolved-before-may-elections"
         },
         {
           "representativeTitle": "The Guardian view on Rachel Reeves and the EU: the right ambition is held back by outdated red lines | Editorial",
@@ -301,26 +301,6 @@ export const newsData = {
           "slug": "european-resistance-to-us-foreign-policy-over-the-decades"
         },
         {
-          "representativeTitle": "Side hustles: what you need to know about paying tax in the UK",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Side hustles: what you need to know about paying tax in the UK",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/money/2026/mar/18/side-hustles-paying-tax-uk-hmrc",
-              "pubDate": "2026-03-18T07:00:26.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "side-hustles-what-you-need-to-know-about-paying-tax-in-the-uk"
-        },
-        {
           "representativeTitle": "Ben Jennings on Nigel Farage’s content creation – cartoon",
           "sources": [
             "The Guardian"
@@ -361,6 +341,26 @@ export const newsData = {
           "slug": "pm-swerves-questions-on-whether-he-spoke-to-mandelson-over-epstein-friendship"
         },
         {
+          "representativeTitle": "UK sets target to boost steel making and cut imports",
+          "sources": [
+            "BBC News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "UK sets target to boost steel making and cut imports",
+              "source": "BBC News",
+              "link": "https://www.bbc.com/news/articles/c98q8q4zl8qo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-19T00:04:46.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "uk-sets-target-to-boost-steel-making-and-cut-imports"
+        },
+        {
           "representativeTitle": "Cost of online passport application could rise to over £100",
           "sources": [
             "BBC News"
@@ -381,26 +381,6 @@ export const newsData = {
           "slug": "cost-of-online-passport-application-could-rise-to-over-100"
         },
         {
-          "representativeTitle": "Rayner warns immigration reforms risk being 'un-British'",
-          "sources": [
-            "BBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Rayner warns immigration reforms risk being 'un-British'",
-              "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/c7434xv1pmeo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T15:52:20.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "rayner-warns-immigration-reforms-risk-being-un-british"
-        },
-        {
           "representativeTitle": "Government backtracks on AI and copyright after outcry from major artists",
           "sources": [
             "BBC News"
@@ -419,6 +399,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "government-backtracks-on-ai-and-copyright-after-outcry-from-major-artists"
+        },
+        {
+          "representativeTitle": "Rayner warns immigration reforms risk being 'un-British'",
+          "sources": [
+            "BBC News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Rayner warns immigration reforms risk being 'un-British'",
+              "source": "BBC News",
+              "link": "https://www.bbc.com/news/articles/c7434xv1pmeo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-18T15:52:20.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "rayner-warns-immigration-reforms-risk-being-un-british"
         },
         {
           "representativeTitle": "Fly tippers face clearing up own rubbish as punishment",
@@ -541,24 +541,24 @@ export const newsData = {
           "slug": "irish-pm-dodges-potential-st-patricks-day-bruises-at-trump-meeting"
         },
         {
-          "representativeTitle": "US Snubbed by Lula Government at Brazil Critical Minerals Summit",
+          "representativeTitle": "Politics of Indigenous peoples in the West",
           "sources": [
-            "Bloomberg.com"
+            "GIS Reports"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US Snubbed by Lula Government at Brazil Critical Minerals Summit",
-              "source": "Bloomberg.com",
-              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeG9na2hwMHVTUzhYYnkwTEZPaE1MYk9fV3lnZmItM2VWRjNQRjJXZWotZk10ak9fM3Z3cnRQYnQ0cVNGSjN1al9iV1QtNWVxYWJFN0hPZTJpX3docl92RW80UW5hNW0ybzV5enphZGNWekFRYkhHbjNqVmVYVFJ3UFBFcGtLZ3ZQZElyZHE5Y1Q5Uk0xbVNsbGZRbGcxel92MHdKNGJIXzRXcXFobVZHb2VmVVZSUQ?oc=5",
-              "pubDate": "2026-03-18T22:34:15.000Z",
+              "title": "Politics of Indigenous peoples in the West",
+              "source": "GIS Reports",
+              "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1yMzlfb2FPT2tLVGR1SnpvT3pjNjdETk1sRThocWFJNEVEZlpqeDNfQmlsdjhna3FxZ0g4bkdESkdoaXZHbUlSUHdiZEwwYU13UGJobk91X3NTaEZoRlhCWF9tUElENmpmSnJtdW16TjgzT25WOXNkalU3MjVZdw?oc=5",
+              "pubDate": "2026-03-19T07:00:00.000Z",
               "tier": 2
             }
           ],
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "us-snubbed-by-lula-government-at-brazil-critical-minerals-summit"
+          "slug": "politics-of-indigenous-peoples-in-the-west"
         },
         {
           "representativeTitle": "Delta CEO slams Washington over unpaid TSA agents, says front-line workers are being used as ‘political chips’",
@@ -579,6 +579,262 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "delta-ceo-slams-washington-over-unpaid-tsa-agents-says-front-line-workers-are-being-used-as-political-chips"
+        },
+        {
+          "representativeTitle": "US Snubbed by Lula Government at Brazil Critical Minerals Summit",
+          "sources": [
+            "Bloomberg.com"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US Snubbed by Lula Government at Brazil Critical Minerals Summit",
+              "source": "Bloomberg.com",
+              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeG9na2hwMHVTUzhYYnkwTEZPaE1MYk9fV3lnZmItM2VWRjNQRjJXZWotZk10ak9fM3Z3cnRQYnQ0cVNGSjN1al9iV1QtNWVxYWJFN0hPZTJpX3docl92RW80UW5hNW0ybzV5enphZGNWekFRYkhHbjNqVmVYVFJ3UFBFcGtLZ3ZQZElyZHE5Y1Q5Uk0xbVNsbGZRbGcxel92MHdKNGJIXzRXcXFobVZHb2VmVVZSUQ?oc=5",
+              "pubDate": "2026-03-18T22:34:15.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "us-snubbed-by-lula-government-at-brazil-critical-minerals-summit"
+        },
+        {
+          "representativeTitle": "Spain-US rift: Pedro Sánchez’ defiance of Trump is dictated by domestic politics – but it’s also a litmus test for Europe",
+          "sources": [
+            "The Conversation"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Spain-US rift: Pedro Sánchez’ defiance of Trump is dictated by domestic politics – but it’s also a litmus test for Europe",
+              "source": "The Conversation",
+              "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHdacmo0TUdaY3h4cHR1eU91M0pjT1hZM1ZTZVo2WWVzekRzOUN6UkpLdGl0Si03MjdaTjMwMmJEaGtsZk1qNVNWc05qTTJMWHNTTElXV05nTURUV0ExNkxhZlJfZjdRdHdmd3BPUHVPeWplOUZZbGlwQU5hTFF3TlVsdDZad3VoTndnaDNuX2dhRGNkWElfeXR6d0lEdE13X2ROOXU4ODNqWGlMVFA2RUh6U2hDVjBCemFUTlFCc3dGR04xeEw5UndIMWY5RHVFX1lkQ0hJYTYya20taDVrMVhfM1N3Zw?oc=5",
+              "pubDate": "2026-03-18T12:20:24.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "spain-us-rift-pedro-snchez-defiance-of-trump-is-dictated-by-domestic-politics-but-its-also-a-litmus-test-for-europe"
+        },
+        {
+          "representativeTitle": "US national debt surges past $39T just weeks into war in Iran",
+          "sources": [
+            "Las Vegas Review-Journal"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US national debt surges past $39T just weeks into war in Iran",
+              "source": "Las Vegas Review-Journal",
+              "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVk5CVFBPWmFnV1RUQ0JxdlhyNDd0NUszZEtRYjF3T2pad29mQXpzUHZ6emZWS3Rib1F4YnFLTmhCWlJmV0JHaG9yX01RQ0VhTVpxNUNNQ0lRc0I1VmlUTGprcXljMTZTSG50NzJtUkNtQXcyWHdjOGZfUFVOd3hEUVpKcDEzNUJfdWZfa3E4RmZzM2p3UDV3TldONnFsYTJrS0ZfRGlGbWNLZGNaSTFlSEVUUGFLQjNRVlRxaXMxcUwtdkJWdm44?oc=5",
+              "pubDate": "2026-03-18T22:09:50.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 55,
+          "slug": "us-national-debt-surges-past-39t-just-weeks-into-war-in-iran"
+        },
+        {
+          "representativeTitle": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
+          "sources": [
+            "The New York Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vWXhrS1R6Wlk1cmFTYmg0ZWNETGNwYWRrSTJqQVE1T19BbWZQQ1JhM1JwTTBhcVNpajN4T3p4LW53Z3Q1Q2xfWDB1R0oxTWUtRkxjbFJnS2xidFpxdEtXeGlQV25TOFpfbzh2YWI2REdxWDJadWc?oc=5",
+              "pubDate": "2026-03-18T09:01:25.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "firm-that-planned-trumps-jan-6-rally-received-no-bid-contracts"
+        },
+        {
+          "representativeTitle": "Opinion | Why Americans should welcome China’s rise in science",
+          "sources": [
+            "South China Morning Post"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Opinion | Why Americans should welcome China’s rise in science",
+              "source": "South China Morning Post",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObzkxemlCc28yUmlNcmd6UjBPMGxnc2V5NEptQndjV25Oa1dBemI5a3RlcnlLOG1nSUFzZk9EU1ZUS2JOZ3VoRXV2Xzh3aGQ1dmdDdDV1NGtEbDdldG11T0dvODRvZ1piNThZWVBXU2xUWHNDc2p4eEhXWUpqeFhad3l4LVRVVEVlTkdlVUNPWm1TN3hUSmcxYlRhTC1ZdzZmcWljOVhXOFZhSnE2R25JdlZkQVZzOXlVZ0HSAboBQVVfeXFMUHZNaVRubXBBcUptemlmUVktZ0ZVMlNFS2FQZ2JDSUhTRGdRTVRTTDhpM3k2ak5hNHhBdEJRcUF0T3lZLTRXU2JBaVFGeXRZUGdlVC04Y2tsYmVfR3BQS3JJTXhqcHZ0ZmJvbUdIejZxYUJDRF9vQVc5UHhYZ3Y5eGFkaWtrUnpzeFpwN3BtQ2psWloyMUVMVHpWdkgtWEtDd1VFZWdUWHhlRGZuXy11WnhIQk1rTW5SWXVR?oc=5",
+              "pubDate": "2026-03-18T12:30:07.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "opinion-why-americans-should-welcome-chinas-rise-in-science"
+        },
+        {
+          "representativeTitle": "Tim Cook on backlash against his relationship with the US government; says: I focus on policy, so I am very pleased that President Trump is ...",
+          "sources": [
+            "The Times of India",
+            "MSN"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Tim Cook on backlash against his relationship with the US government; says: I focus on policy, so I am ve",
+              "source": "The Times of India",
+              "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQbWItbjJtUmRMMENZbnJhUDlUbjN0dGJuQ1FoTkwtOWMyMWtnRTJNQlJNMW1HNXlIWFZMNnlpR1BLcFBXd2dxVTB0cUUwa1dyYTRXM3dwNk1ndlN2V2ctd3NOUlUtbVdRbnp3NS1Vejd4UjJuZHJBeGk1M1Bra3p5MUhKUkJaSVZzbXVFcGpTVFRMdmpycFhLRDN1aF8xd01XMWVGNEFwbjFWRm1lN2N6c0xjejlwNjMwaXhzelBGZUFZblU2ZXVhV2tocVRSSW02ZXJkNkUzYlZOUFk3Zy1KOS1GUDBGX09zNURSc205QmVOcVNoYWRsN09sWFIxMmVkUXBZV19FVXE1aFBaa2R0c290OWFpb0V0RjRSeUswVGpvcHFUZTN0VlFnbnBieVpLanFEeF9WVUhSRDlLcUVqSC1n0gHHAkFVX3lxTE0yRUtGcnVUbHc3R2lybnQyU28yMDFiMlB1SktRemV4QVF4REpGMlpvdm9VVkpfQk9SNWhXR3NPN0kxcS1zTHI1UHdwYWlvNTNVSkJSeXZIa3NsQ3doOWV4X0pHSWxGaVJuMjlJdVFRTERTNDduczhFU3NvVk5xUDRwUnkxaEFaX2ljWGVBNGdUdVhQNmJsTWZneXJmZGE5aFJNWWQyNktqRlJFSURSV0dwcTJzRm9BYVZOb0EwZk5SdGdsUzV3XzVnamU1aFVhRzB5ZGRVaWl3MDNlREtXSGI5U2NmN3NQaGVnbWRLeVlSTlVzVDdLc2ZrT2Nma2pOY04xREhpU0QwaWdyektHREltbzZyY21aU2NYeUI5dEt3X0h5QUNNbUlZM0pta1gxbW1hRjlXWVJ5bnA2UEtFa05kdVRlX2tDWQ?oc=5",
+              "pubDate": "2026-03-18T13:48:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Tim Cook on backlash against his relationship with the US government; says: I focus on policy, so I am very pleased that President Trump is ...",
+              "source": "MSN",
+              "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxONTh0TzJnOTRVUTU1Y0FBTG04QnFjTjVSaGxTTTB3TjUyR3RVb1c2dWZVdUZwTS1IaFZoUFhNcWIwMmIxSGh6cDlLem1VTjJKMnRUdkFOZ201MXVIa094aXVkMWQyQ0xNTlR4bGQzOXNoTnpMbGJiMUc4eTRJbGhDRmE3QWg2OFJXU2MxUktza2g3VzBWZGdwdVNoTS03ZW0yMjU5aXg1elVPOVFiUXV5YTVaY2pFS3VEbGFfYWZyTFA5Z2d3QTkzVWF2Z1Z0cjJpdFF6MGFMcUtsT1RjM0lhOFh4NUJIZ3hXMGc2ZUlaVGQ4ZE5qUmZNclR5cTZObVFuNm1aaDEwNmpUSjgzM3lRWWZ5SQ?oc=5",
+              "pubDate": "2026-03-18T17:29:59.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "tim-cook-on-backlash-against-his-relationship-with-the-us-government-says-i-focus-on-policy-so-i-am-very-pleased-that-president-trump-is"
+        },
+        {
+          "representativeTitle": "Top U.S. intelligence officials testify about Iran war",
+          "sources": [
+            "Spectrum News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Top U.S. intelligence officials testify about Iran war",
+              "source": "Spectrum News",
+              "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMjl4MHJqdUYtcTVueHhtb2dpM1dxdks4Z0ZRRjhrUnkxNHU5YjV3dno0Mmc2Z2trWnctX1cxbVM5VlN3VjlEVnlWX1pMem5PUDFqbHlpdlQxMnNod1BTalVrTVFBanlqaVJ0RnNmVHBzeGxjemQ4RDJYWWtEdVFPVVJSdXZrc2pxcE9kMkFaLUhnME9DWE55Ql80TGpqdG8wZlI2SUF4QjJfdWpIT2FNMm9sTmd6UnVUMWYtYTAxeHI4OHB5SHpCLTFvcjlDSUZ5bW1nbTk0YXJPTUhLSGhWdTRVWThJYk9sUVhBNGwzVQ?oc=5",
+              "pubDate": "2026-03-18T11:34:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 55,
+          "slug": "top-us-intelligence-officials-testify-about-iran-war"
+        },
+        {
+          "representativeTitle": "Government shutdown could lead to airports being closed, TSA official warns",
+          "sources": [
+            "The Times",
+            "The Independent"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Airports may close if government shutdown continues, TSA official warns",
+              "source": "The Times",
+              "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxQN1B4Z3cxaGhDUnNjc2VrSTR1SlV6TndQcEFQVi1KR253RTQ1Q25UdWxZUXJleFZadTVWMzJja0lYQnMtSjJhaXZQWHljWm1jTUduQW93eGJ0VUFJMlE4YndWTkl4dUFiOWZRT1EwbVU5QXE0d29femcxZWlHeUtmZGlFWURuYW5NNndoMnJoeWhveG5hNk9TM2tNdWVkQVpMTER3SFpHWkxGTzVJc0pBaUJxY3VjVlB1QnNKUnhqaU9DTjJoZkVtdTVpUkdUUzJnNUhZRVM1QXY2dHppU1RRVnFnMnEyTVNZLVdzdjRadWtRYUtxOHBKdzh4djRmUmZjVWVQbVhhV2QyRzdnS2hwczR1ZmJ6Z0dtQmJyT3huVEV5ckNVcGJtVFl0YW5HNkNRNHlMSENKVHhfMU1TR1lmdlFZdDRBYVl2UjBFejdiS2dLeEg4NjJ4alhHNWJPdmpUZXQ5aEs1WXoyWVgtaVd0alQ5ZTlKQ29lYWQ3cjR5V0hTOUVlOVlvUlhKdlZLOXRrZThOcHNVSVpCWmNUQ0xDbmhOSDdxVW0wRFpnWm5xdnVvYzFhcDB3MUpVSTU1QQ?oc=5",
+              "pubDate": "2026-03-18T15:05:26.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Government shutdown could lead to airports being closed, TSA official warns",
+              "source": "The Independent",
+              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSFNIX2RheXJ3UE13Q3BiQmdwdnVwN2RucGxnV2ZkVFRtalc4T2pNOFZpVUx3aGZDNVk2ZS05YXdvcTlaNHhOSVo1SVZISEtPNnlraDdsbnd2MVg1ak1HRGI5elYyOHB4czNCQ2FnLWNIUVFJTUJfMkg5VXRmSE9QM05ZNl9xSU96SUxBbm82R3NBbWEtT3JrdWtQRlM5cGJjelpJZnZRQ08?oc=5",
+              "pubDate": "2026-03-18T19:08:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "government-shutdown-could-lead-to-airports-being-closed-tsa-official-warns"
+        },
+        {
+          "representativeTitle": "Iran’s government degraded but still intact, says Trump’s top intelligence official",
+          "sources": [
+            "The Globe and Mail"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Iran’s government degraded but still intact, says Trump’s top intelligence official",
+              "source": "The Globe and Mail",
+              "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR3dtNDc1TGpyTzktcmc1VHlZOTBEQlVSZloxR1Z0aDU0OVlzYk4zVGRtcXlueDFjbk1aSVRVbjdqTGdWcU1odGVfcmhZOW1Qb0RMemlTX1lMT1d0RHN0bjBTaWNoUmZDcUdmdXJjWUhRQXZhYXFvbENiNmlHTWItYUpjWDVocXlhcWFnQVRzSHAtdXljNUl5RE1wbTlhY3dHb05rTXB6blk1T0JQQTdjMzdDSVlGaWl2X1EzOHhsRG9Sam8?oc=5",
+              "pubDate": "2026-03-18T11:51:08.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "irans-government-degraded-but-still-intact-says-trumps-top-intelligence-official"
+        },
+        {
+          "representativeTitle": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against government",
+          "sources": [
+            "WRAL"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against government",
+              "source": "WRAL",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnRPSGYwM2hBbVpfTkpaVWlzZFpRbG5GSUhBNUFYNFZkc3N1eDN3aDdBLUhtbjIyNXhaV0VVTkxIYkdzNmhtRXV0X1lXZ013MW94NnhQTW5lNGwxTDdpMnJ0ZF9oRVF6cGpzX3JkQmo1Yi05bk5IOERNUGVQd3F4cnlUN09Tc3NseUQzTXZaVkxndFNoQS1DeFNRS2NBZGhPdTlB?oc=5",
+              "pubDate": "2026-03-18T22:15:46.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "concern-anger-and-hope-simmer-in-cuba-after-trump-calls-for-imminent-action-against-government"
+        },
+        {
+          "representativeTitle": "Amid political uncertainty, Netanyahu urges government responsibility",
+          "sources": [
+            "JNS.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Amid political uncertainty, Netanyahu urges government responsibility",
+              "source": "JNS.org",
+              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeGJqYlVOMVpMcnhnSDl0NUtncHVscnNyZTdya3d3OE5lN1l2OGpzQ0g2SHpOOS03TS1RZW5VR0FCc3NKeTh0NS1PdU0wUmxqZXRMWUw1MTMzaVg4dDJWejg5M2R5V3d3YXE5YWtlaFV1TzROMzNUalRobEdKLUl5LVZJamdYU0I1eUs3VUUwZFJfZEFGaHp4dQ?oc=5",
+              "pubDate": "2026-03-18T17:23:57.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "amid-political-uncertainty-netanyahu-urges-government-responsibility"
+        },
+        {
+          "representativeTitle": "Despite Republicans controlling three branches of government, Trump blames Dems for shutdown",
+          "sources": [
+            "The Independent"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Despite Republicans controlling three branches of government, Trump blames Dems for shutdown",
+              "source": "The Independent",
+              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOM1NTZVJqNVd0ZmZDM2RwZjBqVjNhNTRLTmhGQ1B5TTU5eU5tVUpWMWN0UDRaNHpqb3BPdTJvVVhBQ0NyVjcyekhTRTUwWnVnX2huMzhtQ2FDNjBjalFnb3BscXdjWkhrNW5rWm10LVdBVm9ZaGw1ZEx2ZUhvT3lYN2NDMEVIWTdkRDF5Y0x0YV9sc0E2Mk10STVPbUQ3UkdJNHV2clhlZTJtREVaazRJQ1J0R2tUWjhZTE5Kcw?oc=5",
+              "pubDate": "2026-03-18T19:36:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "despite-republicans-controlling-three-branches-of-government-trump-blames-dems-for-shutdown"
         },
         {
           "representativeTitle": "Israel kills Iran’s spy chief; Gabbard says government is ‘intact but largely degraded’",
@@ -609,106 +865,6 @@ export const newsData = {
           "slug": "israel-kills-irans-spy-chief-gabbard-says-government-is-intact-but-largely-degraded"
         },
         {
-          "representativeTitle": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against government",
-          "sources": [
-            "WRAL"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against government",
-              "source": "WRAL",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnRPSGYwM2hBbVpfTkpaVWlzZFpRbG5GSUhBNUFYNFZkc3N1eDN3aDdBLUhtbjIyNXhaV0VVTkxIYkdzNmhtRXV0X1lXZ013MW94NnhQTW5lNGwxTDdpMnJ0ZF9oRVF6cGpzX3JkQmo1Yi05bk5IOERNUGVQd3F4cnlUN09Tc3NseUQzTXZaVkxndFNoQS1DeFNRS2NBZGhPdTlB?oc=5",
-              "pubDate": "2026-03-18T22:15:46.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "concern-anger-and-hope-simmer-in-cuba-after-trump-calls-for-imminent-action-against-government"
-        },
-        {
-          "representativeTitle": "Newsmax Executive Named as Voice of America’s Deputy",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Newsmax Executive Named as Voice of America’s Deputy",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWjJ1YUgyLXl0d0VmaE54ZDdwX256QV8tOURORDRWQ3lOX1BfUEVodUs0R0Z2MlZaX2cyXzAtTEg1cnF4a0k3WXR0Z0dmdERUOGI2VzZQUkR5Z2FrOGg4bm1jUS1mRlE2a3dGT1JOUUNwSHV3MFdtMnN1UHNBODZnV2RkMURsQQ?oc=5",
-              "pubDate": "2026-03-19T02:04:50.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "newsmax-executive-named-as-voice-of-americas-deputy"
-        },
-        {
-          "representativeTitle": "Spain-US rift: Pedro Sánchez’ defiance of Trump is dictated by domestic politics – but it’s also a litmus test for Europe",
-          "sources": [
-            "The Conversation"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Spain-US rift: Pedro Sánchez’ defiance of Trump is dictated by domestic politics – but it’s also a litmus test for Europe",
-              "source": "The Conversation",
-              "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHdacmo0TUdaY3h4cHR1eU91M0pjT1hZM1ZTZVo2WWVzekRzOUN6UkpLdGl0Si03MjdaTjMwMmJEaGtsZk1qNVNWc05qTTJMWHNTTElXV05nTURUV0ExNkxhZlJfZjdRdHdmd3BPUHVPeWplOUZZbGlwQU5hTFF3TlVsdDZad3VoTndnaDNuX2dhRGNkWElfeXR6d0lEdE13X2ROOXU4ODNqWGlMVFA2RUh6U2hDVjBCemFUTlFCc3dGR04xeEw5UndIMWY5RHVFX1lkQ0hJYTYya20taDVrMVhfM1N3Zw?oc=5",
-              "pubDate": "2026-03-18T12:20:24.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "spain-us-rift-pedro-snchez-defiance-of-trump-is-dictated-by-domestic-politics-but-its-also-a-litmus-test-for-europe"
-        },
-        {
-          "representativeTitle": "WATCH: Gabbard, Ratcliffe and Patel testify on worldwide threats in Senate Intelligence hearing",
-          "sources": [
-            "PBS"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "WATCH: Gabbard, Ratcliffe and Patel testify on worldwide threats in Senate Intelligence hearing",
-              "source": "PBS",
-              "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUTh2dm12dDdWODJnQTlNSThYY1RLT1g4aHQ0UTRJY3JZZ1lCMW03TUVlelQ0d2d2NXRyVTVRYkdncE5CVzFSYTFHQnRGZURiUTVxeURqTERTek9ic1RKRElqNXhLRWl2VGc2dHlKT1RXU2tfZGoxUlpmZzZ0anVCaXh1bjBYWllzOHVmazJwV0VlX0ZQVmZKWklEalotQmxVd01VYUhLdkwwSm1nWUcyaVVyT1VsN2VrdHJMOC1ldVZjajlmVG9TSXhfbFVzQVNCMHfSAdcBQVVfeXFMT2lDOUVwNDNVc3p3YnowZnZ5alEzZGJIN2l3ZVNNLTNNcFJiSTFJODBJMGdobDFTZFM2bUxPVndLQTNsUUlJUENITjgzRkp2cXpZcVR0QkV2NWN2YlEtd21sQnlodXRIaVh0RW5MR1pBd203V0FQbVBad09WRnFWNkREUC1RTk16VHVONHdNSm53SXBPTzFPbDR2Z1Q5TVdid0FUTmpHeDc4TDN1S3FPUmVNWXJxQURUdTFQSExhVlpQWVl4TU5JeDFLSDNhZkJMQjdycXowNjg?oc=5",
-              "pubDate": "2026-03-18T13:05:42.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "watch-gabbard-ratcliffe-and-patel-testify-on-worldwide-threats-in-senate-intelligence-hearing"
-        },
-        {
-          "representativeTitle": "Opinion | Why Americans should welcome China’s rise in science",
-          "sources": [
-            "South China Morning Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Opinion | Why Americans should welcome China’s rise in science",
-              "source": "South China Morning Post",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObzkxemlCc28yUmlNcmd6UjBPMGxnc2V5NEptQndjV25Oa1dBemI5a3RlcnlLOG1nSUFzZk9EU1ZUS2JOZ3VoRXV2Xzh3aGQ1dmdDdDV1NGtEbDdldG11T0dvODRvZ1piNThZWVBXU2xUWHNDc2p4eEhXWUpqeFhad3l4LVRVVEVlTkdlVUNPWm1TN3hUSmcxYlRhTC1ZdzZmcWljOVhXOFZhSnE2R25JdlZkQVZzOXlVZ0HSAboBQVVfeXFMUHZNaVRubXBBcUptemlmUVktZ0ZVMlNFS2FQZ2JDSUhTRGdRTVRTTDhpM3k2ak5hNHhBdEJRcUF0T3lZLTRXU2JBaVFGeXRZUGdlVC04Y2tsYmVfR3BQS3JJTXhqcHZ0ZmJvbUdIejZxYUJDRF9vQVc5UHhYZ3Y5eGFkaWtrUnpzeFpwN3BtQ2psWloyMUVMVHpWdkgtWEtDd1VFZWdUWHhlRGZuXy11WnhIQk1rTW5SWXVR?oc=5",
-              "pubDate": "2026-03-18T12:30:07.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "opinion-why-americans-should-welcome-chinas-rise-in-science"
-        },
-        {
           "representativeTitle": "Sánchez’s anti-Israel, anti-American politics may cost Spain its last African colonies",
           "sources": [
             "JNS.org"
@@ -727,186 +883,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "snchezs-anti-israel-anti-american-politics-may-cost-spain-its-last-african-colonies"
-        },
-        {
-          "representativeTitle": "Inside the Shutdown Stalemate Crippling the TSA and Airports",
-          "sources": [
-            "Time Magazine"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Inside the Shutdown Stalemate Crippling the TSA and Airports",
-              "source": "Time Magazine",
-              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYldQaG0tUjdMbFlXWXN0UnduaHMtOUlRa0Z6V3JHTE9PelE2eW9wanZKM2pXTWkyckdpTHo3d1hsM2lUbTlldEgxNHQxdGRGT3FnV29rczEyVjBVcFVBRUt5TmpNY1BnOWJCQkxFRXdFODNaNUNYNDF2WmhILUdTME42LUlEeEN1bzRxbm5n?oc=5",
-              "pubDate": "2026-03-18T10:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "inside-the-shutdown-stalemate-crippling-the-tsa-and-airports"
-        },
-        {
-          "representativeTitle": "Tim Cook on backlash against his relationship with the US government; says: I focus on policy, so I am ve",
-          "sources": [
-            "The Times of India"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Tim Cook on backlash against his relationship with the US government; says: I focus on policy, so I am ve",
-              "source": "The Times of India",
-              "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQbWItbjJtUmRMMENZbnJhUDlUbjN0dGJuQ1FoTkwtOWMyMWtnRTJNQlJNMW1HNXlIWFZMNnlpR1BLcFBXd2dxVTB0cUUwa1dyYTRXM3dwNk1ndlN2V2ctd3NOUlUtbVdRbnp3NS1Vejd4UjJuZHJBeGk1M1Bra3p5MUhKUkJaSVZzbXVFcGpTVFRMdmpycFhLRDN1aF8xd01XMWVGNEFwbjFWRm1lN2N6c0xjejlwNjMwaXhzelBGZUFZblU2ZXVhV2tocVRSSW02ZXJkNkUzYlZOUFk3Zy1KOS1GUDBGX09zNURSc205QmVOcVNoYWRsN09sWFIxMmVkUXBZV19FVXE1aFBaa2R0c290OWFpb0V0RjRSeUswVGpvcHFUZTN0VlFnbnBieVpLanFEeF9WVUhSRDlLcUVqSC1n0gHHAkFVX3lxTE0yRUtGcnVUbHc3R2lybnQyU28yMDFiMlB1SktRemV4QVF4REpGMlpvdm9VVkpfQk9SNWhXR3NPN0kxcS1zTHI1UHdwYWlvNTNVSkJSeXZIa3NsQ3doOWV4X0pHSWxGaVJuMjlJdVFRTERTNDduczhFU3NvVk5xUDRwUnkxaEFaX2ljWGVBNGdUdVhQNmJsTWZneXJmZGE5aFJNWWQyNktqRlJFSURSV0dwcTJzRm9BYVZOb0EwZk5SdGdsUzV3XzVnamU1aFVhRzB5ZGRVaWl3MDNlREtXSGI5U2NmN3NQaGVnbWRLeVlSTlVzVDdLc2ZrT2Nma2pOY04xREhpU0QwaWdyektHREltbzZyY21aU2NYeUI5dEt3X0h5QUNNbUlZM0pta1gxbW1hRjlXWVJ5bnA2UEtFa05kdVRlX2tDWQ?oc=5",
-              "pubDate": "2026-03-18T13:48:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "tim-cook-on-backlash-against-his-relationship-with-the-us-government-says-i-focus-on-policy-so-i-am-ve"
-        },
-        {
-          "representativeTitle": "Cornyn reconsiders Senate filibuster as he and Paxton stay in runoff race",
-          "sources": [
-            "Spectrum News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cornyn reconsiders Senate filibuster as he and Paxton stay in runoff race",
-              "source": "Spectrum News",
-              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUFp6VGlUSmg1cWgxRHhRaEs4NHFuWk9VM2VDcEJEbXR2NDFjQnBiWjJLQTdrWVV0azNydTRRWWVUQjFZTDRZVmV0aHVfVG9IenB2b0p0UktfWXBHLWxqTi1INlN1d2h0bjRBdWdIYWt5ZzFrbmFwV3RPUjFHWWJva3pMbjV0elRvVE43QVZfVFdVSGI2ZlV2eWw4TkVQR014Y05LWnRnaVVNX0pLTEVVQ3ZB?oc=5",
-              "pubDate": "2026-03-18T13:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "cornyn-reconsiders-senate-filibuster-as-he-and-paxton-stay-in-runoff-race"
-        },
-        {
-          "representativeTitle": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vWXhrS1R6Wlk1cmFTYmg0ZWNETGNwYWRrSTJqQVE1T19BbWZQQ1JhM1JwTTBhcVNpajN4T3p4LW53Z3Q1Q2xfWDB1R0oxTWUtRkxjbFJnS2xidFpxdEtXeGlQV25TOFpfbzh2YWI2REdxWDJadWc?oc=5",
-              "pubDate": "2026-03-18T09:01:25.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "firm-that-planned-trumps-jan-6-rally-received-no-bid-contracts"
-        },
-        {
-          "representativeTitle": "Bondi Doesn’t Commit to Deposition With House Panel Over Epstein Files",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Bondi Doesn’t Commit to Deposition With House Panel Over Epstein Files",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWE01X2ozUmtsNEdfQTFmc3pUQnVhYUYzUzN0eERUNUdyTGxtVGZCdk52dUg2Sk9STkwyNEhMek02VThXeWgzRXpObnFUN1NzelA3MmdfMGptMEJGNkI4SnFBenpGU0JXa2NfWTBRWXpWX19HQ01EdWpRT2Rxbm9oRURIVGdpaDRfNWVRaHBwTnUydmxUZnc?oc=5",
-              "pubDate": "2026-03-19T01:33:43.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "bondi-doesnt-commit-to-deposition-with-house-panel-over-epstein-files"
-        },
-        {
-          "representativeTitle": "Airports may close if government shutdown continues, TSA official warns",
-          "sources": [
-            "The Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Airports may close if government shutdown continues, TSA official warns",
-              "source": "The Times",
-              "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxQVms4N3JSTXl3WjN4X3RwOVpfX29hOFNqSHIxdkRjM0tMRHdGX2VabWxVVDhJcEFIdjNveFB6T2NBdnJ5dm56LXBnUlhCdnBYdXNCYmlTNjRPWkhlTW1yaGdVb3k1MWx3ZVdUb1AtYkVKdVZHcjRad2FiVW8zck9GbnhYZVRWVjJFQ2l2TVFMMmhaUnV2WXpMQTF3OHpmZmpibmxxa3VENDZQZFBRVXJMNmtHU185Z3NHbFRGMml0ME9nYkluRF9nM3A3UEtMelZzM29TbnVuNFhTRDRLbi1ST1YzQkU1eUtQYlhvdk9Wc29hMng3ZEZ4cnV1OERmZnNoazdnOTUyTE92aXdTTmhYVDhMOXpuYU83MlZsVDdISjBSZW13RTA1VHA3SVphNEJXNDhWVGgwcXRZZFQyczR0Yk9GLUVVczBfemtRc1dEMDE2aHRqanNLM1RjMlhxSzBrQUt0QjZQSkFVdEo3dHhDeUNsRElyQld3VHpBZDRWakllZGdsU1R4ZjJWTVJoX0JGNzFVSTV3b1BWSzNLbEd5M2tMejlMcjJ3eG1uNHdFVWY0VWE3Qkc1Rmk4RnNzUQ?oc=5",
-              "pubDate": "2026-03-18T15:05:26.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "airports-may-close-if-government-shutdown-continues-tsa-official-warns"
-        },
-        {
-          "representativeTitle": "US, Venezuela to restore diplomatic ties",
-          "sources": [
-            "dw.com"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US, Venezuela to restore diplomatic ties",
-              "source": "dw.com",
-              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjWEhtVjNXeHhHc1F0U0JKNXRtdnJzZmM4ZmxVUmJpeUJ1cEVqV3AxS1BtV1NfamxlUlZMYzU1TExrRVNrZEtNZTBJXzNISWFGcHVVaWw1RV9McVRNT2otZGVBa2pJR1dNQXRET0dBUG9ObHJRUW5WZDhIbl_SAXxBVV95cUxPVjF2VE9fS3JjTkxxTXI2S0s3ZXlmZXZ4MUl3U0U5R1BWOGdQdm9lREpLSGlVb1ZHTVRpc0NhNFBEaG5nOWhFTFhrZ1FMLTladDFKXzZ0bktydHo4NmZIaV93VExUcGlvWU9QYWVpSWNwbVo1dWxxU1JqU0tW?oc=5",
-              "pubDate": "2026-03-18T11:07:01.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "us-venezuela-to-restore-diplomatic-ties"
-        },
-        {
-          "representativeTitle": "Despite Republicans controlling three branches of government, Trump blames Dems for shutdown",
-          "sources": [
-            "The Independent"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Despite Republicans controlling three branches of government, Trump blames Dems for shutdown",
-              "source": "The Independent",
-              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOM1NTZVJqNVd0ZmZDM2RwZjBqVjNhNTRLTmhGQ1B5TTU5eU5tVUpWMWN0UDRaNHpqb3BPdTJvVVhBQ0NyVjcyekhTRTUwWnVnX2huMzhtQ2FDNjBjalFnb3BscXdjWkhrNW5rWm10LVdBVm9ZaGw1ZEx2ZUhvT3lYN2NDMEVIWTdkRDF5Y0x0YV9sc0E2Mk10STVPbUQ3UkdJNHV2clhlZTJtREVaazRJQ1J0R2tUWjhZTE5Kcw?oc=5",
-              "pubDate": "2026-03-18T19:36:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "despite-republicans-controlling-three-branches-of-government-trump-blames-dems-for-shutdown"
-        },
-        {
-          "representativeTitle": "Government shutdown sparks new round of partisan finger‑pointing",
-          "sources": [
-            "AJC.com"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Government shutdown sparks new round of partisan finger‑pointing",
-              "source": "AJC.com",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQemI2S20zV2RhMnJpTWdlX1NNcl9pSFdWaUFqQk5lMXExSHF1N0xCV2thS2g4QUNFMWFvV0l1MTJnTEs3RmdNOUhTZnU2NmswbVJBOHhpOG4tT1FHM0JzT1RncHM5cmt2ZVFTZXNnQ2JVYjlGZ1A4VjVob2lpRmpsMmZmMTNGaGJnczJiMGE2dDhJT0h0RzNubU8tWGNSRnlXRllj?oc=5",
-              "pubDate": "2026-03-18T12:54:54.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "government-shutdown-sparks-new-round-of-partisan-fingerpointing"
         }
       ]
     },
@@ -1267,6 +1243,26 @@ export const newsData = {
           "slug": "lululemon-reports-weak-guidance-as-proxy-battle-tariffs-weigh-on-bottom-line"
         },
         {
+          "representativeTitle": "Gas price surges 30% and oil hits $114 as strikes rattle markets",
+          "sources": [
+            "Financial Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Gas price surges 30% and oil hits $114 as strikes rattle markets",
+              "source": "Financial Times",
+              "link": "https://www.ft.com/content/07f52f59-528b-4bc4-9fca-5fee5f7f6e86",
+              "pubDate": "2026-03-18T23:37:56.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "gas-price-surges-30-and-oil-hits-114-as-strikes-rattle-markets"
+        },
+        {
           "representativeTitle": "Iran inflicts ‘extensive damage’ on site of world’s largest LNG facility in Qatar",
           "sources": [
             "Financial Times"
@@ -1285,26 +1281,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 60,
           "slug": "iran-inflicts-extensive-damage-on-site-of-worlds-largest-lng-facility-in-qatar"
-        },
-        {
-          "representativeTitle": "Oil above $110 as Trump says US could ‘massively’ blow up Iran gasfield",
-          "sources": [
-            "Financial Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Oil above $110 as Trump says US could ‘massively’ blow up Iran gasfield",
-              "source": "Financial Times",
-              "link": "https://www.ft.com/content/07f52f59-528b-4bc4-9fca-5fee5f7f6e86",
-              "pubDate": "2026-03-18T23:37:56.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "oil-above-110-as-trump-says-us-could-massively-blow-up-iran-gasfield"
         },
         {
           "representativeTitle": "US explored tying naval escorts in Strait of Hormuz to government insurance",
@@ -2681,24 +2657,44 @@ export const newsData = {
           "slug": "fuel-rations-and-no-air-con-south-east-asian-nations-race-to-conserve-energy"
         },
         {
-          "representativeTitle": "Australia news live: Tropical Cyclone Narelle forecast to hit far north Queensland three hours earlier than expected; ASX plunges amid Iran war",
+          "representativeTitle": "Tropical Cyclone Narelle to make landfall in far north Qld on Friday as category four storm, bringing 200km/h winds",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Australia news live: Tropical Cyclone Narelle forecast to hit far north Queensland three hours earlier than expected; ASX plunges amid Iran war",
+              "title": "Tropical Cyclone Narelle to make landfall in far north Qld on Friday as category four storm, bringing 200km/h winds",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/live/2026/mar/19/australia-news-live-jim-chalmers-tax-inflation-budget-cost-of-living-war-fuel-crisis-shortage-inflation-cyclone-narelle-queensland-ntwnfb",
-              "pubDate": "2026-03-19T06:13:01.000Z",
+              "link": "https://www.theguardian.com/australia-news/2026/mar/19/tropical-cyclone-narelle-qld-storm-tracker-path-tracking-map-bom",
+              "pubDate": "2026-03-19T07:10:05.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "australia-news-live-tropical-cyclone-narelle-forecast-to-hit-far-north-queensland-three-hours-earlier-than-expected-asx-plunges-amid-iran-war"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "tropical-cyclone-narelle-to-make-landfall-in-far-north-qld-on-friday-as-category-four-storm-bringing-200kmh-winds"
+        },
+        {
+          "representativeTitle": "Malinauskas steps up One Nation attack ahead of SA election – as it happened",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Malinauskas steps up One Nation attack ahead of SA election – as it happened",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/live/2026/mar/19/australia-news-live-jim-chalmers-tax-inflation-budget-cost-of-living-war-fuel-crisis-shortage-inflation-cyclone-narelle-queensland-ntwnfb",
+              "pubDate": "2026-03-19T06:36:05.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "malinauskas-steps-up-one-nation-attack-ahead-of-sa-election-as-it-happened"
         },
         {
           "representativeTitle": "Power prices expected to fall by up to 10% from July, bringing ‘welcome relief’ to Australia’s east coast",
@@ -2721,26 +2717,6 @@ export const newsData = {
           "slug": "power-prices-expected-to-fall-by-up-to-10-from-july-bringing-welcome-relief-to-australias-east-coast"
         },
         {
-          "representativeTitle": "Tropical Cyclone Narelle to make landfall in far north Qld on Friday as category four storm, bringing 200km/h winds",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Tropical Cyclone Narelle to make landfall in far north Qld on Friday as category four storm, bringing 200km/h winds",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/mar/19/tropical-cyclone-narelle-qld-storm-tracker-path-tracking-map-bom",
-              "pubDate": "2026-03-19T05:50:49.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "tropical-cyclone-narelle-to-make-landfall-in-far-north-qld-on-friday-as-category-four-storm-bringing-200kmh-winds"
-        },
-        {
           "representativeTitle": "Possum found nestled in with plush toys at airport gift shop in Tasmania",
           "sources": [
             "The Guardian"
@@ -2759,6 +2735,26 @@ export const newsData = {
           "relevance_score": 1,
           "importance": 20,
           "slug": "possum-found-nestled-in-with-plush-toys-at-airport-gift-shop-in-tasmania"
+        },
+        {
+          "representativeTitle": "Leo Varadkar: LGBTQ+ rights in Europe face ‘chill wind’ from east and west",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Leo Varadkar: LGBTQ+ rights in Europe face ‘chill wind’ from east and west",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/mar/19/leo-varadkar-lgbtq-rights-in-europe-face-chill-wind-from-east-and-west",
+              "pubDate": "2026-03-19T07:00:02.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "leo-varadkar-lgbtq-rights-in-europe-face-chill-wind-from-east-and-west"
         },
         {
           "representativeTitle": "Hungary’s Orbán to face pressure over Ukraine loan veto at EU summit",
@@ -2821,26 +2817,6 @@ export const newsData = {
           "slug": "the-eus-hungary-problem-wont-be-solved-even-if-viktor-orbn-is-ousted"
         },
         {
-          "representativeTitle": "Prosecutors seek more than seven years in jail for son of Norway’s crown princess",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Prosecutors seek more than seven years in jail for son of Norway’s crown princess",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/18/norway-prosecutors-seek-jail-sentence-son-crown-princess-marius-borg-hoiby",
-              "pubDate": "2026-03-18T14:57:55.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "prosecutors-seek-more-than-seven-years-in-jail-for-son-of-norways-crown-princess"
-        },
-        {
           "representativeTitle": "Middle East crisis live: Trump threatens to ‘blow up’ entire South Pars gasfield if Iran strikes Qatar",
           "sources": [
             "The Guardian"
@@ -2851,7 +2827,7 @@ export const newsData = {
               "title": "Middle East crisis live: Trump threatens to ‘blow up’ entire South Pars gasfield if Iran strikes Qatar",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/live/2026/mar/19/iran-war-live-updates-oil-prices-gas-field-strikes-pentagon-more-funds-trump-news",
-              "pubDate": "2026-03-19T06:13:51.000Z",
+              "pubDate": "2026-03-19T07:12:09.000Z",
               "tier": 1
             }
           ],
@@ -2979,6 +2955,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "pakistan-to-pause-afghan-strikes-for-eid-two-days-after-deadly-kabul-attack"
+        },
+        {
+          "representativeTitle": "Social media making young people less happy, report finds",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Social media making young people less happy, report finds",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/economy/2026/3/19/social-media-making-young-people-less-happy-report-finds?traffic_source=rss",
+              "pubDate": "2026-03-19T06:15:14.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "social-media-making-young-people-less-happy-report-finds"
         },
         {
           "representativeTitle": "US intelligence agencies not expecting China to invade Taiwan in 2027",
@@ -3347,46 +3343,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "leader-of-ecuador-based-criminal-group-los-lobos-arrested-in-mexico-city"
-        },
-        {
-          "representativeTitle": "Nigeria’s President Tinubu meets royals in UK state visit",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Nigeria’s President Tinubu meets royals in UK state visit",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/18/nigerias-president-tinubu-meets-royals-in-historic-uk-state-visit?traffic_source=rss",
-              "pubDate": "2026-03-18T21:46:17.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "nigerias-president-tinubu-meets-royals-in-uk-state-visit"
-        },
-        {
-          "representativeTitle": "Iranians burn Trump, Netanyahu effigies at warship victim rally",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iranians burn Trump, Netanyahu effigies at warship victim rally",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/iranians-burn-trump-netanyahu-effigies-at-warship-victim-rally?traffic_source=rss",
-              "pubDate": "2026-03-18T20:42:32.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "iranians-burn-trump-netanyahu-effigies-at-warship-victim-rally"
         }
       ]
     },
@@ -3412,6 +3368,66 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "a-quantum-leap-for-the-turing-award"
+        },
+        {
+          "representativeTitle": "Wildfires in carbon-rich tropical peatlands hit 2000-year high",
+          "sources": [
+            "Science Daily"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Wildfires in carbon-rich tropical peatlands hit 2000-year high",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/03/260319005110.htm",
+              "pubDate": "2026-03-19T05:18:39.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "wildfires-in-carbon-rich-tropical-peatlands-hit-2000-year-high"
+        },
+        {
+          "representativeTitle": "The surprising cancer link between cats and humans",
+          "sources": [
+            "Science Daily"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The surprising cancer link between cats and humans",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/03/260318033143.htm",
+              "pubDate": "2026-03-18T23:12:17.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "the-surprising-cancer-link-between-cats-and-humans"
+        },
+        {
+          "representativeTitle": "You don’t need to lose weight to reverse prediabetes, study finds",
+          "sources": [
+            "Science Daily"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "You don’t need to lose weight to reverse prediabetes, study finds",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/03/260318033129.htm",
+              "pubDate": "2026-03-19T06:32:09.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "you-dont-need-to-lose-weight-to-reverse-prediabetes-study-finds"
         },
         {
           "representativeTitle": "These strange pink rocks just revealed a hidden giant beneath Antarctica",
