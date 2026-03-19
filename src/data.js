@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-19T04:40:49.842Z",
+  "lastUpdated": "2026-03-19T05:30:45.793Z",
   "children": [
     {
       "name": "Politics",
@@ -10,15 +10,8 @@ export const newsData = {
           "sources": [
             "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
-            {
-              "title": "UK to double steel tariffs to 50% to save plants from collapse",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/business/2026/mar/19/uk-steel-tariffs-competition-peter-kyle-tata-steel-port-talbot",
-              "pubDate": "2026-03-19T00:01:53.000Z",
-              "tier": 1
-            },
             {
               "title": "UK to double steel tariffs to 50% to save plants from collapse",
               "source": "The Guardian",
@@ -29,7 +22,7 @@ export const newsData = {
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 60,
+          "importance": 50,
           "slug": "uk-to-double-steel-tariffs-to-50-to-save-plants-from-collapse"
         },
         {
@@ -37,15 +30,8 @@ export const newsData = {
           "sources": [
             "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
-            {
-              "title": "Ban corporate donations to UK political parties to protect elections, says thinktank",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/mar/19/corporate-donations-uk-political-parties-foreign-interference-bill-loopholes-centax",
-              "pubDate": "2026-03-19T00:01:53.000Z",
-              "tier": 1
-            },
             {
               "title": "Ban corporate donations to UK political parties to protect elections, says thinktank",
               "source": "The Guardian",
@@ -56,7 +42,7 @@ export const newsData = {
           ],
           "sentiment": 0,
           "relevance_score": 7,
-          "importance": 60,
+          "importance": 50,
           "slug": "ban-corporate-donations-to-uk-political-parties-to-protect-elections-says-thinktank"
         },
         {
@@ -595,34 +581,6 @@ export const newsData = {
           "slug": "us-snubbed-by-lula-government-at-brazil-critical-minerals-summit"
         },
         {
-          "representativeTitle": "Israel kills Iran’s spy chief; Gabbard says government is ‘intact but largely degraded’",
-          "sources": [
-            "Los Angeles Times",
-            "The Detroit News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Israel kills Iran’s spy chief; Gabbard says government is ‘intact but largely degraded’",
-              "source": "Los Angeles Times",
-              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTFhtdXhiVHNNVmcyRWhIeVFBRk5yMnJDeWVucFJLck8tNWpLSS02d3hTVEhvVHJ4aUdJOFhyV3B5cXdpS2ZZV3VlQ21jX1hpMHRtWmVqMURKZ2dGR1N0ZkpnbU5LcU1xR05XMXY5RU1BNWFPOE8tVDJ0c0FBSTk3dEFUSHdOdmpFc0VvbkhPS21WcHZpallGY3JSOWlGUWhEVlhRS2o0U19vV2N2RUJVYnRWSi0?oc=5",
-              "pubDate": "2026-03-18T20:30:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Iran's government degraded but appears intact, Gabbard says",
-              "source": "The Detroit News",
-              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ2FWSVNONG1ET1N5ZmFyOE9mRUJ0SFU2ckZHd3FKZnV1UGNncGREOXRGX0ItLUhMYnY4dUdLM3c4N1lQYlNpOHFVdWNGRHduRXVtbUE4Y3lVdzdYSE5pSVJld1VpeHRyWldfMXpOUHdJV2RFVFVFOUFpZWNMWENWZjJiUktRdXpCTjdrY2ZEOE9sRWRzQURkMlk4MnNSLWxKbURCQUhIRU9Wa3l0T0hV?oc=5",
-              "pubDate": "2026-03-18T16:28:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 60,
-          "slug": "israel-kills-irans-spy-chief-gabbard-says-government-is-intact-but-largely-degraded"
-        },
-        {
           "representativeTitle": "Virginia joins national push for refunds after US Supreme Court voids Trump tariffs",
           "sources": [
             "Virginia Mercury"
@@ -663,6 +621,54 @@ export const newsData = {
           "slug": "delta-ceo-slams-washington-over-unpaid-tsa-agents-says-front-line-workers-are-being-used-as-political-chips"
         },
         {
+          "representativeTitle": "Israel kills Iran’s spy chief; Gabbard says government is ‘intact but largely degraded’",
+          "sources": [
+            "Los Angeles Times",
+            "The Detroit News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Israel kills Iran’s spy chief; Gabbard says government is ‘intact but largely degraded’",
+              "source": "Los Angeles Times",
+              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTFhtdXhiVHNNVmcyRWhIeVFBRk5yMnJDeWVucFJLck8tNWpLSS02d3hTVEhvVHJ4aUdJOFhyV3B5cXdpS2ZZV3VlQ21jX1hpMHRtWmVqMURKZ2dGR1N0ZkpnbU5LcU1xR05XMXY5RU1BNWFPOE8tVDJ0c0FBSTk3dEFUSHdOdmpFc0VvbkhPS21WcHZpallGY3JSOWlGUWhEVlhRS2o0U19vV2N2RUJVYnRWSi0?oc=5",
+              "pubDate": "2026-03-18T20:30:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Iran's government degraded but appears intact, Gabbard says",
+              "source": "The Detroit News",
+              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ2FWSVNONG1ET1N5ZmFyOE9mRUJ0SFU2ckZHd3FKZnV1UGNncGREOXRGX0ItLUhMYnY4dUdLM3c4N1lQYlNpOHFVdWNGRHduRXVtbUE4Y3lVdzdYSE5pSVJld1VpeHRyWldfMXpOUHdJV2RFVFVFOUFpZWNMWENWZjJiUktRdXpCTjdrY2ZEOE9sRWRzQURkMlk4MnNSLWxKbURCQUhIRU9Wa3l0T0hV?oc=5",
+              "pubDate": "2026-03-18T16:28:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 60,
+          "slug": "israel-kills-irans-spy-chief-gabbard-says-government-is-intact-but-largely-degraded"
+        },
+        {
+          "representativeTitle": "Newsmax Executive Named as Voice of America’s Deputy",
+          "sources": [
+            "The New York Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Newsmax Executive Named as Voice of America’s Deputy",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWjJ1YUgyLXl0d0VmaE54ZDdwX256QV8tOURORDRWQ3lOX1BfUEVodUs0R0Z2MlZaX2cyXzAtTEg1cnF4a0k3WXR0Z0dmdERUOGI2VzZQUkR5Z2FrOGg4bm1jUS1mRlE2a3dGT1JOUUNwSHV3MFdtMnN1UHNBODZnV2RkMURsQQ?oc=5",
+              "pubDate": "2026-03-19T02:04:50.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "newsmax-executive-named-as-voice-of-americas-deputy"
+        },
+        {
           "representativeTitle": "WATCH: Gabbard, Ratcliffe and Patel testify on worldwide threats in Senate Intelligence hearing",
           "sources": [
             "PBS"
@@ -701,26 +707,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "spain-us-rift-pedro-snchez-defiance-of-trump-is-dictated-by-domestic-politics-but-its-also-a-litmus-test-for-europe"
-        },
-        {
-          "representativeTitle": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vWXhrS1R6Wlk1cmFTYmg0ZWNETGNwYWRrSTJqQVE1T19BbWZQQ1JhM1JwTTBhcVNpajN4T3p4LW53Z3Q1Q2xfWDB1R0oxTWUtRkxjbFJnS2xidFpxdEtXeGlQV25TOFpfbzh2YWI2REdxWDJadWc?oc=5",
-              "pubDate": "2026-03-18T09:01:25.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "firm-that-planned-trumps-jan-6-rally-received-no-bid-contracts"
         },
         {
           "representativeTitle": "Opinion | Why Americans should welcome China’s rise in science",
@@ -803,6 +789,26 @@ export const newsData = {
           "slug": "tim-cook-on-backlash-against-his-relationship-with-the-us-government-says-i-focus-on-policy-so-i-am-ve"
         },
         {
+          "representativeTitle": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
+          "sources": [
+            "The New York Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vWXhrS1R6Wlk1cmFTYmg0ZWNETGNwYWRrSTJqQVE1T19BbWZQQ1JhM1JwTTBhcVNpajN4T3p4LW53Z3Q1Q2xfWDB1R0oxTWUtRkxjbFJnS2xidFpxdEtXeGlQV25TOFpfbzh2YWI2REdxWDJadWc?oc=5",
+              "pubDate": "2026-03-18T09:01:25.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "firm-that-planned-trumps-jan-6-rally-received-no-bid-contracts"
+        },
+        {
           "representativeTitle": "Bondi Doesn’t Commit to Deposition With House Panel Over Epstein Files",
           "sources": [
             "The New York Times"
@@ -832,7 +838,7 @@ export const newsData = {
             {
               "title": "Airports may close if government shutdown continues, TSA official warns",
               "source": "The Times",
-              "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxQUy1raC0xaURKcURiVFZTclhiSW1td1dZdmRuUWZHeHhJcjVEWlN1SGJydHRSZ2N1WXBqMVkxRktjNzE3cVBGYU5Mek1sb3o3MEhvRkp4TnVMQmx5X3BxaEZDM1hSaS0xSnZxR2JhdHlnMDNDelRLZEc1eFZCd1JmcDRXUktyNFYxdWhXVVEtRDhPZXdtcDBJSXFxRjBOM3pSTWZ2ZWVVTGt5QzB3aVBMN3NPTVBxckpaV1UxSjBfQWlSak4yM0dOalI3ckpTS0s2NjU0b3hqN0tSOGN6a3FDVnZyOHk3WF95UkNPbEg4OXN0TEg2b3RKVUtyMWIzbDBjUkRWbmpWSnAxSU9fZExsbEJOaUYxeE1uaXBzVjRGZUNrODdXTzlKVXBjVzNRTlQwWTZXc1kybXdja3UyYjdhSEZDUFpQSEZ2UVl4RW5OM1NsTllvdFk0akZvOTJQdTdNSzJmUlVfXzlkc25HSm9yV0gwS2l4WnJPUERCMzVfOXRDSmVJbkpDaWItU1dDd3ZSeXAzN1BEVlQ3QU0zQ09laXFQWkt3TXFheW5kcmNLeWd4TF9jWGNBTGxEWjFjZw?oc=5",
+              "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPOTl6SnNnNkpfZFpDaXRFOUxaSXhfTzNKaDhMV0hBZ0dLdkp6TG4tM1B2T2FVWjNKakRqM3pnLXFOMnhLU05XNGk3cHVMajBadEdKNGRZLVZvaldLZDVzLWFiVGtHcG13d1lDdTdBeTM0V05PSHRXZDl2WWxtY19mV3hMcWI3SXc2UmJQUWltcXV0QS1NNEFBWEpWWFhrV2FnbjdzVDktclZHdlpjLTBFVW9KZFRBR0lITTFDQXNQelZxNDB3OWR4Y2JiUXVtdTFxaVBGaHJUa0QwZUl0NjM3RFo5dkxjaHJTbjNnSmhpVjhZVUl1MlBjTVJHYmpXY2JTRkpXV2pkYko5WVBibGhZNTYtR0dBbnZYWFlPSTR3N3hKYTFNZ2pVUVFqV1BzSFZQejVLSkQ3RnBkekJ4MTQ5VXpUX21OdGswbnpGV3NvV1lSLTlLVS1hNl9NN3gyQU9lWndWeFpoYldhVUVQQk5aajlyQkpYTkFGcXJUWkMzNjM4TFBNZC1DbTFqQjFRNWlLYlRhTFgxQzRDTXU3OEM4N3M1Slp6WlQ0bWFGNDZqUXQzQ05jb1M0aW1FVHQyZw?oc=5",
               "pubDate": "2026-03-18T15:05:26.000Z",
               "tier": 2
             }
@@ -841,26 +847,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "airports-may-close-if-government-shutdown-continues-tsa-official-warns"
-        },
-        {
-          "representativeTitle": "Despite Republicans controlling three branches of government, Trump blames Dems for shutdown",
-          "sources": [
-            "The Independent"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Despite Republicans controlling three branches of government, Trump blames Dems for shutdown",
-              "source": "The Independent",
-              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOM1NTZVJqNVd0ZmZDM2RwZjBqVjNhNTRLTmhGQ1B5TTU5eU5tVUpWMWN0UDRaNHpqb3BPdTJvVVhBQ0NyVjcyekhTRTUwWnVnX2huMzhtQ2FDNjBjalFnb3BscXdjWkhrNW5rWm10LVdBVm9ZaGw1ZEx2ZUhvT3lYN2NDMEVIWTdkRDF5Y0x0YV9sc0E2Mk10STVPbUQ3UkdJNHV2clhlZTJtREVaazRJQ1J0R2tUWjhZTE5Kcw?oc=5",
-              "pubDate": "2026-03-18T19:36:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "despite-republicans-controlling-three-branches-of-government-trump-blames-dems-for-shutdown"
         },
         {
           "representativeTitle": "US, Venezuela to restore diplomatic ties",
@@ -883,24 +869,24 @@ export const newsData = {
           "slug": "us-venezuela-to-restore-diplomatic-ties"
         },
         {
-          "representativeTitle": "Chile Digs Its Desert Line as Latin America Shifts Right",
+          "representativeTitle": "Despite Republicans controlling three branches of government, Trump blames Dems for shutdown",
           "sources": [
-            "LatinAmerican Post"
+            "The Independent"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Chile Digs Its Desert Line as Latin America Shifts Right",
-              "source": "LatinAmerican Post",
-              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcTRTTW1COVY1b3FiVTZ1enlwUzRFYUJjR3VodDZncWV4bTJ4MTdrT01zeTVZV0hwZlNkODRJQUExWmZFeDA5NDdKMmxEWHp1Z1ZFczQyc2JfNU9DNzVrMEJjTFJaUUV3d2ZmNmdZaGxfWjJEcDdWN2dScW1UTWlfWkxRa0hnejFxYUZzWU1mTnNoeHpTb2I1MkU1Q3hSd0tLV0owZ3hMaTJNbFFHYkpxQkZyMUhJMks5VnI0ZXpR?oc=5",
-              "pubDate": "2026-03-18T19:02:58.000Z",
+              "title": "Despite Republicans controlling three branches of government, Trump blames Dems for shutdown",
+              "source": "The Independent",
+              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOM1NTZVJqNVd0ZmZDM2RwZjBqVjNhNTRLTmhGQ1B5TTU5eU5tVUpWMWN0UDRaNHpqb3BPdTJvVVhBQ0NyVjcyekhTRTUwWnVnX2huMzhtQ2FDNjBjalFnb3BscXdjWkhrNW5rWm10LVdBVm9ZaGw1ZEx2ZUhvT3lYN2NDMEVIWTdkRDF5Y0x0YV9sc0E2Mk10STVPbUQ3UkdJNHV2clhlZTJtREVaazRJQ1J0R2tUWjhZTE5Kcw?oc=5",
+              "pubDate": "2026-03-18T19:36:00.000Z",
               "tier": 2
             }
           ],
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "chile-digs-its-desert-line-as-latin-america-shifts-right"
+          "slug": "despite-republicans-controlling-three-branches-of-government-trump-blames-dems-for-shutdown"
         },
         {
           "representativeTitle": "Government shutdown sparks new round of partisan finger‑pointing",
@@ -921,6 +907,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "government-shutdown-sparks-new-round-of-partisan-fingerpointing"
+        },
+        {
+          "representativeTitle": "Chile Digs Its Desert Line as Latin America Shifts Right",
+          "sources": [
+            "LatinAmerican Post"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Chile Digs Its Desert Line as Latin America Shifts Right",
+              "source": "LatinAmerican Post",
+              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcTRTTW1COVY1b3FiVTZ1enlwUzRFYUJjR3VodDZncWV4bTJ4MTdrT01zeTVZV0hwZlNkODRJQUExWmZFeDA5NDdKMmxEWHp1Z1ZFczQyc2JfNU9DNzVrMEJjTFJaUUV3d2ZmNmdZaGxfWjJEcDdWN2dScW1UTWlfWkxRa0hnejFxYUZzWU1mTnNoeHpTb2I1MkU1Q3hSd0tLV0owZ3hMaTJNbFFHYkpxQkZyMUhJMks5VnI0ZXpR?oc=5",
+              "pubDate": "2026-03-18T19:02:58.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "chile-digs-its-desert-line-as-latin-america-shifts-right"
         }
       ]
     },
@@ -1321,64 +1327,124 @@ export const newsData = {
           "slug": "oil-above-110-as-trump-says-us-could-massively-blow-up-iran-gasfield"
         },
         {
-          "representativeTitle": "Fed chief Jay Powell says Iran oil crisis will worsen US inflation",
+          "representativeTitle": "US explored tying naval escorts in Strait of Hormuz to government insurance",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Fed chief Jay Powell says Iran oil crisis will worsen US inflation",
+              "title": "US explored tying naval escorts in Strait of Hormuz to government insurance",
               "source": "Financial Times",
-              "link": "https://www.ft.com/content/dc961982-e7f6-413c-8c44-65ccfc483486",
-              "pubDate": "2026-03-18T21:02:17.000Z",
+              "link": "https://www.ft.com/content/4f3d0c64-42e6-438e-882a-1158532751b1",
+              "pubDate": "2026-03-19T05:00:17.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "fed-chief-jay-powell-says-iran-oil-crisis-will-worsen-us-inflation"
+          "slug": "us-explored-tying-naval-escorts-in-strait-of-hormuz-to-government-insurance"
         },
         {
-          "representativeTitle": "America’s war on Iran is a gift to Vladimir Putin",
+          "representativeTitle": "Iran sets its price to end the war",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "America’s war on Iran is a gift to Vladimir Putin",
+              "title": "Iran sets its price to end the war",
               "source": "Financial Times",
-              "link": "https://www.ft.com/content/0fabaafb-3668-4f97-8418-bc11c06ccbff",
-              "pubDate": "2026-03-18T18:33:40.000Z",
+              "link": "https://www.ft.com/content/869f650b-7a9e-461d-a2bb-0788eb991e6d",
+              "pubDate": "2026-03-19T05:00:27.000Z",
               "tier": 1
             }
           ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "americas-war-on-iran-is-a-gift-to-vladimir-putin"
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "iran-sets-its-price-to-end-the-war"
         },
         {
-          "representativeTitle": "How the world learned to love the bomb",
+          "representativeTitle": "Trump sails into battle with Lloyd’s of London",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "How the world learned to love the bomb",
+              "title": "Trump sails into battle with Lloyd’s of London",
               "source": "Financial Times",
-              "link": "https://www.ft.com/content/ba5f719a-974a-46a5-94dd-773361f9bee4",
-              "pubDate": "2026-03-18T12:06:15.000Z",
+              "link": "https://www.ft.com/content/f95d211f-eab2-40ba-91b0-fbbd57f468d6",
+              "pubDate": "2026-03-19T05:00:17.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "trump-sails-into-battle-with-lloyds-of-london"
+        },
+        {
+          "representativeTitle": "How the Trump White House tries to sell war and death as a game",
+          "sources": [
+            "Financial Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "How the Trump White House tries to sell war and death as a game",
+              "source": "Financial Times",
+              "link": "https://www.ft.com/content/02b5b54a-364b-4869-a6ff-1bc2d9950aa1",
+              "pubDate": "2026-03-19T04:00:03.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "how-the-world-learned-to-love-the-bomb"
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "how-the-trump-white-house-tries-to-sell-war-and-death-as-a-game"
+        },
+        {
+          "representativeTitle": "Battersea Power Station in dispute with fired CEO over accounts",
+          "sources": [
+            "Financial Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Battersea Power Station in dispute with fired CEO over accounts",
+              "source": "Financial Times",
+              "link": "https://www.ft.com/content/0ea88797-a181-43fa-bcd0-b0c3e0f0bfb4",
+              "pubDate": "2026-03-19T05:00:07.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "battersea-power-station-in-dispute-with-fired-ceo-over-accounts"
+        },
+        {
+          "representativeTitle": "PwC US boss says partners who resist AI have no place at the firm",
+          "sources": [
+            "Financial Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "PwC US boss says partners who resist AI have no place at the firm",
+              "source": "Financial Times",
+              "link": "https://www.ft.com/content/cd365ae8-0f9c-4c33-8ee0-7fad89abd125",
+              "pubDate": "2026-03-19T04:00:03.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "pwc-us-boss-says-partners-who-resist-ai-have-no-place-at-the-firm"
         },
         {
           "representativeTitle": "Japan rebels over $6bn fee for SoftBank under US trade deal",
@@ -1401,44 +1467,24 @@ export const newsData = {
           "slug": "japan-rebels-over-6bn-fee-for-softbank-under-us-trade-deal"
         },
         {
-          "representativeTitle": "US intelligence chief struggles to avoid contradicting Trump on Iran war",
+          "representativeTitle": "Bank of Japan postpones rate rise after Middle East war erupts",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US intelligence chief struggles to avoid contradicting Trump on Iran war",
+              "title": "Bank of Japan postpones rate rise after Middle East war erupts",
               "source": "Financial Times",
-              "link": "https://www.ft.com/content/0d4c6bdf-e01a-420a-9a2d-2a36850ab7d7",
-              "pubDate": "2026-03-18T19:33:43.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "us-intelligence-chief-struggles-to-avoid-contradicting-trump-on-iran-war"
-        },
-        {
-          "representativeTitle": "Trump ally warns US economy not strong enough to cope with Iran war",
-          "sources": [
-            "Financial Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump ally warns US economy not strong enough to cope with Iran war",
-              "source": "Financial Times",
-              "link": "https://www.ft.com/content/51ad00f4-1c70-45df-9eb1-fe8038af1fd7",
-              "pubDate": "2026-03-18T16:44:13.000Z",
+              "link": "https://www.ft.com/content/3d404845-88db-46d3-877c-e4c4221223c2",
+              "pubDate": "2026-03-19T03:57:43.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "trump-ally-warns-us-economy-not-strong-enough-to-cope-with-iran-war"
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "bank-of-japan-postpones-rate-rise-after-middle-east-war-erupts"
         },
         {
           "representativeTitle": "UK immigration reforms could be softened, Starmer signals after Rayner criticism",
@@ -1479,46 +1525,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "starmer-calls-on-badenoch-to-sack-shadow-minister-over-muslim-prayer-comments"
-        },
-        {
-          "representativeTitle": "Russia considers sending armed naval patrols to protect ‘shadow fleet’",
-          "sources": [
-            "Financial Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Russia considers sending armed naval patrols to protect ‘shadow fleet’",
-              "source": "Financial Times",
-              "link": "https://www.ft.com/content/6ba075d8-890b-40d8-a1a8-8be8ad250822",
-              "pubDate": "2026-03-18T20:21:39.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "russia-considers-sending-armed-naval-patrols-to-protect-shadow-fleet"
-        },
-        {
-          "representativeTitle": "Two shipments of Russian oil and gas head to Cuba in defiance of US",
-          "sources": [
-            "Financial Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Two shipments of Russian oil and gas head to Cuba in defiance of US",
-              "source": "Financial Times",
-              "link": "https://www.ft.com/content/bdb055d0-62c3-445c-ba89-349c63c82c1f",
-              "pubDate": "2026-03-18T15:06:05.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "two-shipments-of-russian-oil-and-gas-head-to-cuba-in-defiance-of-us"
         }
       ]
     },
@@ -2287,12 +2293,11 @@ export const newsData = {
           "slug": "israel-destroys-river-bridges-in-southern-lebanon"
         },
         {
-          "representativeTitle": "US Fed keeps interest rates steady amid economic uncertainty, Iran war",
+          "representativeTitle": "US holds interest rates as Iran war triggers inflation fears",
           "sources": [
-            "BBC World",
-            "Al Jazeera"
+            "BBC World"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "US holds interest rates as Iran war triggers inflation fears",
@@ -2300,19 +2305,12 @@ export const newsData = {
               "link": "https://www.bbc.com/news/articles/c36364d06x3o?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-03-18T20:20:24.000Z",
               "tier": 1
-            },
-            {
-              "title": "US Fed keeps interest rates steady amid economic uncertainty, Iran war",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/economy/2026/3/18/us-fed-keeps-interest-rates-steady-amid-economic-geopolitical-uncertainty?traffic_source=rss",
-              "pubDate": "2026-03-18T20:34:19.000Z",
-              "tier": 1
             }
           ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 75,
-          "slug": "us-fed-keeps-interest-rates-steady-amid-economic-uncertainty-iran-war"
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "us-holds-interest-rates-as-iran-war-triggers-inflation-fears"
         },
         {
           "representativeTitle": "Forty years after the last one was poached, rhinos are back in the wild in Uganda",
@@ -2543,6 +2541,26 @@ export const newsData = {
           "slug": "venezuelans-in-miami-and-caracas-celebrate-historic-wbc-victory-over-usa"
         },
         {
+          "representativeTitle": "Jihadist violence in Nigeria and DRC rose sharply last year even as global deaths from terror fell",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Jihadist violence in Nigeria and DRC rose sharply last year even as global deaths from terror fell",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/mar/19/jihadist-violence-nigeria-drc-terrorism-index",
+              "pubDate": "2026-03-19T05:01:00.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "jihadist-violence-in-nigeria-and-drc-rose-sharply-last-year-even-as-global-deaths-from-terror-fell"
+        },
+        {
           "representativeTitle": "Canada in push for joint G7 and Middle East effort to de-escalate Iran war",
           "sources": [
             "The Guardian"
@@ -2683,24 +2701,44 @@ export const newsData = {
           "slug": "fuel-rations-and-no-air-con-south-east-asian-nations-race-to-conserve-energy"
         },
         {
-          "representativeTitle": "Australia news live: Queenslanders in path of Cyclone Narelle stock up on food and sandbags; shares plunge as Iran war delivers economic shock",
+          "representativeTitle": "Australia news live: Tropical Cyclone Narelle forecast to hit far north Queensland three hours earlier than expected; ASX plunges amid Iran war",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Australia news live: Queenslanders in path of Cyclone Narelle stock up on food and sandbags; shares plunge as Iran war delivers economic shock",
+              "title": "Australia news live: Tropical Cyclone Narelle forecast to hit far north Queensland three hours earlier than expected; ASX plunges amid Iran war",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/live/2026/mar/19/australia-news-live-jim-chalmers-tax-inflation-budget-cost-of-living-war-fuel-crisis-shortage-inflation-cyclone-narelle-queensland-ntwnfb",
-              "pubDate": "2026-03-19T04:29:43.000Z",
+              "pubDate": "2026-03-19T05:14:22.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "australia-news-live-queenslanders-in-path-of-cyclone-narelle-stock-up-on-food-and-sandbags-shares-plunge-as-iran-war-delivers-economic-shock"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "australia-news-live-tropical-cyclone-narelle-forecast-to-hit-far-north-queensland-three-hours-earlier-than-expected-asx-plunges-amid-iran-war"
+        },
+        {
+          "representativeTitle": "Power bills expected to fall by up to 10% from July, bringing ‘welcome relief’ to Australia’s east coast",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Power bills expected to fall by up to 10% from July, bringing ‘welcome relief’ to Australia’s east coast",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/mar/19/power-bills-on-australias-east-coast-expected-to-fall-by-up-to-10-from-july-bringing-welcome-relief",
+              "pubDate": "2026-03-19T05:00:26.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "power-bills-expected-to-fall-by-up-to-10-from-july-bringing-welcome-relief-to-australias-east-coast"
         },
         {
           "representativeTitle": "Possum found nestled in with plush toys at airport gift shop in Tasmania",
@@ -2723,44 +2761,24 @@ export const newsData = {
           "slug": "possum-found-nestled-in-with-plush-toys-at-airport-gift-shop-in-tasmania"
         },
         {
-          "representativeTitle": "Doctors missed Gia’s UTI after childbirth. The Vietnamese Australian woman’s death was preventable, coroner finds",
+          "representativeTitle": "Hungary’s Orbán to face pressure over Ukraine loan veto at EU summit",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Doctors missed Gia’s UTI after childbirth. The Vietnamese Australian woman’s death was preventable, coroner finds",
+              "title": "Hungary’s Orbán to face pressure over Ukraine loan veto at EU summit",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/mar/19/gia-lam-died-chilbirth-uti-hospital-preventable-death",
-              "pubDate": "2026-03-19T03:05:38.000Z",
+              "link": "https://www.theguardian.com/world/2026/mar/19/hungary-orban-ukraine-loan-veto-eu-summit-europe",
+              "pubDate": "2026-03-19T05:00:59.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "doctors-missed-gias-uti-after-childbirth-the-vietnamese-australian-womans-death-was-preventable-coroner-finds"
-        },
-        {
-          "representativeTitle": "Rohan Dennis social media post of Porsche criticised as ‘offensive’ after wife Melissa Hoskins fatally struck by car",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Rohan Dennis social media post of Porsche criticised as ‘offensive’ after wife Melissa Hoskins fatally struck by car",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/mar/19/rohan-dennis-social-media-post-car-weapon-offensive-backlash-ntwnfb",
-              "pubDate": "2026-03-19T02:44:25.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 5,
-          "importance": 40,
-          "slug": "rohan-dennis-social-media-post-of-porsche-criticised-as-offensive-after-wife-melissa-hoskins-fatally-struck-by-car"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "hungarys-orbn-to-face-pressure-over-ukraine-loan-veto-at-eu-summit"
         },
         {
           "representativeTitle": "Damaged Russian tanker carrying natural gas floats into Libyan waters",
@@ -2803,33 +2821,6 @@ export const newsData = {
           "slug": "the-eus-hungary-problem-wont-be-solved-even-if-viktor-orbn-is-ousted"
         },
         {
-          "representativeTitle": "Ancient skeleton unearthed in France is latest to be found sitting upright",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Ancient skeleton unearthed in France is latest to be found sitting upright",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/18/ancient-skeleton-discovered-sitting-upright-in-france",
-              "pubDate": "2026-03-18T13:58:15.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Ancient skeleton unearthed in France is latest to be found sitting upright",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/18/ancient-skeleton-discovered-sitting-upright-in-france",
-              "pubDate": "2026-03-18T13:58:15.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 3,
-          "importance": 40,
-          "slug": "ancient-skeleton-unearthed-in-france-is-latest-to-be-found-sitting-upright"
-        },
-        {
           "representativeTitle": "Middle East crisis live: Trump threatens to ‘blow up’ entire South Pars gasfield if Iran strikes Qatar",
           "sources": [
             "The Guardian"
@@ -2840,7 +2831,7 @@ export const newsData = {
               "title": "Middle East crisis live: Trump threatens to ‘blow up’ entire South Pars gasfield if Iran strikes Qatar",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/live/2026/mar/19/iran-war-live-updates-oil-prices-gas-field-strikes-pentagon-more-funds-trump-news",
-              "pubDate": "2026-03-19T04:28:06.000Z",
+              "pubDate": "2026-03-19T05:01:29.000Z",
               "tier": 1
             }
           ],
@@ -2870,12 +2861,11 @@ export const newsData = {
           "slug": "cathay-pacific-suspends-flights-to-and-from-dubai-until-end-of-april-as-it-happened"
         },
         {
-          "representativeTitle": "Oil prices surge after Israeli strike on Iran’s South Pars gasfield",
+          "representativeTitle": "Israel strikes Iran’s South Pars gasfield hours after forces kill intelligence minister",
           "sources": [
-            "The Guardian",
-            "Al Jazeera"
+            "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Israel strikes Iran’s South Pars gasfield hours after forces kill intelligence minister",
@@ -2883,19 +2873,12 @@ export const newsData = {
               "link": "https://www.theguardian.com/world/2026/mar/18/iran-intelligence-minister-esmail-khatib-killed-israel-claims",
               "pubDate": "2026-03-18T19:25:39.000Z",
               "tier": 1
-            },
-            {
-              "title": "Oil prices surge after Israeli strike on Iran’s South Pars gasfield",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/18/oil-prices-surge-after-israeli-strike-on-iran-gasfield-irans-threats?traffic_source=rss",
-              "pubDate": "2026-03-18T19:56:15.000Z",
-              "tier": 1
             }
           ],
           "sentiment": -0.9,
           "relevance_score": 10,
-          "importance": 80,
-          "slug": "oil-prices-surge-after-israeli-strike-on-irans-south-pars-gasfield"
+          "importance": 65,
+          "slug": "israel-strikes-irans-south-pars-gasfield-hours-after-forces-kill-intelligence-minister"
         },
         {
           "representativeTitle": "UK says it remains in talks over escorting ships through strait of Hormuz",
@@ -2956,6 +2939,206 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "pakistan-to-pause-afghan-strikes-for-eid-two-days-after-deadly-kabul-attack"
+        },
+        {
+          "representativeTitle": "UK banks keep £100 limit for contactless card payments despite FCA scrapping it",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "UK banks keep £100 limit for contactless card payments despite FCA scrapping it",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/money/2026/mar/19/uk-banks-keep-100-limit-for-contactless-card-payments-despite-fca-scrapping-it",
+              "pubDate": "2026-03-19T05:00:58.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "uk-banks-keep-100-limit-for-contactless-card-payments-despite-fca-scrapping-it"
+        },
+        {
+          "representativeTitle": "US intelligence agencies not expecting China to invade Taiwan in 2027",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US intelligence agencies not expecting China to invade Taiwan in 2027",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/19/us-intelligence-agencies-not-expecting-china-to-invade-taiwan-in-2027?traffic_source=rss",
+              "pubDate": "2026-03-19T05:22:53.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "us-intelligence-agencies-not-expecting-china-to-invade-taiwan-in-2027"
+        },
+        {
+          "representativeTitle": "Iran executes three convicted of killing police in recent pre-war unrest",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Iran executes three convicted of killing police in recent pre-war unrest",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/19/iran-executes-three-convicted-of-killing-police-in-recent-pre-war-unrest?traffic_source=rss",
+              "pubDate": "2026-03-19T05:22:28.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "iran-executes-three-convicted-of-killing-police-in-recent-pre-war-unrest"
+        },
+        {
+          "representativeTitle": "Luka Doncic scores 40 points as Lakers defeat Rockets in NBA",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Luka Doncic scores 40 points as Lakers defeat Rockets in NBA",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/sports/2026/3/19/luka-doncic-scores-40-points-as-lakers-defeat-rockets-in-nba?traffic_source=rss",
+              "pubDate": "2026-03-19T05:17:36.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 2,
+          "importance": 25,
+          "slug": "luka-doncic-scores-40-points-as-lakers-defeat-rockets-in-nba"
+        },
+        {
+          "representativeTitle": "JD Vance deflects gas price concerns with criticism of Biden",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "JD Vance deflects gas price concerns with criticism of Biden",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/19/jd-vance-deflects-gas-price-concerns-with-criticism-of-biden?traffic_source=rss",
+              "pubDate": "2026-03-19T04:56:37.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "jd-vance-deflects-gas-price-concerns-with-criticism-of-biden"
+        },
+        {
+          "representativeTitle": "Ben-Gvir visits gallows museum, threatens the death penalty",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ben-Gvir visits gallows museum, threatens the death penalty",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/19/ben-gvir-visits-gallows-museum-threatens-the-death-penalty?traffic_source=rss",
+              "pubDate": "2026-03-19T04:48:37.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "ben-gvir-visits-gallows-museum-threatens-the-death-penalty"
+        },
+        {
+          "representativeTitle": "Attacks on GCC show ‘IRGC don’t think, they just push a button’",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Attacks on GCC show ‘IRGC don’t think, they just push a button’",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/quotable/2026/3/19/attacks-on-gcc-show-irgc-dont-think-they-just-push-a-button?traffic_source=rss",
+              "pubDate": "2026-03-19T04:48:11.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "attacks-on-gcc-show-irgc-dont-think-they-just-push-a-button"
+        },
+        {
+          "representativeTitle": "Asia’s stock markets dive after attacks on energy facilities in Qatar, Iran",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Asia’s stock markets dive after attacks on energy facilities in Qatar, Iran",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/economy/2026/3/19/asias-stock-markets-dive-after-attacks-on-energy-facilities-in-qatar-iran?traffic_source=rss",
+              "pubDate": "2026-03-19T04:46:51.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "asias-stock-markets-dive-after-attacks-on-energy-facilities-in-qatar-iran"
+        },
+        {
+          "representativeTitle": "Tehran rescue workers pull survivors from rubble",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Tehran rescue workers pull survivors from rubble",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/19/tehran-rescue-workers-pull-survivors-from-rubble?traffic_source=rss",
+              "pubDate": "2026-03-19T04:44:48.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "tehran-rescue-workers-pull-survivors-from-rubble"
+        },
+        {
+          "representativeTitle": "Lionel Messi scores 900th goal as Nashville oust Miami in Champions Cup",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Lionel Messi scores 900th goal as Nashville oust Miami in Champions Cup",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/sports/2026/3/19/lionel-messi-scores-900th-goal-as-nashville-oust-miami-in-champions-cup?traffic_source=rss",
+              "pubDate": "2026-03-19T04:25:07.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "lionel-messi-scores-900th-goal-as-nashville-oust-miami-in-champions-cup"
         },
         {
           "representativeTitle": "Democrats walk out of heated Epstein files briefing",
@@ -3184,146 +3367,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "iranians-burn-trump-netanyahu-effigies-at-warship-victim-rally"
-        },
-        {
-          "representativeTitle": "Israel holding more than half of Palestinian child detainees without charge",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Israel holding more than half of Palestinian child detainees without charge",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/18/israel-holding-more-than-half-of-palestinian-child-detainees-without-charge?traffic_source=rss",
-              "pubDate": "2026-03-18T20:25:52.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "israel-holding-more-than-half-of-palestinian-child-detainees-without-charge"
-        },
-        {
-          "representativeTitle": "Delcy Rodriguez replaces Venezuela’s Defence Minister Vladimir Padrino",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Delcy Rodriguez replaces Venezuela’s Defence Minister Vladimir Padrino",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/18/delcy-rodriguez-replaces-venezuelas-defence-minister-vladimir-padrino?traffic_source=rss",
-              "pubDate": "2026-03-18T20:11:42.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "delcy-rodriguez-replaces-venezuelas-defence-minister-vladimir-padrino"
-        },
-        {
-          "representativeTitle": "Top US spy accused of omitting Iran intel that contradicts Trump",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Top US spy accused of omitting Iran intel that contradicts Trump",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/top-us-spy-accused-of-omitting-iran-intel-that-contradicts-trump?traffic_source=rss",
-              "pubDate": "2026-03-18T19:48:30.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "top-us-spy-accused-of-omitting-iran-intel-that-contradicts-trump"
-        },
-        {
-          "representativeTitle": "Israel attacks Iran’s major gas field in new escalation",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Israel attacks Iran’s major gas field in new escalation",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/israel-attacks-irans-major-gas-field-in-new-escalation?traffic_source=rss",
-              "pubDate": "2026-03-18T19:38:33.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "israel-attacks-irans-major-gas-field-in-new-escalation"
-        },
-        {
-          "representativeTitle": "US intel chief Gabbard says Iran was not rebuilding enrichment prior to war",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US intel chief Gabbard says Iran was not rebuilding enrichment prior to war",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/18/us-intel-chief-gabbard-says-iran-was-not-rebuilding-enrichment-prior-to-war?traffic_source=rss",
-              "pubDate": "2026-03-18T19:06:25.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "us-intel-chief-gabbard-says-iran-was-not-rebuilding-enrichment-prior-to-war"
-        },
-        {
-          "representativeTitle": "Qatar says Iran attack caused significant damage at Ras Laffan gas facility",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Qatar says Iran attack caused significant damage at Ras Laffan gas facility",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/18/qatar-says-iran-missile-attack-sparks-fire-causes-damage-at-gas-facility?traffic_source=rss",
-              "pubDate": "2026-03-18T18:59:15.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "qatar-says-iran-attack-caused-significant-damage-at-ras-laffan-gas-facility"
-        },
-        {
-          "representativeTitle": "US to require up to $15,000 bond for visa applicants from 12 new countries",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US to require up to $15,000 bond for visa applicants from 12 new countries",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/18/us-to-require-up-to-15000-bond-for-visa-applicants-from-12-new-countries?traffic_source=rss",
-              "pubDate": "2026-03-18T18:56:03.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "us-to-require-up-to-15000-bond-for-visa-applicants-from-12-new-countries"
         }
       ]
     },
@@ -3777,6 +3820,26 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "ai-software-for-smart-glasses-wins-1m-prize-for-technology-to-help-people-with-dementia"
+        },
+        {
+          "representativeTitle": "Ancient skeleton unearthed in France is latest to be found sitting upright",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ancient skeleton unearthed in France is latest to be found sitting upright",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/mar/18/ancient-skeleton-discovered-sitting-upright-in-france",
+              "pubDate": "2026-03-18T13:58:15.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 3,
+          "importance": 30,
+          "slug": "ancient-skeleton-unearthed-in-france-is-latest-to-be-found-sitting-upright"
         }
       ]
     }
