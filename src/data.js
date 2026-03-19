@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-19T03:04:46.119Z",
+  "lastUpdated": "2026-03-19T04:40:49.842Z",
   "children": [
     {
       "name": "Politics",
@@ -155,26 +155,6 @@ export const newsData = {
           "slug": "starmer-plans-to-ease-impact-of-immigration-policy-changes-after-backlash-from-labour-mps"
         },
         {
-          "representativeTitle": "Gerry Adams tells high court he was stunned by 1996 Docklands bombing",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Gerry Adams tells high court he was stunned by 1996 Docklands bombing",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/mar/18/gerry-adams-tells-high-court-he-was-stunned-by-1996-docklands-bombing",
-              "pubDate": "2026-03-18T19:10:30.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "gerry-adams-tells-high-court-he-was-stunned-by-1996-docklands-bombing"
-        },
-        {
           "representativeTitle": "The Guardian view on Rachel Reeves and the EU: the right ambition is held back by outdated red lines | Editorial",
           "sources": [
             "The Guardian"
@@ -279,15 +259,8 @@ export const newsData = {
           "sources": [
             "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
-            {
-              "title": "As Trump shows lack of direction on Iran, even Badenoch distances herself",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/18/as-trump-shows-lack-of-direction-on-iran-even-badenoch-distances-herself",
-              "pubDate": "2026-03-18T18:19:18.000Z",
-              "tier": 1
-            },
             {
               "title": "As Trump shows lack of direction on Iran, even Badenoch distances herself",
               "source": "The Guardian",
@@ -298,7 +271,7 @@ export const newsData = {
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 60,
+          "importance": 50,
           "slug": "as-trump-shows-lack-of-direction-on-iran-even-badenoch-distances-herself"
         },
         {
@@ -582,6 +555,26 @@ export const newsData = {
           "slug": "irish-pm-dodges-potential-st-patricks-day-bruises-at-trump-meeting"
         },
         {
+          "representativeTitle": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against gov­ernment",
+          "sources": [
+            "Spectrum News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against gov­ernment",
+              "source": "Spectrum News",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbi1GNTl5MDhEcEZUVHg5UUlyRW9Rak13ZXUtc1BfWDJRTUFWRkJ0MlhUdG1Td0ZmMEc5U2ttMnBrQnozdF92d1lvQWpvRXdlQk44YzBDVExLZV9VUUlYd0ZfaHBhVDN6cS14bVlSSTMtNUwtRDVNYzJ2U0E5T3NHYUxyUjc5N1ljOHVWVS03bw?oc=5",
+              "pubDate": "2026-03-18T21:44:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "concern-anger-and-hope-simmer-in-cuba-after-trump-calls-for-imminent-action-against-government"
+        },
+        {
           "representativeTitle": "US Snubbed by Lula Government at Brazil Critical Minerals Summit",
           "sources": [
             "Bloomberg.com"
@@ -630,26 +623,6 @@ export const newsData = {
           "slug": "israel-kills-irans-spy-chief-gabbard-says-government-is-intact-but-largely-degraded"
         },
         {
-          "representativeTitle": "Delta CEO slams Washington over unpaid TSA agents, says front-line workers are being used as ‘political chips’",
-          "sources": [
-            "Fortune"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Delta CEO slams Washington over unpaid TSA agents, says front-line workers are being used as ‘political chips’",
-              "source": "Fortune",
-              "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORnBjZUw3VngyMEhTcXRJU3NVenI3YVo0ckh2REh0dkl0VFFKZ1BOZklLam5MclJ0a3RqWE9mNGQ4TzJpazFsbGJxemlQcFg1TFJ1cGl4b3g3NWp5NHdXTWdGM0xVMWpVT0szZm5INjBROTRNbTNMQ0dpOFVQQTdlcnlSZlJyODZYazh6LVpVaFhoY01laVJ6Q3A2QUpCbXQ4ZEpiUDRFblk1VjFaN05idkRSc19HZlIyYVMyU2NQS3RUb0dnejB6aVhFTmhPaDRMb1MtRFV3?oc=5",
-              "pubDate": "2026-03-18T19:32:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "delta-ceo-slams-washington-over-unpaid-tsa-agents-says-front-line-workers-are-being-used-as-political-chips"
-        },
-        {
           "representativeTitle": "Virginia joins national push for refunds after US Supreme Court voids Trump tariffs",
           "sources": [
             "Virginia Mercury"
@@ -670,64 +643,24 @@ export const newsData = {
           "slug": "virginia-joins-national-push-for-refunds-after-us-supreme-court-voids-trump-tariffs"
         },
         {
-          "representativeTitle": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against government",
+          "representativeTitle": "Delta CEO slams Washington over unpaid TSA agents, says front-line workers are being used as ‘political chips’",
           "sources": [
-            "WRAL"
+            "Fortune"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Concern, anger and hope simmer in Cuba after Trump calls for 'imminent action' against government",
-              "source": "WRAL",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnRPSGYwM2hBbVpfTkpaVWlzZFpRbG5GSUhBNUFYNFZkc3N1eDN3aDdBLUhtbjIyNXhaV0VVTkxIYkdzNmhtRXV0X1lXZ013MW94NnhQTW5lNGwxTDdpMnJ0ZF9oRVF6cGpzX3JkQmo1Yi05bk5IOERNUGVQd3F4cnlUN09Tc3NseUQzTXZaVkxndFNoQS1DeFNRS2NBZGhPdTlB?oc=5",
-              "pubDate": "2026-03-18T22:08:58.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "concern-anger-and-hope-simmer-in-cuba-after-trump-calls-for-imminent-action-against-government"
-        },
-        {
-          "representativeTitle": "US national debt surges past $39T just weeks into war in Iran",
-          "sources": [
-            "Las Vegas Review-Journal"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US national debt surges past $39T just weeks into war in Iran",
-              "source": "Las Vegas Review-Journal",
-              "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVk5CVFBPWmFnV1RUQ0JxdlhyNDd0NUszZEtRYjF3T2pad29mQXpzUHZ6emZWS3Rib1F4YnFLTmhCWlJmV0JHaG9yX01RQ0VhTVpxNUNNQ0lRc0I1VmlUTGprcXljMTZTSG50NzJtUkNtQXcyWHdjOGZfUFVOd3hEUVpKcDEzNUJfdWZfa3E4RmZzM2p3UDV3TldONnFsYTJrS0ZfRGlGbWNLZGNaSTFlSEVUUGFLQjNRVlRxaXMxcUwtdkJWdm44?oc=5",
-              "pubDate": "2026-03-18T22:09:50.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 55,
-          "slug": "us-national-debt-surges-past-39t-just-weeks-into-war-in-iran"
-        },
-        {
-          "representativeTitle": "Spain-US rift: Pedro Sánchez’ defiance of Trump is dictated by domestic politics – but it’s also a litmus test for Europe",
-          "sources": [
-            "The Conversation"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Spain-US rift: Pedro Sánchez’ defiance of Trump is dictated by domestic politics – but it’s also a litmus test for Europe",
-              "source": "The Conversation",
-              "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHdacmo0TUdaY3h4cHR1eU91M0pjT1hZM1ZTZVo2WWVzekRzOUN6UkpLdGl0Si03MjdaTjMwMmJEaGtsZk1qNVNWc05qTTJMWHNTTElXV05nTURUV0ExNkxhZlJfZjdRdHdmd3BPUHVPeWplOUZZbGlwQU5hTFF3TlVsdDZad3VoTndnaDNuX2dhRGNkWElfeXR6d0lEdE13X2ROOXU4ODNqWGlMVFA2RUh6U2hDVjBCemFUTlFCc3dGR04xeEw5UndIMWY5RHVFX1lkQ0hJYTYya20taDVrMVhfM1N3Zw?oc=5",
-              "pubDate": "2026-03-18T12:20:24.000Z",
+              "title": "Delta CEO slams Washington over unpaid TSA agents, says front-line workers are being used as ‘political chips’",
+              "source": "Fortune",
+              "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORnBjZUw3VngyMEhTcXRJU3NVenI3YVo0ckh2REh0dkl0VFFKZ1BOZklLam5MclJ0a3RqWE9mNGQ4TzJpazFsbGJxemlQcFg1TFJ1cGl4b3g3NWp5NHdXTWdGM0xVMWpVT0szZm5INjBROTRNbTNMQ0dpOFVQQTdlcnlSZlJyODZYazh6LVpVaFhoY01laVJ6Q3A2QUpCbXQ4ZEpiUDRFblk1VjFaN05idkRSc19HZlIyYVMyU2NQS3RUb0dnejB6aVhFTmhPaDRMb1MtRFV3?oc=5",
+              "pubDate": "2026-03-18T19:32:00.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "spain-us-rift-pedro-snchez-defiance-of-trump-is-dictated-by-domestic-politics-but-its-also-a-litmus-test-for-europe"
+          "slug": "delta-ceo-slams-washington-over-unpaid-tsa-agents-says-front-line-workers-are-being-used-as-political-chips"
         },
         {
           "representativeTitle": "WATCH: Gabbard, Ratcliffe and Patel testify on worldwide threats in Senate Intelligence hearing",
@@ -748,6 +681,26 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "watch-gabbard-ratcliffe-and-patel-testify-on-worldwide-threats-in-senate-intelligence-hearing"
+        },
+        {
+          "representativeTitle": "Spain-US rift: Pedro Sánchez’ defiance of Trump is dictated by domestic politics – but it’s also a litmus test for Europe",
+          "sources": [
+            "The Conversation"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Spain-US rift: Pedro Sánchez’ defiance of Trump is dictated by domestic politics – but it’s also a litmus test for Europe",
+              "source": "The Conversation",
+              "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONHdacmo0TUdaY3h4cHR1eU91M0pjT1hZM1ZTZVo2WWVzekRzOUN6UkpLdGl0Si03MjdaTjMwMmJEaGtsZk1qNVNWc05qTTJMWHNTTElXV05nTURUV0ExNkxhZlJfZjdRdHdmd3BPUHVPeWplOUZZbGlwQU5hTFF3TlVsdDZad3VoTndnaDNuX2dhRGNkWElfeXR6d0lEdE13X2ROOXU4ODNqWGlMVFA2RUh6U2hDVjBCemFUTlFCc3dGR04xeEw5UndIMWY5RHVFX1lkQ0hJYTYya20taDVrMVhfM1N3Zw?oc=5",
+              "pubDate": "2026-03-18T12:20:24.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "spain-us-rift-pedro-snchez-defiance-of-trump-is-dictated-by-domestic-politics-but-its-also-a-litmus-test-for-europe"
         },
         {
           "representativeTitle": "Firm That Planned Trump’s Jan. 6 Rally Received No-Bid Contracts",
@@ -790,6 +743,26 @@ export const newsData = {
           "slug": "opinion-why-americans-should-welcome-chinas-rise-in-science"
         },
         {
+          "representativeTitle": "Sánchez’s anti-Israel, anti-American politics may cost Spain its last African colonies",
+          "sources": [
+            "JNS.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Sánchez’s anti-Israel, anti-American politics may cost Spain its last African colonies",
+              "source": "JNS.org",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZjNTUk9tdERBRjFIcGh6bHZSOFc4b29TbGFqbUc4M21mczNuM3lrR2lSLXNIOVBzbFpMaDI0NTMwdDE5V2ZZSldwTnk2MTFfTnluWTQzMUxDUzR4Ny00VlpPMjNkRV85Mk5jeTdnVFRoeW15VTFXUzFtNlNNU2F0S0lEeXpId21NTHVyVTlacDJCNGozMFlrX2FacWdEdmwzUGx0WkpkSFlmSXFSV2I5Nk1B?oc=5",
+              "pubDate": "2026-03-18T14:30:36.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "snchezs-anti-israel-anti-american-politics-may-cost-spain-its-last-african-colonies"
+        },
+        {
           "representativeTitle": "Inside the Shutdown Stalemate Crippling the TSA and Airports",
           "sources": [
             "Time Magazine"
@@ -830,6 +803,46 @@ export const newsData = {
           "slug": "tim-cook-on-backlash-against-his-relationship-with-the-us-government-says-i-focus-on-policy-so-i-am-ve"
         },
         {
+          "representativeTitle": "Bondi Doesn’t Commit to Deposition With House Panel Over Epstein Files",
+          "sources": [
+            "The New York Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Bondi Doesn’t Commit to Deposition With House Panel Over Epstein Files",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWE01X2ozUmtsNEdfQTFmc3pUQnVhYUYzUzN0eERUNUdyTGxtVGZCdk52dUg2Sk9STkwyNEhMek02VThXeWgzRXpObnFUN1NzelA3MmdfMGptMEJGNkI4SnFBenpGU0JXa2NfWTBRWXpWX19HQ01EdWpRT2Rxbm9oRURIVGdpaDRfNWVRaHBwTnUydmxUZnc?oc=5",
+              "pubDate": "2026-03-19T01:33:43.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "bondi-doesnt-commit-to-deposition-with-house-panel-over-epstein-files"
+        },
+        {
+          "representativeTitle": "Airports may close if government shutdown continues, TSA official warns",
+          "sources": [
+            "The Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Airports may close if government shutdown continues, TSA official warns",
+              "source": "The Times",
+              "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxQUy1raC0xaURKcURiVFZTclhiSW1td1dZdmRuUWZHeHhJcjVEWlN1SGJydHRSZ2N1WXBqMVkxRktjNzE3cVBGYU5Mek1sb3o3MEhvRkp4TnVMQmx5X3BxaEZDM1hSaS0xSnZxR2JhdHlnMDNDelRLZEc1eFZCd1JmcDRXUktyNFYxdWhXVVEtRDhPZXdtcDBJSXFxRjBOM3pSTWZ2ZWVVTGt5QzB3aVBMN3NPTVBxckpaV1UxSjBfQWlSak4yM0dOalI3ckpTS0s2NjU0b3hqN0tSOGN6a3FDVnZyOHk3WF95UkNPbEg4OXN0TEg2b3RKVUtyMWIzbDBjUkRWbmpWSnAxSU9fZExsbEJOaUYxeE1uaXBzVjRGZUNrODdXTzlKVXBjVzNRTlQwWTZXc1kybXdja3UyYjdhSEZDUFpQSEZ2UVl4RW5OM1NsTllvdFk0akZvOTJQdTdNSzJmUlVfXzlkc25HSm9yV0gwS2l4WnJPUERCMzVfOXRDSmVJbkpDaWItU1dDd3ZSeXAzN1BEVlQ3QU0zQ09laXFQWkt3TXFheW5kcmNLeWd4TF9jWGNBTGxEWjFjZw?oc=5",
+              "pubDate": "2026-03-18T15:05:26.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "airports-may-close-if-government-shutdown-continues-tsa-official-warns"
+        },
+        {
           "representativeTitle": "Despite Republicans controlling three branches of government, Trump blames Dems for shutdown",
           "sources": [
             "The Independent"
@@ -850,55 +863,15 @@ export const newsData = {
           "slug": "despite-republicans-controlling-three-branches-of-government-trump-blames-dems-for-shutdown"
         },
         {
-          "representativeTitle": "Airports may close if government shutdown continues, TSA official warns",
-          "sources": [
-            "The Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Airports may close if government shutdown continues, TSA official warns",
-              "source": "The Times",
-              "link": "https://news.google.com/rss/articles/CBMivgNBVV95cUxNVzV4LThmX0t6SWI5ZUZ0M2NVa1M3MGNKakpPWmFfT0V0VmRqR3k4eG9tY192cldtdkE4bnowbzE3Tk5aU25HMzdVVWVRdXlFNVJfQmxpby04b2dUTmZRUXpvbzE1dHdMZXExay1md1h4Y0VoUi1HU2hVbkxvNmNjaUtYZFdRSENMZGhvMTQyZlhxaElYVHRUWm1pZHItLXRmU0hSTVdZdmZPS2tZTWZYYnI4SnVpbUVMU0FvREpTMWF1dm5KWUxQYmZXSXpTV2hLRXMycnhZUVNRTTQyTDlkVHdYWWJyTzhVYkc3RlNBcGtVbFdtUTlvQnRBQS1HUkZSb2x0VXFhT2Q0ZVlrTUlHaFdjQnNVR1piSjY1UTQtS3Z4SEZERDhRQW1jVEYzMmZINFZheEFER2ZMX2U3aG9fMkxDTlo3SVBOV1ZyMzN0N0NmVm1lbjhzVDg5SjNROWdYN3pMN1UyTWgzNDhvNE5DdkxkQVdnbDJJRVZvSzRPNFlGZ2JGVGhkREFSOEJJeXUwbTRkM1AwTFFmY0FaVFlrVzB5SkZGYldraFRnUnRRQlh3Q3BZeUlrb1B2R3FMdw?oc=5",
-              "pubDate": "2026-03-18T15:05:26.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "airports-may-close-if-government-shutdown-continues-tsa-official-warns"
-        },
-        {
-          "representativeTitle": "Sánchez’s anti-Israel, anti-American politics may cost Spain its last African colonies",
-          "sources": [
-            "JNS.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Sánchez’s anti-Israel, anti-American politics may cost Spain its last African colonies",
-              "source": "JNS.org",
-              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZjNTUk9tdERBRjFIcGh6bHZSOFc4b29TbGFqbUc4M21mczNuM3lrR2lSLXNIOVBzbFpMaDI0NTMwdDE5V2ZZSldwTnk2MTFfTnluWTQzMUxDUzR4Ny00VlpPMjNkRV85Mk5jeTdnVFRoeW15VTFXUzFtNlNNU2F0S0lEeXpId21NTHVyVTlacDJCNGozMFlrX2FacWdEdmwzUGx0WkpkSFlmSXFSV2I5Nk1B?oc=5",
-              "pubDate": "2026-03-18T14:30:36.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "snchezs-anti-israel-anti-american-politics-may-cost-spain-its-last-african-colonies"
-        },
-        {
           "representativeTitle": "US, Venezuela to restore diplomatic ties",
           "sources": [
-            "dw.com"
+            "DW.com"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
               "title": "US, Venezuela to restore diplomatic ties",
-              "source": "dw.com",
+              "source": "DW.com",
               "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjWEhtVjNXeHhHc1F0U0JKNXRtdnJzZmM4ZmxVUmJpeUJ1cEVqV3AxS1BtV1NfamxlUlZMYzU1TExrRVNrZEtNZTBJXzNISWFGcHVVaWw1RV9McVRNT2otZGVBa2pJR1dNQXRET0dBUG9ObHJRUW5WZDhIbl_SAXxBVV95cUxPVjF2VE9fS3JjTkxxTXI2S0s3ZXlmZXZ4MUl3U0U5R1BWOGdQdm9lREpLSGlVb1ZHTVRpc0NhNFBEaG5nOWhFTFhrZ1FMLTladDFKXzZ0bktydHo4NmZIaV93VExUcGlvWU9QYWVpSWNwbVo1dWxxU1JqU0tW?oc=5",
               "pubDate": "2026-03-18T11:07:01.000Z",
               "tier": 2
@@ -908,6 +881,26 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "us-venezuela-to-restore-diplomatic-ties"
+        },
+        {
+          "representativeTitle": "Chile Digs Its Desert Line as Latin America Shifts Right",
+          "sources": [
+            "LatinAmerican Post"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Chile Digs Its Desert Line as Latin America Shifts Right",
+              "source": "LatinAmerican Post",
+              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcTRTTW1COVY1b3FiVTZ1enlwUzRFYUJjR3VodDZncWV4bTJ4MTdrT01zeTVZV0hwZlNkODRJQUExWmZFeDA5NDdKMmxEWHp1Z1ZFczQyc2JfNU9DNzVrMEJjTFJaUUV3d2ZmNmdZaGxfWjJEcDdWN2dScW1UTWlfWkxRa0hnejFxYUZzWU1mTnNoeHpTb2I1MkU1Q3hSd0tLV0owZ3hMaTJNbFFHYkpxQkZyMUhJMks5VnI0ZXpR?oc=5",
+              "pubDate": "2026-03-18T19:02:58.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "chile-digs-its-desert-line-as-latin-america-shifts-right"
         },
         {
           "representativeTitle": "Government shutdown sparks new round of partisan finger‑pointing",
@@ -928,46 +921,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "government-shutdown-sparks-new-round-of-partisan-fingerpointing"
-        },
-        {
-          "representativeTitle": "Iran’s government degraded but still intact, says Trump’s top intelligence official",
-          "sources": [
-            "The Globe and Mail"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran’s government degraded but still intact, says Trump’s top intelligence official",
-              "source": "The Globe and Mail",
-              "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR3dtNDc1TGpyTzktcmc1VHlZOTBEQlVSZloxR1Z0aDU0OVlzYk4zVGRtcXlueDFjbk1aSVRVbjdqTGdWcU1odGVfcmhZOW1Qb0RMemlTX1lMT1d0RHN0bjBTaWNoUmZDcUdmdXJjWUhRQXZhYXFvbENiNmlHTWItYUpjWDVocXlhcWFnQVRzSHAtdXljNUl5RE1wbTlhY3dHb05rTXB6blk1T0JQQTdjMzdDSVlGaWl2X1EzOHhsRG9Sam8?oc=5",
-              "pubDate": "2026-03-18T11:51:08.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "irans-government-degraded-but-still-intact-says-trumps-top-intelligence-official"
-        },
-        {
-          "representativeTitle": "Amid political uncertainty, Netanyahu urges government responsibility",
-          "sources": [
-            "JNS.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Amid political uncertainty, Netanyahu urges government responsibility",
-              "source": "JNS.org",
-              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeGJqYlVOMVpMcnhnSDl0NUtncHVscnNyZTdya3d3OE5lN1l2OGpzQ0g2SHpOOS03TS1RZW5VR0FCc3NKeTh0NS1PdU0wUmxqZXRMWUw1MTMzaVg4dDJWejg5M2R5V3d3YXE5YWtlaFV1TzROMzNUalRobEdKLUl5LVZJamdYU0I1eUs3VUUwZFJfZEFGaHp4dQ?oc=5",
-              "pubDate": "2026-03-18T17:23:57.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "amid-political-uncertainty-netanyahu-urges-government-responsibility"
         }
       ]
     },
@@ -1103,6 +1056,26 @@ export const newsData = {
           "slug": "expectations-for-the-next-fed-rate-cut-get-pushed-back-after-hot-inflation-report"
         },
         {
+          "representativeTitle": "Almost 1 in 3 Americans doesn’t know when — or even if — they can retire",
+          "sources": [
+            "MarketWatch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Almost 1 in 3 Americans doesn’t know when — or even if — they can retire",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/almost-1-in-3-americans-doesnt-know-when-or-even-if-they-can-retire-b11686f6?mod=mw_rss_topstories",
+              "pubDate": "2026-03-19T04:01:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "almost-1-in-3-americans-doesnt-know-when-or-even-if-they-can-retire"
+        },
+        {
           "representativeTitle": "Social media is eroding young people’s happiness. Low-income teens may be most at risk.",
           "sources": [
             "MarketWatch"
@@ -1221,26 +1194,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "us-stocks-have-reached-a-critical-line-in-the-sand-why-the-next-move-could-be-a-10-drop"
-        },
-        {
-          "representativeTitle": "Dow falls nearly 800 points after Powell makes one thing clear: There’s no rush to rescue the market",
-          "sources": [
-            "MarketWatch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Dow falls nearly 800 points after Powell makes one thing clear: There’s no rush to rescue the market",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/dow-falls-nearly-800-points-after-powell-makes-one-thing-clear-theres-no-rush-to-rescue-the-market-b55a723a?mod=mw_rss_topstories",
-              "pubDate": "2026-03-18T21:46:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "dow-falls-nearly-800-points-after-powell-makes-one-thing-clear-theres-no-rush-to-rescue-the-market"
         }
       ]
     },
@@ -1348,24 +1301,24 @@ export const newsData = {
           "slug": "iran-inflicts-extensive-damage-on-site-of-worlds-largest-lng-facility-in-qatar"
         },
         {
-          "representativeTitle": "Oil jumps past $110 after attacks on Gulf energy facilities",
+          "representativeTitle": "Oil above $110 as Trump says US could ‘massively’ blow up Iran gasfield",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Oil jumps past $110 after attacks on Gulf energy facilities",
+              "title": "Oil above $110 as Trump says US could ‘massively’ blow up Iran gasfield",
               "source": "Financial Times",
               "link": "https://www.ft.com/content/07f52f59-528b-4bc4-9fca-5fee5f7f6e86",
               "pubDate": "2026-03-18T23:37:56.000Z",
               "tier": 1
             }
           ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "oil-jumps-past-110-after-attacks-on-gulf-energy-facilities"
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "oil-above-110-as-trump-says-us-could-massively-blow-up-iran-gasfield"
         },
         {
           "representativeTitle": "Fed chief Jay Powell says Iran oil crisis will worsen US inflation",
@@ -2530,26 +2483,6 @@ export const newsData = {
           "slug": "celebrations-in-morocco-but-devastation-in-senegal-after-africa-cup-of-nations-decision"
         },
         {
-          "representativeTitle": "Death of Ali Larijani deepens crisis at heart of Iran's leadership",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Death of Ali Larijani deepens crisis at heart of Iran's leadership",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/cgqgxqekp89o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-18T04:36:46.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "death-of-ali-larijani-deepens-crisis-at-heart-of-irans-leadership"
-        },
-        {
           "representativeTitle": "Watch: Gabbard faces scrutiny over Iran nuclear intelligence claims",
           "sources": [
             "BBC World"
@@ -2588,6 +2521,26 @@ export const newsData = {
           "relevance_score": 2,
           "importance": 25,
           "slug": "famous-iditarod-dog-sled-race-ends-in-repeat-win-for-jessie-holmes"
+        },
+        {
+          "representativeTitle": "Venezuelans in Miami and Caracas celebrate historic WBC victory over USA",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Venezuelans in Miami and Caracas celebrate historic WBC victory over USA",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/videos/c3wlw788glvo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-18T14:40:06.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.9,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "venezuelans-in-miami-and-caracas-celebrate-historic-wbc-victory-over-usa"
         },
         {
           "representativeTitle": "Canada in push for joint G7 and Middle East effort to de-escalate Iran war",
@@ -2740,7 +2693,7 @@ export const newsData = {
               "title": "Australia news live: Queenslanders in path of Cyclone Narelle stock up on food and sandbags; shares plunge as Iran war delivers economic shock",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/live/2026/mar/19/australia-news-live-jim-chalmers-tax-inflation-budget-cost-of-living-war-fuel-crisis-shortage-inflation-cyclone-narelle-queensland-ntwnfb",
-              "pubDate": "2026-03-19T02:52:36.000Z",
+              "pubDate": "2026-03-19T04:29:43.000Z",
               "tier": 1
             }
           ],
@@ -2748,6 +2701,46 @@ export const newsData = {
           "relevance_score": 10,
           "importance": 65,
           "slug": "australia-news-live-queenslanders-in-path-of-cyclone-narelle-stock-up-on-food-and-sandbags-shares-plunge-as-iran-war-delivers-economic-shock"
+        },
+        {
+          "representativeTitle": "Possum found nestled in with plush toys at airport gift shop in Tasmania",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Possum found nestled in with plush toys at airport gift shop in Tasmania",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/mar/19/possum-hobart-airport-gift-shop-soft-toys",
+              "pubDate": "2026-03-19T04:22:45.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 1,
+          "importance": 20,
+          "slug": "possum-found-nestled-in-with-plush-toys-at-airport-gift-shop-in-tasmania"
+        },
+        {
+          "representativeTitle": "Doctors missed Gia’s UTI after childbirth. The Vietnamese Australian woman’s death was preventable, coroner finds",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Doctors missed Gia’s UTI after childbirth. The Vietnamese Australian woman’s death was preventable, coroner finds",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/mar/19/gia-lam-died-chilbirth-uti-hospital-preventable-death",
+              "pubDate": "2026-03-19T03:05:38.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "doctors-missed-gias-uti-after-childbirth-the-vietnamese-australian-womans-death-was-preventable-coroner-finds"
         },
         {
           "representativeTitle": "Rohan Dennis social media post of Porsche criticised as ‘offensive’ after wife Melissa Hoskins fatally struck by car",
@@ -2768,46 +2761,6 @@ export const newsData = {
           "relevance_score": 5,
           "importance": 40,
           "slug": "rohan-dennis-social-media-post-of-porsche-criticised-as-offensive-after-wife-melissa-hoskins-fatally-struck-by-car"
-        },
-        {
-          "representativeTitle": "Tropical Cyclone Narelle to make landfall in far north Qld on Friday as category four storm, bringing 200km/h winds",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Tropical Cyclone Narelle to make landfall in far north Qld on Friday as category four storm, bringing 200km/h winds",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/mar/19/tropical-cyclone-narelle-qld-storm-tracker-path-tracking-map-bom",
-              "pubDate": "2026-03-19T01:56:48.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "tropical-cyclone-narelle-to-make-landfall-in-far-north-qld-on-friday-as-category-four-storm-bringing-200kmh-winds"
-        },
-        {
-          "representativeTitle": "Australia’s major fuel suppliers being investigated over alleged price-gouging amid Iran war",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Australia’s major fuel suppliers being investigated over alleged price-gouging amid Iran war",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/mar/19/australia-fuel-suppliers-investigated-price-gouging-iran-war",
-              "pubDate": "2026-03-19T00:49:33.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "australias-major-fuel-suppliers-being-investigated-over-alleged-price-gouging-amid-iran-war"
         },
         {
           "representativeTitle": "Damaged Russian tanker carrying natural gas floats into Libyan waters",
@@ -2877,24 +2830,44 @@ export const newsData = {
           "slug": "ancient-skeleton-unearthed-in-france-is-latest-to-be-found-sitting-upright"
         },
         {
-          "representativeTitle": "Middle East crisis live: Pentagon reportedly requests $200bn in Iran war funds; Tehran retaliates after Israeli strike on gas field",
+          "representativeTitle": "Middle East crisis live: Trump threatens to ‘blow up’ entire South Pars gasfield if Iran strikes Qatar",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Middle East crisis live: Pentagon reportedly requests $200bn in Iran war funds; Tehran retaliates after Israeli strike on gas field",
+              "title": "Middle East crisis live: Trump threatens to ‘blow up’ entire South Pars gasfield if Iran strikes Qatar",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/live/2026/mar/18/iran-war-live-updates-oil-prices-hormuz-trump-larijani-key-leader-killed-israel-strikes",
-              "pubDate": "2026-03-19T03:00:07.000Z",
+              "link": "https://www.theguardian.com/world/live/2026/mar/19/iran-war-live-updates-oil-prices-gas-field-strikes-pentagon-more-funds-trump-news",
+              "pubDate": "2026-03-19T04:28:06.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.9,
           "relevance_score": 10,
           "importance": 65,
-          "slug": "middle-east-crisis-live-pentagon-reportedly-requests-200bn-in-iran-war-funds-tehran-retaliates-after-israeli-strike-on-gas-field"
+          "slug": "middle-east-crisis-live-trump-threatens-to-blow-up-entire-south-pars-gasfield-if-iran-strikes-qatar"
+        },
+        {
+          "representativeTitle": "Cathay Pacific suspends flights to and from Dubai until end of April – as it happened",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Cathay Pacific suspends flights to and from Dubai until end of April – as it happened",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/mar/18/iran-war-live-updates-oil-prices-hormuz-trump-larijani-key-leader-killed-israel-strikes",
+              "pubDate": "2026-03-19T03:43:15.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "cathay-pacific-suspends-flights-to-and-from-dubai-until-end-of-april-as-it-happened"
         },
         {
           "representativeTitle": "Oil prices surge after Israeli strike on Iran’s South Pars gasfield",
@@ -2985,12 +2958,40 @@ export const newsData = {
           "slug": "pakistan-to-pause-afghan-strikes-for-eid-two-days-after-deadly-kabul-attack"
         },
         {
-          "representativeTitle": "Three women killed in occupied West Bank missile attack",
+          "representativeTitle": "Democrats walk out of heated Epstein files briefing",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
+            {
+              "title": "Democrats walk out of heated Epstein files briefing",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/19/democrats-walk-out-of-heated-epstein-files-briefing?traffic_source=rss",
+              "pubDate": "2026-03-19T04:00:14.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "democrats-walk-out-of-heated-epstein-files-briefing"
+        },
+        {
+          "representativeTitle": "Three Palestinian women killed during Iranian missile attack in West Bank",
+          "sources": [
+            "Al Jazeera",
+            "Al Jazeera"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Three Palestinian women killed during Iranian missile attack in West Bank",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/19/three-palestinian-women-killed-during-iranian-missile-attack-in-west-bank?traffic_source=rss",
+              "pubDate": "2026-03-19T03:58:49.000Z",
+              "tier": 1
+            },
             {
               "title": "Three women killed in occupied West Bank missile attack",
               "source": "Al Jazeera",
@@ -3000,9 +3001,9 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "three-women-killed-in-occupied-west-bank-missile-attack"
+          "relevance_score": 9,
+          "importance": 70,
+          "slug": "three-palestinian-women-killed-during-iranian-missile-attack-in-west-bank"
         },
         {
           "representativeTitle": "Saudi FM warns Iran that patience in Gulf not ‘unlimited’ amid attacks",
@@ -3323,46 +3324,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "us-to-require-up-to-15000-bond-for-visa-applicants-from-12-new-countries"
-        },
-        {
-          "representativeTitle": "Trump temporarily waives century-old shipping law amid rising fuel costs",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump temporarily waives century-old shipping law amid rising fuel costs",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/economy/2026/3/18/trump-temporarily-waives-century-old-shipping-law-amid-rising-fuel-costs?traffic_source=rss",
-              "pubDate": "2026-03-18T17:56:26.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "trump-temporarily-waives-century-old-shipping-law-amid-rising-fuel-costs"
-        },
-        {
-          "representativeTitle": "Iranian women’s football team return to Iran",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iranian women’s football team return to Iran",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/iranian-womens-football-team-return-to-iran?traffic_source=rss",
-              "pubDate": "2026-03-18T17:51:55.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 2,
-          "importance": 25,
-          "slug": "iranian-womens-football-team-return-to-iran"
         }
       ]
     },
@@ -3430,24 +3391,24 @@ export const newsData = {
           "slug": "ai-uses-as-much-energy-as-iceland-but-scientists-arent-worried"
         },
         {
-          "representativeTitle": "Scientists used 7,000 GPUs to simulate a tiny quantum chip in extreme detail",
+          "representativeTitle": "Changing shower and toilet habits could help close England's five billion-liter water gap, research finds",
           "sources": [
-            "Science Daily"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Scientists used 7,000 GPUs to simulate a tiny quantum chip in extreme detail",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/03/260317064504.htm",
-              "pubDate": "2026-03-18T03:35:04.000Z",
+              "title": "Changing shower and toilet habits could help close England's five billion-liter water gap, research finds",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-shower-toilet-habits-england-billion.html",
+              "pubDate": "2026-03-19T04:00:01.000Z",
               "tier": 2
             }
           ],
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "scientists-used-7000-gpus-to-simulate-a-tiny-quantum-chip-in-extreme-detail"
+          "slug": "changing-shower-and-toilet-habits-could-help-close-englands-five-billion-liter-water-gap-research-finds"
         },
         {
           "representativeTitle": "More and more teachers and students are using AI, even though it might do more harm than good",
