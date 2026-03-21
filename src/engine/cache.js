@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { hashString } from './utils.js';
 
 const CACHE_FILE = path.resolve(process.cwd(), 'src/engine/cache.json');
 
@@ -62,6 +63,35 @@ class CacheManager {
     setEmbedding(hash, vector) {
         if (!this.cache.embeddings) this.cache.embeddings = {};
         this.cache.embeddings[hash] = vector;
+        this.save();
+    }
+
+    prune(activeRawArticles, activeClusters) {
+        if (!this.cache.embeddings || !this.cache.inference) return;
+
+        console.log(`\n🧹 Cache GC: Starting sizes - Embeddings: ${Object.keys(this.cache.embeddings).length}, Inferences: ${Object.keys(this.cache.inference).length}`);
+
+        const activeEmbHashes = new Set(activeRawArticles.map(a => hashString(a.title)));
+        const activeInfHashes = new Set(activeClusters.map(c => hashString(c.representativeTitle)));
+
+        let prunedEmb = 0;
+        let prunedInf = 0;
+
+        for (const hash in this.cache.embeddings) {
+            if (!activeEmbHashes.has(hash)) {
+                delete this.cache.embeddings[hash];
+                prunedEmb++;
+            }
+        }
+
+        for (const hash in this.cache.inference) {
+            if (!activeInfHashes.has(hash)) {
+                delete this.cache.inference[hash];
+                prunedInf++;
+            }
+        }
+
+        console.log(`🧹 Cache GC: Pruned ${prunedEmb} stale embeddings and ${prunedInf} stale inferences.`);
         this.save();
     }
 }
