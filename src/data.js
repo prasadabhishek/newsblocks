@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-21T18:08:19.089Z",
+  "lastUpdated": "2026-03-21T19:08:26.678Z",
   "children": [
     {
       "name": "Politics",
@@ -107,26 +107,6 @@ export const newsData = {
           "slug": "more-british-teenagers-stranded-abroad-as-result-of-new-rules-on-dual-nationals"
         },
         {
-          "representativeTitle": "Lowering speed limits among contingency plans to curb UK oil demand",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Lowering speed limits among contingency plans to curb UK oil demand",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/business/2026/mar/20/lowering-speed-limits-uk-oil-iea-iran-war",
-              "pubDate": "2026-03-20T18:10:07.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "lowering-speed-limits-among-contingency-plans-to-curb-uk-oil-demand"
-        },
-        {
           "representativeTitle": "Trump’s economic shocks are derailing Britain’s building plans",
           "sources": [
             "The Guardian"
@@ -147,26 +127,6 @@ export const newsData = {
           "slug": "trumps-economic-shocks-are-derailing-britains-building-plans"
         },
         {
-          "representativeTitle": "Attacks on synagogues and Jewish shops in the UK, Europe and the US don’t hurt Netanyahu. They just hurt ordinary Jews | Jonathan Freedland",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Attacks on synagogues and Jewish shops in the UK, Europe and the US don’t hurt Netanyahu. They just hurt ordinary Jews | Jonathan Freedland",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/commentisfree/2026/mar/20/attack-uk-us-europe-netanyahu-jews-violence-antisemitism",
-              "pubDate": "2026-03-20T18:13:17.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "attacks-on-synagogues-and-jewish-shops-in-the-uk-europe-and-the-us-dont-hurt-netanyahu-they-just-hurt-ordinary-jews-jonathan-freedland"
-        },
-        {
           "representativeTitle": "UK allows US to use bases to strike Strait of Hormuz targets",
           "sources": [
             "BBC News"
@@ -185,66 +145,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 60,
           "slug": "uk-allows-us-to-use-bases-to-strike-strait-of-hormuz-targets"
-        },
-        {
-          "representativeTitle": "Starmer most popular PM",
-          "sources": [
-            "BBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Starmer most popular PM",
-              "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/cp385808jk2o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-20T18:55:33.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "starmer-most-popular-pm"
-        },
-        {
-          "representativeTitle": "Reform UK suspends Scotland candidate over financial allegations",
-          "sources": [
-            "BBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Reform UK suspends Scotland candidate over financial allegations",
-              "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/cj375v264rko?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-20T18:54:55.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 5,
-          "importance": 40,
-          "slug": "reform-uk-suspends-scotland-candidate-over-financial-allegations"
-        },
-        {
-          "representativeTitle": "Farage 'will fight' Essex council reorganisation",
-          "sources": [
-            "BBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Farage 'will fight' Essex council reorganisation",
-              "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/c9d41ne6dx1o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-20T18:47:21.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 5,
-          "importance": 40,
-          "slug": "farage-will-fight-essex-council-reorganisation"
         },
         {
           "representativeTitle": "As Starmer faces war overseas, his party can't find peace at home",
@@ -287,7 +187,7 @@ export const newsData = {
           "slug": "party-politics-drive-partial-government-shutdown-opinion-letters"
         },
         {
-          "representativeTitle": "Pentagon policy limiting independent press access is unlawful, judge rules",
+          "representativeTitle": "US judge blocks Pentagon’s restrictions on press after New York Times lawsuit",
           "sources": [
             "Spectrum News",
             "PBS",
@@ -333,9 +233,10 @@ export const newsData = {
         {
           "representativeTitle": "Big money flows into state attorney general races as legal battles shape American politics",
           "sources": [
-            "The Tribune-Democrat"
+            "The Tribune-Democrat",
+            "KTVO"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Big money flows into state attorney general races as legal battles shape American politics",
@@ -343,11 +244,18 @@ export const newsData = {
               "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOd2tEeHpsQngtcDdLcEhDRENFeW1KTTFmQ3hkTEN0RTBWekJ0Yjd6QVZFSWxyRi1jaXZYRGluMHpXX1RPR3VIMy1OdEFZSE85dmgzZXh3aVR6QTczYnpaUGw2RUlocjA4alZRWERoZDBIdkxFM1NaakJobUhIUnB1eVZPa1oxZWtyekxOUWVwYlV5WlhJODRjZ1RnRmxteGdnR3JLQUZEdkdNWUIxOFBCcTN1cDRqa29HTUJsOXQ5Q0tsQS1VaVVKQXdNaVFYSHpQQ2drbzJLZkpDTGNPUFFDSGZxZV9WS2x4WG1TMTZqUHNveE9OaFFhWEtubUUzMU1CZ1lIMVQxSnUzQQ?oc=5",
               "pubDate": "2026-03-21T12:05:00.000Z",
               "tier": 2
+            },
+            {
+              "title": "Big money flows into state attorney general races as legal battles shape American politics",
+              "source": "KTVO",
+              "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQTkVHT3RnWWhoZDBkWWhmRTI1ZFF6eUtWXzZVekR5OW01VHAzUlBmQmdsRnhuY3h0aEhPYnFpZFZUTUxzS21qRUV2RUJFUTNWNDFEVEZRckQ3REpvbDd3TnJBY3VYYTlfbkJBVTZQNmpoUnN5OUUtME9XVWR5UDhKZ0dOTHpXTFJ2VzlpWGdGdExGQnRTSWY4em9rRjAya3kzMDRVNVNWZE1mRXRXc3B3bFhrRVJfbHJpN1NXS1h0OUJCVkRLbmVCck1LeHpqaXZZYkRkVXNvdkZDeW1yVG5FRy11VEhrUW1kS0o1VGJtV2VDejl6VGE2bVRDdDFiZXFsSjJUR2hYdVdIOWM?oc=5",
+              "pubDate": "2026-03-21T12:05:31.000Z",
+              "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 45,
+          "importance": 50,
           "slug": "big-money-flows-into-state-attorney-general-races-as-legal-battles-shape-american-politics"
         },
         {
@@ -371,26 +279,6 @@ export const newsData = {
           "slug": "us-government-sues-harvard-over-anti-israel-protests-hostile-environment"
         },
         {
-          "representativeTitle": "250+ years of American civics and news",
-          "sources": [
-            "South Dakota News Watch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "250+ years of American civics and news",
-              "source": "South Dakota News Watch",
-              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSUs4RlJvc3oyV0NRTFJXb0VvOEg5dTR2MmlCdU1UcjhWODdQNnNaUnYxUXhOZGstY2EwNTFRaDdjdlMxTTBqdkIwUDRBQVk5cFJUNk9YLVNRMzhxZ0VEbXJrOWRPMGw4X1hYTnZjLXV1cWQwSWFrbjA2bWd2UlB2MXp5aw?oc=5",
-              "pubDate": "2026-03-20T19:40:03.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "250-years-of-american-civics-and-news"
-        },
-        {
           "representativeTitle": "TSA officers are quitting rather than working without pay during shutdown",
           "sources": [
             "Fortune"
@@ -411,26 +299,6 @@ export const newsData = {
           "slug": "tsa-officers-are-quitting-rather-than-working-without-pay-during-shutdown"
         },
         {
-          "representativeTitle": "WATCH: Trump says 'we don't need' Strait of Hormuz after allies won't help U.S. escort ships",
-          "sources": [
-            "PBS"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "WATCH: Trump says 'we don't need' Strait of Hormuz after allies won't help U.S. escort ships",
-              "source": "PBS",
-              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOEhnNXdMQkJlZDlNZmp3Qk1xQjJXMkxrVUNVQVBtb0FXdTIzTVpGMjNSMy1YQXdvb1NsOGwxRzFCeEt1aFl6bGxvU3ZSbVZYcmswQlR3bTVjQ3h3SmhNa29VRzNHcWNPTHkyS1htR3lNZWVjdmdGUlNleTZYVEpKVUxNRndvc1JINWVzX29uYnRlelBXR1EtWGhqYVN0ckFjM2FEWThXaFlSZ2hfRXVrTDNhTVZwQ1ZzMUVfbzJ4VkNsZ9IBxwFBVV95cUxPYUE2UWZXc2ZYVDFkN1BTQlQ4R3FFNTZNVGwwXzIxa0NKSVAxOVZfQ3dESzQyRnRhS3FpZ3lDb2dMRE9ZcUV0Q0hkdl9RMTlLX25IS0tRNXh1SkVfc2ZKaXJBNTNRdzVBOVBGYTh4VkltbnFsd2IxR1o4ZmhGd2I4bWh6OUJDY2hPZUxvM2ZQZ0xiWE93a3ZlejR1OUlqQmN1SUhLamdEUWUzTk9pWkszeGx1Qk05LVo4Z2dEOXN0ck1DeE5pWHFZ?oc=5",
-              "pubDate": "2026-03-20T21:42:42.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "watch-trump-says-we-dont-need-strait-of-hormuz-after-allies-wont-help-us-escort-ships"
-        },
-        {
           "representativeTitle": "In Trump’s Administration, Military Housing Is Becoming a Hot Commodity",
           "sources": [
             "The New York Times"
@@ -449,6 +317,46 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "in-trumps-administration-military-housing-is-becoming-a-hot-commodity"
+        },
+        {
+          "representativeTitle": "250+ years of American civics and news",
+          "sources": [
+            "South Dakota News Watch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "250+ years of American civics and news",
+              "source": "South Dakota News Watch",
+              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSUs4RlJvc3oyV0NRTFJXb0VvOEg5dTR2MmlCdU1UcjhWODdQNnNaUnYxUXhOZGstY2EwNTFRaDdjdlMxTTBqdkIwUDRBQVk5cFJUNk9YLVNRMzhxZ0VEbXJrOWRPMGw4X1hYTnZjLXV1cWQwSWFrbjA2bWd2UlB2MXp5aw?oc=5",
+              "pubDate": "2026-03-20T19:40:03.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "250-years-of-american-civics-and-news"
+        },
+        {
+          "representativeTitle": "WATCH: Trump says 'we don't need' Strait of Hormuz after allies won't help U.S. escort ships",
+          "sources": [
+            "PBS"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "WATCH: Trump says 'we don't need' Strait of Hormuz after allies won't help U.S. escort ships",
+              "source": "PBS",
+              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOEhnNXdMQkJlZDlNZmp3Qk1xQjJXMkxrVUNVQVBtb0FXdTIzTVpGMjNSMy1YQXdvb1NsOGwxRzFCeEt1aFl6bGxvU3ZSbVZYcmswQlR3bTVjQ3h3SmhNa29VRzNHcWNPTHkyS1htR3lNZWVjdmdGUlNleTZYVEpKVUxNRndvc1JINWVzX29uYnRlelBXR1EtWGhqYVN0ckFjM2FEWThXaFlSZ2hfRXVrTDNhTVZwQ1ZzMUVfbzJ4VkNsZ9IBxwFBVV95cUxPYUE2UWZXc2ZYVDFkN1BTQlQ4R3FFNTZNVGwwXzIxa0NKSVAxOVZfQ3dESzQyRnRhS3FpZ3lDb2dMRE9ZcUV0Q0hkdl9RMTlLX25IS0tRNXh1SkVfc2ZKaXJBNTNRdzVBOVBGYTh4VkltbnFsd2IxR1o4ZmhGd2I4bWh6OUJDY2hPZUxvM2ZQZ0xiWE93a3ZlejR1OUlqQmN1SUhLamdEUWUzTk9pWkszeGx1Qk05LVo4Z2dEOXN0ck1DeE5pWHFZ?oc=5",
+              "pubDate": "2026-03-20T21:42:42.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "watch-trump-says-we-dont-need-strait-of-hormuz-after-allies-wont-help-us-escort-ships"
         },
         {
           "representativeTitle": "How rising electric rates could affect the 2026 midterms",
@@ -491,47 +399,107 @@ export const newsData = {
           "slug": "4-takeaways-on-the-economic-consequences-of-the-iran-war"
         },
         {
-          "representativeTitle": "Opinion | How politicians are failing our political culture",
+          "representativeTitle": "Striking Down Pentagon Press Limits, Judge Vindicates Independent Journalism",
           "sources": [
-            "Star Tribune"
+            "The New York Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Opinion | How politicians are failing our political culture",
-              "source": "Star Tribune",
-              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYkpwMGNOMmNWX292NjVjRXFWS0twbkhHVHZwYktrNzVaYV9wbl9qamliZWxnVGlWQ0JWNkVFZ3lCQURsNW5CWFhWaUR1MHp5amlsZDBKNy1EQ2UwVHNGeFRGa1hUTDJsUzEzVE14YjJKRHJWZ3VGVEdRSGlOVzRaSmQ0V2pTSVlF?oc=5",
-              "pubDate": "2026-03-20T18:33:09.000Z",
+              "title": "Striking Down Pentagon Press Limits, Judge Vindicates Independent Journalism",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWGNTemJpNVhXZlNOcEdPSm5ZNkp4U3UtS0huSG5sc0NCSzlQcXZKZWJyMDR1TmtEaHE4U0xVOF9IQjhVNWRYeEtuYnFZVlRvNGhZQm9XU281bl85d2FQNXVqVjlQeGMyU3NuLU9FeGVzTWd1TVFtWGRxXzR3NXU0NDJCMjFQc3ZVb2ZF?oc=5",
+              "pubDate": "2026-03-21T01:29:42.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "striking-down-pentagon-press-limits-judge-vindicates-independent-journalism"
+        },
+        {
+          "representativeTitle": "Cuba rejects US pressure on political system, Diaz-Canel’s position | Daily Sabah",
+          "sources": [
+            "Daily Sabah"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Cuba rejects US pressure on political system, Diaz-Canel’s position | Daily Sabah",
+              "source": "Daily Sabah",
+              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVzFSdEx1RnpXdXpFZUNhNjdici00LXNJVGdjLWx2QVI4ZlJzRHNqM002am1FOGRhSDV4TmZQNE9HZjZxdmRDTDlGMmlObnNEdXkyRF8xZzJxZ0Z5UThDMkNwUWpsMHFxdlNKWm03cTBMTDdxOGFVWWFrcFdncUhNZHFoTm1BR21ESUZGY3NJSFhVYm1vbWVzbHpaRGtIMEh1TTRsQ1RPaFpnTFVldDRGdNIBsAFBVV95cUxNVzFSdEx1RnpXdXpFZUNhNjdici00LXNJVGdjLWx2QVI4ZlJzRHNqM002am1FOGRhSDV4TmZQNE9HZjZxdmRDTDlGMmlObnNEdXkyRF8xZzJxZ0Z5UThDMkNwUWpsMHFxdlNKWm03cTBMTDdxOGFVWWFrcFdncUhNZHFoTm1BR21ESUZGY3NJSFhVYm1vbWVzbHpaRGtIMEh1TTRsQ1RPaFpnTFVldDRGdA?oc=5",
+              "pubDate": "2026-03-21T10:50:06.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "opinion-how-politicians-are-failing-our-political-culture"
+          "slug": "cuba-rejects-us-pressure-on-political-system-diaz-canels-position-daily-sabah"
         },
         {
-          "representativeTitle": "A shameful double standard on religious freedom",
+          "representativeTitle": "Cal State Challenges Trump’s Order on Transgender Student Athletes",
           "sources": [
-            "Brookings"
+            "The New York Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "A shameful double standard on religious freedom",
-              "source": "Brookings",
-              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdXlHQXVRcDJhaWRQcVlLLXBXYlhXeFFzWUNvZWdDNkpkZExhYUxEcWFXZWNrTkxVeTBNd1E0Sk9HVk5oRXBKR1pHdkZEQTkzOUNXY3hWR3BIZ0pDNWh0RDEtaGllWU9YWnlxdnM2TVZkSlJ3ekFtNFJHTWZubndyMkRfV25LT1lzRVRj?oc=5",
-              "pubDate": "2026-03-20T18:54:34.000Z",
+              "title": "Cal State Challenges Trump’s Order on Transgender Student Athletes",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcnc4anBmcnVLTG5NT2JrN1NnMDd2WV9rQi1keFM4NHBMTWYybHc4OTZTbDEyZjRsd0FuOElYMWdCWVR3eTdZMU84eWFvcDVySXhHRDFybHdWcVBIYmxoeVpUUU8zUC1LZVE2bE81dW9Rd3d0T1JYQWtSQ0hZbjNQU1gxV3RYNWZDbWc?oc=5",
+              "pubDate": "2026-03-20T22:05:39.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "a-shameful-double-standard-on-religious-freedom"
+          "slug": "cal-state-challenges-trumps-order-on-transgender-student-athletes"
         },
         {
-          "representativeTitle": "US national debt surges past $39 trillion just weeks into war in Iran",
+          "representativeTitle": "Trump and blackouts force Cuba to the negotiation table",
+          "sources": [
+            "DW.com"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump and blackouts force Cuba to the negotiation table",
+              "source": "DW.com",
+              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYk9IaXpFMTU5SUk4ek9GYWpfbWEyNngtdzNaa2lWdlN4ajhOQm50S2NXWkVFeWZnRWx0YmtzMUlqRDA5d1VQblF6eG1uZ2haYTAxNGpjcUNSSkctZ0RnMzFWQmpXUkZFLUc2T2RZNlhyNEdsTDNlSzBzamItdWdheXdGd1VvRUxZWXJNby1lVFcyUdIBkgFBVV95cUxOcGtEUXg2emlqdDk0Ymx2MDNmSWx2aHFQYlNzaVlIdzgtWDBZeWlfZFdOXzNMaTJEOEtvUzQ2WkZEYUhvMjN3Qk1zS1ZpSHRnX1VTNXBWWi04R1lHU3lxakdGUWNyRGtVUzNaSmpqUnZmdzRMeUE3Q3c2cUZsTHVyMWJkSXU3NW1vVm16MkhmY1JwZw?oc=5",
+              "pubDate": "2026-03-20T22:20:31.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "trump-and-blackouts-force-cuba-to-the-negotiation-table"
+        },
+        {
+          "representativeTitle": "Government attacks on California are not new",
+          "sources": [
+            "Antelope Valley Press"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Government attacks on California are not new",
+              "source": "Antelope Valley Press",
+              "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWU1CNkJERWR6RHE5ZzVYemNzUnFTWVY1LWN2SUp2QmRKbTZJYUFmSHpDUXYxWktHaVpEeG5MWks1VmhjUW03SEphMHk3Q3R1SEFwa1hBeVZsUWEyZDkxcGJYVWJlSURaaGNaalVxTW4wVW5lazVRbktnTGFYaWdQY0JIbUtZelFtekNnVDJMbzl3YWlHTHRsQ1daNC1aMWpRUjNKRXNQcWpvdmxabFRiUzFocmFLNGlTZ184SXFJcC1YUExELWMxZkh4ZzJOd24yUHc?oc=5",
+              "pubDate": "2026-03-21T11:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "government-attacks-on-california-are-not-new"
+        },
+        {
+          "representativeTitle": "The Equity Docket: Who Gets to Vote and Be Counted",
           "sources": [
             "The Progressive"
           ],
@@ -549,146 +517,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "the-equity-docket-who-gets-to-vote-and-be-counted"
-        },
-        {
-          "representativeTitle": "Cuba refuses to let US Embassy in Havana import diesel for its generators",
-          "sources": [
-            "The Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cuba refuses to let US Embassy in Havana import diesel for its generators",
-              "source": "The Washington Post",
-              "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWVNZSHBZQWRjTkx6WGU0X21KV3FFd29HV3hqMmxoMmV2a3dveEVXeEpsU29pSDFPV1lIT3lxUGEwc1pHaWFXQjBrRXpFamo4WVpWNlowOWh3TGNzYm82aXdLN1ozSVNubFNEdmQtYWdnWkVNNElNZTRoMDkwcDB3bGluOC1fZHNSbEY1WG9SMlZoNGktYkN4Q1Yxc1NXUUxLdThBczItZUVuRi1jbm1adEJJTTB3Uk9FOXQ4MW5FZTVkUFo2Q1lLX1lCZw?oc=5",
-              "pubDate": "2026-03-21T05:19:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "cuba-refuses-to-let-us-embassy-in-havana-import-diesel-for-its-generators"
-        },
-        {
-          "representativeTitle": "Why the Trump administration is easing sanctions on certain Iranian oil stockpiles",
-          "sources": [
-            "CNN"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Why the Trump administration is easing sanctions on certain Iranian oil stockpiles",
-              "source": "CNN",
-              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBhT043cUxxQks4aEhiNFJjODVNZG10MzRHLXUyV2hJWkRMSGR6ZTNUbEVySmFTUnlQWFl1STFNM1VzR09OaTBOTmpwdGx6MWd1em85b1BhR1pRY183UjJRRnBkVGdHekloRnJyR3FiTzNsemxt?oc=5",
-              "pubDate": "2026-03-21T01:08:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "why-the-trump-administration-is-easing-sanctions-on-certain-iranian-oil-stockpiles"
-        },
-        {
-          "representativeTitle": "Trump says he will send ICE agents to airports if TSA funding stalls",
-          "sources": [
-            "USA Today"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump says he will send ICE agents to airports if TSA funding stalls",
-              "source": "USA Today",
-              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQa3YxcFczS3lUbktpLUxBSEQ2Z3Jjd096dGFYVHVpU01qaDgyVEpEYlFMRFM4dGtqX05CQ1R0S0FLdTdMT3VOdm1HUGEweUV5NXlhb1RlaTl3cFdXVi1WWDJsWmVydU9rdF84bmhGdFBrZ1I2N0VNU1R5RExKSzN6ZG9FQkRTVUk0bWV6MEc0VmVfR3pnVk5LSi1fMVlvZVU?oc=5",
-              "pubDate": "2026-03-21T18:00:58.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "trump-says-he-will-send-ice-agents-to-airports-if-tsa-funding-stalls"
-        },
-        {
-          "representativeTitle": "Oklahoma Voice: Markwayne Mullin’s nomination to lead Homeland Security advances to US Senate floor",
-          "sources": [
-            "Duncan Banner"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Oklahoma Voice: Markwayne Mullin’s nomination to lead Homeland Security advances to US Senate floor",
-              "source": "Duncan Banner",
-              "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNUjhuZVlBYUdwczU1RlBLWXRyaWU0S1Rra0RpMy01MEtCbkJrcDY4NE05Wk5FOWZweGVteUhFZFhfTzZmUGtEYmd4cEtHWmlMVG9rMUhGZGNMdTgxNTFSVjJLYTFqYTNob2tXNGdyNGdockF0YmQ4X0RjOFpaVkRMMlU0emVHcnE3anlqeDV5WEFyYkZsTW1iaV9DU0tvemhfQUE2TWxDZVVhMEdtTnQ2X1dJUFhqUWJzT0RxQlFzMUs5eUMzdXpfYUpYTl9ianRpTk5CaEVnandON3VQUEp3clFRZXhLa2RlTDZXSWdUZzhSR1dZa3FvUXZnMTlzb2JSOFp3akRheVBEV2hvaURV?oc=5",
-              "pubDate": "2026-03-20T21:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "oklahoma-voice-markwayne-mullins-nomination-to-lead-homeland-security-advances-to-us-senate-floor"
-        },
-        {
-          "representativeTitle": "US Government Shutdown: TSA Workers Without Pay Trigger Airport Delays and Travel Chaos",
-          "sources": [
-            "ColombiaOne.com"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US Government Shutdown: TSA Workers Without Pay Trigger Airport Delays and Travel Chaos",
-              "source": "ColombiaOne.com",
-              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSllDbmNQZ3VONVpTYjRGc3J2WFdPWWZMQkxzT0ZMNUNETkNZcjRPTkVuNjk5SGtMamc4Wll0c2xjbG1rek45YlktU1pIWWVEdjg2dW1sNmQ4T2NER3luY0psa2RzbHY1RFNZSFJhYUtvZmUyUGk0UzdJOHI5SXB1dFlmdGM?oc=5",
-              "pubDate": "2026-03-21T01:12:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "us-government-shutdown-tsa-workers-without-pay-trigger-airport-delays-and-travel-chaos"
-        },
-        {
-          "representativeTitle": "Judge rules US government overreached with transgender health care declaration",
-          "sources": [
-            "KATU"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Judge rules US government overreached with transgender health care declaration",
-              "source": "KATU",
-              "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxONkxYNWRDeHBWSkhJbkF1M0M1TzRVRmNBUW12aU8xenpydHY3ZzE4Qlg3ZXAzMHpfbmt5YjZLMlVUa2p3cHA4SDZiZFgwRWt1d3Q3azZBLXF5YUZDQmFkelIxWlkxeF82aWdfMGwxR0QxamJJaVdBWkU4Yll0dzhlbjVSU2ZoZkdMTEFpSFo5aG9xeWhiZ1JNSVBPV2lUazA4c2g5aHphQW9GckxCVlZVMlg0dk04S0kxQUlMd2g1MWt5ZndUTENyUHc0WkRWYmZ5bmFiOFlOLXhwOEJuUWlZc0ltcF9sU2MtVENzVmtKMERzaFVOSXdmZDNtZm1TOUtoODFzUTFLZ2RaOGZ3dmd0QjBB?oc=5",
-              "pubDate": "2026-03-20T18:42:29.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "judge-rules-us-government-overreached-with-transgender-health-care-declaration"
-        },
-        {
-          "representativeTitle": "U.S. Prosecutors Are Investigating Colombia President Gustavo Petro",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "U.S. Prosecutors Are Investigating Colombia President Gustavo Petro",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWkNFdE9EUEI0Sm5ueXNxUVRYTFN2MHhJV3VGajg2NzVaTWxoYWVRa0lKLUZhbV94eEFtTHltV2VCU0IwTVVIY3E4YnNTamhLdXBWN3dZcUFLVHYtWnJKbVZ2SGVha0dFa2pWNGFlZWlaWEdXU2c5dFVibUpVdWlYMEpLbU9PX1YtUlF0UkdDY3l0dGtmN0xObg?oc=5",
-              "pubDate": "2026-03-20T22:22:34.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "us-prosecutors-are-investigating-colombia-president-gustavo-petro"
         }
       ]
     },
@@ -734,6 +562,146 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "small-cap-focused-russell-2000-becomes-first-us-benchmark-to-enter-correction-territory"
+        },
+        {
+          "representativeTitle": "Salesforce (CRM) Partners with NVIDIA for AI Agents in Enterprise Business Workflows",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Salesforce (CRM) Partners with NVIDIA for AI Agents in Enterprise Business Workflows",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/sectors/technology/articles/salesforce-crm-partners-nvidia-ai-182739106.html",
+              "pubDate": "2026-03-21T18:27:39.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "salesforce-crm-partners-with-nvidia-for-ai-agents-in-enterprise-business-workflows"
+        },
+        {
+          "representativeTitle": "Visa Inc. (V) Announces Launch of Visa Agentic Ready",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Visa Inc. (V) Announces Launch of Visa Agentic Ready",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/visa-inc-v-announces-launch-182443285.html",
+              "pubDate": "2026-03-21T18:24:43.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "visa-inc-v-announces-launch-of-visa-agentic-ready"
+        },
+        {
+          "representativeTitle": "Wendy’s (WEN) Expands Mexico Footprint With Over 60 New Locations",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Wendy’s (WEN) Expands Mexico Footprint With Over 60 New Locations",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/wendy-wen-expands-mexico-footprint-182319326.html",
+              "pubDate": "2026-03-21T18:23:19.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "wendys-wen-expands-mexico-footprint-with-over-60-new-locations"
+        },
+        {
+          "representativeTitle": "Amazon.com (AMZN) AWS Taps SailPoint to Develop Governance Solutions for AI Agents",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Amazon.com (AMZN) AWS Taps SailPoint to Develop Governance Solutions for AI Agents",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-aws-taps-182201876.html",
+              "pubDate": "2026-03-21T18:22:01.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "amazoncom-amzn-aws-taps-sailpoint-to-develop-governance-solutions-for-ai-agents"
+        },
+        {
+          "representativeTitle": "Needham Confident of Alphabet Stock (GOOGL) Free Cash Flow Generation Capabilities Amid AI Disruption",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Needham Confident of Alphabet Stock (GOOGL) Free Cash Flow Generation Capabilities Amid AI Disruption",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/needham-confident-alphabet-stock-googl-181942624.html",
+              "pubDate": "2026-03-21T18:19:42.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "needham-confident-of-alphabet-stock-googl-free-cash-flow-generation-capabilities-amid-ai-disruption"
+        },
+        {
+          "representativeTitle": "Global central banks signal shocking shift on interest-rate bets",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Global central banks signal shocking shift on interest-rate bets",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/economy/policy/articles/global-central-banks-signal-shocking-184700974.html",
+              "pubDate": "2026-03-21T18:47:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 10,
+          "importance": 55,
+          "slug": "global-central-banks-signal-shocking-shift-on-interest-rate-bets"
+        },
+        {
+          "representativeTitle": "Dow Jones Bounces Late After Sell-Off As Trump Mulls 'Winding Down' Iran War",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Dow Jones Bounces Late After Sell-Off As Trump Mulls 'Winding Down' Iran War",
+              "source": "Yahoo Finance",
+              "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-yields-trump-iran-war-winding-down/?src=A00220&yptr=yahoo",
+              "pubDate": "2026-03-21T18:02:36.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "dow-jones-bounces-late-after-sell-off-as-trump-mulls-winding-down-iran-war"
         },
         {
           "representativeTitle": "Pentagon Taps Palantir Maven Battlefield System For Wider Military Use",
@@ -796,6 +764,26 @@ export const newsData = {
           "slug": "jim-cramer-on-stellantis-i-just-cant-recommend-it"
         },
         {
+          "representativeTitle": "4 signs your company is quietly planning layoffs",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "4 signs your company is quietly planning layoffs",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/economy/articles/4-signs-company-quietly-planning-183300570.html",
+              "pubDate": "2026-03-21T18:33:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "4-signs-your-company-is-quietly-planning-layoffs"
+        },
+        {
           "representativeTitle": "Jim Cramer on Booking Holdings: “It’s Glenn Fogel, and He’s Going to Snap Right Back Here”",
           "sources": [
             "Yahoo Finance"
@@ -816,52 +804,44 @@ export const newsData = {
           "slug": "jim-cramer-on-booking-holdings-its-glenn-fogel-and-hes-going-to-snap-right-back-here"
         },
         {
-          "representativeTitle": "Jim Cramer on Reddit: “I Think It’s an Incredibly Valuable Property”",
+          "representativeTitle": "History says these 2 overlooked asset classes are the only real shield against 1970s-style stagflation",
           "sources": [
-            "Yahoo Finance"
+            "MarketWatch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Jim Cramer on Reddit: “I Think It’s an Incredibly Valuable Property”",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-reddit-think-incredibly-163126732.html",
-              "pubDate": "2026-03-21T16:31:26.000Z",
+              "title": "History says these 2 overlooked asset classes are the only real shield against 1970s-style stagflation",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/history-says-these-2-overlooked-asset-classes-are-the-only-real-shield-against-1970s-style-stagflation-727af5de?mod=mw_rss_topstories",
+              "pubDate": "2026-03-21T19:00:00.000Z",
               "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "jim-cramer-on-reddit-i-think-its-an-incredibly-valuable-property"
-        },
-        {
-          "representativeTitle": "Delve accused of misleading customers with ‘fake compliance’",
-          "sources": [
-            "Yahoo Finance",
-            "TechCrunch"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Delve accused of misleading customers with ‘fake compliance’",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/sectors/technology/articles/delve-accused-misleading-customers-fake-170005937.html",
-              "pubDate": "2026-03-21T17:00:05.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Delve accused of misleading customers with ‘fake compliance’",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/03/21/delve-accused-of-misleading-customers-with-fake-compliance/",
-              "pubDate": "2026-03-21T17:00:05.000Z",
-              "tier": 1
             }
           ],
           "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "history-says-these-2-overlooked-asset-classes-are-the-only-real-shield-against-1970s-style-stagflation"
+        },
+        {
+          "representativeTitle": "The stock market actually doesn’t care as much about oil prices as you think",
+          "sources": [
+            "MarketWatch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The stock market actually doesn’t care as much about oil prices as you think",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/the-stock-market-actually-doesnt-care-as-much-about-oil-prices-as-you-think-ead59ede?mod=mw_rss_topstories",
+              "pubDate": "2026-03-21T18:48:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0,
           "relevance_score": 7,
-          "importance": 55,
-          "slug": "delve-accused-of-misleading-customers-with-fake-compliance"
+          "importance": 40,
+          "slug": "the-stock-market-actually-doesnt-care-as-much-about-oil-prices-as-you-think"
         },
         {
           "representativeTitle": "Betting scandals leave pro sports just one way to save the $165 billion gaming market",
@@ -922,66 +902,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "30-of-americans-dont-know-when-or-even-if-they-will-retire"
-        },
-        {
-          "representativeTitle": "Warren Buffett’s parting gift to Berkshire Hathaway: a $2 billion Iran oil windfall",
-          "sources": [
-            "MarketWatch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Warren Buffett’s parting gift to Berkshire Hathaway: a $2 billion Iran oil windfall",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/warren-buffetts-parting-gift-to-berkshire-hathaway-a-2-billion-iran-oil-windfall-4daf28ba?mod=mw_rss_topstories",
-              "pubDate": "2026-03-21T16:47:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "warren-buffetts-parting-gift-to-berkshire-hathaway-a-2-billion-iran-oil-windfall"
-        },
-        {
-          "representativeTitle": "The 6 biggest changes to Social Security over the past 20 years that affect how much money you’ll get in retirement",
-          "sources": [
-            "MarketWatch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The 6 biggest changes to Social Security over the past 20 years that affect how much money you’ll get in retirement",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/the-6-biggest-changes-to-social-security-over-the-past-20-years-that-affect-how-much-money-youll-get-in-retirement-28f35e1b?mod=mw_rss_topstories",
-              "pubDate": "2026-03-21T16:30:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "the-6-biggest-changes-to-social-security-over-the-past-20-years-that-affect-how-much-money-youll-get-in-retirement"
-        },
-        {
-          "representativeTitle": "3 signals will reveal if the Iran oil shock is just a blip — or the new normal",
-          "sources": [
-            "MarketWatch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "3 signals will reveal if the Iran oil shock is just a blip — or the new normal",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/3-signals-that-reveal-if-the-iran-oil-shock-is-just-a-blip-or-the-new-normal-3202c511?mod=mw_rss_topstories",
-              "pubDate": "2026-03-21T16:06:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "3-signals-will-reveal-if-the-iran-oil-shock-is-just-a-blip-or-the-new-normal"
         }
       ]
     },
@@ -1027,46 +947,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "glp-1-drugs-are-changing-how-americans-eat-food-companies-are-racing-to-catch-up"
-        },
-        {
-          "representativeTitle": "The spring housing market is on, but mortgage rates just shot higher. Here's what to know.",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The spring housing market is on, but mortgage rates just shot higher. Here's what to know.",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/03/20/spring-housing-market-mortgage-rates.html",
-              "pubDate": "2026-03-20T19:03:56.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "the-spring-housing-market-is-on-but-mortgage-rates-just-shot-higher-heres-what-to-know"
-        },
-        {
-          "representativeTitle": "David Zaslav’s WBD-Paramount deal payout highlights new 'golden parachutes' for CEOs",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "David Zaslav’s WBD-Paramount deal payout highlights new 'golden parachutes' for CEOs",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/03/20/wbd-david-zaslav-pay-paramount.html",
-              "pubDate": "2026-03-20T19:00:48.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "david-zaslavs-wbd-paramount-deal-payout-highlights-new-golden-parachutes-for-ceos"
         },
         {
           "representativeTitle": "Iran fires missiles at UK’s Diego Garcia base",
@@ -1227,26 +1107,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 60,
           "slug": "canadas-oil-producers-in-line-for-c90bn-windfall-from-iran-war"
-        },
-        {
-          "representativeTitle": "Airline industry hit by biggest crisis since pandemic",
-          "sources": [
-            "Financial Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Airline industry hit by biggest crisis since pandemic",
-              "source": "Financial Times",
-              "link": "https://www.ft.com/content/797851d2-ce7e-4ea4-a5bb-de2c6fcc7a06",
-              "pubDate": "2026-03-20T18:22:50.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "airline-industry-hit-by-biggest-crisis-since-pandemic"
         },
         {
           "representativeTitle": "EU member states urged to lower gas storage targets due to Iran war",
@@ -1522,26 +1382,6 @@ export const newsData = {
           "slug": "amid-legal-turmoil-kalshi-is-temporarily-banned-in-nevada"
         },
         {
-          "representativeTitle": "Pinterest CEO calls on governments to ban social media for users under 16",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Pinterest CEO calls on governments to ban social media for users under 16",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/03/20/pinterest-ceo-calls-on-governments-to-ban-social-media-for-users-under-16/",
-              "pubDate": "2026-03-20T19:01:54.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "pinterest-ceo-calls-on-governments-to-ban-social-media-for-users-under-16"
-        },
-        {
           "representativeTitle": "The gen AI Kool-Aid tastes like eugenics",
           "sources": [
             "The Verge"
@@ -1767,11 +1607,12 @@ export const newsData = {
           "slug": "iranian-strikes-on-bases-used-by-us-caused-800m-in-damage-new-analysis-shows"
         },
         {
-          "representativeTitle": "Thousands evacuated as Hawaii faces worst flooding in 20 years",
+          "representativeTitle": "Flash flooding swamps Hawaii, prompting evacuation orders for 5,500 people",
           "sources": [
-            "BBC World"
+            "BBC World",
+            "Al Jazeera"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Thousands evacuated as Hawaii faces worst flooding in 20 years",
@@ -1779,12 +1620,19 @@ export const newsData = {
               "link": "https://www.bbc.com/news/articles/c20qj970gwro?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-03-21T16:09:50.000Z",
               "tier": 1
+            },
+            {
+              "title": "Flash flooding swamps Hawaii, prompting evacuation orders for 5,500 people",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/21/flash-flooding-swamps-hawaii-prompting-evacuation-orders-for-5500-people?traffic_source=rss",
+              "pubDate": "2026-03-21T18:01:23.000Z",
+              "tier": 1
             }
           ],
           "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "thousands-evacuated-as-hawaii-faces-worst-flooding-in-20-years"
+          "relevance_score": 6,
+          "importance": 60,
+          "slug": "flash-flooding-swamps-hawaii-prompting-evacuation-orders-for-5500-people"
         },
         {
           "representativeTitle": "Pentagon restrictions on press violate First Amendment, judge rules",
@@ -2223,6 +2071,26 @@ export const newsData = {
           "slug": "home-office-investigates-firm-linked-to-religious-sect-over-immigration-visas"
         },
         {
+          "representativeTitle": "Middle East crisis live: Trump says US considering ‘winding down’ war; Iran fired missiles at UK-US base on Diego Garcia",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Middle East crisis live: Trump says US considering ‘winding down’ war; Iran fired missiles at UK-US base on Diego Garcia",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/mar/21/middle-east-crisis-live-iran-war-trump-eases-oil-sanctions-israel-strikes",
+              "pubDate": "2026-03-21T18:30:17.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "middle-east-crisis-live-trump-says-us-considering-winding-down-war-iran-fired-missiles-at-uk-us-base-on-diego-garcia"
+        },
+        {
           "representativeTitle": "MoD condemns Iran missile strikes towards UK-US base as Britain ‘dragged’ into war",
           "sources": [
             "The Guardian"
@@ -2241,26 +2109,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 60,
           "slug": "mod-condemns-iran-missile-strikes-towards-uk-us-base-as-britain-dragged-into-war"
-        },
-        {
-          "representativeTitle": "Middle East crisis live: Trump says US considering ‘winding down’ war; Iran fired missiles at UK-US base on Diego Garcia",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Middle East crisis live: Trump says US considering ‘winding down’ war; Iran fired missiles at UK-US base on Diego Garcia",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/live/2026/mar/21/middle-east-crisis-live-iran-war-trump-eases-oil-sanctions-israel-strikes",
-              "pubDate": "2026-03-21T17:38:20.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "middle-east-crisis-live-trump-says-us-considering-winding-down-war-iran-fired-missiles-at-uk-us-base-on-diego-garcia"
         },
         {
           "representativeTitle": "5m tonnes of CO2 emitted in just 14 days of US war on Iran, analysis finds",
@@ -2391,7 +2239,7 @@ export const newsData = {
           "slug": "uk-government-yet-to-trial-openai-tech-months-after-signing-partnership"
         },
         {
-          "representativeTitle": "Former FBI chief, Robert Mueller, dead at 81",
+          "representativeTitle": "Trump threatens to send ICE to airports on Monday amid DHS funding standoff",
           "sources": [
             "The Guardian",
             "Al Jazeera"
@@ -2399,24 +2247,24 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Robert Mueller, special counsel who investigated Trump-Russia ties, dies at 81",
+              "title": "Trump threatens to send ICE to airports on Monday amid DHS funding standoff",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/mar/21/robert-mueller-special-counsel-trump-russia-dies",
-              "pubDate": "2026-03-21T17:35:23.000Z",
+              "link": "https://www.theguardian.com/us-news/2026/mar/21/trump-threatens-to-send-ice-agents-to-airports-unless-dhs-deal-reached",
+              "pubDate": "2026-03-21T18:11:06.000Z",
               "tier": 1
             },
             {
-              "title": "Former FBI chief, Robert Mueller, dead at 81",
+              "title": "Trump threatens to deploy ICE to airports amid Homeland Security shutdown",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/21/former-fbi-chief-robert-mueller-dead-at-81?traffic_source=rss",
-              "pubDate": "2026-03-21T17:42:27.000Z",
+              "link": "https://www.aljazeera.com/news/2026/3/21/trump-threatens-to-deploy-ice-to-airports-amid-homeland-security-shutdown?traffic_source=rss",
+              "pubDate": "2026-03-21T16:57:54.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "former-fbi-chief-robert-mueller-dead-at-81"
+          "relevance_score": 7,
+          "importance": 65,
+          "slug": "trump-threatens-to-send-ice-to-airports-on-monday-amid-dhs-funding-standoff"
         },
         {
           "representativeTitle": "Republican says he lied about racist posts on porn site to protect Trump",
@@ -2459,24 +2307,64 @@ export const newsData = {
           "slug": "us-man-pleads-guilty-to-defrauding-music-streamers-out-of-millions-using-ai"
         },
         {
-          "representativeTitle": "Trump threatens to deploy ICE to airports amid Homeland Security shutdown",
+          "representativeTitle": "Justin Timberlake’s DWI arrest video is released despite his attempt to block it",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Justin Timberlake’s DWI arrest video is released despite his attempt to block it",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/culture/2026/mar/21/justin-timberlake-dwi-arrest-video-released",
+              "pubDate": "2026-03-21T15:12:09.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 3,
+          "importance": 30,
+          "slug": "justin-timberlakes-dwi-arrest-video-is-released-despite-his-attempt-to-block-it"
+        },
+        {
+          "representativeTitle": "Eid without toys: Israeli restrictions drive up prices in Gaza",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump threatens to deploy ICE to airports amid Homeland Security shutdown",
+              "title": "Eid without toys: Israeli restrictions drive up prices in Gaza",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/21/trump-threatens-to-deploy-ice-to-airports-amid-homeland-security-shutdown?traffic_source=rss",
-              "pubDate": "2026-03-21T16:57:54.000Z",
+              "link": "https://www.aljazeera.com/features/2026/3/21/eid-without-toys-israeli-restrictions-drive-up-prices-in-gaza?traffic_source=rss",
+              "pubDate": "2026-03-21T18:03:20.000Z",
               "tier": 1
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "trump-threatens-to-deploy-ice-to-airports-amid-homeland-security-shutdown"
+          "slug": "eid-without-toys-israeli-restrictions-drive-up-prices-in-gaza"
+        },
+        {
+          "representativeTitle": "Former FBI chief, Robert Mueller, dead at 81",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Former FBI chief, Robert Mueller, dead at 81",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/21/former-fbi-chief-robert-mueller-dead-at-81?traffic_source=rss",
+              "pubDate": "2026-03-21T17:42:27.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "former-fbi-chief-robert-mueller-dead-at-81"
         },
         {
           "representativeTitle": "Tehran holds Eid prayers as funeral held for IRGC spokesman",
@@ -2837,46 +2725,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "aid-flotilla-for-cuba-sets-sail-from-mexico"
-        },
-        {
-          "representativeTitle": "Al Jazeera reporter’s journey from Jordan to Iraq",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Al Jazeera reporter’s journey from Jordan to Iraq",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/21/al-jazeera-reporters-journey-from-jordan-to-iraq?traffic_source=rss",
-              "pubDate": "2026-03-21T01:02:53.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 3,
-          "importance": 30,
-          "slug": "al-jazeera-reporters-journey-from-jordan-to-iraq"
-        },
-        {
-          "representativeTitle": "Iran war live: US-Israel attack Natanz nuclear site; Diego Garcia targeted",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran war live: US-Israel attack Natanz nuclear site; Diego Garcia targeted",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/liveblog/2026/3/21/iran-war-live-trump-says-other-nations-have-to-protect-hormuz-from-iran?traffic_source=rss",
-              "pubDate": "2026-03-21T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "iran-war-live-us-israel-attack-natanz-nuclear-site-diego-garcia-targeted"
         }
       ]
     },
@@ -3042,6 +2890,26 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 50,
           "slug": "men-are-losing-a-key-chromosome-with-age-and-it-may-be-deadly"
+        },
+        {
+          "representativeTitle": "Musk's Twitter takeover highlights danger of owner-dominated social media platforms",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Musk's Twitter takeover highlights danger of owner-dominated social media platforms",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-musk-twitter-takeover-highlights-danger.html",
+              "pubDate": "2026-03-21T18:30:01.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "musks-twitter-takeover-highlights-danger-of-owner-dominated-social-media-platforms"
         },
         {
           "representativeTitle": "Dishwashing with side effects: Kitchen sponges release microplastics",
@@ -3264,26 +3132,6 @@ export const newsData = {
           "slug": "kimchi-derived-probiotic-found-to-promote-binding-and-excretion-of-intestinal-nanoplastics"
         },
         {
-          "representativeTitle": "Physicists find electronic agents that govern flat band quantum materials",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Physicists find electronic agents that govern flat band quantum materials",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-physicists-electronic-agents-flat-band.html",
-              "pubDate": "2026-03-21T11:20:05.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "physicists-find-electronic-agents-that-govern-flat-band-quantum-materials"
-        },
-        {
           "representativeTitle": "Satellite radar shows Alaska glaciers melt three extra weeks for each 1°C of summer warming",
           "sources": [
             "Phys.org"
@@ -3342,46 +3190,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "addressing-the-achilles-heel-of-marine-protected-areas"
-        },
-        {
-          "representativeTitle": "Sweden's 'old‑growth' natural forests store 83% more carbon than managed woodlands—new study",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Sweden's 'old‑growth' natural forests store 83% more carbon than managed woodlands—new study",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-sweden-oldgrowth-natural-forests-carbon.html",
-              "pubDate": "2026-03-21T00:30:03.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "swedens-oldgrowth-natural-forests-store-83-more-carbon-than-managed-woodlandsnew-study"
-        },
-        {
-          "representativeTitle": "The Guardian view on meningitis in Kent: we must not take public health systems for granted | Editorial",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The Guardian view on meningitis in Kent: we must not take public health systems for granted | Editorial",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/commentisfree/2026/mar/20/the-guardian-view-on-meningitis-in-kent-we-must-not-take-public-health-systems-for-granted",
-              "pubDate": "2026-03-20T18:30:30.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "the-guardian-view-on-meningitis-in-kent-we-must-not-take-public-health-systems-for-granted-editorial"
         },
         {
           "representativeTitle": "‘I’ve seen the devil’: Brazil’s UFO capital marks 30 years since ‘alien encounter’",
