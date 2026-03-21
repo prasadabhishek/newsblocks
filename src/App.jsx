@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import NewsTreemap from './components/NewsTreemap';
-import NewsMobileList from './components/NewsMobileList';
+import MobileSwipeableTreemap from './components/MobileSwipeableTreemap';
 import { newsData } from './data';
 
 import { Github, Linkedin } from 'lucide-react';
@@ -142,9 +142,11 @@ function App() {
 
       <main className="flex-1 overflow-hidden flex items-center justify-center relative">
         {isMobile ? (
-          <div className="w-full h-full bg-slate-950/50 rounded-lg overflow-hidden border border-slate-800/50 shadow-2xl">
-            <NewsMobileList
+          <div className="w-full h-full bg-transparent overflow-hidden">
+            <MobileSwipeableTreemap
               data={newsData}
+              width={dimensions.width}
+              height={dimensions.height}
               selectedStory={selectedStory}
               onStorySelect={handleStorySelect}
             />
