@@ -129,7 +129,7 @@ async function gatherNews() {
         name,
         rawArticles: categoryMap[name]
     })).sort((a, b) => {
-        const order = ['Politics', 'Stocks', 'Finance', 'Technology', 'World', 'Science'];
+        const order = ['World', 'Politics', 'Finance', 'Technology', 'Science', 'Stocks'];
         return order.indexOf(a.name) - order.indexOf(b.name);
     });
 
