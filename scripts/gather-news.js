@@ -47,7 +47,14 @@ const PREMIUM_FEEDS = [
     { name: 'Science', url: 'https://www.sciencedaily.com/rss/all.xml', publisher: 'Science Daily', tier: 2 },
     { name: 'Science', url: 'https://www.nature.com/nature.rss', publisher: 'Nature', tier: 1 },
     { name: 'Science', url: 'https://phys.org/rss-feed/', publisher: 'Phys.org', tier: 2 },
-    { name: 'Science', url: 'https://www.theguardian.com/science/rss', publisher: 'The Guardian', tier: 1 }
+    { name: 'Science', url: 'https://www.theguardian.com/science/rss', publisher: 'The Guardian', tier: 1 },
+
+    // GOOGLE NEWS AGGREGATION (MASSIVE SOURCE INJECTION)
+    { name: 'Politics', url: 'https://news.google.com/rss/headlines/section/topic/NATION', publisher: 'Various', tier: 2 },
+    { name: 'Stocks', url: 'https://news.google.com/rss/headlines/section/topic/BUSINESS', publisher: 'Various', tier: 2 },
+    { name: 'Technology', url: 'https://news.google.com/rss/headlines/section/topic/TECHNOLOGY', publisher: 'Various', tier: 2 },
+    { name: 'World', url: 'https://news.google.com/rss/headlines/section/topic/WORLD', publisher: 'Various', tier: 2 },
+    { name: 'Science', url: 'https://news.google.com/rss/headlines/section/topic/SCIENCE', publisher: 'Various', tier: 2 }
 ];
 
 async function gatherNews() {
