@@ -211,10 +211,6 @@ function App() {
             <Github size={14} />
             <span>GitHub</span>
           </a>
-          <a href="https://www.linkedin.com/in/abhishekaprasad/" target="_blank" rel="noopener noreferrer" className="social-link">
-            <Linkedin size={14} />
-            <span>LinkedIn</span>
-          </a>
         </div>
       </footer>
     </div>
