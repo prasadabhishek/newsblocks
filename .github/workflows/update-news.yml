@@ -7,9 +7,9 @@ on:
     paths-ignore:
       - 'src/data.js'
       - 'public/sitemap.xml'
-  schedule:
-    # Runs every hour
-    - cron: '0 * * * *'
+  # schedule:
+  #   # Runs every hour
+  #   - cron: '0 * * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
