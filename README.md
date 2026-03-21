@@ -11,7 +11,7 @@ NewsBlocks is a simple, visual way to see global news. It gathers headlines from
 
 The app runs on an automated pipeline that updates every 8 hours:
 
-1.  **Gather:** Scrapes RSS feeds from trusted sources (BBC, Reuters, Al Jazeera, etc.).
+1.  **Gather:** Scrapes massive RSS feeds from trusted elite sources (BBC, Reuters, FT) and Google Topic Aggregation for maximum data density.
 2.  **Filter:** Removes non-news content like podcasts, editorial guides, and pricing alerts.
 3.  **Group:** Uses AI embeddings to cluster similar headlines into a single "story."
 4.  **Score:** Gemini AI analyzes each story for sentiment (positive/negative) and relevance.
@@ -61,8 +61,9 @@ GEMINI_API_KEY=your_key_here
 - **Tests:** `npm run test` (Run the unit tests)
 
 ## Built With
-- **Frontend:** React + D3.js
-- **AI:** Google Gemini (Sentiment & Relevance)
+- **Frontend:** React + D3.js (Responsive Treemap & Swipeable Mobile UI)
+- **AI:** Google Gemini (Sentiment & Relevance Rankings)
+- **Aggregator:** Massive Source Density (Google News, Reuters, BBC, TechCrunch)
 - **Persistence:** Local JSON caching (improves speed and saves API costs)
 - **Hosting:** Cloudflare Pages + GitHub Actions
 
