@@ -53,9 +53,22 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
 
         if (filteredData.children.length === 0) return null;
 
+        const PREFERRED_ORDER = ["World", "Politics", "Finance", "Technology", "Science", "Stocks"];
+
         return d3.hierarchy(filteredData)
             .sum(d => d.citationCount || 1)
-            .sort((a, b) => (b.value || 0) - (a.value || 0));
+            .sort((a, b) => {
+                // If comparing categories, force our preferred reading order
+                if (a.depth === 1 && b.depth === 1) {
+                    const idxA = PREFERRED_ORDER.indexOf(a.data.name);
+                    const idxB = PREFERRED_ORDER.indexOf(b.data.name);
+                    if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+                    if (idxA !== -1) return -1;
+                    if (idxB !== -1) return 1;
+                }
+                // Default: Heavy clusters sort first for squarify layout
+                return (b.value || 0) - (a.value || 0);
+            });
     }, [data]);
 
     useEffect(() => {
