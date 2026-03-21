@@ -131,6 +131,22 @@ async function gatherNews() {
 
     newsTree.lastUpdated = now.toISOString();
 
+    // --- Cache Garbage Collection ---
+    const activeRawArticles = [];
+    categoriesArray.forEach(cat => {
+        if (cat.rawArticles) activeRawArticles.push(...cat.rawArticles);
+    });
+
+    const activeClusters = [];
+    if (newsTree.children) {
+        newsTree.children.forEach(cat => {
+            if (cat.children) activeClusters.push(...cat.children);
+        });
+    }
+
+    Cache.prune(activeRawArticles, activeClusters);
+    // --------------------------------
+
     // 1. apply manual overrides
     applyOverrides(newsTree);
 
