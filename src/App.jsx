@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import NewsTreemap from './components/NewsTreemap';
+import NewsMobileList from './components/NewsMobileList';
 import { newsData } from './data';
 
 import { Github, Linkedin } from 'lucide-react';
@@ -10,15 +11,18 @@ function App() {
     height: typeof window !== 'undefined' ? window.innerHeight - 100 : 700
   });
 
+  const [isMobile, setIsMobile] = useState(typeof window !== 'undefined' ? window.innerWidth < 768 : false);
+
   // State for the currently selected story (from URL or click)
   const [selectedStory, setSelectedStory] = useState(null);
 
   useEffect(() => {
     function handleResize() {
-      const isMobile = window.innerWidth < 768;
+      const mobileCheck = window.innerWidth < 768;
+      setIsMobile(mobileCheck);
       setDimensions({
-        width: window.innerWidth - (isMobile ? 32 : 40),
-        height: window.innerHeight - (isMobile ? 120 : 100)
+        width: window.innerWidth - (mobileCheck ? 32 : 40),
+        height: window.innerHeight - (mobileCheck ? 120 : 100)
       });
     }
 
@@ -136,14 +140,24 @@ function App() {
         </div>
       </header>
 
-      <main className="flex-1 overflow-hidden flex items-center justify-center">
-        <NewsTreemap
-          data={newsData}
-          width={dimensions.width}
-          height={dimensions.height}
-          selectedStory={selectedStory}
-          onStorySelect={handleStorySelect}
-        />
+      <main className="flex-1 overflow-hidden flex items-center justify-center relative">
+        {isMobile ? (
+          <div className="w-full h-full bg-slate-950/50 rounded-lg overflow-hidden border border-slate-800/50 shadow-2xl">
+            <NewsMobileList
+              data={newsData}
+              selectedStory={selectedStory}
+              onStorySelect={handleStorySelect}
+            />
+          </div>
+        ) : (
+          <NewsTreemap
+            data={newsData}
+            width={dimensions.width}
+            height={dimensions.height}
+            selectedStory={selectedStory}
+            onStorySelect={handleStorySelect}
+          />
+        )}
       </main>
 
       <footer className="footer-container">
