@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-21T17:48:34.138Z",
+  "lastUpdated": "2026-03-21T18:05:03.167Z",
   "children": [
     {
       "name": "Politics",
@@ -287,26 +287,6 @@ export const newsData = {
           "slug": "party-politics-drive-partial-government-shutdown-opinion-letters"
         },
         {
-          "representativeTitle": "In Trump’s Administration, Military Housing Is Becoming a Hot Commodity",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "In Trump’s Administration, Military Housing Is Becoming a Hot Commodity",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQlhURDUySURIWWlkcFRPcGdYM093cmhfZjBqWFQwOWNUYWM5NzNHdy16bTNBaXlsRFlRUnJVeHlxMEx5OFpPOTZsZUJXYlRUVVVxWGphU0l5b0k0ZHNnNDQ3N1ZfYUFOM1d6YVd1OUE3MU9aV2UzTW41b1ZVQmVuenI0bVBvWkk?oc=5",
-              "pubDate": "2026-03-21T17:12:55.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "in-trumps-administration-military-housing-is-becoming-a-hot-commodity"
-        },
-        {
           "representativeTitle": "Pentagon policy limiting independent press access is unlawful, judge rules",
           "sources": [
             "Spectrum News",
@@ -363,26 +343,6 @@ export const newsData = {
           "slug": "big-money-flows-into-state-attorney-general-races-as-legal-battles-shape-american-politics"
         },
         {
-          "representativeTitle": "250+ years of American civics and news",
-          "sources": [
-            "South Dakota News Watch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "250+ years of American civics and news",
-              "source": "South Dakota News Watch",
-              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSUs4RlJvc3oyV0NRTFJXb0VvOEg5dTR2MmlCdU1UcjhWODdQNnNaUnYxUXhOZGstY2EwNTFRaDdjdlMxTTBqdkIwUDRBQVk5cFJUNk9YLVNRMzhxZ0VEbXJrOWRPMGw4X1hYTnZjLXV1cWQwSWFrbjA2bWd2UlB2MXp5aw?oc=5",
-              "pubDate": "2026-03-20T19:40:03.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "250-years-of-american-civics-and-news"
-        },
-        {
           "representativeTitle": "US government sues Harvard over anti-Israel protests, ‘hostile environment’",
           "sources": [
             "South China Morning Post"
@@ -401,6 +361,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "us-government-sues-harvard-over-anti-israel-protests-hostile-environment"
+        },
+        {
+          "representativeTitle": "250+ years of American civics and news",
+          "sources": [
+            "South Dakota News Watch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "250+ years of American civics and news",
+              "source": "South Dakota News Watch",
+              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSUs4RlJvc3oyV0NRTFJXb0VvOEg5dTR2MmlCdU1UcjhWODdQNnNaUnYxUXhOZGstY2EwNTFRaDdjdlMxTTBqdkIwUDRBQVk5cFJUNk9YLVNRMzhxZ0VEbXJrOWRPMGw4X1hYTnZjLXV1cWQwSWFrbjA2bWd2UlB2MXp5aw?oc=5",
+              "pubDate": "2026-03-20T19:40:03.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "250-years-of-american-civics-and-news"
         },
         {
           "representativeTitle": "TSA officers are quitting rather than working without pay during shutdown",
@@ -443,6 +423,26 @@ export const newsData = {
           "slug": "watch-trump-says-we-dont-need-strait-of-hormuz-after-allies-wont-help-us-escort-ships"
         },
         {
+          "representativeTitle": "In Trump’s Administration, Military Housing Is Becoming a Hot Commodity",
+          "sources": [
+            "The New York Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "In Trump’s Administration, Military Housing Is Becoming a Hot Commodity",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQlhURDUySURIWWlkcFRPcGdYM093cmhfZjBqWFQwOWNUYWM5NzNHdy16bTNBaXlsRFlRUnJVeHlxMEx5OFpPOTZsZUJXYlRUVVVxWGphU0l5b0k0ZHNnNDQ3N1ZfYUFOM1d6YVd1OUE3MU9aV2UzTW41b1ZVQmVuenI0bVBvWkk?oc=5",
+              "pubDate": "2026-03-21T17:12:55.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "in-trumps-administration-military-housing-is-becoming-a-hot-commodity"
+        },
+        {
           "representativeTitle": "How rising electric rates could affect the 2026 midterms",
           "sources": [
             "Brookings"
@@ -463,26 +463,6 @@ export const newsData = {
           "slug": "how-rising-electric-rates-could-affect-the-2026-midterms"
         },
         {
-          "representativeTitle": "Opinion | How politicians are failing our political culture",
-          "sources": [
-            "Star Tribune"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Opinion | How politicians are failing our political culture",
-              "source": "Star Tribune",
-              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYkpwMGNOMmNWX292NjVjRXFWS0twbkhHVHZwYktrNzVaYV9wbl9qamliZWxnVGlWQ0JWNkVFZ3lCQURsNW5CWFhWaUR1MHp5amlsZDBKNy1EQ2UwVHNGeFRGa1hUTDJsUzEzVE14YjJKRHJWZ3VGVEdRSGlOVzRaSmQ0V2pTSVlF?oc=5",
-              "pubDate": "2026-03-20T18:33:09.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "opinion-how-politicians-are-failing-our-political-culture"
-        },
-        {
           "representativeTitle": "4 takeaways on the economic consequences of the Iran war",
           "sources": [
             "The Journalist's Resource"
@@ -501,6 +481,26 @@ export const newsData = {
           "relevance_score": 10,
           "importance": 55,
           "slug": "4-takeaways-on-the-economic-consequences-of-the-iran-war"
+        },
+        {
+          "representativeTitle": "Opinion | How politicians are failing our political culture",
+          "sources": [
+            "Star Tribune"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Opinion | How politicians are failing our political culture",
+              "source": "Star Tribune",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYkpwMGNOMmNWX292NjVjRXFWS0twbkhHVHZwYktrNzVaYV9wbl9qamliZWxnVGlWQ0JWNkVFZ3lCQURsNW5CWFhWaUR1MHp5amlsZDBKNy1EQ2UwVHNGeFRGa1hUTDJsUzEzVE14YjJKRHJWZ3VGVEdRSGlOVzRaSmQ0V2pTSVlF?oc=5",
+              "pubDate": "2026-03-20T18:33:09.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "opinion-how-politicians-are-failing-our-political-culture"
         },
         {
           "representativeTitle": "A shameful double standard on religious freedom",
@@ -583,6 +583,26 @@ export const newsData = {
           "slug": "why-the-trump-administration-is-easing-sanctions-on-certain-iranian-oil-stockpiles"
         },
         {
+          "representativeTitle": "Trump says he will send ICE agents to airports if TSA funding stalls",
+          "sources": [
+            "USA Today"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump says he will send ICE agents to airports if TSA funding stalls",
+              "source": "USA Today",
+              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQa3YxcFczS3lUbktpLUxBSEQ2Z3Jjd096dGFYVHVpU01qaDgyVEpEYlFMRFM4dGtqX05CQ1R0S0FLdTdMT3VOdm1HUGEweUV5NXlhb1RlaTl3cFdXVi1WWDJsWmVydU9rdF84bmhGdFBrZ1I2N0VNU1R5RExKSzN6ZG9FQkRTVUk0bWV6MEc0VmVfR3pnVk5LSi1fMVlvZVU?oc=5",
+              "pubDate": "2026-03-21T18:00:58.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "trump-says-he-will-send-ice-agents-to-airports-if-tsa-funding-stalls"
+        },
+        {
           "representativeTitle": "Oklahoma Voice: Markwayne Mullin’s nomination to lead Homeland Security advances to US Senate floor",
           "sources": [
             "Duncan Banner"
@@ -641,26 +661,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "judge-rules-us-government-overreached-with-transgender-health-care-declaration"
-        },
-        {
-          "representativeTitle": "U.S. Prosecutors Are Investigating Colombia President Gustavo Petro",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "U.S. Prosecutors Are Investigating Colombia President Gustavo Petro",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWkNFdE9EUEI0Sm5ueXNxUVRYTFN2MHhJV3VGajg2NzVaTWxoYWVRa0lKLUZhbV94eEFtTHltV2VCU0IwTVVIY3E4YnNTamhLdXBWN3dZcUFLVHYtWnJKbVZ2SGVha0dFa2pWNGFlZWlaWEdXU2c5dFVibUpVdWlYMEpLbU9PX1YtUlF0UkdDY3l0dGtmN0xObg?oc=5",
-              "pubDate": "2026-03-20T22:22:34.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "us-prosecutors-are-investigating-colombia-president-gustavo-petro"
         }
       ]
     },
@@ -748,34 +748,6 @@ export const newsData = {
           "slug": "nadella-paid-650m-to-recruit-his-ai-chief-after-2-years-hes-quietly-pushing-him-aside-these-brutal-numbers-are-why"
         },
         {
-          "representativeTitle": "Delve accused of misleading customers with ‘fake compliance’",
-          "sources": [
-            "Yahoo Finance",
-            "TechCrunch"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Delve accused of misleading customers with ‘fake compliance’",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/sectors/technology/articles/delve-accused-misleading-customers-fake-170005937.html",
-              "pubDate": "2026-03-21T17:00:05.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Delve accused of misleading customers with ‘fake compliance’",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/03/21/delve-accused-of-misleading-customers-with-fake-compliance/",
-              "pubDate": "2026-03-21T17:00:05.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "delve-accused-of-misleading-customers-with-fake-compliance"
-        },
-        {
           "representativeTitle": "Jim Cramer on Booking Holdings: “It’s Glenn Fogel, and He’s Going to Snap Right Back Here”",
           "sources": [
             "Yahoo Finance"
@@ -816,24 +788,52 @@ export const newsData = {
           "slug": "jim-cramer-on-reddit-i-think-its-an-incredibly-valuable-property"
         },
         {
-          "representativeTitle": "3 Ways the Strait of Hormuz Could Affect Coca-Cola (KO) In 2026",
+          "representativeTitle": "Delve accused of misleading customers with ‘fake compliance’",
           "sources": [
-            "Yahoo Finance"
+            "Yahoo Finance",
+            "TechCrunch"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Delve accused of misleading customers with ‘fake compliance’",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/sectors/technology/articles/delve-accused-misleading-customers-fake-170005937.html",
+              "pubDate": "2026-03-21T17:00:05.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Delve accused of misleading customers with ‘fake compliance’",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/03/21/delve-accused-of-misleading-customers-with-fake-compliance/",
+              "pubDate": "2026-03-21T17:00:05.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "delve-accused-of-misleading-customers-with-fake-compliance"
+        },
+        {
+          "representativeTitle": "Betting scandals leave pro sports just one way to save the $165 billion gaming market",
+          "sources": [
+            "MarketWatch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "3 Ways the Strait of Hormuz Could Affect Coca-Cola (KO) In 2026",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/markets/stocks/articles/3-ways-strait-hormuz-could-164127268.html",
-              "pubDate": "2026-03-21T16:41:27.000Z",
+              "title": "Betting scandals leave pro sports just one way to save the $165 billion gaming market",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/wave-of-sports-betting-scandals-proves-the-need-for-an-independent-watchdog-to-protect-a-165-billion-market-08b15d7d?mod=mw_rss_topstories",
+              "pubDate": "2026-03-21T17:59:00.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "3-ways-the-strait-of-hormuz-could-affect-coca-cola-ko-in-2026"
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "betting-scandals-leave-pro-sports-just-one-way-to-save-the-165-billion-gaming-market"
         },
         {
           "representativeTitle": "Financial advisers used to say no to bitcoin. Now they’re saying maybe — but with a catch.",
@@ -934,26 +934,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 50,
           "slug": "3-signals-will-reveal-if-the-iran-oil-shock-is-just-a-blip-or-the-new-normal"
-        },
-        {
-          "representativeTitle": "‘It’s out of date to think about a retirement age.’ More Americans want to work into their 70s. Smart companies will find ways to work with them.",
-          "sources": [
-            "MarketWatch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘It’s out of date to think about a retirement age.’ More Americans want to work into their 70s. Smart companies will find ways to work with them.",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/more-americans-want-to-work-into-their-70s-smart-companies-will-work-with-them-115a9354?mod=mw_rss_topstories",
-              "pubDate": "2026-03-21T15:07:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "its-out-of-date-to-think-about-a-retirement-age-more-americans-want-to-work-into-their-70s-smart-companies-will-find-ways-to-work-with-them"
         }
       ]
     },
@@ -1983,46 +1963,6 @@ export const newsData = {
           "slug": "bts-is-everything-for-us-k-pop-fans-gather-in-seoul-for-comeback-show"
         },
         {
-          "representativeTitle": "Canadian mother and daughter ‘traumatized’ by ICE detainment, husband says",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Canadian mother and daughter ‘traumatized’ by ICE detainment, husband says",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/mar/20/canadian-mother-daughter-ice-detention",
-              "pubDate": "2026-03-20T18:04:51.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "canadian-mother-and-daughter-traumatized-by-ice-detainment-husband-says"
-        },
-        {
-          "representativeTitle": "Gabbard testimony on Puerto Rico voting machines raises questions about role of Venezuela conspiracy theory",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Gabbard testimony on Puerto Rico voting machines raises questions about role of Venezuela conspiracy theory",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/mar/20/puerto-rico-voting-machines-trump-2020-election-loss-venezuela",
-              "pubDate": "2026-03-20T17:50:56.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "gabbard-testimony-on-puerto-rico-voting-machines-raises-questions-about-role-of-venezuela-conspiracy-theory"
-        },
-        {
           "representativeTitle": "SA state election 2026: Peter Malinauskas makes passionate call for unity after thumping South Australia win marked by One Nation advance",
           "sources": [
             "The Guardian"
@@ -2203,6 +2143,26 @@ export const newsData = {
           "slug": "home-office-investigates-firm-linked-to-religious-sect-over-immigration-visas"
         },
         {
+          "representativeTitle": "MoD condemns Iran missile strikes towards UK-US base as Britain ‘dragged’ into war",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "MoD condemns Iran missile strikes towards UK-US base as Britain ‘dragged’ into war",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/mar/21/iran-reportedly-fires-missiles-towards-uk-us-base-on-diego-garcia",
+              "pubDate": "2026-03-21T17:44:08.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "mod-condemns-iran-missile-strikes-towards-uk-us-base-as-britain-dragged-into-war"
+        },
+        {
           "representativeTitle": "Middle East crisis live: Trump says US considering ‘winding down’ war; Iran fired missiles at UK-US base on Diego Garcia",
           "sources": [
             "The Guardian"
@@ -2223,34 +2183,14 @@ export const newsData = {
           "slug": "middle-east-crisis-live-trump-says-us-considering-winding-down-war-iran-fired-missiles-at-uk-us-base-on-diego-garcia"
         },
         {
-          "representativeTitle": "MoD condemns Iran missile strikes towards UK-US base as Britain ‘dragged’ into war",
+          "representativeTitle": "5m tonnes of CO2 emitted in just 14 days of US war on Iran, analysis finds",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "MoD condemns Iran missile strikes towards UK-US base as Britain ‘dragged’ into war",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/21/iran-reportedly-fires-missiles-towards-uk-us-base-on-diego-garcia",
-              "pubDate": "2026-03-21T14:53:31.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "mod-condemns-iran-missile-strikes-towards-uk-us-base-as-britain-dragged-into-war"
-        },
-        {
-          "representativeTitle": "US and Israel’s war on Iran is a disaster for the environment, analysis shows",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US and Israel’s war on Iran is a disaster for the environment, analysis shows",
+              "title": "5m tonnes of CO2 emitted in just 14 days of US war on Iran, analysis finds",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/2026/mar/21/middle-east-iran-conflict-environment-climate",
               "pubDate": "2026-03-21T12:00:51.000Z",
@@ -2260,7 +2200,7 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 10,
           "importance": 65,
-          "slug": "us-and-israels-war-on-iran-is-a-disaster-for-the-environment-analysis-shows"
+          "slug": "5m-tonnes-of-co2-emitted-in-just-14-days-of-us-war-on-iran-analysis-finds"
         },
         {
           "representativeTitle": "Trump hints at wind down of war as US prepares to send more troops to Gulf",
@@ -2389,6 +2329,46 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "robert-mueller-special-counsel-who-investigated-trump-russia-ties-dies-at-81"
+        },
+        {
+          "representativeTitle": "Republican says he lied about racist posts on porn site to protect Trump",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Republican says he lied about racist posts on porn site to protect Trump",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/mar/21/republican-mark-robinson-north-carolina",
+              "pubDate": "2026-03-21T17:05:59.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "republican-says-he-lied-about-racist-posts-on-porn-site-to-protect-trump"
+        },
+        {
+          "representativeTitle": "US man pleads guilty to defrauding music streamers out of millions using AI",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US man pleads guilty to defrauding music streamers out of millions using AI",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/mar/21/man-pleads-guilty-music-streaming-fraud-ai",
+              "pubDate": "2026-03-21T15:14:59.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "us-man-pleads-guilty-to-defrauding-music-streamers-out-of-millions-using-ai"
         },
         {
           "representativeTitle": "Trump threatens to deploy ICE to airports amid Homeland Security shutdown",
@@ -2896,6 +2876,26 @@ export const newsData = {
           "slug": "new-pill-cuts-bad-cholesterol-by-60-in-major-trial"
         },
         {
+          "representativeTitle": "Tectonic shift: Earth was already moving 3.5 billion years ago",
+          "sources": [
+            "Science Daily"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Tectonic shift: Earth was already moving 3.5 billion years ago",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/03/260321012636.htm",
+              "pubDate": "2026-03-21T07:37:27.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "tectonic-shift-earth-was-already-moving-35-billion-years-ago"
+        },
+        {
           "representativeTitle": "Scientists turn probiotic bacteria into tumor-hunting cancer killers",
           "sources": [
             "Science Daily"
@@ -2954,6 +2954,26 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 50,
           "slug": "men-are-losing-a-key-chromosome-with-age-and-it-may-be-deadly"
+        },
+        {
+          "representativeTitle": "Dishwashing with side effects: Kitchen sponges release microplastics",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Dishwashing with side effects: Kitchen sponges release microplastics",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-dishwashing-side-effects-kitchen-sponges.html",
+              "pubDate": "2026-03-21T18:00:03.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "dishwashing-with-side-effects-kitchen-sponges-release-microplastics"
         },
         {
           "representativeTitle": "Mussel-inspired glue from recycled plastics can be detached and reused",
@@ -3076,6 +3096,46 @@ export const newsData = {
           "slug": "expert-opinion-on-ai-automation-and-the-future-of-work"
         },
         {
+          "representativeTitle": "Critically endangered monkey gives birth after surgery saves her foot",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Critically endangered monkey gives birth after surgery saves her foot",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-critically-endangered-monkey-birth-surgery.html",
+              "pubDate": "2026-03-21T13:00:02.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.9,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "critically-endangered-monkey-gives-birth-after-surgery-saves-her-foot"
+        },
+        {
+          "representativeTitle": "Seattle tried to guarantee higher pay for delivery drivers. Here's why it didn't work as intended",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Seattle tried to guarantee higher pay for delivery drivers. Here's why it didn't work as intended",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-seattle-higher-pay-delivery-drivers.html",
+              "pubDate": "2026-03-21T12:30:03.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "seattle-tried-to-guarantee-higher-pay-for-delivery-drivers-heres-why-it-didnt-work-as-intended"
+        },
+        {
           "representativeTitle": "Saturday Citations: Merging brown dwarfs, ancient machine guns, gravitational wave detection",
           "sources": [
             "Phys.org"
@@ -3114,6 +3174,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "kimchi-derived-probiotic-found-to-promote-binding-and-excretion-of-intestinal-nanoplastics"
+        },
+        {
+          "representativeTitle": "Physicists find electronic agents that govern flat band quantum materials",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Physicists find electronic agents that govern flat band quantum materials",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-physicists-electronic-agents-flat-band.html",
+              "pubDate": "2026-03-21T11:20:05.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "physicists-find-electronic-agents-that-govern-flat-band-quantum-materials"
         },
         {
           "representativeTitle": "Satellite radar shows Alaska glaciers melt three extra weeks for each 1°C of summer warming",
@@ -3174,26 +3254,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "swedens-oldgrowth-natural-forests-store-83-more-carbon-than-managed-woodlandsnew-study"
-        },
-        {
-          "representativeTitle": "Synthesis of amino acids from carbon reaches 97% efficiency with cell-free system",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Synthesis of amino acids from carbon reaches 97% efficiency with cell-free system",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-synthesis-amino-acids-carbon-efficiency.html",
-              "pubDate": "2026-03-20T23:20:01.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "synthesis-of-amino-acids-from-carbon-reaches-97-efficiency-with-cell-free-system"
         },
         {
           "representativeTitle": "The Guardian view on meningitis in Kent: we must not take public health systems for granted | Editorial",
