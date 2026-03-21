@@ -48,5 +48,5 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add src/data.js public/sitemap.xml
           git commit -m "chore: auto-update news & sitemap [skip ci]" || echo "No changes to commit"
-          git pull --rebase origin main
+          git pull --rebase -X theirs origin main
           git push -u origin main
