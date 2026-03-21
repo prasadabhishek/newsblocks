@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-21T18:05:03.893Z",
+  "lastUpdated": "2026-03-21T18:08:19.089Z",
   "children": [
     {
       "name": "Politics",
@@ -287,7 +287,7 @@ export const newsData = {
           "slug": "party-politics-drive-partial-government-shutdown-opinion-letters"
         },
         {
-          "representativeTitle": "US judge blocks Pentagon’s restrictions on press after New York Times lawsuit",
+          "representativeTitle": "Pentagon policy limiting independent press access is unlawful, judge rules",
           "sources": [
             "Spectrum News",
             "PBS",
@@ -431,24 +431,24 @@ export const newsData = {
           "slug": "watch-trump-says-we-dont-need-strait-of-hormuz-after-allies-wont-help-us-escort-ships"
         },
         {
-          "representativeTitle": "Striking Down Pentagon Press Limits, Judge Vindicates Independent Journalism",
+          "representativeTitle": "In Trump’s Administration, Military Housing Is Becoming a Hot Commodity",
           "sources": [
             "The New York Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Striking Down Pentagon Press Limits, Judge Vindicates Independent Journalism",
+              "title": "In Trump’s Administration, Military Housing Is Becoming a Hot Commodity",
               "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWGNTemJpNVhXZlNOcEdPSm5ZNkp4U3UtS0huSG5sc0NCSzlQcXZKZWJyMDR1TmtEaHE4U0xVOF9IQjhVNWRYeEtuYnFZVlRvNGhZQm9XU281bl85d2FQNXVqVjlQeGMyU3NuLU9FeGVzTWd1TVFtWGRxXzR3NXU0NDJCMjFQc3ZVb2ZF?oc=5",
-              "pubDate": "2026-03-21T01:29:42.000Z",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQlhURDUySURIWWlkcFRPcGdYM093cmhfZjBqWFQwOWNUYWM5NzNHdy16bTNBaXlsRFlRUnJVeHlxMEx5OFpPOTZsZUJXYlRUVVVxWGphU0l5b0k0ZHNnNDQ3N1ZfYUFOM1d6YVd1OUE3MU9aV2UzTW41b1ZVQmVuenI0bVBvWkk?oc=5",
+              "pubDate": "2026-03-21T17:12:55.000Z",
               "tier": 2
             }
           ],
-          "sentiment": 0.4,
+          "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "striking-down-pentagon-press-limits-judge-vindicates-independent-journalism"
+          "slug": "in-trumps-administration-military-housing-is-becoming-a-hot-commodity"
         },
         {
           "representativeTitle": "How rising electric rates could affect the 2026 midterms",
@@ -511,26 +511,6 @@ export const newsData = {
           "slug": "opinion-how-politicians-are-failing-our-political-culture"
         },
         {
-          "representativeTitle": "In Trump’s Administration, Military Housing Is Becoming a Hot Commodity",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "In Trump’s Administration, Military Housing Is Becoming a Hot Commodity",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQlhURDUySURIWWlkcFRPcGdYM093cmhfZjBqWFQwOWNUYWM5NzNHdy16bTNBaXlsRFlRUnJVeHlxMEx5OFpPOTZsZUJXYlRUVVVxWGphU0l5b0k0ZHNnNDQ3N1ZfYUFOM1d6YVd1OUE3MU9aV2UzTW41b1ZVQmVuenI0bVBvWkk?oc=5",
-              "pubDate": "2026-03-21T17:12:55.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "in-trumps-administration-military-housing-is-becoming-a-hot-commodity"
-        },
-        {
           "representativeTitle": "A shameful double standard on religious freedom",
           "sources": [
             "Brookings"
@@ -551,67 +531,7 @@ export const newsData = {
           "slug": "a-shameful-double-standard-on-religious-freedom"
         },
         {
-          "representativeTitle": "Cal State Challenges Trump’s Order on Transgender Student Athletes",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cal State Challenges Trump’s Order on Transgender Student Athletes",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcnc4anBmcnVLTG5NT2JrN1NnMDd2WV9rQi1keFM4NHBMTWYybHc4OTZTbDEyZjRsd0FuOElYMWdCWVR3eTdZMU84eWFvcDVySXhHRDFybHdWcVBIYmxoeVpUUU8zUC1LZVE2bE81dW9Rd3d0T1JYQWtSQ0hZbjNQU1gxV3RYNWZDbWc?oc=5",
-              "pubDate": "2026-03-20T22:05:39.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "cal-state-challenges-trumps-order-on-transgender-student-athletes"
-        },
-        {
-          "representativeTitle": "Trump and blackouts force Cuba to the negotiation table",
-          "sources": [
-            "DW.com"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump and blackouts force Cuba to the negotiation table",
-              "source": "DW.com",
-              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYk9IaXpFMTU5SUk4ek9GYWpfbWEyNngtdzNaa2lWdlN4ajhOQm50S2NXWkVFeWZnRWx0YmtzMUlqRDA5d1VQblF6eG1uZ2haYTAxNGpjcUNSSkctZ0RnMzFWQmpXUkZFLUc2T2RZNlhyNEdsTDNlSzBzamItdWdheXdGd1VvRUxZWXJNby1lVFcyUdIBkgFBVV95cUxOcGtEUXg2emlqdDk0Ymx2MDNmSWx2aHFQYlNzaVlIdzgtWDBZeWlfZFdOXzNMaTJEOEtvUzQ2WkZEYUhvMjN3Qk1zS1ZpSHRnX1VTNXBWWi04R1lHU3lxakdGUWNyRGtVUzNaSmpqUnZmdzRMeUE3Q3c2cUZsTHVyMWJkSXU3NW1vVm16MkhmY1JwZw?oc=5",
-              "pubDate": "2026-03-20T22:20:31.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "trump-and-blackouts-force-cuba-to-the-negotiation-table"
-        },
-        {
-          "representativeTitle": "Cuba rejects US pressure on political system, Diaz-Canel’s position | Daily Sabah",
-          "sources": [
-            "Daily Sabah"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cuba rejects US pressure on political system, Diaz-Canel’s position | Daily Sabah",
-              "source": "Daily Sabah",
-              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVzFSdEx1RnpXdXpFZUNhNjdici00LXNJVGdjLWx2QVI4ZlJzRHNqM002am1FOGRhSDV4TmZQNE9HZjZxdmRDTDlGMmlObnNEdXkyRF8xZzJxZ0Z5UThDMkNwUWpsMHFxdlNKWm03cTBMTDdxOGFVWWFrcFdncUhNZHFoTm1BR21ESUZGY3NJSFhVYm1vbWVzbHpaRGtIMEh1TTRsQ1RPaFpnTFVldDRGdNIBsAFBVV95cUxNVzFSdEx1RnpXdXpFZUNhNjdici00LXNJVGdjLWx2QVI4ZlJzRHNqM002am1FOGRhSDV4TmZQNE9HZjZxdmRDTDlGMmlObnNEdXkyRF8xZzJxZ0Z5UThDMkNwUWpsMHFxdlNKWm03cTBMTDdxOGFVWWFrcFdncUhNZHFoTm1BR21ESUZGY3NJSFhVYm1vbWVzbHpaRGtIMEh1TTRsQ1RPaFpnTFVldDRGdA?oc=5",
-              "pubDate": "2026-03-21T10:50:06.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "cuba-rejects-us-pressure-on-political-system-diaz-canels-position-daily-sabah"
-        },
-        {
-          "representativeTitle": "The Equity Docket: Who Gets to Vote and Be Counted",
+          "representativeTitle": "US national debt surges past $39 trillion just weeks into war in Iran",
           "sources": [
             "The Progressive"
           ],
@@ -669,6 +589,106 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "why-the-trump-administration-is-easing-sanctions-on-certain-iranian-oil-stockpiles"
+        },
+        {
+          "representativeTitle": "Trump says he will send ICE agents to airports if TSA funding stalls",
+          "sources": [
+            "USA Today"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump says he will send ICE agents to airports if TSA funding stalls",
+              "source": "USA Today",
+              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQa3YxcFczS3lUbktpLUxBSEQ2Z3Jjd096dGFYVHVpU01qaDgyVEpEYlFMRFM4dGtqX05CQ1R0S0FLdTdMT3VOdm1HUGEweUV5NXlhb1RlaTl3cFdXVi1WWDJsWmVydU9rdF84bmhGdFBrZ1I2N0VNU1R5RExKSzN6ZG9FQkRTVUk0bWV6MEc0VmVfR3pnVk5LSi1fMVlvZVU?oc=5",
+              "pubDate": "2026-03-21T18:00:58.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "trump-says-he-will-send-ice-agents-to-airports-if-tsa-funding-stalls"
+        },
+        {
+          "representativeTitle": "Oklahoma Voice: Markwayne Mullin’s nomination to lead Homeland Security advances to US Senate floor",
+          "sources": [
+            "Duncan Banner"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Oklahoma Voice: Markwayne Mullin’s nomination to lead Homeland Security advances to US Senate floor",
+              "source": "Duncan Banner",
+              "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNUjhuZVlBYUdwczU1RlBLWXRyaWU0S1Rra0RpMy01MEtCbkJrcDY4NE05Wk5FOWZweGVteUhFZFhfTzZmUGtEYmd4cEtHWmlMVG9rMUhGZGNMdTgxNTFSVjJLYTFqYTNob2tXNGdyNGdockF0YmQ4X0RjOFpaVkRMMlU0emVHcnE3anlqeDV5WEFyYkZsTW1iaV9DU0tvemhfQUE2TWxDZVVhMEdtTnQ2X1dJUFhqUWJzT0RxQlFzMUs5eUMzdXpfYUpYTl9ianRpTk5CaEVnandON3VQUEp3clFRZXhLa2RlTDZXSWdUZzhSR1dZa3FvUXZnMTlzb2JSOFp3akRheVBEV2hvaURV?oc=5",
+              "pubDate": "2026-03-20T21:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "oklahoma-voice-markwayne-mullins-nomination-to-lead-homeland-security-advances-to-us-senate-floor"
+        },
+        {
+          "representativeTitle": "US Government Shutdown: TSA Workers Without Pay Trigger Airport Delays and Travel Chaos",
+          "sources": [
+            "ColombiaOne.com"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US Government Shutdown: TSA Workers Without Pay Trigger Airport Delays and Travel Chaos",
+              "source": "ColombiaOne.com",
+              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSllDbmNQZ3VONVpTYjRGc3J2WFdPWWZMQkxzT0ZMNUNETkNZcjRPTkVuNjk5SGtMamc4Wll0c2xjbG1rek45YlktU1pIWWVEdjg2dW1sNmQ4T2NER3luY0psa2RzbHY1RFNZSFJhYUtvZmUyUGk0UzdJOHI5SXB1dFlmdGM?oc=5",
+              "pubDate": "2026-03-21T01:12:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "us-government-shutdown-tsa-workers-without-pay-trigger-airport-delays-and-travel-chaos"
+        },
+        {
+          "representativeTitle": "Judge rules US government overreached with transgender health care declaration",
+          "sources": [
+            "KATU"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Judge rules US government overreached with transgender health care declaration",
+              "source": "KATU",
+              "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxONkxYNWRDeHBWSkhJbkF1M0M1TzRVRmNBUW12aU8xenpydHY3ZzE4Qlg3ZXAzMHpfbmt5YjZLMlVUa2p3cHA4SDZiZFgwRWt1d3Q3azZBLXF5YUZDQmFkelIxWlkxeF82aWdfMGwxR0QxamJJaVdBWkU4Yll0dzhlbjVSU2ZoZkdMTEFpSFo5aG9xeWhiZ1JNSVBPV2lUazA4c2g5aHphQW9GckxCVlZVMlg0dk04S0kxQUlMd2g1MWt5ZndUTENyUHc0WkRWYmZ5bmFiOFlOLXhwOEJuUWlZc0ltcF9sU2MtVENzVmtKMERzaFVOSXdmZDNtZm1TOUtoODFzUTFLZ2RaOGZ3dmd0QjBB?oc=5",
+              "pubDate": "2026-03-20T18:42:29.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "judge-rules-us-government-overreached-with-transgender-health-care-declaration"
+        },
+        {
+          "representativeTitle": "U.S. Prosecutors Are Investigating Colombia President Gustavo Petro",
+          "sources": [
+            "The New York Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "U.S. Prosecutors Are Investigating Colombia President Gustavo Petro",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWkNFdE9EUEI0Sm5ueXNxUVRYTFN2MHhJV3VGajg2NzVaTWxoYWVRa0lKLUZhbV94eEFtTHltV2VCU0IwTVVIY3E4YnNTamhLdXBWN3dZcUFLVHYtWnJKbVZ2SGVha0dFa2pWNGFlZWlaWEdXU2c5dFVibUpVdWlYMEpLbU9PX1YtUlF0UkdDY3l0dGtmN0xObg?oc=5",
+              "pubDate": "2026-03-20T22:22:34.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "us-prosecutors-are-investigating-colombia-president-gustavo-petro"
         }
       ]
     },
@@ -816,6 +836,34 @@ export const newsData = {
           "slug": "jim-cramer-on-reddit-i-think-its-an-incredibly-valuable-property"
         },
         {
+          "representativeTitle": "Delve accused of misleading customers with ‘fake compliance’",
+          "sources": [
+            "Yahoo Finance",
+            "TechCrunch"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Delve accused of misleading customers with ‘fake compliance’",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/sectors/technology/articles/delve-accused-misleading-customers-fake-170005937.html",
+              "pubDate": "2026-03-21T17:00:05.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Delve accused of misleading customers with ‘fake compliance’",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/03/21/delve-accused-of-misleading-customers-with-fake-compliance/",
+              "pubDate": "2026-03-21T17:00:05.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "delve-accused-of-misleading-customers-with-fake-compliance"
+        },
+        {
           "representativeTitle": "Betting scandals leave pro sports just one way to save the $165 billion gaming market",
           "sources": [
             "MarketWatch"
@@ -831,8 +879,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
+          "relevance_score": 7,
+          "importance": 40,
           "slug": "betting-scandals-leave-pro-sports-just-one-way-to-save-the-165-billion-gaming-market"
         },
         {
@@ -1534,6 +1582,26 @@ export const newsData = {
           "slug": "gemini-task-automation-is-slow-clunky-and-super-impressive"
         },
         {
+          "representativeTitle": "Kodiak CEO says making trucks drive themselves is only half the battle",
+          "sources": [
+            "The Verge"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Kodiak CEO says making trucks drive themselves is only half the battle",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/transportation/897551/kodiak-ai-self-driving-truck-ceo-interview",
+              "pubDate": "2026-03-21T11:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "kodiak-ceo-says-making-trucks-drive-themselves-is-only-half-the-battle"
+        },
+        {
           "representativeTitle": "The improved battery-powered Starlink Mini is here",
           "sources": [
             "The Verge"
@@ -1734,8 +1802,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
+          "relevance_score": 8,
+          "importance": 55,
           "slug": "pentagon-restrictions-on-press-violate-first-amendment-judge-rules"
         },
         {
@@ -2346,8 +2414,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 65,
+          "relevance_score": 8,
+          "importance": 70,
           "slug": "former-fbi-chief-robert-mueller-dead-at-81"
         },
         {
@@ -2388,46 +2456,6 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 5,
           "importance": 40,
-          "slug": "us-man-pleads-guilty-to-defrauding-music-streamers-out-of-millions-using-ai"
-        },
-        {
-          "representativeTitle": "Republican says he lied about racist posts on porn site to protect Trump",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Republican says he lied about racist posts on porn site to protect Trump",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/mar/21/republican-mark-robinson-north-carolina",
-              "pubDate": "2026-03-21T17:05:59.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "republican-says-he-lied-about-racist-posts-on-porn-site-to-protect-trump"
-        },
-        {
-          "representativeTitle": "US man pleads guilty to defrauding music streamers out of millions using AI",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US man pleads guilty to defrauding music streamers out of millions using AI",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/mar/21/man-pleads-guilty-music-streaming-fraud-ai",
-              "pubDate": "2026-03-21T15:14:59.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
           "slug": "us-man-pleads-guilty-to-defrauding-music-streamers-out-of-millions-using-ai"
         },
         {
@@ -2951,8 +2979,8 @@ export const newsData = {
             }
           ],
           "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
+          "relevance_score": 7,
+          "importance": 40,
           "slug": "tectonic-shift-earth-was-already-moving-35-billion-years-ago"
         },
         {
@@ -3076,6 +3104,26 @@ export const newsData = {
           "slug": "superconducting-altermagnets-could-carry-spin-without-energy-loss"
         },
         {
+          "representativeTitle": "Scientists create wheat-only gel from bran fiber and gluten protein",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Scientists create wheat-only gel from bran fiber and gluten protein",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-scientists-wheat-gel-bran-fiber.html",
+              "pubDate": "2026-03-21T15:00:11.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "scientists-create-wheat-only-gel-from-bran-fiber-and-gluten-protein"
+        },
+        {
           "representativeTitle": "Predicting RNA activity expands therapeutic possibilities",
           "sources": [
             "Phys.org"
@@ -3176,26 +3224,6 @@ export const newsData = {
           "slug": "critically-endangered-monkey-gives-birth-after-surgery-saves-her-foot"
         },
         {
-          "representativeTitle": "Seattle tried to guarantee higher pay for delivery drivers. Here's why it didn't work as intended",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Seattle tried to guarantee higher pay for delivery drivers. Here's why it didn't work as intended",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-seattle-higher-pay-delivery-drivers.html",
-              "pubDate": "2026-03-21T12:30:03.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "seattle-tried-to-guarantee-higher-pay-for-delivery-drivers-heres-why-it-didnt-work-as-intended"
-        },
-        {
           "representativeTitle": "Saturday Citations: Merging brown dwarfs, ancient machine guns, gravitational wave detection",
           "sources": [
             "Phys.org"
@@ -3274,6 +3302,26 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "satellite-radar-shows-alaska-glaciers-melt-three-extra-weeks-for-each-1c-of-summer-warming"
+        },
+        {
+          "representativeTitle": "March heat surges past 100 in California and Arizona, smashing records",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "March heat surges past 100 in California and Arizona, smashing records",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-surges-california-arizona.html",
+              "pubDate": "2026-03-21T10:07:54.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "march-heat-surges-past-100-in-california-and-arizona-smashing-records"
         },
         {
           "representativeTitle": "Addressing the Achilles' heel of marine protected areas",
