@@ -25,7 +25,7 @@ export class ClusteringEngine {
 
         const clusters = [];
         const usedIndices = new Set();
-        const SIMILARITY_THRESHOLD = 0.82; // Adjust for tightness of clusters
+        const SIMILARITY_THRESHOLD = 0.77; // Relaxed to merge diverse Google News sources
 
         for (let i = 0; i < articles.length; i++) {
             if (usedIndices.has(i)) continue;
