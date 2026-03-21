@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-21T18:05:03.167Z",
+  "lastUpdated": "2026-03-21T18:05:03.893Z",
   "children": [
     {
       "name": "Politics",
@@ -287,13 +287,14 @@ export const newsData = {
           "slug": "party-politics-drive-partial-government-shutdown-opinion-letters"
         },
         {
-          "representativeTitle": "Pentagon policy limiting independent press access is unlawful, judge rules",
+          "representativeTitle": "US judge blocks Pentagon’s restrictions on press after New York Times lawsuit",
           "sources": [
             "Spectrum News",
             "PBS",
+            "The Guardian",
             "Local 3 News"
           ],
-          "citationCount": 3,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "Judge sides with New York Times in challenge to policy limiting reporters' access to Pentagon",
@@ -310,6 +311,13 @@ export const newsData = {
               "tier": 2
             },
             {
+              "title": "US judge blocks Pentagon’s restrictions on press after New York Times lawsuit",
+              "source": "The Guardian",
+              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUjZ6bnQzZlFTR05mOF8xMC0tTm9aYXVueVczTUloUlVNejlISEpIbDhXVzU1ZGdhRzd1RmwzeUlycEQ5a0h1WVJTSHFBNFoyNW5WMGhZRC1aV2NOZWgwNkt4ckFpX2JzLUhSUGJicWFuX3hwX0xNVXVtS0NBRHZlNU9iWU84UQ?oc=5",
+              "pubDate": "2026-03-20T21:27:00.000Z",
+              "tier": 2
+            },
+            {
               "title": "Pentagon policy limiting independent press access is unlawful, judge rules",
               "source": "Local 3 News",
               "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNYlZwLVllcVZDaUJ6TVpDZ2ZsXzV1eHlhNHNxeUtHUzI2cm1uRFZ1OWU2YmJzdTBUZkZ5TGNhVkpXT2hpOFllel9DQUNKNjBEWkxTX3RhUmphSUxKUEpVNXUxMjNwQ05idlpFamdRY3FiOG1rVFN0emg1ajU3UkU2NXcxZk9aaU1LdDhNSGNDc285VkJ2SnRETVNwMXBOZ2NfcV9vWUtzMzV2S2ZhcS1uQktsbDh5clUzWGhoSTE1cWlJREJFanNYSFRid19YMGc3V0Q2eEVSZXY4X2VVN1ZjdnU5RV9tMnJsa3NYVHc2ZHZmM2dZRlVBamFzcEM?oc=5",
@@ -319,8 +327,8 @@ export const newsData = {
           ],
           "sentiment": 0.4,
           "relevance_score": 7,
-          "importance": 50,
-          "slug": "pentagon-policy-limiting-independent-press-access-is-unlawful-judge-rules"
+          "importance": 55,
+          "slug": "us-judge-blocks-pentagons-restrictions-on-press-after-new-york-times-lawsuit"
         },
         {
           "representativeTitle": "Big money flows into state attorney general races as legal battles shape American politics",
@@ -423,24 +431,24 @@ export const newsData = {
           "slug": "watch-trump-says-we-dont-need-strait-of-hormuz-after-allies-wont-help-us-escort-ships"
         },
         {
-          "representativeTitle": "In Trump’s Administration, Military Housing Is Becoming a Hot Commodity",
+          "representativeTitle": "Striking Down Pentagon Press Limits, Judge Vindicates Independent Journalism",
           "sources": [
             "The New York Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "In Trump’s Administration, Military Housing Is Becoming a Hot Commodity",
+              "title": "Striking Down Pentagon Press Limits, Judge Vindicates Independent Journalism",
               "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQlhURDUySURIWWlkcFRPcGdYM093cmhfZjBqWFQwOWNUYWM5NzNHdy16bTNBaXlsRFlRUnJVeHlxMEx5OFpPOTZsZUJXYlRUVVVxWGphU0l5b0k0ZHNnNDQ3N1ZfYUFOM1d6YVd1OUE3MU9aV2UzTW41b1ZVQmVuenI0bVBvWkk?oc=5",
-              "pubDate": "2026-03-21T17:12:55.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWGNTemJpNVhXZlNOcEdPSm5ZNkp4U3UtS0huSG5sc0NCSzlQcXZKZWJyMDR1TmtEaHE4U0xVOF9IQjhVNWRYeEtuYnFZVlRvNGhZQm9XU281bl85d2FQNXVqVjlQeGMyU3NuLU9FeGVzTWd1TVFtWGRxXzR3NXU0NDJCMjFQc3ZVb2ZF?oc=5",
+              "pubDate": "2026-03-21T01:29:42.000Z",
               "tier": 2
             }
           ],
-          "sentiment": -0.4,
+          "sentiment": 0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "in-trumps-administration-military-housing-is-becoming-a-hot-commodity"
+          "slug": "striking-down-pentagon-press-limits-judge-vindicates-independent-journalism"
         },
         {
           "representativeTitle": "How rising electric rates could affect the 2026 midterms",
@@ -503,6 +511,26 @@ export const newsData = {
           "slug": "opinion-how-politicians-are-failing-our-political-culture"
         },
         {
+          "representativeTitle": "In Trump’s Administration, Military Housing Is Becoming a Hot Commodity",
+          "sources": [
+            "The New York Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "In Trump’s Administration, Military Housing Is Becoming a Hot Commodity",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQlhURDUySURIWWlkcFRPcGdYM093cmhfZjBqWFQwOWNUYWM5NzNHdy16bTNBaXlsRFlRUnJVeHlxMEx5OFpPOTZsZUJXYlRUVVVxWGphU0l5b0k0ZHNnNDQ3N1ZfYUFOM1d6YVd1OUE3MU9aV2UzTW41b1ZVQmVuenI0bVBvWkk?oc=5",
+              "pubDate": "2026-03-21T17:12:55.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "in-trumps-administration-military-housing-is-becoming-a-hot-commodity"
+        },
+        {
           "representativeTitle": "A shameful double standard on religious freedom",
           "sources": [
             "Brookings"
@@ -521,6 +549,46 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "a-shameful-double-standard-on-religious-freedom"
+        },
+        {
+          "representativeTitle": "Cal State Challenges Trump’s Order on Transgender Student Athletes",
+          "sources": [
+            "The New York Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Cal State Challenges Trump’s Order on Transgender Student Athletes",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcnc4anBmcnVLTG5NT2JrN1NnMDd2WV9rQi1keFM4NHBMTWYybHc4OTZTbDEyZjRsd0FuOElYMWdCWVR3eTdZMU84eWFvcDVySXhHRDFybHdWcVBIYmxoeVpUUU8zUC1LZVE2bE81dW9Rd3d0T1JYQWtSQ0hZbjNQU1gxV3RYNWZDbWc?oc=5",
+              "pubDate": "2026-03-20T22:05:39.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "cal-state-challenges-trumps-order-on-transgender-student-athletes"
+        },
+        {
+          "representativeTitle": "Trump and blackouts force Cuba to the negotiation table",
+          "sources": [
+            "DW.com"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump and blackouts force Cuba to the negotiation table",
+              "source": "DW.com",
+              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYk9IaXpFMTU5SUk4ek9GYWpfbWEyNngtdzNaa2lWdlN4ajhOQm50S2NXWkVFeWZnRWx0YmtzMUlqRDA5d1VQblF6eG1uZ2haYTAxNGpjcUNSSkctZ0RnMzFWQmpXUkZFLUc2T2RZNlhyNEdsTDNlSzBzamItdWdheXdGd1VvRUxZWXJNby1lVFcyUdIBkgFBVV95cUxOcGtEUXg2emlqdDk0Ymx2MDNmSWx2aHFQYlNzaVlIdzgtWDBZeWlfZFdOXzNMaTJEOEtvUzQ2WkZEYUhvMjN3Qk1zS1ZpSHRnX1VTNXBWWi04R1lHU3lxakdGUWNyRGtVUzNaSmpqUnZmdzRMeUE3Q3c2cUZsTHVyMWJkSXU3NW1vVm16MkhmY1JwZw?oc=5",
+              "pubDate": "2026-03-20T22:20:31.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "trump-and-blackouts-force-cuba-to-the-negotiation-table"
         },
         {
           "representativeTitle": "Cuba rejects US pressure on political system, Diaz-Canel’s position | Daily Sabah",
@@ -543,24 +611,44 @@ export const newsData = {
           "slug": "cuba-rejects-us-pressure-on-political-system-diaz-canels-position-daily-sabah"
         },
         {
-          "representativeTitle": "US national debt surges past $39 trillion just weeks into war in Iran",
+          "representativeTitle": "The Equity Docket: Who Gets to Vote and Be Counted",
           "sources": [
-            "Scripps News"
+            "The Progressive"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US national debt surges past $39 trillion just weeks into war in Iran",
-              "source": "Scripps News",
-              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYW1RM2lGQjMwZDdjcDlhRmExWFRpNk5UcWx6VXhHTlhaUWRJOUJuUldiRDRiem84SDg2Rnp3bEpnN25pNVBNSDdDTFV5RTZuWFR3UkRuR3N2aF93Z0RQRHFKRGNQMTg3QVZPdGlCRkkyaXNVQjdId2pvQjdqTmVIRHhvZi1QMmJDOVg5WXZPcE50a3JVZFEtNURUTnBlby1kdkRqTGlSZUdvdENHU2ZGb2ZtYw?oc=5",
-              "pubDate": "2026-03-21T13:21:04.000Z",
+              "title": "The Equity Docket: Who Gets to Vote and Be Counted",
+              "source": "The Progressive",
+              "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaUdtWmNPSHFVemVvRjR5Q3VHR2NsYUZreDZmYmh2TGVJOFAxOWF4bjc2VUhCTERHU1hHYkM5N2ppOE1GRDE4TUtjTVViMEhnQmRWcDNIckZQTTZnVVM5aWhZSWpIbW54RWEwYjk3Y25KSFY3SWdJaHZaRTgybmY2RlpuSklNV1A1RVhheGZYdFZvUi1jME5lRnkxU0hQNU5ZdlhnaWhyNTdZcXZ3dVprbElSWEFVOWp1UVhtLXFRUVo?oc=5",
+              "pubDate": "2026-03-20T20:04:15.000Z",
               "tier": 2
             }
           ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 55,
-          "slug": "us-national-debt-surges-past-39-trillion-just-weeks-into-war-in-iran"
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "the-equity-docket-who-gets-to-vote-and-be-counted"
+        },
+        {
+          "representativeTitle": "Cuba refuses to let US Embassy in Havana import diesel for its generators",
+          "sources": [
+            "The Washington Post"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Cuba refuses to let US Embassy in Havana import diesel for its generators",
+              "source": "The Washington Post",
+              "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWVNZSHBZQWRjTkx6WGU0X21KV3FFd29HV3hqMmxoMmV2a3dveEVXeEpsU29pSDFPV1lIT3lxUGEwc1pHaWFXQjBrRXpFamo4WVpWNlowOWh3TGNzYm82aXdLN1ozSVNubFNEdmQtYWdnWkVNNElNZTRoMDkwcDB3bGluOC1fZHNSbEY1WG9SMlZoNGktYkN4Q1Yxc1NXUUxLdThBczItZUVuRi1jbm1adEJJTTB3Uk9FOXQ4MW5FZTVkUFo2Q1lLX1lCZw?oc=5",
+              "pubDate": "2026-03-21T05:19:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "cuba-refuses-to-let-us-embassy-in-havana-import-diesel-for-its-generators"
         },
         {
           "representativeTitle": "Why the Trump administration is easing sanctions on certain Iranian oil stockpiles",
@@ -581,86 +669,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "why-the-trump-administration-is-easing-sanctions-on-certain-iranian-oil-stockpiles"
-        },
-        {
-          "representativeTitle": "Trump says he will send ICE agents to airports if TSA funding stalls",
-          "sources": [
-            "USA Today"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump says he will send ICE agents to airports if TSA funding stalls",
-              "source": "USA Today",
-              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQa3YxcFczS3lUbktpLUxBSEQ2Z3Jjd096dGFYVHVpU01qaDgyVEpEYlFMRFM4dGtqX05CQ1R0S0FLdTdMT3VOdm1HUGEweUV5NXlhb1RlaTl3cFdXVi1WWDJsWmVydU9rdF84bmhGdFBrZ1I2N0VNU1R5RExKSzN6ZG9FQkRTVUk0bWV6MEc0VmVfR3pnVk5LSi1fMVlvZVU?oc=5",
-              "pubDate": "2026-03-21T18:00:58.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "trump-says-he-will-send-ice-agents-to-airports-if-tsa-funding-stalls"
-        },
-        {
-          "representativeTitle": "Oklahoma Voice: Markwayne Mullin’s nomination to lead Homeland Security advances to US Senate floor",
-          "sources": [
-            "Duncan Banner"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Oklahoma Voice: Markwayne Mullin’s nomination to lead Homeland Security advances to US Senate floor",
-              "source": "Duncan Banner",
-              "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNUjhuZVlBYUdwczU1RlBLWXRyaWU0S1Rra0RpMy01MEtCbkJrcDY4NE05Wk5FOWZweGVteUhFZFhfTzZmUGtEYmd4cEtHWmlMVG9rMUhGZGNMdTgxNTFSVjJLYTFqYTNob2tXNGdyNGdockF0YmQ4X0RjOFpaVkRMMlU0emVHcnE3anlqeDV5WEFyYkZsTW1iaV9DU0tvemhfQUE2TWxDZVVhMEdtTnQ2X1dJUFhqUWJzT0RxQlFzMUs5eUMzdXpfYUpYTl9ianRpTk5CaEVnandON3VQUEp3clFRZXhLa2RlTDZXSWdUZzhSR1dZa3FvUXZnMTlzb2JSOFp3akRheVBEV2hvaURV?oc=5",
-              "pubDate": "2026-03-20T21:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "oklahoma-voice-markwayne-mullins-nomination-to-lead-homeland-security-advances-to-us-senate-floor"
-        },
-        {
-          "representativeTitle": "US Government Shutdown: TSA Workers Without Pay Trigger Airport Delays and Travel Chaos",
-          "sources": [
-            "ColombiaOne.com"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US Government Shutdown: TSA Workers Without Pay Trigger Airport Delays and Travel Chaos",
-              "source": "ColombiaOne.com",
-              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSllDbmNQZ3VONVpTYjRGc3J2WFdPWWZMQkxzT0ZMNUNETkNZcjRPTkVuNjk5SGtMamc4Wll0c2xjbG1rek45YlktU1pIWWVEdjg2dW1sNmQ4T2NER3luY0psa2RzbHY1RFNZSFJhYUtvZmUyUGk0UzdJOHI5SXB1dFlmdGM?oc=5",
-              "pubDate": "2026-03-21T01:12:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "us-government-shutdown-tsa-workers-without-pay-trigger-airport-delays-and-travel-chaos"
-        },
-        {
-          "representativeTitle": "Judge rules US government overreached with transgender health care declaration",
-          "sources": [
-            "KATU"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Judge rules US government overreached with transgender health care declaration",
-              "source": "KATU",
-              "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxONkxYNWRDeHBWSkhJbkF1M0M1TzRVRmNBUW12aU8xenpydHY3ZzE4Qlg3ZXAzMHpfbmt5YjZLMlVUa2p3cHA4SDZiZFgwRWt1d3Q3azZBLXF5YUZDQmFkelIxWlkxeF82aWdfMGwxR0QxamJJaVdBWkU4Yll0dzhlbjVSU2ZoZkdMTEFpSFo5aG9xeWhiZ1JNSVBPV2lUazA4c2g5aHphQW9GckxCVlZVMlg0dk04S0kxQUlMd2g1MWt5ZndUTENyUHc0WkRWYmZ5bmFiOFlOLXhwOEJuUWlZc0ltcF9sU2MtVENzVmtKMERzaFVOSXdmZDNtZm1TOUtoODFzUTFLZ2RaOGZ3dmd0QjBB?oc=5",
-              "pubDate": "2026-03-20T18:42:29.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "judge-rules-us-government-overreached-with-transgender-health-care-declaration"
         }
       ]
     },
@@ -748,6 +756,26 @@ export const newsData = {
           "slug": "nadella-paid-650m-to-recruit-his-ai-chief-after-2-years-hes-quietly-pushing-him-aside-these-brutal-numbers-are-why"
         },
         {
+          "representativeTitle": "Jim Cramer on Stellantis: “I Just Can’t Recommend It”",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Jim Cramer on Stellantis: “I Just Can’t Recommend It”",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-stellantis-just-t-163138724.html",
+              "pubDate": "2026-03-21T16:31:38.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "jim-cramer-on-stellantis-i-just-cant-recommend-it"
+        },
+        {
           "representativeTitle": "Jim Cramer on Booking Holdings: “It’s Glenn Fogel, and He’s Going to Snap Right Back Here”",
           "sources": [
             "Yahoo Finance"
@@ -788,34 +816,6 @@ export const newsData = {
           "slug": "jim-cramer-on-reddit-i-think-its-an-incredibly-valuable-property"
         },
         {
-          "representativeTitle": "Delve accused of misleading customers with ‘fake compliance’",
-          "sources": [
-            "Yahoo Finance",
-            "TechCrunch"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Delve accused of misleading customers with ‘fake compliance’",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/sectors/technology/articles/delve-accused-misleading-customers-fake-170005937.html",
-              "pubDate": "2026-03-21T17:00:05.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Delve accused of misleading customers with ‘fake compliance’",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/03/21/delve-accused-of-misleading-customers-with-fake-compliance/",
-              "pubDate": "2026-03-21T17:00:05.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "delve-accused-of-misleading-customers-with-fake-compliance"
-        },
-        {
           "representativeTitle": "Betting scandals leave pro sports just one way to save the $165 billion gaming market",
           "sources": [
             "MarketWatch"
@@ -831,8 +831,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
+          "relevance_score": 8,
+          "importance": 45,
           "slug": "betting-scandals-leave-pro-sports-just-one-way-to-save-the-165-billion-gaming-market"
         },
         {
@@ -1306,6 +1306,26 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
+          "representativeTitle": "Delve accused of misleading customers with ‘fake compliance’",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Delve accused of misleading customers with ‘fake compliance’",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/03/21/delve-accused-of-misleading-customers-with-fake-compliance/",
+              "pubDate": "2026-03-21T17:00:05.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "delve-accused-of-misleading-customers-with-fake-compliance"
+        },
+        {
           "representativeTitle": "Why Wall Street wasn’t won over by Nvidia’s big conference",
           "sources": [
             "TechCrunch"
@@ -1699,12 +1719,11 @@ export const newsData = {
           "slug": "thousands-evacuated-as-hawaii-faces-worst-flooding-in-20-years"
         },
         {
-          "representativeTitle": "US judge sides with New York Times against Pentagon journalism policies",
+          "representativeTitle": "Pentagon restrictions on press violate First Amendment, judge rules",
           "sources": [
-            "BBC World",
-            "Al Jazeera"
+            "BBC World"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Pentagon restrictions on press violate First Amendment, judge rules",
@@ -1712,19 +1731,12 @@ export const newsData = {
               "link": "https://www.bbc.com/news/articles/cwy3961xdr8o?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-03-21T16:11:58.000Z",
               "tier": 1
-            },
-            {
-              "title": "US judge sides with New York Times against Pentagon journalism policies",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/20/us-judge-sides-with-new-york-times-against-pentagon-journalism-policies?traffic_source=rss",
-              "pubDate": "2026-03-20T23:07:20.000Z",
-              "tier": 1
             }
           ],
           "sentiment": 0.4,
           "relevance_score": 7,
-          "importance": 65,
-          "slug": "us-judge-sides-with-new-york-times-against-pentagon-journalism-policies"
+          "importance": 50,
+          "slug": "pentagon-restrictions-on-press-violate-first-amendment-judge-rules"
         },
         {
           "representativeTitle": "First photos as BTS make live return in front of huge crowd",
@@ -2311,11 +2323,12 @@ export const newsData = {
           "slug": "uk-government-yet-to-trial-openai-tech-months-after-signing-partnership"
         },
         {
-          "representativeTitle": "Robert Mueller, special counsel who investigated Trump-Russia ties, dies at 81",
+          "representativeTitle": "Former FBI chief, Robert Mueller, dead at 81",
           "sources": [
-            "The Guardian"
+            "The Guardian",
+            "Al Jazeera"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Robert Mueller, special counsel who investigated Trump-Russia ties, dies at 81",
@@ -2323,12 +2336,59 @@ export const newsData = {
               "link": "https://www.theguardian.com/us-news/2026/mar/21/robert-mueller-special-counsel-trump-russia-dies",
               "pubDate": "2026-03-21T17:35:23.000Z",
               "tier": 1
+            },
+            {
+              "title": "Former FBI chief, Robert Mueller, dead at 81",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/21/former-fbi-chief-robert-mueller-dead-at-81?traffic_source=rss",
+              "pubDate": "2026-03-21T17:42:27.000Z",
+              "tier": 1
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 50,
-          "slug": "robert-mueller-special-counsel-who-investigated-trump-russia-ties-dies-at-81"
+          "importance": 65,
+          "slug": "former-fbi-chief-robert-mueller-dead-at-81"
+        },
+        {
+          "representativeTitle": "Republican says he lied about racist posts on porn site to protect Trump",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Republican says he lied about racist posts on porn site to protect Trump",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/mar/21/republican-mark-robinson-north-carolina",
+              "pubDate": "2026-03-21T17:05:59.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "republican-says-he-lied-about-racist-posts-on-porn-site-to-protect-trump"
+        },
+        {
+          "representativeTitle": "US man pleads guilty to defrauding music streamers out of millions using AI",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US man pleads guilty to defrauding music streamers out of millions using AI",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/mar/21/man-pleads-guilty-music-streaming-fraud-ai",
+              "pubDate": "2026-03-21T15:14:59.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "us-man-pleads-guilty-to-defrauding-music-streamers-out-of-millions-using-ai"
         },
         {
           "representativeTitle": "Republican says he lied about racist posts on porn site to protect Trump",
@@ -2971,8 +3031,8 @@ export const newsData = {
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
+          "relevance_score": 7,
+          "importance": 40,
           "slug": "dishwashing-with-side-effects-kitchen-sponges-release-microplastics"
         },
         {
