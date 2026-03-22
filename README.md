@@ -68,4 +68,3 @@ GEMINI_API_KEY=your_key_here
 - **Hosting:** Cloudflare Pages + GitHub Actions
 
 ---
-[Abhishek Prasad](https://github.com/prasadabhishek)
