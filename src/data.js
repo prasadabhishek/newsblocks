@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-22T14:09:16.420Z",
+  "lastUpdated": "2026-03-22T15:07:18.899Z",
   "children": [
     {
       "name": "World",
@@ -19,7 +19,7 @@ export const newsData = {
               "title": "Iranian missiles injure 160 in towns near Israeli nuclear site",
               "source": "BBC World",
               "link": "https://www.bbc.com/news/articles/c9qdvnv13qdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-22T10:57:44.000Z",
+              "pubDate": "2026-03-22T14:46:17.000Z",
               "tier": 1
             },
             {
@@ -142,26 +142,6 @@ export const newsData = {
           "slug": "qatari-and-turkish-citizens-die-in-military-helicopter-crash"
         },
         {
-          "representativeTitle": "Socialists battle to hold Paris as France holds mayoral elections",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Socialists battle to hold Paris as France holds mayoral elections",
-              "source": "BBC World",
-              "link": "https://www.bbc.com/news/articles/c87wgw27201o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-22T07:08:59.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "socialists-battle-to-hold-paris-as-france-holds-mayoral-elections"
-        },
-        {
           "representativeTitle": "Russian attacks kill six in Ukraine, officials say",
           "sources": [
             "BBC World"
@@ -180,6 +160,46 @@ export const newsData = {
           "relevance_score": 10,
           "importance": 65,
           "slug": "russian-attacks-kill-six-in-ukraine-officials-say"
+        },
+        {
+          "representativeTitle": "Guthrie family appeals for help to bring missing mother home",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Guthrie family appeals for help to bring missing mother home",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/c0q9zx4g1w9o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-22T14:45:34.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 2,
+          "importance": 25,
+          "slug": "guthrie-family-appeals-for-help-to-bring-missing-mother-home"
+        },
+        {
+          "representativeTitle": "Socialists battle to hold Paris as France holds mayoral elections",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Socialists battle to hold Paris as France holds mayoral elections",
+              "source": "BBC World",
+              "link": "https://www.bbc.com/news/articles/c87wgw27201o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-22T07:08:59.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "socialists-battle-to-hold-paris-as-france-holds-mayoral-elections"
         },
         {
           "representativeTitle": "Robert Mueller, ex-FBI chief who led Trump-Russia investigation, dies at 81",
@@ -224,10 +244,9 @@ export const newsData = {
         {
           "representativeTitle": "Thousands evacuated as Hawaii faces worst flooding in 20 years",
           "sources": [
-            "BBC World",
-            "The Guardian"
+            "BBC World"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Thousands evacuated as Hawaii faces worst flooding in 20 years",
@@ -235,18 +254,11 @@ export const newsData = {
               "link": "https://www.bbc.com/news/articles/c20qj970gwro?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-03-21T22:01:45.000Z",
               "tier": 1
-            },
-            {
-              "title": "Hawaii urges residents to ‘leave now’ amid worst flooding in over 20 years",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/mar/21/hawaii-flooding-warnings",
-              "pubDate": "2026-03-21T23:48:53.000Z",
-              "tier": 1
             }
           ],
           "sentiment": -0.9,
           "relevance_score": 7,
-          "importance": 65,
+          "importance": 50,
           "slug": "thousands-evacuated-as-hawaii-faces-worst-flooding-in-20-years"
         },
         {
@@ -370,6 +382,66 @@ export const newsData = {
           "slug": "bbc-in-cuba-as-island-plunged-into-darkness"
         },
         {
+          "representativeTitle": "Queensland government ‘opens old wounds’ as police officer criticised after Palm Island riots appointed to Legal Aid board",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Queensland government ‘opens old wounds’ as police officer criticised after Palm Island riots appointed to Legal Aid board",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/mar/23/queensland-police-detective-darren-robinson-palm-island-legal-aid-board-ntwnfb",
+              "pubDate": "2026-03-22T14:00:25.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "queensland-government-opens-old-wounds-as-police-officer-criticised-after-palm-island-riots-appointed-to-legal-aid-board"
+        },
+        {
+          "representativeTitle": "Almost half of Australians think foreign military will attack within five years, ANU study suggests",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Almost half of Australians think foreign military will attack within five years, ANU study suggests",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/mar/23/almost-half-of-australians-think-foreign-military-will-attack-within-five-years-anu-study-suggests",
+              "pubDate": "2026-03-22T14:00:24.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "almost-half-of-australians-think-foreign-military-will-attack-within-five-years-anu-study-suggests"
+        },
+        {
+          "representativeTitle": "As Labor faces pressure to respond boldly to oil shock, it needs to find more unconventional levers to pull",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "As Labor faces pressure to respond boldly to oil shock, it needs to find more unconventional levers to pull",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/mar/23/as-labor-faces-pressure-to-respond-boldly-to-oil-shock-it-needs-to-find-more-unconventional-levers-to-pull",
+              "pubDate": "2026-03-22T14:00:23.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "as-labor-faces-pressure-to-respond-boldly-to-oil-shock-it-needs-to-find-more-unconventional-levers-to-pull"
+        },
+        {
           "representativeTitle": "One Nation wins at least one SA seat as Liberals consider ‘sobering lessons’ from election defeat",
           "sources": [
             "The Guardian"
@@ -388,86 +460,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "one-nation-wins-at-least-one-sa-seat-as-liberals-consider-sobering-lessons-from-election-defeat"
-        },
-        {
-          "representativeTitle": "Liberals have ‘a lot of work to do’ after SA wipeout, Anne Ruston says – As it happened",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Liberals have ‘a lot of work to do’ after SA wipeout, Anne Ruston says – As it happened",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/live/2026/mar/22/australia-news-live-tropical-cyclone-narelle-south-australia-election-peter-malinauskas-labor-one-nation-chris-bowen-anthony-albanese-fuel-prices-ntwnfb",
-              "pubDate": "2026-03-22T05:38:25.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "liberals-have-a-lot-of-work-to-do-after-sa-wipeout-anne-ruston-says-as-it-happened"
-        },
-        {
-          "representativeTitle": "Six fuel ships bound for Australia cancelled as Bowen concedes ‘flow of oil to Asian refineries has slowed’",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Six fuel ships bound for Australia cancelled as Bowen concedes ‘flow of oil to Asian refineries has slowed’",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/mar/22/six-fuel-ships-bound-for-australia-cancelled-as-bowen-concedes-flow-of-oil-to-asian-refineries-has-slowed",
-              "pubDate": "2026-03-22T02:22:30.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "six-fuel-ships-bound-for-australia-cancelled-as-bowen-concedes-flow-of-oil-to-asian-refineries-has-slowed"
-        },
-        {
-          "representativeTitle": "Superannuation should be used for aged care, not inherited by next generation, aged care CEO says",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Superannuation should be used for aged care, not inherited by next generation, aged care CEO says",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/mar/21/superannuation-should-be-used-for-aged-care-not-inherited-by-next-generation-aged-care-ceo-says",
-              "pubDate": "2026-03-21T19:01:01.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "superannuation-should-be-used-for-aged-care-not-inherited-by-next-generation-aged-care-ceo-says"
-        },
-        {
-          "representativeTitle": "Petrol theft expected to rise in Australia as police call for more CCTV and prepaid pumps",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Petrol theft expected to rise in Australia as police call for more CCTV and prepaid pumps",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/mar/22/petrol-theft-expected-to-rise-in-australia-as-police-call-for-more-cctv-and-prepaid-pumps",
-              "pubDate": "2026-03-21T19:01:00.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 5,
-          "importance": 40,
-          "slug": "petrol-theft-expected-to-rise-in-australia-as-police-call-for-more-cctv-and-prepaid-pumps"
         },
         {
           "representativeTitle": "Election in Slovenia Will Test Europe’s Political Mood",
@@ -546,7 +538,7 @@ export const newsData = {
           "slug": "meloni-v-the-judges-high-stakes-for-italian-pm-in-vote-on-judiciary-overhaul"
         },
         {
-          "representativeTitle": "Middle East crisis live: Iran warns of ‘irreversible damage’ to region if power plants attacked after Trump threat",
+          "representativeTitle": "Middle East crisis live: Iran will completely close strait of Hormuz if Trump acts on infrastructure threats, says IRG",
           "sources": [
             "The Guardian",
             "The Guardian"
@@ -554,10 +546,10 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Middle East crisis live: Iran warns of ‘irreversible damage’ to region if power plants attacked after Trump threat",
+              "title": "Middle East crisis live: Iran will completely close strait of Hormuz if Trump acts on infrastructure threats, says IRG",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/live/2026/mar/22/middle-east-crisis-live-iran-war-trump-ultimatum-major-attack-strait-of-hormuz-open-israel-hit-tehran-retaliation",
-              "pubDate": "2026-03-22T13:48:50.000Z",
+              "pubDate": "2026-03-22T14:42:30.000Z",
               "tier": 1
             },
             {
@@ -571,7 +563,35 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 10,
           "importance": 65,
-          "slug": "middle-east-crisis-live-iran-warns-of-irreversible-damage-to-region-if-power-plants-attacked-after-trump-threat"
+          "slug": "middle-east-crisis-live-iran-will-completely-close-strait-of-hormuz-if-trump-acts-on-infrastructure-threats-says-irg"
+        },
+        {
+          "representativeTitle": "Iran says it will ‘irreversibly destroy’ Middle East infrastructure if US attacks energy sites",
+          "sources": [
+            "The Guardian",
+            "Al Jazeera"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Iran says it will ‘irreversibly destroy’ Middle East infrastructure if US attacks energy sites",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/mar/22/iran-says-destroy-middle-east-infrastructure-us-energy-sites",
+              "pubDate": "2026-03-22T14:16:07.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Iran says will hit region’s energy sites if US, Israel target power plants",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/3/22/iran-says-will-hit-regions-energy-sites-if-us-israel-target-power-plants?traffic_source=rss",
+              "pubDate": "2026-03-22T13:42:25.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 80,
+          "slug": "iran-says-it-will-irreversibly-destroy-middle-east-infrastructure-if-us-attacks-energy-sites"
         },
         {
           "representativeTitle": "‘Nobody else is responsible’: Trump to blame for Iran crisis, ex-CIA chief says",
@@ -627,26 +647,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 75,
           "slug": "iran-not-believed-to-have-capability-or-intent-to-bomb-britain-says-uk-minister"
-        },
-        {
-          "representativeTitle": "Projectile strikes vessel off coast of UAE",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Projectile strikes vessel off coast of UAE",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/live/2026/mar/21/middle-east-crisis-live-iran-war-trump-eases-oil-sanctions-israel-strikes",
-              "pubDate": "2026-03-22T03:17:20.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "projectile-strikes-vessel-off-coast-of-uae"
         },
         {
           "representativeTitle": "Starmer adviser urges ministers to look at profits cap for energy and petrol firms",
@@ -743,6 +743,46 @@ export const newsData = {
           "slug": "evgeny-lebedev-and-ian-botham-have-lowest-lords-attendance-records-show"
         },
         {
+          "representativeTitle": "ICE agents will be deployed to US airports to ease long lines on Monday",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "ICE agents will be deployed to US airports to ease long lines on Monday",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/mar/22/ice-agents-us-airports",
+              "pubDate": "2026-03-22T14:54:46.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ice-agents-will-be-deployed-to-us-airports-to-ease-long-lines-on-monday"
+        },
+        {
+          "representativeTitle": "Charges dropped against woman in anti-ICE church protest over mistaken identity",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Charges dropped against woman in anti-ICE church protest over mistaken identity",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/mar/22/charges-dropped-against-woman-minnesota-church-protest",
+              "pubDate": "2026-03-22T13:55:53.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 2,
+          "importance": 25,
+          "slug": "charges-dropped-against-woman-in-anti-ice-church-protest-over-mistaken-identity"
+        },
+        {
           "representativeTitle": "New crypto regulations likely to be big favor to the Trump family, industry insiders say",
           "sources": [
             "The Guardian"
@@ -803,44 +843,44 @@ export const newsData = {
           "slug": "excommunicated-catholic-deacon-still-waiting-on-overdue-appeal-outcome-after-his-son-was-molested-by-priest"
         },
         {
-          "representativeTitle": "Iran social media strategy pivots to information war amid US-Israel attack",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran social media strategy pivots to information war amid US-Israel attack",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/mar/22/iran-social-media-strategy-information-war-us-israel-attack",
-              "pubDate": "2026-03-22T06:00:13.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "iran-social-media-strategy-pivots-to-information-war-amid-us-israel-attack"
-        },
-        {
-          "representativeTitle": "Iran says will hit region’s energy sites if US, Israel target power plants",
+          "representativeTitle": "Canada’s Supreme Court must strike down Quebec’s Bill 21",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran says will hit region’s energy sites if US, Israel target power plants",
+              "title": "Canada’s Supreme Court must strike down Quebec’s Bill 21",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/22/iran-says-will-hit-regions-energy-sites-if-us-israel-target-power-plants?traffic_source=rss",
-              "pubDate": "2026-03-22T13:42:25.000Z",
+              "link": "https://www.aljazeera.com/opinions/2026/3/22/canadas-supreme-court-must-strike-down-quebecs-bill-21?traffic_source=rss",
+              "pubDate": "2026-03-22T14:25:45.000Z",
               "tier": 1
             }
           ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "iran-says-will-hit-regions-energy-sites-if-us-israel-target-power-plants"
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "canadas-supreme-court-must-strike-down-quebecs-bill-21"
+        },
+        {
+          "representativeTitle": "Puerto Rican activists bring medicine to Havana despite US blockade",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Puerto Rican activists bring medicine to Havana despite US blockade",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/22/puerto-rican-activists-bring-medicine-to-havana-despite-us-blockade?traffic_source=rss",
+              "pubDate": "2026-03-22T14:14:02.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "puerto-rican-activists-bring-medicine-to-havana-despite-us-blockade"
         },
         {
           "representativeTitle": "Hezbollah attack kills one in north Israel as assault on Lebanon continues",
@@ -1131,64 +1171,24 @@ export const newsData = {
           "slug": "drone-footage-shows-damage-in-arad-after-overnight-iranian-missile-attack"
         },
         {
-          "representativeTitle": "Drone footage captures flooding across Oahu, Hawaii",
+          "representativeTitle": "IDF kills commander of Hezbollah's Radwan Force special forces in Lebanon",
           "sources": [
-            "Al Jazeera"
+            "Yahoo"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Drone footage captures flooding across Oahu, Hawaii",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/22/drone-footage-captures-flooding-across-oahu-hawaii?traffic_source=rss",
-              "pubDate": "2026-03-22T07:06:48.000Z",
-              "tier": 1
+              "title": "IDF kills commander of Hezbollah's Radwan Force special forces in Lebanon",
+              "source": "Yahoo",
+              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWWE0S2ExcVJUY0d1eURXZExaSmpRemtOdm80NHZ6VFRwaVRoUVdseWRHcFd4VXlJNU1WNkY3Q2xRRC1VSmJTQmdDZExpX0I4RU5WQ2piWGZ4QUJLOVdYSW1XaS1ic09TWHp3UVJDSmRqYzJHNFhpVjVPT3ZkWUEzX052NDVUWmV2QnFwOHBHbWE?oc=5",
+              "pubDate": "2026-03-22T08:06:07.000Z",
+              "tier": 2
             }
           ],
           "sentiment": -0.9,
-          "relevance_score": 7,
+          "relevance_score": 9,
           "importance": 50,
-          "slug": "drone-footage-captures-flooding-across-oahu-hawaii"
-        },
-        {
-          "representativeTitle": "Evloev upsets Murphy, sets up featherweight title shot against Volkanovski",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Evloev upsets Murphy, sets up featherweight title shot against Volkanovski",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/sports/2026/3/22/evloev-upsets-murphy-sets-up-featherweight-title-shot-against-volkanovski?traffic_source=rss",
-              "pubDate": "2026-03-22T05:23:38.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 3,
-          "importance": 30,
-          "slug": "evloev-upsets-murphy-sets-up-featherweight-title-shot-against-volkanovski"
-        },
-        {
-          "representativeTitle": "Trump threatens to ‘obliterate’ Iran power plants unless Hormuz Strait open",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump threatens to ‘obliterate’ Iran power plants unless Hormuz Strait open",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/22/trump-threatens-to-obliterate-iran-power-plants-unless-hormuz-strait-open?traffic_source=rss",
-              "pubDate": "2026-03-22T05:08:50.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "trump-threatens-to-obliterate-iran-power-plants-unless-hormuz-strait-open"
+          "slug": "idf-kills-commander-of-hezbollahs-radwan-force-special-forces-in-lebanon"
         },
         {
           "representativeTitle": "Iran says Hormuz open to all but ‘enemy-linked’ ships",
@@ -1211,6 +1211,66 @@ export const newsData = {
           "slug": "iran-says-hormuz-open-to-all-but-enemy-linked-ships"
         },
         {
+          "representativeTitle": "Dozens of extremist settlers beat Palestinians; burn homes, cars in revenge attacks",
+          "sources": [
+            "The Times of Israel"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Dozens of extremist settlers beat Palestinians; burn homes, cars in revenge attacks",
+              "source": "The Times of Israel",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTTdVS2ZuckM4Q1lRdG5XdWY4ekNqRGxOZURhOVlkSjBKSkJsLWlJcXlVZ2VqWUpPTGdpWVJ3RS1rZlF4eV9BNU1IX1JQR0hvc05uNFJIODVnemtmZWVnOFF3bkRTV01NeUpTT2F0RTFNNDFnWmN1endPeE54bzE4SkRCNFRCVlUtLXNtZ0FSeThGNDVEMkVPbXNFMV83ZnlmM1VGdXdIdlpKaDdfOWx6d1VR0gG3AUFVX3lxTE9rdXpfSFp6MVBIbmYzS0VqWE9wR1lpVzROVDVnSGk2VXQ4T2hkTVc0VWl0ZVhEVG5fV05KQk9FTkxIc3FOUzhfRlE5aDRCYVFsN0V3U3cydnR0dDhPMTUtTU5Mb09UZHNzZTFsVENWbjRmSGJKeVBpU2pYMkpmTFFNcXhBeHpGbFRvTmNsYjZPQTdvOEhjajNWZXg1djFTMEJoeWY5aDlBOXNxVTNzRG1qOE1ITXBhSQ?oc=5",
+              "pubDate": "2026-03-22T12:56:15.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "dozens-of-extremist-settlers-beat-palestinians-burn-homes-cars-in-revenge-attacks"
+        },
+        {
+          "representativeTitle": "Four years after deadly China Eastern plane crash, investigators offer no answers",
+          "sources": [
+            "Yahoo News UK"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Four years after deadly China Eastern plane crash, investigators offer no answers",
+              "source": "Yahoo News UK",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE42Mk5KZzk2WFV0TnA4TXE1SXZJMml0bm5NdUtnOGdRb2tJcU1YbFhreTFHcm43dXlEYjZ5dXl2WWFwWV9MVktSYnlxQ1NUYW1EWUZGS0dqa1RKTEt6dkdub0pxa2FWVkZIQmU5alJCN0NtakJNcTZLdk9KTks?oc=5",
+              "pubDate": "2026-03-22T02:39:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "four-years-after-deadly-china-eastern-plane-crash-investigators-offer-no-answers"
+        },
+        {
+          "representativeTitle": "Exclusive: Judges clear ICC’s Karim Khan over sexual misconduct claims",
+          "sources": [
+            "Middle East Eye"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Exclusive: Judges clear ICC’s Karim Khan over sexual misconduct claims",
+              "source": "Middle East Eye",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1NNV1VVbVpKRHJhS2xsZ1RNQmx4amZqNEZHYTRKY1RoWWFYNzhWZzVzQnBNalRvSHlVeVozRk5EUnZ6TzExUWE1cWtYRmlEek4xRUZjZTNLV2U4SnhqS0xRWFVhc19fY1Z4b0pLZmtNVXMwN012MGs4eTcwWmdycmktMlA3Zm9GRTRKZjZqX2lyRGpRbVE?oc=5",
+              "pubDate": "2026-03-21T18:11:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "exclusive-judges-clear-iccs-karim-khan-over-sexual-misconduct-claims"
+        },
+        {
           "representativeTitle": "Iran prepared to let Japanese ships transit Hormuz, FM says",
           "sources": [
             "The Japan Times"
@@ -1229,26 +1289,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "iran-prepared-to-let-japanese-ships-transit-hormuz-fm-says"
-        },
-        {
-          "representativeTitle": "IDF chief approves wave of strikes against Iran, Hezbollah",
-          "sources": [
-            "The Jerusalem Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "IDF chief approves wave of strikes against Iran, Hezbollah",
-              "source": "The Jerusalem Post",
-              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fdmhIeW1tVFZPRGFnU3hjQlQ3SC1IYzlRRF9BemkxUTc3b2NqaFhMS1JZcTlRZTBlbFdBZF9iSzJ6TFpZYlpJT29EbDdub0p5dTFCNng5WWZ3dy1lTHZ4enRZbjh5dkJmbGlMWG9n?oc=5",
-              "pubDate": "2026-03-21T23:50:50.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "idf-chief-approves-wave-of-strikes-against-iran-hezbollah"
         },
         {
           "representativeTitle": "All Iranian officials and commanders killed in the past nine months",
@@ -1289,26 +1329,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 50,
           "slug": "trumps-mixed-messages-on-iran-winding-down-the-war-and-easing-sanctions-but-adding-more-troops"
-        },
-        {
-          "representativeTitle": "Here’s What Happened in the War in the Middle East on Saturday",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Here’s What Happened in the War in the Middle East on Saturday",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbWJzdnNvOUlTV2Iyc2tVaVJuTjh5ZmJNb3JWLW9SemFheVo5OGRObFZ6MkVuSGRvNzE0ZXMwdEJfOGh1NWw1MTloVXQyZlplTG1GQ21zWDN5MXA3WmZEa0hPek1XS1k3a21sVTlCQlR0UXR5YTJ0WTV2Vnk5Z1pSR1FDRVg?oc=5",
-              "pubDate": "2026-03-21T23:18:06.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 55,
-          "slug": "heres-what-happened-in-the-war-in-the-middle-east-on-saturday"
         }
       ]
     },
@@ -1460,10 +1480,11 @@ export const newsData = {
           "sources": [
             "The New York Times",
             "The Washington Post",
+            "USA Today",
             "CNN",
             "Axios"
           ],
-          "citationCount": 4,
+          "citationCount": 5,
           "rawArticles": [
             {
               "title": "Robert Mueller, Former FBI Director Who Led Trump Inquiry, Dies at 81",
@@ -1477,6 +1498,13 @@ export const newsData = {
               "source": "The Washington Post",
               "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBMTXdaTDFad1FRQUNiTW9hdG5SSzdLWEtMdTFFUDRSenJyRkFZcFZCMkRTVlBUZURqVXhlc1N6TTFiZDBqQ3NZT3lJRmlvMkdBLWdNOF9BdFNtekI2dzlWRFhORDhiZi1wUDlRU2JZZkljU1I4ZnV3bjJSTmhQUQ?oc=5",
               "pubDate": "2026-03-22T03:20:12.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Robert Mueller, former FBI director who investigated Trump, dead at 81",
+              "source": "USA Today",
+              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbWd0NmNxTlh6dXZTQWJZNnpYaEJJVVBQc2w4OUM1Mnk0SXVzWEVmZEZsZWV0Q2J1dVJRcXRSNmNQaGdzZEd1VDIxU0lpU0FqV0d1UkVDQkpDaTdzSThtOGZTbkZGajNSWFVzSlMxaXVkTVBjeXpsRnpqaTFmLTNIVmxtQ2gwUnBxbE5Yb3JzejFpaW94ZndZUExlT0NoeDZ0NzR5c29TVlhXaHk0?oc=5",
+              "pubDate": "2026-03-21T23:11:00.000Z",
               "tier": 2
             },
             {
@@ -1496,7 +1524,7 @@ export const newsData = {
           ],
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
+          "importance": 65,
           "slug": "robert-mueller-former-fbi-director-who-led-trump-inquiry-dies-at-81"
         },
         {
@@ -1510,7 +1538,7 @@ export const newsData = {
               "title": "Opinion | The case against the Senate filibuster no Republican can make",
               "source": "The Washington Post",
               "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQc1pHRnBVbVhkSDR4WXhOa1ZfU09CZ1pkZmdjWTU0bElqNlp0UEYyNHVhbUpITHVNamNNNFBEVDFIRVdkaXF3V0hlaG9xN293VWVZSkdhb19uY01JazNYUmZyN0dLVTNRZF9TV29QQmUwVHFJbkpZUHRiazAtRXljWmp1c0VVWVJ2cG9qMU1RSlZGUVZISHRIbW5B?oc=5",
-              "pubDate": "2026-03-22T13:01:57.000Z",
+              "pubDate": "2026-03-22T14:31:57.000Z",
               "tier": 2
             }
           ],
@@ -1523,26 +1551,18 @@ export const newsData = {
           "representativeTitle": "ICE Agents to Be Sent to U.S. Airports on Monday, Trump Says",
           "sources": [
             "USA Today",
-            "NonStop Local Billings",
             "The New York Times",
             "KTEN",
             "USA Today",
             "The Washington Post"
           ],
-          "citationCount": 6,
+          "citationCount": 5,
           "rawArticles": [
             {
               "title": "Trump to send ICE agents to help strained TSA at airports",
               "source": "USA Today",
               "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa3I5OXhXNlN6N1ltVVh4YUpUeFY0RUxvaElTZE1PM0FtaXl5cGx0X2syeUZnSjMxT3EwMVZvT2NIMmFSeW44T2dpdHpXRmxkU0lPd245NEMtWjR6ZWVjRjNKSUgweTNvSDZneEN5cnlmQ2hfcWZNNmZsNWZUYmtrN05QZHJEbWQwRkUyYzNaRW02dmNFZ2Y3X3BjbWNGdHg3QVVlVXFxTXhJQTBRWC1ESUhB?oc=5",
-              "pubDate": "2026-03-22T13:00:19.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump threatens to use ICE agents for airport security control",
-              "source": "NonStop Local Billings",
-              "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTEJINWpPTTdQT3ZZMmc3Um5zX0NBcWxlUWN5ZEVtSkFsdXJ5Z1BBNDc5NU82NnNweFEtTXEzSzE5WjFnVHY5d3pCSlpWYl9GbVR6TmtTSERHNGU2NHBsc19MdTAwVHFES2JIRkRMTmNVT05GMlRvZ2U0Y3JKbVJKWXFDVlBZcFpYNGxpQWFSTHFxVkdhTVdiakloV0Nnc1E5b3ItaG40MEhvRUdpcGJ4czhGaEhRTTJOQlVGWXdCUTNlbTBDdHYxa196emZLMlFkNm8tSkNWTDJkaU1IYlJpc1d3?oc=5",
-              "pubDate": "2026-03-21T17:07:51.000Z",
+              "pubDate": "2026-03-22T14:13:00.000Z",
               "tier": 2
             },
             {
@@ -1570,34 +1590,42 @@ export const newsData = {
               "title": "Trump says he will deploy ICE to airports as TSA shortages drive delays",
               "source": "The Washington Post",
               "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZE80SF9MdWpqN1k2aHNkeU1HUVo5a3hScFFsRDN3alk0OWF3OTluSklaUHdaUEVvNXM2TlVtcEtzclZXLXo3bGhWUjVTVm5mTzBQS0tQdHR5SXZ4SEV4Q3drN1psMmM4R0JqZlk4TkRtSXozcENpZk45YVpBdmtpd3A4elo5NGI1anRiaGdKb1NXaWtNWXZndVBLSDMzdVRydk1EamJXQjlRaVp6bC1YSDd5S18?oc=5",
-              "pubDate": "2026-03-22T13:37:09.000Z",
+              "pubDate": "2026-03-22T14:22:26.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 60,
+          "importance": 55,
           "slug": "ice-agents-to-be-sent-to-us-airports-on-monday-trump-says"
         },
         {
-          "representativeTitle": "Cuba's deputy foreign minister says its military is preparing for possible 'military aggression' from the U.S.",
+          "representativeTitle": "Cuba Says Its Military Is Prepared as Trump’s Threats Multiply",
           "sources": [
-            "NBC News"
+            "NBC News",
+            "Bloomberg.com"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Cuba's deputy foreign minister says its military is preparing for possible 'military aggression' from the U.S.",
+              "title": "Cuba's deputy foreign minister says its military is preparing for possible 'aggression' from the U.S.",
               "source": "NBC News",
               "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY2s1V3A3VllwVWlzSVJ5VExwWk9KV0t3dVBtMmJhU202dnpRM3JtUkIwMjlveFdRZU8xUk9HS3AxbllsbnVqemtUX1ZNRE5PeWZta2VJUEl1ZnJDQ25kVjA0ZWw3cXFmSlgwWEZZdFBxSU9qeThXeGpGQzZfbE5TTFVEZENjYmRDYXp2bzkwbXRad2dWeHRUUkx2YXhvbVZZY2kzZ0tGbTRYQQ?oc=5",
               "pubDate": "2026-03-22T13:11:23.000Z",
               "tier": 2
+            },
+            {
+              "title": "Cuba Says Its Military Is Prepared as Trump’s Threats Multiply",
+              "source": "Bloomberg.com",
+              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMkZydVFRSHhpSFdIWUpzZkN2eVhVVElRZmpCQ2VQTUNocl9DcTFVREdiRldFbUwwS1FUNmZlOFlaNmxTM0dGcGVOUE0yNWJNMlJvaU4yd3NXN3pCbGwzS2dpbzdBNjJGdmJHMmJXSU5ZVTI1RHc0N0xFdWIyblNnWFFiZWZxQ3NkNzBTMk9kdndWakNDXzhxUld6anRuSVRFUnlieVBkb0ZQMWV4UC1FMHJiOA?oc=5",
+              "pubDate": "2026-03-22T13:00:00.000Z",
+              "tier": 2
             }
           ],
           "sentiment": -0.4,
-          "relevance_score": 8,
+          "relevance_score": 7,
           "importance": 45,
-          "slug": "cubas-deputy-foreign-minister-says-its-military-is-preparing-for-possible-military-aggression-from-the-us"
+          "slug": "cuba-says-its-military-is-prepared-as-trumps-threats-multiply"
         },
         {
           "representativeTitle": "The quiet American: How Pope Leo is pushing back against Trump",
@@ -1654,26 +1682,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "march-22-muellers-death-spurs-us-political-risk-watch-for-markets"
-        },
-        {
-          "representativeTitle": "US national debt surges past $39 trillion just weeks into war in Iran",
-          "sources": [
-            "Scripps News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US national debt surges past $39 trillion just weeks into war in Iran",
-              "source": "Scripps News",
-              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYW1RM2lGQjMwZDdjcDlhRmExWFRpNk5UcWx6VXhHTlhaUWRJOUJuUldiRDRiem84SDg2Rnp3bEpnN25pNVBNSDdDTFV5RTZuWFR3UkRuR3N2aF93Z0RQRHFKRGNQMTg3QVZPdGlCRkkyaXNVQjdId2pvQjdqTmVIRHhvZi1QMmJDOVg5WXZPcE50a3JVZFEtNURUTnBlby1kdkRqTGlSZUdvdENHU2ZGb2ZtYw?oc=5",
-              "pubDate": "2026-03-22T10:33:44.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 55,
-          "slug": "us-national-debt-surges-past-39-trillion-just-weeks-into-war-in-iran"
         },
         {
           "representativeTitle": "F.C.C. Approves Merger of TV Affiliate Owners",
@@ -1736,24 +1744,44 @@ export const newsData = {
           "slug": "how-corey-lewandowski-wielded-power-inside-dhs"
         },
         {
-          "representativeTitle": "U.S. Vice President J.D. Vance May Visit Budapest in the Coming Days",
+          "representativeTitle": "US national debt surges past $39 trillion just weeks into war in Iran",
           "sources": [
-            "Hungary Today"
+            "Scripps News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "U.S. Vice President J.D. Vance May Visit Budapest in the Coming Days",
-              "source": "Hungary Today",
-              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzVEF3TWxzRXlJZFlZUE91WGY4dl9lYk51eWRWV0RKTVBVckk1NjFvcjFnNzQ5YWtoVWdtNDlhVU0wZ2RwZ2lwWEJIR3lPSGVNY0FaM2hwR0JtZFpEa21TYmprRnZBUjhtYU9adFJPUEM1MHZpLU5HYXpBaGs?oc=5",
-              "pubDate": "2026-03-22T08:52:17.000Z",
+              "title": "US national debt surges past $39 trillion just weeks into war in Iran",
+              "source": "Scripps News",
+              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYW1RM2lGQjMwZDdjcDlhRmExWFRpNk5UcWx6VXhHTlhaUWRJOUJuUldiRDRiem84SDg2Rnp3bEpnN25pNVBNSDdDTFV5RTZuWFR3UkRuR3N2aF93Z0RQRHFKRGNQMTg3QVZPdGlCRkkyaXNVQjdId2pvQjdqTmVIRHhvZi1QMmJDOVg5WXZPcE50a3JVZFEtNURUTnBlby1kdkRqTGlSZUdvdENHU2ZGb2ZtYw?oc=5",
+              "pubDate": "2026-03-22T10:33:44.000Z",
               "tier": 2
             }
           ],
-          "sentiment": 0,
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 55,
+          "slug": "us-national-debt-surges-past-39-trillion-just-weeks-into-war-in-iran"
+        },
+        {
+          "representativeTitle": "Nonprofits, unions and airports rally to feed TSA officers as shutdown drags",
+          "sources": [
+            "AP News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Nonprofits, unions and airports rally to feed TSA officers as shutdown drags",
+              "source": "AP News",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS29VUlZ1Nk9TTkFSRktJYllqdkFTMVJlU2F4dkFDVVI4Vjl1dy0xTTd5bXhwbG1SRk9YZHE5WG1rZFVHZ29tcmRzUkJwOXZtci1XNUZ4UG5TakRNYlpqOFpPMzdPRl9zWlFZQlpkMUVQQXh4ZjA0dWJnWVBQTHIwTUhKZ1VaWmp6ejdvWDFQWlBFcGJpWnlJQmJmMnpTUQ?oc=5",
+              "pubDate": "2026-03-22T05:56:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "us-vice-president-jd-vance-may-visit-budapest-in-the-coming-days"
+          "slug": "nonprofits-unions-and-airports-rally-to-feed-tsa-officers-as-shutdown-drags"
         },
         {
           "representativeTitle": "Supreme Court to consider deadlines for late-arriving mail ballots, as Trump continues attacks",
@@ -1774,26 +1802,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "supreme-court-to-consider-deadlines-for-late-arriving-mail-ballots-as-trump-continues-attacks"
-        },
-        {
-          "representativeTitle": "Cuba's power grid collapses leaving it without electricity for the 3rd time this month",
-          "sources": [
-            "NPR"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cuba's power grid collapses leaving it without electricity for the 3rd time this month",
-              "source": "NPR",
-              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8xa3kzUnZXUjhhRWVsLUUwdGZyQnJSWEVRNnR4Y0dYWVJKZFE3SWpKVXJaYS13N3BUckppRUJralozZkExcjB0dndiaERXNmtIYmZuVjVsSEJDN1ExNTN6OFo2UzhYN3ROTE16TTVXWVJVaEhEWHdWeWxUUQ?oc=5",
-              "pubDate": "2026-03-22T08:12:26.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "cubas-power-grid-collapses-leaving-it-without-electricity-for-the-3rd-time-this-month"
         },
         {
           "representativeTitle": "The Epstein files’ cottage industry",
@@ -1826,7 +1834,7 @@ export const newsData = {
               "title": "As Northwest Flooding Worsens, Conflicting Interests Stymie Solutions",
               "source": "The New York Times",
               "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQUhON0k2MnF5Q2pIS3RBYjE0c1RjZ0JiU0E2REFHVDBMWmlxU0czWnB4eEZNbHZOVF9MQUI4SEpPNS1CVjdad0NWZnJXdlB3djNERWFzdjA5Y2VFNk04YTFyZEY5N0s4N3FiS2tuRFJoNUhTT1dFRm1vOGFPdEFZSVhn?oc=5",
-              "pubDate": "2026-03-22T11:55:20.000Z",
+              "pubDate": "2026-03-22T14:10:30.000Z",
               "tier": 2
             }
           ],
@@ -1856,24 +1864,24 @@ export const newsData = {
           "slug": "hawaiis-worst-flooding-in-20-years-threatens-dam-prompts-evacuations-as-more-rain-looms"
         },
         {
-          "representativeTitle": "Extreme heat continues to strike Southwest US and even Nebraska needs a cold drink",
+          "representativeTitle": "Cuba's power grid collapses leaving it without electricity for the 3rd time this month",
           "sources": [
-            "AP News"
+            "NPR"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Extreme heat continues to strike Southwest US and even Nebraska needs a cold drink",
-              "source": "AP News",
-              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQWIxdTE5X08xczF4N2FyWVhSN1oxR3RUa09ZUS1UWkNPWm1nZTJwZ0xMcFl3aG1hb1ZkWDFicV81cXhNMjFjUzdMV3JreGFNbkg2WGlxWUwyeXhZQTQtcjVWYjhHcWdQVzYtcnNRTlJPY2k2RjdYeFIweTV0Ty1HMkxrZUVGZm04akNFbzBUZHVRTTZMM0JfNDQ3aTdEeGpD?oc=5",
-              "pubDate": "2026-03-21T21:58:00.000Z",
+              "title": "Cuba's power grid collapses leaving it without electricity for the 3rd time this month",
+              "source": "NPR",
+              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8xa3kzUnZXUjhhRWVsLUUwdGZyQnJSWEVRNnR4Y0dYWVJKZFE3SWpKVXJaYS13N3BUckppRUJralozZkExcjB0dndiaERXNmtIYmZuVjVsSEJDN1ExNTN6OFo2UzhYN3ROTE16TTVXWVJVaEhEWHdWeWxUUQ?oc=5",
+              "pubDate": "2026-03-22T08:12:26.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.9,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "extreme-heat-continues-to-strike-southwest-us-and-even-nebraska-needs-a-cold-drink"
+          "slug": "cubas-power-grid-collapses-leaving-it-without-electricity-for-the-3rd-time-this-month"
         },
         {
           "representativeTitle": "Chávez celebrations halted nationwide as allegations reshape legacy",
@@ -1894,6 +1902,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "chvez-celebrations-halted-nationwide-as-allegations-reshape-legacy"
+        },
+        {
+          "representativeTitle": "Extreme heat continues to strike Southwest US and even Nebraska needs a cold drink",
+          "sources": [
+            "AP News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Extreme heat continues to strike Southwest US and even Nebraska needs a cold drink",
+              "source": "AP News",
+              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQWIxdTE5X08xczF4N2FyWVhSN1oxR3RUa09ZUS1UWkNPWm1nZTJwZ0xMcFl3aG1hb1ZkWDFicV81cXhNMjFjUzdMV3JreGFNbkg2WGlxWUwyeXhZQTQtcjVWYjhHcWdQVzYtcnNRTlJPY2k2RjdYeFIweTV0Ty1HMkxrZUVGZm04akNFbzBUZHVRTTZMM0JfNDQ3aTdEeGpD?oc=5",
+              "pubDate": "2026-03-21T21:58:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "extreme-heat-continues-to-strike-southwest-us-and-even-nebraska-needs-a-cold-drink"
         },
         {
           "representativeTitle": "Fact-checking Senate Minority Leader Chuck Schumer on the effects of the SAVE America Act",
@@ -1936,26 +1964,6 @@ export const newsData = {
           "slug": "us-allows-sale-of-stranded-iran-oil-to-cap-fuel-price-rises"
         },
         {
-          "representativeTitle": "Legal immigration to U.S. is falling from most countries under Trump, data shows",
-          "sources": [
-            "The Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Legal immigration to U.S. is falling from most countries under Trump, data shows",
-              "source": "The Washington Post",
-              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTkhsZG9fZEI0eUlta1FaR045amlyTnROR2ozaFFCZmpGSEVrelBYTGJuSmwxRDlnM1huWlROZ3l2QkdKR3hnaDRabUdVek5Sbm1VLTBMaG1IVzVaRktqbzRTRXV0ejZrM1dWVi1IV0RScW9QTnFFNE5vRUlSMHF4SDV4S0g4Y1p0?oc=5",
-              "pubDate": "2026-03-22T13:31:17.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "legal-immigration-to-us-is-falling-from-most-countries-under-trump-data-shows"
-        },
-        {
           "representativeTitle": "Trump Wants $200 Billion More For Iran War. Here's What Else That Could Fund.",
           "sources": [
             "Forbes"
@@ -1996,44 +2004,24 @@ export const newsData = {
           "slug": "detained-immigrant-children-still-face-concerning-conditions-at-texas-facility-lawyers-say"
         },
         {
-          "representativeTitle": "G.O.P. Bid to Target Transgender Athletes Falls Flat in the Senate",
+          "representativeTitle": "Senate rejects Trump-backed measure to ban trans athletes in female sports",
           "sources": [
-            "The New York Times"
+            "The Washington Post"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "G.O.P. Bid to Target Transgender Athletes Falls Flat in the Senate",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONTV5MVlBa0daTG1OaEl1ZWNmLXhBeUlUMlAyWUprajk0V2FTamxzbk9yN2pYcVUwZUVYY0tBTmZ0a1BJaUtydHpHUjFqMjdTcVVRc1pOTWx3UzFBOXhZVGlDckNXZTFxMzBDVVpNaENLaEpFZEJrUEtuR1NBeGdkSnM1anJXRHg4c2VJ?oc=5",
-              "pubDate": "2026-03-21T20:56:48.000Z",
+              "title": "Senate rejects Trump-backed measure to ban trans athletes in female sports",
+              "source": "The Washington Post",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONTZQTEI4U0NjcjgtRHZadTdidDFIUVZuRWFXWm9pOGtYQVdWTjIzN3FKMktKbVNhcW9vVi1DTlhNRDBBX2dYdHU5NUVROVAyWlo4Tm1UdVpzOWxWdEhHYUZLc08xRFVJYnZ2SW9zaHhrb1dzd01XTGJwLWJjRDBjREY2VGk2TjRZQ0Y4?oc=5",
+              "pubDate": "2026-03-22T02:57:47.000Z",
               "tier": 2
             }
           ],
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "gop-bid-to-target-transgender-athletes-falls-flat-in-the-senate"
-        },
-        {
-          "representativeTitle": "Trump’s Contested Campus Antisemitism Fight Is Accelerating Again",
-          "sources": [
-            "The New York Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump’s Contested Campus Antisemitism Fight Is Accelerating Again",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSFdsc3VSZ0MxVjlfMEo0cnhnSU5ZQzh5YVRPRXVBYjdzOGoyQ0xxYWZUdDd1Yy12aXpnVzZDd25ucWVwZ3JsZ3hnNHNqaHY5U2RkcWhvb2sxQzhJU2UzR1h3T2k2Zmo1dkxQZnAwakwwMDB3NHBLV01EdGlmMWlPby1PYUtBY1NtemowNGxaaVU?oc=5",
-              "pubDate": "2026-03-21T21:13:42.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "trumps-contested-campus-antisemitism-fight-is-accelerating-again"
+          "slug": "senate-rejects-trump-backed-measure-to-ban-trans-athletes-in-female-sports"
         },
         {
           "representativeTitle": "Pentagon Pete Busted for Bogus ‘Better Than Ever’ War Claims",
@@ -2063,9 +2051,10 @@ export const newsData = {
         {
           "representativeTitle": "The price of menstrual products is skyrocketing from inflation, tariffs",
           "sources": [
-            "CNBC Economy"
+            "CNBC Economy",
+            "CNBC"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "The price of menstrual products is skyrocketing from inflation, tariffs",
@@ -2073,22 +2062,49 @@ export const newsData = {
               "link": "https://www.cnbc.com/2026/03/22/menstrual-products-tampons-feminine-care-prices-inflation.html",
               "pubDate": "2026-03-22T12:00:01.000Z",
               "tier": 1
+            },
+            {
+              "title": "The price of menstrual products is skyrocketing from inflation, tariffs",
+              "source": "CNBC",
+              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRE5DekVPQXR0V05ZNG1YUnp4LXRGQTR5VzMteHVUbXdralFUWTdLTzNMbHpUMURhdi1YdnZUOGNlUDRMeVJzeWMzU1hQMzF6aUN0eVREc2VmZGViamc2NFRqZ3cwcy1MSG1XZEsyR08yX2RXamdXSThHTWtkUERLc2lQbnBQS1pPbnRFTi1RbDk0S2VYNi1GM3ZB0gGfAUFVX3lxTE9UcXpRR01mZnFwWlBfc29ocmRsNjlPd1haeVJzaG0xVGZ5QzRDek4yaEFpVkhGa0dQQzZUcjNRSk1IOUxILS1jX2g1NTBCUXF5ejZVeXRhMnlVTTFvVldsVjJONFdSb3RCZ2FyY2JJMTdSN284ZG1fVmJUcGxxN3AxeFk3U1p6STlET1d1cXdBQmMyUUxaRXZPYzI2VmNXOA?oc=5",
+              "pubDate": "2026-03-22T12:00:01.000Z",
+              "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 50,
+          "importance": 55,
           "slug": "the-price-of-menstrual-products-is-skyrocketing-from-inflation-tariffs"
         },
         {
-          "representativeTitle": "Iran threatens ‘vital’ infrastructure in response to Trump ultimatum",
+          "representativeTitle": "Trump pushes Iran war to new phase of escalation",
           "sources": [
             "Financial Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran threatens ‘vital’ infrastructure in response to Trump ultimatum",
+              "title": "Trump pushes Iran war to new phase of escalation",
+              "source": "Financial Times",
+              "link": "https://www.ft.com/content/2c901f4b-b9c8-4fab-8fe1-6b58cb062957",
+              "pubDate": "2026-03-22T14:23:36.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "trump-pushes-iran-war-to-new-phase-of-escalation"
+        },
+        {
+          "representativeTitle": "Iran threatens ‘vital’ infrastructure and Hormuz Strait closure in response to Trump ultimatum",
+          "sources": [
+            "Financial Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Iran threatens ‘vital’ infrastructure and Hormuz Strait closure in response to Trump ultimatum",
               "source": "Financial Times",
               "link": "https://www.ft.com/content/a0e724d8-8f21-4ef4-811a-5a1be06d647e",
               "pubDate": "2026-03-22T12:34:05.000Z",
@@ -2096,9 +2112,9 @@ export const newsData = {
             }
           ],
           "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "iran-threatens-vital-infrastructure-in-response-to-trump-ultimatum"
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "iran-threatens-vital-infrastructure-and-hormuz-strait-closure-in-response-to-trump-ultimatum"
         },
         {
           "representativeTitle": "War with Iran has exposed American fragility at sea",
@@ -2326,6 +2342,26 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
+          "representativeTitle": "Delve accused of misleading customers with ‘fake compliance’",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Delve accused of misleading customers with ‘fake compliance’",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/03/22/delve-accused-of-misleading-customers-with-fake-compliance/",
+              "pubDate": "2026-03-22T14:43:51.000Z",
+              "tier": 1
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "delve-accused-of-misleading-customers-with-fake-compliance"
+        },
+        {
           "representativeTitle": "An exclusive tour of Amazon’s Trainium lab, the chip that’s won over Anthropic, OpenAI, even Apple",
           "sources": [
             "TechCrunch"
@@ -2384,26 +2420,6 @@ export const newsData = {
           "relevance_score": 5,
           "importance": 40,
           "slug": "publisher-pulls-horror-novel-shy-girl-over-ai-concerns"
-        },
-        {
-          "representativeTitle": "Delve accused of misleading customers with ‘fake compliance’",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Delve accused of misleading customers with ‘fake compliance’",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/03/21/delve-accused-of-misleading-customers-with-fake-compliance/",
-              "pubDate": "2026-03-21T17:00:05.000Z",
-              "tier": 1
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "delve-accused-of-misleading-customers-with-fake-compliance"
         },
         {
           "representativeTitle": "Why Wall Street wasn’t won over by Nvidia’s big conference",
@@ -2473,34 +2489,6 @@ export const newsData = {
           "slug": "online-age-checks-came-first-a-vpn-crackdown-could-be-next"
         },
         {
-          "representativeTitle": "Halide co-founder is suing former partner for bringing source code to Apple",
-          "sources": [
-            "The Verge",
-            "The Verge"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Halide co-founder is suing former partner for bringing source code to Apple",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/business/898687/halide-lawsuit-co-founder-apple",
-              "pubDate": "2026-03-21T21:02:56.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Halide co-founder is suing former partner for bringing source code to Apple",
-              "source": "The Verge",
-              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBseDM1dVl1eVRScGZYdVNKa1cxT2JkZHRFU3RQOFhld1BadFo1SWE5bFp4U1pPTVV5OVpSWVc1aTVlZ25mTk54WUswMEVOTFFmRDBYc2NuNGpLbnZPVlE1LUt6X0EydzhBdnVDeTJJaTJvXzZ4MVh6Yk9CS1g?oc=5",
-              "pubDate": "2026-03-21T21:02:56.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 35,
-          "slug": "halide-co-founder-is-suing-former-partner-for-bringing-source-code-to-apple"
-        },
-        {
           "representativeTitle": "The AirPods Pro 3 are $50 off right now, nearly matching their best-ever price",
           "sources": [
             "The Verge",
@@ -2549,6 +2537,26 @@ export const newsData = {
           "slug": "mining-the-deep-ocean"
         },
         {
+          "representativeTitle": "Spyware once used by governments is now spreading to cybercriminals",
+          "sources": [
+            "Axios"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Spyware once used by governments is now spreading to cybercriminals",
+              "source": "Axios",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DQWxOQWMta1JJQVIzSzRDaVRRM2RDMmJiR2VNNm5UUnAzdUpMcUdBOFcwenloNXZuYW1WVm1aZTB1a2VoVG9uM1hMaGxQZzg4UG5xUk1ISnI1QVpmU01VcjFsaldab2FaOUEzcjJWTVRUZHBqeUNNcDVFLVg?oc=5",
+              "pubDate": "2026-03-22T02:15:18.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "spyware-once-used-by-governments-is-now-spreading-to-cybercriminals"
+        },
+        {
           "representativeTitle": "Bloodstained: The Scarlet Engagement listed for Nintendo Switch, plus an unannounced 505 Games Switch 2 title",
           "sources": [
             "Nintendo Everything"
@@ -2567,26 +2575,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "bloodstained-the-scarlet-engagement-listed-for-nintendo-switch-plus-an-unannounced-505-games-switch-2-title"
-        },
-        {
-          "representativeTitle": "Apple M5 MacBook Pro and Air Review: When the Neo Isn’t Enough",
-          "sources": [
-            "Bloomberg.com"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Apple M5 MacBook Pro and Air Review: When the Neo Isn’t Enough",
-              "source": "Bloomberg.com",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOai1jY2p3SjRScmxrUWdMTXNoczVta2RvbHVjdDk2WmQ4MzFpNzd0enJhZFRqdko2ZUt3N0V1eG9aRjZTQ19oOGV0cm5FcGFDREdkaWp1c0tXY1dDeDJfSUVlUFNIcWpibHpMb2NIZDgtbHRvd2ZyZ3NUYTUyYlBhOHlNdFZqSVdLaTN0cGI1SHNhN1FBMUxVek9MRjZQN2hBWUh1V3RyUE5YRVdpRUZPY1dIcHkxemxZUmc?oc=5",
-              "pubDate": "2026-03-21T15:00:05.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "apple-m5-macbook-pro-and-air-review-when-the-neo-isnt-enough"
         },
         {
           "representativeTitle": "Google Search test replaces headlines and website titles with AI",
@@ -2609,24 +2597,24 @@ export const newsData = {
           "slug": "google-search-test-replaces-headlines-and-website-titles-with-ai"
         },
         {
-          "representativeTitle": "Two more senior Xbox leaders exit Microsoft",
+          "representativeTitle": "Firefox Announces Built-In VPN and Other New Features - and Introduces Its New Mascot",
           "sources": [
-            "Eurogamer"
+            "Slashdot"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Two more senior Xbox leaders exit Microsoft",
-              "source": "Eurogamer",
-              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45ZTFNMXVMSGdsWDRYZlNTR2dDa2lON184bmoxU3VzMS1IOGgtWmlpQ2VCRDVJNGJrMXpnQTU1SG5RRG1ZbjhPMTNUMWV3cVFfcEU1NkJ5SEs3XzhBTElfc0RJTzF4M1ZzaWQ5dFA2Y2lfWkVfWWpDUQ?oc=5",
-              "pubDate": "2026-03-21T14:10:41.000Z",
+              "title": "Firefox Announces Built-In VPN and Other New Features - and Introduces Its New Mascot",
+              "source": "Slashdot",
+              "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbmNhMVBvTkg1NkRxV01rS0dBVXlTVVlFaF9NUHYteWNudEt1S3pLUHF1N0QzNm9Pa0VyaXBQcVBMeFVlZHN0UXJzUENwc0t0MXFRQW0xeldQdEdmaXNXXy1xa1daZXNlSkdIRF9XTWJ3dm9SN0RoNV9YOU1kVVN0TzcxVFh1R0E2UVZudHZwR1FiaENhQlk4bXRMWlRNSnN2ajlCSnN0LUU3elA0a0pMVDNPV3ZsTFVRNERzeFFtUmw2UjlsRFY3U0VJUVF0dw?oc=5",
+              "pubDate": "2026-03-22T06:44:52.000Z",
               "tier": 2
             }
           ],
-          "sentiment": -0.4,
+          "sentiment": 0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "two-more-senior-xbox-leaders-exit-microsoft"
+          "slug": "firefox-announces-built-in-vpn-and-other-new-features---and-introduces-its-new-mascot"
         },
         {
           "representativeTitle": "Multiple Switch Games Receive Switch 2 Compatibility Fixes",
@@ -2649,24 +2637,24 @@ export const newsData = {
           "slug": "multiple-switch-games-receive-switch-2-compatibility-fixes"
         },
         {
-          "representativeTitle": "Firefox Announces Built-In VPN and Other New Features - and Introduces Its New Mascot",
+          "representativeTitle": "Reddit is weighing identity verification methods to combat its bot problem",
           "sources": [
-            "Slashdot"
+            "Engadget"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Firefox Announces Built-In VPN and Other New Features - and Introduces Its New Mascot",
-              "source": "Slashdot",
-              "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbmNhMVBvTkg1NkRxV01rS0dBVXlTVVlFaF9NUHYteWNudEt1S3pLUHF1N0QzNm9Pa0VyaXBQcVBMeFVlZHN0UXJzUENwc0t0MXFRQW0xeldQdEdmaXNXXy1xa1daZXNlSkdIRF9XTWJ3dm9SN0RoNV9YOU1kVVN0TzcxVFh1R0E2UVZudHZwR1FiaENhQlk4bXRMWlRNSnN2ajlCSnN0LUU3elA0a0pMVDNPV3ZsTFVRNERzeFFtUmw2UjlsRFY3U0VJUVF0dw?oc=5",
-              "pubDate": "2026-03-21T17:44:52.000Z",
+              "title": "Reddit is weighing identity verification methods to combat its bot problem",
+              "source": "Engadget",
+              "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd2s1UXhZNXBHOEdWZ2s1OG1ZcThWUlR1UkJvY0JVRHNmZHVOMklETUxJRDBXcjE5NTdwYUxGV09TdjByVjhEOTNzaW10ejY1M1RHZUliQmZfWkt2Uk1iemljbXI2NG1JNVI1OEZYTmFPcE10LU1taUNRUmlma2dURFpQTi01MHlhMjRSSWFwMmxtNVhqbmFMUzcwSmItZXdJNVcyamxmWHdObHJWRmhCM3hkMkplaFp0eHowSzcxWnZpRzQzZ1E?oc=5",
+              "pubDate": "2026-03-21T19:58:15.000Z",
               "tier": 2
             }
           ],
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "firefox-announces-built-in-vpn-and-other-new-features---and-introduces-its-new-mascot"
+          "slug": "reddit-is-weighing-identity-verification-methods-to-combat-its-bot-problem"
         },
         {
           "representativeTitle": "PSN Service Returning on PS5, PS4 as Brief Outage Took Service Offline",
@@ -2689,43 +2677,16 @@ export const newsData = {
           "slug": "psn-service-returning-on-ps5-ps4-as-brief-outage-took-service-offline"
         },
         {
-          "representativeTitle": "Reddit is weighing identity verification methods to combat its bot problem",
-          "sources": [
-            "Engadget"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Reddit is weighing identity verification methods to combat its bot problem",
-              "source": "Engadget",
-              "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd2s1UXhZNXBHOEdWZ2s1OG1ZcThWUlR1UkJvY0JVRHNmZHVOMklETUxJRDBXcjE5NTdwYUxGV09TdjByVjhEOTNzaW10ejY1M1RHZUliQmZfWkt2Uk1iemljbXI2NG1JNVI1OEZYTmFPcE10LU1taUNRUmlma2dURFpQTi01MHlhMjRSSWFwMmxtNVhqbmFMUzcwSmItZXdJNVcyamxmWHdObHJWRmhCM3hkMkplaFp0eHowSzcxWnZpRzQzZ1E?oc=5",
-              "pubDate": "2026-03-21T19:58:15.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "reddit-is-weighing-identity-verification-methods-to-combat-its-bot-problem"
-        },
-        {
           "representativeTitle": "Motivated employees get more out-of-role work, even when it costs bonuses",
           "sources": [
             "Phys.org"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Motivated employees get more out-of-role work, even when it costs bonuses",
               "source": "Phys.org",
               "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9SajZhcFpzRlBCSmN2NjR6MGJLMUx1bFpTbkRRRER1M2U4YjNwWnlsZTNXM0dic0d2czg2eks2ajN1Rk10alI0VVJmV1IxbnpIYlR3WFloSnJucHJYREdBQ2R3M0RYTVhp?oc=5",
-              "pubDate": "2026-03-21T16:00:03.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Motivated employees get more out-of-role work, even when it costs bonuses",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-employees-role-bonuses.html",
               "pubDate": "2026-03-21T16:00:03.000Z",
               "tier": 2
             }
@@ -2734,26 +2695,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "motivated-employees-get-more-out-of-role-work-even-when-it-costs-bonuses"
-        },
-        {
-          "representativeTitle": "Feb 2026 USA Sales: PS5 Outsells Nintendo's New Switch 2 for a Second Consecutive Month",
-          "sources": [
-            "Push Square"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Feb 2026 USA Sales: PS5 Outsells Nintendo's New Switch 2 for a Second Consecutive Month",
-              "source": "Push Square",
-              "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPXzljR2xib0ZCT1FKUzY3Q2stNGRmWkZLMDNqM1oyTmpDWlVQNFkxY3I5dHpqWGZfTUhLMDVwbGNZQ0xUWE9kNzVPUnpJZTdHcVFKQzVWZzZuMVhJbGlZM2tIbnMzUkJMMmxRaFc5TkNCTmpodXlnM3hDX3ljR0ZhaUtoZjNEZEZkMnFqUGlpMmU3WHE1Zk5RU3NfQVkxU1NBdnJOQ0ZJb3Z3bHBZZWZVVno3QmgyMmRCY29sSEpLN0w4a2M?oc=5",
-              "pubDate": "2026-03-22T02:34:11.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "feb-2026-usa-sales-ps5-outsells-nintendos-new-switch-2-for-a-second-consecutive-month"
         }
       ]
     },
@@ -2939,6 +2880,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "hidden-antibiotics-in-river-fish-spark-new-food-safety-fears"
+        },
+        {
+          "representativeTitle": "Sea levels around Africa are rising faster than the global average: What's behind this alarming trend",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Sea levels around Africa are rising faster than the global average: What's behind this alarming trend",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-sea-africa-faster-global-average.html",
+              "pubDate": "2026-03-22T14:30:03.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "sea-levels-around-africa-are-rising-faster-than-the-global-average-whats-behind-this-alarming-trend"
         },
         {
           "representativeTitle": "Indigenous wisdom can guide Indonesia's efforts to build a sustainable ocean economy",
@@ -3139,18 +3100,10 @@ export const newsData = {
         {
           "representativeTitle": "Superconducting altermagnets could carry spin without energy loss",
           "sources": [
-            "Phys.org",
             "Phys.org"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
-            {
-              "title": "Superconducting altermagnets could carry spin without energy loss",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-superconducting-altermagnets-energy-loss.html",
-              "pubDate": "2026-03-21T16:00:02.000Z",
-              "tier": 2
-            },
             {
               "title": "Superconducting altermagnets could carry spin without energy loss",
               "source": "Phys.org",
@@ -3163,6 +3116,26 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "superconducting-altermagnets-could-carry-spin-without-energy-loss"
+        },
+        {
+          "representativeTitle": "Chinese Orbiter Crushes Starlink With a 2-Watt Laser From 36,000km Above Earth",
+          "sources": [
+            "The Daily Galaxy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Chinese Orbiter Crushes Starlink With a 2-Watt Laser From 36,000km Above Earth",
+              "source": "The Daily Galaxy",
+              "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWUNMdk0tVnpiX2VuTFRjYWI1b29kUkJQV2g0Mjh5Zm1hdzRhc3ZxS3dMcU1jLXBaM1JLZ3NZR2xVNl92d05OVXQzbW1KU2lFM1JYYzdiblh2UE5GN295ZlJBaGg3M1FxYnhWZ0VXY1lQUnZZLVBUQkxRalN1OENnNzhjOFNSanhCbzNqVFFGUktfS05uQzNR?oc=5",
+              "pubDate": "2026-03-22T12:15:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "chinese-orbiter-crushes-starlink-with-a-2-watt-laser-from-36000km-above-earth"
         },
         {
           "representativeTitle": "“I Mapped the Invisible”: U.S. High-School Student Uncovers 1.5 Million Hidden Cosmic Objects NASA Missed",
@@ -3185,6 +3158,26 @@ export const newsData = {
           "slug": "i-mapped-the-invisible-us-high-school-student-uncovers-15-million-hidden-cosmic-objects-nasa-missed"
         },
         {
+          "representativeTitle": "'This is really intolerable': Astronomers protest giant orbiting mirror project and SpaceX's million AI satellites",
+          "sources": [
+            "Space"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "'This is really intolerable': Astronomers protest giant orbiting mirror project and SpaceX's million AI satellites",
+              "source": "Space",
+              "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMU54QmRSSnZMMkt3WUZXSlFMZXFRM3ZkeFhxbk5HcUU2Qkw1QTdkVng4ZUpaQ0pRZXhhTGtSRTliOUNLWTVjOGtESUVKQWJuREdWazRSTUs2SERQSlRCTzZreEZZa1pMNlUtaFh4S1g4M1I4NTQtRUlqdXJPak9SeDRrY05jYzl3Q0l2OV85bTF1Sk8tQUlCLTdKUDltNlRMQW5zU3pnTlpHVDVmUFFnc1RkdTJhN08yakFrcEdqclRFNmpsYkhXVjg5N1ZpdEgzZWJWSF9vdHZmMjdVeUdJNEFZS0c0WkRkb2N5cWVNN3NIRkU?oc=5",
+              "pubDate": "2026-03-22T10:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "this-is-really-intolerable-astronomers-protest-giant-orbiting-mirror-project-and-spacexs-million-ai-satellites"
+        },
+        {
           "representativeTitle": "Scientists Unearth Exceptionally Well-preserved Archaeopteryx fossil, Solving the Biggest Mystery of Dinosaur Flight",
           "sources": [
             "Indian Defence Review"
@@ -3203,26 +3196,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "scientists-unearth-exceptionally-well-preserved-archaeopteryx-fossil-solving-the-biggest-mystery-of-dinosaur-flight"
-        },
-        {
-          "representativeTitle": "Physicists created an electron 'catapult' that moves particles at 'extraordinary' speed",
-          "sources": [
-            "Live Science"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Physicists created an electron 'catapult' that moves particles at 'extraordinary' speed",
-              "source": "Live Science",
-              "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQ3FNWFZ1ZGNzNXEtUXJGVFY2VnppTTA2SW5yMHBseGpUWnMwSjFhZE9MVDdEMTc3d3oxMmU1MXR4QTgteVlhZExoMUxkOU9aOEVmSzBXcFI5eUlRdjVIQmREcGJjbjNQSzFfZTJFSHVlcWlNa0dMa0EyT0RWRDdQNVdmSlY1WWJ3R1VxeG5pbTlzcC00amNlLWU2ZGdzVzZ5b3FUbFRBNkVHQk9OYm02T2lGRE1VZXJET195bi1VbUc4Yzl1ZnY5THRVNmVXdGM4Uy16UFlRel8xZ3JNa0Rmdk1R?oc=5",
-              "pubDate": "2026-03-21T15:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.9,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "physicists-created-an-electron-catapult-that-moves-particles-at-extraordinary-speed"
         },
         {
           "representativeTitle": "Ancient Fragments Could Be The World's Oldest Known Geometry",
@@ -3270,24 +3243,200 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "SEC Commissioner Hester Peirce on ETFs: 'We want to work with people on new products'",
+          "representativeTitle": "Big tech’s cause for hope: Link between Mag 7, S&P 500 is broken",
           "sources": [
-            "CNBC Markets"
+            "Yahoo Finance"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "SEC Commissioner Hester Peirce on ETFs: 'We want to work with people on new products'",
-              "source": "CNBC Markets",
-              "link": "https://www.cnbc.com/2026/03/21/crypto-tokenization-and-etfs-secs-peirce-indicates-openness.html",
-              "pubDate": "2026-03-21T15:00:01.000Z",
-              "tier": 1
+              "title": "Big tech’s cause for hope: Link between Mag 7, S&P 500 is broken",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/big-tech-cause-hope-between-130007636.html",
+              "pubDate": "2026-03-22T13:00:07.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "big-techs-cause-for-hope-link-between-mag-7-sp-500-is-broken"
+        },
+        {
+          "representativeTitle": "'The energy tax': Analysts weigh impact of surging gasoline prices on inflation, consumers",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "'The energy tax': Analysts weigh impact of surging gasoline prices on inflation, consumers",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/news/the-energy-tax-analysts-weigh-impact-of-surging-gasoline-prices-on-inflation-consumers-143027350.html",
+              "pubDate": "2026-03-22T14:30:27.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "the-energy-tax-analysts-weigh-impact-of-surging-gasoline-prices-on-inflation-consumers"
+        },
+        {
+          "representativeTitle": "Dow Jones Futures: Trump Vows To 'Obliterate' Iran's Power Plants If Strait Of Hormuz Not Opened",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Dow Jones Futures: Trump Vows To 'Obliterate' Iran's Power Plants If Strait Of Hormuz Not Opened",
+              "source": "Yahoo Finance",
+              "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-yields-trump-iran-war-winding-down/?src=A00220&yptr=yahoo",
+              "pubDate": "2026-03-22T13:38:36.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "dow-jones-futures-trump-vows-to-obliterate-irans-power-plants-if-strait-of-hormuz-not-opened"
+        },
+        {
+          "representativeTitle": "MIDD’s $3.3B Restructuring: A Leaner Company Chasing a Higher Stock Price",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "MIDD’s $3.3B Restructuring: A Leaner Company Chasing a Higher Stock Price",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/midd-3-3b-restructuring-leaner-145433586.html",
+              "pubDate": "2026-03-22T14:54:33.000Z",
+              "tier": 2
             }
           ],
           "sentiment": 0.4,
           "relevance_score": 7,
-          "importance": 50,
-          "slug": "sec-commissioner-hester-peirce-on-etfs-we-want-to-work-with-people-on-new-products"
+          "importance": 40,
+          "slug": "midds-33b-restructuring-a-leaner-company-chasing-a-higher-stock-price"
+        },
+        {
+          "representativeTitle": "Beat the Wall Street Rush: How Everyday Investors Can Buy SpaceX Stock Right Now",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Beat the Wall Street Rush: How Everyday Investors Can Buy SpaceX Stock Right Now",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/beat-wall-street-rush-everyday-140600137.html",
+              "pubDate": "2026-03-22T14:06:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.9,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "beat-the-wall-street-rush-how-everyday-investors-can-buy-spacex-stock-right-now"
+        },
+        {
+          "representativeTitle": "Best money market account rates today, March 22, 2026 (best account provides 4.01% APY)",
+          "sources": [
+            "Yahoo Finance",
+            "Yahoo Finance",
+            "Yahoo Finance"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Best CD rates today, March 22, 2026 (lock in up to 4.15% APY)",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-march-22-2026-100056389.html",
+              "pubDate": "2026-03-22T10:00:56.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Best money market account rates today, March 22, 2026 (best account provides 4.01% APY)",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-account-rates-today-sunday-march-22-2026-100032306.html",
+              "pubDate": "2026-03-22T10:00:32.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Best high-yield savings interest rates today, March 22, 2026 (Earn up to 4% APY)",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/personal-finance/article/best-high-yield-savings-interest-rates-today-sunday-march-22-2026-100031246.html",
+              "pubDate": "2026-03-22T10:00:31.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 2,
+          "importance": 15,
+          "slug": "best-money-market-account-rates-today-march-22-2026-best-account-provides-401-apy"
+        },
+        {
+          "representativeTitle": "HELOC and home equity loan rates Sunday, March 22, 2026: Steady following second Fed rate pause",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "HELOC and home equity loan rates Sunday, March 22, 2026: Steady following second Fed rate pause",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-home-equity-loan-interest-rates-today-sunday-march-22-2026-100000460.html",
+              "pubDate": "2026-03-22T10:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "heloc-and-home-equity-loan-rates-sunday-march-22-2026-steady-following-second-fed-rate-pause"
+        },
+        {
+          "representativeTitle": "Truckers Are the First Victims of the Diesel-Price Shock",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Truckers Are the First Victims of the Diesel-Price Shock",
+              "source": "Yahoo Finance",
+              "link": "https://www.wsj.com/economy/truckers-are-the-first-victims-of-the-diesel-price-shock-52ff802d?siteid=yhoof2&yptr=yahoo",
+              "pubDate": "2026-03-22T14:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "truckers-are-the-first-victims-of-the-diesel-price-shock"
+        },
+        {
+          "representativeTitle": "Mortgage and refinance interest rates today, March 22, 2026: Highest since September",
+          "sources": [
+            "Yahoo Finance"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Mortgage and refinance interest rates today, March 22, 2026: Highest since September",
+              "source": "Yahoo Finance",
+              "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-interest-rates-today-sunday-march-22-2026-100000411.html",
+              "pubDate": "2026-03-22T10:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "mortgage-and-refinance-interest-rates-today-march-22-2026-highest-since-september"
         },
         {
           "representativeTitle": "History says these 2 overlooked asset classes are the only real shield against 1970s-style stagflation",
@@ -3328,26 +3477,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "the-stock-market-actually-doesnt-care-as-much-about-oil-prices-as-you-think"
-        },
-        {
-          "representativeTitle": "Annuities in 401(k) plans aren’t all they’re cracked up to be",
-          "sources": [
-            "MarketWatch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Annuities in 401(k) plans aren’t all they’re cracked up to be",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/annuities-in-401-k-plans-arent-all-theyre-cracked-up-to-be-715bc50b?mod=mw_rss_topstories",
-              "pubDate": "2026-03-21T18:43:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "annuities-in-401k-plans-arent-all-theyre-cracked-up-to-be"
         },
         {
           "representativeTitle": "Spiking gas prices tied to Iran war are set to eat up tax refunds touted by Trump",
@@ -3430,64 +3559,44 @@ export const newsData = {
           "slug": "one-gas-station-two-drivers-and-three-fill-ups-the-iran-war-hits-home"
         },
         {
-          "representativeTitle": "Economist Tells MS NOW Americans Will Pay The Price For the Iran War ‘For Literally Years to Come’",
+          "representativeTitle": "Iran war, rising gas prices fuel economic concerns; most say conflict not going well, don't want regime left in power, CBS News poll finds",
           "sources": [
-            "Mediaite"
+            "CBS News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Economist Tells MS NOW Americans Will Pay The Price For the Iran War ‘For Literally Years to Come’",
-              "source": "Mediaite",
-              "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNDdOWnI0UmttZHBXN1h0LW5ERlFNeTFyZFI5TlB5X1pnQlJiYVlyNlc1QlIzOU5RSFJaZHFGNHV6LUZ5Q05rNldFY2pQUkhTMUVxYV9MbVpORzlOZGtFbFAxS2RGR0lyX1BSczItT1lEdVlyTm9CTnJZaUxZRUpVenVlNFdlNEJwMENVaFY2aU04YWQyU2NJR2haUkwtVEhvWWtzeEthM1VFTi0yMzNTS2lrSlAwVGVCZ2FsSlZ2UWxqUHdvVDlZN2ExZw?oc=5",
-              "pubDate": "2026-03-21T20:39:00.000Z",
+              "title": "Iran war, rising gas prices fuel economic concerns; most say conflict not going well, don't want regime left in power, CBS News poll finds",
+              "source": "CBS News",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JSE9pME5GN2dDN0tBTkRNZ3NwU2xCaDhIUS13ZG9lVXFHNEpDY2k5X1RMdTdWMGl3bUFSSFF6dXUxcF81WFBVaGR1aFBTcWpWMkZZcG8yTnFYWjJMZkRIcnMzVHk3T1hwOGlPYkJnTmstcjFGRy1SNtIBfkFVX3lxTE13ZFEzTk9qZkhYVGpFaVR0UTlLZUFva3loa3pOZ2pUaTBxSTJGNVlFUzZtWDZJX05MUUJVRmVaMjFWMFFOM1c3U0NHTWVnOEJfVHNfcGl6dFZqbmJMX2RJTDIxZE82SkRBWmVQUFVNVU9HVHVvTE1ULUZSZnNtQQ?oc=5",
+              "pubDate": "2026-03-22T14:14:28.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "economist-tells-ms-now-americans-will-pay-the-price-for-the-iran-war-for-literally-years-to-come"
+          "relevance_score": 10,
+          "importance": 55,
+          "slug": "iran-war-rising-gas-prices-fuel-economic-concerns-most-say-conflict-not-going-well-dont-want-regime-left-in-power-cbs-news-poll-finds"
         },
         {
-          "representativeTitle": "The Silicon Valley Salesman Accused of Helping China Get Nvidia’s Top Chips",
-          "sources": [
-            "WSJ"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The Silicon Valley Salesman Accused of Helping China Get Nvidia’s Top Chips",
-              "source": "WSJ",
-              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc1MxZmsxbTUzMUcwbDk5Uk1ScFR5SUNVRnlDR1kzU1ZHRWdpb0JNUlZQZWU0QnFlQ0YyVXhPZTY4MTUwWjdmdkRfMDhEdGt0aVEwT3pHTWlvY2tiZWd4Tl9uRHNJb3luTWc3WnA5azdnSzJLNk5TN2dPV2lMTWtJXzJ0bkNUSmpJNjJmOHNKSmpDSVRnTVhzWXNtZ0JIVE5LNjV5cjR1UWZCcXY0?oc=5",
-              "pubDate": "2026-03-21T17:18:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "the-silicon-valley-salesman-accused-of-helping-china-get-nvidias-top-chips"
-        },
-        {
-          "representativeTitle": "Apple CEO Praises China Partners as Beijing Applies Pressure",
+          "representativeTitle": "Elon Musk says Tesla, xAI, SpaceX ‘Terafab’ to start in Austin",
           "sources": [
             "Bloomberg.com"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Apple CEO Praises China Partners as Beijing Applies Pressure",
+              "title": "Elon Musk says Tesla, xAI, SpaceX ‘Terafab’ to start in Austin",
               "source": "Bloomberg.com",
-              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0M2bnM0Wi1FQ3AwejFBNnhIS3J5SUJ3R1J6QnFXYXhxWXA0U3dWXzZCUV9yQ2h5eWNGOUZ5WDZHaVNmY1FBSjZxWG1SaGZBVXdYWTVvOEdiZGpLeHVtLTFadHpkMmF5NU9reW5nb1RDVVJlUlFjRUluZWZOZ3FEMlNfRENOUElSRWJZZlFzWDR0aTFxVHRXVjlMRTlsUW94c3RGUm1OZm9WbGg0WE9Bcg?oc=5",
-              "pubDate": "2026-03-22T06:24:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONUkzNnVPSG5jN1dfbTRxWDE3Y0RmNC1iMWY3TVlqZlJKU29VbzJyNkNnUl9WOHpXS1U0UFNxLXRyR3NVQVdmZzZwdzJMS3hQM0ZfSWJtTFpIVWVtdHA0RGhQdnRYZ2Ridmx2Z092SVRLRDJPeGdGYnRCNno4ZmZrcU84d1k1cVJMX0tUY1ZleUg5NnFyUkVjb19RMGNzdG10anN3bXVjT0lnUzd6ekE?oc=5",
+              "pubDate": "2026-03-22T04:50:00.000Z",
               "tier": 2
             }
           ],
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "apple-ceo-praises-china-partners-as-beijing-applies-pressure"
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "elon-musk-says-tesla-xai-spacex-terafab-to-start-in-austin"
         },
         {
           "representativeTitle": "Trump Meets Diesel Shock: This Scary Chart Shows Inflation Hitting 8%",
@@ -3510,44 +3619,24 @@ export const newsData = {
           "slug": "trump-meets-diesel-shock-this-scary-chart-shows-inflation-hitting-8"
         },
         {
-          "representativeTitle": "OpenAI’s First Advertisers Can’t Prove ChatGPT Ads Work",
+          "representativeTitle": "Despite Spiking Oil Prices, There’s No Talk of a Boom in Texas Oil Country",
           "sources": [
-            "The Information"
+            "The New York Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "OpenAI’s First Advertisers Can’t Prove ChatGPT Ads Work",
-              "source": "The Information",
-              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON0liaXpIb2ZMYmpnV3RJUWpaTGl5ZUpnM0Z4LXFDTGZDdE1nR25JVDZoelVzakhybEVnR0JhN2N3RTZnQXhoNG9oYk1aZ25GeVlhcXcweUVNQnkxLUNfaFgxX1Q3RnBRRnlOOWZlVW50WnAyOThzTXVhVzNiblh6M0dMeUJaM29XSDE0MkpXUmN6dw?oc=5",
-              "pubDate": "2026-03-21T16:00:00.000Z",
+              "title": "Despite Spiking Oil Prices, There’s No Talk of a Boom in Texas Oil Country",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1PYkoxeWcySU8xd3hVVjBHbXlWZXVXTy13bWlRcnlMTHN0bXEtWC1lM250aEw3QWdHWGJteVFDLUVkWVA4bU1EX3M3bG9meGwtZUJ3cThBdEVxckh1WG91cEt1eDdjeGlQT21KcDEwSWxEU1duUktZ?oc=5",
+              "pubDate": "2026-03-22T09:01:25.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "openais-first-advertisers-cant-prove-chatgpt-ads-work"
-        },
-        {
-          "representativeTitle": "Tencent integrates WeChat with OpenClaw AI agent amid China tech battle",
-          "sources": [
-            "Reuters"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Tencent integrates WeChat with OpenClaw AI agent amid China tech battle",
-              "source": "Reuters",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUTJucUZORzdzUDQtODZyeVVJRkVmZVQwUnRCbGZmT1YxMHFNRFFGUlhmTjBZMTNlUU9wTTFzMl85czh2WnFRcklfT0dlWHVmMkVNWUhtOE9HS0hwNk1QcWJuTnExdDVhMG9NOVB1RmhFZW5GUUtfVkZWR2pTdENqeVR6V1FiXy1NUFJHTUV2NkJKRUhRZFFiNHMycjBvQ3hhbE82bWtXdXdNVjFyVy0wc1Q1RjBlcjNkQ2c?oc=5",
-              "pubDate": "2026-03-22T07:36:49.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "tencent-integrates-wechat-with-openclaw-ai-agent-amid-china-tech-battle"
+          "slug": "despite-spiking-oil-prices-theres-no-talk-of-a-boom-in-texas-oil-country"
         },
         {
           "representativeTitle": "Iran war cuts off helium from Qatar, and shortages will start to bite in a few weeks",
@@ -3570,24 +3659,44 @@ export const newsData = {
           "slug": "iran-war-cuts-off-helium-from-qatar-and-shortages-will-start-to-bite-in-a-few-weeks"
         },
         {
-          "representativeTitle": "Ozempic Goes Generic —But Not in the US",
+          "representativeTitle": "Tencent integrates WeChat with OpenClaw AI agent amid China tech battle",
           "sources": [
-            "newser.com"
+            "Reuters"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Ozempic Goes Generic —But Not in the US",
-              "source": "newser.com",
-              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNFpTRktVZFhraEthVFNuajZocTdMU2tVRWJWWUF2UVVKYjVJQ1VkRGpVRlF0V2dIdmttSFg1b0ZRVWd5b1lfVGF2MHpWQzBnQkZHcGktZFFmaE91dmpJWUNBN19vcWgxOVZoeFpVdGVWZUhtQUdLeUxSWmtObDA0UjdVM19ZQQ?oc=5",
-              "pubDate": "2026-03-21T22:20:00.000Z",
+              "title": "Tencent integrates WeChat with OpenClaw AI agent amid China tech battle",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUTJucUZORzdzUDQtODZyeVVJRkVmZVQwUnRCbGZmT1YxMHFNRFFGUlhmTjBZMTNlUU9wTTFzMl85czh2WnFRcklfT0dlWHVmMkVNWUhtOE9HS0hwNk1QcWJuTnExdDVhMG9NOVB1RmhFZW5GUUtfVkZWR2pTdENqeVR6V1FiXy1NUFJHTUV2NkJKRUhRZFFiNHMycjBvQ3hhbE82bWtXdXdNVjFyVy0wc1Q1RjBlcjNkQ2c?oc=5",
+              "pubDate": "2026-03-22T07:36:49.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "tencent-integrates-wechat-with-openclaw-ai-agent-amid-china-tech-battle"
+        },
+        {
+          "representativeTitle": "OpenAI’s First Advertisers Can’t Prove ChatGPT Ads Work",
+          "sources": [
+            "The Information"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "OpenAI’s First Advertisers Can’t Prove ChatGPT Ads Work",
+              "source": "The Information",
+              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON0liaXpIb2ZMYmpnV3RJUWpaTGl5ZUpnM0Z4LXFDTGZDdE1nR25JVDZoelVzakhybEVnR0JhN2N3RTZnQXhoNG9oYk1aZ25GeVlhcXcweUVNQnkxLUNfaFgxX1Q3RnBRRnlOOWZlVW50WnAyOThzTXVhVzNiblh6M0dMeUJaM29XSDE0MkpXUmN6dw?oc=5",
+              "pubDate": "2026-03-21T16:00:00.000Z",
               "tier": 2
             }
           ],
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "ozempic-goes-generic-but-not-in-the-us"
+          "slug": "openais-first-advertisers-cant-prove-chatgpt-ads-work"
         },
         {
           "representativeTitle": "OpenAI cofounder says he hasn't written a line of code in months and is in a 'state of psychosis'",
@@ -3610,6 +3719,26 @@ export const newsData = {
           "slug": "openai-cofounder-says-he-hasnt-written-a-line-of-code-in-months-and-is-in-a-state-of-psychosis"
         },
         {
+          "representativeTitle": "Ozempic Goes Generic —But Not in the US",
+          "sources": [
+            "Newser"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ozempic Goes Generic —But Not in the US",
+              "source": "Newser",
+              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNFpTRktVZFhraEthVFNuajZocTdMU2tVRWJWWUF2UVVKYjVJQ1VkRGpVRlF0V2dIdmttSFg1b0ZRVWd5b1lfVGF2MHpWQzBnQkZHcGktZFFmaE91dmpJWUNBN19vcWgxOVZoeFpVdGVWZUhtQUdLeUxSWmtObDA0UjdVM19ZQQ?oc=5",
+              "pubDate": "2026-03-21T22:20:00.000Z",
+              "tier": 2
+            }
+          ],
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "ozempic-goes-generic-but-not-in-the-us"
+        },
+        {
           "representativeTitle": "Nvidia Wants You to Build an 'OpenClaw Strategy'—If You Don't Know What That Means, You're Already Behind",
           "sources": [
             "inc.com"
@@ -3628,26 +3757,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "nvidia-wants-you-to-build-an-openclaw-strategyif-you-dont-know-what-that-means-youre-already-behind"
-        },
-        {
-          "representativeTitle": "Elon Musk says Tesla, xAI, SpaceX ‘Terafab’ to start in Austin",
-          "sources": [
-            "Bloomberg.com"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Elon Musk says Tesla, xAI, SpaceX ‘Terafab’ to start in Austin",
-              "source": "Bloomberg.com",
-              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONUkzNnVPSG5jN1dfbTRxWDE3Y0RmNC1iMWY3TVlqZlJKU29VbzJyNkNnUl9WOHpXS1U0UFNxLXRyR3NVQVdmZzZwdzJMS3hQM0ZfSWJtTFpIVWVtdHA0RGhQdnRYZ2Ridmx2Z092SVRLRDJPeGdGYnRCNno4ZmZrcU84d1k1cVJMX0tUY1ZleUg5NnFyUkVjb19RMGNzdG10anN3bXVjT0lnUzd6ekE?oc=5",
-              "pubDate": "2026-03-22T04:50:00.000Z",
-              "tier": 2
-            }
-          ],
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "elon-musk-says-tesla-xai-spacex-terafab-to-start-in-austin"
         },
         {
           "representativeTitle": "United Airlines plans for oil hitting $175 a barrel and staying above $100 next year",
