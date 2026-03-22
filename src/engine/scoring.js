@@ -33,6 +33,8 @@ export class ScoringEngine {
 
         return {
             ...cluster,
+            representativeTitle: aiResult?.title || cluster.representativeTitle,
+            aiCategory: aiResult?.category || "World",
             sentiment: bucketMap[sentimentStr.toUpperCase()] || 0,
             relevance_score: relevance,
             importance: this.calculateImportance({ ...cluster, relevance_score: relevance })

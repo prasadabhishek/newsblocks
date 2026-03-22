@@ -134,7 +134,7 @@ describe('V4 Strategy: Quality Over Quantity', () => {
             });
 
             const result = await pipeline.run(rawData);
-            expect(result.children[0].children).toHaveLength(0);
+            expect(result.children).toHaveLength(0);
         });
 
         it('should APPROVE single-source high-relevance Tier 2 stories', async () => {

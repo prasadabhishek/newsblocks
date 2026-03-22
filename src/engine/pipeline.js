@@ -11,20 +11,35 @@ export class Pipeline {
         const root = {
             name: "Top News",
             lastUpdated: new Date().toISOString(),
-            children: []
+            children: [
+                { name: "World", children: [] },
+                { name: "Politics", children: [] },
+                { name: "Finance", children: [] },
+                { name: "Business", children: [] },
+                { name: "Technology", children: [] },
+                { name: "Science", children: [] }
+            ]
         };
+
+        const catNameToIndex = {};
+        root.children.forEach((c, i) => catNameToIndex[c.name] = i);
 
         const seenStoryHashes = new Map(); // hash -> { catIndex, childIndex }
 
         for (const cat of categoriesArray) {
             const { name, rawArticles } = cat;
-            console.log(`Clustering ${name}...`);
+            console.log(`Clustering raw feed for: ${name}...`);
             const clusters = await this.clustering.cluster(rawArticles);
 
-            const children = [];
             for (const c of clusters) {
                 const scored = await this.scoring.calculateScores(c);
                 if (scored) {
+                    // --- V4.6 TABLOID FILTER ---
+                    if (scored.aiCategory === "JUNK") {
+                        console.log(`  └─ Dropping JUNK (Sports/Entertainment) story: ${scored.representativeTitle.substring(0, 50)}...`);
+                        continue;
+                    }
+
                     // --- V4 SMART CONSENSUS GATE ---
                     const hasConsensus = scored.citationCount > 1;
                     const isTier1 = scored.rawArticles.some(a => a.tier === 1);
@@ -59,22 +74,28 @@ export class Pipeline {
                             .trim()
                             .replace(/\s+/g, '-');        // replace spaces with hyphens
 
+                        // V4.6 Route to AI-determined category
+                        let finalCat = scored.aiCategory;
+                        if (!catNameToIndex.hasOwnProperty(finalCat)) {
+                            // If AI invents a weird category, fallback to World
+                            finalCat = "World";
+                        }
+                        
+                        const targetCatIndex = catNameToIndex[finalCat];
+                        const destArray = root.children[targetCatIndex].children;
+
                         seenStoryHashes.set(titleHash, {
-                            catIndex: root.children.length,
-                            childIndex: children.length
+                            catIndex: targetCatIndex,
+                            childIndex: destArray.length
                         });
-                        children.push(scored);
+                        destArray.push(scored);
                     }
                 }
             }
-
-            const categoryNode = {
-                name: name,
-                children: children
-            };
-
-            root.children.push(categoryNode);
         }
+
+        // Cleanup empty categories
+        root.children = root.children.filter(c => c.children.length > 0);
 
         return root;
     }

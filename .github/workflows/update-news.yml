@@ -8,8 +8,10 @@ on:
       - 'src/data.js'
       - 'public/sitemap.xml'
   schedule:
-    # Runs every hour
-    - cron: '0 * * * *'
+    # Weekdays (Mon-Fri): Hourly 7am-1pm, every 3 hours until 10pm, sleep until 5am PST
+    - cron: '0 0,3,6,13,15,16,17,18,19,20,21 * * 1-5'
+    # Weekends (Sat-Sun): Ultra-low frequency, 3 times a day (8 AM, 12 PM, 4 PM PST)
+    - cron: '0 0,16,20 * * 0,6'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:

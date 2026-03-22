@@ -106,9 +106,9 @@ export const AI = {
 
         const hash = hashString(headline);
         const cached = Cache.getInference(hash);
-        // Requirement: Must have both sentiment and the new relevance score
-        if (cached && cached.sentiment && typeof cached.relevance === 'number') {
-            return { sentiment: cached.sentiment, relevance: cached.relevance };
+        // Requirement: Must have all new fields for V4.6 (including category and title)
+        if (cached && cached.sentiment && typeof cached.relevance === 'number' && cached.category && cached.title) {
+            return cached;
         }
 
         const prompt = `
@@ -118,13 +118,18 @@ export const AI = {
 
       Return a JSON object with:
       1. "sentiment": Classify exactly into ["DISASTER", "NEGATIVE", "NEUTRAL", "POSITIVE", "EUPHORIC"].
-         - WAR, CONFLICT, CRISIS = DISASTER or NEGATIVE.
-         - SUCCESS, BREAKTHROUGH, RECOVERY = POSITIVE or EUPHORIC.
+         - Evaluate based on broad HUMAN IMPACT and consensus societal sentiment.
+         - POSITIVE/EUPHORIC: Scientific breakthroughs, peace agreements, economic stability, and huge humanitarian wins.
+         - NEGATIVE/DISASTER: Large-scale loss of life, natural disasters, severe economic crashes, and humanitarian crises.
+         - NEUTRAL: Geopolitical posturing, legislative updates, corporate moves, and complex zero-sum political events where there is no clear human 'win' or 'loss'.
       2. "relevance": A score from 1 to 10 based on GLOBAL or REGIONAL significance.
-         - 10: World-changing event (War, Global Election, Pandemic).
-         - 5-7: Major corporate news, significant policy changes, regional crises.
-         - 1-3: Niche news, stock tickers, routine announcements.
-      3. "reasoning": Brief 1-sentence explanation.
+         - 10: History-making events.
+         - 5-7: Significant national/regional news.
+         - 1-3: Routine updates.
+      3. "category": Classify into ["World", "Politics", "Business", "Technology", "Science", "JUNK"]. 
+         - CRITICAL: If the headline is about Sports, Celebrities, Entertainment, Pop Culture, or Gossip, you MUST classify it as "JUNK" so we can filter it out.
+      4. "title": Synthesize a clean, professional, objective 7-word headline explaining the core news event.
+      5. "reasoning": Brief context for your choice.
 
       Output ONLY JSON.
     `;
@@ -137,9 +142,11 @@ export const AI = {
 
             const sentiment = json.sentiment.toUpperCase();
             const relevance = Number(json.relevance) || 5;
+            const category = json.category || "World";
+            const title = json.title || headline;
 
             if (["DISASTER", "NEGATIVE", "NEUTRAL", "POSITIVE", "EUPHORIC"].includes(sentiment)) {
-                const result = { sentiment, relevance, reasoning: json.reasoning };
+                const result = { sentiment, relevance, category, title, reasoning: json.reasoning };
                 Cache.setInference(hash, result);
                 return result;
             }
