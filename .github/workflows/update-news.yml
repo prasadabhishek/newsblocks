@@ -31,13 +31,6 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Restore/Save AI Cache
-        uses: actions/cache@v4
-        with:
-          path: src/engine/cache.json
-          key: ai-cache-${{ github.run_id }}
-          restore-keys: |
-            ai-cache-
 
       - name: Run Scraper
         env:
@@ -48,7 +41,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data.js public/sitemap.xml
-          git commit -m "chore: auto-update news & sitemap [skip ci]" || echo "No changes to commit"
+          git add src/data.js public/sitemap.xml src/engine/cache.json
+          git commit -m "chore: auto-update news, sitemap & ai-cache [skip ci]" || echo "No changes to commit"
           git pull --rebase -X theirs origin main
           git push -u origin main

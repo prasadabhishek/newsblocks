@@ -5,9 +5,9 @@ import { Cache } from "./cache.js";
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "MOCK_KEY");
 
 const MODELS = {
-    PRIMARY: "gemini-2.5-flash",
-    FALLBACK: "gemini-2.5-flash-lite",
-    EMBEDDING: "gemini-embedding-001"
+    PRIMARY: "gemini-1.5-flash",
+    FALLBACK: "gemini-1.5-flash-8b",
+    EMBEDDING: "text-embedding-004"
 };
 
 /**
