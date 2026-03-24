@@ -31,17 +31,20 @@ const PREMIUM_FEEDS = [
     { name: 'Stocks', url: 'http://feeds.marketwatch.com/marketwatch/topstories/', publisher: 'MarketWatch', tier: 2 },
     { name: 'Finance', url: 'https://www.cnbc.com/id/10001147/device/rss/rss.html', publisher: 'CNBC Economy', tier: 1 },
     { name: 'Finance', url: 'https://www.ft.com/?format=rss', publisher: 'Financial Times', tier: 1 },
+    { name: 'Finance', url: 'https://www.wsj.com/xml/rss/3_7085.xml', publisher: 'WSJ', tier: 1 },
 
     // TECHNOLOGY
     { name: 'Technology', url: 'https://techcrunch.com/feed/', publisher: 'TechCrunch', tier: 1 },
     { name: 'Technology', url: 'https://www.theverge.com/rss/index.xml', publisher: 'The Verge', tier: 2 },
     { name: 'Technology', url: 'https://feeds.arstechnica.com/arstechnica/index', publisher: 'Ars Technica', tier: 2 },
     { name: 'Technology', url: 'https://www.technologyreview.com/feed/', publisher: 'MIT Tech Review', tier: 1 },
+    { name: 'Technology', url: 'https://www.wired.com/feed/rss', publisher: 'Wired', tier: 1 },
 
     // WORLD
     { name: 'World', url: 'http://feeds.bbci.co.uk/news/world/rss.xml', publisher: 'BBC World', tier: 1 },
     { name: 'World', url: 'https://www.theguardian.com/world/rss', publisher: 'The Guardian', tier: 1 },
     { name: 'World', url: 'https://www.aljazeera.com/xml/rss/all.xml', publisher: 'Al Jazeera', tier: 1 },
+    { name: 'World', url: 'https://www.reutersagency.com/feed/', publisher: 'Reuters Agency', tier: 2 },
 
     // SCIENCE
     { name: 'Science', url: 'https://www.wired.com/feed/category/science/latest/rss', publisher: 'Wired', tier: 1 },
@@ -54,6 +57,7 @@ const PREMIUM_FEEDS = [
     { name: 'US', url: 'https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml', publisher: 'BBC US', tier: 1 },
     { name: 'US', url: 'https://rss.nytimes.com/services/xml/rss/nyt/Americas.xml', publisher: 'NY Times', tier: 1 },
     { name: 'US', url: 'https://www.politico.com/rss/politicopicks.xml', publisher: 'Politico', tier: 1 },
+    { name: 'US', url: 'https://feeds.washingtonpost.com/rss/national', publisher: 'Washington Post', tier: 1 },
 
     // SEATTLE LOCAL
     { name: 'Seattle', url: 'https://www.seattletimes.com/feed/politics/', publisher: 'Seattle Times', tier: 1 },
