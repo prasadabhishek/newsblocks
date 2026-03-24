@@ -187,8 +187,8 @@ function App() {
               className="sentiment-bar" 
               style={{ 
                 background: isColorBlind
-                  ? 'linear-gradient(to right, #2563eb, #334155, #ea580c)'
-                  : 'linear-gradient(to right, #ef4444, #334155, #22c55e)' 
+                  ? 'linear-gradient(to right, #2563eb 0%, #334155 50%, #ea580c 100%)'
+                  : 'linear-gradient(to right, #ef4444 0%, #334155 50%, #22c55e 100%)' 
               }}
             ></div>
             <span className="sentiment-label">{isColorBlind ? 'RELEVANT' : 'POSITIVE'}</span>

@@ -101,7 +101,7 @@ body {
   flex: 1;
   height: 6px;
   border-radius: 3px;
-  background: linear-gradient(to right, #ef4444, #334155, #22c55e) no-repeat;
+  background: linear-gradient(to right, #ef4444 0%, #334155 50%, #22c55e 100%);
   background-size: 100% 100%;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }

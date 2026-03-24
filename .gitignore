@@ -25,3 +25,4 @@ dist-ssr
 src/engine/cache.json
 .env
 public/story/
+src/engine/cache.db
