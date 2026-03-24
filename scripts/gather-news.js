@@ -194,19 +194,8 @@ async function gatherNews() {
     newsTree.lastUpdated = now.toISOString();
 
     // --- Cache Garbage Collection ---
-    const activeRawArticles = [];
-    categoriesArray.forEach(cat => {
-        if (cat.rawArticles) activeRawArticles.push(...cat.rawArticles);
-    });
-
-    const activeClusters = [];
-    if (newsTree.children) {
-        newsTree.children.forEach(cat => {
-            if (cat.children) activeClusters.push(...cat.children);
-        });
-    }
-
-    SqliteCache.prune(activeRawArticles, activeClusters);
+    // Prune entries older than 24 hours (TTL-based eviction)
+    SqliteCache.prune(24 * 60 * 60 * 1000);
     // --------------------------------
 
     // 1. apply manual overrides
