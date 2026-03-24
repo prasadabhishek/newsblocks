@@ -3,7 +3,7 @@ import Parser from 'rss-parser';
 import fs from 'fs';
 import { Pipeline } from '../src/engine/pipeline.js';
 import { retry, withTimeout } from '../src/engine/utils.js';
-import { Cache } from '../src/engine/cache.js';
+import { SqliteCache } from '../src/engine/sqlite-cache.js';
 import { CONFIG } from '../src/engine/config.js';
 import { execSync } from 'child_process';
 
@@ -161,7 +161,7 @@ async function gatherNews() {
             const rawArticles = processFeedData(feed, result.data);
 
             // Update cache on success
-            Cache.setFeed(feed.url, rawArticles);
+            SqliteCache.setFeed(feed.url, rawArticles);
 
             if (!categoryMap[feed.name]) {
                 categoryMap[feed.name] = [];
@@ -171,7 +171,7 @@ async function gatherNews() {
             console.log(`  └─ Found ${rawArticles.length} recent articles.`);
         } else {
             console.error(`  └─ Error fetching ${feed.publisher}: ${result.error}. Using cache fallback...`);
-            const cached = Cache.getFeed(feed.url);
+            const cached = SqliteCache.getFeed(feed.url);
             if (cached && cached.items) {
                 if (!categoryMap[feed.name]) categoryMap[feed.name] = [];
                 categoryMap[feed.name].push(...cached.items);
@@ -206,7 +206,7 @@ async function gatherNews() {
         });
     }
 
-    Cache.prune(activeRawArticles, activeClusters);
+    SqliteCache.prune(activeRawArticles, activeClusters);
     // --------------------------------
 
     // 1. apply manual overrides

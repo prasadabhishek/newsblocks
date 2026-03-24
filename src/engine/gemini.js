@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import axios from "axios";
 import { retry, hashString, robustParse, sleep } from "./utils.js";
-import { Cache } from "./cache.js";
+import { SqliteCache } from "./sqlite-cache.js";
 import { CONFIG } from "./config.js";
 
 let _genAI = null;
@@ -144,7 +144,7 @@ export const AI = {
                         prompt: h
                     });
                     results[i + j] = response.data.embedding;
-                    Cache.setEmbedding(batchHashes[j], response.data.embedding);
+                    SqliteCache.setEmbedding(batchHashes[j], response.data.embedding);
                 } catch (e) {
                     // Individual failure - null result, don't throw
                     console.error(`Ollama embedding failed for headline ${i + j}: ${e.message}`);
@@ -167,7 +167,7 @@ export const AI = {
         const missingHashes = [];
 
         hashes.forEach((hash, i) => {
-            const cached = Cache.getEmbedding(hash);
+            const cached = SqliteCache.getEmbedding(hash);
             if (cached) results[i] = cached;
             else {
                 missingIndices.push(i);
@@ -234,7 +234,7 @@ export const AI = {
                     const originalIndex = stillMissingIndices[i];
                     const val = e.values;
                     results[originalIndex] = val;
-                    Cache.setEmbedding(missingHashes[missingIndices.indexOf(originalIndex)], val);
+                    SqliteCache.setEmbedding(missingHashes[missingIndices.indexOf(originalIndex)], val);
                 });
             }
             return results.every(r => r !== null) ? results : null;
@@ -249,7 +249,7 @@ export const AI = {
      */
     async analyzeSentiment(headline) {
         const hash = hashString(headline);
-        const cached = Cache.getInference(hash);
+        const cached = SqliteCache.getInference(hash);
         if (cached && cached.sentiment && typeof cached.relevance === 'number' && cached.category && cached.title) {
             return cached;
         }
@@ -290,7 +290,7 @@ export const AI = {
 
             if (["DISASTER", "NEGATIVE", "NEUTRAL", "POSITIVE", "EUPHORIC"].includes(sentiment)) {
                 const result = { sentiment, relevance, category, title, reasoning: json.reasoning };
-                Cache.setInference(hash, result);
+                SqliteCache.setInference(hash, result);
                 return result;
             }
             return null;
