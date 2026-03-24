@@ -5,7 +5,7 @@
 
 export const CONFIG = {
     // Clustering
-    SIMILARITY_THRESHOLD: 0.77,
+    SIMILARITY_THRESHOLD: 0.65,
     JACCARD_THRESHOLD: 0.1,
 
     // Scoring

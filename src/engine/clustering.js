@@ -37,8 +37,8 @@ export class ClusteringEngine {
         const clusters = [];
         const usedIndices = new Set();
 
-        // Only compare to nearest 20 neighbors when items are close in sorted order
-        const NEIGHBORS = 20;
+        // Only compare to nearest 50 neighbors when items are close in sorted order
+        const NEIGHBORS = 50;
 
         for (let ii = 0; ii < sortedIndices.length; ii++) {
             const i = sortedIndices[ii];
