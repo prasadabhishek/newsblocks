@@ -1,9 +1,10 @@
 /**
  * Semantic Clustering Engine
- * In a production environment, this would call an LLM (Gemini) 
+ * In a production environment, this would call an LLM (Gemini)
  * to group headlines by semantic similarity.
  */
 import { AI } from './gemini.js';
+import { CONFIG } from './config.js';
 
 export class ClusteringEngine {
     /**
@@ -23,11 +24,24 @@ export class ClusteringEngine {
             return this.heuristicCluster(articles);
         }
 
+        // Spatial sort optimization: sort by embedding magnitude
+        // Similar items cluster together in sorted order
+        const indexedEmbeddings = embeddings.map((emb, i) => ({
+            i,
+            emb,
+            mag: emb.reduce((s, v) => s + v * v, 0)
+        }));
+        indexedEmbeddings.sort((a, b) => a.mag - b.mag);
+        const sortedIndices = indexedEmbeddings.map(x => x.i);
+
         const clusters = [];
         const usedIndices = new Set();
-        const SIMILARITY_THRESHOLD = 0.77; // Relaxed to merge diverse Google News sources
 
-        for (let i = 0; i < articles.length; i++) {
+        // Only compare to nearest 20 neighbors when items are close in sorted order
+        const NEIGHBORS = 20;
+
+        for (let ii = 0; ii < sortedIndices.length; ii++) {
+            const i = sortedIndices[ii];
             if (usedIndices.has(i)) continue;
 
             const current = articles[i];
@@ -35,13 +49,15 @@ export class ClusteringEngine {
             const vecA = embeddings[i];
             usedIndices.add(i);
 
-            for (let j = i + 1; j < articles.length; j++) {
+            // Check neighbors in sorted order (most likely to be similar)
+            for (let k = 1; k <= NEIGHBORS && ii + k < sortedIndices.length; k++) {
+                const j = sortedIndices[ii + k];
                 if (usedIndices.has(j)) continue;
 
                 const vecB = embeddings[j];
                 const similarity = this.cosineSimilarity(vecA, vecB);
 
-                if (similarity >= SIMILARITY_THRESHOLD) {
+                if (similarity >= CONFIG.SIMILARITY_THRESHOLD) {
                     clusterArr.push(articles[j]);
                     usedIndices.add(j);
                 }
@@ -121,7 +137,7 @@ export class ClusteringEngine {
         const score = intersection.size / union.size;
 
         // Threshold adjusted for common word overlaps (e.g. Starship/SpaceX)
-        return score >= 0.1;
+        return score >= CONFIG.JACCARD_THRESHOLD;
     }
 
     selectBestTitle(cluster) {

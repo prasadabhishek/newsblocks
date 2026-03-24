@@ -2,6 +2,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import axios from "axios";
 import { retry, hashString, robustParse, sleep } from "./utils.js";
 import { Cache } from "./cache.js";
+import { CONFIG } from "./config.js";
 
 let _genAI = null;
 const getGenAI = () => {
@@ -121,17 +122,58 @@ export const AI = {
     },
 
     /**
+     * Tries to get embeddings from Ollama with parallel batching and error isolation.
+     * @param {Array} headlines - Array of headline strings.
+     * @param {Array} indices - Indices of headlines in original array.
+     * @param {Array} hashes - Hash keys for cache.
+     * @returns {Array} - Results array with nulls for failed embeddings.
+     */
+    async tryOllamaEmbeddings(headlines, indices, hashes) {
+        const results = new Array(headlines.length).fill(null);
+        const CONCURRENCY = CONFIG.EMBEDDING_CONCURRENCY;
+
+        for (let i = 0; i < headlines.length; i += CONCURRENCY) {
+            const batchHeadlines = headlines.slice(i, i + CONCURRENCY);
+            const batchIndices = indices.slice(i, i + CONCURRENCY);
+            const batchHashes = hashes.slice(i, i + CONCURRENCY);
+
+            await Promise.all(batchHeadlines.map(async (h, j) => {
+                try {
+                    const response = await axios.post(`${getOllamaHost()}/api/embeddings`, {
+                        model: MODELS.OLLAMA_EMBED,
+                        prompt: h
+                    });
+                    results[i + j] = response.data.embedding;
+                    Cache.setEmbedding(batchHashes[j], response.data.embedding);
+                } catch (e) {
+                    // Individual failure - null result, don't throw
+                    console.error(`Ollama embedding failed for headline ${i + j}: ${e.message}`);
+                }
+            }));
+        }
+
+        return results;
+    },
+
+    /**
      * Embeds headlines. Prioritizes Ollama (Local) if provider is ollama.
+     * Uses parallel Ollama embeddings with error isolation, falls back to Gemini only for failed ones.
      */
     async embedBatchedHeadlines(headlines) {
         const hashes = headlines.map(h => hashString(h));
         const results = new Array(headlines.length).fill(null);
         const missingIndices = [];
+        const missingHeadlines = [];
+        const missingHashes = [];
 
         hashes.forEach((hash, i) => {
             const cached = Cache.getEmbedding(hash);
             if (cached) results[i] = cached;
-            else missingIndices.push(i);
+            else {
+                missingIndices.push(i);
+                missingHeadlines.push(headlines[i]);
+                missingHashes.push(hash);
+            }
         });
 
         if (missingIndices.length === 0) return results;
@@ -139,53 +181,66 @@ export const AI = {
         // Try Ollama first if it's the provider
         if (getProvider() === "ollama") {
             try {
-                console.log(`AI: Fetching local embeddings for ${missingIndices.length} headlines...`);
-                for (let i = 0; i < missingIndices.length; i++) {
-                    const idx = missingIndices[i];
-                    const response = await axios.post(`${getOllamaHost()}/api/embeddings`, {
-                        model: MODELS.OLLAMA_EMBED,
-                        prompt: headlines[idx]
-                    });
-                    const val = response.data.embedding;
-                    results[idx] = val;
-                    Cache.setEmbedding(hashes[idx], val);
+                console.log(`AI: Fetching local embeddings for ${missingIndices.length} headlines with concurrency ${CONFIG.EMBEDDING_CONCURRENCY}...`);
+                const ollamaResults = await this.tryOllamaEmbeddings(missingHeadlines, missingIndices, missingHashes);
+
+                // Copy successful Ollama results
+                let hasFailures = false;
+                for (let i = 0; i < ollamaResults.length; i++) {
+                    if (ollamaResults[i] !== null) {
+                        results[missingIndices[i]] = ollamaResults[i];
+                    } else {
+                        hasFailures = true;
+                    }
                 }
-                return results;
+
+                // If all succeeded, return
+                if (!hasFailures) return results;
+
+                console.log(`AI: Some Ollama embeddings failed, falling back to Gemini for failed ones.`);
             } catch (e) {
-                console.error("Local Ollama embedding failed, falling back to Gemini:", e.message);
+                console.error("Local Ollama embedding batch failed, falling back to Gemini:", e.message);
             }
         }
 
-        // Gemini Fallback for embeddings
+        // Gemini Fallback for failed embeddings only
+        const stillMissingIndices = [];
+        const stillMissingHeadlines = [];
+        for (let i = 0; i < results.length; i++) {
+            if (results[i] === null) {
+                stillMissingIndices.push(missingIndices[i]);
+                stillMissingHeadlines.push(missingHeadlines[i]);
+            }
+        }
+
+        if (stillMissingIndices.length === 0) return results;
+
         if (!process.env.GEMINI_API_KEY) {
             console.warn("GEMINI_API_KEY not found. Using fallback clustering.");
-            return null;
+            return results.every(r => r !== null) ? results : null;
         }
 
         try {
             const model = getGenAI().getGenerativeModel({ model: MODELS.EMBEDDING });
-            const missingHeadlines = missingIndices.map(i => headlines[i]);
-            const requests = missingHeadlines.map(h => ({
+            const requests = stillMissingHeadlines.map(h => ({
                 content: { parts: [{ text: h }] }
             }));
 
-            await sleep(500);
-            console.log(`AI: Fetching Gemini embeddings for ${missingHeadlines.length} headlines...`);
+            console.log(`AI: Fetching Gemini embeddings for ${stillMissingHeadlines.length} failed headlines...`);
             const result = await retry(() => model.batchEmbedContents({ requests }), 2, 20000);
 
             if (result && result.embeddings) {
                 result.embeddings.forEach((e, i) => {
-                    const originalIndex = missingIndices[i];
+                    const originalIndex = stillMissingIndices[i];
                     const val = e.values;
                     results[originalIndex] = val;
-                    Cache.setEmbedding(hashes[originalIndex], val);
+                    Cache.setEmbedding(missingHashes[missingIndices.indexOf(originalIndex)], val);
                 });
-                return results;
             }
-            return null;
+            return results.every(r => r !== null) ? results : null;
         } catch (e) {
             console.error("Gemini embedding failed:", e.message);
-            return null;
+            return results.every(r => r !== null) ? results : null;
         }
     },
 
@@ -201,7 +256,7 @@ export const AI = {
 
         const prompt = `
       Analyze this news headline for a high-signal news dashboard.
-      
+
       Headline: "${headline}"
 
       Return a JSON object with:
@@ -214,7 +269,7 @@ export const AI = {
          - 10: History-making events.
          - 5-7: Significant national/regional news.
          - 1-3: Routine updates.
-      3. "category": Classify into ["World", "Politics", "Business", "Technology", "Science", "JUNK"]. 
+      3. "category": Classify into ["World", "Politics", "Business", "Technology", "Science", "JUNK"].
          - CRITICAL: If the headline is about Sports, Celebrities, Entertainment, Pop Culture, or Gossip, you MUST classify it as "JUNK" so we can filter it out.
       4. "title": Synthesize a clean, professional, objective 7-word headline explaining the core news event.
       5. "reasoning": Brief context for your choice.
@@ -223,7 +278,7 @@ export const AI = {
     `;
 
         try {
-            const text = await this.runWithFallback(prompt, 30000);
+            const text = await this.runWithFallback(prompt, CONFIG.AI_REQUEST_TIMEOUT);
             const json = robustParse(text);
 
             if (!json || !json.sentiment) return null;

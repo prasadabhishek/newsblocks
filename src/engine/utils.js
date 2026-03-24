@@ -47,6 +47,22 @@ export function hashString(str) {
  * Resilient JSON parsing for LLM outputs.
  * Handles markdown blocks, truncated JSON, and common syntax errors.
  */
+/**
+ * Wraps a promise with a timeout. Rejects if the promise doesn't resolve within ms.
+ * @param {Promise} promise - The promise to wrap.
+ * @param {number} ms - Timeout in milliseconds.
+ * @param {string} name - Name of the operation for error message.
+ * @returns {Promise<any>}
+ */
+export async function withTimeout(promise, ms, name = 'operation') {
+    return Promise.race([
+        promise,
+        new Promise((_, reject) =>
+            setTimeout(() => reject(new Error(`Timeout: ${name} exceeded ${ms}ms`)), ms)
+        )
+    ]);
+}
+
 export function robustParse(text) {
     if (!text) return null;
 

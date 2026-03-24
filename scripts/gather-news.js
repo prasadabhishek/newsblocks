@@ -2,8 +2,9 @@ import 'dotenv/config';
 import Parser from 'rss-parser';
 import fs from 'fs';
 import { Pipeline } from '../src/engine/pipeline.js';
-import { retry } from '../src/engine/utils.js';
+import { retry, withTimeout } from '../src/engine/utils.js';
 import { Cache } from '../src/engine/cache.js';
+import { CONFIG } from '../src/engine/config.js';
 import { execSync } from 'child_process';
 
 // Professional headers to avoid blocking
@@ -57,53 +58,107 @@ const PREMIUM_FEEDS = [
     { name: 'Science', url: 'https://news.google.com/rss/headlines/section/topic/SCIENCE', publisher: 'Various', tier: 2 }
 ];
 
+/**
+ * Fetches a single feed with timeout.
+ * @param {Object} feed - Feed configuration.
+ * @param {number} timeoutMs - Timeout in milliseconds.
+ * @returns {Promise<Object>} - { success: boolean, feed, articles?, error? }
+ */
+async function fetchWithTimeout(feed, timeoutMs) {
+    try {
+        const data = await withTimeout(
+            retry(() => parser.parseURL(feed.url), 2, 5000),
+            timeoutMs,
+            `fetchFeed:${feed.publisher}`
+        );
+        return { success: true, feed, data };
+    } catch (e) {
+        return { success: false, feed, error: e.message };
+    }
+}
+
+/**
+ * Fetches all feeds in parallel batches with concurrency limit.
+ * @param {Array} feeds - Array of feed configurations.
+ * @returns {Promise<Array>} - Array of { success, feed, articles?, error? }
+ */
+async function fetchAllFeeds(feeds) {
+    const results = [];
+    const CONCURRENCY = CONFIG.FEED_CONCURRENCY;
+
+    for (let i = 0; i < feeds.length; i += CONCURRENCY) {
+        const batch = feeds.slice(i, i + CONCURRENCY);
+        const batchPromises = batch.map(feed => fetchWithTimeout(feed, CONFIG.FEED_FETCH_TIMEOUT));
+        const batchResults = await Promise.all(batchPromises);
+        results.push(...batchResults);
+    }
+
+    return results;
+}
+
+/**
+ * Process raw feed data into articles.
+ * @param {Object} feed - Feed configuration.
+ * @param {Object} data - Parsed RSS data.
+ * @returns {Array} - Processed articles.
+ */
+function processFeedData(feed, data) {
+    const now = new Date();
+    const twentyFourHoursAgo = new Date(now.getTime() - (24 * 60 * 60 * 1000));
+
+    return data.items
+        .map(item => {
+            let source = feed.publisher;
+            if (source === 'Various') {
+                source = item.source || (item.title && item.title.includes(' - ') ? item.title.split(' - ').pop() : 'News');
+            }
+
+            let cleanTitle = (item.title || "").trim();
+            if (cleanTitle.includes(' - ')) {
+                const parts = cleanTitle.split(' - ');
+                parts.pop();
+                cleanTitle = parts.join(' - ');
+            }
+
+            return {
+                title: cleanTitle.trim(),
+                source: source.trim(),
+                link: item.link,
+                pubDate: new Date(item.isoDate || item.pubDate),
+                tier: feed.tier
+            };
+        })
+        .filter(item => {
+            const isRecent = item.pubDate >= twentyFourHoursAgo;
+            if (!isRecent || !item.title) return false;
+
+            // HARD FILTER: Prevent sports/lifestyle bleed into Politics
+            if (feed.name === 'Politics') {
+                const lowTitle = item.title.toLowerCase();
+                const banned = ['beat', 'score', 'striker', 'football', 'soccer', 'win', 'goal', 'liverpool', 'united', 'v.', 'vs', 'league', 'chelsea', 'arsenal'];
+                if (banned.some(b => lowTitle.includes(b)) && !lowTitle.includes('poll')) return false;
+            }
+            return true;
+        })
+        .slice(0, CONFIG.MAX_ARTICLES_PER_FEED);
+}
+
 async function gatherNews() {
     console.log('Gathering REAL-TIME ELITE news feeds (with Pro Headers)...');
 
     const categoryMap = {};
     const now = new Date();
-    const twentyFourHoursAgo = new Date(now.getTime() - (24 * 60 * 60 * 1000));
 
-    for (const feed of PREMIUM_FEEDS) {
-        console.log(`Fetching from ${feed.publisher} (${feed.name})...`);
-        try {
-            const data = await retry(() => parser.parseURL(feed.url), 2, 5000); // Quick retry for RSS
+    // Fetch all feeds in parallel
+    console.log(`Fetching from ${PREMIUM_FEEDS.length} feeds with concurrency ${CONFIG.FEED_CONCURRENCY}...`);
+    const results = await fetchAllFeeds(PREMIUM_FEEDS);
 
-            const rawArticles = data.items
-                .map(item => {
-                    let source = feed.publisher;
-                    if (source === 'Various') {
-                        source = item.source || (item.title && item.title.includes(' - ') ? item.title.split(' - ').pop() : 'News');
-                    }
+    for (const result of results) {
+        const feed = result.feed;
 
-                    let cleanTitle = (item.title || "").trim();
-                    if (cleanTitle.includes(' - ')) {
-                        const parts = cleanTitle.split(' - ');
-                        parts.pop();
-                        cleanTitle = parts.join(' - ');
-                    }
-
-                    return {
-                        title: cleanTitle.trim(),
-                        source: source.trim(),
-                        link: item.link,
-                        pubDate: new Date(item.isoDate || item.pubDate),
-                        tier: feed.tier
-                    };
-                })
-                .filter(item => {
-                    const isRecent = item.pubDate >= twentyFourHoursAgo;
-                    if (!isRecent || !item.title) return false;
-
-                    // HARD FILTER: Prevent sports/lifestyle bleed into Politics
-                    if (feed.name === 'Politics') {
-                        const lowTitle = item.title.toLowerCase();
-                        const banned = ['beat', 'score', 'striker', 'football', 'soccer', 'win', 'goal', 'liverpool', 'united', 'v.', 'vs', 'league', 'chelsea', 'arsenal'];
-                        if (banned.some(b => lowTitle.includes(b)) && !lowTitle.includes('poll')) return false;
-                    }
-                    return true;
-                })
-                .slice(0, 25);
+        if (result.success) {
+            console.log(`Fetching from ${feed.publisher} (${feed.name})...`);
+            const rawArticles = processFeedData(feed, result.data);
 
             // Update cache on success
             Cache.setFeed(feed.url, rawArticles);
@@ -114,8 +169,8 @@ async function gatherNews() {
             categoryMap[feed.name].push(...rawArticles);
 
             console.log(`  └─ Found ${rawArticles.length} recent articles.`);
-        } catch (e) {
-            console.error(`  └─ Error fetching ${feed.publisher}: ${e.message}. Using cache fallback...`);
+        } else {
+            console.error(`  └─ Error fetching ${feed.publisher}: ${result.error}. Using cache fallback...`);
             const cached = Cache.getFeed(feed.url);
             if (cached && cached.items) {
                 if (!categoryMap[feed.name]) categoryMap[feed.name] = [];
@@ -207,7 +262,7 @@ function validateOutput(tree) {
     if (totalClusters === 0) return false;
 
     // Minimum category check
-    if (tree.children.length < 3) return false;
+    if (tree.children.length < CONFIG.MIN_CATEGORIES_FOR_VALIDATION) return false;
 
     return true;
 }
