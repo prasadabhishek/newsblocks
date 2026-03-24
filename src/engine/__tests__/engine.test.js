@@ -49,7 +49,7 @@ describe('News Pipeline Unit Tests', () => {
 describe('Performance & Accuracy Tests', () => {
     const pipeline = new Pipeline();
 
-    it('Performance: should process 100 articles in under 100ms', async () => {
+    it('Performance: should process 100 articles in under 10000ms', async () => {
         const rawData = [
             { name: 'Tech', rawArticles: Array(100).fill({ title: 'Standard news headline about tech', source: 'TechCrunch' }) }
         ];
@@ -61,7 +61,7 @@ describe('Performance & Accuracy Tests', () => {
         const duration = end - start;
         console.log(`Performance: 100 articles processed in ${duration.toFixed(2)}ms`);
         expect(duration).toBeLessThan(10000); // Real AI calls take seconds, not ms
-    });
+    }, 15000); // 15s timeout for this test
 
     it('Accuracy: should correctly cluster diverse headlines', async () => {
         const rawData = [
