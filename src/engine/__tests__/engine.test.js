@@ -60,7 +60,7 @@ describe('Performance & Accuracy Tests', () => {
 
         const duration = end - start;
         console.log(`Performance: 100 articles processed in ${duration.toFixed(2)}ms`);
-        expect(duration).toBeLessThan(10000); // Real AI calls take seconds, not ms
+        expect(duration).toBeLessThan(100);
     });
 
     it('Accuracy: should correctly cluster diverse headlines', async () => {
@@ -79,8 +79,8 @@ describe('Performance & Accuracy Tests', () => {
         const result = await pipeline.run(rawData);
         const worldCategory = result.children.find(c => c.name === 'World');
 
-        // Should have at least 1 cluster (threshold 0.60 causes aggressive clustering)
-        expect(worldCategory.children.length).toBeGreaterThanOrEqual(1);
+        // Should have exactly 2 clusters
+        expect(worldCategory.children).toHaveLength(2);
 
         // Check sentiment accuracy
         const warStory = worldCategory.children.find(s =>

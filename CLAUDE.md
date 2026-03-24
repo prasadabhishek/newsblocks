@@ -86,7 +86,7 @@ RSS Feeds → gather-news.js → Pipeline.run() → src/data.js → React App �
 ### Embedding Caching
 - Uses MurmurHash3 variant via `hashString()` for cache keys
 - Cache checked before any AI call - hit = instant return
-- 60% cosine similarity threshold for clustering
+- 77% cosine similarity threshold for clustering (NOTE: SYSTEM_OVERVIEW.md incorrectly says 82%)
 
 ### Treemap Rendering
 - Block size = `citationCount * relevance` (consensus × importance)

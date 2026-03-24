@@ -3,8 +3,8 @@ import { CONFIG } from '../config.js';
 
 describe('CONFIG', () => {
     describe('Clustering', () => {
-        it('should have SIMILARITY_THRESHOLD of 0.60', () => {
-            expect(CONFIG.SIMILARITY_THRESHOLD).toBe(0.60);
+        it('should have SIMILARITY_THRESHOLD of 0.77', () => {
+            expect(CONFIG.SIMILARITY_THRESHOLD).toBe(0.77);
         });
 
         it('should have JACCARD_THRESHOLD of 0.1', () => {
