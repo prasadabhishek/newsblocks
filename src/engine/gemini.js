@@ -14,29 +14,56 @@ const getGenAI = () => {
 const MODELS = {
     GEMINI_PRIMARY: "gemini-1.5-flash",
     GEMINI_FALLBACK: "gemini-1.5-flash-8b",
-    MINIMAX_PRIMARY: "MiniMax-Text-01",
+    MINIMAX_PRIMARY: "MiniMax-M2.7",
+    OLLAMA_LLM: "llama3:8b",
+    OLLAMA_EMBED: "nomic-embed-text",
     EMBEDDING: "text-embedding-004"
 };
 
-const getProvider = () => process.env.AI_PROVIDER || "gemini";
+const getProvider = () => process.env.AI_PROVIDER || "ollama";
+const getOllamaHost = () => process.env.OLLAMA_HOST || "http://localhost:11434";
 
 /**
  * AI Utility for News Map.
- * Supports Gemini and MiniMax providers.
+ * Supports Ollama (Local), Gemini, and MiniMax providers.
  */
 export const AI = {
     /**
      * Internal helper to run a prompt with provider-specific logic.
      */
     async runWithFallback(prompt, retryDelay = 30000) {
-        await sleep(500); // Pacing for rate limits
+        const provider = getProvider();
+        await sleep(200); // Pacing
 
-        if (getProvider() === "minimax") {
+        if (provider === "ollama") {
+            return this.runOllama(prompt, retryDelay);
+        }
+        if (provider === "minimax") {
             return this.runMiniMax(prompt, retryDelay);
         }
 
         // Default: Gemini
         return this.runGemini(prompt, retryDelay);
+    },
+
+    /**
+     * Ollama Implementation (Local)
+     */
+    async runOllama(prompt, retryDelay) {
+        try {
+            console.log(`AI: Trying local Ollama (${MODELS.OLLAMA_LLM})...`);
+            const response = await retry(() => axios.post(`${getOllamaHost()}/api/generate`, {
+                model: MODELS.OLLAMA_LLM,
+                prompt: prompt,
+                stream: false,
+                options: { temperature: 0.1 }
+            }), 2, 5000);
+
+            return response.data.response;
+        } catch (e) {
+            console.error(`AI: Ollama failed: ${e.message}. Falling back to Gemini...`);
+            return this.runGemini(prompt, retryDelay);
+        }
     },
 
     /**
@@ -48,12 +75,12 @@ export const AI = {
             // Note: If using v1beta, some models require different naming or a specific SDK config.
             // We'll try the stable name first.
             const model = getGenAI().getGenerativeModel({ model: MODELS.GEMINI_PRIMARY });
-            const result = await retry(() => model.generateContent(prompt), 2, 30000); // Production retry
+            const result = await retry(() => model.generateContent(prompt), 2, retryDelay); // Production retry
             return (await result.response).text();
         } catch (e) {
             console.error(`AI: Gemini primary failed: ${e.message}. Trying fallback...`);
             const model = getGenAI().getGenerativeModel({ model: MODELS.GEMINI_FALLBACK });
-            const result = await retry(() => model.generateContent(prompt), 1, 30000);
+            const result = await retry(() => model.generateContent(prompt), 1, retryDelay);
             return (await result.response).text();
         }
     },
@@ -83,7 +110,7 @@ export const AI = {
                         "Content-Type": "application/json"
                     }
                 }
-            ), 2, 30000);
+            ), 2, retryDelay);
 
             return response.data.choices[0].message.content;
         } catch (e) {
@@ -94,14 +121,9 @@ export const AI = {
     },
 
     /**
-     * Embeds headlines (Always uses Gemini/Vertex for now as MiniMax embeddings differ significantly).
+     * Embeds headlines. Prioritizes Ollama (Local) if provider is ollama.
      */
     async embedBatchedHeadlines(headlines) {
-        if (!process.env.GEMINI_API_KEY) {
-            console.warn("GEMINI_API_KEY not found. Using fallback clustering.");
-            return null;
-        }
-
         const hashes = headlines.map(h => hashString(h));
         const results = new Array(headlines.length).fill(null);
         const missingIndices = [];
@@ -114,6 +136,32 @@ export const AI = {
 
         if (missingIndices.length === 0) return results;
 
+        // Try Ollama first if it's the provider
+        if (getProvider() === "ollama") {
+            try {
+                console.log(`AI: Fetching local embeddings for ${missingIndices.length} headlines...`);
+                for (let i = 0; i < missingIndices.length; i++) {
+                    const idx = missingIndices[i];
+                    const response = await axios.post(`${getOllamaHost()}/api/embeddings`, {
+                        model: MODELS.OLLAMA_EMBED,
+                        prompt: headlines[idx]
+                    });
+                    const val = response.data.embedding;
+                    results[idx] = val;
+                    Cache.setEmbedding(hashes[idx], val);
+                }
+                return results;
+            } catch (e) {
+                console.error("Local Ollama embedding failed, falling back to Gemini:", e.message);
+            }
+        }
+
+        // Gemini Fallback for embeddings
+        if (!process.env.GEMINI_API_KEY) {
+            console.warn("GEMINI_API_KEY not found. Using fallback clustering.");
+            return null;
+        }
+
         try {
             const model = getGenAI().getGenerativeModel({ model: MODELS.EMBEDDING });
             const missingHeadlines = missingIndices.map(i => headlines[i]);
@@ -122,7 +170,7 @@ export const AI = {
             }));
 
             await sleep(500);
-            console.log(`AI: Fetching embeddings for ${missingHeadlines.length} NEW headlines...`);
+            console.log(`AI: Fetching Gemini embeddings for ${missingHeadlines.length} headlines...`);
             const result = await retry(() => model.batchEmbedContents({ requests }), 2, 20000);
 
             if (result && result.embeddings) {
@@ -145,8 +193,6 @@ export const AI = {
      * Analyzes sentiment.
      */
     async analyzeSentiment(headline) {
-        if (!process.env.GEMINI_API_KEY && !process.env.MINIMAX_API_KEY) return null;
-
         const hash = hashString(headline);
         const cached = Cache.getInference(hash);
         if (cached && cached.sentiment && typeof cached.relevance === 'number' && cached.category && cached.title) {
@@ -177,7 +223,7 @@ export const AI = {
     `;
 
         try {
-            const text = await this.runWithFallback(prompt, 10000);
+            const text = await this.runWithFallback(prompt, 30000);
             const json = robustParse(text);
 
             if (!json || !json.sentiment) return null;
