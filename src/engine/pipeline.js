@@ -13,6 +13,8 @@ export class Pipeline {
             lastUpdated: new Date().toISOString(),
             children: [
                 { name: "World", children: [] },
+                { name: "US", children: [] },
+                { name: "Seattle", children: [] },
                 { name: "Politics", children: [] },
                 { name: "Finance", children: [] },
                 { name: "Business", children: [] },

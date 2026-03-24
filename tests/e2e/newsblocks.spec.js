@@ -36,6 +36,12 @@ test.describe('NewsBlocks E2E Tests', () => {
             console.log('Found categories:', categories);
         });
 
+        test('US category is visible', async ({ page }) => {
+            await page.goto('/');
+            const usCategory = page.getByText('US');
+            await expect(usCategory.first()).toBeVisible();
+        });
+
         test('last updated timestamp displays in header', async ({ page }) => {
             await page.goto('/');
 

@@ -50,6 +50,16 @@ const PREMIUM_FEEDS = [
     { name: 'Science', url: 'https://phys.org/rss-feed/', publisher: 'Phys.org', tier: 2 },
     { name: 'Science', url: 'https://www.theguardian.com/science/rss', publisher: 'The Guardian', tier: 1 },
 
+    // US NATIONAL
+    { name: 'US', url: 'https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml', publisher: 'BBC US', tier: 1 },
+    { name: 'US', url: 'https://rss.nytimes.com/services/xml/rss/nyt/Americas.xml', publisher: 'NY Times', tier: 1 },
+    { name: 'US', url: 'https://www.politico.com/rss/politicopicks.xml', publisher: 'Politico', tier: 1 },
+
+    // SEATTLE LOCAL
+    { name: 'Seattle', url: 'https://www.seattletimes.com/feed/politics/', publisher: 'Seattle Times', tier: 1 },
+    { name: 'Seattle', url: 'https://www.seattletimes.com/feed/news/', publisher: 'Seattle Times', tier: 1 },
+    { name: 'Seattle', url: 'https://komonews.com/feed', publisher: 'KOMO News', tier: 2 },
+
     // GOOGLE NEWS AGGREGATION (MASSIVE SOURCE INJECTION)
     { name: 'Politics', url: 'https://news.google.com/rss/headlines/section/topic/NATION', publisher: 'Various', tier: 2 },
     { name: 'Stocks', url: 'https://news.google.com/rss/headlines/section/topic/BUSINESS', publisher: 'Various', tier: 2 },
