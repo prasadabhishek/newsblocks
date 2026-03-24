@@ -170,7 +170,8 @@ describe('V4 Strategy: Quality Over Quantity', () => {
             const result = { sentiment: 'POSITIVE', relevance: 8, reasoning: 'Testing' };
 
             Cache.setInference(hash, result);
-            expect(Cache.getInference(hash)).toEqual(result);
+            // Use toMatchObject because setInference adds cachedAt timestamp
+            expect(Cache.getInference(hash)).toMatchObject(result);
         });
     });
 });
