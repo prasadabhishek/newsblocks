@@ -1,53 +1,100 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import axios from "axios";
 import { retry, hashString, robustParse, sleep } from "./utils.js";
 import { Cache } from "./cache.js";
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "MOCK_KEY");
+let _genAI = null;
+const getGenAI = () => {
+    if (!_genAI) {
+        _genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "MOCK_KEY");
+    }
+    return _genAI;
+};
 
 const MODELS = {
-    PRIMARY: "gemini-1.5-flash",
-    FALLBACK: "gemini-1.5-flash-8b",
+    GEMINI_PRIMARY: "gemini-1.5-flash",
+    GEMINI_FALLBACK: "gemini-1.5-flash-8b",
+    MINIMAX_PRIMARY: "MiniMax-Text-01",
     EMBEDDING: "text-embedding-004"
 };
 
+const getProvider = () => process.env.AI_PROVIDER || "gemini";
+
 /**
  * AI Utility for News Map.
- * Provides semantic clustering and sentiment analysis using Gemini.
+ * Supports Gemini and MiniMax providers.
  */
 export const AI = {
     /**
-     * Internal helper to run a prompt with fallback models.
+     * Internal helper to run a prompt with provider-specific logic.
      */
     async runWithFallback(prompt, retryDelay = 30000) {
-        // Pacing: Artificial delay to stay well within burst limits
-        await sleep(500);
+        await sleep(500); // Pacing for rate limits
 
-        // Tier 1: Primary Model (Flash)
+        if (getProvider() === "minimax") {
+            return this.runMiniMax(prompt, retryDelay);
+        }
+
+        // Default: Gemini
+        return this.runGemini(prompt, retryDelay);
+    },
+
+    /**
+     * Gemini Implementation
+     */
+    async runGemini(prompt, retryDelay) {
         try {
-            console.log(`AI: Trying primary model (${MODELS.PRIMARY})...`);
-            const model = genAI.getGenerativeModel({ model: MODELS.PRIMARY });
-            const result = await retry(() => model.generateContent(prompt), 2, retryDelay);
+            console.log(`AI: Trying Gemini primary (${MODELS.GEMINI_PRIMARY})...`);
+            // Note: If using v1beta, some models require different naming or a specific SDK config.
+            // We'll try the stable name first.
+            const model = getGenAI().getGenerativeModel({ model: MODELS.GEMINI_PRIMARY });
+            const result = await retry(() => model.generateContent(prompt), 2, 30000); // Production retry
             return (await result.response).text();
         } catch (e) {
-            console.error(`AI: Primary model failed: ${e.message}. Switching to fallback...`);
-
-            // Tier 2: Fallback Model (Flash)
-            try {
-                console.log(`AI: Trying fallback model (${MODELS.FALLBACK})...`);
-                const model = genAI.getGenerativeModel({ model: MODELS.FALLBACK });
-                const result = await retry(() => model.generateContent(prompt), 1, retryDelay);
-                return (await result.response).text();
-            } catch (e2) {
-                console.error(`AI: Fallback model also failed: ${e2.message}`);
-                throw e2;
-            }
+            console.error(`AI: Gemini primary failed: ${e.message}. Trying fallback...`);
+            const model = getGenAI().getGenerativeModel({ model: MODELS.GEMINI_FALLBACK });
+            const result = await retry(() => model.generateContent(prompt), 1, 30000);
+            return (await result.response).text();
         }
     },
 
     /**
-     * Embeds headlines using text-embedding-004 in batches.
-     * @param {Array<string>} headlines
-     * @returns {Promise<Array<Array<number>>>}
+     * MiniMax Implementation (OpenAI Compatible)
+     */
+    async runMiniMax(prompt, retryDelay) {
+        const apiKey = process.env.MINIMAX_API_KEY;
+        if (!apiKey) {
+            console.warn("MINIMAX_API_KEY not found. Falling back to Gemini...");
+            return this.runGemini(prompt, retryDelay);
+        }
+
+        try {
+            console.log(`AI: Trying MiniMax (${MODELS.MINIMAX_PRIMARY})...`);
+            const response = await retry(() => axios.post(
+                "https://api.minimax.io/v1/chat/completions",
+                {
+                    model: MODELS.MINIMAX_PRIMARY,
+                    messages: [{ role: "user", content: prompt }],
+                    temperature: 0.1
+                },
+                {
+                    headers: {
+                        "Authorization": `Bearer ${apiKey}`,
+                        "Content-Type": "application/json"
+                    }
+                }
+            ), 2, 30000);
+
+            return response.data.choices[0].message.content;
+        } catch (e) {
+            const errorMsg = e.response ? JSON.stringify(e.response.data) : e.message;
+            console.error(`AI: MiniMax failed: ${errorMsg}. Falling back to Gemini...`);
+            return this.runGemini(prompt, retryDelay);
+        }
+    },
+
+    /**
+     * Embeds headlines (Always uses Gemini/Vertex for now as MiniMax embeddings differ significantly).
      */
     async embedBatchedHeadlines(headlines) {
         if (!process.env.GEMINI_API_KEY) {
@@ -59,7 +106,6 @@ export const AI = {
         const results = new Array(headlines.length).fill(null);
         const missingIndices = [];
 
-        // 1. Check Cache
         hashes.forEach((hash, i) => {
             const cached = Cache.getEmbedding(hash);
             if (cached) results[i] = cached;
@@ -69,16 +115,13 @@ export const AI = {
         if (missingIndices.length === 0) return results;
 
         try {
-            const model = genAI.getGenerativeModel({ model: MODELS.EMBEDDING });
+            const model = getGenAI().getGenerativeModel({ model: MODELS.EMBEDDING });
             const missingHeadlines = missingIndices.map(i => headlines[i]);
-
             const requests = missingHeadlines.map(h => ({
                 content: { parts: [{ text: h }] }
             }));
 
-            // Pacing for free tier
             await sleep(500);
-
             console.log(`AI: Fetching embeddings for ${missingHeadlines.length} NEW headlines...`);
             const result = await retry(() => model.batchEmbedContents({ requests }), 2, 20000);
 
@@ -99,14 +142,13 @@ export const AI = {
     },
 
     /**
-     * Analyzes sentiment using an LLM.
+     * Analyzes sentiment.
      */
     async analyzeSentiment(headline) {
-        if (!process.env.GEMINI_API_KEY) return null;
+        if (!process.env.GEMINI_API_KEY && !process.env.MINIMAX_API_KEY) return null;
 
         const hash = hashString(headline);
         const cached = Cache.getInference(hash);
-        // Requirement: Must have all new fields for V4.6 (including category and title)
         if (cached && cached.sentiment && typeof cached.relevance === 'number' && cached.category && cached.title) {
             return cached;
         }
