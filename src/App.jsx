@@ -16,6 +16,20 @@ function App() {
   // State for the currently selected story (from URL or click)
   const [selectedStory, setSelectedStory] = useState(null);
 
+  // Accessibility: Color Blind Mode
+  const [isColorBlind, setIsColorBlind] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return localStorage.getItem('newsblocks_colorblind') === 'true';
+    }
+    return false;
+  });
+
+  const toggleColorBlind = () => {
+    const newVal = !isColorBlind;
+    setIsColorBlind(newVal);
+    localStorage.setItem('newsblocks_colorblind', String(newVal));
+  };
+
   useEffect(() => {
     function handleResize() {
       const mobileCheck = window.innerWidth < 768;
@@ -115,7 +129,42 @@ function App() {
         </ul>
       </div>
 
-      <header className="header-main" onClick={() => handleStorySelect(null)} style={{ cursor: 'pointer' }}>
+      <header className="header-main" onClick={() => handleStorySelect(null)} style={{ cursor: 'pointer', position: 'relative' }}>
+        {/* Color Blind Toggle */}
+        <div 
+          onClick={(e) => { e.stopPropagation(); toggleColorBlind(); }}
+          style={{
+            position: 'absolute',
+            top: '24px',
+            right: '24px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+            padding: '6px 12px',
+            background: isColorBlind ? 'rgba(37, 99, 235, 0.2)' : 'rgba(30, 41, 59, 0.6)',
+            border: `1px solid ${isColorBlind ? 'rgba(37, 99, 235, 0.4)' : 'rgba(255, 255, 255, 0.1)'}`,
+            borderRadius: '99px',
+            cursor: 'pointer',
+            transition: 'all 0.3s ease',
+            zIndex: 50
+          }}
+          className="hover:scale-105"
+        >
+          <div style={{
+            width: '12px',
+            height: '12px',
+            borderRadius: '50%',
+            background: isColorBlind ? '#2563eb' : '#94a3b8',
+            boxShadow: isColorBlind ? '0 0 8px #2563eb' : 'none'
+          }}></div>
+          <span style={{ 
+            fontSize: '10px', 
+            fontWeight: '900', 
+            color: isColorBlind ? '#fff' : '#94a3b8',
+            letterSpacing: '0.05em'
+          }}>COLOR BLIND: {isColorBlind ? 'ON' : 'OFF'}</span>
+        </div>
+
         <h1 className="logo-text">NewsBlocks</h1>
         <h2 className="subtitle-main">news sentiment visualizer</h2>
 
@@ -133,9 +182,16 @@ function App() {
 
         <div className="sentiment-legend-container">
           <div className="sentiment-bar-wrapper">
-            <span className="sentiment-label">NEGATIVE</span>
-            <div className="sentiment-bar"></div>
-            <span className="sentiment-label">POSITIVE</span>
+            <span className="sentiment-label">{isColorBlind ? 'CRITICAL' : 'NEGATIVE'}</span>
+            <div 
+              className="sentiment-bar" 
+              style={{ 
+                background: isColorBlind 
+                  ? 'linear-gradient(to right, #ea580c, #334155, #2563eb)' 
+                  : 'linear-gradient(to right, #ef4444, #334155, #22c55e)' 
+              }}
+            ></div>
+            <span className="sentiment-label">{isColorBlind ? 'RELEVANT' : 'POSITIVE'}</span>
           </div>
         </div>
       </header>
@@ -149,6 +205,7 @@ function App() {
               height={dimensions.height}
               selectedStory={selectedStory}
               onStorySelect={handleStorySelect}
+              isColorBlind={isColorBlind}
             />
           </div>
         ) : (
@@ -158,6 +215,7 @@ function App() {
             height={dimensions.height}
             selectedStory={selectedStory}
             onStorySelect={handleStorySelect}
+            isColorBlind={isColorBlind}
           />
         )}
       </main>

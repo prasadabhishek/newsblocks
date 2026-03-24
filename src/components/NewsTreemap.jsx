@@ -26,7 +26,7 @@ const brandLink = (url) => {
     }
 };
 
-const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
+const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect, isColorBlind }) => {
     const svgRef = useRef(null);
     const [tooltip, setTooltip] = useState({
         visible: false,
@@ -93,7 +93,10 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
         const svg = d3.select(svgRef.current);
         const colorScale = d3.scaleLinear()
             .domain([-1, -0.6, -0.1, 0, 0.1, 0.6, 1])
-            .range(['#ef4444', '#b91c1c', '#4d0a0a', '#1e293b', '#064e1c', '#15803d', '#22c55e']);
+            .range(isColorBlind 
+                ? ['#ea580c', '#9a3412', '#431407', '#1e293b', '#172554', '#1e40af', '#2563eb']  // Blue-Orange
+                : ['#ef4444', '#b91c1c', '#4d0a0a', '#1e293b', '#064e1c', '#15803d', '#22c55e']  // Red-Green
+            );
 
         const t = d3.transition().duration(750).ease(d3.easeCubicOut);
 
@@ -260,7 +263,7 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
 
         cat.exit().transition(t).style('opacity', 0).remove();
 
-    }, [root, treemapLayout, width, height]);
+    }, [root, treemapLayout, width, height, isColorBlind]);
 
     const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
 
@@ -338,7 +341,9 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect }) => {
                         <div style={{
                             fontSize: '10px',
                             fontWeight: '800',
-                            color: tooltip.content.sentiment >= 0.1 ? '#4ade80' : tooltip.content.sentiment <= -0.1 ? '#f87171' : '#94a3b8',
+                            color: isColorBlind
+                                ? (tooltip.content.sentiment >= 0.1 ? '#2563eb' : tooltip.content.sentiment <= -0.1 ? '#ea580c' : '#94a3b8')
+                                : (tooltip.content.sentiment >= 0.1 ? '#22c55e' : tooltip.content.sentiment <= -0.1 ? '#ef4444' : '#94a3b8'),
                             backgroundColor: 'rgba(255,255,255,0.05)',
                             padding: '2px 8px',
                             borderRadius: '4px',

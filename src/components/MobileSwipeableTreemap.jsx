@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import NewsTreemap from './NewsTreemap';
 
-function MobileSwipeableTreemap({ data, selectedStory, onStorySelect, width, height }) {
+function MobileSwipeableTreemap({ data, selectedStory, onStorySelect, width, height, isColorBlind }) {
     const [activeIndex, setActiveIndex] = useState(0);
     const touchStartX = useRef(null);
     const touchEndX = useRef(null);
@@ -86,6 +86,7 @@ function MobileSwipeableTreemap({ data, selectedStory, onStorySelect, width, hei
                     height={height * 0.55}
                     selectedStory={selectedStory}
                     onStorySelect={onStorySelect}
+                    isColorBlind={isColorBlind}
                 />
             </div>
 
