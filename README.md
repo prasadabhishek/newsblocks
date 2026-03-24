@@ -68,3 +68,68 @@ GEMINI_API_KEY=your_key_here
 - **Hosting:** Cloudflare Pages + GitHub Actions
 
 ---
+
+## Local Runner (Mac Mini / Always-On Setup)
+
+For free AI processing, run the pipeline on a local Mac Mini with Ollama instead of GitHub Actions.
+
+### 1. Requirements
+- [Ollama](https://ollama.ai/) installed: `ollama serve`
+- Node.js v18+
+- GitHub Personal Access Token (for auto-push)
+
+### 2. Install
+```bash
+# Clone repo to a shared location
+sudo mkdir -p /Users/Shared/news-map
+sudo chown $(whoami) /Users/Shared/news-map
+git clone https://github.com/prasadabhishek/newsblocks.git /Users/Shared/news-map
+cd /Users/Shared/news-map
+npm install
+
+# Create logs directory
+mkdir -p /Users/Shared/news-map/logs
+```
+
+### 3. Configure
+```bash
+# Create .env with GitHub token
+cat > /Users/Shared/news-map/.env << 'EOF'
+GITHUB_TOKEN=ghp_your_token_here
+RUN_INTERVAL_H=4
+AI_PROVIDER=ollama
+OLLAMA_HOST=http://localhost:11434
+EOF
+```
+
+### 4. Install LaunchAgent (auto-start on boot)
+```bash
+# Copy plist template
+cp scripts/com.newsblocks.runner.plist ~/Library/LaunchAgents/
+
+# Edit the plist to set correct paths
+# The path in ProgramArguments should match your install location
+
+# Load the service
+launchctl load ~/Library/LaunchAgents/com.newsblocks.runner.plist
+
+# View logs
+tail -f /Users/Shared/news-map/logs/runner.log
+```
+
+### 5. Manual Commands
+```bash
+# Start/stop the service
+launchctl start com.newsblocks.runner
+launchctl stop com.newsblocks.runner
+
+# Restart after changes
+launchctl unload ~/Library/LaunchAgents/com.newsblocks.runner.plist
+launchctl load ~/Library/LaunchAgents/com.newsblocks.runner.plist
+
+# Run once manually
+cd /Users/Shared/news-map
+node news-runner.js
+```
+
+---
