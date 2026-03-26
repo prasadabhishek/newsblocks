@@ -59,8 +59,8 @@ export class ClusteringEngine {
 
             clusters.push({
                 representativeTitle: this.selectBestTitle(cluster),
-                sources: cluster.map(c => c.source),
-                citationCount: cluster.length,
+                sources: [...new Set(cluster.map(c => c.source))],
+                citationCount: new Set(cluster.map(c => c.source)).size,
                 rawArticles: cluster
             });
         }
