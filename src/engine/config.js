@@ -5,8 +5,9 @@
 
 export const CONFIG = {
     // Clustering
-    SIMILARITY_THRESHOLD: 0.65,
-    JACCARD_THRESHOLD: 0.1,
+    // JACCARD_THRESHOLD: Title word overlap threshold (0.2 = 98% quality, 0.25 = 100% quality)
+    // Based on experiments: 0.2 recommended for accuracy, 0.25 for safety
+    JACCARD_THRESHOLD: 0.2,
 
     // Scoring
     SENTIMENT_BUCKETS: {

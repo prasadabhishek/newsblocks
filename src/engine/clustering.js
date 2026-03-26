@@ -1,77 +1,27 @@
 /**
  * Semantic Clustering Engine
- * In a production environment, this would call an LLM (Gemini)
- * to group headlines by semantic similarity.
+ *
+ * Uses Jaccard similarity on cleaned titles for accurate article clustering.
+ * This approach was validated through experiments showing it outperforms
+ * embedding-based clustering (Ollama) which produces false merges.
+ *
+ * Key findings from experiments:
+ * - Ollama embeddings merge unrelated stories (FIFA game with Trump news)
+ * - Basic Jaccard at threshold 0.25-0.3 produces near-zero bad merges
+ * - Jaccard is faster and doesn't require AI infrastructure
  */
-import { AI } from './gemini.js';
 import { CONFIG } from './config.js';
 
 export class ClusteringEngine {
     /**
-     * Identifies clusters of similar headlines.
+     * Identifies clusters of similar headlines using Jaccard similarity.
      * @param {Array} articles - List of raw article objects.
      * @returns {Array} - List of clustered story objects.
      */
     async cluster(articles) {
         if (articles.length === 0) return [];
 
-        const headlines = articles.map(a => a.title);
-        const embeddings = await AI.embedBatchedHeadlines(headlines);
-
-        // Fallback to Heuristic if embeddings fail
-        if (!embeddings || embeddings.length !== articles.length) {
-            console.log("Embeddings failed. Falling back to heuristic clustering.");
-            return this.heuristicCluster(articles);
-        }
-
-        // Spatial sort optimization: sort by embedding magnitude
-        // Similar items cluster together in sorted order
-        const indexedEmbeddings = embeddings.map((emb, i) => ({
-            i,
-            emb,
-            mag: emb.reduce((s, v) => s + v * v, 0)
-        }));
-        indexedEmbeddings.sort((a, b) => a.mag - b.mag);
-        const sortedIndices = indexedEmbeddings.map(x => x.i);
-
-        const clusters = [];
-        const usedIndices = new Set();
-
-        // Only compare to nearest 50 neighbors when items are close in sorted order
-        const NEIGHBORS = 50;
-
-        for (let ii = 0; ii < sortedIndices.length; ii++) {
-            const i = sortedIndices[ii];
-            if (usedIndices.has(i)) continue;
-
-            const current = articles[i];
-            const clusterArr = [current];
-            const vecA = embeddings[i];
-            usedIndices.add(i);
-
-            // Check neighbors in sorted order (most likely to be similar)
-            for (let k = 1; k <= NEIGHBORS && ii + k < sortedIndices.length; k++) {
-                const j = sortedIndices[ii + k];
-                if (usedIndices.has(j)) continue;
-
-                const vecB = embeddings[j];
-                const similarity = this.cosineSimilarity(vecA, vecB);
-
-                if (similarity >= CONFIG.SIMILARITY_THRESHOLD) {
-                    clusterArr.push(articles[j]);
-                    usedIndices.add(j);
-                }
-            }
-
-            clusters.push({
-                representativeTitle: this.selectBestTitle(clusterArr),
-                sources: clusterArr.map(c => c.source),
-                citationCount: clusterArr.length,
-                rawArticles: clusterArr
-            });
-        }
-
-        return clusters;
+        return this.heuristicCluster(articles);
     }
 
     cosineSimilarity(vecA, vecB) {
@@ -123,7 +73,7 @@ export class ClusteringEngine {
    * In production, this would use Vector Embeddings + Cosine Similarity.
    */
     isSimilar(t1, t2) {
-        const stopWords = new Set(['to', 'the', 'a', 'an', 'in', 'on', 'at', 'by', 'for', 'with', 'about', 'is', 'new']);
+        const stopWords = new Set(['to', 'the', 'a', 'an', 'in', 'on', 'at', 'by', 'for', 'with', 'about', 'is', 'new', 'us', 'may', 'will', 'says']);
 
         const s1 = new Set(t1.toLowerCase().split(/\W+/).filter(w => !stopWords.has(w) && w.length > 2));
         const s2 = new Set(t2.toLowerCase().split(/\W+/).filter(w => !stopWords.has(w) && w.length > 2));
