@@ -1,12 +1,12 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-26T02:16:45.963Z",
+  "lastUpdated": "2026-03-26T02:41:46.561Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Dog Rescued From Dangerous Sinkhole Collapse",
+          "representativeTitle": "Dog Rescued From Dangerous Sinkhole Incident",
           "sources": [
             "BBC US"
           ],
@@ -24,7 +24,7 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "dog-rescued-from-dangerous-sinkhole-collapse"
+          "slug": "dog-rescued-from-dangerous-sinkhole-incident"
         },
         {
           "representativeTitle": "Humanitarian Crisis Declared: 'We Are in Agony'",
@@ -182,7 +182,7 @@ export const newsData = {
       "name": "Politics",
       "children": [
         {
-          "representativeTitle": "Representative Calls for Accountability Following Epstein Release",
+          "representativeTitle": "Representative Calls for Epstein Case Justice",
           "sources": [
             "BBC US"
           ],
@@ -200,7 +200,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "representative-calls-for-accountability-following-epstein-release"
+          "slug": "representative-calls-for-epstein-case-justice"
         },
         {
           "representativeTitle": "Trump Accused of Handling Classified Information Seriously",
@@ -439,7 +439,7 @@ export const newsData = {
               "title": "Australia politics live: Labor pushes for above-inflation boost to minimum wage; NSW complains of ‘busted’ GST carve-up",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/live/2026/mar/26/australia-politics-live-penny-wong-iran-united-nations-war-fuel-crisis-cost-of-living-parliament-question-time-anthony-albanese-angus-taylor-ntwnfb",
-              "pubDate": "2026-03-26T02:06:15.000Z",
+              "pubDate": "2026-03-26T02:25:02.000Z",
               "tier": 1
             }
           ],
@@ -471,7 +471,7 @@ export const newsData = {
           "slug": "iran-threatens-new-front-in-yemen-strait"
         },
         {
-          "representativeTitle": "Iran Attacks Deemed Existential Threat by Gulf States",
+          "representativeTitle": "Gulf States Declare Iran Attacks Existential Threat",
           "sources": [
             "ایران اینترنشنال"
           ],
@@ -489,7 +489,7 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 9,
           "importance": 50,
-          "slug": "iran-attacks-deemed-existential-threat-by-gulf-states"
+          "slug": "gulf-states-declare-iran-attacks-existential-threat"
         },
         {
           "representativeTitle": "Congressman Calls for Epstein Case Perp-Walks",
@@ -654,7 +654,7 @@ export const newsData = {
           "slug": "house-of-lords-proposes-social-media-ban"
         },
         {
-          "representativeTitle": "Iran-US Tensions Rise; Israel Expands Lebanon Zone",
+          "representativeTitle": "Iran-US tensions escalate; Israel expands Lebanon buffer",
           "sources": [
             "The Guardian",
             "Al Jazeera",
@@ -667,7 +667,7 @@ export const newsData = {
               "title": "Middle East crisis live: Iran says no plan to negotiate with US; Israel says it is expanding ‘buffer zone’ in Lebanon",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/live/2026/mar/25/middle-east-crisis-live-iran-war-oil-prices-more-us-troops-reportedly-deployed-donald-trump-attacks-on-lebanon",
-              "pubDate": "2026-03-26T02:00:09.000Z",
+              "pubDate": "2026-03-26T02:20:28.000Z",
               "tier": 1
             },
             {
@@ -696,7 +696,7 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 9,
           "importance": 95,
-          "slug": "iran-us-tensions-rise-israel-expands-lebanon-zone"
+          "slug": "iran-us-tensions-escalate-israel-expands-lebanon-buffer"
         },
         {
           "representativeTitle": "Danish PM Loses Majority, Historic Election Result",
@@ -810,10 +810,9 @@ export const newsData = {
           "representativeTitle": "UN Declares Slavery 'Crime Against Humanity'",
           "sources": [
             "BBC World",
-            "The Guardian",
-            "Al Jazeera"
+            "The Guardian"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "UN votes to recognise enslavement of Africans as 'gravest crime against humanity'",
@@ -828,19 +827,12 @@ export const newsData = {
               "link": "https://www.theguardian.com/news/2026/mar/25/un-votes-slave-trade-gravest-crime-against-humanity-reparatory-justice",
               "pubDate": "2026-03-25T19:16:41.000Z",
               "tier": 1
-            },
-            {
-              "title": "UN passes resolution naming slave trade ‘gravest crime against humanity’",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/25/un-passes-resolution-naming-slave-trade-gravest-crime-against-humanity?traffic_source=rss",
-              "pubDate": "2026-03-25T18:55:28.000Z",
-              "tier": 1
             }
           ],
           "aiCategory": "Politics",
           "sentiment": -0.9,
           "relevance_score": 10,
-          "importance": 95,
+          "importance": 80,
           "slug": "un-declares-slavery-crime-against-humanity"
         },
         {
@@ -947,9 +939,10 @@ export const newsData = {
           "representativeTitle": "Philippines Declares Emergency, Boosts Coal Amidst Conflict",
           "sources": [
             "The Guardian",
-            "The Guardian"
+            "The Guardian",
+            "Al Jazeera"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Philippines declares ‘national energy emergency’ and boosts coal power as Iran war grinds on",
@@ -964,12 +957,19 @@ export const newsData = {
               "link": "https://www.theguardian.com/world/2026/mar/25/iranians-try-to-maintain-semblance-of-normal-life-as-conflict-drags-on",
               "pubDate": "2026-03-25T16:51:27.000Z",
               "tier": 1
+            },
+            {
+              "title": "Harrison: ‘There is going to be some kind of a military escalation.’",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/3/26/harrison-there-is-going-to-be-some-kind-of-a-military-escalation?traffic_source=rss",
+              "pubDate": "2026-03-26T01:56:48.000Z",
+              "tier": 1
             }
           ],
           "aiCategory": "Politics",
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 60,
+          "importance": 75,
           "slug": "philippines-declares-emergency-boosts-coal-amidst-conflict"
         },
         {
@@ -1366,7 +1366,7 @@ export const newsData = {
           "sources": [
             "Reuters",
             "The New York Times",
-            "The Daily Beast",
+            "WSJ",
             "The New York Times"
           ],
           "citationCount": 4,
@@ -1386,10 +1386,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Trump Begs Another Country to Elect Putin’s Ally",
-              "source": "The Daily Beast",
-              "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQODNrNVZuNmR6RVo0VmFDQTA5NG5OYlFLWDlFQTRRR3JYWnhnQ0tyTkV1UlVnYzBPc3ZpSnMzcnJpOVJ6VEZuWGhMcGQ0bGNpeE1XVTJDNkVHWU9CaHA3eHN0VktqNVJGR1ZQLW1FT1gwaFhySTVKVVBSb19GX3I3SDYtUmlHZFdsOFJhQTc0eV8zeW0zTlMzOGRLTnd3dFAzOXhrckc4OHlwekk?oc=5",
-              "pubDate": "2026-03-25T08:29:00.000Z",
+              "title": "Trump Tells Aides He Wants Speedy End to Iran War",
+              "source": "WSJ",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUi1BWnFyVnlVLVhMSjVuemEtbzVranY3S1RnaTBTMWJkVjRmaVpjeUxxc2pKTS1yb000ZDFpamV5Rm9SdVhCRXZGVzkwTlV0S2RsT3oxTUZwQWtYZEdBOHhBUWdlRDRPYjJrR1V0dUppWVREUjRueVVHQmFpNGJCVnZjZFNsSzZ3T3JPUXFZaHBZd0Q1WE9Tb21Zc3Rndw?oc=5",
+              "pubDate": "2026-03-26T02:00:00.000Z",
               "tier": 2
             },
             {
@@ -1499,59 +1499,13 @@ export const newsData = {
           "slug": "sarah-mullally-becomes-first-female-archbishop-of-canterbury"
         },
         {
-          "representativeTitle": "TSA Warns of Shutdowns Amid Homeland Security Fight",
-          "sources": [
-            "AP News",
-            "The Independent",
-            "BBC News",
-            "The Providence Journal"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "TSA boss warns of airport shutdowns, but no deal yet on day 40 of Homeland Security funding fight",
-              "source": "AP News",
-              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUDc4U0JqMzFxNTBwb1NEd3FReVk1Zk5abVdpQW5pTjZpUGZSM0Q1TkY1QnhyblFieFI1X0lQTlhuejhmRzFhRWVQODVUVk1pQm9ucTNsQ1NXTm1ZSk41ZGNPeGZJOEVDOW5fWnNLbUlIZHVOd1BqLTJOeUZDOTA3SjY4VjhyMWg0U2dWRk00SEsyWWYwZmZELW9lczJCZV9UZ08xdll6NA?oc=5",
-              "pubDate": "2026-03-25T22:44:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "World Cup fans face major disruption at US airports over government shutdown",
-              "source": "The Independent",
-              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRFU3RlpyZ1BBcVIzRjN1ZmtpRHFPLUtyVTRqUTF2NnJheGdqam1iVUp6MUs3VTRpNGdNTjgxbzIzb014RWcta2JyX24yTmFEODFRWTdzbVppc1JMYkxmUVFPVkJfMVRub1NVS2hta0xlQzk2ck1WOS0wOXhLQy1vTm44bENhUS1NMU1vdmVGcnFycExrTURWb2ZhWDhNZmJTLVNSN1A5UXNQb0lkMVdfWml3MGlyQkxwbnF0QkhR?oc=5",
-              "pubDate": "2026-03-25T22:05:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Doctors announce six-day strike in England as talks break down",
-              "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/c62j7jx910go?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-25T17:15:05.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Is the government still shutdown? Will Senate vote on DHS today?",
-              "source": "The Providence Journal",
-              "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeFpXamdXUUpDblVCR0dsX3hPdkZMelRlb1ppeUZDZTZkVWF3UDlYUUdBZURtOU40OU4tR080Nm81al9YZXJKNzItWWg3VnYwWnJRQnRfNnIyaWZTcXRjRy1HajFuNUs1ZXp4dXhQU0gzSzdhNTVwcXU4MUtFSE5OYS1uTGtaVzc5VG9WSnVMWHJwY3pRdHhfTWRwRTQ1OURkR3ZLQnVTbF9scnhoWWpHWkpoUUN2OGdlVWl5ZWNSc2kxbmlvYVZmVC15SXh0V0JQc3U4LQ?oc=5",
-              "pubDate": "2026-03-25T16:49:00.000Z",
-              "tier": 2
-            }
-          ],
-          "aiCategory": "Politics",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 65,
-          "slug": "tsa-warns-of-shutdowns-amid-homeland-security-fight"
-        },
-        {
           "representativeTitle": "UK Tories Demand Answers Over Phone Theft",
           "sources": [
             "BBC News",
             "The Guardian",
-            "The Guardian",
             "The Guardian"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "No 10 refuses to say if Mandelson texts were lost in top aide's phone theft",
@@ -1568,13 +1522,6 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "McSweeney-Mandelson messages still exist despite theft of ex-chief of staff’s phone",
-              "source": "The Guardian",
-              "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdmxGcVhJUHFLamd4VE9LbkFzVWk4UkJaSXlPSkFxTlpzVDhFODdXZUdySGxiSzF0SW1qY1FULUVZVXJZRVdFRDVPZ0R0VVlYdU1Xc2tNbDhIa1J0cUJaVlRpSFVfbGtuX2ZManhDZ0xCSFB4ZGRkVGZ2d1AxWHlQcGptOXE2Um9TdUZZZjZRSjlKLWF3UkdjODhuZjFkNjg5TXRwQ25FYnFFVXNJMHdZMHFlcGI1aTA?oc=5",
-              "pubDate": "2026-03-25T13:40:00.000Z",
-              "tier": 2
-            },
-            {
               "title": "UK politics: Tories claim McSweeney has ‘serious questions’ to answer about phone theft – as it happened",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/politics/live/2026/mar/25/rycroft-review-foreign-financial-interference-keir-starmer-kemi-badenoch-pmqs-latest-news-updates",
@@ -1587,27 +1534,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 70,
           "slug": "uk-tories-demand-answers-over-phone-theft"
-        },
-        {
-          "representativeTitle": "KKK Regalia Found in Mississippi Government Office",
-          "sources": [
-            "The Independent"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "KKK propaganda and regalia found in Mississippi government office during closet clear out",
-              "source": "The Independent",
-              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPajBjS3MycGQtN3ZlNVdTdHlhczhHOUw2ZnFycGJVTllVbkVuUGYxQXVWWGNWbTJfdTBQaFhWeTdCQXFOQVQ3b25RNnAzeXVLZ3lHNUhsQXVwUkZ0akZsSkxGWjJNekZ6M0lVd0t5aWdaaVNsLWlZVEZ4SVBBUlJWNkhaZ3J5ZE5fQWdkUVlFOWM3SHJYYUo1cWFqVUY3WHE3cmJpNnBLNWZRS3l0WmtNYm1yVVE?oc=5",
-              "pubDate": "2026-03-25T10:10:00.000Z",
-              "tier": 2
-            }
-          ],
-          "aiCategory": "Politics",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "kkk-regalia-found-in-mississippi-government-office"
         },
         {
           "representativeTitle": "Trump Exposed Classified Map, Raising National Security Concerns",
@@ -1633,9 +1559,10 @@ export const newsData = {
         {
           "representativeTitle": "UK Resident Doctors Strike Over Pay Dispute Begins",
           "sources": [
-            "The Guardian"
+            "The Guardian",
+            "BBC News"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Resident doctors in England to begin six-day strike after rejecting offer in pay dispute",
@@ -1643,26 +1570,33 @@ export const newsData = {
               "link": "https://www.theguardian.com/society/2026/mar/25/resident-doctors-nhs-england-strike-reject-offer-pay",
               "pubDate": "2026-03-25T19:50:50.000Z",
               "tier": 1
+            },
+            {
+              "title": "Doctors announce six-day strike in England as talks break down",
+              "source": "BBC News",
+              "link": "https://www.bbc.com/news/articles/c62j7jx910go?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-03-25T17:15:05.000Z",
+              "tier": 1
             }
           ],
           "aiCategory": "Politics",
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 50,
+          "importance": 65,
           "slug": "uk-resident-doctors-strike-over-pay-dispute-begins"
         },
         {
-          "representativeTitle": "Trump Official Seeks Prosecution Following Dismissed Case",
+          "representativeTitle": "Trump Documents Case Raises Conflict Concerns Again",
           "sources": [
-            "CBS News"
+            "South China Morning Post"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump official refers New York AG Letitia James for prosecution after a previous case was dismissed",
-              "source": "CBS News",
-              "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOTJQRzRUbmppUFQ0SkhPM0pvZlkweF94S3RkTzc1SUZUdTVGTmdRdzhSbnQ1dldfcEJIVnh4WXdwR3doMF9Ca3Y0QV9nZVQxZ19nRFpTbmFCczUxRTdZdTBUMzMxLUlMQXRIc2o3M09nZEM0ckF2ckNSVzhwaW5MVVItYkhkUmtCVURMbdIBkgFBVV95cUxQMXM5aGpsUVl5Uk9ocm9JNHNZR002c0Zfbi1pQ3BQUzNJVnpBMGtXazYxTmJ5V09LM2daam9Ga1RibkNoX2JMS2ZiTG04RnhQd3lFdEZVVVRxSWQ1azBZcmZiQkxtWlhWNzF2S3p0VlpZcWh4c2FucU42RDFKWHcwcmE2ZDdfR1M4cEY1UEJiUElhQQ?oc=5",
-              "pubDate": "2026-03-25T23:00:00.000Z",
+              "title": "New records in Trump documents case ‘raise concerns over business conflict’",
+              "source": "South China Morning Post",
+              "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNY0RWR1V0WkVBS3lmWHhNaDhkeDV0U3BLcWtzN3FKcTBNOExZWjFuWERqTmFEQUVNdG1NdnZMYV8tLWhHeHlNYkM0eDZXaktYdTZTaDNSUXZPcDZsbHhsN1ZuQkpCbW9FUjFlNlNyeDNwb3dWdGpaaXR0d0o1VGJBMmx6NHB5U2hZQ1NiNzFVQzVfb0VhQVNHV252MUUycnh0TldhZXBLQ0U5Y1pDY0IwWUo4NURyc2g0Qmk1enFyT0FYS2NXY1lhOWdBRXdIblpTOFpQZGUwZjNvOHFzblBqRmxkSzB6Z9IB5gFBVV95cUxNY0RWR1V0WkVBS3lmWHhNaDhkeDV0U3BLcWtzN3FKcTBNOExZWjFuWERqTmFEQUVNdG1NdnZMYV8tLWhHeHlNYkM0eDZXaktYdTZTaDNSUXZPcDZsbHhsN1ZuQkpCbW9FUjFlNlNyeDNwb3dWdGpaaXR0d0o1VGJBMmx6NHB5U2hZQ1NiNzFVQzVfb0VhQVNHV252MUUycnh0TldhZXBLQ0U5Y1pDY0IwWUo4NURyc2g0Qmk1enFyT0FYS2NXY1lhOWdBRXdIblpTOFpQZGUwZjNvOHFzblBqRmxkSzB6Zw?oc=5",
+              "pubDate": "2026-03-25T19:29:59.000Z",
               "tier": 2
             }
           ],
@@ -1670,15 +1604,14 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "trump-official-seeks-prosecution-following-dismissed-case"
+          "slug": "trump-documents-case-raises-conflict-concerns-again"
         },
         {
-          "representativeTitle": "Trump Threatens Iran Over Potential Peace Deal",
+          "representativeTitle": "Labour Faces Pressure on Energy Crisis Solution",
           "sources": [
-            "The Guardian",
-            "Euronews.com"
+            "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Here’s the danger: if Labour doesn’t offer a radical solution to the energy-price crisis, others will",
@@ -1686,20 +1619,84 @@ export const newsData = {
               "link": "https://www.theguardian.com/commentisfree/2026/mar/25/labour-energy-price-crisis-energy-security-reform",
               "pubDate": "2026-03-25T16:01:06.000Z",
               "tier": 1
-            },
+            }
+          ],
+          "aiCategory": "Politics",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "labour-faces-pressure-on-energy-crisis-solution"
+        },
+        {
+          "representativeTitle": "Trump Ally Settles Wrongful Prosecution Lawsuit",
+          "sources": [
+            "BBC"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Donald Trump will 'unleash hell' if Iran doesn't make peace deal, White House says",
-              "source": "Euronews.com",
-              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcFZLcVg1dm5xeXhqMGZLV3FNcWpGN052X3VGZkJ1U3RScm1FN0VJZ2Y2TFZxQjNicHE0c3ZhMXlxNkUxNnZyN3JNUV9NUEpldDA0M3M2OTNzUDVHMG0ya2hKbGxwdFJrQkhrS28tQUpNMzdNelNUYTdTZ2Y1V2NiMFdPWW5lamQyVlJXd0QwS3h1N0gtc1dPOTlfYVJWLVEyQUFDWVlSQ1g4WWNTcG5mVzdDSkQ?oc=5",
-              "pubDate": "2026-03-25T18:44:53.000Z",
+              "title": "Justice department and Trump ally Michael Flynn reach settlement over wrongful prosecution suit",
+              "source": "BBC",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1VEltSWVKal9xT1B5WlVnZFJSN29ZY2NyMlpYeWJWblE0aV92N01IRHBwNHNhYUhQTlUzUS0wdHBTTFMwUjc0N3Bnc1ZvREIyTVZvS1hFcks2UQ?oc=5",
+              "pubDate": "2026-03-25T23:47:18.000Z",
               "tier": 2
             }
           ],
           "aiCategory": "Politics",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "trump-threatens-iran-over-potential-peace-deal"
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "trump-ally-settles-wrongful-prosecution-lawsuit"
+        },
+        {
+          "representativeTitle": "DHS Funding Stalled; TSA Unpaid, Republicans Meet",
+          "sources": [
+            "The Independent"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "DHS funding fight drags on as TSA remains unpaid and Trump to meet with Republicans",
+              "source": "The Independent",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc1plYWpaRkhBVG1YLTdzdzIzZzBhaDlPN1F6MnZZOWRVTGZjV0JnYk5heG91TFFicDFNVldLeFRkeUNPY0EzMHNwWWFIanlPT3oxUUZ1My1pX0J2NTNjOGppSEpJdE5wM1hCWmhCWEh3ejY1R1hnLVI2ZGRKWjZ0Wm03M2ltY2t2dkplN21UX2V1S1BNTlNFWDNYamNXeWlPb3AydFFQNE41N3VLX2Q5WkRn?oc=5",
+              "pubDate": "2026-03-25T21:18:00.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "Politics",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "dhs-funding-stalled-tsa-unpaid-republicans-meet"
+        },
+        {
+          "representativeTitle": "ICE Deployment Fails to Improve Airport Security Lines",
+          "sources": [
+            "Gothamist",
+            "The Independent"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "ICE agents deployed to NYC airports do not appear to help ease TSA lines",
+              "source": "Gothamist",
+              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQanFyZWVkNGdXOGRIRkR0NnR2ZHBrd3hjT0RIaGtzN1d1Ri1waVBEcHc2N0V5QUdYVVN1czA0S3A5dkdkVDZ1WDM0WWgxeVA1RmFVRldEZ1c3SGE1eUVNc1Q4S3NRZjVvR3g0UERGX3hnekZQYVo2bU1heGxySXAwUDRSQmJSS2ZzdFdNZHJHdkhWdE16QmlDNlQ0d1pyYU1M?oc=5",
+              "pubDate": "2026-03-25T19:47:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "World Cup fans face major disruption at US airports over government shutdown",
+              "source": "The Independent",
+              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRFU3RlpyZ1BBcVIzRjN1ZmtpRHFPLUtyVTRqUTF2NnJheGdqam1iVUp6MUs3VTRpNGdNTjgxbzIzb014RWcta2JyX24yTmFEODFRWTdzbVppc1JMYkxmUVFPVkJfMVRub1NVS2hta0xlQzk2ck1WOS0wOXhLQy1vTm44bENhUS1NMU1vdmVGcnFycExrTURWb2ZhWDhNZmJTLVNSN1A5UXNQb0lkMVdfWml3MGlyQkxwbnF0QkhR?oc=5",
+              "pubDate": "2026-03-25T22:05:00.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "Politics",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "ice-deployment-fails-to-improve-airport-security-lines"
         },
         {
           "representativeTitle": "Warner Criticizes AOC's AI Data Center Proposal",
@@ -1712,7 +1709,7 @@ export const newsData = {
               "title": "Exclusive: Sen. Warner calls AI data center moratorium championed by AOC \"idiocy\"",
               "source": "Axios",
               "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPd2luQ2RyVUR5N0tKNzJGVWJTc0R2WTNvaXBhUnBRREVCa1lKS3dpUWhqYURFRDctYXVJb0N2OFAwZ1BibXE0OW9FYkU3OEY5OE5neU9rZHVkeHpObjZmME91dFJYRG1lcnBkaFVGbWZndGJVNHpHazVNT1FuX1p3ZnBR?oc=5",
-              "pubDate": "2026-03-25T19:12:09.000Z",
+              "pubDate": "2026-03-25T20:12:09.000Z",
               "tier": 2
             }
           ],
@@ -1721,51 +1718,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "warner-criticizes-aocs-ai-data-center-proposal"
-        },
-        {
-          "representativeTitle": "Political Funding Restricted, Reform UK Hit Hard",
-          "sources": [
-            "The Guardian",
-            "The Guardian",
-            "Ripon Commonwealth Press",
-            "BBC News"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "Overseas political funding capped and crypto donations blocked in blow to Reform UK",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/mar/25/political-donations-cryptocurrency-blocked-reform-uk",
-              "pubDate": "2026-03-25T19:57:52.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Labour’s donations crackdown is a blow to Reform UK – and a highly political move",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/mar/25/labours-donations-crackdown-is-a-blow-to-reform-uk-and-a-highly-political-move",
-              "pubDate": "2026-03-25T19:12:44.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Market chaos and political power: Who’s cashing in?",
-              "source": "Ripon Commonwealth Press",
-              "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZmdrU1FMbFlhTUNfSE11YndhQXQwSV9yVzVlQ2huUEVEaDdIVmRUazdqNzhuXzZsZjdLbWhkU0xBWUZmM2ZwZUNNYTE1RU1hcTY4akRORWY2OFBBU3NISGVGdGJiNnVpdF81Y1U5b0t2dEVzWWdIRnFPY2J0bTg5c055R1A4YjY1cjlpWGlZblJTc1c2YXBMSzRiNThhTDRjY3Q5d3lGM3FQTnFtUzFjU21qRzVkZFhMX05FLV9TLWhxMzM5M1BqT3BpQ2hULUg0?oc=5",
-              "pubDate": "2026-03-25T17:05:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Crypto donations to UK parties to be banned",
-              "source": "BBC News",
-              "link": "https://www.bbc.com/news/articles/c5y8d2qvr9do?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-25T15:12:22.000Z",
-              "tier": 1
-            }
-          ],
-          "aiCategory": "Politics",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 80,
-          "slug": "political-funding-restricted-reform-uk-hit-hard"
         },
         {
           "representativeTitle": "Government Shutdown Impacts Revealed by Key Leaders",
@@ -1847,27 +1799,6 @@ export const newsData = {
           "slug": "british-forces-prepare-to-intercept-russian-ships"
         },
         {
-          "representativeTitle": "Delta Suspends Services for Congressional Members",
-          "sources": [
-            "USA Today"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Delta suspends special services for members of Congress amid shutdown",
-              "source": "USA Today",
-              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQampEcGJIejBzRmZkcmFLOEJvQ1A5WE05bFVRdFBpMjVOdGJqZVlYT3JUd0V2YzBvRXNrdWxISVZwX0FTeVM0UU41OTNjUlNDOVoxRU1pajY2S3pTZUlYQWx4bUlCSHctQUMtX3pSX2FyMHNqOTlWMENRT2huLUladFVKMW1wOUxVbmJmZTA0Y1lrcnBnM2tNbTY4eG51X09PTlQtQ1JmR0x6SEpEelZV?oc=5",
-              "pubDate": "2026-03-25T14:21:00.000Z",
-              "tier": 2
-            }
-          ],
-          "aiCategory": "Politics",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "delta-suspends-services-for-congressional-members"
-        },
-        {
           "representativeTitle": "Republican Criticizes Pentagon for Iran Information Lack",
           "sources": [
             "Politico"
@@ -1929,27 +1860,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "voa-journalists-accuse-trump-of-propaganda-intent"
-        },
-        {
-          "representativeTitle": "Justice Department Pays Flynn in Russia Lawsuit",
-          "sources": [
-            "BBC"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Justice department to pay Trump ally Michael Flynn in Russia probe lawsuit",
-              "source": "BBC",
-              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1VEltSWVKal9xT1B5WlVnZFJSN29ZY2NyMlpYeWJWblE0aV92N01IRHBwNHNhYUhQTlUzUS0wdHBTTFMwUjc0N3Bnc1ZvREIyTVZvS1hFcks2UQ?oc=5",
-              "pubDate": "2026-03-25T22:39:23.000Z",
-              "tier": 2
-            }
-          ],
-          "aiCategory": "Politics",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "justice-department-pays-flynn-in-russia-lawsuit"
         },
         {
           "representativeTitle": "Trump Claims Iran Avoids Talks, Tehran Denies",
@@ -2046,7 +1956,7 @@ export const newsData = {
               "title": "What a GOP loss in Trump’s Mar-a-Lago district says about the midterms",
               "source": "The Washington Post",
               "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYWJHdW0zdURaelY3ZlhCYmRhQzh1c2w3S0NwSEgyNjJFaVFRZnpQV29ScjIzRzZpQlFVVGR5UTVua2V6alBtT01idjU2RFdFLUJ5OW9MbUdkNndrZ05EQVdJS0lselJ4R2JaTXNFMjVtYksxNVdXbTI2VTFnRUJqdDY1TE9aM1NEOHByWmw5Nk1FZ1FKNXhB?oc=5",
-              "pubDate": "2026-03-26T02:07:29.000Z",
+              "pubDate": "2026-03-26T02:32:46.000Z",
               "tier": 2
             }
           ],
@@ -2155,6 +2065,48 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 45,
           "slug": "trump-criticizes-world-cup-accuses-government-overreach"
+        },
+        {
+          "representativeTitle": "TSA Wait Times Surge: Travelers Face Delays",
+          "sources": [
+            "NPR"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Travelers are facing the longest TSA wait times in history",
+              "source": "NPR",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GYXRJNzVrbW5mYS1xNmFNMGdJUzZ4QXV6NjAtUVRfLUlGbGZjY2JUbllHU2pSY3Y4b1FVSTdLQ2tRMVNRYzZDTlNPWFhUWGtpel9rZllHWWJCaHdySjFMakNpMDFEcUh3cmVGZnE2N0ZuYUU?oc=5",
+              "pubDate": "2026-03-25T19:19:32.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "Politics",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "tsa-wait-times-surge-travelers-face-delays"
+        },
+        {
+          "representativeTitle": "Trump Official Faces Criminal Referral in James Case",
+          "sources": [
+            "CNN"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Top Trump housing official issues new criminal referral for New York AG Letitia James",
+              "source": "CNN",
+              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMG11QklxZThKZ2c2am1VbWY0bDlzc0g3TWZPam56dGhfYld1eGxyaXJJS0p1clRtbi1rRURZazEybDIweXRsbk1BWkx6ZmR0NWdWSkhDcW9VRDN3eEpSeXI0MG1kbGd4d2NZVkk3UEVDSExOYjNranQtRFhqZEpRZjA4XzRCb084cGc?oc=5",
+              "pubDate": "2026-03-25T23:01:40.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "Politics",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "trump-official-faces-criminal-referral-in-james-case"
         },
         {
           "representativeTitle": "Iran Receives US Ceasefire Plan Amid Middle East Strikes",
@@ -2304,15 +2256,13 @@ export const newsData = {
           "slug": "trump-to-meet-xi-in-china-may"
         },
         {
-          "representativeTitle": "Trump's Focus Shifts Amidst Mideast Conflict",
+          "representativeTitle": "Trump's Actions Fuel China-Mideast Conflict Concerns",
           "sources": [
             "The New York Times",
             "WSJ",
-            "The New York Times",
-            "The New York Times",
-            "morganton.com"
+            "The New York Times"
           ],
-          "citationCount": 5,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Trump Had His Eye on China, Then Plunged Into a New Mideast War",
@@ -2329,32 +2279,18 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "A Critical Political Season Could Decide if Alaska Is a Failed ‘Petrostate’",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4xbWNxM2g3bE0ySmJpc0hiLTM2ZFZCQU1GcnBHejNEdUd0enpjMzJjVHZubEhOdTI3UTFqcHNncU9IZmhQUFF3OVptSDJoUnhDUU1ZTkVTZ0Z5Wk1tVm94Y0hOWjI2RWxiSnJWZFpuQVdsQkZDU0NRazAyZw?oc=5",
-              "pubDate": "2026-03-25T15:26:13.000Z",
-              "tier": 2
-            },
-            {
               "title": "Why This City’s Reckoning With Cesar Chavez Is So Complicated",
               "source": "The New York Times",
               "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04S09fOWNQS0IzR2R6MXQ1eDF5Q29XbEdVa01ETUJ1Zl8zdFZOLU50ZExIa1pRSEhuU3htV0ptcGIwdkYwSURScnFfTVRqWTdkTkI1ZHRsWC1XUGRlWTFxYmFodGEtMHlmeURJdDZlVzJZVU1wMGI3ZmJ2N0h5RVk?oc=5",
               "pubDate": "2026-03-25T15:24:50.000Z",
-              "tier": 2
-            },
-            {
-              "title": "- Trump’s Approval Rating Falls To Record Low Amid Iran War",
-              "source": "morganton.com",
-              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOemFmdUtPbFRBUTh4ckhhS0JlTjZkc1hZdU50T3Q4cDFrcU9IUnNSTUlnaDM1N2JZTS1ZbTVxN1NhaGF1RThENHJvYXBtTDhUdzhWa0NGSGM0RUFQUnlmRmVXV0ZXekRwak1WUDlxRGlXZmM1X1ZTREF6cUplWmpHWERkSlNLU19SYWFiUl9yQ0tVblIwU3ZUN3EtQVNKdm9PSjAxaw?oc=5",
-              "pubDate": "2026-03-25T13:57:42.000Z",
               "tier": 2
             }
           ],
           "aiCategory": "Politics",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "trumps-focus-shifts-amidst-mideast-conflict"
+          "importance": 50,
+          "slug": "trumps-actions-fuel-china-mideast-conflict-concerns"
         },
         {
           "representativeTitle": "New Jersey Restricts Law Enforcement Mask Usage",
@@ -2439,7 +2375,7 @@ export const newsData = {
           "slug": "republicans-support-iran-war-amidst-rising-fuel-costs"
         },
         {
-          "representativeTitle": "Market Instability Linked to Political Uncertainty Persists",
+          "representativeTitle": "Market Reaction Criticizes Political Stalemate and Uncertainty",
           "sources": [
             "Financial Times"
           ],
@@ -2457,7 +2393,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "market-instability-linked-to-political-uncertainty-persists"
+          "slug": "market-reaction-criticizes-political-stalemate-and-uncertainty"
         },
         {
           "representativeTitle": "Meta, Google Face Lawsuit Over Child Mental Health",
@@ -2778,27 +2714,6 @@ export const newsData = {
           "slug": "iranians-develop-diy-missile-warning-system-voluntarily"
         },
         {
-          "representativeTitle": "Study Reveals Roots of Violent Extremism Globally",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Motivations behind violent extremism uncovered in new global study",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-violent-extremism-uncovered-global.html",
-              "pubDate": "2026-03-25T21:20:05.000Z",
-              "tier": 2
-            }
-          ],
-          "aiCategory": "Politics",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "study-reveals-roots-of-violent-extremism-globally"
-        },
-        {
           "representativeTitle": "Pepys' Censored Links Reveal Slavery Connections",
           "sources": [
             "Phys.org"
@@ -2862,12 +2777,11 @@ export const newsData = {
           "slug": "iran-war-threatens-us-housing-market-stability"
         },
         {
-          "representativeTitle": "Trump's Actions Linked to Potential Geopolitical Risks",
+          "representativeTitle": "U.S.-Iran Conflict Spurs Market Uncertainty, Monitoring",
           "sources": [
-            "CNBC",
-            "Axios"
+            "CNBC"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Stock futures slip as traders monitor U.S.-Iran war developments: Live updates",
@@ -2875,20 +2789,13 @@ export const newsData = {
               "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tOXZQbDJJTGhwUkUycXBwRHlvQTJfYVZ5NzFacGliSV9FSTVkVHVnRmhVVV9yVW9DYTNJLUItckVfVThqXy15aVV2bDJKSkItUG1lRTFTN2ZqeWh3OXpXMDVZQ0VsazNfMDRXVnhVMy1nS3BZTW000gF8QVVfeXFMTW5QZWdvSmZUSnpzS1ZGTlo5NDVFcWF4cHFGcDBLTjczT055UDJMZVNNbDZJSnJQdkJ3bDVTMzBDamlna0Nwa0REdy1vVi12dmxsemFvaGVJYWZxTlJBcTBmTEtubUZWb0NaenVYNWlfT20tS3BwaS1zeHJjbQ?oc=5",
               "pubDate": "2026-03-25T23:40:00.000Z",
               "tier": 2
-            },
-            {
-              "title": "Mysterious trading patterns follow Trump into war",
-              "source": "Axios",
-              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05TDlZTGxhTnJyQkZ3aWlnWDd5Y0NTUnJydnBid05TLWdiZ3VIVUMyWHlpZUg3d1VhWFo4c0tEVnROWDRlRjd3ZmNTcmVwbFFDOWJKSUthb2VoUXBRNjRIYjItT0RMWmNQTmZPVjBxV0c?oc=5",
-              "pubDate": "2026-03-25T10:53:18.000Z",
-              "tier": 2
             }
           ],
           "aiCategory": "Politics",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 50,
-          "slug": "trumps-actions-linked-to-potential-geopolitical-risks"
+          "importance": 45,
+          "slug": "us-iran-conflict-spurs-market-uncertainty-monitoring"
         },
         {
           "representativeTitle": "Former SEC Chair Warns of Trump Post Scrutiny",
@@ -2914,25 +2821,16 @@ export const newsData = {
         {
           "representativeTitle": "Dow Futures Fall Amid War Deal Uncertainty",
           "sources": [
-            "The White House (.gov)",
             "Bloomberg.com",
-            "InsideEVs",
-            "WSJ",
             "The New York Times",
             "Investor's Business Daily",
             "Yahoo Finance",
             "Yahoo Finance",
+            "Forbes",
             "Investor's Business Daily"
           ],
-          "citationCount": 9,
+          "citationCount": 7,
           "rawArticles": [
-            {
-              "title": "President Trump Announces Appointments to President’s Council of Advisors on Science and Technology",
-              "source": "The White House (.gov)",
-              "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOenMzUkFjTjBMclFfWWV0OWlOajZwSnh3dUNPOURxMjc4SWQ2MEVlSVRCZG1FOG44d0M0ck5IaDRoOG1heGNSTzFCRnlrYlVnYUtsUE80NEpzRGFuVGRCVTNCemU3R1dvMlY5RzBManE4VUhtSWZQd2RwcU9DdXhINXZ2X1BDTExmWE1oamRkZHhaZlo4UXFLc1VlR0hSSFYxWUw0ckx0N0RqdUk2NXdKaE90UmdJX0xDdEFNR3VlYzd6ZURGQU16d0R2S3B6eXlJX0RtcVZBVWtRY28?oc=5",
-              "pubDate": "2026-03-25T13:13:52.000Z",
-              "tier": 2
-            },
             {
               "title": "US Recession Risks Begin to Rise as War Dims Economic Outlook",
               "source": "Bloomberg.com",
@@ -2941,21 +2839,7 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Sony And Honda's Afeela EVs Are Dead",
-              "source": "InsideEVs",
-              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9MQ1hzSGs3VEZIMk41R0RldjZRbnQ0aVk0bWFobDcwVmc4d0FIbndFVm91TFBXbWhhXzFoaGJCcVhSMUZCcnpPOFdXTlZhOUtRMmgwa3FEc1lkc3ExdGl5Qk1RT1BKeGh6dkV0ZW5vdEpNa0k?oc=5",
-              "pubDate": "2026-03-25T13:05:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Stock Market Today: Dow Moves Higher, Oil Pulls Back on Cautious Optimism — Live Updates",
-              "source": "WSJ",
-              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUmlYZEk3MjFULWpQak9tWUZSNmNlZWhQU282YmhaS1BodVdfMUpPemZfODR0X19TXzZDeldHRXowYng2STF2Q0VUNHhMbXFvaGlWQVJGdlozLTNicE41SkRySXNjSk0yekxnTmswYnBlMWREUGRQRWhBMTc5U3BvWmNBWjZlVXc?oc=5",
-              "pubDate": "2026-03-25T23:43:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Meta and YouTube Found Negligent in Landmark Social Media Addiction Trial",
+              "title": "Meta and YouTube Found Negligent in Landmark Social Media Addiction Case",
               "source": "The New York Times",
               "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdkxPRkxKVzBTSzI4d3dKeE96dmFsb25qT091MVZnaTJKRXFyS29oUGFCY0praWlWelVVSHkzSkZrTjJ0elZvR0xXVnhkSGdmem5ITUVEX1FkV25xTXdRRFN3eFU5ZlVUS3JPYzNrSVBmT2l0U29iNkF6SGxiTnBQaFUydw?oc=5",
               "pubDate": "2026-03-25T21:36:56.000Z",
@@ -2983,6 +2867,13 @@ export const newsData = {
               "tier": 2
             },
             {
+              "title": "Trump Reportedly Taps Mark Zuckerberg, Jensen Huang, Larry Ellison, Others As White House AI Advisers",
+              "source": "Forbes",
+              "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTEFud3VUTkdEdklxUWw2cHR0ZlR3d2piZXBHRVJxekxOLVFvOHFMdmE4R01mSFVJUWF3VXdlcDV1N1Nab0VON0t2N2lPSUVZY0ZYVFVWQmVPSm9OTU1nY0lwMmwxYnJ0LWVsWl9lV09RTjZwNENFaEJ5MU9XOEVfNlFtLUNHZ0pYdng2TExXQVVMOVZxR0U0bEpfbW9USzlhZ0tySndZQW15Q3ZISjM4UzB3SlRvZmt3THpwUWFNRkxoSlZI?oc=5",
+              "pubDate": "2026-03-25T14:19:07.000Z",
+              "tier": 2
+            },
+            {
               "title": "Arm Forecasts Steep Sales Ramp For New AI Server Chip",
               "source": "Investor's Business Daily",
               "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSTFfcElrUjdiX3l2VlQ4d0xKaE9hS1A4cjRUdHNHWVpKUkhIRUYxQ1BQNFJNODJhLVdXbmdIWVF6NnFxNUo4Q0t3clhjeHZ1Rk9KRzZFc3ptZGVvamVDellSbUhJTnJZUDduTHBiUGlRenRva1c0cVdrMXNBV2ZWWHBESlZ6Zw?oc=5",
@@ -2993,7 +2884,7 @@ export const newsData = {
           "aiCategory": "Politics",
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 70,
+          "importance": 60,
           "slug": "dow-futures-fall-amid-war-deal-uncertainty"
         }
       ]
@@ -3149,41 +3040,33 @@ export const newsData = {
           "slug": "vitl-secures-funding-for-clinic-expansion-strategy"
         },
         {
-          "representativeTitle": "Nintendo Raises Game Cartridge Prices Starting May",
+          "representativeTitle": "Fortnite Creator Sacks 1,000 Staff, Sparks Concern",
           "sources": [
-            "The Verge",
-            "The Verge",
-            "Ars Technica"
+            "The Guardian",
+            "The Verge"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Woot is offering over 20 percent off Switch 2 controllers and games today",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/gadgets/900490/nintendo-switch-2-controllers-games-amazon-big-spring-sale-2026-deals",
-              "pubDate": "2026-03-25T19:04:34.000Z",
+              "title": "The creator of Fortnite has laid off more than 1,000 staff – despite billions in revenue",
+              "source": "The Guardian",
+              "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcVdUWGhuSkpGQlFNdEVjaXZPRE1fZTFOVkxUR19zV2JDUVBBREVJVHJFWHVDdUI1ZUVRODRqT3oxY01ha3JyMExjajZfSk1STGEwRkhmSng4RnVFV2l0cENZR3hObVZVaUJPUGYtT1YwWjJzTTVLZVZaYVFMRklpdXhNOWpzUHVwanVPYWtOcTJ2bGw0Rjdr?oc=5",
+              "pubDate": "2026-03-25T13:09:00.000Z",
               "tier": 2
             },
             {
-              "title": "Woot is offering over 20 percent off Switch 2 controllers and games today",
+              "title": "Meta is laying off hundreds of employees as it pours money into AI",
               "source": "The Verge",
-              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaE9zWllMWlB0UUdVQnJYRFlBY3pKdkluTEdlZm9aR2FDSXJkMVprTHpBQXVsaURUWW90SmY0QlFiaVhPZkFxNWJWWGFMdDJ0cGFURGhsRXFMVDBGS29DZVV3RGxCUGt0YjNGSF9TWTJqd2lncnF4WEFZQlBxZFp4Rm9zYlR1TmswSjE4TTBrNUYzM3ZJdjZCNzVZNC1LZi1UaV93bVNFNEo4Wk9UWHc?oc=5",
-              "pubDate": "2026-03-25T21:56:47.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Nintendo is raising prices of Switch 2 game cartridges starting in May",
-              "source": "Ars Technica",
-              "link": "https://arstechnica.com/gaming/2026/03/nintendo-will-start-charging-more-for-physical-switch-2-games-than-digital-copies/",
-              "pubDate": "2026-03-25T18:57:43.000Z",
+              "link": "https://www.theverge.com/tech/900946/meta-layoffs-hundreds-employees",
+              "pubDate": "2026-03-25T21:10:32.000Z",
               "tier": 2
             }
           ],
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "nintendo-raises-game-cartridge-prices-starting-may"
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "fortnite-creator-sacks-1000-staff-sparks-concern"
         },
         {
           "representativeTitle": "Amazon Spring Sale Offers Vacuum Deals",
@@ -3302,36 +3185,7 @@ export const newsData = {
           "slug": "tiktok-trend-drives-billion-dollar-soap-opera-growth"
         },
         {
-          "representativeTitle": "Amazon Offers Discount on Air Fryer Product",
-          "sources": [
-            "The Verge",
-            "Wired"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "The Sonos Ace are a hefty 25 percent for Amazon’s Big Spring Sale",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/900836/sonos-ace-noise-canceling-headphones-amazon-big-spring-sale-2026-deal",
-              "pubDate": "2026-03-25T22:30:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Amazon Spring Sale Deal: The Typhur Dome 2 Air Fryer Is 30% Off",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/typhur-dome-2-air-fryer-deal-amazon-spring-sale/",
-              "pubDate": "2026-03-25T19:59:02.000Z",
-              "tier": 1
-            }
-          ],
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 2,
-          "importance": 30,
-          "slug": "amazon-offers-discount-on-air-fryer-product"
-        },
-        {
-          "representativeTitle": "Sequoia Invests Heavily, Valuing Harvey Startup $11 Billion",
+          "representativeTitle": "Sequoia Invests Heavily, Harvey Valuation Confirmed",
           "sources": [
             "TechCrunch"
           ],
@@ -3349,16 +3203,15 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "sequoia-invests-heavily-valuing-harvey-startup-11-billion"
+          "slug": "sequoia-invests-heavily-harvey-valuation-confirmed"
         },
         {
-          "representativeTitle": "Epic Games Announces Major Workforce Reduction, Fortnite Decline",
+          "representativeTitle": "Retailer Offers Promotional Discount Codes This Month",
           "sources": [
             "Wired",
-            "Wired",
-            "The New York Times"
+            "Wired"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Save $100 on Our Favorite Soundbar and Subwoofer Combo",
@@ -3373,105 +3226,37 @@ export const newsData = {
               "link": "https://www.wired.com/story/rover-promo-code/",
               "pubDate": "2026-03-25T05:00:00.000Z",
               "tier": 1
-            },
-            {
-              "title": "Epic Games Lays Off Over 1,000 Employees, Citing Fortnite Slump",
-              "source": "The New York Times",
-              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPLXV2OG8zd0RSaGc2WjVfYl9fQjNZaVoxcE9jc0UtUC1LemVINHRYZmpGNzR1UUw0VmQ0QnpNSGFYYy1kUmpyY2pkRHR0WXJVYjNwU1JpeUplemNPNDhFczBQb2I3aUVSX2F6VjVCZGZ2NVJqSkk0U2VVZG9SWXRJWWdB?oc=5",
-              "pubDate": "2026-03-25T12:22:00.000Z",
-              "tier": 2
             }
           ],
           "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 65,
-          "slug": "epic-games-announces-major-workforce-reduction-fortnite-decline"
+          "sentiment": 0,
+          "relevance_score": 2,
+          "importance": 35,
+          "slug": "retailer-offers-promotional-discount-codes-this-month"
         },
         {
-          "representativeTitle": "Server Stocks Surge Amid Increased Demand",
+          "representativeTitle": "Amazon Offers Discount on Air Fryer Product",
           "sources": [
-            "MarketWatch",
-            "CNBC Markets",
-            "MarketWatch",
-            "MarketWatch",
-            "MarketWatch",
-            "MarketWatch"
-          ],
-          "citationCount": 6,
-          "rawArticles": [
-            {
-              "title": "This fund has jumped 1,200% on Anthropic and SpaceX hype. Retail investors should be cautious.",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/this-fund-has-jumped-1-200-on-anthropic-and-spacex-hype-retail-investors-should-be-cautious-2b276c55?mod=mw_rss_topstories",
-              "pubDate": "2026-03-25T22:11:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "The research firm whose AI paper knocked the whole stock market is out with another big call",
-              "source": "CNBC Markets",
-              "link": "https://www.cnbc.com/2026/03/25/the-firm-whose-ai-paper-knocked-the-whole-market-is-out-with-another-big-call.html",
-              "pubDate": "2026-03-25T16:49:06.000Z",
-              "tier": 1
-            },
-            {
-              "title": "This ‘single greatest’ stock-market predictor has never been more bearish",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/this-single-greatest-stock-market-predictor-has-never-been-more-bearish-5d8c48d1?mod=mw_rss_topstories",
-              "pubDate": "2026-03-26T00:02:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Arm’s stock shoots to best day in a year as an Nvidia-like chapter may be starting",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/arms-stock-shoots-toward-best-day-in-a-year-as-an-nvidia-like-chapter-may-be-starting-03f0ff60?mod=mw_rss_topstories",
-              "pubDate": "2026-03-25T21:48:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Super Micro, Dell and HPE have been red-hot stocks this week. What’s behind the big moves.",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/super-micro-dell-and-hpe-have-been-red-hot-stocks-this-week-whats-behind-the-big-moves-9fc8acc7?mod=mw_rss_topstories",
-              "pubDate": "2026-03-25T21:02:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Micron’s stock is dropping. Is Google partly to blame?",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/microns-stock-is-dropping-is-google-partly-to-blame-d4cad72e?mod=mw_rss_topstories",
-              "pubDate": "2026-03-25T22:23:00.000Z",
-              "tier": 2
-            }
-          ],
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "server-stocks-surge-amid-increased-demand"
-        },
-        {
-          "representativeTitle": "Musk Seeks Judge Removal in Tesla Lawsuit",
-          "sources": [
-            "Business Insider"
+            "Wired"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Elon Musk asks judge to recuse herself in Tesla shareholder case, saying she hearted post about him losing a lawsuit",
-              "source": "Business Insider",
-              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZHNTaEdkVjM3a1FtMjRfSm8yTFpYaVA0TXJuNkFQOTBHYjJqZHpMRmlNZmNzcERmQ1d6THM4VFVzNkR4Q3d4VlRrcEVHd29Mb2w5WEIxQjRaVk53NDM1aGVyeVJ3TmxWdU52d2N1UXF4andsbTdCM3Fsa0xEMzhDV2R2clYtdXVocWliUXd3MXk4TGQtcnF6NTJzZGxXVXdkVkpJN3dTNkw?oc=5",
-              "pubDate": "2026-03-25T15:25:00.000Z",
-              "tier": 2
+              "title": "Amazon Spring Sale Deal: The Typhur Dome 2 Air Fryer Is 30% Off",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/typhur-dome-2-air-fryer-deal-amazon-spring-sale/",
+              "pubDate": "2026-03-25T19:59:02.000Z",
+              "tier": 1
             }
           ],
           "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "musk-seeks-judge-removal-in-tesla-lawsuit"
+          "sentiment": 0,
+          "relevance_score": 2,
+          "importance": 25,
+          "slug": "amazon-offers-discount-on-air-fryer-product"
         },
         {
-          "representativeTitle": "Microsoft Stock Plummets: Worst Quarter in Decades",
+          "representativeTitle": "Mortgage Rates Rise; Freddie, Fannie Support Key",
           "sources": [
             "MarketWatch",
             "MarketWatch"
@@ -3479,10 +3264,10 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Microsoft’s stock is having its worst quarter in 17 years — and there may be no quick fix",
+              "title": "Mortgage rates near 6-month high — but here’s how much worse it would be without Freddie and Fannie’s bond buying",
               "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/microsofts-stock-is-having-its-worst-quarter-in-17-years-and-there-may-be-no-quick-fix-e5b6f05e?mod=mw_rss_topstories",
-              "pubDate": "2026-03-25T21:00:00.000Z",
+              "link": "https://www.marketwatch.com/story/mortgage-rates-near-6-month-high-but-heres-how-much-worse-it-would-be-without-freddie-and-fannies-bond-buying-bd7a9a9e?mod=mw_rss_topstories",
+              "pubDate": "2026-03-26T02:29:00.000Z",
               "tier": 2
             },
             {
@@ -3494,10 +3279,10 @@ export const newsData = {
             }
           ],
           "aiCategory": "Business",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "microsoft-stock-plummets-worst-quarter-in-decades"
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "mortgage-rates-rise-freddie-fannie-support-key"
         },
         {
           "representativeTitle": "USPS Announces Package Fuel Surcharge Increase",
@@ -3569,6 +3354,27 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "private-credit-risks-could-trigger-economic-crisis"
+        },
+        {
+          "representativeTitle": "Sony Honda Afeela EV Project Terminated Permanently",
+          "sources": [
+            "InsideEVs"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Sony And Honda's Afeela EVs Are Dead",
+              "source": "InsideEVs",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9MQ1hzSGs3VEZIMk41R0RldjZRbnQ0aVk0bWFobDcwVmc4d0FIbndFVm91TFBXbWhhXzFoaGJCcVhSMUZCcnpPOFdXTlZhOUtRMmgwa3FEc1lkc3ExdGl5Qk1RT1BKeGh6dkV0ZW5vdEpNa0k?oc=5",
+              "pubDate": "2026-03-25T13:05:00.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "Business",
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "sony-honda-afeela-ev-project-terminated-permanently"
         }
       ]
     },
@@ -3797,7 +3603,44 @@ export const newsData = {
           "slug": "ai-project-compromised-by-malware-security-breach"
         },
         {
-          "representativeTitle": "Reddit Addresses Bot Activity with Verification Measures",
+          "representativeTitle": "Nintendo Raises Game Cartridge Prices Starting May",
+          "sources": [
+            "The Verge",
+            "The Verge",
+            "Ars Technica"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Woot is offering over 20 percent off Switch 2 controllers and games today",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/gadgets/900490/nintendo-switch-2-controllers-games-amazon-big-spring-sale-2026-deals",
+              "pubDate": "2026-03-25T19:04:34.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Woot is offering over 20 percent off Switch 2 controllers and games today",
+              "source": "The Verge",
+              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaE9zWllMWlB0UUdVQnJYRFlBY3pKdkluTEdlZm9aR2FDSXJkMVprTHpBQXVsaURUWW90SmY0QlFiaVhPZkFxNWJWWGFMdDJ0cGFURGhsRXFMVDBGS29DZVV3RGxCUGt0YjNGSF9TWTJqd2lncnF4WEFZQlBxZFp4Rm9zYlR1TmswSjE4TTBrNUYzM3ZJdjZCNzVZNC1LZi1UaV93bVNFNEo4Wk9UWHc?oc=5",
+              "pubDate": "2026-03-25T19:04:34.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Nintendo is raising prices of Switch 2 game cartridges starting in May",
+              "source": "Ars Technica",
+              "link": "https://arstechnica.com/gaming/2026/03/nintendo-will-start-charging-more-for-physical-switch-2-games-than-digital-copies/",
+              "pubDate": "2026-03-25T18:57:43.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "nintendo-raises-game-cartridge-prices-starting-may"
+        },
+        {
+          "representativeTitle": "Reddit Implements Verification to Combat Online Bots",
           "sources": [
             "TechCrunch",
             "TechCrunch",
@@ -3831,29 +3674,21 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 50,
-          "slug": "reddit-addresses-bot-activity-with-verification-measures"
+          "slug": "reddit-implements-verification-to-combat-online-bots"
         },
         {
           "representativeTitle": "Disney Cancels OpenAI Partnership Over Sora Shift",
           "sources": [
             "Ars Technica",
-            "The Verge",
             "alternet.org"
           ],
-          "citationCount": 6,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "Disney cancels $1 billion OpenAI partnership amid Sora shutdown plans",
               "source": "Ars Technica",
               "link": "https://arstechnica.com/ai/2026/03/the-end-of-sora-also-means-the-end-of-disneys-1-billion-openai-investment/",
               "pubDate": "2026-03-25T13:56:56.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Meta is laying off hundreds of employees as it pours money into AI",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/900946/meta-layoffs-hundreds-employees",
-              "pubDate": "2026-03-25T21:10:32.000Z",
               "tier": 2
             },
             {
@@ -3871,13 +3706,6 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Meta is laying off hundreds of employees as it pours money into AI",
-              "source": "The Verge",
-              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0taVZZXzY0dGxTNThPdmZFZGtNaTc4R0JULU5IRFl3ZkVSNzVjMGdYOUpwV1VmVUFpejVvZ1NQcDBncHBOTFMzQzZTYVRwMlBPamQydFBBU212Tzg1TWFuN2tpVFJoWDdUdl8yby1PQko1OUY0cWg0?oc=5",
-              "pubDate": "2026-03-25T21:10:32.000Z",
-              "tier": 2
-            },
-            {
               "title": "Trump’s $1 billion payoff to stop offshore wind is even stranger than it sounds",
               "source": "alternet.org",
               "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13a1IycmhKOFJrQVpRWV81N0hoamotbVdSc0dpMGowX0o2STJmaEhxVS1aXzVHMUJkeXhtLXROZ19wckQwenlFdGF5WmlYWmxUZEpsTElUdU0?oc=5",
@@ -3888,7 +3716,7 @@ export const newsData = {
           "aiCategory": "Technology",
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 50,
+          "importance": 45,
           "slug": "disney-cancels-openai-partnership-over-sora-shift"
         },
         {
@@ -3919,35 +3747,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 35,
           "slug": "meta-youtube-face-child-addiction-lawsuit-settlement"
-        },
-        {
-          "representativeTitle": "macOS Tahoe 26.4 Adds Charger Indicator Feature",
-          "sources": [
-            "9to5Mac",
-            "MacRumors"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "tvOS 26.4 fixes an annoying audio issue on Apple TV 4K",
-              "source": "9to5Mac",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTzFSUjdLdHFqaV9ibjZoUVBrNkFsd05uSnFzUG1JdTZiNDVjUDY2MlctYkFzS1c1bTlpdzFOak1jV1hzY3IzSTd1Q2g2UUxJUE1qaXEyRjRBLXVNYjVTRFlWMGJqMWFWWWFDVk5OSGk4ZHVsOGpaLUZLelpUUnowal9LSG44TTRvTmhzenhGTQ?oc=5",
-              "pubDate": "2026-03-25T15:04:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "macOS Tahoe 26.4 Adds Slow Charger Indicator for MacBooks",
-              "source": "MacRumors",
-              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTXhpVEE5bnlmcXg3NGVVemhlVDM1ekZ4X1Bfbk1kS0lvNDNXSGRxbG1nN2w3QW1xSktRc3pOSWZ3NzJObVlqR2o0dkJzM0d6WFNDcm1pMjQtUWxyYXVMeXB0Yjc2bU1RUktoSzFBQS15VE1aYXdFdGo1eGtwRzN6WGFB?oc=5",
-              "pubDate": "2026-03-25T11:31:47.000Z",
-              "tier": 2
-            }
-          ],
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 3,
-          "importance": 25,
-          "slug": "macos-tahoe-264-adds-charger-indicator-feature"
         },
         {
           "representativeTitle": "Startup Aims to Innovate Mathematical Research Methods",
@@ -3994,15 +3793,23 @@ export const newsData = {
         {
           "representativeTitle": "Intel, LG Display Achieve Record Laptop Battery Life",
           "sources": [
+            "The Verge",
             "The Verge"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Intel and LG Display may have beaten Apple and Qualcomm with the best laptop battery life ever",
               "source": "The Verge",
               "link": "https://www.theverge.com/tech/901155/dell-xps-16-best-battery-lg-display-1hz-panther-lake-intel",
               "pubDate": "2026-03-26T00:33:07.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Intel and LG Display may have beaten Apple and Qualcomm with the best laptop battery life ever",
+              "source": "The Verge",
+              "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQemt3TldYNmNrQWRYTVhyS2dIMDdNcTgxaUxfSzMzZk9sS0ttbHpoVzhNWWVNbEV4LThhMm14TDU1Ry1RMWQ0UU5oZjRKTGwtT3A5eFJ6UDhUaHJUdDBKUTJndFQ1STdoc20tRkZWa3Biazg3V2lZTkx5VnY2WGU1c2p3ZHpidVNsMHo3LVZQeDN4c1pYelRFVGthMA?oc=5",
+              "pubDate": "2026-03-26T00:33:00.000Z",
               "tier": 2
             }
           ],
@@ -4279,6 +4086,51 @@ export const newsData = {
           "slug": "google-launches-new-music-generation-ai-model"
         },
         {
+          "representativeTitle": "AI Safety Bill Halts Data Center Growth",
+          "sources": [
+            "MacRumors",
+            "The Verge",
+            "Wired",
+            "Wired"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "macOS Tahoe 26.4 Adds Slow Charger Indicator for MacBooks",
+              "source": "MacRumors",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTXhpVEE5bnlmcXg3NGVVemhlVDM1ekZ4X1Bfbk1kS0lvNDNXSGRxbG1nN2w3QW1xSktRc3pOSWZ3NzJObVlqR2o0dkJzM0d6WFNDcm1pMjQtUWxyYXVMeXB0Yjc2bU1RUktoSzFBQS15VE1aYXdFdGo1eGtwRzN6WGFB?oc=5",
+              "pubDate": "2026-03-25T11:31:47.000Z",
+              "tier": 2
+            },
+            {
+              "title": "The Sonos Ace are a hefty 25 percent for Amazon’s Big Spring Sale",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/tech/900836/sonos-ace-noise-canceling-headphones-amazon-big-spring-sale-2026-deal",
+              "pubDate": "2026-03-25T22:30:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Amazon’s Spring Sale Is Blooming With Smart Bird Feeders",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/smart-bird-feeders-amazon-spring-sale-2026/",
+              "pubDate": "2026-03-25T16:53:58.000Z",
+              "tier": 1
+            },
+            {
+              "title": "New Bernie Sanders AI Safety Bill Would Halt Data Center Construction",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/new-bernie-sanders-ai-safety-bill-would-halt-data-center-construction/",
+              "pubDate": "2026-03-25T13:28:50.000Z",
+              "tier": 1
+            }
+          ],
+          "aiCategory": "Technology",
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 70,
+          "slug": "ai-safety-bill-halts-data-center-growth"
+        },
+        {
           "representativeTitle": "DeleteMe Acquires Block Party Security Tool",
           "sources": [
             "TechCrunch"
@@ -4298,6 +4150,131 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "deleteme-acquires-block-party-security-tool"
+        },
+        {
+          "representativeTitle": "Amazon Sale Offers Noise-Canceling Headphone Discounts",
+          "sources": [
+            "Consequence of Sound",
+            "Wired",
+            "samsung.com",
+            "The New York Times",
+            "Wired",
+            "Nintendo Life",
+            "Wired",
+            "Wired",
+            "MIT Tech Review",
+            "Wired",
+            "Kotaku",
+            "Wired",
+            "Nintendo Life",
+            "Kotaku"
+          ],
+          "citationCount": 14,
+          "rawArticles": [
+            {
+              "title": "The Best Noise-Canceling Headphone Deals from Sony, Bose, and Beats for Amazon's Big Spring Sale",
+              "source": "Consequence of Sound",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX29oYnNydDF2dlI5eU1pU1Zac2xnbWt2UENJNElTV3FoXzh1MHZjdFNneWwzbS1QeHFDZWtZZHZpUTFVdm5ialpaNmtoQ0JUYmNSY0dha0tsdkw0b2hpRThBdU1SY2hmVVdkM2NBUnFNR1BETW5HaC1oYUdmY3g2U0V1MEZwX1hFb3Nn?oc=5",
+              "pubDate": "2026-03-25T07:02:10.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Aeronaut Is an Actual Mac App for Bluesky",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/aeronaut-mac-app-for-bluesky/",
+              "pubDate": "2026-03-25T11:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Samsung Unveils Galaxy A57 5G and Galaxy A37 5G, Packing Pro-Level Features at Awesome Price",
+              "source": "samsung.com",
+              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdHJxa0ZmUHVEWTU2cFlqaWI5SVl3eGdLSGZOeXNYZXotLUtqRjJ5X0ltdHA2SWJmSVlhYVZMMGluNmYybjhSVUFXcnRjMUt0TFdpRk5oZFd6NjN2V3pETHhyYnlDb3A3ajBESXZrOGF4RmNQUUNENFhhU2w4ZmZOMndja2J4TXBtcC1WdXpMeFpac3BlMXQyU3lXRlNsakd3bWhBdXFPTQ?oc=5",
+              "pubDate": "2026-03-25T12:10:53.000Z",
+              "tier": 2
+            },
+            {
+              "title": "In Marathon, A.I. Is Everywhere and Humanity Is an Anomaly",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeDV6S0RxYlloUExyd2w0M19PY3ZQeTZFRzVCXzNDRDRyNTBncUZaOUp4YWJIbzVZdWFBRXVTRVNUT2xqUDEtWWtTcVBLal9vbUlDRV9PX1Q2dGhEOVNGcnFaeTY0cmRSZl9EelN4OWFtOWpFZ3MtQWlRWVdQWnZlUUU0cmJkelU?oc=5",
+              "pubDate": "2026-03-25T09:01:50.000Z",
+              "tier": 2
+            },
+            {
+              "title": "The Ex-CIA Agent Going Viral Asking for a Trump Pardon",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/that-ex-cia-agent-in-all-your-feeds-is-after-a-pardon-from-donald-trump/",
+              "pubDate": "2026-03-25T15:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Surprise! Tomodachi Life 'Welcome Version' Demo Is Live Now On The Switch eShop",
+              "source": "Nintendo Life",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTzJfeTJaNndUeDQ0cl9HbGJWT2dKVTRELWt1c09aNGhYTEttYjRfTjhuUUQ4VEF4d0NHX21MYjRXSmQyRWhrd1FvaU1pd3l3bWFTYnpLMWliSUlZSndqRTZhd28zY0p2SU9TZjY2TzlENzZSZ3VESmc2Uk5TYTEtMk1nOWRVU3dIeHAtZU1GSGdzX2Z3anlBTnNsandTQngyV1ZoUEZEN2UwYUlhX2dmRVc5eUczYmdLeXc?oc=5",
+              "pubDate": "2026-03-25T11:05:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "OpenAI Enters Its Focus Era by Killing Sora",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/openai-shuts-down-sora-ipo-ai-superapp/",
+              "pubDate": "2026-03-25T14:57:45.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Lego Star Wars Smart Play Throne Room Duel and A-Wing Review",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/lego-star-wars-smart-play-throne-room-duel-a-wing-review/",
+              "pubDate": "2026-03-25T11:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Roundtables: The Next Era of Space Exploration",
+              "source": "MIT Tech Review",
+              "link": "https://www.technologyreview.com/2026/03/25/1134664/roundtables-the-next-era-of-space-exploration/",
+              "pubDate": "2026-03-25T17:26:26.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Samsung’s Galaxy A37 and Galaxy A57 Phones Get Price Hikes",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/samsung-galaxy-a37-galaxy-a57/",
+              "pubDate": "2026-03-25T12:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Jak And Daxter Fans, Prepare To Have Your Heart Broken",
+              "source": "Kotaku",
+              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQUVXeTgxZnpHcE50LTYxMzAxT0ZwSjh4X2Ftak5xT3pReG9FOFhKZEFfbXRLcjduQWlCVlVLOF95dlA0T0dTX2pRVmdHalhOd3JwZV9ibHhULWhObDk1aldiRURIM3lyay1xQzVjSktvSVhVSV9fQWUxNEJSbGJCSXhzRlNYUkhFdFdwbmFiT2o?oc=5",
+              "pubDate": "2026-03-25T20:10:11.000Z",
+              "tier": 2
+            },
+            {
+              "title": "OpenClaw Agents Can Be Guilt-Tripped Into Self-Sabotage",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/openclaw-ai-agent-manipulation-security-northeastern-study/",
+              "pubDate": "2026-03-25T18:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "FIFA Returns With Free-To-Play Arcade-Style Football And An Utterly Bizarre Roster",
+              "source": "Nintendo Life",
+              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPem5iSmJJOUo5T2dvOVFPRXVGX3h3d2ozM096Y084dFoyeGV0OVh0VUxncUNKak1QUHBxTGVxZTBHYnV2bXg0c003NlZfZmxpWjBPNDRIU2ZnVUx1Y25sQURreENubDM1aTVvaFdFSEtia2pCLUlVbG9kc1hOM0pVX3FodlFxVjhIYlZZa2t2NnpEZnl4SnFKU0ZMMzlNR29jYWE0TzE2QW9DeWpLMHFERkktNUxfZ0pFY0YwLU1vVGNZUQ?oc=5",
+              "pubDate": "2026-03-25T18:30:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "RAM Crisis Is Forcing Super-Popular Kids Console To Raise Prices Again",
+              "source": "Kotaku",
+              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTzZBdkNnU0wtTThTWHZEeXhubjlfWnM3cFVKdXdfQnhzRy03VzlZUWMtZjVfaFoyWEF6cEVkTjl0WnIzV095UzRJMlBaT1NmWExWUW94VTE0UEM3VDhMOGRJaWpQR2hRYUg2ajdndkM3WWhqUHdJU2Z2TEg0by1BckRwNVhqLXZNSVFwQnpsbWtBcl9F?oc=5",
+              "pubDate": "2026-03-25T20:30:51.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 100,
+          "slug": "amazon-sale-offers-noise-canceling-headphone-discounts"
         },
         {
           "representativeTitle": "Battery Company Shifts Focus to Artificial Intelligence",
@@ -4342,48 +4319,6 @@ export const newsData = {
           "slug": "ai-advancement-index-reveal-emerging-trends"
         },
         {
-          "representativeTitle": "Chip-Scale Frequency Comb Source Developed Using Solitons",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Topological solitons power a chip-scale frequency comb source",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-03-topological-solitons-power-chip-scale.html",
-              "pubDate": "2026-03-25T21:30:04.000Z",
-              "tier": 2
-            }
-          ],
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "chip-scale-frequency-comb-source-developed-using-solitons"
-        },
-        {
-          "representativeTitle": "Brain-Reading Implant Raises Privacy Concerns Immediately",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "This tiny implant, smaller than a grain of salt, can read your brain",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/03/260324024249.htm",
-              "pubDate": "2026-03-25T02:23:36.000Z",
-              "tier": 2
-            }
-          ],
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "brain-reading-implant-raises-privacy-concerns-immediately"
-        },
-        {
           "representativeTitle": "AI Conference Detects Illicit Use, Rejects Papers",
           "sources": [
             "Nature"
@@ -4424,6 +4359,88 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "quantum-computing-talent-investment-signals-future-growth"
+        },
+        {
+          "representativeTitle": "High-Growth Fund Warns Retail Investors Cautiously",
+          "sources": [
+            "MarketWatch",
+            "CNBC Markets",
+            "MarketWatch",
+            "MarketWatch",
+            "MarketWatch"
+          ],
+          "citationCount": 5,
+          "rawArticles": [
+            {
+              "title": "This fund has jumped 1,200% on Anthropic and SpaceX hype. Retail investors should be cautious.",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/this-fund-has-jumped-1-200-on-anthropic-and-spacex-hype-retail-investors-should-be-cautious-2b276c55?mod=mw_rss_topstories",
+              "pubDate": "2026-03-25T22:11:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "The research firm whose AI paper knocked the whole stock market is out with another big call",
+              "source": "CNBC Markets",
+              "link": "https://www.cnbc.com/2026/03/25/the-firm-whose-ai-paper-knocked-the-whole-market-is-out-with-another-big-call.html",
+              "pubDate": "2026-03-25T16:49:06.000Z",
+              "tier": 1
+            },
+            {
+              "title": "This ‘single greatest’ stock-market predictor has never been more bearish",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/this-single-greatest-stock-market-predictor-has-never-been-more-bearish-5d8c48d1?mod=mw_rss_topstories",
+              "pubDate": "2026-03-26T00:02:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Arm’s stock shoots to best day in a year as an Nvidia-like chapter may be starting",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/arms-stock-shoots-toward-best-day-in-a-year-as-an-nvidia-like-chapter-may-be-starting-03f0ff60?mod=mw_rss_topstories",
+              "pubDate": "2026-03-25T21:48:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Micron’s stock is dropping. Is Google partly to blame?",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/microns-stock-is-dropping-is-google-partly-to-blame-d4cad72e?mod=mw_rss_topstories",
+              "pubDate": "2026-03-25T22:23:00.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "high-growth-fund-warns-retail-investors-cautiously"
+        },
+        {
+          "representativeTitle": "Meta Restructures Teams Around AI Development Efforts",
+          "sources": [
+            "Business Insider",
+            "The Verge"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Inside Meta's push to turn employees into \"AI builders\" and reorganize teams around small pods",
+              "source": "Business Insider",
+              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU2dHRy1KYlNQaTh0N2xOVWpudEpHemEyaERtMnFwWWJ6UG9JZ1RvWUIxcWs0d3duVndmTFAxN0xKRDBIZGdidDZYLThQcFh1OW50eXk5TG1BclZlZ0JzV1lPaEpyWVl5bnJRT1pIakFLUGhOdWlMLV9wRk5BZ2w4b2k5Z250bVJveXM2Vkt5aWxsQXJvbUQwRA?oc=5",
+              "pubDate": "2026-03-25T23:45:27.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Meta is laying off hundreds of employees as it pours money into AI",
+              "source": "The Verge",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0taVZZXzY0dGxTNThPdmZFZGtNaTc4R0JULU5IRFl3ZkVSNzVjMGdYOUpwV1VmVUFpejVvZ1NQcDBncHBOTFMzQzZTYVRwMlBPamQydFBBU212Tzg1TWFuN2tpVFJoWDdUdl8yby1PQko1OUY0cWg0?oc=5",
+              "pubDate": "2026-03-25T21:10:32.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "meta-restructures-teams-around-ai-development-efforts"
         }
       ]
     },
@@ -4431,7 +4448,7 @@ export const newsData = {
       "name": "Science",
       "children": [
         {
-          "representativeTitle": "Musketeer Remains Discovered in Dutch Church",
+          "representativeTitle": "French Musketeer Remains Potentially Found in Church",
           "sources": [
             "Reuters",
             "BBC World"
@@ -4457,7 +4474,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 4,
           "importance": 40,
-          "slug": "musketeer-remains-discovered-in-dutch-church"
+          "slug": "french-musketeer-remains-potentially-found-in-church"
         },
         {
           "representativeTitle": "Scientists Discover New Bond Between Humans, Dogs",
@@ -4481,7 +4498,7 @@ export const newsData = {
           "slug": "scientists-discover-new-bond-between-humans-dogs"
         },
         {
-          "representativeTitle": "Western US Snowpack Declines Dramatically, Raising Concerns",
+          "representativeTitle": "Western US Snowpack Collapses: Satellite Images Reveal",
           "sources": [
             "CNN"
           ],
@@ -4499,10 +4516,10 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "western-us-snowpack-declines-dramatically-raising-concerns"
+          "slug": "western-us-snowpack-collapses-satellite-images-reveal"
         },
         {
-          "representativeTitle": "Chemists Innovate: Bourbon Waste Powers Supercapacitors",
+          "representativeTitle": "Chemists Convert Bourbon Waste into Supercapacitors",
           "sources": [
             "Ars Technica"
           ],
@@ -4520,7 +4537,7 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "chemists-innovate-bourbon-waste-powers-supercapacitors"
+          "slug": "chemists-convert-bourbon-waste-into-supercapacitors"
         },
         {
           "representativeTitle": "Antibiotic Resistance Grows Due to Droughts",
@@ -4549,7 +4566,7 @@ export const newsData = {
             "Ars Technica",
             "MIT Tech Review"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Here is NASA's plan for nuking Gateway and sending it to Mars",
@@ -4564,6 +4581,13 @@ export const newsData = {
               "link": "https://www.technologyreview.com/2026/03/25/1134571/the-ai-hype-index-ai-goes-to-war/",
               "pubDate": "2026-03-25T09:00:00.000Z",
               "tier": 1
+            },
+            {
+              "title": "Here is NASA’s plan for nuking Gateway and sending it to Mars",
+              "source": "Ars Technica",
+              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcnNWYlJLd0F6b041Qm9IVjlHUXI2RUJyQkZtNnQ5Rk5kd244NURaRGIwcDZxRW1CZVNhZVpOb2drQU42VkpuUXpnZkg1OTI5aXVyTXJmbTNOUWRHOVNaSmI1ejhnNXdDaHM2V2NNR2tFNi11N0N0dU1fMmNWVTNfSFdOTEhrOFZoMWt3MDZTZFlzdmJnak9iZzFwMUF2VmdD?oc=5",
+              "pubDate": "2026-03-25T20:21:51.000Z",
+              "tier": 2
             }
           ],
           "aiCategory": "Science",
@@ -4652,7 +4676,7 @@ export const newsData = {
           "slug": "scientists-resolve-century-old-star-emission-mystery"
         },
         {
-          "representativeTitle": "Father's Postpartum Depression Risk Significantly Increases",
+          "representativeTitle": "Father's Mental Health Declines Post-Childbirth: Study",
           "sources": [
             "Science Daily"
           ],
@@ -4670,7 +4694,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "fathers-postpartum-depression-risk-significantly-increases"
+          "slug": "fathers-mental-health-declines-post-childbirth-study"
         },
         {
           "representativeTitle": "Graphene Film Growth Controlled by Laser Technology",
@@ -4694,7 +4718,7 @@ export const newsData = {
           "slug": "graphene-film-growth-controlled-by-laser-technology"
         },
         {
-          "representativeTitle": "AI Improves Wildfire Prediction, Heightening Disaster Risk",
+          "representativeTitle": "AI Improves Wildfire Prediction, Increasing Disaster Risk",
           "sources": [
             "Phys.org"
           ],
@@ -4712,7 +4736,7 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "ai-improves-wildfire-prediction-heightening-disaster-risk"
+          "slug": "ai-improves-wildfire-prediction-increasing-disaster-risk"
         },
         {
           "representativeTitle": "Neutrino Mass Limit Significantly Reduced by Detector Technology",
@@ -4755,27 +4779,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "dna-robots-developed-to-combat-cancer-viruses"
-        },
-        {
-          "representativeTitle": "Bee Virus Threat Increases; Bumblebee Role Identified",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Red-tailed bumblebees found to be key hosts for dangerous bee virus",
-              "source": "Phys.org",
-              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSclZJMGd5ZE9EMnA0Z1NyMFJHbUN4cU41ZlVEN2pkaHpFeXo5dmdLU3Jtc1ZqWW93Q1Z1WG4tQTg4VW83b2NpQWVfLUJRTWtXMjBZazViVGpWM2k1Ynl0QUNiZDNMMVQ2d2FTX3BjVGRkQll3?oc=5",
-              "pubDate": "2026-03-25T02:40:02.000Z",
-              "tier": 2
-            }
-          ],
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "bee-virus-threat-increases-bumblebee-role-identified"
         },
         {
           "representativeTitle": "Potential Black Hole Discovery Sparks Scientific Interest",
@@ -4862,7 +4865,28 @@ export const newsData = {
           "slug": "pacific-warming-drives-antarctic-stratospheric-changes"
         },
         {
-          "representativeTitle": "Atomic Movie Reveals Radiation Damage Driver",
+          "representativeTitle": "Metal-Free Antiviral Candidates Developed Through Organocatalysis",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Organocatalytic strategy provides a metal-free route to antiviral candidates",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-organocatalytic-strategy-metal-free-route.html",
+              "pubDate": "2026-03-26T02:20:01.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "metal-free-antiviral-candidates-developed-through-organocatalysis"
+        },
+        {
+          "representativeTitle": "Atomic Research Reveals Radiation Damage Driver",
           "sources": [
             "Science Daily"
           ],
@@ -4880,20 +4904,43 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "atomic-movie-reveals-radiation-damage-driver"
+          "slug": "atomic-research-reveals-radiation-damage-driver"
         },
         {
-          "representativeTitle": "Antarctic Boulders Lead to Subsurface Structure Discovery",
+          "representativeTitle": "Deadly Bat Fungus Threatens Western Canada Expansion",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "New research suggests deadly bat fungus is more widespread in western Canada than previously known",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-03-deadly-fungus-widespread-western-canada.html",
+              "pubDate": "2026-03-26T02:30:01.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "Science",
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "deadly-bat-fungus-threatens-western-canada-expansion"
+        },
+        {
+          "representativeTitle": "Antarctic Boulders Link to Subterranean Structure",
           "sources": [
             "The Daily Galaxy",
             "The Daily Galaxy",
             "PetaPixel",
+            "The Daily Galaxy",
             "NASA Science (.gov)",
             "ScienceAlert",
             "PetaPixel",
-            "Gizmodo"
+            "Gizmodo",
+            "Indian Defence Review"
           ],
-          "citationCount": 7,
+          "citationCount": 9,
           "rawArticles": [
             {
               "title": "Eight Meters up in the Rainforest, Scientists Just Found a Creature with the Face of Moby Dick",
@@ -4914,6 +4961,13 @@ export const newsData = {
               "source": "PetaPixel",
               "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcmVhRWN6VjhXMy1WN2JRZDNWMElOSXowaXdNeWFUeE05c3dCSjJwYnpwM0Y4RHpsY1FGR2huRGJfVjl3VG1QcUdlVFdQazdtOW8xb2ZFVUxhWHJ4N2hyQkkwY3pHWGFpU1d3NElLTGp1akR5Vjk0Vko3REZzZHY3R25lbGVzRklxWDJyTjNVaHRaakplc1U0N0lJUWNYUTZqZVJ5SGl3?oc=5",
               "pubDate": "2026-03-25T14:00:23.000Z",
+              "tier": 2
+            },
+            {
+              "title": "In an Underwater Cave, Divers Just Found the Largest Collection of Monkey Fossils No One Fully Understood Until Now",
+              "source": "The Daily Galaxy",
+              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TYnd0RkVTX0pYdlRNaXYxYU1rdjF1SXhia0NPOFlaTjVXbTRhaHFPR25mMFlZVFlKaUZva3lMS09vRWF0aWk2THlOM2FhMWpPQWU0VEJYekxGOGJ3a0dpRVhIc1VqNTQ2M0R4eU5QUDVROXpvbmxOalM1NA?oc=5",
+              "pubDate": "2026-03-25T12:45:00.000Z",
               "tier": 2
             },
             {
@@ -4943,13 +4997,20 @@ export const newsData = {
               "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN0hpMjg4c1RsZ3JFMk9qYWJ5QjZiTk1sWnJHaTRhR3BOVGlWU290dWZXRWs0N3VIUnozNzIwaTM1aE53UTVPcDBMV0JuMmYwSXozMFhnNXVIOUFqQ21URm9IQkpERllVcHd1ZjREQkhFbGt1LVcxemEzbnNvRkJkSUFhajY2RHRwNFc5OVhKc0xkVDQ?oc=5",
               "pubDate": "2026-03-25T13:45:19.000Z",
               "tier": 2
+            },
+            {
+              "title": "Hidden For Millions Of Years, These Tiny Fossil Eggs Could Rewrite The Origin Story Of Birds",
+              "source": "Indian Defence Review",
+              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbGdBOGxuYTQ2aG9ZSjgzbzlaWDhvam1feUNCRXVQUHJPRjNHc1FxMGtfYzc3d00wRE1RNEVJWVFFS2RKME9XcV9aNE03SVVRRkczUy15MzBURWlwMEJhbnlHdDByVURwMFFWR0h4Zm1rak1zd3Vwc2FGUWhKaXJxZGpSUGVRU0xNQWp2S3NKdmExSG5mQVYyOVFBOXJpWkx1NUxjOXVBeHplZXFjNndqdllad3I3S2prUjVGV0FvVTdpdw?oc=5",
+              "pubDate": "2026-03-25T19:30:00.000Z",
+              "tier": 2
             }
           ],
           "aiCategory": "Science",
           "sentiment": 0,
           "relevance_score": 7,
-          "importance": 60,
-          "slug": "antarctic-boulders-lead-to-subsurface-structure-discovery"
+          "importance": 65,
+          "slug": "antarctic-boulders-link-to-subterranean-structure"
         },
         {
           "representativeTitle": "Scientists Uncover Cause of Recurring Lung Cancer",
@@ -5160,6 +5221,27 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "protein-modification-discovery-spurs-cancer-therapy-research"
+        },
+        {
+          "representativeTitle": "Chandra Telescope Reveals Black Hole Growth Mystery",
+          "sources": [
+            "The Daily Galaxy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "NASA’s Chandra Uncovers a 10-Billion-Year Black Hole Mystery, Revealing Why Their Growth Suddenly Slowed",
+              "source": "The Daily Galaxy",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYjVZaHVDeG1yZXUxN1d6S0tHOEE0ekxiSW9zNGJUdFJfVDBVTDRwNVdMZEVJSkVqME9zd1h5cktlVXk3SUpta2NBRWhxaWN0RjNtTjN3ODN6Ny1FNEF6V25ybG85RzNuZE8zcTZDdUhDV0dXSzM2aHJEYjhUWDJJUg?oc=5",
+              "pubDate": "2026-03-25T16:15:00.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "Science",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "chandra-telescope-reveals-black-hole-growth-mystery"
         }
       ]
     }
