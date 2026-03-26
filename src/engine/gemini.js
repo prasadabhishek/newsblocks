@@ -269,7 +269,13 @@ export const AI = {
          - 10: History-making events.
          - 5-7: Significant national/regional news.
          - 1-3: Routine updates.
-      3. "category": Classify into ["World", "Politics", "Business", "Technology", "Science", "JUNK"].
+      3. "category": Classify into ["World", "US", "Stocks", "Business", "Technology", "Science", "JUNK"].
+         - "US": US domestic news - elections, Congress, White House, Supreme Court, federal agencies, state-level news, immigration, healthcare policy, partisan politics
+         - "World": International news - wars, conflicts, diplomacy, foreign governments, global events
+         - "Stocks": Stock market specific - indices like Dow/Nasdaq, trading, earnings, market movements, investor news
+         - "Business": Broader economy - M&A, companies, industries, economic indicators
+         - "Technology": Tech companies and products - Apple, Google, Microsoft, AI, startups, apps
+         - "Science": Scientific research - studies, discoveries, climate, space, medical breakthroughs
          - CRITICAL: If the headline is about Sports, Celebrities, Entertainment, Pop Culture, or Gossip, you MUST classify it as "JUNK" so we can filter it out.
       4. "title": Synthesize a clean, professional, objective 7-word headline explaining the core news event.
       5. "reasoning": Brief context for your choice.

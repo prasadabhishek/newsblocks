@@ -18,58 +18,50 @@ const parser = new Parser({
 const pipeline = new Pipeline();
 
 // ELITE NEWS SOURCES: Verified endpoints for 2026
+// Balanced to deliver: World > US > Stocks > Business, Tech, Science
 const PREMIUM_FEEDS = [
-    // POLITICS
-    { name: 'Politics', url: 'https://www.theguardian.com/politics/rss', publisher: 'The Guardian', tier: 1 },
-    { name: 'Politics', url: 'http://feeds.bbci.co.uk/news/politics/rss.xml', publisher: 'BBC News', tier: 1 },
-    { name: 'Politics', url: 'http://www.politico.com/rss/politicopicks.xml', publisher: 'Politico', tier: 1 },
-    { name: 'Politics', url: 'https://news.google.com/rss/search?q=US+Politics+government+when:1d&hl=en-US&gl=US&ceid=US:en', publisher: 'Various', tier: 2 },
-
-    // STOCKS & FINANCE
-    { name: 'Stocks', url: 'https://www.cnbc.com/id/10000664/device/rss/rss.html', publisher: 'CNBC Markets', tier: 1 },
-    { name: 'Stocks', url: 'https://finance.yahoo.com/news/rssindex', publisher: 'Yahoo Finance', tier: 2 },
-    { name: 'Stocks', url: 'http://feeds.marketwatch.com/marketwatch/topstories/', publisher: 'MarketWatch', tier: 2 },
-    { name: 'Finance', url: 'https://www.cnbc.com/id/10001147/device/rss/rss.html', publisher: 'CNBC Economy', tier: 1 },
-    { name: 'Finance', url: 'https://www.ft.com/?format=rss', publisher: 'Financial Times', tier: 1 },
-    { name: 'Finance', url: 'https://www.wsj.com/xml/rss/3_7085.xml', publisher: 'WSJ', tier: 1 },
-
-    // TECHNOLOGY
-    { name: 'Technology', url: 'https://techcrunch.com/feed/', publisher: 'TechCrunch', tier: 1 },
-    { name: 'Technology', url: 'https://www.theverge.com/rss/index.xml', publisher: 'The Verge', tier: 2 },
-    { name: 'Technology', url: 'https://feeds.arstechnica.com/arstechnica/index', publisher: 'Ars Technica', tier: 2 },
-    { name: 'Technology', url: 'https://www.technologyreview.com/feed/', publisher: 'MIT Tech Review', tier: 1 },
-    { name: 'Technology', url: 'https://www.wired.com/feed/rss', publisher: 'Wired', tier: 1 },
-
-    // WORLD
+    // WORLD - International news (5 feeds)
     { name: 'World', url: 'http://feeds.bbci.co.uk/news/world/rss.xml', publisher: 'BBC World', tier: 1 },
     { name: 'World', url: 'https://www.theguardian.com/world/rss', publisher: 'The Guardian', tier: 1 },
     { name: 'World', url: 'https://www.aljazeera.com/xml/rss/all.xml', publisher: 'Al Jazeera', tier: 1 },
-    { name: 'World', url: 'https://www.reutersagency.com/feed/', publisher: 'Reuters Agency', tier: 2 },
+    { name: 'World', url: 'https://www.france24.com/en/rss', publisher: 'France 24', tier: 1 },
+    { name: 'World', url: 'https://www.scmp.com/rss/world.xml', publisher: 'SCMP', tier: 2 },
 
-    // SCIENCE
+    // US NATIONAL - US domestic news (5 feeds)
+    { name: 'US', url: 'https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml', publisher: 'BBC US', tier: 1 },
+    { name: 'US', url: 'https://rss.nytimes.com/services/xml/rss/nyt/Americas.xml', publisher: 'NY Times', tier: 1 },
+    { name: 'US', url: 'https://feeds.washingtonpost.com/rss/national', publisher: 'Washington Post', tier: 1 },
+    { name: 'US', url: 'https://www.nbcnews.com/rss', publisher: 'NBC News', tier: 2 },
+    { name: 'US', url: 'https://news.google.com/rss/headlines/section/topic/NATION', publisher: 'Google US', tier: 2 },
+
+    // STOCKS - Stock market news (4 feeds)
+    { name: 'Stocks', url: 'https://www.cnbc.com/id/10000664/device/rss/rss.html', publisher: 'CNBC Markets', tier: 1 },
+    { name: 'Stocks', url: 'https://finance.yahoo.com/news/rssindex', publisher: 'Yahoo Finance', tier: 2 },
+    { name: 'Stocks', url: 'http://feeds.marketwatch.com/marketwatch/topstories/', publisher: 'MarketWatch', tier: 2 },
+    { name: 'Stocks', url: 'https://feeds.bloomberg.com/markets/news.rss', publisher: 'Bloomberg Markets', tier: 1 },
+
+    // BUSINESS & FINANCE - Broader economy (3 feeds)
+    { name: 'Business', url: 'https://www.cnbc.com/id/10001147/device/rss/rss.html', publisher: 'CNBC Economy', tier: 1 },
+    { name: 'Business', url: 'https://www.ft.com/?format=rss', publisher: 'Financial Times', tier: 1 },
+    { name: 'Business', url: 'https://feeds.reuters.com/reuters/businessNews', publisher: 'Reuters Business', tier: 2 },
+
+    // TECHNOLOGY (4 feeds)
+    { name: 'Technology', url: 'https://techcrunch.com/feed/', publisher: 'TechCrunch', tier: 1 },
+    { name: 'Technology', url: 'https://www.theverge.com/rss/index.xml', publisher: 'The Verge', tier: 2 },
+    { name: 'Technology', url: 'https://feeds.arstechnica.com/arstechnica/index', publisher: 'Ars Technica', tier: 2 },
+    { name: 'Technology', url: 'https://www.wired.com/feed/rss', publisher: 'Wired', tier: 1 },
+
+    // SCIENCE (4 feeds)
     { name: 'Science', url: 'https://www.wired.com/feed/category/science/latest/rss', publisher: 'Wired', tier: 1 },
     { name: 'Science', url: 'https://www.sciencedaily.com/rss/all.xml', publisher: 'Science Daily', tier: 2 },
     { name: 'Science', url: 'https://www.nature.com/nature.rss', publisher: 'Nature', tier: 1 },
     { name: 'Science', url: 'https://phys.org/rss-feed/', publisher: 'Phys.org', tier: 2 },
-    { name: 'Science', url: 'https://www.theguardian.com/science/rss', publisher: 'The Guardian', tier: 1 },
 
-    // US NATIONAL
-    { name: 'US', url: 'https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml', publisher: 'BBC US', tier: 1 },
-    { name: 'US', url: 'https://rss.nytimes.com/services/xml/rss/nyt/Americas.xml', publisher: 'NY Times', tier: 1 },
-    { name: 'US', url: 'https://www.politico.com/rss/politicopicks.xml', publisher: 'Politico', tier: 1 },
-    { name: 'US', url: 'https://feeds.washingtonpost.com/rss/national', publisher: 'Washington Post', tier: 1 },
-
-    // SEATTLE LOCAL
-    { name: 'Seattle', url: 'https://www.seattletimes.com/feed/politics/', publisher: 'Seattle Times', tier: 1 },
-    { name: 'Seattle', url: 'https://www.seattletimes.com/feed/news/', publisher: 'Seattle Times', tier: 1 },
-    { name: 'Seattle', url: 'https://komonews.com/feed', publisher: 'KOMO News', tier: 2 },
-
-    // GOOGLE NEWS AGGREGATION (MASSIVE SOURCE INJECTION)
-    { name: 'Politics', url: 'https://news.google.com/rss/headlines/section/topic/NATION', publisher: 'Various', tier: 2 },
-    { name: 'Stocks', url: 'https://news.google.com/rss/headlines/section/topic/BUSINESS', publisher: 'Various', tier: 2 },
-    { name: 'Technology', url: 'https://news.google.com/rss/headlines/section/topic/TECHNOLOGY', publisher: 'Various', tier: 2 },
-    { name: 'World', url: 'https://news.google.com/rss/headlines/section/topic/WORLD', publisher: 'Various', tier: 2 },
-    { name: 'Science', url: 'https://news.google.com/rss/headlines/section/topic/SCIENCE', publisher: 'Various', tier: 2 }
+    // GOOGLE NEWS AGGREGATION - Additional sources (4 feeds)
+    { name: 'World', url: 'https://news.google.com/rss/headlines/section/topic/WORLD', publisher: 'Google World', tier: 2 },
+    { name: 'Stocks', url: 'https://news.google.com/rss/headlines/section/topic/BUSINESS', publisher: 'Google Stocks', tier: 2 },
+    { name: 'Technology', url: 'https://news.google.com/rss/headlines/section/topic/TECHNOLOGY', publisher: 'Google Tech', tier: 2 },
+    { name: 'Science', url: 'https://news.google.com/rss/headlines/section/topic/SCIENCE', publisher: 'Google Science', tier: 2 }
 ];
 
 /**

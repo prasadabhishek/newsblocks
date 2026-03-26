@@ -14,9 +14,7 @@ export class Pipeline {
             children: [
                 { name: "World", children: [] },
                 { name: "US", children: [] },
-                { name: "Seattle", children: [] },
-                { name: "Politics", children: [] },
-                { name: "Finance", children: [] },
+                { name: "Stocks", children: [] },
                 { name: "Business", children: [] },
                 { name: "Technology", children: [] },
                 { name: "Science", children: [] }
