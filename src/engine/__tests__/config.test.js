@@ -3,8 +3,8 @@ import { CONFIG } from '../config.js';
 
 describe('CONFIG', () => {
     describe('Clustering', () => {
-        it('should have JACCARD_THRESHOLD of 0.2 (98% quality)', () => {
-            expect(CONFIG.JACCARD_THRESHOLD).toBe(0.2);
+        it('should have JACCARD_THRESHOLD of 0.25 (optimal quality)', () => {
+            expect(CONFIG.JACCARD_THRESHOLD).toBe(0.25);
         });
     });
 

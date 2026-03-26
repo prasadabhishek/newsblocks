@@ -73,7 +73,12 @@ export class ClusteringEngine {
    * In production, this would use Vector Embeddings + Cosine Similarity.
    */
     isSimilar(t1, t2) {
-        const stopWords = new Set(['to', 'the', 'a', 'an', 'in', 'on', 'at', 'by', 'for', 'with', 'about', 'is', 'new', 'us', 'may', 'will', 'says']);
+        // Common stop words + promotional/deal words that cause false clusters
+        const stopWords = new Set([
+            'to', 'the', 'a', 'an', 'in', 'on', 'at', 'by', 'for', 'with', 'about', 'is', 'new', 'us', 'may', 'will', 'says',
+            // Promotional/deal words - generic e-commerce terms that don't indicate news similarity
+            'sale', 'deals', 'discount', 'save', 'cheap', 'price', 'prices', 'off', 'free', 'best', 'top'
+        ]);
 
         const s1 = new Set(t1.toLowerCase().split(/\W+/).filter(w => !stopWords.has(w) && w.length > 2));
         const s2 = new Set(t2.toLowerCase().split(/\W+/).filter(w => !stopWords.has(w) && w.length > 2));
