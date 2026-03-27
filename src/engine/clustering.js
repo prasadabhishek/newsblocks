@@ -57,11 +57,21 @@ export class ClusteringEngine {
                 }
             }
 
+            // Deduplicate rawArticles by source+title to avoid duplicates from aggregated feeds
+            // (e.g., same NBC article appearing in both NBC feed and Google US feed)
+            const seenArticles = new Set();
+            const dedupedCluster = cluster.filter(a => {
+                const key = `${a.source}:${a.title.toLowerCase().trim()}`;
+                if (seenArticles.has(key)) return false;
+                seenArticles.add(key);
+                return true;
+            });
+
             clusters.push({
-                representativeTitle: this.selectBestTitle(cluster),
-                sources: [...new Set(cluster.map(c => c.source))],
-                citationCount: new Set(cluster.map(c => c.source)).size,
-                rawArticles: cluster
+                representativeTitle: this.selectBestTitle(dedupedCluster),
+                sources: [...new Set(dedupedCluster.map(c => c.source))],
+                citationCount: new Set(dedupedCluster.map(c => c.source)).size,
+                rawArticles: dedupedCluster
             });
         }
 

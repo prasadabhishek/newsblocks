@@ -26,6 +26,33 @@ describe('News Pipeline Unit Tests', () => {
             const clusters = await clustering.cluster(articles);
             expect(clusters).toHaveLength(1);
         });
+
+        it('should deduplicate articles with same source AND title', async () => {
+            const articles = [
+                { title: 'Same News Story', source: 'NBC' },
+                { title: 'Same News Story', source: 'NBC' }, // duplicate
+                { title: 'Same News Story', source: 'Google US' } // same title, different source
+            ];
+            const clusters = await clustering.cluster(articles);
+            expect(clusters).toHaveLength(1);
+            // Should have 2 sources (NBC deduplicated, Google US kept)
+            expect(clusters[0].sources).toHaveLength(2);
+            expect(clusters[0].sources).toContain('NBC');
+            expect(clusters[0].sources).toContain('Google US');
+            // RawArticles should only have 2 (NBC once, Google US once)
+            expect(clusters[0].rawArticles).toHaveLength(2);
+        });
+
+        it('should filter out promotional words like sale, deals, discount', async () => {
+            const articles = [
+                { title: 'PlayStation Summer Sale: Best Deals', source: 'TechSite' },
+                { title: 'Amazon Spring Sale: Massive Discounts', source: 'NewsSite' }
+            ];
+            // These should NOT cluster together because 'sale' and 'deals' are filtered
+            const clusters = await clustering.cluster(articles);
+            // With promo words filtered, overlap is minimal
+            expect(clusters.length).toBe(2); // Should be 2 separate clusters
+        });
     });
 
     describe('ScoringEngine', () => {
@@ -121,5 +148,29 @@ describe('Performance & Accuracy Tests', () => {
         expect(story).toHaveProperty('representativeTitle');
         expect(story).toHaveProperty('sentiment');
         expect(result).toHaveProperty('lastUpdated');
+    }, 30000);
+
+    it('Category Structure: should support World, US, Stocks, Business, Technology, Science categories', async () => {
+        // The pipeline defines these categories - AI may route stories to any of them
+        // This test verifies the category structure exists and old categories are removed
+        const rawData = [
+            { name: 'World', rawArticles: [{ title: 'Ukraine war escalation continues with new offensive', source: 'Reuters', tier: 1 }] },
+            { name: 'US', rawArticles: [{ title: 'Senate passes healthcare reform bill', source: 'AP', tier: 1 }] },
+            { name: 'Stocks', rawArticles: [{ title: 'Dow Jones industrial average rises 500 points in trading', source: 'CNBC', tier: 1 }] },
+            { name: 'Business', rawArticles: [{ title: 'Global merger wave reshapes pharmaceutical industry', source: 'Bloomberg', tier: 1 }] },
+            { name: 'Technology', rawArticles: [{ title: 'Apple unveils next-generation AI features', source: 'TechCrunch', tier: 1 }] },
+            { name: 'Science', rawArticles: [{ title: 'NASA confirms discovery of habitable zone planet', source: 'Nature', tier: 1 }] }
+        ];
+        const result = await pipeline.run(rawData);
+
+        const categoryNames = result.children.map(c => c.name);
+        // At least some of the new categories should be present
+        expect(categoryNames).toContain('World');
+        expect(categoryNames).toContain('Technology');
+        expect(categoryNames).toContain('Science');
+        // Verify old categories are removed
+        expect(categoryNames).not.toContain('Politics');
+        expect(categoryNames).not.toContain('Finance');
+        expect(categoryNames).not.toContain('Seattle');
     }, 30000);
 });
