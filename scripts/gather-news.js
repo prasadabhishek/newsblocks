@@ -20,30 +20,40 @@ const pipeline = new Pipeline();
 // ELITE NEWS SOURCES: Verified endpoints for 2026
 // Balanced to deliver: World > US > Stocks > Business, Tech, Science
 const PREMIUM_FEEDS = [
-    // WORLD - International news (5 feeds)
+    // WORLD - International news (10 feeds)
     { name: 'World', url: 'http://feeds.bbci.co.uk/news/world/rss.xml', publisher: 'BBC World', tier: 1 },
     { name: 'World', url: 'https://www.theguardian.com/world/rss', publisher: 'The Guardian', tier: 1 },
     { name: 'World', url: 'https://www.aljazeera.com/xml/rss/all.xml', publisher: 'Al Jazeera', tier: 1 },
     { name: 'World', url: 'https://www.france24.com/en/rss', publisher: 'France 24', tier: 1 },
     { name: 'World', url: 'https://www.scmp.com/rss/world.xml', publisher: 'SCMP', tier: 2 },
+    { name: 'World', url: 'https://feeds.skynews.com/feeds/rss/home.xml', publisher: 'Sky News', tier: 2 },
+    { name: 'World', url: 'https://www.euronews.com/rss', publisher: 'Euronews', tier: 2 },
+    { name: 'World', url: 'https://www.lemonde.fr/en/rss/une.xml', publisher: 'Le Monde', tier: 2 },
+    { name: 'World', url: 'https://time.com/feed/', publisher: 'Time', tier: 2 },
+    { name: 'World', url: 'https://www.ibtimes.com/rss', publisher: 'IBTimes', tier: 2 },
 
-    // US NATIONAL - US domestic news (5 feeds)
+    // US NATIONAL - US domestic news (8 feeds)
     { name: 'US', url: 'https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml', publisher: 'BBC US', tier: 1 },
     { name: 'US', url: 'https://rss.nytimes.com/services/xml/rss/nyt/Americas.xml', publisher: 'NY Times', tier: 1 },
     { name: 'US', url: 'https://feeds.washingtonpost.com/rss/national', publisher: 'Washington Post', tier: 1 },
     { name: 'US', url: 'https://www.nbcnews.com/rss', publisher: 'NBC News', tier: 2 },
-    { name: 'US', url: 'https://news.google.com/rss/headlines/section/topic/NATION', publisher: 'Google US', tier: 2 },
+    { name: 'US', url: 'https://moxie.foxnews.com/google-publisher/latest.xml', publisher: 'Fox News', tier: 2 },
+    { name: 'US', url: 'https://feeds.npr.org/1001/rss.xml', publisher: 'NPR', tier: 2 },
+    { name: 'US', url: 'https://abcnews.com/abcnews/topstories', publisher: 'ABC News Top', tier: 2 },
+    { name: 'US', url: 'https://abcnews.com/abcnews/usheadlines', publisher: 'ABC News US', tier: 2 },
 
-    // STOCKS - Stock market news (4 feeds)
+    // STOCKS - Stock market news (5 feeds)
     { name: 'Stocks', url: 'https://www.cnbc.com/id/10000664/device/rss/rss.html', publisher: 'CNBC Markets', tier: 1 },
     { name: 'Stocks', url: 'https://finance.yahoo.com/news/rssindex', publisher: 'Yahoo Finance', tier: 2 },
     { name: 'Stocks', url: 'http://feeds.marketwatch.com/marketwatch/topstories/', publisher: 'MarketWatch', tier: 2 },
     { name: 'Stocks', url: 'https://feeds.bloomberg.com/markets/news.rss', publisher: 'Bloomberg Markets', tier: 1 },
+    { name: 'Stocks', url: 'https://feeds.bbci.co.uk/news/business/rss.xml', publisher: 'BBC Business', tier: 2 },
 
-    // BUSINESS & FINANCE - Broader economy (3 feeds)
+    // BUSINESS & FINANCE - Broader economy (4 feeds)
     { name: 'Business', url: 'https://www.cnbc.com/id/10001147/device/rss/rss.html', publisher: 'CNBC Economy', tier: 1 },
-    { name: 'Business', url: 'https://www.ft.com/?format=rss', publisher: 'Financial Times', tier: 1 },
-    { name: 'Business', url: 'https://feeds.reuters.com/reuters/businessNews', publisher: 'Reuters Business', tier: 2 },
+    { name: 'Business', url: 'https://www.ft.com/rss/home/international', publisher: 'FT International', tier: 1 },
+    { name: 'Business', url: 'https://feeds.content.dowjones.io/public/rss/WSJcomUSBusiness', publisher: 'WSJ US Business', tier: 2 },
+    { name: 'Business', url: 'https://feedx.net/rss/ap.xml', publisher: 'AP News', tier: 2 },
 
     // TECHNOLOGY (4 feeds)
     { name: 'Technology', url: 'https://techcrunch.com/feed/', publisher: 'TechCrunch', tier: 1 },
@@ -57,8 +67,9 @@ const PREMIUM_FEEDS = [
     { name: 'Science', url: 'https://www.nature.com/nature.rss', publisher: 'Nature', tier: 1 },
     { name: 'Science', url: 'https://phys.org/rss-feed/', publisher: 'Phys.org', tier: 2 },
 
-    // GOOGLE NEWS AGGREGATION - Additional sources (4 feeds)
+    // GOOGLE NEWS AGGREGATION - Additional sources (5 feeds)
     { name: 'World', url: 'https://news.google.com/rss/headlines/section/topic/WORLD', publisher: 'Google World', tier: 2 },
+    { name: 'US', url: 'https://news.google.com/rss/headlines/section/topic/NATION', publisher: 'Google US', tier: 2 },
     { name: 'Stocks', url: 'https://news.google.com/rss/headlines/section/topic/BUSINESS', publisher: 'Google Stocks', tier: 2 },
     { name: 'Technology', url: 'https://news.google.com/rss/headlines/section/topic/TECHNOLOGY', publisher: 'Google Tech', tier: 2 },
     { name: 'Science', url: 'https://news.google.com/rss/headlines/section/topic/SCIENCE', publisher: 'Google Science', tier: 2 }
