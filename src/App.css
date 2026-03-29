@@ -552,9 +552,9 @@ body {
     max-width: 200px;
   }
 
-  /* Color blind toggle repositioned on mobile to avoid overlap with tabs */
+  /* Color blind toggle repositioned on mobile to avoid overlap with header content */
   .colorblind-toggle {
-    top: 8px !important;
+    top: 48px !important;
     right: 8px !important;
     padding: 4px 8px !important;
   }
