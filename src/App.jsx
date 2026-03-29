@@ -131,7 +131,7 @@ function App() {
 
       <header className="header-main" onClick={() => handleStorySelect(null)} style={{ cursor: 'pointer', position: 'relative' }}>
         {/* Color Blind Toggle */}
-        <div 
+        <div
           onClick={(e) => { e.stopPropagation(); toggleColorBlind(); }}
           style={{
             position: 'absolute',
@@ -148,7 +148,7 @@ function App() {
             transition: 'all 0.3s ease',
             zIndex: 50
           }}
-          className="hover:scale-105"
+          className="colorblind-toggle hover:scale-105"
         >
           <div style={{
             width: '12px',
