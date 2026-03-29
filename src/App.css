@@ -33,25 +33,6 @@ body {
   background: radial-gradient(circle at center, rgba(30, 41, 59, 0.5) 0%, transparent 70%);
 }
 
-.colorblind-toggle {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 6px 12px;
-  background: rgba(30, 41, 59, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 99px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.desktop-only {
-  display: flex;
-}
-
 .logo-text {
   font-family: 'Roboto Slab', serif;
   font-size: 3rem;
@@ -569,10 +550,6 @@ body {
 
   .sentiment-bar-wrapper {
     max-width: 200px;
-  }
-
-  .desktop-only {
-    display: none !important;
   }
 }
 
