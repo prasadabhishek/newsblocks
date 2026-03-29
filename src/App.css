@@ -507,7 +507,7 @@ body {
   }
 
   .header-main {
-    padding: 16px 0 24px;
+    padding: 56px 0 24px;
     margin-bottom: 20px;
     background: radial-gradient(circle at center, rgba(30, 41, 59, 0.8) 0%, transparent 80%);
   }
