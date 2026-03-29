@@ -129,43 +129,29 @@ function App() {
         </ul>
       </div>
 
-      <header className="header-main" onClick={() => handleStorySelect(null)} style={{ cursor: 'pointer', position: 'relative' }}>
-        {/* Color Blind Toggle */}
-        <div
-          onClick={(e) => { e.stopPropagation(); toggleColorBlind(); }}
-          style={{
-            position: 'absolute',
-            top: '24px',
-            right: '24px',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '8px',
-            padding: '6px 12px',
-            background: isColorBlind ? 'rgba(37, 99, 235, 0.2)' : 'rgba(30, 41, 59, 0.6)',
-            border: `1px solid ${isColorBlind ? 'rgba(37, 99, 235, 0.4)' : 'rgba(255, 255, 255, 0.1)'}`,
-            borderRadius: '99px',
-            cursor: 'pointer',
-            transition: 'all 0.3s ease',
-            zIndex: 50
-          }}
-          className="colorblind-toggle hover:scale-105"
-        >
-          <div style={{
-            width: '12px',
-            height: '12px',
-            borderRadius: '50%',
-            background: isColorBlind ? '#2563eb' : '#94a3b8',
-            boxShadow: isColorBlind ? '0 0 8px #2563eb' : 'none'
-          }}></div>
-          <span style={{ 
-            fontSize: '10px', 
-            fontWeight: '900', 
-            color: isColorBlind ? '#fff' : '#94a3b8',
-            letterSpacing: '0.05em'
-          }}>COLOR BLIND: {isColorBlind ? 'ON' : 'OFF'}</span>
+      <header className="header-main" onClick={() => handleStorySelect(null)} style={{ cursor: 'pointer' }}>
+        <div className="header-top-row">
+          <h1 className="logo-text">NewsBlocks</h1>
+          {/* Color Blind Toggle */}
+          <div
+            onClick={(e) => { e.stopPropagation(); toggleColorBlind(); }}
+            className="colorblind-toggle hover:scale-105"
+          >
+            <div style={{
+              width: '12px',
+              height: '12px',
+              borderRadius: '50%',
+              background: isColorBlind ? '#2563eb' : '#94a3b8',
+              boxShadow: isColorBlind ? '0 0 8px #2563eb' : 'none'
+            }}></div>
+            <span style={{
+              fontSize: '10px',
+              fontWeight: '900',
+              color: isColorBlind ? '#fff' : '#94a3b8',
+              letterSpacing: '0.05em'
+            }}>COLOR BLIND: {isColorBlind ? 'ON' : 'OFF'}</span>
+          </div>
         </div>
-
-        <h1 className="logo-text">NewsBlocks</h1>
         <h2 className="subtitle-main">news sentiment visualizer</h2>
 
         <div className="last-updated-badge">
