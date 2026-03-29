@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-03-29T19:46:13.903Z",
+  "lastUpdated": "2026-03-29T19:54:01.509Z",
   "children": [
     {
       "name": "World",
@@ -252,6 +252,27 @@ export const newsData = {
           "slug": "antonelli-wins-japan-gp-claims-championship-lead"
         },
         {
+          "representativeTitle": "Abducted Ukrainian Children Face Decades of Trauma",
+          "sources": [
+            "Fox News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Olena Zelenska warns abducted Ukranian kids may take ‘dozens of years’ to return, praises Melania Trump’s help",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/media/olena-zelenska-warns-abducted-ukranian-kids-may-take-dozens-years-return-praises-melania-trumps-help",
+              "pubDate": "2026-03-29T19:38:01.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "abducted-ukrainian-children-face-decades-of-trauma"
+        },
+        {
           "representativeTitle": "Trump's Actions Disrupt Middle East Power Dynamics",
           "sources": [
             "Fox News"
@@ -467,7 +488,7 @@ export const newsData = {
               "title": "Pentagon prepares for weeks of ground operations in Iran",
               "source": "Google US",
               "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3c2NFJEVi1CSExPRzBITVJncXRRWTNxdk9MUlYzZ2x3ZnNQUjVfRWRoSUJhWk5SQjZBaWNEY1hFaE1PUTlRVmNnaVZkNGhKNnMzbkowbzJTRzN3eXcxcjFROUxEWmQzUnJPNmFsbTNyN0FUXzFUSTM5bmwtcGtMRHJncFpLVzNoMTBRNUkyZUFrRFNQTXRCZQ?oc=5",
-              "pubDate": "2026-03-29T19:37:01.000Z",
+              "pubDate": "2026-03-29T19:47:10.000Z",
               "tier": 2
             }
           ],
@@ -560,6 +581,27 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "aid-boats-reach-havana-delivering-critical-support"
+        },
+        {
+          "representativeTitle": "African Nation Seeks Extradition of Ilhan Omar",
+          "sources": [
+            "Google US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "African nation calls for Ilhan Omar to be extradited after Vance's fraud claim",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLVlwV0ZKY3NmeHotaHA4WFpWSTdnTC1yc3ZLbXpPbUVIdVdTLVRJN1Z1eG9QaFl4OWlYdWJTTmRVdVltbkh5VFQtUGhUbzAzSXdrajVncWhSQWtfTkF6RXViVUVlaUl3X0I3ekpITUhTYjlWTTdELTA2UTRyQ3ZsNmdSZ2ZidDVXQUE?oc=5",
+              "pubDate": "2026-03-29T12:53:28.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "african-nation-seeks-extradition-of-ilhan-omar"
         },
         {
           "representativeTitle": "Iran-US Conflict Raises Nuclear Threat Concerns",
@@ -978,7 +1020,7 @@ export const newsData = {
               "title": "Israeli police block Latin Patriarch from Palm Sunday mass in Jerusalem",
               "source": "BBC World",
               "link": "https://www.bbc.com/news/articles/cvg0128z41eo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-03-29T17:09:00.000Z",
+              "pubDate": "2026-03-29T19:52:56.000Z",
               "tier": 1
             },
             {
@@ -1431,27 +1473,6 @@ export const newsData = {
           "slug": "pentagon-prepares-ground-operations-in-iran"
         },
         {
-          "representativeTitle": "RSF Attack Kills Civilians in South Kordofan",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "RSF attack on Sudan’s South Kordofan kills at least 14, including children",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/3/29/rsf-attack-on-sudans-south-kordofan-kills-at-least-14-including-children?traffic_source=rss",
-              "pubDate": "2026-03-29T19:22:33.000Z",
-              "tier": 1
-            }
-          ],
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "rsf-attack-kills-civilians-in-south-kordofan"
-        },
-        {
           "representativeTitle": "US Threats Intensify, Cuba Faces Growing International Pressure",
           "sources": [
             "Al Jazeera"
@@ -1581,12 +1602,11 @@ export const newsData = {
           "slug": "europe-faces-potential-crisis-amid-iran-war-risks"
         },
         {
-          "representativeTitle": "Pakistan Facilitates Talks on Hormuz Security Proposals",
+          "representativeTitle": "Pakistan Hosts Iran Talks: Delicate Balancing Act",
           "sources": [
-            "Al Jazeera",
-            "Google World"
+            "Al Jazeera"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Pakistan maintains ‘delicate balancing act’ as it hosts Iran talks",
@@ -1594,20 +1614,13 @@ export const newsData = {
               "link": "https://www.aljazeera.com/news/2026/3/29/pakistan-maintains-delicate-balancing-act-as-it-hosts-iran-talks?traffic_source=rss",
               "pubDate": "2026-03-29T14:35:58.000Z",
               "tier": 1
-            },
-            {
-              "title": "Pakistan hosts regional powers for Iran talks, with focus on Hormuz proposals",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVXh1dERsNEVKcm5tY1MxSUtaRi1UUzN6T2lvR2g2VnQ0aWhXSHczMVJfQWh4Ym4xbnY1YkpmcFdOLWtvZ1cxd2JmQ0F4bzh1T0FBMnBrWXJncGozaDRCWUI1dUpBRGtMeU5qTVhoUUc0MTljaUMwZ3ItT2hoWS1MR3h6amdhSHB5Q1M0SmdKaTU0bERlOGxKNXBMd0FrX25EZ1VqcHpONjdtRHprWEs2ZjFiMUZ3THR0RERFZDJlVnI1UQ?oc=5",
-              "pubDate": "2026-03-29T17:25:43.000Z",
-              "tier": 2
             }
           ],
           "aiCategory": "World",
           "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "pakistan-facilitates-talks-on-hormuz-security-proposals"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "pakistan-hosts-iran-talks-delicate-balancing-act"
         },
         {
           "representativeTitle": "Iranian Dissidents Face Widespread Danger, US Impact",
@@ -2537,27 +2550,6 @@ export const newsData = {
           "slug": "pope-criticizes-leaders-suggests-moral-concerns"
         },
         {
-          "representativeTitle": "Ukraine, Qatar Forge Defense Pact in Doha",
-          "sources": [
-            "Google World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Zelenskyy visits Doha as Ukraine, Qatar sign defense pact",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUDFBa3RTYTcyOFhvOUJsaU9VTFZJWWRuS1I5NG0wbHp2dF96T01tMlVRa1hhUVZzako3S0hMT1RLbVZPdkdCVVlLRFkzb3JUd3JPZk5SSkJaTk90Tk9aMTJBNkt2cWlTcU9oUkY2c3pKV093S1VfU001eTdUamd0UVVfd05qazQxeUQ3TVMzMkdYNGPSAZMBQVVfeXFMTU1NZFFJNkFLLXRlbTZnRllUb2YxRDhZQkNCaVZpSjJnUlpvUGd4RjJ6aUltSjRUckRaWUFxWEFad3JJMVZoQ000WHFRZXIwb2N0MmpQMEgxUjNTWnhMeUh1RmhySTh0cmtsQkRxMHM5MF9fSW1jZ0RRd0UzbG95Ti1WOFA3dFZSN3ViVHAzdGdFa29r?oc=5",
-              "pubDate": "2026-03-29T09:39:28.000Z",
-              "tier": 2
-            }
-          ],
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "ukraine-qatar-forge-defense-pact-in-doha"
-        },
-        {
           "representativeTitle": "Iranian Attack Damages US Surveillance Aircraft Critical",
           "sources": [
             "Google World"
@@ -2608,25 +2600,46 @@ export const newsData = {
           "slug": "stranded-whale-weakens-return-to-atlantic-lost"
         },
         {
-          "representativeTitle": "Oil Profits Offset by Ukraine Drone Attacks",
+          "representativeTitle": "Iran Threatens Retaliation, Regional Diplomacy Intensifies",
           "sources": [
             "Google World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Russia expected a windfall from soaring oil prices, but Ukrainian drones are devastating exports",
+              "title": "Iran warns US ground troops would be ‘set on fire’ as regional diplomats meet on the war",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRFM0QnVTN2xXY3F6X3ZyeVlHa0MxY0hsSE1EVGE1Vy1zOW01SGl1WVVVWEJGLTNFeEwybElVVHV3YkVYWnJYTGNGdWV0VDFJZXdWX1Fma3Z1M1hmN2ZmN1QyWDZXa3lUdFhOOFU3VGVrdWpxT013dXBELVpwRG1qTTRiQ2V6UG9ITTl0Sk11QjMwR2dQM1BJcTRONHFadlNMbWcwLVdkVQ?oc=5",
-              "pubDate": "2026-03-29T17:01:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY3p4dnJkOHJVQTBKM3QyWTMzZWI1Mk5aUnVLX0NOTTVSNEpnOGI3SGtLS1RFbnhVVGJyME9SbFlIRkEyTHFHaDBWWTJnczF1OXMyRlc1STRCQmNBN2N5VjNLc2d0X29zS3pYOWtpYmU0dmpOb0gzbU4yLXcwdEtwOE9uWEw4eVRTWlN4b2hseUJFeWF2aUQta0RBY2I0alAyUEhiVQ?oc=5",
+              "pubDate": "2026-03-29T19:03:00.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "iran-threatens-retaliation-regional-diplomacy-intensifies"
+        },
+        {
+          "representativeTitle": "Russian Port Damaged; Fire Under Control",
+          "sources": [
+            "Google World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Russia's Ust-Luga port damaged by more Ukrainian drones, fire under control",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTkVyUEN2ejdNYWNQOWRLZHVJLTJyNlRSeHVjT1R1YUg1UTE4dTR4YWtVLTZsZWZFNnNWZzFpQ0VoSzl6RDNvMW9uazV4QXBfb285NlUyYWRjV25ubjJRY2tDTlZqcHAxbkJVbG1YbDdVNUhJcGJOem1sSTRfRU9fN1c0TDVnQ2ZtY1dBQkNNbXZwZUQ5ZFo4MWpnajFWRnhidExsd2dZX05zRTg?oc=5",
+              "pubDate": "2026-03-29T17:30:23.000Z",
               "tier": 2
             }
           ],
           "aiCategory": "World",
           "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "oil-profits-offset-by-ukraine-drone-attacks"
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "russian-port-damaged-fire-under-control"
         },
         {
           "representativeTitle": "Israeli Strikes Kill Six in Gaza Checkpoints",
@@ -3587,27 +3600,6 @@ export const newsData = {
           "slug": "ufc-fighter-wins-debut-after-remarkable-story"
         },
         {
-          "representativeTitle": "No Kings Rallies Criticized for Manipulation Tactics",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "DAVID MARCUS: At crafty No Kings rallies, the participants are the puppets",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/opinion/david-marcus-crafty-no-kings-rallies-participants-puppets",
-              "pubDate": "2026-03-29T15:50:35.000Z",
-              "tier": 2
-            }
-          ],
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "no-kings-rallies-criticized-for-manipulation-tactics"
-        },
-        {
           "representativeTitle": "Supreme Court Considers Judge's Employment Reinstatement",
           "sources": [
             "NPR"
@@ -3763,27 +3755,6 @@ export const newsData = {
           "slug": "supreme-court-hears-case-on-racial-jury-bias"
         },
         {
-          "representativeTitle": "CPAC Backs Paxton, Challenges Cornyn's Texas Senate Bid",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "CPAC activists embrace Paxton as MAGA’s choice for Senate over Cornyn",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ1prODNHM3JXc2wtUXVRbTZYQUtkdjlxaTBYOGdEWWxFdk1TZ3pUcmVSbGdvTmFLLVU2Y244amEtYVFQUkNoelZfeWJaNU9NV1VOMnpBMUdTd00wN3IwdFp5Z2I5dExCaXRQSHRfUXdMc0RaSE5kMGNqeW13bTRyN0ZPSHVsVFNWcVpGb1YxM1M2NWJKbzNQR2ZBQzVrMlA5LTJMM01Vc0xmYzA?oc=5",
-              "pubDate": "2026-03-28T22:54:00.000Z",
-              "tier": 2
-            }
-          ],
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "cpac-backs-paxton-challenges-cornyns-texas-senate-bid"
-        },
-        {
           "representativeTitle": "Scalise Expresses Doubt on DHS Funding Vote",
           "sources": [
             "Google US"
@@ -3803,6 +3774,27 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "scalise-expresses-doubt-on-dhs-funding-vote"
+        },
+        {
+          "representativeTitle": "CPAC Backs Paxton, Challenges Cornyn's Texas Senate Bid",
+          "sources": [
+            "Google US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "CPAC activists embrace Paxton as MAGA’s choice for Senate over Cornyn",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ1prODNHM3JXc2wtUXVRbTZYQUtkdjlxaTBYOGdEWWxFdk1TZ3pUcmVSbGdvTmFLLVU2Y244amEtYVFQUkNoelZfeWJaNU9NV1VOMnpBMUdTd00wN3IwdFp5Z2I5dExCaXRQSHRfUXdMc0RaSE5kMGNqeW13bTRyN0ZPSHVsVFNWcVpGb1YxM1M2NWJKbzNQR2ZBQzVrMlA5LTJMM01Vc0xmYzA?oc=5",
+              "pubDate": "2026-03-28T22:54:00.000Z",
+              "tier": 2
+            }
+          ],
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "cpac-backs-paxton-challenges-cornyns-texas-senate-bid"
         },
         {
           "representativeTitle": "Trump Revisits Citizenship Ruling, Raises Immigration Concerns",
@@ -3950,27 +3942,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "extreme-heat-wildfires-threaten-us-regions-this-weekend"
-        },
-        {
-          "representativeTitle": "Trump Comments Spark Outrage, Historical Echoes Resonate",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump’s celebration of Robert Mueller’s death sparks scorn – and echoes of history",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQczRPeTZ0eXE5WjcyMVRTWVBpRkp6RjlJQzRXcHpqWU5tMzVZOXEtT2ZybHAxVGtGeTQxSGlaTno3Z1Qtbkw0V19kVDhPcDFpZHVDUTM4bGRDaVZWNWtvQU9BRWRUV2tuUTVSdTc3NnRtRFIxcXNqX2lJaGR2M0ZOR183QVZRZmVTaXdOVVAxM3ZGaE0?oc=5",
-              "pubDate": "2026-03-29T08:00:55.000Z",
-              "tier": 2
-            }
-          ],
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "trump-comments-spark-outrage-historical-echoes-resonate"
         },
         {
           "representativeTitle": "Senator Urges Trump Against Iran Troop Deployment",
@@ -5394,18 +5365,10 @@ export const newsData = {
         {
           "representativeTitle": "Bond Market Risks Underestimated, JPMorgan & Pimco Warn",
           "sources": [
-            "Yahoo Finance",
             "Bloomberg Markets"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
-            {
-              "title": "JPMorgan, Pimco Say Bond Market Is Underestimating Slowdown Risk",
-              "source": "Yahoo Finance",
-              "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-pimco-bond-market-underestimating-190000791.html",
-              "pubDate": "2026-03-29T19:00:00.000Z",
-              "tier": 2
-            },
             {
               "title": "JPMorgan, Pimco Say Bond Market Is Underestimating Slowdown Risk",
               "source": "Bloomberg Markets",
@@ -5417,7 +5380,7 @@ export const newsData = {
           "aiCategory": "Business",
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 55,
+          "importance": 50,
           "slug": "bond-market-risks-underestimated-jpmorgan-pimco-warn"
         },
         {
@@ -6006,6 +5969,27 @@ export const newsData = {
           "slug": "astronauts-prepare-for-historic-moon-mission-qa"
         },
         {
+          "representativeTitle": "'Project Hail Mary' Shatters Amazon Box Office Records",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘Project Hail Mary’ becomes Amazon MGM’s biggest box office hit",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/03/29/project-hail-mary-becomes-amazon-mgms-biggest-box-office-hit/",
+              "pubDate": "2026-03-29T19:50:57.000Z",
+              "tier": 1
+            }
+          ],
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "project-hail-mary-shatters-amazon-box-office-records"
+        },
+        {
           "representativeTitle": "AI Chatbot Risks Highlighted in New Study",
           "sources": [
             "TechCrunch"
@@ -6539,25 +6523,25 @@ export const newsData = {
           "slug": "polymer-semiconductor-research-reveals-polarity-inversion-origin"
         },
         {
-          "representativeTitle": "Artemis II Crew Expresses Excitement for Moon Mission",
+          "representativeTitle": "Artemis 2 Mission Utilizes Modern Space Toilet Tech",
           "sources": [
             "Google Science"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "For NASA’s Artemis II Crew, Journey to the Moon ‘Starting to Feel Real’",
+              "title": "NASA's Artemis 2 moon astronauts are 'fortunate' to have a private space toilet — Apollo crews pooped in plastic bags",
               "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZk1ZRG92bFVpOW56VUdxMFJaYlA5N1dhTHBJLWxzUXI4bWU2Q29tYTU0bDNSUXNPck54ak9ZQzRmUU1CSjBwOXVXdUxzUlhDNlNLWjlHcGZtbnpNY3VpaXJockJqRGZHa3UyVl9IcTBka3FiUjR3VklKN3ZPV3lUbUN2WUgzUmhjZGo0?oc=5",
-              "pubDate": "2026-03-29T17:37:22.000Z",
+              "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbER1ODRQcnp1YzNZMmlySWM3UFBITUxmY2R5Z3RIdExpZjdoRUIzMTJSUC1SclpxVHJ0aVJ1OWdiNWc3MzRKdjZ0T0puMXFtYXhwOTl2MkNrbTFmUm5qRXYwM1QwYXlPRnZHQUl4SDdDT3A1UFZqTmlVd2N1RWRCb3V0VUxwOVB6ODRIdzhkUkVOT255dkE3Mm9IUG42OFh2TlFrMmFLT3RqVmVlWXZZalZoZTZnT3BUOTNUV0VYenhvVmxuLVlSXzcwTThmRDdNOURKQkJrZHdpX29nR1hOOVlSVG9xYXN0YXFaSUJLVnVmUQ?oc=5",
+              "pubDate": "2026-03-29T12:00:00.000Z",
               "tier": 2
             }
           ],
           "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "artemis-ii-crew-expresses-excitement-for-moon-mission"
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "artemis-2-mission-utilizes-modern-space-toilet-tech"
         },
         {
           "representativeTitle": "NASA Astronaut's Illness Sparks Urgent Medical Investigation",
