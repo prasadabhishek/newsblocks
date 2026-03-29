@@ -115,20 +115,18 @@ async function commitAndPush() {
     log('Committing and pushing to GitHub...');
 
     return new Promise((resolve, reject) => {
-        const gitArgs = ['push', 'origin', 'main'];
+        // Build remote URL with token if available
+        const remoteUrl = CONFIG.githubToken
+            ? `https://x-access-token:${CONFIG.githubToken}@github.com/prasadabhishek/newsblocks.git`
+            : 'origin';
 
-        // If GITHUB_TOKEN is set, use it for authentication
-        // Otherwise, rely on SSH keys or git credential store
+        const gitArgs = ['push', remoteUrl, 'main'];
+
         const git = spawn('git', gitArgs, {
             cwd: __dirname,
             env: {
                 ...process.env,
                 GIT_TERMINAL_PROMPT: '0',
-                // If token provided, use it in remote URL
-                ...(CONFIG.githubToken && {
-                    GIT_ASKPASS: '/bin/echo',
-                    GIT_REMOTE_URL: `https://x-access-token:${CONFIG.githubToken}@github.com/prasadabhishek/newsblocks.git`,
-                }),
             },
         });
 
