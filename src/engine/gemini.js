@@ -16,7 +16,7 @@ const MODELS = {
     GEMINI_PRIMARY: "gemini-1.5-flash",
     GEMINI_FALLBACK: "gemini-1.5-flash-8b",
     MINIMAX_PRIMARY: "MiniMax-M2.7",
-    OLLAMA_LLM: process.env.OLLAMA_MODEL || "gemma3:4b",
+    OLLAMA_LLM: process.env.OLLAMA_MODEL || "gemma4:e4b",
     OLLAMA_EMBED: "nomic-embed-text",
     EMBEDDING: "text-embedding-004"
 };
