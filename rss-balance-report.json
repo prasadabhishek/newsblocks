@@ -1,0 +1,2305 @@
+{
+  "generated": "2026-03-26T20:32:35.074Z",
+  "results": [
+    {
+      "name": "World",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "publisher": "BBC World",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 25,
+      "freshArticles": 20,
+      "categories": {
+        "World": 9,
+        "US": 1,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 1,
+        "Technology": 3,
+        "Science": 0
+      },
+      "junkArticles": 1,
+      "sampleTitles": [
+        "Zelensky visits Saudi Arabia after offering Ukraine's drone expertise",
+        "Rationing power and diluting petrol - how African countries are coping with effe",
+        "US prosecutors argue Maduro 'plundered' Venezuelan wealth in court battle over l",
+        "Orban's Hungarian government accused of mass voter intimidation ahead of electio",
+        "Olympic women's sport limited to biological females"
+      ]
+    },
+    {
+      "name": "World",
+      "url": "https://www.theguardian.com/world/rss",
+      "publisher": "The Guardian",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 45,
+      "freshArticles": 12,
+      "categories": {
+        "World": 5,
+        "US": 2,
+        "Stocks": 1,
+        "Finance": 1,
+        "Politics": 0,
+        "Technology": 4,
+        "Science": 1
+      },
+      "junkArticles": 1,
+      "sampleTitles": [
+        "Nigeria takes its place on world stage in quest to become regional superpower",
+        "Two drone strikes on civilian targets kill 28 people in Sudan",
+        "Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding",
+        "UN votes to describe slave trade as ‘gravest crime against humanity’",
+        "Lebo M sues comedian Learnmore Jonasi claiming Circle of Life misrepresentation"
+      ]
+    },
+    {
+      "name": "World",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "publisher": "Al Jazeera",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 25,
+      "freshArticles": 20,
+      "categories": {
+        "World": 3,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 3,
+        "Technology": 4,
+        "Science": 0
+      },
+      "junkArticles": 3,
+      "sampleTitles": [
+        "Israel sends more troops into southern Lebanon as ground invasion expands",
+        "Dutch court bans xAI’s Grok from generating nonconsensual nude images",
+        "US judge weighs Trump decision to bar Venezuelan funds for Maduro’s defence",
+        "Key takeaways from Trump’s war on Iran meeting",
+        "Trump says Iran ‘begging’ for deal to end war as Tehran issues new demands"
+      ]
+    },
+    {
+      "name": "World",
+      "url": "https://www.reutersagency.com/feed/",
+      "publisher": "Reuters Agency",
+      "tier": 2,
+      "accessible": false,
+      "statusCode": 404,
+      "error": "HTTP 404",
+      "totalArticles": 0,
+      "freshArticles": 0,
+      "categories": {
+        "World": 0,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 0,
+        "Technology": 0,
+        "Science": 0
+      },
+      "junkArticles": 0,
+      "sampleTitles": []
+    },
+    {
+      "name": "World",
+      "url": "https://www.cnn.com/world/rss",
+      "publisher": "CNN",
+      "tier": 1,
+      "accessible": false,
+      "statusCode": 404,
+      "error": "HTTP 404",
+      "totalArticles": 0,
+      "freshArticles": 0,
+      "categories": {
+        "World": 0,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 0,
+        "Technology": 0,
+        "Science": 0
+      },
+      "junkArticles": 0,
+      "sampleTitles": []
+    },
+    {
+      "name": "World",
+      "url": "https://www.france24.com/en/rss",
+      "publisher": "France 24",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 24,
+      "freshArticles": 20,
+      "categories": {
+        "World": 5,
+        "US": 0,
+        "Stocks": 1,
+        "Finance": 0,
+        "Politics": 3,
+        "Technology": 4,
+        "Science": 0
+      },
+      "junkArticles": 2,
+      "sampleTitles": [
+        "Israeli strike kills Iran's navy commander Alireza Tangsiri",
+        "Trump insists Iran is ‘begging to make a deal’ after Tehran dismisses ceasefire ",
+        "Winding down or spinning out of control? Trump's mixed signals on Iran rattle tr",
+        "As 'war of choice' escalates into international crisis, Miller says Trump has 'n",
+        "Moscow and St Petersburg internet blackouts raise fears of Kremlin surveillance"
+      ]
+    },
+    {
+      "name": "World",
+      "url": "https://www.dw.com/en/world/rss",
+      "publisher": "Deutsche Welle",
+      "tier": 1,
+      "accessible": false,
+      "statusCode": 404,
+      "error": "HTTP 404",
+      "totalArticles": 0,
+      "freshArticles": 0,
+      "categories": {
+        "World": 0,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 0,
+        "Technology": 0,
+        "Science": 0
+      },
+      "junkArticles": 0,
+      "sampleTitles": []
+    },
+    {
+      "name": "World",
+      "url": "https://www.scmp.com/rss/world.xml",
+      "publisher": "SCMP",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 50,
+      "freshArticles": 20,
+      "categories": {
+        "World": 14,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 1,
+        "Politics": 1,
+        "Technology": 1,
+        "Science": 1
+      },
+      "junkArticles": 0,
+      "sampleTitles": [
+        "Siblings who fled to China charged over bomb planted outside US Air Force base",
+        "Venezuela’s Maduro back in court after shock capture by US forces",
+        "China threatens Mexico with trade reprisals over 50% import duties",
+        "Sex in space? Sperm struggles to navigate without gravity, scientists find",
+        "Olympic women’s sport to be limited to biological females"
+      ]
+    },
+    {
+      "name": "US",
+      "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+      "publisher": "BBC US",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 21,
+      "freshArticles": 13,
+      "categories": {
+        "World": 2,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 4,
+        "Technology": 7,
+        "Science": 0
+      },
+      "junkArticles": 1,
+      "sampleTitles": [
+        "US prosecutors argue Maduro 'plundered' Venezuelan wealth in court battle over l",
+        "'Mom's missing' - Savannah Guthrie recounts devastating aftermath of kidnapping",
+        "Air Canada CEO 'deeply saddened' his English-only message distracted from victim",
+        "Russia bans Oscar-winning film 'Mr Nobody Against Putin'",
+        "Campaigners welcome Meta and YouTube's defeat in landmark social media addiction"
+      ]
+    },
+    {
+      "name": "US",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Americas.xml",
+      "publisher": "NY Times Americas",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 25,
+      "freshArticles": 7,
+      "categories": {
+        "World": 2,
+        "US": 2,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 2,
+        "Technology": 3,
+        "Science": 0
+      },
+      "junkArticles": 1,
+      "sampleTitles": [
+        "Air Canada C.E.O. Apologizes for English-Language Condolences After Plane Crash",
+        "Under Carney, Canada Finally Hits NATO’s 2% Spending Target",
+        "‘Public Charge’ Review: The World Is Messy. Being a Force for Good Is, Too.",
+        "U.S. Military Kills 4 People in Boat Strike in Caribbean",
+        "Cuban Patients Are Dying Because of U.S. Blockade, Doctors Say"
+      ]
+    },
+    {
+      "name": "US",
+      "url": "https://feeds.washingtonpost.com/rss/national",
+      "publisher": "Washington Post",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 4,
+      "freshArticles": 1,
+      "categories": {
+        "World": 0,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 1,
+        "Politics": 1,
+        "Technology": 0,
+        "Science": 0
+      },
+      "junkArticles": 0,
+      "sampleTitles": [
+        "After a decade as a Yale hospital janitor, she is now a doctor there",
+        "Bondi’s post-Oct. 7 terrorism task force falters after initial fanfare",
+        "Audio from cockpit recorder reveals error before deadly LaGuardia crash",
+        "Minnesota sues Trump administration over withheld evidence in shootings"
+      ]
+    },
+    {
+      "name": "US",
+      "url": "https://www.cnn.com/nation/rss",
+      "publisher": "CNN Nation",
+      "tier": 1,
+      "accessible": false,
+      "statusCode": 404,
+      "error": "HTTP 404",
+      "totalArticles": 0,
+      "freshArticles": 0,
+      "categories": {
+        "World": 0,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 0,
+        "Technology": 0,
+        "Science": 0
+      },
+      "junkArticles": 0,
+      "sampleTitles": []
+    },
+    {
+      "name": "US",
+      "url": "https://www.nbcnews.com/rss",
+      "publisher": "NBC News",
+      "tier": 2,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 25,
+      "freshArticles": 19,
+      "categories": {
+        "World": 0,
+        "US": 4,
+        "Stocks": 2,
+        "Finance": 0,
+        "Politics": 2,
+        "Technology": 6,
+        "Science": 1
+      },
+      "junkArticles": 1,
+      "sampleTitles": [
+        "Nasdaq moves into correction territory as Iran war weighs on markets",
+        "Iran's 'Tehran toll' booth forces some tankers to pay millions to leave Strait o",
+        "Airport Wait Times Are Now the Longest in TSA History",
+        "Part I: Savannah Guthrie on Moment She Learned Her Mom Was Missing",
+        "Judge says he won’t dismiss Nicolás Maduro’s case over legal fees dispute"
+      ]
+    },
+    {
+      "name": "US",
+      "url": "https://www.abcnews.com/rss",
+      "publisher": "ABC News",
+      "tier": 2,
+      "accessible": false,
+      "statusCode": 404,
+      "error": "HTTP 404",
+      "totalArticles": 0,
+      "freshArticles": 0,
+      "categories": {
+        "World": 0,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 0,
+        "Technology": 0,
+        "Science": 0
+      },
+      "junkArticles": 0,
+      "sampleTitles": []
+    },
+    {
+      "name": "Stocks",
+      "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
+      "publisher": "CNBC Markets",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 30,
+      "freshArticles": 0,
+      "categories": {
+        "World": 4,
+        "US": 2,
+        "Stocks": 4,
+        "Finance": 1,
+        "Politics": 0,
+        "Technology": 1,
+        "Science": 0
+      },
+      "junkArticles": 0,
+      "sampleTitles": [
+        "The research firm whose AI paper knocked the whole stock market is out with anot",
+        "Former SEC Chair Jay Clayton says regulators would scrutinize trading ahead of T",
+        "World has 'never experienced' soaring refining margins like this, TotalEnergies ",
+        "Jamie Dimon says Iran war makes Middle East peace prospects better in the long t",
+        "Moody's cuts rating on private credit fund run by KKR and Future Standard to jun"
+      ]
+    },
+    {
+      "name": "Stocks",
+      "url": "https://finance.yahoo.com/news/rssindex",
+      "publisher": "Yahoo Finance",
+      "tier": 2,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 50,
+      "freshArticles": 3,
+      "categories": {
+        "World": 2,
+        "US": 1,
+        "Stocks": 5,
+        "Finance": 0,
+        "Politics": 1,
+        "Technology": 6,
+        "Science": 1
+      },
+      "junkArticles": 2,
+      "sampleTitles": [
+        "Coinbase Tumbles As Clarity Act Hits Snag In Senate; Is Coinbase Stock A Sell No",
+        "Microsoft Stock: How To Find & Own America's Greatest Opportunities",
+        "UFP Packaging introduces new nail-free crate systems",
+        "CNBC anchor shocked by US trade deficit drop from $136B to $29B — the lowest sin",
+        "Lam Research Corporation (LRCX) is Positioned to Benefit from Growing Chip Compl"
+      ]
+    },
+    {
+      "name": "Stocks",
+      "url": "http://feeds.marketwatch.com/marketwatch/topstories/",
+      "publisher": "MarketWatch",
+      "tier": 2,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 10,
+      "freshArticles": 10,
+      "categories": {
+        "World": 1,
+        "US": 0,
+        "Stocks": 6,
+        "Finance": 0,
+        "Politics": 1,
+        "Technology": 2,
+        "Science": 0
+      },
+      "junkArticles": 0,
+      "sampleTitles": [
+        "Your stock portfolio soared on cheap market risk — but that moneymaker is done",
+        "Big Tech’s AI fantasy hits a nuclear wall: No fuel, no welders — and no Plan B",
+        "Brown-Forman’s stock is soaring. Has it finally gotten cheap enough to attract a",
+        "These 10 top-rated stocks are crushing the S&P 500 — yet the media and Wall Stre",
+        "Here’s the big risk facing markets — besides inflation — as the Iran conflict dr"
+      ]
+    },
+    {
+      "name": "Finance",
+      "url": "https://www.cnbc.com/id/10001147/device/rss/rss.html",
+      "publisher": "CNBC Economy",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 30,
+      "freshArticles": 7,
+      "categories": {
+        "World": 2,
+        "US": 2,
+        "Stocks": 3,
+        "Finance": 1,
+        "Politics": 2,
+        "Technology": 3,
+        "Science": 1
+      },
+      "junkArticles": 2,
+      "sampleTitles": [
+        "United Airlines, flight attendants reach labor deal for first raises since pande",
+        "MLB faces a historic shift as potential lockout, media rights and other league c",
+        "Major outgoing CEOs are citing AI as a factor in their decisions to step down",
+        "Tom Brady says he's asked NFL about potential comeback: 'They don't like that id",
+        "Fannie Mae accepts first crypto-backed mortgage product"
+      ]
+    },
+    {
+      "name": "Finance",
+      "url": "https://www.ft.com/?format=rss",
+      "publisher": "Financial Times",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 11,
+      "freshArticles": 11,
+      "categories": {
+        "World": 2,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 3,
+        "Technology": 1,
+        "Science": 0
+      },
+      "junkArticles": 0,
+      "sampleTitles": [
+        "Trump extends pause on attacking Iran’s energy plants until April 6",
+        "Donald Trump’s policy swings are creating instability, energy chiefs say ",
+        "Stagflation is back",
+        "Iran’s hardline new leaders take control",
+        "The case for keeping Keir Starmer a little longer"
+      ]
+    },
+    {
+      "name": "Finance",
+      "url": "https://feeds.bloomberg.com/markets/news.rss",
+      "publisher": "Bloomberg Markets",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 30,
+      "freshArticles": 19,
+      "categories": {
+        "World": 2,
+        "US": 0,
+        "Stocks": 7,
+        "Finance": 1,
+        "Politics": 0,
+        "Technology": 5,
+        "Science": 1
+      },
+      "junkArticles": 2,
+      "sampleTitles": [
+        "Chip Selloff Deepens After Google Touts Memory Breakthrough",
+        "AI is Driving a Real-Time Recalibration Says Bernstein",
+        "Hertz, Avis Soar as Rental Demand Surges on Airport Chaos",
+        "World Is Losing 10 Million Barrels of Oil a Day, Morse Says",
+        "Selloff in Stocks Gains Speed on Ceasefire Doubts: Markets Wrap"
+      ]
+    },
+    {
+      "name": "Finance",
+      "url": "https://feeds.reuters.com/reuters/businessNews",
+      "publisher": "Reuters Business",
+      "tier": 1,
+      "accessible": false,
+      "statusCode": null,
+      "error": "fetch failed",
+      "totalArticles": 0,
+      "freshArticles": 0,
+      "categories": {
+        "World": 0,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 0,
+        "Technology": 0,
+        "Science": 0
+      },
+      "junkArticles": 0,
+      "sampleTitles": []
+    },
+    {
+      "name": "Politics",
+      "url": "https://www.theguardian.com/politics/rss",
+      "publisher": "The Guardian",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 21,
+      "freshArticles": 13,
+      "categories": {
+        "World": 2,
+        "US": 0,
+        "Stocks": 1,
+        "Finance": 0,
+        "Politics": 2,
+        "Technology": 3,
+        "Science": 2
+      },
+      "junkArticles": 0,
+      "sampleTitles": [
+        "NHS bosses say resident doctors’ strike will cause ‘maximum harm’",
+        "Rachel Reeves urged to raise taxes on companies profiting from war on Iran",
+        "PM rejects ‘far-fetched’ scepticism about Morgan McSweeney phone theft",
+        "Labour failing to live up to ambition to overhaul public services, analysis find",
+        "Trump describes UK aircraft carriers as ‘toys’ in latest anti-Nato jibe"
+      ]
+    },
+    {
+      "name": "Politics",
+      "url": "http://feeds.bbci.co.uk/news/politics/rss.xml",
+      "publisher": "BBC Politics",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 57,
+      "freshArticles": 16,
+      "categories": {
+        "World": 2,
+        "US": 2,
+        "Stocks": 1,
+        "Finance": 0,
+        "Politics": 0,
+        "Technology": 3,
+        "Science": 0
+      },
+      "junkArticles": 0,
+      "sampleTitles": [
+        "Farage says local elections are referendum on Starmer, as he launches campaign",
+        "Far-fetched to think McSweeney faked phone theft, says PM",
+        "Speaker urged to stop Keir Starmer avoiding MPs' questions",
+        "King's Speech to take place days after key May elections",
+        "More than 13 million living in poverty, new figures show"
+      ]
+    },
+    {
+      "name": "Politics",
+      "url": "https://www.politico.com/rss/politicopicks.xml",
+      "publisher": "Politico",
+      "tier": 1,
+      "accessible": false,
+      "statusCode": 403,
+      "error": "HTTP 403",
+      "totalArticles": 0,
+      "freshArticles": 0,
+      "categories": {
+        "World": 0,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 0,
+        "Technology": 0,
+        "Science": 0
+      },
+      "junkArticles": 0,
+      "sampleTitles": []
+    },
+    {
+      "name": "Politics",
+      "url": "https://thehill.com/opinion/feed/",
+      "publisher": "The Hill Opinion",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 15,
+      "freshArticles": 14,
+      "categories": {
+        "World": 5,
+        "US": 3,
+        "Stocks": 0,
+        "Finance": 1,
+        "Politics": 1,
+        "Technology": 0,
+        "Science": 0
+      },
+      "junkArticles": 0,
+      "sampleTitles": [
+        "AI could finally make congressional hearings work better",
+        "The essential ingredients for a winning Democratic midterm message",
+        "Self-inflicted eclipse: How solar energy lost Republican support",
+        "Philly DA threatens to arrest ICE agents if they break the law ",
+        "Save us, Elon Musk! X could deboost foreign slop accounts ruining public discour"
+      ]
+    },
+    {
+      "name": "Technology",
+      "url": "https://techcrunch.com/feed/",
+      "publisher": "TechCrunch",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 20,
+      "freshArticles": 20,
+      "categories": {
+        "World": 1,
+        "US": 1,
+        "Stocks": 1,
+        "Finance": 0,
+        "Politics": 0,
+        "Technology": 13,
+        "Science": 0
+      },
+      "junkArticles": 1,
+      "sampleTitles": [
+        "16 of the most interesting startups from YC W’26 Demo Day",
+        "Google Translate’s real-time headphone translations feature expands to iOS and m",
+        "OpenAI abandons yet another side quest: ChatGPT’s erotic mode",
+        "Data centers get ready — the Senate wants to see your power bills",
+        "Defense startup Shield AI lands $12.7B valuation, up 140%, after US Air Force de"
+      ]
+    },
+    {
+      "name": "Technology",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "publisher": "The Verge",
+      "tier": 2,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 10,
+      "freshArticles": 10,
+      "categories": {
+        "World": 0,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 1,
+        "Technology": 4,
+        "Science": 0
+      },
+      "junkArticles": 1,
+      "sampleTitles": [
+        "Streaming keeps getting more expensive: all the latest price hikes",
+        "Netflix is raising prices again",
+        "Google&#8217;s &#8216;live&#8217; AI search assistant can handle conversations i",
+        "Fitbit’s budget-friendly Inspire 3 is $30 off, matching its best price",
+        "Xbox’s latest games showcase had Hades 2, The Expanse, and Bluey"
+      ]
+    },
+    {
+      "name": "Technology",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "publisher": "Ars Technica",
+      "tier": 2,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 20,
+      "freshArticles": 9,
+      "categories": {
+        "World": 0,
+        "US": 1,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 1,
+        "Technology": 6,
+        "Science": 3
+      },
+      "junkArticles": 1,
+      "sampleTitles": [
+        "You've got $20,000 to spend on an EV: Here are some options",
+        "Study: Sycophantic AI can undermine human judgment",
+        "The debut of Gemini 3.1 Flash Live could make it harder to know if you're talkin",
+        "Intel Core Ultra 270K and 250K Plus review: Conditionally great CPUs",
+        "OpenAI “indefinitely” shelves plans for erotic ChatGPT"
+      ]
+    },
+    {
+      "name": "Technology",
+      "url": "https://www.technologyreview.com/feed/",
+      "publisher": "MIT Tech Review",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 10,
+      "freshArticles": 3,
+      "categories": {
+        "World": 1,
+        "US": 0,
+        "Stocks": 2,
+        "Finance": 0,
+        "Politics": 0,
+        "Technology": 4,
+        "Science": 1
+      },
+      "junkArticles": 0,
+      "sampleTitles": [
+        "The Download: a battery pivot to AI, and rewriting math",
+        "The snow gods: How a couple of ski bums built the internet’s best weather app",
+        "Are high gas prices good news for EVs? It’s complicated.",
+        "Roundtables: The Next Era of Space Exploration",
+        "Why this battery company is pivoting to AI"
+      ]
+    },
+    {
+      "name": "Technology",
+      "url": "https://www.wired.com/feed/rss",
+      "publisher": "Wired",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 50,
+      "freshArticles": 20,
+      "categories": {
+        "World": 1,
+        "US": 0,
+        "Stocks": 1,
+        "Finance": 0,
+        "Politics": 2,
+        "Technology": 7,
+        "Science": 0
+      },
+      "junkArticles": 8,
+      "sampleTitles": [
+        "You Can Skip a Lot of Amazon’s Spring Sale, but Don’t Skip This Travel Upgrade",
+        "These 35 Amazon Spring Sale Tech Deals Are Actually Good. We Checked the Price H",
+        "Meet the Tech Reporters Using AI to Help Write and Edit Their Stories",
+        "Which E-Readers I'd Recommend Buying in Amazon's Spring Sale",
+        "This Premium Gaming Headset Is $80 Off on Amazon"
+      ]
+    },
+    {
+      "name": "Technology",
+      "url": "https://feeds.bloomberg.com/technology/news.rss",
+      "publisher": "Bloomberg Tech",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 30,
+      "freshArticles": 20,
+      "categories": {
+        "World": 2,
+        "US": 1,
+        "Stocks": 2,
+        "Finance": 0,
+        "Politics": 1,
+        "Technology": 12,
+        "Science": 0
+      },
+      "junkArticles": 1,
+      "sampleTitles": [
+        "Google Gemini Adds Tool to Make It Easier to Switch From ChatGPT",
+        "Chip Selloff Deepens After Google Touts Memory Breakthrough",
+        "Chip Security Bill Advances in House After Super Micro Case",
+        "Nvidia Sees First Bout of Retail-Investor Selling Since July",
+        "OpenClaw Creator Says US Can Learn From China’s AI Adoption"
+      ]
+    },
+    {
+      "name": "Science",
+      "url": "https://www.wired.com/feed/category/science/latest/rss",
+      "publisher": "Wired Science",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 20,
+      "freshArticles": 1,
+      "categories": {
+        "World": 2,
+        "US": 1,
+        "Stocks": 1,
+        "Finance": 0,
+        "Politics": 1,
+        "Technology": 7,
+        "Science": 1
+      },
+      "junkArticles": 1,
+      "sampleTitles": [
+        "Senators Demand to Know How Much Energy Data Centers Use",
+        "The Trip to the Far Side of the Moon",
+        "A Billionaire-Backed Startup Wants to Grow 'Organ Sacks' to Replace Animal Testi",
+        "Iran War Puts Global Energy Markets on the Brink of a Worst-Case Scenario",
+        "China Approves the First Brain Chips for Sale—and Has a Plan to Dominate the Ind"
+      ]
+    },
+    {
+      "name": "Science",
+      "url": "https://www.sciencedaily.com/rss/all.xml",
+      "publisher": "Science Daily",
+      "tier": 2,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 60,
+      "freshArticles": 10,
+      "categories": {
+        "World": 0,
+        "US": 1,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 1,
+        "Technology": 3,
+        "Science": 7
+      },
+      "junkArticles": 0,
+      "sampleTitles": [
+        "This cow uses tools like a primate—and scientists are stunned",
+        "Vivid dreams may be the secret to deeper, more restful sleep",
+        "Scientists found a bug that generates its own heat in freezing cold",
+        "Deepfake X-rays are so real even doctors can’t tell the difference",
+        "Metformin’s hidden brain pathway revealed after 60 years"
+      ]
+    },
+    {
+      "name": "Science",
+      "url": "https://www.nature.com/nature.rss",
+      "publisher": "Nature",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 75,
+      "freshArticles": 3,
+      "categories": {
+        "World": 3,
+        "US": 1,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 1,
+        "Technology": 3,
+        "Science": 2
+      },
+      "junkArticles": 0,
+      "sampleTitles": [
+        "History of ‘forever’ chemicals is written in Antarctic snow",
+        "Trump’s new science advisers include 12 technology chiefs — and one academic",
+        "Why labs need a napping room to help you work, rest and play",
+        "Retraction Note: Multisensory learning binds neurons into a cross-modal memory e",
+        "Why insects aren't huge: a new challenge to a decades-old idea"
+      ]
+    },
+    {
+      "name": "Science",
+      "url": "https://phys.org/rss-feed/",
+      "publisher": "Phys.org",
+      "tier": 2,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 30,
+      "freshArticles": 20,
+      "categories": {
+        "World": 0,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 0,
+        "Technology": 5,
+        "Science": 5
+      },
+      "junkArticles": 0,
+      "sampleTitles": [
+        "Arctic sea ice at lowest level ever this winter",
+        "Justice in achieving climate goals: Researchers highlight the need for fair coun",
+        "Israel's 'Stonehenge' no longer stands alone: Satellite technology opens archaeo",
+        "Even if it goes nowhere, an SEC investigation will cost you",
+        "'Near-misses' in particle accelerators can illuminate new physics, study finds"
+      ]
+    },
+    {
+      "name": "Science",
+      "url": "https://www.theguardian.com/science/rss",
+      "publisher": "The Guardian Science",
+      "tier": 1,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 28,
+      "freshArticles": 3,
+      "categories": {
+        "World": 1,
+        "US": 0,
+        "Stocks": 1,
+        "Finance": 1,
+        "Politics": 0,
+        "Technology": 4,
+        "Science": 5
+      },
+      "junkArticles": 0,
+      "sampleTitles": [
+        "Bond between dogs and humans dates back more than 15,000 years, study finds",
+        "Transporting the most expensive and volatile substance on Earth – podcast",
+        "Nasa to spend $20bn on moon base after cancelling orbiting station",
+        "More frequent ejaculations may boost men’s fertility, research suggests",
+        "Extra 11 minutes’ sleep each night can reduce heart attack risk, study finds"
+      ]
+    },
+    {
+      "name": "World",
+      "url": "https://news.google.com/rss/headlines/section/topic/WORLD",
+      "publisher": "Google World",
+      "tier": 2,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 45,
+      "freshArticles": 17,
+      "categories": {
+        "World": 6,
+        "US": 1,
+        "Stocks": 0,
+        "Finance": 1,
+        "Politics": 2,
+        "Technology": 6,
+        "Science": 0
+      },
+      "junkArticles": 0,
+      "sampleTitles": [
+        "Live Updates: Trump extends pause on striking Iranian energy plants; Witkoff flo",
+        "‘Tehran’s tollbooth’: a visual guide to how a trickle of ships still passes thro",
+        "IDF soldier killed in Hezbollah gunfight; terror group fires rockets, drones at ",
+        "Lebanese fear another occupation as Israel threatens to use Gaza tactics in the ",
+        "Sharks Are Testing Positive For Cocaine And Caffeine in The Bahamas - ScienceAle"
+      ]
+    },
+    {
+      "name": "US",
+      "url": "https://news.google.com/rss/headlines/section/topic/NATION",
+      "publisher": "Google US",
+      "tier": 2,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 45,
+      "freshArticles": 20,
+      "categories": {
+        "World": 2,
+        "US": 2,
+        "Stocks": 1,
+        "Finance": 0,
+        "Politics": 4,
+        "Technology": 6,
+        "Science": 0
+      },
+      "junkArticles": 1,
+      "sampleTitles": [
+        "Trump reveals Iran’s ‘present’: 10 oil tankers through the Strait of Hormuz - Po",
+        "DHS shutdown live updates as Senate holds test vote on funding bill - CBS News",
+        "US prosecutors argue Maduro 'plundered' Venezuelan wealth in court battle over l",
+        "Brother and sister are charged after an explosive device was found outside a Flo",
+        "Middle East crisis live: Trump claims Iran ‘begging to make a deal’ and has let "
+      ]
+    },
+    {
+      "name": "Stocks",
+      "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS",
+      "publisher": "Google Business",
+      "tier": 2,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 43,
+      "freshArticles": 19,
+      "categories": {
+        "World": 4,
+        "US": 0,
+        "Stocks": 3,
+        "Finance": 1,
+        "Politics": 0,
+        "Technology": 9,
+        "Science": 0
+      },
+      "junkArticles": 2,
+      "sampleTitles": [
+        "Verdicts against Meta, YouTube validate concerns long raised by parents, child s",
+        "Dow slides more than 450 points, pressured by rising oil prices and doubts over ",
+        "War in Iran Will Push U.S. Inflation Above 4 Percent, O.E.C.D. Forecast Says - T",
+        "United Airlines, flight attendants reach labor deal for first raises since pande",
+        "Court Dismisses X Lawsuit Alleging Brands Illegally Boycotted the Platform - WSJ"
+      ]
+    },
+    {
+      "name": "Politics",
+      "url": "https://news.google.com/rss/headlines/section/topic/POLITICS",
+      "publisher": "Google Politics",
+      "tier": 2,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 67,
+      "freshArticles": 19,
+      "categories": {
+        "World": 1,
+        "US": 9,
+        "Stocks": 3,
+        "Finance": 0,
+        "Politics": 3,
+        "Technology": 1,
+        "Science": 0
+      },
+      "junkArticles": 1,
+      "sampleTitles": [
+        "U.S. judge questions block on Maduro's use of Venezuelan funds for defense - Reu",
+        "Senators are discussing ‘last and final’ offer to end funding shutdown as pressu",
+        "DHS shutdown live updates as Senate Democrats weigh GOP's \"last and final\" offer",
+        "European Parliament gives conditional approval to EU-US trade deal - BBC",
+        "Trump expected to announce action to solve TSA problems amid DHS shutdown - The "
+      ]
+    },
+    {
+      "name": "Technology",
+      "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY",
+      "publisher": "Google Tech",
+      "tier": 2,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 63,
+      "freshArticles": 17,
+      "categories": {
+        "World": 1,
+        "US": 1,
+        "Stocks": 1,
+        "Finance": 0,
+        "Politics": 0,
+        "Technology": 10,
+        "Science": 0
+      },
+      "junkArticles": 2,
+      "sampleTitles": [
+        "A major hacking tool has leaked online, putting millions of iPhones at risk. Her",
+        "AMD Unleashes Ryzen 9 9950X3D2 Dual Edition, The World’s First CPU With Dual 3D ",
+        "The versatile Play speaker is a great way into the Sonos world - The Verge",
+        "Intel Core Ultra 270K and 250K Plus review: Conditionally great CPUs - Ars Techn",
+        "WhatsApp can now draft AI-generated responses based on your conversations - Tech"
+      ]
+    },
+    {
+      "name": "Science",
+      "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE",
+      "publisher": "Google Science",
+      "tier": 2,
+      "accessible": true,
+      "statusCode": 200,
+      "error": null,
+      "totalArticles": 58,
+      "freshArticles": 11,
+      "categories": {
+        "World": 0,
+        "US": 0,
+        "Stocks": 0,
+        "Finance": 0,
+        "Politics": 0,
+        "Technology": 2,
+        "Science": 11
+      },
+      "junkArticles": 1,
+      "sampleTitles": [
+        "Sperm get lost in space, Australian research into microgravity impacts suggests ",
+        "NASA’s ambitious plans for a Moon base mark a rethinking of its future - The Eco",
+        "Scientists Filmed a Whale Birth. The Surprise: Mom Had Many Helpers. - The New Y",
+        "In Photos: NASA Drops Stunning New Saturn Images From Webb And Hubble - Forbes",
+        "Astronauts enter quarantine ahead of their trip to the Moon - WRAL"
+      ]
+    }
+  ],
+  "byIntendedCategory": {
+    "World": [
+      {
+        "name": "World",
+        "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+        "publisher": "BBC World",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 25,
+        "freshArticles": 20,
+        "categories": {
+          "World": 9,
+          "US": 1,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 1,
+          "Technology": 3,
+          "Science": 0
+        },
+        "junkArticles": 1,
+        "sampleTitles": [
+          "Zelensky visits Saudi Arabia after offering Ukraine's drone expertise",
+          "Rationing power and diluting petrol - how African countries are coping with effe",
+          "US prosecutors argue Maduro 'plundered' Venezuelan wealth in court battle over l",
+          "Orban's Hungarian government accused of mass voter intimidation ahead of electio",
+          "Olympic women's sport limited to biological females"
+        ]
+      },
+      {
+        "name": "World",
+        "url": "https://www.theguardian.com/world/rss",
+        "publisher": "The Guardian",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 45,
+        "freshArticles": 12,
+        "categories": {
+          "World": 5,
+          "US": 2,
+          "Stocks": 1,
+          "Finance": 1,
+          "Politics": 0,
+          "Technology": 4,
+          "Science": 1
+        },
+        "junkArticles": 1,
+        "sampleTitles": [
+          "Nigeria takes its place on world stage in quest to become regional superpower",
+          "Two drone strikes on civilian targets kill 28 people in Sudan",
+          "Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding",
+          "UN votes to describe slave trade as ‘gravest crime against humanity’",
+          "Lebo M sues comedian Learnmore Jonasi claiming Circle of Life misrepresentation"
+        ]
+      },
+      {
+        "name": "World",
+        "url": "https://www.aljazeera.com/xml/rss/all.xml",
+        "publisher": "Al Jazeera",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 25,
+        "freshArticles": 20,
+        "categories": {
+          "World": 3,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 3,
+          "Technology": 4,
+          "Science": 0
+        },
+        "junkArticles": 3,
+        "sampleTitles": [
+          "Israel sends more troops into southern Lebanon as ground invasion expands",
+          "Dutch court bans xAI’s Grok from generating nonconsensual nude images",
+          "US judge weighs Trump decision to bar Venezuelan funds for Maduro’s defence",
+          "Key takeaways from Trump’s war on Iran meeting",
+          "Trump says Iran ‘begging’ for deal to end war as Tehran issues new demands"
+        ]
+      },
+      {
+        "name": "World",
+        "url": "https://www.reutersagency.com/feed/",
+        "publisher": "Reuters Agency",
+        "tier": 2,
+        "accessible": false,
+        "statusCode": 404,
+        "error": "HTTP 404",
+        "totalArticles": 0,
+        "freshArticles": 0,
+        "categories": {
+          "World": 0,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 0,
+          "Technology": 0,
+          "Science": 0
+        },
+        "junkArticles": 0,
+        "sampleTitles": []
+      },
+      {
+        "name": "World",
+        "url": "https://www.cnn.com/world/rss",
+        "publisher": "CNN",
+        "tier": 1,
+        "accessible": false,
+        "statusCode": 404,
+        "error": "HTTP 404",
+        "totalArticles": 0,
+        "freshArticles": 0,
+        "categories": {
+          "World": 0,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 0,
+          "Technology": 0,
+          "Science": 0
+        },
+        "junkArticles": 0,
+        "sampleTitles": []
+      },
+      {
+        "name": "World",
+        "url": "https://www.france24.com/en/rss",
+        "publisher": "France 24",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 24,
+        "freshArticles": 20,
+        "categories": {
+          "World": 5,
+          "US": 0,
+          "Stocks": 1,
+          "Finance": 0,
+          "Politics": 3,
+          "Technology": 4,
+          "Science": 0
+        },
+        "junkArticles": 2,
+        "sampleTitles": [
+          "Israeli strike kills Iran's navy commander Alireza Tangsiri",
+          "Trump insists Iran is ‘begging to make a deal’ after Tehran dismisses ceasefire ",
+          "Winding down or spinning out of control? Trump's mixed signals on Iran rattle tr",
+          "As 'war of choice' escalates into international crisis, Miller says Trump has 'n",
+          "Moscow and St Petersburg internet blackouts raise fears of Kremlin surveillance"
+        ]
+      },
+      {
+        "name": "World",
+        "url": "https://www.dw.com/en/world/rss",
+        "publisher": "Deutsche Welle",
+        "tier": 1,
+        "accessible": false,
+        "statusCode": 404,
+        "error": "HTTP 404",
+        "totalArticles": 0,
+        "freshArticles": 0,
+        "categories": {
+          "World": 0,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 0,
+          "Technology": 0,
+          "Science": 0
+        },
+        "junkArticles": 0,
+        "sampleTitles": []
+      },
+      {
+        "name": "World",
+        "url": "https://www.scmp.com/rss/world.xml",
+        "publisher": "SCMP",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 50,
+        "freshArticles": 20,
+        "categories": {
+          "World": 14,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 1,
+          "Politics": 1,
+          "Technology": 1,
+          "Science": 1
+        },
+        "junkArticles": 0,
+        "sampleTitles": [
+          "Siblings who fled to China charged over bomb planted outside US Air Force base",
+          "Venezuela’s Maduro back in court after shock capture by US forces",
+          "China threatens Mexico with trade reprisals over 50% import duties",
+          "Sex in space? Sperm struggles to navigate without gravity, scientists find",
+          "Olympic women’s sport to be limited to biological females"
+        ]
+      },
+      {
+        "name": "World",
+        "url": "https://news.google.com/rss/headlines/section/topic/WORLD",
+        "publisher": "Google World",
+        "tier": 2,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 45,
+        "freshArticles": 17,
+        "categories": {
+          "World": 6,
+          "US": 1,
+          "Stocks": 0,
+          "Finance": 1,
+          "Politics": 2,
+          "Technology": 6,
+          "Science": 0
+        },
+        "junkArticles": 0,
+        "sampleTitles": [
+          "Live Updates: Trump extends pause on striking Iranian energy plants; Witkoff flo",
+          "‘Tehran’s tollbooth’: a visual guide to how a trickle of ships still passes thro",
+          "IDF soldier killed in Hezbollah gunfight; terror group fires rockets, drones at ",
+          "Lebanese fear another occupation as Israel threatens to use Gaza tactics in the ",
+          "Sharks Are Testing Positive For Cocaine And Caffeine in The Bahamas - ScienceAle"
+        ]
+      }
+    ],
+    "US": [
+      {
+        "name": "US",
+        "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+        "publisher": "BBC US",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 21,
+        "freshArticles": 13,
+        "categories": {
+          "World": 2,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 4,
+          "Technology": 7,
+          "Science": 0
+        },
+        "junkArticles": 1,
+        "sampleTitles": [
+          "US prosecutors argue Maduro 'plundered' Venezuelan wealth in court battle over l",
+          "'Mom's missing' - Savannah Guthrie recounts devastating aftermath of kidnapping",
+          "Air Canada CEO 'deeply saddened' his English-only message distracted from victim",
+          "Russia bans Oscar-winning film 'Mr Nobody Against Putin'",
+          "Campaigners welcome Meta and YouTube's defeat in landmark social media addiction"
+        ]
+      },
+      {
+        "name": "US",
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/Americas.xml",
+        "publisher": "NY Times Americas",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 25,
+        "freshArticles": 7,
+        "categories": {
+          "World": 2,
+          "US": 2,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 2,
+          "Technology": 3,
+          "Science": 0
+        },
+        "junkArticles": 1,
+        "sampleTitles": [
+          "Air Canada C.E.O. Apologizes for English-Language Condolences After Plane Crash",
+          "Under Carney, Canada Finally Hits NATO’s 2% Spending Target",
+          "‘Public Charge’ Review: The World Is Messy. Being a Force for Good Is, Too.",
+          "U.S. Military Kills 4 People in Boat Strike in Caribbean",
+          "Cuban Patients Are Dying Because of U.S. Blockade, Doctors Say"
+        ]
+      },
+      {
+        "name": "US",
+        "url": "https://feeds.washingtonpost.com/rss/national",
+        "publisher": "Washington Post",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 4,
+        "freshArticles": 1,
+        "categories": {
+          "World": 0,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 1,
+          "Politics": 1,
+          "Technology": 0,
+          "Science": 0
+        },
+        "junkArticles": 0,
+        "sampleTitles": [
+          "After a decade as a Yale hospital janitor, she is now a doctor there",
+          "Bondi’s post-Oct. 7 terrorism task force falters after initial fanfare",
+          "Audio from cockpit recorder reveals error before deadly LaGuardia crash",
+          "Minnesota sues Trump administration over withheld evidence in shootings"
+        ]
+      },
+      {
+        "name": "US",
+        "url": "https://www.cnn.com/nation/rss",
+        "publisher": "CNN Nation",
+        "tier": 1,
+        "accessible": false,
+        "statusCode": 404,
+        "error": "HTTP 404",
+        "totalArticles": 0,
+        "freshArticles": 0,
+        "categories": {
+          "World": 0,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 0,
+          "Technology": 0,
+          "Science": 0
+        },
+        "junkArticles": 0,
+        "sampleTitles": []
+      },
+      {
+        "name": "US",
+        "url": "https://www.nbcnews.com/rss",
+        "publisher": "NBC News",
+        "tier": 2,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 25,
+        "freshArticles": 19,
+        "categories": {
+          "World": 0,
+          "US": 4,
+          "Stocks": 2,
+          "Finance": 0,
+          "Politics": 2,
+          "Technology": 6,
+          "Science": 1
+        },
+        "junkArticles": 1,
+        "sampleTitles": [
+          "Nasdaq moves into correction territory as Iran war weighs on markets",
+          "Iran's 'Tehran toll' booth forces some tankers to pay millions to leave Strait o",
+          "Airport Wait Times Are Now the Longest in TSA History",
+          "Part I: Savannah Guthrie on Moment She Learned Her Mom Was Missing",
+          "Judge says he won’t dismiss Nicolás Maduro’s case over legal fees dispute"
+        ]
+      },
+      {
+        "name": "US",
+        "url": "https://www.abcnews.com/rss",
+        "publisher": "ABC News",
+        "tier": 2,
+        "accessible": false,
+        "statusCode": 404,
+        "error": "HTTP 404",
+        "totalArticles": 0,
+        "freshArticles": 0,
+        "categories": {
+          "World": 0,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 0,
+          "Technology": 0,
+          "Science": 0
+        },
+        "junkArticles": 0,
+        "sampleTitles": []
+      },
+      {
+        "name": "US",
+        "url": "https://news.google.com/rss/headlines/section/topic/NATION",
+        "publisher": "Google US",
+        "tier": 2,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 45,
+        "freshArticles": 20,
+        "categories": {
+          "World": 2,
+          "US": 2,
+          "Stocks": 1,
+          "Finance": 0,
+          "Politics": 4,
+          "Technology": 6,
+          "Science": 0
+        },
+        "junkArticles": 1,
+        "sampleTitles": [
+          "Trump reveals Iran’s ‘present’: 10 oil tankers through the Strait of Hormuz - Po",
+          "DHS shutdown live updates as Senate holds test vote on funding bill - CBS News",
+          "US prosecutors argue Maduro 'plundered' Venezuelan wealth in court battle over l",
+          "Brother and sister are charged after an explosive device was found outside a Flo",
+          "Middle East crisis live: Trump claims Iran ‘begging to make a deal’ and has let "
+        ]
+      }
+    ],
+    "Stocks": [
+      {
+        "name": "Stocks",
+        "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
+        "publisher": "CNBC Markets",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 30,
+        "freshArticles": 0,
+        "categories": {
+          "World": 4,
+          "US": 2,
+          "Stocks": 4,
+          "Finance": 1,
+          "Politics": 0,
+          "Technology": 1,
+          "Science": 0
+        },
+        "junkArticles": 0,
+        "sampleTitles": [
+          "The research firm whose AI paper knocked the whole stock market is out with anot",
+          "Former SEC Chair Jay Clayton says regulators would scrutinize trading ahead of T",
+          "World has 'never experienced' soaring refining margins like this, TotalEnergies ",
+          "Jamie Dimon says Iran war makes Middle East peace prospects better in the long t",
+          "Moody's cuts rating on private credit fund run by KKR and Future Standard to jun"
+        ]
+      },
+      {
+        "name": "Stocks",
+        "url": "https://finance.yahoo.com/news/rssindex",
+        "publisher": "Yahoo Finance",
+        "tier": 2,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 50,
+        "freshArticles": 3,
+        "categories": {
+          "World": 2,
+          "US": 1,
+          "Stocks": 5,
+          "Finance": 0,
+          "Politics": 1,
+          "Technology": 6,
+          "Science": 1
+        },
+        "junkArticles": 2,
+        "sampleTitles": [
+          "Coinbase Tumbles As Clarity Act Hits Snag In Senate; Is Coinbase Stock A Sell No",
+          "Microsoft Stock: How To Find & Own America's Greatest Opportunities",
+          "UFP Packaging introduces new nail-free crate systems",
+          "CNBC anchor shocked by US trade deficit drop from $136B to $29B — the lowest sin",
+          "Lam Research Corporation (LRCX) is Positioned to Benefit from Growing Chip Compl"
+        ]
+      },
+      {
+        "name": "Stocks",
+        "url": "http://feeds.marketwatch.com/marketwatch/topstories/",
+        "publisher": "MarketWatch",
+        "tier": 2,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 10,
+        "freshArticles": 10,
+        "categories": {
+          "World": 1,
+          "US": 0,
+          "Stocks": 6,
+          "Finance": 0,
+          "Politics": 1,
+          "Technology": 2,
+          "Science": 0
+        },
+        "junkArticles": 0,
+        "sampleTitles": [
+          "Your stock portfolio soared on cheap market risk — but that moneymaker is done",
+          "Big Tech’s AI fantasy hits a nuclear wall: No fuel, no welders — and no Plan B",
+          "Brown-Forman’s stock is soaring. Has it finally gotten cheap enough to attract a",
+          "These 10 top-rated stocks are crushing the S&P 500 — yet the media and Wall Stre",
+          "Here’s the big risk facing markets — besides inflation — as the Iran conflict dr"
+        ]
+      },
+      {
+        "name": "Stocks",
+        "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS",
+        "publisher": "Google Business",
+        "tier": 2,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 43,
+        "freshArticles": 19,
+        "categories": {
+          "World": 4,
+          "US": 0,
+          "Stocks": 3,
+          "Finance": 1,
+          "Politics": 0,
+          "Technology": 9,
+          "Science": 0
+        },
+        "junkArticles": 2,
+        "sampleTitles": [
+          "Verdicts against Meta, YouTube validate concerns long raised by parents, child s",
+          "Dow slides more than 450 points, pressured by rising oil prices and doubts over ",
+          "War in Iran Will Push U.S. Inflation Above 4 Percent, O.E.C.D. Forecast Says - T",
+          "United Airlines, flight attendants reach labor deal for first raises since pande",
+          "Court Dismisses X Lawsuit Alleging Brands Illegally Boycotted the Platform - WSJ"
+        ]
+      }
+    ],
+    "Finance": [
+      {
+        "name": "Finance",
+        "url": "https://www.cnbc.com/id/10001147/device/rss/rss.html",
+        "publisher": "CNBC Economy",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 30,
+        "freshArticles": 7,
+        "categories": {
+          "World": 2,
+          "US": 2,
+          "Stocks": 3,
+          "Finance": 1,
+          "Politics": 2,
+          "Technology": 3,
+          "Science": 1
+        },
+        "junkArticles": 2,
+        "sampleTitles": [
+          "United Airlines, flight attendants reach labor deal for first raises since pande",
+          "MLB faces a historic shift as potential lockout, media rights and other league c",
+          "Major outgoing CEOs are citing AI as a factor in their decisions to step down",
+          "Tom Brady says he's asked NFL about potential comeback: 'They don't like that id",
+          "Fannie Mae accepts first crypto-backed mortgage product"
+        ]
+      },
+      {
+        "name": "Finance",
+        "url": "https://www.ft.com/?format=rss",
+        "publisher": "Financial Times",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 11,
+        "freshArticles": 11,
+        "categories": {
+          "World": 2,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 3,
+          "Technology": 1,
+          "Science": 0
+        },
+        "junkArticles": 0,
+        "sampleTitles": [
+          "Trump extends pause on attacking Iran’s energy plants until April 6",
+          "Donald Trump’s policy swings are creating instability, energy chiefs say ",
+          "Stagflation is back",
+          "Iran’s hardline new leaders take control",
+          "The case for keeping Keir Starmer a little longer"
+        ]
+      },
+      {
+        "name": "Finance",
+        "url": "https://feeds.bloomberg.com/markets/news.rss",
+        "publisher": "Bloomberg Markets",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 30,
+        "freshArticles": 19,
+        "categories": {
+          "World": 2,
+          "US": 0,
+          "Stocks": 7,
+          "Finance": 1,
+          "Politics": 0,
+          "Technology": 5,
+          "Science": 1
+        },
+        "junkArticles": 2,
+        "sampleTitles": [
+          "Chip Selloff Deepens After Google Touts Memory Breakthrough",
+          "AI is Driving a Real-Time Recalibration Says Bernstein",
+          "Hertz, Avis Soar as Rental Demand Surges on Airport Chaos",
+          "World Is Losing 10 Million Barrels of Oil a Day, Morse Says",
+          "Selloff in Stocks Gains Speed on Ceasefire Doubts: Markets Wrap"
+        ]
+      },
+      {
+        "name": "Finance",
+        "url": "https://feeds.reuters.com/reuters/businessNews",
+        "publisher": "Reuters Business",
+        "tier": 1,
+        "accessible": false,
+        "statusCode": null,
+        "error": "fetch failed",
+        "totalArticles": 0,
+        "freshArticles": 0,
+        "categories": {
+          "World": 0,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 0,
+          "Technology": 0,
+          "Science": 0
+        },
+        "junkArticles": 0,
+        "sampleTitles": []
+      }
+    ],
+    "Politics": [
+      {
+        "name": "Politics",
+        "url": "https://www.theguardian.com/politics/rss",
+        "publisher": "The Guardian",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 21,
+        "freshArticles": 13,
+        "categories": {
+          "World": 2,
+          "US": 0,
+          "Stocks": 1,
+          "Finance": 0,
+          "Politics": 2,
+          "Technology": 3,
+          "Science": 2
+        },
+        "junkArticles": 0,
+        "sampleTitles": [
+          "NHS bosses say resident doctors’ strike will cause ‘maximum harm’",
+          "Rachel Reeves urged to raise taxes on companies profiting from war on Iran",
+          "PM rejects ‘far-fetched’ scepticism about Morgan McSweeney phone theft",
+          "Labour failing to live up to ambition to overhaul public services, analysis find",
+          "Trump describes UK aircraft carriers as ‘toys’ in latest anti-Nato jibe"
+        ]
+      },
+      {
+        "name": "Politics",
+        "url": "http://feeds.bbci.co.uk/news/politics/rss.xml",
+        "publisher": "BBC Politics",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 57,
+        "freshArticles": 16,
+        "categories": {
+          "World": 2,
+          "US": 2,
+          "Stocks": 1,
+          "Finance": 0,
+          "Politics": 0,
+          "Technology": 3,
+          "Science": 0
+        },
+        "junkArticles": 0,
+        "sampleTitles": [
+          "Farage says local elections are referendum on Starmer, as he launches campaign",
+          "Far-fetched to think McSweeney faked phone theft, says PM",
+          "Speaker urged to stop Keir Starmer avoiding MPs' questions",
+          "King's Speech to take place days after key May elections",
+          "More than 13 million living in poverty, new figures show"
+        ]
+      },
+      {
+        "name": "Politics",
+        "url": "https://www.politico.com/rss/politicopicks.xml",
+        "publisher": "Politico",
+        "tier": 1,
+        "accessible": false,
+        "statusCode": 403,
+        "error": "HTTP 403",
+        "totalArticles": 0,
+        "freshArticles": 0,
+        "categories": {
+          "World": 0,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 0,
+          "Technology": 0,
+          "Science": 0
+        },
+        "junkArticles": 0,
+        "sampleTitles": []
+      },
+      {
+        "name": "Politics",
+        "url": "https://thehill.com/opinion/feed/",
+        "publisher": "The Hill Opinion",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 15,
+        "freshArticles": 14,
+        "categories": {
+          "World": 5,
+          "US": 3,
+          "Stocks": 0,
+          "Finance": 1,
+          "Politics": 1,
+          "Technology": 0,
+          "Science": 0
+        },
+        "junkArticles": 0,
+        "sampleTitles": [
+          "AI could finally make congressional hearings work better",
+          "The essential ingredients for a winning Democratic midterm message",
+          "Self-inflicted eclipse: How solar energy lost Republican support",
+          "Philly DA threatens to arrest ICE agents if they break the law ",
+          "Save us, Elon Musk! X could deboost foreign slop accounts ruining public discour"
+        ]
+      },
+      {
+        "name": "Politics",
+        "url": "https://news.google.com/rss/headlines/section/topic/POLITICS",
+        "publisher": "Google Politics",
+        "tier": 2,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 67,
+        "freshArticles": 19,
+        "categories": {
+          "World": 1,
+          "US": 9,
+          "Stocks": 3,
+          "Finance": 0,
+          "Politics": 3,
+          "Technology": 1,
+          "Science": 0
+        },
+        "junkArticles": 1,
+        "sampleTitles": [
+          "U.S. judge questions block on Maduro's use of Venezuelan funds for defense - Reu",
+          "Senators are discussing ‘last and final’ offer to end funding shutdown as pressu",
+          "DHS shutdown live updates as Senate Democrats weigh GOP's \"last and final\" offer",
+          "European Parliament gives conditional approval to EU-US trade deal - BBC",
+          "Trump expected to announce action to solve TSA problems amid DHS shutdown - The "
+        ]
+      }
+    ],
+    "Technology": [
+      {
+        "name": "Technology",
+        "url": "https://techcrunch.com/feed/",
+        "publisher": "TechCrunch",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 20,
+        "freshArticles": 20,
+        "categories": {
+          "World": 1,
+          "US": 1,
+          "Stocks": 1,
+          "Finance": 0,
+          "Politics": 0,
+          "Technology": 13,
+          "Science": 0
+        },
+        "junkArticles": 1,
+        "sampleTitles": [
+          "16 of the most interesting startups from YC W’26 Demo Day",
+          "Google Translate’s real-time headphone translations feature expands to iOS and m",
+          "OpenAI abandons yet another side quest: ChatGPT’s erotic mode",
+          "Data centers get ready — the Senate wants to see your power bills",
+          "Defense startup Shield AI lands $12.7B valuation, up 140%, after US Air Force de"
+        ]
+      },
+      {
+        "name": "Technology",
+        "url": "https://www.theverge.com/rss/index.xml",
+        "publisher": "The Verge",
+        "tier": 2,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 10,
+        "freshArticles": 10,
+        "categories": {
+          "World": 0,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 1,
+          "Technology": 4,
+          "Science": 0
+        },
+        "junkArticles": 1,
+        "sampleTitles": [
+          "Streaming keeps getting more expensive: all the latest price hikes",
+          "Netflix is raising prices again",
+          "Google&#8217;s &#8216;live&#8217; AI search assistant can handle conversations i",
+          "Fitbit’s budget-friendly Inspire 3 is $30 off, matching its best price",
+          "Xbox’s latest games showcase had Hades 2, The Expanse, and Bluey"
+        ]
+      },
+      {
+        "name": "Technology",
+        "url": "https://feeds.arstechnica.com/arstechnica/index",
+        "publisher": "Ars Technica",
+        "tier": 2,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 20,
+        "freshArticles": 9,
+        "categories": {
+          "World": 0,
+          "US": 1,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 1,
+          "Technology": 6,
+          "Science": 3
+        },
+        "junkArticles": 1,
+        "sampleTitles": [
+          "You've got $20,000 to spend on an EV: Here are some options",
+          "Study: Sycophantic AI can undermine human judgment",
+          "The debut of Gemini 3.1 Flash Live could make it harder to know if you're talkin",
+          "Intel Core Ultra 270K and 250K Plus review: Conditionally great CPUs",
+          "OpenAI “indefinitely” shelves plans for erotic ChatGPT"
+        ]
+      },
+      {
+        "name": "Technology",
+        "url": "https://www.technologyreview.com/feed/",
+        "publisher": "MIT Tech Review",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 10,
+        "freshArticles": 3,
+        "categories": {
+          "World": 1,
+          "US": 0,
+          "Stocks": 2,
+          "Finance": 0,
+          "Politics": 0,
+          "Technology": 4,
+          "Science": 1
+        },
+        "junkArticles": 0,
+        "sampleTitles": [
+          "The Download: a battery pivot to AI, and rewriting math",
+          "The snow gods: How a couple of ski bums built the internet’s best weather app",
+          "Are high gas prices good news for EVs? It’s complicated.",
+          "Roundtables: The Next Era of Space Exploration",
+          "Why this battery company is pivoting to AI"
+        ]
+      },
+      {
+        "name": "Technology",
+        "url": "https://www.wired.com/feed/rss",
+        "publisher": "Wired",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 50,
+        "freshArticles": 20,
+        "categories": {
+          "World": 1,
+          "US": 0,
+          "Stocks": 1,
+          "Finance": 0,
+          "Politics": 2,
+          "Technology": 7,
+          "Science": 0
+        },
+        "junkArticles": 8,
+        "sampleTitles": [
+          "You Can Skip a Lot of Amazon’s Spring Sale, but Don’t Skip This Travel Upgrade",
+          "These 35 Amazon Spring Sale Tech Deals Are Actually Good. We Checked the Price H",
+          "Meet the Tech Reporters Using AI to Help Write and Edit Their Stories",
+          "Which E-Readers I'd Recommend Buying in Amazon's Spring Sale",
+          "This Premium Gaming Headset Is $80 Off on Amazon"
+        ]
+      },
+      {
+        "name": "Technology",
+        "url": "https://feeds.bloomberg.com/technology/news.rss",
+        "publisher": "Bloomberg Tech",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 30,
+        "freshArticles": 20,
+        "categories": {
+          "World": 2,
+          "US": 1,
+          "Stocks": 2,
+          "Finance": 0,
+          "Politics": 1,
+          "Technology": 12,
+          "Science": 0
+        },
+        "junkArticles": 1,
+        "sampleTitles": [
+          "Google Gemini Adds Tool to Make It Easier to Switch From ChatGPT",
+          "Chip Selloff Deepens After Google Touts Memory Breakthrough",
+          "Chip Security Bill Advances in House After Super Micro Case",
+          "Nvidia Sees First Bout of Retail-Investor Selling Since July",
+          "OpenClaw Creator Says US Can Learn From China’s AI Adoption"
+        ]
+      },
+      {
+        "name": "Technology",
+        "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY",
+        "publisher": "Google Tech",
+        "tier": 2,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 63,
+        "freshArticles": 17,
+        "categories": {
+          "World": 1,
+          "US": 1,
+          "Stocks": 1,
+          "Finance": 0,
+          "Politics": 0,
+          "Technology": 10,
+          "Science": 0
+        },
+        "junkArticles": 2,
+        "sampleTitles": [
+          "A major hacking tool has leaked online, putting millions of iPhones at risk. Her",
+          "AMD Unleashes Ryzen 9 9950X3D2 Dual Edition, The World’s First CPU With Dual 3D ",
+          "The versatile Play speaker is a great way into the Sonos world - The Verge",
+          "Intel Core Ultra 270K and 250K Plus review: Conditionally great CPUs - Ars Techn",
+          "WhatsApp can now draft AI-generated responses based on your conversations - Tech"
+        ]
+      }
+    ],
+    "Science": [
+      {
+        "name": "Science",
+        "url": "https://www.wired.com/feed/category/science/latest/rss",
+        "publisher": "Wired Science",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 20,
+        "freshArticles": 1,
+        "categories": {
+          "World": 2,
+          "US": 1,
+          "Stocks": 1,
+          "Finance": 0,
+          "Politics": 1,
+          "Technology": 7,
+          "Science": 1
+        },
+        "junkArticles": 1,
+        "sampleTitles": [
+          "Senators Demand to Know How Much Energy Data Centers Use",
+          "The Trip to the Far Side of the Moon",
+          "A Billionaire-Backed Startup Wants to Grow 'Organ Sacks' to Replace Animal Testi",
+          "Iran War Puts Global Energy Markets on the Brink of a Worst-Case Scenario",
+          "China Approves the First Brain Chips for Sale—and Has a Plan to Dominate the Ind"
+        ]
+      },
+      {
+        "name": "Science",
+        "url": "https://www.sciencedaily.com/rss/all.xml",
+        "publisher": "Science Daily",
+        "tier": 2,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 60,
+        "freshArticles": 10,
+        "categories": {
+          "World": 0,
+          "US": 1,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 1,
+          "Technology": 3,
+          "Science": 7
+        },
+        "junkArticles": 0,
+        "sampleTitles": [
+          "This cow uses tools like a primate—and scientists are stunned",
+          "Vivid dreams may be the secret to deeper, more restful sleep",
+          "Scientists found a bug that generates its own heat in freezing cold",
+          "Deepfake X-rays are so real even doctors can’t tell the difference",
+          "Metformin’s hidden brain pathway revealed after 60 years"
+        ]
+      },
+      {
+        "name": "Science",
+        "url": "https://www.nature.com/nature.rss",
+        "publisher": "Nature",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 75,
+        "freshArticles": 3,
+        "categories": {
+          "World": 3,
+          "US": 1,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 1,
+          "Technology": 3,
+          "Science": 2
+        },
+        "junkArticles": 0,
+        "sampleTitles": [
+          "History of ‘forever’ chemicals is written in Antarctic snow",
+          "Trump’s new science advisers include 12 technology chiefs — and one academic",
+          "Why labs need a napping room to help you work, rest and play",
+          "Retraction Note: Multisensory learning binds neurons into a cross-modal memory e",
+          "Why insects aren't huge: a new challenge to a decades-old idea"
+        ]
+      },
+      {
+        "name": "Science",
+        "url": "https://phys.org/rss-feed/",
+        "publisher": "Phys.org",
+        "tier": 2,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 30,
+        "freshArticles": 20,
+        "categories": {
+          "World": 0,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 0,
+          "Technology": 5,
+          "Science": 5
+        },
+        "junkArticles": 0,
+        "sampleTitles": [
+          "Arctic sea ice at lowest level ever this winter",
+          "Justice in achieving climate goals: Researchers highlight the need for fair coun",
+          "Israel's 'Stonehenge' no longer stands alone: Satellite technology opens archaeo",
+          "Even if it goes nowhere, an SEC investigation will cost you",
+          "'Near-misses' in particle accelerators can illuminate new physics, study finds"
+        ]
+      },
+      {
+        "name": "Science",
+        "url": "https://www.theguardian.com/science/rss",
+        "publisher": "The Guardian Science",
+        "tier": 1,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 28,
+        "freshArticles": 3,
+        "categories": {
+          "World": 1,
+          "US": 0,
+          "Stocks": 1,
+          "Finance": 1,
+          "Politics": 0,
+          "Technology": 4,
+          "Science": 5
+        },
+        "junkArticles": 0,
+        "sampleTitles": [
+          "Bond between dogs and humans dates back more than 15,000 years, study finds",
+          "Transporting the most expensive and volatile substance on Earth – podcast",
+          "Nasa to spend $20bn on moon base after cancelling orbiting station",
+          "More frequent ejaculations may boost men’s fertility, research suggests",
+          "Extra 11 minutes’ sleep each night can reduce heart attack risk, study finds"
+        ]
+      },
+      {
+        "name": "Science",
+        "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE",
+        "publisher": "Google Science",
+        "tier": 2,
+        "accessible": true,
+        "statusCode": 200,
+        "error": null,
+        "totalArticles": 58,
+        "freshArticles": 11,
+        "categories": {
+          "World": 0,
+          "US": 0,
+          "Stocks": 0,
+          "Finance": 0,
+          "Politics": 0,
+          "Technology": 2,
+          "Science": 11
+        },
+        "junkArticles": 1,
+        "sampleTitles": [
+          "Sperm get lost in space, Australian research into microgravity impacts suggests ",
+          "NASA’s ambitious plans for a Moon base mark a rethinking of its future - The Eco",
+          "Scientists Filmed a Whale Birth. The Surprise: Mom Had Many Helpers. - The New Y",
+          "In Photos: NASA Drops Stunning New Saturn Images From Webb And Hubble - Forbes",
+          "Astronauts enter quarantine ahead of their trip to the Moon - WRAL"
+        ]
+      }
+    ]
+  },
+  "totalDistribution": {
+    "World": 87,
+    "US": 38,
+    "Stocks": 47,
+    "Finance": 10,
+    "Politics": 44,
+    "Technology": 158,
+    "Science": 43
+  },
+  "totalJunk": {
+    "World": 7,
+    "US": 4,
+    "Stocks": 4,
+    "Finance": 4,
+    "Politics": 1,
+    "Technology": 14,
+    "Science": 2
+  }
+}

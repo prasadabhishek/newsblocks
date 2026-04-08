@@ -1,0 +1,154 @@
+{
+  "generated": "2026-03-26T20:34:46.489Z",
+  "totals": {
+    "World": 0,
+    "US": 0,
+    "Stocks": 0,
+    "Finance": 0,
+    "Technology": 0,
+    "Science": 0,
+    "Politics": 0
+  },
+  "recommendedFeeds": [
+    {
+      "name": "World",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "publisher": "BBC World",
+      "tier": 1,
+      "reason": "Delivers World content (0 matches)"
+    },
+    {
+      "name": "World",
+      "url": "https://www.theguardian.com/world/rss",
+      "publisher": "The Guardian",
+      "tier": 1,
+      "reason": "Delivers World content (0 matches)"
+    },
+    {
+      "name": "World",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "publisher": "Al Jazeera",
+      "tier": 1,
+      "reason": "Delivers World content (0 matches)"
+    },
+    {
+      "name": "US",
+      "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+      "publisher": "BBC US",
+      "tier": 1,
+      "reason": "Delivers US content (0 matches)"
+    },
+    {
+      "name": "US",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Americas.xml",
+      "publisher": "NY Times",
+      "tier": 1,
+      "reason": "Delivers US content (0 matches)"
+    },
+    {
+      "name": "US",
+      "url": "https://feeds.washingtonpost.com/rss/national",
+      "publisher": "Washington Post",
+      "tier": 1,
+      "reason": "Delivers US content (0 matches)"
+    },
+    {
+      "name": "Stocks",
+      "url": "http://feeds.marketwatch.com/marketwatch/topstories/",
+      "publisher": "MarketWatch",
+      "tier": 2,
+      "reason": "Delivers Stocks content (0 matches)"
+    },
+    {
+      "name": "Stocks",
+      "url": "https://feeds.bloomberg.com/markets/news.rss",
+      "publisher": "Bloomberg Markets",
+      "tier": 1,
+      "reason": "Delivers Stocks content (0 matches)"
+    },
+    {
+      "name": "Stocks",
+      "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS",
+      "publisher": "Google Business",
+      "tier": 2,
+      "reason": "Delivers Stocks content (0 matches)"
+    },
+    {
+      "name": "Finance",
+      "url": "https://www.cnbc.com/id/10001147/device/rss/rss.html",
+      "publisher": "CNBC Economy",
+      "tier": 1,
+      "reason": "Delivers Finance content (0 matches)"
+    },
+    {
+      "name": "Finance",
+      "url": "https://www.ft.com/?format=rss",
+      "publisher": "Financial Times",
+      "tier": 1,
+      "reason": "Delivers Finance content (0 matches)"
+    },
+    {
+      "name": "Technology",
+      "url": "https://techcrunch.com/feed/",
+      "publisher": "TechCrunch",
+      "tier": 1,
+      "reason": "Delivers Technology content (0 matches)"
+    },
+    {
+      "name": "Technology",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "publisher": "The Verge",
+      "tier": 2,
+      "reason": "Delivers Technology content (0 matches)"
+    },
+    {
+      "name": "Technology",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "publisher": "Ars Technica",
+      "tier": 2,
+      "reason": "Delivers Technology content (0 matches)"
+    },
+    {
+      "name": "Science",
+      "url": "https://www.wired.com/feed/category/science/latest/rss",
+      "publisher": "Wired Science",
+      "tier": 1,
+      "reason": "Delivers Science content (0 matches)"
+    },
+    {
+      "name": "Science",
+      "url": "https://www.sciencedaily.com/rss/all.xml",
+      "publisher": "Science Daily",
+      "tier": 2,
+      "reason": "Delivers Science content (0 matches)"
+    },
+    {
+      "name": "Science",
+      "url": "https://www.nature.com/nature.rss",
+      "publisher": "Nature",
+      "tier": 1,
+      "reason": "Delivers Science content (0 matches)"
+    },
+    {
+      "name": "Politics",
+      "url": "https://www.theguardian.com/politics/rss",
+      "publisher": "Guardian Politics",
+      "tier": 1,
+      "reason": "Delivers Politics content (0 matches)"
+    },
+    {
+      "name": "Politics",
+      "url": "http://feeds.bbci.co.uk/news/politics/rss.xml",
+      "publisher": "BBC Politics",
+      "tier": 1,
+      "reason": "Delivers Politics content (0 matches)"
+    },
+    {
+      "name": "Politics",
+      "url": "https://thehill.com/opinion/feed/",
+      "publisher": "The Hill",
+      "tier": 1,
+      "reason": "Delivers Politics content (0 matches)"
+    }
+  ]
+}
