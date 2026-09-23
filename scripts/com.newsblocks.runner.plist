@@ -24,6 +24,8 @@
         <string>http://127.0.0.1:11434</string>
         <key>OLLAMA_MODEL</key>
         <string>gemma4:e4b</string>
+        <key>GIT_SSH_COMMAND</key>
+        <string>ssh -i /Users/abhishekprasad/.ssh/newsblocks_runner -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new</string>
     </dict>
 
     <key>RunAtLoad</key>
