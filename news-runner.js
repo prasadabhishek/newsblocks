@@ -18,7 +18,14 @@ function log(message, type = 'INFO') {
 }
 
 async function git(args) {
-    return execFile('git', args, { cwd: repoDir, env: { ...process.env, GIT_TERMINAL_PROMPT: '0' } });
+    return execFile('git', args, {
+        cwd: repoDir,
+        env: {
+            ...process.env,
+            GIT_TERMINAL_PROMPT: '0',
+            GIT_SSH_COMMAND: process.env.GIT_SSH_COMMAND || 'ssh -i /Users/abhishekprasad/.ssh/newsblocks_runner -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new'
+        }
+    });
 }
 
 async function runGatherNews() {
