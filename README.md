@@ -1,6 +1,5 @@
 # 📰 NewsBlocks
 
-[![Update News Map Data](https://github.com/prasadabhishek/newsblocks/actions/workflows/update-news.yml/badge.svg)](https://github.com/prasadabhishek/newsblocks/actions/workflows/update-news.yml)
 [![Live Site](https://img.shields.io/badge/Live-newsblocks.org-blue)](https://newsblocks.org)
 
 NewsBlocks is a simple, visual way to see global news. It gathers headlines from major publishers, groups them into related stories using AI, and displays them as a treemap.
@@ -9,14 +8,15 @@ NewsBlocks is a simple, visual way to see global news. It gathers headlines from
 
 ## How it Works
 
-The app runs on an automated pipeline that updates every 8 hours:
+The Mac Mini pipeline runs every four hours:
 
-1.  **Gather:** Scrapes massive RSS feeds from trusted elite sources (BBC, Reuters, FT) and Google Topic Aggregation for maximum data density.
+1.  **Gather:** Reads publisher RSS feeds and Google News topic feeds.
 2.  **Filter:** Removes non-news content like podcasts, editorial guides, and pricing alerts.
-3.  **Group:** Uses AI embeddings to cluster similar headlines into a single "story."
-4.  **Score:** Gemini AI analyzes each story for sentiment (positive/negative) and relevance.
-5.  **Clean:** If a story only has one source, it's dropped unless it comes from an elite publisher or has a high relevance score.
-6.  **Deploy:** Updates the dashboard and generates static search-engine-friendly pages for every story.
+3.  **Group:** Matches overlapping headline terms to group related coverage.
+4.  **Score:** Ollama runs Gemma 4 locally to classify category, sentiment, and relevance.
+5.  **Trim:** Ranks stories by freshness, independent source coverage, and trusted-publisher representation; scores at most 120 candidates and publishes at most 100, reserving room across the six sections.
+6.  **Clean:** If a story only has one source, it's dropped unless it comes from an elite publisher or has a high relevance score.
+7.  **Deploy:** Updates the dashboard and generates static search-engine-friendly pages for every published story.
 
 ### The News Pipeline
 
@@ -57,78 +57,43 @@ GEMINI_API_KEY=your_key_here
 
 ### 4. Run
 - **Development Server:** `npm run dev` (View at http://localhost:5173)
-- **Data Update:** `node scripts/gather-news.js` (Manually run the news scraper)
+- **Data Update:** `node scripts/gather-news.js` (Requires Ollama and the configured local model)
 - **Tests:** `npm run test` (Run the unit tests)
 
 ## Built With
 - **Frontend:** React + D3.js (Responsive Treemap & Swipeable Mobile UI)
-- **AI:** Google Gemini (Sentiment & Relevance Rankings)
-- **Aggregator:** Massive Source Density (Google News, Reuters, BBC, TechCrunch)
-- **Persistence:** Local JSON caching (improves speed and saves API costs)
+- **AI:** Ollama with Gemma 4 for sentiment, category, and relevance
+- **Aggregator:** Publisher RSS feeds and Google News topic feeds
+- **Persistence:** SQLite inference and feed cache
 - **Hosting:** Cloudflare Pages + GitHub Actions
 
 ---
 
-## Local Runner (Mac Mini / Always-On Setup)
+## Mac Mini News Runner
 
-For free AI processing, run the pipeline on a local Mac Mini with Ollama instead of GitHub Actions.
+The Mac Mini runs the RSS gather and Ollama analysis every four hours. A successful run validates the new dataset, commits only `src/data.js`, and pushes it to `main`; Cloudflare Pages then builds the site and story pages. The runner expects the repository at `/Users/abhishekprasad/workspace/newsblocks`, Node.js 22, Ollama at `http://127.0.0.1:11434`, and the `gemma4:e4b` model. GitHub write access is provided by a repository deploy key; do not put a token in `.env` or commit credentials.
 
-### 1. Requirements
-- [Ollama](https://ollama.ai/) installed: `ollama serve`
-- Node.js v18+
-- GitHub Personal Access Token (for auto-push)
+Install or refresh the runner on that Mac with:
 
-### 2. Install
 ```bash
-# Clone repo to a shared location
-sudo mkdir -p /Users/Shared/news-map
-sudo chown $(whoami) /Users/Shared/news-map
-git clone https://github.com/prasadabhishek/newsblocks.git /Users/Shared/news-map
-cd /Users/Shared/news-map
-npm install
-
-# Create logs directory
-mkdir -p /Users/Shared/news-map/logs
-```
-
-### 3. Configure
-```bash
-# Create .env with GitHub token
-cat > /Users/Shared/news-map/.env << 'EOF'
-GITHUB_TOKEN=ghp_your_token_here
-RUN_INTERVAL_H=4
-AI_PROVIDER=ollama
-OLLAMA_HOST=http://localhost:11434
-EOF
-```
-
-### 4. Install LaunchAgent (auto-start on boot)
-```bash
-# Copy plist template
+cd /Users/abhishekprasad/workspace/newsblocks
+npm ci
+mkdir -p logs
 cp scripts/com.newsblocks.runner.plist ~/Library/LaunchAgents/
-
-# Edit the plist to set correct paths
-# The path in ProgramArguments should match your install location
-
-# Load the service
-launchctl load ~/Library/LaunchAgents/com.newsblocks.runner.plist
-
-# View logs
-tail -f /Users/Shared/news-map/logs/runner.log
+launchctl bootstrap "gui/$(id -u)" ~/Library/LaunchAgents/com.newsblocks.runner.plist
 ```
 
-### 5. Manual Commands
+The LaunchAgent runs once at login and every 14,400 seconds after that. To inspect it and its logs:
+
 ```bash
-# Start/stop the service
-launchctl start com.newsblocks.runner
-launchctl stop com.newsblocks.runner
+launchctl print "gui/$(id -u)/com.newsblocks.runner"
+tail -f logs/runner.log logs/runner-error.log
+```
 
-# Restart after changes
-launchctl unload ~/Library/LaunchAgents/com.newsblocks.runner.plist
-launchctl load ~/Library/LaunchAgents/com.newsblocks.runner.plist
+To run one update manually, stop the LaunchAgent first to avoid two runs touching the same checkout:
 
-# Run once manually
-cd /Users/Shared/news-map
+```bash
+launchctl bootout "gui/$(id -u)" ~/Library/LaunchAgents/com.newsblocks.runner.plist
 node news-runner.js
 ```
 

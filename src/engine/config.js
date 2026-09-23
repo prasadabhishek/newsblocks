@@ -20,6 +20,25 @@ export const CONFIG = {
 
     // Limits
     MAX_ARTICLES_PER_FEED: 25,
+    // Keep the live map focused and bound the number of local-model calls per refresh.
+    MAX_STORIES: 100,
+    MAX_CANDIDATES_TO_SCORE: 120,
+    CANDIDATE_QUOTAS: {
+        World: 28,
+        US: 26,
+        Stocks: 16,
+        Business: 18,
+        Technology: 18,
+        Science: 14
+    },
+    STORY_CATEGORY_QUOTAS: {
+        World: 22,
+        US: 22,
+        Stocks: 14,
+        Business: 14,
+        Technology: 14,
+        Science: 14
+    },
     MIN_CATEGORIES_FOR_VALIDATION: 3,
     MOBILE_CULL_COUNT: 6,
     MAX_LINES_PRIMARY: 50,
