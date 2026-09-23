@@ -177,7 +177,7 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect, isColo
             .text(d => {
                 const count = d.data.citationCount || (d.data.rawArticles ? d.data.rawArticles.length : 1);
                 // Increased depth requirement to avoid overlap with multi-line titles
-                return ((d.x1 - d.x0) > 60 && (d.y1 - d.y0) > 65) ? `${count} SOURCES` : '';
+                return ((d.x1 - d.x0) > 60 && (d.y1 - d.y0) > 65) ? `${count} PUB.` : '';
             });
 
         leafUpdate.select('g.text-group').each(function (d) {
@@ -336,7 +336,7 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect, isColo
 
                     <div style={{ display: 'flex', gap: '8px', marginBottom: '16px', flexWrap: 'wrap' }}>
                         <div style={{ fontSize: '10px', fontWeight: '800', color: '#94a3b8', backgroundColor: 'rgba(255,255,255,0.05)', padding: '2px 8px', borderRadius: '4px', letterSpacing: '0.05em' }}>
-                            {tooltip.content.citationCount || 1} SOURCES
+                            {tooltip.content.citationCount || 1} DISTINCT PUBLISHER{tooltip.content.citationCount === 1 ? '' : 'S'}
                         </div>
                         <div style={{
                             fontSize: '10px',
@@ -378,7 +378,7 @@ const NewsTreemap = ({ data, width, height, selectedStory, onStorySelect, isColo
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8 bg-slate-900/50 backdrop-blur-sm">
                     <div className="text-4xl mb-4">💎</div>
                     <h2 className="text-xl font-black text-white mb-2 uppercase tracking-tight">Filtering for High Signal...</h2>
-                    <p className="text-slate-400 text-sm max-w-xs">Our AI is currently suppressing low-consensus noise to bring you major news events.</p>
+                    <p className="text-slate-400 text-sm max-w-xs">No stories are available in this view right now.</p>
                 </div>
             )}
         </div>

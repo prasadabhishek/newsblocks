@@ -7,6 +7,7 @@ import { readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import { CONFIG } from '../src/engine/config.js';
+import { hasConsistentEvidence } from '../src/engine/article-identity.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = join(__dirname, '../src/data.js');
@@ -75,6 +76,9 @@ function validateData(data) {
 
         // Validate each story
         for (const story of category.children) {
+            if (!hasConsistentEvidence(story)) {
+                issues.push(`ERROR: Publisher/article/citation evidence is inconsistent for "${story.representativeTitle?.substring(0, 40)}..."`);
+            }
             totalArticles += story.rawArticles?.length || 0;
             for (const article of story.rawArticles || []) {
                 const publishedAt = Date.parse(article.pubDate || '');

@@ -50,7 +50,7 @@ function getStories() {
 
 function renderStoryPage(template, story) {
     const title = `${story.representativeTitle || 'News story'} | NewsBlocks`;
-    const description = `Explore coverage of ${story.representativeTitle || 'this news story'} from ${story.citationCount || 1} source${story.citationCount === 1 ? '' : 's'} on NewsBlocks.`;
+    const description = `Explore coverage of ${story.representativeTitle || 'this news story'} from ${story.citationCount || 1} distinct publisher${story.citationCount === 1 ? '' : 's'} on NewsBlocks.`;
     const storyUrl = `${BASE_URL}/story/${encodeURIComponent(story.slug)}/`;
     const articles = (story.rawArticles || []).map(article => {
         const url = safeArticleUrl(article.link);
@@ -58,7 +58,7 @@ function renderStoryPage(template, story) {
         if (!url) return `<li>${escapeHtml(label)}</li>`;
         return `<li><a href="${escapeHtml(url)}" rel="noopener noreferrer">${escapeHtml(label)}</a></li>`;
     }).join('\n');
-    const fallback = `<main class="story-fallback" style="max-width:760px;margin:8vh auto;padding:24px;font:16px/1.6 system-ui;color:#f8fafc"><a href="/" style="color:#93c5fd">← NewsBlocks</a><p style="color:#94a3b8">${escapeHtml(story.category || 'News')} · ${Number(story.citationCount) || 1} source${story.citationCount === 1 ? '' : 's'}</p><h1>${escapeHtml(story.representativeTitle || 'News story')}</h1><p>Coverage and sentiment for this story, based on the articles below.</p><ul>${articles}</ul></main>`;
+    const fallback = `<main class="story-fallback" style="max-width:760px;margin:8vh auto;padding:24px;font:16px/1.6 system-ui;color:#f8fafc"><a href="/" style="color:#93c5fd">← NewsBlocks</a><p style="color:#94a3b8">${escapeHtml(story.category || 'News')} · ${Number(story.citationCount) || 1} distinct publisher${story.citationCount === 1 ? '' : 's'}</p><h1>${escapeHtml(story.representativeTitle || 'News story')}</h1><p>Coverage and sentiment for this story, based on the articles below.</p><ul>${articles}</ul></main>`;
 
     let html = template.replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeHtml(title)}</title>`);
     html = replaceMeta(html, 'name', 'description', description);

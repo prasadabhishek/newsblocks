@@ -5,9 +5,11 @@ import { Pipeline } from '../src/engine/pipeline.js';
 import { retry, withTimeout } from '../src/engine/utils.js';
 import { SqliteCache } from '../src/engine/sqlite-cache.js';
 import { CONFIG } from '../src/engine/config.js';
+import { hasConsistentEvidence, isRecentArticle, normalizeFeedArticle } from '../src/engine/article-identity.js';
 
 // Professional headers to avoid blocking
 const parser = new Parser({
+    customFields: { item: ['source'] },
     headers: {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
         'Accept': 'application/rss+xml, application/xml, text/xml, */*'
@@ -67,11 +69,11 @@ const PREMIUM_FEEDS = [
     { name: 'Science', url: 'https://phys.org/rss-feed/', publisher: 'Phys.org', tier: 2 },
 
     // GOOGLE NEWS AGGREGATION - Additional sources (5 feeds)
-    { name: 'World', url: 'https://news.google.com/rss/headlines/section/topic/WORLD', publisher: 'Google World', tier: 2 },
-    { name: 'US', url: 'https://news.google.com/rss/headlines/section/topic/NATION', publisher: 'Google US', tier: 2 },
-    { name: 'Stocks', url: 'https://news.google.com/rss/headlines/section/topic/BUSINESS', publisher: 'Google Stocks', tier: 2 },
-    { name: 'Technology', url: 'https://news.google.com/rss/headlines/section/topic/TECHNOLOGY', publisher: 'Google Tech', tier: 2 },
-    { name: 'Science', url: 'https://news.google.com/rss/headlines/section/topic/SCIENCE', publisher: 'Google Science', tier: 2 }
+    { name: 'World', url: 'https://news.google.com/rss/headlines/section/topic/WORLD', publisher: 'Google World', aggregator: 'Google News', tier: 2 },
+    { name: 'US', url: 'https://news.google.com/rss/headlines/section/topic/NATION', publisher: 'Google US', aggregator: 'Google News', tier: 2 },
+    { name: 'Stocks', url: 'https://news.google.com/rss/headlines/section/topic/BUSINESS', publisher: 'Google Stocks', aggregator: 'Google News', tier: 2 },
+    { name: 'Technology', url: 'https://news.google.com/rss/headlines/section/topic/TECHNOLOGY', publisher: 'Google Tech', aggregator: 'Google News', tier: 2 },
+    { name: 'Science', url: 'https://news.google.com/rss/headlines/section/topic/SCIENCE', publisher: 'Google Science', aggregator: 'Google News', tier: 2 }
 ];
 
 /**
@@ -119,34 +121,13 @@ async function fetchAllFeeds(feeds) {
  * @returns {Array} - Processed articles.
  */
 function processFeedData(feed, data) {
-    const now = new Date();
-    const twentyFourHoursAgo = new Date(now.getTime() - (24 * 60 * 60 * 1000));
+    const now = Date.now();
 
     return data.items
-        .map(item => {
-            let source = feed.publisher;
-            if (source === 'Various') {
-                source = item.source || (item.title && item.title.includes(' - ') ? item.title.split(' - ').pop() : 'News');
-            }
-
-            let cleanTitle = (item.title || "").trim();
-            if (cleanTitle.includes(' - ')) {
-                const parts = cleanTitle.split(' - ');
-                parts.pop();
-                cleanTitle = parts.join(' - ');
-            }
-
-            return {
-                title: cleanTitle.trim(),
-                source: source.trim(),
-                link: item.link,
-                pubDate: new Date(item.isoDate || item.pubDate),
-                tier: feed.tier
-            };
-        })
+        .map(item => normalizeFeedArticle(feed, item))
         .filter(item => {
-            const isRecent = item.pubDate >= twentyFourHoursAgo;
-            if (!isRecent || !item.title) return false;
+            if (!item) return false;
+            if (!isRecentArticle(item, now)) return false;
 
             // HARD FILTER: Prevent sports/lifestyle bleed into Politics
             if (feed.name === 'Politics') {
@@ -189,9 +170,14 @@ async function gatherNews() {
             console.error(`  └─ Error fetching ${feed.publisher}: ${result.error}. Using cache fallback...`);
             const cached = SqliteCache.getFeed(feed.url);
             if (cached && cached.items) {
+                // Old Google cache rows have only a generic "Google US/World" label;
+                // their actual publisher cannot be recovered, so do not reuse them.
+                const cachedItems = cached.items.filter(article =>
+                    (!feed.aggregator || article.publisher) && isRecentArticle(article)
+                );
                 if (!categoryMap[feed.name]) categoryMap[feed.name] = [];
-                categoryMap[feed.name].push(...cached.items);
-                console.log(`  └─ Loaded ${cached.items.length} articles from cache (timestamp: ${cached.timestamp})`);
+                categoryMap[feed.name].push(...cachedItems);
+                console.log(`  └─ Loaded ${cachedItems.length} attributed articles from cache (timestamp: ${cached.timestamp})`);
             }
         }
     }
@@ -273,6 +259,7 @@ function validateOutput(tree) {
 
     return stories.every(story =>
         typeof story.representativeTitle === 'string' && story.representativeTitle.trim().length > 0 &&
+        hasConsistentEvidence(story) &&
         typeof story.aiCategory === 'string' &&
         Number.isFinite(story.sentiment) && story.sentiment >= -1 && story.sentiment <= 1 &&
         Number.isFinite(story.relevance_score) && story.relevance_score >= 1 && story.relevance_score <= 10 &&

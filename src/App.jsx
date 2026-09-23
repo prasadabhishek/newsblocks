@@ -251,28 +251,11 @@ function App() {
           </summary>
           <div className="methodology-content">
             <div className="methodology-section">
-              <h3>Data Sources</h3>
+              <h3>Publisher evidence</h3>
               <p className="methodology-text" style={{ marginBottom: '12px' }}>
-                AGGREGATED VIA <b>RSS FEEDS</b> FROM:
+                Stories come from publisher RSS feeds and Google News discovery feeds. The count on each story is the number of distinct named publishers after duplicate articles are removed. Google News itself is not counted as a publisher. Open a story to inspect its article links.
               </p>
-              <ul className="methodology-list">
-                <li><a href="https://www.theguardian.com/world/rss" target="_blank" rel="noopener noreferrer">The Guardian</a></li>
-                <li><a href="http://feeds.bbci.co.uk/news/world/rss.xml" target="_blank" rel="noopener noreferrer">BBC News</a></li>
-                <li><a href="http://www.politico.com/rss/politicopicks.xml" target="_blank" rel="noopener noreferrer">Politico</a></li>
-                <li><a href="https://news.google.com/rss/search?q=US+Politics+government+when:1d&hl=en-US&gl=US&ceid=US:en" target="_blank" rel="noopener noreferrer">Google News</a></li>
-                <li><a href="https://www.cnbc.com/id/10000664/device/rss/rss.html" target="_blank" rel="noopener noreferrer">CNBC Markets</a></li>
-                <li><a href="https://finance.yahoo.com/news/rssindex" target="_blank" rel="noopener noreferrer">Yahoo Finance</a></li>
-                <li><a href="http://feeds.marketwatch.com/marketwatch/topstories/" target="_blank" rel="noopener noreferrer">MarketWatch</a></li>
-                <li><a href="https://www.ft.com/?format=rss" target="_blank" rel="noopener noreferrer">Financial Times</a></li>
-                <li><a href="https://techcrunch.com/feed/" target="_blank" rel="noopener noreferrer">TechCrunch</a></li>
-                <li><a href="https://www.theverge.com/rss/index.xml" target="_blank" rel="noopener noreferrer">The Verge</a></li>
-                <li><a href="https://feeds.arstechnica.com/arstechnica/index" target="_blank" rel="noopener noreferrer">Ars Technica</a></li>
-                <li><a href="https://www.technologyreview.com/feed/" target="_blank" rel="noopener noreferrer">MIT Tech Review</a></li>
-                <li><a href="https://www.wired.com/feed/category/science/latest/rss" target="_blank" rel="noopener noreferrer">Wired</a></li>
-                <li><a href="https://www.sciencedaily.com/rss/all.xml" target="_blank" rel="noopener noreferrer">Science Daily</a></li>
-                <li><a href="https://www.nature.com/nature.rss" target="_blank" rel="noopener noreferrer">Nature</a></li>
-                <li><a href="https://phys.org/rss-feed/" target="_blank" rel="noopener noreferrer">Phys.org</a></li>
-              </ul>
+              <p className="methodology-text">Distinct publisher names do not always prove independent reporting; syndicated or shared wire coverage can still exist.</p>
             </div>
             <div className="methodology-section">
               <h3>AI Engine</h3>

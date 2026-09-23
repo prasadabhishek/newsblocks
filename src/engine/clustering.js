@@ -11,6 +11,7 @@
  * - Jaccard is faster and doesn't require AI infrastructure
  */
 import { CONFIG } from './config.js';
+import { storyEvidence } from './article-identity.js';
 
 export class ClusteringEngine {
     /**
@@ -57,21 +58,11 @@ export class ClusteringEngine {
                 }
             }
 
-            // Deduplicate rawArticles by source+title to avoid duplicates from aggregated feeds
-            // (e.g., same NBC article appearing in both NBC feed and Google US feed)
-            const seenArticles = new Set();
-            const dedupedCluster = cluster.filter(a => {
-                const key = `${a.source}:${a.title.toLowerCase().trim()}`;
-                if (seenArticles.has(key)) return false;
-                seenArticles.add(key);
-                return true;
-            });
+            const evidence = storyEvidence(cluster);
 
             clusters.push({
-                representativeTitle: this.selectBestTitle(dedupedCluster),
-                sources: [...new Set(dedupedCluster.map(c => c.source))],
-                citationCount: new Set(dedupedCluster.map(c => c.source)).size,
-                rawArticles: dedupedCluster
+                representativeTitle: this.selectBestTitle(evidence.rawArticles),
+                ...evidence
             });
         }
 

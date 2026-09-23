@@ -1,6 +1,7 @@
 import { ClusteringEngine } from './clustering.js';
 import { ScoringEngine } from './scoring.js';
 import { CONFIG } from './config.js';
+import { dedupeArticles, publisherId, storyEvidence } from './article-identity.js';
 
 const CATEGORY_NAMES = ['World', 'US', 'Stocks', 'Business', 'Technology', 'Science'];
 const CATEGORY_ALIASES = { Politics: 'US', Finance: 'Business', Tech: 'Technology' };
@@ -18,32 +19,31 @@ function latestArticleTime(cluster) {
     }));
 }
 
+function tierOnePublisherCount(articles) {
+    return new Set(articles
+        .filter(article => article.tier === 1)
+        .map(article => article.publisherId || publisherId(article.publisher || article.source))
+        .filter(Boolean)).size;
+}
+
 function candidatePriority(cluster, now) {
     const articles = cluster.rawArticles || [];
-    const sources = new Set(articles.map(article => article.source).filter(Boolean));
-    const tierOneSources = new Set(articles
-        .filter(article => article.tier === 1)
-        .map(article => article.source)
-        .filter(Boolean));
+    const independentPublishers = cluster.independentPublisherCount ?? storyEvidence(articles).independentPublisherCount;
     const publishedAt = latestArticleTime(cluster);
     const ageHours = publishedAt ? Math.max(0, (now - publishedAt) / 3600000) : 48;
     const freshness = publishedAt ? Math.max(0, 24 - Math.min(24, ageHours)) : 0;
 
     // Prefer recent, independently corroborated stories from stronger publishers.
-    return tierOneSources.size * 12 + sources.size * 8 + Math.min(articles.length, 5) * 2 + freshness;
+    return tierOnePublisherCount(articles) * 12 + independentPublishers * 8 + Math.min(articles.length, 5) * 2 + freshness;
 }
 
 function storyPriority(story, now) {
-    const sources = new Set(story.sources || []);
-    const tierOneSources = new Set((story.rawArticles || [])
-        .filter(article => article.tier === 1)
-        .map(article => article.source)
-        .filter(Boolean));
+    const independentPublishers = story.independentPublisherCount ?? storyEvidence(story.rawArticles || []).independentPublisherCount;
     const publishedAt = latestArticleTime(story);
     const ageHours = publishedAt ? Math.max(0, (now - publishedAt) / 3600000) : 48;
     const freshness = publishedAt ? Math.max(0, 24 - Math.min(24, ageHours)) : 0;
 
-    return (story.importance || 0) + sources.size * 4 + tierOneSources.size * 3 + freshness;
+    return (story.importance || 0) + independentPublishers * 4 + tierOnePublisherCount(story.rawArticles || []) * 3 + freshness;
 }
 
 function selectCandidatePool(candidates, categoriesArray, now) {
@@ -129,77 +129,76 @@ export class Pipeline {
         const catNameToIndex = {};
         root.children.forEach((c, i) => catNameToIndex[c.name] = i);
 
+        // Deduplicate across feeds and categories before clustering. Prefer the
+        // publisher's own feed over an aggregator copy of the same article.
+        const uniqueArticles = dedupeArticles(categoriesArray.flatMap(category =>
+            category.rawArticles.map(article => ({ ...article, ingestionCategory: category.name }))
+        )).filter(article => article.publisherId);
+        const uniqueCategories = categoriesArray.map(category => ({
+            ...category,
+            rawArticles: uniqueArticles
+                .filter(article => article.ingestionCategory === category.name)
+                .map(article => {
+                    const clean = { ...article };
+                    delete clean.ingestionCategory;
+                    return clean;
+                })
+        }));
+
         const clusteredCandidates = [];
         const now = Date.now();
 
-        for (const cat of categoriesArray) {
+        for (const cat of uniqueCategories) {
             const { name, rawArticles } = cat;
             console.log(`Clustering raw feed for: ${name}...`);
             const clusters = await this.clustering.cluster(rawArticles);
             clusteredCandidates.push(...clusters.map(cluster => ({ ...cluster, ingestionCategory: name })));
         }
 
-        const selectedCandidates = selectCandidatePool(clusteredCandidates, categoriesArray, now);
+        const selectedCandidates = selectCandidatePool(clusteredCandidates, uniqueCategories, now);
         console.log(`Scoring ${selectedCandidates.length} selected story candidates (cap ${CONFIG.MAX_CANDIDATES_TO_SCORE})...`);
 
-        const seenStoryHashes = new Map(); // hash -> { catIndex, childIndex }
+        const seenStoryHashes = new Map();
         for (const c of selectedCandidates) {
-                const name = c.ingestionCategory;
-                const scored = await this.scoring.calculateScores(c);
-                if (scored) {
-                    // --- V4.6 TABLOID FILTER ---
-                    if (scored.aiCategory === "JUNK") {
-                        console.log(`  └─ Dropping JUNK (Sports/Entertainment) story: ${scored.representativeTitle.substring(0, 50)}...`);
-                        continue;
-                    }
+            const scored = await this.scoring.calculateScores(c);
+            if (!scored) continue;
+            if (scored.aiCategory === 'JUNK') {
+                console.log(`  └─ Dropping JUNK (Sports/Entertainment) story: ${scored.representativeTitle.substring(0, 50)}...`);
+                continue;
+            }
 
-                    // --- V4 SMART CONSENSUS GATE ---
-                    const hasConsensus = scored.citationCount > 1;
-                    const isTier1 = scored.rawArticles.some(a => a.tier === 1);
-                    const isHighRelevance = (scored.relevance_score || 0) >= 7;
+            Object.assign(scored, storyEvidence(scored.rawArticles || []));
+            if (!scored.rawArticles.length) continue;
+            const titleHash = scored.representativeTitle.toLowerCase().trim();
+            if (seenStoryHashes.has(titleHash)) {
+                const existing = seenStoryHashes.get(titleHash);
+                Object.assign(existing, storyEvidence([...existing.rawArticles, ...scored.rawArticles]));
+                existing.relevance_score = Math.max(existing.relevance_score || 0, scored.relevance_score || 0);
+                existing.importance = this.scoring.calculateImportance(existing);
+            } else {
+                seenStoryHashes.set(titleHash, scored);
+            }
+        }
 
-                    // 1. Always keep Tier 1 stories (Elite publishers are high-signal by default)
-                    // 2. Keep Tier 2 stories ONLY if they have consensus OR high relevance.
-                    if (!isTier1 && !hasConsensus && !isHighRelevance) {
-                        console.log(`  └─ Dropping low-signal Tier 2 story: ${scored.representativeTitle.substring(0, 50)}...`);
-                        continue;
-                    }
-                    // --------------------------
+        // Apply the consensus gate only after cross-category merges, using the
+        // number of distinct original publishers rather than article/feed labels.
+        for (const scored of seenStoryHashes.values()) {
+            const hasConsensus = scored.independentPublisherCount > 1;
+            const isTier1 = tierOnePublisherCount(scored.rawArticles) > 0;
+            const isHighRelevance = (scored.relevance_score || 0) >= 7;
+            if (!isTier1 && !hasConsensus && !isHighRelevance) {
+                console.log(`  └─ Dropping low-signal Tier 2 story: ${scored.representativeTitle.substring(0, 50)}...`);
+                continue;
+            }
 
-                    const titleHash = scored.representativeTitle.toLowerCase().trim();
+            scored.slug = scored.representativeTitle
+                .toLowerCase()
+                .replace(/[^a-z0-9\s-]/g, '')
+                .trim()
+                .replace(/\s+/g, '-');
 
-                    if (seenStoryHashes.has(titleHash)) {
-                        // Deduplicate: Merge sources and articles into the existing node
-                        const pos = seenStoryHashes.get(titleHash);
-                        const existing = root.children[pos.catIndex].children[pos.childIndex];
-
-                        existing.sources = [...new Set([...existing.sources, ...scored.sources])];
-                        existing.citationCount += scored.citationCount;
-                        existing.rawArticles = [...existing.rawArticles, ...scored.rawArticles];
-
-                        // Recalculate importance based on merged data
-                        existing.importance = this.scoring.calculateImportance(existing);
-                    } else {
-                        // Create a URL-friendly slug
-                        scored.slug = scored.representativeTitle
-                            .toLowerCase()
-                            .replace(/[^a-z0-9\s-]/g, '') // remove special chars
-                            .trim()
-                            .replace(/\s+/g, '-');        // replace spaces with hyphens
-
-                        // V4.6 Route to AI-determined category
-                        const finalCat = normalizeCategory(scored.aiCategory, scored.ingestionCategory);
-                        
-                        const targetCatIndex = catNameToIndex[finalCat];
-                        const destArray = root.children[targetCatIndex].children;
-
-                        seenStoryHashes.set(titleHash, {
-                            catIndex: targetCatIndex,
-                            childIndex: destArray.length
-                        });
-                        destArray.push(scored);
-                    }
-                }
+            const finalCat = normalizeCategory(scored.aiCategory, scored.ingestionCategory);
+            root.children[catNameToIndex[finalCat]].children.push(scored);
         }
 
         // Keep the strongest ~100 stories, with explicit room for each news section.

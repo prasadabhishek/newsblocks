@@ -2,7 +2,7 @@
 
 [![Live Site](https://img.shields.io/badge/Live-newsblocks.org-blue)](https://newsblocks.org)
 
-NewsBlocks is a simple, visual way to see global news. It gathers headlines from major publishers, groups them into related stories using AI, and displays them as a treemap.
+NewsBlocks is a simple, visual way to see global news. It gathers headlines from major publishers, groups related coverage by headline overlap, uses a local AI model for scoring, and displays the results as a treemap.
 
 ![NewsBlocks Screenshot](public/screenshot.png)
 
@@ -14,8 +14,8 @@ The Mac Mini pipeline runs every four hours:
 2.  **Filter:** Removes non-news content like podcasts, editorial guides, and pricing alerts.
 3.  **Group:** Matches overlapping headline terms to group related coverage.
 4.  **Score:** Ollama runs Gemma 4 locally to classify category, sentiment, and relevance.
-5.  **Trim:** Ranks stories by freshness, independent source coverage, and trusted-publisher representation; scores at most 120 candidates and publishes at most 100, reserving room across the six sections.
-6.  **Clean:** If a story only has one source, it's dropped unless it comes from an elite publisher or has a high relevance score.
+5.  **Trim:** Ranks stories by freshness, distinct-publisher coverage, and trusted-publisher representation; scores at most 120 candidates and publishes at most 100, reserving room across the six sections.
+6.  **Clean:** If a story has only one publisher, it's dropped unless it comes from a tier-1 publisher or has a high relevance score.
 7.  **Deploy:** Updates the dashboard and generates static search-engine-friendly pages for every published story.
 
 ### The News Pipeline
@@ -23,18 +23,22 @@ The Mac Mini pipeline runs every four hours:
 ```mermaid
 graph TD
     A[RSS Feeds] -->|Scrape| B(Filter out noise)
-    B -->|Clean Headlines| C(Group stories with AI)
+    B -->|Clean Headlines| C(Group overlapping headlines)
     C -->|Story Clusters| D(Score Sentiment & Relevance)
     D --> E{Smart Signal Gate}
     
     E -->|Elite Source| F[✅ Keep]
-    E -->|Multiple Sources| F
+    E -->|Multiple Publishers| F
     E -->|High Importance| F
-    E -->|Single Source Noise| G[❌ Drop]
+    E -->|Single-Publisher Noise| G[❌ Drop]
     
     F --> H[Update Dashboard]
     F --> I[Generate SEO Pages]
 ```
+
+### How publisher counts work
+
+Google News is a discovery feed, not an additional publisher. The pipeline reads the original publisher from Google's RSS source field, normalizes known aliases (for example, BBC World and BBC US both count as BBC), removes duplicate article URLs and repeated headlines from one publisher, and derives the displayed count from the remaining distinct publishers. Cached articles outside the current 24-hour window cannot support a new run. A distinct-publisher count is not proof of independently reported facts: outlets may share wire copy, so each story links to the underlying articles for inspection.
 
 ## Setup & Running Locally
 
@@ -65,7 +69,7 @@ GEMINI_API_KEY=your_key_here
 - **AI:** Ollama with Gemma 4 for sentiment, category, and relevance
 - **Aggregator:** Publisher RSS feeds and Google News topic feeds
 - **Persistence:** SQLite inference and feed cache
-- **Hosting:** Cloudflare Pages + GitHub Actions
+- **Hosting:** Cloudflare Pages, updated by the Mac Mini runner
 
 ---
 

@@ -28,20 +28,17 @@ describe('News Pipeline Unit Tests', () => {
             expect(clusters).toHaveLength(1);
         });
 
-        it('should deduplicate articles with same source AND title', async () => {
+        it('does not count a Google-discovered copy as an independent source', async () => {
             const articles = [
                 { title: 'Same News Story', source: 'NBC' },
                 { title: 'Same News Story', source: 'NBC' }, // duplicate
-                { title: 'Same News Story', source: 'Google US' } // same title, different source
+                { title: 'Same News Story', source: 'NBC News', publisher: 'NBC News', aggregator: 'Google News' }
             ];
             const clusters = await clustering.cluster(articles);
             expect(clusters).toHaveLength(1);
-            // Should have 2 sources (NBC deduplicated, Google US kept)
-            expect(clusters[0].sources).toHaveLength(2);
-            expect(clusters[0].sources).toContain('NBC');
-            expect(clusters[0].sources).toContain('Google US');
-            // RawArticles should only have 2 (NBC once, Google US once)
-            expect(clusters[0].rawArticles).toHaveLength(2);
+            expect(clusters[0].sources).toEqual(['NBC News']);
+            expect(clusters[0].citationCount).toBe(1);
+            expect(clusters[0].rawArticles).toHaveLength(1);
         });
 
         it('should filter out promotional words like sale, deals, discount', async () => {

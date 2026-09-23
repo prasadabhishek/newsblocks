@@ -3,6 +3,7 @@
  * Calculates sentiment and importance for a story cluster.
  */
 import { AI } from './gemini.js';
+import { publisherId, storyEvidence } from './article-identity.js';
 
 export class ScoringEngine {
     /**
@@ -78,12 +79,20 @@ export class ScoringEngine {
         // 1. Base Relevance from AI (Scaled 0-50)
         const relevanceBase = (cluster.relevance_score || 5) * 5;
 
-        // 2. Source Power (Elite sources provide high signal)
-        const tier1Count = (cluster.rawArticles || []).filter(a => a.tier === 1).length;
+        // 2. One contribution per independent publisher, even if its article
+        // appears in several feeds or categories.
+        const articles = storyEvidence(cluster.rawArticles || []).rawArticles;
+        const tier1Count = new Set(articles
+            .filter(article => article.tier === 1)
+            .map(article => article.publisherId || publisherId(article.publisher || article.source))
+            .filter(Boolean)).size;
         const tierBonus = tier1Count * 10;
 
-        // 3. Citation Velocity (Variety of sources)
-        const sourceVariety = new Set(cluster.sources).size * 5;
+        // 3. Independent publisher variety, not feed/source label count.
+        const independentPublisherCount = cluster.independentPublisherCount ?? (articles.length
+            ? storyEvidence(articles).independentPublisherCount
+            : new Set((cluster.sources || []).map(publisherId).filter(Boolean)).size);
+        const sourceVariety = independentPublisherCount * 5;
 
         const total = Math.floor(relevanceBase + tierBonus + sourceVariety);
 
