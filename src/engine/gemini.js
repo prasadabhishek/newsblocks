@@ -58,6 +58,7 @@ export const AI = {
                 model: MODELS.OLLAMA_LLM,
                 prompt: prompt,
                 format: "json",
+                think: false,
                 stream: false,
                 options: { temperature: 0.1, num_predict: 256 }
             }, { timeout: CONFIG.AI_REQUEST_TIMEOUT }), 2, 5000);
