@@ -2,6 +2,7 @@ import { describe, it, expect, vi } from 'vitest';
 import { ClusteringEngine } from '../clustering.js';
 import { ScoringEngine } from '../scoring.js';
 import { Pipeline } from '../pipeline.js';
+import { AI } from '../gemini.js';
 
 describe('News Pipeline Unit Tests', () => {
     const clustering = new ClusteringEngine();
@@ -80,6 +81,8 @@ describe('Performance & Accuracy Tests', () => {
         const rawData = [
             { name: 'Tech', rawArticles: Array(100).fill({ title: 'Standard news headline about tech', source: 'TechCrunch' }) }
         ];
+        // Measure deterministic pipeline overhead; model latency is benchmarked separately.
+        vi.spyOn(pipeline.scoring, 'calculateScores').mockResolvedValueOnce(null);
 
         const start = performance.now();
         await pipeline.run(rawData);
@@ -91,6 +94,12 @@ describe('Performance & Accuracy Tests', () => {
     }, 15000); // 15s timeout for this test
 
     it('Accuracy: should correctly cluster diverse headlines', async () => {
+        vi.spyOn(AI, 'analyzeSentiment').mockImplementation(async headline => ({
+            sentiment: /war|conflict/i.test(headline) ? 'NEGATIVE' : 'NEUTRAL',
+            relevance: 8,
+            category: 'World',
+            title: headline
+        }));
         const rawData = [
             {
                 name: 'World',
@@ -161,6 +170,13 @@ describe('Performance & Accuracy Tests', () => {
             { name: 'Technology', rawArticles: [{ title: 'Apple unveils next-generation AI features', source: 'TechCrunch', tier: 1 }] },
             { name: 'Science', rawArticles: [{ title: 'NASA confirms discovery of habitable zone planet', source: 'Nature', tier: 1 }] }
         ];
+        vi.spyOn(pipeline.scoring, 'calculateScores').mockImplementation(async candidate => ({
+            ...candidate,
+            aiCategory: candidate.ingestionCategory,
+            sentiment: 0,
+            relevance_score: 8,
+            importance: 55
+        }));
         const result = await pipeline.run(rawData);
 
         const categoryNames = result.children.map(c => c.name);

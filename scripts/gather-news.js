@@ -262,7 +262,14 @@ function validateOutput(tree) {
         if (!category?.name || !Array.isArray(category.children)) return [];
         return category.children;
     });
-    if (stories.length === 0) return false;
+    if (stories.length < CONFIG.MIN_PUBLISHED_STORIES || stories.length > CONFIG.MAX_STORIES) {
+        console.error(`Validation rejected ${stories.length} stories; expected ${CONFIG.MIN_PUBLISHED_STORIES}-${CONFIG.MAX_STORIES}.`);
+        return false;
+    }
+
+    const now = Date.now();
+    const MAX_ARTICLE_AGE_MS = 36 * 60 * 60 * 1000;
+    const MAX_FUTURE_SKEW_MS = 2 * 60 * 60 * 1000;
 
     return stories.every(story =>
         typeof story.representativeTitle === 'string' && story.representativeTitle.trim().length > 0 &&
@@ -272,7 +279,11 @@ function validateOutput(tree) {
         Array.isArray(story.rawArticles) && story.rawArticles.length > 0 &&
         story.rawArticles.every(article => {
             try {
-                return ['http:', 'https:'].includes(new URL(article.link).protocol);
+                const publishedAt = Date.parse(article.pubDate || '');
+                return ['http:', 'https:'].includes(new URL(article.link).protocol) &&
+                    Number.isFinite(publishedAt) &&
+                    publishedAt >= now - MAX_ARTICLE_AGE_MS &&
+                    publishedAt <= now + MAX_FUTURE_SKEW_MS;
             } catch {
                 return false;
             }

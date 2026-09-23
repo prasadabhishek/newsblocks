@@ -6,17 +6,20 @@
 import { readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import { CONFIG } from '../src/engine/config.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = join(__dirname, '../src/data.js');
 
 const VALIDATION_RULES = {
     MIN_CATEGORIES: 3,
+    MIN_TOTAL_STORIES: CONFIG.MIN_PUBLISHED_STORIES,
+    MAX_TOTAL_STORIES: CONFIG.MAX_STORIES,
     MAX_CITATION_COUNT: 100,  // Catch mega-clusters (over-merging)
     MIN_IMPORTANCE: 10,
     MAX_IMPORTANCE: 100,
     MIN_STORIES_PER_CATEGORY: 1,
-    MAX_STORIES_PER_CATEGORY: 200,  // Sanity check
+    MAX_STORIES_PER_CATEGORY: CONFIG.MAX_STORIES,
 };
 
 function loadData() {
@@ -51,6 +54,8 @@ function validateData(data) {
     // Rule 3: Validate each category
     let totalClusters = 0;
     let totalArticles = 0;
+    let newestArticleTime = 0;
+    const now = Date.now();
 
     for (const category of data.children) {
         if (!category.children || category.children.length === 0) {
@@ -71,6 +76,10 @@ function validateData(data) {
         // Validate each story
         for (const story of category.children) {
             totalArticles += story.rawArticles?.length || 0;
+            for (const article of story.rawArticles || []) {
+                const publishedAt = Date.parse(article.pubDate || '');
+                if (Number.isFinite(publishedAt)) newestArticleTime = Math.max(newestArticleTime, publishedAt);
+            }
 
             // Citation count checks
             if (story.citationCount > VALIDATION_RULES.MAX_CITATION_COUNT) {
@@ -101,6 +110,19 @@ function validateData(data) {
     console.log(`\n=== SUMMARY ===`);
     console.log(`Total clusters: ${totalClusters}`);
     console.log(`Total articles: ${totalArticles}`);
+
+    if (totalClusters < VALIDATION_RULES.MIN_TOTAL_STORIES) {
+        issues.push(`ERROR: Only ${totalClusters} stories; need at least ${VALIDATION_RULES.MIN_TOTAL_STORIES} for a healthy update`);
+    }
+    if (totalClusters > VALIDATION_RULES.MAX_TOTAL_STORIES) {
+        issues.push(`ERROR: ${totalClusters} stories exceeds the ${VALIDATION_RULES.MAX_TOTAL_STORIES}-story publication cap`);
+    }
+    if (!newestArticleTime || newestArticleTime < now - (36 * 60 * 60 * 1000)) {
+        issues.push('ERROR: No source article is recent enough to publish as current news');
+    }
+    if (newestArticleTime > now + (2 * 60 * 60 * 1000)) {
+        issues.push('ERROR: Newest source article timestamp is more than two hours in the future');
+    }
 
     // Final verdict
     const valid = issues.length === 0;

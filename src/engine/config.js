@@ -22,6 +22,7 @@ export const CONFIG = {
     MAX_ARTICLES_PER_FEED: 25,
     // Keep the live map focused and bound the number of local-model calls per refresh.
     MAX_STORIES: 100,
+    MIN_PUBLISHED_STORIES: 30,
     MAX_CANDIDATES_TO_SCORE: 120,
     CANDIDATE_QUOTAS: {
         World: 28,

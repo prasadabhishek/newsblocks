@@ -3,6 +3,13 @@ import { ScoringEngine } from './scoring.js';
 import { CONFIG } from './config.js';
 
 const CATEGORY_NAMES = ['World', 'US', 'Stocks', 'Business', 'Technology', 'Science'];
+const CATEGORY_ALIASES = { Politics: 'US', Finance: 'Business', Tech: 'Technology' };
+
+function normalizeCategory(name, fallback = 'World') {
+    if (CATEGORY_NAMES.includes(name)) return name;
+    const alias = CATEGORY_ALIASES[name];
+    return alias || (CATEGORY_NAMES.includes(fallback) ? fallback : 'World');
+}
 
 function latestArticleTime(cluster) {
     return Math.max(0, ...(cluster.rawArticles || []).map(article => {
@@ -181,11 +188,7 @@ export class Pipeline {
                             .replace(/\s+/g, '-');        // replace spaces with hyphens
 
                         // V4.6 Route to AI-determined category
-                        let finalCat = scored.aiCategory;
-                        if (!catNameToIndex.hasOwnProperty(finalCat)) {
-                            // If the model returns an unsupported category, keep the feed's category.
-                            finalCat = scored.ingestionCategory || "World";
-                        }
+                        const finalCat = normalizeCategory(scored.aiCategory, scored.ingestionCategory);
                         
                         const targetCatIndex = catNameToIndex[finalCat];
                         const destArray = root.children[targetCatIndex].children;
