@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-09-23T03:34:41.036Z",
+  "lastUpdated": "2026-09-23T03:49:14.872Z",
   "children": [
     {
       "name": "World",
@@ -591,36 +591,6 @@ export const newsData = {
           "slug": "us-builds-military-bases-in-greenland-with-denmark"
         },
         {
-          "representativeTitle": "Macron Warns World Against Imperial Power Abuse",
-          "sources": [
-            "France 24",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Macron urges world to 'stand firm' against 'abuse of power by empires' in final UN speech",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20260922-macron-urges-world-stand-firm-against-abuse-of-power-by-empires-final-un-speech",
-              "pubDate": "2026-09-22T20:08:28.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Macron urges world to 'stand firm' against 'abuse of power by empires' in final UN speech",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3hGck8xeVpPQ1BNakRTcXNJNGI3LXFlRVlVYWY4ajMwSTV0a0x3ZktNek1wUjdQOHRXMTFIUTRKTU05eW5lUXNDNEhTZTIteFZIUkw5YU5KR3V3UldrbUlnNlI3QWoxMEs5MzdjNkNYSk1qNjhvYUZTZnQ0d0Y2OHJXWnB5VmIwQ3FZVzRXQ2F4QmlBY2lrWjFBNWd0T0lfX1Juejg5M040c05sM2ZDYnZTY3p1QWhrZnFuYUdvc3k?oc=5",
-              "pubDate": "2026-09-22T20:08:28.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "macron-warns-world-against-imperial-power-abuse"
-        },
-        {
           "representativeTitle": "Nations Pledge Aid Amid UNGA Diplomatic Pressure",
           "sources": [
             "Al Jazeera"
@@ -851,17 +821,17 @@ export const newsData = {
           "slug": "man-convicted-of-shooting-palestinian-students-in-us"
         },
         {
-          "representativeTitle": "Australia News: Police Offer Reward; Leaders Meet at UN",
+          "representativeTitle": "Australia News: Police Offer Reward; Trump Meets Albanese",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Australia news live: police offer $1m for information about Gus Lamont; Trump and Albanese ‘catch up’ on sidelines of UN summit",
+              "title": "Australia news live: police offer $1m for information about Gus Lamont; Trump and Albanese ‘catch up’ at UN summit",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/live/2026/sep/23/anthony-albanese-un-assembly-ai-social-media-labor-coalition-abc-four-corners-ntwnfb",
-              "pubDate": "2026-09-23T03:24:28.000Z",
+              "pubDate": "2026-09-23T03:31:21.000Z",
               "tier": 1
             }
           ],
@@ -870,7 +840,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "australia-news-police-offer-reward-leaders-meet-at-un"
+          "slug": "australia-news-police-offer-reward-trump-meets-albanese"
         },
         {
           "representativeTitle": "Cuban Officials Walk Out After Trump Remarks",
@@ -959,28 +929,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "south-sudan-leader-dissolves-government-before-elections"
-        },
-        {
-          "representativeTitle": "Attendees Revealed For Trump-Xi Diplomatic Dinner",
-          "sources": [
-            "CNBC Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Here's who we know is going to the Trump-Xi dinner so far",
-              "source": "CNBC Markets",
-              "link": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
-              "pubDate": "2026-09-22T23:43:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "attendees-revealed-for-trump-xi-diplomatic-dinner"
         },
         {
           "representativeTitle": "Mexico Bans Phones in Schools Amid Growing Concerns",
@@ -1076,44 +1024,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 60,
           "slug": "trump-supports-diesel-export-ban-to-lower-energy-costs"
-        },
-        {
-          "representativeTitle": "Burnham meets Trump; connection touted in New York.",
-          "sources": [
-            "BBC World",
-            "Euronews",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Burnham 'gets it' says Trump, as the two leaders meet for first time",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/cxly57mv4767o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-22T19:15:57.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Burnham touts 'good connection' with Trump as pair meet for first time in New York",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/09/22/burnham-touts-good-connection-with-trump-as-pair-meet-for-first-time-in-new-york",
-              "pubDate": "2026-09-22T19:57:38.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump to meet Venezuela's Rodriguez for first time since Maduro's capture",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNC16N2FEN1QtSGNHWGFtbDRiVGx6Ymp4RWtNSG05bG9relBsN0dXV0V1czZ6UzM4cXNVVVVNZWh4b1lqQkN0ZnEyVk15dVloMl9WaDVPRkJRTnBudHprOUJ3Yk10azlJcHlremJFLWxTOXp4ZjlfaUtrU0xNamVZZlozQ3M1dDJGZGE0QUxxSW5Pd3VjUXRJWGs0cEI1aF9YQmhNZzQ2V1RlWldGSDNkRVN5azlzQQ?oc=5",
-              "pubDate": "2026-09-22T23:18:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "burnham-meets-trump-connection-touted-in-new-york"
         },
         {
           "representativeTitle": "Grand jury declines indictment in death case.",
@@ -1341,6 +1251,36 @@ export const newsData = {
           "slug": "kratom-found-near-two-deceased-college-students"
         },
         {
+          "representativeTitle": "Burnham meets Trump; connection touted in New York.",
+          "sources": [
+            "BBC World",
+            "Euronews"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Burnham 'gets it' says Trump, as the two leaders meet for first time",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/cxly57mv4767o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-22T19:15:57.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Burnham touts 'good connection' with Trump as pair meet for first time in New York",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/09/22/burnham-touts-good-connection-with-trump-as-pair-meet-for-first-time-in-new-york",
+              "pubDate": "2026-09-22T19:57:38.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "burnham-meets-trump-connection-touted-in-new-york"
+        },
+        {
           "representativeTitle": "Bodycam Captures After ICE Shooting of Migrant",
           "sources": [
             "NBC News",
@@ -1369,6 +1309,28 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 50,
           "slug": "bodycam-captures-after-ice-shooting-of-migrant"
+        },
+        {
+          "representativeTitle": "Operative Paid To Spread Rumors About Rival's Affair",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Liberal operative was offered $1,000 to get media to cover ‘grubby rumour’ rival was having affair, Icac hears",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/sep/23/sharangan-maheswaran-jean-nassif-david-elliott-affair-rumour-icac-ntwnfb",
+              "pubDate": "2026-09-23T03:31:59.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "operative-paid-to-spread-rumors-about-rivals-affair"
         },
         {
           "representativeTitle": "White House launches media platform amid news bans.",
@@ -1801,6 +1763,28 @@ export const newsData = {
           "slug": "adb-warns-asia-faces-inflation-pressure-through-2027"
         },
         {
+          "representativeTitle": "HK Official Urges Boosting Yuan Product Offerings",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Paul Chan: HK Sees Need to Enrich Yuan Products",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-23/paul-chan-hk-sees-need-to-enrich-yuan-products-video",
+              "pubDate": "2026-09-23T03:33:39.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "hk-official-urges-boosting-yuan-product-offerings"
+        },
+        {
           "representativeTitle": "Qantas CEO Discusses Future of Long-Haul Travel Demand",
           "sources": [
             "Bloomberg Markets"
@@ -1821,28 +1805,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "qantas-ceo-discusses-future-of-long-haul-travel-demand"
-        },
-        {
-          "representativeTitle": "RBA Cites ASX Weakness Across Key Sectors",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "ASX Still Missing Expectations in Several Key Areas, RBA Says",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-23/asx-still-missing-expectations-in-several-key-areas-rba-says",
-              "pubDate": "2026-09-23T03:04:32.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "rba-cites-asx-weakness-across-key-sectors"
         },
         {
           "representativeTitle": "South Africa Secures Gulf Funding For Property Development",
@@ -2292,6 +2254,36 @@ export const newsData = {
           "slug": "anthropic-launches-opus-55-with-better-performance"
         },
         {
+          "representativeTitle": "Rabbit Launches New AI Agent Application Offering Features",
+          "sources": [
+            "Wired",
+            "Google Tech"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Rabbit Is Back, This Time With an AI Agent App",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/rabbit-r1-os3-jesse-lyu/",
+              "pubDate": "2026-09-22T16:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Rabbit Is Back, This Time With an AI Agent App",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1VSVFZaHZaZ1dVT2k3LWY1Ri1rMVhRT05weFdPcDNRa3FUeWFuZnJxdFpPVzFPVkk1SVNpa19EOWlCVTlSVm1oQXluUFlsNFBhNVpyUVNMS09DQ045QlZscElR?oc=5",
+              "pubDate": "2026-09-22T16:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "rabbit-launches-new-ai-agent-application-offering-features"
+        },
+        {
           "representativeTitle": "Qualcomm unveils new AI-focused smartphone processing chips.",
           "sources": [
             "TechCrunch"
@@ -2424,36 +2416,6 @@ export const newsData = {
           "slug": "waymo-targets-teenagers-with-new-expansion-strategy"
         },
         {
-          "representativeTitle": "Rabbit AI Agent Operates Without R1 Chip Requirement",
-          "sources": [
-            "The Verge",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
-              "pubDate": "2026-09-22T20:52:40.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdkNjSHROVUVuNTBPdVl3VFRrTVU2YURZLXphNWRVZE5JcE40ZTBobE5zTzBIQjY2NzYyX1B1bFFkNnNCcmllSy1ocWlYYm92YWZfN0pYam81UzNsc2lBaWVRb2ZVa2x3UnVNeW02bGRwaVA0UlVGanhsOFpDaDVlQkhGam4?oc=5",
-              "pubDate": "2026-09-22T20:52:40.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "rabbit-ai-agent-operates-without-r1-chip-requirement"
-        },
-        {
           "representativeTitle": "AI Staff Express Mental Strain Over Societal Fears",
           "sources": [
             "FT International"
@@ -2513,28 +2475,6 @@ export const newsData = {
           "slug": "motorola-debuts-new-phone-with-snapdragon-processor"
         },
         {
-          "representativeTitle": "Rabbit Launches New AI Agent Application Offering Features",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Rabbit Is Back, This Time With an AI Agent App",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/rabbit-r1-os3-jesse-lyu/",
-              "pubDate": "2026-09-22T16:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "rabbit-launches-new-ai-agent-application-offering-features"
-        },
-        {
           "representativeTitle": "Noble Carbon Showcases Painless EV Charger Installation Solutions",
           "sources": [
             "TechCrunch"
@@ -2555,6 +2495,28 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "noble-carbon-showcases-painless-ev-charger-installation-solutions"
+        },
+        {
+          "representativeTitle": "AI Safety Focus Recommended For Tech Founders' Agenda",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
+              "pubDate": "2026-09-22T15:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ai-safety-focus-recommended-for-tech-founders-agenda"
         }
       ]
     },
@@ -2604,6 +2566,28 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "nanoparticles-restore-sight-to-blind-retinas-in-study"
+        },
+        {
+          "representativeTitle": "Research finds ways to manage water and soil.",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Research project identifies pathways to climate-resilient water and soil management",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-09-pathways-climate-resilient-soil.html",
+              "pubDate": "2026-09-23T03:40:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "research-finds-ways-to-manage-water-and-soil"
         },
         {
           "representativeTitle": "Local Sewage System Linked to Rising Cancer Rates",
