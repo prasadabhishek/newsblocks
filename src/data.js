@@ -1,10 +1,110 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-09-23T03:49:14.872Z",
+  "lastUpdated": "2026-09-23T07:50:11.429Z",
   "children": [
     {
       "name": "World",
       "children": [
+        {
+          "representativeTitle": "US and Iran Talk at UNGA Despite Threats",
+          "sources": [
+            "BBC World",
+            "The Guardian",
+            "Al Jazeera",
+            "Euronews",
+            "Le Monde"
+          ],
+          "citationCount": 5,
+          "rawArticles": [
+            {
+              "title": "US and Iran hold first talks since June after Trump's 'annihilation' threat",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/ck62m1631d7po?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-23T06:12:56.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Iran and US have held talks on sidelines of UN summit, says Donald Trump",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/sep/22/iran-us-talks-sidelines-un-summit-trump-israel-us",
+              "pubDate": "2026-09-22T21:21:59.000Z",
+              "tier": 1
+            },
+            {
+              "title": "UNGA Day 1: US and Iran hold talks despite Trump’s threat",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/unga-day-1-us-and-iran-hold-talks-despite-trumps-threat?traffic_source=rss",
+              "pubDate": "2026-09-22T22:48:56.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Oil falls below $100 after Trump reports talks with Iran",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/business/2026/09/23/oil-falls-below-100-after-trump-reports-talks-with-iran",
+              "pubDate": "2026-09-23T05:38:13.000Z",
+              "tier": 2
+            },
+            {
+              "title": "At UN, Trump feigns hesitation between 'deal' and 'annihilation' of Iran",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/09/23/at-un-trump-feigns-hesitation-between-deal-and-annihilation-of-iran_6757841_4.html",
+              "pubDate": "2026-09-23T07:46:03.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 95,
+          "slug": "us-and-iran-talk-at-unga-despite-threats"
+        },
+        {
+          "representativeTitle": "Sri Lanka convicts suspects in past terror attacks",
+          "sources": [
+            "BBC World",
+            "The Guardian",
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cqy7z275yx65o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-22T19:47:44.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Sri Lanka Easter bombings: 15 sentenced to hundreds of years in prison each over deadly terror attacks",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/sep/23/sri-lanka-easter-bombings-15-sentenced-prison-terror-attacks",
+              "pubDate": "2026-09-23T00:43:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Sri Lanka convicts 15 people over 2019 Easter Day bombings",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/sri-lanka-convicts-15-people-over-2019-easter-day-bombings?traffic_source=rss",
+              "pubDate": "2026-09-23T04:08:17.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Sri Lanka Convicts 15 in Easter 2019 Bomb Attacks",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPczEzVUpNNm1yVzEyWWxPZmdWOEdEZnJsMzBodEpjMThnN244U3RWekR4dTIyY0Q4ZURDV1lTZFB3Z0xleFFNLUpuT3Fic1NnUjNXZVZtWVJZQWRVa0s5OUVpQXJhREM0WjJHM3JaZXhucWQ2dUQ0M3QyVlhyOXk1MERWaWt4Z2xoTGU0UEgyaVNiLU9TbVRSLTJ6Y0ZNdw?oc=5",
+              "pubDate": "2026-09-22T19:14:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 80,
+          "slug": "sri-lanka-convicts-suspects-in-past-terror-attacks"
+        },
         {
           "representativeTitle": "US Builds Bases in Greenland Amid NATO Tensions",
           "sources": [
@@ -157,33 +257,63 @@ export const newsData = {
           "slug": "eu-sanctions-move-sparks-ukrainian-diplomatic-anger"
         },
         {
-          "representativeTitle": "Trump Threatens Iran, Predicts Cuba's Collapse at UN",
+          "representativeTitle": "Eleven Killed in South Africa Homestead Shooting Incident",
           "sources": [
             "BBC World",
-            "Euronews",
-            "Le Monde"
+            "Sky News",
+            "Euronews"
           ],
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines",
+              "title": "Eleven killed in mass shooting at house in South Africa",
               "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-23T02:57:00.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/crgjqxzl097eo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-23T07:02:52.000Z",
               "tier": 1
             },
             {
-              "title": "Trump threatens to 'annihilate' Iran at UN, then confirms direct talks",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/09/22/trump-threatens-to-annihilate-iran-at-un-then-confirms-direct-talks",
-              "pubDate": "2026-09-22T18:50:18.000Z",
+              "title": "At least 11 dead in mass shooting at house party in South Africa",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/at-least-11-dead-in-mass-shooting-at-house-party-in-south-africa-13590905",
+              "pubDate": "2026-09-23T05:57:00.000Z",
               "tier": 2
             },
             {
-              "title": "Trump threatens to 'annihilate' Iran and claims Cuba will 'fall' in UN speech",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/09/22/trump-threatens-to-annihilate-iran-and-claims-cuba-will-fall-in-un-speech_6757828_4.html",
-              "pubDate": "2026-09-22T18:28:17.000Z",
+              "title": "Eleven killed in South Africa as gunmen open fire on Durban homestead",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/09/23/eleven-killed-as-gunmen-open-fire-on-durban-homestead",
+              "pubDate": "2026-09-23T06:30:34.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 60,
+          "slug": "eleven-killed-in-south-africa-homestead-shooting-incident"
+        },
+        {
+          "representativeTitle": "France Criticizes World Over Gaza Stance at UNGA",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "France rebukes world over Gaza as Canada, UK back Palestinian state at UNGA",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/23/canada-pledges-aid-for-palestine-as-uk-and-france-demand-action-at-unga?traffic_source=rss",
+              "pubDate": "2026-09-23T02:36:32.000Z",
+              "tier": 1
+            },
+            {
+              "title": "France rebukes world over Gaza as Canada, UK back Palestinian state at UNGA",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTlV6bmg3WGlwandXbTYxdWE5dl9SSHd5WDAxc2pwbXZnbnFCaE40dnN5ZGV0dkR2WU9Yd3lEVkYzRE5CMGh6SnBuMmFGNXZScHlZZ0oxVk9hZFFjcWJhdjBCSlJueElLbERZY0pZS2gtUEtNWGxQSDRlNnJkN1ZmLUdRZTF1cWE2d21tU3F3LVlUMHYxZXNxeHFfNUNNV1h5eEhORENkdDQ4T2c0dUI1Zl9B0gG3AUFVX3lxTE9jNGc0eVY5d3VmcWxmSFZ0TFZFZ1I2MVktcFVUdEhBZEJmQ0ZuYWdyN24yU1Iwb20ydDkyNmdlU0VyRENBT2x6ZnRkY0VMSzdSZGlMZUtfdjc0Q21jTjVMOFhScWVmTENVV2FoQ0pqanZzYzA0RTdSWmdNS0hyd0hFTzl4NG1SOGtfMFJhZ0VCYVhuclBheWRKVEs4NkhxUXdGdXRvTHNsbFJ1TXJJWnhzQ0JvQXhiMA?oc=5",
+              "pubDate": "2026-09-23T05:48:45.000Z",
               "tier": 2
             }
           ],
@@ -191,76 +321,8 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 9,
-          "importance": 70,
-          "slug": "trump-threatens-iran-predicts-cubas-collapse-at-un"
-        },
-        {
-          "representativeTitle": "Sri Lanka Easter Bombings: Fifteen Found Guilty",
-          "sources": [
-            "BBC World",
-            "The Guardian",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cqy7z275yx65o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-22T19:47:44.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Sri Lanka Easter bombings: 15 sentenced to hundreds of years in prison each over deadly terror attacks",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/sep/23/sri-lanka-easter-bombings-15-sentenced-prison-terror-attacks",
-              "pubDate": "2026-09-23T00:43:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Fifteen guilty in 2019 Sri Lanka Easter bombings: What the verdict says",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUEVFNFdaTTRMUHVYMW84WHdPOVpoOWhOZU1saUtEN29pZGFpenBqT2dyZENJd3hnenFiYzJ2UndBVGVEc1I1bHpodVZrbTZscVREZXJTM1hyZFlHSDQ2cURmU0VPYmlLUXJYZmVRclZYTHBzSGpzaWhZelJMbkhRWkRSNGN6a0JNd093UGYyMkZrTVk4RjlpdmlIZlFQQWd4ZkxLVE5SdXBORGRnNXNkX3hkTWVRQdIBuwFBVV95cUxNUlh0NUIybFl6VFpVRVVkSV9yMVZGX0RJSmxCUmZ5VUFwX3dnSWRsMno5U21BejFHSnQxS0FlM2Fibkp3cThaVEtyZFlsWWY0XzdLRC1FeGJBTHNBSURKcjR4ZThhQ0s2MVlRMGZUZEk3S29tQ3dsV1g0MzNXSHJSN2RhTUFkYUNVSmdXd0RyVURGZ01sNnN5ZjVpZTFjZXZNNno2cWNoWVNGQUFnQkduRHl2ZTYyRm1yallF?oc=5",
-              "pubDate": "2026-09-22T16:34:35.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
           "importance": 65,
-          "slug": "sri-lanka-easter-bombings-fifteen-found-guilty"
-        },
-        {
-          "representativeTitle": "US and Iran Talk at UNGA Despite Threats",
-          "sources": [
-            "The Guardian",
-            "Al Jazeera"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Iran and US have held talks on sidelines of UN summit, says Donald Trump",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/sep/22/iran-us-talks-sidelines-un-summit-trump-israel-us",
-              "pubDate": "2026-09-22T21:21:59.000Z",
-              "tier": 1
-            },
-            {
-              "title": "UNGA Day 1: US and Iran hold talks despite Trump’s threat",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/unga-day-1-us-and-iran-hold-talks-despite-trumps-threat?traffic_source=rss",
-              "pubDate": "2026-09-22T22:48:56.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "us-and-iran-talk-at-unga-despite-threats"
+          "slug": "france-criticizes-world-over-gaza-stance-at-unga"
         },
         {
           "representativeTitle": "Trump predicts Iran deal after US midterms.",
@@ -293,6 +355,35 @@ export const newsData = {
           "slug": "trump-predicts-iran-deal-after-us-midterms"
         },
         {
+          "representativeTitle": "Trump Hails Iran Talks Amid Pipeline Restart Signals",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump Hails Iran Talks After ‘Annihilation’ Threat, Saudi Pipeline Set to Restart",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-23/horizons-middle-east-africa-9-23-2026-video",
+              "pubDate": "2026-09-23T06:38:19.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump Hails Iran Talks, China's Xi Unlikely to Bring CEOs to Summit",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-23/the-asia-trade-9-23-2026-video",
+              "pubDate": "2026-09-23T04:47:04.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "trump-hails-iran-talks-amid-pipeline-restart-signals"
+        },
+        {
           "representativeTitle": "Trump Threatens Iran Over UN Platform Speech",
           "sources": [
             "FT International",
@@ -321,103 +412,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 65,
           "slug": "trump-threatens-iran-over-un-platform-speech"
-        },
-        {
-          "representativeTitle": "Typhoon Dujuan Hits Japan With Record Rainfall, Deaths",
-          "sources": [
-            "The Guardian",
-            "Euronews",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "At least four people killed in Japan as typhoon Dujuan triggers heavy rain, landslides",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/sep/22/typhoon-dujuan-japan-latest-weather-millions-told-to-evacuate-tokyo",
-              "pubDate": "2026-09-22T04:48:59.000Z",
-              "tier": 1
-            },
-            {
-              "title": "At least four dead and six missing in Japan day after Typhoon Dujuan made landfall",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/09/22/at-least-four-dead-and-six-missing-in-japan-day-after-typhoon-dujuan-made-landfall",
-              "pubDate": "2026-09-22T20:09:10.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Typhoon Dujuan Brings Record Rain to Japan, Killing 5 People",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ1ZxbG8tekdEbGtEdl9xR2JsUE00SUF5Q1l2eDdTUndlQ3ZRVDVHR1ZHcWR2TXJqS010NFlpTmROUzlfRlJHOHlKelZETUw0MFpnZkxReGdmS0xQSFU0MGcyRU1ESERKQW52SnVPaVRlWnNna1h4bm5ucEpDWXBKV2JzWQ?oc=5",
-              "pubDate": "2026-09-22T12:49:16.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "typhoon-dujuan-hits-japan-with-record-rainfall-deaths"
-        },
-        {
-          "representativeTitle": "Burnham Alerts UN to Russian Disinformation Tactics Now",
-          "sources": [
-            "Bloomberg Markets",
-            "BBC Business"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Burnham Warns UN About Russian Disinformation",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-23/burnham-warns-un-about-russian-disinformation-video",
-              "pubDate": "2026-09-23T02:15:50.000Z",
-              "tier": 1
-            },
-            {
-              "title": "New EU industry rules would damage UK, warns Burnham",
-              "source": "BBC Business",
-              "link": "https://www.bbc.co.uk/news/articles/cv2dwylkl7weo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-22T21:18:40.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "burnham-alerts-un-to-russian-disinformation-tactics-now"
-        },
-        {
-          "representativeTitle": "Trump Meets Iran at UN; Diplomatic Talks Continue",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran war live: Trump confirms ‘very good’ meeting with Iran at UN",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/liveblog/2026/9/23/iran-war-live-trump-confirms-very-good-meeting-with-iran-at-un?traffic_source=rss",
-              "pubDate": "2026-09-23T00:00:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump: US-Iran meeting at UN was ‘very good’",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/22/trump-us-iran-meeting-at-un-was-very?traffic_source=rss",
-              "pubDate": "2026-09-22T20:23:48.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "trump-meets-iran-at-un-diplomatic-talks-continue"
         },
         {
           "representativeTitle": "Trump Threatens Iran: Deal or Annihilation Stated",
@@ -539,6 +533,50 @@ export const newsData = {
           "slug": "un-chief-delivers-final-address-to-general-assembly"
         },
         {
+          "representativeTitle": "Pakistan Drone Deal Links to India Sales Concerns",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Pakistan’s new drone deal is with Trump-backed firm also selling to India",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/23/pakistans-new-drone-deal-is-with-trump-backed-firm-also-selling-to-india?traffic_source=rss",
+              "pubDate": "2026-09-23T07:18:54.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "pakistan-drone-deal-links-to-india-sales-concerns"
+        },
+        {
+          "representativeTitle": "Pakistan blocks Islamabad roads amid Khan protest demands.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Pakistan seals roads to Islamabad before protests for Imran Khan’s release",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/23/pakistan-seals-islamabad-roads-before-protests-for-imran-khans-release?traffic_source=rss",
+              "pubDate": "2026-09-23T06:59:03.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "pakistan-blocks-islamabad-roads-amid-khan-protest-demands"
+        },
+        {
           "representativeTitle": "Trump Threatens Iran; Outlines Winner-Takes-All Vision",
           "sources": [
             "NY Times"
@@ -561,56 +599,144 @@ export const newsData = {
           "slug": "trump-threatens-iran-outlines-winner-takes-all-vision"
         },
         {
-          "representativeTitle": "US Builds Military Bases in Greenland with Denmark",
+          "representativeTitle": "Politician Pledges Repeal of Climate Policies in Australia",
           "sources": [
-            "BBC US",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "US to build two military bases in Greenland under new deal with Denmark",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-22T21:36:55.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US to build two military bases in Greenland under new deal with Denmark",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GaTJlWVBtdFdXZEdHMTFabFI5NTZFckx2VkE3SGNYX1Zma0hZV0U4UDN1QW1iUlVWMFZLczlPbkZZaTBVQldhVFVKZV9HMGRLTkNHTmt2anlYanM?oc=5",
-              "pubDate": "2026-09-22T21:36:55.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "us-builds-military-bases-in-greenland-with-denmark"
-        },
-        {
-          "representativeTitle": "Nations Pledge Aid Amid UNGA Diplomatic Pressure",
-          "sources": [
-            "Al Jazeera"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Canada pledges aid for Palestine as UK and France demand action at UNGA",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/23/canada-pledges-aid-for-palestine-as-uk-and-france-demand-action-at-unga?traffic_source=rss",
-              "pubDate": "2026-09-23T02:36:32.000Z",
+              "title": "Angus Taylor pledges to repeal swathe of climate policies, saying ‘Australia has done its bit’",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/sep/23/angus-taylor-pledges-to-repeal-swathe-of-climate-policies-saying-australia-has-done-its-bit",
+              "pubDate": "2026-09-23T06:45:12.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "politician-pledges-repeal-of-climate-policies-in-australia"
+        },
+        {
+          "representativeTitle": "Chinese CEOs Skip Xi at Trump Summit Meeting",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Chinese CEOs Unlikely to Join Xi at Trump Summit",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-23/the-china-show-9-23-2026-video",
+              "pubDate": "2026-09-23T06:19:50.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
           "sentiment": 0,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "nations-pledge-aid-amid-unga-diplomatic-pressure"
+          "slug": "chinese-ceos-skip-xi-at-trump-summit-meeting"
+        },
+        {
+          "representativeTitle": "US-Iran Talks Boost Diplomatic Hopes For Peace",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US-Iran Talks Revive Hopes for Diplomatic Breakthrough",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-23/insight-with-haslinda-amin-9-23-2026-video",
+              "pubDate": "2026-09-23T06:17:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "us-iran-talks-boost-diplomatic-hopes-for-peace"
+        },
+        {
+          "representativeTitle": "Expert Argues Bypass Won't Shift Gulf Oil Power",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Krishnan: Bypassing Hormuz Won’t Displace Gulf Oil",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-23/krishnan-bypassing-hormuz-won-t-displace-gulf-oil-video",
+              "pubDate": "2026-09-23T05:03:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "expert-argues-bypass-wont-shift-gulf-oil-power"
+        },
+        {
+          "representativeTitle": "Oil Risk Looms as Xi and Trump Meet Diplomatically",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ten Cap's Jun Bei Liu: Oil Remains Key Market Risk as Xi and Trump Meet",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-23/jun-bei-liu-oil-is-key-market-risk-as-xi-and-trump-meet-video",
+              "pubDate": "2026-09-23T04:45:57.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "oil-risk-looms-as-xi-and-trump-meet-diplomatically"
+        },
+        {
+          "representativeTitle": "Trump rallies allies against drug cartels' threat.",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Trump rallies Latin American allies against drug cartels",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/23/trump-rallies-shield-of-the-americas-coalition-against-drug-cartels?traffic_source=rss",
+              "pubDate": "2026-09-23T05:34:40.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump pledges 'unmatched military might' against drug cartels",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPN3ZiLV9yeVlIX0gzQ2dPLUp0QVVZMVFhcVJ4Uy16TktGdjBXdDkzQ2RkVDRIVXUwVHE5TE5mTzY0Y3RQU1ZIcEkxSGVjekN3M1RGc1FLRzgyOHRYWW43bVpsX0FzM3gzbDdBREhBQXRSOHdjSnpsd3E1MFItY3JhcTRlRUJaR09ORWZhQ3NnandqNDNSV1hpRFJvbDZuak9vc216VzM3aVJnc2JSUmJhX3l0VjdRZ0FqTERxQlEtVVNySUE?oc=5",
+              "pubDate": "2026-09-22T20:59:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "trump-rallies-allies-against-drug-cartels-threat"
         },
         {
           "representativeTitle": "UN Official Outlines Plan for Fragmented Global Future",
@@ -623,7 +749,7 @@ export const newsData = {
               "title": "At U.N., Carney Lays Out a Broad Plan for a Divided World",
               "source": "NY Times",
               "link": "https://www.nytimes.com/2026/09/22/world/canada/carney-united-nations-general-assembly.html",
-              "pubDate": "2026-09-23T02:27:48.000Z",
+              "pubDate": "2026-09-23T02:27:49.000Z",
               "tier": 1
             }
           ],
@@ -635,26 +761,64 @@ export const newsData = {
           "slug": "un-official-outlines-plan-for-fragmented-global-future"
         },
         {
-          "representativeTitle": "UK PM Vows Action Over Palestinian Suffering Now",
+          "representativeTitle": "US Signs Arctic Security Pact With Denmark, Greenland",
           "sources": [
-            "Al Jazeera"
+            "ABC News Top",
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Trump signs agreement with Greenland and Denmark, but isn't 'complete' change",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Politics/trump-sign-agreement-leaders-greenland-denmark-united-nations/story?id=136636071",
+              "pubDate": "2026-09-22T19:41:14.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump signs US-Denmark-Greenland agreement to bolster Arctic security after prolonged tensions",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/trump-signs-us-denmark-greenland-agreement-bolster-arctic-136653778",
+              "pubDate": "2026-09-23T07:22:21.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump signs US-Denmark-Greenland agreement to bolster Arctic security after prolonged tensions",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0lZX3FlTXk4M2NIbnVBaWVGQ25TdVlOYTM3V3pzQkVuOTRkYmNFemYyNGVrYVdNT19oOUtBMGZRU3ZiUzVqWTNkVDBTUWJHQjNUSjVacTNoMFhwYS1hbEhrdDdDOTFoTmxtSk1xdVhJZk9xSW0zZlNBQXNIX1FSR1N0bnFkNGVKOTJFU1RfbU9hY2V2cTRQaldfSzZPb2Q1ZGFqRg?oc=5",
+              "pubDate": "2026-09-23T05:23:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "us-signs-arctic-security-pact-with-denmark-greenland"
+        },
+        {
+          "representativeTitle": "Moroccan Elections Amid Ceuta Migrant Influx Concerns",
+          "sources": [
+            "France 24"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "UK Prime Minister vows not to ‘stand by’ as Palestinians suffer",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/uk-prime-minister-vows-not-to-stand-by-as-palestinians-suffer?traffic_source=rss",
-              "pubDate": "2026-09-23T02:24:01.000Z",
+              "title": "Moroccans vote in parliamentary elections after migrant rush to Ceuta",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/africa/20260923-moroccans-vote-in-parliamentary-elections-after-migrant-rush-to-ceuta",
+              "pubDate": "2026-09-23T07:14:59.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "uk-pm-vows-action-over-palestinian-suffering-now"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "moroccan-elections-amid-ceuta-migrant-influx-concerns"
         },
         {
           "representativeTitle": "France boosts driver aid amid fuel price concerns.",
@@ -687,86 +851,114 @@ export const newsData = {
           "slug": "france-boosts-driver-aid-amid-fuel-price-concerns"
         },
         {
-          "representativeTitle": "EU Companies Aid Chinese Rivals in Market Moves",
+          "representativeTitle": "Mamdani Slams Netanyahu Over Israeli Actions Ahead",
           "sources": [
-            "FT International"
+            "Fox News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Why EU companies are helping their Chinese rivals",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/44ef48c9-13a4-4823-aa8f-cc9e2dfb5d17?syn-25a6b1a6=1",
-              "pubDate": "2026-09-22T23:01:06.000Z",
+              "title": "Mamdani fires back at Netanyahu, calls Israeli leader 'architect of horrific genocide' ahead of UN visit",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/politics/mamdani-fires-back-netanyahu-calls-israeli-leader-architect-horrific-genocide-ahead-un-visit",
+              "pubDate": "2026-09-23T06:59:30.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "mamdani-slams-netanyahu-over-israeli-actions-ahead"
+        },
+        {
+          "representativeTitle": "Xi Visits Washington Amid Trump's Rare Welcome",
+          "sources": [
+            "ABC News US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China's Xi kicks off state visit to Washington on Wednesday with a rare planeside welcome from Trump",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/chinas-xi-kicks-off-state-visit-washington-wednesday-136673852",
+              "pubDate": "2026-09-23T06:50:20.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "xi-visits-washington-amid-trumps-rare-welcome"
+        },
+        {
+          "representativeTitle": "US Builds Military Bases in Greenland with Denmark",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US to build two military bases in Greenland under new deal with Denmark",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-22T21:36:55.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "US",
           "aiCategory": "World",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "eu-companies-aid-chinese-rivals-in-market-moves"
+          "slug": "us-builds-military-bases-in-greenland-with-denmark"
         },
         {
-          "representativeTitle": "Oligarch Evades Sanctions Via French Diplomatic Request",
+          "representativeTitle": "Australia criticizes US online safety law intervention.",
           "sources": [
-            "Euronews",
-            "Le Monde",
-            "Google World"
+            "The Guardian"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "EU renews Russia sanctions but removes Usmanov at France's request",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/my-europe/2026/09/22/eu-renews-russia-sanctions-but-removes-usmanov-at-frances-request",
-              "pubDate": "2026-09-22T14:47:22.000Z",
-              "tier": 2
-            },
+              "title": "Australia news live: Shoebridge says US submission on online safety laws an ‘extraordinary intervention in our domestic politics’",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/live/2026/sep/23/anthony-albanese-un-assembly-ai-social-media-labor-coalition-abc-four-corners-ntwnfb",
+              "pubDate": "2026-09-23T07:31:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "australia-criticizes-us-online-safety-law-intervention"
+        },
+        {
+          "representativeTitle": "US Deportation Sends Individual to Unwelcoming Nation",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Alisher Usmanov, Russian-Uzbek oligarch, escapes EU sanctions at France's request",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/09/22/alisher-usmanov-russian-uzbek-oligarch-escapes-eu-sanctions-at-france-s-request_6757823_4.html",
-              "pubDate": "2026-09-22T16:05:40.000Z",
-              "tier": 2
-            },
-            {
-              "title": "EU renews Russia sanctions, drops Russian billionaires Usmanov and Fridman",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMnhFeHB1dlJzNUFaZkYzM0d3cFNyaDI3bFo3VjJFYW5wc0dhandneXlLVkstbVhfd0REaXJrUmx2TF9tRTd0QzdoTExocDNHSFhwVTlVRkZ6RzhKMU4yckMwNzEzS0xtalhQQl9vSkpBdjRxbUFVczFVc1NEQVJQM3R0NEdaQThjX0owTkdxbUcxb3JuM1c3XzNCVGN4dXV4OTNBeEQ3bURQWGxnRmdaVw?oc=5",
-              "pubDate": "2026-09-22T17:37:37.000Z",
-              "tier": 2
+              "title": "‘I had never heard of Eswatini’: Deported by the US to a country that rejects them",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/africa/20260923-never-heard-eswatini-deported-by-us-country-that-rejects-them-forbidden-stories",
+              "pubDate": "2026-09-23T06:56:42.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "oligarch-evades-sanctions-via-french-diplomatic-request"
-        },
-        {
-          "representativeTitle": "Prosecutors join oil baron in Swiss investigation probe.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Top UK graft prosecutors joined Trump’s Venezuela oil baron during Swiss probe",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/f2f37449-f9c7-4556-9f97-4cca735980e4?syn-25a6b1a6=1",
-              "pubDate": "2026-09-22T20:00:05.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "prosecutors-join-oil-baron-in-swiss-investigation-probe"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "us-deportation-sends-individual-to-unwelcoming-nation"
         },
         {
           "representativeTitle": "Morocco Election Shaped by Ceuta, Israel, Football",
@@ -799,136 +991,26 @@ export const newsData = {
           "slug": "morocco-election-shaped-by-ceuta-israel-football"
         },
         {
-          "representativeTitle": "Man convicted of shooting Palestinian students in U.S.",
+          "representativeTitle": "Greek PM discusses AI challenges amid ongoing struggles.",
           "sources": [
-            "Washington Post"
+            "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Man convicted of shooting Palestinian students in U.S. after Oct. 7 attack",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/nation/2026/09/22/man-convicted-shooting-palestinian-students-us-after-oct-7-attacks/",
-              "pubDate": "2026-09-22T17:39:38.000Z",
+              "title": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
+              "pubDate": "2026-09-23T04:59:08.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "man-convicted-of-shooting-palestinian-students-in-us"
-        },
-        {
-          "representativeTitle": "Australia News: Police Offer Reward; Trump Meets Albanese",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Australia news live: police offer $1m for information about Gus Lamont; Trump and Albanese ‘catch up’ at UN summit",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/live/2026/sep/23/anthony-albanese-un-assembly-ai-social-media-labor-coalition-abc-four-corners-ntwnfb",
-              "pubDate": "2026-09-23T03:31:21.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Technology",
           "aiCategory": "World",
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "australia-news-police-offer-reward-trump-meets-albanese"
-        },
-        {
-          "representativeTitle": "Cuban Officials Walk Out After Trump Remarks",
-          "sources": [
-            "NY Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cuban officials walk out after Trump calls the nation a ‘failed state’ in his speech.",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news/cuban-officials-walk-out-after-trump-calls-the-nation-a-failed-state-in-his-speech",
-              "pubDate": "2026-09-22T17:11:26.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "cuban-officials-walk-out-after-trump-remarks"
-        },
-        {
-          "representativeTitle": "U.S. Service Member Dies Amid Ongoing Iran Conflict",
-          "sources": [
-            "Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Another U.S. service member dies amid Iran war, Pentagon tally shows",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/politics/2026/09/22/pentagon-adds-one-death-tally-troop-fatalities-amid-iran-war/",
-              "pubDate": "2026-09-22T17:10:39.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "us-service-member-dies-amid-ongoing-iran-conflict"
-        },
-        {
-          "representativeTitle": "Venezuelans Protest Interim Leader at UN Headquarters",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Venezuelans protest interim leader Delcy Rodriguez at UN headquarters",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/aje-onl-nf_venezuelans-protest-delcy-rodriguez-at-unga-220926?traffic_source=rss",
-              "pubDate": "2026-09-23T03:08:51.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "venezuelans-protest-interim-leader-at-un-headquarters"
-        },
-        {
-          "representativeTitle": "South Sudan Leader Dissolves Government Before Elections",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "South Sudan’s Kiir dissolves government ahead of first national elections",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/23/south-sudan-dissolves-government-ahead-of-first-ever-national-elections?traffic_source=rss",
-              "pubDate": "2026-09-23T02:00:11.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "south-sudan-leader-dissolves-government-before-elections"
+          "slug": "greek-pm-discusses-ai-challenges-amid-ongoing-struggles"
         },
         {
           "representativeTitle": "Mexico Bans Phones in Schools Amid Growing Concerns",
@@ -951,28 +1033,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "mexico-bans-phones-in-schools-amid-growing-concerns"
-        },
-        {
-          "representativeTitle": "Trump's Stance on Houthis Worries Saudi Arabia",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘MBS will not forget’: Trump’s reluctance to fight Houthis rattles Saudi Arabia",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/99457bcb-d98f-4719-a203-688daefcc3f7?syn-25a6b1a6=1",
-              "pubDate": "2026-09-22T11:00:02.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trumps-stance-on-houthis-worries-saudi-arabia"
         }
       ]
     },
@@ -980,50 +1040,110 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Trump Supports Diesel Export Ban to Lower Energy Costs",
+          "representativeTitle": "Trump Admin Targets ACA Members Over Fraud Claims",
           "sources": [
-            "BBC US",
-            "Google US",
-            "BBC Business",
-            "Google Stocks"
+            "NPR",
+            "ABC News Top",
+            "ABC News US",
+            "Google US"
           ],
           "citationCount": 4,
           "rawArticles": [
             {
-              "title": "Trump says he would back ban on diesel exports",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cmkg7560epw0o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-22T20:41:13.000Z",
-              "tier": 1
+              "title": "Trump administration to remove 760,000 Affordable Care Act enrollees over fraud claims",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/09/23/g-s1-144623/trump-affordable-care-act",
+              "pubDate": "2026-09-23T05:26:31.000Z",
+              "tier": 2
             },
             {
-              "title": "Trump says he backs diesel export ban to curb soaring energy costs",
+              "title": "Trump administration to remove 760,000 Affordable Care Act enrollees over fraud claims",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/US/wireStory/trump-administration-remove-760000-affordable-care-act-enrollees-136657561",
+              "pubDate": "2026-09-22T19:10:29.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump administration to remove 760,000 Affordable Care Act enrollees over fraud claims",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/trump-administration-remove-760000-affordable-care-act-enrollees-136657561",
+              "pubDate": "2026-09-22T19:10:29.000Z",
+              "tier": 2
+            },
+            {
+              "title": "US halts Obamacare enrollment for over 760,000 enrollees, claiming fraud",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1WWjhXb2lxMkhCaDhhMU9OTnVzUUhHVWNiaXJhUHpIOFgwcFlsWS1zQk54ZHZwS1hNTkJfVUdRWl9WOEZudTJERkFrWUVzMGxsMlZpWmdyVGs3TnRJRW50ZmlmTFVsaUNtZmg2aHFSdTVFY1BYY2NCUVg4QQ?oc=5",
-              "pubDate": "2026-09-22T19:48:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump says he would back ban on diesel exports",
-              "source": "BBC Business",
-              "link": "https://www.bbc.co.uk/news/articles/cmkg7560epw0o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-22T20:41:13.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump says he backs diesel export ban to curb soaring energy costs",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1WWjhXb2lxMkhCaDhhMU9OTnVzUUhHVWNiaXJhUHpIOFgwcFlsWS1zQk54ZHZwS1hNTkJfVUdRWl9WOEZudTJERkFrWUVzMGxsMlZpWmdyVGs3TnRJRW50ZmlmTFVsaUNtZmg2aHFSdTVFY1BYY2NCUVg4QQ?oc=5",
-              "pubDate": "2026-09-23T03:19:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb2p2ZVlLTUdVUmo3aWtZRDhIbjJYQkxyYjc0R0hsRmRzMUw5M3hZNlE5a1M1SE9hZ2ZIRXFXUnV3bWp6SGx6RjRETWZ3MFNhWG50SjBwOThJemdpcldyNXRlVDNadXUzZktoc1gtLVhMbmk5UWpPM1VOY045Sks1c19YNk5YY2ZRWXRPMHQwZkdzRE5XeG44MVlJMktkbEZ0aGhfb3EzOUtPV210NXc?oc=5",
+              "pubDate": "2026-09-22T20:49:47.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 60,
-          "slug": "trump-supports-diesel-export-ban-to-lower-energy-costs"
+          "slug": "trump-admin-targets-aca-members-over-fraud-claims"
+        },
+        {
+          "representativeTitle": "Committee Chair Criticizes Trump-Xi Meeting Details",
+          "sources": [
+            "Washington Post",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Senate Armed Services Committee chair criticizes Trump-Xi meeting",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/nation/2026/09/22/senate-armed-services-committee-chair-criticizes-trump-xi-meeting/",
+              "pubDate": "2026-09-22T21:22:46.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Senate Armed Services Committee chair criticizes Trump-Xi meeting",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMEh2UEtHeEY1Rzdna3FNLVZpT0E2Vk9FWTd0Z2NvN3JtSHE5T0QtQ09wVlgxanVEaWluTmhEdFVOX0xtTHdrajRXbmFZOU1LWHJNbEROOGhYZC1hM05raVdRRElPSjhGOXltaTlyM01xSU9zeno3N1lWN2NLNExwM2V5c29tSTN1R1ZiOG1hdmVwNGtIcVY4VGpIeTN1VFg1SWFNWWMzaVZfS0YzQ2tHZG9hRFlfdw?oc=5",
+              "pubDate": "2026-09-23T04:22:46.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "committee-chair-criticizes-trump-xi-meeting-details"
+        },
+        {
+          "representativeTitle": "Trump Considers Diesel Export Ban Amid Fuel Price Spikes",
+          "sources": [
+            "FT International",
+            "WSJ US Business"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Trump says he would back US diesel export ban",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/22d1154b-8bea-4f8d-bfc4-5db7761d3612?syn-25a6b1a6=1",
+              "pubDate": "2026-09-22T21:23:42.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump Weighs Diesel Export Ban as Fuel Prices Soar",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/energy-oil/trump-weighs-diesel-export-ban-as-fuel-prices-soar-6d1a3d2e?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-09-22T20:34:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "trump-considers-diesel-export-ban-amid-fuel-price-spikes"
         },
         {
           "representativeTitle": "Grand jury declines indictment in death case.",
@@ -1049,10 +1169,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Nolan Wells' family pushes back after grand jury declines to recommend charges in his death",
+              "title": "Questions remain after grand jury declines indictment in Nolan Wells' death",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNlgwYUJwNWRGZ082WTh4TDBuWV9mMzEyUFhmWTNuaHVxQTJYcXBrMXp2eVprcDkxOXpUN2NwYTg4SUdMUlhBd204cTBOeVlEWVhPNW05UVAzRkxBVENaUjc0VnNDVFVxT1UzckVPTXBLaDRIRjVWaE1tSUN3X3BfNEZMaXBtVXo4Zmc?oc=5",
-              "pubDate": "2026-09-22T23:09:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRFBLanZUZVhqckxTVEdlZ1lSbHhsNV9uQUp0NWxFS2p3bE8tTzR4WXk3VXVjeFVfSHZXOUIwR0RGMV9oZEtqNDdSU2c0UG5aM3V0bUFvX1M3VHhjMzdnRGtkb3pDbDZSb2xieExBOXZ1dVg1ZlJWUDIyaTZWMi0xLVhnR1l6X2lFdTlra0pzcW5Sa0dDQTl6ZVpjX3ZkT0hTWXIxQjBzaHdpem1TYUFPSXVkV0pLSUlJNUhR?oc=5",
+              "pubDate": "2026-09-22T21:47:51.000Z",
               "tier": 2
             }
           ],
@@ -1064,42 +1184,56 @@ export const newsData = {
           "slug": "grand-jury-declines-indictment-in-death-case"
         },
         {
-          "representativeTitle": "Trump Admin Targets ACA Members Over Fraud Claims",
+          "representativeTitle": "White House Defends Trump Ban on Media Outlets",
           "sources": [
-            "ABC News Top",
-            "ABC News US",
+            "BBC US",
             "Google US"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Trump administration to remove 760,000 Affordable Care Act enrollees over fraud claims",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/wireStory/trump-administration-remove-760000-affordable-care-act-enrollees-136657561",
-              "pubDate": "2026-09-22T19:10:29.000Z",
-              "tier": 2
+              "title": "What is the White House pool and why is it in a row with Trump?",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/c8dx5dy5rzz2o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-22T19:25:16.000Z",
+              "tier": 1
             },
             {
-              "title": "Trump administration to remove 760,000 Affordable Care Act enrollees over fraud claims",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/trump-administration-remove-760000-affordable-care-act-enrollees-136657561",
-              "pubDate": "2026-09-22T19:10:29.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump officials cut 760,000 enrollees from ACA, claiming fraud",
+              "title": "White House Defends Trump’s Ban on CNN, MS NOW and Politico in Court Filing",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYjRCbkFFOWRvVUNzczF1Q25yV3hYZ0o3WHVMVHItWjZEb1Fmd3lId00yblR2ZXNJSFNxY2JMRU8tcjVOR0NxLW1GWm16ZVFiOVVvcDVUTmJlamNuV2U0amZXYUs2Z2JBZzZQNTNaZmcyWmh2YUkxMUR0UnZPRkVieTRTTm9ITi1iSTdDRjE5dWhISC1sZnVyUXBsRWZNblpkYURrUDdNajNtaHhDRmFGVXoyd1E?oc=5",
-              "pubDate": "2026-09-23T01:27:47.000Z",
+              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTGlOMHQ1di1TeU1UdFdQTWdONmd5SXo3dkdJQlV3VW9PWFBSU1c2UXlndTQwX1ZIYjFvYy00WlJfeWluVmp2aDNGU2lTYkpIMzJHTFEyRlpOQnl4YmZiNTRNOHAxVE1GZzFaZmp3Qm9WS256WnM2dmpkaTVqWWlQSFU1NVo?oc=5",
+              "pubDate": "2026-09-23T05:06:39.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "white-house-defends-trump-ban-on-media-outlets"
+        },
+        {
+          "representativeTitle": "Fed and Trump Clash Over Economic Policy Direction",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The battle between the Fed and Trump",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/d2e5ed9c-a123-4275-afc7-14b75b9337a0?syn-25a6b1a6=1",
+              "pubDate": "2026-09-23T04:00:29.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": 0,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "trump-admin-targets-aca-members-over-fraud-claims"
+          "slug": "fed-and-trump-clash-over-economic-policy-direction"
         },
         {
           "representativeTitle": "Officer's Body Camera Absence Cited After Shooting",
@@ -1120,7 +1254,7 @@ export const newsData = {
               "title": "ICE officer in Texas shooting was recruit not using a body camera",
               "source": "Google US",
               "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMkJIakRsUzhMVkhDTFZlRVhvQjZWV1MzYy1hWEd6bVhpMGVWRks3M1h1N3BuUTVJMVNlcmtLa3VBM0ladFhkVTRfNkhhV1lReThEN0lTV2JmQVlodTlrSWhfUjM5eVROcUVBYThvMU9RX1VBN3pjR2dRYXVDWmVsdTIyM0xfVzNsUVpTUjltS2Y4RnRYbEw4VzJlYVdCT1Iwb2pnTERaUGhuVnozTk5TWm8wOEs0b0NUODF3WW9VUGd2cEU?oc=5",
-              "pubDate": "2026-09-23T03:25:40.000Z",
+              "pubDate": "2026-09-23T04:32:00.000Z",
               "tier": 2
             }
           ],
@@ -1130,6 +1264,58 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 50,
           "slug": "officers-body-camera-absence-cited-after-shooting"
+        },
+        {
+          "representativeTitle": "Kagan declines appeal regarding abortion refusal case.",
+          "sources": [
+            "Washington Post",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Kagan declines appeal from surrogate mother who refused to get abortion",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/politics/2026/09/22/justice-kagan-rules-against-surrogate-mother-who-refused-get-abortion/",
+              "pubDate": "2026-09-22T21:09:11.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Kagan declines appeal from surrogate mother who refused to get abortion",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPazVkR0k2ak9YNTdoNzlxQjFpUVhycTR0UzQ4ai01bnZWRTlnLXpKOVNKQlFSVmJBa3ViblNSZEJuNjlzOUc0cDRqZWV3RDRfZnJCdDVIckFzSU5QeUhxd1FTQ1lzUnRhX3dQczdxWkhPSDg2OUItaG9ZOW1GSG4zNFR3Z3ZVOTc1NGxySmdMeVdQcV9FRHVlOUYwR2xCUFhtZXowSTR4dWZLTF9ENDZDc2lGM3Z4dVZFdjRHWUhB?oc=5",
+              "pubDate": "2026-09-23T04:09:11.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "kagan-declines-appeal-regarding-abortion-refusal-case"
+        },
+        {
+          "representativeTitle": "Trump accuses media of falsehoods before court hearing.",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump administration accuses banned media outlets of 'falsehoods' ahead of court hearing",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6790yrgzq25o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-23T06:47:49.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "trump-accuses-media-of-falsehoods-before-court-hearing"
         },
         {
           "representativeTitle": "Hacking Group Claims FBI Data Breach, Steals Records",
@@ -1154,34 +1340,40 @@ export const newsData = {
           "slug": "hacking-group-claims-fbi-data-breach-steals-records"
         },
         {
-          "representativeTitle": "Influencer Charged With Rape of Minor in US",
+          "representativeTitle": "Carney discusses limits of defying Trump's influence.",
           "sources": [
-            "SCMP",
-            "Sky News",
-            "Le Monde"
+            "FT International"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US ‘looksmaxxing’ influencer Clavicular charged with raping 17-year-old",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3368441/looksmaxxing-influencer-clavicular-charged-raping-us-girl-17?utm_source=rss_feed",
-              "pubDate": "2026-09-22T21:50:12.000Z",
-              "tier": 2
-            },
+              "title": "Mark Carney and the limits of defying Donald Trump",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/4a808a51-c6e9-4ade-b1f7-95c27fd1aa1e?syn-25a6b1a6=1",
+              "pubDate": "2026-09-23T04:00:09.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "carney-discusses-limits-of-defying-trumps-influence"
+        },
+        {
+          "representativeTitle": "Family Pleads For Missing Person; Reward Offered",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Influencer charged over alleged rape of 17-year-old",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/looksmaxxing-influencer-braden-clavicular-peters-charged-over-alleged-rape-of-17-year-old-13590870",
-              "pubDate": "2026-09-22T20:58:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "'Looksmaxxing' influencer known as 'Clavicular' is charged with rape",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/09/23/looksmaxxing-influencer-known-as-clavicular-is-charged-with-rape_6757835_4.html",
-              "pubDate": "2026-09-23T02:16:14.000Z",
-              "tier": 2
+              "title": "Gus Lamont’s parents make emotional plea as $1m reward offered for information about disappearance",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/sep/23/missing-boy-gus-lamont-parents-video-message-1m-reward-announced-ntwnfb",
+              "pubDate": "2026-09-23T07:21:19.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "World",
@@ -1189,7 +1381,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "influencer-charged-with-rape-of-minor-in-us"
+          "slug": "family-pleads-for-missing-person-reward-offered"
         },
         {
           "representativeTitle": "Trump Admin Removes Obamacare Enrollments Over Alleged Fraud",
@@ -1212,6 +1404,28 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "trump-admin-removes-obamacare-enrollments-over-alleged-fraud"
+        },
+        {
+          "representativeTitle": "Court hears testimony regarding alleged threat incident.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Jesse Baird ‘petrified’ of Beau Lamarre-Condon and kept repeating ‘he has a gun’, court hears",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/sep/23/beau-lamarre-condon-trial-jesse-baird-luke-davies-ntwnfb",
+              "pubDate": "2026-09-23T07:02:53.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "court-hears-testimony-regarding-alleged-threat-incident"
         },
         {
           "representativeTitle": "Kratom Found Near Two Deceased College Students",
@@ -1251,36 +1465,6 @@ export const newsData = {
           "slug": "kratom-found-near-two-deceased-college-students"
         },
         {
-          "representativeTitle": "Burnham meets Trump; connection touted in New York.",
-          "sources": [
-            "BBC World",
-            "Euronews"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Burnham 'gets it' says Trump, as the two leaders meet for first time",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/cxly57mv4767o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-22T19:15:57.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Burnham touts 'good connection' with Trump as pair meet for first time in New York",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/09/22/burnham-touts-good-connection-with-trump-as-pair-meet-for-first-time-in-new-york",
-              "pubDate": "2026-09-22T19:57:38.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "burnham-meets-trump-connection-touted-in-new-york"
-        },
-        {
           "representativeTitle": "Bodycam Captures After ICE Shooting of Migrant",
           "sources": [
             "NBC News",
@@ -1311,168 +1495,6 @@ export const newsData = {
           "slug": "bodycam-captures-after-ice-shooting-of-migrant"
         },
         {
-          "representativeTitle": "Operative Paid To Spread Rumors About Rival's Affair",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Liberal operative was offered $1,000 to get media to cover ‘grubby rumour’ rival was having affair, Icac hears",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/sep/23/sharangan-maheswaran-jean-nassif-david-elliott-affair-rumour-icac-ntwnfb",
-              "pubDate": "2026-09-23T03:31:59.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "operative-paid-to-spread-rumors-about-rivals-affair"
-        },
-        {
-          "representativeTitle": "White House launches media platform amid news bans.",
-          "sources": [
-            "NPR",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "White House launches 'Trump TV' after ban on major news outlets",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/09/22/nx-s1-5977768/trump-tv-media-ban-white-house",
-              "pubDate": "2026-09-22T21:31:01.000Z",
-              "tier": 2
-            },
-            {
-              "title": "White House launches 'Trump TV' after ban on major news outlets",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRllOUVRILTZsSndKZl9hRWVKMjdBZGJvdjIwblpKNlVPTEdsU1RlSGF1TEJveWMxWkFHREpCSnh5eXpFdVF2anJnWF9tU2tsc29jdmVsd2xSYWpCVDVreEx1Y2NCdzJZMjhVT055YW9jc1d0d25raDBBUVRPS25aeQ?oc=5",
-              "pubDate": "2026-09-22T21:31:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "white-house-launches-media-platform-amid-news-bans"
-        },
-        {
-          "representativeTitle": "Liberals dismiss Joyce's One Nation deal claims.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Senior Liberals rubbish Barnaby Joyce’s claim of talks over deal with One Nation as ‘figment of his imagination’",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/sep/23/liberals-rubbish-barnaby-joyce-one-nation-coalition-supply-confidence-deal-ntwnfb",
-              "pubDate": "2026-09-23T03:18:02.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "liberals-dismiss-joyces-one-nation-deal-claims"
-        },
-        {
-          "representativeTitle": "Committee Chair Criticizes Trump-Xi Meeting Details",
-          "sources": [
-            "Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Senate Armed Services Committee chair criticizes Trump-Xi meeting",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/nation/2026/09/22/senate-armed-services-committee-chair-criticizes-trump-xi-meeting/",
-              "pubDate": "2026-09-22T21:22:46.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "committee-chair-criticizes-trump-xi-meeting-details"
-        },
-        {
-          "representativeTitle": "Court hears testimony regarding alleged threat incident.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Jesse Baird ‘petrified’ of Beau Lamarre-Condon and kept repeating ‘he has a gun’, court hears",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/sep/23/beau-lamarre-condon-trial-jesse-baird-luke-davies-ntwnfb",
-              "pubDate": "2026-09-23T02:21:57.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "court-hears-testimony-regarding-alleged-threat-incident"
-        },
-        {
-          "representativeTitle": "Hacked Passwords Threaten Critical Water Infrastructure Security",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Stolen passwords are exposing America’s water providers to hackers",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/22/stolen-passwords-are-exposing-americas-water-providers-to-hackers/",
-              "pubDate": "2026-09-22T15:50:58.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "hacked-passwords-threaten-critical-water-infrastructure-security"
-        },
-        {
-          "representativeTitle": "Trump Rejects AI Control Scheme, Impacts Burnham",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump rejects ‘globalist scheme’ to control AI in blow to Burnham",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/0e03521f-c4f1-4242-8fff-0e34a27a26db?syn-25a6b1a6=1",
-              "pubDate": "2026-09-22T23:42:36.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "trump-rejects-ai-control-scheme-impacts-burnham"
-        },
-        {
           "representativeTitle": "Judge blocks deportation of injured DoorDash driver.",
           "sources": [
             "BBC US"
@@ -1493,6 +1515,36 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "judge-blocks-deportation-of-injured-doordash-driver"
+        },
+        {
+          "representativeTitle": "Trump Supports Diesel Export Ban to Lower Energy Costs",
+          "sources": [
+            "BBC Business",
+            "Google Stocks"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Trump says he would back ban on diesel exports",
+              "source": "BBC Business",
+              "link": "https://www.bbc.co.uk/news/articles/cmkg7560epw0o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-22T20:41:13.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump says he backs diesel export ban to curb soaring energy costs",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1WWjhXb2lxMkhCaDhhMU9OTnVzUUhHVWNiaXJhUHpIOFgwcFlsWS1zQk54ZHZwS1hNTkJfVUdRWl9WOEZudTJERkFrWUVzMGxsMlZpWmdyVGs3TnRJRW50ZmlmTFVsaUNtZmg2aHFSdTVFY1BYY2NCUVg4QQ?oc=5",
+              "pubDate": "2026-09-23T03:19:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "trump-supports-diesel-export-ban-to-lower-energy-costs"
         },
         {
           "representativeTitle": "Major US Reservoir Hits Record Low Water Levels Now",
@@ -1547,17 +1599,17 @@ export const newsData = {
           "slug": "grand-jury-finds-no-charges-in-death-case"
         },
         {
-          "representativeTitle": "Kagan declines appeal regarding abortion refusal case.",
+          "representativeTitle": "Trump suggests banning diesel exports; market impact looms.",
           "sources": [
-            "Washington Post"
+            "BBC US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Kagan declines appeal from surrogate mother who refused to get abortion",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/politics/2026/09/22/justice-kagan-rules-against-surrogate-mother-who-refused-get-abortion/",
-              "pubDate": "2026-09-22T21:09:11.000Z",
+              "title": "Trump says he would back ban on diesel exports",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cmkg7560epw0o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-22T20:41:13.000Z",
               "tier": 1
             }
           ],
@@ -1566,7 +1618,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "kagan-declines-appeal-regarding-abortion-refusal-case"
+          "slug": "trump-suggests-banning-diesel-exports-market-impact-looms"
         }
       ]
     },
@@ -1574,83 +1626,39 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "Nasdaq Hits Record High Amid Accelerating AI Momentum",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Wall Street’s Nasdaq hits all-time high as AI frenzy gathers pace",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/economy/2026/9/23/wall-streets-nasdaq-hits-all-time-high-as-ai-frenzy-gathers-pace?traffic_source=rss",
-              "pubDate": "2026-09-23T02:50:36.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Stocks",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "nasdaq-hits-record-high-amid-accelerating-ai-momentum"
-        },
-        {
-          "representativeTitle": "Nasdaq Rises to New High Amid AI Investment Surge",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Nasdaq 100 rises to new high as ‘AI Fomo’ returns",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/2c60812b-77b4-4de5-a276-5e3eb2ceb5c3?syn-25a6b1a6=1",
-              "pubDate": "2026-09-22T20:28:13.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Stocks",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "nasdaq-rises-to-new-high-amid-ai-investment-surge"
-        },
-        {
-          "representativeTitle": "Indian Consumer Stocks Rally Amid Festive Spending Hopes",
+          "representativeTitle": "Chinese AI Stocks Drop Following DeepSeek Report",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "India Consumer Stocks Draw Bullish Bets on Festive Spending",
+              "title": "Chinese AI Stocks Fall on Report of DeepSeek, Moonshot Probe",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/newsletters/2026-09-23/india-consumer-stocks-draw-bullish-bets-on-festive-spending",
-              "pubDate": "2026-09-23T02:30:53.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-23/chinese-ai-firms-fall-on-report-of-deepseek-moonshot-probe",
+              "pubDate": "2026-09-23T05:00:44.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "indian-consumer-stocks-rally-amid-festive-spending-hopes"
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "chinese-ai-stocks-drop-following-deepseek-report"
         },
         {
-          "representativeTitle": "NSE IPO Listing Details Explained For Investors Now",
+          "representativeTitle": "FTSE Futures Rise; Pound Nears Key Support Level",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "India’s NSE IPO: How the National Stock Exchange Listing Will Work",
+              "title": "FTSE 100 Live: Futures Higher, Pound Slips Close to $1.33",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-23/india-s-nse-ipo-how-the-national-stock-exchange-listing-will-work",
-              "pubDate": "2026-09-23T01:50:43.000Z",
+              "link": "https://www.bloomberg.com/news/live-blog/2026-09-23/ftse-100-stocks-pound-gilts-pmi-what-s-moving-uk-markets-right-now-markets-today",
+              "pubDate": "2026-09-23T05:39:54.000Z",
               "tier": 1
             }
           ],
@@ -1659,29 +1667,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "nse-ipo-listing-details-explained-for-investors-now"
-        },
-        {
-          "representativeTitle": "Traders Bet on Won's Continued Asia Rally Momentum",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Option Traders Bet Won’s Asia-Leading Rally Has Further to Run",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-23/option-traders-bet-won-s-asia-leading-rally-has-further-to-run",
-              "pubDate": "2026-09-23T01:11:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "traders-bet-on-wons-continued-asia-rally-momentum"
+          "slug": "ftse-futures-rise-pound-nears-key-support-level"
         }
       ]
     },
@@ -1689,26 +1675,48 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "China's Coking Coal Supply Faces Long-Term Shortage",
+          "representativeTitle": "Oil Prices Face Extended Downtrend After Twelve Months",
           "sources": [
-            "Bloomberg Markets"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "China’s Coking Coal Supply Squeeze Seen Lingering Into 2027",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-23/china-s-coking-coal-supply-squeeze-seen-lingering-into-2027",
-              "pubDate": "2026-09-23T03:00:21.000Z",
+              "title": "Oil price on track for longest losing streak in more than 12 months",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/0a5a5b70-adea-40af-9933-1f7679f9f359?syn-25a6b1a6=1",
+              "pubDate": "2026-09-23T05:35:38.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Business",
           "aiCategory": "Business",
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "chinas-coking-coal-supply-faces-long-term-shortage"
+          "slug": "oil-prices-face-extended-downtrend-after-twelve-months"
+        },
+        {
+          "representativeTitle": "Tax Warning Spurs Global Banks Away From London",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Global banks warn UK windfall tax will trigger shift away from London",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/ab694096-0acf-4e13-9726-ec339a082a99?syn-25a6b1a6=1",
+              "pubDate": "2026-09-23T04:00:29.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "tax-warning-spurs-global-banks-away-from-london"
         },
         {
           "representativeTitle": "Qantas to Launch Direct Sydney-New York Service",
@@ -1741,83 +1749,39 @@ export const newsData = {
           "slug": "qantas-to-launch-direct-sydney-new-york-service"
         },
         {
-          "representativeTitle": "ADB Warns Asia Faces Inflation Pressure Through 2027",
+          "representativeTitle": "Asset Doubt Looms Over Radiant Following Bigbubble Hunt",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Asia to Face Sustained Inflation Pressure Into 2027, ADB Warns",
+              "title": "Hunt for Bigbubble Casts Doubt on Radiant’s $1 Billion in Assets",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-23/asia-to-face-sustained-inflation-pressure-into-2027-adb-warns",
-              "pubDate": "2026-09-23T00:00:00.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-23/hunt-for-bigbubble-casts-doubt-on-radiant-s-1-billion-in-assets",
+              "pubDate": "2026-09-23T06:23:56.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "adb-warns-asia-faces-inflation-pressure-through-2027"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "asset-doubt-looms-over-radiant-following-bigbubble-hunt"
         },
         {
-          "representativeTitle": "HK Official Urges Boosting Yuan Product Offerings",
+          "representativeTitle": "Ghana Bank Targets US Market Amid African Growth Hopes",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Paul Chan: HK Sees Need to Enrich Yuan Products",
+              "title": "Ghana International Bank Eyes US Market as Africa Appetite Grows",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-23/paul-chan-hk-sees-need-to-enrich-yuan-products-video",
-              "pubDate": "2026-09-23T03:33:39.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "hk-official-urges-boosting-yuan-product-offerings"
-        },
-        {
-          "representativeTitle": "Qantas CEO Discusses Future of Long-Haul Travel Demand",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Qantas CEO Vanessa Hudson on Long-Haul Demand",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-23/vanessa-hudson-quantas-airways-ceo",
-              "pubDate": "2026-09-23T03:19:22.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "qantas-ceo-discusses-future-of-long-haul-travel-demand"
-        },
-        {
-          "representativeTitle": "South Africa Secures Gulf Funding For Property Development",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "South Africa Taps Gulf Know-How for $9.5 Billion Property Plan",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-23/south-africa-taps-gulf-know-how-for-9-5-billion-property-plan",
-              "pubDate": "2026-09-23T03:00:00.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-23/ghana-international-bank-eyes-us-market-as-africa-appetite-grows",
+              "pubDate": "2026-09-23T07:04:45.000Z",
               "tier": 1
             }
           ],
@@ -1826,20 +1790,42 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "south-africa-secures-gulf-funding-for-property-development"
+          "slug": "ghana-bank-targets-us-market-amid-african-growth-hopes"
         },
         {
-          "representativeTitle": "Goldman Sachs Predicts Weak China Oil Demand Q4",
+          "representativeTitle": "Euro Drops to Two-Month Low Amid Downside Hedging",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Goldman Sees China Oil Imports Staying Subdued in Fourth Quarter",
+              "title": "Euro Hits Two-Month Low as Options Traders Add Downside Hedges",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-23/goldman-sees-china-oil-imports-staying-subdued-in-fourth-quarter",
-              "pubDate": "2026-09-23T02:19:40.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-23/euro-hits-two-month-low-as-options-traders-add-downside-hedges",
+              "pubDate": "2026-09-23T07:03:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "euro-drops-to-two-month-low-amid-downside-hedging"
+        },
+        {
+          "representativeTitle": "Airtel Money Plans London IPO Following Mittal Backing",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Mittal-Backed Payments Firm Airtel Money Unveils London IPO Plan",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-23/mobile-payments-firm-airtel-money-announces-plans-for-london-ipo",
+              "pubDate": "2026-09-23T06:09:20.000Z",
               "tier": 1
             }
           ],
@@ -1848,7 +1834,73 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "goldman-sachs-predicts-weak-china-oil-demand-q4"
+          "slug": "airtel-money-plans-london-ipo-following-mittal-backing"
+        },
+        {
+          "representativeTitle": "Drone Detector Firm Targets Major Helsinki IPO Funding",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Drone Detector Sensofusion Seeks €300 Million in Helsinki IPO",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-23/drone-detector-sensofusion-seeks-300-million-in-helsinki-ipo",
+              "pubDate": "2026-09-23T05:48:36.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "drone-detector-firm-targets-major-helsinki-ipo-funding"
+        },
+        {
+          "representativeTitle": "Philippines Eyes New Retail Peso Bond Issuance Milestone",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Philippines Eyes New Retail Peso Bond at 25-Year Milestone",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-23/philippines-eyes-new-retail-treasury-bond-at-25-year-milestone",
+              "pubDate": "2026-09-23T05:25:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "philippines-eyes-new-retail-peso-bond-issuance-milestone"
+        },
+        {
+          "representativeTitle": "Private equity sector faces uncertainty and limbo.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "How private equity ended up in limbo",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/2b307c1e-cd98-4666-91d5-000b1dc7bbd1?syn-25a6b1a6=1",
+              "pubDate": "2026-09-23T04:00:09.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "private-equity-sector-faces-uncertainty-and-limbo"
         },
         {
           "representativeTitle": "Boehly Bid Backed For Major Russian Energy Assets",
@@ -1871,94 +1923,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "boehly-bid-backed-for-major-russian-energy-assets"
-        },
-        {
-          "representativeTitle": "BNP Unit Bets Against China Rate Swaps Hedge Risks",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "BNP’s Asset Unit Shorts China Rate Swaps to Hedge EM Bond Bets",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-23/bnp-s-asset-unit-shorts-china-rate-swaps-to-hedge-em-bond-bets",
-              "pubDate": "2026-09-23T00:53:24.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "bnp-unit-bets-against-china-rate-swaps-hedge-risks"
-        },
-        {
-          "representativeTitle": "Gold Price Moves Amid Fed Signals and Iran Talks",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Gold Edges Lower as Traders Weigh Fedspeak and US-Iran Talks",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-22/gold-steadies-as-iran-talks-temper-concerns-over-fed-rate-path",
-              "pubDate": "2026-09-22T23:56:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "gold-price-moves-amid-fed-signals-and-iran-talks"
-        },
-        {
-          "representativeTitle": "Qantas proceeds with long flights despite fuel costs.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Qantas pushes ahead with new ultra-long flights despite high fuel prices",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/276f5264-c3e1-418b-8acc-cd3d4f1ed31b?syn-25a6b1a6=1",
-              "pubDate": "2026-09-22T23:18:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "qantas-proceeds-with-long-flights-despite-fuel-costs"
-        },
-        {
-          "representativeTitle": "DoorDash Admits Underpaying New York Workers",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "'We screwed up': Doordash admits underpaying New York workers",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cjr4v72y6p4eo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-22T16:50:24.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "doordash-admits-underpaying-new-york-workers"
         },
         {
           "representativeTitle": "Royal Caribbean nears major stake in Sandals deal",
@@ -2005,26 +1969,26 @@ export const newsData = {
           "slug": "peloton-revamps-treadmills-with-new-features-for-turnaround"
         },
         {
-          "representativeTitle": "Nicotine Marketing Shifts Focus to Wellness Claims",
+          "representativeTitle": "McDonald's Investor Day Signals U.S. Struggles Ahead",
           "sources": [
-            "Phys.org"
+            "CNBC Economy"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "How the pro‑nicotine 'wellness' movement rebranded an addictive drug",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-09-pronicotine-wellness-movement-rebranded-addictive.html",
-              "pubDate": "2026-09-23T00:00:01.000Z",
-              "tier": 2
+              "title": "McDonald's is hosting an investor day as its U.S. business struggles. Here are 4 things to expect",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/09/22/mcdonalds-mcd-hosts-investor-day.html",
+              "pubDate": "2026-09-22T11:00:01.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "Science",
+          "ingestionCategory": "Business",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "nicotine-marketing-shifts-focus-to-wellness-claims"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "mcdonalds-investor-day-signals-us-struggles-ahead"
         }
       ]
     },
@@ -2032,42 +1996,26 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
-          "representativeTitle": "Adobe Premiere Now Available on Android Platform",
+          "representativeTitle": "Nvidia Backing Fuels Nscale's IPO Ambitions",
           "sources": [
-            "Ars Technica",
-            "Wired",
-            "Google Tech"
+            "FT International"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Adobe Premiere finally brings powerful video editing to Android, and it's free",
-              "source": "Ars Technica",
-              "link": "https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/",
-              "pubDate": "2026-09-22T19:08:58.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Adobe Premiere, One of the iPhone’s Best Video-Editing Apps, Is Now on Android",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/adobe-premiere-now-on-android/",
-              "pubDate": "2026-09-22T13:00:00.000Z",
+              "title": "Nvidia-backed Nscale buried ByteDance deal in push to $35bn IPO",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/d1090476-7be6-4bba-ae2a-f417499e820a?syn-25a6b1a6=1",
+              "pubDate": "2026-09-23T04:00:19.000Z",
               "tier": 1
-            },
-            {
-              "title": "Adobe Premiere finally brings powerful video editing to Android, and it’s free",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcDVrYkxVaE9xQkZGSmg5anRNLTJ3VW4tajI3LVplekY4VDJ3OXhES1VHVnlPcElNZHcwcWZfaDE1cTBub0g1RW9laklvN0VqQ2dTemNxOHlGM3ZzR2x3WmJ5a1lzX1Z6ckppbTZ5OUZBVlVlUWprdmZZYXVtcjY1LXZjQXA5dUx2TzVic2xGWmpGMng3YVZLdVVnU3JBeWwweGhkeHNpNjlmdDZKUFRmNlpaWEIzbS10?oc=5",
-              "pubDate": "2026-09-22T19:08:58.000Z",
-              "tier": 2
             }
           ],
-          "ingestionCategory": "Technology",
+          "ingestionCategory": "Business",
           "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 6,
+          "sentiment": 0,
+          "relevance_score": 8,
           "importance": 55,
-          "slug": "adobe-premiere-now-available-on-android-platform"
+          "slug": "nvidia-backing-fuels-nscales-ipo-ambitions"
         },
         {
           "representativeTitle": "China's AI Trade Benefits Foreign Firms Over Local.",
@@ -2090,6 +2038,36 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "chinas-ai-trade-benefits-foreign-firms-over-local"
+        },
+        {
+          "representativeTitle": "Trump suggests renaming AI to 'super intelligence'",
+          "sources": [
+            "Washington Post",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Trump says he’s renaming AI to ‘super intelligence’",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/technology/2026/09/22/trump-says-hes-renaming-ai-super-intelligence/",
+              "pubDate": "2026-09-22T16:48:14.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump wants to rebrand AI as \"super intelligence\"",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TWC1ZUzQwQ1UxcGwtNmY4QXU1VWEwWWZIXzZDWE1SMFVyZ3d0S2xlTjRHcVJqaHlVWnFCWGJKT1RhTGZaREVaMlgyVjhoM05iRVRCTFZDS0ZDMWpLNGlhS0xzWWtiYmVlcHJzNkdlbnJ2Wm81YnZV?oc=5",
+              "pubDate": "2026-09-23T00:03:33.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "trump-suggests-renaming-ai-to-super-intelligence"
         },
         {
           "representativeTitle": "OpenAI Unveils GPT-6 Model with Improved Efficiency",
@@ -2134,28 +2112,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "ai-data-demand-fuels-snorkel-ai-valuation-surge"
-        },
-        {
-          "representativeTitle": "AI Leaders Lower Model Costs Amid Price War",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Anthropic and OpenAI release cheaper models as price war intensifies",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/0e50a3c6-9731-4b29-a21e-4e0ff89a595e?syn-25a6b1a6=1",
-              "pubDate": "2026-09-22T20:31:16.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ai-leaders-lower-model-costs-amid-price-war"
         },
         {
           "representativeTitle": "Power Outage Threatens AI Progress Amid Walkout",
@@ -2208,6 +2164,36 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 50,
           "slug": "apple-eyeing-fitness-tracker-market-challenge-to-whoop"
+        },
+        {
+          "representativeTitle": "Adobe Premiere Now Available on Android Platform",
+          "sources": [
+            "Ars Technica",
+            "Wired"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Adobe Premiere finally brings powerful video editing to Android, and it's free",
+              "source": "Ars Technica",
+              "link": "https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/",
+              "pubDate": "2026-09-22T19:08:58.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Adobe Premiere, One of the iPhone’s Best Video-Editing Apps, Is Now on Android",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/adobe-premiere-now-on-android/",
+              "pubDate": "2026-09-22T13:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "adobe-premiere-now-available-on-android-platform"
         },
         {
           "representativeTitle": "Discord implements age verification despite user backlash.",
@@ -2416,28 +2402,6 @@ export const newsData = {
           "slug": "waymo-targets-teenagers-with-new-expansion-strategy"
         },
         {
-          "representativeTitle": "AI Staff Express Mental Strain Over Societal Fears",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "AI staff complain of mental toll over fears of threat to society",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/60870960-f433-48ca-bc2c-708686a69ae7?syn-25a6b1a6=1",
-              "pubDate": "2026-09-22T11:27:38.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "ai-staff-express-mental-strain-over-societal-fears"
-        },
-        {
           "representativeTitle": "Motorola debuts new phone with Snapdragon processor.",
           "sources": [
             "The Verge",
@@ -2449,13 +2413,6 @@ export const newsData = {
               "title": "Qualcomm’s Snapdragon 8 Elite Gen 6 comes in an Extreme version too",
               "source": "The Verge",
               "link": "https://www.theverge.com/gadgets/998842/qualcomm-snapdragon-8-elite-extreme-gen-6",
-              "pubDate": "2026-09-22T20:00:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Qualcomm’s Snapdragon 8 Elite Gen 6 comes in an Extreme version too",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQXzJ2cFFyUWo1MGFRaWRVUGEyTE10dEk3UWdXM1dIakNOWGQ1b2h0ZUlTZU1YOXdPZzYybGtWX24yZVFOcDFsS2NHWHNvbktHejlfc0prcGZNYWV0eS1KVV9VTHh3WHpidnJhYnJSTnIzQ1M2MHhad1NyRTlUM09QaDJmLUFJUmpk?oc=5",
               "pubDate": "2026-09-22T20:00:00.000Z",
               "tier": 2
             },
@@ -2473,50 +2430,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 40,
           "slug": "motorola-debuts-new-phone-with-snapdragon-processor"
-        },
-        {
-          "representativeTitle": "Noble Carbon Showcases Painless EV Charger Installation Solutions",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Noble Carbon will show how it’s making EV charger installs painless at TechCrunch Disrupt",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/22/noble-carbon-will-show-how-its-making-ev-charger-installs-painless-at-techcrunch-disrupt/",
-              "pubDate": "2026-09-22T15:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "noble-carbon-showcases-painless-ev-charger-installation-solutions"
-        },
-        {
-          "representativeTitle": "AI Safety Focus Recommended For Tech Founders' Agenda",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
-              "pubDate": "2026-09-22T15:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ai-safety-focus-recommended-for-tech-founders-agenda"
         }
       ]
     },
@@ -2546,26 +2459,26 @@ export const newsData = {
           "slug": "new-drug-shows-promise-against-cancer-resistance"
         },
         {
-          "representativeTitle": "Nanoparticles Restore Sight to Blind Retinas in Study",
+          "representativeTitle": "Archaeology Uncovers Roman Life in Ancient Bath",
           "sources": [
-            "Phys.org"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Injectable nanoparticles make blind retinas respond to light in preclinical study",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-09-nanoparticles-retinas-preclinical.html",
-              "pubDate": "2026-09-22T22:40:02.000Z",
-              "tier": 2
+              "title": "Glimpses into lives of Roman suburbanites in Bath revealed in rare finds",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/science/2026/sep/23/archaeologists-clues-suburban-life-roman-times-bath",
+              "pubDate": "2026-09-23T06:00:19.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "Science",
+          "ingestionCategory": "World",
           "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "nanoparticles-restore-sight-to-blind-retinas-in-study"
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "archaeology-uncovers-roman-life-in-ancient-bath"
         },
         {
           "representativeTitle": "Research finds ways to manage water and soil.",
@@ -2590,26 +2503,56 @@ export const newsData = {
           "slug": "research-finds-ways-to-manage-water-and-soil"
         },
         {
-          "representativeTitle": "Local Sewage System Linked to Rising Cancer Rates",
+          "representativeTitle": "Experts find extraordinary discovery in arid region.",
           "sources": [
-            "NY Times"
+            "Google Science"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Locals Call It the World’s Largest Cesspool, and Blame It for Surging Cancer",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/09/17/world/americas/mexico-city-endho-dam.html",
-              "pubDate": "2026-09-22T18:19:33.000Z",
-              "tier": 1
+              "title": "“Just freakish!” Experts uncover something extraordinary in one of the driest places on Earth",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN21xV0ZubnZiVWlGVHl0REdXLWtSOXVVVU02Rk9FWWswTEJWSjdpM0tBNmUxVTJ3MmZTOWotZkg3YXBmNkZWeHp3Zld4bHV2SzZLaHFwZVk5ZGFZOV9RRFM5SjJBVzJIQWpaM08wcnlRZ05fM2pMTG1WWnJWSElrN2hwc01ySmJjLUNvT2VFU0pZb0U?oc=5",
+              "pubDate": "2026-09-23T02:33:24.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": -0.4,
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "experts-find-extraordinary-discovery-in-arid-region"
+        },
+        {
+          "representativeTitle": "Quantum Magnetism Links to Black Hole Physics Breakthrough",
+          "sources": [
+            "Phys.org",
+            "Google Science"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Physicists crack the math connecting ultraslow quantum magnetism to ultrafast black-hole physics",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-09-physicists-math-ultraslow-quantum-magnetism.html",
+              "pubDate": "2026-09-22T22:00:03.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Physicists crack the math connecting ultraslow quantum magnetism to ultrafast black-hole physics",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWEhkdThTUFJOSDQ5aFdsR3JkZGExTVZGVDJGU0tqU0xJbXZfenB2c0tjMmxUbXBzSlpzS3llamtyZktac3M2U0d2TGgyekpOMUt1UnNhODFZaFpHSlN2RHdDOVpiM21INnExcDJvZUJ4bFJEZDN3UjV2cE4xRjk2Ym1mcmI?oc=5",
+              "pubDate": "2026-09-22T22:00:03.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
           "relevance_score": 6,
-          "importance": 45,
-          "slug": "local-sewage-system-linked-to-rising-cancer-rates"
+          "importance": 40,
+          "slug": "quantum-magnetism-links-to-black-hole-physics-breakthrough"
         },
         {
           "representativeTitle": "Light beam interacts with quantum fluid defying physics.",
