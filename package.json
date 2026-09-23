@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/generate-static.js",
     "lint": "eslint .",
     "test": "vitest run",
     "test:ui": "vitest --ui",

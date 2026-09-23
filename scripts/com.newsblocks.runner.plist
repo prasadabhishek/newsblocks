@@ -7,35 +7,35 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/bin/env</string>
-        <string>node</string>
-        <string>/Users/Shared/news-map/news-runner.js</string>
+        <string>/Users/abhishekprasad/.nvm/versions/node/v22.22.0/bin/node</string>
+        <string>/Users/abhishekprasad/workspace/newsblocks/news-runner.js</string>
     </array>
 
     <key>WorkingDirectory</key>
-    <string>/Users/Shared/news-map</string>
+    <string>/Users/abhishekprasad/workspace/newsblocks</string>
 
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>
-        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <string>/Users/abhishekprasad/.nvm/versions/node/v22.22.0/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <key>AI_PROVIDER</key>
+        <string>ollama</string>
+        <key>OLLAMA_HOST</key>
+        <string>http://127.0.0.1:11434</string>
+        <key>OLLAMA_MODEL</key>
+        <string>gemma4:e4b</string>
     </dict>
-
-    <key>KeepAlive</key>
-    <true/>
 
     <key>RunAtLoad</key>
     <true/>
-
+    <key>StartInterval</key>
+    <integer>14400</integer>
     <key>StandardOutPath</key>
-    <string>/Users/Shared/news-map/logs/runner.log</string>
-
+    <string>/Users/abhishekprasad/workspace/newsblocks/logs/runner.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/Shared/news-map/logs/runner-error.log</string>
-
+    <string>/Users/abhishekprasad/workspace/newsblocks/logs/runner-error.log</string>
     <key>ProcessType</key>
     <string>Background</string>
-
     <key>LowPriorityIO</key>
     <true/>
 </dict>

@@ -7,7 +7,8 @@ import { CONFIG } from "./config.js";
 let _genAI = null;
 const getGenAI = () => {
     if (!_genAI) {
-        _genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "MOCK_KEY");
+        if (!process.env.GEMINI_API_KEY) return null;
+        _genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
     }
     return _genAI;
 };
@@ -56,14 +57,15 @@ export const AI = {
             const response = await retry(() => axios.post(`${getOllamaHost()}/api/generate`, {
                 model: MODELS.OLLAMA_LLM,
                 prompt: prompt,
+                format: "json",
                 stream: false,
-                options: { temperature: 0.1 }
-            }), 2, 5000);
+                options: { temperature: 0.1, num_predict: 256 }
+            }, { timeout: CONFIG.AI_REQUEST_TIMEOUT }), 2, 5000);
 
             return response.data.response;
         } catch (e) {
-            console.error(`AI: Ollama failed: ${e.message}. Falling back to Gemini...`);
-            return this.runGemini(prompt, retryDelay);
+            console.error(`AI: Ollama failed: ${e.message}.`);
+            return process.env.GEMINI_API_KEY ? this.runGemini(prompt, retryDelay) : null;
         }
     },
 
@@ -71,6 +73,10 @@ export const AI = {
      * Gemini Implementation
      */
     async runGemini(prompt, retryDelay) {
+        if (!process.env.GEMINI_API_KEY) {
+            console.warn('GEMINI_API_KEY not found; skipping Gemini fallback.');
+            return null;
+        }
         try {
             console.log(`AI: Trying Gemini primary (${MODELS.GEMINI_PRIMARY})...`);
             // Note: If using v1beta, some models require different naming or a specific SDK config.
@@ -142,7 +148,7 @@ export const AI = {
                     const response = await axios.post(`${getOllamaHost()}/api/embeddings`, {
                         model: MODELS.OLLAMA_EMBED,
                         prompt: h
-                    });
+                    }, { timeout: CONFIG.AI_REQUEST_TIMEOUT });
                     results[i + j] = response.data.embedding;
                     SqliteCache.setEmbedding(batchHashes[j], response.data.embedding);
                 } catch (e) {

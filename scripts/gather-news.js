@@ -5,7 +5,6 @@ import { Pipeline } from '../src/engine/pipeline.js';
 import { retry, withTimeout } from '../src/engine/utils.js';
 import { SqliteCache } from '../src/engine/sqlite-cache.js';
 import { CONFIG } from '../src/engine/config.js';
-import { execSync } from 'child_process';
 
 // Professional headers to avoid blocking
 const parser = new Parser({
@@ -221,13 +220,13 @@ async function gatherNews() {
     // 2. validate output (Anomaly Detection)
     if (validateOutput(newsTree)) {
         const content = `export const newsData = ${JSON.stringify(newsTree, null, 2)};`;
-        fs.writeFileSync('./src/data.js', content);
+        const temporaryPath = './src/data.js.tmp';
+        fs.writeFileSync(temporaryPath, content);
+        fs.renameSync(temporaryPath, './src/data.js');
         console.log(`Success! newsData updated for ${now.toLocaleTimeString()}`);
-
-        console.log('Running static SEO generation...');
-        execSync('node scripts/generate-static.js', { stdio: 'inherit' });
     } else {
         console.error("CRITICAL: Data validation failed. Update aborted to prevent dashboard corruption.");
+        throw new Error('Candidate news data failed validation; current published dataset was preserved.');
     }
 }
 
@@ -257,20 +256,28 @@ function applyOverrides(tree) {
 }
 
 function validateOutput(tree) {
-    // Basic structural check
-    if (!tree.children || tree.children.length === 0) return false;
+    if (!Array.isArray(tree.children) || tree.children.length < CONFIG.MIN_CATEGORIES_FOR_VALIDATION) return false;
 
-    // Count total clusters
-    let totalClusters = 0;
-    tree.children.forEach(c => totalClusters += (c.children ? c.children.length : 0));
+    const stories = tree.children.flatMap(category => {
+        if (!category?.name || !Array.isArray(category.children)) return [];
+        return category.children;
+    });
+    if (stories.length === 0) return false;
 
-    // Anomaly detection: If we have 0 clusters, something is likely wrong with the AI/Pipeline
-    if (totalClusters === 0) return false;
-
-    // Minimum category check
-    if (tree.children.length < CONFIG.MIN_CATEGORIES_FOR_VALIDATION) return false;
-
-    return true;
+    return stories.every(story =>
+        typeof story.representativeTitle === 'string' && story.representativeTitle.trim().length > 0 &&
+        typeof story.aiCategory === 'string' &&
+        Number.isFinite(story.sentiment) && story.sentiment >= -1 && story.sentiment <= 1 &&
+        Number.isFinite(story.relevance_score) && story.relevance_score >= 1 && story.relevance_score <= 10 &&
+        Array.isArray(story.rawArticles) && story.rawArticles.length > 0 &&
+        story.rawArticles.every(article => {
+            try {
+                return ['http:', 'https:'].includes(new URL(article.link).protocol);
+            } catch {
+                return false;
+            }
+        })
+    );
 }
 
 gatherNews().then(() => {

@@ -32,6 +32,7 @@ export class Pipeline {
             const clusters = await this.clustering.cluster(rawArticles);
 
             for (const c of clusters) {
+                c.ingestionCategory = name;
                 const scored = await this.scoring.calculateScores(c);
                 if (scored) {
                     // --- V4.6 TABLOID FILTER ---
@@ -77,8 +78,8 @@ export class Pipeline {
                         // V4.6 Route to AI-determined category
                         let finalCat = scored.aiCategory;
                         if (!catNameToIndex.hasOwnProperty(finalCat)) {
-                            // If AI invents a weird category, fallback to World
-                            finalCat = "World";
+                            // If the model returns an unsupported category, keep the feed's category.
+                            finalCat = scored.ingestionCategory || "World";
                         }
                         
                         const targetCatIndex = catNameToIndex[finalCat];
@@ -95,7 +96,7 @@ export class Pipeline {
         }
 
         // Cleanup empty categories
-        root.children = root.children.filter(c => c.children.length > 0);
+    root.children = root.children.filter(c => c.children.length > 0);
 
         return root;
     }

@@ -82,6 +82,41 @@ body {
   box-shadow: 0 0 8px #10b981;
 }
 
+.last-updated-badge.is-stale {
+  color: #fbbf24;
+  border-color: rgba(251, 191, 36, 0.4);
+  background: rgba(120, 53, 15, 0.28);
+}
+
+.last-updated-badge.is-stale .last-updated-dot {
+  background: #f59e0b;
+  box-shadow: 0 0 8px #f59e0b;
+}
+
+.story-not-found {
+  width: min(640px, calc(100% - 32px));
+  padding: 32px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 16px;
+  background: rgba(15, 23, 42, 0.9);
+  color: #e2e8f0;
+  text-align: center;
+}
+
+.story-not-found p {
+  color: #94a3b8;
+}
+
+.story-not-found button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  border-radius: 8px;
+  background: #1e293b;
+  color: white;
+  cursor: pointer;
+}
+
 .sentiment-legend-container {
   display: flex;
   flex-direction: column;

@@ -15,6 +15,7 @@ function App() {
 
   // State for the currently selected story (from URL or click)
   const [selectedStory, setSelectedStory] = useState(null);
+  const [missingStorySlug, setMissingStorySlug] = useState(null);
 
   // Accessibility: Color Blind Mode
   const [isColorBlind, setIsColorBlind] = useState(() => {
@@ -44,7 +45,14 @@ function App() {
     function parseSlug() {
       const path = window.location.pathname;
       if (path.startsWith('/story/')) {
-        const slug = path.replace('/story/', '');
+        let slug = path.slice('/story/'.length).replace(/\/+$/, '');
+        try {
+          slug = decodeURIComponent(slug);
+        } catch {
+          setSelectedStory(null);
+          setMissingStorySlug(slug);
+          return;
+        }
         let found = null;
         if (newsData.children) {
           newsData.children.forEach(cat => {
@@ -55,8 +63,10 @@ function App() {
           });
         }
         setSelectedStory(found);
+        setMissingStorySlug(found ? null : slug);
       } else {
         setSelectedStory(null);
+        setMissingStorySlug(null);
       }
     }
 
@@ -74,12 +84,17 @@ function App() {
 
   const handleStorySelect = (story) => {
     setSelectedStory(story);
+    setMissingStorySlug(null);
     if (story && story.slug) {
       window.history.pushState(null, '', `/story/${story.slug}`);
     } else {
       window.history.pushState(null, '', '/');
     }
   };
+
+  const updatedAt = newsData.lastUpdated ? new Date(newsData.lastUpdated) : null;
+  const updatedAtMs = updatedAt && !Number.isNaN(updatedAt.getTime()) ? updatedAt.getTime() : null;
+  const isStale = updatedAtMs === null || Date.now() - updatedAtMs > 12 * 60 * 60 * 1000;
 
   // Extract top stories for SEO & Schema
   const seoStories = [];
@@ -168,16 +183,16 @@ function App() {
         <h1 className="logo-text">NewsBlocks</h1>
         <h2 className="subtitle-main">news sentiment visualizer</h2>
 
-        <div className="last-updated-badge">
+        <div className={`last-updated-badge ${isStale ? 'is-stale' : ''}`} role="status" aria-live="polite">
           <div className="last-updated-dot"></div>
-          <span>LAST UPDATED: {newsData.lastUpdated ? new Date(newsData.lastUpdated).toLocaleString('en-US', {
+          <span>{isStale ? 'STALE DATA · ' : ''}UPDATED: {updatedAtMs !== null ? updatedAt.toLocaleString('en-US', {
             month: 'short',
             day: 'numeric',
             hour: 'numeric',
             minute: '2-digit',
             hour12: true,
             timeZoneName: 'short'
-          }).toUpperCase() : 'JUST NOW'}</span>
+          }).toUpperCase() : 'TIME UNKNOWN'}</span>
         </div>
 
         <div className="sentiment-legend-container">
@@ -197,7 +212,13 @@ function App() {
       </header>
 
       <main className="flex-1 overflow-hidden flex items-center justify-center relative">
-        {isMobile ? (
+        {missingStorySlug ? (
+          <section className="story-not-found" role="status">
+            <h2>This story is no longer in the current news map.</h2>
+            <p>NewsBlocks refreshes its story list as new coverage arrives.</p>
+            <button type="button" onClick={() => handleStorySelect(null)}>Return to the news map</button>
+          </section>
+        ) : isMobile ? (
           <div className="w-full h-full bg-transparent overflow-hidden">
             <MobileSwipeableTreemap
               data={newsData}
@@ -256,8 +277,7 @@ function App() {
             <div className="methodology-section">
               <h3>AI Engine</h3>
               <p className="methodology-text">
-                Real-time analysis powered by <b>Google Gemini 2.5 Flash</b> (with high-capacity fallback).
-                Articles are semantically clustered into story-arcs and scored for sentiment using customized journalistic heuristics.
+                News is gathered from publisher RSS feeds, grouped into related stories, and scored for sentiment and relevance with a local AI model.
               </p>
             </div>
           </div>

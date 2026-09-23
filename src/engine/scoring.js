@@ -18,7 +18,7 @@ export class ScoringEngine {
 
         const aiResult = await AI.analyzeSentiment(cluster.representativeTitle);
         let sentimentStr = aiResult ? aiResult.sentiment : null;
-        const relevance = aiResult ? aiResult.relevance : 5;
+        const relevance = aiResult ? Math.max(1, Math.min(10, Number(aiResult.relevance) || 5)) : 5;
 
         if (!sentimentStr || !['DISASTER', 'NEGATIVE', 'NEUTRAL', 'POSITIVE', 'EUPHORIC'].includes(sentimentStr.toUpperCase())) {
             let heuristicScore = this.analyzeSentiment(cluster.representativeTitle);
@@ -31,10 +31,16 @@ export class ScoringEngine {
 
         const bucketMap = { 'DISASTER': -0.9, 'NEGATIVE': -0.4, 'NEUTRAL': 0.0, 'POSITIVE': 0.4, 'EUPHORIC': 0.9 };
 
+        const allowedCategories = ['World', 'US', 'Stocks', 'Business', 'Technology', 'Science', 'JUNK'];
+        const modelCategory = String(aiResult?.category || '').trim();
+        const normalizedCategory = allowedCategories.find(category => category.toLowerCase() === modelCategory.toLowerCase());
+        const fallbackCategory = ['World', 'US', 'Stocks', 'Business', 'Technology', 'Science']
+            .find(category => category.toLowerCase() === String(cluster.ingestionCategory || '').toLowerCase()) || 'World';
+
         return {
             ...cluster,
             representativeTitle: aiResult?.title || cluster.representativeTitle,
-            aiCategory: aiResult?.category || "World",
+            aiCategory: normalizedCategory || fallbackCategory,
             sentiment: bucketMap[sentimentStr.toUpperCase()] || 0,
             relevance_score: relevance,
             importance: this.calculateImportance({ ...cluster, relevance_score: relevance })
