@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-09-26T18:20:17.450Z",
+  "lastUpdated": "2026-09-26T22:26:19.824Z",
   "children": [
     {
       "name": "World",
@@ -21,7 +21,7 @@ export const newsData = {
               "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-26T18:17:12.000Z",
+              "pubDate": "2026-09-26T22:15:59.000Z",
               "tier": 1
             },
             {
@@ -32,10 +32,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Trump rejects Iran’s seven-day roadmap to reopen Strait of Hormuz",
+              "title": "Trump rejects Iranian offer to reopen Strait of Hormuz",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz?traffic_source=rss",
-              "pubDate": "2026-09-26T14:46:53.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/trump-rejects-iranian-offer-to-reopen-strait-of-hormuz?traffic_source=rss",
+              "pubDate": "2026-09-26T18:00:43.000Z",
               "tier": 1
             },
             {
@@ -43,13 +43,6 @@ export const newsData = {
               "source": "SCMP",
               "link": "https://www.scmp.com/news/world/middle-east/article/3368917/trump-rejects-iran-proposal-deal-reopen-hormuz?utm_source=rss_feed",
               "pubDate": "2026-09-26T17:02:16.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Iran offers US plan to reopen Hormuz within 7 days",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/middle-east/article/3368872/iran-offers-us-plan-reopen-hormuz-within-7-days?utm_source=rss_feed",
-              "pubDate": "2026-09-25T21:03:29.000Z",
               "tier": 2
             },
             {
@@ -77,17 +70,31 @@ export const newsData = {
         {
           "representativeTitle": "Pope Leo leads massive religious service in Paris.",
           "sources": [
-            "Al Jazeera",
             "France 24",
+            "SCMP",
             "Euronews"
           ],
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Several hundred thousand people gather for Pope Leo’s mass in Paris",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/26/several-hundred-thousand-people-gather-for-pope-leos-mass-in-paris?traffic_source=rss",
-              "pubDate": "2026-09-26T15:43:11.000Z",
+              "title": "Pope Leo XIV addresses youth at giant Paris Mass",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20260926-pope-leo-xiv-addresses-youth-at-giant-paris-mass",
+              "pubDate": "2026-09-26T17:04:48.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope Leo XIV 600,000 people gather for Mass on the Champs-Élysées",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20260926-pope-leo-xiv-600-000-people-gather-for-mass-on-the-champs-%C3%A9lys%C3%A9es",
+              "pubDate": "2026-09-26T16:46:30.000Z",
+              "tier": 1
+            },
+            {
+              "title": "'A once-in-a-lifetime event': Faithful and curious flock to Pope Leo XIV's Mass in Paris",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/france/20260926-a-once-in-a-lifetime-event-faithful-and-curious-flock-to-pope-leo-xiv-s-mass-in-paris",
+              "pubDate": "2026-09-26T16:24:04.000Z",
               "tier": 1
             },
             {
@@ -95,6 +102,13 @@ export const newsData = {
               "source": "France 24",
               "link": "https://www.france24.com/en/leo-xiv-in-france-700-000-crowd-attend-pope-mass-in-central-paris",
               "pubDate": "2026-09-26T15:19:59.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Leo XIV fills central Paris with around 600,000 people at giant outdoor Mass",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/leo-xiv-fills-central-paris-with-around-600-000-people-at-giant-outdoor-mass",
+              "pubDate": "2026-09-26T15:09:57.000Z",
               "tier": 1
             },
             {
@@ -126,6 +140,27 @@ export const newsData = {
               "tier": 1
             },
             {
+              "title": "Leo XIV in Paris: 600,000 worshippers excepted for open-air mass",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/leo-xiv-in-paris-600-000-worshippers-excepted-for-open-air-mass",
+              "pubDate": "2026-09-26T10:22:33.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope celebrates giant Paris mass in landmark visit",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3368916/pope-celebrates-giant-paris-mass-landmark-visit?utm_source=rss_feed",
+              "pubDate": "2026-09-26T15:15:59.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Pope Leo XIV draws 800,000 faithful to Paris before emotional Lourdes pilgrimage",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/video/2026/09/26/pope-leo-xiv-draws-800000-faithful-to-paris-before-emotional-lourdes-pilgrimage",
+              "pubDate": "2026-09-26T21:48:36.000Z",
+              "tier": 2
+            },
+            {
               "title": "Pope Leo XIV draws huge crowds in Paris as 600,000 await Mass",
               "source": "Euronews",
               "link": "https://www.euronews.com/2026/09/26/pope-leo-xiv-draws-huge-crowds-in-paris-as-600000-await-mass",
@@ -139,6 +174,60 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 100,
           "slug": "pope-leo-leads-massive-religious-service-in-paris"
+        },
+        {
+          "representativeTitle": "Pope leads massive outdoor Mass in Paris.",
+          "sources": [
+            "BBC World",
+            "The Guardian",
+            "France 24",
+            "Le Monde",
+            "Google World"
+          ],
+          "citationCount": 5,
+          "rawArticles": [
+            {
+              "title": "Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-26T19:48:06.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope Leo celebrates open-air mass before 700,000 people in Paris",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/sep/26/pope-leo-celebrates-open-air-mass-before-700000-people-in-paris",
+              "pubDate": "2026-09-26T15:50:27.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope Leo XIV celebrates open-air Mass in front of 800,000 people in central Paris",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/france/20260926-pope-leo-xiv-celebrates-open-air-mass-in-front-of-800-000-people-in-central-paris",
+              "pubDate": "2026-09-26T20:28:37.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope leads Paris open-air mass in front of hundreds of thousands",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/france/article/2026/09/26/pope-to-hold-giant-mass-on-place-de-la-concorde-and-champs-elysees_6757973_7.html",
+              "pubDate": "2026-09-26T08:32:25.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Pope Leo draws 800,000 people to central Paris for open-air Mass on iconic square",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbEJFcjNvV3FnbnMyU21pVDFZV1k0TzFRajdDb0hHaVlrcFZlWThrTDZqdEwtQjdsOUdGeWR4c0JUdE1BMEFzamc5SmtfT3FUWVB2Tm1aa3daSWRoM3JqUl8zMVZkLWdfVm8wdXoyNzBmXzRRYnBvdGptV08xYkFYT1VmZ21wSUlvRHppckpmWXhUdWpCX0Z4RVhaNA?oc=5",
+              "pubDate": "2026-09-26T20:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 85,
+          "slug": "pope-leads-massive-outdoor-mass-in-paris"
         },
         {
           "representativeTitle": "Deadly air strikes kill at least sixteen people.",
@@ -171,14 +260,89 @@ export const newsData = {
           "slug": "deadly-air-strikes-kill-at-least-sixteen-people"
         },
         {
+          "representativeTitle": "Trump rejects Iran's proposal regarding Strait of Hormuz.",
+          "sources": [
+            "NBC News",
+            "NPR",
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Trump says he has rejected Iranian proposal to reopen Strait of Hormuz",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/world/iran/iran-says-choice-reopening-hormuz-rests-united-states-offer-rcna599956",
+              "pubDate": "2026-09-26T09:35:55.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump calls Iranian plan to reopen Strait of Hormuz not 'acceptable'",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/09/26/nx-s1-5981990/trump-rejects-iranian-deal-strait-of-hormuz",
+              "pubDate": "2026-09-26T20:08:28.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Iran live updates: Trump rejects Iran offer to reopen Strait of Hormuz",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/International/live-updates/iran-live-updates-irgc-ready-counteroffensive-us-attacks/?id=136611503",
+              "pubDate": "2026-09-26T15:57:46.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump rejects Iran’s proposal to reopen the Strait of Hormuz and other Mideast news",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY3FURU1ld09YM0czSERoLWEtWEQwR1FSZm96NmpURkowVXNHQkRna0gzZEJXTWlKLUE5QW51U24tRFVHX2JDNUpvWVFyNWdGYVhaYThBVmJZMndzM1Z2eDVkVVViRG00M1k3YUpYdDE2azVBcmo4SmlhNDRSLW9Ra0taSTY1V0w3ektQdFpzQXhjTzNBNmxSalgxT0xGbC1y?oc=5",
+              "pubDate": "2026-09-26T21:30:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "trump-rejects-irans-proposal-regarding-strait-of-hormuz"
+        },
+        {
+          "representativeTitle": "Brazil Bans Online Betting Ahead of Key Election",
+          "sources": [
+            "BBC World",
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Brazil's Lula bans online gambling ahead of presidential election",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-26T15:46:40.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Brazil's President Lula bans online betting ahead of presidential election",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/brazil-s-president-lula-bans-online-betting-ahead-of-presidential-election",
+              "pubDate": "2026-09-26T12:36:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 65,
+          "slug": "brazil-bans-online-betting-ahead-of-key-election"
+        },
+        {
           "representativeTitle": "British National Among Six Dead in Athens Explosion",
           "sources": [
             "BBC World",
             "SCMP",
-            "Euronews",
-            "Google World"
+            "Euronews"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "British national among six dead in building explosion close to Acropolis in Athens",
@@ -200,97 +364,58 @@ export const newsData = {
               "link": "https://www.euronews.com/2026/09/26/six-dead-after-explosion-causes-building-to-collapse-in-central-athens",
               "pubDate": "2026-09-26T12:59:08.000Z",
               "tier": 2
-            },
-            {
-              "title": "4 American tourists dead after building explosion and collapse in Athens",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSDkta3c5RDBnb19GWWI2S3Vib1VDTVc1OXhOWVBod21HeTRRbW92Y3hFbVprVWdSOVRWbF9qSEN5Y25TbU8tT19aT0ZIUWg5Q2lablRnN0c4Z1FRX2JLY3dzWW1CaFRnTzVSczEwdWJFNXpkc2dZTF91WjlnTEFDM00yZU54bW51?oc=5",
-              "pubDate": "2026-09-26T17:17:32.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
           "relevance_score": 8,
-          "importance": 70,
+          "importance": 65,
           "slug": "british-national-among-six-dead-in-athens-explosion"
         },
         {
-          "representativeTitle": "Brazil Bans Online Betting Ahead of Key Election",
+          "representativeTitle": "Russia Strikes Ukraine; Steel Production Halts Operations",
           "sources": [
-            "BBC World",
-            "France 24",
-            "Google World"
+            "Al Jazeera"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Brazil's Lula bans online gambling ahead of presidential election",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-26T15:46:40.000Z",
+              "title": "Russia scales up strikes on Ukraine as largest steelmaker halts operations",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/russia-scales-up-strikes-on-ukraine-as-largest-steelmaker-halts-operations?traffic_source=rss",
+              "pubDate": "2026-09-26T20:57:54.000Z",
               "tier": 1
-            },
-            {
-              "title": "Brazil's President Lula bans online betting ahead of presidential election",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/brazil-s-president-lula-bans-online-betting-ahead-of-presidential-election",
-              "pubDate": "2026-09-26T12:36:01.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Brazil's Lula bans online betting ahead of presidential election",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeDJrLXI1RV9ISUM4a2tzenNyUVZnbmNuQ3FkLTByaGVJRE5pc09LbU5BUUwzYkJ0TS1FSDdBeVE4Y0lsaDBGN0pvSEVRbnRLbzNwenFucVowVWZoUGVzQkJoTlZxdXRpeEJlajYyQTlYTFlQT3V1YXN1QUxsZ1FhWDR2QW4tQXBRa1MtbzgySWNseGRNMS00anZrWQ?oc=5",
-              "pubDate": "2026-09-26T00:09:34.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 70,
-          "slug": "brazil-bans-online-betting-ahead-of-key-election"
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "russia-strikes-ukraine-steel-production-halts-operations"
         },
         {
-          "representativeTitle": "Pope Praises Youth Energy at Large Paris Mass",
+          "representativeTitle": "Hamas Slams Peace Board Over UNRWA Gaza Stance",
           "sources": [
-            "BBC World",
-            "The Guardian",
-            "Le Monde"
+            "Al Jazeera"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-26T16:53:32.000Z",
+              "title": "Hamas slams Board of Peace for refusal to work with UNRWA in Gaza",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/26/hamas-slams-board-of-peace-for-refusal-to-work-with-unrwa-in-gaza?traffic_source=rss",
+              "pubDate": "2026-09-26T20:33:05.000Z",
               "tier": 1
-            },
-            {
-              "title": "Pope Leo celebrates open-air mass before 700,000 people in Paris",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/sep/26/pope-leo-celebrates-open-air-mass-before-700000-people-in-paris",
-              "pubDate": "2026-09-26T15:50:27.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Pope leads Paris open-air mass in front of hundreds of thousands",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/france/article/2026/09/26/pope-to-hold-giant-mass-on-place-de-la-concorde-and-champs-elysees_6757973_7.html",
-              "pubDate": "2026-09-26T08:32:25.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 65,
-          "slug": "pope-praises-youth-energy-at-large-paris-mass"
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "hamas-slams-peace-board-over-unrwa-gaza-stance"
         },
         {
           "representativeTitle": "Pope's Visit to Lourdes: Key Details Revealed",
@@ -315,13 +440,6 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Pope Leo XIV visits France and meets migrants and margialised people",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/pope-leo-xiv-visits-france-and-meets-migrants-and-margialised-people",
-              "pubDate": "2026-09-26T09:46:01.000Z",
-              "tier": 1
-            },
-            {
               "title": "Lourdes: Everything you need to know about Pope Leo XIV's visit",
               "source": "Euronews",
               "link": "https://www.euronews.com/2026/09/26/lourdes-everything-you-need-to-know-about-pope-leo-xivs-visit",
@@ -333,46 +451,38 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": 0,
           "relevance_score": 6,
-          "importance": 70,
+          "importance": 60,
           "slug": "popes-visit-to-lourdes-key-details-revealed"
         },
         {
-          "representativeTitle": "Trump Rejects Iran Deal; Strait Tensions Remain High",
+          "representativeTitle": "Madrid protests erupt over Ceuta migrant crisis.",
           "sources": [
-            "NBC News",
-            "ABC News Top",
-            "Google US"
+            "Al Jazeera",
+            "Euronews"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Trump says he has rejected Iranian proposal to reopen Strait of Hormuz",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/world/iran/iran-says-choice-reopening-hormuz-rests-united-states-offer-rcna599956",
-              "pubDate": "2026-09-26T09:35:55.000Z",
-              "tier": 2
+              "title": "Tens of thousands attend right-wing protest over Ceuta migrant crisis",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/26/tens-of-thousands-attend-right-wing-protest-over-ceuta-migrant-crisis?traffic_source=rss",
+              "pubDate": "2026-09-26T20:21:56.000Z",
+              "tier": 1
             },
             {
-              "title": "Iran live updates: Trump rejects Iran offer to reopen Strait of Hormuz",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/International/live-updates/iran-live-updates-irgc-ready-counteroffensive-us-attacks/?id=136611503",
-              "pubDate": "2026-09-26T15:57:46.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump Rejects Iran’s Cease-Fire Proposal to Reopen Strait of Hormuz",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd05MclZBYUtuVUpfVUlFdW9ZbkVodzBIaU1RakxWVlVBV1p4V2Q4Z3NGRml2Q0t5S3VoMUhTOWNkWVdadDZVNGlabXBlWW84OWNUWnRTTFk0ZG54M1k4bFZtcVo2UnFoWUxUYkV0aUhPQURXWkhzNy15X0tkbDgxVTZR?oc=5",
-              "pubDate": "2026-09-26T16:30:10.000Z",
+              "title": "Thousands of protesters take to the streets in Madrid over Ceuta migrant crisis",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/09/26/thousands-of-protesters-take-to-the-streets-in-madrid-over-ceuta-migrant-crisis",
+              "pubDate": "2026-09-26T10:21:12.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "trump-rejects-iran-deal-strait-tensions-remain-high"
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "madrid-protests-erupt-over-ceuta-migrant-crisis"
         },
         {
           "representativeTitle": "Conflict Escalates: War Shifts Focus to Economics",
@@ -449,76 +559,55 @@ export const newsData = {
           "slug": "un-blacklists-firms-over-alleged-palestinian-rights-violations"
         },
         {
-          "representativeTitle": "China Trade Issues Require Solutions Beyond Tariffs",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The China Trade Problem That Tariffs Alone Can't Fix",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-26/the-china-trade-problem-that-tariffs-alone-can-t-fix-video",
-              "pubDate": "2026-09-26T12:02:59.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "china-trade-issues-require-solutions-beyond-tariffs"
-        },
-        {
-          "representativeTitle": "Bangkok Declared Flood Disaster Zone; Impact Assessed",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Bangkok roads submerged as flood disaster declared",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-26T07:21:30.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Watch: Bangkok declared flood disaster zone",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/cwp933mr9v1xo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-26T15:34:18.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "bangkok-declared-flood-disaster-zone-impact-assessed"
-        },
-        {
-          "representativeTitle": "Crowds gather for Pope Leo XIV's Paris Mass",
+          "representativeTitle": "Spain sees protests over elderly woman's eviction.",
           "sources": [
             "France 24",
-            "Google World"
+            "SCMP"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "'A once-in-a-lifetime event': Faithful and curious flock to Pope Leo XIV's Mass in Paris",
+              "title": "Thousands march in Madrid to protest eviction of 87-year-old woman",
               "source": "France 24",
-              "link": "https://www.france24.com/en/france/20260926-a-once-in-a-lifetime-event-faithful-and-curious-flock-to-pope-leo-xiv-s-mass-in-paris",
-              "pubDate": "2026-09-26T16:24:04.000Z",
+              "link": "https://www.france24.com/en/europe/20260926-thousands-march-in-madrid-to-protest-eviction-of-87-year-old-woman",
+              "pubDate": "2026-09-26T17:04:06.000Z",
               "tier": 1
             },
             {
-              "title": "Pope Leo XIV fills central Paris with 700,000-strong crowd and fervor at giant outdoor Mass",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbEJFcjNvV3FnbnMyU21pVDFZV1k0TzFRajdDb0hHaVlrcFZlWThrTDZqdEwtQjdsOUdGeWR4c0JUdE1BMEFzamc5SmtfT3FUWVB2Tm1aa3daSWRoM3JqUl8zMVZkLWdfVm8wdXoyNzBmXzRRYnBvdGptV08xYkFYT1VmZ21wSUlvRHppckpmWXhUdWpCX0Z4RVhaNA?oc=5",
-              "pubDate": "2026-09-26T14:21:00.000Z",
+              "title": "Thousands march in Spain over eviction of 87-year-old woman Maricarmen Abascal",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3368920/thousands-march-spain-over-eviction-87-year-old-woman-maricarmen-abascal?utm_source=rss_feed",
+              "pubDate": "2026-09-26T20:18:09.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "spain-sees-protests-over-elderly-womans-eviction"
+        },
+        {
+          "representativeTitle": "Pope Leo continues French tour after Paris success.",
+          "sources": [
+            "France 24",
+            "Euronews"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Pope Leo set for largest event of France tour as Paris crowds swell",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/pope-leo-set-for-largest-event-of-france-tour-as-paris-crowds-swell",
+              "pubDate": "2026-09-26T11:43:23.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope Leo arrives in Lourdes for Second Leg of France visit after historic Paris crowds",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/09/26/pope-leo-arrives-in-lourdes-for-second-leg-of-france-visit-after-historic-paris-crowds",
+              "pubDate": "2026-09-26T20:15:56.000Z",
               "tier": 2
             }
           ],
@@ -527,36 +616,51 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 50,
-          "slug": "crowds-gather-for-pope-leo-xivs-paris-mass"
+          "slug": "pope-leo-continues-french-tour-after-paris-success"
         },
         {
-          "representativeTitle": "Mass gathering fills central Paris with large crowd.",
+          "representativeTitle": "German and Russian Ministers Meet After Long Hiatus",
           "sources": [
-            "France 24"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Leo XIV fills central Paris with around 600,000 people at giant outdoor Mass",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/leo-xiv-fills-central-paris-with-around-600-000-people-at-giant-outdoor-mass",
-              "pubDate": "2026-09-26T15:09:57.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Leo XIV in Paris: 600,000 worshippers excepted for open-air mass",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/leo-xiv-in-paris-600-000-worshippers-excepted-for-open-air-mass",
-              "pubDate": "2026-09-26T10:22:33.000Z",
+              "title": "German and Russian foreign ministers meet for first time in over four years",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/ec92933f-7147-410e-8ade-ab09add476a7?syn-25a6b1a6=1",
+              "pubDate": "2026-09-26T19:01:46.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Business",
           "aiCategory": "World",
           "sentiment": 0,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 55,
-          "slug": "mass-gathering-fills-central-paris-with-large-crowd"
+          "slug": "german-and-russian-ministers-meet-after-long-hiatus"
+        },
+        {
+          "representativeTitle": "Trump, Xi Plan Further Meetings After Summit Stalls",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump and Xi to meet twice more after summit fails to resolve tensions",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/bd99d372-d3d1-4972-a3fe-1bed8f71e14c?syn-25a6b1a6=1",
+              "pubDate": "2026-09-26T18:42:28.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "trump-xi-plan-further-meetings-after-summit-stalls"
         },
         {
           "representativeTitle": "US and China Discuss Paths Forward on AI",
@@ -599,7 +703,7 @@ export const newsData = {
               "title": "German town bans 'stumbling stone' memorials to Nazi victims",
               "source": "Google World",
               "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sajV5R0JQMkd1WG94ZnJQaGtLUDRwNDBUWExaZWpOUTJoa25keXk5YmIxX2NULWVMWVBVNW5aek9JR1VGRm4wOVBLb0R6VWhGWmhhLWJ2NUZjajg?oc=5",
-              "pubDate": "2026-09-26T15:21:45.000Z",
+              "pubDate": "2026-09-26T15:48:51.000Z",
               "tier": 2
             }
           ],
@@ -641,124 +745,6 @@ export const newsData = {
           "slug": "sa-ambassador-denies-trump-claims-on-genocide-allegations"
         },
         {
-          "representativeTitle": "Nepal Flood Aftermath: Missing Persons, Recovery Remains Hard",
-          "sources": [
-            "France 24",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "A month after, thousands are still missing and families face a long recovery",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/a-month-after-thousands-are-still-missing-and-families-face-a-long-recovery",
-              "pubDate": "2026-09-26T09:40:58.000Z",
-              "tier": 1
-            },
-            {
-              "title": "A month after Nepal floods, thousands are still missing and families face a long recovery",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd1pDQkZjajhqTERTMGFkakhHdHQ3bnl6MWlmQ3huazd4QU9wM0RsN0lYT1lMRmhkU0VNQnhCM2xpU245QU9yc1Eta2l6QmltQ3JQb2hEVTIzQy1uYk5jUDBlaktMc0wzRzJYSGRWXzNxNVJZUFFiWWlZay13aWhnOUN3em43bkRlUW5aRWRB?oc=5",
-              "pubDate": "2026-09-26T04:04:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "nepal-flood-aftermath-missing-persons-recovery-remains-hard"
-        },
-        {
-          "representativeTitle": "Iraq seeks US waiver on Iranian flight restrictions.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iraq seeks US exemption from ban on Iranian flights",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/26/iraq-seeks-us-exemption-from-ban-on-iranian-flights?traffic_source=rss",
-              "pubDate": "2026-09-26T17:35:11.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "iraq-seeks-us-waiver-on-iranian-flight-restrictions"
-        },
-        {
-          "representativeTitle": "Pro-Palestine Protests Disrupt Labour Party Conference Today",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘Stop arming Israel’: Pro-Palestine protesters march on Labour conference",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/stop-arming-israel-pro-palestine-protesters-march-on-labour-conference?traffic_source=rss",
-              "pubDate": "2026-09-26T17:27:19.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "pro-palestine-protests-disrupt-labour-party-conference-today"
-        },
-        {
-          "representativeTitle": "Cuba Condemns US Over Predicted Deal Tensions",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cuba condemns US ‘collective punishment’ as Trump predicts deal",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/26/cuba-condemns-us-collective-punishment-as-trump-predicts-deal?traffic_source=rss",
-              "pubDate": "2026-09-26T17:22:44.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "cuba-condemns-us-over-predicted-deal-tensions"
-        },
-        {
-          "representativeTitle": "Fano Fighters Claim Capturing Military Vehicles, Weapons",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Ethiopia’s Fano fighters claim capture of army vehicles and weapons",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/ethiopias-fano-fighters-claim-capture-of-army-vehicles-and-weapons?traffic_source=rss",
-              "pubDate": "2026-09-26T17:15:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "fano-fighters-claim-capturing-military-vehicles-weapons"
-        },
-        {
           "representativeTitle": "Iran Conflict Resolution Remains Unclear To Analysts",
           "sources": [
             "Bloomberg Markets"
@@ -781,70 +767,70 @@ export const newsData = {
           "slug": "iran-conflict-resolution-remains-unclear-to-analysts"
         },
         {
-          "representativeTitle": "Trump-Xi Summit Ends With Key Issues Unresolved",
+          "representativeTitle": "Hurricane Nolo Stalls Near Hawaii; Flooding Expected",
+          "sources": [
+            "Google US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "As Hurricane Nolo stalls near Hawaii’s Big Island, serious flooding likely",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQakQxZVJpa2JrSmplYWxSbDhKQ2pPbjZZVXpIcnZjcDJ3S1FyU1p6ZWlCQmZ3YS1FQ0g5SU4zZS1FcDRoMkVQUm5CMUtQYWdDYmdhN2g3U1NKeVlNNU9VeGFwSjdFNXlpMzBPWnZlSTZIM1plN3RyRVRfMlJPcFVJQUd3TWJLc0pnRm9Oa01rNzdUcmVUU2NlWkdVYTdEMzRKOHNfVW5NblQwYXp3N1o3aV9SaTFHcUZMTkJxVQ?oc=5",
+              "pubDate": "2026-09-26T22:02:48.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "hurricane-nolo-stalls-near-hawaii-flooding-expected"
+        },
+        {
+          "representativeTitle": "Bangladesh Targets $1 Billion Sovereign Bond Sale Debut",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump Xi Summit Leaves Big Issues Unresolved",
+              "title": "Bangladesh Targets Up to $1 Billion in Debut Sovereign Bond Sale",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-26/trump-xi-summit-leaves-big-issues-unresolved-video",
-              "pubDate": "2026-09-26T11:55:31.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-26/bangladesh-targets-up-to-1-billion-in-debut-sovereign-bond-sale",
+              "pubDate": "2026-09-26T18:21:18.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "World",
           "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trump-xi-summit-ends-with-key-issues-unresolved"
-        },
-        {
-          "representativeTitle": "Six Killed in Athens Apartment Explosion; Investigation Underway",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Greek authorities seek answers after six killed in Athens apartment block explosion",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/sep/26/greek-authorities-seek-answers-after-six-killed-in-athens-apartment-block-explosion",
-              "pubDate": "2026-09-26T16:54:55.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "six-killed-in-athens-apartment-explosion-investigation-underway"
-        },
-        {
-          "representativeTitle": "Court blocks Orange Order march on Garvaghy Road",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Belfast court injuncts decision to allow Orange Order march down Garvaghy Road",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/sep/26/belfast-court-decision-orange-order-march-garvaghy-road",
-              "pubDate": "2026-09-26T17:48:38.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "court-blocks-orange-order-march-on-garvaghy-road"
+          "slug": "bangladesh-targets-1-billion-sovereign-bond-sale-debut"
+        },
+        {
+          "representativeTitle": "German and Russian Ministers Meet at United Nations",
+          "sources": [
+            "ABC News US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "German, Russian foreign ministers have rare meeting at UN",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/german-russian-foreign-ministers-rare-meeting-136785326",
+              "pubDate": "2026-09-26T20:42:14.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "german-and-russian-ministers-meet-at-united-nations"
         },
         {
           "representativeTitle": "Sanctions cause medicine shortages across Iran.",
@@ -867,58 +853,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "sanctions-cause-medicine-shortages-across-iran"
-        },
-        {
-          "representativeTitle": "Hurricane Nolo Approaches Hawaii's Big Island With Rain",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Hurricane Nolo expected to bring heavy rain as it skirts Hawaii’s Big Island",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/hurricane-nolo-expected-bring-heavy-rain-skirts-hawaiis-big-island-rcna599924",
-              "pubDate": "2026-09-26T01:13:50.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Hurricane Nolo expected to bring heavy rain as it skirts Hawaii’s Big Island",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRjE4b0dGeVFxdjBwSGpZamVtSXk3Q3JKVG85b1JORm5KZzRFTmxZQlFxYUQ5MGZJWE1zSFdmejRENmpqRDR1RzByQ1Vqd3NhWVlXWE9uNm95bDI4VG41OFlXVU9kYmloVE1yS3h0Qm9QNDBEbGIyYjEyVklPU0gycWxEcThOVERfYmxpZTlHdjMtSXRwSUhLRktEak14c2RIcUhTZU9ocEpNUGFHRmtDUW05LTg?oc=5",
-              "pubDate": "2026-09-26T13:28:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "hurricane-nolo-approaches-hawaiis-big-island-with-rain"
-        },
-        {
-          "representativeTitle": "German and Russian Ministers Meet at United Nations",
-          "sources": [
-            "ABC News US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "German, Russian foreign ministers have rare meeting at UN",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/german-russian-foreign-ministers-rare-meeting-136785326",
-              "pubDate": "2026-09-26T17:17:06.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "german-and-russian-ministers-meet-at-united-nations"
         },
         {
           "representativeTitle": "Mexico emphasizes sovereignty during US cooperation talks.",
@@ -965,28 +899,6 @@ export const newsData = {
           "slug": "man-city-verdict-strains-uk-uae-diplomatic-ties"
         },
         {
-          "representativeTitle": "Xi Receives Gift Associated With Trump's Preferences",
-          "sources": [
-            "NY Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "You Get an Eagle, and You Get an Eagle: Xi Takes Home Trump’s Go-To Gift",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/09/25/world/americas/trump-bald-eagle-gift-xi.html",
-              "pubDate": "2026-09-26T06:25:29.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "xi-receives-gift-associated-with-trumps-preferences"
-        },
-        {
           "representativeTitle": "Climate Skeptics Now Fear Sovereign Debt Issues",
           "sources": [
             "FT International"
@@ -1014,7 +926,60 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Nor'easter Causes Flooding; NY, NJ Declare Emergencies",
+          "representativeTitle": "Arrest Made In Tasia Fortune Death Investigation",
+          "sources": [
+            "BBC US",
+            "Google US",
+            "BBC World",
+            "The Guardian"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Black woman found hanging from tree was dead before body was 'staged', police say",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cwp933nzpp9ro?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-26T01:24:31.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Third person arrested in death of Tasia Fortune, as police say hanging was staged",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb3ZTWlBJdG1iRzdQV3pHZVpBMmd4bXVRQ29ZVndzcUdxVmdORHNrbVhoM0oxUEhmOTFZNVJpNUg4aVFRWmtUTDNDQUJHWGRreUtqTFlwZXExRmd6eXBkX0pZVG45U0pSeHdUOEVRMXA5eTZtTnpjUlRHTVk1VDhtdkVzTW5hcWpuekViV1Rucy1NZ0VzTEpTdndkWQ?oc=5",
+              "pubDate": "2026-09-26T17:21:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Mother of woman found hanging in tree shocked as police say body was staged",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cq4gmmdl52rgo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-26T21:13:13.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Tenth woman's body found as South Africa police probe killings",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c3vgyyj8q807o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-26T18:30:04.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Third person arrested in death of Tasia Fortune, as police say hanging was staged",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/sep/26/mississippi-tasia-fortune-arrest-hanging-staged",
+              "pubDate": "2026-09-26T17:20:40.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 90,
+          "slug": "arrest-made-in-tasia-fortune-death-investigation"
+        },
+        {
+          "representativeTitle": "Nor'easter Flooding Forces Emergency Declarations in NY/NJ",
           "sources": [
             "BBC US",
             "ABC News Top",
@@ -1024,31 +989,31 @@ export const newsData = {
           "citationCount": 4,
           "rawArticles": [
             {
-              "title": "Nor'easter storm brings coastal flooding, as New York and New Jersey declare emergency",
+              "title": "Nor'easter brings flooding as New York and New Jersey declare emergency",
               "source": "BBC US",
               "link": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-26T17:47:09.000Z",
+              "pubDate": "2026-09-26T22:04:26.000Z",
               "tier": 1
             },
             {
               "title": "Nor'easter brings strong winds, coastal flooding and high waves to East Coast",
               "source": "ABC News Top",
               "link": "https://abcnews.com/US/noreaster-brings-strong-winds-coastal-flooding-high-waves/story?id=136777903",
-              "pubDate": "2026-09-26T18:17:29.000Z",
+              "pubDate": "2026-09-26T22:24:02.000Z",
               "tier": 2
             },
             {
-              "title": "Philadelphia region braces for nor’easter: N.J. and Del. see high waves, coastal flooding",
+              "title": "Saturday and weekend Nor’Easter update",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYkM2QTlUbmIzX2wwZElvVXBBeVkzbW54dXYyVF9COXdTR2dXdmV6UUUzSHpUQTRYMVNHakxoT1Ftb1hKSXp3czJoSDZVbHkyR21KSGQzVGpBTG0xdkhmamEteG9fSHk2dFFLX0ZoUjlpTXJiN01idmFFTFZaRi1aNUdUNGFPTUZndUlTdDBPankyellRQkdmblF3TGxZUmdOYUZKa0xR?oc=5",
-              "pubDate": "2026-09-26T15:54:04.000Z",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jcG1lX211R1Jua0NMQmRTTGF0WGZ0WEF6M01tQkVJMzVCbHNPSEM2cjFLSlB0cUJJZU9rcjc0OWZMb1QxWUl1OHctR2pORDJZbW5DZkhhOUNZX2JzMDQ2T0gxYWt0d3dTQjNnMjR5WXlSVGVkZXfSAXtBVV95cUxNZHZEUlotUkQwU3lXU3dnMnN5ZWEwMnVkVHFTSnItaFk0Nks5Q3JUM0todXlXbmpUMml3YXgtRE93R0pjQmhPT3VZZnAxdW9jSDV3ZE05WXhVT0hCdGpzZUNUYkJnVmVnU1hzWUtvQkdqa0pWNkVWV1RYTEE?oc=5",
+              "pubDate": "2026-09-26T21:01:57.000Z",
               "tier": 2
             },
             {
-              "title": "Nor'easter storm brings coastal flooding, as New York and New Jersey declare emergency",
+              "title": "Nor'easter brings flooding as New York and New Jersey declare emergency",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-26T17:47:09.000Z",
+              "pubDate": "2026-09-26T22:04:26.000Z",
               "tier": 1
             }
           ],
@@ -1057,17 +1022,62 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 8,
           "importance": 80,
-          "slug": "noreaster-causes-flooding-ny-nj-declare-emergencies"
+          "slug": "noreaster-flooding-forces-emergency-declarations-in-nynj"
+        },
+        {
+          "representativeTitle": "White House restricts CNN access to Trump travel.",
+          "sources": [
+            "NBC News",
+            "Google US",
+            "BBC World",
+            "SCMP"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "White House blocks CNN from covering Trump’s Tennessee trip",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/white-house/white-house-blocks-cnn-covering-trumps-tennessee-trip-rcna599944",
+              "pubDate": "2026-09-26T13:47:11.000Z",
+              "tier": 2
+            },
+            {
+              "title": "White House bars CNN from travelling with Trump on Air Force One",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Zdk5yVlpvUFEtS2FCaERCUjZYNUdiUkdTYVIwZVZPblc2bS1QQ2FQaHVQcnlQUVcxN1lZOE1qbURLNk1GNGZkTE1GYlFIaVhlYmFqVW1rMjY5cGs?oc=5",
+              "pubDate": "2026-09-26T19:16:14.000Z",
+              "tier": 2
+            },
+            {
+              "title": "White House bars CNN from travelling with Trump on Air Force One",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cxq633770y16o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-26T19:16:14.000Z",
+              "tier": 1
+            },
+            {
+              "title": "CNN blocked from Trump’s trip as White House signals new media curb",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/us/politics/article/3368881/cnn-blocked-trumps-trip-white-house-signals-new-media-curb?utm_source=rss_feed",
+              "pubDate": "2026-09-26T03:26:19.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "white-house-restricts-cnn-access-to-trump-travel"
         },
         {
           "representativeTitle": "Campus security lapses linked to fatal incident review.",
           "sources": [
             "BBC US",
             "Washington Post",
-            "ABC News US",
             "Google US"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Security lapses at Utah campus where Charlie Kirk was killed, review says",
@@ -1084,13 +1094,6 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Report finds many security deficiencies at university where Charlie Kirk was killed",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/report-finds-security-deficiencies-utah-university-charlie-kirk-136762900",
-              "pubDate": "2026-09-25T18:53:37.000Z",
-              "tier": 2
-            },
-            {
               "title": "Security lapses at Utah campus where Charlie Kirk was killed, review says",
               "source": "Google US",
               "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5NjA2dUZvNU5CaFlZZ2haSjItZW52MTYwb3BPVlY5QUFGOTA4MG1uSDBVZkhJZi10Yy1jbC1YTzV3Rm5ta0ZjbGszUHRNYnJ0NkFMUy1pb25wc00?oc=5",
@@ -1102,122 +1105,150 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.9,
           "relevance_score": 8,
-          "importance": 80,
+          "importance": 75,
           "slug": "campus-security-lapses-linked-to-fatal-incident-review"
         },
         {
-          "representativeTitle": "Mississippi Police Claim Woman's Death Was Staged",
+          "representativeTitle": "Neighbor Charged After Driver Found Dismembered in Georgia",
           "sources": [
-            "BBC World",
-            "The Guardian",
-            "SCMP"
+            "NBC News",
+            "Fox News",
+            "Google US"
           ],
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Black woman found hanging from tree was dead before body was 'staged', police say",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cwp933nzpp9ro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-26T01:24:31.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Third person arrested in death of Tasia Fortune, as police say hanging was staged",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/sep/26/mississippi-tasia-fortune-arrest-hanging-staged",
-              "pubDate": "2026-09-26T17:20:40.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Black woman Tasia Fortune’s hanging was ‘staged’ after her death, Mississippi police say",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3368871/black-woman-tasia-fortunes-hanging-was-staged-after-her-death-mississippi-police-say?utm_source=rss_feed",
-              "pubDate": "2026-09-25T19:59:37.000Z",
+              "title": "Neighbor charged with murder after Georgia DoorDash driver found dismembered",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/neighbor-charged-murder-georgia-doordash-driver-rcna599965",
+              "pubDate": "2026-09-26T16:32:06.000Z",
               "tier": 2
+            },
+            {
+              "title": "Georgia man, 18, charged with murder after dismembered human remains found in car trunk",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/us/georgia-man-18-charged-murder-after-dismembered-human-remains-found-car-trunk",
+              "pubDate": "2026-09-26T19:22:29.000Z",
+              "tier": 2
+            },
+            {
+              "title": "‘Gruesome crime’: Neighbor charged with murder after Georgia DoorDash driver found dismembered",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPb1lOZUVVODVvTWJqZzJDZ1pUczN1ZkhwYTJMbDJncWpOSUNmVFdHN1VydktoZWN4OEJhcDRKLURxUlkxWF9GbC1Ia21xbmRXNFRjNUo5MDRBYk1PT1BPdHE4RjIzNFFpYUczdXFhYkhubEV3bmtLdG5FcXNaSFJrb1NmUnZSRDczT3pxUG1oRmxtY3k3OVRXWDVCdw?oc=5",
+              "pubDate": "2026-09-26T17:33:11.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "neighbor-charged-after-driver-found-dismembered-in-georgia"
+        },
+        {
+          "representativeTitle": "Trump plans rollback of Biden fuel economy rules.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump says he is rolling back Biden-era US fuel economy rules for cars",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/26/trump-says-he-is-rolling-back-biden-era-us-fuel-economy-rules-for-cars?traffic_source=rss",
+              "pubDate": "2026-09-26T21:51:56.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 65,
-          "slug": "mississippi-police-claim-womans-death-was-staged"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "trump-plans-rollback-of-biden-fuel-economy-rules"
         },
         {
-          "representativeTitle": "Media Coverage Changes Amid White House Travel Plans",
+          "representativeTitle": "New Housing Scheme Targets First-Time Buyers Support",
           "sources": [
-            "NBC News",
-            "NPR",
-            "Google US"
+            "The Guardian",
+            "Sky News"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "White House blocks CNN from covering Trump’s Tennessee trip",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/white-house/white-house-blocks-cnn-covering-trumps-tennessee-trip-rcna599944",
-              "pubDate": "2026-09-26T13:47:11.000Z",
-              "tier": 2
-            },
-            {
-              "title": "CNN left off Air Force One for Trump's upcoming trip, White House signals in new media restriction",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/09/26/g-s1-145142/cnn-left-off-air-force-one",
-              "pubDate": "2026-09-26T04:42:17.000Z",
-              "tier": 2
-            },
-            {
-              "title": "White House blocks CNN from traveling with Trump on Air Force One",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOGVTcE00R05DNzNrNjlvRUFsVnpSNnRYYTh1MzhtU2pOOW9seklpMUoxX1UwSjQyNkhZSFVCSlhsLVJCUVJmSGxSekZvd09OSUFScUpnaWFBeEVONVdHcF9ncFBOVFhpYjlITmhjNDZUeXhFVUZfWlY0ck9jVHRuUE41V2ptYUVxTlZ6c0Naanhha2g0SWZCbUcyTEo?oc=5",
-              "pubDate": "2026-09-26T14:32:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "media-coverage-changes-amid-white-house-travel-plans"
-        },
-        {
-          "representativeTitle": "Supreme Court allows database use for voter citizenship checks.",
-          "sources": [
-            "BBC US",
-            "ABC News Top",
-            "Google US"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "US Supreme Court allows Trump to use controversial database to check voter citizenship",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-25T19:13:35.000Z",
+              "title": "Andy Burnham announces new homes scheme for first-time buyers",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/2026/sep/26/andy-burnham-announces-new-scheme-for-first-time-home-buyers-england",
+              "pubDate": "2026-09-26T16:19:29.000Z",
               "tier": 1
             },
             {
-              "title": "Supreme Court allows use of citizenship database ahead of midterms",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/supreme-court-allows-trump-administration-citizenship-database-ahead/story?id=136755610",
-              "pubDate": "2026-09-25T19:03:30.000Z",
+              "title": "New scheme to get first-time buyers on housing ladder announced by Burnham",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/new-scheme-to-get-first-time-buyers-on-housing-ladder-announced-by-andy-burnham-13592237",
+              "pubDate": "2026-09-26T17:15:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "new-housing-scheme-targets-first-time-buyers-support"
+        },
+        {
+          "representativeTitle": "Storm causes widespread power outages across US Northeast.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Major storm in US north-east knocks out power for 100,000 and floods roads",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/sep/26/noreaster-north-east-us",
+              "pubDate": "2026-09-26T20:34:42.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "storm-causes-widespread-power-outages-across-us-northeast"
+        },
+        {
+          "representativeTitle": "Nor'easter Brings Winds and Flooding to East Coast",
+          "sources": [
+            "NBC News",
+            "NPR"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Powerful nor'easter lashes parts of the East Coast",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/now/video/powerful-nor-easter-lashes-parts-of-the-east-coast-270598213953",
+              "pubDate": "2026-09-26T19:19:30.000Z",
               "tier": 2
             },
             {
-              "title": "What the Supreme Court's voter-citizenship database decision means for the midterms",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaXRrT2ZfQ0RhUzJYanc4ZHlsMWlJOC1VOFd1U0VkbERWOGxGUEROTFpRMEFEWWM3YkNueThsS211TjA4d0Q3MXBsTzdzYkdObVBxZkZxN0ZGYVo1WElmT1BGSzNacFpwbXlJT0xGVUlSeFVYNHdlNkFJMzdHSkFsRkxIb1VodjAyTEYtN1IxZWxlOHA2dmdWMFVPOE02aWI1X3VoRzgwaU4xUjFuOXdtYTJiZVdGWG8?oc=5",
-              "pubDate": "2026-09-25T22:55:46.000Z",
+              "title": "Powerful nor'easter brings winds, floods to East Coast",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/09/26/nx-s1-5981392/noreaster-pounds-mid-atlantic-new-england-coastlines-hurricane-nolo-targets-hawaii",
+              "pubDate": "2026-09-26T11:38:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.4,
+          "sentiment": -0.9,
           "relevance_score": 8,
-          "importance": 65,
-          "slug": "supreme-court-allows-database-use-for-voter-citizenship-checks"
+          "importance": 50,
+          "slug": "noreaster-brings-winds-and-flooding-to-east-coast"
         },
         {
           "representativeTitle": "Police Re-examine Footage in Cold Murder Case",
@@ -1250,124 +1281,56 @@ export const newsData = {
           "slug": "police-re-examine-footage-in-cold-murder-case"
         },
         {
-          "representativeTitle": "Supreme Court rejects Missouri congressional map again.",
+          "representativeTitle": "Lawmakers criticize Trump over funding cancellation move.",
           "sources": [
-            "Washington Post",
-            "NBC News",
             "Google US"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Supreme Court blocks Missouri congressional map favoring GOP for third time",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/politics/2026/09/25/supreme-court-blocks-missouri-congressional-map-favoring-gop-third-time/",
-              "pubDate": "2026-09-25T22:20:42.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Supreme Court rejects Republicans’ Missouri redistricting push for third time",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/elections/supreme-court-third-time-rejects-republican-redistricting-push-missour-rcna599218",
-              "pubDate": "2026-09-25T22:04:16.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Supreme Court rejects a Trump-backed Missouri congressional map for the third time",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORUo2Vk5CNDlNc3BzZXJyN1FfMVpBbF9qSWZlcTlPXzhmeXR0S29iWXB4ZlNUVG9lamRLU09ucC1FVTk0Qkxlb0UwOEtLZ0F2azJ0M0ZTcUItQlRVWmZPLXZTa2NpNjctVUVIWHN4dVNaT2NvS1hvZ2pYM2lubUYyTW9vamJVMUVEYW9JUmViZWVqMTI5WlFHcmM4SFI1Umtlck9NbDZ5TVdtVkVSOGZPUkJCRmMyMFpt0gG-AUFVX3lxTFA0enVqX0hRNXN4Q2NLcmlveERUbHAxZWFVOF9HSlVXR3o4dzVwZENIX0tCS1lhTUZJVFZGaUswM3dYX3hlbUZhWm1QRVl1M255ckZCWHRWTDF0ZWY2QkNsbGdqRllaeURiZEZjWThjeXMyMS14NWZ1WWRkV0RtVHg3TzlkQnpaM2p4RzYxek1SbWVYbUV1NXVURlBKTTBpVGlUbXlJZTF5MzlNOThSSy1qaU9keXR4a2RkdFlGdnc?oc=5",
-              "pubDate": "2026-09-25T22:21:36.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 60,
-          "slug": "supreme-court-rejects-missouri-congressional-map-again"
-        },
-        {
-          "representativeTitle": "Neighbor Charged After Driver Found Dismembered in Georgia",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Neighbor charged with murder after Georgia DoorDash driver found dismembered",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/neighbor-charged-murder-georgia-doordash-driver-rcna599965",
-              "pubDate": "2026-09-26T16:32:06.000Z",
-              "tier": 2
-            },
-            {
-              "title": "‘Gruesome crime’: Neighbor charged with murder after Georgia DoorDash driver found dismembered",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPb1lOZUVVODVvTWJqZzJDZ1pUczN1ZkhwYTJMbDJncWpOSUNmVFdHN1VydktoZWN4OEJhcDRKLURxUlkxWF9GbC1Ia21xbmRXNFRjNUo5MDRBYk1PT1BPdHE4RjIzNFFpYUczdXFhYkhubEV3bmtLdG5FcXNaSFJrb1NmUnZSRDczT3pxUG1oRmxtY3k3OVRXWDVCdw?oc=5",
-              "pubDate": "2026-09-26T17:33:11.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "neighbor-charged-after-driver-found-dismembered-in-georgia"
-        },
-        {
-          "representativeTitle": "East Coast braces for rare nor'easter storm impact",
-          "sources": [
-            "NBC News",
-            "NPR"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Millions brace for rare fall nor’easter along the East Coast",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/now/video/nor-easter-storm-dumps-heavy-rain-along-the-east-coast-270597701863",
-              "pubDate": "2026-09-26T16:19:35.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Powerful nor'easter brings winds, floods to East Coast",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/09/26/nx-s1-5981392/noreaster-pounds-mid-atlantic-new-england-coastlines-hurricane-nolo-targets-hawaii",
-              "pubDate": "2026-09-26T11:38:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "east-coast-braces-for-rare-noreaster-storm-impact"
-        },
-        {
-          "representativeTitle": "Police investigate fraternity hazing after basement discovery.",
-          "sources": [
-            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Wisconsin police investigating fraternity for hazing after men found in basement",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/sep/26/university-of-wisconsin-fraternity-hazing",
-              "pubDate": "2026-09-26T16:57:54.000Z",
-              "tier": 1
+              "title": "Lawmakers slam Trump’s move to cancel $810M in funding approved by Congress",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQXVETWhHaVFMQlVkMnZ2alg5REZhdmlBT01qc0xHdlBlbjJOWV9DSlllOWxXT0N6RTYzRklKZlZvZ2pYZ002YjFQeHZYZUNkY2hmcWJvdjNSb0ZucE9wQ2hpZXlDUWJxVGNPTVZfWEJoQjhncTN3MU92SnNRV2J3QkV2dHVROUF0d0xTdEVOcjhOSTc5aHI3UmZLQXNlaEQ2dUFvTElja20tU0pEbExubnhMbzdGaFo1M25B?oc=5",
+              "pubDate": "2026-09-26T21:22:49.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "lawmakers-criticize-trump-over-funding-cancellation-move"
+        },
+        {
+          "representativeTitle": "NJ Lt. Governor Resigns; Gov. Sherrill Confirms Departure",
+          "sources": [
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "New Jersey Lt. Gov. Dale Caldwell resigns after ethics probe",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Politics/new-jersey-lt-gov-dale-caldwell-resigns-after/story?id=136764013",
+              "pubDate": "2026-09-26T21:44:33.000Z",
+              "tier": 2
+            },
+            {
+              "title": "NJ Lt. Governor Dale Caldwell has resigned, Gov. Sherrill says",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQmVqNXBNZlAzR0VxS2FBMUY5b1RDWE9aTFcxWUhXTmZfcktrUm9zQ2k0Vi0xcWlLcTNxLXBTRTJwTG14a2wxVXRpd3BUQllfN1hQRENsd3A3RnVTTGhjYldPVXdhMldQYWVvb1hPYU05SDBWdTVrUkpHMjVMNWp3b2NYd3lNZGhvOHoxUnNMMA?oc=5",
+              "pubDate": "2026-09-26T12:19:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 45,
-          "slug": "police-investigate-fraternity-hazing-after-basement-discovery"
+          "importance": 40,
+          "slug": "nj-lt-governor-resigns-gov-sherrill-confirms-departure"
         },
         {
           "representativeTitle": "Northeast Warned of Severe Weather and Flooding Risks",
@@ -1392,36 +1355,6 @@ export const newsData = {
           "slug": "northeast-warned-of-severe-weather-and-flooding-risks"
         },
         {
-          "representativeTitle": "Medicaid work rules tighten as states adopt tougher stances.",
-          "sources": [
-            "ABC News US",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "As work requirements kick in for Medicaid, some states are taking a tougher stance",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/work-requirements-kick-medicaid-states-taking-tougher-stance-136777670",
-              "pubDate": "2026-09-26T11:16:04.000Z",
-              "tier": 2
-            },
-            {
-              "title": "As work requirements kick in for Medicaid, some states are taking a tougher stance",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUkx0Y2dZT0hJbzJSaHY5aUxHRGpoaEpzM3BmZFlsa2YxTjVYcFlCYXBieE1LWldfa2llRkpQZUt2X1BjVjhQOXNZMHhnRTVZMHBDV2FjcGVvbjlmMkNHZWZ5aE9PZ0dkdllKSGtrWDVvMms1cFFQbWJONW5IV2JVdGxwX0U3dVpER1hKeVFRRDlVWDBqazhmTGJ0V1JROEVvLVg1RQ?oc=5",
-              "pubDate": "2026-09-26T10:09:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "medicaid-work-rules-tighten-as-states-adopt-tougher-stances"
-        },
-        {
           "representativeTitle": "States Debate Gas Tax Holidays Before Election Day Vote",
           "sources": [
             "Washington Post"
@@ -1442,36 +1375,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "states-debate-gas-tax-holidays-before-election-day-vote"
-        },
-        {
-          "representativeTitle": "Third suspect arrested in Mississippi death investigation",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Third suspect arrested in death of Mississippi woman found hanging at ‘staged’ crime scene",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/third-suspect-arrested-death-mississippi-woman-found-hanging-tree-rcna599617",
-              "pubDate": "2026-09-26T13:37:46.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Third suspect arrested in death of Mississippi woman found hanging at ‘staged’ crime scene",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeXl5amM1SW14dEgwbjFseGZTUnZiVDZQZmZSeDF6MHZZMkhfVXg0WU1HQlRCcW1FWFJ2NHRfb3VybHk4Y0hWeTJyNW1TT3BVU2tjSF9zd2Frb3FoSnNmODk0VUtLVnRWOHg5SUZPYkZLZGNqSlR0SUwxeUVqNWZqSEdwdS12UlpGTy1RYmpSMDl0dEhzYkJ6WU5aeHN4VUh0T3V0eFpIcWZtYzhiallHR0xpVQ?oc=5",
-              "pubDate": "2026-09-26T13:40:10.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "third-suspect-arrested-in-mississippi-death-investigation"
         },
         {
           "representativeTitle": "Lawmakers Question Congress's Ability to Regulate AI",
@@ -1558,12 +1461,55 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
+          "representativeTitle": "Insurers warn AI adoption drives rising healthcare costs.",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Insurers claim AI is already increasing healthcare costs",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+              "pubDate": "2026-09-26T21:02:06.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "insurers-warn-ai-adoption-drives-rising-healthcare-costs"
+        },
+        {
+          "representativeTitle": "Bond Volatility Signals Risks for Corporate Debt Investors",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Bond Market Volatility Signals Risks for Corporate Debt Investors",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-26/rate-market-fear-gauge-is-warning-for-corporates-credit-weekly",
+              "pubDate": "2026-09-26T19:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "bond-volatility-signals-risks-for-corporate-debt-investors"
+        },
+        {
           "representativeTitle": "High Treasury Yields Signal Economic Shift Concerns",
           "sources": [
-            "CNBC Markets",
-            "Google Stocks"
+            "CNBC Markets"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
@@ -1571,21 +1517,36 @@ export const newsData = {
               "link": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html",
               "pubDate": "2026-09-26T13:30:06.000Z",
               "tier": 1
-            },
-            {
-              "title": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdjRseTh3M19YMmZMRzZwNmNzU2lKOXBaQWZFY3h6NmljdHFJbk1MaHBrSHdnUHYzQ3Z2emhBZUV0eGNDT21JcVIwaE84d0diZHpTTmxydzZhaElHSVR2VHV4RzVMS0RKUktMMU1RaDhxQ08zTER0UDkyMVVUX1p5ZXRaZTltWmNzdHVGOGotdjB3OVNCbGtvV3A5Z3ZyU05QVGNWSVB3WmzSAa4BQVVfeXFMUEZ0RlpZaDh6bGxuVzVZalpuRHEyMEM2ZnE3SGxpUHdQbXZPcVBYRkJkYzhITFVHa091bUZ0eldHbW9tTTRlRW5kU0ZPTFctNjk2TC1WaHA2Qm9kNV9TX1F1b0R3NFlUblFtek95a3dVVzk3QlFGbjZaSWVkZDBBTjdRRE5RMS12ZUxITldWalVwRU9sT3Nsc1hLdGNrQi1MSktCM0cwSThjX1ZPY3JB?oc=5",
-              "pubDate": "2026-09-26T13:30:06.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
+          "importance": 55,
           "slug": "high-treasury-yields-signal-economic-shift-concerns"
+        },
+        {
+          "representativeTitle": "Paramount's Promises to Hollywood Regarding WBD Deal",
+          "sources": [
+            "CNBC Economy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/09/25/paramount-hollywood-promises.html",
+              "pubDate": "2026-09-26T19:23:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "paramounts-promises-to-hollywood-regarding-wbd-deal"
         },
         {
           "representativeTitle": "Bond Yields Return to Normal Levels After Period",
@@ -1630,28 +1591,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "boeing-737-max-software-glitch-threatens-flight-navigation"
-        },
-        {
-          "representativeTitle": "Supply Chain Issues Threaten Grocery Availability By 2026",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Your favorite grocery and snack items may have disappeared from store shelves in 2026",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/food-drink/favorite-grocery-snack-items-may-have-disappeared-store-shelves-2026",
-              "pubDate": "2026-09-26T17:43:27.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "supply-chain-issues-threaten-grocery-availability-by-2026"
         },
         {
           "representativeTitle": "Semiconductor Investment Targets Revitalizing Rust Belt Economy",
@@ -1720,26 +1659,26 @@ export const newsData = {
           "slug": "scammers-target-consumers-with-old-credit-card-scams"
         },
         {
-          "representativeTitle": "Monzo Discusses Potential Sale to Nubank Brazil",
+          "representativeTitle": "Australian Colleges Offer Discounts Amid Student Concerns",
           "sources": [
-            "FT International"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Monzo in talks with Brazil’s Nubank about sale",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/e375ba2b-8033-426a-aa63-0f22dd06e689?syn-25a6b1a6=1",
-              "pubDate": "2026-09-26T09:01:19.000Z",
+              "title": "Private colleges around Australia offering last-minute discounts for diploma allegedly ‘misused by shonks’",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/sep/27/australia-private-colleges-discount-deregistered-management-diploma-visa-crackdown-immigration-ntwnfb",
+              "pubDate": "2026-09-26T20:00:45.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "World",
           "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "monzo-discusses-potential-sale-to-nubank-brazil"
+          "sentiment": -0.4,
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "australian-colleges-offer-discounts-amid-student-concerns"
         },
         {
           "representativeTitle": "Tourist Tax Revenue Shows Significant Growth Trends",
@@ -1784,78 +1723,12 @@ export const newsData = {
           "relevance_score": 4,
           "importance": 35,
           "slug": "interview-with-mark-carney-offers-economic-insights"
-        },
-        {
-          "representativeTitle": "Paramount's Promises to Hollywood Regarding WBD Deal",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/09/25/paramount-hollywood-promises.html",
-              "pubDate": "2026-09-25T22:53:52.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "paramounts-promises-to-hollywood-regarding-wbd-deal"
         }
       ]
     },
     {
       "name": "Technology",
       "children": [
-        {
-          "representativeTitle": "Trump rejects unified US-China AI cooperation efforts.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump rejects combining US-China AI efforts",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-combining-us-china-ai-efforts?traffic_source=rss",
-              "pubDate": "2026-09-26T17:39:18.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trump-rejects-unified-us-china-ai-cooperation-efforts"
-        },
-        {
-          "representativeTitle": "Hackers Hijack AI to Fuel Cybercrime Boom",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Hackers hijack AI accounts and servers to fuel new cyber crime boom",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/3f406fbe-b72e-488f-9975-5b94e95dfe32?syn-25a6b1a6=1",
-              "pubDate": "2026-09-26T10:00:04.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "hackers-hijack-ai-to-fuel-cybercrime-boom"
-        },
         {
           "representativeTitle": "New Asset May Boost Investor Exposure to AI",
           "sources": [
@@ -1877,6 +1750,72 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "new-asset-may-boost-investor-exposure-to-ai"
+        },
+        {
+          "representativeTitle": "Protesters disrupt NVIDIA AI climate panel discussion.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Student protesters disrupt NVIDIA AI climate panel",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/student-protesters-disrupt-nvidia-ai-climate-panel?traffic_source=rss",
+              "pubDate": "2026-09-26T22:09:33.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "protesters-disrupt-nvidia-ai-climate-panel-discussion"
+        },
+        {
+          "representativeTitle": "Australian Officials Dispute US Comparison Over Data Centers",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Australian backlash to datacentres is faux import from US, officials say: ‘We are not the United States’",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/sep/26/australia-datacentre-backlash",
+              "pubDate": "2026-09-26T22:00:47.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "australian-officials-dispute-us-comparison-over-data-centers"
+        },
+        {
+          "representativeTitle": "TikTok Settles Alabama Lawsuit For Minimum $100 Million",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "TikTok agrees to pay at least $100M in Alabama settlement",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/09/26/tiktok-agrees-to-pay-at-least-100m-in-alabama-settlement/",
+              "pubDate": "2026-09-26T20:24:45.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "tiktok-settles-alabama-lawsuit-for-minimum-100-million"
         },
         {
           "representativeTitle": "AI Used to Curate Public Records Access Decisions",
@@ -1901,58 +1840,36 @@ export const newsData = {
           "slug": "ai-used-to-curate-public-records-access-decisions"
         },
         {
-          "representativeTitle": "US AI Race Against China Seen Crucial Economic Battle",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cruz says winning AI race against China is 'single most important economic question' for America",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/cruz-winning-ai-race-against-china-single-most-important-economic-question-america",
-              "pubDate": "2026-09-26T17:14:16.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "us-ai-race-against-china-seen-crucial-economic-battle"
-        },
-        {
-          "representativeTitle": "OpenAI Halts Training of Top AI Models Now",
+          "representativeTitle": "Apple faces $5.7B damages over haptic patents.",
           "sources": [
             "The Verge"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "OpenAI pauses training of its ‘most capable models’",
+              "title": "Apple hit with $5.7 billion in damages over haptic patents",
               "source": "The Verge",
-              "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-              "pubDate": "2026-09-26T16:34:59.000Z",
+              "link": "https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents",
+              "pubDate": "2026-09-26T21:30:01.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "openai-halts-training-of-top-ai-models-now"
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "apple-faces-57b-damages-over-haptic-patents"
         },
         {
-          "representativeTitle": "Meta Confirms Running Ads for Musk Documentary",
+          "representativeTitle": "Meta and YouTube Ad Support Musk Documentary Now",
           "sources": [
             "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Meta says it will run ads for ‘Musk’ documentary after all",
+              "title": "Meta and YouTube say they will run ads for ‘Musk’ documentary after all",
               "source": "TechCrunch",
               "link": "https://techcrunch.com/2026/09/26/meta-says-it-will-run-ads-for-musk-documentary-after-all/",
               "pubDate": "2026-09-26T17:44:00.000Z",
@@ -1964,29 +1881,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "meta-confirms-running-ads-for-musk-documentary"
-        },
-        {
-          "representativeTitle": "OpenAI reports model misbehavior on government sites.",
-          "sources": [
-            "NPR"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "OpenAI says its models engaged with US government websites in misbehavior disclosure",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/09/26/nx-s1-5981979/openai-us-government-websites-misbehavior",
-              "pubDate": "2026-09-26T17:10:04.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "openai-reports-model-misbehavior-on-government-sites"
+          "slug": "meta-and-youtube-ad-support-musk-documentary-now"
         },
         {
           "representativeTitle": "User Creates Interactive Digital Avatar of Self",
@@ -2031,28 +1926,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "apps-boost-public-engagement-with-local-wildlife-viewing"
-        },
-        {
-          "representativeTitle": "OpenAI Claims Hacking of Multiple Governments' Systems",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "OpenAI says governments among ‘dozens’ of organisations hacked by its agents",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/651024b1-d1ce-40c1-acae-a92c3505d3f1?syn-25a6b1a6=1",
-              "pubDate": "2026-09-25T22:18:19.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "openai-claims-hacking-of-multiple-governments-systems"
         },
         {
           "representativeTitle": "Meta showcases smart glasses at major industry conference.",
@@ -2149,6 +2022,28 @@ export const newsData = {
           "slug": "earths-core-dynamics-altering-global-day-length-measurements"
         },
         {
+          "representativeTitle": "Black Hole Jets Exceed Galaxies' Visible Boundaries Now",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Black hole jets reach far beyond galaxies' visible edges, potentially deciding their fate",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-09-black-hole-jets-galaxies-visible.html",
+              "pubDate": "2026-09-26T21:00:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "black-hole-jets-exceed-galaxies-visible-boundaries-now"
+        },
+        {
           "representativeTitle": "Engineers Train Spacecraft Using Advanced AI Methods",
           "sources": [
             "Phys.org"
@@ -2193,6 +2088,28 @@ export const newsData = {
           "slug": "engine-uses-atmosphere-fuel-for-perpetual-satellite-orbit"
         },
         {
+          "representativeTitle": "Mars Crater Reveals Complex Geological History Beyond Lakes",
+          "sources": [
+            "Google Science"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Perseverance discovers Mars crater was more than just an ancient lake",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UeEphQnpSclQ5ckhYTUtBOURaZ3p5MmVsQ29OVFpVRG9xRmdJYy00OTU1UXY2NlZrdUpJNzJXRzBrUGZDT3ltTHBlcGFWOWQ4WS1WZUVoYl90bXFLWmcwQldhTnZ0aFN2d2dBcEtaVzhpSGtI?oc=5",
+              "pubDate": "2026-09-26T16:56:41.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "mars-crater-reveals-complex-geological-history-beyond-lakes"
+        },
+        {
           "representativeTitle": "Screening Risks Overestimated; New Guidelines Needed Now",
           "sources": [
             "Science Daily"
@@ -2215,50 +2132,6 @@ export const newsData = {
           "slug": "screening-risks-overestimated-new-guidelines-needed-now"
         },
         {
-          "representativeTitle": "Scientists Unlock Ancient Secrets From Burned Scrolls",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Scientists burned their own scrolls to unlock a 2,000-year-old mystery",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/09/260925005414.htm",
-              "pubDate": "2026-09-26T14:04:56.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "scientists-unlock-ancient-secrets-from-burned-scrolls"
-        },
-        {
-          "representativeTitle": "Quantum Computer Simulates Matter's Emergence Process",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Quantum computer simulates matter “popping into existence”",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/09/260925005416.htm",
-              "pubDate": "2026-09-26T13:47:38.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "quantum-computer-simulates-matters-emergence-process"
-        },
-        {
           "representativeTitle": "Silver Nanoparticles Boost CO₂ Conversion to Carbon Monoxide",
           "sources": [
             "Phys.org"
@@ -2279,28 +2152,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "silver-nanoparticles-boost-co-conversion-to-carbon-monoxide"
-        },
-        {
-          "representativeTitle": "Vesuvius eruption aids dating Earth's deep history.",
-          "sources": [
-            "Google Science"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "2,000-year-old Vesuvius eruption that buried Pompeii helps scientists date Earth’s history more precisely",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRXF3am5GdENOUExfS1NjMlhTeTlfdjE4QTNqUE5Ga1VXRnc1bjJaNFFfY2lRZTd2SEJCOFpJcEVMR0I5MWl2VV91TzdleVNPQ0hReUk2bHJDWGQzdWV3MVRHa3ZzRloxOWxRa0NxRktyMjl2clRmMHhCQkVacDl0SUdYUXNXUXAxQ0dJMEI2V1lkczJi?oc=5",
-              "pubDate": "2026-09-26T13:34:46.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "vesuvius-eruption-aids-dating-earths-deep-history"
         }
       ]
     }
