@@ -1,16 +1,85 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-09-25T21:45:30.942Z",
+  "lastUpdated": "2026-09-26T01:54:00.838Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Pope Speaks at UNESCO on First Day in France",
+          "representativeTitle": "Iran's Deal Threatens Hormuz Strait Stability Amid Elections",
+          "sources": [
+            "BBC World",
+            "The Guardian",
+            "Al Jazeera",
+            "SCMP",
+            "Sky News",
+            "Euronews"
+          ],
+          "citationCount": 6,
+          "rawArticles": [
+            {
+              "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-25T23:38:48.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump faces tough choices as Iran dangles deal to reopen Hormuz before US midterms",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/sep/25/trump-tough-choices-iran-accelerated-deal-reopen-hormuz-midterm-elections",
+              "pubDate": "2026-09-25T15:43:59.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Iran war live: Tehran offers US plan to reopen Hormuz within seven days",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/9/26/iran-war-live-tehran-offers-us-plan-to-reopen-hormuz-within-seven-days?traffic_source=rss",
+              "pubDate": "2026-09-26T00:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Iran to reopen Strait of Hormuz within a week if US agrees to plan",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/iran-to-reopen-strait-of-hormuz-within-a-week-if-us-agrees-to-plan?traffic_source=rss",
+              "pubDate": "2026-09-25T22:33:27.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Iran offers US plan to reopen Hormuz within 7 days",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3368872/iran-offers-us-plan-reopen-hormuz-within-7-days?utm_source=rss_feed",
+              "pubDate": "2026-09-25T21:03:29.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Iran says it has given US 'concrete' seven-day plan to reopen Strait of Hormuz",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/iran-says-it-has-given-us-concrete-seven-day-plan-to-reopen-strait-of-hormuz-13591945",
+              "pubDate": "2026-09-25T20:36:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Iran proposes plan to US to reopen Hormuz in seven days and end the war",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/09/25/iran-proposes-plan-to-us-to-reopen-hormuz-in-seven-days-and-end-the-war",
+              "pubDate": "2026-09-25T17:33:54.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 100,
+          "slug": "irans-deal-threatens-hormuz-strait-stability-amid-elections"
+        },
+        {
+          "representativeTitle": "Pope Warns AI Must Serve Humanity's Best Interests",
           "sources": [
             "The Guardian",
-            "France 24",
-            "Google World"
+            "Al Jazeera",
+            "France 24"
           ],
           "citationCount": 3,
           "rawArticles": [
@@ -29,25 +98,18 @@ export const newsData = {
               "tier": 1
             },
             {
+              "title": "Pope Leo XIV warns AI could undermine humanity during France visit",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/25/pope-leo-xiv-warns-ai-could-undermine-humanity-during-france-visit?traffic_source=rss",
+              "pubDate": "2026-09-25T23:21:52.000Z",
+              "tier": 1
+            },
+            {
               "title": "France: Pope Leo XIV keeps visit focused on faith over politics",
               "source": "France 24",
               "link": "https://www.france24.com/en/france-pope-leo-xiv-keeps-visit-focused-on-faith-over-politics",
               "pubDate": "2026-09-25T14:08:48.000Z",
               "tier": 1
-            },
-            {
-              "title": "🔴 Live: Pope Leo speaks at UNESCO headquarters on first day of visit to France",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20260925-live-pope-france-first-state-visit-18-years",
-              "pubDate": "2026-09-25T13:39:02.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Pope Leo warns of AI threat to humanity at start of three-day France visit",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ3g5REFXVVI4ZEFzU2p3NDNtckJDemE4Y3VFOVlpc1N2aTE1NzhQMUU0WjhYb0dKRHNkTWhsQkRGZkxWVmh2RlV6eEgxNzhvdTdwOV9FcUFEc05vZzQxRk5PbWFvMTEzSTZKWFpmQXZCa0hyS1ZZLXVzQktGSDI0TlpXdUVqeGRjZVU1WmozZm94SzZDdVdLWlFyNDNndndF?oc=5",
-              "pubDate": "2026-09-25T17:22:00.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
@@ -55,7 +117,58 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 85,
-          "slug": "pope-speaks-at-unesco-on-first-day-in-france"
+          "slug": "pope-warns-ai-must-serve-humanitys-best-interests"
+        },
+        {
+          "representativeTitle": "Pope Leads Vespers Service at Paris Cathedral Today",
+          "sources": [
+            "France 24",
+            "Le Monde"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Pope Leo XIV welcomed like a rock star at Stade de France near Paris",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20260925-pope-leo-xiv-welcomed-like-a-rock-star-at-stade-de-france-near-paris",
+              "pubDate": "2026-09-25T21:06:48.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope Leo XIV leads Vespers at Notre-Dame Cathedral in Paris",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/pope-leo-xiv-leads-vespers-at-notre-dame-cathedral-in-paris",
+              "pubDate": "2026-09-25T15:33:08.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope Leo XIV rides through Paris in the popemobile to Notre-Dame",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/pope-leo-xiv-rides-through-paris-in-the-popemobile-to-notre-dame",
+              "pubDate": "2026-09-25T15:23:20.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Paris: Pope Leo XIV expected at UNESCO and Notre-Dame",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/paris-pope-leo-xiv-expected-at-unesco-and-notre-dame",
+              "pubDate": "2026-09-25T14:06:55.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope Leo XIV stands firm on bioethics and AI in Paris speech",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/france/article/2026/09/25/pope-leo-xiv-stands-firm-on-bioethics-and-ai-in-paris-speech_6757959_7.html",
+              "pubDate": "2026-09-25T17:50:45.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 80,
+          "slug": "pope-leads-vespers-service-at-paris-cathedral-today"
         },
         {
           "representativeTitle": "Russia Attacks Data Centers Targeting Civilian Life",
@@ -88,47 +201,41 @@ export const newsData = {
           "slug": "russia-attacks-data-centers-targeting-civilian-life"
         },
         {
-          "representativeTitle": "Pope Leads Vespers Service at Paris Cathedral Today",
+          "representativeTitle": "Yemen President Calls Mobilization Against Houthi Group",
           "sources": [
-            "France 24"
+            "France 24",
+            "Google World"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Leo XIV in Paris: A look at the vespers evening prayer at Notre-Dame",
+              "title": "Yemen's president calls on his people to mobilise against Iran-backed Houthis",
               "source": "France 24",
-              "link": "https://www.france24.com/en/video/20260925-leo-xiv-in-paris-a-look-at-the-vespers-evening-prayer-at-notre-dame",
-              "pubDate": "2026-09-25T19:46:26.000Z",
+              "link": "https://www.france24.com/en/middle-east/20260925-yemen-president-calls-on-his-people-to-mobilise-against-iran-backed-houthis",
+              "pubDate": "2026-09-25T20:41:29.000Z",
               "tier": 1
             },
             {
-              "title": "Pope Leo XIV leads Vespers at Notre-Dame Cathedral in Paris",
+              "title": "🔴 Live: Yemen's president calls on his people to mobilise against Iran-backed Houthis",
               "source": "France 24",
-              "link": "https://www.france24.com/en/pope-leo-xiv-leads-vespers-at-notre-dame-cathedral-in-paris",
-              "pubDate": "2026-09-25T15:33:08.000Z",
+              "link": "https://www.france24.com/en/middle-east/20260924-live-iran-s-president-says-us-must-choose-whether-to-end-war",
+              "pubDate": "2026-09-25T17:35:26.000Z",
               "tier": 1
             },
             {
-              "title": "Pope Leo XIV rides through Paris in the popemobile to Notre-Dame",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/pope-leo-xiv-rides-through-paris-in-the-popemobile-to-notre-dame",
-              "pubDate": "2026-09-25T15:23:20.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Paris: Pope Leo XIV expected at UNESCO and Notre-Dame",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/paris-pope-leo-xiv-expected-at-unesco-and-notre-dame",
-              "pubDate": "2026-09-25T14:06:55.000Z",
-              "tier": 1
+              "title": "Yemen calls on citizens to fight Iran-backed Houthis",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXOFhXOHgxdmpTSHgwaTlXSnZmX1lFb0VwV1RmMndmMDczcWtYcUE1TWdkLXZiLVBNWURwYXdyOHJWU0FsVzByYWptaXlyMVZ1eTZNTjRUSTlVamUy?oc=5",
+              "pubDate": "2026-09-25T18:22:15.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 75,
-          "slug": "pope-leads-vespers-service-at-paris-cathedral-today"
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "yemen-president-calls-mobilization-against-houthi-group"
         },
         {
           "representativeTitle": "Pakistan Warns UN Over Houthi Mecca Attack Threat",
@@ -158,103 +265,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 70,
           "slug": "pakistan-warns-un-over-houthi-mecca-attack-threat"
-        },
-        {
-          "representativeTitle": "Global Leaders Meet Amidst AI Crossroads Debate",
-          "sources": [
-            "France 24",
-            "Sky News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Pope in Paris, Xi in DC, AI at a Crossroads",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/the-world-this-week/20260925-pope-in-paris-xi-in-dc-ai-at-a-crossroads",
-              "pubDate": "2026-09-25T18:52:55.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Pope greets Paris crowds in popemobile as he warns of AI risks",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/pope-greets-paris-crowds-in-popemobile-as-he-warns-of-ai-risks-13591817",
-              "pubDate": "2026-09-25T13:46:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 9,
-          "importance": 65,
-          "slug": "global-leaders-meet-amidst-ai-crossroads-debate"
-        },
-        {
-          "representativeTitle": "Iran Proposes Plan to Reopen Critical Strait of Hormuz",
-          "sources": [
-            "SCMP",
-            "Sky News",
-            "Euronews"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Iran offers US plan to reopen Hormuz within 7 days",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/middle-east/article/3368872/iran-offers-us-plan-reopen-hormuz-within-7-days?utm_source=rss_feed",
-              "pubDate": "2026-09-25T21:03:29.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Iran says it has given US 'concrete' seven-day plan to reopen Strait of Hormuz",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/iran-says-it-has-given-us-concrete-seven-day-plan-to-reopen-strait-of-hormuz-13591945",
-              "pubDate": "2026-09-25T20:36:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Iran proposes plan to US to reopen Hormuz in seven days and end the war",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/09/25/iran-proposes-plan-to-us-to-reopen-hormuz-in-seven-days-and-end-the-war",
-              "pubDate": "2026-09-25T17:33:54.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "iran-proposes-plan-to-reopen-critical-strait-of-hormuz"
-        },
-        {
-          "representativeTitle": "Yemen President Calls Mobilization Against Houthi Group",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Yemen's president calls on his people to mobilise against Iran-backed Houthis",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20260925-yemen-president-calls-on-his-people-to-mobilise-against-iran-backed-houthis",
-              "pubDate": "2026-09-25T20:41:29.000Z",
-              "tier": 1
-            },
-            {
-              "title": "🔴 Live: Yemen's president calls on his people to mobilise against Iran-backed Houthis",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20260924-live-iran-s-president-says-us-must-choose-whether-to-end-war",
-              "pubDate": "2026-09-25T17:35:26.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "yemen-president-calls-mobilization-against-houthi-group"
         },
         {
           "representativeTitle": "Trump and Xi continue diplomatic talks in Washington D.C.",
@@ -287,34 +297,34 @@ export const newsData = {
           "slug": "trump-and-xi-continue-diplomatic-talks-in-washington-dc"
         },
         {
-          "representativeTitle": "Netanyahu Dismisses Allegations Amid UN Walkout Protest",
+          "representativeTitle": "UN expands list of firms linked to Israeli settlements",
           "sources": [
-            "BBC World",
-            "Time"
+            "Al Jazeera",
+            "Google World"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-25T11:44:44.000Z",
+              "title": "UN expands list of firms involved in illegal Israeli settlement activities",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/25/un-expands-list-of-firms-involved-in-illegal-israeli-settlement-activities?traffic_source=rss",
+              "pubDate": "2026-09-25T19:21:57.000Z",
               "tier": 1
             },
             {
-              "title": "Netanyahu Dismisses Gaza Genocide Allegations as Dozens of U.N. Delegates Walk Out",
-              "source": "Time",
-              "link": "https://time.com/article/2026/09/24/netanyahu-dismisses-gaza-genocide-allegations-as-dozens-of-u-n-delegates-walk-out/",
-              "pubDate": "2026-09-24T21:45:53.000Z",
+              "title": "UN expands list of firms involved in illegal Israeli settlement activities",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNHgzbGwyeEJLS01QR21tZ0h2N2dzTFp6NWRyeHVISDlWeW5ETkdsaTNLQlNrYjBlbXppdkxGWlFsRHdINXlBaEJXX2hqeUtkWHdOQlVKWVBWMzk2ZkdqcUF4MUZNQy1mX01CcmtIdFF6Z1d5R1k5QUFwdEpfcmZrMWhXZlBpR1NneVhFdUsySERWWThQUlJhQUFWS1hPeFdvcnhTQTFYMGRHZUdYYWVtZnliTlRQUdIBuwFBVV95cUxNem9Malp3X3BnYlc5SmRRTHd2Qm9vcFNrYUg1THY3QnZpcWlrYTlFZlpyQnNvbG5wcmtFclJ6a3Njd19vb0RVWGNXdU41anI3Rm1aY1p3OWJIODV1d0JjX2NnTC1kWmVuVzhyRlZVZS1GMXZSaFhMc1dGanNqV01nWGVxNDQtOEVGSWt6Q0ZwdmlIU1NKSTBzTkFhYjZUVlNpd200RjVhMFY4ZUhXOU1RNTVzb3RqM01rdmc0?oc=5",
+              "pubDate": "2026-09-25T19:28:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 65,
-          "slug": "netanyahu-dismisses-allegations-amid-un-walkout-protest"
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "un-expands-list-of-firms-linked-to-israeli-settlements"
         },
         {
           "representativeTitle": "Pope Leo visits Notre-Dame amid Parisian procession.",
@@ -354,56 +364,26 @@ export const newsData = {
           "slug": "pope-leo-visits-notre-dame-amid-parisian-procession"
         },
         {
-          "representativeTitle": "Trump Hosts Xi Jinping for State Dinner Meeting",
-          "sources": [
-            "BBC US",
-            "ABC News Top"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Why Trump gave Xi an ornate bald eagle statue at the state dinner",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c6lyqlx0kp0po?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-25T11:22:48.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump welcomes Xi to White House for state dinner",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/trump-greets-xi-white-house-high-stakes-state/story?id=136717468",
-              "pubDate": "2026-09-25T15:52:22.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "trump-hosts-xi-jinping-for-state-dinner-meeting"
-        },
-        {
-          "representativeTitle": "Israel Accused of Seizing Palestinian Land in West Bank",
+          "representativeTitle": "Iran Awaits US Response on Conflict Roadmap",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank",
+              "title": "Iran says it awaits US response on seven-day roadmap to end war",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/features/2026/9/25/how-israels-blue-line-team-seizes-palestinian-land-in-the-west-bank?traffic_source=rss",
-              "pubDate": "2026-09-25T19:24:46.000Z",
+              "link": "https://www.aljazeera.com/news/2026/9/25/iran-says-it-awaits-us-response-on-seven-day-roadmap-to-end-war?traffic_source=rss",
+              "pubDate": "2026-09-25T23:52:18.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "israel-accused-of-seizing-palestinian-land-in-west-bank"
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "iran-awaits-us-response-on-conflict-roadmap"
         },
         {
           "representativeTitle": "Warrant Failure Allows Netanyahu's Visit to US",
@@ -428,55 +408,47 @@ export const newsData = {
           "slug": "warrant-failure-allows-netanyahus-visit-to-us"
         },
         {
-          "representativeTitle": "Xi-Trump Summit Seen as Diplomatic Win for China",
+          "representativeTitle": "Germany's Identity Crisis Exposed Amid Political Turmoil",
           "sources": [
-            "The Guardian",
-            "Le Monde"
+            "BBC World"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Pomp over progress in Xi’s US summit with Trump is a win for China",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/sep/25/donald-trump-xi-jinping-china-president-us-visit-red-carpet-treatment",
-              "pubDate": "2026-09-25T12:41:14.000Z",
+              "title": "As Merz scrambles for support, Germany's identity crisis is laid bare",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cmx2zlqeje9zo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-25T23:08:02.000Z",
               "tier": 1
-            },
-            {
-              "title": "Trump welcomes Xi with great pomp to mark US-China 'strategic stability'",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/09/25/trump-welcomes-xi-with-great-pomp-to-mark-us-china-strategic-stability_6757938_4.html",
-              "pubDate": "2026-09-25T09:00:28.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "xi-trump-summit-seen-as-diplomatic-win-for-china"
+          "importance": 55,
+          "slug": "germanys-identity-crisis-exposed-amid-political-turmoil"
         },
         {
-          "representativeTitle": "Saudi Arabia intercepts missiles amid rising oil prices.",
+          "representativeTitle": "France Pledges Military Presence to Secure Red Sea Oil Route",
           "sources": [
-            "The Guardian",
+            "France 24",
             "Google World"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Saudi Arabia intercepts wave of Houthi missiles as oil climbs to one-week high",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/sep/25/saudi-arabia-intercepts-houthi-missiles-oil-prices-climbs",
-              "pubDate": "2026-09-25T02:54:27.000Z",
+              "title": "Macron says ‘military resources’ to be sent to Saudi Arabia",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/macron-says-military-resources-to-be-sent-to-saudi-arabia",
+              "pubDate": "2026-09-25T14:04:20.000Z",
               "tier": 1
             },
             {
-              "title": "Saudi Arabia intercepts wave of Houthi missiles as oil climbs to one-week high",
+              "title": "France to send military to protect Saudi Arabia on Red Sea oil route, Macron says",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON0MwRGdjN1NtYkFaMVhhdktMMEtrb0hMUHdmeU1QeTVqZGpqcHlZVkZiVTZ1Yk4xY0ZQMktfem5iTGpsY3FPS0hqZDNkbV9iMHNIVW1ZVk1yOWtiVEtWTkRreXRUTkRMYjE1NThLT0s1cTVIWUlJSGpUdWJpZE5EcEQ3SlJtcjdXV1ByNWFaMlJOeS0ydThQNWJFU1o5TTZIYk1tempn?oc=5",
-              "pubDate": "2026-09-25T11:45:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYVFxdC1HYVFNM1M2SG42MDJkTExOeEhCUklGc2d0YmFVMmZQYUxLbTZ0RHFjemREWU1ua3RoaWhJbmljM0N1b092WnVyTlMwU2VZT1dvcDlZcndaeEhsWFZxQUVUQmI1MUMyYjlnc2dOdGVLTEh4V29nZGstTmFieDAxenZpS1Zub0NRczNMQnJPMFVJZi1aQ1dFOFY1RGUzWmJfTlNlblF5eW5sLTZScERTbldQanpZYV9ueEdsSExRT191R2I4c3RxNEFDYmM?oc=5",
+              "pubDate": "2026-09-25T11:24:07.000Z",
               "tier": 2
             }
           ],
@@ -485,95 +457,29 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 60,
-          "slug": "saudi-arabia-intercepts-missiles-amid-rising-oil-prices"
+          "slug": "france-pledges-military-presence-to-secure-red-sea-oil-route"
         },
         {
-          "representativeTitle": "Drivers defy Taliban music ban in Afghanistan.",
+          "representativeTitle": "Hurricane Polo tracked; storm path and map released.",
           "sources": [
-            "Al Jazeera"
+            "Washington Post"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Afghan taxi drivers defy the Taliban’s music ban",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/afghan-taxi-drivers-defy-the-talibans-music-ban?traffic_source=rss",
-              "pubDate": "2026-09-25T20:42:47.000Z",
+              "title": "Hurricane Polo tracker: Map and projected storm path",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/weather/2026/09/25/hurricane-polo-tracker-map-projected-storm-path/",
+              "pubDate": "2026-09-25T18:05:06.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "drivers-defy-taliban-music-ban-in-afghanistan"
-        },
-        {
-          "representativeTitle": "Fighting in Ethiopia Sparks Telecom Disruptions, Raising Fears",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Telecoms disruption raises fears as heavy fighting strikes Ethiopia",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/eye-on-africa/20260925-telecoms-disruption-raises-fears-as-heavy-fighting-strikes-ethiopia",
-              "pubDate": "2026-09-25T20:32:28.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "fighting-in-ethiopia-sparks-telecom-disruptions-raising-fears"
-        },
-        {
-          "representativeTitle": "UN expands list of firms linked to Israeli settlements",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "UN expands list of firms involved in illegal Israeli settlement activities",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/25/un-expands-list-of-firms-involved-in-illegal-israeli-settlement-activities?traffic_source=rss",
-              "pubDate": "2026-09-25T19:21:57.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "un-expands-list-of-firms-linked-to-israeli-settlements"
-        },
-        {
-          "representativeTitle": "Iran Threatens Disruption Amid Iraq Flight Halt",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran threatens widespread disruption as Iraq halts Iran flights",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/iran-threatens-widespread-disruption-as-iraq-halts-iran-flights?traffic_source=rss",
-              "pubDate": "2026-09-25T19:11:03.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "iran-threatens-disruption-amid-iraq-flight-halt"
+          "slug": "hurricane-polo-tracked-storm-path-and-map-released"
         },
         {
           "representativeTitle": "Long-isolated world faces imminent, major transformation.",
@@ -598,86 +504,70 @@ export const newsData = {
           "slug": "long-isolated-world-faces-imminent-major-transformation"
         },
         {
-          "representativeTitle": "Ferry Fire Near Mykonos Forces Large Evacuation Effort",
+          "representativeTitle": "Plane Crash Claims Dozen Lives in Congo",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Huge fire on vehicle ferry off Mykonos prompts mass evacuation",
+              "title": "Plane crash in DR Congo kills more than a dozen",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/huge-fire-on-vehicle-ferry-off-mykonos-prompts-mass-evacuation?traffic_source=rss",
-              "pubDate": "2026-09-25T20:46:15.000Z",
+              "link": "https://www.aljazeera.com/news/2026/9/26/plane-crash-in-dr-congo-kills-more-than-a-dozen?traffic_source=rss",
+              "pubDate": "2026-09-26T01:32:36.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "ferry-fire-near-mykonos-forces-large-evacuation-effort"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "plane-crash-claims-dozen-lives-in-congo"
         },
         {
-          "representativeTitle": "Kazakh Officials Detained After Service Members Swept Sea",
+          "representativeTitle": "Pro-Khan Rally Delayed Due to Government Closures",
           "sources": [
-            "BBC World",
-            "Google World"
+            "Al Jazeera"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Senior Kazakh officials detained after 14 service members swept out to sea",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cm0reew1591zo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-25T15:29:48.000Z",
+              "title": "Pro-Imran Khan rally delayed amid government closures",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/pro-imran-khan-rally-delayed-amid-government-closures?traffic_source=rss",
+              "pubDate": "2026-09-26T00:38:34.000Z",
               "tier": 1
-            },
-            {
-              "title": "Senior Kazakh officials detained after 14 service members swept out to sea",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrVU1jTzdQLXljM05VWldhQXIwVGo1cW1sX3pMOHZQOTlWb0tKdFJhakFocF9WeXRhYlliYUxmWEFHWTNSeFZkTHNWa0ZseTdpLUNXVjFTY252ckk?oc=5",
-              "pubDate": "2026-09-25T15:29:48.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "kazakh-officials-detained-after-service-members-swept-sea"
+          "importance": 45,
+          "slug": "pro-khan-rally-delayed-due-to-government-closures"
         },
         {
-          "representativeTitle": "Hurricane Nolo Threatens Hawaii With Flooding Rains",
+          "representativeTitle": "Ambassador Denies 'White Genocide' Claims to BBC",
           "sources": [
-            "NPR",
-            "Google US"
+            "BBC World"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Hurricane Nolo, a zig-zagging storm, threatens Hawaii with flooding rains",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/09/25/nx-s1-5981082/hurricane-nolo-hawaii",
-              "pubDate": "2026-09-25T14:46:28.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Hurricane Nolo predicted to bring ‘life-threatening flooding’ to Hawaii",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1TV2c5ZG9LRnRKZWQ1TWQ2Q09QeEpxcUh2eG1DMGdWSDE2MC05X2NQdHFzUHl2Qm9SLThoRnFFYjRGanRnejZnNXNJV0JUR2x1LV9zVU9yeUdrem02NlJqN1ZQbE5OYW1ibzdjeHZUdU5FMDV3am4wdg?oc=5",
-              "pubDate": "2026-09-25T18:01:32.000Z",
-              "tier": 2
+              "title": "South African white genocide does not exist, new ambassador to US tells BBC",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cm2l8qv7zppko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-25T23:20:48.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "hurricane-nolo-threatens-hawaii-with-flooding-rains"
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ambassador-denies-white-genocide-claims-to-bbc"
         },
         {
           "representativeTitle": "Canadian Trade Efforts Face Known Diplomatic Constraints Now",
@@ -724,26 +614,34 @@ export const newsData = {
           "slug": "un-leadership-succession-process-begins-amid-global-focus"
         },
         {
-          "representativeTitle": "Catholics gather for Pope Leo's Paris visit.",
+          "representativeTitle": "Trump-Xi Visit Focuses on Diplomacy Over Substance",
           "sources": [
-            "France 24"
+            "NPR",
+            "Google US"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "‘I hope France wakes up’: Young Catholics flood the streets for Pope Leo's Paris visit",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20260925-i-hope-france-wakes-up-young-catholics-flood-the-streets-for-pope-leo-s-paris-visit",
-              "pubDate": "2026-09-25T19:57:30.000Z",
-              "tier": 1
+              "title": "Takeaways from the Trump-Xi state visit: Pageantry and pandas",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/09/25/nx-s1-5981265/takeaways-trump-xi-state-visit-pageantry-pandas",
+              "pubDate": "2026-09-25T19:11:47.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump, Xi wrap state visit centered on spectacle over substance. Here are the top takeaways",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB0Y2U1dGFnNjlCV09TV0psR3llbzhsbTluekpJQ3ZOVVFGcE12R2VDS0tiZ0gybm9aYjRLYnRKblpua0hLWkZMVFprWTg5U1M5MXZnWDVEVFpCdGVucGdjYWc0Z1BwUzFrbDVDeHRORdIBdEFVX3lxTE5oSW9RR0lVMVM5SlhPSEIxSEQxZFNUclBFYkgxTkZUWk02UXlBYWxPcUJGR3I5TThZV2tsYjBNdGNTUXdtczd3aU9CWGVVcTYyN0U0LUZYUm5CVG5qWllNcWtlZ1piU0s2dFhlS1VydUhRUlpJ?oc=5",
+              "pubDate": "2026-09-25T18:52:40.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 6,
+          "sentiment": 0,
+          "relevance_score": 7,
           "importance": 45,
-          "slug": "catholics-gather-for-pope-leos-paris-visit"
+          "slug": "trump-xi-visit-focuses-on-diplomacy-over-substance"
         },
         {
           "representativeTitle": "Oil Rivalry Intensifies in Venezuela's Energy Sector",
@@ -766,80 +664,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "oil-rivalry-intensifies-in-venezuelas-energy-sector"
-        },
-        {
-          "representativeTitle": "Oil Prices Shift Amid Diplomacy and Tensions Focus",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Oil Prices Fall as U.S.-Iran Diplomacy, Regional Tensions Remain in Focus",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/articles/oil-prices-fall-as-u-s-iran-diplomacy-and-regional-tensions-remain-in-focus-0a4887e8?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-09-25T19:58:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "oil-prices-shift-amid-diplomacy-and-tensions-focus"
-        },
-        {
-          "representativeTitle": "Pope Addresses UNESCO on Global Cultural Matters",
-          "sources": [
-            "France 24",
-            "Le Monde"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "REPLAY: Pope Leo XIV's address at UNESCO",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/replay-pope-leo-xiv-s-address-at-unesco",
-              "pubDate": "2026-09-25T14:54:59.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Pope Leo XIV stands firm on bioethics and AI in Paris speech",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/france/article/2026/09/25/pope-leo-xiv-stands-firm-on-bioethics-and-ai-in-paris-speech_6757959_7.html",
-              "pubDate": "2026-09-25T17:50:45.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 40,
-          "slug": "pope-addresses-unesco-on-global-cultural-matters"
-        },
-        {
-          "representativeTitle": "Iran Tensions Drive Up Global Fuel Costs Now",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran War Is Driving Up the Cost of Your Next Oil Change",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/business/retail/iran-war-is-driving-up-the-cost-of-your-next-oil-change-b254bfb1?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-09-25T19:42:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "iran-tensions-drive-up-global-fuel-costs-now"
         },
         {
           "representativeTitle": "Xi Receives Gift From Trump Amid Diplomatic Exchange",
@@ -872,25 +696,17 @@ export const newsData = {
           "representativeTitle": "Supreme Court Allows State Voter Checks Using SAVE Tool",
           "sources": [
             "BBC World",
-            "Al Jazeera",
             "France 24",
             "Le Monde",
             "IBTimes"
           ],
-          "citationCount": 5,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "Supreme Court allows Trump to use controversial database to check voter citizenship",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-09-25T19:13:35.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US top court allows Trump to use controversial voter verification system",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/25/us-top-court-allows-trump-to-use-controversial-voter-verification-system?traffic_source=rss",
-              "pubDate": "2026-09-25T17:45:24.000Z",
               "tier": 1
             },
             {
@@ -919,46 +735,62 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 95,
+          "importance": 80,
           "slug": "supreme-court-allows-state-voter-checks-using-save-tool"
         },
         {
-          "representativeTitle": "Judge's Order Allows Media Coverage of White House",
+          "representativeTitle": "Supreme Court blocks Missouri Republican redistricting efforts.",
           "sources": [
-            "BBC US",
-            "BBC World",
-            "SCMP"
+            "Washington Post",
+            "NBC News",
+            "Fox News",
+            "NPR",
+            "Google US"
           ],
-          "citationCount": 3,
+          "citationCount": 5,
           "rawArticles": [
             {
-              "title": "Media outlets banned by Trump resume White House coverage after judge's order",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-25T18:36:30.000Z",
+              "title": "Supreme Court blocks Missouri congressional map favoring GOP for third time",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/politics/2026/09/25/supreme-court-blocks-missouri-congressional-map-favoring-gop-third-time/",
+              "pubDate": "2026-09-25T22:20:42.000Z",
               "tier": 1
             },
             {
-              "title": "Media outlets banned by Trump resume White House coverage after judge's order",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-25T18:36:30.000Z",
-              "tier": 1
+              "title": "Supreme Court rejects Republicans’ Missouri redistricting push for third time",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/elections/supreme-court-third-time-rejects-republican-redistricting-push-missour-rcna599218",
+              "pubDate": "2026-09-25T22:04:16.000Z",
+              "tier": 2
             },
             {
-              "title": "US TV networks back at White House, as Trump praises ‘fair’ coverage of Xi visit",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3368868/us-tv-networks-back-white-house-trump-praises-fair-coverage-xi-visit?utm_source=rss_feed",
-              "pubDate": "2026-09-25T17:07:41.000Z",
+              "title": "Supreme Court blocks Missouri from using new congressional map in 2026 election",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/politics/supreme-court-blocks-missouri-from-using-new-congressional-map-2026-election",
+              "pubDate": "2026-09-25T22:27:23.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Supreme Court blocks Trump-backed Missouri congressional map",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri",
+              "pubDate": "2026-09-25T22:06:16.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Supreme Court for the third time rejects Republican redistricting push in Missouri",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR2Z3MXZCQVpaQ0ZBMEdjcTZMLVVOZ1NhakhDWW1rQk5hSHdvVnd2VjBQYXlfM0kzMWhqXy15S2U2d1kzSUFzTi1XNWhDeUtScG00akljajBXQjdQa3JYQ1BDQklyNmhQay0wcVdDUjRWZnE4VjhXSXlYMEFZLWdUSXVibEdscnl6UUtmNjFEQ3RydlFKYS1pZTFoMHM2YjN4aWw4VGsyVFhobGxDeHBjU1dFRkY2bkdhTExKTVFxSk9sUQ?oc=5",
+              "pubDate": "2026-09-25T23:52:28.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 75,
-          "slug": "judges-order-allows-media-coverage-of-white-house"
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "supreme-court-blocks-missouri-republican-redistricting-efforts"
         },
         {
           "representativeTitle": "Supreme Court allows database use for voter purges.",
@@ -1007,27 +839,175 @@ export const newsData = {
           "slug": "supreme-court-allows-database-use-for-voter-purges"
         },
         {
-          "representativeTitle": "NJ Lt. Gov Caldwell Resigns Following Ethics Probe Findings",
+          "representativeTitle": "Judge's Order Allows Media Coverage of White House",
+          "sources": [
+            "BBC US",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Media outlets banned by Trump resume White House coverage after judge's order",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-25T18:36:30.000Z",
+              "tier": 1
+            },
+            {
+              "title": "White House television pool resumes after banned news outlets regain access",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcFdMN3NLSDdtSy1LS2ZiWkVFc09Pb0Q3a0lIQUJ0QWZnbXZudjhrZDJXRjlSLWxRbEJnOHF2c1RvMDdNQWg0V1o1M01xdFRsa1JYS0pueTF1V0pORVNRZkJEaWx6WGtUQkNEdnlsT2hEU0NqaVpBZFVsUUJFX0lFUFh3OXY?oc=5",
+              "pubDate": "2026-09-25T16:04:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "judges-order-allows-media-coverage-of-white-house"
+        },
+        {
+          "representativeTitle": "Mississippi Police Claim Woman's Death Was Staged",
+          "sources": [
+            "BBC World",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Black woman found hanging from tree was dead before body was 'staged', police say",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cwp933nzpp9ro?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-26T01:24:31.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Black woman Tasia Fortune’s hanging was ‘staged’ after her death, Mississippi police say",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3368871/black-woman-tasia-fortunes-hanging-was-staged-after-her-death-mississippi-police-say?utm_source=rss_feed",
+              "pubDate": "2026-09-25T19:59:37.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "mississippi-police-claim-womans-death-was-staged"
+        },
+        {
+          "representativeTitle": "FBI Data Breach Sparks Agent Fear and Anger",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-25T23:05:40.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "fbi-data-breach-sparks-agent-fear-and-anger"
+        },
+        {
+          "representativeTitle": "NYC Declares Emergency Amid Severe Nor'easter Storm",
           "sources": [
             "NBC News",
-            "ABC News Top",
+            "ABC News Top"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "States of emergency as powerful nor’easter bears down",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/nightly-news/video/states-of-emergency-as-powerful-nor-easter-bears-down-270567493946",
+              "pubDate": "2026-09-25T23:44:19.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Tracking the nor'easter: State of emergency declared in New York City",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/US/tracking-noreaster-millions-brace-weekends-powerful-storm/story?id=136747598",
+              "pubDate": "2026-09-26T01:00:18.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "nyc-declares-emergency-amid-severe-noreaster-storm"
+        },
+        {
+          "representativeTitle": "White House Blocks Media Access on Air Force One Flight",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "White House blocks CNN from Air Force One in latest escalation with news media",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/sep/25/white-house-cnn-air-force-one",
+              "pubDate": "2026-09-26T01:31:05.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "white-house-blocks-media-access-on-air-force-one-flight"
+        },
+        {
+          "representativeTitle": "Court Rules Govt Can Use SS Data on Voters",
+          "sources": [
+            "Washington Post"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Government can use Social Security data to identify noncitizen voters, Supreme Court rules",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/politics/2026/09/25/government-can-use-social-security-data-identify-noncitizen-voters-supreme-court-rules/",
+              "pubDate": "2026-09-25T17:55:02.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "court-rules-govt-can-use-ss-data-on-voters"
+        },
+        {
+          "representativeTitle": "NJ Lt. Governor Resigns Following Ethics Inquiry Findings",
+          "sources": [
+            "NBC News",
             "ABC News US",
             "Google US"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "New Jersey lieutenant governor resigns after release of damaging ethics report",
               "source": "NBC News",
               "link": "https://www.nbcnews.com/politics/politics-news/new-jersey-lieutenant-governor-resigns-ethics-report-rcna599885",
               "pubDate": "2026-09-25T19:30:34.000Z",
-              "tier": 2
-            },
-            {
-              "title": "New Jersey Lt. Gov. Dale Caldwell resigns after ethics probe",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/new-jersey-lt-gov-dale-caldwell-resigns-after/story?id=136764013",
-              "pubDate": "2026-09-25T21:28:16.000Z",
               "tier": 2
             },
             {
@@ -1038,10 +1018,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "New Jersey lieutenant governor resigns after release of damaging ethics report",
+              "title": "Embattled New Jersey Lt. Governor Dale Caldwell Resigns After Ethics Inquiry",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMXYtcEZNUEdhRWxQb0hWaXVodGVhNDVrWFNxX1JJaGxBQkhFV01lVmRfbDBad2JnYnN5XzltclhiNVZtSEVGdWVNRDNIVGNZWW50RTVSWFJfLWl1Yk1xOEVHeERMa0pDcDlsc1lSYlhrd2NoTW1VNDJTV3lXZmgzc2RjeWlxV1h4cnV1X29DNU5Vd0p2RFNBR3pKZ3JmZXJ3UDBoVHB2Q1RXb1J0WXUw?oc=5",
-              "pubDate": "2026-09-25T19:30:34.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOampjQTNOd3VZb2c4VVJUbHlpRGRuNlFCSkotNDg3Slh0bTdsZmhWakMzVXdMUkNkRGJzaHF5TnlfNVA3MGtlMUYwY2VLNjJxLVZDbHFwQXpHLWZTa1JZWWszalpGTXAxa2o2SkVxbmxDVzdBYjNfOFJLVG5vcGQyNmtiT2VtaVp1NmdHLTI0ejF2YnpZY2hDdThvemp0Y2IzcTlV?oc=5",
+              "pubDate": "2026-09-25T21:57:06.000Z",
               "tier": 2
             }
           ],
@@ -1049,68 +1029,8 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "nj-lt-gov-caldwell-resigns-following-ethics-probe-findings"
-        },
-        {
-          "representativeTitle": "Justice Criticizes Supreme Court's Emergency Docket Use",
-          "sources": [
-            "Washington Post",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Justice Ketanji Brown Jackson criticizes Supreme Court’s use of emergency docket",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/politics/2026/09/24/justice-ketanji-brown-jackson-criticizes-supreme-courts-use-emergency-docket/",
-              "pubDate": "2026-09-25T01:36:15.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Ketanji Brown Jackson criticizes supreme court’s handling of emergency docket",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZ3MtNXd1cS1ka3cwMEJiMmtjNllmbEZlR1EybmdIN0RPN1JwZkxrNUhtdWZPbHpCSWVYZEZZbE16ektKNlRRcEQ3cXUxZlg5RGZwb0ZjUFJ5bEZnVi13YTlFYWlQbzFXUFdNVXc3cmxmdllsb2x5RzVqY2s3NEJVVUZqaTBINVJCZ2hBcE1tbDV0QWQzZ1JrYktKV050dWRfcnc?oc=5",
-              "pubDate": "2026-09-25T16:11:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "justice-criticizes-supreme-courts-emergency-docket-use"
-        },
-        {
-          "representativeTitle": "Man Dies After Shooting at Trump Rally",
-          "sources": [
-            "BBC US",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Man shot during 2024 Trump campaign rally in Butler dies",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c5dj401d88l3o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-25T13:23:33.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Man shot during 2024 Trump campaign rally in Butler dies",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lMGg1T3RPRlZyVEhrMXE1bzNWc0JyMjA4ekFBbUYwc0laZC0zOGVDVHZ3TldYYUNpOVB6VG1TdlBqYlBTUEpBdVZlV19QeEk3NzFWWWNtNlp5TGM?oc=5",
-              "pubDate": "2026-09-25T13:23:33.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "man-dies-after-shooting-at-trump-rally"
+          "importance": 45,
+          "slug": "nj-lt-governor-resigns-following-ethics-inquiry-findings"
         },
         {
           "representativeTitle": "Supreme Court allows vetting of voter immigration status",
@@ -1135,76 +1055,69 @@ export const newsData = {
           "slug": "supreme-court-allows-vetting-of-voter-immigration-status"
         },
         {
-          "representativeTitle": "Supreme Court weighs on third-country deportation rules.",
+          "representativeTitle": "Prosecutor Resigns Over Mishandled Chicago Protest Case",
           "sources": [
-            "Washington Post",
-            "ABC News US"
+            "ABC News US",
+            "Google US"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Trump administration asks Supreme Court to allow ‘third country’ deportations for now",
+              "title": "Prosecutor accused of misconduct in 'Broadview Six' case resigns, says US attorney 'scapegoated' her",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/prosecutor-accused-misconduct-broadview-case-resigns-us-attorney-136770909",
+              "pubDate": "2026-09-26T00:27:49.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Prosecutor Resigns, Saying U.S. Attorney Mishandled Chicago Protest Case",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcmZONHFLckgxdm9HZHd0blg3TlBJM19WUThpRHJwd1JqUFUxWmZZSUcxNmduV0QyanFuRE13cU1GSHRMSl9Ud09TZVpyemZLNlQ3MmpVMGU1eDZMRlFyT2hFLXRyMGsxYnk3bW90TThieFNiUzRIQWViYy1LSEkyMy10N3lUbmhxdnJiem01c0NKUWZzNlE?oc=5",
+              "pubDate": "2026-09-25T20:41:17.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "prosecutor-resigns-over-mishandled-chicago-protest-case"
+        },
+        {
+          "representativeTitle": "Ranchers Blame Trump Admin Over Beef Supply Issues",
+          "sources": [
+            "Washington Post"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ranchers accuse Trump administration of disrupting beef supply, as prices rise",
               "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/politics/2026/09/24/trump-administration-asks-supreme-court-allow-third-country-deportations-now/",
-              "pubDate": "2026-09-24T21:10:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump administration turns to Supreme Court as third-country deportations are thrown into question",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/trump-administration-turns-supreme-court-country-deportations-thrown-136734206",
-              "pubDate": "2026-09-25T06:42:01.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump administration asks the Supreme Court to allow quick third-country deportations",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/trump-administration-asks-supreme-court-quick-country-deportations-136734022",
-              "pubDate": "2026-09-25T06:42:17.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "supreme-court-weighs-on-third-country-deportation-rules"
-        },
-        {
-          "representativeTitle": "FBI Hack Steals Sensitive Agent Biological Test Results",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Special agents' blood and urine test results stolen in FBI hack",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-25T13:56:16.000Z",
+              "link": "https://www.washingtonpost.com/business/2026/09/25/ranchers-accuse-trump-administration-disrupting-beef-supply-prices-rise/",
+              "pubDate": "2026-09-25T18:18:34.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "fbi-hack-steals-sensitive-agent-biological-test-results"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "ranchers-blame-trump-admin-over-beef-supply-issues"
         },
         {
-          "representativeTitle": "Investigation questions staging of apparent hanging death.",
+          "representativeTitle": "Nor'easter cancels events across Massachusetts to Maryland",
           "sources": [
-            "BBC US"
+            "Washington Post"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Black woman found hanging from tree was dead before body was 'staged', US media reports",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cwp933nzpp9ro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-25T21:16:59.000Z",
+              "title": "Strong nor’easter cancels events from Massachusetts to Maryland",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/nation/2026/09/25/strong-noreaster-cancels-events-massachusetts-maryland/",
+              "pubDate": "2026-09-25T20:33:36.000Z",
               "tier": 1
             }
           ],
@@ -1213,7 +1126,88 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "investigation-questions-staging-of-apparent-hanging-death"
+          "slug": "noreaster-cancels-events-across-massachusetts-to-maryland"
+        },
+        {
+          "representativeTitle": "Mississippi Police Seize Kratom After Student Deaths",
+          "sources": [
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Mississippi police seize kratom and make arrests after deaths of Ole Miss students",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/mississippi-police-seize-kratom-make-arrests-deaths-ole-miss-students-rcna599889",
+              "pubDate": "2026-09-25T18:57:11.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Police seize kratom at vape shop near Ole Miss after student deaths",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/nightly-news/video/police-seize-kratom-at-vape-shop-near-ole-miss-after-student-deaths-270568517785",
+              "pubDate": "2026-09-25T23:46:24.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Mississippi police seize kratom and make arrests after deaths of Ole Miss students",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNckpzU180WUNOTUtBaEpESEk5Qmllb0FJNHpSOWZaVERoQ0I5YUpEYnhuSGVRLWlqTHZXM05aNkRseXJxZms5cmVkQ2txS1NzX2NoaHZ0Z0J2U2J0UWZfa00tbzliVC15YkVIQVdreV9GMDBkSHJZMlZBRUlIaTQtZDNqa3dFdk9GLWk2YU5Zd2xmZmVZVFNIakN6TUdHaTduTDBVVDhSQ2NtMFpwZUUtUEU1UWctWFAz?oc=5",
+              "pubDate": "2026-09-25T18:57:11.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "mississippi-police-seize-kratom-after-student-deaths"
+        },
+        {
+          "representativeTitle": "Florida Declares Emergency Over Dengue Outbreak",
+          "sources": [
+            "Washington Post"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Florida counties declare emergency over ‘wildly unusual’ dengue outbreak",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/nation/2026/09/25/florida-counties-declare-emergency-over-wildly-unusual-dengue-outbreak/",
+              "pubDate": "2026-09-25T18:39:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "florida-declares-emergency-over-dengue-outbreak"
+        },
+        {
+          "representativeTitle": "University reviews shooting incident involving public figure.",
+          "sources": [
+            "Washington Post"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Utah university releases independent review of Charlie Kirk shooting",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/nation/2026/09/25/utah-university-releases-independent-review-charlie-kirk-shooting/",
+              "pubDate": "2026-09-25T18:39:08.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "university-reviews-shooting-incident-involving-public-figure"
         },
         {
           "representativeTitle": "Trump plans signal major policy shifts ahead.",
@@ -1260,25 +1254,25 @@ export const newsData = {
           "slug": "arrests-made-after-sewer-sightings-in-nyc"
         },
         {
-          "representativeTitle": "Frat Leaders Arrested After Pledges Found Injured",
+          "representativeTitle": "Police investigate hazing after men found in Wisconsin.",
           "sources": [
-            "NBC News",
+            "ABC News US",
             "Google US"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Frat leaders arrested after pledges found in basement, injured and covered in condiments",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/wisconsin-fraternity-hazing-basement-rcna599852",
-              "pubDate": "2026-09-25T16:16:20.000Z",
+              "title": "Police investigating for hazing after men covered in food found in Wisconsin frat",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/police-investigating-hazing-after-men-covered-food-found-136755179",
+              "pubDate": "2026-09-25T18:48:45.000Z",
               "tier": 2
             },
             {
-              "title": "Wisconsin frat leaders arrested after 30 pledges found in filthy basement, injured and covered in condiments",
+              "title": "Dozens of pledges found covered in food in sweltering frat basement as police investigate alleged hazing",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUDVUd0NMcHRWT1B6V3g0TG81eXRSN3cxY3JrZ2NWZGZYTTdpMzBZUnFSZElHSW8wT3htQl91RVBGT2JYQWxWdzhQSnM0SVM1ZEJMbTNZNnA4dUJxX2d1cHkyVGdnMXhSdkdhVFp0M190Y1Q4SERJRzBjNlVrZmh1ZDBoTHpYZ0ZxUjROTA?oc=5",
-              "pubDate": "2026-09-25T19:17:09.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTGhBeklsMEh1TlR0dWRXcDFKazRUUXktWjgxX3g0WVRpT19uRG9zUndKdXpOQTFnM0dmbTJ6SE9CTGduWXZBaEhsQWdjbl9PdnZhVkhQMHhwWjFUY0dlNWxRampNRnBKS2N3bjltRmgwQXVHek5QRXU4eG45WjVqNEEyazBYVTAwcmpZMzBpYXJJRXNxamxrc2p5YS1iR1RlUHBGbFA1aDdQNVBfZ3lxMTBOejJvTXJMWVZF0gHAAUFVX3lxTE9Zb1ZnX2N5RHVtbVBTUm9lcjZxMlZYclFlRzJGQThlVnpWT2NPVG9HT29xZ2xqNFFhalgybkh6Z2dTLUExUFl4VndmejY5VVFGNHkxTE5TZVVnR1Z5d3MyWFU4M1B4Q2RMaDlLV2hQV3pIeHBOOUhScmpIWFR5MFlpWmFCV19wWEdBYXZreVBITEdkMy1nemxDUFlaTGRnSXNqOHJQVXBqWlIxcHlUUlNoSFRWSm9yOFExSlh3ZU0zUA?oc=5",
+              "pubDate": "2026-09-25T15:51:01.000Z",
               "tier": 2
             }
           ],
@@ -1287,59 +1281,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 40,
-          "slug": "frat-leaders-arrested-after-pledges-found-injured"
-        },
-        {
-          "representativeTitle": "Mississippi Police Seize Kratom After Student Deaths",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Mississippi police seize kratom and make arrests after deaths of Ole Miss students",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/mississippi-police-seize-kratom-make-arrests-deaths-ole-miss-students-rcna599889",
-              "pubDate": "2026-09-25T18:57:11.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Mississippi police seize kratom and make arrests after deaths of Ole Miss students",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNckpzU180WUNOTUtBaEpESEk5Qmllb0FJNHpSOWZaVERoQ0I5YUpEYnhuSGVRLWlqTHZXM05aNkRseXJxZms5cmVkQ2txS1NzX2NoaHZ0Z0J2U2J0UWZfa00tbzliVC15YkVIQVdreV9GMDBkSHJZMlZBRUlIaTQtZDNqa3dFdk9GLWk2YU5Zd2xmZmVZVFNIakN6TUdHaTduTDBVVDhSQ2NtMFpwZUUtUEU1UWctWFAz?oc=5",
-              "pubDate": "2026-09-25T18:57:11.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "mississippi-police-seize-kratom-after-student-deaths"
-        },
-        {
-          "representativeTitle": "Buying California Town Costs Millions of Dollars Now",
-          "sources": [
-            "Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘Be your own mayor’: For $4.75 million, you could buy a California town",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/nation/2026/09/25/small-california-town-is-sale-475-million/",
-              "pubDate": "2026-09-25T10:00:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "buying-california-town-costs-millions-of-dollars-now"
+          "slug": "police-investigate-hazing-after-men-found-in-wisconsin"
         }
       ]
     },
@@ -1411,28 +1353,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "morgan-stanley-cautions-oracle-debt-impact-on-data-centers"
-        },
-        {
-          "representativeTitle": "Rosenberg questions return of 60/40 portfolio mix.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Can't Say 60/40 Is Back: Rosenberg",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-25/can-t-say-60-40-is-back-rosenberg-video",
-              "pubDate": "2026-09-25T19:46:24.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "rosenberg-questions-return-of-6040-portfolio-mix"
         }
       ]
     },
@@ -1442,15 +1362,67 @@ export const newsData = {
         {
           "representativeTitle": "Bond Market Shakeout Signals Global Economic Uncertainty Ahead",
           "sources": [
-            "Bloomberg Markets"
+            "Bloomberg Markets",
+            "Google Stocks"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Great Bond Shakeout Locks In a 5% World ‘Until Something Breaks’",
               "source": "Bloomberg Markets",
               "link": "https://www.bloomberg.com/news/videos/2026-09-25/great-bond-shakeout-locks-in-a-5-world-video",
               "pubDate": "2026-09-25T20:39:53.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Bond Yields at 5% Mark New Era ‘Until Something Breaks’",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMmthTXlhY0IwMERuYVdBMjc1eUF0N0ZjMUZua05makNpclhkVjFQU0loellSNkZVQjVWWFpPNHI3RUhrM0VOM1lySk9jWlh2UGozYW1oSVpZV1BmeHAwNEJVb2hFQ05sblREWFVDNXY5WVZDOWU0R1YtVnlZeHU4S1dBcURpWEllTEFRM19EdFFHTHhzelFGeFNqY2NtelNjZXZycWN4dEJuRXM2SmZFU1RB?oc=5",
+              "pubDate": "2026-09-25T14:42:49.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "bond-market-shakeout-signals-global-economic-uncertainty-ahead"
+        },
+        {
+          "representativeTitle": "China Trade, Local Economy, and Tech Trends Covered",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Wall Street Week | China’s Trade Reckoning, Syracuse’s Second Chance, Humanoids in Healthcare",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-25/wall-street-week-china-s-trade-reckoning-syracuse-s-second-chance-humanoids-in-healthcare",
+              "pubDate": "2026-09-25T23:43:13.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "china-trade-local-economy-and-tech-trends-covered"
+        },
+        {
+          "representativeTitle": "Lula's Debt Buyout Sparks Political Spending Concerns",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Lula Plans $28 Billion Debt Buyout to Aid Consumers Before Vote",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-25/lula-plans-28-billion-debt-buyout-to-aid-consumers-before-vote",
+              "pubDate": "2026-09-25T22:43:22.000Z",
               "tier": 1
             }
           ],
@@ -1459,7 +1431,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "bond-market-shakeout-signals-global-economic-uncertainty-ahead"
+          "slug": "lulas-debt-buyout-sparks-political-spending-concerns"
         },
         {
           "representativeTitle": "Bond Sell-Off Pushes Yields to High Levels",
@@ -1528,58 +1500,6 @@ export const newsData = {
           "slug": "bond-yields-suggest-economy-remains-strong-despite-fears"
         },
         {
-          "representativeTitle": "Fed Official Links Yields to Growth, Debt, Rates",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Fed’s Hammack Says Yields Reflect Growth, US Debt and Rate Path",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-25/fed-s-hammack-says-yields-reflect-growth-us-debt-and-rate-path",
-              "pubDate": "2026-09-25T19:51:28.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "fed-official-links-yields-to-growth-debt-rates"
-        },
-        {
-          "representativeTitle": "Blackstone Executive Departure Signals Potential Internal Shift",
-          "sources": [
-            "FT International",
-            "WSJ US Business"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Blackstone’s top private equity executive prepares exit for possible public service move",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/c1ab1254-bf38-43ca-aa22-02a09d6e2b73?syn-25a6b1a6=1",
-              "pubDate": "2026-09-25T20:10:36.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Blackstone’s Top Private-Equity Executive Is Preparing to Leave Firm",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/finance/investing/blackstones-top-private-equity-executive-is-preparing-to-leave-firm-6d7057db?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-09-25T18:52:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "blackstone-executive-departure-signals-potential-internal-shift"
-        },
-        {
           "representativeTitle": "Magnet Maker Secures $1.6 Billion Investment From Lutnick",
           "sources": [
             "Bloomberg Markets"
@@ -1600,6 +1520,72 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "magnet-maker-secures-16-billion-investment-from-lutnick"
+        },
+        {
+          "representativeTitle": "Paramount's Promises to Hollywood Regarding WBD Deal",
+          "sources": [
+            "CNBC Economy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Here's exactly what Paramount promised Hollywood to land WBD — and why some are still skeptical",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/09/25/paramount-hollywood-promises.html",
+              "pubDate": "2026-09-25T22:53:52.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "paramounts-promises-to-hollywood-regarding-wbd-deal"
+        },
+        {
+          "representativeTitle": "Rising Transport Costs Threaten Global Supply Chains Now",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The Cost of Transporting Pretty Much Everything Just Won’t Stop Going Up",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/inflation-costs-diesel-port-trucks-1062d089?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-09-26T01:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "rising-transport-costs-threaten-global-supply-chains-now"
+        },
+        {
+          "representativeTitle": "Ellison pledges billions in Oracle shares for loans.",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ellison Pledges $9.2 Billion More in Oracle Shares for Loans",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-25/ellison-pledges-9-2-billion-more-in-oracle-shares-as-collateral",
+              "pubDate": "2026-09-25T21:53:52.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ellison-pledges-billions-in-oracle-shares-for-loans"
         },
         {
           "representativeTitle": "Walmart chief rejects personalized pricing amid AI shift.",
@@ -1690,28 +1676,6 @@ export const newsData = {
           "slug": "airlines-waive-fees-amid-approaching-weather-disruptions"
         },
         {
-          "representativeTitle": "Bond Market Gains Attention From Financial Experts",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Bond Market Getting Mainstream Attention: Rosenberg",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-25/bond-market-getting-mainstream-attention-rosenberg-video",
-              "pubDate": "2026-09-25T19:43:34.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "bond-market-gains-attention-from-financial-experts"
-        },
-        {
           "representativeTitle": "Novo Bets Against Lilly in GLP-1 Market Race",
           "sources": [
             "CNBC Economy"
@@ -1765,9 +1729,10 @@ export const newsData = {
           "sources": [
             "BBC World",
             "SCMP",
-            "Euronews"
+            "Euronews",
+            "Google World"
           ],
-          "citationCount": 3,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "Pope warns against 'losing humanity' to AI machines",
@@ -1789,14 +1754,109 @@ export const newsData = {
               "link": "https://www.euronews.com/video/2026/09/25/watch-pope-leo-xiv-warns-ai-could-threaten-humanity-in-paradise-of-machines",
               "pubDate": "2026-09-25T14:48:09.000Z",
               "tier": 2
+            },
+            {
+              "title": "Pope Leo warns a 'paradise of machines' could undermine humanity on his France visit",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vTjdqMEhRQTRXUWZSXzFpSE9IMlM3VzVUS1dxMHpOS1hWbWs2dF9kOVFhdEwtODcwaHBpaHJvWndfTmFDMEpJQmNvNk5lTlpBemZvQldBMkRxdHVKd3RTWGdoMzYtVG10QVRETw?oc=5",
+              "pubDate": "2026-09-25T14:55:12.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "Technology",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 65,
+          "importance": 70,
           "slug": "pope-warns-ai-poses-threat-to-humanitys-future"
+        },
+        {
+          "representativeTitle": "AI Agents Leak User Images Without Lab Knowledge",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+              "pubDate": "2026-09-25T22:20:47.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "ai-agents-leak-user-images-without-lab-knowledge"
+        },
+        {
+          "representativeTitle": "OpenAI Claims Hacking of Multiple Governments' Systems",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "OpenAI says governments among ‘dozens’ of organisations hacked by its agents",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/651024b1-d1ce-40c1-acae-a92c3505d3f1?syn-25a6b1a6=1",
+              "pubDate": "2026-09-25T22:18:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "openai-claims-hacking-of-multiple-governments-systems"
+        },
+        {
+          "representativeTitle": "Facebook Liable; TikTok Settles $100M Over Safety Issues",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Facebook found liable as TikTok settles for $100m over user safety",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/26/facebook-found-liable-as-tiktok-settles-for-100m-over-user-safety?traffic_source=rss",
+              "pubDate": "2026-09-26T01:26:21.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "facebook-liable-tiktok-settles-100m-over-safety-issues"
+        },
+        {
+          "representativeTitle": "OpenAI Investigates AI Agents' Improper Behavior Instances",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "OpenAI investigating 'dozens' of instances of agents acting improperly",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-26T01:25:30.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "openai-investigates-ai-agents-improper-behavior-instances"
         },
         {
           "representativeTitle": "Supabase Data Leak Exposes Customer Personal Information Online",
@@ -1909,70 +1969,70 @@ export const newsData = {
           "slug": "cybersecurity-firm-warns-of-imminent-server-attack-threat"
         },
         {
-          "representativeTitle": "AI Agent Swarms Attack Databases Seeking Obscure Facts",
+          "representativeTitle": "Meta showcases smart glasses at major industry conference.",
           "sources": [
             "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
+              "title": "At Meta Connect, the company’s smart glasses were everywhere",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
-              "pubDate": "2026-09-25T15:48:14.000Z",
+              "link": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
+              "pubDate": "2026-09-26T01:08:57.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "meta-showcases-smart-glasses-at-major-industry-conference"
+        },
+        {
+          "representativeTitle": "Crusoe halts $1.25B plan using Boom turbines.",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+              "pubDate": "2026-09-25T23:11:10.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ai-agent-swarms-attack-databases-seeking-obscure-facts"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "crusoe-halts-125b-plan-using-boom-turbines"
         },
         {
-          "representativeTitle": "Anthropic Founders Seek Control Before IPO Listing",
+          "representativeTitle": "Automattic Board Changes Following CEO Leave Attempt",
           "sources": [
             "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Anthropic’s founders seek voting control ahead of IPO",
+              "title": "Automattic has a new board after failed attempt to put CEO on leave",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
-              "pubDate": "2026-09-25T15:40:03.000Z",
+              "link": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
+              "pubDate": "2026-09-25T23:04:34.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "anthropic-founders-seek-control-before-ipo-listing"
-        },
-        {
-          "representativeTitle": "AI Experts Discuss Hardware Design Autonomy Timeline",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "TechCrunch Disrupt 2026: Ricursive Intelligence’s Anna Goldie and Azalia Mirhoseini on when AI starts designing its own hardware",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware/",
-              "pubDate": "2026-09-25T15:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ai-experts-discuss-hardware-design-autonomy-timeline"
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "automattic-board-changes-following-ceo-leave-attempt"
         },
         {
           "representativeTitle": "New AI Model Challenges Established Large Language Models",
@@ -2017,28 +2077,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "meta-launches-early-access-for-new-muse-features"
-        },
-        {
-          "representativeTitle": "Tesla Moves Into Electrifying Commercial Trucking Sector",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Tesla finally moves to electrify trucking after a decade of work and delays",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/25/tesla-finally-moves-to-electrify-trucking-after-a-decade-of-work-and-delays/",
-              "pubDate": "2026-09-25T15:24:50.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "tesla-moves-into-electrifying-commercial-trucking-sector"
         },
         {
           "representativeTitle": "Anthropic to Pay Akamai Billions in Cloud Deal",
@@ -2107,28 +2145,6 @@ export const newsData = {
           "slug": "aeropod-automates-soil-aeration-without-robotics-breakthrough"
         },
         {
-          "representativeTitle": "Tech Industry History: Examining Silicon Valley's Origins",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "War Bros Didn’t Always Rule Silicon Valley",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/war-bros-didnt-always-rule-silicon-valley/",
-              "pubDate": "2026-09-25T15:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "tech-industry-history-examining-silicon-valleys-origins"
-        },
-        {
           "representativeTitle": "Theft Targets Nvidia Trailers; Thieves Found With Sand",
           "sources": [
             "Wired"
@@ -2155,6 +2171,50 @@ export const newsData = {
     {
       "name": "Science",
       "children": [
+        {
+          "representativeTitle": "AI Maths Breakthrough Promises New Human Discoveries",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "What an AI maths breakthrough means for human discovery",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/f9d5e0af-0106-4909-a854-7bd69cbb74ab?syn-25a6b1a6=1",
+              "pubDate": "2026-09-25T16:48:03.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ai-maths-breakthrough-promises-new-human-discoveries"
+        },
+        {
+          "representativeTitle": "Climate Change Threatens Global Child Nutrition Security Now",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Climate crisis is affecting children's nutrition",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-09-climate-crisis-affecting-children-nutrition.html",
+              "pubDate": "2026-09-26T00:00:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "climate-change-threatens-global-child-nutrition-security-now"
+        },
         {
           "representativeTitle": "Geological activity reported beneath Pacific Northwest region.",
           "sources": [
@@ -2184,6 +2244,72 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 55,
           "slug": "geological-activity-reported-beneath-pacific-northwest-region"
+        },
+        {
+          "representativeTitle": "Whale Deaths Occur Weeks After Major Rescue Effort",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Four Beluga Whales Die Weeks After Major Rescue Mission",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/09/25/us/marineland-beluga-whales-deaths.html",
+              "pubDate": "2026-09-25T22:20:31.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "whale-deaths-occur-weeks-after-major-rescue-effort"
+        },
+        {
+          "representativeTitle": "JWST reveals early universe composition was impure.",
+          "sources": [
+            "Google Science"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "James Webb Space Telescope looks back in time, finds our ancient universe wasn't as pure as we thought",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOLUdIS1NkcTV0NDJPTHdfVDV1R0h1bk9NNDMzMG52VzF5Nl9CYzVIalZIUWMyczJGTTktSDh4VFktaF9SNW5rTDl6YWhTVUpwbEUxVGgwQ2hGMFpCTklSZDc5bDhSU0Y2S2V4b1RfMl9WVGRuMjdGdENfRDRBTG5zam1PRlVMWEtBZHZFa0dRSUd4UXd3ck5YNXVsZkR0emtNMk9uckVzR0E2enZxeVRhb1VNZktnT29rb1c0clZ2X0FmaUU2U29YZmlraDA2SFBrWmZSendHU3RFZHZDZEUtVTA4RmtzUWh5dW9yZVBDMk0?oc=5",
+              "pubDate": "2026-09-25T21:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "jwst-reveals-early-universe-composition-was-impure"
+        },
+        {
+          "representativeTitle": "SpaceX Prepares Starship Flight; NASA Adjusts ISS Schedule",
+          "sources": [
+            "Google Science"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "SpaceX Preps For 'Milestone' Starship Flight 14; NASA Updates ISS Mission Timing",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNVhZSFRGMW0zU2N6VXh2ZmZ6MnQ2eUhOc3h3a1lFV21DRzNoeVpEOWtmcFNIYkNYVWM3WUM0YVlENWdTRHV6c1JqbG1yR3Q3LUlXVkFSX01vVms3WEZtTWtubDZIYm1TeFZ0MG56eHgtNTV3WFl6UE9WcnFXUWdyM3piY1B6MUtWejI4S2RfZlNabUhpUmg1N3EwNzhGQm5CWXFSV1dkQWZoRHB6ZEE?oc=5",
+              "pubDate": "2026-09-25T20:21:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "spacex-prepares-starship-flight-nasa-adjusts-iss-schedule"
         },
         {
           "representativeTitle": "Proteins Guide Drugs to Target Diseased Cells",
@@ -2230,28 +2356,6 @@ export const newsData = {
           "slug": "ultrathin-materials-advance-programmable-quantum-light-circuits"
         },
         {
-          "representativeTitle": "Laser Detects Cancer Biomarker in Blood Minutes",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Laser light enables detection of colorectal cancer biomarker in blood within minutes",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-09-laser-enables-colorectal-cancer-biomarker.html",
-              "pubDate": "2026-09-25T19:00:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "laser-detects-cancer-biomarker-in-blood-minutes"
-        },
-        {
           "representativeTitle": "Study links estate plans to family conflict risks.",
           "sources": [
             "CNBC Economy"
@@ -2272,36 +2376,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "study-links-estate-plans-to-family-conflict-risks"
-        },
-        {
-          "representativeTitle": "Private Spacecraft Falls After Telescope Rescue Failure",
-          "sources": [
-            "Phys.org",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Private spacecraft falls back to Earth after failing to rescue aging NASA telescope",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-09-private-spacecraft-falls-earth-aging.html",
-              "pubDate": "2026-09-25T16:30:01.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Private spacecraft falls back to Earth after failing to rescue aging NASA telescope - ABC News",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZkd6X3JseS1vRTJaaVA0NEltMGhUQzlwLXdYT0NjNFoydE1XbzdHQklKb1B1QXh2Nk5ZV0pWSzRvb2dxRVphMDREajJuRmJfRjVzM1lqSFNyMUptRHRlMkstVGFWd0Q1TUVUN1gwNmVJWGNQVWNfbVFVbFd4d1J0NE5BMzNkbUZSaWFFUUE2ZTA1eHhtRjg4VFl2QzJERFJvWXFsUmlmRVVQQmfSAbABQVVfeXFMT3U3anU1blBtMlpiZjFieWY4NlQ5SmlITkFwMDRFYnl0cGZETm43a29zNDdxcU1vQkwwM0ZlYUxxNXZLQTF2bDZ5Q0ViYk92eU5KTHp1VGRYUzJEOGplU25vSW1scW5nNEJsaW9YdmpQUWdreFFIX3NLM0VvTkg5YzZSZkZ6d2ZJV2w3V0ZXUEJqN0Z4aEc5U01ZNUFKSFhiSVNidDl1eDdhWHRUQ1gtRDE?oc=5",
-              "pubDate": "2026-09-25T17:07:36.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "private-spacecraft-falls-after-telescope-rescue-failure"
         }
       ]
     }
