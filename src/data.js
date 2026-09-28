@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-09-27T23:04:44.487Z",
+  "lastUpdated": "2026-09-28T03:10:17.357Z",
   "children": [
     {
       "name": "World",
@@ -10,12 +10,11 @@ export const newsData = {
           "sources": [
             "BBC World",
             "The Guardian",
-            "Al Jazeera",
             "France 24",
             "Sky News",
             "Google World"
           ],
-          "citationCount": 6,
+          "citationCount": 5,
           "rawArticles": [
             {
               "title": "Two mass shootings in South Africa leave 27 dead",
@@ -29,13 +28,6 @@ export const newsData = {
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town",
               "pubDate": "2026-09-27T13:46:49.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Dozens killed in two mass shootings in South Africa",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/27/dozens-killed-in-two-mass-shootings-in-south-africa?traffic_source=rss",
-              "pubDate": "2026-09-27T16:58:36.000Z",
               "tier": 1
             },
             {
@@ -121,41 +113,96 @@ export const newsData = {
           "slug": "serbian-leader-resigns-amid-russia-eu-scrutiny"
         },
         {
-          "representativeTitle": "Russian Minister Vows Continued Commitment to Ukraine War",
+          "representativeTitle": "France's far-right gains ground in Senate elections.",
           "sources": [
+            "The Guardian",
             "France 24",
+            "Le Monde",
             "Google World"
           ],
-          "citationCount": 2,
+          "citationCount": 4,
           "rawArticles": [
             {
-              "title": "Russian attacks kill eight in Ukraine after Moscow vows to continue war",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20260927-russian-strikes-kill-eight-ukraine-war-moscow",
-              "pubDate": "2026-09-27T21:55:28.000Z",
+              "title": "France’s far-right National Rally surges in Senate elections",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/sep/28/french-election-2026-far-right-senate-elections",
+              "pubDate": "2026-09-28T01:31:45.000Z",
               "tier": 1
             },
             {
-              "title": "Russian strikes kill four in Ukraine",
+              "title": "France's far right gains ground in indirect Senate elections",
               "source": "France 24",
-              "link": "https://www.france24.com/en/russian-strikes-kill-four-in-ukraine",
-              "pubDate": "2026-09-27T09:53:08.000Z",
+              "link": "https://www.france24.com/en/france/20260927-france-s-far-right-gains-ground-in-indirect-senate-elections",
+              "pubDate": "2026-09-27T19:34:30.000Z",
               "tier": 1
             },
             {
-              "title": "Russian Foreign Minister Vows Russia Will See Ukraine War Through",
+              "title": "Far right gains ground in French Senate",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/france/article/2026/09/28/far-right-gains-ground-in-french-senate_6758017_7.html",
+              "pubDate": "2026-09-27T23:37:21.000Z",
+              "tier": 2
+            },
+            {
+              "title": "France’s far-right National Rally surges in Senate elections",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVHNaXy15ZU1YWWVqOXJuRkdUaC1VdGR6S3dHemU3bU9CVU1wWWRmV3lLNkFLNllLUTdOQUwwNGpnbUxYYUp4cDE5VjJWRnpjVFpVUGJKWUNFdWwxVWVXdzZoZWtNd2xqV0FmUjdsMTZwNWVQS1JLNnd3RGt5MVdfMVhTbU42Mko4dnhZekQ0TQ?oc=5",
-              "pubDate": "2026-09-27T00:49:11.000Z",
+              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUmtGRGhMMjVVOThSSFZrOEVEd1htUFBKX292WGtyYmhvd090UXpYTHRvMlltU1M2U1pnRUFadUFJQkdfVmpPOTdxd1pjS3BtZ3NGUVFkbXU1N3VwWG5mZEp2UEhkREx2SElyZjNhTGlXRlg0SUYwSjREZnVMX24yTGlZOW0tZFVMM2ZyUEw1c3pUcXFyYmlQMw?oc=5",
+              "pubDate": "2026-09-28T01:32:02.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 9,
+          "relevance_score": 7,
           "importance": 75,
-          "slug": "russian-minister-vows-continued-commitment-to-ukraine-war"
+          "slug": "frances-far-right-gains-ground-in-senate-elections"
+        },
+        {
+          "representativeTitle": "Pope Urges French Church to Combat Abuse Now",
+          "sources": [
+            "The Guardian",
+            "Al Jazeera",
+            "SCMP",
+            "Euronews"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Pope Leo urges healing of ‘deep wounds’ before meeting child sexual abuse survivors in France",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/sep/27/pope-leo-france-child-sexual-abuse-survivors",
+              "pubDate": "2026-09-27T15:22:50.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope pledges action on clergy child abuse in meeting with French survivors",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/27/pope-pledges-action-on-clergy-child-abuse-in-meeting-with-french-survivors?traffic_source=rss",
+              "pubDate": "2026-09-27T23:14:15.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope Leo pledges action on child abuse by priests after meeting French survivors",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3368943/pope-meets-victims-sex-abuse-urges-wise-leaders-french-election-looms?utm_source=rss_feed",
+              "pubDate": "2026-09-27T09:16:38.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Pope Leo XIV urges French Church to continue fight against sexual abuse",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/09/27/pope-leo-xiv-urges-french-church-to-continue-fight-against-sexual-abuse",
+              "pubDate": "2026-09-27T16:33:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 70,
+          "slug": "pope-urges-french-church-to-combat-abuse-now"
         },
         {
           "representativeTitle": "Israel Revokes Dutch Diplomatic Credentials Over Goods Ban",
@@ -218,95 +265,42 @@ export const newsData = {
           "slug": "terrorists-arrested-near-us-military-air-base"
         },
         {
-          "representativeTitle": "Pandas Arrive Atlanta Following China-US Summit",
+          "representativeTitle": "Serbian President Resigns to Seek PM Candidacy",
           "sources": [
-            "The Guardian",
-            "Al Jazeera",
-            "Le Monde"
+            "BBC World",
+            "France 24",
+            "Google World"
           ],
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Two giant pandas arrive in Atlanta from China after Xi-Trump summit",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/sep/27/giant-pandas-atlanta-zoo-china-xi-trump-summit",
-              "pubDate": "2026-09-27T13:14:42.000Z",
+              "title": "Embattled Serbian president resigns, paving way for early elections",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-27T20:04:21.000Z",
               "tier": 1
             },
             {
-              "title": "Giant pandas arrive in Atlanta as part of 10-year US-China agreement",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/27/giant-pandas-arrive-in-atlanta-as-part-of-10-year-us-china-agreement?traffic_source=rss",
-              "pubDate": "2026-09-27T17:07:33.000Z",
+              "title": "Serbian President Aleksandar Vucic resigns to run for prime minister in October elections",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20260927-serbian-president-aleksandar-vucic-resigns-expected-to-run-for-prime-minister",
+              "pubDate": "2026-09-27T18:17:00.000Z",
               "tier": 1
             },
             {
-              "title": "China sends two giant pandas to the United States as a gesture of diplomacy",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/09/27/china-sends-two-giant-pandas-to-the-united-states-as-a-gesture-of-diplomacy_6758003_4.html",
-              "pubDate": "2026-09-27T09:52:31.000Z",
+              "title": "Embattled Serbian president resigns, paving way for early elections",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jRTNOYm9HNGpOSkE5bHpaYlZLcWRMbDUtU0lXUUdjRVliLWNmRy04OG5CajBzTXB5WWpWQVNKU1FFc1NScW9LYW1vMGhtSzJWeGQ3ZEVpRzU5WE0?oc=5",
+              "pubDate": "2026-09-27T20:04:21.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 6,
           "importance": 65,
-          "slug": "pandas-arrive-atlanta-following-china-us-summit"
-        },
-        {
-          "representativeTitle": "Madrid Protests Continue Over Spanish Housing Crisis Issues",
-          "sources": [
-            "France 24",
-            "Sky News",
-            "Euronews",
-            "Google World"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "Housing crisis fuels Madrid protest",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/housing-crisis-fuels-madrid-protest",
-              "pubDate": "2026-09-27T11:17:45.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Spain housing crisis protest after 87-year-old woman evicted",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/spain-housing-crisis-protest-after-87-year-old-woman-evicted-13592322",
-              "pubDate": "2026-09-27T02:25:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Watch: mass Madrid protests over Maricarmen eviction and housing crisis",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/video/2026/09/27/watch-mass-madrid-protests-over-maricarmen-eviction-and-housing-crisis",
-              "pubDate": "2026-09-27T19:02:15.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Protesters camp in Madrid in demonstration against Spain' housing crisis",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/09/27/protesters-camp-in-madrid-in-demonstration-against-spain-housing-crisis",
-              "pubDate": "2026-09-27T11:21:34.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Eviction of 87-year-old sparks encampment protest in Madrid over housing crisis",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPajVfLXo0QUJYM3FjWldGS25aQ2dsYnJ5QXB0NFpuQWFETmRGcVdhTFpfZTRaeENKTktaVHZ6RF8tcTBoZGozTmYtdWRTR3JkbXdoelZXblVHMEN6UlVpSmhteFV6YUx3dTByN255b0NhU2VXNjRmUkcxcC1QdWJkc3E3SkVvWmg4cjNGM1lqOXhUNkJiWkh0T21abXpKNUE?oc=5",
-              "pubDate": "2026-09-27T19:37:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "madrid-protests-continue-over-spanish-housing-crisis-issues"
+          "slug": "serbian-president-resigns-to-seek-pm-candidacy"
         },
         {
           "representativeTitle": "Starvation grips Russian-occupied Ukrainian town residents.",
@@ -327,7 +321,7 @@ export const newsData = {
               "title": "‘Hell on earth’: last residents eat weeds to survive in Russian-occupied Oleshky",
               "source": "Google World",
               "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONjc2Qk1FVjFfZk9saWM5ZmFWNzlOdGhaQnF3ekZPMXBpTFEwaGktVHNJR3JjSUFyZ2czQW1uZkdNTWJvU2ZTMnlYa21kWFMtNF9keVVIeWhIQmlDcVkxOGJLTjVxdV9MbEJxODA0VllQVUxDVVE3VU5vOHRXQlM0bUNMVC1uZkpLVUdtc1dSV1hjOTEyWEp1RHlXaGV0cUFWQzNrOXZOOVM5Q0dpOG9jMVc4TjAwQ0pvODViZFlvbFM?oc=5",
-              "pubDate": "2026-09-27T21:59:00.000Z",
+              "pubDate": "2026-09-28T01:30:00.000Z",
               "tier": 2
             }
           ],
@@ -339,93 +333,25 @@ export const newsData = {
           "slug": "starvation-grips-russian-occupied-ukrainian-town-residents"
         },
         {
-          "representativeTitle": "UK Police Investigate Suspected Terror Plot Near US Base",
+          "representativeTitle": "Ethiopia Blames Eritrea, Sudan Over Tigray Clashes",
           "sources": [
             "France 24",
-            "Time",
             "Google World"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "UK police arrest 5 men, counter-terror squad probes ‘major incident’ near air base used by US forces",
+              "title": "Ethiopia accuses Eritrea, Sudan of backing Tigray rebels amid clashes",
               "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20260927-uk-police-evacuate-homes-near-air-base-used-by-us-arrest-men-on-suspected-explosives-offenses",
-              "pubDate": "2026-09-27T09:05:06.000Z",
+              "link": "https://www.france24.com/en/africa/20260927-ethiopia-accuses-eritrea-sudan-backing-tigray-rebels",
+              "pubDate": "2026-09-27T23:27:29.000Z",
               "tier": 1
             },
             {
-              "title": "U.K. Police Investigate Suspected Terror Plot Near Base Used by U.S. Forces",
-              "source": "Time",
-              "link": "https://time.com/article/2026/09/27/5-men-arrested-in-suspected-terrorist-attack-at-uk-base-used-by-us-forces/",
-              "pubDate": "2026-09-27T14:19:05.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Bomb squad searching vans near U.S. air base in Britain as five men arrested on terror charge",
+              "title": "Ethiopia accuses Egypt and Sudan of backing alliance against Abiy",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMzkybDc0THU3R1JKM3YzOVBJOXU1a3hQc3NqbFJRc0tJVVJCemxrYWZvaUl0S0tXeHRmbC02TUpFMjNwNlZRTE5HeGFQT3RmS3FXclphbEdDZWZGa0pQZEJpWGp2ZFpKd2dyTDZLRm5xQzBhZWxSbVBkTnc3WUliNE9hTjRhZlRJaXB5VGNnbnJzVjhxN2l3QWIxak1qaGhlWTk2Tkd2N09SZWNIV0pKWUJIeTRnQUQ2b3c?oc=5",
-              "pubDate": "2026-09-27T16:47:53.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "uk-police-investigate-suspected-terror-plot-near-us-base"
-        },
-        {
-          "representativeTitle": "Serbian President Resigns to Seek PM Candidacy",
-          "sources": [
-            "BBC World",
-            "France 24"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Embattled Serbian president resigns, paving way for early elections",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-27T20:04:21.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Serbian President Aleksandar Vucic resigns to run for prime minister in October elections",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20260927-serbian-president-aleksandar-vucic-resigns-expected-to-run-for-prime-minister",
-              "pubDate": "2026-09-27T18:17:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "serbian-president-resigns-to-seek-pm-candidacy"
-        },
-        {
-          "representativeTitle": "Trump Signals Iran Talks After Truce Rejection",
-          "sources": [
-            "France 24",
-            "SCMP"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Trump expects Iran talks next week after rejecting seven-day truce proposal",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20260927-trump-expects-iran-talks-next-week-after-rejecting-seven-day-truce-proposal",
-              "pubDate": "2026-09-27T22:10:44.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump expects new Iran talks despite rejecting deal offer",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3368980/trump-expects-new-iran-talks-despite-rejecting-deal-offer?utm_source=rss_feed",
-              "pubDate": "2026-09-27T19:16:36.000Z",
+              "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOS1hON1h0eTVlbmstTmxOTjREc3lKQ01QNVF6NzZVanQyMlg3TXhXZ3JTWWF3Qjg0cHZ6MmRvbWtWLXlDU3dYLTVDSWlxV1hZM2tPT0VvWHRfWDBXeUtlNTJjRVN1RWJqTXVqWVlqNU4yR0ZVbWhnSWpzcy1CR1M4Z25JZDdUMnNLUXFyekw3S3B2UUZ1RWQtRV9fVXktUWhNWl9mZmJCeU41NU1XUmlhUU85R1hqR0xZRURxRXMxOVVLaDh2?oc=5",
+              "pubDate": "2026-09-27T11:30:40.000Z",
               "tier": 2
             }
           ],
@@ -434,40 +360,10 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 60,
-          "slug": "trump-signals-iran-talks-after-truce-rejection"
+          "slug": "ethiopia-blames-eritrea-sudan-over-tigray-clashes"
         },
         {
-          "representativeTitle": "Trump Rejects Deal; Iran Signals Continued Strait Tension.",
-          "sources": [
-            "The Guardian",
-            "IBTimes"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Trump rejects Iran’s seven-day peace deal to reopen strait of Hormuz",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/sep/26/trump-dismiss-iran-seven-day-peace-deal-hormuz",
-              "pubDate": "2026-09-27T06:34:43.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump Rejects Deal To Reopen Strait Of Hormuz. Iran Says It Will Wait For Confirmation.",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/trump-rejects-deal-reopen-strait-hormuz-iran-says-it-will-wait-confirmation-3807940",
-              "pubDate": "2026-09-27T14:46:27.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 65,
-          "slug": "trump-rejects-deal-iran-signals-continued-strait-tension"
-        },
-        {
-          "representativeTitle": "South Korea Demands Apology From Ukraine Over POW Issue",
+          "representativeTitle": "Venezuelan Rallies Demand Opposition Leader's Return",
           "sources": [
             "Al Jazeera",
             "SCMP"
@@ -475,17 +371,17 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "South Korea, Ukraine relations sour over North Korean POW transfer",
+              "title": "Venezuelans rally for opposition leader’s return and presidential elections",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/27/south-korea-ukraine-relations-sour-over-north-korean-pow-transfer?traffic_source=rss",
-              "pubDate": "2026-09-27T18:30:53.000Z",
+              "link": "https://www.aljazeera.com/news/2026/9/28/venezuelans-rally-for-opposition-leaders-return-and-presidential-elections?traffic_source=rss",
+              "pubDate": "2026-09-28T02:36:00.000Z",
               "tier": 1
             },
             {
-              "title": "South Korea demands apology from Ukraine over disclosure of North Korean POW transfer",
+              "title": "Venezuelans rally to demand opposition leader’s safe return and presidential elections",
               "source": "SCMP",
-              "link": "https://www.scmp.com/news/asia/east-asia/article/3368983/south-korea-demands-apology-ukraine-over-disclosure-north-korean-pow-transfer?utm_source=rss_feed",
-              "pubDate": "2026-09-27T21:56:09.000Z",
+              "link": "https://www.scmp.com/news/world/americas/article/3368985/venezuelans-rally-demand-opposition-leaders-safe-return-and-presidential-elections?utm_source=rss_feed",
+              "pubDate": "2026-09-27T23:45:37.000Z",
               "tier": 2
             }
           ],
@@ -494,52 +390,36 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 55,
-          "slug": "south-korea-demands-apology-from-ukraine-over-pow-issue"
+          "slug": "venezuelan-rallies-demand-opposition-leaders-return"
         },
         {
-          "representativeTitle": "Pope Urges French Church to Combat Abuse Now",
+          "representativeTitle": "Israeli Leader Threatens Killing of Hamas Prisoner",
           "sources": [
-            "The Guardian",
-            "SCMP",
-            "Euronews"
+            "Al Jazeera"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Pope Leo urges healing of ‘deep wounds’ before meeting child sexual abuse survivors in France",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/sep/27/pope-leo-france-child-sexual-abuse-survivors",
-              "pubDate": "2026-09-27T15:22:50.000Z",
+              "title": "Ben-Gvir releases video threatening to kill senior Hamas figure in jail",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/28/ben-gvir-releases-video-threatening-to-kill-senior-hamas-figure-in-jail?traffic_source=rss",
+              "pubDate": "2026-09-28T01:33:52.000Z",
               "tier": 1
-            },
-            {
-              "title": "Pope Leo pledges action on child abuse by priests after meeting French survivors",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3368943/pope-meets-victims-sex-abuse-urges-wise-leaders-french-election-looms?utm_source=rss_feed",
-              "pubDate": "2026-09-27T09:16:38.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Pope Leo XIV urges French Church to continue fight against sexual abuse",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/09/27/pope-leo-xiv-urges-french-church-to-continue-fight-against-sexual-abuse",
-              "pubDate": "2026-09-27T16:33:00.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "pope-urges-french-church-to-combat-abuse-now"
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "israeli-leader-threatens-killing-of-hamas-prisoner"
         },
         {
           "representativeTitle": "UK Police Arrest Five Over Suspected Terror Plot",
           "sources": [
             "France 24",
-            "SCMP",
-            "Le Monde"
+            "Le Monde",
+            "Google World"
           ],
           "citationCount": 3,
           "rawArticles": [
@@ -551,17 +431,17 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "UK police arrest 5 on suspicion of terrorism near airbase used by US in Iran war",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3368968/uk-arrests-5-after-incident-near-airbase-used-us-bombers?utm_source=rss_feed",
-              "pubDate": "2026-09-27T14:00:18.000Z",
-              "tier": 2
-            },
-            {
               "title": "UK police say 5 arrested on suspicion of preparing 'terrorist act'",
               "source": "Le Monde",
               "link": "https://www.lemonde.fr/en/international/article/2026/09/27/uk-police-say-5-arrested-on-suspicion-of-preparing-terrorist-act_6758010_4.html",
               "pubDate": "2026-09-27T15:34:42.000Z",
+              "tier": 2
+            },
+            {
+              "title": "5 men arrested near UK air base used by US in Iran war on suspicion of preparing a terrorist act",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcERWNlhSekhlZGNhNVZ4dTZra2o2b3ZEdGFOeFhYWi02T2JlZ2VPNlZ6ZUQ1ODI1MHc3WElaaVRnV2RlZTlUeHhSR1pSN1NOanZiZkEyNnNtaXhPWS1qYXNrSDlIb1M0S3dwMktBNUJUd244MlZuTHJrNk12SGNCckdRSXBCZWxQWml1MHZHdEkwYjVlSEsyX0FOLTRWYlRZ?oc=5",
+              "pubDate": "2026-09-27T19:14:00.000Z",
               "tier": 2
             }
           ],
@@ -573,26 +453,174 @@ export const newsData = {
           "slug": "uk-police-arrest-five-over-suspected-terror-plot"
         },
         {
-          "representativeTitle": "Two Hurricanes Threaten Hawaii and Baja Region",
+          "representativeTitle": "UK Police Investigate Potential Terror Incident After Reports",
           "sources": [
-            "The Guardian"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Hurricane Nolo still threatens Hawaii as Mexico's Baja braces for major Hurricane Polo",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/sep/27/hurricane-nolo-hawaii-hurricane-polo-mexico",
-              "pubDate": "2026-09-27T22:59:25.000Z",
+              "title": "UK Police Investigate Potential Terror Incident",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-28/uk-police-investigate-potential-terror-incident-video",
+              "pubDate": "2026-09-28T02:18:40.000Z",
               "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "uk-police-investigate-potential-terror-incident-after-reports"
+        },
+        {
+          "representativeTitle": "Oil Rises; Bond Selloff Continues After Trump's Stance",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Bond Selloff Resumes as Oil Rises After Trump Spurns Iran Offer",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-28/bond-selloff-resumes-as-oil-rises-after-trump-spurns-iran-offer",
+              "pubDate": "2026-09-28T01:50:20.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "oil-rises-bond-selloff-continues-after-trumps-stance"
+        },
+        {
+          "representativeTitle": "Deadly strike impacts market in Yemen's Taiz.",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Deadly strike hits market in Yemen’s Taiz",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/27/deadly-strike-hits-market-in-yemens-taiz?traffic_source=rss",
+              "pubDate": "2026-09-27T21:00:55.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Yemen: Houthis report deadly Saudi strikes on Taiz market",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2tiTmtOT3NLUTZvN1hYZHlETHUySG5iMnRvU0ltVS03QXAzWmtocndacEhvVGViM2xnbnFFbkhQLWt6eDlkQVhoUWtMRHNrSVBoS2l3VzlCQzVJTXdPTTVNZVg5WHF5eGdSZzN0ZmNBQlRZeDhmSkNOd3VJRElmbDU4aFVCUFFBTDFVLXl2U01OemfSAZMBQVVfeXFMTVJmck1SdmphcTFYLXhiV1U5ZHI5TzZMcVFjZDBZMFk4NTQ5U1RJSHVyM3pFU3pFZTlsTmNiTUQyODU4VFNRU2FOMGZuSVBfVjlfOXpQZk8zZlJWUDBDZmtmVG1CUHhKamZEVnpuTUoyU253U1g3cS05cWZMWHdMZXBkYXEzUTZsT19lNjg0dW1EcVc0?oc=5",
+              "pubDate": "2026-09-27T18:37:12.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "deadly-strike-impacts-market-in-yemens-taiz"
+        },
+        {
+          "representativeTitle": "Seoul Demands Apology Over North Korea POW Disclosure",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Seoul Demands Ukraine Apology Over North Korea POW Disclosure",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-28/seoul-demands-ukraine-apology-over-north-korea-pow-disclosure",
+              "pubDate": "2026-09-28T00:54:13.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "two-hurricanes-threaten-hawaii-and-baja-region"
+          "slug": "seoul-demands-apology-over-north-korea-pow-disclosure"
+        },
+        {
+          "representativeTitle": "Gold Drops Amid Tensions Over Hormuz Strait",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Gold Slumps as Hormuz Impasse Keeps Rate-Hike Bets Elevated",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-27/gold-declines-as-hormuz-impasse-keeps-rate-hike-bets-elevated",
+              "pubDate": "2026-09-27T23:59:20.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "gold-drops-amid-tensions-over-hormuz-strait"
+        },
+        {
+          "representativeTitle": "Police find eleventh woman near Johannesburg area",
+          "sources": [
+            "Al Jazeera",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "South African police discover body of 11th woman near Johannesburg",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/28/south-african-police-discover-body-of-10th-woman-near-johannesburg?traffic_source=rss",
+              "pubDate": "2026-09-28T00:25:12.000Z",
+              "tier": 1
+            },
+            {
+              "title": "South African police probe mining feud shooting, 27 dead as elections near",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/africa/article/3368959/south-african-police-probe-mining-feud-shooting-27-dead-elections-near?utm_source=rss_feed",
+              "pubDate": "2026-09-27T12:07:58.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "police-find-eleventh-woman-near-johannesburg-area"
+        },
+        {
+          "representativeTitle": "Foreign Secretary Confronted Over Palestine Action Ban",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "UK Foreign Secretary confronted by activists over Palestine Action ban",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/28/uk-foreign-secretary-confronted-by-activists-over-palestine-action-ban?traffic_source=rss",
+              "pubDate": "2026-09-28T01:37:27.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "foreign-secretary-confronted-over-palestine-action-ban"
         },
         {
           "representativeTitle": "Bangkok floods impact city; visual report provided.",
@@ -625,25 +653,76 @@ export const newsData = {
           "slug": "bangkok-floods-impact-city-visual-report-provided"
         },
         {
-          "representativeTitle": "Pope Calls For Eradication Of Abuse During Visit",
+          "representativeTitle": "Arrests Made Amid Counter-Terror Investigation Near Airbase",
           "sources": [
-            "BBC World",
-            "Google World"
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Five arrested as counter-terror police investigate major incident near UK airbase used by US forces",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cqrm99mm9l84o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-27T20:10:51.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "arrests-made-amid-counter-terror-investigation-near-airbase"
+        },
+        {
+          "representativeTitle": "Perdue confirms US Taiwan policy remains unchanged.",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "David Perdue: US Taiwan Policy Unchanged After Talks",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-28/david-perdue-us-taiwan-policy-unchanged-after-talks-video",
+              "pubDate": "2026-09-28T00:48:23.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "perdue-confirms-us-taiwan-policy-remains-unchanged"
+        },
+        {
+          "representativeTitle": "Madrid Protests Continue Over Spanish Housing Crisis Issues",
+          "sources": [
+            "France 24",
+            "Euronews"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Pope says 'scourge' of abuse must be rooted out as he visits Lourdes",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cm5y5nj8ejj8o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-27T19:47:21.000Z",
+              "title": "Housing crisis fuels Madrid protest",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/housing-crisis-fuels-madrid-protest",
+              "pubDate": "2026-09-27T11:17:45.000Z",
               "tier": 1
             },
             {
-              "title": "'Scourge' of abuse must be rooted out, says Pope during Lourdes visit",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBETFJUZWVTeWZGYi1Mc3J6b0VXbXJTQnVoN0pNRjlNb3NoRjZmYTJxVWdGNktKN1BzSjc4NFp1WGNUN1R2YW5IaHhQZHJ0TGNEb1NjV3dERlA2RTQ?oc=5",
-              "pubDate": "2026-09-27T19:47:21.000Z",
+              "title": "Watch: mass Madrid protests over Maricarmen eviction and housing crisis",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/video/2026/09/27/watch-mass-madrid-protests-over-maricarmen-eviction-and-housing-crisis",
+              "pubDate": "2026-09-27T19:02:15.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Protesters camp in Madrid in demonstration against Spain' housing crisis",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/09/27/protesters-camp-in-madrid-in-demonstration-against-spain-housing-crisis",
+              "pubDate": "2026-09-27T11:21:34.000Z",
               "tier": 2
             }
           ],
@@ -652,51 +731,29 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 50,
-          "slug": "pope-calls-for-eradication-of-abuse-during-visit"
+          "slug": "madrid-protests-continue-over-spanish-housing-crisis-issues"
         },
         {
-          "representativeTitle": "Iran Offer Rejection Dampens Market Sentiment Today",
+          "representativeTitle": "Protests Arrested Outside UK Labour Party Conference Today",
           "sources": [
-            "Bloomberg Markets"
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Oil Up, Stock Futures Slip as Iran Offer Rejected: Markets Wrap",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-27/stock-market-today-dow-s-p-live-updates",
-              "pubDate": "2026-09-27T22:15:52.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "iran-offer-rejection-dampens-market-sentiment-today"
-        },
-        {
-          "representativeTitle": "Farmer Encounter Leads to Terrorism Arrests at RAF Base",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Late-night drive and a 999 call: farmer’s chance encounter that led to terrorism arrests at RAF base",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/sep/27/villagers-raf-fairford-evacuation",
-              "pubDate": "2026-09-27T21:55:42.000Z",
+              "title": "Palestine Action protesters arrested outside UK Labour Party conference",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/28/palestine-action-protesters-arrested-outside-uk-labour-party-conference?traffic_source=rss",
+              "pubDate": "2026-09-28T02:23:30.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "farmer-encounter-leads-to-terrorism-arrests-at-raf-base"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "protests-arrested-outside-uk-labour-party-conference-today"
         },
         {
           "representativeTitle": "Avalanche claims lives at Himalayan base camp in Nepal.",
@@ -729,58 +786,96 @@ export const newsData = {
           "slug": "avalanche-claims-lives-at-himalayan-base-camp-in-nepal"
         },
         {
-          "representativeTitle": "US-Iran Talks Stall Over Core Disagreements Again",
+          "representativeTitle": "Japan's Economic Boom Faces Potential Reversal Risks",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US Iran Talks Hit Familiar Sticking Points",
+              "title": "Booms Don't Last Forever: Japan's Katayama",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-27/us-iran-talks-hit-familiar-sticking-points-video",
-              "pubDate": "2026-09-27T14:02:15.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-28/booms-don-t-last-forever-japan-s-katayama-video",
+              "pubDate": "2026-09-28T00:04:04.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "us-iran-talks-stall-over-core-disagreements-again"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "japans-economic-boom-faces-potential-reversal-risks"
         },
         {
-          "representativeTitle": "IAEA Signals Path for Resumed Iran Nuclear Oversight",
+          "representativeTitle": "Swiss reject tighter neutrality rules in referendum vote.",
           "sources": [
-            "Bloomberg Markets"
+            "SCMP",
+            "Le Monde",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Swiss reject tighter neutrality rules in referendum backed by right-wing populist party",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3368976/swiss-reject-tighter-neutrality-rules-referendum-backed-right-wing-populist-party?utm_source=rss_feed",
+              "pubDate": "2026-09-27T17:15:02.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Swiss voters overwhelmingly reject far-right plan to toughen neutrality",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/09/27/swiss-voters-overwhelmingly-reject-far-right-plan-to-toughen-neutrality_6758013_4.html",
+              "pubDate": "2026-09-27T17:13:01.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Swiss reject tighter neutrality rules in referendum backed by right-wing populist party",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXFyNkpXRHJzY0NPaEJRcG1rREF5ZkZ4d1Ftb3d2c2pqQjlPSml2NFVCS3RNMml2dVd1ME1iQ0QtMDJoVnhqRWVvcFJ2VnA5NGpiNmdKbG1HQVdHdUFDV1MtN2h3OWtsTUp2bTdWbmJoX2Y0T1RMRzFVTjE3bXpWMFhyMkdaSkktNFBVS3BNNnZIUElhTHBtcDdmNDMwQVVpaWViNHJ0T2ZqOXdEblQ2N2VSYnQySG8?oc=5",
+              "pubDate": "2026-09-27T17:35:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "swiss-reject-tighter-neutrality-rules-in-referendum-vote"
+        },
+        {
+          "representativeTitle": "China's Skepticism Challenges Global AI Safety Consensus",
+          "sources": [
+            "Google US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "IAEA Says Iran Nuclear Oversight Can Resume Fast",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-27/iaea-says-iran-nuclear-oversight-can-resume-fast-video",
-              "pubDate": "2026-09-27T12:37:03.000Z",
-              "tier": 1
+              "title": "The Surprising Reasons China Is Skeptical of A.I. Safety Calls",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9VZXZwemNzZVFuNWFKWWE4dDlUWmVycE5oTDdvc3VoVHl1alRiczhkdE5EOEp5SkE5OUtpWVgzUFBMS0FVd21rQmtoejFCc19xMTktVThzaG5obmVxU05RU0E3dzJwVTJtdnZXcktEUVVDS2syT1JrTmVINA?oc=5",
+              "pubDate": "2026-09-28T01:26:28.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "US",
           "aiCategory": "World",
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "iaea-signals-path-for-resumed-iran-nuclear-oversight"
+          "importance": 45,
+          "slug": "chinas-skepticism-challenges-global-ai-safety-consensus"
         },
         {
-          "representativeTitle": "Arrests Made Near RAF Fairford Following Terrorism Incident",
+          "representativeTitle": "Arrests Made Near UK Air Base Following Incident",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Terrorism arrests made in ‘major incident’ near RAF Fairford",
+              "title": "Terrorism arrests made in ‘major incident’ near US air base in UK",
               "source": "FT International",
               "link": "https://www.ft.com/content/875027a3-db29-40a6-b17c-fa97c30fd07b?syn-25a6b1a6=1",
               "pubDate": "2026-09-27T17:24:59.000Z",
@@ -792,7 +887,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "arrests-made-near-raf-fairford-following-terrorism-incident"
+          "slug": "arrests-made-near-uk-air-base-following-incident"
         },
         {
           "representativeTitle": "PM Carney discusses Canadian policy in Times interview.",
@@ -817,48 +912,26 @@ export const newsData = {
           "slug": "pm-carney-discusses-canadian-policy-in-times-interview"
         },
         {
-          "representativeTitle": "Campus Allegations Spark Violent Protests at Indian University",
+          "representativeTitle": "UK Airbase Probe Details Emerge Regarding Counter-Terrorism Efforts",
           "sources": [
-            "Al Jazeera"
+            "BBC US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Alleged rape on campus sparks violent protest at Indian university",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/27/alleged-rape-on-campus-sparks-violent-protest-at-indian-university?traffic_source=rss",
-              "pubDate": "2026-09-27T21:17:05.000Z",
+              "title": "What we know about UK airbase counter-terror probe",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/c85ydnwqpzyzo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-27T19:47:44.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "World",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "campus-allegations-spark-violent-protests-at-indian-university"
-        },
-        {
-          "representativeTitle": "Flooding severely impacts roads across southeastern Algeria.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Floods inundate roads in southeastern Algeria",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/27/floods-inundate-roads-in-southeastern-algeria?traffic_source=rss",
-              "pubDate": "2026-09-27T21:03:47.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "flooding-severely-impacts-roads-across-southeastern-algeria"
+          "slug": "uk-airbase-probe-details-emerge-regarding-counter-terrorism-efforts"
         },
         {
           "representativeTitle": "India's labor export model gains global attention.",
@@ -883,7 +956,7 @@ export const newsData = {
           "slug": "indias-labor-export-model-gains-global-attention"
         },
         {
-          "representativeTitle": "Pandas travel from China to Atlanta zoo.",
+          "representativeTitle": "Pandas Arrive in Atlanta, Symbolizing China's Diplomacy",
           "sources": [
             "ABC News US",
             "Google US"
@@ -898,19 +971,48 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "New giant pandas from China arrive in Atlanta zoo",
+              "title": "Giant Pandas, Icons of China’s Soft Diplomacy, Arrive in Atlanta",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MVlNXMlJDMHRZa3NsRU5iQlY5YzBKZEpVN2UtcTB0V0NvRlBKUEJIT0NCbmNCQ3Nfdy1ublpnaGZXV2JLZ0s4ZE9WTFdJckR1MnZqUjlET2xtM05mVXRNZURUbk90R2N5VFJLRkRZS1RpbjFRUkE?oc=5",
-              "pubDate": "2026-09-27T16:00:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5oMzY1ejFudTZlQmFtRVprQXgtU2RhN3RncDVfejZBUjBnalZ2d3RMRG1wMXpDU3RhZGRrT0gzaHZnaF9HLV9hZ1hlNnpmUEx0S1lXUWNsLUxYdW45WDJ2UXdzUlBoYVNaSXJNWHpxWDVicFNKMXFMRw?oc=5",
+              "pubDate": "2026-09-27T19:50:24.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 30,
-          "slug": "pandas-travel-from-china-to-atlanta-zoo"
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "pandas-arrive-in-atlanta-symbolizing-chinas-diplomacy"
+        },
+        {
+          "representativeTitle": "Five Men Arrested on Terror Charges Near UK Air Base",
+          "sources": [
+            "NBC News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Suspected terror attack thwarted near U.S. air base in U.K.",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/nightly-news/video/suspected-terror-attack-thwarted-near-u-s-air-base-in-u-k-270624325909",
+              "pubDate": "2026-09-27T22:44:43.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Five men arrested on terror charge near U.S. air base in Britain",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/world/united-kingdom/men-arrested-suspicion-explosives-offences-us-air-base-britain-rcna600052",
+              "pubDate": "2026-09-27T09:17:43.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "five-men-arrested-on-terror-charges-near-uk-air-base"
         }
       ]
     },
@@ -930,14 +1032,14 @@ export const newsData = {
               "title": "One dead as nor'easter storm pummels New York and New Jersey",
               "source": "BBC US",
               "link": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-27T12:34:26.000Z",
+              "pubDate": "2026-09-27T23:37:26.000Z",
               "tier": 1
             },
             {
               "title": "One dead as nor'easter storm pummels New York and New Jersey",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-27T12:34:26.000Z",
+              "pubDate": "2026-09-27T23:37:26.000Z",
               "tier": 1
             },
             {
@@ -954,28 +1056,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 80,
           "slug": "noreaster-claims-life-amid-new-york-storm-damage"
-        },
-        {
-          "representativeTitle": "Storm floods Northeast US, causing widespread power outages.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Powerful storm floods US Northeast, causes power outages",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/27/powerful-storm-floods-us-northeast-causes-power-outages?traffic_source=rss",
-              "pubDate": "2026-09-27T22:51:29.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "storm-floods-northeast-us-causing-widespread-power-outages"
         },
         {
           "representativeTitle": "Detroit Shooting Leaves Three Dead, Four Injured",
@@ -1008,6 +1088,96 @@ export const newsData = {
           "slug": "detroit-shooting-leaves-three-dead-four-injured"
         },
         {
+          "representativeTitle": "Police hunt predator after GPS alert triggers.",
+          "sources": [
+            "Fox News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Police hunt sexually violent predator who vanished after GPS 'tamper mode' alert",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/us/police-hunt-sexually-violent-predator-who-vanished-after-gps-tamper-mode-alert",
+              "pubDate": "2026-09-27T23:30:46.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Police hunt sexually violent predator who vanished after GPS 'tamper mode' alert",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRmJmWEtOU1JnUGpTOF9fUGxMejZJMWVidlNXUllfYnVESGRsa3hHNUdpeWRpYkVNbkJLcXh6WkdhUmxvSWJ3eWxiUmplZnY3SjBqOVYyQkMzRFZuZnhETFFFMW9OODAzakI4REtVeTVpdmZURUlya2lLaS1DZEdXcDU1SmYyOV9OQUJnOUJ1VlBkblJtbGdzVFJlMzl5NmJoWHRMVG9FVHfSAa4BQVVfeXFMUFBKMzNKMGNsMkI1SnVhTVFGTFdjckhJSEFMdzNzSU5fc1k0VjZ6a0lINUdSa1VVSzJBN0hEd3RkUGMwb3FXTUNrTEdQRjVkdXdsQ2RqcU52V3lPcTVVbTBEMXVQU1JXUUlMSGZBWU9JQV9fMS1PcVp6WlZfMWRLZGVXX0NadkVsMUo3ZXpRelQ5SmtZMm9ZRk51TE9GNDVDa25RcmlpcnExdTJsV3VR?oc=5",
+              "pubDate": "2026-09-27T23:30:46.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "police-hunt-predator-after-gps-alert-triggers"
+        },
+        {
+          "representativeTitle": "Nor'easter unearths historic shipwreck fragments off Nantucket.",
+          "sources": [
+            "NBC News",
+            "NPR",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Nor’easter unearths fragments of 19th century shipwreck on Nantucket",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/noreaster-19th-century-shipwreck-warren-sawyer-rcna600073",
+              "pubDate": "2026-09-27T18:07:22.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Nantucket shipwreck uncovered by Nor'easter",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/09/27/nx-s1-5982785/nantucket-shipwreck-uncovered-by-noreaster",
+              "pubDate": "2026-09-28T00:30:26.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Nor’easter unearths fragments of 19th century shipwreck on Nantucket",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd2tKVXRmckF6Z01vU25xa0VqU2FlbXJaLXRTUjB6eHdTTEZZNVVCa2NDMEFpbnk3bDVxZ3czYVA0SWdkbWNvVlNvZzZyVTdDX0JiMjRRR3Z4LXFaTFFwNm1xWG5PaHRJUktMb1VtUkgzMTVkQUJlZjdObkNxV0RxTlZzYVVtMVZJMHdoV2lFRkZBb3hqNWJnN2F3?oc=5",
+              "pubDate": "2026-09-27T20:51:21.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "noreaster-unearths-historic-shipwreck-fragments-off-nantucket"
+        },
+        {
+          "representativeTitle": "White House Ad Spending Boosts Trump Campaign Efforts",
+          "sources": [
+            "Google US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "White House expands taxpayer-paid ad campaign boosting Trump",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNXhWMktSSF9XWkdfZm92cWticXh4YjRrdnBSRDE3UzdlQ2FZUG9MMS1TaGJ4NDNJNHRrY2gydS1oNVlSd29TTWxZdTVESXhCTERWMlJBSjhSeE9scy1reWtLOGJpZUdKLUNpN1dUaFh4bGg4ZlVWVFFIZXJEaW9xbWdueFBKQ2xjZEhqaFEzdFVjeUxheWdsY2JSNE1YLV81Q0FjWU5TaHJ1cnJ1NnBKQXNn?oc=5",
+              "pubDate": "2026-09-28T03:00:54.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "white-house-ad-spending-boosts-trump-campaign-efforts"
+        },
+        {
           "representativeTitle": "Georgia Park Shooting Wounds Eleven Teenagers At Party",
           "sources": [
             "ABC News US",
@@ -1038,48 +1208,70 @@ export const newsData = {
           "slug": "georgia-park-shooting-wounds-eleven-teenagers-at-party"
         },
         {
-          "representativeTitle": "Trump Signals Potential Ban on Diesel Exports Now",
+          "representativeTitle": "Terror Plot Foiled Signals Broader Military Threat Risk",
           "sources": [
-            "Bloomberg Markets"
+            "Fox News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump Says He’s ‘Very Seriously’ Looking at Diesel Export Ban",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-27/trump-says-he-s-very-seriously-looking-at-diesel-export-ban",
-              "pubDate": "2026-09-27T21:55:26.000Z",
-              "tier": 1
+              "title": "Foiled terror plot at bomber base signals wider threat to US military installations: expert",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/world/foiled-terror-plot-key-bomber-base-signals-wider-threat-us-military-installations-expert",
+              "pubDate": "2026-09-28T00:34:26.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 45,
-          "slug": "trump-signals-potential-ban-on-diesel-exports-now"
+          "slug": "terror-plot-foiled-signals-broader-military-threat-risk"
         },
         {
-          "representativeTitle": "White House Defends Media Ban: Privilege Over Right",
+          "representativeTitle": "DA Reopens Alleged Cornell University Rape Case Investigation",
           "sources": [
-            "The Guardian"
+            "ABC News Top"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Blanche defends Trump’s White House media ban: ‘It is a privilege, not a right’",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/sep/27/todd-blanche-trump-white-house-media",
-              "pubDate": "2026-09-27T21:42:56.000Z",
-              "tier": 1
+              "title": "District attorney reopens case of alleged Cornell University 'gang rape'",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/US/district-attorney-reopens-case-alleged-cornell-university-gang/story?id=136806149",
+              "pubDate": "2026-09-28T00:08:15.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 45,
-          "slug": "white-house-defends-media-ban-privilege-over-right"
+          "slug": "da-reopens-alleged-cornell-university-rape-case-investigation"
+        },
+        {
+          "representativeTitle": "Nor'easter Flooding Hits Northeast From NJ to NE",
+          "sources": [
+            "Google US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Powerful nor’easter floods Northeast again, causing problems from New Jersey to New England",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSm8yTVN4Z0tmWTVURVhPYTdqVWRYOXVqXzllQkJ1ZzRGZ040SXdRQjJ1ZlFLRDNYTlN6aWFyeXBQQXBsSUZ0UmtSWEdHVWtzZTJsVGFaZW9DSmd5ZXpUejdkSldwSHdiN3ZtYUJLNEJ2aFRQX05DVl80NVI1dzhlcUZtNHFDUm1NazZKT2Ryd0xJT1JoT0E?oc=5",
+              "pubDate": "2026-09-28T00:06:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "noreaster-flooding-hits-northeast-from-nj-to-ne"
         },
         {
           "representativeTitle": "Nor'easter Disrupts Flights; Airlines Waive Fees",
@@ -1104,66 +1296,6 @@ export const newsData = {
           "slug": "noreaster-disrupts-flights-airlines-waive-fees"
         },
         {
-          "representativeTitle": "Woman Found Deceased After Stab Wound in Park",
-          "sources": [
-            "Fox News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Woman found dead with unexplained trauma in Central Park as NYPD searches for answers",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/us/woman-found-dead-unexplained-trauma-central-park-nypd-searches-answers",
-              "pubDate": "2026-09-27T19:58:08.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Woman Who Had Been Stabbed Is Found Dead in Central Park",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPS0ZGVm5IeHlKbWRmdEdnWFVPbUFKaVZwMURwWHQ0QWNXTU5ra2x4UzVrNE55bFR1U3JZckZaMGotM0V0Q0JQc0JDelJ0MEJuUU5IZndWWU9BQVZ2R0cyVDdaTXZkcWg1ajhndkRhajJSTmotYTVNd1RTVnhtNnhyeWtDMA?oc=5",
-              "pubDate": "2026-09-27T21:55:52.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "woman-found-deceased-after-stab-wound-in-park"
-        },
-        {
-          "representativeTitle": "Nor'easter unearths historic shipwreck fragments off Nantucket.",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Nor’easter unearths fragments of 19th century shipwreck on Nantucket",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/noreaster-19th-century-shipwreck-warren-sawyer-rcna600073",
-              "pubDate": "2026-09-27T18:07:22.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Nor’easter unearths fragments of 19th-century shipwreck on Nantucket",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd2tKVXRmckF6Z01vU25xa0VqU2FlbXJaLXRTUjB6eHdTTEZZNVVCa2NDMEFpbnk3bDVxZ3czYVA0SWdkbWNvVlNvZzZyVTdDX0JiMjRRR3Z4LXFaTFFwNm1xWG5PaHRJUktMb1VtUkgzMTVkQUJlZjdObkNxV0RxTlZzYVVtMVZJMHdoV2lFRkZBb3hqNWJnN2F3?oc=5",
-              "pubDate": "2026-09-27T20:51:21.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "noreaster-unearths-historic-shipwreck-fragments-off-nantucket"
-        },
-        {
           "representativeTitle": "Woman Charged Stealing From Ontario Hospitals Patients",
           "sources": [
             "BBC US"
@@ -1184,72 +1316,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "woman-charged-stealing-from-ontario-hospitals-patients"
-        },
-        {
-          "representativeTitle": "Northeast Storm Causes Wind, Rain, and Flooding Damage",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Northeast Storm Brings Wind, Rain and Flooding",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-27/northeast-storm-brings-wind-rain-and-flooding-video",
-              "pubDate": "2026-09-27T12:56:53.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "northeast-storm-causes-wind-rain-and-flooding-damage"
-        },
-        {
-          "representativeTitle": "Spokane High School Offers Normalcy Amid Wildfire Devastation",
-          "sources": [
-            "Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "After wildfires devastated Spokane, a high school became an oasis of normalcy",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/nation/2026/09/27/after-wildfires-devastated-spokane-high-school-became-an-oasis-normalcy/",
-              "pubDate": "2026-09-27T10:00:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "spokane-high-school-offers-normalcy-amid-wildfire-devastation"
-        },
-        {
-          "representativeTitle": "Nurse's account links Reagan era to losses.",
-          "sources": [
-            "Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The nurse who chided Reagan in the hospital, and other lives we’ve lost",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/obituaries/2026/09/27/nurse-who-chided-reagan-hospital-other-lives-weve-lost/",
-              "pubDate": "2026-09-27T10:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "nurses-account-links-reagan-era-to-losses"
         }
       ]
     },
@@ -1257,56 +1323,70 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "AI Volatility Jolts Markets Amid Sentiment Swings",
+          "representativeTitle": "Worst Market Slashes Minimum Stock Price Levels Now",
           "sources": [
-            "Bloomberg Markets",
-            "Google Stocks"
+            "FT International"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "AI Whiplash Jolts Stocks as Sentiment Lurches From Fear to Greed",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-27/ai-whiplash-jolts-stocks-as-sentiment-lurches-from-fear-to-greed",
-              "pubDate": "2026-09-27T13:00:07.000Z",
+              "title": "World’s worst-performing market slashes minimum price for stocks",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/04923b0e-a955-4cfa-bd05-cd828807f61d?syn-25a6b1a6=1",
+              "pubDate": "2026-09-28T02:51:26.000Z",
               "tier": 1
-            },
-            {
-              "title": "AI Whiplash Jolts Stocks as Sentiment Lurches From Fear to Greed",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcjhKd2FaWmFDNGx6VVBvd1AxMkp4MmQwek85Nzl4bWlrOEFaWmo4U190dW5zb0dOQnVXakYtWi1CTHJyZWo4T3lqRnYwVGszOEJ3M3NHMFlMU3pxSkM5WkljTkxLVU5VakNUTkhhZUFBMzQ4bHVBQldaV3k0T1JsMER3X3hzZkhvZmkzR05rSXJGWXBtdWo2OG9oN3hzVHdqU2hyQ3lvZ25BSUtuaE9qaVJhSnA1QQ?oc=5",
-              "pubDate": "2026-09-27T13:00:07.000Z",
-              "tier": 2
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Business",
           "aiCategory": "Stocks",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "ai-volatility-jolts-markets-amid-sentiment-swings"
+          "importance": 55,
+          "slug": "worst-market-slashes-minimum-stock-price-levels-now"
         },
         {
-          "representativeTitle": "AI and Oil Trends Boost Hedge Fund Trading Activity",
+          "representativeTitle": "Nifty shows weakness after extended losing streak.",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Tremors From AI to Oil Boost Popular Hedge Fund Dispersion Trade",
+              "title": "Nifty Nears Oversold Zone After Longest Weekly Losing Streak in Over Six Years",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-27/tremors-from-ai-to-oil-boost-popular-hedge-fund-dispersion-trade",
-              "pubDate": "2026-09-27T14:00:00.000Z",
+              "link": "https://www.bloomberg.com/news/newsletters/2026-09-28/nifty-nears-oversold-zone-after-longest-weekly-losing-streak-in-over-six-years",
+              "pubDate": "2026-09-28T02:48:14.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "ai-and-oil-trends-boost-hedge-fund-trading-activity"
+          "slug": "nifty-shows-weakness-after-extended-losing-streak"
+        },
+        {
+          "representativeTitle": "GoTo Shares Drop Following Exchange Price Floor Removal",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "GoTo Shares Plunge After Stock Exchange Removes Price Floor",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-28/goto-shares-plunge-after-stock-exchange-removes-price-floor",
+              "pubDate": "2026-09-28T02:03:44.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "goto-shares-drop-following-exchange-price-floor-removal"
         }
       ]
     },
@@ -1316,9 +1396,10 @@ export const newsData = {
         {
           "representativeTitle": "Bond Market Signals Economic Trouble Ahead For Investors",
           "sources": [
-            "Bloomberg Markets"
+            "Bloomberg Markets",
+            "Google Stocks"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "The Bond Market Is Getting Closer to Sounding Alarm on Economy",
@@ -1326,93 +1407,166 @@ export const newsData = {
               "link": "https://www.bloomberg.com/news/articles/2026-09-27/the-bond-market-is-getting-closer-to-sounding-alarm-on-economy",
               "pubDate": "2026-09-27T19:00:00.000Z",
               "tier": 1
+            },
+            {
+              "title": "The Bond Market Is Getting Closer to Sounding Alarm on Economy",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQTFrYzFvbDRlX0l0RU82NG1VZElManl5VkJCNk9FbUNfakVQaDlqYVZFWjUzWHpOWlJIeEtTRUw0bVZDN09XbzJEY2wwZmRWQ3hVaUhEaWpRNl9XSFFJTlN0QVg0aVd0NUhNcGdPWXdoVnh1MHhsYUFMRXFETElzS1E1eWdZWWFzaFhORzdSZXVWQlNhWE9zbTNkS09MWnBpQUNZS3JoUTRZTFd3ZWhWVUtKWQ?oc=5",
+              "pubDate": "2026-09-27T19:00:00.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 55,
+          "importance": 60,
           "slug": "bond-market-signals-economic-trouble-ahead-for-investors"
         },
         {
-          "representativeTitle": "Australia Budget Cuts Deficit; Rate Hike Looms Ahead",
+          "representativeTitle": "Global Funds Shift China Exposure After Four Years",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Global Funds End Underweight Position on China After Four Years",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-28/global-funds-end-underweight-position-on-china-after-four-years",
+              "pubDate": "2026-09-28T02:41:46.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "global-funds-shift-china-exposure-after-four-years"
+        },
+        {
+          "representativeTitle": "Nomura suggests US economy can handle more hikes.",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Nomura's Wang: US Can Absorb More Rate Hikes",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-28/nomura-s-wang-us-can-absorb-more-rate-hikes-video",
+              "pubDate": "2026-09-28T00:51:58.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "nomura-suggests-us-economy-can-handle-more-hikes"
+        },
+        {
+          "representativeTitle": "Rate Hikes Expected; Cricket Chair Resigns in Australia",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Australia news live: Gallagher says final budget outcome will shave $6bn off deficit; RBA interest rate hike looms",
+              "title": "Australia news live: Chalmers says ‘near universal expectation’ interest rates will rise worldwide; Mike Baird resigns as Cricket Australia chair",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/live/2026/sep/28/labor-anthony-albanese-openai-ai-hacks-coalition-one-nation-medicare-budget-ntwnfb",
-              "pubDate": "2026-09-27T22:59:27.000Z",
+              "pubDate": "2026-09-28T02:49:51.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "australia-budget-cuts-deficit-rate-hike-looms-ahead"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "rate-hikes-expected-cricket-chair-resigns-in-australia"
         },
         {
-          "representativeTitle": "AI Firms Face Funding Risks Amid Rising Bond Yields",
+          "representativeTitle": "Major Gold Miner Rejects Massive Takeover Bid Offer",
           "sources": [
-            "CNBC Markets"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Debt-hungry AI companies face increased risk as bond yields spike",
-              "source": "CNBC Markets",
-              "link": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
-              "pubDate": "2026-09-27T15:35:34.000Z",
+              "title": "Australia’s biggest gold miner rejects $27bn takeover bid",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/bce81a18-05cf-43a6-9c86-b3238b732230?syn-25a6b1a6=1",
+              "pubDate": "2026-09-28T02:42:40.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Business",
           "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ai-firms-face-funding-risks-amid-rising-bond-yields"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "major-gold-miner-rejects-massive-takeover-bid-offer"
         },
         {
-          "representativeTitle": "Persistent Inflation Puts Continued Pressure On Fed",
+          "representativeTitle": "HSBC Targets Indian Affluent Clients to Boost Growth",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Inflation Keeps Pressure on the Fed",
+              "title": "HSBC Makes Big Push for Affluent Clients in India to Fuel Growth",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-27/inflation-keeps-pressure-on-the-fed-video",
-              "pubDate": "2026-09-27T13:43:28.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-28/hsbc-makes-big-push-for-affluent-clients-in-india-to-fuel-growth",
+              "pubDate": "2026-09-28T01:30:00.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "persistent-inflation-puts-continued-pressure-on-fed"
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "hsbc-targets-indian-affluent-clients-to-boost-growth"
         },
         {
-          "representativeTitle": "Oil Market Analysis Provided For September Twenty-Eighth",
+          "representativeTitle": "Oil and AI Boost Ringgit's Potential Rally Outlook",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Latest Oil Market News and Analysis for Sept. 28",
+              "title": "Oil, AI Demand Give Ringgit Room to Rally, Strategists Say",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-27/latest-oil-market-news-and-analysis-for-sept-28",
-              "pubDate": "2026-09-27T22:03:23.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-27/oil-ai-demand-give-ringgit-room-to-rally-strategists-say",
+              "pubDate": "2026-09-27T23:57:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "oil-and-ai-boost-ringgits-potential-rally-outlook"
+        },
+        {
+          "representativeTitle": "Ingenia Board Reviews Higher Takeover Bid From Warburg",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ingenia Board to Review Higher Takeover Bid from Warburg Pincus",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-27/ingenia-board-to-review-higher-takeover-bid-from-warburg-pincus",
+              "pubDate": "2026-09-27T23:26:03.000Z",
               "tier": 1
             }
           ],
@@ -1421,7 +1575,29 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "oil-market-analysis-provided-for-september-twenty-eighth"
+          "slug": "ingenia-board-reviews-higher-takeover-bid-from-warburg"
+        },
+        {
+          "representativeTitle": "JCB Succession Plan Narrows Focus on Family Leadership",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "JCB Succession Underway After Making Founder’s Grandson Co-Chair",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-27/jcb-succession-underway-after-making-founder-s-grandson-co-chair",
+              "pubDate": "2026-09-27T23:01:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "jcb-succession-plan-narrows-focus-on-family-leadership"
         },
         {
           "representativeTitle": "Corporate migration raises concerns over access equity.",
@@ -1497,50 +1673,6 @@ export const newsData = {
           "slug": "lowes-partners-with-doordash-alphabet-for-drones"
         },
         {
-          "representativeTitle": "Wall Street Skepticism Dampens Data Center Boom Hopes",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Data Center Boom Faces Wall Street Skepticism",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-27/data-center-boom-faces-wall-street-skepticism-video",
-              "pubDate": "2026-09-27T13:14:53.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "wall-street-skepticism-dampens-data-center-boom-hopes"
-        },
-        {
-          "representativeTitle": "Paramount-Warner Deal Shapes Hollywood's Future Landscape",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Paramount Warner Deal Tests Hollywood’s Future",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-27/paramount-warner-deal-tests-hollywood-s-future-video",
-              "pubDate": "2026-09-27T14:52:56.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "paramount-warner-deal-shapes-hollywoods-future-landscape"
-        },
-        {
           "representativeTitle": "Housing Crunch Targets Private Equity Amid Election Fears",
           "sources": [
             "FT International"
@@ -1561,28 +1693,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "housing-crunch-targets-private-equity-amid-election-fears"
-        },
-        {
-          "representativeTitle": "Investors Challenge Dubai Group Over Missing Payments",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Investors pursue Dubai investment group over missing payments",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/39eb5cb2-f73e-4c18-8357-f7378428c8e1?syn-25a6b1a6=1",
-              "pubDate": "2026-09-27T09:38:04.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "investors-challenge-dubai-group-over-missing-payments"
         },
         {
           "representativeTitle": "Private Credit Turmoil Eases Amid Slowing Withdrawals",
@@ -1641,26 +1751,48 @@ export const newsData = {
           "slug": "data-centers-face-climate-scrutiny-reckoning-looms"
         },
         {
-          "representativeTitle": "Gates Warns AI Danger: Potential for Global Catastrophe",
+          "representativeTitle": "AI CEO Meets Trump at White House Dinner",
           "sources": [
-            "Fox News"
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Bill Gates warns artificial intelligence 'powerful enough' to cause 'a billion deaths' if unchecked",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/media/bill-gates-warns-artificial-intelligence-powerful-enough-cause-billion-deaths-unchecked",
-              "pubDate": "2026-09-27T21:06:36.000Z",
-              "tier": 2
+              "title": "Anthropic CEO Amodei to have dinner with Trump at White House",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/economy/2026/9/28/anthropic-ceo-amodei-to-have-dinner-with-trump-at-white-house?traffic_source=rss",
+              "pubDate": "2026-09-28T02:57:28.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
           "aiCategory": "Technology",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "gates-warns-ai-danger-potential-for-global-catastrophe"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ai-ceo-meets-trump-at-white-house-dinner"
+        },
+        {
+          "representativeTitle": "Trump Hosts AI Leader Dario Amodei at Dinner",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump hosts Anthropic boss Dario Amodei at White House dinner",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/fb3aa961-fa28-4dd0-a2ea-cdb03ac8258d?syn-25a6b1a6=1",
+              "pubDate": "2026-09-28T00:34:33.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "trump-hosts-ai-leader-dario-amodei-at-dinner"
         },
         {
           "representativeTitle": "Corporations adopt cheaper open-source AI models now.",
@@ -1729,28 +1861,6 @@ export const newsData = {
           "slug": "autonomous-vehicle-sector-shows-diverging-development-paths-now"
         },
         {
-          "representativeTitle": "AI Openness Concerns Threaten European Investment Flow",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Big companies warn lack of ‘AI openness’ could hit investment in Europe",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/aeabd0d5-be0e-4270-987e-0b119b24b355?syn-25a6b1a6=1",
-              "pubDate": "2026-09-27T04:00:11.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ai-openness-concerns-threaten-european-investment-flow"
-        },
-        {
           "representativeTitle": "Critics Question Influence of AI Development Figures",
           "sources": [
             "WSJ US Business"
@@ -1793,36 +1903,6 @@ export const newsData = {
           "relevance_score": 4,
           "importance": 35,
           "slug": "free-alternatives-available-for-focus-software-tools"
-        },
-        {
-          "representativeTitle": "Googlebooks potentially offers significant new features.",
-          "sources": [
-            "The Verge",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Googlebooks might be the real deal",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/1000424/googlebooks-meta-ray-ban-audio-control-resonant-microsoft-surface-mouse",
-              "pubDate": "2026-09-27T12:00:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Googlebooks might be the real deal",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQTU0eVFxVGF3Ui1wdXBlbGtiNnRRWlR6VTBqMDFCZjFFOEI0MXFlZmVwcmM2NjdVR0ZXUEVaSlIxaGp2OG1RNHZnMFlYa0JwaUtDSGJvMTlsZGJMMG9ZbV9vX3dlRU82c29VLUhZamdDUUROaDRWNE52andLdDFWUTJtajBpc2Z6VWpvWjNUTDkxSzY0U000VkVGU3lNTWxWTk1NT2F6MXZkQnRjU3c?oc=5",
-              "pubDate": "2026-09-27T12:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 30,
-          "slug": "googlebooks-potentially-offers-significant-new-features"
         }
       ]
     },
@@ -1859,6 +1939,28 @@ export const newsData = {
           "slug": "genetic-tweak-may-offer-new-diabetes-treatment-path"
         },
         {
+          "representativeTitle": "Mars Crater Reveals Complex Geological History Beyond Lakes",
+          "sources": [
+            "Google Science"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Perseverance discovers Mars crater was more than just an ancient lake",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UeEphQnpSclQ5ckhYTUtBOURaZ3p5MmVsQ29OVFpVRG9xRmdJYy00OTU1UXY2NlZrdUpJNzJXRzBrUGZDT3ltTHBlcGFWOWQ4WS1WZUVoYl90bXFLWmcwQldhTnZ0aFN2d2dBcEtaVzhpSGtI?oc=5",
+              "pubDate": "2026-09-28T01:36:08.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "mars-crater-reveals-complex-geological-history-beyond-lakes"
+        },
+        {
           "representativeTitle": "Spacecraft exploring moons searching for signs of life.",
           "sources": [
             "Google Science"
@@ -1879,36 +1981,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "spacecraft-exploring-moons-searching-for-signs-of-life"
-        },
-        {
-          "representativeTitle": "Sea Level Rise Threatens California Town and Rail Line",
-          "sources": [
-            "ABC News US",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Sea level rise is reshaping a California beach town and threatening a key rail line",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/sea-level-rise-reshaping-california-beach-town-threatening-136794111",
-              "pubDate": "2026-09-27T11:23:58.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Sea level rise is reshaping a California beach town and threatening a key rail line",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeUNzY1NCOVpjMkNBd3hadk5yU2hoNnhwMVYyT2g3N1dFY0lRVmtBdkxJYnE1azN3bmt6T2FxMWlLSW84NWV1NjQ4LURKQVhWcEVsTzVCd1BCT2lhZUtSSFBQd1lUSXZUaEI1LVViZWZIT3pMelh2T2ZjWENyRlIwT2hOMlc4aGkyLWg5dmc4a3NEY2hGbDhEY2dHMG5aNkVNU2h4eg?oc=5",
-              "pubDate": "2026-09-27T12:29:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "Science",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "sea-level-rise-threatens-california-town-and-rail-line"
         },
         {
           "representativeTitle": "Astronomers find radio galaxy with multiple jet outbursts.",
