@@ -1,92 +1,48 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-09-29T08:05:29.027Z",
+  "lastUpdated": "2026-09-29T12:15:12.620Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Iran's alleged link questioned regarding bomb plot.",
-          "sources": [
-            "The Guardian",
-            "Euronews",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Questions remain over Iran’s link to alleged RAF Fairford bomb plot",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/sep/28/questions-remain-over-irans-link-to-alleged-raf-fairford-bomb-plot",
-              "pubDate": "2026-09-28T21:36:40.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Tuesday briefing: Inside the suspected bomb plot at RAF Fairford",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/sep/29/tuesday-briefing-first-edition-raf-fairford-cotswolds",
-              "pubDate": "2026-09-29T05:45:56.000Z",
-              "tier": 1
-            },
-            {
-              "title": "RAF Fairford bomb plot 'clearly involves' foreign actor, US secretary of state says",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/09/29/raf-fairford-bomb-plot-clearly-involves-foreign-actor-us-secretary-of-state-says",
-              "pubDate": "2026-09-29T05:53:32.000Z",
-              "tier": 2
-            },
-            {
-              "title": "What to know about RAF terror plot arrests and possible Iran link",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa3ZReEZCUEFtSlNpd2lvODFpbnZia25NSEI4cW4xZHJOdWNrM2FhSFd3RW0xcmw1TUFpU2s0cjgtOHRBR2VmR0ZwdkRmNmlVRldMY3hZelBfTEl2QkVPTTZoV1VqU3FRZ3RnSGlJZlB6Q2dEbzFBSTFOc2NUOEhEeW5SWlJDQWUxaWh3eDYzZw?oc=5",
-              "pubDate": "2026-09-28T23:07:50.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 75,
-          "slug": "irans-alleged-link-questioned-regarding-bomb-plot"
-        },
-        {
-          "representativeTitle": "Russia Strikes Kyiv Academy of Sciences in Deadly Attack",
+          "representativeTitle": "Satellite Images Reveal Gaza's Devastated State After Conflict",
           "sources": [
             "Al Jazeera",
-            "Google World"
+            "France 24"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Russia pounds Ukraine’s Kyiv after deadly strike on Academy of Sciences",
+              "title": "Satellite images show Gaza in ruins three years into Israel’s genocidal war",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2?traffic_source=rss",
-              "pubDate": "2026-09-29T03:38:16.000Z",
+              "link": "https://www.aljazeera.com/news/2026/9/29/satellite-images-show-gaza-in-ruins-three-years-into-israels-genocidal-war?traffic_source=rss",
+              "pubDate": "2026-09-29T07:41:59.000Z",
               "tier": 1
             },
             {
-              "title": "Russia pounds Ukraine’s Kyiv after deadly strike on Academy of Sciences",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPanFGUFdfOHZGbDEzWGp5dy14a2x1ZGFDdHpHM244cXRxZGxCa0l4VHo5VmNQNGJWTXZ2MGNGVVdUSzgzVU5WUHRKVHFIY29LSThxYTY2aHlvRjNoWk5sYm9nempQTF9IVEdiU3B6MXREXzNXLWctNnpBZ1dJeThFTmgzZjNiSjFEa3hlZzFhVFIxdWprWFRHVEk1cTlmYnczWVVVMzBRaXdJMjDSAbABQVVfeXFMUHVDUDFrWHlfc0ZJUVh3UkREZjJWNlpleXhKWVItcGRaRUVUeEwzRjN2bzZQTDd2aWlEaDVqVXV6YXBQX3VmZDRVWHZlc2dyLUlNNXZsTzNjbGxuUHBuN25xZGRhU2M0OUl5ZDExc3p0eGtRNDh4bk1GdjluNEZBZnlFZWt5ZXdNUFlPR09YSjdnY2tuRjY2S1ZfWDUwSWRybV9xYnJRX3hjeUM2cUhJSHo?oc=5",
-              "pubDate": "2026-09-29T03:43:37.000Z",
-              "tier": 2
+              "title": "Gaza’s humanitarian crisis deepens as new satellite images show scale of destruction",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20260929-gaza-s-humanitarian-crisis-deepens-as-new-satellite-images-show-scale-of-destruction",
+              "pubDate": "2026-09-29T10:25:03.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
           "relevance_score": 10,
-          "importance": 70,
-          "slug": "russia-strikes-kyiv-academy-of-sciences-in-deadly-attack"
+          "importance": 80,
+          "slug": "satellite-images-reveal-gazas-devastated-state-after-conflict"
         },
         {
-          "representativeTitle": "Argentina threatens UK lawsuit over Falklands oil.",
+          "representativeTitle": "Argentina Threatens Legal Action Over Falklands Oil Rights",
           "sources": [
             "BBC World",
-            "France 24"
+            "Al Jazeera",
+            "Sky News"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Argentina threatens legal action against UK over Falkland Islands oil exploration",
@@ -96,166 +52,140 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Argentina’s Milei threatens to sue UK over Falkland Islands oil project",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20260929-argentina-milei-arbitration-falklands-oil-project",
-              "pubDate": "2026-09-29T02:13:40.000Z",
+              "title": "Argentina’s Milei threatens legal action over Falklands oil project",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/29/argentinas-milei-threatens-legal-action-over-falklands-oil-project?traffic_source=rss",
+              "pubDate": "2026-09-29T09:17:22.000Z",
               "tier": 1
+            },
+            {
+              "title": "Argentina threatens UK with legal action over Falklands oil exploration",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/argentina-threatens-uk-with-legal-action-over-falklands-oil-exploration-13593128",
+              "pubDate": "2026-09-29T08:18:00.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 65,
-          "slug": "argentina-threatens-uk-lawsuit-over-falklands-oil"
+          "relevance_score": 8,
+          "importance": 75,
+          "slug": "argentina-threatens-legal-action-over-falklands-oil-rights"
         },
         {
-          "representativeTitle": "Satellite Images Reveal Gaza's Devastated State After Conflict",
+          "representativeTitle": "US Bans Canadian Alcohol, Dairy Amid Trade Tensions",
           "sources": [
-            "Al Jazeera"
+            "BBC US",
+            "BBC World",
+            "Le Monde"
           ],
-          "citationCount": 1,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Satellite images show Gaza in ruins three years into Israel’s genocidal war",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/29/satellite-images-show-gaza-in-ruins-three-years-into-israels-genocidal-war?traffic_source=rss",
-              "pubDate": "2026-09-29T07:41:59.000Z",
+              "title": "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-29T04:10:33.000Z",
               "tier": 1
+            },
+            {
+              "title": "US ban on Canadian alcohol and dairy comes into effect as trade war drags on",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-29T04:10:33.000Z",
+              "tier": 1
+            },
+            {
+              "title": "US import ban on Canadian alcohol and other products goes into effect",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/economy/article/2026/09/29/us-import-ban-on-canadian-alcohol-and-other-products-goes-into-effect_6758065_19.html",
+              "pubDate": "2026-09-29T09:24:18.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "satellite-images-reveal-gazas-devastated-state-after-conflict"
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 70,
+          "slug": "us-bans-canadian-alcohol-dairy-amid-trade-tensions"
         },
         {
-          "representativeTitle": "Pensioner Evicted Abroad After Reaching Home Deal",
+          "representativeTitle": "Pensioner Deal Amid Housing Law Push in Spain",
           "sources": [
             "BBC World",
-            "France 24"
+            "France 24",
+            "Google World"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Evicted Spanish pensioner can move back home, lawyer says",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cmkg8qgy9d9lo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-29T01:28:57.000Z",
+              "pubDate": "2026-09-29T10:57:02.000Z",
               "tier": 1
             },
             {
-              "title": "Evicted 87-year-old Spanish pensioner to return home after deal",
+              "title": "Deal for evicted Spanish pensioner as PM seeks new housing law",
               "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20260928-evicted-spanish-pensioner-to-return-home-after-housing-protest-deal-spain-madrid",
-              "pubDate": "2026-09-28T22:34:14.000Z",
+              "link": "https://www.france24.com/en/video/20260929-deal-for-evicted-spanish-pensioner-as-pm-seeks-new-housing-law",
+              "pubDate": "2026-09-29T10:36:03.000Z",
               "tier": 1
+            },
+            {
+              "title": "Evicted Spanish pensioner to return home, lawyer says",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVThxMmpwRDJLNU03Wkp6d3dkWEh0UFowREFSVE50bzBjeGI1OUhFeG9YMkt0WkRpQmEyejh6U2xDcWZuakZ3cHZ3QlFUZzZOTDZaSmlBTVJXWVNkSzVDMnJkUmRIWWlaTXk0ZnZpbGFIYTlkbHBiNUw4T1VoS1l1TXFjYmVNT2Y1VFpPZ2pB0gGOAUFVX3lxTE02dHpveFlPUGdzZ2hwWmVPT2FFX0tvUld2R2tfSHh1bEI5Qy1iNW1Qeks3ZmNzd0oycEZ2WUVPSElVZGd2eEtmbjQ0QlRXMjE4Zlh4bzNvS3VPa3RNQ0tKWUI5djhKZVpIQkdaZ0tmQnJ2RXYyc05EbEpJR2tKMzFiSkwwWWNnNVFreDZhZXc?oc=5",
+              "pubDate": "2026-09-29T05:50:08.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 60,
-          "slug": "pensioner-evicted-abroad-after-reaching-home-deal"
+          "importance": 65,
+          "slug": "pensioner-deal-amid-housing-law-push-in-spain"
         },
         {
-          "representativeTitle": "Russia Strikes Odesa Port Facilities in Overnight Attacks",
+          "representativeTitle": "Netanyahu's Trip Amid Reports of Abu Dhabi Warning",
           "sources": [
-            "The Guardian"
+            "France 24",
+            "Google World"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Russia hits port facilities in overnight strikes on Odesa region of Ukraine – Europe live",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/live/2026/sep/29/ukraine-russia-war-odesa-overnight-lithuania-mark-rutte-europe-latest-news-updates",
-              "pubDate": "2026-09-29T07:49:26.000Z",
+              "title": "Netanyahu's secret trip to UAE amid report of Abu Dhabi warning of Oct. 7 attack",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20260929-netanyahu-s-secret-trip-to-uae-amid-report-of-abu-dhabi-warning-of-oct-7-attack",
+              "pubDate": "2026-09-29T11:39:37.000Z",
               "tier": 1
+            },
+            {
+              "title": "Netanyahu meets Emirati leader in a secret weekend trip to Abu Dhabi, and other Mideast developments",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUTFEOXNVSFlsb2xMS3dPWklqX1UwMEpMa1dzLXFFQWlZUHlTc0YxNy02eVJoakRuNjNMMzN3NWN0Y0p1WGlIVzZ0NWdWd2Y0dUs1TmI1bVVENmtUOGFpZUdSeVFxMzZQWmxtYm9mZk85alZ0aGtMRFh4bkkzOFQzM2lDM2ZCem9rU0o1eGpBRXhvR2VubHpqN3RjT3pyMG5uVVEyOFRGZEU0WGhy?oc=5",
+              "pubDate": "2026-09-29T02:10:00.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 9,
-          "importance": 60,
-          "slug": "russia-strikes-odesa-port-facilities-in-overnight-attacks"
+          "importance": 65,
+          "slug": "netanyahus-trip-amid-reports-of-abu-dhabi-warning"
         },
         {
-          "representativeTitle": "Israeli Forces Kill Hamas Commander in Gaza Strike",
+          "representativeTitle": "Russian Strikes Hit Kyiv Academy; Ten Killed",
           "sources": [
-            "Al Jazeera"
+            "The Guardian",
+            "Google World"
           ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Israeli forces kill Hamas commander Izz al-Din al-Beik in Gaza attack",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/29/israeli-forces-kill-hamas-commander-izz-al-din-al-beik-in-gaza-attack?traffic_source=rss",
-              "pubDate": "2026-09-29T07:34:50.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "israeli-forces-kill-hamas-commander-in-gaza-strike"
-        },
-        {
-          "representativeTitle": "Gaza Doctors Struggle With Patient Diagnosis Delays",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Gaza doctors face tough decisions as patients face long waits for diagnoses",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/features/2026/9/29/gaza-doctors-face-tough-decisions-as-patients-face-long-waits-for-diagnoses?traffic_source=rss",
-              "pubDate": "2026-09-29T07:26:37.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "gaza-doctors-struggle-with-patient-diagnosis-delays"
-        },
-        {
-          "representativeTitle": "China Demands Japan Normalize Ties Over Taiwan Issue",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "China Says Japan Ties Need ‘Normalization’ Again Over Taiwan Row",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-29/china-says-japan-ties-need-normalization-again-over-taiwan-row",
-              "pubDate": "2026-09-29T07:00:50.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "china-demands-japan-normalize-ties-over-taiwan-issue"
-        },
-        {
-          "representativeTitle": "Russian Strike Hits Kyiv Science Academy; Casualties Reported",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "‘This is terrorism’: daytime Russian strike hits science academy in Kyiv",
@@ -263,49 +193,213 @@ export const newsData = {
               "link": "https://www.theguardian.com/world/2026/sep/28/russia-strike-on-kyiv-science-academy-drone-ukraine",
               "pubDate": "2026-09-29T06:34:14.000Z",
               "tier": 1
+            },
+            {
+              "title": "Kyiv Science Academy hit, 10 dead as Russian jet-drones strike across Ukraine",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMXNCaFd6cFhVZnVqaUNuN2dFMG9HVUs2UGVqR3BNa01SY3pXU0RLWmZoZEdEaWwyeTdHVHhyX2dLalFPTDFqMkthSXhqTUxZWWE2YVdyYUZMd2VWQVZsNHgwSDNkRmZYcTFuVHc0Ykk3b2FjdDF1ODNZbjRFczFxOW9rVnJBOHNlLW5Ma0V6a29pd0l3TWdfMS1XTDN6UXNGcnB4b0QtVXlIZDU5X2tFd3dTQWc?oc=5",
+              "pubDate": "2026-09-28T20:27:07.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "russian-strike-hits-kyiv-science-academy-casualties-reported"
+          "relevance_score": 10,
+          "importance": 70,
+          "slug": "russian-strikes-hit-kyiv-academy-ten-killed"
         },
         {
-          "representativeTitle": "West Bank Road Closures Disrupt Daily Life Significantly",
+          "representativeTitle": "Trump Links Iran Sanctions Lift to Nuclear Concessions.",
           "sources": [
-            "Al Jazeera"
+            "The Guardian",
+            "IBTimes"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Israel’s West Bank road closures turn routine journeys into long ordeals",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/29/israels-west-bank-road-closures-turn-routine-journeys-into-long-ordeals?traffic_source=rss",
-              "pubDate": "2026-09-29T07:44:06.000Z",
+              "title": "Trump denies offering Iran sanctions relief for nuclear concessions – US politics live",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates",
+              "pubDate": "2026-09-29T12:07:49.000Z",
               "tier": 1
+            },
+            {
+              "title": "Trump Signals Iran Sanctions Could Be Lifted: Washington Demands Nuclear Concessions First.",
+              "source": "IBTimes",
+              "link": "https://www.ibtimes.com/trump-signals-iran-sanctions-could-lifted-washington-demands-nuclear-concessions-first-3807990",
+              "pubDate": "2026-09-29T11:05:27.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "west-bank-road-closures-disrupt-daily-life-significantly"
+          "importance": 60,
+          "slug": "trump-links-iran-sanctions-lift-to-nuclear-concessions"
         },
         {
-          "representativeTitle": "Oil Pipeline Restored Amid Stalled Hormuz Talks",
+          "representativeTitle": "Far-right leader sues over anti-Semitic remarks claims.",
+          "sources": [
+            "France 24",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "French far-right leader Bardella says filed lawsuit over anti-Semitic remarks claim",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20260929-french-far-right-leader-bardella-says-filed-lawsuit-over-anti-semitic-remarks-claim",
+              "pubDate": "2026-09-29T11:37:35.000Z",
+              "tier": 1
+            },
+            {
+              "title": "French far-right leader Bardella denies anti-Semitism allegations",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/french-far-right-leader-bardella-denies-anti-semitism-allegations",
+              "pubDate": "2026-09-29T11:06:12.000Z",
+              "tier": 1
+            },
+            {
+              "title": "French far-right leader Bardella hits back at antisemitism allegations",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3369113/french-far-rights-bardella-denies-alleged-antisemitic-comments-files-defamation-lawsuit?utm_source=rss_feed",
+              "pubDate": "2026-09-28T19:41:18.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 60,
+          "slug": "far-right-leader-sues-over-anti-semitic-remarks-claims"
+        },
+        {
+          "representativeTitle": "Hurricane Polo makes landfall on Mexico's Pacific coast.",
+          "sources": [
+            "BBC World",
+            "Euronews"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Hurricane Polo makes landfall on Mexico's Pacific coast",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cw8d3z5y7958o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-29T10:34:53.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Polo makes landfall in Mexico as Category 3 hurricane, cutting power and causing floods",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/09/29/mexico-braces-for-hurricane-polo-residents-evacuated-in-baja-california-sur",
+              "pubDate": "2026-09-29T11:26:56.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "hurricane-polo-makes-landfall-on-mexicos-pacific-coast"
+        },
+        {
+          "representativeTitle": "Malaysia Returns Myanmar Refugees Amid Safety Fears",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Malaysia begins sending back Rohingya refugees despite safety warnings",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/29/malaysia-begins-returning-myanmar-nationals-despite-safety-warnings?traffic_source=rss",
+              "pubDate": "2026-09-29T09:27:06.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Malaysia begins sending home Myanmar refugees, including children, despite safety concerns",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeGktWktpcHgta29UNDlId0N1Mk1hY2RicGs5a2ZhSGx4WUNHdHRUVTN6aGZrQnJEY3hwa3o0MU1CU3dNRjZ2ZTNUSUhNUlRjeUxqd281Wlo5VlJzRks3TE5oRWl2d0F0UHdkZTJwcFBPaHpHTmZCOE1zbGRlLUNYYXp6MXQtQXZiNHB2WDVUbG1ieHRFNGlmbGFHTldkX2Y5MWZ4X25fb21BVy1FTm1CMWstcl9QZHpLZ3VzM1lnb3U4dw?oc=5",
+              "pubDate": "2026-09-29T04:23:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "malaysia-returns-myanmar-refugees-amid-safety-fears"
+        },
+        {
+          "representativeTitle": "Iran's Offer Linked to Regional Costs and Stakes",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hormuz and Yemen: Iran offers de-escalation at a price others will pay",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/opinions/2026/9/29/hormuz-and-yemen-iran-offers-de-escalation-at-a-price-others-will-pay?traffic_source=rss",
+              "pubDate": "2026-09-29T12:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "irans-offer-linked-to-regional-costs-and-stakes"
+        },
+        {
+          "representativeTitle": "Ceuta migration crisis strains Spanish government stability.",
+          "sources": [
+            "France 24",
+            "Le Monde"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Spain's housing crisis: Protests continue, keep heat on government",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20260929-spain-s-housing-crisis-protests-continue-keep-heat-on-government",
+              "pubDate": "2026-09-29T10:35:22.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Spain's migration crisis in Ceuta continues to destabilize government",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/09/29/in-spain-the-migration-crisis-in-ceuta-continues-to-destabilize-prime-minister-pedro-sanchez-s-socialist-government_6758052_4.html",
+              "pubDate": "2026-09-28T23:39:24.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "ceuta-migration-crisis-strains-spanish-government-stability"
+        },
+        {
+          "representativeTitle": "Trump Rejects Iran Offer; OpenAI Halts AI Debut",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Saudi Arabia Restores Key Oil Pipeline as Hormuz Talks Stall",
+              "title": "Trump Spurns Iran’s Latest Offer, OpenAI Scraps Debut of AI Model",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-29/horizons-middle-east-africa-9-29-2026-video",
-              "pubDate": "2026-09-29T07:07:50.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-29/the-opening-trade-9-29-2026-video",
+              "pubDate": "2026-09-29T11:34:32.000Z",
               "tier": 1
             }
           ],
@@ -314,7 +408,223 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "oil-pipeline-restored-amid-stalled-hormuz-talks"
+          "slug": "trump-rejects-iran-offer-openai-halts-ai-debut"
+        },
+        {
+          "representativeTitle": "US-Iran Conflict Increases EU Energy Costs Significantly",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US-Iran war adds €100bn to EU’s fuel bill",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/f16439a7-5554-412a-ae34-b46459ce28a9?syn-25a6b1a6=1",
+              "pubDate": "2026-09-29T10:55:28.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "us-iran-conflict-increases-eu-energy-costs-significantly"
+        },
+        {
+          "representativeTitle": "AI Pauses; Iran Questions US Deal Amid Elections.",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "OpenAI Holds Back Astra Over Safety Risks, Iran Doubts US Deal Before Midterms",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-29/the-pulse-9-29-2026-video",
+              "pubDate": "2026-09-29T10:29:05.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ai-pauses-iran-questions-us-deal-amid-elections"
+        },
+        {
+          "representativeTitle": "Rubio blames foreign actor for UK airbase incident.",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "US’s Marco Rubio says UK airbase incident involved ‘foreign actor’",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/9/29/uss-marco-rubio-says-uk-airbase-incident-involved-foreign-actor?traffic_source=rss",
+              "pubDate": "2026-09-29T09:12:37.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Rubio confirms 'foreign actor' involved in UK terror plot",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX18tQ0dMT1ZuQ2hzcmNiUGVlRExHd2hLbFF1ckw4eS1tcGRQaldhbU9DMFJIMURaUUJkYUdkTWsxVC15OFA3MUJKOWJrZGExY1lrSlRKTTNZTG9lRlg0ZHFTMnY1T3JFM1M5d1d5WVhCMEdnRU5aMFBwWEJVa2hlbEFXbmMzLXVsQ292Z09B0gGTAUFVX3lxTFBiTlJwd1FaZU1xaDRMUmFGZjlSMXk3M3ctZkh6ZmQyN3hhSmp6NUtoYmZFQ0lwTDRkdDRQUHM0ZXlBdmlPcEF4cDFvb20xcFRQU2QxdDhSSnY0UlpfVFdHNXQ4M0ZlQVJpNHhjakFtNUIwSmtQRXhqc0JacUJHV3lrYWtBMllUdEc3VlAxak5pbVh6OA?oc=5",
+              "pubDate": "2026-09-29T11:17:23.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "rubio-blames-foreign-actor-for-uk-airbase-incident"
+        },
+        {
+          "representativeTitle": "Five men released on bail after airbase incident.",
+          "sources": [
+            "France 24",
+            "Le Monde"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Investigation 'ongoing': UK police release on bail five men held over airbase incident",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20260929-investigation-ongoing-uk-police-release-on-bail-five-men-held-over-airbase-incident",
+              "pubDate": "2026-09-29T10:31:56.000Z",
+              "tier": 1
+            },
+            {
+              "title": "UK police release on bail five suspects held over airbase incident",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/09/28/uk-police-release-on-bail-five-suspects-held-over-airbase-incident_6758048_4.html",
+              "pubDate": "2026-09-28T18:54:07.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "five-men-released-on-bail-after-airbase-incident"
+        },
+        {
+          "representativeTitle": "AMLO Son Challenges Sheinbaum Over Political Direction",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "AMLO Son Poses Political Problems for Mexico’s President Sheinbaum",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/09/29/world/americas/sheinbaum-lopez-beltran-mexico-morena.html",
+              "pubDate": "2026-09-29T09:02:08.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "amlo-son-challenges-sheinbaum-over-political-direction"
+        },
+        {
+          "representativeTitle": "Journalist named leader amid Ugandan succession fight.",
+          "sources": [
+            "BBC World",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Journalist to be crowned king in Uganda after bitter succession dispute",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cx7v4glz50elo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-28T23:44:49.000Z",
+              "tier": 1
+            },
+            {
+              "title": "A TV journalist is set to be crowned as king of a traditional monarchy in Uganda",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU3BsZC1zc0llUEZPNk5JN0ZDRXNsUHU0RURxS1l0RFZ6cndsX0haXzM4M1ZDZHZjbC0xX05tS0NXaTduV29LTUhLX0FRYU52ZVhWdnVnTmk5SDZIbERGb0pQR2tHRHFKZk9adWdHZFFLak1RSDZyZ0xmVENQS3czS1V3SUlpb3p1QjZTSVBseGduNk1hZkE4S1dXMEp3enJDbzhoaA?oc=5",
+              "pubDate": "2026-09-29T08:10:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "journalist-named-leader-amid-ugandan-succession-fight"
+        },
+        {
+          "representativeTitle": "Iran Awaits US Response to Diplomatic Proposal",
+          "sources": [
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Iran live updates: Tehran waiting for US response to 7-point proposal, Araghchi says",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/International/live-updates/iran-live-updates-saudi-foreign-minister-arrives-us/?id=136814503",
+              "pubDate": "2026-09-29T10:52:08.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Iran War Updates: Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump today",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
+              "pubDate": "2026-09-29T09:30:24.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "iran-awaits-us-response-to-diplomatic-proposal"
+        },
+        {
+          "representativeTitle": "Hurricane Polo Hits Baja California With Severe Winds",
+          "sources": [
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Hurricane Polo makes landfall in Baja California, 'life-threatening' winds forecast",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/International/wireStory/hurricane-polo-makes-landfall-baja-california-forecast-life-136845534",
+              "pubDate": "2026-09-29T09:58:29.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Hurricane Polo makes landfall in Mexico, with life-threatening winds and flooding",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0YlFNdEFnRHdidkxkSlFLcDVrcDlmVTR4ZWFJTXVCWWpCb041MFI0Zmw2eFBoaVZjVXI2SEE1Uk5vaWptd0lJUnprSVFHR19ESHN6UnFMbnc4dmc?oc=5",
+              "pubDate": "2026-09-29T10:34:53.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "hurricane-polo-hits-baja-california-with-severe-winds"
         },
         {
           "representativeTitle": "Germany Issues Ultimatum Regarding EU Budget Funding",
@@ -339,34 +649,136 @@ export const newsData = {
           "slug": "germany-issues-ultimatum-regarding-eu-budget-funding"
         },
         {
-          "representativeTitle": "Hungary Revokes Immunity For Key Political Figures",
+          "representativeTitle": "Iran Conflict Drives Bond Yields, Shifts Investor Focus",
           "sources": [
-            "Al Jazeera",
-            "Google World"
+            "FT International"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Hungary lifts immunity of Prime Minister Magyar, two Orban-era ministers",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/9/29/hungary-lifts-immunity-of-prime-minister-magyar-two-orban-era-ministers?traffic_source=rss",
-              "pubDate": "2026-09-29T01:01:38.000Z",
+              "title": "Bond investors become oil traders as Iran war drives yields",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/f894f69a-9e2b-4c3f-bf5d-c5c4dc0e6197?syn-25a6b1a6=1",
+              "pubDate": "2026-09-29T04:00:23.000Z",
               "tier": 1
-            },
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "iran-conflict-drives-bond-yields-shifts-investor-focus"
+        },
+        {
+          "representativeTitle": "Former Hungarian Ministers Detained Over Bribery Charges",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Hungary lifts immunity of Prime Minister Magyar, two Orban-era ministers",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWlNIWW1iOWFRaHpva2hxdWtYUXNENThDY3YxWFRiWEE5MFlLV0o4Q0o2YnNjQ3d0QTBOcE1GSzhDQUl3MHp3djZJZ3luTjdMY0p2WF9YR1QtaVhUS0xkZGg1SjlDWHVfU0tUTjJWYUxpLVUwYUlZdVZxWFhfZDFEVEoySFpjdnRCbjc3ZnlnQUo4YnJGWWstMzQ3TlctQk5TQ2syQnZuUHp3dVRIWm5qZXJn0gG3AUFVX3lxTE1vengta0xZTUNLMW00ck1yVmc2aGZ6Snlfd3laRXQ4eDI2TmZVZEg3WXpIQ3F3MDgzRDJzU0RTb3UxQlFGbGtua2NEeXJDbnlXclVMem43SnI5b2gtdzQ1dWowVmR6eWFTc3owSGh3UlQ5M2FTS1VtMTdLdW9SQ3h1aHhDcVJvMjFEUVk5UEU3Z18tX21xZmNYSnJVUTVrZjV5ZVNwY19obFFONWxmRlE4QXlJVF9DWQ?oc=5",
-              "pubDate": "2026-09-29T01:04:44.000Z",
-              "tier": 2
+              "title": "Two former Hungarian ministers detained over suspected bribery and misuse of public funds",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/sep/29/two-former-hungarian-ministers-detained-over-suspected-bribery-misuse-public-funds",
+              "pubDate": "2026-09-29T12:09:56.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "hungary-revokes-immunity-for-key-political-figures"
+          "importance": 45,
+          "slug": "former-hungarian-ministers-detained-over-bribery-charges"
+        },
+        {
+          "representativeTitle": "Plot Allegations Surface Amid Evacuees Returning Home",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "RAF Fairford: Rubio says ‘foreign actor’ behind suspected plot as some evacuated residents begin to return home – latest updates",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/uk-news/live/2026/sep/29/raf-fairford-counter-terror-suspected-plot-iran-donald-trump-marco-rubio-latest-news-updates",
+              "pubDate": "2026-09-29T11:44:20.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "plot-allegations-surface-amid-evacuees-returning-home"
+        },
+        {
+          "representativeTitle": "UK Airbase Scare De-escalates After No Explosives Found",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Mystery over UK airbase scare after reports no explosives found",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20260929-mystery-over-uk-airbase-scare-after-reports-no-explosives-found",
+              "pubDate": "2026-09-29T11:36:32.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "uk-airbase-scare-de-escalates-after-no-explosives-found"
+        },
+        {
+          "representativeTitle": "US Ban Blocks Canadian Alcohol and Motorcycles Imports",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US Import Ban Blocks Canadian Alcohol, Motorcycles",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-29/us-import-ban-blocks-canadian-alcohol-motorcycles-video",
+              "pubDate": "2026-09-29T10:52:57.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "us-ban-blocks-canadian-alcohol-and-motorcycles-imports"
+        },
+        {
+          "representativeTitle": "Milei Pitches Argentina as Rules-Free Investment Haven",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "As A.I. Panic Grows, Javier Milei Is Pitching Argentina As a Rules-Free Haven",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/09/29/world/americas/argentina-ai-rules-milei.html",
+              "pubDate": "2026-09-29T09:03:12.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "milei-pitches-argentina-as-rules-free-investment-haven"
         },
         {
           "representativeTitle": "Rubio claims foreign actor involved in UK base incident.",
@@ -391,308 +803,32 @@ export const newsData = {
           "slug": "rubio-claims-foreign-actor-involved-in-uk-base-incident"
         },
         {
-          "representativeTitle": "US Forces Exit Iraq, Opening Potential for Iran Influence",
+          "representativeTitle": "Trump Envoy's Actions Spark Diplomatic Tension Between Nations",
           "sources": [
-            "Google US"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US forces exit Iraq after two decades, leaving opening for Iran",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPalJlU2twR3RkNzhyVlFwZmJkZmg3RXQ3VEpxTFowU2dhY1pEeG8wZWlLQ2NVb0lNUERZQXRSdThEbWdxdGx6aExDVkFGNHdUVkZwRFlSclVvYWxEVk5wTFlYQVZmblBJUlcxZ180Sm9YdWtXNDZoZkVfYVQ5aDR1VTZIMGFRWnNsVEs5LVJWMkVXWmpaVnIzd2hBTzl5M1pIenM3c09RaW41aEVoOWRSRkNB?oc=5",
-              "pubDate": "2026-09-29T06:05:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "us-forces-exit-iraq-opening-potential-for-iran-influence"
-        },
-        {
-          "representativeTitle": "Student Protests Continue Over Large Class Sizes Globally",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "'Class sizes of more than 36 people': student protests continue in Paris and beyond",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20260929-class-sizes-of-more-than-36-people-student-protests-continue-in-paris-and-beyond-1",
-              "pubDate": "2026-09-29T07:59:43.000Z",
+              "title": "Trump’s ambassador to Greece causes stir in Romania",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/7af7b31e-5006-467a-96d9-672905f7b45b?syn-25a6b1a6=1",
+              "pubDate": "2026-09-29T04:00:23.000Z",
               "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "student-protests-continue-over-large-class-sizes-globally"
-        },
-        {
-          "representativeTitle": "Nations Push EU For Ambitious 2040 Green Goals",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Spain, Portugal, Luxembourg Urge EU to Set 2040 Renewables Goal",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-29/spain-portugal-luxembourg-urge-eu-to-set-2040-renewables-goal",
-              "pubDate": "2026-09-29T06:16:45.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "nations-push-eu-for-ambitious-2040-green-goals"
-        },
-        {
-          "representativeTitle": "Uncertain Talks Drive Oil Prices Higher Globally",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Oil Prices Rise as U.S.-Iran Talks Remain Uncertain",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-u-s-iran-talks-remain-uncertain-1a33ff00?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-09-29T07:54:00.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "uncertain-talks-drive-oil-prices-higher-globally"
-        },
-        {
-          "representativeTitle": "Conflict Hinders Academic Research Mobility in Ukraine",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Tracking researchers in Ukraine through war and armed conflict: The limits of free scholarly mobility",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-09-tracking-ukraine-war-armed-conflict.html",
-              "pubDate": "2026-09-29T02:00:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "conflict-hinders-academic-research-mobility-in-ukraine"
-        },
-        {
-          "representativeTitle": "Bolsonaro's Statements Linked to Rainforest Destruction Concerns",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How Bolsonaro's statements destroyed the rainforest",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-09-bolsonaro-statements-destroyed-rainforest.html",
-              "pubDate": "2026-09-29T00:20:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "bolsonaros-statements-linked-to-rainforest-destruction-concerns"
-        },
-        {
-          "representativeTitle": "Espionage Boosted East Germany's Economic Output Significantly",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Espionage boosted East Germany's economic output by 7.4%",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-09-espionage-boosted-east-germany-economic.html",
-              "pubDate": "2026-09-28T23:00:07.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "espionage-boosted-east-germanys-economic-output-significantly"
-        },
-        {
-          "representativeTitle": "Venezuelan Gold Arrival Blocked by U.S. Refiners",
-          "sources": [
-            "NY Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump Brought Venezuelan Gold to the U.S., but Refiners Won’t Touch It",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/09/28/world/americas/venezuela-gold-trump.html",
-              "pubDate": "2026-09-28T18:43:58.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "venezuelan-gold-arrival-blocked-by-us-refiners"
+          "slug": "trump-envoys-actions-spark-diplomatic-tension-between-nations"
         }
       ]
     },
     {
       "name": "US",
       "children": [
-        {
-          "representativeTitle": "Prosecutors reopen Cornell rape case investigation.",
-          "sources": [
-            "BBC World",
-            "France 24",
-            "SCMP"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "US prosecutors reopen case of alleged gang rape at Cornell University",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c5wyzrm0n74ro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-29T00:38:23.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US prosecutors reopen Cornell university gang rape investigation",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20260929-us-prosecutors-cornell-university-gang-rape-investigation",
-              "pubDate": "2026-09-29T00:04:48.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US prosecutors reopen case of alleged frat house gang rape at Cornell University",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3369135/us-prosecutors-reopen-case-alleged-frat-house-gang-rape-cornell-university?utm_source=rss_feed",
-              "pubDate": "2026-09-29T03:39:44.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 70,
-          "slug": "prosecutors-reopen-cornell-rape-case-investigation"
-        },
-        {
-          "representativeTitle": "Engineer Shot Dead; In-Laws Arrested in California",
-          "sources": [
-            "BBC World",
-            "The Guardian",
-            "SCMP"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "New York Times executive fatally shot by elderly in-laws, police say",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cred737qdv2no?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-29T04:06:43.000Z",
-              "tier": 1
-            },
-            {
-              "title": "In-laws arrested on suspicion of murder after New York Times engineer shot dead in California",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/sep/28/new-york-times-engineer-california-shooting",
-              "pubDate": "2026-09-28T23:17:18.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Elderly in-laws arrested in California shooting death of New York Times employee",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3369132/elderly-laws-arrested-california-shooting-death-new-york-times-employee?utm_source=rss_feed",
-              "pubDate": "2026-09-29T03:14:09.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 65,
-          "slug": "engineer-shot-dead-in-laws-arrested-in-california"
-        },
-        {
-          "representativeTitle": "Justice Alito Recuses Self Before Climate Case Hearing",
-          "sources": [
-            "NBC News",
-            "ABC News Top",
-            "ABC News US",
-            "Google US"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "In reversal, Justice Samuel Alito steps aside from major climate case",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/supreme-court/reversal-justice-samuel-alito-steps-major-climate-case-rcna600318",
-              "pubDate": "2026-09-28T18:10:42.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Alito steps aside in a major climate case after scrutiny over oil stock holdings",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/wireStory/alito-steps-aside-major-climate-case-after-scrutiny-136834596",
-              "pubDate": "2026-09-28T21:01:57.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Alito steps aside in a major climate case after scrutiny over oil stock holdings",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/alito-steps-aside-major-climate-case-after-scrutiny-136834596",
-              "pubDate": "2026-09-28T21:01:57.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Justice Alito Recuses Himself Days Before Major Climate-Change Case",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSkxvem9qMWtSa3plUVc1d0lRU3c1R1prZXM2M0NnWm90eFVQZHcxd3dOUUt5R3hSTklPekFxNTJkYTduWnpTY3lQQ3o4YXB3MUpPeHlrTzFKQWt3V0tYZ3FKS0o1M0E4Rl9BeFgtRHFWWFduNHdzNXVGS2FoQ2liT2t1Zmk2RjZiUXVBU09R?oc=5",
-              "pubDate": "2026-09-29T04:41:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "justice-alito-recuses-self-before-climate-case-hearing"
-        },
         {
           "representativeTitle": "Prosecutors reopen Cornell fraternity rape case investigation.",
           "sources": [
@@ -720,7 +856,7 @@ export const newsData = {
               "title": "DA defends decision not to prosecute alleged Cornell 'gang rape' case in 2024",
               "source": "ABC News Top",
               "link": "https://abcnews.com/US/da-defends-decision-prosecute-alleged-cornell-gang-rape/story?id=136835936",
-              "pubDate": "2026-09-29T00:13:13.000Z",
+              "pubDate": "2026-09-29T09:59:09.000Z",
               "tier": 2
             }
           ],
@@ -730,6 +866,44 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 60,
           "slug": "prosecutors-reopen-cornell-fraternity-rape-case-investigation"
+        },
+        {
+          "representativeTitle": "NYT Executive Shot by In-Laws in Bay Area Park",
+          "sources": [
+            "BBC US",
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "New York Times executive fatally shot by elderly in-laws, police say",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cred737qdv2no?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-29T04:06:43.000Z",
+              "tier": 1
+            },
+            {
+              "title": "New York Times executive fatally shot by his in-laws in Bay Area park, police say",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/new-york-executive-shot-killed-laws-bay-area-park-police-say-rcna600300",
+              "pubDate": "2026-09-28T18:17:51.000Z",
+              "tier": 2
+            },
+            {
+              "title": "New York Times executive fatally shot by elderly in-laws, police say",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HTldwMi0yYnp0aUVvanlPZ250LTYzVGM4c01LV2lSbEZ2QTRoSXNxYThxUlgwRmpEa3hqanEwUW42b29lTVN0TjljNmItTkhsRzdlNUpIU1ZQMnM?oc=5",
+              "pubDate": "2026-09-29T04:06:43.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "nyt-executive-shot-by-in-laws-in-bay-area-park"
         },
         {
           "representativeTitle": "Tennessee to Execute Woman After Two Centuries Pause",
@@ -770,13 +944,102 @@ export const newsData = {
           "slug": "tennessee-to-execute-woman-after-two-centuries-pause"
         },
         {
-          "representativeTitle": "DA defends past decision on Cornell rape allegations charges.",
+          "representativeTitle": "Clancy appears in court after mistrial proceedings.",
           "sources": [
             "Washington Post",
-            "NBC News",
+            "NBC News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Lindsay Clancy is back in court Tuesday after her case ended in a mistrial",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/nation/2026/09/29/lindsay-clancy-is-back-court-tuesday-after-her-case-ended-mistrial/",
+              "pubDate": "2026-09-29T09:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Lindsay Clancy to Appear in Court for First Time Since Mistrial",
+              "source": "NBC News",
+              "link": "https://www.today.com/video/lindsay-clancy-to-appear-in-court-for-first-time-since-mistrial-270711365586",
+              "pubDate": "2026-09-29T11:36:10.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "clancy-appears-in-court-after-mistrial-proceedings"
+        },
+        {
+          "representativeTitle": "In-laws arrested in California shooting death.",
+          "sources": [
+            "BBC World",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "New York Times executive fatally shot by elderly in-laws, police say",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cred737qdv2no?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-29T04:06:43.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Elderly in-laws arrested in California shooting death of New York Times employee",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3369132/elderly-laws-arrested-california-shooting-death-new-york-times-employee?utm_source=rss_feed",
+              "pubDate": "2026-09-29T03:14:09.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "in-laws-arrested-in-california-shooting-death"
+        },
+        {
+          "representativeTitle": "Prosecutors reopen Cornell rape case investigation.",
+          "sources": [
+            "BBC World",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "US prosecutors reopen case of alleged gang rape at Cornell University",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c5wyzrm0n74ro?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-09-29T00:38:23.000Z",
+              "tier": 1
+            },
+            {
+              "title": "US prosecutors reopen case of alleged frat house gang rape at Cornell University",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3369135/us-prosecutors-reopen-case-alleged-frat-house-gang-rape-cornell-university?utm_source=rss_feed",
+              "pubDate": "2026-09-29T03:39:44.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "prosecutors-reopen-cornell-rape-case-investigation"
+        },
+        {
+          "representativeTitle": "Cornell probe reopened following rape lawsuit filing.",
+          "sources": [
+            "Washington Post",
             "Google US"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Cornell rape allegations prompt prosecutor to reopen criminal investigation",
@@ -784,13 +1047,6 @@ export const newsData = {
               "link": "https://www.washingtonpost.com/education/2026/09/28/cornell-rape-allegations-prompt-prosecutor-reopen-criminal-investigation/",
               "pubDate": "2026-09-28T19:56:01.000Z",
               "tier": 1
-            },
-            {
-              "title": "District attorney defends past decision not to seek criminal charges in Cornell rape allegations",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/district-attorney-defends-decision-not-seek-criminal-charges-cornell-r-rcna600224",
-              "pubDate": "2026-09-28T19:48:28.000Z",
-              "tier": 2
             },
             {
               "title": "Prosecutor reopens probe into Cornell gang rape allegations after accuser files lawsuit",
@@ -803,9 +1059,9 @@ export const newsData = {
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 6,
+          "relevance_score": 7,
           "importance": 55,
-          "slug": "da-defends-past-decision-on-cornell-rape-allegations-charges"
+          "slug": "cornell-probe-reopened-following-rape-lawsuit-filing"
         },
         {
           "representativeTitle": "FAA Halts 737 MAX Approval Due to Software Glitch",
@@ -838,34 +1094,34 @@ export const newsData = {
           "slug": "faa-halts-737-max-approval-due-to-software-glitch"
         },
         {
-          "representativeTitle": "Trump Ads Face Criticism Over Taxpayer Funding Use",
+          "representativeTitle": "GOP Pressures Smith Over Trump Probe Amid DOJ Scrutiny",
           "sources": [
-            "BBC World",
-            "Time"
+            "NBC News",
+            "Google US"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Are Trump's US government funded ads illegal?",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/c6lymekx0repo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-29T01:12:52.000Z",
-              "tier": 1
+              "title": "Senate GOP to press Jack Smith on Trump Jan. 6 probe as DOJ targets investigators",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/justice-department/senate-gop-press-jack-smith-trump-jan-6-probe-doj-targets-investigator-rcna600306",
+              "pubDate": "2026-09-29T09:00:40.000Z",
+              "tier": 2
             },
             {
-              "title": "Trump's Taxpayer-Funded Ads Draw Bipartisan Criticism",
-              "source": "Time",
-              "link": "https://time.com/article/2026/09/28/trump-ads-democrats-republicans-bipartisan-criticism-taxpayer-funds/",
-              "pubDate": "2026-09-28T11:45:07.000Z",
+              "title": "Senate GOP to press Jack Smith on Trump Jan. 6 probe as DOJ targets investigators",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPclhzR1k3UEU1NldIcnBrc3BoWUdrVDgyaW1Td084X3FBb2pZVFVJWkFWamJPVmxfZXVtcDY4R1N5eDhsVUZ4a19fcV9rV2FCaENjcmZXTmVJaHNIRUE4cXNHOWZPVUZrdE5vRnRpVnh6VDRqYzdLUmhnUWZEa09LbGRoYm1GM05Ra21GakJyaW83dzFVdDVGTjI4UGdtemZRUnRlVVowRjNZcGhVV3pLMnRDOFRhNU9XUVczbUQzOS1wMkE0STQwV3dldXVnZw?oc=5",
+              "pubDate": "2026-09-29T09:00:40.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "trump-ads-face-criticism-over-taxpayer-funding-use"
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "gop-pressures-smith-over-trump-probe-amid-doj-scrutiny"
         },
         {
           "representativeTitle": "Gun violence linked to corporate operational costs.",
@@ -890,106 +1146,17 @@ export const newsData = {
           "slug": "gun-violence-linked-to-corporate-operational-costs"
         },
         {
-          "representativeTitle": "Diesel Export Ban Threatens Soaring California Gas Prices",
-          "sources": [
-            "BBC Business",
-            "Google Stocks"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "UK tries to stop Trump's diesel export ban",
-              "source": "BBC Business",
-              "link": "https://www.bbc.co.uk/news/articles/cmx2z3vgy5xwo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-29T07:19:04.000Z",
-              "tier": 2
-            },
-            {
-              "title": "What a US diesel export ban could mean for you",
-              "source": "BBC Business",
-              "link": "https://www.bbc.co.uk/news/articles/cky9z3r00l9eo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-28T18:18:30.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Why a diesel export ban could send California gas prices soaring",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTWxIdzlXZlhhdGJaSFRtOXk1NjJ2QkF6VjBhVTRvVE91ZXd4V1E0bmpQalNuRENqRmRQQ0lSMndqWW9PRFBKTDRFcnRsTVNNcmZyRS1NZFJmNVlfWG4yaFRxbnpwYUZ0MDFacnNuV1hlS2xWdEJfV2FZSk9ySkcwWUtIaWhJb3JVSnpqdG9LeFp3TVlKN0JrWUdvMm9LSXJ6Yl8zOGtGd1F1X2tlcThScGNEaWY?oc=5",
-              "pubDate": "2026-09-28T23:30:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "diesel-export-ban-threatens-soaring-california-gas-prices"
-        },
-        {
-          "representativeTitle": "NYT Executive Shot By Elderly In-Laws; Police Investigate",
-          "sources": [
-            "BBC US",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "New York Times executive fatally shot by elderly in-laws, police say",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cred737qdv2no?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-29T04:06:43.000Z",
-              "tier": 1
-            },
-            {
-              "title": "New York Times executive fatally shot allegedly by elderly in-laws",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HTldwMi0yYnp0aUVvanlPZ250LTYzVGM4c01LV2lSbEZ2QTRoSXNxYThxUlgwRmpEa3hqanEwUW42b29lTVN0TjljNmItTkhsRzdlNUpIU1ZQMnM?oc=5",
-              "pubDate": "2026-09-29T04:06:43.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "nyt-executive-shot-by-elderly-in-laws-police-investigate"
-        },
-        {
-          "representativeTitle": "Pension lock debate sparks political warning for Burnham",
+          "representativeTitle": "Rayner Pledges Council Powers Against Homelessness Now",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Burnham is told axing pension triple lock would be ‘electoral suicide’ as he prepares to address Labour conference – UK politics live",
+              "title": "Angela Rayner tells Labour conference councils will be given more powers to tackle homelessness – UK politics live",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/politics/live/2026/sep/29/andy-burnham-labour-conference-liverpool-speech-triple-lock-pension-angela-rayner-lucy-powell-bridget-phillipson-uk-politics-latest-news-updates",
-              "pubDate": "2026-09-29T07:56:56.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "pension-lock-debate-sparks-political-warning-for-burnham"
-        },
-        {
-          "representativeTitle": "Greens leadership shifts following Waters' unexpected resignation.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Sarah Hanson-Young and Mehreen Faruqi announce Greens leadership tilt after Larissa Waters’ shock resignation",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/sep/29/larissa-waters-resignation-greens-leadership-contenders",
-              "pubDate": "2026-09-29T07:31:10.000Z",
+              "pubDate": "2026-09-29T12:02:08.000Z",
               "tier": 1
             }
           ],
@@ -998,42 +1165,20 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "greens-leadership-shifts-following-waters-unexpected-resignation"
+          "slug": "rayner-pledges-council-powers-against-homelessness-now"
         },
         {
-          "representativeTitle": "Politician Alleges Foreign Actor Linked To Plot",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Rubio says foreign actor was ‘clearly’ behind suspected RAF Fairford plot",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/sep/29/raf-fairford-uk-bomb-plot-marco-rubio-claims-foreign-actor",
-              "pubDate": "2026-09-29T06:41:12.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "politician-alleges-foreign-actor-linked-to-plot"
-        },
-        {
-          "representativeTitle": "Burnham's Speech to Labour Party Awaits Analysis",
+          "representativeTitle": "Trump's Solar Offer Includes Specific Conditions Attached",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "What to Expect From Burnham's Speech to Labour Party",
+              "title": "Trump’s Offer for More Solar Comes With a Catch",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-29/what-to-expect-from-burnham-s-speech-to-labour-party-video",
-              "pubDate": "2026-09-29T06:18:40.000Z",
+              "link": "https://www.bloomberg.com/news/newsletters/2026-09-29/trump-s-offer-for-more-solar-comes-with-a-catch",
+              "pubDate": "2026-09-29T11:52:43.000Z",
               "tier": 1
             }
           ],
@@ -1042,89 +1187,125 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "burnhams-speech-to-labour-party-awaits-analysis"
+          "slug": "trumps-solar-offer-includes-specific-conditions-attached"
         },
         {
-          "representativeTitle": "Trump Admin Ends Stricter Fuel Economy Regulations Now",
+          "representativeTitle": "Midterm Defeat Predicted Not To Cause Major Instability",
           "sources": [
-            "CNBC Economy",
-            "WSJ US Business"
+            "FT International"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump says he approved new fuel economy standards, rolling back Biden-era rules",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/09/26/trump-fuel-economy-cafe-standards.html",
-              "pubDate": "2026-09-28T10:32:46.000Z",
+              "title": "A Republican midterm defeat will not be an earthquake",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/7b9df85a-59ed-4863-9682-1c5b868fd3af?syn-25a6b1a6=1",
+              "pubDate": "2026-09-29T11:16:39.000Z",
               "tier": 1
-            },
-            {
-              "title": "Trump Administration Ends Tougher Fuel-Economy Rules",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/business/autos/trump-administration-ends-tougher-fuel-economy-rules-013c4633?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-09-28T16:18:00.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "trump-admin-ends-stricter-fuel-economy-regulations-now"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "midterm-defeat-predicted-not-to-cause-major-instability"
         },
         {
-          "representativeTitle": "Authorities Investigate New Ransom Note Linked To Guthrie",
+          "representativeTitle": "Pentagon Official Uses Extreme Rhetoric Against Women",
           "sources": [
-            "ABC News Top",
-            "ABC News US"
+            "Wired"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Officials looking into possible new ransom note related to Nancy Guthrie",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/wireStory/officials-new-ransom-note-related-nancy-guthries-disappearance-136844125",
-              "pubDate": "2026-09-29T07:38:30.000Z",
-              "tier": 2
-            },
+              "title": "A Pentagon Influencer Called Liberal Women a ‘Pestilence’ Who Will End Western Civilization",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/a-pentagon-influencer-called-liberal-women-a-pestilence-who-will-end-western-civilization/",
+              "pubDate": "2026-09-29T10:15:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "pentagon-official-uses-extreme-rhetoric-against-women"
+        },
+        {
+          "representativeTitle": "Trans Advocates Sue Over Kansas Driver's License Law",
+          "sources": [
+            "Washington Post"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Officials looking into possible new ransom note related to Nancy Guthrie",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/officials-new-ransom-note-related-nancy-guthries-disappearance-136844125",
-              "pubDate": "2026-09-29T07:38:30.000Z",
-              "tier": 2
+              "title": "Trans people sue to overturn Kansas law requiring new driver’s licenses",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/nation/2026/09/29/trans-people-sue-overturn-kansas-law-requiring-new-drivers-licenses/",
+              "pubDate": "2026-09-29T10:00:01.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 40,
-          "slug": "authorities-investigate-new-ransom-note-linked-to-guthrie"
+          "importance": 45,
+          "slug": "trans-advocates-sue-over-kansas-drivers-license-law"
         },
         {
-          "representativeTitle": "Media Outlets Challenge Trump's White House Ban Order",
+          "representativeTitle": "Trump's Bond Portfolio Grows Amid Policy Overlaps",
           "sources": [
-            "Google US"
+            "CNBC Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "CNN, MS NOW and Politico ask a court to block Trump from enforcing his White House media ban",
+              "title": "Trump’s municipal bond portfolio reaches as much as $1 billion as policy overlaps mount",
+              "source": "CNBC Markets",
+              "link": "https://www.cnbc.com/2026/09/29/trump-municipal-bond-portfolio/.html",
+              "pubDate": "2026-09-29T10:00:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "trumps-bond-portfolio-grows-amid-policy-overlaps"
+        },
+        {
+          "representativeTitle": "News groups challenge White House access ban in court.",
+          "sources": [
+            "NPR",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "News organizations ask court to bar White House enforcement of access ban",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/09/29/nx-s1-5984349/news-organizations-court-white-house-ban",
+              "pubDate": "2026-09-29T08:13:11.000Z",
+              "tier": 2
+            },
+            {
+              "title": "News organizations ask court to bar White House enforcement of access ban",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVDUwMklnSXFrUWlISkJ1ck1YY1VOT2FBSDRCYWhicEhJTmYzRWhhdjI5MWZ2WE1VbWlKbWc2bzFuWTNqT2xjZVhUMzNTZ1NnRVEyM1RneXVfZ0Q2TDMyRkxqcVdic0U5NEJxb2N4OFVjaDBPZmszQ1A2S0lMMHFpX3hMdGt0ZUVoZDlaSG53?oc=5",
-              "pubDate": "2026-09-29T05:58:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMlZkcnhyckw2WUhUTmp4UXVoRVR0WC1VWmZBRVUxN1Y3Zi1HQTlGemxtYWEtSkZoMkMtTWVWdjR1Qnd5YWhPVkZ6WEdSNWZJb0doZENRMEhFQ1pscHQtTy1hRW1WdFNEbnRBUTVmRWRHbFE5N19yZkVVZUhFdUJiWDJ5MXVpeklfVXJMU09n?oc=5",
+              "pubDate": "2026-09-29T08:13:11.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 8,
+          "relevance_score": 7,
           "importance": 45,
-          "slug": "media-outlets-challenge-trumps-white-house-ban-order"
+          "slug": "news-groups-challenge-white-house-access-ban-in-court"
         },
         {
           "representativeTitle": "Tennessee death row inmate expresses peace before execution.",
@@ -1157,28 +1338,6 @@ export const newsData = {
           "slug": "tennessee-death-row-inmate-expresses-peace-before-execution"
         },
         {
-          "representativeTitle": "Investigation into alleged assault reopening amid controversy.",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Why an investigation into alleged frat house gang rape is reopening",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/videos/cqvgyrr0mrngo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-28T20:31:59.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "investigation-into-alleged-assault-reopening-amid-controversy"
-        },
-        {
           "representativeTitle": "Nor'easter reveals shipwreck remnant off Nantucket coast.",
           "sources": [
             "Washington Post",
@@ -1207,102 +1366,6 @@ export const newsData = {
           "relevance_score": 4,
           "importance": 40,
           "slug": "noreaster-reveals-shipwreck-remnant-off-nantucket-coast"
-        },
-        {
-          "representativeTitle": "Senate Passes Sports Act; Future Remains Uncertain Now",
-          "sources": [
-            "Fox News",
-            "NPR"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Senate passes Protect College Sports Act with decisive vote",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/outkick-sports/senate-passes-protect-college-sports-act-decisive-vote",
-              "pubDate": "2026-09-29T02:51:38.000Z",
-              "tier": 2
-            },
-            {
-              "title": "The Senate passes the Protect College Sports Act, but the bill's future is unclear",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/09/28/nx-s1-5977851/protect-college-sports-act-senate-bill-vote",
-              "pubDate": "2026-09-29T02:16:19.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "senate-passes-sports-act-future-remains-uncertain-now"
-        },
-        {
-          "representativeTitle": "Dept Scraps Biden Title IX Rules Amid Policy Shift",
-          "sources": [
-            "Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Education Department officially scraps Biden-era Title IX rules",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/education/2026/09/28/education-department-officially-scraps-biden-era-title-ix-rules/",
-              "pubDate": "2026-09-28T17:48:49.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "dept-scraps-biden-title-ix-rules-amid-policy-shift"
-        },
-        {
-          "representativeTitle": "Party Leaders Deepen Washington's Political Divisions Further",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Party leaders widening Washington's political chasm",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-09-party-leaders-widening-washington-political.html",
-              "pubDate": "2026-09-28T23:40:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "party-leaders-deepen-washingtons-political-divisions-further"
-        },
-        {
-          "representativeTitle": "Trump claims fuel rules cut prices; analysts doubt.",
-          "sources": [
-            "Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump says new fuel economy rules will cut car prices. Analysts are doubtful.",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/transportation/2026/09/28/trump-says-new-fuel-economy-rules-will-cut-car-prices-analysts-are-doubtful/",
-              "pubDate": "2026-09-28T19:15:55.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "trump-claims-fuel-rules-cut-prices-analysts-doubt"
         }
       ]
     },
@@ -1310,39 +1373,17 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "European Stocks Rise Following Swiss Probe Conclusion",
+          "representativeTitle": "Futures Rise Awaiting Key Economic Data Release",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "European Stocks Rise as Julius Baer Gains on End to Swiss Probe",
+              "title": "US Stock Futures Rise as Traders Await Key Economic Data",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-29/european-stocks-rise-as-julius-baer-jumps-on-end-to-swiss-probe",
-              "pubDate": "2026-09-29T07:18:16.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "european-stocks-rise-following-swiss-probe-conclusion"
-        },
-        {
-          "representativeTitle": "SGX Kan Signals Shift Away From Siloed Trading",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "SGX's Kan: Investors Are Abandoning Siloed Trading",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-29/sgx-s-kan-investors-are-abandoning-siloed-trading-video",
-              "pubDate": "2026-09-29T06:40:30.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-29/us-stock-futures-rise-as-traders-await-key-economic-data",
+              "pubDate": "2026-09-29T11:59:42.000Z",
               "tier": 1
             }
           ],
@@ -1351,29 +1392,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "sgx-kan-signals-shift-away-from-siloed-trading"
-        },
-        {
-          "representativeTitle": "Indian Stocks Face Selling Pressure Amid Support Breaks",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Indian Stocks Are Breaking Long-Held Supports as Selloff Deepens",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-29/indian-stocks-are-breaking-long-held-supports-as-selloff-deepens",
-              "pubDate": "2026-09-29T06:10:42.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "indian-stocks-face-selling-pressure-amid-support-breaks"
+          "slug": "futures-rise-awaiting-key-economic-data-release"
         }
       ]
     },
@@ -1381,105 +1400,91 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "China Stimulus Meets Bond Supply Debt Risks",
+          "representativeTitle": "Oura Delays US IPO Amid Market Uncertainty Concerns",
           "sources": [
-            "Bloomberg Markets"
+            "Bloomberg Markets",
+            "Google Stocks"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Chinese Stimulus Boost, Higher Bond Supply Threaten Debt Rally",
+              "title": "Smart Ring Maker Oura Becomes Latest Company to Delay Its US IPO",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-29/chinese-stimulus-boost-higher-bond-supply-threaten-debt-rally",
-              "pubDate": "2026-09-29T06:25:48.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-29/smart-ring-maker-oura-postpones-ipo-due-to-market-uncertainty",
+              "pubDate": "2026-09-29T10:10:45.000Z",
               "tier": 1
+            },
+            {
+              "title": "Smart ring maker Oura postpones IPO due to market 'uncertainty'",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRjhPczhRWEkxcTJFWlExRXFHU3htOGVnUlRaWnh5NjVwTkdjSEJTNnlDVjF3ek55S3NVbWxnRm1qMWYyY2E4S3FhYldpOEpDVThMNmxsdU15NDdsRkxleHVyZERMM0l0ckhQSUJyTkc1VmtBRjBWUExVNURic0Z6THl2aXBvejFySldhM2pPXzljYTRudGJOMElSRUozTjjSAaQBQVVfeXFMTnd3UnBHa2RRSUhYVVdwQjN2VFA2aEQ5M2dYU01NUHdrTTkzMHEzc2g5czE4U1F4TEtrUWlGYkttdVdCb3NQTmxIdGJaOUVNQ25ESDNsZy1FZzNCQmY0Y1p5cXlsMHAyZmYySVlNSDdBSFN1WElfT1lNVjBWVnJBMUpLZlBoRXpBVHNibXNIZWhTZE1DSXpYcHBNTmlCaTdSdmJtUVE?oc=5",
+              "pubDate": "2026-09-29T10:02:59.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "china-stimulus-meets-bond-supply-debt-risks"
-        },
-        {
-          "representativeTitle": "Oil Prices and Treasury Yields Show Old Relationship",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Oil price and US Treasury yields in tightest relationship since 1990",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/f894f69a-9e2b-4c3f-bf5d-c5c4dc0e6197?syn-25a6b1a6=1",
-              "pubDate": "2026-09-29T04:00:23.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "oil-prices-and-treasury-yields-show-old-relationship"
-        },
-        {
-          "representativeTitle": "Dangote Launches Major IPO Marketing Push to Investors",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Dangote Targets 10 Million Investors With IPO Marketing Blitz",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-29/dangote-targets-10-million-investors-with-ipo-marketing-blitz",
-              "pubDate": "2026-09-29T06:30:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 7,
+          "relevance_score": 6,
           "importance": 50,
-          "slug": "dangote-launches-major-ipo-marketing-push-to-investors"
+          "slug": "oura-delays-us-ipo-amid-market-uncertainty-concerns"
         },
         {
-          "representativeTitle": "Rate Hikes Loom; Political Shakeup Hits Australia",
+          "representativeTitle": "Flood Risk Homes Face Uninsurability Threat in UK",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Australia news live: Bullock says interest rates will be hiked again ‘if that’s what’s needed’; Mehreen Faruqi confirms she will contest Greens leadership",
+              "title": "New UK homes in flood-risk areas could become uninsurable, says Aviva boss",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/live/2026/sep/29/treasurer-jim-chalmers-reserve-bank-cash-rate-decision-coalition-one-nation-ntwnfb",
-              "pubDate": "2026-09-29T07:58:00.000Z",
+              "link": "https://www.theguardian.com/business/2026/sep/29/new-uk-homes-flood-risk-areas-insurance-aviva-amanda-blanc-budget",
+              "pubDate": "2026-09-29T11:41:07.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "rate-hikes-loom-political-shakeup-hits-australia"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "flood-risk-homes-face-uninsurability-threat-in-uk"
         },
         {
-          "representativeTitle": "Lux Capital Talks Joining Onodrim Round at Unicorn Valuation",
+          "representativeTitle": "Alaska Airlines Upgrades Premium Cabin Experience Significantly Now",
+          "sources": [
+            "CNBC Economy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Alaska Airlines unveils massive premium cabin overhaul in high-end travel race",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/09/29/alaska-airlines-hawaiian-new-cabins.html",
+              "pubDate": "2026-09-29T12:05:37.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "alaska-airlines-upgrades-premium-cabin-experience-significantly-now"
+        },
+        {
+          "representativeTitle": "Dangote Announces Kenya Refinery Listing in Nairobi",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Lux Capital in Talks to Join Onodrim Round at Unicorn Valuation",
+              "title": "Dangote Says Kenya Refinery Will Be Listed in Nairobi",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-29/lux-capital-in-talks-to-join-onodrim-round-at-unicorn-valuation",
-              "pubDate": "2026-09-29T07:37:47.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-29/dangote-says-kenya-refinery-will-be-listed-in-nairobi-video",
+              "pubDate": "2026-09-29T12:02:40.000Z",
               "tier": 1
             }
           ],
@@ -1488,42 +1493,20 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "lux-capital-talks-joining-onodrim-round-at-unicorn-valuation"
+          "slug": "dangote-announces-kenya-refinery-listing-in-nairobi"
         },
         {
-          "representativeTitle": "Designers consider massive India IPO valuation.",
+          "representativeTitle": "Goldman Sachs Veteran Joins Polymarket Platform Growth",
           "sources": [
-            "Bloomberg Markets"
+            "CNBC Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Ace Designers Said to Weigh Up to $400 Million India IPO",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-29/ace-designers-said-to-weigh-up-to-400-million-india-ipo",
-              "pubDate": "2026-09-29T07:33:50.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "designers-consider-massive-india-ipo-valuation"
-        },
-        {
-          "representativeTitle": "Brookfield Identifies Numerous Middle East Investment Opportunities",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Ellawn: Brookfield Sees Many Mideast Opportunities",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-29/ellawn-brookfield-sees-many-mideast-opportunities-video",
-              "pubDate": "2026-09-29T06:44:12.000Z",
+              "title": "Polymarket taps Goldman Sachs veteran Lisa Mantil to attract Wall Street liquidity",
+              "source": "CNBC Markets",
+              "link": "https://www.cnbc.com/2026/09/29/polymarket-lisa-mantil-institutional-growth.html",
+              "pubDate": "2026-09-29T12:00:33.000Z",
               "tier": 1
             }
           ],
@@ -1532,20 +1515,20 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "brookfield-identifies-numerous-middle-east-investment-opportunities"
+          "slug": "goldman-sachs-veteran-joins-polymarket-platform-growth"
         },
         {
-          "representativeTitle": "South African Retailers Seek New Strategies to Attract Shoppers",
+          "representativeTitle": "Analyst Purdie Cautions on US Bond Market Outlook",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "South Africa Retailers Turn to New Leaders in Fight for Shoppers",
+              "title": "Cautious on US Bond Market: Purdie",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-09-29/south-africa-retailers-turn-to-new-leaders-in-fight-for-shoppers",
-              "pubDate": "2026-09-29T06:00:00.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-29/cautious-on-us-bond-market-purdie-video",
+              "pubDate": "2026-09-29T11:46:53.000Z",
               "tier": 1
             }
           ],
@@ -1554,29 +1537,161 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "south-african-retailers-seek-new-strategies-to-attract-shoppers"
+          "slug": "analyst-purdie-cautions-on-us-bond-market-outlook"
         },
         {
-          "representativeTitle": "UniCredit's Orcel Targets Commerzbank Acquisition Soon",
+          "representativeTitle": "Bond Market Rises as Energy Prices Decline Further",
           "sources": [
-            "FT International"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "UniCredit’s Orcel moves to seize control of Commerzbank within months",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/2b6db828-897d-46cf-ba64-e3e8560b5f4e?syn-25a6b1a6=1",
-              "pubDate": "2026-09-29T04:00:30.000Z",
+              "title": "Gilts Lead European Bonds Higher as Energy Prices Retreat",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-29/gilts-lead-european-bonds-higher-as-energy-prices-retreat",
+              "pubDate": "2026-09-29T11:40:27.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "Stocks",
           "aiCategory": "Business",
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "unicredits-orcel-targets-commerzbank-acquisition-soon"
+          "slug": "bond-market-rises-as-energy-prices-decline-further"
+        },
+        {
+          "representativeTitle": "Analyst Questions Peak Yields in Current Market Cycle",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Yardeni 'Not Convinced' 5.25% Is the Top in Yields",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-09-29/yardeni-not-convinced-5-25-is-the-top-in-yields-video",
+              "pubDate": "2026-09-29T11:26:15.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "analyst-questions-peak-yields-in-current-market-cycle"
+        },
+        {
+          "representativeTitle": "Morgan Stanley Builds Lab to Test Crypto's Future",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Morgan Stanley Builds Crypto Lab to Test Future of Wall Street",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-29/morgan-stanley-builds-crypto-lab-to-test-future-of-wall-street",
+              "pubDate": "2026-09-29T11:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "morgan-stanley-builds-lab-to-test-cryptos-future"
+        },
+        {
+          "representativeTitle": "Värde's Sanz Esteve Launches New European Credit Firm",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Värde’s Sanz Esteve Leaves Firm to Start European Credit Manager",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-29/varde-s-sanz-esteve-leaves-firm-to-start-european-credit-manager",
+              "pubDate": "2026-09-29T11:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "vrdes-sanz-esteve-launches-new-european-credit-firm"
+        },
+        {
+          "representativeTitle": "Venture Firm Funds Israeli Defense Technology Sector Growth",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Protego Ventures closes debut $125 million fund for Israeli defense tech",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/09/29/protego-ventures-closes-debut-125-million-fund-for-israeli-defense-tech/",
+              "pubDate": "2026-09-29T10:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "venture-firm-funds-israeli-defense-technology-sector-growth"
+        },
+        {
+          "representativeTitle": "Patents alone fail to secure mineral supply chains.",
+          "sources": [
+            "Nature"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Patents alone won’t unlock critical-mineral supply chains",
+              "source": "Nature",
+              "link": "https://www.nature.com/articles/d41586-026-03054-7",
+              "pubDate": "2026-09-29T00:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "patents-alone-fail-to-secure-mineral-supply-chains"
+        },
+        {
+          "representativeTitle": "China Tariffs Leave US Crop Demand Uncertain Outlook",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Demand Boost for US Crops Still Unclear After China Tariff Cuts",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-09-29/demand-boost-for-us-crops-still-unclear-after-china-tariff-cuts",
+              "pubDate": "2026-09-29T07:53:24.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "china-tariffs-leave-us-crop-demand-uncertain-outlook"
         },
         {
           "representativeTitle": "Trump plans $15B steel plant in southeast Iowa.",
@@ -1607,50 +1722,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 40,
           "slug": "trump-plans-15b-steel-plant-in-southeast-iowa"
-        },
-        {
-          "representativeTitle": "Diesel Export Ban Threatens Consumer Costs and Supply Chains",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "What a US diesel export ban could mean for you",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cky9z3r00l9eo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-28T18:18:30.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "diesel-export-ban-threatens-consumer-costs-and-supply-chains"
-        },
-        {
-          "representativeTitle": "Ex-Disney CEO Details Board Concerns During Power Struggle",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Ex-Disney CEO Bob Chapek says he raised concerns with the board 'weekly' during Iger power battle",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/09/28/disney-bob-chapek-bob-iger-power-battle-board.html",
-              "pubDate": "2026-09-28T16:02:17.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ex-disney-ceo-details-board-concerns-during-power-struggle"
         }
       ]
     },
@@ -1658,49 +1729,41 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
-          "representativeTitle": "OpenAI Halts GPT-6.1 Release Over Safety Concerns",
+          "representativeTitle": "OpenAI Halts Model Release Due to Safety Concerns",
           "sources": [
             "BBC World",
             "The Guardian",
-            "Al Jazeera",
             "France 24",
-            "Euronews"
+            "Le Monde"
           ],
-          "citationCount": 5,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "OpenAI scraps rollout of new model over safety concerns",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-29T04:30:13.000Z",
+              "pubDate": "2026-09-29T09:14:13.000Z",
               "tier": 1
             },
             {
               "title": "OpenAI scraps release of new model over safety concerns in internal testing",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped",
-              "pubDate": "2026-09-29T07:15:54.000Z",
+              "pubDate": "2026-09-29T11:16:31.000Z",
               "tier": 1
             },
             {
-              "title": "OpenAI cancels release of AI model GPT-6.1 Astra, citing safety concerns",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/economy/2026/9/29/openai-scraps-release-of-latest-ai-model-over-safety-concerns?traffic_source=rss",
-              "pubDate": "2026-09-29T00:38:06.000Z",
-              "tier": 1
-            },
-            {
-              "title": "OpenAI cancels release of new artificial intelligence model over safety concerns",
+              "title": "OpenAI scraps release of its latest AI model over safety concerns",
               "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20260929-openai-cancels-release-new-ai-model-safety-concerns",
-              "pubDate": "2026-09-29T02:54:49.000Z",
+              "link": "https://www.france24.com/en/tv-shows/business/20260929-openai-scraps-release-of-its-latest-ai-model-over-safety-concerns",
+              "pubDate": "2026-09-29T09:03:11.000Z",
               "tier": 1
             },
             {
-              "title": "OpenAI postpones release of latest AI model over security concerns as the industry faces new safety pressures",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/09/29/openai-postpones-release-of-latest-ai-model-over-security-concerns-as-the-industry-faces-n",
-              "pubDate": "2026-09-29T04:52:32.000Z",
+              "title": "OpenAI cancels release of newest model due to safety concerns",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/pixels/article/2026/09/29/openai-cancels-release-of-newest-model-due-to-safety-concerns_6758062_13.html",
+              "pubDate": "2026-09-29T08:23:04.000Z",
               "tier": 2
             }
           ],
@@ -1708,11 +1771,11 @@ export const newsData = {
           "aiCategory": "Technology",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 100,
-          "slug": "openai-halts-gpt-61-release-over-safety-concerns"
+          "importance": 90,
+          "slug": "openai-halts-model-release-due-to-safety-concerns"
         },
         {
-          "representativeTitle": "Nvidia Releases Open-Source AI Security System Solution",
+          "representativeTitle": "OpenAI Pauses Model Release Due to Safety Concerns",
           "sources": [
             "TechCrunch",
             "Wired"
@@ -1720,64 +1783,78 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Nvidia launches new platform for reining in rogue AI agents",
+              "title": "OpenAI reportedly ditches model over safety concerns",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
-              "pubDate": "2026-09-28T18:31:23.000Z",
+              "link": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+              "pubDate": "2026-09-28T23:39:20.000Z",
               "tier": 1
             },
             {
-              "title": "Nvidia’s Answer to Rogue Agents Is an Open-Source AI Security System",
+              "title": "OpenAI Delays Release of Latest Model Over Safety Concerns",
               "source": "Wired",
-              "link": "https://www.wired.com/story/nvidias-answer-to-rogue-agents-is-an-open-source-ai-security-system/",
-              "pubDate": "2026-09-28T09:00:00.000Z",
+              "link": "https://www.wired.com/story/openai-delays-release-of-latest-model-over-safety-concerns/",
+              "pubDate": "2026-09-29T10:36:22.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
-          "sentiment": 0.4,
+          "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 70,
-          "slug": "nvidia-releases-open-source-ai-security-system-solution"
+          "slug": "openai-pauses-model-release-due-to-safety-concerns"
         },
         {
-          "representativeTitle": "Pope Addresses AI Concerns Amid Skepticism Claims",
+          "representativeTitle": "OpenAI Pauses New Model Development Due to Safety Concerns",
           "sources": [
-            "Al Jazeera",
-            "SCMP",
-            "Sky News"
+            "FT International",
+            "WSJ US Business"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Pope Leo says AI risk concerns not ‘fake news’",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/economy/2026/9/29/pope-leo-says-ai-risk-concerns-not-fake-news?traffic_source=rss",
-              "pubDate": "2026-09-29T04:51:46.000Z",
+              "title": "OpenAI axes next model citing safety issues",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/488cb467-3cb7-4d06-9a5f-c0749c729d91?syn-25a6b1a6=1",
+              "pubDate": "2026-09-29T00:48:02.000Z",
               "tier": 1
             },
             {
-              "title": "Pope Leo says AI doom concerns not ‘fake news’ in apparent rebuke of Trump",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3369117/pope-leo-says-concerns-about-ai-doom-scenarios-are-not-fake-news?utm_source=rss_feed",
-              "pubDate": "2026-09-28T21:45:41.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Pope says concerns about AI going rogue are not 'fake news' after Trump 'hoax' claims",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/pope-says-concerns-about-ai-going-rogue-are-not-fake-news-after-trump-hoax-claims-13593054",
-              "pubDate": "2026-09-28T20:41:00.000Z",
+              "title": "OpenAI Halts New Model Over Safety Worries",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/world/openai-halts-new-model-over-safety-worries-e0b12abb?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-09-29T09:54:00.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "openai-pauses-new-model-development-due-to-safety-concerns"
+        },
+        {
+          "representativeTitle": "AI Expert Questions 'Existential Threat' Narrative Now",
+          "sources": [
+            "Wired"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Timnit Gebru Believes There Is No ‘Existential Threat’ From AI",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/the-big-interview-podcast-timnit-gebru/",
+              "pubDate": "2026-09-29T10:30:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": 0,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 55,
-          "slug": "pope-addresses-ai-concerns-amid-skepticism-claims"
+          "slug": "ai-expert-questions-existential-threat-narrative-now"
         },
         {
           "representativeTitle": "Anthropic details losses; AI poses existential risk warning.",
@@ -1876,127 +1953,17 @@ export const newsData = {
           "slug": "nvidia-seeks-insurers-to-manage-ai-build-out-risks"
         },
         {
-          "representativeTitle": "China sets strict standards for robot IPOs.",
-          "sources": [
-            "CNBC Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "China has three new criteria for humanoid robot IPOs. Few, if any, meet them",
-              "source": "CNBC Markets",
-              "link": "https://www.cnbc.com/2026/09/29/china-criteria-humanoid-robot-ipos.html",
-              "pubDate": "2026-09-29T07:19:38.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "china-sets-strict-standards-for-robot-ipos"
-        },
-        {
-          "representativeTitle": "OpenAI halts next model due to safety concerns",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "OpenAI axes next model citing safety issues",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/488cb467-3cb7-4d06-9a5f-c0749c729d91?syn-25a6b1a6=1",
-              "pubDate": "2026-09-29T00:48:02.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "openai-halts-next-model-due-to-safety-concerns"
-        },
-        {
-          "representativeTitle": "OpenAI reportedly scraps model due to safety issues.",
+          "representativeTitle": "Ex-Tesla Team Secures Funding For Supply Chains",
           "sources": [
             "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "OpenAI reportedly ditches model over safety concerns",
+              "title": "Ex-Tesla team raises $12.5M to put supply chains on autopilot",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
-              "pubDate": "2026-09-28T23:39:20.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "openai-reportedly-scraps-model-due-to-safety-issues"
-        },
-        {
-          "representativeTitle": "OpenAI delays model release citing security concerns.",
-          "sources": [
-            "NPR"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "OpenAI delays latest model over security concerns, as industry faces pressure",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/09/29/nx-s1-5984342/openai-delays-latest-model",
-              "pubDate": "2026-09-29T06:34:43.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "openai-delays-model-release-citing-security-concerns"
-        },
-        {
-          "representativeTitle": "Shopify Integrates AI Agents into Checkout Process",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Shopify opens checkout to browser-based AI agents",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
-              "pubDate": "2026-09-28T19:33:57.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "shopify-integrates-ai-agents-into-checkout-process"
-        },
-        {
-          "representativeTitle": "Venture Firm Boosts Seed Funding Ceiling For Startups",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
-              "pubDate": "2026-09-29T00:30:00.000Z",
+              "link": "https://techcrunch.com/2026/09/29/ex-tesla-team-raises-12-5m-to-put-supply-chains-on-autopilot/",
+              "pubDate": "2026-09-29T09:00:00.000Z",
               "tier": 1
             }
           ],
@@ -2005,81 +1972,38 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "venture-firm-boosts-seed-funding-ceiling-for-startups"
+          "slug": "ex-tesla-team-secures-funding-for-supply-chains"
         },
         {
-          "representativeTitle": "AI's Dominance Clouds Climate Week Discussions and Goals",
+          "representativeTitle": "AI authorship debates miss deeper knowledge shifts.",
           "sources": [
-            "TechCrunch"
+            "Nature"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "The AI boom took over Climate Week and not everyone is happy about it",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
-              "pubDate": "2026-09-28T19:21:59.000Z",
+              "title": "Why AI-authorship debates miss a deeper shift in how scholarly knowledge is produced",
+              "source": "Nature",
+              "link": "https://www.nature.com/articles/d41586-026-03055-6",
+              "pubDate": "2026-09-29T00:00:00.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "ais-dominance-clouds-climate-week-discussions-and-goals"
-        },
-        {
-          "representativeTitle": "CFO Optimistic on Truck Autonomy by 2030",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Aurora CFO says 30,000 driverless trucks by 2030 isn’t as far-fetched as it sounds",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/28/aurora-cfo-says-30000-driverless-trucks-by-2030-isnt-as-far-fetched-as-it-sounds/",
-              "pubDate": "2026-09-28T22:58:35.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "cfo-optimistic-on-truck-autonomy-by-2030"
-        },
-        {
-          "representativeTitle": "Modal Labs Nears $750M Funding Round at High Valuation",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
-              "pubDate": "2026-09-28T21:29:18.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
+          "ingestionCategory": "Science",
           "aiCategory": "Technology",
           "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "modal-labs-nears-750m-funding-round-at-high-valuation"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "ai-authorship-debates-miss-deeper-knowledge-shifts"
         },
         {
           "representativeTitle": "New Headphone Model Targets Professional Audio Use",
           "sources": [
             "The Verge",
-            "Wired"
+            "Wired",
+            "Google Tech"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Nothing’s new flagship Headphone 1 Pro put you in the studio",
@@ -2094,36 +2018,72 @@ export const newsData = {
               "link": "https://www.wired.com/story/nothings-new-headphone-1-pro-are-made-for-the-studio/",
               "pubDate": "2026-09-29T01:00:00.000Z",
               "tier": 1
+            },
+            {
+              "title": "Nothing’s New Headphone (1) Pro Are Made for the Studio",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNW12Q2VEc2NLQVd1azZ4dHFWQ2tvLVY3bE8tbDhxOG4tY3ZBaEgzeDJ5S2VwMENhQnRuaS1iSzVtWm1FNG5PUUNVbmZaamtMMkR5cHUwVmtwcUhwVGtZTzdZNExYdWF1eWlaUVZoUnJuTGFmSFkzSGF2c1lMa0E3cWVHUk1NdWdz?oc=5",
+              "pubDate": "2026-09-29T01:00:00.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": 0,
           "relevance_score": 3,
-          "importance": 35,
+          "importance": 40,
           "slug": "new-headphone-model-targets-professional-audio-use"
         },
         {
-          "representativeTitle": "Meta's Anti-Terror Group Loses Key Expert Advisers",
+          "representativeTitle": "Trump Hosts Tech Leaders Discussing AI Safety Concerns",
+          "sources": [
+            "NBC News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump Set to Host Top Tech Leaders Amid AI Safety Concerns",
+              "source": "NBC News",
+              "link": "https://www.today.com/video/ai-concerns-in-spotlight-amid-white-house-meeting-270708805834",
+              "pubDate": "2026-09-29T11:12:21.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump to host summit with top AI leaders in Washington",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/donald-trump/trump-host-summit-top-ai-leaders-washington-rcna599853",
+              "pubDate": "2026-09-29T10:00:42.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "trump-hosts-tech-leaders-discussing-ai-safety-concerns"
+        },
+        {
+          "representativeTitle": "Reviewing Top Smartwatches from Major Tech Brands.",
           "sources": [
             "Wired"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Meta-Led Anti-Terrorism Group Faces Mass Resignation of Expert Advisers",
+              "title": "7 Best Smartwatch Models: Apple, Google, Garmin (2026)",
               "source": "Wired",
-              "link": "https://www.wired.com/story/independent-advisers-resign-en-masse-from-big-techs-anti-terrorism-group/",
-              "pubDate": "2026-09-28T18:47:54.000Z",
+              "link": "https://www.wired.com/story/best-smartwatch/",
+              "pubDate": "2026-09-29T10:39:00.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "metas-anti-terror-group-loses-key-expert-advisers"
+          "sentiment": 0,
+          "relevance_score": 3,
+          "importance": 30,
+          "slug": "reviewing-top-smartwatches-from-major-tech-brands"
         },
         {
           "representativeTitle": "Bose Reintroduces Wired Earbuds After Decade Hiatus",
@@ -2154,50 +2114,6 @@ export const newsData = {
           "relevance_score": 4,
           "importance": 40,
           "slug": "bose-reintroduces-wired-earbuds-after-decade-hiatus"
-        },
-        {
-          "representativeTitle": "Boox Unveils Smallest E-Reader Device For Future",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Boox Announces the Picco, Its Smallest E-Reader Ever (2026)",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/boox-picco-announcement-2026/",
-              "pubDate": "2026-09-28T19:30:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "boox-unveils-smallest-e-reader-device-for-future"
-        },
-        {
-          "representativeTitle": "Tesla Roadster 2 Event Postponed Due To Weather",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Tesla delays Roadster 2 event again due to bad weather",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/09/28/tesla-delays-roadster-2-event-again-due-to-bad-weather/",
-              "pubDate": "2026-09-28T19:27:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "tesla-roadster-2-event-postponed-due-to-weather"
         }
       ]
     },
@@ -2205,152 +2121,195 @@ export const newsData = {
       "name": "Science",
       "children": [
         {
-          "representativeTitle": "SpaceX Starship Completes Major Orbital Test Flight",
+          "representativeTitle": "Plastic Pollution Threatens Coral Reef Ecosystems Globally",
           "sources": [
-            "BBC World",
-            "Al Jazeera"
+            "Wired"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/c6ge4lp442npo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-09-28T13:59:06.000Z",
+              "title": "Plastic Is Melting Onto Corals",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/plastic-is-melting-onto-corals/",
+              "pubDate": "2026-09-29T09:30:00.000Z",
               "tier": 1
             },
             {
-              "title": "Fiery end for SpaceX Starship mission",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/28/fiery-end-for-spacex-starship-mission?traffic_source=rss",
-              "pubDate": "2026-09-28T23:48:48.000Z",
+              "title": "Plastic Is Melting Onto Corals",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/plastic-is-melting-onto-corals/",
+              "pubDate": "2026-09-29T09:30:00.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Technology",
           "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
+          "sentiment": -0.9,
+          "relevance_score": 9,
           "importance": 70,
-          "slug": "spacex-starship-completes-major-orbital-test-flight"
+          "slug": "plastic-pollution-threatens-coral-reef-ecosystems-globally"
         },
         {
-          "representativeTitle": "Starship Reaches Orbit Despite Engine Malfunction",
+          "representativeTitle": "Life Possible on Saturn's Icy Moon Enceladus",
           "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "SpaceX’s Starship Reaches Orbit Despite Engine Issue",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-09-29/spacex-s-starship-reaches-orbit-despite-engine-issue-video",
-              "pubDate": "2026-09-29T06:32:35.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "starship-reaches-orbit-despite-engine-malfunction"
-        },
-        {
-          "representativeTitle": "New Altermagnetism Opens Path For Spintronics Future",
-          "sources": [
-            "Phys.org",
+            "Science Daily",
             "Google Science"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Experimental evidence of altermagnetism in a layered material opens a promising path toward future spintronics",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-09-experimental-evidence-altermagnetism-layered-material.html",
-              "pubDate": "2026-09-28T22:10:01.000Z",
+              "title": "The ice blasting from Saturn's moon Enceladus is stranger than scientists realized",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/09/260929053528.htm",
+              "pubDate": "2026-09-29T09:58:00.000Z",
               "tier": 2
             },
             {
-              "title": "Experimental evidence of altermagnetism in a layered material opens a promising path toward future spintronics",
+              "title": "Scientists Find Microbial Life Could Survive on Saturn’s Icy Moon Enceladus",
               "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON0VRcVhreUpXd2dGV3hFdUpMdXJmQUZ6QjdONWdVSE9QVlh1UGRLMVNWMGp0cTQ1aXdJdDl5QjBVQlhYZmtTN0JiMWk4MEdHSVVOYXFjUW5BbnpwelZqVVlCQlU3UDZrYmtTZ3NvaUdwanF5VFBldjFERUxYV1M3LTd5STdaMVE1dV9ZOTRNZTN1dw?oc=5",
-              "pubDate": "2026-09-28T22:10:01.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbWxPeG41ajl2VTliVWZ2ZkszSGw5OTU3c0ItaG1rdTVDbFFrTE1YZ21YanJ0S1VINlIxal9NRkh3MVFNOVNId1NHWVdteTIyUnk0SkZhdG54d04tUms0OVlUbDZlaE9hdTZxMm9XR1VqMTQ0YzdfTGFWYzBYQ2wwTUxhZlZzY3k5SkFsSXoxcDRYaERJb2xQSkVMVy1ubG9jSzRBRnJZN1E?oc=5",
+              "pubDate": "2026-09-28T18:45:26.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
           "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "new-altermagnetism-opens-path-for-spintronics-future"
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "life-possible-on-saturns-icy-moon-enceladus"
         },
         {
-          "representativeTitle": "Clam Reveals Two Centuries of Reef Climate History",
+          "representativeTitle": "El Niño Impacts Hawaii's Hurricane Season Patterns Now",
           "sources": [
-            "Google Science"
+            "Washington Post"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "One giant clam contains a month-by-month diary of the Great Barrier Reef’s climate 200 years ago",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVGV2bG5Ra0Z3MDY1OFJiMHA3ZGJnX2NFbVZoM2QyOWI4cGU4eDZWeDJFVTNqSENwejZCRlkxQWFMV29pTmV5X0w5RGZ4d3htWGJkZUhMR21HOTVUNE82bzU5UFgxeGRKWGZzanRnY1lpLXVuNXZKd2VNeWxnbWRiRmpGdjZKeXc0S1ZNN00tR1c1MmZ4akRKRzFZQzZad0FCY2VrSFpYUjl3bWZ2d3RZZXV2djd5TktqMHZITmI2VUUyMGVPQ2ZyLVhn?oc=5",
-              "pubDate": "2026-09-28T23:49:17.000Z",
-              "tier": 2
+              "title": "See how a record El Niño has transformed Hawaii’s hurricane season",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/nation/interactive/2026/09/29/see-how-record-el-nio-has-transformed-hawaiis-hurricane-season/",
+              "pubDate": "2026-09-29T10:00:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "el-nio-impacts-hawaiis-hurricane-season-patterns-now"
+        },
+        {
+          "representativeTitle": "Warming Planet Costs Measured in Lost Labor Power",
+          "sources": [
+            "Nature"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The cost of lost labour on a warming planet",
+              "source": "Nature",
+              "link": "https://www.nature.com/articles/d41586-026-02971-x",
+              "pubDate": "2026-09-29T00:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "warming-planet-costs-measured-in-lost-labor-power"
+        },
+        {
+          "representativeTitle": "AI Progress Needs Institutional Shift Beyond Metrics",
+          "sources": [
+            "Nature"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "AI can widen science — but only if institutions stop rewarding the already measurable",
+              "source": "Nature",
+              "link": "https://www.nature.com/articles/d41586-026-02961-z",
+              "pubDate": "2026-09-29T00:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ai-progress-needs-institutional-shift-beyond-metrics"
+        },
+        {
+          "representativeTitle": "New Kinase Targeting Advances Promise Cancer Treatments",
+          "sources": [
+            "Nature"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "A new chapter in targeting kinase enzymes in cancer",
+              "source": "Nature",
+              "link": "https://www.nature.com/articles/d41586-026-02776-y",
+              "pubDate": "2026-09-29T00:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "new-kinase-targeting-advances-promise-cancer-treatments"
+        },
+        {
+          "representativeTitle": "Academia Advocates Ethical Dissent in PhD Training",
+          "sources": [
+            "Nature"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "PhD training should encourage ethical dissent",
+              "source": "Nature",
+              "link": "https://www.nature.com/articles/d41586-026-03053-8",
+              "pubDate": "2026-09-29T00:00:00.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
           "sentiment": 0,
-          "relevance_score": 8,
+          "relevance_score": 6,
           "importance": 45,
-          "slug": "clam-reveals-two-centuries-of-reef-climate-history"
+          "slug": "academia-advocates-ethical-dissent-in-phd-training"
         },
         {
-          "representativeTitle": "Nanotubes combine heat, electricity, and antioxidants.",
+          "representativeTitle": "Language Preservation Linked to Biodiversity Conservation Efforts Now",
           "sources": [
-            "Phys.org"
+            "Nature"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Dopamine-based nanotubes combine heat, electrical stimulation and antioxidant release for first time",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-09-dopamine-based-nanotubes-combine-electrical.html",
-              "pubDate": "2026-09-28T23:40:08.000Z",
-              "tier": 2
+              "title": "Biodiversity protection must include language preservation",
+              "source": "Nature",
+              "link": "https://www.nature.com/articles/d41586-026-03056-5",
+              "pubDate": "2026-09-29T00:00:00.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
+          "sentiment": 0,
+          "relevance_score": 6,
           "importance": 45,
-          "slug": "nanotubes-combine-heat-electricity-and-antioxidants"
-        },
-        {
-          "representativeTitle": "Hydrogen research advances dark energy investigation methods.",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Hydrogen's distant glow opens new way to investigate dark energy",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-09-hydrogen-distant-dark-energy.html",
-              "pubDate": "2026-09-28T23:00:04.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "hydrogen-research-advances-dark-energy-investigation-methods"
+          "slug": "language-preservation-linked-to-biodiversity-conservation-efforts-now"
         }
       ]
     }
