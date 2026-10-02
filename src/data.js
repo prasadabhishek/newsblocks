@@ -1,10 +1,118 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-02T18:45:16.956Z",
+  "lastUpdated": "2026-10-02T22:53:17.952Z",
   "children": [
     {
       "name": "World",
       "children": [
+        {
+          "representativeTitle": "G7 Releases Oil Amid Trump Export Ban Fears",
+          "sources": [
+            "BBC World",
+            "The Guardian",
+            "France 24",
+            "SCMP",
+            "Euronews",
+            "Le Monde"
+          ],
+          "citationCount": 6,
+          "rawArticles": [
+            {
+              "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T20:25:19.000Z",
+              "tier": 1
+            },
+            {
+              "title": "G7 to release up to 100m barrels of emergency oil and diesel reserves",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/business/2026/oct/02/g7-release-barrels-oil-diesel-reserves-emergency",
+              "pubDate": "2026-10-02T18:52:03.000Z",
+              "tier": 1
+            },
+            {
+              "title": "G7 members will release 100 million barrels of diesel after US threatens export ban",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261002-eu-fully-rejects-us-threat-to-ban-diesel-exports-unless-bloc-releases-more-fuel-stocks",
+              "pubDate": "2026-10-02T11:15:16.000Z",
+              "tier": 1
+            },
+            {
+              "title": "G7 nations agree to release diesel and oil stocks after Trump pressure",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3369626/trump-says-europe-agrees-release-diesel-stocks?utm_source=rss_feed",
+              "pubDate": "2026-10-02T14:51:04.000Z",
+              "tier": 2
+            },
+            {
+              "title": "G7 agrees 100 million-barrel emergency oil release amid US pressure over diesel",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/02/g7-agrees-100-million-barrel-emergency-oil-release-amid-us-pressure-over-diesel",
+              "pubDate": "2026-10-02T14:48:11.000Z",
+              "tier": 2
+            },
+            {
+              "title": "G7 to release '100 million barrels' of diesel and crude oil reserves",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/02/g7-leaders-hold-talks-after-us-pressures-eu-on-fuel-reserves-and-diesel-ban_6758179_4.html",
+              "pubDate": "2026-10-02T13:17:54.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 100,
+          "slug": "g7-releases-oil-amid-trump-export-ban-fears"
+        },
+        {
+          "representativeTitle": "Pilot Reports Attack; Trump Threatens Iran Reprisals.",
+          "sources": [
+            "BBC World",
+            "Al Jazeera",
+            "SCMP",
+            "IBTimes"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Watch: Emotional pilot recounts moment of Flydubai attack",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/c914d43y7xn4o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T08:46:37.000Z",
+              "tier": 1
+            },
+            {
+              "title": "FlyDubai pilot hailed as ‘national hero’ as he describes attack",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/2/flydubai-pilot-hailed-as-national-hero-as-he-describes-attack?traffic_source=rss",
+              "pubDate": "2026-10-02T20:54:49.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Indian pilot hailed as hero recalls Flydubai cockpit attack",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3369612/indian-pilot-hailed-hero-recalls-flydubai-cockpit-attack?utm_source=rss_feed",
+              "pubDate": "2026-10-02T12:14:13.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Pilot Recounts Cockpit Knife Attack In Flydubai Flight. Trump Promises Reprisals If Iran Was Involved.",
+              "source": "IBTimes",
+              "link": "https://www.ibtimes.com/pilot-recounts-cockpit-knife-attack-flydubai-flight-trump-promises-reprisals-if-iran-was-involved-3808165",
+              "pubDate": "2026-10-02T14:38:42.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 80,
+          "slug": "pilot-reports-attack-trump-threatens-iran-reprisals"
+        },
         {
           "representativeTitle": "France sees clashes amid ongoing school protests.",
           "sources": [
@@ -18,7 +126,7 @@ export const newsData = {
               "title": "Riot police clash with students as education protests rage in France",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T17:43:10.000Z",
+              "pubDate": "2026-10-02T21:13:27.000Z",
               "tier": 1
             },
             {
@@ -44,41 +152,80 @@ export const newsData = {
           "slug": "france-sees-clashes-amid-ongoing-school-protests"
         },
         {
-          "representativeTitle": "G7 Releases Oil; Trump Praises European Diesel Deal",
+          "representativeTitle": "Iranian Men Charged Over Suspected Terror Plot in Manchester",
           "sources": [
             "The Guardian",
-            "Al Jazeera"
+            "Sky News",
+            "Le Monde"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "G7 to release 100m barrels from reserves to combat surging diesel prices – as it happened",
+              "title": "Two Iranian men charged over alleged terror plot targeting Manchester’s Jewish community",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/live/2026/oct/02/france-schools-protests-violence-ukraine-kallas-rome-pope-latest-news-updates",
-              "pubDate": "2026-10-02T16:11:12.000Z",
+              "link": "https://www.theguardian.com/uk-news/2026/oct/02/charged-alleged-terror-plot-manchester-jewish-community",
+              "pubDate": "2026-10-02T19:46:59.000Z",
               "tier": 1
             },
             {
-              "title": "G7 to release up to 100m barrels of emergency oil and diesel reserves",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/business/2026/oct/02/g7-release-barrels-oil-diesel-reserves-emergency",
-              "pubDate": "2026-10-02T15:57:13.000Z",
-              "tier": 1
+              "title": "Two Iranian men charged over suspected terror plot targeting Jewish people in Manchester ahead of Yom Kippur",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/two-iranian-men-charged-over-suspected-terror-plot-targeting-jewish-people-in-manchester-ahead-of-yom-kippur-13593409",
+              "pubDate": "2026-10-02T14:36:00.000Z",
+              "tier": 2
             },
             {
-              "title": "G7 to release 100m oil barrels as Trump hails Europe diesel deal",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/2/trump-says-europe-agrees-to-release-massive-amount-diesel-stockpile?traffic_source=rss",
-              "pubDate": "2026-10-02T14:14:18.000Z",
-              "tier": 1
+              "title": "In the UK, two Iranians charged with plotting an attack on Jewish community in Manchester",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/03/in-the-uk-two-iranians-charged-with-plotting-an-attack-on-jewish-community-in-manchester_6758198_4.html",
+              "pubDate": "2026-10-02T22:31:48.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 70,
-          "slug": "g7-releases-oil-trump-praises-european-diesel-deal"
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "iranian-men-charged-over-suspected-terror-plot-in-manchester"
+        },
+        {
+          "representativeTitle": "King Acknowledges Colonial Rule's Difficult Caribbean Past",
+          "sources": [
+            "The Guardian",
+            "SCMP",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "King Charles III to acknowledge ‘darkest days’ of Britain’s colonial rule during Caribbean tour",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/uk-news/2026/oct/02/king-charles-darkest-days-britain-colonial-rule-caribbean-tour",
+              "pubDate": "2026-10-02T19:02:56.000Z",
+              "tier": 1
+            },
+            {
+              "title": "King Charles to acknowledge ‘darkest days’ of colonial rule on Caribbean tour",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3369633/king-charles-acknowledge-darkest-days-colonial-rule-caribbean-tour?utm_source=rss_feed",
+              "pubDate": "2026-10-02T18:11:53.000Z",
+              "tier": 2
+            },
+            {
+              "title": "King Charles III to acknowledge ‘darkest days’ of Britain’s colonial rule during Caribbean tour",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeWhndEJSTWsyenNyLTFoNGFzbV83VHhiZ216amkxRFQwNnBJb3RIRkNsbTJzb245ZFBFamtrZS1uanVza0U3Nl8xZVlpRUp5WWRCd1JCWWdqeDdrSFVvMnh5dDE1WmtFUTUxRlpMNF9aSkt1UUpWZVZfNGIxa19Gci03ODNLbWlhZVRnQV9pSHlSLW9FbWVKcnBMR0pTX05mTGs3YVRPNEZGNTJ3WkNn?oc=5",
+              "pubDate": "2026-10-02T20:52:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "king-acknowledges-colonial-rules-difficult-caribbean-past"
         },
         {
           "representativeTitle": "G7 Nations Plan Major Oil Supply Release",
@@ -100,14 +247,14 @@ export const newsData = {
               "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
               "source": "BBC Business",
               "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T18:43:09.000Z",
+              "pubDate": "2026-10-02T20:25:19.000Z",
               "tier": 2
             },
             {
               "title": "G7 countries to release up to 100 million barrels of diesel and crude oil reserves",
               "source": "Google Stocks",
               "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObmhlRXNIUGtuVXo5aWcyUVJQdk5sakdqb0JzWUZKUTdGTUxhQ0hwcTFBcHl3bW0xUEJ5TE9jcWlxclBrbThEaHFDRHlCb0c3eklaVVJYRE43c2k3T2h1RklEVXBERElZY3dVcFNOamJQcGpCX21naDRGOFVDVkg2R2xTS2Rpay1zUjJId1JVQ0NhQQ?oc=5",
-              "pubDate": "2026-10-02T15:21:45.000Z",
+              "pubDate": "2026-10-02T20:07:34.000Z",
               "tier": 2
             }
           ],
@@ -119,7 +266,7 @@ export const newsData = {
           "slug": "g7-nations-plan-major-oil-supply-release"
         },
         {
-          "representativeTitle": "Student Protests Spark Riots Across France's Streets",
+          "representativeTitle": "Man Charged With Terror Plot Against Farage",
           "sources": [
             "The Guardian",
             "Sky News",
@@ -128,24 +275,24 @@ export const newsData = {
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Fires, fury and hundreds of arrests as France gripped by student protests",
+              "title": "Ann Widdecombe murder suspect charged with planning terror act against Nigel Farage",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/02/student-protests-shut-schools-across-france",
-              "pubDate": "2026-10-02T14:10:21.000Z",
+              "link": "https://www.theguardian.com/uk-news/2026/oct/02/ann-widdecombe-suspect-charged-with-planning-terror-act-against-nigel-farage",
+              "pubDate": "2026-10-02T19:15:01.000Z",
               "tier": 1
             },
             {
-              "title": "Tear gas and fires on French streets as student protests turn violent",
+              "title": "Ann Widdecombe murder suspect charged with preparing terror acts including against Farage",
               "source": "Sky News",
-              "link": "https://news.sky.com/story/tear-gas-and-fires-on-french-streets-as-student-protests-turn-violent-13594370",
-              "pubDate": "2026-10-02T11:40:00.000Z",
+              "link": "https://news.sky.com/story/man-charged-with-preparing-terrorist-acts-against-nigel-farage-13594244",
+              "pubDate": "2026-10-02T06:56:00.000Z",
               "tier": 2
             },
             {
-              "title": "Fires lit on streets across France after student protests force hundreds of schools to close",
+              "title": "Man accused of ex-minister murder charged with preparing terrorist acts against Reform UK's Nigel Farage",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zVXVlVGpoVkVqYV82dDdLOVVpTEtNSE15U3J5WE1OOGw3Vzk0UUttQURMQUZOTWZfZUJrZHBlblF4VTlPVG9MR2R4OWVBSVJ6UHhGQnhn?oc=5",
-              "pubDate": "2026-10-02T15:09:33.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWDRmU2dPN3RqYTA3R2RrQ3pVWkhKampXbllGckJrQUpXRTRqcmpHS2VSTFpSeEV4WXlqbWpXTG1SNFNKYU4xeVFGS0xsLU1xbmRxdVZpVTByMDR1UTFDQXF0S20yRXRZR1YyOUw1d2NMRXhGTllfa3htQWVFYUV2aWdPZUxGazdjX0R1dndxYUNmQlQ3ZU94LWtXbDVrZ0FIeEhJWFVwNG04Z01kU1N1ZExiTU81QWJNc0hiT2hlTjZPVUE?oc=5",
+              "pubDate": "2026-10-02T19:37:21.000Z",
               "tier": 2
             }
           ],
@@ -154,36 +301,87 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 65,
-          "slug": "student-protests-spark-riots-across-frances-streets"
+          "slug": "man-charged-with-terror-plot-against-farage"
         },
         {
-          "representativeTitle": "Pilot Reports Attack; Trump Threatens Iran Reprisals.",
+          "representativeTitle": "Ex-negotiator questions Israel's Gaza war handling.",
           "sources": [
-            "BBC World",
-            "SCMP",
-            "IBTimes"
+            "Al Jazeera"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Watch: Emotional pilot recounts moment of Flydubai attack",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/c914d43y7xn4o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T08:46:37.000Z",
+              "title": "Israel could’ve ended Gaza war, freed captives sooner: Israel ex-negotiator",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/2/israel-couldve-ended-gaza-war-freed-captives-sooner-israel-ex-negotiator?traffic_source=rss",
+              "pubDate": "2026-10-02T21:53:17.000Z",
               "tier": 1
             },
             {
-              "title": "Indian pilot hailed as hero recalls Flydubai cockpit attack",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/middle-east/article/3369612/indian-pilot-hailed-hero-recalls-flydubai-cockpit-attack?utm_source=rss_feed",
-              "pubDate": "2026-10-02T12:14:13.000Z",
-              "tier": 2
+              "title": "Israeli general: Gaza captives could have been freed a year earlier",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/2/israeli-general-gaza-captives-could-have-been-freed-a-year-earlier?traffic_source=rss",
+              "pubDate": "2026-10-02T21:15:58.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 70,
+          "slug": "ex-negotiator-questions-israels-gaza-war-handling"
+        },
+        {
+          "representativeTitle": "Kyiv Mayor Warns Of Intensified Russian Strikes",
+          "sources": [
+            "BBC World",
+            "Euronews"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T15:26:37.000Z",
+              "tier": 1
             },
             {
-              "title": "Pilot Recounts Cockpit Knife Attack In Flydubai Flight. Trump Promises Reprisals If Iran Was Involved.",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/pilot-recounts-cockpit-knife-attack-flydubai-flight-trump-promises-reprisals-if-iran-was-involved-3808165",
-              "pubDate": "2026-10-02T14:38:42.000Z",
+              "title": "Russia 'tearing Kyiv apart', mayor says, as strikes paralyse traffic",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/02/russia-tearing-kyiv-apart-mayor-says-as-strikes-paralyse-traffic",
+              "pubDate": "2026-10-02T19:30:32.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 65,
+          "slug": "kyiv-mayor-warns-of-intensified-russian-strikes"
+        },
+        {
+          "representativeTitle": "Arab Party Leader Forced Out of Israeli Elections",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Arab party leader withdraws from Israeli elections",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/2/arab-party-leader-withdraws-from-israeli-elections?traffic_source=rss",
+              "pubDate": "2026-10-02T19:10:23.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Arab party leader forced to withdraw from Israeli elections",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMjRoNk5vajB0b1M5VTZEZkRlVmFZU1hQZDlQR1FlU1BOc0cwUWxJa3p6bE1LZjZFSnU0cURNSUVBNS1QS0RuTlZmZkY1TjRvUVN5OExSOWp6RVJMdTN6THJGSnhneVQ4eVg3dGdKcmhZWW9xNWt1QWxOMWhjaTg2UjhOZ1RrMFA1TG4ycXZPa1JWNlRaUkxkY1pGdkhNSm1CS0HSAacBQVVfeXFMUDF1NlpFYU9iODVMVVlIWlBZNnRSc1B2ZUh5bGpOVUNaLXRKczlnMGVYSDRKLWhJR21NbFpJQV9RNkZ3c1dSbm03RjM2Z1hObTNNQmptNlJrNXVUNjEwWTRvOGVJbzZMTzhGLWgxdHVoeTFjTVdic29ZS1Q2OVZlYnRySmFsUGFmMnV5cXJzUW5qYVQtMlVoeThGekd5T2FxUEJ3ZU9EeFk?oc=5",
+              "pubDate": "2026-10-02T19:13:56.000Z",
               "tier": 2
             }
           ],
@@ -191,11 +389,41 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 65,
-          "slug": "pilot-reports-attack-trump-threatens-iran-reprisals"
+          "importance": 60,
+          "slug": "arab-party-leader-forced-out-of-israeli-elections"
         },
         {
-          "representativeTitle": "Student Protests Spread Across France Amid Rising Tensions",
+          "representativeTitle": "Ethiopia-Eritrea sever ties amid northern fighting escalation.",
+          "sources": [
+            "BBC World",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T16:08:25.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Ethiopia and Eritrea sever diplomatic ties as northern fighting escalates",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/africa/article/3369512/ethiopia-and-eritrea-sever-diplomatic-ties-northern-fighting-escalates?utm_source=rss_feed",
+              "pubDate": "2026-10-02T03:49:18.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "ethiopia-eritrea-sever-ties-amid-northern-fighting-escalation"
+        },
+        {
+          "representativeTitle": "French high school protests disrupt education across nation.",
           "sources": [
             "France 24",
             "Le Monde"
@@ -217,6 +445,13 @@ export const newsData = {
               "tier": 1
             },
             {
+              "title": "High school protests disrupt 730 schools in France, with new rallies urged",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/education/article/2026/10/02/hundreds-of-french-high-schools-shut-as-student-protests-escalate_6758169_104.html",
+              "pubDate": "2026-10-02T09:15:53.000Z",
+              "tier": 2
+            },
+            {
               "title": "High school student protests spread across France as tensions escalate",
               "source": "Le Monde",
               "link": "https://www.lemonde.fr/en/france/article/2026/10/02/high-school-student-protests-spread-across-france-as-tensions-escalate_6758168_7.html",
@@ -227,84 +462,90 @@ export const newsData = {
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 65,
-          "slug": "student-protests-spread-across-france-amid-rising-tensions"
-        },
-        {
-          "representativeTitle": "Ebola Toll Rises in Congo; Outbreak Persists",
-          "sources": [
-            "Al Jazeera",
-            "Euronews"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Ebola death toll surpasses 4,000 as DR Congo struggles to suppress outbreak",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/2/ebola-death-toll-surpasses-4000-as-dr-congo-struggles-to-suppress-outbreak?traffic_source=rss",
-              "pubDate": "2026-10-02T12:56:18.000Z",
-              "tier": 1
-            },
-            {
-              "title": "DR Congo Ebola outbreak killed more than 4,000: official figures",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/02/dr-congo-ebola-outbreak-killed-more-than-4000-official-figures",
-              "pubDate": "2026-10-02T16:40:42.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
+          "relevance_score": 6,
           "importance": 60,
-          "slug": "ebola-toll-rises-in-congo-outbreak-persists"
+          "slug": "french-high-school-protests-disrupt-education-across-nation"
         },
         {
-          "representativeTitle": "Israeli barrier restricts West Bank Palestinian water access.",
+          "representativeTitle": "Latin America favors China's influence over US.",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Israeli barrier cuts off water to West Bank Palestinians before elections",
+              "title": "Latin America sees China as more positive global influence than US: Poll",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/2/israeli-barrier-cuts-off-water-to-west-bank-palestinians-before-elections?traffic_source=rss",
-              "pubDate": "2026-10-02T18:18:42.000Z",
+              "link": "https://www.aljazeera.com/news/2026/10/2/latin-america-sees-china-as-more-positive-global-influence-than-us-poll?traffic_source=rss",
+              "pubDate": "2026-10-02T20:52:29.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "latin-america-favors-chinas-influence-over-us"
+        },
+        {
+          "representativeTitle": "Ethiopian Army Pushes Back Tigrayan Rebel Forces Now",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ethiopian army pushes back Tigrayan rebels",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/tv-shows/eye-on-africa/20261002-ethiopian-army-pushes-back-tigrayan-rebels",
+              "pubDate": "2026-10-02T20:46:00.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "israeli-barrier-restricts-west-bank-palestinian-water-access"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ethiopian-army-pushes-back-tigrayan-rebel-forces-now"
+        },
+        {
+          "representativeTitle": "Arctic Routes Boom Amid Conflict and Climate Change",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Arctic sea routes boom as Gulf war and global warming divert shipping",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/2e0eb698-d4d3-4bcc-927a-2997df7709be?syn-25a6b1a6=1",
+              "pubDate": "2026-10-02T20:00:05.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "arctic-routes-boom-amid-conflict-and-climate-change"
         },
         {
           "representativeTitle": "Trump Claims Europe Agreed on Diesel Supply Release",
           "sources": [
             "Al Jazeera",
-            "SCMP",
             "IBTimes"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Trump vs Europe as US presses for release of emergency diesel stocks",
+              "title": "Trump says Europe agreed to release ‘massive amount’ of diesel reserves",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/2/trump-vs-europe-as-us-presses-for-release-of-emergency-diesel-stocks?traffic_source=rss",
-              "pubDate": "2026-10-02T13:16:44.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/2/aje-onl-nf_ig_thumb_diesel-021026?traffic_source=rss",
+              "pubDate": "2026-10-02T19:01:45.000Z",
               "tier": 1
-            },
-            {
-              "title": "G7 nations agree on diesel, oil stocks release after US pressure",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3369626/trump-says-europe-agrees-release-diesel-stocks?utm_source=rss_feed",
-              "pubDate": "2026-10-02T14:51:04.000Z",
-              "tier": 2
             },
             {
               "title": "Trump Claims European Countries Agreed To Release Diesel Stocks To Address Skyrocketing Prices",
@@ -318,244 +559,8 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 55,
-          "slug": "trump-claims-europe-agreed-on-diesel-supply-release"
-        },
-        {
-          "representativeTitle": "G7 Releases Diesel Amid US Export Ban Threat",
-          "sources": [
-            "France 24",
-            "Le Monde"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "G7 members will release 100 million barrels of diesel after US threatens export ban",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20261002-eu-fully-rejects-us-threat-to-ban-diesel-exports-unless-bloc-releases-more-fuel-stocks",
-              "pubDate": "2026-10-02T11:15:16.000Z",
-              "tier": 1
-            },
-            {
-              "title": "G7 to release '100 million barrels' of fuel after US pressures EU on fuel crisis",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/02/g7-leaders-hold-talks-after-us-pressures-eu-on-fuel-reserves-and-diesel-ban_6758179_4.html",
-              "pubDate": "2026-10-02T13:17:54.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "g7-releases-diesel-amid-us-export-ban-threat"
-        },
-        {
-          "representativeTitle": "Israel Court Ruling Impacts Arab Political Participation Now",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Israel’s Supreme Court overturns election panel ban on Arab parties",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/2/israels-supreme-court-overturns-election-panel-ban-on-arab-parties?traffic_source=rss",
-              "pubDate": "2026-10-02T18:11:37.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "israel-court-ruling-impacts-arab-political-participation-now"
-        },
-        {
-          "representativeTitle": "Protests Shut French Schools Amid Rising Violence Concerns",
-          "sources": [
-            "Al Jazeera",
-            "SCMP"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Protests shutter hundreds of French schools as violence flares",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/2/protests-shutter-hundreds-of-french-schools-as-violence-flares?traffic_source=rss",
-              "pubDate": "2026-10-02T13:12:45.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Hundreds of French high schools shut as new violence erupts",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3369582/hundreds-french-high-schools-shut-new-violence-erupts?utm_source=rss_feed",
-              "pubDate": "2026-10-02T09:50:26.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "protests-shut-french-schools-amid-rising-violence-concerns"
-        },
-        {
-          "representativeTitle": "French Bond Crisis Deepens, Signaling Economic Strain",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "France’s Bond Crisis Deepens",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-02/france-s-bond-crisis-deepens-video",
-              "pubDate": "2026-10-02T16:38:04.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "french-bond-crisis-deepens-signaling-economic-strain"
-        },
-        {
-          "representativeTitle": "Scandal disrupts Brazilian presidential election dynamics.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How the Banco Master scandal injected chaos into Brazil’s presidential race",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/features/longform/2026/10/2/how-the-banco-master-scandal-injected-chaos-into-brazils-presidential-race?traffic_source=rss",
-              "pubDate": "2026-10-02T16:36:38.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "scandal-disrupts-brazilian-presidential-election-dynamics"
-        },
-        {
-          "representativeTitle": "Putin Conducts Military Drills Near Land, Caspian Sea",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Putin Views Military Drills Against Aggression on Land, Caspian",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-02/putin-views-military-drills-against-aggression-on-land-caspian",
-              "pubDate": "2026-10-02T16:35:57.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "putin-conducts-military-drills-near-land-caspian-sea"
-        },
-        {
-          "representativeTitle": "EU links Ukraine funding to required reforms.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "EU pushes Ukraine for further reforms to unlock funding",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/bab346fd-7839-4812-ab27-19309e317938?syn-25a6b1a6=1",
-              "pubDate": "2026-10-02T16:31:45.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "eu-links-ukraine-funding-to-required-reforms"
-        },
-        {
-          "representativeTitle": "Taiwan Coast Guard Confronts Chinese Fishing Vessels At Sea",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Taiwan Coast Guard confronts Chinese fishing boats in Dongsha waters",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/2/aje-onl-nf_taiwan-coast-guard-fires-water-cannon-on-chinese-021026?traffic_source=rss",
-              "pubDate": "2026-10-02T16:23:02.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "taiwan-coast-guard-confronts-chinese-fishing-vessels-at-sea"
-        },
-        {
-          "representativeTitle": "Israel Court Overturns Ban on Arab Political Parties",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Israel’s top court overturns ban of Arab parties in upcoming election",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/9bbcd715-1417-49b6-bc56-1745f17cd674?syn-25a6b1a6=1",
-              "pubDate": "2026-10-02T14:32:29.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "israel-court-overturns-ban-on-arab-political-parties"
-        },
-        {
-          "representativeTitle": "Activists Threaten Factory Guards With Weapons, Court Hears",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Palestine Action activists used whips and hammers to threaten guards at arms factory, court hears",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/oct/02/palestine-action-activists-whips-hammers-guards-elbit-bristol",
-              "pubDate": "2026-10-02T17:18:37.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
           "importance": 50,
-          "slug": "activists-threaten-factory-guards-with-weapons-court-hears"
+          "slug": "trump-claims-europe-agreed-on-diesel-supply-release"
         },
         {
           "representativeTitle": "US backs down; G7 agrees on oil export release.",
@@ -568,7 +573,7 @@ export const newsData = {
               "title": "US backs down from fuel export ban threat as G7 agrees to release 100mn barrels",
               "source": "FT International",
               "link": "https://www.ft.com/content/97200b07-755c-40ce-a50b-b51666bd4b7e?syn-25a6b1a6=1",
-              "pubDate": "2026-10-02T16:20:17.000Z",
+              "pubDate": "2026-10-02T20:31:49.000Z",
               "tier": 1
             }
           ],
@@ -578,6 +583,28 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "us-backs-down-g7-agrees-on-oil-export-release"
+        },
+        {
+          "representativeTitle": "French Media React to Le Pen's Outlet Comments",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "French media respond to M. Le Pen’s ‘Kevlar suit’ comments against investigative outlet",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/france/20261002-french-media-react-to-m-le-pen-s-kevlar-suit-comments-against-investigative-press-outlet",
+              "pubDate": "2026-10-02T21:37:11.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "french-media-react-to-le-pens-outlet-comments"
         },
         {
           "representativeTitle": "US Halts Consular Services in Brazil Near Elections",
@@ -602,72 +629,6 @@ export const newsData = {
           "slug": "us-halts-consular-services-in-brazil-near-elections"
         },
         {
-          "representativeTitle": "US Pressure on Europe Over Diesel Reserves Threat",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US pressures Europe to release diesel reserves as Trump threatens export ban",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T08:54:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "us-pressure-on-europe-over-diesel-reserves-threat"
-        },
-        {
-          "representativeTitle": "Pilot Recalls Cockpit Attack Incident During Flight",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Indian Pilot Recalls FlyDubai Cockpit Attack",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-02/indian-pilot-recalls-flydubai-cockpit-attack-video",
-              "pubDate": "2026-10-02T18:03:34.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "pilot-recalls-cockpit-attack-incident-during-flight"
-        },
-        {
-          "representativeTitle": "Spanish Right Blocks Housing Plans Amid Growing Protests",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Spanish right wing votes down housing crisis plans as protest movement grows",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/02/spanish-right-wing-votes-down-housing-crisis-plans-protest-movement-grows",
-              "pubDate": "2026-10-02T16:27:47.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "spanish-right-blocks-housing-plans-amid-growing-protests"
-        },
-        {
           "representativeTitle": "Coast Guard Halts Fuel Shipments Heading To Cuba",
           "sources": [
             "NY Times"
@@ -678,7 +639,7 @@ export const newsData = {
               "title": "Coast Guard Says It Stopped Ships Carrying Fuel to Cuba",
               "source": "NY Times",
               "link": "https://www.nytimes.com/2026/10/02/world/americas/coast-guard-cuba-ships-oil.html",
-              "pubDate": "2026-10-02T13:00:08.000Z",
+              "pubDate": "2026-10-02T20:32:05.000Z",
               "tier": 1
             }
           ],
@@ -688,6 +649,50 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "coast-guard-halts-fuel-shipments-heading-to-cuba"
+        },
+        {
+          "representativeTitle": "Argentina Offers Citizenship Via Foreign Cash Program",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Argentina’s ‘Golden Passport’ Program Offers Citizenship in Exchange for Foreign Cash",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/02/world/americas/argentina-citizenship-golden-passport-money.html",
+              "pubDate": "2026-10-02T20:17:54.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "argentina-offers-citizenship-via-foreign-cash-program"
+        },
+        {
+          "representativeTitle": "Pacific Hurricane Strengthens, Threatening Coastal Regions Now",
+          "sources": [
+            "ABC News US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Nolo strengthens to a hurricane again in the Pacific Ocean",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/nolo-strengthens-hurricane-pacific-ocean-136961624",
+              "pubDate": "2026-10-02T22:27:17.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "pacific-hurricane-strengthens-threatening-coastal-regions-now"
         },
         {
           "representativeTitle": "Slovenian domain sees surge after Trump order.",
@@ -717,102 +722,96 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Execution Attempt Sparks Renewed Death Penalty Debate",
+          "representativeTitle": "Woman Unconscious After Attempted Execution; Hospitalized Now",
           "sources": [
             "BBC US",
             "Washington Post",
-            "NPR",
-            "ABC News Top"
+            "NBC News",
+            "ABC News Top",
+            "Google US"
           ],
-          "citationCount": 4,
+          "citationCount": 5,
           "rawArticles": [
+            {
+              "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T20:32:07.000Z",
+              "tier": 1
+            },
             {
               "title": "What happened in the failed execution of Christa Pike",
               "source": "BBC US",
               "link": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T17:35:10.000Z",
+              "pubDate": "2026-10-02T22:51:50.000Z",
               "tier": 1
             },
             {
               "title": "What to know about Christa Pike, her failed execution and what happens next",
               "source": "Washington Post",
               "link": "https://www.washingtonpost.com/nation/2026/10/02/what-know-about-christa-pike-her-botched-execution-what-happens-next/",
-              "pubDate": "2026-10-02T10:32:58.000Z",
+              "pubDate": "2026-10-02T20:27:34.000Z",
               "tier": 1
             },
             {
-              "title": "Failed 'torturous' execution attempt on Christa Pike reignites death penalty debate",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/10/02/nx-s1-5988832/christa-pike-reignites-death-penalty-debate",
-              "pubDate": "2026-10-02T10:25:03.000Z",
+              "title": "Christa Pike unconscious and on a ventilator after failed execution",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/now/video/christa-pike-unconscious-and-on-a-ventilator-after-failed-execution-270936133692",
+              "pubDate": "2026-10-02T19:55:47.000Z",
               "tier": 2
             },
             {
-              "title": "Mother of Christa Pike's victim speaks out following botched execution",
+              "title": "Christa Pike unconscious and on a ventilator at Nashville hospital, her lawyers say",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/christa-pike-unconscious-ventilator-nashville-hospital-lawyers-say-rcna601195",
+              "pubDate": "2026-10-02T19:03:12.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Christa Pike unconscious and on ventilator after botched execution: Attorneys",
               "source": "ABC News Top",
-              "link": "https://abcnews.com/US/mother-christa-pikes-victim-speaks-botched-execution-broke/story?id=136950906",
-              "pubDate": "2026-10-02T17:53:15.000Z",
+              "link": "https://abcnews.com/US/execution-lone-woman-tennessees-death-row-paused-federal/story?id=136893331",
+              "pubDate": "2026-10-02T20:35:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Christa Pike Unconscious and on Ventilator After Execution Attempt",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdmRhUTluMzZDb3dycS03Rm9RbFE2U3BsN3JxRDNQYlljOWNtMzk4bHdrUTI2OGpfX3VjQnZLQkRINGYtZEJpTFFGejlVTEZNNDZGZnB4ay1yakQ3dnhrZG1XcWp2T2tMQ05PV2dudm5LMkd1dVpQX09tbktwYjNxYjV0MA?oc=5",
+              "pubDate": "2026-10-02T21:45:13.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 70,
-          "slug": "execution-attempt-sparks-renewed-death-penalty-debate"
-        },
-        {
-          "representativeTitle": "Governor Criticizes Cornell Inquiry's Official Failures",
-          "sources": [
-            "BBC US",
-            "BBC World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T17:44:08.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T17:44:08.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
+          "sentiment": -0.9,
           "relevance_score": 8,
-          "importance": 70,
-          "slug": "governor-criticizes-cornell-inquirys-official-failures"
+          "importance": 95,
+          "slug": "woman-unconscious-after-attempted-execution-hospitalized-now"
         },
         {
-          "representativeTitle": "Death Penalty Debate Faces Questions After Failed Execution",
+          "representativeTitle": "Tennessee Woman Unconscious After Botched Execution Attempt",
           "sources": [
             "BBC World",
+            "Al Jazeera",
             "SCMP",
+            "Sky News",
             "Le Monde"
           ],
-          "citationCount": 3,
+          "citationCount": 5,
           "rawArticles": [
             {
-              "title": "What happened in the failed execution of Christa Pike",
+              "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
               "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T17:35:10.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T20:32:07.000Z",
               "tier": 1
             },
             {
-              "title": "What we know about Christa Pike’s condition after failed execution",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/cwe8e82jgm8po?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-01T20:09:34.000Z",
+              "title": "Christa Pike unconscious, on ventilator after botched execution: Lawyers",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/2/christa-pike-unconscious-on-ventilator-after-botched-execution-lawyers?traffic_source=rss",
+              "pubDate": "2026-10-02T20:57:32.000Z",
               "tier": 1
             },
             {
@@ -823,10 +822,17 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "After failed execution of Christa Pike, questions loom amid impossible US death penalty debate",
+              "title": "Death row inmate unconscious and on ventilator after botched execution, lawyers say",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/christa-pike-death-row-inmate-unconscious-and-on-ventilator-after-botched-execution-lawyers-say-13594513",
+              "pubDate": "2026-10-02T19:31:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "After botched Tennessee execution, Christa Pike on a ventilator and unconscious",
               "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/02/after-failed-execution-of-christa-pike-questions-loom-amid-impossible-us-death-penalty-debate_6758184_4.html",
-              "pubDate": "2026-10-02T14:30:12.000Z",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/02/after-botched-tennessee-execution-christa-pike-on-a-ventilator-and-unconscious_6758196_4.html",
+              "pubDate": "2026-10-02T20:58:59.000Z",
               "tier": 2
             }
           ],
@@ -834,8 +840,112 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 65,
-          "slug": "death-penalty-debate-faces-questions-after-failed-execution"
+          "importance": 75,
+          "slug": "tennessee-woman-unconscious-after-botched-execution-attempt"
+        },
+        {
+          "representativeTitle": "Governor Appoints Prosecutor to Investigate University Allegations",
+          "sources": [
+            "Washington Post",
+            "ABC News US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "What to know about the Cornell University rape allegations",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/education/2026/10/02/what-know-about-cornell-university-rape-allegations/",
+              "pubDate": "2026-10-02T18:51:39.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Governor slams district attorney, Cornell police on handling of rape allegations",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/education/2026/10/02/new-york-governor-slams-district-attorney-over-handling-cornell-rape-allegations/",
+              "pubDate": "2026-10-02T16:36:39.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Documents detail Cornell investigation into allegations of rape at fraternity house",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/education/2026/10/01/unsealed-documents-detail-cornell-investigation-into-alleged-rape-fraternity-house/",
+              "pubDate": "2026-10-02T03:50:09.000Z",
+              "tier": 1
+            },
+            {
+              "title": "New York governor appoints special prosecutor to oversee investigation of Cornell University gang rape allegations",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/new-york-governor-appoints-special-prosecutor-oversee-investigation-136937240",
+              "pubDate": "2026-10-02T03:27:23.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 75,
+          "slug": "governor-appoints-prosecutor-to-investigate-university-allegations"
+        },
+        {
+          "representativeTitle": "FAA Clears 737 MAX Software Glitch Safety Concerns",
+          "sources": [
+            "CNBC Economy",
+            "WSJ US Business"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "FAA says Boeing 737 Max software glitch not a flight-safety issue",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/10/02/faa-says-boeing-737-max-10-software-glitch-not-a-flight-safety-issue.html",
+              "pubDate": "2026-10-02T19:19:15.000Z",
+              "tier": 1
+            },
+            {
+              "title": "FAA Says 737 MAX Software Glitch Doesn’t Pose Safety Issue",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/airlines/faa-determines-737-max-software-glitch-doesnt-pose-safety-issue-2fed3394?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-10-02T21:29:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "faa-clears-737-max-software-glitch-safety-concerns"
+        },
+        {
+          "representativeTitle": "FAA Dismisses Boeing Glitch as Non-Safety Concern",
+          "sources": [
+            "Bloomberg Markets",
+            "Google Stocks"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "FAA Says Boeing 737 Max Computer Glitch Is Not Safety Issue",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-02/faa-says-737-max-computer-glitch-is-not-safety-issue-video",
+              "pubDate": "2026-10-02T20:36:17.000Z",
+              "tier": 1
+            },
+            {
+              "title": "FAA Says 737 MAX Software Glitch Doesn’t Pose Safety Issue",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZmVBejcxQzFwWk5mem1lejJ6YVJrTGNNTEt5VWRNbnZ0cUdMWU9VNHhDalVHdFJWRmItdlVRcDNHN3p2ZjVXOUE2TDVldzA1RlUxbXpNZEVlUk4wVlVfZlNTemtiY2tjNUdJQWZoNXQ0VEJCVFBRcXNWZmFEWW9UM2tfLUstTDFoWmtmODZ3aFFiNEJzRHRJQ1QySnlWbXRiLUJQSV9PMlR1UmVGTkRj?oc=5",
+              "pubDate": "2026-10-02T21:29:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "faa-dismisses-boeing-glitch-as-non-safety-concern"
         },
         {
           "representativeTitle": "Governor Vows Action Over Rape Allegations Loophole",
@@ -898,7 +1008,37 @@ export const newsData = {
           "slug": "governor-criticizes-rape-case-appoints-special-prosecutor"
         },
         {
-          "representativeTitle": "Update on Christa Pike's Condition Following Procedure",
+          "representativeTitle": "Trump expected to appoint Clayton as AI leader.",
+          "sources": [
+            "Al Jazeera",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Trump to name intelligence chief Jay Clayton as AI tsar: Reports",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/2/reports-trump-to-name-intel-chief-clayton-as-ai-tsar?traffic_source=rss",
+              "pubDate": "2026-10-02T16:06:15.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump expected to name Jay Clayton as AI tsar",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3369639/trump-expected-name-jay-clayton-ai-tsar?utm_source=rss_feed",
+              "pubDate": "2026-10-02T22:41:49.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "trump-expected-to-appoint-clayton-as-ai-leader"
+        },
+        {
+          "representativeTitle": "Ex-Congressman Sentenced Ten Years in Venezuela Case",
           "sources": [
             "BBC US",
             "Google US"
@@ -906,24 +1046,17 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Christa Pike in critical condition after surviving two lethal injections, lawyer says",
+              "title": "Ex-US congressman sentenced to 10 years in prison for $50m lobbying scheme",
               "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T11:06:10.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/crz98wnx4n1wo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T21:05:03.000Z",
               "tier": 1
             },
             {
-              "title": "What we know about Christa Pike’s condition after failed execution",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/videos/cwe8e82jgm8po?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-01T20:09:34.000Z",
-              "tier": 1
-            },
-            {
-              "title": "What’s next for Christa Pike after surviving lethal injection",
+              "title": "Former Florida congressman David Rivera sentenced to 10 years in Venezuela lobbying case",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qTUljNl9rOVhfNGRmUGtwQ3VaeGRaN0k0b0FoejFKWlJ4MFVSd2pPTmlwMHRxemg5RXFZWFdjNkVmR09vNmhwLU1HbWoydk5zYnI3TUdlekE0MHpkaFdOQnE0QlpyTVhFWkR0ZDUxbTJtVFZWRVE?oc=5",
-              "pubDate": "2026-10-02T10:00:46.000Z",
+              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYmJabGUzTVJnNkxSVDNoX2tRSGpRdWpZTktELTE0ckIzTmdMQkJPMmk5Qm1lN3NIU3pjb2dVT1MxSHpHeFdBZ0tQc21TZzl3MC1GZV9fNHh0VHJDWDhGVjJwSGVWcmVSeFJSeHdadEdmVF9FeWhIT1o5OWk5Z0FxNFRyVk1YcUpWcFgyRVVqLUhDNGs?oc=5",
+              "pubDate": "2026-10-02T21:49:43.000Z",
               "tier": 2
             }
           ],
@@ -931,52 +1064,142 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 60,
-          "slug": "update-on-christa-pikes-condition-following-procedure"
+          "importance": 50,
+          "slug": "ex-congressman-sentenced-ten-years-in-venezuela-case"
         },
         {
-          "representativeTitle": "Pension Triple Lock Scrapping Proposed Before Election",
+          "representativeTitle": "Historic Hawaiian Sea Arch Collapses Into Ocean Waters",
           "sources": [
-            "The Guardian"
+            "BBC US",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Hawaii's iconic 550-year-old Hōlei Sea Arch collapses",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/crd6dy4xepgyo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T21:00:41.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Hawaii's iconic 500-year-old Hōlei Sea Arch has collapsed into the sea",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vQnE3NVFENU9GcFhoOUZYUXRXRk1qUHJ4RHdmQi1vSlRvVWlMak90MGdRUklfZXNLSXpiczlMbW5uaTBDamZGOG5QTjhmRE1WaXZrUE9wSkVaNlk?oc=5",
+              "pubDate": "2026-10-02T21:00:41.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "historic-hawaiian-sea-arch-collapses-into-ocean-waters"
+        },
+        {
+          "representativeTitle": "ICE Allegedly Storing Protester Photos in Palantir Database",
+          "sources": [
+            "Wired"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Burnham to pass law scrapping pension triple lock before next election",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/oct/02/burnham-law-pension-triple-lock",
-              "pubDate": "2026-10-02T16:39:11.000Z",
+              "title": "ICE Has Been Dumping Protester Photos Into a Palantir Database",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/ice-has-been-dumping-protester-photos-into-a-palantir-database/",
+              "pubDate": "2026-10-02T19:52:36.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Technology",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "pension-triple-lock-scrapping-proposed-before-election"
+          "slug": "ice-allegedly-storing-protester-photos-in-palantir-database"
         },
         {
-          "representativeTitle": "Job Growth Slows Amid Rising Unemployment Before Midterms",
+          "representativeTitle": "Unsealed Footage Shows Luigi Mangione's Arrest Details",
           "sources": [
-            "Al Jazeera"
+            "BBC US",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Newly released video shows Luigi Mangione’s arrest",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/videos/cmewelkydwwyo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T20:37:34.000Z",
+              "tier": 1
+            },
+            {
+              "title": "First on CNN: Newly unsealed footage shows Luigi Mangione’s arrest",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zdFF1bXhBZUFsM3MwcWhDcVQ1em5sVXg0ZjNlaFRfR2VObTFjazE5ZFM0Vy13bG1rbDFWNDY0VTVQWHVsd1p5NjVhQXdtVDBOV3R1a3JKNzdUYVNsV2xFWHItTU1SRW90MHRLeGo2cTRVa3JPekxV?oc=5",
+              "pubDate": "2026-10-02T12:00:46.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "unsealed-footage-shows-luigi-mangiones-arrest-details"
+        },
+        {
+          "representativeTitle": "Governor Criticizes Cornell Inquiry's Official Failures",
+          "sources": [
+            "BBC US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US adds just 29,000 jobs as unemployment rises before midterm elections",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/economy/2026/10/2/us-job-growth-slows-as-unemployment-rises-before-midterm-elections?traffic_source=rss",
-              "pubDate": "2026-10-02T16:20:46.000Z",
+              "title": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T17:44:08.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "job-growth-slows-amid-rising-unemployment-before-midterms"
+          "slug": "governor-criticizes-cornell-inquirys-official-failures"
+        },
+        {
+          "representativeTitle": "Police Knew Rapist's Identity; Prosecution Failed",
+          "sources": [
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Police knew who her rapist was. The law kept them from prosecuting him for the attack.",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/ohio-rape-dna-statute-limitations-rcna600394",
+              "pubDate": "2026-10-02T19:28:13.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Police knew who her rapist was. The law kept them from prosecuting him for the attack.",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZUoxdk5jY0Myek9mWFhuZU1tN1NFUzFYVHlKZDVVa0lDRGNUR3FTcDJHbTVHTmJJS2QyQl9SRmVZNVF1S3AyeTVSbWpVLV9JaVkxSElKandCMERhR1FiYkhwbXR6TVdvSHNHMDZxY19iVGZRVE1QOFh1QVZWd3puX0ZWazlNQURP?oc=5",
+              "pubDate": "2026-10-02T19:28:13.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "police-knew-rapists-identity-prosecution-failed"
         },
         {
           "representativeTitle": "Job Market Slowdown Looms Before Midterm Elections",
@@ -1001,48 +1224,92 @@ export const newsData = {
           "slug": "job-market-slowdown-looms-before-midterm-elections"
         },
         {
-          "representativeTitle": "Democrats Criticize Trump's Economy Amid Job Slowdown",
+          "representativeTitle": "DOJ drops probe into former Fed Chair Powell.",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Top Democrats slam ‘Trump’s failing economic agenda’ after weaker-than-expected jobs growth – US politics live",
+              "title": "DoJ declines to reopen investigation into former Fed chair Jay Powell",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/live/2026/oct/02/cornell-university-leticia-james-christa-pike-death-penalty-donald-trump-us-jobs-latest-news-updates",
-              "pubDate": "2026-10-02T18:28:49.000Z",
+              "link": "https://www.theguardian.com/business/2026/oct/02/doj-fed-chair-jerome-powell-investigation",
+              "pubDate": "2026-10-02T22:32:21.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "democrats-criticize-trumps-economy-amid-job-slowdown"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "doj-drops-probe-into-former-fed-chair-powell"
         },
         {
-          "representativeTitle": "Governor Criticizes Police and DA Over Rape Case",
+          "representativeTitle": "FDA Finds Cyclospora at Mexican Farm Inspection",
           "sources": [
-            "Washington Post"
+            "NY Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Governor slams district attorney, Cornell police on handling of rape allegations",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/education/2026/10/02/new-york-governor-slams-district-attorney-over-handling-cornell-rape-allegations/",
-              "pubDate": "2026-10-02T16:36:39.000Z",
+              "title": "F.D.A. Found Cyclospora During Taylor Farms Inspection in Mexico",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/02/health/cyclospora-taylor-farms-mexico.html",
+              "pubDate": "2026-10-02T22:25:23.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "governor-criticizes-police-and-da-over-rape-case"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "fda-finds-cyclospora-at-mexican-farm-inspection"
+        },
+        {
+          "representativeTitle": "Police Bodycam Captures Arrest at Local McDonald's",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Police bodycam shows Luigi Mangione arrest at Pennsylvania McDonald’s",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/2/police-bodycam-shows-luigi-mangione-arrest-at-pennsylvania?traffic_source=rss",
+              "pubDate": "2026-10-02T21:59:11.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "police-bodycam-captures-arrest-at-local-mcdonalds"
+        },
+        {
+          "representativeTitle": "Former Official's Email Address Exposed Amid Scrutiny",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Pam Bondi’s Secret DOJ Email Address Revealed",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-02/pam-bondi-s-secret-doj-email-address-revealed-video",
+              "pubDate": "2026-10-02T21:47:42.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "former-officials-email-address-exposed-amid-scrutiny"
         },
         {
           "representativeTitle": "Mortgage Issues Pose Risk to Federal Reserve, US Economy",
@@ -1065,6 +1332,50 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "mortgage-issues-pose-risk-to-federal-reserve-us-economy"
+        },
+        {
+          "representativeTitle": "Justice Dept Drops Probe Into Fed Chair Powell",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US justice department will not reopen criminal probe of Fed’s Jay Powell",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/887e90a5-8456-4eba-9ed0-205c873d4846?syn-25a6b1a6=1",
+              "pubDate": "2026-10-02T21:03:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "justice-dept-drops-probe-into-fed-chair-powell"
+        },
+        {
+          "representativeTitle": "Historic Hawaiian Sea Arch Collapses After Centuries Standing",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hawaii's iconic 550-year-old Hōlei Sea Arch collapses",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/crd6dy4xepgyo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T21:00:41.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "historic-hawaiian-sea-arch-collapses-after-centuries-standing"
         },
         {
           "representativeTitle": "Students Protest Alleged Sexual Assault at Cornell University",
@@ -1118,6 +1429,58 @@ export const newsData = {
           "slug": "weak-jobs-report-puts-pressure-on-trump-gop"
         },
         {
+          "representativeTitle": "Cornell Rape Allegations Spark Campus Controversy Amid Accusations",
+          "sources": [
+            "Fox News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Inside explosive Cornell rape allegations: 7 men accused, conflicting accounts and a political firestorm",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/us/inside-explosive-cornell-rape-allegations-7-men-accused-conflicting-accounts-political-firestorm",
+              "pubDate": "2026-10-02T22:22:28.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "cornell-rape-allegations-spark-campus-controversy-amid-accusations"
+        },
+        {
+          "representativeTitle": "Judge Halts Border Wall Construction in Texas Region",
+          "sources": [
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Judge temporarily blocks border wall construction in Texas’ Big Bend region",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Politics/wireStory/judge-temporarily-blocks-border-wall-construction-texas-big-136961010",
+              "pubDate": "2026-10-02T22:28:17.000Z",
+              "tier": 2
+            },
+            {
+              "title": "A small Texas town stopped Trump’s border wall construction – for now",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWEQ5Mk5nYW5KemMyb2ZWajBIanRfWWxNUmJINkRHV000YVlDWi1QM0tDVVo1RWltNVFFZ3V2UU5OQ3g0ZGNtOHJydmFfSHViemNobTBydUNLUzh3aG5qbWlaQUl4b19aYmxXRVdIeVRHRzRySElyZk1hRzhNVGliMm5IeHBPX2J4T05pWA?oc=5",
+              "pubDate": "2026-10-02T15:07:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "judge-halts-border-wall-construction-in-texas-region"
+        },
+        {
           "representativeTitle": "Bears Killed After Montana Home Encounter Spike",
           "sources": [
             "Washington Post"
@@ -1138,36 +1501,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "bears-killed-after-montana-home-encounter-spike"
-        },
-        {
-          "representativeTitle": "Governor Appoints Prosecutor to Investigate University Allegations",
-          "sources": [
-            "ABC News US",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "New York governor appoints special prosecutor to oversee investigation of Cornell University gang rape allegations",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/new-york-governor-appoints-special-prosecutor-oversee-investigation-136937240",
-              "pubDate": "2026-10-02T03:27:23.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Officials giving update on Cornell University rape investigation",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03NUk4bkNRTGtQLUk5dGtDcWx5cEFZeHdRX05IUjVBYkpfWlk5Mjd3aGJjTU5FZzVCVHRwTlBuMnB0N01vVE5EVXoyUjNiMGxwRFR2U25B?oc=5",
-              "pubDate": "2026-10-02T16:27:46.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "governor-appoints-prosecutor-to-investigate-university-allegations"
         },
         {
           "representativeTitle": "Trump's AI Strategy Tested Tech Industry Loyalty",
@@ -1192,160 +1525,26 @@ export const newsData = {
           "slug": "trumps-ai-strategy-tested-tech-industry-loyalty"
         },
         {
-          "representativeTitle": "GOP Withdraws Support From North Carolina Senate Race",
+          "representativeTitle": "Bodycam Footage Shows Arrest Incident at McDonald's",
           "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "GOP super PAC pauses spending in North Carolina Senate race, shifting money to Kansas",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/gop-super-pac-pauses-spending-north-carolina-senate-race-shift-kansas-rcna601134",
-              "pubDate": "2026-10-02T16:24:04.000Z",
-              "tier": 2
-            },
-            {
-              "title": "As Prospects Dim, G.O.P. Pulls Money Out of North Carolina Senate Race",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMEJoX3hkdEhacjlWcHdRbF93WjFqMFM2NXFMb3I3eGI2Yl9NU3NOOEJfTDk1RzhsYzFRaU4wZXh5QmIwSVFGcERnajVCV1duRVhxQzBCbnotRl9FcHF5bHlNNElUckkyVXE0RHZtdnRmbkVfMmpEYXF2ZHZUOWg5MV9GYVZMVEhreGlhUkNzbkwzckhMQ3Nnek9n?oc=5",
-              "pubDate": "2026-10-02T17:54:36.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "gop-withdraws-support-from-north-carolina-senate-race"
-        },
-        {
-          "representativeTitle": "White Nationalism's Appeal Exceeds Simple Partisan Politics",
-          "sources": [
-            "Phys.org"
+            "Washington Post"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "White nationalism's appeal runs deeper than partisan politics",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-white-nationalism-appeal-deeper-partisan.html",
-              "pubDate": "2026-10-02T16:40:11.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "white-nationalisms-appeal-exceeds-simple-partisan-politics"
-        },
-        {
-          "representativeTitle": "Video shows police arrest of Luigi Mangione.",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "‘That’s 100% him’: Newly released video shows moment police arrest Luigi Mangione",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/s-100-newly-released-video-shows-moment-police-arrest-luigi-mangione-rcna601118",
-              "pubDate": "2026-10-02T16:17:43.000Z",
-              "tier": 2
-            },
-            {
-              "title": "‘That’s 100% him’: Newly released video shows moment police arrest Luigi Mangione",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUkZ6d2d1Z1o2eTlOTGFaQmJVTkQ0V01NMGhsVDJ5NW1yT2xhY0JkcUpZX0RvTGZpd0t3dWJTeTNsTW1Xdk1aMi1nWU9maUxXR216aG1fYlk1WlRQRk85TWNGcFJnNXVMNVFfSE1FU3JQNGwzY2ZJSEdSenBwaWNPNFNXWkNmWHYtWXVTRzBUMDQ2b2l6eW9jWUo4SkhNUFpDZnlpTUNySnNrcWxOaUd2TkdDTVl6Rmc?oc=5",
-              "pubDate": "2026-10-02T16:17:43.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "video-shows-police-arrest-of-luigi-mangione"
-        },
-        {
-          "representativeTitle": "Trump Expected to Appoint Clayton as AI Czar",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Trump is expected to name intelligence director Jay Clayton as AI czar",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/trump-administration/trump-ai-czar-jay-clayton-white-house-rcna601140",
-              "pubDate": "2026-10-02T15:34:46.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump is expected to name Jay Clayton as AI czar",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBqOURyempOZDNNNkFNWlVESFZBOWxNTHpqV3dzVURhaTFCbHlyMmZuQWVTaDVXZ3J6VEFmYUM1dzU3VXBfb25HanZpYmxEcmhDNjJtbEg1bWQzZ3p3NlBiWWZNaTAyanVnZVRTc0xZdkxybHJZbExHOE5qVQ?oc=5",
-              "pubDate": "2026-10-02T13:40:41.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "trump-expected-to-appoint-clayton-as-ai-czar"
-        },
-        {
-          "representativeTitle": "Lawyers allege withheld evidence in murder weapons case.",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Murdaugh lawyers allege prosecutors withheld witness claim that police chief handled murder weapons: filing",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/us/murdaugh-lawyers-allege-prosecutors-withheld-witness-claim-police-chief-handled-murder-weapons-filing",
-              "pubDate": "2026-10-02T18:23:03.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "lawyers-allege-withheld-evidence-in-murder-weapons-case"
-        },
-        {
-          "representativeTitle": "Boston Transit Struggles With Persistent Pigeon Problem",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Boston mass transit authorities flap around for solution to pigeon menace",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/oct/02/boston-transit-pigeon-falcon",
-              "pubDate": "2026-10-02T18:12:43.000Z",
+              "title": "Body-cam footage shows moment Luigi Mangione was arrested at a McDonald’s",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/nation/2026/10/02/body-cam-footage-shows-moment-luigi-mangione-was-arrested-mcdonalds/",
+              "pubDate": "2026-10-02T19:11:17.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 4,
           "importance": 35,
-          "slug": "boston-transit-struggles-with-persistent-pigeon-problem"
+          "slug": "bodycam-footage-shows-arrest-incident-at-mcdonalds"
         },
         {
           "representativeTitle": "Body Found After California Helicopter Crash Investigation",
@@ -1363,10 +1562,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Divers find body of person missing from California helicopter crash that killed 2 others",
+              "title": "Police divers find body of person missing after helicopter crash near LA",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQU00Tm5MTWNiazdsSHFSSG12WTc4emFQajNEVVMyTjlyWW5lcXdPbk5zc3dkMWgzOGprYmExYmJxV1h1SlR6VWNEcW9sdFVocXBhb3VYVmcySzVpUm56bVg3ak1BejhxYXhEa1ZBVGhSQ1Ryajl6aVhoM3pIOVo0Y3hoQWVsUzExdVhzV0Qyc25BS2J3eUFDb3pzZ2FvNFVQdUZ4ODN3?oc=5",
-              "pubDate": "2026-10-02T11:18:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcmlYNVhBYnlub3U0RnFDZVZFeTdESF9SV1BZRGFtTGgzdTdwb1d4ZmxUSUp5dWtnUzhkbzE4SE5Kc2ZHVnlmUWxpZ2FOaERmSXpENUNmYi1KMzluV0lZTllBM19YaUpjV21fQ3UtWEpmNjNFaENTcW9vYmVndXBKR21BX1lUUnNDbHMtMzdkQzAyaGpxSW9sQUNCUGNyekk?oc=5",
+              "pubDate": "2026-10-02T12:46:00.000Z",
               "tier": 2
             }
           ],
@@ -1383,24 +1582,17 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "Market Rises as Jobs Slow Fed Rate Hike Fears",
+          "representativeTitle": "Easing Jobs Data Boosts Emerging Market Assets Today",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Stocks Rise as Jobs Report Eases Fed-Hike Worries: Markets Wrap",
+              "title": "EM Assets Find Relief as US Jobs Data Eases Rate Fears",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-01/asian-stocks-to-fall-on-oil-rally-bonds-in-focus-markets-wrap",
-              "pubDate": "2026-10-01T22:15:32.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Stocks, Bonds Rise as Weak Jobs Curb Fed-Hike Bets",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-02/bloomberg-surveillance-10-02-2026-video",
-              "pubDate": "2026-10-02T15:40:35.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-02/em-assets-find-relief-as-us-jobs-data-eases-rate-fears-video",
+              "pubDate": "2026-10-02T21:42:53.000Z",
               "tier": 1
             }
           ],
@@ -1408,43 +1600,43 @@ export const newsData = {
           "aiCategory": "Stocks",
           "sentiment": 0.4,
           "relevance_score": 8,
-          "importance": 65,
-          "slug": "market-rises-as-jobs-slow-fed-rate-hike-fears"
+          "importance": 55,
+          "slug": "easing-jobs-data-boosts-emerging-market-assets-today"
         },
         {
-          "representativeTitle": "Slok advises caution regarding fixed income assets.",
+          "representativeTitle": "Wall Street Faces Yield Pressure Amid Growing Market Cracks",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Need To Think More About Fixed Income: Slok",
+              "title": "Wall Street Tries to Live With 5% Yields as Market Cracks Grow",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-02/need-to-think-more-about-fixed-income-slok-video",
-              "pubDate": "2026-10-02T18:35:00.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-02/wall-street-tries-to-live-with-5-yields-as-market-cracks-grow",
+              "pubDate": "2026-10-02T20:40:38.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "slok-advises-caution-regarding-fixed-income-assets"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "wall-street-faces-yield-pressure-amid-growing-market-cracks"
         },
         {
-          "representativeTitle": "Exchanges plan all-night trading sessions soon",
+          "representativeTitle": "Morgan Stanley Analyst Discusses Nike Quarterly Earnings Outlook",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Sleepless on Wall Street: All-Night Stock Exchanges Coming Soon",
+              "title": "Morgan Stanley's Nike Analyst on quarterly earnings",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-02/sleepless-on-wall-street-all-night-stock-exchanges-coming-soon",
-              "pubDate": "2026-10-02T14:08:29.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-02/morgan-stanley-s-nike-analyst-on-quarterly-earnings-video",
+              "pubDate": "2026-10-02T21:55:08.000Z",
               "tier": 1
             }
           ],
@@ -1453,7 +1645,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "exchanges-plan-all-night-trading-sessions-soon"
+          "slug": "morgan-stanley-analyst-discusses-nike-quarterly-earnings-outlook"
         }
       ]
     },
@@ -1461,34 +1653,85 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "Paramount and Warner Bros Merge to Form Skydance",
+          "representativeTitle": "Weak Jobs Data Suggests Fed Will Pause Rate Hikes",
           "sources": [
-            "TechCrunch",
-            "The Verge"
+            "CNBC Markets",
+            "Bloomberg Markets"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Paramount and Warner Bros. Discovery to become Skydance",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/",
-              "pubDate": "2026-10-02T15:53:50.000Z",
+              "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
+              "source": "CNBC Markets",
+              "link": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+              "pubDate": "2026-10-02T13:29:27.000Z",
               "tier": 1
             },
             {
-              "title": "Paramount’s Warner Bros. megamerger will just be called Skydance",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/entertainment/1004016/paramount-warner-bros-skydance-megamerger-name",
-              "pubDate": "2026-10-02T13:42:36.000Z",
-              "tier": 2
+              "title": "Bond Traders See Weak Jobs Data Letting Fed Delay Rate Hikes",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-02/bond-traders-pull-back-on-fed-hike-bets-after-soft-jobs-data",
+              "pubDate": "2026-10-02T12:38:56.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "Technology",
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "weak-jobs-data-suggests-fed-will-pause-rate-hikes"
+        },
+        {
+          "representativeTitle": "Former CEA Chair Discusses Jobs and GDP Trends",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Former CEA Chair on Jobs Report, GDP Growth",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-02/former-cea-chair-on-jobs-report-gdp-growth-video",
+              "pubDate": "2026-10-02T22:17:57.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Former Labor Secretary Rob Reich on Sept. Jobs Report",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-02/former-labor-secretary-rob-reich-on-sept-jobs-report-video",
+              "pubDate": "2026-10-02T21:32:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
           "aiCategory": "Business",
           "sentiment": 0,
-          "relevance_score": 8,
+          "relevance_score": 7,
           "importance": 60,
-          "slug": "paramount-and-warner-bros-merge-to-form-skydance"
+          "slug": "former-cea-chair-discusses-jobs-and-gdp-trends"
+        },
+        {
+          "representativeTitle": "CEA Chairman: Inflation Cooling Signals Economic Improvement Ahead",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "CEA Chairman: Inflation coming down sufficiently fast",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-02/cea-chairman-inflation-coming-down-sufficiently-fast-video",
+              "pubDate": "2026-10-02T21:40:32.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "cea-chairman-inflation-cooling-signals-economic-improvement-ahead"
         },
         {
           "representativeTitle": "Tesla Reports Significant Decline in Quarterly Sales Figures",
@@ -1521,26 +1764,48 @@ export const newsData = {
           "slug": "tesla-reports-significant-decline-in-quarterly-sales-figures"
         },
         {
-          "representativeTitle": "September Jobs Report Misses Expectations, Shocks Markets",
+          "representativeTitle": "Job Growth Slows Significantly; Economy Shows Weakening Signs",
           "sources": [
-            "Bloomberg Markets"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "September Jobs Miss Shocks Markets",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-02/open-interest-10-2-2026-video",
-              "pubDate": "2026-10-02T17:58:03.000Z",
+              "title": "US economy adds just 29,000 jobs in September as hiring slows sharply",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/7fc80097-1926-4306-81e0-83d90a3d8a1d?syn-25a6b1a6=1",
+              "pubDate": "2026-10-02T20:05:51.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Business",
           "aiCategory": "Business",
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "september-jobs-report-misses-expectations-shocks-markets"
+          "slug": "job-growth-slows-significantly-economy-shows-weakening-signs"
+        },
+        {
+          "representativeTitle": "AI Reshaping Finance Jobs; New Skills Surge Demand",
+          "sources": [
+            "CNBC Economy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
+              "pubDate": "2026-10-02T18:49:03.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ai-reshaping-finance-jobs-new-skills-surge-demand"
         },
         {
           "representativeTitle": "Ellison Names Combined Paramount and Warner Bros.",
@@ -1573,48 +1838,48 @@ export const newsData = {
           "slug": "ellison-names-combined-paramount-and-warner-bros"
         },
         {
-          "representativeTitle": "Job Growth Slows Significantly; Economy Shows Weakening Signs",
+          "representativeTitle": "Economic Overhaul Sparks Conflict With Canadian Labor Unions",
           "sources": [
-            "FT International"
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US economy adds just 29,000 jobs in September as hiring slows sharply",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/7fc80097-1926-4306-81e0-83d90a3d8a1d?syn-25a6b1a6=1",
-              "pubDate": "2026-10-02T16:59:00.000Z",
+              "title": "Why Carney’s economic overhaul is clashing with Canada’s unions",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/economy/2026/10/2/why-carneys-economic-overhaul-is-clashing-with-canadas-unions?traffic_source=rss",
+              "pubDate": "2026-10-02T22:14:34.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "World",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "job-growth-slows-significantly-economy-shows-weakening-signs"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "economic-overhaul-sparks-conflict-with-canadian-labor-unions"
         },
         {
-          "representativeTitle": "US Job Growth Misses Forecasts; Firms Show Caution",
+          "representativeTitle": "Paramount and Warner Bros Merge to Form Skydance",
           "sources": [
-            "Bloomberg Markets"
+            "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US Job Growth Falls Short of Forecasts as Firms Remain Cautious",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-02/us-job-growth-falls-short-of-forecasts-video",
-              "pubDate": "2026-10-02T15:55:25.000Z",
+              "title": "Paramount and Warner Bros. Discovery to become Skydance",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/02/paramount-and-warner-bros-discovery-to-become-skydance/",
+              "pubDate": "2026-10-02T15:53:50.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Technology",
           "aiCategory": "Business",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "us-job-growth-misses-forecasts-firms-show-caution"
+          "slug": "paramount-and-warner-bros-merge-to-form-skydance"
         },
         {
           "representativeTitle": "Eurozone Inflation Reaches Three-Year High Mark",
@@ -1639,26 +1904,92 @@ export const newsData = {
           "slug": "eurozone-inflation-reaches-three-year-high-mark"
         },
         {
-          "representativeTitle": "AI Reshaping Finance Jobs; New Skills Surge Demand",
+          "representativeTitle": "Lukoil Loses Legal Bid Regarding Fuel Pricing Dispute",
           "sources": [
-            "CNBC Economy"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
-              "pubDate": "2026-10-02T12:24:27.000Z",
+              "title": "Lukoil Loses Bid to Dismiss Suit Over Franchisee Fuel Pricing",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-02/lukoil-loses-bid-to-dismiss-suit-over-franchisee-fuel-pricing",
+              "pubDate": "2026-10-02T21:36:47.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "Stocks",
           "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ai-reshaping-finance-jobs-new-skills-surge-demand"
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "lukoil-loses-legal-bid-regarding-fuel-pricing-dispute"
+        },
+        {
+          "representativeTitle": "Rising Treasury Yields Signal Potential Economic Pressure",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Treasury Yields Climb, Adding to Weekly Gains | Closing Bell",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-02/treasury-yields-climb-add-to-weekly-gains-closing-bell-video",
+              "pubDate": "2026-10-02T20:37:40.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "rising-treasury-yields-signal-potential-economic-pressure"
+        },
+        {
+          "representativeTitle": "CME Halts 24/7 Oil Contract Amid Industry Concerns",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "CME Shelves Plans for 24/7 Oil Contract Amid Industry Qualms",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-02/cme-shelves-plans-for-24-7-oil-contract-after-industry-pushback",
+              "pubDate": "2026-10-02T20:34:44.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "cme-halts-247-oil-contract-amid-industry-concerns"
+        },
+        {
+          "representativeTitle": "Reich Warns Over Stagflation's Economic Dangers Now",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Why Robert Reich Is So Worried About Stagflation",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-02/why-robert-reich-is-so-worried-about-stagflation-video",
+              "pubDate": "2026-10-02T20:16:55.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "reich-warns-over-stagflations-economic-dangers-now"
         },
         {
           "representativeTitle": "Bond Sell-Off Fuels Gains for Quant Hedge Funds",
@@ -1683,69 +2014,17 @@ export const newsData = {
           "slug": "bond-sell-off-fuels-gains-for-quant-hedge-funds"
         },
         {
-          "representativeTitle": "Mattel Faces Takeover Interest From Authentic Brands Group",
-          "sources": [
-            "CNBC Economy",
-            "WSJ US Business"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Mattel shares rise after reports of takeover interest from Authentic Brands Group",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/10/01/mattel-authentic-brands-takeover-interest.html",
-              "pubDate": "2026-10-02T10:14:06.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Barbie-Maker Mattel Draws Takeover Interest From Authentic Brands Group",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/business/retail/barbie-maker-mattel-draws-takeover-interest-from-authentic-brands-group-21270470?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-10-01T20:37:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "mattel-faces-takeover-interest-from-authentic-brands-group"
-        },
-        {
-          "representativeTitle": "Apollo Analyst Sees Opportunity in Bond Yields",
+          "representativeTitle": "Hedge Funds Bet Against Weakening Japanese Yen",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Bond Yields Are 'Juicy,' Says Apollo's Slok",
+              "title": "Hedge Funds Are Rebuilding Short Bets Against Japan’s Yen",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-02/bond-yields-are-juicy-says-apollo-s-slok-video",
-              "pubDate": "2026-10-02T18:20:15.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "apollo-analyst-sees-opportunity-in-bond-yields"
-        },
-        {
-          "representativeTitle": "Paramount's Debt Saga Concludes With Dramatic Finale",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Paramount’s $52 Billion Debt Saga Ends With Hair-Raising Finale",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-02/paramount-s-52-billion-debt-saga-ends-with-hair-raising-finale",
-              "pubDate": "2026-10-02T17:18:15.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-02/hedge-funds-are-rebuilding-short-bets-against-japan-s-yen",
+              "pubDate": "2026-10-02T20:10:08.000Z",
               "tier": 1
             }
           ],
@@ -1754,7 +2033,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "paramounts-debt-saga-concludes-with-dramatic-finale"
+          "slug": "hedge-funds-bet-against-weakening-japanese-yen"
         },
         {
           "representativeTitle": "Airline Allows Cash and Miles Mix For Tickets",
@@ -1777,50 +2056,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "airline-allows-cash-and-miles-mix-for-tickets"
-        },
-        {
-          "representativeTitle": "Hedge Fund Exits Cause French Bond Market Rout",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Hedge Funds Exiting Crowded Trades Fueled Rout in French Bonds",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-02/hedge-funds-exiting-crowded-trades-fueled-rout-in-french-bonds",
-              "pubDate": "2026-10-02T16:40:56.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "hedge-fund-exits-cause-french-bond-market-rout"
-        },
-        {
-          "representativeTitle": "Expert Discusses Jobs Data and US Debt Concerns",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "NEC's Kevin Hassett on Sept. Jobs and Paying Down US Debt",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-02/nec-s-kevin-hassett-on-sept-jobs-paying-down-us-debt-video",
-              "pubDate": "2026-10-02T16:00:07.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "expert-discusses-jobs-data-and-us-debt-concerns"
         },
         {
           "representativeTitle": "Diesel's Importance Drives Global Trade Dynamics Now",
@@ -1867,50 +2102,6 @@ export const newsData = {
           "slug": "auto-sales-diverge-gm-drops-while-toyota-gains-ground"
         },
         {
-          "representativeTitle": "Tesla Maintains EV Sales Momentum Amid US Headwinds",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Tesla sustains its EV sales momentum despite US troubles",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/02/tesla-sustains-its-ev-sales-momentum-despite-us-troubles/",
-              "pubDate": "2026-10-02T13:39:23.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "tesla-maintains-ev-sales-momentum-amid-us-headwinds"
-        },
-        {
-          "representativeTitle": "Rivian's New Model Drives Company Sales Record High",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Rivian’s R2 just helped it set a new sales record",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/02/rivians-r2-just-helped-it-set-a-new-sales-record/",
-              "pubDate": "2026-10-02T13:17:05.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "rivians-new-model-drives-company-sales-record-high"
-        },
-        {
           "representativeTitle": "United Airlines intensifies competition with major rivals.",
           "sources": [
             "CNBC Economy"
@@ -1933,61 +2124,39 @@ export const newsData = {
           "slug": "united-airlines-intensifies-competition-with-major-rivals"
         },
         {
-          "representativeTitle": "Burger King Bets on Franchisees for US Revival",
+          "representativeTitle": "Hedge Fund Sets Record Rent Price in New York City",
           "sources": [
-            "CNBC Economy"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Burger King is betting on local franchisees to fuel its U.S. comeback",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/10/02/burger-king-refranchising-turnaround.html",
-              "pubDate": "2026-10-02T11:00:01.000Z",
+              "title": "Low-profile hedge fund smashes record for New York office rent",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/17762862-bdb7-44d0-a0d0-d2285bedbd2d?syn-25a6b1a6=1",
+              "pubDate": "2026-10-02T18:31:10.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "Business",
           "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "burger-king-bets-on-franchisees-for-us-revival"
-        },
-        {
-          "representativeTitle": "Main Street Strategy Addresses Market Investor Sentiment Shifts",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Beating Market FOMO: Main Street's Playbook",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-02/beating-market-fomo-main-street-s-playbook-video",
-              "pubDate": "2026-10-02T16:19:07.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
           "relevance_score": 4,
           "importance": 35,
-          "slug": "main-street-strategy-addresses-market-investor-sentiment-shifts"
+          "slug": "hedge-fund-sets-record-rent-price-in-new-york-city"
         },
         {
-          "representativeTitle": "Expert Discussion Scheduled at Odd Lots Live Event",
+          "representativeTitle": "Decision Science Applied to Investment Strategies Discussed",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "We’re Speaking to Don Wilson at Odd Lots LIVE in Chicago",
+              "title": "Using Decision Science in Investing | Masters in Business with Omar Aguilar",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/newsletters/2026-10-02/we-re-speaking-to-don-wilson-at-odd-lots-live-in-chicago",
-              "pubDate": "2026-10-02T15:59:57.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-02/using-decision-science-in-investing-video",
+              "pubDate": "2026-10-02T21:00:15.000Z",
               "tier": 1
             }
           ],
@@ -1996,7 +2165,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 3,
           "importance": 30,
-          "slug": "expert-discussion-scheduled-at-odd-lots-live-event"
+          "slug": "decision-science-applied-to-investment-strategies-discussed"
         }
       ]
     },
@@ -2006,10 +2175,9 @@ export const newsData = {
         {
           "representativeTitle": "AI Skills Surge as Banks Adopt New Agents",
           "sources": [
-            "CNBC Markets",
-            "Google Stocks"
+            "CNBC Markets"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "'The hottest skill on Wall Street’: Demand for this AI ability jumped 1,721% as banks embrace agents",
@@ -2022,23 +2190,54 @@ export const newsData = {
               "title": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
               "source": "CNBC Markets",
               "link": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
-              "pubDate": "2026-10-02T12:24:27.000Z",
+              "pubDate": "2026-10-02T18:49:03.000Z",
               "tier": 1
-            },
-            {
-              "title": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3S3Nrd2Z0Q3ZHVnpCc01VU2NDa2hpcVk0WS1EZHVMTGtZd0tSZGw5Q295alJjeG05YXVhUEpFTElDM2NEc3NPNVZZNDhWS3gwMURVc3ZrcXU3OFdST2NYQWZRYkNlZS1hbjA5TEIwRGVWRmhWWFHSAXtBVV95cUxPSnpUWW9lVzZfYUlaX2RqbGZhSkZiODFfQkUzUEhWc3RMYzhoR2JSQmtxXzlfbnkybHVZOE9CdzBXM1R1OWVaekdWUEc1N3BDam1KcmJKZjNPY1BvaXN6cTRqbl9wY1liMGsyUlFGWTF2TXp2SmZwQnB6cFE?oc=5",
-              "pubDate": "2026-10-02T10:00:01.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Technology",
           "sentiment": 0.4,
           "relevance_score": 8,
-          "importance": 70,
+          "importance": 65,
           "slug": "ai-skills-surge-as-banks-adopt-new-agents"
+        },
+        {
+          "representativeTitle": "Apple tightens macOS security due to AI risks.",
+          "sources": [
+            "TechCrunch",
+            "The Verge",
+            "Google Tech"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+              "pubDate": "2026-10-02T18:11:27.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+              "pubDate": "2026-10-02T20:08:40.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaEpCUDhoOXZGM2Rpc2tIdHZTMWNBTW1lSjJScno2dmhVMjhseXdNbFV0NlNmSUN0blRoUE5YamtKUkpmN1NWaXFRazkwWUhOckE3Y1lTRllPZUhmZ3R2a3lUeVNLTmRfRzVIQmZOb2VhQl9ITXdVcUdoc2xPZlJENA?oc=5",
+              "pubDate": "2026-10-02T20:08:40.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "apple-tightens-macos-security-due-to-ai-risks"
         },
         {
           "representativeTitle": "White House defines next stage: Superintelligence emerges.",
@@ -2085,39 +2284,17 @@ export const newsData = {
           "slug": "ai-experts-plan-open-high-stakes-research-endeavors"
         },
         {
-          "representativeTitle": "Epic Pauses Development Over Critical Security Flaws",
+          "representativeTitle": "Parker refocuses Stability AI efforts on music sector.",
           "sources": [
             "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Medical records giant Epic pauses product development to fix security bugs that risk patients’ data",
+              "title": "Sean Parker is rebuilding Stability AI around music",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/02/medical-records-giant-epic-pauses-product-development-to-fix-security-bugs-that-risk-patients-data/",
-              "pubDate": "2026-10-02T13:23:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "epic-pauses-development-over-critical-security-flaws"
-        },
-        {
-          "representativeTitle": "Apple tightens macOS security due to AI risks.",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
-              "pubDate": "2026-10-02T18:11:27.000Z",
+              "link": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+              "pubDate": "2026-10-02T21:09:14.000Z",
               "tier": 1
             }
           ],
@@ -2126,7 +2303,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "apple-tightens-macos-security-due-to-ai-risks"
+          "slug": "parker-refocuses-stability-ai-efforts-on-music-sector"
         },
         {
           "representativeTitle": "Blackstone Executive Discusses Future of AI Giants",
@@ -2195,50 +2372,6 @@ export const newsData = {
           "slug": "gtm-engineer-role-gains-focus-at-tech-conference"
         },
         {
-          "representativeTitle": "Startup Exhibit Targets Tech Leaders at Disrupt",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Last 24 hours: Exhibit at TechCrunch Disrupt 2026 and reach 10,000+ tech leaders",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/",
-              "pubDate": "2026-10-02T14:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "startup-exhibit-targets-tech-leaders-at-disrupt"
-        },
-        {
-          "representativeTitle": "OpenAI Fires Workers Over Data Security Mishandling",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "OpenAI fires workers for 'mishandling sensitive information'",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T08:20:32.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "openai-fires-workers-over-data-security-mishandling"
-        },
-        {
           "representativeTitle": "New App Allows Saving Diverse Online Content Types",
           "sources": [
             "TechCrunch"
@@ -2259,12 +2392,72 @@ export const newsData = {
           "relevance_score": 3,
           "importance": 30,
           "slug": "new-app-allows-saving-diverse-online-content-types"
+        },
+        {
+          "representativeTitle": "Nacon Releases PS5 Controller with Audio Mixing Feature",
+          "sources": [
+            "The Verge",
+            "Google Tech"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Nacon’s new PS5 controller can mix audio from your phone and console",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/tech/1004053/nacon-sony-playstation-licensed-revolution-5-unlimited-wireless-controller",
+              "pubDate": "2026-10-02T16:35:13.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Nacon’s new PS5 controller can mix audio from your phone and console",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbW5aMDB1S2xzMk1pYjYtbS1rNll4OEJScGdFUXJFWEgzQzFGeW0tY2d5Z2tPel9ISDFxQWx3T2IzSDdCMTJIak1TTnJRakdqUVVCUkZPTkhDTjA3MHRXalhsVTFqZ1U5Ymg5R2hSN3NVWV81VE15M3NtX2VLRmxoVTQtN1JURk9mZzB0bXZ3Qy1qZWdrdEo4cUtLU1FhVjVfd0UyZGpWUnVpOEtVOVc3cGJn?oc=5",
+              "pubDate": "2026-10-02T16:35:13.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 3,
+          "importance": 25,
+          "slug": "nacon-releases-ps5-controller-with-audio-mixing-feature"
         }
       ]
     },
     {
       "name": "Science",
       "children": [
+        {
+          "representativeTitle": "Physicists Discover Superconductor Breaking Time Symmetry Barrier",
+          "sources": [
+            "Phys.org",
+            "Google Science"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Scientists discover first type I superconductor that breaks time-reversal symmetry",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-scientists-superconductor-reversal-symmetry.html",
+              "pubDate": "2026-10-02T21:00:01.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Physicists Find a Superconductor That 'Breaks' The Symmetry of Time – A First For Its Kind",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYXJLSWhxampSckxQZ0dOWDhuNE1ZMjFkUFhtTHlJY3VuY3pEWVBjYlZvUVd1cHRFOUNRbkI1cWNHYkYxZ25hZElaZHdXVHg5Y2M4TllLN2xQX1RMMGJRUDlXaURiaGJ5MVNJQmJaVG0xbWRKbXVsMlRPLVc2aXIwOUNEMGVuWTlsR1BudUN1Smw1S0VVbFltbXNqWEVMOTktMktqZEpZbnJzWGlCaWtZV2V5MTg1QQ?oc=5",
+              "pubDate": "2026-10-02T00:27:09.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 9,
+          "importance": 55,
+          "slug": "physicists-discover-superconductor-breaking-time-symmetry-barrier"
+        },
         {
           "representativeTitle": "Pharma Bets on Amylin After GLP-1 Successes",
           "sources": [
@@ -2288,17 +2481,69 @@ export const newsData = {
           "slug": "pharma-bets-on-amylin-after-glp-1-successes"
         },
         {
-          "representativeTitle": "Crystal structure reverses light-driven electrical currents",
+          "representativeTitle": "British Rover Launched To Search Mars For Life",
           "sources": [
-            "Phys.org"
+            "Google Science"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Mirror-image crystals reverse the direction of light-driven currents",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-mirror-image-crystals-reverse-driven.html",
-              "pubDate": "2026-10-02T18:40:12.000Z",
+              "title": "Space breakthrough as British rover sent to Mars on mission to discover humans' ancient ancestors",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSVhyb2JnUkdlRDM5WjFkcmVkV0xhM29YWjRKOE5fbng0NW9MS2s4Qm43bGo4bWxDbnpJTUdBR2tmMVB0TWp6WGlqRTZEalpOZjQtbE5zOHVuRFE2cFZQaHV1cWplZTBCWHExcWgwcmt0cXhEeFFLQ0JwU0RkNWE0Q3pjZ2ZCakNhNUtEeGdkT1c4bUxBTE4wck5UVXJOZnpaSmdB?oc=5",
+              "pubDate": "2026-10-02T20:10:48.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "british-rover-launched-to-search-mars-for-life"
+        },
+        {
+          "representativeTitle": "Fossil Evidence Reveals Dinosaur Evolutionary Path to Flight",
+          "sources": [
+            "Nature",
+            "Google Science"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Stunning fossil shows dinosaurs’ distinctive path to flight",
+              "source": "Nature",
+              "link": "https://www.nature.com/articles/d41586-026-03126-8",
+              "pubDate": "2026-10-02T00:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Stunning fossil shows dinosaurs’ distinctive path to flight",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4SWxtWnlsMjJwWkNNZzZsZ2p4MkwtR3ltUVU1dXVaNXFsaU9NTEVLT3h3VEpES2E4ZHVRZU1xeEdXNXF4MFk1aEw0cVdEZFB5VV9NUzVjSkN2N3hCT1d3?oc=5",
+              "pubDate": "2026-10-02T11:54:39.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "fossil-evidence-reveals-dinosaur-evolutionary-path-to-flight"
+        },
+        {
+          "representativeTitle": "Mars Ice Composition Revised: Dust Content Misjudged",
+          "sources": [
+            "Google Science"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Scientists Thought Mars’s North Polar Ice Was 25% Dust. They Were Way Off",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNd3hnb3JtLWE2Q0dhT1I0V2g2ZUdsQkxqOFpnejJhOHh4NHpYeV9OeGxVQVZqLTh3Vmc4RFNaVTF5cjM3MGY3dkdsWlh5dEFib3A1eV9HVWVtdHFrVkpYd3hScmNCRndwWDJMd00tNmVySWZEVVo4RGpvNUdlWVp0TGlna3pEVFRxSGg3MEc0R0x5OFZheUpsUDI1MmtqbkdpRnFz?oc=5",
+              "pubDate": "2026-10-02T20:00:13.000Z",
               "tier": 2
             }
           ],
@@ -2307,51 +2552,7 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "crystal-structure-reverses-light-driven-electrical-currents"
-        },
-        {
-          "representativeTitle": "Evolution Guides AI Search for Pollution-Fighting Enzymes",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Millions of years of evolution guide AI search for pollution-fighting enzymes",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-millions-years-evolution-ai-pollution.html",
-              "pubDate": "2026-10-02T17:00:18.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "evolution-guides-ai-search-for-pollution-fighting-enzymes"
-        },
-        {
-          "representativeTitle": "Enzymes as Beads Boost Sustainable Chemical Production Methods",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Enzymes become sturdy beads that could support more sustainable chemical production",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-enzymes-sturdy-beads-sustainable-chemical.html",
-              "pubDate": "2026-10-02T16:40:07.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "enzymes-as-beads-boost-sustainable-chemical-production-methods"
+          "slug": "mars-ice-composition-revised-dust-content-misjudged"
         }
       ]
     }
