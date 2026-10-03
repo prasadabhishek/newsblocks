@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-03T19:26:22.409Z",
+  "lastUpdated": "2026-10-03T23:31:37.013Z",
   "children": [
     {
       "name": "World",
@@ -67,10 +67,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Nearly 500,000 people protest in Madrid over Spain's housing crisis",
+              "title": "Tens of thousands protest against Spain's housing crisis following eviction of 87-year-old woman",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTHlNcjJQaEEySmlwRGRZRFh0VXR5dXh1djFHc2M1X0tCcmQ2NkVMcFg3ZFZ1b2pGUFhIYUtOSmx5UGRpYW9FSk5hdmRKVXhoSDVCem5GSXJyaU9ObV9JM2VGMF91Y2s3R3EwLVRjR29kM2dHZ0hReUFmaHB6bEx3eFZKQmlIVnpfQXMwYkdsc3dxcUpMUU5aOFJVVDF0ZkhZMkJj?oc=5",
-              "pubDate": "2026-10-03T18:19:47.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU04yZFFzZEF3dGl3ellPdlU0VjVRcnZ0OFI4ejRBS1BuVnlwYjlXTHNPX2tfSU91R3BpZnZoWk9JTGxkMHplTlNTZEl0RWRQMkt2MjZ2LWlES3hUWTFVdTVINVBRSVJ1MldvR1NLX1FHcWNYYmQ2MXpCWGxxSkhKSDlBMk1peUFIVzEzWFBDUTRyWjB0VjktNDcwTWtXTk96VWtWSk5OODdUYUVOSmczUlpmeEIzdUVJOFJkc3FHakJGVUpWY1gzeU5rWQ?oc=5",
+              "pubDate": "2026-10-03T22:18:45.000Z",
               "tier": 2
             }
           ],
@@ -82,13 +82,13 @@ export const newsData = {
           "slug": "madrid-sees-massive-protests-over-housing-crisis"
         },
         {
-          "representativeTitle": "Kyiv-Moscow Strikes Kill Five; Bridge Targeted Again",
+          "representativeTitle": "Russia Strikes Kyiv Bridge; Targets Dnipro Crossings",
           "sources": [
             "BBC World",
-            "Al Jazeera",
             "France 24",
             "Euronews",
-            "Le Monde"
+            "Le Monde",
+            "Google World"
           ],
           "citationCount": 5,
           "rawArticles": [
@@ -97,13 +97,6 @@ export const newsData = {
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-10-03T16:16:49.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Five killed as Kyiv and Moscow trade strikes, Russia hits second bridge",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/3/five-killed-as-kyiv-and-moscow-trade-strikes-russia-hits-second-bridge?traffic_source=rss",
-              "pubDate": "2026-10-03T12:55:54.000Z",
               "tier": 1
             },
             {
@@ -126,14 +119,21 @@ export const newsData = {
               "link": "https://www.lemonde.fr/en/international/article/2026/10/03/russia-strikes-second-major-bridge-in-ukraine-capital_6758212_4.html",
               "pubDate": "2026-10-03T09:49:07.000Z",
               "tier": 2
+            },
+            {
+              "title": "Russia strikes another Kyiv bridge, deepening travel chaos in Ukraine's capital",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSDVFMFFySHVINGJ4My1BTENJR3M5ZzVjUkpiamU0MWpkVlZicWJuX3ZmbHF3ZUpDRE1BQ2hWcU1IOGJTZm00dGJ0U3FsVmd4cTJqMFZIN2JYNkxZVFdlX0JvM1F1amxoWWdRdk1mREFwRXB3eFRKYjNPMXdoV2FyQVFITWdPNmMzUTRYd1hYcXc?oc=5",
+              "pubDate": "2026-10-03T06:40:29.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.9,
+          "sentiment": -0.4,
           "relevance_score": 9,
-          "importance": 100,
-          "slug": "kyiv-moscow-strikes-kill-five-bridge-targeted-again"
+          "importance": 90,
+          "slug": "russia-strikes-kyiv-bridge-targets-dnipro-crossings"
         },
         {
           "representativeTitle": "UAE Alleges Co-Pilot Attempted Terrorist Act in Flight",
@@ -182,89 +182,6 @@ export const newsData = {
           "slug": "uae-alleges-co-pilot-attempted-terrorist-act-in-flight"
         },
         {
-          "representativeTitle": "Omani Co-pilot Allegedly Planned Terrorist Attack on Flight",
-          "sources": [
-            "France 24",
-            "Le Monde",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "🔴 UAE investigators say Flydubai co-pilot was planning 'terrorist act'",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20261003-co-pilot-on-flydubai-flight-was-banned-from-flying-by-oman-for-holding-extremist-views",
-              "pubDate": "2026-10-03T07:14:58.000Z",
-              "tier": 1
-            },
-            {
-              "title": "UAE investigators say Omani Flydubai co-pilot was planning 'terrorist' attack",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20261003-co-pilot-on-flydubai-flight-was-banned-from-flying-by-oman-for-holding-extremist-views",
-              "pubDate": "2026-10-03T06:17:45.000Z",
-              "tier": 1
-            },
-            {
-              "title": "UAE investigators say flydubai co-pilot was planning 'terrorist act'",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/03/uae-investigators-say-flydubai-co-pilot-was-planning-terrorist-act_6758208_4.html",
-              "pubDate": "2026-10-03T08:20:29.000Z",
-              "tier": 2
-            },
-            {
-              "title": "FlyDubai copilot used crash ax to attempt ‘terrorist act,’ UAE says",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRmN6QTZoNW9lYktQLUNSUVY5c20tUm9udG0xRkNBa1RXd1Z3MTFQNEoxa1RUSDQ2MmdEb0JDQUU4RDZtQzVxZmllanhjWGJhakFqamc1eUpZRVBBSVA4VVZDSG9rSUNyaGgydmJlMk5jUF9KcGxXLWpnN2lGZTE1aEtXR2NmY2ROMnBoZlRHSzhhSXdvR2RaZGs2U0xzX3lBSTRkVTlUTQ?oc=5",
-              "pubDate": "2026-10-03T19:14:48.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 75,
-          "slug": "omani-co-pilot-allegedly-planned-terrorist-attack-on-flight"
-        },
-        {
-          "representativeTitle": "France's High School Protests Signal Social Unrest",
-          "sources": [
-            "Al Jazeera",
-            "France 24",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "French high school engulfed in flames as student protests continue",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/french-high-school-engulfed-in-flames-as-student-protests-continue?traffic_source=rss",
-              "pubDate": "2026-10-03T12:59:27.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Barricades & the blame game: the French school protests",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/the-debate/20261003-barricades-the-blame-game-the-french-school-protests",
-              "pubDate": "2026-10-03T09:25:58.000Z",
-              "tier": 1
-            },
-            {
-              "title": "What to Know About France’s High School Protests",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWxwaGEwam1CeDR4NW1DR29WS3VjTnplTnpVSnBvTGd1amhDbklLZEV5Y2dveVVCdFRnQnhxc3IzRGpRd2RzMVoyclpzLWFacVRFNXg4b3VSdHhMbjV2SnhfMnFHbGxJU2MzXzliWTNQWTJMVmdQdllzcWQ4SDRYM2xFR1Z3ZkkzNFhoQ2daYlBwN1JzN3h0Mg?oc=5",
-              "pubDate": "2026-10-03T15:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 65,
-          "slug": "frances-high-school-protests-signal-social-unrest"
-        },
-        {
           "representativeTitle": "North Korea Fires Missile Amid Border Tensions Escalation",
           "sources": [
             "The Guardian",
@@ -295,25 +212,62 @@ export const newsData = {
           "slug": "north-korea-fires-missile-amid-border-tensions-escalation"
         },
         {
-          "representativeTitle": "Ethiopian forces advance in Tigray; rebels retreat.",
+          "representativeTitle": "Man Killed During London Memorial Service Shooting Incident",
           "sources": [
-            "Al Jazeera",
-            "Google World"
+            "The Guardian",
+            "Sky News"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Ethiopian gov’t forces advance in Tigray as rebels retreat: What to know",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/3/ethiopian-govt-forces-advance-in-tigray-as-rebels-retreat-what-to-know?traffic_source=rss",
-              "pubDate": "2026-10-03T13:00:57.000Z",
+              "title": "Man shot dead at London memorial service in ‘senseless act of violence’",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/uk-news/2026/oct/03/met-launches-inquiry-after-man-shot-dead-at-london-memorial-service",
+              "pubDate": "2026-10-03T22:04:08.000Z",
               "tier": 1
             },
             {
-              "title": "Ethiopian gov’t forces advance in Tigray as rebels retreat: What to know",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdGZ5bWFYN2pFNUN5TDZ3bm1mQWdPcVlXMWFrS29DNXNRTHZTWEk3S2w1bmdxLTUyLTQtdVFqbXVCZXo3U25RMlhYUzMxUjQ5UXRkdEJuZU5DUFpWUHFuVVV6NlhkeGNSUElmWXFra2tCVE9vUHFOWjBuNHh6amwwbnRpdVFRTjVSWFZkQnFtODU3WHUxbTMyMjNxbl94dU1hdXdSY1BwcDdjbWVzZ09FdtIBtgFBVV95cUxPdzBaTzNWVVUxdXAwUEZvMnVnMzhyc1VKbVp4dHZ1ME9zVDNBNlktemV4bVEtR0ZwS2wybXJuWC10bkNoNldfNURYb0owTHpDU3NsRWRvRHNkUkp2QVhiR3pBLVdpaDNXTTFRSFFEMnhmdHN5TjJuaHFKdWcxNkJUNTB0THUyZ2JkOUxBN3VZTzFiSXpTSTBVUzBqc19zaGNxUEpNZXpTRnJWRHZpSzdUX1hzRjBJdw?oc=5",
-              "pubDate": "2026-10-03T16:08:56.000Z",
+              "title": "Man shot dead in 'senseless act of violence' as people gathered for memorial service",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/man-shot-dead-in-senseless-act-of-violence-as-people-gathered-for-west-london-memorial-service-13594784",
+              "pubDate": "2026-10-03T16:33:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "man-killed-during-london-memorial-service-shooting-incident"
+        },
+        {
+          "representativeTitle": "Omani Co-pilot Allegedly Planned Terrorist Attack on Flight",
+          "sources": [
+            "France 24",
+            "Le Monde"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "🔴 UAE investigators say Flydubai co-pilot was planning 'terrorist act'",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/middle-east/20261003-co-pilot-on-flydubai-flight-was-banned-from-flying-by-oman-for-holding-extremist-views",
+              "pubDate": "2026-10-03T07:14:58.000Z",
+              "tier": 1
+            },
+            {
+              "title": "UAE investigators say Omani Flydubai co-pilot was planning 'terrorist' attack",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/middle-east/20261003-co-pilot-on-flydubai-flight-was-banned-from-flying-by-oman-for-holding-extremist-views",
+              "pubDate": "2026-10-03T06:17:45.000Z",
+              "tier": 1
+            },
+            {
+              "title": "UAE investigators say flydubai co-pilot was planning 'terrorist act'",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/03/uae-investigators-say-flydubai-co-pilot-was-planning-terrorist-act_6758208_4.html",
+              "pubDate": "2026-10-03T08:20:29.000Z",
               "tier": 2
             }
           ],
@@ -321,21 +275,21 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "ethiopian-forces-advance-in-tigray-rebels-retreat"
+          "importance": 70,
+          "slug": "omani-co-pilot-allegedly-planned-terrorist-attack-on-flight"
         },
         {
-          "representativeTitle": "Ukrainian Official Discusses Putin's War Strategy",
+          "representativeTitle": "Settlers Attack Farmers During Olive Harvest in Conflict Zone",
           "sources": [
-            "France 24"
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Putin's war for the history books: Dmytro Kuleba speaks to France 24",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/spotlight/20261003-putin-s-war-for-the-history-books-dmytro-kuleba-speaks-to-france-24",
-              "pubDate": "2026-10-03T18:08:42.000Z",
+              "title": "Israeli settlers attack Palestinian farmers during olive harvest",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/2026/10/3/israeli-settlers-attack-palestinian-farmers-during-olive-harvest-2?traffic_source=rss",
+              "pubDate": "2026-10-03T21:15:05.000Z",
               "tier": 1
             }
           ],
@@ -344,7 +298,51 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 9,
           "importance": 60,
-          "slug": "ukrainian-official-discusses-putins-war-strategy"
+          "slug": "settlers-attack-farmers-during-olive-harvest-in-conflict-zone"
+        },
+        {
+          "representativeTitle": "US Politician Calls For Arms Embargo On Israel",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Pelosi-backed US candidate calls for ‘full arms embargo’ on Israel",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/3/pelosi-backed-us-candidate-calls-for-full-arms-embargo-on-israel?traffic_source=rss",
+              "pubDate": "2026-10-03T22:43:58.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "us-politician-calls-for-arms-embargo-on-israel"
+        },
+        {
+          "representativeTitle": "Brazil Election Nears Climax With Key Candidates Tied",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Lula, Bolsonaro in Dead Heat as Brazil Prepares to Vote",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-03/lula-bolsonaro-in-dead-heat-as-brazil-prepares-to-vote",
+              "pubDate": "2026-10-03T22:35:24.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "brazil-election-nears-climax-with-key-candidates-tied"
         },
         {
           "representativeTitle": "US Military Buildup Increases Iran Conflict Risk",
@@ -367,6 +365,50 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 60,
           "slug": "us-military-buildup-increases-iran-conflict-risk"
+        },
+        {
+          "representativeTitle": "Brazil's Leaders Intensify Campaign Ahead of Election",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Lula and Bolsonaro make final push for votes ahead of Brazil's knife-edge election",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/americas/20261003-lula-and-bolsonaro-make-final-push-for-votes-ahead-of-brazil-s-knife-edge-election",
+              "pubDate": "2026-10-03T20:16:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "brazils-leaders-intensify-campaign-ahead-of-election"
+        },
+        {
+          "representativeTitle": "Funeral held after mother and daughter killed.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Funeral held at Gaza church for mother and daughter killed in Gaza strike",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/funeral-held-at-gaza-church-for-mother-and-daughter-killed-in-gaza-strike?traffic_source=rss",
+              "pubDate": "2026-10-03T20:10:17.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "funeral-held-after-mother-and-daughter-killed"
         },
         {
           "representativeTitle": "UK-Iranian National Released After RAF Investigation",
@@ -429,58 +471,6 @@ export const newsData = {
           "slug": "al-jazeera-interviews-palestinian-schoolboy-amid-conflict"
         },
         {
-          "representativeTitle": "Brazil election rematch details guide voters' choices.",
-          "sources": [
-            "Al Jazeera",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "What to know about Brazil’s 2026 presidential election",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/3/what-to-know-about-brazils-2026-presidential-election?traffic_source=rss",
-              "pubDate": "2026-10-03T14:23:55.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Brazil's big political rematch: What to know about the Brazilian election",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLVpLVS1aSUxZdXVCNHFOS0U5dWs1REd5S1RLRkttb2ZQa1RzaXZLRzFJMkR3TUNNeXp0TnVFLU9acUxqRW9ZZDVfdGZsQjN2R0pxREYyT05GeW4zaG5teThlRVBra2NmVm12eTV2Q2pTbGltVE1hZ0NWVlNaaHphX1ZhYkp4TE1EcWhTMmxHUlZpSmRaNk9F?oc=5",
-              "pubDate": "2026-10-03T02:57:07.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "brazil-election-rematch-details-guide-voters-choices"
-        },
-        {
-          "representativeTitle": "Algeria Sends Jets to Niger Amid Coup Fears",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Algeria sent fighter jets to Niger to thwart ‘coup attempt’, president says",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/3/algeria-sent-fighter-jets-to-niger-to-thwart-coup-attempt-president-says?traffic_source=rss",
-              "pubDate": "2026-10-03T18:03:08.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "algeria-sends-jets-to-niger-amid-coup-fears"
-        },
-        {
           "representativeTitle": "Co-pilot involved in alleged flight terror incident.",
           "sources": [
             "FT International"
@@ -503,48 +493,34 @@ export const newsData = {
           "slug": "co-pilot-involved-in-alleged-flight-terror-incident"
         },
         {
-          "representativeTitle": "Somalia Rejects Israeli Presence Under Any Circumstances",
+          "representativeTitle": "Houthi Claim Attacks on Major Saudi Oil Facility",
           "sources": [
-            "Al Jazeera"
+            "SCMP",
+            "Google World"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Somalia won’t accept Israeli presence ‘under any circumstances’: President",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/3/somalia-wont-accept-israeli-presence-under-any-circumstances-president?traffic_source=rss",
-              "pubDate": "2026-10-03T16:25:03.000Z",
-              "tier": 1
+              "title": "Houthis say they struck Aramco oil facility, as Saudis hit Sanaa",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3369667/flames-smoke-seen-aramco-facility-south-saudi-capital?utm_source=rss_feed",
+              "pubDate": "2026-10-03T13:57:44.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Yemen's Houthis say they attacked Aramco facility in Riyadh with missiles, drones",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUmVOVEVCTVdITFV4aHd1aWM4aC1lZzBQTUIxcG9zSkU0ZXJKbHVRdTRWTUVsRWVsRmZHYlI2ZW01dnp3NlQ4WEV3Wnp0YXpVV2VCQ2RmeVBQQ3BUN0E3S1ZrRkw0ODdkVVJsSnFWWVM5YWVZZExacUlwdGRrc3h1LVJkNHNWY1dZS1F2UE1aR1JHYzNkX0ktS0RIQW4zX3RJUWV4eVBqVFd6X0t1?oc=5",
+              "pubDate": "2026-10-03T20:51:59.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "somalia-rejects-israeli-presence-under-any-circumstances"
-        },
-        {
-          "representativeTitle": "Investigation continues into alleged aviation incident suspect.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "What we know about the co-pilot accused in Flydubai attack",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/what-we-know-about-the-co-pilot-accused-in-flydubai-attack?traffic_source=rss",
-              "pubDate": "2026-10-03T15:39:10.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "investigation-continues-into-alleged-aviation-incident-suspect"
+          "importance": 50,
+          "slug": "houthi-claim-attacks-on-major-saudi-oil-facility"
         },
         {
           "representativeTitle": "Egypt Warned Hamas Threat Before October Seventh Attacks",
@@ -569,36 +545,6 @@ export const newsData = {
           "slug": "egypt-warned-hamas-threat-before-october-seventh-attacks"
         },
         {
-          "representativeTitle": "Kenya Road Crash Kills At Least Seventeen People",
-          "sources": [
-            "Al Jazeera",
-            "Sky News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "At least 17 people, mostly pilgrims, killed in Kenya road crash",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/3/at-least-17-people-mostly-pilgrims-killed-in-kenya-road-crash?traffic_source=rss",
-              "pubDate": "2026-10-03T14:30:40.000Z",
-              "tier": 1
-            },
-            {
-              "title": "At least 17 people killed in Kenya road crash",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/at-least-17-people-killed-in-kenya-road-crash-13594661",
-              "pubDate": "2026-10-03T11:23:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "kenya-road-crash-kills-at-least-seventeen-people"
-        },
-        {
           "representativeTitle": "Brazil Election Uncertainty Keeps Wall Street Alerted",
           "sources": [
             "CNBC Markets"
@@ -619,6 +565,36 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "brazil-election-uncertainty-keeps-wall-street-alerted"
+        },
+        {
+          "representativeTitle": "Europe to release diesel reserves following Trump request.",
+          "sources": [
+            "BBC World",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-03T04:38:31.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Europe to release diesel reserves after Trump request",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85TWRabzE5TFpBLXhla3owSmdFV2ltcUhyeFJwQjVlaVl2T1NES240V3JKemFPVnBRYXp4V3dGQ0h0TnQ1X2VBZXRLamtNbjVtblRZQTZpblVzOGNsaHFpQzNsNDUwTXhUSUNfaXdMaEFSd9IBckFVX3lxTFBTZVdtVDNsQWJkbkh3Qk5oaEVKZUllR1kyeDZYNTRrYXNMNWVUYXdYU3BYT3I1VWRtX18yeGI5bUZQaEJSRlZodEEwRjJrWjNuNGlLbWR2bEM0aG9yVldaS2NVT0EzWTZhSmQ5UklWOEdSQQ?oc=5",
+              "pubDate": "2026-10-03T13:00:38.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "europe-to-release-diesel-reserves-following-trump-request"
         },
         {
           "representativeTitle": "India, Pakistan Clash Over Border Deaths Dispute",
@@ -643,6 +619,28 @@ export const newsData = {
           "slug": "india-pakistan-clash-over-border-deaths-dispute"
         },
         {
+          "representativeTitle": "Latvian polls favor PM's party; coalition faces hurdles.",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Latvia exit polls put PM's pro-Ukraine party ahead but coalition partners stumble",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261003-latvia-elections-pm-kulbergs-pro-ukraine-party-ahead-coalition-partners-stumble",
+              "pubDate": "2026-10-03T20:58:30.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "latvian-polls-favor-pms-party-coalition-faces-hurdles"
+        },
+        {
           "representativeTitle": "China probes European chemical exports amid trade tensions.",
           "sources": [
             "FT International"
@@ -665,26 +663,34 @@ export const newsData = {
           "slug": "china-probes-european-chemical-exports-amid-trade-tensions"
         },
         {
-          "representativeTitle": "Israel Court Overturns Ban on Arab Political Parties",
+          "representativeTitle": "Airline Co-pilot Flagged Over Extremism Concerns",
           "sources": [
-            "Bloomberg Markets"
+            "SCMP",
+            "Google World"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Israel’s Supreme Court Overturns Election Ban on Arab Parties",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-03/israel-s-supreme-court-overturns-election-ban-on-arab-parties",
-              "pubDate": "2026-10-03T09:44:49.000Z",
-              "tier": 1
+              "title": "Flydubai plane attack: co-pilot had been from flying over extremist views",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3369644/flydubai-plane-attack-co-pilot-previously-barred-flying-oman-over-extremist-views?utm_source=rss_feed",
+              "pubDate": "2026-10-03T04:53:37.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Ax-wielding FlyDubai co-pilot had been flagged over extremism concerns",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTm53alVRRTlka3JlQllEQUdvclBOMzVxOUFvQnhkMGowdDlNeXIyTFZ3ZU1GblhLOUF2VDhTRVdzRjJfZmJRWEZMcUhaMGxXVEI0NzhFYWJ6bk1USDU2VDdzcWZ4WEcwQTd4bzMzUEcyZ0lBdFRsck8zbDZ5MTdLeFBPdEFaV2llTXViWTlleDl3SE5lTWxEMThJa09WSGdH?oc=5",
+              "pubDate": "2026-10-03T23:15:00.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "israel-court-overturns-ban-on-arab-political-parties"
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "airline-co-pilot-flagged-over-extremism-concerns"
         },
         {
           "representativeTitle": "Bulgaria Czar Samuel Remains Returned After Millennium Journey",
@@ -731,6 +737,58 @@ export const newsData = {
           "slug": "us-china-rivalry-intensifies-amid-great-power-struggle"
         },
         {
+          "representativeTitle": "Tropical Cyclone Nolo Forms in Pacific Ocean",
+          "sources": [
+            "ABC News Top",
+            "ABC News US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Nolo becomes a Category 3 Hurricane in the remote Pacific Ocean",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/US/wireStory/nolo-category-3-hurricane-remote-pacific-ocean-136978708",
+              "pubDate": "2026-10-03T22:58:23.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Nolo becomes a Category 3 Hurricane in the remote Pacific Ocean",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/nolo-category-3-hurricane-remote-pacific-ocean-136978708",
+              "pubDate": "2026-10-03T22:58:23.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "tropical-cyclone-nolo-forms-in-pacific-ocean"
+        },
+        {
+          "representativeTitle": "Attacker Used Common Jet Fixture in Incident",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "FlyDubai Attacker Used ‘Crash Ax,’ a Common Fixture on Many Jets",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/world/flydubai-co-pilot-used-crash-ax-in-attack-says-u-a-e-88554e9a?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-10-03T19:34:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "attacker-used-common-jet-fixture-in-incident"
+        },
+        {
           "representativeTitle": "Voter support wavers in Lula's strongholds.",
           "sources": [
             "FT International"
@@ -773,50 +831,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "coast-guard-halts-fuel-shipments-heading-to-cuba"
-        },
-        {
-          "representativeTitle": "Quebec Separatists Poised to Win Election; Independence Unclear",
-          "sources": [
-            "NY Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Separatists Are Poised to Win Quebec’s Election. Independence Is Still a Hard Sell.",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/03/world/canada/quebec-election-independence-parti-quebecois-separatism.html",
-              "pubDate": "2026-10-03T09:02:05.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "quebec-separatists-poised-to-win-election-independence-unclear"
-        },
-        {
-          "representativeTitle": "Attacker Used Common Jet Fixture in Incident",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "FlyDubai Attacker Used ‘Crash Ax,’ a Common Fixture on Many Jets",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/world/flydubai-co-pilot-used-crash-ax-in-attack-says-u-a-e-88554e9a?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-10-03T16:34:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "attacker-used-common-jet-fixture-in-incident"
         },
         {
           "representativeTitle": "Canada Shifts Diplomatic Focus Toward European Partners",
@@ -863,28 +877,6 @@ export const newsData = {
           "slug": "xis-schedule-interrupted-during-trump-summit-talks"
         },
         {
-          "representativeTitle": "Malaysia plans major naval missile system acquisition.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Malaysia Eyes $245 Million Naval Missile System, Star Reports",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-03/malaysia-eyes-245-million-naval-missile-system-star-reports",
-              "pubDate": "2026-10-03T07:32:16.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "malaysia-plans-major-naval-missile-system-acquisition"
-        },
-        {
           "representativeTitle": "Spain analyzes lessons from housing market crisis.",
           "sources": [
             "FT International"
@@ -912,7 +904,7 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Tennessee Woman Hospitalized After Execution Attempt",
+          "representativeTitle": "Tennessee Prison Official Resigns After Execution Botch",
           "sources": [
             "BBC World",
             "The Guardian",
@@ -970,14 +962,7 @@ export const newsData = {
               "title": "Tennessee prison chief who oversaw Christina Pike's failed execution resigns",
               "source": "Le Monde",
               "link": "https://www.lemonde.fr/en/international/article/2026/10/03/tennessee-prison-chief-who-oversaw-christina-pike-s-failed-execution-resigns_6758221_4.html",
-              "pubDate": "2026-10-03T16:39:29.000Z",
-              "tier": 2
-            },
-            {
-              "title": "After botched Tennessee execution, Christa Pike on a ventilator and unconscious",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/02/after-botched-tennessee-execution-christa-pike-on-a-ventilator-and-unconscious_6758196_4.html",
-              "pubDate": "2026-10-02T20:58:59.000Z",
+              "pubDate": "2026-10-03T16:39:27.000Z",
               "tier": 2
             }
           ],
@@ -986,10 +971,10 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 100,
-          "slug": "tennessee-woman-hospitalized-after-execution-attempt"
+          "slug": "tennessee-prison-official-resigns-after-execution-botch"
         },
         {
-          "representativeTitle": "Tennessee Prison Chief Resigns After Execution Failure",
+          "representativeTitle": "Commissioner Resigns After Flawed Execution Incident",
           "sources": [
             "BBC US",
             "Washington Post",
@@ -1015,14 +1000,14 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "What to know about Christa Pike, her failed execution and what happens next",
+              "title": "Tennessee’s prisons chief resigns after failed Pike execution, governor says",
               "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/nation/2026/10/02/what-know-about-christa-pike-her-botched-execution-what-happens-next/",
-              "pubDate": "2026-10-02T20:27:34.000Z",
+              "link": "https://www.washingtonpost.com/nation/2026/10/03/tennessee-prisons-chief-resigns-after-failed-christa-pike-execution-gov-says/",
+              "pubDate": "2026-10-03T18:38:22.000Z",
               "tier": 1
             },
             {
-              "title": "Tennessee's state corrections chief resigns following failed execution of Christa Pike",
+              "title": "Tennessee prison chief resigns after failed execution as former US attorney tapped to lead independent review",
               "source": "Fox News",
               "link": "https://www.foxnews.com/politics/tennessee-state-corrections-chief-resigns-failed-execution-christa-pike",
               "pubDate": "2026-10-03T18:34:43.000Z",
@@ -1043,17 +1028,17 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Governor says Tennessee's prisons chief is resigning after failed execution of Christa Pike",
+              "title": "Tennessee's prisons chief is resigning after failed execution of Christa Pike",
               "source": "ABC News US",
               "link": "https://abcnews.com/US/wireStory/governor-tennessees-prisons-chief-resigning-after-failed-execution-136973613",
-              "pubDate": "2026-10-03T15:48:03.000Z",
+              "pubDate": "2026-10-03T20:58:20.000Z",
               "tier": 2
             },
             {
-              "title": "Governor says Tennessee’s prisons chief is resigning after failed execution of Christa Pike",
+              "title": "Tennessee’s prisons chief is resigning after failed execution of Christa Pike",
               "source": "Google US",
               "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS2dvZno4RTVmS3RJLXVKV3ExNXptZUltbFhwQng2Zzl6RVZhYWZpREk3RnNPcVFrS2hLdHNpcWpOZW9paW5vM1d4UTZ4M1VVTklLbTNfbDZZeGhpaVU4WjVpOXJkMTNTOUlLMmZuRUNBdTRzVW9mWFYyMlVQek5UNXFTdGNpRkFWOVlENHlMYXh6RWlrbXJpc3I0WTF4UG1xQlExNUJrYw?oc=5",
-              "pubDate": "2026-10-03T18:45:00.000Z",
+              "pubDate": "2026-10-03T20:27:00.000Z",
               "tier": 2
             }
           ],
@@ -1062,53 +1047,53 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 90,
-          "slug": "tennessee-prison-chief-resigns-after-execution-failure"
+          "slug": "commissioner-resigns-after-flawed-execution-incident"
         },
         {
-          "representativeTitle": "Hawaii Sea Arch Collapse Marks Coastal Erosion Concern",
+          "representativeTitle": "Coast Guard Searches Nantucket For Missing Jet Aircraft",
           "sources": [
             "BBC US",
             "NBC News",
-            "ABC News US",
+            "NPR",
             "Google US"
           ],
           "citationCount": 4,
           "rawArticles": [
             {
-              "title": "Hawaii's iconic 550-year-old Hōlei Sea Arch collapses",
+              "title": "Medical plane with 6 on board missing off Massachusetts coast",
               "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/crd6dy4xepgyo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T21:00:41.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-03T21:16:21.000Z",
               "tier": 1
             },
             {
-              "title": "Hawaii’s picturesque Hōlei Sea Arch collapses into the ocean",
+              "title": "Coast Guard searching off Nantucket for missing medical evacuation jet",
               "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/hawaiis-picturesque-holei-sea-arch-collapses-ocean-rcna601241",
-              "pubDate": "2026-10-03T02:50:21.000Z",
+              "link": "https://www.nbcnews.com/news/us-news/coast-guard-searching-nantucket-missing-jet-bermuda-boston-rcna601265",
+              "pubDate": "2026-10-03T11:51:57.000Z",
               "tier": 2
             },
             {
-              "title": "A famed Hawaii sea arch collapses, prompting NPS warnings of unstable cliffs",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/famed-hawaii-sea-arch-collapses-prompting-nps-warnings-136969607",
-              "pubDate": "2026-10-03T14:54:55.000Z",
+              "title": "Coast Guard searching for missing medical plane carrying 6 people",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/03/g-s1-146338/plane-missing-coast-guard-search-massachusetts",
+              "pubDate": "2026-10-03T22:31:04.000Z",
               "tier": 2
             },
             {
-              "title": "Hawaii sea arch collapses into Pacific Ocean 550 years after its formation",
+              "title": "Medical plane with 6 on board missing off Massachusetts coast",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zRlRIM3RZb1J2Mk9VR3dxZ0pCeWdZSUdRY0U1N19UWVdFNWFwanMwRW1MVlNySFBCMEl1VUdmNXdtMkFMbHJnUE5sY0wwWWtnWGlBQWZtaElrRFZoWTlsQUFtcjNPcUlINVZmTjJ3?oc=5",
-              "pubDate": "2026-10-03T13:58:58.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSemR6TVpWd013dlBTeWw4Sl9FZldRTjVJM2FzV2V2NUpja0o5MHczSzBxTjhVTHhuWGpWYXVjd256ZmFIcXI4YXJLTC03eUVFY0JKejVlam1vRXc?oc=5",
+              "pubDate": "2026-10-03T21:16:21.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.9,
+          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 60,
-          "slug": "hawaii-sea-arch-collapse-marks-coastal-erosion-concern"
+          "slug": "coast-guard-searches-nantucket-for-missing-jet-aircraft"
         },
         {
           "representativeTitle": "Coast Guard searches for missing air ambulance off coast.",
@@ -1122,7 +1107,7 @@ export const newsData = {
               "title": "Medical plane with 6 on board missing off Massachusetts coast",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-03T18:06:47.000Z",
+              "pubDate": "2026-10-03T21:16:21.000Z",
               "tier": 1
             },
             {
@@ -1139,43 +1124,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 60,
           "slug": "coast-guard-searches-for-missing-air-ambulance-off-coast"
-        },
-        {
-          "representativeTitle": "Allegations surface in Cornell fraternity rape case.",
-          "sources": [
-            "Washington Post",
-            "ABC News US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "What to know about the Cornell University rape allegations",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/education/2026/10/02/what-know-about-cornell-university-rape-allegations/",
-              "pubDate": "2026-10-02T18:51:39.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Governor slams district attorney, Cornell police on handling of rape allegations",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/education/2026/10/02/new-york-governor-slams-district-attorney-over-handling-cornell-rape-allegations/",
-              "pubDate": "2026-10-02T16:36:39.000Z",
-              "tier": 1
-            },
-            {
-              "title": "FACT FOCUS: What people are alleging in a Cornell University fraternity gang rape case",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/fact-focus-people-alleging-cornell-university-fraternity-gang-136967008",
-              "pubDate": "2026-10-03T04:52:27.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "allegations-surface-in-cornell-fraternity-rape-case"
         },
         {
           "representativeTitle": "Students Selling Firearms to Drug Cartels Reported",
@@ -1200,34 +1148,48 @@ export const newsData = {
           "slug": "students-selling-firearms-to-drug-cartels-reported"
         },
         {
-          "representativeTitle": "Coast Guard Searches Nantucket For Missing Jet Aircraft",
+          "representativeTitle": "Judge Slams Flock System as Mass Surveillance Tool",
           "sources": [
-            "BBC US",
-            "NBC News"
+            "TechCrunch"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Medical plane with 6 on board missing off Massachusetts coast",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-03T18:06:47.000Z",
+              "title": "Federal judge calls Flock ‘indiscriminate mass surveillance’",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
+              "pubDate": "2026-10-03T19:33:15.000Z",
               "tier": 1
-            },
-            {
-              "title": "Coast Guard searching off Nantucket for missing medical evacuation jet",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/coast-guard-searching-nantucket-missing-jet-bermuda-boston-rcna601265",
-              "pubDate": "2026-10-03T11:51:57.000Z",
-              "tier": 2
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Technology",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 6,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "judge-slams-flock-system-as-mass-surveillance-tool"
+        },
+        {
+          "representativeTitle": "Air Ambulance Missing During Bermuda to Boston Flight",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Air ambulance missing on flight from Bermuda to Boston",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/3/air-ambulance-missing-on-flight-from-bermuda-to-boston?traffic_source=rss",
+              "pubDate": "2026-10-03T23:03:44.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 7,
           "importance": 50,
-          "slug": "coast-guard-searches-nantucket-for-missing-jet-aircraft"
+          "slug": "air-ambulance-missing-during-bermuda-to-boston-flight"
         },
         {
           "representativeTitle": "Study Links Teens to Gun Trafficking Networks",
@@ -1252,177 +1214,45 @@ export const newsData = {
           "slug": "study-links-teens-to-gun-trafficking-networks"
         },
         {
-          "representativeTitle": "Clerk, Son Charged After Student Overdoses on Kratom",
+          "representativeTitle": "Trump posts phone number amid daylight saving dispute.",
           "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Shop clerk and son charged with selling illegal kratom after two Ole Miss students die from suspected overdoses",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/oct/03/shop-clerk-and-son-charged-selling-kratom-mississippi",
-              "pubDate": "2026-10-03T16:17:23.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "clerk-son-charged-after-student-overdoses-on-kratom"
-        },
-        {
-          "representativeTitle": "FDA Finds Cyclospora at Mexican Farm Inspection",
-          "sources": [
-            "NY Times",
-            "Washington Post"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "F.D.A. Found Cyclospora During Taylor Farms Inspection in Mexico",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/02/health/cyclospora-taylor-farms-mexico.html",
-              "pubDate": "2026-10-02T22:25:24.000Z",
-              "tier": 1
-            },
-            {
-              "title": "FDA found cyclospora at Taylor Farms Mexico site and where lettuce was grown",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/health/2026/10/02/fda-found-cyclospora-taylor-farms-mexico-site-where-lettuce-was-grown/",
-              "pubDate": "2026-10-02T22:50:49.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "fda-finds-cyclospora-at-mexican-farm-inspection"
-        },
-        {
-          "representativeTitle": "Rape Allegations Spark Debate on Intoxication and Consent Laws",
-          "sources": [
-            "Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cornell rape allegations reignite debate over laws on intoxication and consent",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/nation/2026/10/03/cornell-rape-allegations-reignite-debate-over-laws-intoxication-consent/",
-              "pubDate": "2026-10-03T10:00:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "rape-allegations-spark-debate-on-intoxication-and-consent-laws"
-        },
-        {
-          "representativeTitle": "Jury acquits deputy in airman shooting death case.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Florida jury finds ex-sheriff’s deputy not guilty in shooting death of Black air force airman",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/oct/03/florida-ex-sheriff-deputy-not-guilty-shooting-death-black-air-force-airman",
-              "pubDate": "2026-10-03T16:44:21.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "jury-acquits-deputy-in-airman-shooting-death-case"
-        },
-        {
-          "representativeTitle": "TSA Changes ID Check Protocol: Officers Cannot Sit Down",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "TSA to prohibit airport security officers from sitting down while checking travelers’ IDs",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/oct/03/tsa-rule-change",
-              "pubDate": "2026-10-03T15:36:18.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "tsa-changes-id-check-protocol-officers-cannot-sit-down"
-        },
-        {
-          "representativeTitle": "Supreme Court faces controversial docket of major cases.",
-          "sources": [
-            "NPR",
+            "NBC News",
+            "Fox News",
             "Google US"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "The Supreme Court faces another term jam-packed with controversy",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/10/03/nx-s1-5986341/supreme-court-term-religion-guns-environment-immigration",
-              "pubDate": "2026-10-03T09:00:00.000Z",
+              "title": "Trump appears to post Sen. Tom Cotton’s cell number over stalled daylight saving bill",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/donald-trump/tom-cotton-cell-number-post-daylight-savings-time-permanent-rcna601293",
+              "pubDate": "2026-10-03T18:48:07.000Z",
               "tier": 2
             },
             {
-              "title": "The Supreme Court faces another term jam-packed with controversy",
+              "title": "Trump drops Republican Senator's phone number in social post over fury on stalled bill",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/politics/trump-drops-republican-senators-phone-number-social-post-fury-stalled-bill",
+              "pubDate": "2026-10-03T19:02:11.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump, Cotton tussle over daylight savings after cell phone number leak",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcUFkU1hYNXNZdlFNTWpDanZmOTFMMjVMNERwZEQ5R25UTEpSaUtfcU5jQWtIdGdUaGU4aTF0c04zS1RFMTg3RGtHeUFxTnFSa241Rlp6T1lySTFNcFZOODM2OGRLMVI1bDVzU3RKcXlRYl9WZGE3ZEZoODQ3R2x6NW9YX0xWT2p5bnlKYXFWbEJZZ21WOVBIZlRmeXdLb1owSGFv?oc=5",
-              "pubDate": "2026-10-03T09:00:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR0txQjFiYnBZVlM1Y244QzR3cmQ2WGdyWHpCSWlPRTF4VHBWTTNKTWxLZ1VxTGtxWlh0REE2ckd6elpFbDVQZWxsRGJRMmR1aG1WMjJfQ2VFb0IxWE1IYTlRNjJhMFlGWDB6NUY1cUt6SWZ3b3JxNVZ3QXI4YUs3SjI4Sm9fNU9wWDhuV0w1MUdJWTdobXBFRtIBngFBVV95cUxPQzA3N2xacVFkWHp3ZVRZUzlYWWtIUFNFQ1hRQ0M2aHRfQ2Z3ajBLYmtleW85UDhOSUxuaGxTenZPTGJnQy0wZUcwdXBYNDNUZXcyWHVFbDJjU19qWmh2QWtjNklOZS00QXRhLVMwV0VIcU42cFZLNUpsSXJoM3YwUmZsSWx2NGRoME9XR0EyaGJrQ3pDb09qd3hWOWVKdw?oc=5",
+              "pubDate": "2026-10-03T19:53:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "supreme-court-faces-controversial-docket-of-major-cases"
-        },
-        {
-          "representativeTitle": "Mother's Activism Boosted South Carolina Gay Rights Movement",
-          "sources": [
-            "Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "After her son came out, she helped propel South Carolina’s gay rights movement",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/obituaries/2026/10/03/harriet-hancock-mother-scs-gay-rights-movement-dies-89/",
-              "pubDate": "2026-10-03T10:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "mothers-activism-boosted-south-carolina-gay-rights-movement"
+          "slug": "trump-posts-phone-number-amid-daylight-saving-dispute"
         },
         {
-          "representativeTitle": "Trump pushes DST permanence via political maneuvering.",
+          "representativeTitle": "Trump Pledges $90 Checks to Medicare Seniors",
           "sources": [
             "NBC News",
             "Google US"
@@ -1430,26 +1260,182 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Trump appears to post Sen. Tom Cotton’s cell number in push to make daylight saving time permanent",
+              "title": "Trump pledges to send $90 checks to millions of seniors on Medicare",
               "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/donald-trump/tom-cotton-cell-number-post-daylight-savings-time-permanent-rcna601293",
-              "pubDate": "2026-10-03T18:48:07.000Z",
+              "link": "https://www.nbcnews.com/politics/donald-trump/trump-pledges-medicare-90-dollar-checks-millions-seniors-rcna601312",
+              "pubDate": "2026-10-03T21:47:07.000Z",
               "tier": 2
             },
             {
-              "title": "Trump apparently shares Tom Cotton’s phone number in push to make Daylight Saving Time permanent",
+              "title": "Trump pledges to send $90 checks to millions of seniors on Medicare",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOWZfTGZXSTQxREJOeEFhQzdQQUFiZEh5QUU4S2o3OXdhVDVtOTZGVzlpZ1V2TV8xdU1lRF9yc3RGWlB2SzhPN2VNZi1jaFl2NF9wU2I5d08xZ0c2Sm9BSjZuSjh1dF9QT1FRdjlWZ1NLYnpjWTc3OG12cVA5SjZacHE0OG9ocXlISGp2eENMdGhnQlExM1N1ZXNB?oc=5",
-              "pubDate": "2026-10-03T17:45:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRWNDcFY0VFl2NDNydWx6QlJjVHlVbXZPbzBkUElOVzhHMWVKOXF4MzZKSFY4OU0xUVF1NzRSdTg3UGtoNEQzd05RU0lfbWQ5X0Q4ZS11Z3Q3T2hOTXNEblpLRGhWejRxZ1NmemVoVHpJWDFOYVJXOGVKLXpoQkZQaTZCY1JYRmZ5SjllUjRweUpYRE9GSDBrS1VMUzZScGVqc20wQ2VrZGJUMjRvVTVvblRkUQ?oc=5",
+              "pubDate": "2026-10-03T21:47:07.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "trump-pledges-90-checks-to-medicare-seniors"
+        },
+        {
+          "representativeTitle": "Trump shares senator's number over daylight savings ploy.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump appears to share personal phone number of US senator in ploy to push permanent daylight savings",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/oct/03/trump-tom-cotton-daylight-saving-time",
+              "pubDate": "2026-10-03T22:07:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "trump-shares-senators-number-over-daylight-savings-ploy"
+        },
+        {
+          "representativeTitle": "Tories propose childcare expansion for high earners.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Tories would expand free childcare to high earners, Badenoch says",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/2026/oct/03/tories-plan-to-expand-free-childcare-to-high-earners-to-end-cliff-edge",
+              "pubDate": "2026-10-03T21:00:09.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "tories-propose-childcare-expansion-for-high-earners"
+        },
+        {
+          "representativeTitle": "Trump pressures Republicans over US clock switching issue.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump ramps up pressure on US Republicans to end US clock switching",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/3/trump-ramps-up-pressure-on-us-republicans-to-end-us-clock-switching?traffic_source=rss",
+              "pubDate": "2026-10-03T20:16:50.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "trump-pressures-republicans-over-us-clock-switching-issue"
+        },
+        {
+          "representativeTitle": "Hawaii Sea Arch Collapse Marks Coastal Erosion Concern",
+          "sources": [
+            "NBC News",
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Hawaii’s picturesque Hōlei Sea Arch collapses into the ocean",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/hawaiis-picturesque-holei-sea-arch-collapses-ocean-rcna601241",
+              "pubDate": "2026-10-03T02:50:21.000Z",
+              "tier": 2
+            },
+            {
+              "title": "A famed Hawaii sea arch collapses, prompting NPS warnings of unstable cliffs",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/famed-hawaii-sea-arch-collapses-prompting-nps-warnings-136969607",
+              "pubDate": "2026-10-03T14:54:55.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Hawaii sea arch collapses into Pacific Ocean 550 years after its formation",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zRlRIM3RZb1J2Mk9VR3dxZ0pCeWdZSUdRY0U1N19UWVdFNWFwanMwRW1MVlNySFBCMEl1VUdmNXdtMkFMbHJnUE5sY0wwWWtnWGlBQWZtaElrRFZoWTlsQUFtcjNPcUlINVZmTjJ3?oc=5",
+              "pubDate": "2026-10-03T13:58:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "hawaii-sea-arch-collapse-marks-coastal-erosion-concern"
+        },
+        {
+          "representativeTitle": "Democrats Identify Strategy to Win Red-State Senate Seats",
+          "sources": [
+            "Google US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Democrats May Have Found the Recipe for Flipping Red-State Senate Seats",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaDdJUVJFQURaTTJPQ1h6RTlfV2ZKMFNRSGFDSjJWWlByb3NSSkFOYjVNd3hWVl9nd1U5UTJVTVowY1hWS0RpY1puOExiOXBHSml1WFE2UFliZm1FNk9nNU1mUktFd2d5NGNRTXY4TS02anFndjBoYlJvUWNSWVl2WEtqVGdnVUE?oc=5",
+              "pubDate": "2026-10-03T22:02:56.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 30,
-          "slug": "trump-pushes-dst-permanence-via-political-maneuvering"
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "democrats-identify-strategy-to-win-red-state-senate-seats"
+        },
+        {
+          "representativeTitle": "Woman alleges feeling like bait during rape investigation.",
+          "sources": [
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Woman told Cornell investigators she 'felt like bait' during alleged gang rape",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/woman-told-cornell-investigators-felt-bait-alleged-gang-136963907",
+              "pubDate": "2026-10-03T01:07:40.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Woman told Cornell investigators she 'felt like bait' during alleged gang rape",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQ2FnMFpyLXJWN2N0SDBMcEpFOFBmblE2MXNuX3lIcjl0TUNscHBSaWlPSFdRR1pJaHdoa3JiYjZvUlgwSW1SVWhGWDFab2t4RlBwa2prOHVibnk3REtySUhkZnJWME8xOUZia2hGUF9CemhBOC1ybTN0Smg1VWM4dkdsZDY2WTRkaURiaUlaYXV2WnVLWFBpM2VwYjVMeDZtRVd0TGdJU3d2TFgxYVk3N2FR?oc=5",
+              "pubDate": "2026-10-03T16:04:57.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "woman-alleges-feeling-like-bait-during-rape-investigation"
         }
       ]
     },
@@ -1717,36 +1703,6 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
-          "representativeTitle": "Amazon drops NDAs amid data center backlash concerns.",
-          "sources": [
-            "TechCrunch",
-            "Ars Technica"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-              "pubDate": "2026-10-03T18:43:57.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
-              "source": "Ars Technica",
-              "link": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-              "pubDate": "2026-10-02T20:30:27.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "amazon-drops-ndas-amid-data-center-backlash-concerns"
-        },
-        {
           "representativeTitle": "AI Safety Employee Exits OpenAI Over Culture Issues",
           "sources": [
             "TechCrunch"
@@ -1813,6 +1769,28 @@ export const newsData = {
           "slug": "ai-agents-integrating-into-everyday-text-messaging-experiences"
         },
         {
+          "representativeTitle": "Amazon drops NDAs amid data center backlash concerns.",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+              "pubDate": "2026-10-03T18:43:57.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "amazon-drops-ndas-amid-data-center-backlash-concerns"
+        },
+        {
           "representativeTitle": "Indian Government Removes Bitchat App From Stores",
           "sources": [
             "TechCrunch"
@@ -1835,36 +1813,6 @@ export const newsData = {
           "slug": "indian-government-removes-bitchat-app-from-stores"
         },
         {
-          "representativeTitle": "Meta plans integrating Muse into future gadgets.",
-          "sources": [
-            "TechCrunch",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Meta wants your next gadget to be Muse-infused",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-              "pubDate": "2026-10-03T00:45:39.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Meta wants your next gadget to be Muse-infused",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcjdHVnh1OXdDTTdUc2tQOEs3eVBoT01zWWZjV1Q3R0pFMG5GRVhSRHp6WTIxZVpiVGtEbjY3Y1lqY3REOW81eVRJRlM4ZktkRk4tbzdLcjZZQXhDSk5oVVhwQkJLb2dBZGZpa2R3b2FMbjZmTG02RWRiUjRPbHUta0txcUs2QQ?oc=5",
-              "pubDate": "2026-10-03T00:45:39.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "meta-plans-integrating-muse-into-future-gadgets"
-        },
-        {
           "representativeTitle": "Vessev unveils innovative electric ferry design concept.",
           "sources": [
             "TechCrunch"
@@ -1885,44 +1833,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "vessev-unveils-innovative-electric-ferry-design-concept"
-        },
-        {
-          "representativeTitle": "Apple to Limit Mac Access Due to AI Risks",
-          "sources": [
-            "The Verge",
-            "Ars Technica",
-            "Google Tech"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-              "pubDate": "2026-10-02T20:08:40.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
-              "source": "Ars Technica",
-              "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-              "pubDate": "2026-10-02T23:03:16.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNHNCbTdmU3c0TXd5dm9oeTZiV1FFR1U3NVdacUdyN0JVRzJvSmpWSTBnNzA1Rnpad0NyVGZJNEZGRU4ybGZSX3hwcVhuQmEyMEpKNG1wVG5xTUtXMlY5ZUViaFQ3bUVGZUdwejJYMFp2Rko3eUxpdUJ4dVh5bFZ0RlNXZi0xU1h4MFZSSG01R05BbW05SGFzT2diaVNaM2p6UjB5ejRNa2laTHJmbDdNXzVCMA?oc=5",
-              "pubDate": "2026-10-02T23:03:16.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "apple-to-limit-mac-access-due-to-ai-risks"
         },
         {
           "representativeTitle": "Billionaire's Body Scan Startup Launches in America",
@@ -2091,6 +2001,28 @@ export const newsData = {
           "slug": "decade-experiment-unlocks-deep-ocean-reef-mysteries"
         },
         {
+          "representativeTitle": "Emissions Choices May Limit Antarctic Ice Loss Risks",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Today's emissions choices could limit Antarctic ice loss and sea-level rise for coastal communities",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-today-emissions-choices-limit-antarctic.html",
+              "pubDate": "2026-10-03T20:00:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "emissions-choices-may-limit-antarctic-ice-loss-risks"
+        },
+        {
           "representativeTitle": "New Reactor Boosts Plastic Synthesis with Oxygen Power",
           "sources": [
             "Phys.org"
@@ -2113,6 +2045,28 @@ export const newsData = {
           "slug": "new-reactor-boosts-plastic-synthesis-with-oxygen-power"
         },
         {
+          "representativeTitle": "Scientists Unravel Key Biology of Cancer Gene",
+          "sources": [
+            "Google Science"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Scientists Untangle the Biology of an ‘Undruggable’ Cancer Gene",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdDZxVGs2MkFnenNPR3VKV0ZQck14TDhQWnMwaTF4NThqSWZFMFVlcFlIUFREZGRqMlZnSENBcWVvbC02ZExCSllkdUhfNmVINHRhWmZxWGJ6M0N2MTVYVlBVNlF6UWtTR0dRaHFUWmt5Zjc2RENUcHJUaUdLeTVkSm41TFFjcmFKQXVFVV9TOHlkUW5PdzdzZUZ3VXZWQ1drWC1YX0tRWFM1aVpWdmc?oc=5",
+              "pubDate": "2026-10-03T19:09:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "scientists-unravel-key-biology-of-cancer-gene"
+        },
+        {
           "representativeTitle": "Atmospheric slowing signals subtle climate change trends.",
           "sources": [
             "Phys.org"
@@ -2133,50 +2087,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "atmospheric-slowing-signals-subtle-climate-change-trends"
-        },
-        {
-          "representativeTitle": "ESA's Juice Mission Uses Earth Gravity Assist For Jupiter",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "ESA’s Juice just used Earth as a slingshot to Jupiter",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/10/261001214102.htm",
-              "pubDate": "2026-10-03T13:34:11.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "esas-juice-mission-uses-earth-gravity-assist-for-jupiter"
-        },
-        {
-          "representativeTitle": "Lunar Soil Reveals Magnetic Clues About Past Earth",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Chang’e-6 lunar soil contains a surprising magnetic time capsule",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/10/261001214015.htm",
-              "pubDate": "2026-10-03T13:12:14.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "lunar-soil-reveals-magnetic-clues-about-past-earth"
         },
         {
           "representativeTitle": "New Light Topology Reading Overcoming Energy Loss",
@@ -2229,6 +2139,36 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 40,
           "slug": "simulations-suggest-milky-way-formed-from-galaxies"
+        },
+        {
+          "representativeTitle": "Light's Effect on Water Evaporation Debunked by Study",
+          "sources": [
+            "Phys.org",
+            "Google Science"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Visible light does not speed up water evaporation, rigorous experiments suggest",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-visible-evaporation-rigorous.html",
+              "pubDate": "2026-10-03T16:40:01.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Visible light does not speed up water evaporation, rigorous experiments suggest",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mRjg1dXNjYVFtNU1yeV9SM3lOd3hkZXdzeWhEb2M4WnlQcFdKN0h0d19SZEdkS3FmeEhoOExKWlg4QU5UbVRxSFlWNWhBbkJxb0dYRER0NFVFVFlNU0JlbTNpa2dhb3Z6bFFEVjIwWDE?oc=5",
+              "pubDate": "2026-10-03T16:40:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 30,
+          "slug": "lights-effect-on-water-evaporation-debunked-by-study"
         }
       ]
     }
