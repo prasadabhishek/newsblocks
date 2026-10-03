@@ -1,12 +1,12 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-02T22:53:17.952Z",
+  "lastUpdated": "2026-10-03T03:00:02.012Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "G7 Releases Oil Amid Trump Export Ban Fears",
+          "representativeTitle": "G7 Oil Release Amid Trump Pressure Sparks Concern",
           "sources": [
             "BBC World",
             "The Guardian",
@@ -53,10 +53,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "G7 to release '100 million barrels' of diesel and crude oil reserves",
+              "title": "Under pressure from Donald Trump, G7 releases 100 million barrels of oil",
               "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/02/g7-leaders-hold-talks-after-us-pressures-eu-on-fuel-reserves-and-diesel-ban_6758179_4.html",
-              "pubDate": "2026-10-02T13:17:54.000Z",
+              "link": "https://www.lemonde.fr/en/economy/article/2026/10/03/under-pressure-from-donald-trump-g7-releases-100-million-barrels-of-oil_6758200_19.html",
+              "pubDate": "2026-10-03T00:21:19.000Z",
               "tier": 2
             }
           ],
@@ -65,7 +65,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 100,
-          "slug": "g7-releases-oil-amid-trump-export-ban-fears"
+          "slug": "g7-oil-release-amid-trump-pressure-sparks-concern"
         },
         {
           "representativeTitle": "Pilot Reports Attack; Trump Threatens Iran Reprisals.",
@@ -82,6 +82,13 @@ export const newsData = {
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/videos/c914d43y7xn4o?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-10-02T08:46:37.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Flydubai pilot recounts cockpit stabbing in call with Indian PM Modi",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/2/flydubai-pilot-recounts-cockpit-stabbing-in-call-with-indian-pm-modi?traffic_source=rss",
+              "pubDate": "2026-10-02T22:50:23.000Z",
               "tier": 1
             },
             {
@@ -110,8 +117,54 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 80,
+          "importance": 90,
           "slug": "pilot-reports-attack-trump-threatens-iran-reprisals"
+        },
+        {
+          "representativeTitle": "Iranian Men Charged Over Suspected Terror Plot in Manchester",
+          "sources": [
+            "The Guardian",
+            "Sky News",
+            "Le Monde",
+            "Google World"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Two Iranian men charged over alleged terror plot targeting Manchester’s Jewish community",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/uk-news/2026/oct/02/charged-alleged-terror-plot-manchester-jewish-community",
+              "pubDate": "2026-10-02T22:52:01.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Two Iranian men charged over suspected terror plot targeting Jewish people in Manchester ahead of Yom Kippur",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/two-iranian-men-charged-over-suspected-terror-plot-targeting-jewish-people-in-manchester-ahead-of-yom-kippur-13593409",
+              "pubDate": "2026-10-02T14:36:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "In the UK, two Iranians charged with plotting an attack on Jewish community in Manchester",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/03/in-the-uk-two-iranians-charged-with-plotting-an-attack-on-jewish-community-in-manchester_6758198_4.html",
+              "pubDate": "2026-10-02T22:31:48.000Z",
+              "tier": 2
+            },
+            {
+              "title": "UK charges 2 Iranian men over alleged Yom Kippur terror plot in Manchester",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HYjZXeFhRV21nLW1DbXFDWUZGSjQ3Q0J6bEdNT1BVcVR5TnFNYWphSU9McXMwemtzUzJRZ19hdVdiRmpjYmdpcGhNYkh5Y3VCYnVVWWFrTGxrY3lmb1Jld3ZjTHlOT19nTjQtWXZ0N0wzM1RI?oc=5",
+              "pubDate": "2026-10-02T21:43:35.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "iranian-men-charged-over-suspected-terror-plot-in-manchester"
         },
         {
           "representativeTitle": "France sees clashes amid ongoing school protests.",
@@ -152,156 +205,80 @@ export const newsData = {
           "slug": "france-sees-clashes-amid-ongoing-school-protests"
         },
         {
-          "representativeTitle": "Iranian Men Charged Over Suspected Terror Plot in Manchester",
+          "representativeTitle": "Kyiv Mayor Warns Of Intensified Russian Strikes",
           "sources": [
-            "The Guardian",
-            "Sky News",
-            "Le Monde"
+            "BBC World",
+            "Euronews",
+            "Google World"
           ],
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Two Iranian men charged over alleged terror plot targeting Manchester’s Jewish community",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/oct/02/charged-alleged-terror-plot-manchester-jewish-community",
-              "pubDate": "2026-10-02T19:46:59.000Z",
+              "title": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T15:26:37.000Z",
               "tier": 1
             },
             {
-              "title": "Two Iranian men charged over suspected terror plot targeting Jewish people in Manchester ahead of Yom Kippur",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/two-iranian-men-charged-over-suspected-terror-plot-targeting-jewish-people-in-manchester-ahead-of-yom-kippur-13593409",
-              "pubDate": "2026-10-02T14:36:00.000Z",
+              "title": "Russia 'tearing Kyiv apart', mayor says, as strikes paralyse traffic",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/02/russia-tearing-kyiv-apart-mayor-says-as-strikes-paralyse-traffic",
+              "pubDate": "2026-10-02T19:30:32.000Z",
               "tier": 2
             },
             {
-              "title": "In the UK, two Iranians charged with plotting an attack on Jewish community in Manchester",
+              "title": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pSUVURXBKWVA1YmwtNjFZQ0tQbmt6NnUtWEVESEFsamFXR0tlb0NEbzViWDA1Tm9OSzROV3d0VXhmQ3k1UjNTNTg5ejYxQzlmU1A3NWlvaU5FU1E?oc=5",
+              "pubDate": "2026-10-02T15:26:37.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 70,
+          "slug": "kyiv-mayor-warns-of-intensified-russian-strikes"
+        },
+        {
+          "representativeTitle": "French Protests Spread, Closing Schools Amid Clashes",
+          "sources": [
+            "Al Jazeera",
+            "Le Monde",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Schools ablaze as student protests spread across France",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/schools-ablaze-as-student-protests-spread-across-france?traffic_source=rss",
+              "pubDate": "2026-10-03T01:46:10.000Z",
+              "tier": 1
+            },
+            {
+              "title": "High school student protests spread across France as tensions escalate",
               "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/03/in-the-uk-two-iranians-charged-with-plotting-an-attack-on-jewish-community-in-manchester_6758198_4.html",
-              "pubDate": "2026-10-02T22:31:48.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "iranian-men-charged-over-suspected-terror-plot-in-manchester"
-        },
-        {
-          "representativeTitle": "King Acknowledges Colonial Rule's Difficult Caribbean Past",
-          "sources": [
-            "The Guardian",
-            "SCMP",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "King Charles III to acknowledge ‘darkest days’ of Britain’s colonial rule during Caribbean tour",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/oct/02/king-charles-darkest-days-britain-colonial-rule-caribbean-tour",
-              "pubDate": "2026-10-02T19:02:56.000Z",
-              "tier": 1
-            },
-            {
-              "title": "King Charles to acknowledge ‘darkest days’ of colonial rule on Caribbean tour",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3369633/king-charles-acknowledge-darkest-days-colonial-rule-caribbean-tour?utm_source=rss_feed",
-              "pubDate": "2026-10-02T18:11:53.000Z",
+              "link": "https://www.lemonde.fr/en/france/article/2026/10/02/high-school-student-protests-spread-across-france-as-tensions-escalate_6758168_7.html",
+              "pubDate": "2026-10-02T09:13:59.000Z",
               "tier": 2
             },
             {
-              "title": "King Charles III to acknowledge ‘darkest days’ of Britain’s colonial rule during Caribbean tour",
+              "title": "France student protests spread from Paris, with violent clashes forcing hundreds of high schools to close",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeWhndEJSTWsyenNyLTFoNGFzbV83VHhiZ216amkxRFQwNnBJb3RIRkNsbTJzb245ZFBFamtrZS1uanVza0U3Nl8xZVlpRUp5WWRCd1JCWWdqeDdrSFVvMnh5dDE1WmtFUTUxRlpMNF9aSkt1UUpWZVZfNGIxa19Gci03ODNLbWlhZVRnQV9pSHlSLW9FbWVKcnBMR0pTX05mTGs3YVRPNEZGNTJ3WkNn?oc=5",
-              "pubDate": "2026-10-02T20:52:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaFV6d05xMVllbk9LTnAycW1QTGJHZ1pmbldvSEotZ3FySU1oWG9GaW5aNFoxZmpHemZXWW8zTVdLQVNVQUNzcU1pcmRtMDBxaTAxNjh1Rk9xb1Rid1VOdU05ZFdrNzNJSGlyQ29GTXlNaHJhYXd3RTV4cW1aRWtsYl9WUXZhZFdEWDFJcm5yUHVmQU0?oc=5",
+              "pubDate": "2026-10-02T13:41:14.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "king-acknowledges-colonial-rules-difficult-caribbean-past"
-        },
-        {
-          "representativeTitle": "G7 Nations Plan Major Oil Supply Release",
-          "sources": [
-            "Bloomberg Markets",
-            "BBC Business",
-            "Google Stocks"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "G7 to Release Up to 100 Million Barrels of Diesel, Crude",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-02/g7-to-release-up-to-100-millions-of-barrels-of-diesel-and-oil",
-              "pubDate": "2026-10-02T14:04:27.000Z",
-              "tier": 1
-            },
-            {
-              "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
-              "source": "BBC Business",
-              "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T20:25:19.000Z",
-              "tier": 2
-            },
-            {
-              "title": "G7 countries to release up to 100 million barrels of diesel and crude oil reserves",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObmhlRXNIUGtuVXo5aWcyUVJQdk5sakdqb0JzWUZKUTdGTUxhQ0hwcTFBcHl3bW0xUEJ5TE9jcWlxclBrbThEaHFDRHlCb0c3eklaVVJYRE43c2k3T2h1RklEVXBERElZY3dVcFNOamJQcGpCX21naDRGOFVDVkg2R2xTS2Rpay1zUjJId1JVQ0NhQQ?oc=5",
-              "pubDate": "2026-10-02T20:07:34.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "g7-nations-plan-major-oil-supply-release"
-        },
-        {
-          "representativeTitle": "Man Charged With Terror Plot Against Farage",
-          "sources": [
-            "The Guardian",
-            "Sky News",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Ann Widdecombe murder suspect charged with planning terror act against Nigel Farage",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/oct/02/ann-widdecombe-suspect-charged-with-planning-terror-act-against-nigel-farage",
-              "pubDate": "2026-10-02T19:15:01.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Ann Widdecombe murder suspect charged with preparing terror acts including against Farage",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/man-charged-with-preparing-terrorist-acts-against-nigel-farage-13594244",
-              "pubDate": "2026-10-02T06:56:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Man accused of ex-minister murder charged with preparing terrorist acts against Reform UK's Nigel Farage",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWDRmU2dPN3RqYTA3R2RrQ3pVWkhKampXbllGckJrQUpXRTRqcmpHS2VSTFpSeEV4WXlqbWpXTG1SNFNKYU4xeVFGS0xsLU1xbmRxdVZpVTByMDR1UTFDQXF0S20yRXRZR1YyOUw1d2NMRXhGTllfa3htQWVFYUV2aWdPZUxGazdjX0R1dndxYUNmQlQ3ZU94LWtXbDVrZ0FIeEhJWFVwNG04Z01kU1N1ZExiTU81QWJNc0hiT2hlTjZPVUE?oc=5",
-              "pubDate": "2026-10-02T19:37:21.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "man-charged-with-terror-plot-against-farage"
+          "relevance_score": 7,
+          "importance": 60,
+          "slug": "french-protests-spread-closing-schools-amid-clashes"
         },
         {
           "representativeTitle": "Ex-negotiator questions Israel's Gaza war handling.",
@@ -333,34 +310,108 @@ export const newsData = {
           "slug": "ex-negotiator-questions-israels-gaza-war-handling"
         },
         {
-          "representativeTitle": "Kyiv Mayor Warns Of Intensified Russian Strikes",
+          "representativeTitle": "Yemen Conflict Intensifies, War Fears Mount Globally",
           "sources": [
-            "BBC World",
-            "Euronews"
+            "Al Jazeera",
+            "Google World"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Intensified Russian strikes are tearing Kyiv apart, warns mayor",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T15:26:37.000Z",
+              "title": "Iran war live: Fighting intensifies in Yemen, hundreds killed or injured",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/10/3/iran-war-live-fighting-intensifies-in-yemen-hundreds-killed-or-injured?traffic_source=rss",
+              "pubDate": "2026-10-03T00:00:00.000Z",
               "tier": 1
             },
             {
-              "title": "Russia 'tearing Kyiv apart', mayor says, as strikes paralyse traffic",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/02/russia-tearing-kyiv-apart-mayor-says-as-strikes-paralyse-traffic",
-              "pubDate": "2026-10-02T19:30:32.000Z",
+              "title": "Fighting Intensifies in Yemen, Raising Fresh Fears of All-Out War",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTmlxQjEtWS04S2hkc2t4a3VKRWxSZUg1SVl2ZE80ZTN2eUdDUTVPTEZPWmJUYWRhMVAySW1JMEcyaUNPRHpDdkZyTTU1YXRWcG05eGU1aUJWeUNCck1PTjNZZHVjUkFrb2FsNGRlSGN1SkxTZ0Z6aWdZLVp3Mm0tQ0ZPV2VMeHE1NVM4Rkc3ZmMtTnFjX201QTFB?oc=5",
+              "pubDate": "2026-10-02T18:06:54.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "yemen-conflict-intensifies-war-fears-mount-globally"
+        },
+        {
+          "representativeTitle": "Israeli Attack on Gaza City Kills At Least Five People",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Israeli air attack on Gaza City apartment kills at least five",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/3/israeli-air-attack-on-gaza-city-apartment-kills-at-least-five?traffic_source=rss",
+              "pubDate": "2026-10-03T02:25:23.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
           "relevance_score": 9,
-          "importance": 65,
-          "slug": "kyiv-mayor-warns-of-intensified-russian-strikes"
+          "importance": 60,
+          "slug": "israeli-attack-on-gaza-city-kills-at-least-five-people"
+        },
+        {
+          "representativeTitle": "North Korea Fires Missile; South Korea Reports Incident",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "North Korea fires ballistic missile towards the sea, South Korea says",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/2/north-korea-fires-ballistic-missile-towards-the-sea-south-korea-says?traffic_source=rss",
+              "pubDate": "2026-10-02T23:55:24.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "north-korea-fires-missile-south-korea-reports-incident"
+        },
+        {
+          "representativeTitle": "Suspect Charged Planning Terror Act Against Political Figure",
+          "sources": [
+            "The Guardian",
+            "Sky News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Ann Widdecombe murder suspect charged with planning terror act against Nigel Farage",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/uk-news/2026/oct/02/ann-widdecombe-suspect-charged-with-planning-terror-act-against-nigel-farage",
+              "pubDate": "2026-10-02T19:15:01.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Ann Widdecombe murder suspect charged with preparing terror acts including against Farage",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/man-charged-with-preparing-terrorist-acts-against-nigel-farage-13594244",
+              "pubDate": "2026-10-02T06:56:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "suspect-charged-planning-terror-act-against-political-figure"
         },
         {
           "representativeTitle": "Arab Party Leader Forced Out of Israeli Elections",
@@ -393,6 +444,36 @@ export const newsData = {
           "slug": "arab-party-leader-forced-out-of-israeli-elections"
         },
         {
+          "representativeTitle": "King Acknowledges Colonial Rule's Difficult Caribbean Past",
+          "sources": [
+            "The Guardian",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "King Charles III to acknowledge ‘darkest days’ of Britain’s colonial rule during Caribbean tour",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/uk-news/2026/oct/02/king-charles-darkest-days-britain-colonial-rule-caribbean-tour",
+              "pubDate": "2026-10-02T19:02:56.000Z",
+              "tier": 1
+            },
+            {
+              "title": "King Charles to acknowledge ‘darkest days’ of colonial rule on Caribbean tour",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3369633/king-charles-acknowledge-darkest-days-colonial-rule-caribbean-tour?utm_source=rss_feed",
+              "pubDate": "2026-10-02T18:11:53.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "king-acknowledges-colonial-rules-difficult-caribbean-past"
+        },
+        {
           "representativeTitle": "Ethiopia-Eritrea sever ties amid northern fighting escalation.",
           "sources": [
             "BBC World",
@@ -423,6 +504,50 @@ export const newsData = {
           "slug": "ethiopia-eritrea-sever-ties-amid-northern-fighting-escalation"
         },
         {
+          "representativeTitle": "US and Australia Halt Diplomatic Ties With Brazil",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US and Australia suspend diplomatic operations in Brazil before election",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/3/us-and-australia-suspend-diplomatic-operations-in-brazil-before-election?traffic_source=rss",
+              "pubDate": "2026-10-03T00:46:10.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "us-and-australia-halt-diplomatic-ties-with-brazil"
+        },
+        {
+          "representativeTitle": "Study links Dutch royalty to slave trade survival.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Dutch royal house helped slave trade to survive, study finds",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/2/dutch-royal-house-helped-slave-trade-to-survive-study-finds?traffic_source=rss",
+              "pubDate": "2026-10-02T23:43:50.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "study-links-dutch-royalty-to-slave-trade-survival"
+        },
+        {
           "representativeTitle": "French high school protests disrupt education across nation.",
           "sources": [
             "France 24",
@@ -450,13 +575,6 @@ export const newsData = {
               "link": "https://www.lemonde.fr/en/education/article/2026/10/02/hundreds-of-french-high-schools-shut-as-student-protests-escalate_6758169_104.html",
               "pubDate": "2026-10-02T09:15:53.000Z",
               "tier": 2
-            },
-            {
-              "title": "High school student protests spread across France as tensions escalate",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/france/article/2026/10/02/high-school-student-protests-spread-across-france-as-tensions-escalate_6758168_7.html",
-              "pubDate": "2026-10-02T09:13:59.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
@@ -467,48 +585,48 @@ export const newsData = {
           "slug": "french-high-school-protests-disrupt-education-across-nation"
         },
         {
-          "representativeTitle": "Latin America favors China's influence over US.",
+          "representativeTitle": "Bangkok Flooding Reaches Crisis Point Amid Rising Waters",
           "sources": [
-            "Al Jazeera"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Latin America sees China as more positive global influence than US: Poll",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/2/latin-america-sees-china-as-more-positive-global-influence-than-us-poll?traffic_source=rss",
-              "pubDate": "2026-10-02T20:52:29.000Z",
+              "title": "Bangkok at breaking point as floods turn streets into stagnant lakes",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/03/bangkok-thailand-floods-breaking-point-stagnant-lakes",
+              "pubDate": "2026-10-03T02:00:46.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "latin-america-favors-chinas-influence-over-us"
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "bangkok-flooding-reaches-crisis-point-amid-rising-waters"
         },
         {
-          "representativeTitle": "Ethiopian Army Pushes Back Tigrayan Rebel Forces Now",
+          "representativeTitle": "Trump Threatens Tariffs Over South Korea Gas Payment",
           "sources": [
-            "France 24"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Ethiopian army pushes back Tigrayan rebels",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/eye-on-africa/20261002-ethiopian-army-pushes-back-tigrayan-rebels",
-              "pubDate": "2026-10-02T20:46:00.000Z",
+              "title": "Trump threatens to double tariffs on South Korea if they do not pay for Alaska natural gas pipeline – as it happened",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/live/2026/oct/02/cornell-university-leticia-james-christa-pike-death-penalty-donald-trump-us-jobs-latest-news-updates",
+              "pubDate": "2026-10-03T01:56:33.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ethiopian-army-pushes-back-tigrayan-rebel-forces-now"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "trump-threatens-tariffs-over-south-korea-gas-payment"
         },
         {
           "representativeTitle": "Arctic Routes Boom Amid Conflict and Climate Change",
@@ -563,6 +681,43 @@ export const newsData = {
           "slug": "trump-claims-europe-agreed-on-diesel-supply-release"
         },
         {
+          "representativeTitle": "US Pressure on Europe Over Diesel Reserves Threat",
+          "sources": [
+            "BBC Business",
+            "Google Stocks"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+              "source": "BBC Business",
+              "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T20:25:19.000Z",
+              "tier": 2
+            },
+            {
+              "title": "US pressures Europe to release diesel reserves as Trump threatens export ban",
+              "source": "BBC Business",
+              "link": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T08:54:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "G7 countries to release up to 100 million barrels of diesel and crude oil reserves",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObmhlRXNIUGtuVXo5aWcyUVJQdk5sakdqb0JzWUZKUTdGTUxhQ0hwcTFBcHl3bW0xUEJ5TE9jcWlxclBrbThEaHFDRHlCb0c3eklaVVJYRE43c2k3T2h1RklEVXBERElZY3dVcFNOamJQcGpCX21naDRGOFVDVkg2R2xTS2Rpay1zUjJId1JVQ0NhQQ?oc=5",
+              "pubDate": "2026-10-02T20:07:34.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "us-pressure-on-europe-over-diesel-reserves-threat"
+        },
+        {
           "representativeTitle": "US backs down; G7 agrees on oil export release.",
           "sources": [
             "FT International"
@@ -585,26 +740,70 @@ export const newsData = {
           "slug": "us-backs-down-g7-agrees-on-oil-export-release"
         },
         {
-          "representativeTitle": "French Media React to Le Pen's Outlet Comments",
+          "representativeTitle": "IMF Approves Bolivia Loan for Economic Reforms",
           "sources": [
-            "France 24"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "French media respond to M. Le Pen’s ‘Kevlar suit’ comments against investigative outlet",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261002-french-media-react-to-m-le-pen-s-kevlar-suit-comments-against-investigative-press-outlet",
-              "pubDate": "2026-10-02T21:37:11.000Z",
+              "title": "IMF Approves Bolivia Loan Deal to Support Paz’s Economic Reforms",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-03/imf-approves-bolivia-loan-deal-to-support-paz-s-economic-reforms",
+              "pubDate": "2026-10-03T00:55:49.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "imf-approves-bolivia-loan-for-economic-reforms"
+        },
+        {
+          "representativeTitle": "Magnitude 4.8 Earthquake Strikes Victoria Region",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Magnitude 4.8 earthquake hits Victoria with tremors felt across Melbourne",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/02/magnitude-48-earthquake-hits-victoria-with-tremors-felt-across-melbourne",
+              "pubDate": "2026-10-03T00:23:49.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "french-media-react-to-le-pens-outlet-comments"
+          "slug": "magnitude-48-earthquake-strikes-victoria-region"
+        },
+        {
+          "representativeTitle": "South African Men Commit to Ending Violence Against Women",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The South African men trying to end violence against women: 'Every man needs to play a part'",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cm3eqegwpzl4o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T23:56:21.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "south-african-men-commit-to-ending-violence-against-women"
         },
         {
           "representativeTitle": "US Halts Consular Services in Brazil Near Elections",
@@ -661,7 +860,7 @@ export const newsData = {
               "title": "Argentina’s ‘Golden Passport’ Program Offers Citizenship in Exchange for Foreign Cash",
               "source": "NY Times",
               "link": "https://www.nytimes.com/2026/10/02/world/americas/argentina-citizenship-golden-passport-money.html",
-              "pubDate": "2026-10-02T20:17:54.000Z",
+              "pubDate": "2026-10-02T20:17:55.000Z",
               "tier": 1
             }
           ],
@@ -671,28 +870,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "argentina-offers-citizenship-via-foreign-cash-program"
-        },
-        {
-          "representativeTitle": "Pacific Hurricane Strengthens, Threatening Coastal Regions Now",
-          "sources": [
-            "ABC News US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Nolo strengthens to a hurricane again in the Pacific Ocean",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/nolo-strengthens-hurricane-pacific-ocean-136961624",
-              "pubDate": "2026-10-02T22:27:17.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "pacific-hurricane-strengthens-threatening-coastal-regions-now"
         },
         {
           "representativeTitle": "Slovenian domain sees surge after Trump order.",
@@ -722,7 +899,7 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Woman Unconscious After Attempted Execution; Hospitalized Now",
+          "representativeTitle": "Local Figure Hospitalized; Condition Remains Critical Now",
           "sources": [
             "BBC US",
             "Washington Post",
@@ -771,23 +948,23 @@ export const newsData = {
               "title": "Christa Pike unconscious and on ventilator after botched execution: Attorneys",
               "source": "ABC News Top",
               "link": "https://abcnews.com/US/execution-lone-woman-tennessees-death-row-paused-federal/story?id=136893331",
-              "pubDate": "2026-10-02T20:35:00.000Z",
+              "pubDate": "2026-10-03T01:56:01.000Z",
               "tier": 2
             },
             {
-              "title": "Christa Pike Unconscious and on Ventilator After Execution Attempt",
+              "title": "What to know about Christa Pike, her failed execution and what happens next",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdmRhUTluMzZDb3dycS03Rm9RbFE2U3BsN3JxRDNQYlljOWNtMzk4bHdrUTI2OGpfX3VjQnZLQkRINGYtZEJpTFFGejlVTEZNNDZGZnB4ay1yakQ3dnhrZG1XcWp2T2tMQ05PV2dudm5LMkd1dVpQX09tbktwYjNxYjV0MA?oc=5",
-              "pubDate": "2026-10-02T21:45:13.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcVhvMU5CUVNMM1JSaDBFV2VlU0F6a0k2amNxaDhOTnhBa3EyLTAxaVBjck5GVVJEbGFueHJPLTRRX28zMW5zZ0RIekF5U3Jac1RjMHZMa0hTcVphZ09DNGNWOXg2Rlh0Q1QzVzFqZ3Q4SU9zX3plNVZER182V2VIRzJYSlRxNDFvd0pzN1ZuY1dTYkdmX1cySW9tSVZfd3BncE11VWhUaFdiamM1VTJ5WW9tNzZEaXUxOGc?oc=5",
+              "pubDate": "2026-10-03T01:57:47.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 95,
-          "slug": "woman-unconscious-after-attempted-execution-hospitalized-now"
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 85,
+          "slug": "local-figure-hospitalized-condition-remains-critical-now"
         },
         {
           "representativeTitle": "Tennessee Woman Unconscious After Botched Execution Attempt",
@@ -888,6 +1065,74 @@ export const newsData = {
           "slug": "governor-appoints-prosecutor-to-investigate-university-allegations"
         },
         {
+          "representativeTitle": "Accuser faces online backlash amid legal scrutiny.",
+          "sources": [
+            "BBC US",
+            "BBC World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Cornell frat house rape accuser 'under siege' online, says lawyer",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/c6ly0ljypzrdo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-03T02:23:07.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Cornell frat house rape accuser 'under siege' online, says lawyer",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6ly0ljypzrdo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-03T02:23:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 60,
+          "slug": "accuser-faces-online-backlash-amid-legal-scrutiny"
+        },
+        {
+          "representativeTitle": "Historic Hawaiian Sea Arch Collapses Into Ocean Waters",
+          "sources": [
+            "BBC US",
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Hawaii's iconic 550-year-old Hōlei Sea Arch collapses",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/crd6dy4xepgyo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T21:00:41.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Hawaii’s picturesque Hōlei Sea Arch collapses into the ocean",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/hawaiis-picturesque-holei-sea-arch-collapses-ocean-rcna601241",
+              "pubDate": "2026-10-03T02:50:21.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Hawaii's iconic 500-year-old Hōlei Sea Arch has collapsed into the sea",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vQnE3NVFENU9GcFhoOUZYUXRXRk1qUHJ4RHdmQi1vSlRvVWlMak90MGdRUklfZXNLSXpiczlMbW5uaTBDamZGOG5QTjhmRE1WaXZrUE9wSkVaNlk?oc=5",
+              "pubDate": "2026-10-02T21:00:41.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "historic-hawaiian-sea-arch-collapses-into-ocean-waters"
+        },
+        {
           "representativeTitle": "FAA Clears 737 MAX Software Glitch Safety Concerns",
           "sources": [
             "CNBC Economy",
@@ -948,96 +1193,6 @@ export const newsData = {
           "slug": "faa-dismisses-boeing-glitch-as-non-safety-concern"
         },
         {
-          "representativeTitle": "Governor Vows Action Over Rape Allegations Loophole",
-          "sources": [
-            "France 24",
-            "Le Monde"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "The Cornell 7: Allegations spark fury over gang rape culture",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/the-51/20261002-the-cornell-7-allegations-spark-fury-over-gang-rape-culture",
-              "pubDate": "2026-10-02T14:39:34.000Z",
-              "tier": 1
-            },
-            {
-              "title": "New York governor vows to close legal loophole after Cornell gang rape allegations",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/02/new-york-governor-vows-to-close-legal-loophole-after-cornell-gang-rape-allegations_6758187_4.html",
-              "pubDate": "2026-10-02T15:52:27.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "governor-vows-action-over-rape-allegations-loophole"
-        },
-        {
-          "representativeTitle": "Governor Criticizes Rape Case, Appoints Special Prosecutor",
-          "sources": [
-            "Al Jazeera",
-            "SCMP"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "‘I want the truth’: NY governor appoints prosecutor in Cornell rape case",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/2/i-want-the-truth-ny-governor-appoints-prosecutor-in-cornell-rape-case?traffic_source=rss",
-              "pubDate": "2026-10-02T17:43:30.000Z",
-              "tier": 1
-            },
-            {
-              "title": "New York governor attacks handling of Cornell gang rape case, appoints special prosecutor",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3369632/new-york-governor-attacks-handling-cornell-gang-rape-case-appoints-special-prosecutor?utm_source=rss_feed",
-              "pubDate": "2026-10-02T17:10:53.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "governor-criticizes-rape-case-appoints-special-prosecutor"
-        },
-        {
-          "representativeTitle": "Trump expected to appoint Clayton as AI leader.",
-          "sources": [
-            "Al Jazeera",
-            "SCMP"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Trump to name intelligence chief Jay Clayton as AI tsar: Reports",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/2/reports-trump-to-name-intel-chief-clayton-as-ai-tsar?traffic_source=rss",
-              "pubDate": "2026-10-02T16:06:15.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump expected to name Jay Clayton as AI tsar",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3369639/trump-expected-name-jay-clayton-ai-tsar?utm_source=rss_feed",
-              "pubDate": "2026-10-02T22:41:49.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "trump-expected-to-appoint-clayton-as-ai-leader"
-        },
-        {
           "representativeTitle": "Ex-Congressman Sentenced Ten Years in Venezuela Case",
           "sources": [
             "BBC US",
@@ -1068,7 +1223,7 @@ export const newsData = {
           "slug": "ex-congressman-sentenced-ten-years-in-venezuela-case"
         },
         {
-          "representativeTitle": "Historic Hawaiian Sea Arch Collapses Into Ocean Waters",
+          "representativeTitle": "Police release bodycam footage of arrest incident.",
           "sources": [
             "BBC US",
             "Google US"
@@ -1076,26 +1231,26 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Hawaii's iconic 550-year-old Hōlei Sea Arch collapses",
+              "title": "Newly released video shows Luigi Mangione’s arrest",
               "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/crd6dy4xepgyo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T21:00:41.000Z",
+              "link": "https://www.bbc.co.uk/news/videos/cmewelkydwwyo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-02T20:37:34.000Z",
               "tier": 1
             },
             {
-              "title": "Hawaii's iconic 500-year-old Hōlei Sea Arch has collapsed into the sea",
+              "title": "Police bodycam footage of Luigi Mangione’s arrest released",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vQnE3NVFENU9GcFhoOUZYUXRXRk1qUHJ4RHdmQi1vSlRvVWlMak90MGdRUklfZXNLSXpiczlMbW5uaTBDamZGOG5QTjhmRE1WaXZrUE9wSkVaNlk?oc=5",
-              "pubDate": "2026-10-02T21:00:41.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOGwyUW1ublNMTk4ydXlUdUpxMzRNZlQyX0R0cGFVLTVmT196dGN6MGVOdWt0OF9MMUt1MWdEWW4wbTFUTldhc3dXUng1eXVNRWVtVG5nTlBsbHlubWRzRTVQc19HM3N2V2I2dDRhSDBmRGw0TnFHWEtXT0o1TzRPNUl1ZXMxMWNmMy1EbDVVZHhnZFNrYlQtUXM5MjVwXzFlWnNBMnljUGY?oc=5",
+              "pubDate": "2026-10-02T21:28:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.9,
+          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 50,
-          "slug": "historic-hawaiian-sea-arch-collapses-into-ocean-waters"
+          "slug": "police-release-bodycam-footage-of-arrest-incident"
         },
         {
           "representativeTitle": "ICE Allegedly Storing Protester Photos in Palantir Database",
@@ -1120,36 +1275,6 @@ export const newsData = {
           "slug": "ice-allegedly-storing-protester-photos-in-palantir-database"
         },
         {
-          "representativeTitle": "Unsealed Footage Shows Luigi Mangione's Arrest Details",
-          "sources": [
-            "BBC US",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Newly released video shows Luigi Mangione’s arrest",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/videos/cmewelkydwwyo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T20:37:34.000Z",
-              "tier": 1
-            },
-            {
-              "title": "First on CNN: Newly unsealed footage shows Luigi Mangione’s arrest",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zdFF1bXhBZUFsM3MwcWhDcVQ1em5sVXg0ZjNlaFRfR2VObTFjazE5ZFM0Vy13bG1rbDFWNDY0VTVQWHVsd1p5NjVhQXdtVDBOV3R1a3JKNzdUYVNsV2xFWHItTU1SRW90MHRLeGo2cTRVa3JPekxV?oc=5",
-              "pubDate": "2026-10-02T12:00:46.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "unsealed-footage-shows-luigi-mangiones-arrest-details"
-        },
-        {
           "representativeTitle": "Governor Criticizes Cornell Inquiry's Official Failures",
           "sources": [
             "BBC US"
@@ -1170,6 +1295,36 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "governor-criticizes-cornell-inquirys-official-failures"
+        },
+        {
+          "representativeTitle": "Protests Link Trump's Arch to Midterm Election Hopes",
+          "sources": [
+            "NPR",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "As Trump's proposed arch looms over D.C., protesters pin their hopes on the midterms",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/02/nx-s1-5985789/trump-arch-protest-veterans-midterms",
+              "pubDate": "2026-10-02T21:44:07.000Z",
+              "tier": 2
+            },
+            {
+              "title": "As Trump's proposed arch looms over D.C., protesters pin their hopes on the midterms",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYUhzR3NKaDRGNXIzMm1xRFkydk04SnRwUXctTFlzYU11Tl9EZUMxU0RqZHhaMGNXY3hCR1NOUEQwa2Q2SFRXbWlrSjdfRG55THJKQnduWFJBMklCbFRCdFpfR1VHSG04d3BEUUEyZmlJVkt5dGlEWmNCc0FPU293Rk9IZ3RVaXRO?oc=5",
+              "pubDate": "2026-10-02T21:44:07.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "protests-link-trumps-arch-to-midterm-election-hopes"
         },
         {
           "representativeTitle": "Police Knew Rapist's Identity; Prosecution Failed",
@@ -1224,26 +1379,26 @@ export const newsData = {
           "slug": "job-market-slowdown-looms-before-midterm-elections"
         },
         {
-          "representativeTitle": "DOJ drops probe into former Fed Chair Powell.",
+          "representativeTitle": "Sanders Proposes Ban on Federal Use of Flock Tech",
           "sources": [
-            "The Guardian"
+            "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "DoJ declines to reopen investigation into former Fed chair Jay Powell",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/business/2026/oct/02/doj-fed-chair-jerome-powell-investigation",
-              "pubDate": "2026-10-02T22:32:21.000Z",
+              "title": "Sanders introduces bill to ban the federal government from using Flock",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/",
+              "pubDate": "2026-10-03T00:21:57.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Technology",
           "aiCategory": "US",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "doj-drops-probe-into-former-fed-chair-powell"
+          "slug": "sanders-proposes-ban-on-federal-use-of-flock-tech"
         },
         {
           "representativeTitle": "FDA Finds Cyclospora at Mexican Farm Inspection",
@@ -1256,7 +1411,7 @@ export const newsData = {
               "title": "F.D.A. Found Cyclospora During Taylor Farms Inspection in Mexico",
               "source": "NY Times",
               "link": "https://www.nytimes.com/2026/10/02/health/cyclospora-taylor-farms-mexico.html",
-              "pubDate": "2026-10-02T22:25:23.000Z",
+              "pubDate": "2026-10-02T22:25:24.000Z",
               "tier": 1
             }
           ],
@@ -1266,28 +1421,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "fda-finds-cyclospora-at-mexican-farm-inspection"
-        },
-        {
-          "representativeTitle": "Police Bodycam Captures Arrest at Local McDonald's",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Police bodycam shows Luigi Mangione arrest at Pennsylvania McDonald’s",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/2/police-bodycam-shows-luigi-mangione-arrest-at-pennsylvania?traffic_source=rss",
-              "pubDate": "2026-10-02T21:59:11.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "police-bodycam-captures-arrest-at-local-mcdonalds"
         },
         {
           "representativeTitle": "Former Official's Email Address Exposed Amid Scrutiny",
@@ -1312,26 +1445,34 @@ export const newsData = {
           "slug": "former-officials-email-address-exposed-amid-scrutiny"
         },
         {
-          "representativeTitle": "Mortgage Issues Pose Risk to Federal Reserve, US Economy",
+          "representativeTitle": "Execution Attempt Sparks Renewed Death Penalty Debate",
           "sources": [
-            "FT International"
+            "NPR",
+            "ABC News US"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "My mortgage is a problem for the Fed, and for America",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/9f960533-9cd7-4475-aed0-17f09fdc28fd?syn-25a6b1a6=1",
-              "pubDate": "2026-10-02T11:09:56.000Z",
-              "tier": 1
+              "title": "Failed 'torturous' execution attempt on Christa Pike reignites death penalty debate",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/02/nx-s1-5988832/christa-pike-reignites-death-penalty-debate",
+              "pubDate": "2026-10-02T10:25:03.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Tennessee's handling of the death penalty is again questioned after failed execution",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/tennessees-handling-death-penalty-questioned-after-failed-execution-136963635",
+              "pubDate": "2026-10-03T01:07:43.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "mortgage-issues-pose-risk-to-federal-reserve-us-economy"
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "execution-attempt-sparks-renewed-death-penalty-debate"
         },
         {
           "representativeTitle": "Justice Dept Drops Probe Into Fed Chair Powell",
@@ -1356,57 +1497,6 @@ export const newsData = {
           "slug": "justice-dept-drops-probe-into-fed-chair-powell"
         },
         {
-          "representativeTitle": "Historic Hawaiian Sea Arch Collapses After Centuries Standing",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Hawaii's iconic 550-year-old Hōlei Sea Arch collapses",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/crd6dy4xepgyo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T21:00:41.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "historic-hawaiian-sea-arch-collapses-after-centuries-standing"
-        },
-        {
-          "representativeTitle": "Students Protest Alleged Sexual Assault at Cornell University",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "'Ashamed': Cornell students gather to voice anger over alleged gang rape",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cm0e3ed1er1yo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T10:00:24.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Cornell students voice frustration at public hearing over rape case",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/videos/cwe8e8jpnpy5o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-02T01:29:16.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "students-protest-alleged-sexual-assault-at-cornell-university"
-        },
-        {
           "representativeTitle": "Weak Jobs Report Puts Pressure on Trump, GOP",
           "sources": [
             "Washington Post"
@@ -1429,28 +1519,6 @@ export const newsData = {
           "slug": "weak-jobs-report-puts-pressure-on-trump-gop"
         },
         {
-          "representativeTitle": "Cornell Rape Allegations Spark Campus Controversy Amid Accusations",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Inside explosive Cornell rape allegations: 7 men accused, conflicting accounts and a political firestorm",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/us/inside-explosive-cornell-rape-allegations-7-men-accused-conflicting-accounts-political-firestorm",
-              "pubDate": "2026-10-02T22:22:28.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "cornell-rape-allegations-spark-campus-controversy-amid-accusations"
-        },
-        {
           "representativeTitle": "Judge Halts Border Wall Construction in Texas Region",
           "sources": [
             "ABC News Top",
@@ -1466,10 +1534,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "A small Texas town stopped Trump’s border wall construction – for now",
+              "title": "Judge halts border barrier construction in Big Bend",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWEQ5Mk5nYW5KemMyb2ZWajBIanRfWWxNUmJINkRHV000YVlDWi1QM0tDVVo1RWltNVFFZ3V2UU5OQ3g0ZGNtOHJydmFfSHViemNobTBydUNLUzh3aG5qbWlaQUl4b19aYmxXRVdIeVRHRzRySElyZk1hRzhNVGliMm5IeHBPX2J4T05pWA?oc=5",
-              "pubDate": "2026-10-02T15:07:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPV2lTTFdNdEJaem9GY2MzdmpfblU4WmNKbVJkRFZkU2tpNTgzUURQWTRIZWtnSzc0YnlISFpnR1NfLVRDTWM1Mzd3YTl0OUZsXzExMjNzTEx1QWF3UkcxR3ZYNmJvRGRlQUI0SEVJN0Y4UjZ5dTRWWUszNWkzNDVSMFFhZXFiZEFaRTF0ZFJwa2dmOWp0N3c?oc=5",
+              "pubDate": "2026-10-02T20:41:19.000Z",
               "tier": 2
             }
           ],
@@ -1545,42 +1613,34 @@ export const newsData = {
           "relevance_score": 4,
           "importance": 35,
           "slug": "bodycam-footage-shows-arrest-incident-at-mcdonalds"
-        },
-        {
-          "representativeTitle": "Body Found After California Helicopter Crash Investigation",
-          "sources": [
-            "ABC News US",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Divers find body of person missing from Calif. helicopter crash that killed 2 others",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/divers-find-body-person-missing-california-helicopter-crash-136944640",
-              "pubDate": "2026-10-02T11:38:39.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Police divers find body of person missing after helicopter crash near LA",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcmlYNVhBYnlub3U0RnFDZVZFeTdESF9SV1BZRGFtTGgzdTdwb1d4ZmxUSUp5dWtnUzhkbzE4SE5Kc2ZHVnlmUWxpZ2FOaERmSXpENUNmYi1KMzluV0lZTllBM19YaUpjV21fQ3UtWEpmNjNFaENTcW9vYmVndXBKR21BX1lUUnNDbHMtMzdkQzAyaGpxSW9sQUNCUGNyekk?oc=5",
-              "pubDate": "2026-10-02T12:46:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "body-found-after-california-helicopter-crash-investigation"
         }
       ]
     },
     {
       "name": "Stocks",
       "children": [
+        {
+          "representativeTitle": "Jobs Report Eases Fears, Boosting Stock Market Gains",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Stocks Rise As Jobs Report Eases Fed-Hike Worries",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-02/the-close-10-2-2026-video",
+              "pubDate": "2026-10-02T23:45:17.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "jobs-report-eases-fears-boosting-stock-market-gains"
+        },
         {
           "representativeTitle": "Easing Jobs Data Boosts Emerging Market Assets Today",
           "sources": [
@@ -1653,36 +1713,6 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "Weak Jobs Data Suggests Fed Will Pause Rate Hikes",
-          "sources": [
-            "CNBC Markets",
-            "Bloomberg Markets"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
-              "source": "CNBC Markets",
-              "link": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
-              "pubDate": "2026-10-02T13:29:27.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Bond Traders See Weak Jobs Data Letting Fed Delay Rate Hikes",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-02/bond-traders-pull-back-on-fed-hike-bets-after-soft-jobs-data",
-              "pubDate": "2026-10-02T12:38:56.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "weak-jobs-data-suggests-fed-will-pause-rate-hikes"
-        },
-        {
           "representativeTitle": "Former CEA Chair Discusses Jobs and GDP Trends",
           "sources": [
             "Bloomberg Markets"
@@ -1710,6 +1740,28 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 60,
           "slug": "former-cea-chair-discusses-jobs-and-gdp-trends"
+        },
+        {
+          "representativeTitle": "AI, Resources, and Education Face Major Challenges",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Wall Street Week | Your Brain on AI, Rare Earth Race, College Enrollment Cliff",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-02/wall-street-week-rare-earth-race-enrollment-cliff-video",
+              "pubDate": "2026-10-02T23:12:45.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ai-resources-and-education-face-major-challenges"
         },
         {
           "representativeTitle": "CEA Chairman: Inflation Cooling Signals Economic Improvement Ahead",
@@ -1806,58 +1858,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "ai-reshaping-finance-jobs-new-skills-surge-demand"
-        },
-        {
-          "representativeTitle": "Ellison Names Combined Paramount and Warner Bros.",
-          "sources": [
-            "CNBC Economy",
-            "WSJ US Business"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "David Ellison says combined Paramount and Warner Bros. Discovery will be named Skydance",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/10/02/paramount-warner-bros-discovery-skydance.html",
-              "pubDate": "2026-10-02T18:31:49.000Z",
-              "tier": 1
-            },
-            {
-              "title": "David Ellison Changes Name of Combined Paramount-Warner to Skydance",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/business/media/david-ellison-renames-combined-paramount-warner-as-skydance-203c081b?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-10-02T13:47:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "ellison-names-combined-paramount-and-warner-bros"
-        },
-        {
-          "representativeTitle": "Economic Overhaul Sparks Conflict With Canadian Labor Unions",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Why Carney’s economic overhaul is clashing with Canada’s unions",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/economy/2026/10/2/why-carneys-economic-overhaul-is-clashing-with-canadas-unions?traffic_source=rss",
-              "pubDate": "2026-10-02T22:14:34.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "economic-overhaul-sparks-conflict-with-canadian-labor-unions"
         },
         {
           "representativeTitle": "Paramount and Warner Bros Merge to Form Skydance",
@@ -1970,28 +1970,6 @@ export const newsData = {
           "slug": "cme-halts-247-oil-contract-amid-industry-concerns"
         },
         {
-          "representativeTitle": "Reich Warns Over Stagflation's Economic Dangers Now",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Why Robert Reich Is So Worried About Stagflation",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-02/why-robert-reich-is-so-worried-about-stagflation-video",
-              "pubDate": "2026-10-02T20:16:55.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "reich-warns-over-stagflations-economic-dangers-now"
-        },
-        {
           "representativeTitle": "Bond Sell-Off Fuels Gains for Quant Hedge Funds",
           "sources": [
             "FT International"
@@ -2014,26 +1992,26 @@ export const newsData = {
           "slug": "bond-sell-off-fuels-gains-for-quant-hedge-funds"
         },
         {
-          "representativeTitle": "Hedge Funds Bet Against Weakening Japanese Yen",
+          "representativeTitle": "Ellison Names Combined Paramount and Warner Bros.",
           "sources": [
-            "Bloomberg Markets"
+            "CNBC Economy"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Hedge Funds Are Rebuilding Short Bets Against Japan’s Yen",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-02/hedge-funds-are-rebuilding-short-bets-against-japan-s-yen",
-              "pubDate": "2026-10-02T20:10:08.000Z",
+              "title": "David Ellison says combined Paramount and Warner Bros. Discovery will be named Skydance",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/10/02/paramount-warner-bros-discovery-skydance.html",
+              "pubDate": "2026-10-02T18:31:49.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Business",
           "aiCategory": "Business",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "hedge-funds-bet-against-weakening-japanese-yen"
+          "slug": "ellison-names-combined-paramount-and-warner-bros"
         },
         {
           "representativeTitle": "Airline Allows Cash and Miles Mix For Tickets",
@@ -2173,6 +2151,52 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
+          "representativeTitle": "Apple tightens macOS security due to AI risks.",
+          "sources": [
+            "TechCrunch",
+            "The Verge",
+            "Ars Technica",
+            "Google Tech"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+              "pubDate": "2026-10-02T18:11:27.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+              "pubDate": "2026-10-02T20:08:40.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+              "source": "Ars Technica",
+              "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+              "pubDate": "2026-10-02T23:03:16.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNHNCbTdmU3c0TXd5dm9oeTZiV1FFR1U3NVdacUdyN0JVRzJvSmpWSTBnNzA1Rnpad0NyVGZJNEZGRU4ybGZSX3hwcVhuQmEyMEpKNG1wVG5xTUtXMlY5ZUViaFQ3bUVGZUdwejJYMFp2Rko3eUxpdUJ4dVh5bFZ0RlNXZi0xU1h4MFZSSG01R05BbW05SGFzT2diaVNaM2p6UjB5ejRNa2laTHJmbDdNXzVCMA?oc=5",
+              "pubDate": "2026-10-02T23:03:16.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 60,
+          "slug": "apple-tightens-macos-security-due-to-ai-risks"
+        },
+        {
           "representativeTitle": "AI Skills Surge as Banks Adopt New Agents",
           "sources": [
             "CNBC Markets"
@@ -2202,42 +2226,26 @@ export const newsData = {
           "slug": "ai-skills-surge-as-banks-adopt-new-agents"
         },
         {
-          "representativeTitle": "Apple tightens macOS security due to AI risks.",
+          "representativeTitle": "Meta plans integrating Muse into future gadgets.",
           "sources": [
-            "TechCrunch",
-            "The Verge",
-            "Google Tech"
+            "TechCrunch"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+              "title": "Meta wants your next gadget to be Muse-infused",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
-              "pubDate": "2026-10-02T18:11:27.000Z",
+              "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+              "pubDate": "2026-10-03T00:45:39.000Z",
               "tier": 1
-            },
-            {
-              "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-              "pubDate": "2026-10-02T20:08:40.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaEpCUDhoOXZGM2Rpc2tIdHZTMWNBTW1lSjJScno2dmhVMjhseXdNbFV0NlNmSUN0blRoUE5YamtKUkpmN1NWaXFRazkwWUhOckE3Y1lTRllPZUhmZ3R2a3lUeVNLTmRfRzVIQmZOb2VhQl9ITXdVcUdoc2xPZlJENA?oc=5",
-              "pubDate": "2026-10-02T20:08:40.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "apple-tightens-macos-security-due-to-ai-risks"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "meta-plans-integrating-muse-into-future-gadgets"
         },
         {
           "representativeTitle": "White House defines next stage: Superintelligence emerges.",
@@ -2328,6 +2336,36 @@ export const newsData = {
           "slug": "blackstone-executive-discusses-future-of-ai-giants"
         },
         {
+          "representativeTitle": "SQL Database Breach Exposes Sensitive Information Security Flaw",
+          "sources": [
+            "Ars Technica",
+            "Google Tech"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Someone got Doom in an SQL database",
+              "source": "Ars Technica",
+              "link": "https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/",
+              "pubDate": "2026-10-02T21:19:05.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Someone got Doom in an SQL database",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWnFiT0pmSV9ZMW5RVEFTRUdnelltR1NLcVpkZkhNYjNkQy1maVBWU3NINFRVdW1ieE5Id3JqOV9hY1g5VUEyRy15QTZ6c1JpSmczVzQ4OUl5UTRHUTZwb3FyNVd5aFVZWUlYSVg5OXVtWjZOMkZBWURZN19KZ2xDYWt3?oc=5",
+              "pubDate": "2026-10-02T21:19:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "sql-database-breach-exposes-sensitive-information-security-flaw"
+        },
+        {
           "representativeTitle": "Lab aims to improve AI safety for users.",
           "sources": [
             "TechCrunch"
@@ -2350,28 +2388,6 @@ export const newsData = {
           "slug": "lab-aims-to-improve-ai-safety-for-users"
         },
         {
-          "representativeTitle": "GTM Engineer Role Gains Focus at Tech Conference",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
-              "pubDate": "2026-10-02T14:30:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "gtm-engineer-role-gains-focus-at-tech-conference"
-        },
-        {
           "representativeTitle": "New App Allows Saving Diverse Online Content Types",
           "sources": [
             "TechCrunch"
@@ -2392,36 +2408,6 @@ export const newsData = {
           "relevance_score": 3,
           "importance": 30,
           "slug": "new-app-allows-saving-diverse-online-content-types"
-        },
-        {
-          "representativeTitle": "Nacon Releases PS5 Controller with Audio Mixing Feature",
-          "sources": [
-            "The Verge",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Nacon’s new PS5 controller can mix audio from your phone and console",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/1004053/nacon-sony-playstation-licensed-revolution-5-unlimited-wireless-controller",
-              "pubDate": "2026-10-02T16:35:13.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Nacon’s new PS5 controller can mix audio from your phone and console",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbW5aMDB1S2xzMk1pYjYtbS1rNll4OEJScGdFUXJFWEgzQzFGeW0tY2d5Z2tPel9ISDFxQWx3T2IzSDdCMTJIak1TTnJRakdqUVVCUkZPTkhDTjA3MHRXalhsVTFqZ1U5Ymg5R2hSN3NVWV81VE15M3NtX2VLRmxoVTQtN1JURk9mZzB0bXZ3Qy1qZWdrdEo4cUtLU1FhVjVfd0UyZGpWUnVpOEtVOVc3cGJn?oc=5",
-              "pubDate": "2026-10-02T16:35:13.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 3,
-          "importance": 25,
-          "slug": "nacon-releases-ps5-controller-with-audio-mixing-feature"
         }
       ]
     },
@@ -2429,7 +2415,7 @@ export const newsData = {
       "name": "Science",
       "children": [
         {
-          "representativeTitle": "Physicists Discover Superconductor Breaking Time Symmetry Barrier",
+          "representativeTitle": "New Superconductor Breaks Fundamental Symmetry Barrier",
           "sources": [
             "Phys.org",
             "Google Science"
@@ -2444,10 +2430,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Physicists Find a Superconductor That 'Breaks' The Symmetry of Time – A First For Its Kind",
+              "title": "Scientists discover first type I superconductor that breaks time-reversal symmetry",
               "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYXJLSWhxampSckxQZ0dOWDhuNE1ZMjFkUFhtTHlJY3VuY3pEWVBjYlZvUVd1cHRFOUNRbkI1cWNHYkYxZ25hZElaZHdXVHg5Y2M4TllLN2xQX1RMMGJRUDlXaURiaGJ5MVNJQmJaVG0xbWRKbXVsMlRPLVc2aXIwOUNEMGVuWTlsR1BudUN1Smw1S0VVbFltbXNqWEVMOTktMktqZEpZbnJzWGlCaWtZV2V5MTg1QQ?oc=5",
-              "pubDate": "2026-10-02T00:27:09.000Z",
+              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZjJobUpRVUlfaThWd2pPTWVkZUlURDlfQnBwX0c0ZmZFTjdEM1k5TmI1SXFCZFRLRnpvSkFxM3dwX2NldDZ1ZEVEWHk5Sk1jZnRFczh3dkU1TVVvNWVkRjQ0QUNUSlBjQWxoVEd6VGdVQld0b0FJVUxLaXNpUWtPN1lzNlA?oc=5",
+              "pubDate": "2026-10-02T21:00:01.000Z",
               "tier": 2
             }
           ],
@@ -2456,7 +2442,7 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 9,
           "importance": 55,
-          "slug": "physicists-discover-superconductor-breaking-time-symmetry-barrier"
+          "slug": "new-superconductor-breaks-fundamental-symmetry-barrier"
         },
         {
           "representativeTitle": "Pharma Bets on Amylin After GLP-1 Successes",
@@ -2491,7 +2477,7 @@ export const newsData = {
               "title": "Space breakthrough as British rover sent to Mars on mission to discover humans' ancient ancestors",
               "source": "Google Science",
               "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSVhyb2JnUkdlRDM5WjFkcmVkV0xhM29YWjRKOE5fbng0NW9MS2s4Qm43bGo4bWxDbnpJTUdBR2tmMVB0TWp6WGlqRTZEalpOZjQtbE5zOHVuRFE2cFZQaHV1cWplZTBCWHExcWgwcmt0cXhEeFFLQ0JwU0RkNWE0Q3pjZ2ZCakNhNUtEeGdkT1c4bUxBTE4wck5UVXJOZnpaSmdB?oc=5",
-              "pubDate": "2026-10-02T20:10:48.000Z",
+              "pubDate": "2026-10-03T01:25:48.000Z",
               "tier": 2
             }
           ],
@@ -2503,34 +2489,26 @@ export const newsData = {
           "slug": "british-rover-launched-to-search-mars-for-life"
         },
         {
-          "representativeTitle": "Fossil Evidence Reveals Dinosaur Evolutionary Path to Flight",
+          "representativeTitle": "Team Selected For NASA Lunar Cave Exploration Mission",
           "sources": [
-            "Nature",
-            "Google Science"
+            "Phys.org"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Stunning fossil shows dinosaurs’ distinctive path to flight",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/d41586-026-03126-8",
-              "pubDate": "2026-10-02T00:00:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Stunning fossil shows dinosaurs’ distinctive path to flight",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4SWxtWnlsMjJwWkNNZzZsZ2p4MkwtR3ltUVU1dXVaNXFsaU9NTEVLT3h3VEpES2E4ZHVRZU1xeEdXNXF4MFk1aEw0cVdEZFB5VV9NUzVjSkN2N3hCT1d3?oc=5",
-              "pubDate": "2026-10-02T11:54:39.000Z",
+              "title": "Team selected for NASA program to explore potential lunar cave",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-team-nasa-explore-potential-lunar.html",
+              "pubDate": "2026-10-02T23:20:06.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
           "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "fossil-evidence-reveals-dinosaur-evolutionary-path-to-flight"
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "team-selected-for-nasa-lunar-cave-exploration-mission"
         },
         {
           "representativeTitle": "Mars Ice Composition Revised: Dust Content Misjudged",
