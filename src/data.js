@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-04T03:35:53.418Z",
+  "lastUpdated": "2026-10-04T07:39:56.059Z",
   "children": [
     {
       "name": "World",
@@ -20,7 +20,7 @@ export const newsData = {
               "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-04T02:04:11.000Z",
+              "pubDate": "2026-10-04T03:42:15.000Z",
               "tier": 1
             },
             {
@@ -59,10 +59,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+              "title": "Tens of thousands protest against Spain's housing crisis following eviction of 87-year-old woman",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWM3dISGk4VU14ZGF5LXdOaDZhbFoxNlF1aXR1aDNBT0tWcF9vZUlVdlJvSkRJdUp6YVJpbDE2bjNBdjBqbEo0ZVhMWGUzd1Z2RnFyYWZ0dzhUNnc?oc=5",
-              "pubDate": "2026-10-04T02:04:11.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU04yZFFzZEF3dGl3ellPdlU0VjVRcnZ0OFI4ejRBS1BuVnlwYjlXTHNPX2tfSU91R3BpZnZoWk9JTGxkMHplTlNTZEl0RWRQMkt2MjZ2LWlES3hUWTFVdTVINVBRSVJ1MldvR1NLX1FHcWNYYmQ2MXpCWGxxSkhKSDlBMk1peUFIVzEzWFBDUTRyWjB0VjktNDcwTWtXTk96VWtWSk5OODdUYUVOSmczUlpmeEIzdUVJOFJkc3FHakJGVUpWY1gzeU5rWQ?oc=5",
+              "pubDate": "2026-10-04T07:18:45.000Z",
               "tier": 2
             }
           ],
@@ -74,143 +74,14 @@ export const newsData = {
           "slug": "madrid-sees-massive-protests-over-housing-crisis"
         },
         {
-          "representativeTitle": "UAE Alleges Co-Pilot Attempted Terrorist Act in Flight",
-          "sources": [
-            "BBC World",
-            "The Guardian",
-            "Al Jazeera",
-            "Euronews"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-03T14:27:33.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Flydubai co-pilot used crash axe to attack captain, says UAE",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/03/flydubai-co-pilot-used-crash-axe-to-attack-captain-says-uae",
-              "pubDate": "2026-10-03T11:56:46.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Jerusalem Daily: UAE says Flydubai co-pilot attempted ‘terrorist’ attack",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/3/jerusalem-daily-uae-says-flydubai-co-pilot-attempted-terrorist-attack?traffic_source=rss",
-              "pubDate": "2026-10-03T16:17:23.000Z",
-              "tier": 1
-            },
-            {
-              "title": "UAE says FlyDubai co-pilot attacked captain with axe in 'terrorist' act",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/03/uae-says-flydubai-co-pilot-attacked-captain-with-axe-in-terrorist-act",
-              "pubDate": "2026-10-03T09:27:47.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 85,
-          "slug": "uae-alleges-co-pilot-attempted-terrorist-act-in-flight"
-        },
-        {
-          "representativeTitle": "Russia Strikes Kyiv Bridge; Targets Dnipro Crossings",
-          "sources": [
-            "BBC World",
-            "France 24",
-            "Euronews",
-            "Le Monde"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "Russia hits second major bridge in Ukraine's capital Kyiv",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-03T16:16:49.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Russia strikes another Kyiv bridge, deepening travel chaos in Ukraine's capital",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20261003-russia-strikes-another-major-bridge-in-kyiv",
-              "pubDate": "2026-10-03T06:40:29.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Second Kyiv bridge hit in two days as Russia targets Dnipro crossings",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/03/second-kyiv-bridge-hit-in-two-days-as-russia-targets-dnipro-crossings",
-              "pubDate": "2026-10-03T06:46:16.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Russia strikes second major bridge in Ukraine capital",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/03/russia-strikes-second-major-bridge-in-ukraine-capital_6758212_4.html",
-              "pubDate": "2026-10-03T09:49:07.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 85,
-          "slug": "russia-strikes-kyiv-bridge-targets-dnipro-crossings"
-        },
-        {
-          "representativeTitle": "Tigray rebels abandon Mekelle as government forces enter.",
-          "sources": [
-            "Al Jazeera",
-            "France 24",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Ethiopian government troops seize Tigray’s capital Mekelle",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ethiopian-government-troops-seize-tigrays-capital-mekelle?traffic_source=rss",
-              "pubDate": "2026-10-04T01:41:28.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Ethiopia's Tigray rebels abandon regional capital Mekelle as government forces enter city",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/africa/20261003-ethiopia-s-tigray-rebels-abandon-regional-capital-of-mekelle-as-pro-government-forces-advance",
-              "pubDate": "2026-10-03T07:58:45.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Ethiopia's Tigray rebels abandon regional capital Mekelle as government forces enter city",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVjNvUktJQUhNSG5BdVVxSHVrN0hBdGR4dC1JQVY0VjlNOExId2ZqQlRSRHY4ZzhGQXZrcDMyNDl6LW1IWFdGa1FOY2tVY2RHYnh0Wl9CdnRhOHBMblVwcEYtSE5WX1dlTEw4VjYyYzdkbTl4U2dDV2lzNDBqV1RwUjBrNTJsa2ZaM3diWWxKVEVCdlV0M0FmdkxVQ19JalJfVTZJM0lLaVNnbS1mcUtpbVhPdV8wSzhoVmNRX3E3THhYV1ZFT3h1bTRNTlNtMU9GVTRV?oc=5",
-              "pubDate": "2026-10-03T07:58:45.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 75,
-          "slug": "tigray-rebels-abandon-mekelle-as-government-forces-enter"
-        },
-        {
           "representativeTitle": "Brazil's Key Candidates Conclude Campaign Efforts Today",
           "sources": [
             "Al Jazeera",
             "France 24",
-            "Euronews"
+            "Euronews",
+            "Google World"
           ],
-          "citationCount": 3,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "Brazil’s Lula and Bolsonaro close campaigns ahead of critical election",
@@ -232,81 +103,59 @@ export const newsData = {
               "link": "https://www.euronews.com/2026/10/03/brazils-lula-and-flavio-bolsonaro-wrap-up-campaigns-on-eve-of-tight-vote",
               "pubDate": "2026-10-03T18:30:15.000Z",
               "tier": 2
+            },
+            {
+              "title": "Brazil’s Lula and Bolsonaro close campaigns ahead of critical election",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeWtDT2kxMThvaVN0cDRSLTJkTWppNGJCNE5mTXpLM3I5QnphX2phQW1FN2YzYXFxcHRzd05qX2RxbTI3Q3ZaM3hZRno4aDdDM2xqUmN0TFk4dXNqME55OUFKOFVOMWpxUFI2ZmVuT1J0eEU3RFFIa21ENkZmekRBdUxBNlZHZlFzNG9SN1ZtMndqeVNKank4YkVMclM4RDJfdXJNZG5YZFluLXJUTkRV0gG0AUFVX3lxTFBNcHc4b1ZjNks4TEtldmMzOEhJS3MzLUUzYkVJdmtpU09NMXNVaWh6QjJmZDFmVnJtNk9Ib2pYWDc0eTJJTll5OHpRb2dqanNaeDJjV0RpODBtNFVsb0ltbTNBVTlKdHRHUGY1Q1dqQTN6eEE4c3lhV3dRZV9TVG5xc0Y1Z05iVmZlUjdidjh6ZVNyVUNhSnUzcHBfWmVoWEJkb3VSdU85cUJUc2tGa2ZJd0Vtag?oc=5",
+              "pubDate": "2026-10-04T06:32:58.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": 0,
           "relevance_score": 6,
-          "importance": 65,
+          "importance": 70,
           "slug": "brazils-key-candidates-conclude-campaign-efforts-today"
         },
         {
-          "representativeTitle": "G7 Oil Release Follows Trump's Market Threats",
+          "representativeTitle": "Tigray rebels abandon Mekelle as government forces enter.",
           "sources": [
-            "BBC World",
-            "Google World"
+            "Al Jazeera",
+            "France 24"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-03T04:38:31.000Z",
+              "title": "Ethiopian government troops seize Tigray’s capital Mekelle",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ethiopian-government-troops-seize-tigrays-capital-mekelle?traffic_source=rss",
+              "pubDate": "2026-10-04T01:41:28.000Z",
               "tier": 1
             },
             {
-              "title": "G7 to release 100 million barrels of oil and diesel, will it curb prices?",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWE16VFQ0OUl3bzdndnJJWThfVk44RkJpSW5DVnNhVlpvUEVXRERibG9uY1JHRjJfUDd3NWJjN1RKSjl5UWlzN0dfLTFOY1hWQTJRZm9YUDhOMlJldWNJbzdYRVgzUDFud3RCVzJURDU3bnNHZEpWaWNudGFZcXpfa004eTFPY1d0dkJ1TWZadWJyT29pd3M5UktYX3AyX2RydkJxZUxNak40b2t0YU9XdEVR0gG3AUFVX3lxTE5SbFhyWHIxSVZyTDJxQkQzeUo5VWRJYlBvN0ptQ0stVXNTN1lNbXh1X2xRMUVTWDl6akZEYlZYcmRWdFdIbWROQVBOX0hPc1NjRDFyM1hBYlloTXNtb2xocWZXWnA4SWNxTVNCVno3N042V3V1U195bjU4cWlZSWx6SGJXQ1Y1UlFtX0RSaEZ0T0UxemhCTzgwS0VuWUF2bkhldEt5UkRZZVJ6VWsxaTBRNGJScVNQdw?oc=5",
-              "pubDate": "2026-10-04T00:56:52.000Z",
-              "tier": 2
+              "title": "Ethiopia's Tigray rebels abandon regional capital Mekelle as government forces enter city",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/africa/20261003-ethiopia-s-tigray-rebels-abandon-regional-capital-of-mekelle-as-pro-government-forces-advance",
+              "pubDate": "2026-10-03T07:58:45.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "g7-oil-release-follows-trumps-market-threats"
-        },
-        {
-          "representativeTitle": "Man Killed During London Memorial Service Shooting Incident",
-          "sources": [
-            "The Guardian",
-            "Sky News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Man shot dead at London memorial service in ‘senseless act of violence’",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/oct/03/met-launches-inquiry-after-man-shot-dead-at-london-memorial-service",
-              "pubDate": "2026-10-03T22:04:08.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Man shot dead in 'senseless act of violence' as people gathered for memorial service",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/man-shot-dead-in-senseless-act-of-violence-as-people-gathered-for-west-london-memorial-service-13594784",
-              "pubDate": "2026-10-03T16:33:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "man-killed-during-london-memorial-service-shooting-incident"
+          "importance": 70,
+          "slug": "tigray-rebels-abandon-mekelle-as-government-forces-enter"
         },
         {
           "representativeTitle": "China shutters banks amid financial system bolstering efforts.",
           "sources": [
-            "FT International"
+            "FT International",
+            "Google Stocks"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "China closes hundreds of banks to bolster financial system",
@@ -314,49 +163,146 @@ export const newsData = {
               "link": "https://www.ft.com/content/8a8f5c97-f1d3-4d3d-a3bc-d5a2e5539177?syn-25a6b1a6=1",
               "pubDate": "2026-10-04T02:00:04.000Z",
               "tier": 1
+            },
+            {
+              "title": "China closes hundreds of banks to bolster financial system",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYlVsM3M3d0dwVW1HT3Utbk5GNjRmcC1mZzN3aWFTTmN3Qi1CRFdRZlJDTjhERm5EQ05lNlQzNzJuMmFrb2ZNamUxNkkzWk5fSDgyNXgwWjF1ZzhvZEwzaVAtQXpYVEtZZm9Rb1gtanBPTzJ2RzF3ZVVwdmhoN1JndUl2d1I?oc=5",
+              "pubDate": "2026-10-04T02:00:04.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 9,
-          "importance": 60,
+          "importance": 65,
           "slug": "china-shutters-banks-amid-financial-system-bolstering-efforts"
         },
         {
-          "representativeTitle": "Yemeni Strikes Hit Sanaa Amid Trump Warning to Iran",
+          "representativeTitle": "Dubai Flight Incident: Co-pilot Allegedly Attacked Captain",
+          "sources": [
+            "The Guardian",
+            "Euronews",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Flydubai co-pilot used crash axe to attack captain, says UAE",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/03/flydubai-co-pilot-used-crash-axe-to-attack-captain-says-uae",
+              "pubDate": "2026-10-03T11:56:46.000Z",
+              "tier": 1
+            },
+            {
+              "title": "UAE says FlyDubai co-pilot attacked captain with axe in 'terrorist' act",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/03/uae-says-flydubai-co-pilot-attacked-captain-with-axe-in-terrorist-act",
+              "pubDate": "2026-10-03T09:27:47.000Z",
+              "tier": 2
+            },
+            {
+              "title": "FlyDubai co-pilot used crash ax to attempt terrorist act, UAE says",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRmN6QTZoNW9lYktQLUNSUVY5c20tUm9udG0xRkNBa1RXd1Z3MTFQNEoxa1RUSDQ2MmdEb0JDQUU4RDZtQzVxZmllanhjWGJhakFqamc1eUpZRVBBSVA4VVZDSG9rSUNyaGgydmJlMk5jUF9KcGxXLWpnN2lGZTE1aEtXR2NmY2ROMnBoZlRHSzhhSXdvR2RaZGs2U0xzX3lBSTRkVTlUTQ?oc=5",
+              "pubDate": "2026-10-04T04:14:48.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "dubai-flight-incident-co-pilot-allegedly-attacked-captain"
+        },
+        {
+          "representativeTitle": "Bosnian Election Highlights Russian Influence, EU Stalls",
+          "sources": [
+            "France 24",
+            "Euronews"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Bosnians vote as pro-Russian politician looms large over election and ethnic tensions simmer",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261004-polls-open-in-bosnia-and-herzegovina-as-pro-russian-politician-looms-large-over-race",
+              "pubDate": "2026-10-04T05:55:38.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Bosnia votes as pro-Russian politician looms large over race and stalled EU bid dominate election",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/04/bosnia-votes-as-pro-russian-politician-looms-large-over-race-and-a-stalled-eu-bid-dominate",
+              "pubDate": "2026-10-04T06:53:37.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "bosnian-election-highlights-russian-influence-eu-stalls"
+        },
+        {
+          "representativeTitle": "Germany Pledges Further Support to Ukraine's Zelenskyy",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Germany's Merz visits Kyiv to pledge more support to Zelensky",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261004-live-germany-s-merz-in-kyiv-for-talks-with-zelensky",
+              "pubDate": "2026-10-04T07:28:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "germany-pledges-further-support-to-ukraines-zelenskyy"
+        },
+        {
+          "representativeTitle": "German Politician Visits Kyiv to Back Ukraine Effort",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Germany’s Merz arrives in Kyiv to show support for Ukraine",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/b7bd5c45-1c32-4984-af37-21746a02c4ef?syn-25a6b1a6=1",
+              "pubDate": "2026-10-04T06:12:15.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "german-politician-visits-kyiv-to-back-ukraine-effort"
+        },
+        {
+          "representativeTitle": "Somalia Questions Houthi Role in Yemen Peace Efforts",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran war live: Yemeni forces strike Sanaa as Trump warns Tehran of hard way",
+              "title": "Somalia President: Houthis ‘not in a position’ to bring Yemen peace",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/liveblog/2026/10/4/iran-war-live-yemeni-forces-strike-sanaa-as-trump-warns-tehran-of-hard-way?traffic_source=rss",
-              "pubDate": "2026-10-04T00:00:29.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "yemeni-strikes-hit-sanaa-amid-trump-warning-to-iran"
-        },
-        {
-          "representativeTitle": "Pilot Under Investigation After Alleged Cockpit Attack",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Flydubai co-pilot’s time in Australia being investigated by security agencies after alleged cockpit attack",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/04/flydubai-co-pilot-time-in-australia-being-investigated-security-agencies-ntwnfb",
-              "pubDate": "2026-10-04T01:26:39.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/somalia-president-houthis-not-in-a-position-to-bring-yemen-peace?traffic_source=rss",
+              "pubDate": "2026-10-04T05:00:40.000Z",
               "tier": 1
             }
           ],
@@ -365,7 +311,51 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "pilot-under-investigation-after-alleged-cockpit-attack"
+          "slug": "somalia-questions-houthi-role-in-yemen-peace-efforts"
+        },
+        {
+          "representativeTitle": "Activists launch pill locker bypassing abortion ban.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Polish activists launch abortion pill locker to bypass near-total ban",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/04/polish-activists-launch-abortion-pill-locker-to-bypass-near-total-ban",
+              "pubDate": "2026-10-04T05:00:20.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "activists-launch-pill-locker-bypassing-abortion-ban"
+        },
+        {
+          "representativeTitle": "Bosnia Elections Face EU Hopes Versus Russian Influence",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Bosnia elections pit EU hopes against Russian influence",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/3401e229-1728-4a33-82d5-e52a4cd993c1?syn-25a6b1a6=1",
+              "pubDate": "2026-10-04T04:00:15.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "bosnia-elections-face-eu-hopes-versus-russian-influence"
         },
         {
           "representativeTitle": "Bulgaria Czar Samuel Remains Returned After Millennium Journey",
@@ -386,7 +376,7 @@ export const newsData = {
               "title": "Remains of Bulgaria’s Czar Samuel return ‘home’ after 1,000 years",
               "source": "Google World",
               "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdDRqRVpOd1hjNWtKRzNuN2UxbGFTcnI2eUZsX1RZdi1WVzFQYUUzUk4xMGVUNGJZYmV6eWlidGg0d3VBTklYMFVuVUs2cnBpMkdHNDVKc2FXNkJUcnRFeF9kMUFkdGVwQ0JXaW94ZFhHNTQxWWJkMmgzcmVCOWpEaFhUVnYzNUljNkNUaTlKNVE1QkY1aVA0b2wwdzA4d3FwV3Vvb9IBqgFBVV95cUxNZE51UDRkQU55NzNMQ3JTcExSY1ZJdUg0YVYyN1h6NUZKcmNqX1dLM3dCcDRwS3Jiek1wbU51LUtuMW9pdFZOTG9IYUE4TmxHc3c2NEpaVDF2dkdGUlUydnhjOWpscXg0b09Ua2VodTZWU1Jha1Q2bms1MnRpLWxfQUwtN1FmQ19xQ1RLcEVFT3hHN2hodGpjbFJmcUEwSjNmYUh2TFZWU2YwUQ?oc=5",
-              "pubDate": "2026-10-04T01:52:30.000Z",
+              "pubDate": "2026-10-04T04:50:37.000Z",
               "tier": 2
             }
           ],
@@ -396,50 +386,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 50,
           "slug": "bulgaria-czar-samuel-remains-returned-after-millennium-journey"
-        },
-        {
-          "representativeTitle": "Canada Prepares For Potential US Invasion Scenario",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Why Canada is preparing for a (long shot) US invasion",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c9m2mjj3yvg4o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-03T23:30:06.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "canada-prepares-for-potential-us-invasion-scenario"
-        },
-        {
-          "representativeTitle": "US Politician Calls For Arms Embargo On Israel",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Pelosi-backed US candidate calls for ‘full arms embargo’ on Israel",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/3/pelosi-backed-us-candidate-calls-for-full-arms-embargo-on-israel?traffic_source=rss",
-              "pubDate": "2026-10-03T22:43:58.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "us-politician-calls-for-arms-embargo-on-israel"
         },
         {
           "representativeTitle": "Brazil Election Nears Climax Amid Political Tension",
@@ -464,7 +410,51 @@ export const newsData = {
           "slug": "brazil-election-nears-climax-amid-political-tension"
         },
         {
-          "representativeTitle": "US Military Buildup Increases Iran Conflict Risk",
+          "representativeTitle": "Tory Conference Begins Amid Labour's Policy Shift",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Conservatives claim ‘major victory’ as Tory conference begins after Labour scraps plans to curb jury trials – UK politics live",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/live/2026/oct/04/conservatives-tories-conference-kemi-badenoch-james-cleverly-labour-jury-trials-green-party-zionism-uk-politics-latest-news-updates",
+              "pubDate": "2026-10-04T07:29:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "tory-conference-begins-amid-labours-policy-shift"
+        },
+        {
+          "representativeTitle": "Government drops wildfire preparedness plans for England",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Revealed: Government quietly dropped plan to prepare England for wildfires",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/04/government-dropped-plan-england-countryside-wildfires",
+              "pubDate": "2026-10-04T07:00:21.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "government-drops-wildfire-preparedness-plans-for-england"
+        },
+        {
+          "representativeTitle": "Military Buildup Increases Risk of Iran Conflict",
           "sources": [
             "Bloomberg Markets"
           ],
@@ -483,29 +473,133 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 9,
           "importance": 60,
-          "slug": "us-military-buildup-increases-iran-conflict-risk"
+          "slug": "military-buildup-increases-risk-of-iran-conflict"
         },
         {
-          "representativeTitle": "US-Russia Talks Link Ukraine to Oil Deals",
+          "representativeTitle": "Australia Investigates Co-pilot's Ties to Nation",
           "sources": [
-            "Google US"
+            "BBC World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "U.S.-Russia Talks on Ukraine Now Involve an Oil Deal Tied to Trump Allies",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUExYZk9hQzBJWE9DS0UxQ1RfNUttN3NIY2xuNS1PN0dkZVBlODRMMkVmbGFDNXZ1RDU2aU5rM3dGc3ZtR3Z6RHZSSGxpME5TSGJ0OE1vWUdHNWZUTVdQQjhLYVV3MW9XUExPYUJBbHhieUlmTmw5QmJ0YXdjMjh2c3dBeG91d2d5dHRB?oc=5",
-              "pubDate": "2026-10-04T01:58:41.000Z",
-              "tier": 2
+              "title": "Australia investigating Flydubai co-pilot's links to country",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-04T06:19:17.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "australia-investigates-co-pilots-ties-to-nation"
+        },
+        {
+          "representativeTitle": "Egypt Warned Hamas Threat Before October Seventh Attacks",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Egypt Flagged Hamas Threat Before Oct. 7",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-03/egypt-flagged-hamas-threat-before-oct-7-video",
+              "pubDate": "2026-10-03T15:09:17.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 9,
-          "importance": 50,
-          "slug": "us-russia-talks-link-ukraine-to-oil-deals"
+          "importance": 60,
+          "slug": "egypt-warned-hamas-threat-before-october-seventh-attacks"
+        },
+        {
+          "representativeTitle": "Hailstorm causes widespread damage in Paraguay capital.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Widespread damage after huge hailstones pound Paraguay capital",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/widespread-damage-after-huge-hailstones-pound-paraguay-capital?traffic_source=rss",
+              "pubDate": "2026-10-04T05:14:13.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "hailstorm-causes-widespread-damage-in-paraguay-capital"
+        },
+        {
+          "representativeTitle": "UK-Iranian National Released After RAF Investigation",
+          "sources": [
+            "BBC World",
+            "Sky News",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "UK-Iranian dual national bailed after RAF Fairford incident arrest",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6d095ygggv1o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-03T10:58:51.000Z",
+              "tier": 1
+            },
+            {
+              "title": "UK-Iranian national arrested in RAF Fairford investigation released on bail",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/uk-iranian-national-arrested-in-raf-fairford-investigation-released-on-bail-13594647",
+              "pubDate": "2026-10-03T10:08:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "UK-Iranian dual national arrested over RAF Fairford released on bail",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xcWhkWk02NHg2cWVwUk1OemdYby1qM05ncmVBbFhiUVlWWVRycU05ZFF5ak82SmlfbGlGUWQzYlJKQkxKT1JZNGd2aHJ1ZHp3ZGxGYjlIN216aUk?oc=5",
+              "pubDate": "2026-10-03T10:58:51.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "uk-iranian-national-released-after-raf-investigation"
+        },
+        {
+          "representativeTitle": "Tornado Strikes Small Australian Town; Damage Reported",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Rare tornado whips through small Australian town",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/c69qzvggzppro?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-04T04:15:36.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "tornado-strikes-small-australian-town-damage-reported"
         },
         {
           "representativeTitle": "Co-pilot involved in alleged flight terror incident.",
@@ -528,116 +622,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "co-pilot-involved-in-alleged-flight-terror-incident"
-        },
-        {
-          "representativeTitle": "Indigenous Brazilians Cast Ballots Before Election Day",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Ballots reach remote Indigenous Brazilians ahead of presidential election",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ballots-reach-remote-indigenous-brazilians-ahead-of-presidential-election?traffic_source=rss",
-              "pubDate": "2026-10-04T02:57:48.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "indigenous-brazilians-cast-ballots-before-election-day"
-        },
-        {
-          "representativeTitle": "Zimbabweans face hardship rebuilding after South Africa.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Zimbabweans struggle to rebuild after fleeing xenophobia in South Africa",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/4/zimbabweans-struggle-to-rebuild-after-fleeing-xenophobia-in-south-africa?traffic_source=rss",
-              "pubDate": "2026-10-04T01:55:46.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "zimbabweans-face-hardship-rebuilding-after-south-africa"
-        },
-        {
-          "representativeTitle": "Egypt Warned Hamas Threat Before October Seventh Attacks",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Egypt Flagged Hamas Threat Before Oct. 7",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-03/egypt-flagged-hamas-threat-before-oct-7-video",
-              "pubDate": "2026-10-03T15:09:17.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "egypt-warned-hamas-threat-before-october-seventh-attacks"
-        },
-        {
-          "representativeTitle": "Japan, Korea Use Robots in Shipbuilding Against China",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Japanese and Korean shipbuilders deploy robots to take on China",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/ea32c53d-4de7-4b34-af44-cc148b23433f?syn-25a6b1a6=1",
-              "pubDate": "2026-10-04T01:00:04.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "japan-korea-use-robots-in-shipbuilding-against-china"
-        },
-        {
-          "representativeTitle": "Vucic launches prime minister campaign in Serbia.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Serbian populist leader Vucic launches campaign for prime minister",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/4/serbian-populist-leader-vucic-launches-campaign-for-prime-minister?traffic_source=rss",
-              "pubDate": "2026-10-04T00:26:22.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "vucic-launches-prime-minister-campaign-in-serbia"
         },
         {
           "representativeTitle": "Mexico Deploys Troops to Border Alongside US Forces",
@@ -684,48 +668,26 @@ export const newsData = {
           "slug": "brazil-election-uncertainty-keeps-wall-street-alerted"
         },
         {
-          "representativeTitle": "China probes European chemical exports amid trade tensions.",
+          "representativeTitle": "US Marine detained over death incident in Japan.",
           "sources": [
-            "FT International"
+            "ABC News Top"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "China launches anti-dumping probe into European chemical exports",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/bae0af94-f42d-47d1-a1a8-fab608e75a72?syn-25a6b1a6=1",
-              "pubDate": "2026-10-03T10:16:42.000Z",
-              "tier": 1
+              "title": "US Marine detained in connection with death in Japan, US officials say",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/International/us-marine-detained-connection-death-japan-us-officials/story?id=136982210",
+              "pubDate": "2026-10-04T06:57:33.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "china-probes-european-chemical-exports-amid-trade-tensions"
-        },
-        {
-          "representativeTitle": "US-China Rivalry Intensifies Amid Great Power Struggle",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "China, America and the new Great Game",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/8869caf9-3cd1-4300-aeb3-828a4d9da4f9?syn-25a6b1a6=1",
-              "pubDate": "2026-10-03T04:00:30.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "us-china-rivalry-intensifies-amid-great-power-struggle"
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "us-marine-detained-over-death-incident-in-japan"
         },
         {
           "representativeTitle": "Tropical Cyclone Nolo Forms in Pacific Ocean",
@@ -758,26 +720,26 @@ export const newsData = {
           "slug": "tropical-cyclone-nolo-forms-in-pacific-ocean"
         },
         {
-          "representativeTitle": "French Protests Warn America of Social Unrest Risks",
+          "representativeTitle": "Youth express desire to improve modern society's state.",
           "sources": [
-            "Fox News"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "France’s violent student protests raise warning for America: ‘A cautionary tale’",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/world/frances-violent-student-protests-raise-warning-for-america-a-cautionary-tale",
-              "pubDate": "2026-10-04T01:54:10.000Z",
-              "tier": 2
+              "title": "Today’s youth would like to give back modernity, thank you very much",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/471ee22e-af95-4ada-a272-a6a876bc5234?syn-25a6b1a6=1",
+              "pubDate": "2026-10-04T04:00:15.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Business",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "french-protests-warn-america-of-social-unrest-risks"
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "youth-express-desire-to-improve-modern-societys-state"
         },
         {
           "representativeTitle": "Attacker Used Common Jet Fixture in Incident",
@@ -800,28 +762,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "attacker-used-common-jet-fixture-in-incident"
-        },
-        {
-          "representativeTitle": "Voter support wavers in Lula's strongholds.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The town where 94% voted for Lula — and some now waver",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/e884e8f3-ad16-48a9-af41-29d3122f7d76?syn-25a6b1a6=1",
-              "pubDate": "2026-10-03T11:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "voter-support-wavers-in-lulas-strongholds"
         },
         {
           "representativeTitle": "Coast Guard Halts Fuel Shipments Heading To Cuba",
@@ -866,28 +806,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "xis-schedule-interrupted-during-trump-summit-talks"
-        },
-        {
-          "representativeTitle": "Spain analyzes lessons from housing market crisis.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The right and wrong lessons to learn from Spain’s housing crisis",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/437ca3f0-9db4-4511-a441-ab7763d8f65c?syn-25a6b1a6=1",
-              "pubDate": "2026-10-03T04:00:48.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "spain-analyzes-lessons-from-housing-market-crisis"
         }
       ]
     },
@@ -899,13 +817,12 @@ export const newsData = {
           "sources": [
             "BBC World",
             "The Guardian",
-            "Al Jazeera",
             "France 24",
             "SCMP",
             "Sky News",
             "Le Monde"
           ],
-          "citationCount": 7,
+          "citationCount": 6,
           "rawArticles": [
             {
               "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
@@ -919,13 +836,6 @@ export const newsData = {
               "source": "The Guardian",
               "link": "https://www.theguardian.com/us-news/2026/oct/03/tennessee-christa-pike-frank-strada",
               "pubDate": "2026-10-03T17:09:05.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Tennessee prisons official resigns after Christa Pike’s failed US execution",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/3/tennessee-prisons-official-resigns-after-christa-pikes-failed-us-execution?traffic_source=rss",
-              "pubDate": "2026-10-03T17:31:54.000Z",
               "tier": 1
             },
             {
@@ -950,7 +860,7 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Tennessee prison chief who oversaw Christina Pike's failed execution resigns",
+              "title": "Tennessee prison chief resigns after Christa Pike's failed execution",
               "source": "Le Monde",
               "link": "https://www.lemonde.fr/en/international/article/2026/10/03/tennessee-prison-chief-who-oversaw-christina-pike-s-failed-execution-resigns_6758221_4.html",
               "pubDate": "2026-10-03T16:39:27.000Z",
@@ -961,19 +871,18 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 100,
+          "importance": 90,
           "slug": "tennessee-prison-official-resigns-after-execution-botch"
         },
         {
-          "representativeTitle": "Commissioner Resigns After Flawed Execution Incident",
+          "representativeTitle": "Tennessee Commissioner Resigns Following Pike Execution Failure",
           "sources": [
             "BBC US",
             "Washington Post",
-            "ABC News Top",
             "ABC News US",
             "Google US"
           ],
-          "citationCount": 5,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
@@ -997,13 +906,6 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Tennessee Correction commissioner resigns days after botched Christa Pike execution",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/tennessee-corrections-commissioner-resign-days-after-failed-execution/story?id=136973939",
-              "pubDate": "2026-10-03T19:18:40.000Z",
-              "tier": 2
-            },
-            {
               "title": "Tennessee's prisons chief is resigning after failed execution of Christa Pike",
               "source": "ABC News US",
               "link": "https://abcnews.com/US/wireStory/governor-tennessees-prisons-chief-resigning-after-failed-execution-136973613",
@@ -1011,10 +913,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Tennessee’s prisons chief is resigning after failed execution of Christa Pike",
+              "title": "Tennessee Commissioner Resigns After Failed Execution of Christa Pike",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS2dvZno4RTVmS3RJLXVKV3ExNXptZUltbFhwQng2Zzl6RVZhYWZpREk3RnNPcVFrS2hLdHNpcWpOZW9paW5vM1d4UTZ4M1VVTklLbTNfbDZZeGhpaVU4WjVpOXJkMTNTOUlLMmZuRUNBdTRzVW9mWFYyMlVQek5UNXFTdGNpRkFWOVlENHlMYXh6RWlrbXJpc3I0WTF4UG1xQlExNUJrYw?oc=5",
-              "pubDate": "2026-10-03T20:27:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOGN2SzhDSnllNWd1bzVFZEJuMV96MnBwc0dSS0xJblhKMFFzXzFnRmdKWjJMM29TTlFQZmJxTkc2ekFhWGt1THlwQWszemlMclFJejV5eV8yMG9vMVJpODUyTjFFSEtzQ1lLbUZ3WndmSWVqamdPdW50N1FWVU14bXVLRkNGMW9DZzVpNFpHel9CT2dGRk51MA?oc=5",
+              "pubDate": "2026-10-04T05:24:00.000Z",
               "tier": 2
             }
           ],
@@ -1022,8 +924,84 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 85,
-          "slug": "commissioner-resigns-after-flawed-execution-incident"
+          "importance": 80,
+          "slug": "tennessee-commissioner-resigns-following-pike-execution-failure"
+        },
+        {
+          "representativeTitle": "Debris Found From Missing Medical Plane; Coastguard Reports",
+          "sources": [
+            "BBC World",
+            "Al Jazeera",
+            "Sky News"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Debris found from plane that went missing off US coast",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-04T03:49:06.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Debris from missing medical plane found, US coastguard says",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/3/air-ambulance-missing-on-flight-from-bermuda-to-boston?traffic_source=rss",
+              "pubDate": "2026-10-03T23:03:44.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Crews find 'debris field' in search for missing plane",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/us-coastguard-searching-for-missing-plane-carrying-six-people-13594811",
+              "pubDate": "2026-10-03T18:09:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "debris-found-from-missing-medical-plane-coastguard-reports"
+        },
+        {
+          "representativeTitle": "Debris found from missing medical plane near Nantucket.",
+          "sources": [
+            "BBC US",
+            "NPR",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Debris found from plane that went missing off US coast",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-04T03:49:06.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Coast Guard finds debris from medical plane carrying 6 people",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/03/g-s1-146338/plane-missing-coast-guard-search-massachusetts",
+              "pubDate": "2026-10-03T22:31:04.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Searchers find debris of Boston-bound medical plane that went missing off Nantucket",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVHYyU3VXMDlUamFZbXIyV0pwQkxaYy1ac19DM0kxWEh5eXFQaERjTUxvN2tFdnJFZHdiMnA3YjVqUW1XaFNkQXZXR3hWSFc4T1p4NmNqR2F2ZVk5d1dZX3JQYWs0UVlKQVNwNjJqQ3JLTDQ4a0pBcDd1X0xiYnZTY0ZDR1Y1dw?oc=5",
+              "pubDate": "2026-10-04T06:33:45.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "debris-found-from-missing-medical-plane-near-nantucket"
         },
         {
           "representativeTitle": "Rape Allegations Spark Debate on Intoxication and Consent Laws",
@@ -1055,36 +1033,6 @@ export const newsData = {
           "slug": "rape-allegations-spark-debate-on-intoxication-and-consent-laws"
         },
         {
-          "representativeTitle": "Coast Guard searches for missing air ambulance off coast.",
-          "sources": [
-            "BBC World",
-            "The Guardian"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Medical plane with 6 on board missing off Massachusetts coast",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-03T21:16:21.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US Coast Guard searches for missing air ambulance off coast of Massachusetts",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts",
-              "pubDate": "2026-10-03T17:03:54.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "coast-guard-searches-for-missing-air-ambulance-off-coast"
-        },
-        {
           "representativeTitle": "Cornell leader addresses controversy surrounding rape case.",
           "sources": [
             "Al Jazeera",
@@ -1113,36 +1061,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 55,
           "slug": "cornell-leader-addresses-controversy-surrounding-rape-case"
-        },
-        {
-          "representativeTitle": "Medical Plane Missing Off Massachusetts Coastline",
-          "sources": [
-            "BBC US",
-            "NPR"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Medical plane with 6 on board missing off Massachusetts coast",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-03T21:16:21.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Coast Guard finds debris from medical plane carrying 6 people",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/10/03/g-s1-146338/plane-missing-coast-guard-search-massachusetts",
-              "pubDate": "2026-10-03T22:31:04.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "medical-plane-missing-off-massachusetts-coastline"
         },
         {
           "representativeTitle": "Trump shares phone number amid political dispute.",
@@ -1197,6 +1115,110 @@ export const newsData = {
           "slug": "students-selling-firearms-to-drug-cartels-reported"
         },
         {
+          "representativeTitle": "Baltimore Shooting Kills Child; Three Adults Injured",
+          "sources": [
+            "NBC News",
+            "Fox News",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "12-year-old girl killed in Baltimore shooting sparked by apparent parking dispute",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/12-year-old-girl-killed-baltimore-shooting-rcna601349",
+              "pubDate": "2026-10-04T01:45:30.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Shooting near Baltimore youth football event leaves 12-year-old girl dead, 3 adults wounded",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/us/shooting-near-baltimore-youth-football-event-leaves-12-year-old-girl-dead-3-adults-wounded",
+              "pubDate": "2026-10-04T03:55:32.000Z",
+              "tier": 2
+            },
+            {
+              "title": "12-year-old girl killed in Baltimore shooting sparked by apparent parking dispute",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS0ZQNVpWSmV1QVlpVFRDeUhDYXNEWHVDc1BDdldFZEJiY2VnSXlhbUd1ZVZJdFM0dGpfV3RRSnJYUTgydEh0NFNSREN1S3JHSVlyLUFDMmVyRzk1aDJ6NXlOVW5BU3k1dGxpMUFMN3NGX0drbXRQczhrbmp0MW1jb211dkNPdWxBdVVoNW9uOTRNYW15?oc=5",
+              "pubDate": "2026-10-04T01:45:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "baltimore-shooting-kills-child-three-adults-injured"
+        },
+        {
+          "representativeTitle": "Senate Races Reflect Current Democratic Party Direction",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ossoff and El-Sayed: Two Senate races and what they say about the Democratic Party",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/americas/20261004-ossoff-and-el-sayed-two-senate-races-and-what-they-say-about-the-democratic-party",
+              "pubDate": "2026-10-04T07:21:26.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "senate-races-reflect-current-democratic-party-direction"
+        },
+        {
+          "representativeTitle": "Tories predict upbeat conference despite underlying issues.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Party conference will be more upbeat than last year, Tories say – but that’s not the whole story",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/2026/oct/04/conservative-party-conference-more-upbeat-last-year-tories-kemi-badenoch",
+              "pubDate": "2026-10-04T06:00:20.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "tories-predict-upbeat-conference-despite-underlying-issues"
+        },
+        {
+          "representativeTitle": "Carer Role Requires Quick Decision on Life Change",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘You have 10 minutes to decide’: answering the life-changing call to become a kinship carer",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/society/ng-interactive/2026/oct/04/10-minutes-to-decide-life-changing-call-kinship-carer",
+              "pubDate": "2026-10-04T06:00:20.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "carer-role-requires-quick-decision-on-life-change"
+        },
+        {
           "representativeTitle": "Judge Slams Flock System as Mass Surveillance Tool",
           "sources": [
             "TechCrunch"
@@ -1219,86 +1241,26 @@ export const newsData = {
           "slug": "judge-slams-flock-system-as-mass-surveillance-tool"
         },
         {
-          "representativeTitle": "Cornell Police Drug Arrest Precedes Alleged Sexual Assault Incident",
-          "sources": [
-            "NBC News",
-            "Fox News",
-            "Google US"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Cornell University police made drug arrest hours before alleged sexual assault",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/cornell-university-police-made-drug-arrest-hours-alleged-sexual-assaul-rcna601309",
-              "pubDate": "2026-10-03T22:23:46.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Cornell president says university 'must do better' on handling of sexual assault allegations",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/us/cornell-president-says-university-must-do-better-handling-sexual-assault-allegations",
-              "pubDate": "2026-10-04T00:21:27.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Cornell University police made drug arrest hours before alleged sexual assault",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVXZGNkVpUTB0cjhLeXNWZ1lrWlRKNFpMSE5tU1lUM1N2YjZZUjBXdTdRSzZHR28yTjk0OVFTZGFHRXVHVzV5R0dDRDd6b2V6YzNOd1BybFhBNUtaNlhIVWliaGdjUTFneTJGMDZDS1VFV3RRUms5ekxWcm1nandkTDRQdDZuLS02QlYwVkpkVzk0RmpRcDZtYzk0cFcxblF1Q3ZPQm5lNktXUWNDQkc1dWk0UmRpZ1BrTnc?oc=5",
-              "pubDate": "2026-10-03T23:52:42.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "cornell-police-drug-arrest-precedes-alleged-sexual-assault-incident"
-        },
-        {
-          "representativeTitle": "Cornell President Addresses Rape Allegations at University",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cornell president says university 'must do better' after frat house rape allegations",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-04T00:11:25.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "cornell-president-addresses-rape-allegations-at-university"
-        },
-        {
-          "representativeTitle": "Air Ambulance Missing During Bermuda to Boston Flight",
+          "representativeTitle": "Trump Rallies Republicans in Ohio Amid Midterm Uncertainty",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Air ambulance missing on flight from Bermuda to Boston",
+              "title": "Trump defiant about midterm chances as he rallies for Republicans in Ohio",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/3/air-ambulance-missing-on-flight-from-bermuda-to-boston?traffic_source=rss",
-              "pubDate": "2026-10-03T23:03:44.000Z",
+              "link": "https://www.aljazeera.com/news/2026/10/4/trump-defiant-about-midterm-chances-as-he-rallies-for-republicans-in-ohio?traffic_source=rss",
+              "pubDate": "2026-10-04T04:10:17.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "air-ambulance-missing-during-bermuda-to-boston-flight"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "trump-rallies-republicans-in-ohio-amid-midterm-uncertainty"
         },
         {
           "representativeTitle": "Study Links Teens to Gun Trafficking Networks",
@@ -1323,94 +1285,108 @@ export const newsData = {
           "slug": "study-links-teens-to-gun-trafficking-networks"
         },
         {
-          "representativeTitle": "Trump Pledges $90 Checks to Medicare Seniors",
+          "representativeTitle": "Fashion Executives Shot Near UC Berkeley Campus",
           "sources": [
-            "NBC News",
             "Google US"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump pledges to send $90 checks to millions of seniors on Medicare",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/donald-trump/trump-pledges-medicare-90-dollar-checks-millions-seniors-rcna601312",
-              "pubDate": "2026-10-03T21:47:07.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump announces plan to send $90 payments to millions of seniors",
+              "title": "Fashion executives identified as victims of fatal shooting near UC Berkeley",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaGI4dzdHV1dUV2RrSm5JTFc1VXM3T3RXdW1hbXJLS2RZX2U0MkZNcmlaT3F1c25YMS05TzdjZjFCQ19ORUVMbHl6bnNvM3ZnVVhsZDhhNncxaG9BOGpvWkliTHFmdWoySW03V0s3NEVhaWxrams0Y2hNa3pSSThmQXNka1BjYjd5NkRWeXVUZGNzY2FOYUNvX3VyRDRsTGZqbWhUVTJGMlExUQ?oc=5",
-              "pubDate": "2026-10-03T23:51:24.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "trump-pledges-90-checks-to-medicare-seniors"
-        },
-        {
-          "representativeTitle": "Cornell President Addresses Alleged Rape Incident Concerns",
-          "sources": [
-            "Sky News",
-            "Le Monde"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Cornell president calls alleged gang rape 'deeply disturbing'",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/cornell-president-calls-alleged-gang-rape-deeply-disturbing-13594861",
-              "pubDate": "2026-10-04T02:00:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Cornell president calls alleged gang rape 'deeply disturbing,' pledges greater transparency",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/04/cornell-president-calls-alleged-gang-rape-deeply-disturbing-pledges-greater-transparency_6758226_4.html",
-              "pubDate": "2026-10-04T02:39:51.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "cornell-president-addresses-alleged-rape-incident-concerns"
-        },
-        {
-          "representativeTitle": "Child Killed in Baltimore Crossfire During Football Game",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "12-year-old girl killed in Baltimore shooting sparked by apparent parking dispute",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/12-year-old-girl-killed-baltimore-shooting-rcna601349",
-              "pubDate": "2026-10-04T01:45:30.000Z",
-              "tier": 2
-            },
-            {
-              "title": "12-year-old girl killed in crossfire during youth football game in Baltimore; 3 adults injured",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUxCYXZOb2ZzLVUwLXpzbTh4SWRkaXRhdERJQUstZUVfVVhPeVdxczlNYi1veGZkWE85QTYzdmFTejVVR3dOS3U2V3hvQWlGMnBPVkEyWmpNNjBrOVVsZlZWLWxTWkhXTDR1VUVkYWd3em5DZjZyMUd0UWQtVkV3bGsxVGdMY1NNdDBDQnZhZw?oc=5",
-              "pubDate": "2026-10-04T02:13:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORDNybGEtVnB4TjJPLUNIN1JFUm5LSTZrUXp5MTM0RWtNY3pLRlFtTWlyd1NMd2VrM2NnWm45ZWN0ZVZERmpWelNxSG53ODRGWVRBY3drX3U4czlYaXVfQ0FtRGUzNlNGWW4xMEdnMUtQRTk0ZmNNcHkzSHZxT0N6Z3RMQjdGYkNwT09WMzJpUjBsenp3M1E?oc=5",
+              "pubDate": "2026-10-04T04:34:39.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "fashion-executives-shot-near-uc-berkeley-campus"
+        },
+        {
+          "representativeTitle": "Democrats clash over California's wealth tax proposal.",
+          "sources": [
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Top Democrats battle over California's proposed billionaire tax",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Politics/top-democrats-battle-californias-proposed-billionaire-tax/story?id=136951176",
+              "pubDate": "2026-10-03T10:34:34.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Bernie Sanders makes a late push for California billionaire tax",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNHZMUEk3REJtWkljeUZWODlaa0x4MF9Jc3dMdEZNQzRMNjRBR0hPcV9pQ09wRVJTM2Z1amVlUlppTElZVlRPTzRFZ3pXU1RsdWtfZ1k0U0RsUmUtX2dDdWVnNW5ERGh1RTJmQWl3OWpuOWhNNUVhcl9HOXR4RE9tUnlrdXVTQUNFZ0cyRElfOXhyQTd3RzNaZ1F0emNXUXlManc?oc=5",
+              "pubDate": "2026-10-04T03:12:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
           "relevance_score": 6,
           "importance": 40,
-          "slug": "child-killed-in-baltimore-crossfire-during-football-game"
+          "slug": "democrats-clash-over-californias-wealth-tax-proposal"
+        },
+        {
+          "representativeTitle": "Trump posts phone number amid daylight saving dispute.",
+          "sources": [
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Trump appears to post Sen. Tom Cotton’s cell number over stalled daylight saving bill",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/donald-trump/tom-cotton-cell-number-post-daylight-savings-time-permanent-rcna601293",
+              "pubDate": "2026-10-03T18:48:07.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump reveals Tom Cotton’s phone number in daylight saving time standoff",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRGp6MjI4cHhDUDBqblFvT01fcjlZb3pXMXRKODlaS0tIZ3MzZG9xR0hVSWpveGVRSW1rU0tmQXFwSUxYLThkM2gzYmk3NVJZM0lMRnZ0NjVNUTNnRnRxay1Nb1hENmxSaDdVUmxMZXdfR0Q1N2lIVnppejRrejZ1WFRTZ3lKVVp1S3kzUmZxOEFsTGxQOWNsdXVZNURqWk8yZFJuaW5fSU5GTExOWElya0FpdE8yM01OQzNwMm1SN2lhZw?oc=5",
+              "pubDate": "2026-10-04T02:36:39.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "trump-posts-phone-number-amid-daylight-saving-dispute"
+        },
+        {
+          "representativeTitle": "Americans struggle managing retirement savings funds.",
+          "sources": [
+            "Google Stocks"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Why So Many Americans Have Trouble Spending Their Retirement Savings",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdTdjQ050a2JNMEVja0tSOS1pSjFtRmdQTlhKUGJkQkkxOTdrUzlhZmVnYUc4WjAwRzhuSk56dnc5UTFZcHNDek9kczhDR01DS1Z2dFczRmd5cWZtM3U5cWo2X1RxTm5SOVE2T3ZROTBKTHZQOExCWlYzM1NJWXFZYTRUY1kzdw?oc=5",
+              "pubDate": "2026-10-04T06:32:30.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "americans-struggle-managing-retirement-savings-funds"
         },
         {
           "representativeTitle": "Wife Supports Husband's Senate Bid Indirectly Now",
@@ -1441,58 +1417,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 40,
           "slug": "wife-supports-husbands-senate-bid-indirectly-now"
-        },
-        {
-          "representativeTitle": "Trump Disputes Bill Over Senator's Contact Information",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Trump appears to post Sen. Tom Cotton’s cell number over stalled daylight saving bill",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/donald-trump/tom-cotton-cell-number-post-daylight-savings-time-permanent-rcna601293",
-              "pubDate": "2026-10-03T18:48:07.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Here’s Senator Cotton’s Cell Number, Trump Says, in Dispute Over Daylight Saving Bill",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa08xdzJDUFRrcXdaZDZubUJ4TlBRQnB3aU4wTFBYaHpCNGxRU2Ytenh3cUxPdVRJZkxPRTlOOWJSTHdSMTVPbVhUQVcxUnpEbm1lVVM4UlVCYmc3MzFOTUNfLThWdXJiWlJkV19JZkVic2Y3RkJoMnV0THYwQTQ1dUZ3?oc=5",
-              "pubDate": "2026-10-04T01:59:15.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "trump-disputes-bill-over-senators-contact-information"
-        },
-        {
-          "representativeTitle": "Pastors face challenges in modern public discourse.",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Why pastors may not be seen - or heard",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cwnvln99v2ygo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-03T23:37:46.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "pastors-face-challenges-in-modern-public-discourse"
         }
       ]
     },
@@ -1527,17 +1451,39 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "Global Turmoil Spurs Cuts; Australia Must Avoid Recession",
+          "representativeTitle": "SoftBank's AI Ambitions Strain Corporate Finances Now",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Masayoshi Son’s AI ambitions outgrow SoftBank’s balance sheet",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/9b3a355e-5975-445f-9004-b95513e3856a?syn-25a6b1a6=1",
+              "pubDate": "2026-10-04T04:00:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "softbanks-ai-ambitions-strain-corporate-finances-now"
+        },
+        {
+          "representativeTitle": "UK Auto Sector Faces Tough Choice Between China, EU",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Chalmers says global economic turmoil will drive budget cuts, but Australia should avoid recession",
+              "title": "UK car industry faces ‘difficult trade-off’ between Chinese and EU markets",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/business/2026/oct/04/chalmers-says-global-economic-turmoil-will-drive-budget-cuts-but-australia-should-avoid-recession",
-              "pubDate": "2026-10-04T01:41:13.000Z",
+              "link": "https://www.theguardian.com/business/2026/oct/04/uk-car-industry-trade-off-china-made-in-europe-laws",
+              "pubDate": "2026-10-04T05:00:18.000Z",
               "tier": 1
             }
           ],
@@ -1546,32 +1492,32 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "global-turmoil-spurs-cuts-australia-must-avoid-recession"
+          "slug": "uk-auto-sector-faces-tough-choice-between-china-eu"
         },
         {
-          "representativeTitle": "AI Fuels Hong Kong Fundraising to Record Highs",
+          "representativeTitle": "IPO Frenzy Slows Amid Weak Demand and Valuations",
           "sources": [
-            "Bloomberg Markets"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "AI Deal Frenzy Powers Hong Kong Fundraising to Record Summer",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-04/ai-deal-frenzy-powers-hong-kong-fundraising-to-record-summer",
-              "pubDate": "2026-10-04T00:00:00.000Z",
+              "title": "Wall Street’s IPO fervour cools on tepid demand and valuation worries",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/b8924d77-364b-46c1-b783-5db73a91f351?syn-25a6b1a6=1",
+              "pubDate": "2026-10-04T04:01:05.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Business",
           "aiCategory": "Business",
-          "sentiment": 0.4,
+          "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "ai-fuels-hong-kong-fundraising-to-record-highs"
+          "slug": "ipo-frenzy-slows-amid-weak-demand-and-valuations"
         },
         {
-          "representativeTitle": "Paramount Debt Drop Signals Trouble for Borrowers",
+          "representativeTitle": "Paramount Debt Drop Signals Trouble For Borrowers",
           "sources": [
             "Bloomberg Markets",
             "Google Stocks"
@@ -1596,12 +1542,34 @@ export const newsData = {
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
+          "relevance_score": 7,
+          "importance": 55,
           "slug": "paramount-debt-drop-signals-trouble-for-borrowers"
         },
         {
-          "representativeTitle": "Fake Job Scams Threaten Personal Identity Security Now",
+          "representativeTitle": "AI Fuels Hong Kong Fundraising to Record Highs",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "AI Deal Frenzy Powers Hong Kong Fundraising to Record Summer",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-04/ai-deal-frenzy-powers-hong-kong-fundraising-to-record-summer",
+              "pubDate": "2026-10-04T00:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "ai-fuels-hong-kong-fundraising-to-record-highs"
+        },
+        {
+          "representativeTitle": "Scammers Target Job Seekers With Fake Employment Offers",
           "sources": [
             "Bloomberg Markets"
           ],
@@ -1620,29 +1588,29 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "fake-job-scams-threaten-personal-identity-security-now"
+          "slug": "scammers-target-job-seekers-with-fake-employment-offers"
         },
         {
-          "representativeTitle": "Ellison's Risk Exposed by Corporate Debt Issues",
+          "representativeTitle": "Guidance on Effective Leadership Communication Strategies Shared",
           "sources": [
-            "Bloomberg Markets"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Larry Ellison Risk Exposed by Paramount and Oracle Debt Binges",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-03/larry-ellison-risk-exposed-by-paramount-and-oracle-debt-binges",
-              "pubDate": "2026-10-03T13:00:00.000Z",
+              "title": "Dear all: how bosses should talk to the troops",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/de27e183-c8ab-4098-946b-7c1faf5a3d8a?syn-25a6b1a6=1",
+              "pubDate": "2026-10-04T04:00:07.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Business",
           "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "ellisons-risk-exposed-by-corporate-debt-issues"
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "guidance-on-effective-leadership-communication-strategies-shared"
         },
         {
           "representativeTitle": "Boutique Stays Gain Traction in Luxury Travel Market",
@@ -1689,7 +1657,7 @@ export const newsData = {
           "slug": "high-tech-vehicles-increase-auto-repair-costs-significantly"
         },
         {
-          "representativeTitle": "Ellison Appoints Co-CEO to Lead New Venture",
+          "representativeTitle": "Ellison Taps Co-CEO Kreiz to Lead New Venture",
           "sources": [
             "CNBC Economy"
           ],
@@ -1708,29 +1676,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "ellison-appoints-co-ceo-to-lead-new-venture"
-        },
-        {
-          "representativeTitle": "Airlines tighten protocols to manage pilot misconduct risks.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How airlines try to weed out rogue pilots",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/3e976e07-d85c-4ee3-8dff-208296684ca0?syn-25a6b1a6=1",
-              "pubDate": "2026-10-03T08:05:08.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "airlines-tighten-protocols-to-manage-pilot-misconduct-risks"
+          "slug": "ellison-taps-co-ceo-kreiz-to-lead-new-venture"
         }
       ]
     },
@@ -1738,7 +1684,7 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
-          "representativeTitle": "AI Safety Employee Exits OpenAI Over Culture Issues",
+          "representativeTitle": "AI Safety Employee Exits Citing Broken Company Culture",
           "sources": [
             "TechCrunch"
           ],
@@ -1757,7 +1703,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "ai-safety-employee-exits-openai-over-culture-issues"
+          "slug": "ai-safety-employee-exits-citing-broken-company-culture"
         },
         {
           "representativeTitle": "Philosophers Express Concerns Regarding Artificial Intelligence Future",
@@ -1892,7 +1838,7 @@ export const newsData = {
           "slug": "billionaires-body-scan-startup-launches-in-america"
         },
         {
-          "representativeTitle": "AI Tool Profiles Friends, Family Data Privacy Concerns",
+          "representativeTitle": "AI Tool Profiles Friends, Family Data Concerns Rise",
           "sources": [
             "Wired"
           ],
@@ -1911,7 +1857,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "ai-tool-profiles-friends-family-data-privacy-concerns"
+          "slug": "ai-tool-profiles-friends-family-data-concerns-rise"
         },
         {
           "representativeTitle": "Automakers challenge Tesla in autonomous vehicle race.",
@@ -1936,7 +1882,7 @@ export const newsData = {
           "slug": "automakers-challenge-tesla-in-autonomous-vehicle-race"
         },
         {
-          "representativeTitle": "Old Nvidia Shield TV Increases Price Significantly Now",
+          "representativeTitle": "Aging Nvidia Shield TV Sees Unexpected Price Increase",
           "sources": [
             "Wired"
           ],
@@ -1955,7 +1901,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 3,
           "importance": 30,
-          "slug": "old-nvidia-shield-tv-increases-price-significantly-now"
+          "slug": "aging-nvidia-shield-tv-sees-unexpected-price-increase"
         },
         {
           "representativeTitle": "Review Compares Top E-Readers Beyond Kindle Options",
@@ -1985,7 +1931,7 @@ export const newsData = {
       "name": "Science",
       "children": [
         {
-          "representativeTitle": "Decade Experiment Unlocks Deep Ocean Reef Mysteries",
+          "representativeTitle": "Decade Study Unlocks Deep Ocean Reef Mysteries Now",
           "sources": [
             "Wired"
           ],
@@ -2011,7 +1957,7 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 7,
           "importance": 60,
-          "slug": "decade-experiment-unlocks-deep-ocean-reef-mysteries"
+          "slug": "decade-study-unlocks-deep-ocean-reef-mysteries-now"
         },
         {
           "representativeTitle": "Emissions Choices May Limit Antarctic Ice Loss Risks",
@@ -2036,7 +1982,37 @@ export const newsData = {
           "slug": "emissions-choices-may-limit-antarctic-ice-loss-risks"
         },
         {
-          "representativeTitle": "New Reactor Boosts Plastic Synthesis with Oxygen Power",
+          "representativeTitle": "New Physics Finds Cooper Pairs Above Critical Temperature",
+          "sources": [
+            "Phys.org",
+            "Google Science"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Cooper pairs found above superconducting critical temperature in pair density waves",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-cooper-pairs-superconducting-critical-temperature.html",
+              "pubDate": "2026-10-03T11:00:01.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Cooper pairs found above superconducting critical temperature in pair density waves",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOV3J5RVd4NzQyUHNYOHhabTZzR1lCYXJXYVQxdE0zM3U3THhEdG9xZHcyUENwc0F3bXppUENMM2hJenlSRWdQNnY2TkJMM0VIMXA2akNHYmw0d1c0SkRuVXBGZTZma0VYU0RLVUw1TXBuUHdkelNUTFJVaWFSQjJPbmhRaGZmckRzblkxcQ?oc=5",
+              "pubDate": "2026-10-03T11:00:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "new-physics-finds-cooper-pairs-above-critical-temperature"
+        },
+        {
+          "representativeTitle": "New Reactor Boosts Plastic Synthesis Via Oxygen Power",
           "sources": [
             "Phys.org"
           ],
@@ -2055,29 +2031,7 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "new-reactor-boosts-plastic-synthesis-with-oxygen-power"
-        },
-        {
-          "representativeTitle": "Scientists Unravel Key Biology of Cancer Gene",
-          "sources": [
-            "Google Science"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Scientists Untangle the Biology of an ‘Undruggable’ Cancer Gene",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdDZxVGs2MkFnenNPR3VKV0ZQck14TDhQWnMwaTF4NThqSWZFMFVlcFlIUFREZGRqMlZnSENBcWVvbC02ZExCSllkdUhfNmVINHRhWmZxWGJ6M0N2MTVYVlBVNlF6UWtTR0dRaHFUWmt5Zjc2RENUcHJUaUdLeTVkSm41TFFjcmFKQXVFVV9TOHlkUW5PdzdzZUZ3VXZWQ1drWC1YX0tRWFM1aVpWdmc?oc=5",
-              "pubDate": "2026-10-03T19:09:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "scientists-unravel-key-biology-of-cancer-gene"
+          "slug": "new-reactor-boosts-plastic-synthesis-via-oxygen-power"
         },
         {
           "representativeTitle": "Atmospheric slowing signals subtle climate change trends.",
@@ -2154,7 +2108,7 @@ export const newsData = {
           "slug": "simulations-suggest-milky-way-formed-from-galaxies"
         },
         {
-          "representativeTitle": "Light's Effect on Water Evaporation Debunked by Study",
+          "representativeTitle": "Light's Effect on Evaporation Debunked by Research",
           "sources": [
             "Phys.org",
             "Google Science"
@@ -2181,7 +2135,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 4,
           "importance": 30,
-          "slug": "lights-effect-on-water-evaporation-debunked-by-study"
+          "slug": "lights-effect-on-evaporation-debunked-by-research"
         }
       ]
     }
