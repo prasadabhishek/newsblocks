@@ -1,36 +1,135 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-04T15:55:49.354Z",
+  "lastUpdated": "2026-10-04T20:03:34.996Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Marine Arrested Over Alleged Killing of Japanese Woman",
+          "representativeTitle": "Brazil Election Pitches Lula Against Bolsonaro Candidates",
           "sources": [
-            "NBC News",
-            "Fox News",
+            "BBC World",
+            "Al Jazeera",
+            "France 24",
+            "Google World"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-04T11:03:20.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Lula and Bolsonaro vote in Brazil’s polarised presidential election",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/lula-and-bolsonaro-vote-in-brazils-polarised-presidential-election?traffic_source=rss",
+              "pubDate": "2026-10-04T15:05:37.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Brazil heads to the polls for high-stakes election between Lula and Flavio Bolsonaro",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/brazil-heads-to-the-polls-for-high-stakes-election-between-lula-and-flavio-bolsonaro",
+              "pubDate": "2026-10-04T16:38:55.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Brazil: Lula and Bolsonaro tied in polls",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/brazil-lula-and-bolsonaro-tied-in-polls",
+              "pubDate": "2026-10-04T13:19:54.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Brazil votes in deeply polarised election pitting Lula against Bolsonaro",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTndfRkxzcjdQeEhEMUdxajV3dHBWQkpCSzRMOHNHNGJBM1habTd2dG5fNEZhTTZwUndYeGJXYjJnLWFLMGhhVXJ5SDdtOGRac3dwMjEyQ3FkeHNxQXE1NnVTYUxibkN4aG9VWXpHVkxGQmlDYUViX1pVWngtTEJzMlpybmlicFNadnRMLVNFd2pST19mUmk1SWRyNjFYSG5PY2IwMUFFRldWZkdJLVFtY2p2UdIBuAFBVV95cUxQZDFDXzJSMVNwSm1ua3d2aURZMkNSRi1sMzhfOExYbTNEVmxtTngzZHR6ME1LTzdGS2dkSkFCLW1SMDV4TUhyWVg1X0trd21sMXhVSHBlcHoxa1FLLVBDSGd5MEZad1NwUG85NVN5aHBoZFR1d0E1bFNjaDYyN0FUTXNuNmxQRGpVV0w5cFZTNkx0bUREb25pMHR4U3oyUjlRY1MxVXNIdmRvc1UxeDBkUERjLV9rQWQx?oc=5",
+              "pubDate": "2026-10-04T17:57:44.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 100,
+          "slug": "brazil-election-pitches-lula-against-bolsonaro-candidates"
+        },
+        {
+          "representativeTitle": "France Closes Schools Amid Planned Protests Escalation",
+          "sources": [
+            "The Guardian",
+            "Al Jazeera",
+            "France 24",
+            "SCMP",
+            "Euronews",
+            "Le Monde"
+          ],
+          "citationCount": 6,
+          "rawArticles": [
+            {
+              "title": "More than 400 schools in France to be closed on Monday as more protests planned",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/04/schools-france-closed-protests-planned",
+              "pubDate": "2026-10-04T15:08:23.000Z",
+              "tier": 1
+            },
+            {
+              "title": "France to shutter up to 500 schools as more student protests called",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/4/france-to-shutter-up-to-500-schools-as-more-student-protests-called?traffic_source=rss",
+              "pubDate": "2026-10-04T19:41:04.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Hundreds of schools to shut Monday as France braces for more student protests",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/france/20261004-up-to-500-french-schools-to-be-totally-or-partly-closed-monday-due-to-protests",
+              "pubDate": "2026-10-04T12:50:45.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Hundreds of schools to close on Monday as education protests rock France",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3369730/hundreds-schools-close-monday-education-protests-rock-france?utm_source=rss_feed",
+              "pubDate": "2026-10-04T18:42:26.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Student protests in France: 400–500 schools fully or partially closed Monday",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/04/student-protests-in-france-400500-schools-fully-or-partially-closed-monday",
+              "pubDate": "2026-10-04T15:24:12.000Z",
+              "tier": 2
+            },
+            {
+              "title": "French high school protests: Up to 500 schools to be totally or partly closed Monday",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/france/article/2026/10/04/french-high-school-protests-up-to-500-schools-to-be-totally-or-partly-closed-monday_6758237_7.html",
+              "pubDate": "2026-10-04T12:56:26.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 90,
+          "slug": "france-closes-schools-amid-planned-protests-escalation"
+        },
+        {
+          "representativeTitle": "US Marine Arrested Over Alleged Murder on Okinawa",
+          "sources": [
             "BBC World",
             "The Guardian",
             "Al Jazeera",
             "Google World"
           ],
-          "citationCount": 6,
+          "citationCount": 4,
           "rawArticles": [
-            {
-              "title": "U.S. Marine arrested on suspicion of killing Japanese woman in Okinawa",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/world/japan/us-marine-arrested-suspicion-killing-japanese-woman-okinawa-rcna601367",
-              "pubDate": "2026-10-04T08:59:58.000Z",
-              "tier": 2
-            },
-            {
-              "title": "US Marine arrested in Japan over suspected killing of woman as Tokyo lodges 'strong protest'",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/world/us-marine-arrested-japan-suspected-killing-woman-tokyo-lodges-strong-protest",
-              "pubDate": "2026-10-04T12:38:32.000Z",
-              "tier": 2
-            },
             {
               "title": "US Marine arrested over murder of woman in Okinawa, Japan",
               "source": "BBC World",
@@ -53,43 +152,34 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "U.S. Marine arrested on suspicion of killing Japanese woman in Okinawa",
+              "title": "US Marine arrested for alleged murder of a woman on Okinawa, triggers outrage from Japan",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaG44SjNGYXNHWEF2VkxVRnl5Q0lpbmdudW0tZmNfek1UcE1MalBiV1pmeEQ5OHpiS3YxNFRzeFhSMUJHUzZwVFZsR3JlR3JramZOUmxiZ3ZGbmpLa0FCa1lBUXZ3aUFHcHdCWWpFYTBxa1cyaHlDSlAyTWFFNmJQdUFNb1FJdndpQzQyVW05T3duTmlMa2l5dmU3LUU5MzhrSEl6VHBsbHhTdw?oc=5",
-              "pubDate": "2026-10-04T08:59:58.000Z",
+              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHBqeFl4TEF0TDBuVjhVQjNieThQcXA4dGQwV20xM19mZ3JoLTRqaGV5elctWHpyYmZGT3hLZnQwMV8zSVVOY1k1Sms2eWdLeXpWdlMwWEc5WXVTeVFpYjhrSkVlTDdGMnktOW9aSmtJTEk2MUIteTJwV0dmeVZyNHN6anJRMVZGckk4dWVIdS1oUkk?oc=5",
+              "pubDate": "2026-10-04T19:47:00.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 100,
-          "slug": "marine-arrested-over-alleged-killing-of-japanese-woman"
+          "importance": 90,
+          "slug": "us-marine-arrested-over-alleged-murder-on-okinawa"
         },
         {
-          "representativeTitle": "Russia Strikes Kyiv Amid German Diplomatic Support Shown",
+          "representativeTitle": "Aid Pledged Amid Russian Strikes During German Visit",
           "sources": [
             "The Guardian",
-            "Al Jazeera",
             "France 24",
-            "SCMP",
-            "Google World"
+            "SCMP"
           ],
-          "citationCount": 5,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Russia strikes Kyiv bridge as German chancellor visits Ukraine in show of support",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/2026/oct/04/russia-strikes-kyiv-bridge-german-chancellor-merz-visits-ukraine",
-              "pubDate": "2026-10-04T11:53:09.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Russia hits Kyiv bridge as Germany’s Merz visits Ukraine’s capital",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/4/russian-strike-hits-kyiv-bridge-as-german-chancellor-visits-ukraine?traffic_source=rss",
-              "pubDate": "2026-10-04T11:58:14.000Z",
+              "pubDate": "2026-10-04T16:12:21.000Z",
               "tier": 1
             },
             {
@@ -100,170 +190,79 @@ export const newsData = {
               "tier": 1
             },
             {
+              "title": "Merz unveils new aid for Ukraine as Russia strikes Kyiv during German leader's visit",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261004-merz-unveils-new-aid-for-ukraine-as-russia-strikes-kyiv-during-german-leader-s-visit",
+              "pubDate": "2026-10-04T08:38:43.000Z",
+              "tier": 1
+            },
+            {
               "title": "Russia strikes Kyiv bridge as Germany’s Merz visits, pledges aid",
               "source": "SCMP",
               "link": "https://www.scmp.com/news/world/europe/article/3369698/russia-strikes-kyiv-bridge-germanys-merz-visits-pledges-aid?utm_source=rss_feed",
               "pubDate": "2026-10-04T09:55:12.000Z",
               "tier": 2
-            },
-            {
-              "title": "Russia strikes Kyiv as Germany’s Merz arrives to show support for Ukraine",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZkYwdS0xTXN2bFl1SzdPc1JXSFhlRVNmZnBZbFdUcTNPdVFIS18wSmxvRk9wWnFsMkt4WUJIdS1SN2M3RzNzQVJCb0I4X2o3UjlBbWpVa3ludzYtUGpvUF9Qc1VlQ254alhoaG1SZ25aM3ZfNVFfOGZPNmpacWFNODFTVm0?oc=5",
-              "pubDate": "2026-10-04T06:13:09.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 9,
-          "importance": 100,
-          "slug": "russia-strikes-kyiv-amid-german-diplomatic-support-shown"
+          "importance": 90,
+          "slug": "aid-pledged-amid-russian-strikes-during-german-visit"
         },
         {
-          "representativeTitle": "Brazil Election Pitches Lula Against Bolsonaro Candidates",
+          "representativeTitle": "Marine Accused of Murder in Japan Hotel Incident",
           "sources": [
-            "BBC World",
-            "Al Jazeera",
-            "France 24",
-            "Euronews"
+            "BBC US",
+            "NBC News",
+            "NPR",
+            "ABC News Top"
           ],
           "citationCount": 4,
           "rawArticles": [
             {
-              "title": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-04T11:03:20.000Z",
+              "title": "US Marine arrested over murder of woman in Okinawa, Japan",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cme3xw4yy28do?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-04T14:36:57.000Z",
               "tier": 1
             },
             {
-              "title": "Lula and Bolsonaro vote in Brazil’s polarised presidential election",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/lula-and-bolsonaro-vote-in-brazils-polarised-presidential-election?traffic_source=rss",
-              "pubDate": "2026-10-04T15:05:37.000Z",
-              "tier": 1
+              "title": "US Marine Accused of Murdering Woman in Japan Hotel",
+              "source": "NBC News",
+              "link": "https://www.today.com/video/us-marine-accused-of-murdering-woman-in-japan-hotel-270984773673",
+              "pubDate": "2026-10-04T12:29:28.000Z",
+              "tier": 2
             },
             {
-              "title": "Brazil votes in deeply polarised election pitting Lula against Bolsonaro",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/4/brazil-votes-in-deeply-polarised-election-pitting-lula-against-bolsonaro?traffic_source=rss",
-              "pubDate": "2026-10-04T11:15:34.000Z",
-              "tier": 1
+              "title": "U.S. Marine arrested on suspicion of killing Japanese woman in Okinawa",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/world/japan/us-marine-arrested-suspicion-killing-japanese-woman-okinawa-rcna601367",
+              "pubDate": "2026-10-04T08:59:58.000Z",
+              "tier": 2
             },
             {
-              "title": "Brazil: Lula and Bolsonaro tied in polls",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/brazil-lula-and-bolsonaro-tied-in-polls",
-              "pubDate": "2026-10-04T13:19:54.000Z",
-              "tier": 1
+              "title": "U.S. Marine arrested for alleged murder of a woman in Okinawa, Japan",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/04/nx-s1-5990790/us-marine-arrested-for-alleged-murder-woman-on-okinawa",
+              "pubDate": "2026-10-04T15:15:09.000Z",
+              "tier": 2
             },
             {
-              "title": "Brazil heads to the polls for high-stakes election between Lula and Flavio Bolsonaro",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261004-brazilians-start-voting-in-tight-election-between-lula-and-flavio-bolsonaro",
-              "pubDate": "2026-10-04T11:17:45.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Brazil's Lula and Flávio Bolsonaro wrap up campaigns on eve of tight vote",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/03/brazils-lula-and-flavio-bolsonaro-wrap-up-campaigns-on-eve-of-tight-vote",
-              "pubDate": "2026-10-03T18:30:15.000Z",
+              "title": "US Marine arrested on suspicion of murder after 'brutal and heinous' death in Japan",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/International/us-marine-detained-connection-death-japan-us-officials/story?id=136982210",
+              "pubDate": "2026-10-04T18:27:46.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "World",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 100,
-          "slug": "brazil-election-pitches-lula-against-bolsonaro-candidates"
-        },
-        {
-          "representativeTitle": "Ethiopian Forces Seize Tigray Capital Amid TPLF Withdrawal",
-          "sources": [
-            "BBC World",
-            "Al Jazeera",
-            "Sky News"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-04T13:33:05.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Ethiopian government forces seize Tigray capital Mekelle as TPLF withdraws",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/4/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels?traffic_source=rss",
-              "pubDate": "2026-10-04T11:05:02.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Opposition fighters withdraw from capital of Ethiopia's northern Tigray region",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/opposition-fighters-withdraw-from-capital-of-ethiopias-northern-tigray-region-13594931",
-              "pubDate": "2026-10-04T08:56:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 80,
-          "slug": "ethiopian-forces-seize-tigray-capital-amid-tplf-withdrawal"
-        },
-        {
-          "representativeTitle": "France Closes Schools Amid Planned Protests Escalation",
-          "sources": [
-            "The Guardian",
-            "France 24",
-            "Euronews",
-            "Le Monde"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "More than 400 schools in France to be closed on Monday as more protests planned",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/04/schools-france-closed-protests-planned",
-              "pubDate": "2026-10-04T15:08:23.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Up to 500 French schools to be totally or partly closed Monday amid student protests",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261004-up-to-500-french-schools-to-be-totally-or-partly-closed-monday-due-to-protests",
-              "pubDate": "2026-10-04T12:50:45.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Student protests in France: 400–500 schools fully or partially closed Monday",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/04/student-protests-in-france-400500-schools-fully-or-partially-closed-monday",
-              "pubDate": "2026-10-04T15:24:12.000Z",
-              "tier": 2
-            },
-            {
-              "title": "French high school protests: Up to 500 schools to be totally or partly closed Monday",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/france/article/2026/10/04/french-high-school-protests-up-to-500-schools-to-be-totally-or-partly-closed-monday_6758237_7.html",
-              "pubDate": "2026-10-04T12:56:28.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
           "importance": 70,
-          "slug": "france-closes-schools-amid-planned-protests-escalation"
+          "slug": "marine-accused-of-murder-in-japan-hotel-incident"
         },
         {
           "representativeTitle": "Germany Pledges Aid to Ukraine Amid Kyiv Visit",
@@ -304,6 +303,149 @@ export const newsData = {
           "slug": "germany-pledges-aid-to-ukraine-amid-kyiv-visit"
         },
         {
+          "representativeTitle": "Police investigate co-pilot's Australian ties.",
+          "sources": [
+            "BBC World",
+            "Al Jazeera",
+            "Sky News"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Australia investigating Flydubai co-pilot's links to country",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-04T06:19:17.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Police investigating Flydubai co-pilot’s Australia ties",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/4/police-investigating-flydubai-co-pilots-australia-ties?traffic_source=rss",
+              "pubDate": "2026-10-04T17:53:34.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Flydubai co-pilot: Australian links probed after 'axe attack' on captain",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/flydubai-co-pilot-australian-links-probed-after-axe-attack-on-captain-13595012",
+              "pubDate": "2026-10-04T12:14:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "police-investigate-co-pilots-australian-ties"
+        },
+        {
+          "representativeTitle": "Israel Condemns UK Green Party Over Zionism Remarks",
+          "sources": [
+            "The Guardian",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "As it happened: Israel condemns Green party passing ‘Zionism is racism’ as a ‘stain on history of UK’",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/live/2026/oct/04/conservatives-tories-conference-kemi-badenoch-james-cleverly-labour-jury-trials-green-party-zionism-uk-politics-latest-news-updates",
+              "pubDate": "2026-10-04T16:32:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Green party votes to adopt policy that equates Zionism with racism",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/2026/oct/04/green-party-votes-adopt-policy-zionism-racism",
+              "pubDate": "2026-10-04T17:40:39.000Z",
+              "tier": 1
+            },
+            {
+              "title": "UK Green Party adopts ‘Zionism is racism’ policy, drawing backlash from Israel",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3369725/uk-green-party-adopts-zionism-racism-policy-drawing-backlash-israel?utm_source=rss_feed",
+              "pubDate": "2026-10-04T16:26:47.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 65,
+          "slug": "israel-condemns-uk-green-party-over-zionism-remarks"
+        },
+        {
+          "representativeTitle": "Opposition Fighters Withdraw From Tigray Capital Region",
+          "sources": [
+            "BBC World",
+            "Sky News",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-04T13:33:05.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Opposition fighters withdraw from capital of Ethiopia's northern Tigray region",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/opposition-fighters-withdraw-from-capital-of-ethiopias-northern-tigray-region-13594931",
+              "pubDate": "2026-10-04T08:56:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lZnJpVTV6SGZsTVlPOXZPdHpmdGhReGpQa1RneHB5TUR5LXJVcHl3ajI3OHM5ei1IaWc5dmFUWWpmTldsSTVURklnZ0ZBdC1tQXYwYk91ZmNFdkU?oc=5",
+              "pubDate": "2026-10-04T13:33:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "opposition-fighters-withdraw-from-tigray-capital-region"
+        },
+        {
+          "representativeTitle": "Iran warns US on Middle East conflict resolution.",
+          "sources": [
+            "Al Jazeera",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Iran tells US: there is ‘no military solution’ to end the war",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/iran-tells-us-there-is-no-military-solution-to-end-the-war?traffic_source=rss",
+              "pubDate": "2026-10-04T15:06:14.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Iran tells US there is no military solution to Middle East war",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3369731/iran-tells-us-there-no-military-solution-middle-east-war?utm_source=rss_feed",
+              "pubDate": "2026-10-04T19:44:29.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "iran-warns-us-on-middle-east-conflict-resolution"
+        },
+        {
           "representativeTitle": "Reports detail Russian strikes targeting Kyiv bridges infrastructure.",
           "sources": [
             "BBC World",
@@ -334,180 +476,129 @@ export const newsData = {
           "slug": "reports-detail-russian-strikes-targeting-kyiv-bridges-infrastructure"
         },
         {
-          "representativeTitle": "Yemen Leader Vows Military Action Against Houthis",
+          "representativeTitle": "Germany Pledges Aid to Kyiv; Urges Peace Talks",
           "sources": [
-            "BBC World",
+            "Al Jazeera",
             "Google World"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Yemen announces military campaign to reclaim land from Iran-backed Houthis",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-04T14:24:56.000Z",
+              "title": "Germany’s Merz in Kyiv announces $1.5B in aid, urges Putin to end war",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/germany-merz-visits-kyiv-air-raids-ukraine?traffic_source=rss",
+              "pubDate": "2026-10-04T16:38:45.000Z",
               "tier": 1
             },
             {
-              "title": "Yemen leader announces major military operations against Iran-backed Houthis",
+              "title": "Merz makes surprise Kyiv visit as Germany pledges more aid to Ukraine",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaHV2QlVZQUd1RW4zNFRzUzQ3ZlZlcHJHWHlRbm8yRjlBWGlkQ3BSek9GS0ZwOVJ0SnMtMDV5N3FsZjVsRm9EaUgwcGVhNVdaS1RCTDRqVjh5blN0NXhGenAxVlY3ZUhKQUpNN0J2ajJ2S0tlRXZyMmRaNG9VWTlXY3VpUlRWMVhKSjV3QTJXZW42OHZhaldrdzJxR2I1aDZrRDRMVHlYa2tOVW5GR2J4VWM2RjVPcjdqNUwzMUdsSVhPbDhqd0ttdmN4TUlTQWM?oc=5",
-              "pubDate": "2026-10-04T14:25:59.000Z",
+              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdFBxX3hnMTdYQ2hWS2ItMGNqci1CWGQ5bGItX1dhZ013ZC1jZWpzaXlwQ0RBZE9lQ0tVbGJZV3RDRXJBb085VGJ0bS1uQ3JMSW00NzlnYzUwQzVXMVFRS3JiblRRTzh2c3ExaHE4bG9kajVFMVlMX3hCd2ZlWVAwUTRvSTRhRmZIX3hndXBqRDVuek5UN1FpTFlUMGNLRmdhdkFQSlEzVUF1Smt4?oc=5",
+              "pubDate": "2026-10-04T12:14:06.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
+          "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 60,
-          "slug": "yemen-leader-vows-military-action-against-houthis"
+          "slug": "germany-pledges-aid-to-kyiv-urges-peace-talks"
         },
         {
-          "representativeTitle": "Protests erupt in Spain over housing crisis fallout.",
+          "representativeTitle": "Brazil Presidential Election Results Reported Live Now",
           "sources": [
-            "BBC World",
-            "Euronews",
+            "The Guardian",
+            "Euronews"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Brazil presidential election 2026: first-round live results",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/ng-interactive/2026/oct/04/brazil-presidential-election-2026-first-round-live-results",
+              "pubDate": "2026-10-04T19:01:28.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Brazilians vote in first round of presidential election",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/04/polling-stations-open-in-brazil-for-some-160-million-voters",
+              "pubDate": "2026-10-04T14:32:06.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "brazil-presidential-election-results-reported-live-now"
+        },
+        {
+          "representativeTitle": "Zelenskyy Signals Readiness For Talks With Russia",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ukraine ready for US-backed talks with Russia: Zelenskyy",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/4/ukraine-ready-for-us-backed-talks-with-russia-zelenskyy?traffic_source=rss",
+              "pubDate": "2026-10-04T17:17:42.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "zelenskyy-signals-readiness-for-talks-with-russia"
+        },
+        {
+          "representativeTitle": "Houthi Attack on Aramco Threatens Global Oil Supply",
+          "sources": [
+            "IBTimes",
             "Google World"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-04T03:42:15.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Tens of thousands take to Madrid streets demanding housing action",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/video/2026/10/03/tens-of-thousands-take-to-madrid-streets-demanding-housing-action",
-              "pubDate": "2026-10-03T19:11:03.000Z",
+              "title": "Houthis Claim Responsibility for Attack on Aramco Facility. Oil Could Surge as a Result.",
+              "source": "IBTimes",
+              "link": "https://www.ibtimes.com/houthis-claim-responsibility-attack-saudi-oil-facility-oil-could-surge-result-3808207",
+              "pubDate": "2026-10-04T10:57:12.000Z",
               "tier": 2
             },
             {
-              "title": "Tens of thousands protest against Spain's housing crisis following eviction of 87-year-old woman",
+              "title": "Houthis Claim Attack on Aramco as Yemen Conflict Escalates",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU04yZFFzZEF3dGl3ellPdlU0VjVRcnZ0OFI4ejRBS1BuVnlwYjlXTHNPX2tfSU91R3BpZnZoWk9JTGxkMHplTlNTZEl0RWRQMkt2MjZ2LWlES3hUWTFVdTVINVBRSVJ1MldvR1NLX1FHcWNYYmQ2MXpCWGxxSkhKSDlBMk1peUFIVzEzWFBDUTRyWjB0VjktNDcwTWtXTk96VWtWSk5OODdUYUVOSmczUlpmeEIzdUVJOFJkc3FHakJGVUpWY1gzeU5rWQ?oc=5",
-              "pubDate": "2026-10-04T09:31:50.000Z",
+              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdC1jenhXS0RLMXFaaTNaUTVsTVJrcDNLdDZKLVR6SWVYOEdRNWdqRjktRktWSEFRTG1DbEhYd3ZvSGpGd1ZtTEVNNDdMd09SQ3pXdHJMMXlodWVQRjlySVBpNXVlTlRZUDVDdlpjTk12TEw4WVhUaU9rODlnV3RRVUR1OE1UVlJVUjlKa0NNV2MzN2dQUldvUzFn?oc=5",
+              "pubDate": "2026-10-04T19:14:05.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 60,
-          "slug": "protests-erupt-in-spain-over-housing-crisis-fallout"
+          "relevance_score": 9,
+          "importance": 55,
+          "slug": "houthi-attack-on-aramco-threatens-global-oil-supply"
         },
         {
-          "representativeTitle": "Israel Condemns UK Green Party's Zionism Remarks",
+          "representativeTitle": "Official Claims Link Rape to Small Boat Arrivals",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Israel condemns Green party passing ‘Zionism is racism’ as a ‘stain on history of UK’ – UK politics live",
+              "title": "Nearly all women arriving on small boats have been raped, says Shabana Mahmood",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/live/2026/oct/04/conservatives-tories-conference-kemi-badenoch-james-cleverly-labour-jury-trials-green-party-zionism-uk-politics-latest-news-updates",
-              "pubDate": "2026-10-04T15:36:28.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Green party votes to adopt policy that equates Zionism with racism",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/oct/04/green-party-votes-adopt-policy-zionism-racism",
-              "pubDate": "2026-10-04T15:43:41.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 60,
-          "slug": "israel-condemns-uk-green-partys-zionism-remarks"
-        },
-        {
-          "representativeTitle": "Delhi Women Protest Sexual Violence Demanding Rights",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘We need freedom’: New Delhi women protest sexual violence",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/we-need-freedom-new-delhi-women-protest-sexual-violence?traffic_source=rss",
-              "pubDate": "2026-10-04T15:20:48.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "delhi-women-protest-sexual-violence-demanding-rights"
-        },
-        {
-          "representativeTitle": "Dodik urges Serb turnout amid Bosnian election tensions.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Dodik urges Serb turnout against ‘Sarajevo crooks’ in Bosnia election",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/dodik-urges-serb-turnout-against-sarajevo-crooks-in-bosnia-election?traffic_source=rss",
-              "pubDate": "2026-10-04T15:16:50.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "dodik-urges-serb-turnout-amid-bosnian-election-tensions"
-        },
-        {
-          "representativeTitle": "Iran Challenges US on Military Solution to Conflict",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran tells US: there is ‘no military solution’ to end the war",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/iran-tells-us-there-is-no-military-solution-to-end-the-war?traffic_source=rss",
-              "pubDate": "2026-10-04T15:06:14.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "iran-challenges-us-on-military-solution-to-conflict"
-        },
-        {
-          "representativeTitle": "Child Sexual Offences Reported Across English Schools",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Thousands of child-on-child sexual offences reported at schools in England and Wales",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/education/2026/oct/04/child-on-child-sexual-abuse-schools-england-and-wales",
-              "pubDate": "2026-10-04T15:00:31.000Z",
+              "link": "https://www.theguardian.com/uk-news/2026/oct/04/women-small-boats-raped-shabana-mahmood-asylum-migration",
+              "pubDate": "2026-10-04T18:00:34.000Z",
               "tier": 1
             }
           ],
@@ -516,7 +607,73 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "child-sexual-offences-reported-across-english-schools"
+          "slug": "official-claims-link-rape-to-small-boat-arrivals"
+        },
+        {
+          "representativeTitle": "Police Accused of Harassing Journalists During Indian Protest",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Indian police accused of sexual harassment against journalists at protest",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c9e8lvm6nrr3o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-04T17:01:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "police-accused-of-harassing-journalists-during-indian-protest"
+        },
+        {
+          "representativeTitle": "Protests Continue Demanding Poll Chief Resignation in India",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Mass protests demanding poll chief resignation shake India for third day",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/4/mass-protests-demanding-poll-chief-resignation-shake-india-for-third-day?traffic_source=rss",
+              "pubDate": "2026-10-04T16:55:03.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "protests-continue-demanding-poll-chief-resignation-in-india"
+        },
+        {
+          "representativeTitle": "Political party marches in Islamabad demanding leader's release.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Imran Khan’s party launches march to Islamabad demanding his release",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/imran-khans-party-launches-march-to-islamabad-demanding-his-release?traffic_source=rss",
+              "pubDate": "2026-10-04T19:53:55.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "political-party-marches-in-islamabad-demanding-leaders-release"
         },
         {
           "representativeTitle": "Taiwan asserts US policy stance remains unchanged.",
@@ -541,99 +698,17 @@ export const newsData = {
           "slug": "taiwan-asserts-us-policy-stance-remains-unchanged"
         },
         {
-          "representativeTitle": "Nations criticized over climate hosting and coal use.",
+          "representativeTitle": "Pro-Khan Rally Forms After Government Talks Stall",
           "sources": [
-            "The Guardian"
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Australia and Turkey criticised for hosting UN climate conference while embracing coal",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/environment/2026/oct/05/australia-and-turkey-criticised-for-hosting-un-climate-conference-while-embracing-coal",
-              "pubDate": "2026-10-04T14:00:32.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "nations-criticized-over-climate-hosting-and-coal-use"
-        },
-        {
-          "representativeTitle": "Marine Accused of Murder in Japan Hotel Incident",
-          "sources": [
-            "NBC News",
-            "NPR"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "US Marine Accused of Murdering Woman in Japan Hotel",
-              "source": "NBC News",
-              "link": "https://www.today.com/video/us-marine-accused-of-murdering-woman-in-japan-hotel-270984773673",
-              "pubDate": "2026-10-04T12:29:28.000Z",
-              "tier": 2
-            },
-            {
-              "title": "U.S. Marine arrested for alleged murder of a woman in Okinawa, Japan",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/10/04/nx-s1-5990790/us-marine-arrested-for-alleged-murder-woman-on-okinawa",
-              "pubDate": "2026-10-04T15:15:09.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "marine-accused-of-murder-in-japan-hotel-incident"
-        },
-        {
-          "representativeTitle": "Axe Attack on Captain Probes Australian Links",
-          "sources": [
-            "BBC World",
-            "Sky News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Australia investigating Flydubai co-pilot's links to country",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-04T06:19:17.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Flydubai co-pilot: Australian links probed after 'axe attack' on captain",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/flydubai-co-pilot-australian-links-probed-after-axe-attack-on-captain-13595012",
-              "pubDate": "2026-10-04T12:14:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "axe-attack-on-captain-probes-australian-links"
-        },
-        {
-          "representativeTitle": "Journalist Charged Amid Newsroom Detention in Egypt",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Egyptian journalist faces terrorism charges after entire newsroom detained",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom",
-              "pubDate": "2026-10-04T15:16:03.000Z",
+              "title": "Pro-Imran Khan mass rally launched after Pakistan government talks fail",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/4/pro-imran-khan-mass-rally-launched-after-pakistan-government-talks-fail?traffic_source=rss",
+              "pubDate": "2026-10-04T19:20:08.000Z",
               "tier": 1
             }
           ],
@@ -642,29 +717,51 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "journalist-charged-amid-newsroom-detention-in-egypt"
+          "slug": "pro-khan-rally-forms-after-government-talks-stall"
         },
         {
-          "representativeTitle": "Iraq alters oil route bypassing critical Hormuz Strait.",
+          "representativeTitle": "Hormuz Strait Shipping Faces Renewed Attack Threats",
           "sources": [
-            "Bloomberg Markets"
+            "WSJ US Business"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iraq Shifts Oil Strategy by Arranging Tanker to Move Past Hormuz",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-04/iraq-shifts-oil-strategy-by-arranging-tanker-to-move-past-hormuz",
-              "pubDate": "2026-10-04T10:09:23.000Z",
+              "title": "Oil Was Pouring Through the Strait of Hormuz Again. Then Attacks on Shipping Resurged.",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/world/middle-east/oil-was-pouring-through-the-strait-of-hormuz-again-then-attacks-on-shipping-resurged-fe9f0dd9?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-10-04T17:08:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "hormuz-strait-shipping-faces-renewed-attack-threats"
+        },
+        {
+          "representativeTitle": "Analyzing Potential Brazilian Presidential Leadership Profile Now",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "A Profile of Brazil's Potential President",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/tv-shows/spotlight/20261004-a-profile-of-brazil-s-potential-president",
+              "pubDate": "2026-10-04T18:34:51.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "iraq-alters-oil-route-bypassing-critical-hormuz-strait"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "analyzing-potential-brazilian-presidential-leadership-profile-now"
         },
         {
           "representativeTitle": "Brazil Vote Uncertainty Fuels Market Volatility Concerns",
@@ -711,92 +808,34 @@ export const newsData = {
           "slug": "g7-fuel-release-offers-temporary-price-relief-globally"
         },
         {
-          "representativeTitle": "Arctic military buildup signals heightened geopolitical tensions.",
+          "representativeTitle": "Bosnia Election Results Pending Amid Unclear Count",
           "sources": [
-            "Fox News"
+            "Euronews",
+            "Google World"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "America’s Arctic war machine roars to life as commander reveals chilling new reality on Russia’s doorstep",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/world/americas-arctic-war-machine-roars-life-commander-reveals-chilling-new-reality-russias-doorstep",
-              "pubDate": "2026-10-04T15:00:36.000Z",
+              "title": "Bosnia awaits for final general election results as preliminary count remains unclear",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/04/bosnia-votes-as-pro-russian-politician-looms-large-over-race-and-a-stalled-eu-bid-dominate",
+              "pubDate": "2026-10-04T06:53:37.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Bosnia awaits for final general election results as preliminary count remains unclear",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORHhINTFReXgwUjJYMnlmcGtWXzNzbDZUUXVYN0hzS01HRzh2Z1JwdzZIUTAtVEYtaVZvWWRSMkVVaWlCU2xITkdPN04zOENrY2ZxSFNtRU54bnlsWTF3d3VsdzZsbDI2dlpabFhGa1BDbmtDckpjVTdtcGZrX1RsWjhIcllBQTVmalhlMmNqeGtHQkVDYUtnLTZ6RHRMQzd2YXlUTUdqbWxZY3lnejk1SWwyMFg1dnVEdmhQdllOS2ZBM3FT?oc=5",
+              "pubDate": "2026-10-04T19:47:01.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "arctic-military-buildup-signals-heightened-geopolitical-tensions"
-        },
-        {
-          "representativeTitle": "China shutters banks amid financial system bolstering efforts.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "China closes hundreds of banks to bolster financial system",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/8a8f5c97-f1d3-4d3d-a3bc-d5a2e5539177?syn-25a6b1a6=1",
-              "pubDate": "2026-10-04T02:00:04.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "china-shutters-banks-amid-financial-system-bolstering-efforts"
-        },
-        {
-          "representativeTitle": "Farage questioned over alleged five million pound gift.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Nigel Farage questioned by standards commissioner over £5m gift",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/oct/04/nigel-farage-questioned-by-standards-commissioner-over-gift-reform-uk",
-              "pubDate": "2026-10-04T15:04:34.000Z",
-              "tier": 1
-            }
-          ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 45,
-          "slug": "farage-questioned-over-alleged-five-million-pound-gift"
-        },
-        {
-          "representativeTitle": "Protests Force Closures At French Schools Monday",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "French education minister says up to 500 schools will remain partially or fully closed on Monday after student protests – Europe live",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/live/2026/oct/04/friedrich-merz-german-chancellor-ukraine-kyiv-russia-strikes-war-zelenskyy-putin-europe-latest-news-updates",
-              "pubDate": "2026-10-04T14:35:31.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "protests-force-closures-at-french-schools-monday"
+          "importance": 40,
+          "slug": "bosnia-election-results-pending-amid-unclear-count"
         },
         {
           "representativeTitle": "Authorities probe attacker links to Australian nation.",
@@ -841,50 +880,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "brazils-2026-election-lula-and-bolsonaro-face-off"
-        },
-        {
-          "representativeTitle": "OPEC Holds Oil Output Steady Amid Regional Tensions",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "OPEC, Allies Hold Oil Output Steady Amid Middle East Tensions",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/business/energy-oil/opec-allies-hold-oil-output-steady-amid-middle-east-tensions-f14767a2?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-10-04T11:32:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "opec-holds-oil-output-steady-amid-regional-tensions"
-        },
-        {
-          "representativeTitle": "Japan, Korea Use Robots in Shipbuilding Against China",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Japanese and Korean shipbuilders deploy robots to take on China",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/ea32c53d-4de7-4b34-af44-cc148b23433f?syn-25a6b1a6=1",
-              "pubDate": "2026-10-04T01:00:04.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "japan-korea-use-robots-in-shipbuilding-against-china"
         }
       ]
     },
@@ -892,16 +887,66 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Debris Found in Search for Missing Medical Plane",
+          "representativeTitle": "Pike remains unconscious after Tennessee execution attempt.",
+          "sources": [
+            "BBC US",
+            "Washington Post",
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Christa Pike's prognosis still unclear after failed execution, lawyer says",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/ckgelynyg7d3o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-04T16:24:48.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Tennessee’s prisons chief resigns after failed Pike execution, governor says",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/nation/2026/10/03/tennessee-prisons-chief-resigns-after-failed-christa-pike-execution-gov-says/",
+              "pubDate": "2026-10-03T18:38:22.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Christa Pike's lawyer says she has not regained consciousness since her failed Tennessee execution",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/christa-pikes-lawyer-regained-consciousness-failed-tennessee-execution-136986429",
+              "pubDate": "2026-10-04T18:34:20.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Tennessee's prisons chief is resigning after failed execution of Christa Pike",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/governor-tennessees-prisons-chief-resigning-after-failed-execution-136973613",
+              "pubDate": "2026-10-03T20:58:20.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Christa Pike's prognosis still unclear after failed execution, lawyer says",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13WEVKUDd2VFA1TkM1blhlT2x3WVo2TGgzZFEzY2lDQ1JnU2hyWlE5cTctOUJJRU1MOTFEcUhTNVJ3YlpMQkJrLU1nM3FpeTJBWFl3b0xqbnhleTQ?oc=5",
+              "pubDate": "2026-10-04T16:24:48.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 70,
+          "slug": "pike-remains-unconscious-after-tennessee-execution-attempt"
+        },
+        {
+          "representativeTitle": "Missing Medical Plane Near Nantucket Sparks Investigation Efforts",
           "sources": [
             "BBC US",
             "NPR",
-            "Google US",
-            "BBC World",
-            "The Guardian",
-            "Sky News"
+            "Google US"
           ],
-          "citationCount": 6,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Debris found from plane that went missing off US coast",
@@ -918,84 +963,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Debris found as US Coast Guard search for missing medical plane carrying six people",
+              "title": "What to Know About the Medical Plane That Went Missing Near Nantucket",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYTVnb0pKZHlscFdTVThRVmVSamlUR1o2RGRMSEZPcEFMU2M2OUE3YTMtbl9WWXFfWFVUeXJCdUVFdGV1VTFBd0oyREdSVno2eTRLSkRMa1F0Vk40aEFWaUtsbkJ4aU1ld0tIQlZJUHkwb0plQ1Z0cnNHRDlZOGZQWmZCZlE3SlZuRVpHcXV5aFhWVnh0aUdCMFhITVo?oc=5",
-              "pubDate": "2026-10-04T13:27:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Debris found from plane that went missing off US coast",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-04T03:49:06.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Debris found as US Coast Guard search for missing medical plane carrying six people",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/oct/04/missing-air-ambulance-massachusetts-debris-found",
-              "pubDate": "2026-10-04T14:00:20.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Crews find 'debris field' in search for missing plane",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/us-coastguard-searching-for-missing-plane-carrying-six-people-13594811",
-              "pubDate": "2026-10-03T18:09:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 90,
-          "slug": "debris-found-in-search-for-missing-medical-plane"
-        },
-        {
-          "representativeTitle": "Tennessee Commissioner Resigns Following Pike Execution Failure",
-          "sources": [
-            "BBC US",
-            "Washington Post",
-            "ABC News US",
-            "Google US"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-03T17:48:42.000Z",
-              "tier": 1
-            },
-            {
-              "title": "What happened in the failed execution of Christa Pike",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-03T17:38:49.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Tennessee’s prisons chief resigns after failed Pike execution, governor says",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/nation/2026/10/03/tennessee-prisons-chief-resigns-after-failed-christa-pike-execution-gov-says/",
-              "pubDate": "2026-10-03T18:38:22.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Tennessee's prisons chief is resigning after failed execution of Christa Pike",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/governor-tennessees-prisons-chief-resigning-after-failed-execution-136973613",
-              "pubDate": "2026-10-03T20:58:20.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Tennessee Commissioner Resigns After Failed Execution of Christa Pike",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOGN2SzhDSnllNWd1bzVFZEJuMV96MnBwc0dSS0xJblhKMFFzXzFnRmdKWjJMM29TTlFQZmJxTkc2ekFhWGt1THlwQWszemlMclFJejV5eV8yMG9vMVJpODUyTjFFSEtzQ1lLbUZ3WndmSWVqamdPdW50N1FWVU14bXVLRkNGMW9DZzVpNFpHel9CT2dGRk51MA?oc=5",
-              "pubDate": "2026-10-04T05:24:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSkZqTmhKZkdWbk13S2x1UlZCNXllbXdIdUtGMTYxYjd6Z3gxYWNwVE1uVlN3cTJ1RDVMRkhlVG1obDBHOWc5OFZNYjN4eDA5RnNXMGdLVVNPc0xPd3NLbjdkNjl5ODVjbXFBV3V6NVZwZkI0cFZrWWdoUWZSWWozZUZXY2NjanJhS0puRDNHLWQ?oc=5",
+              "pubDate": "2026-10-04T17:47:17.000Z",
               "tier": 2
             }
           ],
@@ -1003,18 +974,17 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 80,
-          "slug": "tennessee-commissioner-resigns-following-pike-execution-failure"
+          "importance": 55,
+          "slug": "missing-medical-plane-near-nantucket-sparks-investigation-efforts"
         },
         {
           "representativeTitle": "Cornell leader addresses controversy surrounding rape case.",
           "sources": [
             "France 24",
             "SCMP",
-            "Sky News",
             "Le Monde"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Cornell president breaks silence over alleged campus rape",
@@ -1031,13 +1001,6 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Cornell president calls alleged gang rape 'deeply disturbing'",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/cornell-president-calls-alleged-gang-rape-deeply-disturbing-13594861",
-              "pubDate": "2026-10-04T02:00:00.000Z",
-              "tier": 2
-            },
-            {
               "title": "Cornell president calls alleged gang rape 'deeply disturbing,' pledges greater transparency",
               "source": "Le Monde",
               "link": "https://www.lemonde.fr/en/international/article/2026/10/04/cornell-president-calls-alleged-gang-rape-deeply-disturbing-pledges-greater-transparency_6758226_4.html",
@@ -1049,30 +1012,134 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 65,
+          "importance": 60,
           "slug": "cornell-leader-addresses-controversy-surrounding-rape-case"
         },
         {
-          "representativeTitle": "Mass Shootings Claim Lives in Georgia and Baltimore",
+          "representativeTitle": "Lawsuit Victim Targeted After Cornell Rape Allegations",
           "sources": [
-            "The Guardian"
+            "France 24",
+            "Sky News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Woman at centre of Cornell gang rape lawsuit targeted with threats, lawyer says",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/americas/20261004-woman-at-center-of-cornell-gang-rape-allegations-targeted-with-threats-jane-doe",
+              "pubDate": "2026-10-04T16:25:01.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Woman at centre of Cornell rape allegations has been threatened, lawyer says",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/woman-at-centre-of-cornell-rape-allegations-has-been-threatened-lawyer-says-13595093",
+              "pubDate": "2026-10-04T16:28:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "lawsuit-victim-targeted-after-cornell-rape-allegations"
+        },
+        {
+          "representativeTitle": "Klan Leader Claims Support Ahead of Midterms",
+          "sources": [
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Mass shootings leave two people dead in Georgia and 12-year-old girl dead in Baltimore",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/oct/04/mass-shootings-georgia-baltimore",
-              "pubDate": "2026-10-04T15:23:26.000Z",
+              "title": "Ku Klux Klan leader claims rising support ahead of US midterm elections",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ku-klux-klan-leader-claims-rising-support-ahead-of-us-midterm-elections?traffic_source=rss",
+              "pubDate": "2026-10-04T18:34:30.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "klan-leader-claims-support-ahead-of-midterms"
+        },
+        {
+          "representativeTitle": "Migrant Burial Near Political Rally Highlights Local Tensions",
+          "sources": [
+            "Washington Post",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "As Trump rallies his base in Ohio, a Haitian migrant is laid to rest nearby",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/immigration/2026/10/04/trump-rallies-his-base-ohio-haitian-migrant-is-laid-rest-nearby/",
+              "pubDate": "2026-10-04T14:56:22.000Z",
+              "tier": 1
+            },
+            {
+              "title": "As Trump rallies his base in Ohio, a Haitian migrant is laid to rest nearby",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMWUyaTZkWkcwTkp4UUptZWlQR0puUVFHRHJtTWdBNXJSWldRbVc4MWZkZXJrSkpDSnp3Z0N6ZUpQb3JRZEtNWjFOaU5UenhlZC1XdlFpTUxxbkJ6UlRiWWJ6b0d2cHFsMzJMcnZPQ2dQZi04cy02WjdTaHFaOXpuWUlfQW5LUFdkWURwSFBVMno2RWN2QkFZekZBa0llOHBvWWFhOGVXWTM2aWRHVkpJZW9xTmRRTUhlNVE?oc=5",
+              "pubDate": "2026-10-04T19:28:59.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "migrant-burial-near-political-rally-highlights-local-tensions"
+        },
+        {
+          "representativeTitle": "Teen Fatally Shot Over Parking Dispute in US",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Girl, 12, fatally shot in US during 'dispute over parking space'",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cwr5y48p89vvo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-04T18:25:50.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
           "sentiment": -0.9,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "mass-shootings-claim-lives-in-georgia-and-baltimore"
+          "slug": "teen-fatally-shot-over-parking-dispute-in-us"
+        },
+        {
+          "representativeTitle": "Supreme Court Begins Term With Major Climate Ruling",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Supreme Court Opens Term With Climate Fight",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-04/supreme-court-opens-term-with-climate-fight-video",
+              "pubDate": "2026-10-04T16:42:40.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "supreme-court-begins-term-with-major-climate-ruling"
         },
         {
           "representativeTitle": "Trump announces new 'Super Intelligence Force' initiative.",
@@ -1127,6 +1194,44 @@ export const newsData = {
           "slug": "cornell-president-addresses-disturbing-rape-allegations-on-campus"
         },
         {
+          "representativeTitle": "Shooting at Georgia Block Party Leaves Two Dead",
+          "sources": [
+            "NBC News",
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Two dead, 35 wounded in shooting at Georgia block party",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/two-dead-35-wounded-shooting-georgia-block-party-rcna601419",
+              "pubDate": "2026-10-04T18:55:57.000Z",
+              "tier": 2
+            },
+            {
+              "title": "2 shot dead, dozens hurt in Georgia block party shooting",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/2-shot-dead-dozens-injured-vienna-georgia-block-136986984",
+              "pubDate": "2026-10-04T19:38:14.000Z",
+              "tier": 2
+            },
+            {
+              "title": "2 dead, 35 injured in shooting at Georgia block party",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03Tmh3MEppUlNmazMzaUU4R19yekRldk1nYWhiNEl4dDhBdDFuTlhra3Z6bWlBYWRrVXpUWUktY2dHZng4dG5mdnZPb0N5cUNtUEZaMmNDb0xsQ2NKZ1gtd3VqdXppRS01RWlmQzVMRVpXRmxlY2QwajJzbGN5Zw?oc=5",
+              "pubDate": "2026-10-04T19:05:58.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "shooting-at-georgia-block-party-leaves-two-dead"
+        },
+        {
           "representativeTitle": "College Enrollment Decline Signals Higher Education Strain",
           "sources": [
             "Bloomberg Markets"
@@ -1147,36 +1252,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "college-enrollment-decline-signals-higher-education-strain"
-        },
-        {
-          "representativeTitle": "Engineer Shot Amid Family Conflict in New York",
-          "sources": [
-            "Washington Post",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "The toxic family strife before a New York Times engineer was gunned down",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/nation/2026/10/04/before-in-laws-arrest-slaying-engineer-park-years-domestic-strife/",
-              "pubDate": "2026-10-04T10:00:01.000Z",
-              "tier": 1
-            },
-            {
-              "title": "The toxic family strife before a New York Times engineer was gunned down",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZ0tWal9vSTNHSkJyczg5THc4SEtncEMzWVJBVGxOTU9mTldYc1hyN3BMaF9IQTYyQ1FubGI5c1ZiYW81NXcyQWpoMkEzbE9mZEpKeUgzLVlVZml6Y1lLb0I2RUpJZXdTTTFrUHVJbmpHdTdiTW95UVREaTBmZVhTVnk5dlRGS0NRc0FSU19QNUdOcGFRcV9kVVdOa2pLWm5kOFB5OXl1dkNBYVh1RjFjdVZveXAxQQ?oc=5",
-              "pubDate": "2026-10-04T14:31:57.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "engineer-shot-amid-family-conflict-in-new-york"
         },
         {
           "representativeTitle": "White House Begins Assessing Emerging Artificial Intelligence Risks",
@@ -1201,26 +1276,190 @@ export const newsData = {
           "slug": "white-house-begins-assessing-emerging-artificial-intelligence-risks"
         },
         {
-          "representativeTitle": "Migrant Burial Near Political Rally Highlights Local Tensions",
+          "representativeTitle": "Child Killed in Baltimore Crossfire During Football Game",
           "sources": [
-            "Washington Post"
+            "ABC News Top",
+            "ABC News US",
+            "Google US"
           ],
-          "citationCount": 1,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "As Trump rallies his base in Ohio, a Haitian migrant is laid to rest nearby",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/immigration/2026/10/04/trump-rallies-his-base-ohio-haitian-migrant-is-laid-rest-nearby/",
-              "pubDate": "2026-10-04T14:56:22.000Z",
-              "tier": 1
+              "title": "12-year-old girl fatally shot in park where youth football game was being played",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/US/wireStory/police-12-year-girl-fatally-shot-baltimore-park-136985255",
+              "pubDate": "2026-10-04T17:14:22.000Z",
+              "tier": 2
+            },
+            {
+              "title": "12-year-old girl fatally shot in park where youth football game was being played",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/police-12-year-girl-fatally-shot-baltimore-park-136985255",
+              "pubDate": "2026-10-04T17:14:22.000Z",
+              "tier": 2
+            },
+            {
+              "title": "12-year-old girl killed in crossfire during youth football game in Baltimore; 4 adults injured",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUxCYXZOb2ZzLVUwLXpzbTh4SWRkaXRhdERJQUstZUVfVVhPeVdxczlNYi1veGZkWE85QTYzdmFTejVVR3dOS3U2V3hvQWlGMnBPVkEyWmpNNjBrOVVsZlZWLWxTWkhXTDR1VUVkYWd3em5DZjZyMUd0UWQtVkV3bGsxVGdMY1NNdDBDQnZhZw?oc=5",
+              "pubDate": "2026-10-04T14:39:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "child-killed-in-baltimore-crossfire-during-football-game"
+        },
+        {
+          "representativeTitle": "Latino Voters Shift Away From Trump Republicans",
+          "sources": [
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Poll: Latino voters swing away from Trump and Republicans",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/2026-election/poll-latino-voters-swing-away-trump-republicans-midterm-shift-rcna599894",
+              "pubDate": "2026-10-04T13:00:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Poll: Latino voters swing away from Trump and Republicans",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTXlfWTJtUE1HbjliSG9zeWc4QlhUUzlrRkZJX1lBdXh0dVpkamcwblBka1g1S1kwdE5nWlJLbGtzbG1vZmlCdll6VXhNcWtNQ1JkdngtOWctZlh0LXo1MkVpTFhjZGZQVUI0cFNTVHctVkFjcEl0QjU0Qlh3Zk00ZnpLb1dNVlkyZk9TckM3azlGZ2tBY1RiUFVrQnBUeVczdUlJenlvZG5TRjlPMHBNUVZ0WnVpWEczTThZ?oc=5",
+              "pubDate": "2026-10-04T13:00:00.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "latino-voters-shift-away-from-trump-republicans"
+        },
+        {
+          "representativeTitle": "Trump Appoints AI Czar: Clayton Takes New Role",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump names intelligence chief Jay Clayton as new White House AI czar",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/oct/04/trump-jay-clayton-white-house-ai-czar",
+              "pubDate": "2026-10-04T17:45:28.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "migrant-burial-near-political-rally-highlights-local-tensions"
+          "slug": "trump-appoints-ai-czar-clayton-takes-new-role"
+        },
+        {
+          "representativeTitle": "Mill explosion prompts focus on local House race.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "After a deadly paper mill explosion, a community in Washington state looks to a key House race",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/oct/04/washington-state-marie-gluesenkamp-perez-democrat-congress",
+              "pubDate": "2026-10-04T17:27:32.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "mill-explosion-prompts-focus-on-local-house-race"
+        },
+        {
+          "representativeTitle": "Energy Costs Strain American Households' Budgets Now",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "How Gas, Diesel and Electricity Prices Are Squeezing American Voters",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/politics/elections/energy-prices-midterm-voters-e360a372?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-10-04T19:56:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "energy-costs-strain-american-households-budgets-now"
+        },
+        {
+          "representativeTitle": "California faces record heat wave; extreme temperatures persist.",
+          "sources": [
+            "ABC News Top"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "October heat wave continues to bake California, breaking multiple temperature records",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/US/37-million-people-alert-dangerous-temperatures-october-heat/story?id=136984812",
+              "pubDate": "2026-10-04T19:37:08.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "california-faces-record-heat-wave-extreme-temperatures-persist"
+        },
+        {
+          "representativeTitle": "Former Mayor Emanuel Comments on Jewish Presidential Candidacy",
+          "sources": [
+            "NBC News",
+            "Fox News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Rahm Emanuel says America is ready for a Jewish president: 'my faith is not your problem'",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/meet-the-press/video/rahm-emanuel-says-america-is-ready-for-a-jewish-president-my-faith-is-not-your-problem-270986309613",
+              "pubDate": "2026-10-04T13:38:42.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Former Chicago mayor Rahm Emanuel declares America is ready for a Jewish president",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/media/former-chicago-mayor-rahm-emanuel-declares-america-ready-jewish-president",
+              "pubDate": "2026-10-04T18:34:52.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "former-mayor-emanuel-comments-on-jewish-presidential-candidacy"
         },
         {
           "representativeTitle": "US perceived to mirror Italy's current challenges.",
@@ -1245,86 +1484,26 @@ export const newsData = {
           "slug": "us-perceived-to-mirror-italys-current-challenges"
         },
         {
-          "representativeTitle": "Trump announces AI task force creation initiative.",
+          "representativeTitle": "Engineer Shot Amid Family Conflict in New York",
           "sources": [
-            "Fox News",
-            "ABC News Top"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Trump launching 'Super Intelligence Force' to ensure American dominance",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/trump-launching-super-intelligence-force-ensure-american-dominance",
-              "pubDate": "2026-10-04T12:44:52.000Z",
-              "tier": 2
-            },
-            {
-              "title": "President Donald Trump announces creation of 'Super Intelligence Force' AI task force",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/president-donald-trump-announces-creation-super-intelligence-force/story?id=136986122",
-              "pubDate": "2026-10-04T15:53:18.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "trump-announces-ai-task-force-creation-initiative"
-        },
-        {
-          "representativeTitle": "Democrats Plan Reversal of Trump's Presidential Changes",
-          "sources": [
-            "Google US"
+            "Washington Post"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "How Democrats hope to reverse Trump’s changes to the presidency",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObWJqNEZYUVlpbUVyc3k3T0l0VndYRU1RTm05VzZsdlZILUNCQ2pHZTBaSHN3bDlQSmNxRVRTdndCRTlORmtrN3FFenNLNzItTVhtbHNDelRobFJRdkM2ajhXNlloX3c0NFVqZUNPMm0zSDl1Sk84c1c5TTBZbXBvRVVRYWhTTzZYYmt2UGM3R0s0ekdyZEdkNEtFaEtyVXpvWWpJWGo5UUZqcHdLMXFIOWV6Yw?oc=5",
-              "pubDate": "2026-10-04T14:34:02.000Z",
-              "tier": 2
+              "title": "The toxic family strife before a New York Times engineer was gunned down",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/nation/2026/10/04/before-in-laws-arrest-slaying-engineer-park-years-domestic-strife/",
+              "pubDate": "2026-10-04T10:00:01.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "democrats-plan-reversal-of-trumps-presidential-changes"
-        },
-        {
-          "representativeTitle": "Child Killed in Baltimore Crossfire During Football Game",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "12-year-old girl killed in Baltimore shooting sparked by apparent parking dispute",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/12-year-old-girl-killed-baltimore-shooting-rcna601349",
-              "pubDate": "2026-10-04T01:45:30.000Z",
-              "tier": 2
-            },
-            {
-              "title": "12-year-old girl killed in crossfire during youth football game in Baltimore; 4 adults injured",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUxCYXZOb2ZzLVUwLXpzbTh4SWRkaXRhdERJQUstZUVfVVhPeVdxczlNYi1veGZkWE85QTYzdmFTejVVR3dOS3U2V3hvQWlGMnBPVkEyWmpNNjBrOVVsZlZWLWxTWkhXTDR1VUVkYWd3em5DZjZyMUd0UWQtVkV3bGsxVGdMY1NNdDBDQnZhZw?oc=5",
-              "pubDate": "2026-10-04T14:39:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
           "relevance_score": 6,
-          "importance": 40,
-          "slug": "child-killed-in-baltimore-crossfire-during-football-game"
+          "importance": 45,
+          "slug": "engineer-shot-amid-family-conflict-in-new-york"
         },
         {
           "representativeTitle": "Substance Use Impacts College Campuses Nationally Now",
@@ -1347,36 +1526,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "substance-use-impacts-college-campuses-nationally-now"
-        },
-        {
-          "representativeTitle": "Child Fatally Shot During Local Youth Football Game",
-          "sources": [
-            "ABC News Top",
-            "ABC News US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "12-year-old girl fatally shot in park where youth football game was being played",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/wireStory/police-12-year-girl-fatally-shot-baltimore-park-136985255",
-              "pubDate": "2026-10-04T13:51:29.000Z",
-              "tier": 2
-            },
-            {
-              "title": "12-year-old girl fatally shot in park where youth football game was being played",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/police-12-year-girl-fatally-shot-baltimore-park-136985255",
-              "pubDate": "2026-10-04T13:51:29.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "child-fatally-shot-during-local-youth-football-game"
         }
       ]
     },
@@ -1386,9 +1535,10 @@ export const newsData = {
         {
           "representativeTitle": "Rising Yields Threaten AI Sector's Market Momentum",
           "sources": [
-            "Bloomberg Markets"
+            "Bloomberg Markets",
+            "Google Stocks"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Wall Street’s AI Party Is on Edge as Soaring Yields Raise Risks",
@@ -1396,13 +1546,20 @@ export const newsData = {
               "link": "https://www.bloomberg.com/news/articles/2026-10-04/wall-street-s-ai-party-is-on-edge-as-soaring-yields-raise-risks",
               "pubDate": "2026-10-04T13:00:00.000Z",
               "tier": 1
+            },
+            {
+              "title": "Wall Street’s AI Party Is on Edge as Soaring Yields Raise Risks",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbzQxSFhvb0lYekZDUDA4UlhCc2lJdDZNWFNUV0pVMTVXSW5QX2NQSXc4M01wc25mRlY0dDNuU21Kb1ZaVVJoWDRPUUJsbjk0NnAwd2duc2ZTZ1Y2cU5udUlHMEtGSkZ6QjdRZkRHWmNWTGNXa2VvdXhROFhVb1QtQmhKMUwzMXdsLTRwWXhDdHdYUm4xOUlvelJtWTA5blQwdS1JdEh3aHI2ZmdtWG9WWE1lSHY?oc=5",
+              "pubDate": "2026-10-04T13:00:00.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 55,
+          "importance": 60,
           "slug": "rising-yields-threaten-ai-sectors-market-momentum"
         },
         {
@@ -1551,28 +1708,6 @@ export const newsData = {
           "slug": "slowing-jobs-meet-persistent-inflation-concerns-for-fed"
         },
         {
-          "representativeTitle": "Bond Market Faces Renewed Contagion Risk Concerns in Europe",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Whispers of Contagion Risk Are Returning to Europe’s Bond Market",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-04/whispers-of-contagion-risk-are-returning-to-europe-s-bond-market",
-              "pubDate": "2026-10-04T11:15:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "bond-market-faces-renewed-contagion-risk-concerns-in-europe"
-        },
-        {
           "representativeTitle": "Federal Tax Break Boosts Rural Data Center Development Plans",
           "sources": [
             "Wired"
@@ -1630,28 +1765,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 55,
           "slug": "ai-fuels-hong-kong-fundraising-to-record-highs"
-        },
-        {
-          "representativeTitle": "SoftBank's AI Ambitions Strain Corporate Finances Now",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Masayoshi Son’s AI ambitions outgrow SoftBank’s balance sheet",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/9b3a355e-5975-445f-9004-b95513e3856a?syn-25a6b1a6=1",
-              "pubDate": "2026-10-04T04:00:07.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "softbanks-ai-ambitions-strain-corporate-finances-now"
         },
         {
           "representativeTitle": "Chick-fil-A balances growth with family legacy goals.",
@@ -1742,28 +1855,6 @@ export const newsData = {
           "slug": "ipo-frenzy-slows-amid-weak-demand-and-valuations"
         },
         {
-          "representativeTitle": "Uncertain Layoffs Signal Broad Economic Job Anxiety",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The Layoff Announcements Keep Coming, but No One Knows Who, Where or When",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/business/corporate-layoff-announcements-workers-e37e0546?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-10-04T11:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "uncertain-layoffs-signal-broad-economic-job-anxiety"
-        },
-        {
           "representativeTitle": "Farmer faces massive surplus of unwanted grapes",
           "sources": [
             "Washington Post"
@@ -1813,28 +1904,6 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
-          "representativeTitle": "Key Figure Exits Major Artificial Intelligence Movement",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Why I quit the movement shaping AI",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/tech-24/20261004-why-i-quit-the-movement-shaping-ai",
-              "pubDate": "2026-10-04T14:30:32.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "key-figure-exits-major-artificial-intelligence-movement"
-        },
-        {
           "representativeTitle": "OpenAI Hacks Raise Legal Concerns for Altman",
           "sources": [
             "FT International"
@@ -1855,6 +1924,58 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "openai-hacks-raise-legal-concerns-for-altman"
+        },
+        {
+          "representativeTitle": "Industry faces slowdown in robotaxi development progress.",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "TechCrunch Mobility: Reining in robotaxis",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/04/techcrunch-mobility-reining-in-robotaxis/",
+              "pubDate": "2026-10-04T16:05:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "industry-faces-slowdown-in-robotaxi-development-progress"
+        },
+        {
+          "representativeTitle": "AI Cheats After Failing to Beat Human Players",
+          "sources": [
+            "The Verge",
+            "Google Tech"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+              "pubDate": "2026-10-04T15:21:59.000Z",
+              "tier": 2
+            },
+            {
+              "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNLTZka3llbWMxXzJZZHBNNTlGcjhWcFlLaTg3dk5XSmdrc3hKanM4NzJMaDVrRU44Z05Nd1RHSGlmN2tqcHo4ZWhzRUlnRHptaDRuQ0E5YXlxc2lJNmlWZ19OcWs1VHp1MzN5RjJQMlNGQ3d2bzJyMnBNMDFKaU5jWGRjSmJkN3NEcllaVHVkTQ?oc=5",
+              "pubDate": "2026-10-04T15:21:59.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 30,
+          "slug": "ai-cheats-after-failing-to-beat-human-players"
         },
         {
           "representativeTitle": "Meta Glasses Nova Review Suggests Incremental Product Updates",
@@ -1907,12 +2028,102 @@ export const newsData = {
           "relevance_score": 4,
           "importance": 30,
           "slug": "macbook-air-m5-sees-rare-price-reduction-offer"
+        },
+        {
+          "representativeTitle": "Chromebook's early days revisited in tech history.",
+          "sources": [
+            "The Verge",
+            "Google Tech"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "The forgotten Chromebook that started it all",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/podcast/1001215/the-forgotten-chromebook-that-started-it-all",
+              "pubDate": "2026-10-04T12:00:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "The forgotten Chromebook that started it all",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbkJZeVdSNjJnRUcwN2tJUlF4MFQ0VWhnM0N4OTFBanhfQklJSnZKRjVudHR2T3ZHRE1DTGhsdlJZLUI1OU1wX1ctNUpEX194bEVLYl9lalhkZFFpR3liRk1BUXlTTU05QWs2TFVRendoNG41VTFtTm8yWks4djZiYTRnWV9YUmJjWllRTDdB?oc=5",
+              "pubDate": "2026-10-04T12:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 30,
+          "slug": "chromebooks-early-days-revisited-in-tech-history"
+        },
+        {
+          "representativeTitle": "Portable MP3 Players: A Cycle of Tech History",
+          "sources": [
+            "The Verge",
+            "Google Tech"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "The rise, fall, and rise of portable MP3 players",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/column/1003566/history-apple-ipod-mp3-music-player",
+              "pubDate": "2026-10-04T12:00:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "The rise, fall, and rise of portable MP3 players",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSm5QU3RJSWZwVDNHU2xIdHdnb00zcEZyVlpic29wWVBqSzk4bjlld1Nfa3RyR2E2ZXdDNDI3N1J4SVFrdUVmQ2ZBdDJaQ3dmbVNkT0dmVHVSaUM2a0dIekpIZlBhTzFJM0lITmRRd1FIYlpWdDFoRW9KU2pnQmwyMA?oc=5",
+              "pubDate": "2026-10-04T12:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 3,
+          "importance": 25,
+          "slug": "portable-mp3-players-a-cycle-of-tech-history"
         }
       ]
     },
     {
       "name": "Science",
       "children": [
+        {
+          "representativeTitle": "New Method Developed for Efficient Hydrogen Production",
+          "sources": [
+            "Science Daily",
+            "Google Science"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Scientists just found a new way to make hydrogen from water",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/10/261001214017.htm",
+              "pubDate": "2026-10-04T11:11:24.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Scientists just found a new way to make hydrogen from water",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8tVEhJQVUwY1NsUmp5dzNWemdUZk5pbXo1aHpLUEl1NDh1VkQtRFBwZVppVWJqN0czTWs5WXk1NE4zT2thNlRXbDRKNld2RFg1QlZZU0paRjBmck5pNmxtbFo2cEJnVXBRNkljNDVJSQ?oc=5",
+              "pubDate": "2026-10-04T16:45:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "new-method-developed-for-efficient-hydrogen-production"
+        },
         {
           "representativeTitle": "Geoneutrinos Map Earth's Volatile Interior Structure",
           "sources": [
@@ -1943,26 +2154,70 @@ export const newsData = {
           "slug": "geoneutrinos-map-earths-volatile-interior-structure"
         },
         {
-          "representativeTitle": "Collider Recreates Big Bang Soup; Unexpected Findings Emerge",
+          "representativeTitle": "Arctic gas leak accelerates global warming concerns.",
           "sources": [
-            "Google Science"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Particle collider experiment recreates the Big Bang's primordial soup — and finds an unexpected twist",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPNnJhZkhNVlkwbUZISldaWS1zSHliNnNoRTRSZGEyY3VfQVZrdjlqNXNJbzJTMUhqUFNfZUh4OTV4Q1NGOVRYVFFHc1U2NC01UG1sRGozV0hiWERxTGt1a0FJb2N2WlR0QlhrQkpPdUpMd1ZSbzY3V1Z2X2ozd0J0OGVERUZvbVpOdDg0TjdKdWN2LU9feERUeFJic1pNejR6TEtRZ0JCeFdaYXJJWVdSang3TFh5N2pZRXFJcHdjcGdYT0ZTMUFJUThCeGdSeXhaYWpKSk9BUEl0c3liNXBGNlFXSHFSZHVjSFRFNUU1Y1BOUXNLQ0E?oc=5",
-              "pubDate": "2026-10-04T12:00:00.000Z",
+              "title": "Heat-trapping gas once frozen in Arctic ground is slowly leaking and warming the planet",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-gas-frozen-arctic-ground-slowly.html",
+              "pubDate": "2026-10-04T16:20:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "arctic-gas-leak-accelerates-global-warming-concerns"
+        },
+        {
+          "representativeTitle": "Clam Reveals Two Centuries of Reef Climate History",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "One giant clam contains a month‑by‑month diary of the Great Barrier Reef's climate 200 years ago",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-09-giant-clam-monthbymonth-diary-great.html",
+              "pubDate": "2026-10-04T18:00:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "clam-reveals-two-centuries-of-reef-climate-history"
+        },
+        {
+          "representativeTitle": "New X-ray Phase Found in Neutron Star Merger",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hidden X-ray phase revealed in likely neutron star merger",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-09-hidden-ray-phase-revealed-neutron.html",
+              "pubDate": "2026-10-04T17:00:02.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
           "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "collider-recreates-big-bang-soup-unexpected-findings-emerge"
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "new-x-ray-phase-found-in-neutron-star-merger"
         },
         {
           "representativeTitle": "Scientists find clue regarding universe's expansion mystery.",
@@ -2007,50 +2262,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "public-health-advises-timely-flu-vaccination-uptake-now"
-        },
-        {
-          "representativeTitle": "New Method Developed for Efficient Hydrogen Production",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Scientists just found a new way to make hydrogen from water",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/10/261001214017.htm",
-              "pubDate": "2026-10-04T11:11:24.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "new-method-developed-for-efficient-hydrogen-production"
-        },
-        {
-          "representativeTitle": "Vitamin Study Suggests Potential Against Brain Cancer",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "This common vitamin could help fight one of the deadliest brain cancers",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/10/261001095423.htm",
-              "pubDate": "2026-10-04T10:09:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "vitamin-study-suggests-potential-against-brain-cancer"
         }
       ]
     }
