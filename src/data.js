@@ -1,208 +1,50 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-10T12:19:40.395Z",
+  "lastUpdated": "2026-10-10T16:26:49.682Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Major Panama Earthquake Strikes; Buildings Damaged, Injuries Reported",
+          "representativeTitle": "Russia Strikes Ukraine Amid Trump Diesel Deal Talk",
           "sources": [
-            "BBC World",
-            "The Guardian",
-            "France 24",
-            "Euronews",
-            "Le Monde",
-            "Google World"
-          ],
-          "citationCount": 6,
-          "rawArticles": [
-            {
-              "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-09T21:26:30.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Powerful 7.7-magnitude earthquake strikes Panama and triggers panic in capital",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/09/panama-earthquake",
-              "pubDate": "2026-10-10T00:13:15.000Z",
-              "tier": 1
-            },
-            {
-              "title": "🔴 Powerful 7.6 magnitude quake shakes Panama, triggering tsunami warning",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261009-powerful-7-6-magnitude-quake-shakes-panama-triggering-tsunami-warning",
-              "pubDate": "2026-10-09T18:41:26.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Powerful 7.6 magnitude quake shakes Panama, triggering tsunami warnings",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261009-powerful-7-6-magnitude-quake-shakes-panama-triggering-tsunami-warning",
-              "pubDate": "2026-10-09T18:39:03.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Powerful 7.7-magnitude earthquake strikes Panama, damaging buildings and injuring at least 27",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/09/tsunami-threat-after-76-magnitude-earthquake-strikes-panama-usgs-says",
-              "pubDate": "2026-10-09T18:40:56.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Magnitude 7.7 earthquake rocks Panama, damaging buildings",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/10/magnitude-7-7-earthquake-rocks-panama-damaging-buildings_6758440_4.html",
-              "pubDate": "2026-10-09T23:30:44.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Powerful 7.7-magnitude earthquake strikes Panama, damaging buildings and injuring at least 27",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcWtSbHZaRjhhU3VlRTdxVkluZVN3cGN1NXROR0x1blBkMC04Ukp3azdfUzBGY1lHYWlIT09GMEJoc01yOEUtdk1qSzBRNThnNkJPMDdCUEtab3o4U2ZZRWZKcGRnWm80NXZNRnJfNFRDUF9ka3U5NHJPV3dXOUNFMklFYThzVmhKU0Z2ajMwY0tKdVB2LUlqTzFhSW8wTDZGbnl1QTZkekk?oc=5",
-              "pubDate": "2026-10-09T18:40:56.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 100,
-          "slug": "major-panama-earthquake-strikes-buildings-damaged-injuries-reported"
-        },
-        {
-          "representativeTitle": "India Protests Lead to Detentions and City Lockdown",
-          "sources": [
-            "Al Jazeera",
-            "France 24",
-            "Sky News",
-            "Le Monde"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "India’s Cockroach Party founder, top leaders detained ahead of protest",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/10/indias-cockroach-party-founder-top-leaders-detained-ahead-of-protest?traffic_source=rss",
-              "pubDate": "2026-10-10T07:13:48.000Z",
-              "tier": 1
-            },
-            {
-              "title": "India protest live: ‘Cockroach’ leaders detained; New Delhi in lockdown",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/liveblog/2026/10/10/india-protest-live-police-detain-cockroach-leaders-new-delhi-in-lockdown?traffic_source=rss",
-              "pubDate": "2026-10-10T05:54:36.000Z",
-              "tier": 1
-            },
-            {
-              "title": "India detains 'cockroach' leaders ahead of election protest",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261010-india-detains-cockroach-leaders-ahead-of-election-protest",
-              "pubDate": "2026-10-10T09:18:11.000Z",
-              "tier": 1
-            },
-            {
-              "title": "India's 'cockroach' movement chief detained ahead of major protest",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/asia-pacific/20261010-india-s-cockroach-movement-chief-detained-ahead-of-major-protest",
-              "pubDate": "2026-10-10T06:37:40.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Founder of India's 'Cockroach' movement among hundreds detained amid mass protest",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/indias-cockroach-movement-founder-detained-along-with-scores-of-protesters-13597121",
-              "pubDate": "2026-10-10T06:57:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Indian police detain 'cockroach' leaders ahead of protest against election commission",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/10/indian-police-detain-cockroach-leaders-ahead-of-protest-against-election-commission_6758451_4.html",
-              "pubDate": "2026-10-10T09:46:29.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 100,
-          "slug": "india-protests-lead-to-detentions-and-city-lockdown"
-        },
-        {
-          "representativeTitle": "Trump Criticizes Norway Over Nobel Peace Prize Outcome",
-          "sources": [
+            "BBC US",
+            "Google US",
             "BBC World",
             "The Guardian",
             "Al Jazeera",
             "SCMP",
-            "Google World"
-          ],
-          "citationCount": 5,
-          "rawArticles": [
-            {
-              "title": "'Stain on the country': Trump criticises Norway over Nobel Peace Prize",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ckgj921e14jdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-10T04:07:11.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump fumes over Nobel peace prize snub and criticizes Norway",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/oct/09/trump-nobel-peace-prize",
-              "pubDate": "2026-10-10T01:57:03.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump slams Norway for not awarding him Nobel Peace Prize",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/10/trump-slams-norway-for-not-awarding-him-nobel-peace-prize?traffic_source=rss",
-              "pubDate": "2026-10-10T06:47:10.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump slams Norway and Nobel committee after missing out on Peace Prize",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3370418/trump-slams-norway-and-nobel-committee-after-missing-out-peace-prize?utm_source=rss_feed",
-              "pubDate": "2026-10-10T02:19:36.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump fumes at ‘stain’ on Norway after missing out on Nobel Peace Prize",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTkZJbkNrSTEyWktRSldTXzliZDNtQmdzakNiazZnbmJEejdEQ2dwckZsUVFsUEFybkhqbXdCdlVld24xQXJnRmw0ci0yd0E5ZG1vU19GQjdjUXJvZzdodkk3UTc5REVuR3hlb0FUS1JkMmxZeVN5NmtYeDM3dUhFY1JaM1k2NnpNaWZIa2tJRnBvR0xCZXhyQ1JtWjlFRjN1MWdQVTZDZDRwNnBpdVFodFJSWnk2N1lGSGc?oc=5",
-              "pubDate": "2026-10-10T12:07:05.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 85,
-          "slug": "trump-criticizes-norway-over-nobel-peace-prize-outcome"
-        },
-        {
-          "representativeTitle": "Zelenskyy Criticizes Trump Over Russian Diesel Deal",
-          "sources": [
-            "BBC World",
-            "The Guardian",
             "Euronews",
             "Le Monde"
           ],
-          "citationCount": 4,
+          "citationCount": 8,
           "rawArticles": [
+            {
+              "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-10T14:24:14.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Ukraine hit by deadly Russian strikes as ‘thanks’ for Trump diesel deal, Zelenskyy says",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVkd3Y2lGYXNsajhHYzk4VkdmSVBlYVM0WHQ5MHRIR09QSUk0QzB3MWl5U0l6a0xIT0FKQW4wRG55ckxBOGluRTZSS2F3VVh1dFZyNkNQUDdCRHk4SUNGOTV0V0xkWkdlVlExcW11UmJyX05CSFVOQ0FSWWVlbHgtRHRZNDhqV3FOMVhpc0pKVFY1M182bVM5Z0x1M09paEpKelE?oc=5",
+              "pubDate": "2026-10-10T15:07:00.000Z",
+              "tier": 2
+            },
             {
               "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-10T04:38:20.000Z",
+              "pubDate": "2026-10-10T14:24:14.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Ukraine hit by deadly Russian strikes as ‘thanks’ for Trump diesel deal, Zelenskyy says",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/10/ukraine-russia-strikes-war-trump-diesel-deal-zelenskyy",
+              "pubDate": "2026-10-10T14:45:15.000Z",
               "tier": 1
             },
             {
@@ -211,6 +53,20 @@ export const newsData = {
               "link": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
               "pubDate": "2026-10-10T10:09:46.000Z",
               "tier": 1
+            },
+            {
+              "title": "Ukraine warns Trump-Putin diesel deal will bankroll Russia’s war",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/10/ukraine-warns-trump-putin-diesel-deal-will-bankroll-russias-war?traffic_source=rss",
+              "pubDate": "2026-10-10T12:33:07.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Russian attacks kill 20 in Ukraine after Trump strikes diesel deal with Putin",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3370451/russian-attacks-kill-15-ukraine-after-trump-strikes-diesel-deal-putin?utm_source=rss_feed",
+              "pubDate": "2026-10-10T12:25:26.000Z",
+              "tier": 2
             },
             {
               "title": "Zelenskyy hits out at 'gifts to Putin' after Trump announces deal for Russian diesel",
@@ -227,12 +83,180 @@ export const newsData = {
               "tier": 2
             }
           ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 100,
+          "slug": "russia-strikes-ukraine-amid-trump-diesel-deal-talk"
+        },
+        {
+          "representativeTitle": "India Imposes Lockdown Following Leader Detentions",
+          "sources": [
+            "BBC World",
+            "The Guardian",
+            "Al Jazeera",
+            "France 24",
+            "Sky News",
+            "Google World"
+          ],
+          "citationCount": 6,
+          "rawArticles": [
+            {
+              "title": "'Cockroach' group leaders among hundreds detained in Delhi protest",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-10T12:29:31.000Z",
+              "tier": 1
+            },
+            {
+              "title": "‘Cockroach’ leader among thousands detained in Delhi protest crackdown",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/10/cockroach-party-rally-delhi-protests-chief-election-officer-resigns",
+              "pubDate": "2026-10-10T11:17:38.000Z",
+              "tier": 1
+            },
+            {
+              "title": "India’s ‘Cockroach’ leaders detained; New Delhi in lockdown",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown?traffic_source=rss",
+              "pubDate": "2026-10-10T12:50:34.000Z",
+              "tier": 1
+            },
+            {
+              "title": "India detains 'cockroach' leaders ahead of election protest",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261010-india-detains-cockroach-leaders-ahead-of-election-protest",
+              "pubDate": "2026-10-10T09:18:11.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Founder of India's 'Cockroach' movement among hundreds detained amid mass protest",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/indias-cockroach-movement-founder-detained-along-with-scores-of-protesters-13597121",
+              "pubDate": "2026-10-10T06:57:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "India’s ‘Cockroach’ leaders detained; New Delhi in lockdown",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWGp5bTN6SWFLOFZzRUh1dW91ZFFvQUh6a0ZsVGJ0QXRrUzVabE1zeWc1VmJpSVhzR1hpdjR4cWhoVmxnNjMwZk9RM0J2YmtVcERyMk1PaFlQUi1DTnlqNk9hcFU3UUhzZllwLVJ5MW1WWDJnQm5yWnBNY1JOcFZ1U01RUFphSl9qWEVYSTZIOU9MNUdDSTZMSHJRR3FYUdIBowFBVV95cUxNaGdET2tqRll6Q2U3d3JaMTJRcmtadlI5aVp2MExsRWR1bm83b3FxWkFhYkh1VkxGRzhCNWQ0Z0VJS3QwLXhwYUh1YXRyVTJtX1k2TmRWUkY5UVJqaHcwSENzSTYzQzBRWXh6a0t0NEN1d3d2V0NQUWJKTXpFREc0alRVNDRZaTJPSDljY0tFMnJ3Vk5MV1hiUjlFWmtOSWluTDA0?oc=5",
+              "pubDate": "2026-10-10T13:00:09.000Z",
+              "tier": 2
+            }
+          ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 80,
-          "slug": "zelenskyy-criticizes-trump-over-russian-diesel-deal"
+          "importance": 100,
+          "slug": "india-imposes-lockdown-following-leader-detentions"
+        },
+        {
+          "representativeTitle": "Abbas Postpones Elections Until 2027 Amid Political Stalemate",
+          "sources": [
+            "Al Jazeera",
+            "France 24",
+            "SCMP",
+            "Euronews",
+            "Le Monde",
+            "Google World"
+          ],
+          "citationCount": 6,
+          "rawArticles": [
+            {
+              "title": "Abbas postpones Palestinian legislative elections to September 2027",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/10/abbas-postpones-palestinian-legislative-elections-to-september-2027?traffic_source=rss",
+              "pubDate": "2026-10-10T14:18:09.000Z",
+              "tier": 1
+            },
+            {
+              "title": "🔴 Palestinian president Abbas postpones legislative elections, sets presidential poll for September 2027",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/middle-east/20261010-palestinian-president-abbas-postpones-legislative-elections-to-september-2027",
+              "pubDate": "2026-10-10T11:58:24.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Palestinian president Abbas postpones legislative, presidential elections to September 2027",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/middle-east/20261010-palestinian-president-abbas-postpones-legislative-elections-to-september-2027",
+              "pubDate": "2026-10-10T11:56:40.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Palestinian leader Abbas postpones elections to September 2027",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3370455/palestinian-leader-abbas-postpones-elections-september-2027?utm_source=rss_feed",
+              "pubDate": "2026-10-10T15:09:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Palestinian President Abbas postpones legislative elections until September 2027",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/10/palestinian-president-abbas-postpones-legislative-elections-until-september-2027",
+              "pubDate": "2026-10-10T14:04:51.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Abbas postpones Palestinian elections to September 2027",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/10/abbas-postpones-palestinian-elections-to-september-2027_6758455_4.html",
+              "pubDate": "2026-10-10T13:24:44.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Palestinian Authority president postpones legislative elections another year, marking 20 years without a vote",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVDlQaFVTdEV6TXhYd1VZMjJXMHZCdllxUjl2akVnb1pmb01aMFdDa2lkZWxxZGdzUGgtazdILUVUMHJqbmswYUJzdmlveFVfbDlDcDhoRnNVdnI1OVRncjdDeUNOcEl3cTBFdmwzS1g1dUFWd3hRVl9EdURGWkxDX0NLWDYtUmktcnlzMGJhdi0?oc=5",
+              "pubDate": "2026-10-10T14:08:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 95,
+          "slug": "abbas-postpones-elections-until-2027-amid-political-stalemate"
+        },
+        {
+          "representativeTitle": "Navanethem Pillay Wins Prestigious Nobel Peace Prize Award",
+          "sources": [
+            "The Guardian",
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
+              "pubDate": "2026-10-09T16:30:09.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Navanethem 'Navi' Pillay wins the Nobel Peace Prize",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261010-navanethem-navi-pillay-wins-the-nobel-peace-prize",
+              "pubDate": "2026-10-10T09:25:54.000Z",
+              "tier": 1
+            },
+            {
+              "title": "South African judge awarded Nobel Peace Prize",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/south-african-judge-awarded-nobel-peace-prize",
+              "pubDate": "2026-10-09T21:53:23.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.9,
+          "relevance_score": 10,
+          "importance": 90,
+          "slug": "navanethem-pillay-wins-prestigious-nobel-peace-prize-award"
         },
         {
           "representativeTitle": "Controversial Figure Elected Mayor in Peruvian City",
@@ -254,7 +278,7 @@ export const newsData = {
               "title": "Candidate named Hitler Mussolini elected mayor in Peru",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/2026/oct/10/peru-election-hitler-mussolini-simeon-flores-mayor",
-              "pubDate": "2026-10-10T11:56:44.000Z",
+              "pubDate": "2026-10-10T12:00:10.000Z",
               "tier": 1
             },
             {
@@ -273,14 +297,97 @@ export const newsData = {
           "slug": "controversial-figure-elected-mayor-in-peruvian-city"
         },
         {
-          "representativeTitle": "Three Men Convicted Killing American, Australian Brothers",
+          "representativeTitle": "Trump Criticizes Nobel Peace Prize Award Decision",
+          "sources": [
+            "The Guardian",
+            "SCMP",
+            "Sky News",
+            "Euronews",
+            "Google World"
+          ],
+          "citationCount": 5,
+          "rawArticles": [
+            {
+              "title": "Trump fumes over Nobel peace prize snub and criticizes Norway",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/oct/09/trump-nobel-peace-prize",
+              "pubDate": "2026-10-10T01:57:03.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump slams Norway and Nobel committee after missing out on Peace Prize",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3370418/trump-slams-norway-and-nobel-committee-after-missing-out-peace-prize?utm_source=rss_feed",
+              "pubDate": "2026-10-10T02:19:36.000Z",
+              "tier": 2
+            },
+            {
+              "title": "'An indelible stain on Norway': Trump reacts to latest Nobel Peace Prize snub",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/donald-trump-labels-latest-nobel-peace-prize-snub-an-indelible-stain-on-norway-13597211",
+              "pubDate": "2026-10-10T11:31:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "'No one ever heard of her': Trump goes off on petty rant after Nobel Peace Prize snub",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/10/no-one-ever-heard-of-her-trump-goes-off-on-petty-rant-after-nobel-peace-prize-snub",
+              "pubDate": "2026-10-10T08:24:01.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump fumes at ‘stain’ on Norway after missing out on Nobel Peace Prize",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTkZJbkNrSTEyWktRSldTXzliZDNtQmdzakNiazZnbmJEejdEQ2dwckZsUVFsUEFybkhqbXdCdlVld24xQXJnRmw0ci0yd0E5ZG1vU19GQjdjUXJvZzdodkk3UTc5REVuR3hlb0FUS1JkMmxZeVN5NmtYeDM3dUhFY1JaM1k2NnpNaWZIa2tJRnBvR0xCZXhyQ1JtWjlFRjN1MWdQVTZDZDRwNnBpdVFodFJSWnk2N1lGSGc?oc=5",
+              "pubDate": "2026-10-10T15:07:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "trump-criticizes-nobel-peace-prize-award-decision"
+        },
+        {
+          "representativeTitle": "Woman Injures Three in Third Polish School Attack",
+          "sources": [
+            "BBC World",
+            "Al Jazeera"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Woman injures three people in third Poland school knife attack in a week",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cv8ezd246z1wo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-10T14:58:55.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Three injured in third school attack in Poland in less than a week",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/10/three-injured-in-third-school-attack-in-poland-in-less-than-a-week?traffic_source=rss",
+              "pubDate": "2026-10-10T15:13:55.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "woman-injures-three-in-third-polish-school-attack"
+        },
+        {
+          "representativeTitle": "Three Men Convicted Of Murders In Mexico",
           "sources": [
             "BBC World",
             "The Guardian",
-            "Sky News",
             "Google World"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Three men found guilty of murdering Australian brothers and US friend in Mexico",
@@ -304,17 +411,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Three men found guilty of killing Australian brothers and their American friend",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/three-found-guilty-of-killing-australian-brothers-and-american-friend-on-mexico-surf-trip-13597092",
-              "pubDate": "2026-10-09T22:20:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "3 men found guilty of killing American and Australian brothers on surfing trip in Mexico",
+              "title": "Three men found guilty in the 2024 killing of Australian and US surfers in Mexico",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdnJnMWFyM09qblFLcTZVZE9DbldxZy1xNXRWUElqY0huc2h4MXpjWE9jUlRvVnE5TUNucXZzNzdDVDFNcTJfYklKQkhxOFJpQjR6NHdCRDlhM2ZySHEwckNLWlV6X3dyT0JJelRPY0lOYUYxdUpzaXNwcW9sUWlHXzk2SW1DcklZeHc?oc=5",
-              "pubDate": "2026-10-10T00:15:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdEFBakxDa2RwTWk1TDdmLV9JUi1zZFFMMVlySTMyWjlPM0lCVFRBdS1mRURYX0lwTzYyODVJZVRiWUhrcFpqLUhTU1JHSy00eFVaRFFORFFWbHlodUhqVFNQeTRuYklfa0o3TjMzNkdKb3R1Ri1uSHVmci1mOGRBSGZjWkNrQVZsZkJoRlJBaGZoQmEx?oc=5",
+              "pubDate": "2026-10-10T03:03:00.000Z",
               "tier": 2
             }
           ],
@@ -322,67 +422,45 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 80,
-          "slug": "three-men-convicted-killing-american-australian-brothers"
+          "importance": 75,
+          "slug": "three-men-convicted-of-murders-in-mexico"
         },
         {
-          "representativeTitle": "Gaza Faces Severe Food Shortages Post-Ceasefire Truce",
+          "representativeTitle": "Trump's Deal Sparks Ukrainian Criticism Over Russia",
           "sources": [
-            "Al Jazeera",
-            "France 24"
+            "Bloomberg Markets",
+            "BBC Business"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "A year after the ‘ceasefire’, Gaza’s healthcare is still collapsing",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/opinions/2026/10/10/a-year-after-the-ceasefire-gazas-healthcare-is-still-collapsing?traffic_source=rss",
-              "pubDate": "2026-10-10T09:30:14.000Z",
+              "title": "Russian Diesel Deal Unlikely to Lower US Prices",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-10/russian-diesel-deal-unlikely-to-lower-us-prices-video",
+              "pubDate": "2026-10-10T16:03:23.000Z",
               "tier": 1
             },
             {
-              "title": "Palestinians struggle to find food in Gaza one year after ceasefire",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20261010-hunger-and-malnutrition-stalk-gazans-a-year-on-from-ceasefire",
-              "pubDate": "2026-10-10T04:31:42.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 80,
-          "slug": "gaza-faces-severe-food-shortages-post-ceasefire-truce"
-        },
-        {
-          "representativeTitle": "Trump Deal with Putin Reverses Ukraine Pressure Stance",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump hails Russia deal to release diesel as midterms loom",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261010-trump-hails-russia-deal-to-release-diesel-as-midterms-loom",
-              "pubDate": "2026-10-10T09:12:51.000Z",
+              "title": "Trump's Russian Diesel Deal Draws Ukraine Criticism",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-10/trump-s-russian-diesel-deal-draws-ukraine-criticism-video",
+              "pubDate": "2026-10-10T12:32:36.000Z",
               "tier": 1
             },
             {
-              "title": "Trump strikes diesel deal with Putin, reversing years of pressure on Russia over Ukraine war",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20261009-trump-strikes-diesel-deal-with-putin-reversing-years-of-pressure-on-russia-over-ukraine-war",
-              "pubDate": "2026-10-09T20:00:24.000Z",
-              "tier": 1
+              "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+              "source": "BBC Business",
+              "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-10T14:24:14.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Stocks",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 10,
-          "importance": 75,
-          "slug": "trump-deal-with-putin-reverses-ukraine-pressure-stance"
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "trumps-deal-sparks-ukrainian-criticism-over-russia"
         },
         {
           "representativeTitle": "Omani Pilot Allegedly Planned Attack on Israeli Airport",
@@ -416,10 +494,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Flydubai co-pilot planned suicide attack on Israeli airport, UAE prosecutors say",
+              "title": "Flydubai co-pilot planned suicide attack in Israel inspired by 9/11",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNalpIZFFGY0g0VXItcXlfVVZ5RTNCS2xSTTBEaWFHUFVjS0x5SVBwMDJkSnEyQjNhSUgwWkdBTnhCa2phVU90SV9VbFpYalFXWmlpSS11Q0N4aExSYndYNXZ4SFhmUTJOby1ySEZUaFlCVlZ4bzhkMENHM1J2WlFqRXloY2s5S3F5eEw5U1JyUHVlcGxkeHhueTNWRlNOQ0lEZC1ZSUtCVldxTFNsY1oxN2g3RU5zamd4VWRTVVJLM1lzRTQ?oc=5",
-              "pubDate": "2026-10-09T20:38:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcTMwcGsySlNhN2l4QTJJMi11SF9Ja2ZvZ0E2SHBSNkpxb3NwaUk4LWtzRmdlR2dDTEdqY2o5RDNEZzk3YVBVMjd2NTFUR3VkODZSanA4bGJ1TjVnT05ENGFDMkZwT1VwZGpCQkdQa3BzTEJlMTM1bkZXN09xV0puRlFXVkNyOUVoR2ZRMFBzdFdaUmxWS0d4SUtxSW1JLW5GQ0lMbnV4QlBRR3hmUlBPSjJR?oc=5",
+              "pubDate": "2026-10-09T18:29:39.000Z",
               "tier": 2
             }
           ],
@@ -431,7 +509,7 @@ export const newsData = {
           "slug": "omani-pilot-allegedly-planned-attack-on-israeli-airport"
         },
         {
-          "representativeTitle": "Russian Strikes Kill Dozen in Ukraine's Zaporizhzhia City",
+          "representativeTitle": "Russian Strikes Kill Dozens; Kyiv Experiences Power Outages",
           "sources": [
             "France 24",
             "Euronews"
@@ -439,7 +517,7 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Live: Russian strikes on Ukraine's Zaporizhzhia kill at least 12, including children",
+              "title": "Live: Russian strikes on Ukraine kill at least 15 in Zaporizhzhia, cause power outages in Kyiv",
               "source": "France 24",
               "link": "https://www.france24.com/en/europe/20261010-live-russian-strikes-on-ukraine-zaporizhzhia-kill-least-seven-including-children",
               "pubDate": "2026-10-10T08:41:39.000Z",
@@ -458,95 +536,97 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 10,
           "importance": 70,
-          "slug": "russian-strikes-kill-dozen-in-ukraines-zaporizhzhia-city"
+          "slug": "russian-strikes-kill-dozens-kyiv-experiences-power-outages"
         },
         {
-          "representativeTitle": "Suspect Killed After Kindergarteners Held Hostage in Brazil",
+          "representativeTitle": "Houthi Attack Injures Dozens at Riyadh Airport",
           "sources": [
-            "Al Jazeera"
+            "The Guardian",
+            "Euronews"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Suspect killed after 13 kindergarteners taken hostage, beaten in Brazil",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/10/suspect-killed-after-13-kindergarteners-taken-hostage-beaten-in-brazil?traffic_source=rss",
-              "pubDate": "2026-10-10T09:45:14.000Z",
+              "title": "Dozens reported injured in Yemeni Houthi attack at Riyadh airport",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+              "pubDate": "2026-10-10T15:54:12.000Z",
               "tier": 1
             },
             {
-              "title": "Brazil police rescue 13 children taken hostage at kindergarten",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/10/brazil-police-rescue-13-children-taken-hostage-at-kindergarten?traffic_source=rss",
-              "pubDate": "2026-10-10T09:14:26.000Z",
+              "title": "Evacuations and injuries reported at Riyadh airport after another alleged Houthi attack",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/10/evacuations-and-injuries-reported-at-riyadh-airport-after-another-alleged-houthi-attack",
+              "pubDate": "2026-10-10T15:48:55.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "houthi-attack-injures-dozens-at-riyadh-airport"
+        },
+        {
+          "representativeTitle": "Laureate Condemns US Sanctions Against ICC Body",
+          "sources": [
+            "BBC World",
+            "Le Monde"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-10T15:23:47.000Z",
               "tier": 1
+            },
+            {
+              "title": "Nobel peace laureate Pillay condemns US sanctions on ICC",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/10/nobel-peace-laureate-pillay-condemns-us-sanctions-on-icc_6758456_4.html",
+              "pubDate": "2026-10-10T14:50:56.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "laureate-condemns-us-sanctions-against-icc-body"
+        },
+        {
+          "representativeTitle": "Gaza faces severe food shortages post-ceasefire.",
+          "sources": [
+            "France 24",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Palestinians struggle to find food in Gaza a year after ceasefire",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/middle-east/20261010-hunger-and-malnutrition-stalk-gazans-a-year-on-from-ceasefire",
+              "pubDate": "2026-10-10T04:31:42.000Z",
+              "tier": 1
+            },
+            {
+              "title": "A year of ceasefire in Gaza through the lens of NPR's reporter",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQclV3MVIxQlZkLU15S3NVQXVndFlRYUZsLTM5dGRJR013VFhBWlBsbVN6NXFZT2pQT3B4d3R0OUFldVJzcmt5MnJMRmp3RjY3bU41VG9hMkowdWtuNUpPd0xKZWZHcHdQMS1KMmZEQWF6eUNfb0pSMW9XTDFDRmhqcDR3b1V0dGVYWE5KMUZVR2lUSXd2SXNUNFNZWGlKZw?oc=5",
+              "pubDate": "2026-10-10T09:00:00.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "suspect-killed-after-kindergarteners-held-hostage-in-brazil"
-        },
-        {
-          "representativeTitle": "Trump Deal on Russian Diesel Sparks Zelensky Criticism",
-          "sources": [
-            "BBC US",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-10T04:38:20.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump announces diesel deal with Russia in bid to lower prices",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSjZFUm54SlFoNWZvRHdYVXE5Z1JDc0h5eE96V2JmVk41eWs2TlRkcjRXaW1nb3Vfa08yeUlFSE15NlFpeTExekZRLXY3WHdGZDdOMHY2ZkpuWjA5cEhsZkUzNUVwTDNySS1hQW8yeWtSejk5TzJTbm84SVVtazFnM0ZaUk5sekE0SUhQTFFkUU5oczQ1QXR5TXYzdGpNYmRuVFRPeDJuMA?oc=5",
-              "pubDate": "2026-10-10T03:56:04.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
           "relevance_score": 9,
           "importance": 65,
-          "slug": "trump-deal-on-russian-diesel-sparks-zelensky-criticism"
-        },
-        {
-          "representativeTitle": "Abbas postpones elections; sets presidential poll for 2027.",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "🔴 Palestinian president Abbas postpones legislative elections, sets presidential poll for September 2027",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20261010-palestinian-president-abbas-postpones-legislative-elections-to-september-2027",
-              "pubDate": "2026-10-10T11:58:24.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Palestinian president Abbas postpones legislative, presidential elections to September 2027",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20261010-palestinian-president-abbas-postpones-legislative-elections-to-september-2027",
-              "pubDate": "2026-10-10T11:56:40.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 60,
-          "slug": "abbas-postpones-elections-sets-presidential-poll-for-2027"
+          "slug": "gaza-faces-severe-food-shortages-post-ceasefire"
         },
         {
           "representativeTitle": "Hurricane Isaias causes widespread power outages; tornadoes warned.",
@@ -559,7 +639,7 @@ export const newsData = {
               "title": "Hurricane Isaias live updates: warning of ‘spinoff tornadoes’ as hundreds of thousands without power",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/live/2026/oct/10/hurricane-isaias-gulf-coast-alabama-florida-louisiana-mississippi-latest-updates",
-              "pubDate": "2026-10-10T11:55:12.000Z",
+              "pubDate": "2026-10-10T16:14:12.000Z",
               "tier": 1
             }
           ],
@@ -571,26 +651,56 @@ export const newsData = {
           "slug": "hurricane-isaias-causes-widespread-power-outages-tornadoes-warned"
         },
         {
-          "representativeTitle": "Russian Attack on Zaporizhzhia Kills At Least Fifteen People",
+          "representativeTitle": "Conflict Dynamics Remain Uncertain Despite Hamas Factor",
           "sources": [
-            "BBC World"
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-10T11:17:15.000Z",
+              "title": "With or without Hamas",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/opinions/2026/10/10/with-or-without-hamas?traffic_source=rss",
+              "pubDate": "2026-10-10T15:19:41.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.9,
+          "sentiment": -0.4,
           "relevance_score": 9,
           "importance": 60,
-          "slug": "russian-attack-on-zaporizhzhia-kills-at-least-fifteen-people"
+          "slug": "conflict-dynamics-remain-uncertain-despite-hamas-factor"
+        },
+        {
+          "representativeTitle": "Delhi Police Detain Thousands Over Protest Movement",
+          "sources": [
+            "Al Jazeera",
+            "Euronews"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "New Delhi police crack down on protesters ahead of anti-gov’t march",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/10/new-delhi-police-crack-down-on-protesters-ahead-of-anti-govt-march?traffic_source=rss",
+              "pubDate": "2026-10-10T13:23:42.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Thousands detained in New Delhi as police crack down on 'cockroach' movement",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/10/thousands-detained-in-new-delhi-as-police-crack-down-on-cockroach-movement",
+              "pubDate": "2026-10-10T14:06:06.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "delhi-police-detain-thousands-over-protest-movement"
         },
         {
           "representativeTitle": "Airport Attacks Strain Saudi Arabia's Diplomatic Efforts",
@@ -615,6 +725,50 @@ export const newsData = {
           "slug": "airport-attacks-strain-saudi-arabias-diplomatic-efforts"
         },
         {
+          "representativeTitle": "Russia Plague Scare Sparks Global Public Health Concerns",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Russia Plague Scare Raises Public Health Questions",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-10/russia-plague-scare-raises-public-health-questions-video",
+              "pubDate": "2026-10-10T16:11:03.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "russia-plague-scare-sparks-global-public-health-concerns"
+        },
+        {
+          "representativeTitle": "Saudi Airport Hit Again; Several People Injured",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Several injured as Saudi capital airport reportedly hit again",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-10T16:05:18.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "saudi-airport-hit-again-several-people-injured"
+        },
+        {
           "representativeTitle": "Global Risk Map Shifts; Rich Nations Face New Fronts",
           "sources": [
             "Bloomberg Markets"
@@ -637,34 +791,70 @@ export const newsData = {
           "slug": "global-risk-map-shifts-rich-nations-face-new-fronts"
         },
         {
-          "representativeTitle": "French Protests Spark Scrutiny Over Police Tactics",
+          "representativeTitle": "London Protests Support Palestinians Amid Conflict Tensions",
           "sources": [
-            "France 24",
-            "Google World"
+            "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Severe injuries at French student protests draw scrutiny to police tactics",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261010-injuries-french-student-protests-draw-scrutiny-to-police-tactics",
-              "pubDate": "2026-10-10T10:20:54.000Z",
+              "title": "Thousands gather in London to express support for Palestinians after three years of ‘genocide’",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/10/thousands-in-london-express-support-for-palestinians-after-three-years-genocide",
+              "pubDate": "2026-10-10T15:52:21.000Z",
               "tier": 1
-            },
-            {
-              "title": "French policing under scrutiny as student protest injuries mount",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNHl6SHlJTVNheFJ6OFJldVVpYWxNRXJoVzRBX2hzN004MDc2YkpWelhPLUsxSkJRUmQtcm96Q19lVDNqZFViMzl0aVoxdU5SZDBSZDc2UTVydnVRMDBURzFBbFMwRmEwLS1HRk53M0ZoY2tpNU5NUGpSTUx4blUtWWI5R1ZIZVJoZlFaYS1RRGpmbHFnVHlUVFhrYTM2ektFM3BDN2V3?oc=5",
-              "pubDate": "2026-10-10T06:05:00.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
+          "relevance_score": 8,
           "importance": 55,
-          "slug": "french-protests-spark-scrutiny-over-police-tactics"
+          "slug": "london-protests-support-palestinians-amid-conflict-tensions"
+        },
+        {
+          "representativeTitle": "Laureate Criticizes US Sanctions Against ICC Body",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-10T15:23:47.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "laureate-criticizes-us-sanctions-against-icc-body"
+        },
+        {
+          "representativeTitle": "Paramilitary drone strike kills dozens near border",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Drone strike by Sudan paramilitary kills 41 near Ethiopian border, rights group says",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c8vgx9ew571wo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-10T14:49:32.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "paramilitary-drone-strike-kills-dozens-near-border"
         },
         {
           "representativeTitle": "Russia Targets Ukraine Bridges Amid Air War Expansion",
@@ -689,58 +879,6 @@ export const newsData = {
           "slug": "russia-targets-ukraine-bridges-amid-air-war-expansion"
         },
         {
-          "representativeTitle": "Trump Claims Putin Will Supply US With Diesel Fuel",
-          "sources": [
-            "Bloomberg Markets",
-            "BBC Business"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Trump Says Putin to Supply US With Diesel",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-09/the-close-10-9-2026-video",
-              "pubDate": "2026-10-09T23:17:38.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-              "source": "BBC Business",
-              "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-10T04:38:20.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "trump-claims-putin-will-supply-us-with-diesel-fuel"
-        },
-        {
-          "representativeTitle": "Investigation targets alleged crime kingpin's Cambodian empire.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Exposing an alleged crime kingpin’s Cambodian empire",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/101-east/2026/10/10/exposing-an-alleged-crime-kingpins-cambodian-empire?traffic_source=rss",
-              "pubDate": "2026-10-10T11:30:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "investigation-targets-alleged-crime-kingpins-cambodian-empire"
-        },
-        {
           "representativeTitle": "US warns Kyiv over strikes jeopardizing intelligence sharing.",
           "sources": [
             "FT International"
@@ -751,7 +889,7 @@ export const newsData = {
               "title": "US warns Kyiv that strikes on Russia jeopardise intelligence-sharing",
               "source": "FT International",
               "link": "https://www.ft.com/content/7fd4dffc-8adf-4ad8-9fba-333e1ced991d?syn-25a6b1a6=1",
-              "pubDate": "2026-10-10T11:29:43.000Z",
+              "pubDate": "2026-10-10T13:32:58.000Z",
               "tier": 1
             }
           ],
@@ -761,28 +899,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "us-warns-kyiv-over-strikes-jeopardizing-intelligence-sharing"
-        },
-        {
-          "representativeTitle": "October 7 Trauma Shapes Israeli Voter Landscape Now",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "October 7 scars push Israel's first-time voters to right",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261010-october-7-scars-push-israel-s-first-time-voters-to-right",
-              "pubDate": "2026-10-10T11:01:20.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "october-7-trauma-shapes-israeli-voter-landscape-now"
         },
         {
           "representativeTitle": "EU Budget Proposal Slashed Amid Year-End Talks",
@@ -829,78 +945,26 @@ export const newsData = {
           "slug": "taiwan-leader-urges-democracies-amid-us-china-tensions"
         },
         {
-          "representativeTitle": "Police Arrest Protest Leader Ahead of Mass Demonstration",
+          "representativeTitle": "Police Arrest Protest Leader Amid Street Demonstrations",
           "sources": [
-            "France 24",
-            "Google World"
+            "FT International"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "India's 'cockroach' movement: \"This is unprecedented\"",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261010-india-s-cockroach-movement-this-is-unprecedented",
-              "pubDate": "2026-10-10T09:20:21.000Z",
+              "title": "Police arrest leader of India’s ‘Cockroach’ movement as protesters take to streets",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/407fa757-cc77-49c0-871a-5140dd3a9a80?syn-25a6b1a6=1",
+              "pubDate": "2026-10-10T16:07:40.000Z",
               "tier": 1
-            },
-            {
-              "title": "Police arrest leader of India’s ‘Cockroach’ movement before mass protest",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZWZvSHI0cEtzaWdJTVo4eXhOS0l2U2t1T2x0S2ZpRWtmV1pxY3JuVXBnYWFWcTQ1azBHR2hMZHVGRHZjVm01NWNOXy1YWG5XU3Jxak55Y1hMN01vcEZ3RFJUTkdwVC0wV3hXeHMwOFZodEpTVjJ0X1pteldkZHhRZDVmSWc?oc=5",
-              "pubDate": "2026-10-10T08:35:15.000Z",
-              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Business",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "police-arrest-protest-leader-ahead-of-mass-demonstration"
-        },
-        {
-          "representativeTitle": "India detains student leaders amid protest crackdown.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "India Detains Student Leaders in Major Crackdown on Protests",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-10/india-masses-police-in-new-delhi-as-cockroach-protest-looms",
-              "pubDate": "2026-10-10T03:23:21.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "india-detains-student-leaders-amid-protest-crackdown"
-        },
-        {
-          "representativeTitle": "India takes emergency steps amid currency decline.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "India Announces Emergency Steps to Support Plunging Currency",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-10/rbi-announces-special-oil-window-regulatory-steps-for-rupee",
-              "pubDate": "2026-10-10T03:14:34.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "india-takes-emergency-steps-amid-currency-decline"
+          "importance": 45,
+          "slug": "police-arrest-protest-leader-amid-street-demonstrations"
         },
         {
           "representativeTitle": "Major Panama Earthquake Triggers Widespread Aftershock Activity",
@@ -923,28 +987,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "major-panama-earthquake-triggers-widespread-aftershock-activity"
-        },
-        {
-          "representativeTitle": "Police Arrest Protest Leader Amid Street Demonstrations",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Police arrest leader of India’s ‘Cockroach’ movement as protesters take to streets",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/407fa757-cc77-49c0-871a-5140dd3a9a80?syn-25a6b1a6=1",
-              "pubDate": "2026-10-10T11:54:23.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "police-arrest-protest-leader-amid-street-demonstrations"
         },
         {
           "representativeTitle": "Polish Central Bank Meeting Faces Leadership Vacuum Concerns",
@@ -991,6 +1033,28 @@ export const newsData = {
           "slug": "quebec-independence-dreams-fade-amid-political-reality-check"
         },
         {
+          "representativeTitle": "Panama hit by earthquake; tsunami warning issued now.",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Tsunami alert after major earthquake rocks Panama",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-tsunami-major-earthquake-panama.html",
+              "pubDate": "2026-10-10T12:19:53.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "panama-hit-by-earthquake-tsunami-warning-issued-now"
+        },
+        {
           "representativeTitle": "Wildfire Smoke Closes Schools in Major Amazon City",
           "sources": [
             "Phys.org"
@@ -1011,72 +1075,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "wildfire-smoke-closes-schools-in-major-amazon-city"
-        },
-        {
-          "representativeTitle": "Australia Signals Reduced Reliance on Russian Fuel Sources",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Australia Says Doesn’t Need Russian Fuel After Trump Diesel Move",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-10/australia-says-doesn-t-need-russian-fuel-after-trump-diesel-move",
-              "pubDate": "2026-10-10T02:30:03.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "australia-signals-reduced-reliance-on-russian-fuel-sources"
-        },
-        {
-          "representativeTitle": "Park Plan Sparks Local Resident Anxiety in Vietnam",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Safari Park Plan Sparks Fresh Wave of Resident Angst in Vietnam",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-10/safari-park-plan-sparks-fresh-wave-of-resident-angst-in-vietnam",
-              "pubDate": "2026-10-10T02:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "park-plan-sparks-local-resident-anxiety-in-vietnam"
-        },
-        {
-          "representativeTitle": "China and EU reach understanding on auto trade.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "China and EU avert trade conflict with ‘understanding’ on hybrid cars",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/2823ef6f-b3d7-494b-b131-414c02d6a59f?syn-25a6b1a6=1",
-              "pubDate": "2026-10-09T15:41:56.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "china-and-eu-reach-understanding-on-auto-trade"
         }
       ]
     },
@@ -1084,153 +1082,72 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Hurricane Isaias Makes Florida Landfall With High Winds",
+          "representativeTitle": "Woman Released After Botched Execution Attempt",
           "sources": [
-            "BBC World",
-            "The Guardian",
-            "Al Jazeera",
-            "Euronews"
+            "BBC US",
+            "ABC News Top",
+            "Google US"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Hurricane Isaias downgraded after making landfall in Florida",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-10T11:55:12.000Z",
+              "title": "Christa Pike discharged from hospital and returned to prison, her lawyers say",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-10T15:58:06.000Z",
               "tier": 1
             },
             {
-              "title": "Hurricane Isaias makes landfall in Florida and hammers Gulf coast",
+              "title": "Christa Pike released from hospital following botched execution, attorneys say",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/US/christa-pike-released-hospital-botched-execution/story?id=137160162",
+              "pubDate": "2026-10-10T16:19:20.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Christa Pike discharged from hospital and returned to prison, her lawyers say",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jZzlJTUYzMm9CUTMyU0tKTUNXbGt3UXNQSG9xWWVpdXVHaUZVSFYwTUhmWTlRR25MQXNQQnhFQnlBTW5SRjhZa2p4a05NRXBsNnJDbzhObFBmN0E?oc=5",
+              "pubDate": "2026-10-10T15:28:10.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "woman-released-after-botched-execution-attempt"
+        },
+        {
+          "representativeTitle": "Cyclone Strikes Florida; Two Dead Reported After Impact",
+          "sources": [
+            "The Guardian",
+            "Le Monde"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Two dead as Isaias weakens to post-tropical cyclone after striking Florida panhandle",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/09/hurricane-isaias-makes-landfall",
-              "pubDate": "2026-10-10T03:56:50.000Z",
+              "link": "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
+              "pubDate": "2026-10-10T14:34:15.000Z",
               "tier": 1
             },
             {
-              "title": "Isaias weakens after making landfall in US Gulf Coast as hurricane",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/10/isaias-weakens-after-making-landfall-in-us-gulf-coast-as-hurricane?traffic_source=rss",
-              "pubDate": "2026-10-10T08:33:44.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Life-threatening Hurricane Isaias makes landfall in Florida, bringing high winds and heavy rain",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/10/life-threatening-hurricane-isaias-makes-landfall-in-florida-bringing-high-winds-and-heavy-",
-              "pubDate": "2026-10-10T07:03:14.000Z",
+              "title": "Isaias downgraded to post-tropical cyclone after landfall in Florida",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/10/isaias-downgraded-to-post-tropical-cyclone-after-landfall-in-florida_6758437_5.html",
+              "pubDate": "2026-10-10T13:58:38.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
           "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 95,
-          "slug": "hurricane-isaias-makes-florida-landfall-with-high-winds"
-        },
-        {
-          "representativeTitle": "Hurricane Isaias approaches Florida with heavy rain.",
-          "sources": [
-            "BBC US",
-            "NBC News",
-            "ABC News Top"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Hurricane Isaias downgraded after making landfall in Florida",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-10T11:55:12.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Hurricane Isaias makes landfall in Florida",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/now/video/hurricane-isaias-makes-landfall-in-florida-271377477807",
-              "pubDate": "2026-10-10T02:11:22.000Z",
-              "tier": 2
-            },
-            {
-              "title": "'Hopefully we have a home to go back to': Florida resident evacuates ahead of Hurricane Isaias landfall",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/video/florida-resident-evacuates-ahead-of-hurricane-isaias-landfall-271376965611",
-              "pubDate": "2026-10-10T02:03:37.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Alabama makes final preparations for Hurricane Isaias before landfall",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/video/alabama-makes-final-preparations-for-hurricane-isaias-before-landfall-271376453860",
-              "pubDate": "2026-10-10T02:01:16.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Special Report: Hurricane Isaias downgraded to category two as it's expected to make landfall",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/video/special-report-hurricane-isaias-downgraded-to-category-two-as-it-s-expected-to-make-landfall-271371845915",
-              "pubDate": "2026-10-10T00:14:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Heavy rain batters Florida as Hurricane Isaias approaches landfall",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/video/heavy-rain-batters-florida-as-hurricane-isaias-approaches-landfall-271369285930",
-              "pubDate": "2026-10-09T23:04:10.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Hurricane Isaias updates: Isaias downgraded to post-tropical cyclone",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/live-updates/hurricane-isaias-updates-isaias-strengthens-category-3/?id=137128637",
-              "pubDate": "2026-10-10T10:41:22.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 70,
-          "slug": "hurricane-isaias-approaches-florida-with-heavy-rain"
-        },
-        {
-          "representativeTitle": "Pentagon confirms livestreaming of firing squad execution.",
-          "sources": [
-            "BBC US",
-            "NBC News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "JD Vance casts doubt on firing squad execution and says he would not watch it",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-09T21:50:47.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Firing squad execution to be livestreamed, Pentagon says",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-09T19:26:48.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Backlash to livestream of firing squad execution",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/nightly-news/video/backlash-to-livestream-of-firing-squad-execution-271368773744",
-              "pubDate": "2026-10-09T22:55:17.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 75,
-          "slug": "pentagon-confirms-livestreaming-of-firing-squad-execution"
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "cyclone-strikes-florida-two-dead-reported-after-impact"
         },
         {
           "representativeTitle": "ICE Shooting Sparks Political Clash Between Trump and NYC",
@@ -1263,105 +1180,81 @@ export const newsData = {
           "slug": "ice-shooting-sparks-political-clash-between-trump-and-nyc"
         },
         {
-          "representativeTitle": "Trump Names New Press Secretary Amid Political Changes",
+          "representativeTitle": "Mass Shooting Claims Lives in Pennsylvania Community",
           "sources": [
-            "BBC World",
-            "SCMP",
-            "Sky News",
-            "Time"
+            "The Guardian"
           ],
-          "citationCount": 4,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Commentator Katie Zacharia picked as new White House press secretary",
+              "title": "Nine people, including children, dead after mass shooting in Pennsylvania",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/oct/10/nine-people-mass-shooting-pennsylvania",
+              "pubDate": "2026-10-10T15:45:45.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "mass-shooting-claims-lives-in-pennsylvania-community"
+        },
+        {
+          "representativeTitle": "Hurricane Isaias Causes Casualties, Widespread Power Outages.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hurricane Isaias leaves two dead and 800,000 without power in US Southeast",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/10/hurricane-isaias-leaves-two-dead-and-800000-without-power-in-us-southeast?traffic_source=rss",
+              "pubDate": "2026-10-10T15:45:36.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "hurricane-isaias-causes-casualties-widespread-power-outages"
+        },
+        {
+          "representativeTitle": "Pike discharged from hospital, returns to prison.",
+          "sources": [
+            "BBC World",
+            "Le Monde"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Christa Pike discharged from hospital and returned to prison, her lawyers say",
               "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-09T22:41:21.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-10T15:58:06.000Z",
               "tier": 1
             },
             {
-              "title": "Trump picks Truth Social’s Katie Zacharia as White House press secretary",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3370413/trump-picks-truth-socials-katie-zacharia-white-house-press-secretary?utm_source=rss_feed",
-              "pubDate": "2026-10-09T22:37:12.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump appoints 'devoted fan' as White House press secretary",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/donald-trump-appoints-commentator-and-devoted-fan-katie-zacharia-as-new-white-house-press-secretary-13597098",
-              "pubDate": "2026-10-09T23:35:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump Taps Katie Zacharia to Replace Karoline Leavitt as White House Press Secretary",
-              "source": "Time",
-              "link": "https://time.com/article/2026/10/09/katie-zacharia-white-house-press-secretary-leavitt-trump/",
-              "pubDate": "2026-10-09T18:46:53.000Z",
+              "title": "Christa Pike discharged from hospital after surviving execution attempt",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/10/christa-pike-discharged-from-hospital-after-surviving-execution-attempt_6758461_4.html",
+              "pubDate": "2026-10-10T15:45:31.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 60,
-          "slug": "trump-names-new-press-secretary-amid-political-changes"
+          "importance": 50,
+          "slug": "pike-discharged-from-hospital-returns-to-prison"
         },
         {
-          "representativeTitle": "Hurricane Isaias Impacts Gulf Coast Region Now",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Hurricane Isaias pounding Gulf Coast",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/nightly-news/video/hurricane-isaias-pounding-gulf-coast-271375941723",
-              "pubDate": "2026-10-10T01:22:23.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Hurricane Isaias live updates: hundreds of thousands without power as storm batters US Gulf Coast",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUnRXek8taFB0c2NzZ3d5M0o0c2MxQV9xc3dET1h0MlJaQ3FCWVF2bU9taVU3LVQ0d1d0UHhnMTRORk9OTjlhMWh0UlRXZFRiSURMZUl1d21NSkVFVVlqZHhycVRDUlhTWEw0VGxDejlvN0xVNG1ob1E5M2hsaU51eVd1NUdYb0w3U3l2OGJVMlBKSjRkSmlibWxVbDd2eERQUG9OUVd2Y1VwVzVlWlFMTk9nQndEZGFDR3lRUnZHOENfQzVmOWZmR182WQ?oc=5",
-              "pubDate": "2026-10-10T09:34:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 55,
-          "slug": "hurricane-isaias-impacts-gulf-coast-region-now"
-        },
-        {
-          "representativeTitle": "Isaias Storm Causes Widespread Power Outages Gulf Coast",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Isaias Leaves Thousands Without Power After Striking Gulf Coast",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-10/isaias-leaves-thousands-without-power-after-striking-gulf-coast",
-              "pubDate": "2026-10-10T09:32:11.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "isaias-storm-causes-widespread-power-outages-gulf-coast"
-        },
-        {
-          "representativeTitle": "Veteran Shot in Fort Hood Massacre Warns Viewers",
+          "representativeTitle": "Mass shooting kills nine people in Pennsylvania.",
           "sources": [
             "Fox News",
             "Google US"
@@ -1369,114 +1262,114 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Veteran shot 7 times in Fort Hood massacre has a warning for Americans planning to watch execution",
+              "title": "Nine people killed in Pennsylvania shooting; suspected gunman found dead: report",
               "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/veteran-shot-7-times-fort-hood-massacre-warning-americans-planning-watch-execution",
-              "pubDate": "2026-10-10T11:00:04.000Z",
+              "link": "https://www.foxnews.com/us/multiple-people-killed-pennsylvania-shooting-suspected-gunman-found-dead-report",
+              "pubDate": "2026-10-10T12:57:28.000Z",
               "tier": 2
             },
             {
-              "title": "JD Vance says he won't watch livestream execution of Fort Hood shooter",
+              "title": "9 people killed, including 2 children, in mass shooting in northern Pennsylvania",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU29GaWlaWjVIek81VDNFancwa2ZzeFBmRzl3UGtIWmRVUXVxS1dUdUdVanJaR2Z2WDZRWk1YbWNOTWV2NHdVMEVzNlFSMGhHZ01sc1hyMDQ1eU9uaG9zTjZGaGpkbWIzbmoyUC1SWlBIbDNEcUM0YmlvYlFUb25mT2N5cmhQd1U?oc=5",
-              "pubDate": "2026-10-10T10:00:26.000Z",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLVlQVmJCVGVoLWlfUWhWMk1BM0prajZwMlg2WTB6SEhWLVJjeXJ1UGZRc2prbm9xS0xLVmxnanBLMzQwbko3bTZ4eDJtWnVONmxZLXI5Slc3dGJQamVTS0tVaGFDeWdLbVFfUGpDLWFNWEFJdVc5YjJ2RE9PM0hBMVcyNzJjOV9uUnp3ay1n?oc=5",
+              "pubDate": "2026-10-10T15:42:27.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.4,
+          "sentiment": -0.9,
           "relevance_score": 8,
           "importance": 50,
-          "slug": "veteran-shot-in-fort-hood-massacre-warns-viewers"
+          "slug": "mass-shooting-kills-nine-people-in-pennsylvania"
         },
         {
-          "representativeTitle": "MP warns Greens must avoid extremist influence.",
+          "representativeTitle": "Nixon's political revival sparks debate over history.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Nixonmaxxing: the strange revival of America’s disgraced president",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/e3945b16-13f0-4640-882d-fafaca9d25e9?syn-25a6b1a6=1",
+              "pubDate": "2026-10-10T10:00:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "nixons-political-revival-sparks-debate-over-history"
+        },
+        {
+          "representativeTitle": "Council warned about worker before arrest.",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Greens must avoid ‘capture by extremists and racists’, says party MP",
+              "title": "Camden council was warned about paedophile nursery worker years before arrest",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/oct/10/greens-must-avoid-capture-by-extremists-and-racists-ellie-chowns-zionism-racism",
-              "pubDate": "2026-10-10T11:46:03.000Z",
+              "link": "https://www.theguardian.com/society/2026/oct/10/vincent-chan-paedophile-nursery-worker-camden-council-warning-years-before-arrest",
+              "pubDate": "2026-10-10T15:00:01.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "mp-warns-greens-must-avoid-extremist-influence"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "council-warned-about-worker-before-arrest"
         },
         {
-          "representativeTitle": "Kaptur's Reelection Bid Stumbles Over Ad Controversy",
+          "representativeTitle": "Former GOP Governors Back Democrat in Red State Senate Race",
           "sources": [
-            "The Guardian"
+            "Google US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Marcy Kaptur: longest-serving congresswoman’s bid for another House term roiled by anti-trans ad",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/oct/10/marcy-kaptur-ohio-trans-ad",
-              "pubDate": "2026-10-10T11:00:57.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "kapturs-reelection-bid-stumbles-over-ad-controversy"
-        },
-        {
-          "representativeTitle": "Officials Defend Shooting of Man Near Child During Arrest",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US immigration officials defend ICE agents who shot man in same car as child",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cq78px5y1zmzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-10T00:13:12.000Z",
-              "tier": 1
+              "title": "Why former Republican governors are backing a Democrat for Senate in a red state",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMC1VQXMxOHU0X1VZM05WVlhkazR2Y2hlM1A2OU9ja1lueDh5ck5Xel9TMElrWC13MkEyRGxPQTJkRGQwOGVvYkhHX2s0RlhGU01KbVFxSS1DMnN3VkpYWHVlOFhXSEJFZm9HRHFsREZNS2ZBSW9mZTJJaFFxZlJZQWF6RlNyb0xmN2lmcnJSRWRPN2hTRURSZ1Q1SGtJQ0tQSkVDektkVUdIbUh2a0hVVlBybG1KaDFjVkppaUJB?oc=5",
+              "pubDate": "2026-10-10T15:37:52.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "officials-defend-shooting-of-man-near-child-during-arrest"
+          "importance": 45,
+          "slug": "former-gop-governors-back-democrat-in-red-state-senate-race"
         },
         {
-          "representativeTitle": "Trump's Victory Claim Sparks Criticism From UAW Leader",
+          "representativeTitle": "Storm Waves Threaten Damage Along California Coastline",
           "sources": [
-            "Washington Post"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "UAW leader reviled by Trump declares victory in reelection",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/business/2026/10/09/union-leader-reviled-by-trump-wins-reelection-uaw/",
-              "pubDate": "2026-10-09T23:25:49.000Z",
-              "tier": 1
+              "title": "Powerful waves lash California coast as storm threatens more damage",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-powerful-lash-california-coast-storm.html",
+              "pubDate": "2026-10-10T12:20:02.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Science",
           "aiCategory": "US",
-          "sentiment": -0.4,
+          "sentiment": -0.9,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "trumps-victory-claim-sparks-criticism-from-uaw-leader"
+          "importance": 45,
+          "slug": "storm-waves-threaten-damage-along-california-coastline"
         },
         {
           "representativeTitle": "Isaias downgraded after Florida landfall; storm threat lessens.",
@@ -1501,47 +1394,25 @@ export const newsData = {
           "slug": "isaias-downgraded-after-florida-landfall-storm-threat-lessens"
         },
         {
-          "representativeTitle": "Former GOP Governors Back Democrat in Red State Senate Race",
+          "representativeTitle": "Vance questions firing squad executions, states personal view.",
           "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Why former Republican governors are backing a Democrat for Senate in a red state",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMC1VQXMxOHU0X1VZM05WVlhkazR2Y2hlM1A2OU9ja1lueDh5ck5Xel9TMElrWC13MkEyRGxPQTJkRGQwOGVvYkhHX2s0RlhGU01KbVFxSS1DMnN3VkpYWHVlOFhXSEJFZm9HRHFsREZNS2ZBSW9mZTJJaFFxZlJZQWF6RlNyb0xmN2lmcnJSRWRPN2hTRURSZ1Q1SGtJQ0tQSkVDektkVUdIbUh2a0hVVlBybG1KaDFjVkppaUJB?oc=5",
-              "pubDate": "2026-10-10T12:02:42.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "former-gop-governors-back-democrat-in-red-state-senate-race"
-        },
-        {
-          "representativeTitle": "Texas nominee reappears after multi-day absence.",
-          "sources": [
-            "NBC News",
-            "Google US"
+            "BBC US",
+            "NBC News"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "James Talarico back on the trail after absence with flu drew scrutiny",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/james-talarico-back-campaign-trail-absence-flu-rcna602599",
-              "pubDate": "2026-10-09T21:09:54.000Z",
-              "tier": 2
+              "title": "JD Vance casts doubt on firing squad execution and says he would not watch it",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-09T21:50:47.000Z",
+              "tier": 1
             },
             {
-              "title": "Texas Senate nominee James Talarico reappears after multi-day absence",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUXotNHRNM09hY3N1ZEJ6TWZYSmhURzVaa0R4eDRBMzluTGt0X08xbmxtMDFKek0zTUFVMWdHbkZDZmpMa3pBbThucHRWbjhCV3ZsMGRHeUNpVHpJZ05GZWVKM2dxOGM4Smd1dTh4QUdUZEc1ZWZsSS14UThNcXg3TEdsbHFaVDg4OHRMNkJPb1RrWkxtMXVLTC1keDFkMHNrZWVjWlRROURFc1Y1ZFNoYlg5bHFOeWFGWkdMT1JBRkUySUZpekE?oc=5",
-              "pubDate": "2026-10-10T05:35:26.000Z",
+              "title": "Backlash to livestream of firing squad execution",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/nightly-news/video/backlash-to-livestream-of-firing-squad-execution-271368773744",
+              "pubDate": "2026-10-09T22:55:17.000Z",
               "tier": 2
             }
           ],
@@ -1549,8 +1420,74 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": 0,
           "relevance_score": 6,
+          "importance": 50,
+          "slug": "vance-questions-firing-squad-executions-states-personal-view"
+        },
+        {
+          "representativeTitle": "Tropical Storm Rachel poses unusual risks to Southern California.",
+          "sources": [
+            "Google US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Tropical Storm Rachel is behaving in unusual ways. What that means for SoCal this weekend",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPX3NzU3B0eXVBaVJzN09MT0IxaDVsLTJpMk5WcWVPek5uNmFCSW5UaG9EMlVFWWxkcVpMc2JNaTVGTktLaW9HWlNIc21FYUQ5by1NaEpMMUVzQUVSYVRxR0ZEak82MXlmakszNWdpczVyUlFmT0wtVVo1TVE0RjFmUE5KWmRXa1ZkdkV6WjlOYmI5V3ppN1lFbGZ5ZHhMYUNyeXZXdjQyZURXU1JYaW5SaGNiT3RaNXZqanA0Zm9n?oc=5",
+              "pubDate": "2026-10-10T14:44:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
           "importance": 40,
-          "slug": "texas-nominee-reappears-after-multi-day-absence"
+          "slug": "tropical-storm-rachel-poses-unusual-risks-to-southern-california"
+        },
+        {
+          "representativeTitle": "Historical Context: US Public Executions Ended Decades Ago",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Public executions in the US stopped nearly a century ago",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/c6kgq7rqdql7o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-10T09:17:36.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "historical-context-us-public-executions-ended-decades-ago"
+        },
+        {
+          "representativeTitle": "Fain Wins UAW Election Amid Union Victory",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Shawn Fain Claims Victory in UAW Election Rout",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/autos/shawn-fain-claims-victory-in-uaw-election-rout-d69bac24?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-10-09T22:06:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "fain-wins-uaw-election-amid-union-victory"
         }
       ]
     },
@@ -1578,34 +1515,41 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "european-banking-stocks-decline-amid-cautionary-signals"
-        },
-        {
-          "representativeTitle": "Thai Stock Exchange Updates Trading Rules For Market",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Thai Bourse Revises Short-Selling, High-Frequency Trading Rules",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-10/thai-bourse-revises-short-selling-high-frequency-trading-rules",
-              "pubDate": "2026-10-10T02:48:24.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "thai-stock-exchange-updates-trading-rules-for-market"
         }
       ]
     },
     {
       "name": "Business",
       "children": [
+        {
+          "representativeTitle": "Hurricane Isaias Threatens Billions in Insurance Losses",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hurricane Isaias May Cost Insurers Billions",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-10/hurricane-isaias-may-cost-insurers-billions-video",
+              "pubDate": "2026-10-10T16:19:51.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Hurricane Isaias Slams Florida Panhandle",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-10/hurricane-isaias-slams-florida-panhandle-video",
+              "pubDate": "2026-10-10T12:43:13.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "hurricane-isaias-threatens-billions-in-insurance-losses"
+        },
         {
           "representativeTitle": "India's Central Bank Intervenes Amid Rupee Decline",
           "sources": [
@@ -1627,6 +1571,28 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "indias-central-bank-intervenes-amid-rupee-decline"
+        },
+        {
+          "representativeTitle": "Investment Firm Uncovers Fraud in Large Radiant Deals",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Jefferies Says It Found Fraud in $900 Million of Radiant Deals",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-10/jefferies-says-it-found-fraud-in-900-million-of-radiant-deals",
+              "pubDate": "2026-10-10T15:03:27.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "investment-firm-uncovers-fraud-in-large-radiant-deals"
         },
         {
           "representativeTitle": "China Auto Sales Plunge Significantly in September Figures",
@@ -1671,6 +1637,50 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "ai-borrowing-slows-amid-investor-debt-caution"
+        },
+        {
+          "representativeTitle": "JPMorgan sees major opportunity in fixed income market.",
+          "sources": [
+            "CNBC Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "JPMorgan makes bullish call in fixed income space, suggests it's a once in a generation opportunity",
+              "source": "CNBC Markets",
+              "link": "https://www.cnbc.com/2026/10/10/jpmorgan-sees-once-in-a-generation-opportunity-in-fixed-income-space.html",
+              "pubDate": "2026-10-10T15:00:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "jpmorgan-sees-major-opportunity-in-fixed-income-market"
+        },
+        {
+          "representativeTitle": "Theft Increases Dining Costs Amid Economic Strain",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Restaurant Theft Adds to Rising Dining Costs",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-10/restaurant-theft-adds-to-rising-dining-costs-video",
+              "pubDate": "2026-10-10T14:26:18.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "theft-increases-dining-costs-amid-economic-strain"
         },
         {
           "representativeTitle": "Canadian Community Reconsidering Reliance on Coal Energy",
@@ -1759,28 +1769,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "airlines-warn-of-challenges-facing-winter-travel"
-        },
-        {
-          "representativeTitle": "Delta cuts forecast amid fuel costs, cites demand.",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
-              "pubDate": "2026-10-09T15:07:46.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "delta-cuts-forecast-amid-fuel-costs-cites-demand"
         }
       ]
     },
@@ -1790,12 +1778,19 @@ export const newsData = {
         {
           "representativeTitle": "AI Agent Misleads Police in Unsolved Murder Case",
           "sources": [
+            "BBC US",
             "BBC World",
-            "SCMP",
-            "Sky News"
+            "SCMP"
           ],
           "citationCount": 3,
           "rawArticles": [
+            {
+              "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-10T10:06:23.000Z",
+              "tier": 1
+            },
             {
               "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
               "source": "BBC World",
@@ -1809,21 +1804,44 @@ export const newsData = {
               "link": "https://www.scmp.com/news/world/united-states-canada/article/3370414/anthropic-ai-model-sent-fake-murder-tip-us-police-hit-government-sites?utm_source=rss_feed",
               "pubDate": "2026-10-10T00:51:36.000Z",
               "tier": 2
-            },
-            {
-              "title": "AI sent police fake tip about unsolved murder",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/anthropics-ai-model-sent-philadelphia-police-fake-tip-about-unsolved-murder-13597129",
-              "pubDate": "2026-10-10T07:23:00.000Z",
-              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "Technology",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 65,
+          "importance": 75,
           "slug": "ai-agent-misleads-police-in-unsolved-murder-case"
+        },
+        {
+          "representativeTitle": "Anthropic limits AI testing due to control issues.",
+          "sources": [
+            "TechCrunch",
+            "The Verge"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+              "pubDate": "2026-10-10T00:18:32.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Anthropic is cutting off its internal evaluations from the internet",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+              "pubDate": "2026-10-10T14:41:16.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "anthropic-limits-ai-testing-due-to-control-issues"
         },
         {
           "representativeTitle": "AI Advances Enable Sophisticated Cybercrime Tactics Now",
@@ -1848,36 +1866,6 @@ export const newsData = {
           "slug": "ai-advances-enable-sophisticated-cybercrime-tactics-now"
         },
         {
-          "representativeTitle": "Tesla Renames FSD to Assisted Driving in Europe",
-          "sources": [
-            "TechCrunch",
-            "Wired"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Tesla renames ‘Full Self-Driving’ to ‘Tesla Assisted Driving’ in Europe",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
-              "pubDate": "2026-10-09T16:07:26.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Tesla’s ‘Full Self-Driving’ Becomes ‘Assisted Driving’ in Europe",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/tesla-full-self-driving-becomes-assisted-driving-in-europe/",
-              "pubDate": "2026-10-09T20:18:15.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "tesla-renames-fsd-to-assisted-driving-in-europe"
-        },
-        {
           "representativeTitle": "AI Dominates Global Focus Amid Rapid Technological Shift",
           "sources": [
             "FT International"
@@ -1900,6 +1888,72 @@ export const newsData = {
           "slug": "ai-dominates-global-focus-amid-rapid-technological-shift"
         },
         {
+          "representativeTitle": "Cloudflare Acquires Deno to Enhance Workers Platform",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Cloudflare acquires Deno to improve its Workers programming model",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
+              "pubDate": "2026-10-10T16:25:42.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "cloudflare-acquires-deno-to-enhance-workers-platform"
+        },
+        {
+          "representativeTitle": "Startups previewed before major tech conference.",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+              "pubDate": "2026-10-10T15:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "startups-previewed-before-major-tech-conference"
+        },
+        {
+          "representativeTitle": "AI Agents Integrating Into Everyday Text Messaging Platforms",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Here are the top AI agents that can live in your text messages",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+              "pubDate": "2026-10-10T14:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ai-agents-integrating-into-everyday-text-messaging-platforms"
+        },
+        {
           "representativeTitle": "China Launches Initiative Targeting AI-Linked Employment Sectors",
           "sources": [
             "Bloomberg Markets"
@@ -1920,58 +1974,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "china-launches-initiative-targeting-ai-linked-employment-sectors"
-        },
-        {
-          "representativeTitle": "AI Generates False Tip to Police Investigation",
-          "sources": [
-            "TechCrunch",
-            "The Verge"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-              "pubDate": "2026-10-09T19:36:56.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
-              "pubDate": "2026-10-09T21:15:38.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "ai-generates-false-tip-to-police-investigation"
-        },
-        {
-          "representativeTitle": "Anthropic limits AI testing due to control issues.",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-              "pubDate": "2026-10-10T00:18:32.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "anthropic-limits-ai-testing-due-to-control-issues"
         },
         {
           "representativeTitle": "Startup Innovates Safer Bike Helmet Design Breakthrough",
@@ -2018,28 +2020,6 @@ export const newsData = {
           "slug": "ai-crunch-forces-tech-rivals-into-collaborations-now"
         },
         {
-          "representativeTitle": "AI Model Maker Jev Valued at Seven Billion Dollars",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-              "pubDate": "2026-10-09T21:41:29.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ai-model-maker-jev-valued-at-seven-billion-dollars"
-        },
-        {
           "representativeTitle": "Musk Criticizes Ambani Over Starlink India Delay",
           "sources": [
             "TechCrunch"
@@ -2082,28 +2062,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 50,
           "slug": "ai-power-scarcity-disrupts-silicon-valleys-tech-landscape"
-        },
-        {
-          "representativeTitle": "NVIDIA shifts chip focus from gaming to AI.",
-          "sources": [
-            "Google Tech"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "NVIDIA Reportedly Axes RTX 5090 Production, Diverting GB202 Chips To PRO Cards As Gamers Get An RTX 5080 24 GB",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMVNqZ0s4VjRhbGJxVDNXLUhPRGlHU2hDU2ZPNjdnQmVUSVFodFNVc0FOaVBEdHcxNVQzcEtlcm9jVGpTWld2OTBzUGo3Y1I1T0dVR2RhYXBQWF9RV0tSZDU0OEVuem93bTRHbFhhenhWZEhCWC1Ral9qUmRLak9haC1TSHdnUdIBiwFBVV95cUxQcjNib0JyaHA3WjJacFZPSzlmb3VZb21Bci1sZEwtdUJoM3I0SnAtb2V2OGZOellNdEJzN25BXzhsLUZHUVZoZjJQUG5VTWxXNHlObmR1aUJZVklHQUlFeGRWMklsTXphclFseGN5blA1TlNZQTFlSklWWFU1cF9ZUnFTaTRSTDE1djM0?oc=5",
-              "pubDate": "2026-10-10T07:50:46.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "nvidia-shifts-chip-focus-from-gaming-to-ai"
         }
       ]
     },
@@ -2170,6 +2128,28 @@ export const newsData = {
           "slug": "astronaut-sophie-adenot-successfully-returns-to-earth"
         },
         {
+          "representativeTitle": "Quantum Mechanics Moves Object at Centimeter Scale",
+          "sources": [
+            "Google Science"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "For The First Time Ever, Quantum Spins Shift a Centimeter-Scale Object",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSDFrTUpLU1I5N29JS1VoU2s2dXN6NUFENVA2U1ZyZ2FZUVRwRVE0dThFa1dLa3VCbHNNM1NCdElLNkRsU2p1ai1wTkxJSGdCX3pkYS1mcWJ4WUhWMUI4TEZFa09Sdkg5TGFoR1FlR0pLWVlMWTBYRWlBdWNuc0dMbkVmVGFrN0g0dzFfQzQtS192TDN2ZVEyeUdrM2xsVnc?oc=5",
+              "pubDate": "2026-10-10T12:01:37.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "quantum-mechanics-moves-object-at-centimeter-scale"
+        },
+        {
           "representativeTitle": "Quantum Computer Observes Key Quantum Effect Breakthrough",
           "sources": [
             "Phys.org"
@@ -2192,26 +2172,26 @@ export const newsData = {
           "slug": "quantum-computer-observes-key-quantum-effect-breakthrough"
         },
         {
-          "representativeTitle": "NASA Releases Massive Artemis II Space Data Set Publicly",
+          "representativeTitle": "Archaeologists Find Major Neanderthal Toolmaking Evidence",
           "sources": [
-            "Wired"
+            "Google Science"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "NASA Just Made Nearly 1 TB of Artemis II Data Available to the Public",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/nasa-just-made-nearly-1-tb-of-artemis-ii-data-available-to-the-public/",
-              "pubDate": "2026-10-09T18:30:00.000Z",
-              "tier": 1
+              "title": "Archaeologists Uncover Unprecedented Evidence of Neanderthal Woodworking Skills",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONkx4Y2RRa3BCR2pSWWpJYWt1NjRoeTZuVjU4aGJ0UWZZMVRoalJySlhacWdJRk9RR3FBYXB1LW9vbHJRaldFc1NPQ0pNQjBJbDR1T2p0Rld5ZkxZZmRQYnB5T1ZoenY3VGJjdGpQZFNrTjZoNVN6alE0c0praUtXWWRmdzBhcnNLMlRPdnZOZ0pQMVpieS03MXNUS2FVRkU2Q2NQQzl2dEk5dVBM?oc=5",
+              "pubDate": "2026-10-10T10:01:35.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
           "sentiment": 0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "nasa-releases-massive-artemis-ii-space-data-set-publicly"
+          "importance": 45,
+          "slug": "archaeologists-find-major-neanderthal-toolmaking-evidence"
         },
         {
           "representativeTitle": "New Catalyst Improves Methane Conversion Efficiency Significantly",
@@ -2264,80 +2244,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 50,
           "slug": "quantum-cores-reveal-black-hole-ringing-patterns"
-        },
-        {
-          "representativeTitle": "Scientists Detect Water Clouds Beyond Our Solar System",
-          "sources": [
-            "Phys.org",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Discovery marks the first detection of variable water clouds outside of the solar system",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-discovery-variable-clouds-solar.html",
-              "pubDate": "2026-10-09T18:20:12.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Discovery marks the first detection of variable water clouds outside of the solar system",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qYWtlT2tlZzVGaEluWnpRamx1dnhJMER4c0ZielQ2Vm8tNFc2dWVBODdVZ1ZOU3BmOXBCQUVnTElyVExwTkNteWFFTlJGdWt0TzVKU0dKdVd3bjNZREVsUnl1bDF5MjJUY2ZCSDljQktWZl9a?oc=5",
-              "pubDate": "2026-10-09T18:20:12.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "scientists-detect-water-clouds-beyond-our-solar-system"
-        },
-        {
-          "representativeTitle": "Neanderthal Tools Found in Spanish Stone Deposit",
-          "sources": [
-            "Google Science"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Neanderthal wooden tools from Spain found preserved in stone",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZU96bDM4Mi10bEZ3bEtJdjZWZGZ0NEJReGx3XzQ3ZGlMaUJtckcyVjFWcFhNUnNtUDBtWDVvN2N6UjRZbHViYXE0b0pfQjZpRG9ORXFXQmtVTTBQd05nLTFmRVZ3a3ZnNjlNd0lWc2J6SDVDR3RDS3hiVFpxdTJReEtEY25KckhQMGJpOUVRYUN2UWNPVlp0cUlvMS0tcjd0RkJV?oc=5",
-              "pubDate": "2026-10-09T22:34:03.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "neanderthal-tools-found-in-spanish-stone-deposit"
-        },
-        {
-          "representativeTitle": "Diet Linked to Increased Exposure of Forever Chemicals",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Food testing reveals how diet can add to exposure to 'forever chemicals'",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-food-reveals-diet-exposure-chemicals.html",
-              "pubDate": "2026-10-09T23:00:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "diet-linked-to-increased-exposure-of-forever-chemicals"
         }
       ]
     }
