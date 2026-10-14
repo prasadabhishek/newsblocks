@@ -1,29 +1,27 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-13T22:49:42.285Z",
+  "lastUpdated": "2026-10-14T02:58:30.166Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Pope Diagnosed with Lung Cancer During Surgery",
+          "representativeTitle": "Pope Leo's Surgery Successful; Vatican Reports Good Outcome",
           "sources": [
             "BBC World",
             "The Guardian",
             "Al Jazeera",
             "France 24",
             "SCMP",
-            "Sky News",
-            "Le Monde",
             "Google World"
           ],
-          "citationCount": 8,
+          "citationCount": 6,
           "rawArticles": [
             {
               "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-13T20:46:06.000Z",
+              "pubDate": "2026-10-14T00:17:00.000Z",
               "tier": 1
             },
             {
@@ -62,79 +60,57 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Cancer found after Pope had part of his lung removed during 'successful' surgery",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/popes-lung-surgery-was-successful-and-went-as-planned-vatican-says-13598965",
-              "pubDate": "2026-10-13T18:13:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Vatican says growth on pope's lung was cancerous",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/13/pope-leo-xiv-arrives-at-rome-hospital-for-lung-surgery_6758556_4.html",
-              "pubDate": "2026-10-13T12:51:32.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Pope Leo Found to Have Lung Cancer During Surgery, Vatican Says",
+              "title": "Pope Leo diagnosed with lung cancer after 'successful' surgery",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zalk3S3VDUElUcFNEdUpIem4tTmtXbTRVM19GX2ZEV3BFWE15YWhGa19zZFd1cEozS0toNHd6SWdOazhZR2NPYkFkRFU4ZG9BLVFGTi0tVndYR3h1Wl9vMGs3NDl0X2lLZ2Z1Rjd4ZmlldjgzaWt4bU9DNlN0ZUU?oc=5",
-              "pubDate": "2026-10-13T22:12:05.000Z",
+              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOblRiZGZoczY2OGFzWGlzaFY2Z2I3SXlnQnRnMjVET0syd3lidmxTSXV0YTlUN182eDhCeWZpa2ZMcGE5YjBaZVVzZVFNcC1HRHpkNS1sQ0kxNXJrTURTbFNzckJEbVd4Y2QtTEp5LXlaU1FtakJQME9PTWVGTUhfRVREdEdZZENHYnl6bGVTQVpIdHh6WGoyYjFRTzNwcWZBU1ZnN21BN2lZeTVFSTMzUktnMWhIYXdqVDRjSw?oc=5",
+              "pubDate": "2026-10-14T02:15:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
+          "sentiment": 0.4,
+          "relevance_score": 6,
           "importance": 100,
-          "slug": "pope-diagnosed-with-lung-cancer-during-surgery"
+          "slug": "pope-leos-surgery-successful-vatican-reports-good-outcome"
         },
         {
-          "representativeTitle": "Trump Ousts Ambassador Over Corruption Allegations in Greece",
+          "representativeTitle": "Missile Hits Kyiv Power Plant; Allies Criticized.",
           "sources": [
             "BBC World",
-            "The Guardian",
-            "SCMP",
+            "France 24",
             "Euronews"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
+              "title": "Russian strikes hit key power plant in Kyiv, Zelensky says",
               "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-13T19:23:28.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-14T01:56:57.000Z",
               "tier": 1
             },
             {
-              "title": "Kimberly Guilfoyle denies allegations of misconduct as she resigns as US ambassador to Greece – live",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/live/2026/oct/13/donald-trump-ilhan-omar-katie-zacharia-alaska-midterms-latest-news-updates",
-              "pubDate": "2026-10-13T22:07:18.000Z",
+              "title": "Kyiv power plant hit by Russian missile without warning from allies",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261014-kyiv-power-plant-hit-by-russian-missile-without-warning-from-allies",
+              "pubDate": "2026-10-14T00:41:22.000Z",
               "tier": 1
             },
             {
-              "title": "Trump ousts Greece envoy Kimberly Guilfoyle amid misconduct scandal",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3370779/us-asks-greece-ambassador-kimberly-guilfoyle-resign-over-alleged-misconduct?utm_source=rss_feed",
-              "pubDate": "2026-10-13T15:02:49.000Z",
-              "tier": 2
-            },
-            {
-              "title": "US ambassador to Greece Kimberly Guilfoyle resigns",
+              "title": "Russian missile hits Kyiv power plant with no early warning from allies, Zelensky says",
               "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/13/white-house-asks-ambassador-to-greece-kimberly-guilfoyle-to-resign",
-              "pubDate": "2026-10-13T14:51:09.000Z",
+              "link": "https://www.euronews.com/2026/10/14/russian-missile-hits-kyiv-power-plant-with-no-early-warning-from-allies-zelensky-says",
+              "pubDate": "2026-10-14T02:47:37.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 70,
-          "slug": "trump-ousts-ambassador-over-corruption-allegations-in-greece"
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 80,
+          "slug": "missile-hits-kyiv-power-plant-allies-criticized"
         },
         {
           "representativeTitle": "Vatican Confirms Pope Leo's Cancer Diagnosis Post-Surgery",
@@ -150,14 +126,14 @@ export const newsData = {
               "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
               "source": "BBC US",
               "link": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-13T20:46:06.000Z",
+              "pubDate": "2026-10-14T00:17:00.000Z",
               "tier": 1
             },
             {
-              "title": "Special Report: Vatican says Pope Leo diagnosed with lung cancer after surgery",
+              "title": "Pope Leo diagnosed with lung cancer",
               "source": "NBC News",
-              "link": "https://www.nbcnews.com/video/vatican-pope-leo-diagnosed-with-lung-cancer-after-surgery-271518277590",
-              "pubDate": "2026-10-13T20:48:01.000Z",
+              "link": "https://www.nbcnews.com/nightly-news/video/pope-leo-diagnosed-with-lung-cancer-271527493650",
+              "pubDate": "2026-10-13T23:21:41.000Z",
               "tier": 2
             },
             {
@@ -171,7 +147,7 @@ export const newsData = {
               "title": "Pope Leo diagnosed with lung cancer, Vatican says",
               "source": "ABC News Top",
               "link": "https://abcnews.com/International/pope-leo-departs-vatican-ahead-operation-remove-nodule/story?id=137216472",
-              "pubDate": "2026-10-13T21:25:00.000Z",
+              "pubDate": "2026-10-14T01:34:22.000Z",
               "tier": 2
             }
           ],
@@ -183,14 +159,119 @@ export const newsData = {
           "slug": "vatican-confirms-pope-leos-cancer-diagnosis-post-surgery"
         },
         {
-          "representativeTitle": "MI5 warns state threats surpass Cold War levels.",
+          "representativeTitle": "Violence erupts in Pakistan over rule changes.",
+          "sources": [
+            "BBC World",
+            "Al Jazeera"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Pakistan has locked down Imran Khan's stronghold",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/crgqwv4vl24jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-13T22:07:40.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Violence in Pakistan over emergency rule in Imran Khan stronghold",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/14/pakistan-khyber-pakhtunkhwa-protests-emergency-rule?traffic_source=rss",
+              "pubDate": "2026-10-14T01:56:23.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "violence-erupts-in-pakistan-over-rule-changes"
+        },
+        {
+          "representativeTitle": "Japanese Journalist Arrested in Russia on Spying Charges",
+          "sources": [
+            "The Guardian",
+            "SCMP",
+            "Sky News"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Russia arrests Japanese journalist on allegations of spying",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/14/russia-detains-japanese-journalist-suspicion-spying",
+              "pubDate": "2026-10-14T01:05:25.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Russia detains Japanese journalist on suspicion of spying",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/russia-central-asia/article/3370789/russia-detains-japanese-journalist-suspicion-spying?utm_source=rss_feed",
+              "pubDate": "2026-10-13T22:08:47.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Japanese journalist arrested in Russia on suspicion of spying",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/japanese-journalist-arrested-in-russia-on-suspicion-of-spying-13598988",
+              "pubDate": "2026-10-13T20:17:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "japanese-journalist-arrested-in-russia-on-spying-charges"
+        },
+        {
+          "representativeTitle": "Former Ukrainian Officer Faces Trial in Germany Over Sabotage",
+          "sources": [
+            "BBC World",
+            "Le Monde",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-13T23:42:22.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Former Ukrainian officer stands trial in Germany over Nord Stream sabotage",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/14/former-ukrainian-officer-stands-trial-in-germany-over-nord-stream-sabotage_6758580_4.html",
+              "pubDate": "2026-10-13T23:06:17.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9nV1c3TWdoUG1JS01sSXlFSks1dllZM1ZpZG8xTFpDck9JSk9iVzBtbkZONHhady1CWjdHX0llSm9weXJsb0U2QkJBVW9IaDJ0MnpmWGdXSmRUMU0?oc=5",
+              "pubDate": "2026-10-13T23:42:22.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "former-ukrainian-officer-faces-trial-in-germany-over-sabotage"
+        },
+        {
+          "representativeTitle": "MI5 Chief Warns of Threats from Russia, Iran, AI",
           "sources": [
             "BBC World",
             "SCMP",
-            "Euronews",
-            "Google World"
+            "Euronews"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "MI5 chief warns of threats to UK from Russia, Iran and AI",
@@ -212,12 +293,35 @@ export const newsData = {
               "link": "https://www.euronews.com/2026/10/13/russia-remains-aggressor-number-one-uks-mi5-spy-agency-chief-warns-in-threat-update",
               "pubDate": "2026-10-13T14:16:30.000Z",
               "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 70,
+          "slug": "mi5-chief-warns-of-threats-from-russia-iran-ai"
+        },
+        {
+          "representativeTitle": "PM Pledges Support Amid Trump's Russia Deal",
+          "sources": [
+            "The Guardian",
+            "Sky News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Burnham to host Zelenskyy at No 10 in show of ‘rock-solid’ support",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/2026/oct/13/burnham-to-host-zelenskyy-at-no-10-in-show-of-rock-solid-support",
+              "pubDate": "2026-10-13T21:30:35.000Z",
+              "tier": 1
             },
             {
-              "title": "MI5 tackling more state threats than during Cold War, warns intelligence chief",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45ZnlWc1BPdHJLQUxVblQ3MmVrLTR2Um55eFZPdlJXUzlYMDN6RXVxYkNRaFlLeGNaNG5jcndWdWc0Nm56dmJ1aXlsOFJXbFpuNkdaTXdSSzZXQ2s?oc=5",
-              "pubDate": "2026-10-13T15:52:15.000Z",
+              "title": "PM pledges 'rock-solid' support ahead of Zelenskyy visit after Trump's diesel deal with Russia",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/pm-pledges-rock-solid-support-ahead-of-zelenskyy-visit-after-trumps-diesel-deal-with-russia-13599080",
+              "pubDate": "2026-10-14T00:52:00.000Z",
               "tier": 2
             }
           ],
@@ -225,8 +329,60 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 70,
-          "slug": "mi5-warns-state-threats-surpass-cold-war-levels"
+          "importance": 60,
+          "slug": "pm-pledges-support-amid-trumps-russia-deal"
+        },
+        {
+          "representativeTitle": "Saudi Arabia Strikes Yemen Oil Depots; Missiles Launched",
+          "sources": [
+            "The Guardian",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/13/saudi-arabia-strikes-strategic-oil-depots-near-yemen-capital",
+              "pubDate": "2026-10-13T17:26:08.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Saudi Arabia strikes oil depots in Yemen and says missiles launched toward location of Saudi Aramco HQ",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd002QXExVmJ6WkZ6RmhBNlY0ZWc4Z29IQXk4b3lBdVlKWUp0bUhVVjZpQ3FLQTU3cFZWU1hIaDBzRmg3ZWpiOFhEYV8tZ0MtNUhWNllfRWxPcXBWNlM1VTJwZEQtUWJLaGxTZURFdFo2QWtpdWwtcXVhS2RybTFUUkJHb3ZzTEVJenU0dnNheTQ4bWMzXy1xTW56d0xmd295VUtwVnFQczJkQQ?oc=5",
+              "pubDate": "2026-10-13T17:26:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 65,
+          "slug": "saudi-arabia-strikes-yemen-oil-depots-missiles-launched"
+        },
+        {
+          "representativeTitle": "Aramco HQ Attacked; Suspected Houthi Strike Reported",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Saudi Aramco HQ attacked in suspected Houthi strike",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
+              "pubDate": "2026-10-14T02:20:48.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "aramco-hq-attacked-suspected-houthi-strike-reported"
         },
         {
           "representativeTitle": "French high school protests continue across multiple cities.",
@@ -266,224 +422,72 @@ export const newsData = {
           "slug": "french-high-school-protests-continue-across-multiple-cities"
         },
         {
-          "representativeTitle": "Russian Strikes Hit Kyiv Power Plant; Zelensky Reports Damage",
+          "representativeTitle": "Trump Ousts Ambassador Over Corruption Allegations in Greece",
           "sources": [
-            "BBC World"
+            "BBC World",
+            "SCMP",
+            "Euronews"
           ],
-          "citationCount": 1,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Russian strikes hit key power plant in Kyiv, Zelensky says",
+              "title": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
               "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-13T22:14:33.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-13T19:23:28.000Z",
               "tier": 1
+            },
+            {
+              "title": "Trump ousts Kimberly Guilfoyle as ambassador to Greece amid misconduct claims",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3370779/us-asks-greece-ambassador-kimberly-guilfoyle-resign-over-alleged-misconduct?utm_source=rss_feed",
+              "pubDate": "2026-10-13T15:02:49.000Z",
+              "tier": 2
+            },
+            {
+              "title": "US ambassador to Greece Kimberly Guilfoyle resigns",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/13/white-house-asks-ambassador-to-greece-kimberly-guilfoyle-to-resign",
+              "pubDate": "2026-10-13T14:51:09.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "russian-strikes-hit-kyiv-power-plant-zelensky-reports-damage"
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "trump-ousts-ambassador-over-corruption-allegations-in-greece"
         },
         {
-          "representativeTitle": "Aramco HQ Attacked; Suspected Houthi Strike Reported",
+          "representativeTitle": "Argentina Sues UK Over Falklands Oil Exploration Rights",
           "sources": [
-            "FT International"
+            "BBC World",
+            "Google World"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Saudi Aramco HQ attacked in suspected Houthi strike",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
-              "pubDate": "2026-10-13T22:00:20.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "aramco-hq-attacked-suspected-houthi-strike-reported"
-        },
-        {
-          "representativeTitle": "Zelenskyy Alleges Allies Failed to Warn Kyiv Strikes",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Allies did not warn Kyiv of Russian ballistic missile strikes, says Zelenskyy",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/13/allies-did-not-warn-kyiv-of-russian-ballistic-missile-strikes-says-zelenskyy",
-              "pubDate": "2026-10-13T21:54:12.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "zelenskyy-alleges-allies-failed-to-warn-kyiv-strikes"
-        },
-        {
-          "representativeTitle": "Houthi Attack Hits Major Saudi Aramco Headquarters Building",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Aramco Headquarters Hit During Houthi Attack on Saudi Arabia",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-13/aramco-headquarters-hit-during-houthi-attacks-on-saudi-arabia",
-              "pubDate": "2026-10-13T20:32:12.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "houthi-attack-hits-major-saudi-aramco-headquarters-building"
-        },
-        {
-          "representativeTitle": "Geopolitics Threaten Aviation Security Across Global Routes",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Airport attacks put aviation in crosshairs of geopolitical conflicts",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/10/13/riyadh-airport-attacks-aviation.html",
-              "pubDate": "2026-10-13T18:33:42.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "geopolitics-threaten-aviation-security-across-global-routes"
-        },
-        {
-          "representativeTitle": "Missiles intercepted near Riyadh after Yemen strike.",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
+              "title": "Argentina targets UK in legal claim over Falklands oil exploration",
               "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-13T22:29:55.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/cmp3g14p3z2ko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-13T17:36:43.000Z",
               "tier": 1
+            },
+            {
+              "title": "Argentina targets UK in legal claim over Falklands oil exploration",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FNHlEQm42WTZza3ZiSVloMkswcTRjTWljay1HZ0d1dE1oYVpnWmJPeXBxaEZWZFgyNDZfR3BTQzNNV2Q1ejhnQ1pqUC0yVlA0bmxyYU9yS21QZlk?oc=5",
+              "pubDate": "2026-10-13T17:36:43.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "missiles-intercepted-near-riyadh-after-yemen-strike"
-        },
-        {
-          "representativeTitle": "Pakistan authorities restrict access to Imran Khan's base.",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Pakistan has locked down Imran Khan's stronghold",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/crgqwv4vl24jo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-13T22:07:40.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "pakistan-authorities-restrict-access-to-imran-khans-base"
-        },
-        {
-          "representativeTitle": "Burnham Hosts Zelenskyy Showing Strong Support",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Burnham to host Zelenskyy at No 10 in show of ‘rock-solid’ support",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/oct/13/burnham-to-host-zelenskyy-at-no-10-in-show-of-rock-solid-support",
-              "pubDate": "2026-10-13T21:30:35.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "burnham-hosts-zelenskyy-showing-strong-support"
-        },
-        {
-          "representativeTitle": "China's Auto Production Shifts Towards European Markets",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "China is bringing car production to EU",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/business/20261013-china-is-bringing-car-production-to-eu",
-              "pubDate": "2026-10-13T21:23:38.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "chinas-auto-production-shifts-towards-european-markets"
-        },
-        {
-          "representativeTitle": "Houthi Siege Causes Severe Food Shortages in Yemen",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Food shortages in Yemen’s Taiz as Houthi siege hits supplies",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/13/food-shortages-in-yemens-taiz-as-houthi-siege-hits-supplies?traffic_source=rss",
-              "pubDate": "2026-10-13T21:04:44.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "houthi-siege-causes-severe-food-shortages-in-yemen"
+          "importance": 60,
+          "slug": "argentina-sues-uk-over-falklands-oil-exploration-rights"
         },
         {
           "representativeTitle": "Guilfoyle Steps Down From Greek Ambassadorship Role",
@@ -512,7 +516,7 @@ export const newsData = {
               "title": "Kimberly Guilfoyle Resigns as Ambassador to Greece",
               "source": "Google US",
               "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdlVvUGdLc3Z0NUVzWlpJMWRIcTFtbzZveW5vLTE5a01WbnJ0YVdOdkpIZ01VNU91c0ZqX2oxM214d0xHWFBYdHZ1N3dtc0djVkNSUloyZ0RLZ0l3VFZZamZlSnQ0WFJoWGpkYmhCbUFoczRiTTRsaDM3ZTNtZklzUHQxdw?oc=5",
-              "pubDate": "2026-10-13T21:56:15.000Z",
+              "pubDate": "2026-10-14T01:54:48.000Z",
               "tier": 2
             }
           ],
@@ -524,34 +528,100 @@ export const newsData = {
           "slug": "guilfoyle-steps-down-from-greek-ambassadorship-role"
         },
         {
-          "representativeTitle": "FBI Arrests Saudi Engineer Over Covert Recording Device",
+          "representativeTitle": "Geopolitics Threaten Aviation Security Across Global Routes",
           "sources": [
-            "BBC Business",
-            "Google Stocks"
+            "CNBC Economy"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
-              "source": "BBC Business",
-              "link": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-13T21:42:49.000Z",
-              "tier": 2
-            },
+              "title": "Airport attacks put aviation in crosshairs of geopolitical conflicts",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/10/13/riyadh-airport-attacks-aviation.html",
+              "pubDate": "2026-10-13T18:33:42.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "geopolitics-threaten-aviation-security-across-global-routes"
+        },
+        {
+          "representativeTitle": "China Bonds Offer Strength Despite Low Yields",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Saudi OpenAI engineer arrested by FBI for planting covert recording device, US DOJ says",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcjkxNVh4Vlg5aXhHdHJySlBhbC1iZVRDTTF1a2hiUk52eUlqUW1aWWtoeUg2TjQ0OWU1aURzNW5aWmZ1TEFBcGl4NTBIQVZSVnNPaFpFUnZqb2RjRzNQS0xLQjRkMmtJZWhuU1RLRXplcktzVnBHMVVhNThISzMxMVFYbXZoeWE2WFc3b2VzMlQ0Sl92Y0kwLXJ0MUxBOTdUNzFxdjR0VTI?oc=5",
-              "pubDate": "2026-10-13T21:26:04.000Z",
-              "tier": 2
+              "title": "World-Beating China Bonds Can Overcome Paltry Yields, Funds Say",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-13/world-beating-china-bonds-can-overcome-paltry-yields-funds-say",
+              "pubDate": "2026-10-13T23:00:00.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "World",
-          "sentiment": -0.4,
+          "sentiment": 0.4,
           "relevance_score": 8,
+          "importance": 55,
+          "slug": "china-bonds-offer-strength-despite-low-yields"
+        },
+        {
+          "representativeTitle": "Tribunal charges ex-FARC members over Indigenous crimes.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Colombia peace tribunal charges ex-FARC members with anti-Indigenous crimes",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/14/colombia-peace-tribunal-charges-ex-farc-members-with-anti-indigenous-crimes?traffic_source=rss",
+              "pubDate": "2026-10-14T01:43:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
           "importance": 50,
-          "slug": "fbi-arrests-saudi-engineer-over-covert-recording-device"
+          "slug": "tribunal-charges-ex-farc-members-over-indigenous-crimes"
+        },
+        {
+          "representativeTitle": "Pope Leo undergoes successful lung cancer surgery.",
+          "sources": [
+            "France 24",
+            "Le Monde"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Pope Leo has cancerous growth removed in lung operation",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/pope-leo-has-cancerous-growth-removed-in-lung-operation",
+              "pubDate": "2026-10-13T21:23:45.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope Leo has cancerous tumor removed in lung operation",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/13/pope-leo-xiv-arrives-at-rome-hospital-for-lung-surgery_6758556_4.html",
+              "pubDate": "2026-10-13T12:51:32.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "pope-leo-undergoes-successful-lung-cancer-surgery"
         },
         {
           "representativeTitle": "Political Factions Clash Over Wealth and Influence",
@@ -598,39 +668,39 @@ export const newsData = {
           "slug": "hormuz-strait-sees-worst-attacks-since-war-began"
         },
         {
-          "representativeTitle": "China's Loneliness Drives Hiring of Temporary Children",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Why the lonely in China are hiring 'temporary children'",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/cm8xkxn8lqkeo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-13T22:00:20.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "chinas-loneliness-drives-hiring-of-temporary-children"
-        },
-        {
-          "representativeTitle": "Australian Politics: Hanson Dismisses Remarks; PM Offers Condolences.",
+          "representativeTitle": "Australian Politics Sees Heated Debate Over Remarks",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Australian politics live: Hanson dismisses ‘shamed and stoned’ remark as ‘heat of moment’; PM extends ‘thoughts and prayers’ to pope",
+              "title": "Australian politics live: Liberal MP ‘reached out’ to Anne Aly after saying she should be ‘shamed and stoned’; Nationals condemn ‘risky’ pineapples",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/live/2026/oct/14/treasurer-jim-chalmers-labor-one-nation-pauline-hanson-one-nation-gas-reservation-scheme-ntwnfb",
-              "pubDate": "2026-10-13T22:37:24.000Z",
+              "pubDate": "2026-10-14T02:44:31.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "australian-politics-sees-heated-debate-over-remarks"
+        },
+        {
+          "representativeTitle": "Jamaica Accepts US Deportees From Third Countries",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Jamaica accepts first flight of third-country deportations from US",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/14/jamaica-accepts-first-flight-of-third-country-deportations-from-us?traffic_source=rss",
+              "pubDate": "2026-10-14T01:44:09.000Z",
               "tier": 1
             }
           ],
@@ -639,64 +709,42 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "australian-politics-hanson-dismisses-remarks-pm-offers-condolences"
+          "slug": "jamaica-accepts-us-deportees-from-third-countries"
         },
         {
-          "representativeTitle": "Paid Companions Offer Comfort to Lonely Chinese Citizens",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "'I'd talk to the TV': The paid companions bringing warmth to China's lonely",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cm5ynwpzkgk1o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-13T22:02:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "paid-companions-offer-comfort-to-lonely-chinese-citizens"
-        },
-        {
-          "representativeTitle": "Pope Leo undergoes successful lung cancer surgery.",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Pope Leo has cancerous growth removed in lung operation",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/pope-leo-has-cancerous-growth-removed-in-lung-operation",
-              "pubDate": "2026-10-13T21:23:45.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "pope-leo-undergoes-successful-lung-cancer-surgery"
-        },
-        {
-          "representativeTitle": "Man Charged After Boy Shot in Sydney Incident",
+          "representativeTitle": "Chalmers disputes PM's authority on credit card ban.",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Man charged with murder after boy, 12, shot in the face and neck in Sydney last month",
+              "title": "Chalmers denies Albanese overruled him on ATO credit card ban after PM says ‘I will get it done’",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/oct/14/man-charged-murder-alleged-shooting-boy-12-ntwnfb",
-              "pubDate": "2026-10-13T21:09:19.000Z",
+              "link": "https://www.theguardian.com/australia-news/2026/oct/14/jim-chalmers-denies-anthony-albanese-rolled-him-over-credit-card-payments-for-tax-bills",
+              "pubDate": "2026-10-14T01:14:23.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "chalmers-disputes-pms-authority-on-credit-card-ban"
+        },
+        {
+          "representativeTitle": "Namibia's Cattle Disease Sparks EU Meat Import Suspension",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Namibia battles cattle disease outbreak as EU suspends several meat imports",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/14/namibia-battles-cattle-disease-outbreak-as-eu-suspends-several-meat-imports?traffic_source=rss",
+              "pubDate": "2026-10-14T01:07:46.000Z",
               "tier": 1
             }
           ],
@@ -705,37 +753,51 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "man-charged-after-boy-shot-in-sydney-incident"
+          "slug": "namibias-cattle-disease-sparks-eu-meat-import-suspension"
         },
         {
-          "representativeTitle": "Tropical Storm Trudy Forms in Pacific Ocean Waters",
+          "representativeTitle": "Indian Party Leaders Face Court Following Protests",
           "sources": [
-            "ABC News Top",
-            "ABC News US"
+            "Bloomberg Markets"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Tropical Storm Trudy has formed in the Pacific Ocean",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/wireStory/tropical-storm-trudy-formed-pacific-ocean-137240007",
-              "pubDate": "2026-10-13T22:38:33.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Tropical Storm Trudy has formed in the Pacific Ocean",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/tropical-storm-trudy-formed-pacific-ocean-137240007",
-              "pubDate": "2026-10-13T22:38:33.000Z",
-              "tier": 2
+              "title": "India’s ‘Cockroach’ Party Leaders to Face Court After Protests",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-14/india-s-cockroach-party-leaders-to-face-court-after-protests",
+              "pubDate": "2026-10-14T01:05:56.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Stocks",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 40,
-          "slug": "tropical-storm-trudy-forms-in-pacific-ocean-waters"
+          "importance": 45,
+          "slug": "indian-party-leaders-face-court-following-protests"
+        },
+        {
+          "representativeTitle": "Business protests over sweeping halal rules in nation.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Business backlash over sweeping halal rules in world’s biggest Muslim nation",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/630328ea-829d-4e5f-a3a8-7ffc33946ef7?syn-25a6b1a6=1",
+              "pubDate": "2026-10-13T10:00:09.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "business-protests-over-sweeping-halal-rules-in-nation"
         }
       ]
     },
@@ -743,27 +805,57 @@ export const newsData = {
       "name": "US",
       "children": [
         {
+          "representativeTitle": "Government Spending and Political Raids Spark Controversy",
+          "sources": [
+            "Washington Post",
+            "Fox News",
+            "NPR"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Federal agents search Rep. Ilhan Omar’s D.C. home",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/nation/2026/10/12/federal-agents-search-rep-ilhan-omars-dc-home/",
+              "pubDate": "2026-10-12T23:16:20.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Rep Ilhan Omar's immigration history faces new scrutiny as federal investigators subpoena relatives",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/politics/rep-ilhan-omars-immigration-history-faces-new-scrutiny-federal-investigators-subpoena-relatives",
+              "pubDate": "2026-10-14T00:54:04.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
+              "pubDate": "2026-10-13T11:08:14.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "government-spending-and-political-raids-spark-controversy"
+        },
+        {
           "representativeTitle": "Cornell Suspends Parties Amid Rape Allegations Scandal",
           "sources": [
             "BBC World",
-            "Al Jazeera",
             "Euronews",
             "Le Monde"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Cornell bans all fraternity parties over gang sex assault allegations",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cw8dzg094zd9o?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-10-13T18:25:28.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Cornell suspends fraternity parties after alleged campus gang rape case",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/13/cornell-suspends-fraternity-parties-after-alleged-campus-gang-rape-case?traffic_source=rss",
-              "pubDate": "2026-10-13T18:45:51.000Z",
               "tier": 1
             },
             {
@@ -785,53 +877,59 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 70,
+          "importance": 55,
           "slug": "cornell-suspends-parties-amid-rape-allegations-scandal"
         },
         {
-          "representativeTitle": "Judge Blocks Trump Plan Clearing D.C. Golf Course Trees",
+          "representativeTitle": "Justice Dept: North Korean Infiltration Targets US Firms",
           "sources": [
-            "NBC News",
-            "NPR",
-            "ABC News Top",
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Justice Department says North Koreans have infiltrated dozens of U.S. companies",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/13/justice-department-says-north-koreans-have-infiltrated-dozens-of-u-s-companies/",
+              "pubDate": "2026-10-14T01:30:42.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "justice-dept-north-korean-infiltration-targets-us-firms"
+        },
+        {
+          "representativeTitle": "Florida Executes Prisoner Over Cellmate Killing Sentence",
+          "sources": [
+            "Fox News",
             "ABC News US",
             "Google US"
           ],
-          "citationCount": 5,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Judge extends order blocking Trump administration from clearing trees at D.C. golf course",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/trump-administration/judge-extends-ban-trees-trump-golf-course-rcna603222",
-              "pubDate": "2026-10-13T18:10:15.000Z",
+              "title": "Florida executes inmate who killed cellmate because he wanted death penalty",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/us/florida-executes-inmate-killed-cellmate-wanted-death-penalty",
+              "pubDate": "2026-10-14T01:48:00.000Z",
               "tier": 2
             },
             {
-              "title": "A judge blocks the government's tree-clearing spree at a municipal D.C. golf course",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/10/13/nx-s1-6000055/east-potomac-golf-course-tree-clearing-judge",
-              "pubDate": "2026-10-13T19:38:18.000Z",
-              "tier": 2
-            },
-            {
-              "title": "'Furious' judge extends order to bar Trump admin from cutting trees at DC golf course",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/judge-explodes-trump-admin-lawyers-after-hundreds-trees/story?id=137204023",
-              "pubDate": "2026-10-13T19:10:43.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Federal judge orders Trump administration to halt work for a day on historic DC golf course",
+              "title": "Florida to execute prisoner who killed cellmate in hopes of getting a death sentence",
               "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/federal-judge-orders-trump-administration-halt-work-day-137203315",
-              "pubDate": "2026-10-13T03:30:20.000Z",
+              "link": "https://abcnews.com/US/wireStory/florida-execute-prisoner-killed-cellmate-hopes-death-sentence-137215408",
+              "pubDate": "2026-10-13T15:14:17.000Z",
               "tier": 2
             },
             {
-              "title": "Judge orders Trump administration to halt work on historic DC golf course",
+              "title": "Florida executes a prisoner who killed his cellmate in hopes of getting a death sentence",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUkhCZmpmRDVvUk5fbDlQclpBT293OS0teEhMb1d4MmU5S2QyRVlqQlhvSlRFeTFIdk1OMG8yMHV2RzFTaDRBSGtLSzQ1STIxdTVvUHoxTkpZcFRSdVlybldKMzRTQ01HTHZjeHE3dVRBWmFCT0QtV29YLUlLdUt3LXBkWWozdHM?oc=5",
-              "pubDate": "2026-10-13T19:30:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdWtkUnRkOV9uTjZMQlc2UmxkZzFtNTBSOEUxV2VMdTZYUDJ0Vk1MWnlNTnZ0VThsZW1NOFFPTkxKQm5BVFJWSHEwdFhQRF9KUW5WelVTaW5jMHROMWsySzZ3MVVpQVNzVkJ5WVl3VzBVZnotOVJEY3h2dXE1S1FLaUtKMHhUQnhHa29heExLcmtZWVphNkVqQ2IxMHlIMmwzVlo3M0hDaHVXZlNJVFBPbnBFTllUNUpZ?oc=5",
+              "pubDate": "2026-10-13T21:58:02.000Z",
               "tier": 2
             }
           ],
@@ -839,37 +937,29 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 55,
-          "slug": "judge-blocks-trump-plan-clearing-dc-golf-course-trees"
+          "importance": 45,
+          "slug": "florida-executes-prisoner-over-cellmate-killing-sentence"
         },
         {
-          "representativeTitle": "Government Spending and Political Raids Spark Controversy",
+          "representativeTitle": "DA Alleges ICE Hit Immigrant; Evidence Withheld",
           "sources": [
-            "Washington Post",
-            "NPR",
+            "NBC News",
             "Google US"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Federal agents search Rep. Ilhan Omar’s D.C. home",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/nation/2026/10/12/federal-agents-search-rep-ilhan-omars-dc-home/",
-              "pubDate": "2026-10-12T23:16:20.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
-              "pubDate": "2026-10-13T11:08:14.000Z",
+              "title": "Texas DA says ICE intentionally hit immigrant with a car and may have withheld evidence",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/texas-da-says-ice-intentionally-hit-immigrant-car-may-withheld-evidenc-rcna603243",
+              "pubDate": "2026-10-14T00:02:16.000Z",
               "tier": 2
             },
             {
-              "title": "Rep. Omar accuses Trump of political intimidation after agents search her home",
+              "title": "Texas DA says ICE intentionally hit immigrant with a car and may have withheld evidence",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRnZDYi1xUW9yR1F0WFY5QXFhSTJMTEstcm1RNnYyWl9XeEtfUGtUM0dZT0dTSGRucTdlTk1abWxkdHpNTXZsSFBaX3lpVk1PQkk1Rl9CbFg4VUZGdU81VUp3NURjZG1RRm1tY1Z3WGlPYTNPSXZPdUhGZDJrYzV0bkRjMVpnQ19IZnEwSzVaUTAtS2JoV1pSblp2MWo0czNhOFlsM0wtSjRJbnFJTmQ1RA?oc=5",
-              "pubDate": "2026-10-12T22:55:20.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeHowV1YwelBoWjkyMkx4cDdzVVd3TUpzUUlmaWctWXBLRnpZX2dOajY2Z3JHLTkwSGI5WjBBbXJxd0loQVpuNFJYSnp0UEtmZDlHVGdUUnNIQkpPMTBiTFJtYmh2TXRxUlZRemlzdE9WVzI5SnR0YWxySTE0SC1GUzZScmNmYjZqVUVZaEdEY25INUpzRXZKcWJlcms3eERZZzZaRk1wbWhEbFhJOGtDam9HdnQ4ZnJvenc?oc=5",
+              "pubDate": "2026-10-14T00:02:00.000Z",
               "tier": 2
             }
           ],
@@ -877,8 +967,8 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 65,
-          "slug": "government-spending-and-political-raids-spark-controversy"
+          "importance": 50,
+          "slug": "da-alleges-ice-hit-immigrant-evidence-withheld"
         },
         {
           "representativeTitle": "NYC plans to ban horse-drawn carriages soon",
@@ -909,6 +999,36 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 50,
           "slug": "nyc-plans-to-ban-horse-drawn-carriages-soon"
+        },
+        {
+          "representativeTitle": "House Races See Republican Strategy Shifts in Districts",
+          "sources": [
+            "ABC News Top",
+            "ABC News US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Battle lines shift in House races as Republicans retreat from front-line districts",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Politics/wireStory/battle-lines-shift-house-races-republicans-retreat-front-137240769",
+              "pubDate": "2026-10-14T01:54:32.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Battle lines shift in House races as Republicans retreat from front-line districts",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/battle-lines-shift-house-races-republicans-retreat-front-137240768",
+              "pubDate": "2026-10-14T02:26:43.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "house-races-see-republican-strategy-shifts-in-districts"
         },
         {
           "representativeTitle": "Cornell Bans Fraternity Parties Amid Assault Investigation",
@@ -963,39 +1083,17 @@ export const newsData = {
           "slug": "fbi-charges-american-in-canada-school-shooting-plot"
         },
         {
-          "representativeTitle": "California Coastal Homes Hit By Severe Waves, Flooding",
+          "representativeTitle": "Trial uses reconstruction to trace bullet trajectories.",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "California coastal homes battered and bruised after weekend of intense waves and flooding",
+              "title": "Beau Lamarre-Condon trial shown crime scene reconstruction as ballistics expert traces bullet trajectories",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods",
-              "pubDate": "2026-10-13T21:29:08.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "california-coastal-homes-hit-by-severe-waves-flooding"
-        },
-        {
-          "representativeTitle": "ICE vehicle strikes man in Houston; video surfaces.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Surveillance video shows moment ICE vehicle strikes man in Houston",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/13/surveillance-video-shows-moment-ice-vehicle-strikes-man-in-houston?traffic_source=rss",
-              "pubDate": "2026-10-13T21:03:40.000Z",
+              "link": "https://www.theguardian.com/australia-news/2026/oct/14/beau-lamarre-condon-trial-shown-alleged-murder-scene-reconstruction-bullet-holes-ntwnfb",
+              "pubDate": "2026-10-14T02:15:09.000Z",
               "tier": 1
             }
           ],
@@ -1004,28 +1102,28 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "ice-vehicle-strikes-man-in-houston-video-surfaces"
+          "slug": "trial-uses-reconstruction-to-trace-bullet-trajectories"
         },
         {
-          "representativeTitle": "Florida Executes Prisoner Over Cellmate Killing Sentence",
+          "representativeTitle": "Mayor Rejects Pressure To Fire NYPD Commissioner",
           "sources": [
-            "ABC News US",
+            "Fox News",
             "Google US"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Florida to execute prisoner who killed cellmate in hopes of getting a death sentence",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/florida-execute-prisoner-killed-cellmate-hopes-death-sentence-137215408",
-              "pubDate": "2026-10-13T15:14:17.000Z",
+              "title": "NYC Mayor Zohran Mamdani says he won't fire NYPD Commissioner Jessica Tisch despite socialist pressure",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/politics/nyc-mayor-zohran-mamdani-wont-fire-nypd-commissioner-jessica-tisch-despite-socialist-pressure",
+              "pubDate": "2026-10-14T02:34:50.000Z",
               "tier": 2
             },
             {
-              "title": "Florida executes a prisoner who killed his cellmate in hopes of getting a death sentence",
+              "title": "NYC Mayor Mamdani rejects DSA pressure to fire NYPD Commissioner Jessica Tisch over ICE",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdWtkUnRkOV9uTjZMQlc2UmxkZzFtNTBSOEUxV2VMdTZYUDJ0Vk1MWnlNTnZ0VThsZW1NOFFPTkxKQm5BVFJWSHEwdFhQRF9KUW5WelVTaW5jMHROMWsySzZ3MVVpQVNzVkJ5WVl3VzBVZnotOVJEY3h2dXE1S1FLaUtKMHhUQnhHa29heExLcmtZWVphNkVqQ2IxMHlIMmwzVlo3M0hDaHVXZlNJVFBPbnBFTllUNUpZ?oc=5",
-              "pubDate": "2026-10-13T21:58:02.000Z",
+              "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObDIwczVhdDBSNGpRb3hiNnFQZ1BYV2Jua1ppRS1XQ1IwS2tBVlZxVFliZkJFelRJVmJFcnBKVXctVHQ1cW4tZkdiS3ZZQldfbFNkSFRRdU5jWklwako1dlc0Um5PV01hMDFMMlEyM2xBRnVBejRDcmcxaVZXTEJ5eTBqLW05OWdqa2lpUWR0bWM2cWNscm1HYVRUQnJNTUJNUTJncXhWUmhpUDd2VVlDUFJPczdVOGZHNVN0N3M4eWpuakJTTWc?oc=5",
+              "pubDate": "2026-10-13T16:44:13.000Z",
               "tier": 2
             }
           ],
@@ -1034,7 +1132,97 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 40,
-          "slug": "florida-executes-prisoner-over-cellmate-killing-sentence"
+          "slug": "mayor-rejects-pressure-to-fire-nypd-commissioner"
+        },
+        {
+          "representativeTitle": "Trump Pardons Mechanics Amid Energy Deal Promotion Rally",
+          "sources": [
+            "NBC News",
+            "Fox News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Trump pardons two vehicle repair shop owners during Alaska rally",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/video/trump-pardons-two-vehicle-repair-shop-owners-during-alaska-rally-271538245765",
+              "pubDate": "2026-10-14T01:56:45.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump signs pardons for Alaska diesel mechanics onstage during rally touting major energy deals",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/politics/president-trump-signs-pardons-alaska-diesel-mechanics-onstage-rally-touting-major-energy-deals",
+              "pubDate": "2026-10-14T02:13:34.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "trump-pardons-mechanics-amid-energy-deal-promotion-rally"
+        },
+        {
+          "representativeTitle": "Woman Accused Of Killing Husband And Son",
+          "sources": [
+            "Fox News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Great Wolf Lodge horror as mom accused of killing husband and toddler inside hotel room",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/us/great-wolf-lodge-horror-mom-accused-killing-husband-toddler-hotel-room",
+              "pubDate": "2026-10-14T01:37:28.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Woman accused of killing husband, 3-year-old son at Great Wolf Lodge",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZFprYkRZZ1lYY2ExTVZpRUVwRU9DZDRoR0dhY1RETUItVkszZDZZa19UTEc4V1ZSTzFMOXFmNzZGTVMxNEhlOXhMQ0lkNlB4V1AwVVMwNVdaM3N5NF9MOW1MX0JDelVSaU0ydnRXRTJRQVlzQTJQYXFVQU5ObnI0VHR1dURPX2RBaVduUjN5UVlnSGxsbExKYzFsZlY?oc=5",
+              "pubDate": "2026-10-14T00:49:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "woman-accused-of-killing-husband-and-son"
+        },
+        {
+          "representativeTitle": "Mayor Condemns Violence at Trump Rally Protest Site",
+          "sources": [
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Trump rally protester attacked in act of ‘senseless’ political violence, Ohio mayor says",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/trump-rally-protester-attacked-act-senseless-political-violence-ohio-m-rcna603249",
+              "pubDate": "2026-10-13T21:17:44.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump rally protester attacked in act of ‘senseless’ political violence, Ohio mayor says",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbHNwdi1Uc3B5X0wwUlhGNHViVXdtYk90c3dwaHJobFNETEl1TmZ1ak9QWnpkUm1xRHRfLXBrRXM3TDhCMFREdTRBRXZVZDA5UWI4US11UDRXQkRxdE1LLU9BTE1ZYjNrSU4xZWxCLUJGNl9xOW41cVQwNWJDWThCYWJoRURjOHVZT3U3OHpYV0lSMEx6c3U3MERiTHBocktiMDFwMmJ5N0JfOC1mX1daSWtJaUZJRVN0UHc?oc=5",
+              "pubDate": "2026-10-13T21:17:44.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "mayor-condemns-violence-at-trump-rally-protest-site"
         },
         {
           "representativeTitle": "White House pressures envoy to resign over role.",
@@ -1057,36 +1245,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "white-house-pressures-envoy-to-resign-over-role"
-        },
-        {
-          "representativeTitle": "Trump Targets Opponents at Ohio Political Rally",
-          "sources": [
-            "NBC News",
-            "ABC News Top"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Trump attacks Rep. Ilhan Omar and Senate hopeful Abdul El-Sayed at Ohio rally",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/donald-trump-attacks-ilhan-omar-abdul-el-sayed-ohio-rally-youngstown-rcna603107",
-              "pubDate": "2026-10-13T01:27:03.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump again attacks Rep. Ilhan Omar, a US citizen, over immigration allegations",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/trump-blasts-rep-ilhan-omar-position-us-citizen/story?id=137218882",
-              "pubDate": "2026-10-13T20:10:12.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "trump-targets-opponents-at-ohio-political-rally"
         },
         {
           "representativeTitle": "Senators Urge Trump to Withdraw Russian Diesel Deal",
@@ -1119,48 +1277,86 @@ export const newsData = {
           "slug": "senators-urge-trump-to-withdraw-russian-diesel-deal"
         },
         {
-          "representativeTitle": "Influencers spread false theories about politician Talarico.",
+          "representativeTitle": "Court orders prison access to freeze eggs.",
           "sources": [
-            "BBC US"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Influencers spread false theory about Democrat Talarico",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/videos/c6kg51yn7dgvo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-13T13:31:47.000Z",
+              "title": "Rachel Smith will turn 39 in prison. The high court says she could freeze her eggs from behind bars",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/oct/14/rachel-smith-will-turn-39-in-prison-the-high-court-says-she-could-freeze-her-eggs-from-behind-bars",
+              "pubDate": "2026-10-14T01:45:13.000Z",
               "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "court-orders-prison-access-to-freeze-eggs"
+        },
+        {
+          "representativeTitle": "SF Officer and Daughter Killed in Husband's Violence",
+          "sources": [
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Decorated San Francisco police officer and her daughter killed by her husband in suspected murder-suicide",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/decorated-san-francisco-police-officer-daughter-killed-husband-suspect-rcna603180",
+              "pubDate": "2026-10-13T19:41:06.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Decorated San Francisco police officer and her daughter killed by her husband in suspected murder-suicide",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQV2drNk1xLXQ1WmhpS2JPM1luQmpMWk1KTU5qTjR5Y2g2UUNmb05NZl8tcUFaXzRmN0xEeVNLR2NYdkw0SkdqTExyRFdVMXh0ZVlBOUJsYllKMTdCYXhnSzFjUEM1VXU5TjdST1paOFc2RWc4Zmo3Nk1QaGtQWnZxOVlQc190aEtpa0JTT0M1Q2llcG1YTl9jZFE4OVRCQ2hZNmltemN6RlcyUHUyRHNodTA1bFpkTmdTakE?oc=5",
+              "pubDate": "2026-10-13T19:41:06.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.4,
+          "sentiment": -0.9,
           "relevance_score": 6,
-          "importance": 45,
-          "slug": "influencers-spread-false-theories-about-politician-talarico"
+          "importance": 40,
+          "slug": "sf-officer-and-daughter-killed-in-husbands-violence"
         },
         {
-          "representativeTitle": "After-School Programs Show Clear Benefits For Youth",
+          "representativeTitle": "Judge Halts Trump Admin Tree Cutting at D.C. Course",
           "sources": [
-            "Bloomberg Markets"
+            "NPR",
+            "Google US"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "The Benefit of Free After-School Programs",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-13/opinion-the-benefit-of-free-after-school-programs-video",
-              "pubDate": "2026-10-13T21:16:20.000Z",
-              "tier": 1
+              "title": "A judge blocks the government's tree-clearing spree at a municipal D.C. golf course",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/13/nx-s1-6000055/east-potomac-golf-course-tree-clearing-judge",
+              "pubDate": "2026-10-13T19:38:18.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Judge blocks Trump administration from cutting down trees at D.C. golf course for 2 weeks",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZTB5YXFnS29nUXgxSlR5R1BJb01sNXcxbW5kbFVWQW95RklXdlBfbnBSN2hKTGV1OTlTcXBmbWEzZnRPeVVGVmdLcWNUQ3dBbVVPZURPazliNzc2SG94bFFQbl9ybTJySm1ua01DV1dETFJMR3pvcUdpTnN2cVpLTzFn?oc=5",
+              "pubDate": "2026-10-13T17:34:00.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "after-school-programs-show-clear-benefits-for-youth"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "judge-halts-trump-admin-tree-cutting-at-dc-course"
         },
         {
           "representativeTitle": "Coal Industry Linked to White House Policy Shifts",
@@ -1190,83 +1386,61 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "India Options Market Experiences Significant Collapse Today",
+          "representativeTitle": "STT Cut Speculation Boosts Indian Stock Market Sentiment",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Big Take: How India’s Options Market Imploded",
+              "title": "Speculation Over STT Cut Lifts Sentiment for Indian Stocks",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-13/big-take-how-india-s-options-market-imploded-video",
-              "pubDate": "2026-10-13T21:37:55.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "india-options-market-experiences-significant-collapse-today"
-        },
-        {
-          "representativeTitle": "Chip Stocks Drop Amid Warning of AI Overhype Bubble",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Chip stocks slide after Broadcom boss warns of ‘casino’ mentality in AI investing",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63?syn-25a6b1a6=1",
-              "pubDate": "2026-10-13T20:28:15.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "chip-stocks-drop-amid-warning-of-ai-overhype-bubble"
-        },
-        {
-          "representativeTitle": "Asia Stocks Expected to Rise Amid Fed Rate Pause Signal",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Asia Stocks to Gain on Signal for Fewer Fed Hikes: Markets Wrap",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-13/stock-market-today-dow-s-p-live-updates",
-              "pubDate": "2026-10-13T22:03:38.000Z",
+              "link": "https://www.bloomberg.com/news/newsletters/2026-10-14/speculation-over-stt-cut-lifts-sentiment-for-indian-stocks",
+              "pubDate": "2026-10-14T02:30:01.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
           "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "asia-stocks-expected-to-rise-amid-fed-rate-pause-signal"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "stt-cut-speculation-boosts-indian-stock-market-sentiment"
         },
         {
-          "representativeTitle": "Securities Analyst Notes Retail Focus on AI Investments",
+          "representativeTitle": "FDA Warning Letter Causes Olympus Stock Plunge",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Citadel Securities’ Rubner Says Retail Traders Return to AI Bets",
+              "title": "Olympus Shares Slump on FDA Warning Letter on Six Facilities",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-13/citadel-securities-rubner-says-retail-traders-return-to-ai-bets",
-              "pubDate": "2026-10-13T21:30:00.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-14/olympus-shares-plunge-after-fda-warning-letter-on-six-facilities",
+              "pubDate": "2026-10-14T01:00:17.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "fda-warning-letter-causes-olympus-stock-plunge"
+        },
+        {
+          "representativeTitle": "SA Fund Manager Recommends Nigerian Stocks Over Korea",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "South Africa Fund Manager Tips Nigerian Stocks Over South Korea",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-14/south-africa-fund-manager-tips-nigerian-stocks-over-south-korea",
+              "pubDate": "2026-10-14T00:00:00.000Z",
               "tier": 1
             }
           ],
@@ -1275,29 +1449,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "securities-analyst-notes-retail-focus-on-ai-investments"
-        },
-        {
-          "representativeTitle": "Analyst Predicts Bull Market Has Room To Run",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Bull Market Has Room to Run, Says Truist's Keith Lerner",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-13/bull-market-has-room-to-run-says-truist-s-keith-lerner-video",
-              "pubDate": "2026-10-13T20:55:37.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "analyst-predicts-bull-market-has-room-to-run"
+          "slug": "sa-fund-manager-recommends-nigerian-stocks-over-korea"
         }
       ]
     },
@@ -1305,7 +1457,67 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "Fed Official Signals No Rate Hikes Expected By 2027",
+          "representativeTitle": "Bank Fined $1.2B Over Weak Money Laundering Oversight",
+          "sources": [
+            "Bloomberg Markets",
+            "Google Stocks"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Bank of America Fined More Than $1.2 Billion for Money-Laundering",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-13/bofa-fined-more-than-1-2-billion-for-money-laundering-video",
+              "pubDate": "2026-10-13T23:58:52.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Bank of America Fined $1.2 Billion for Lax Money-Laundering Oversight",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWlJWZy1rVmtlUnF0TkUwd3VBUWtETTQ1MllYdmQxMUZqdkszNE84TTY1Zm5sU3pkYzFyZXFxeTJ0T2FCWkEyVTcwZXFwN0MyZXRFT1Z3VmNMNEFDczQteVItaWxZeDdEUEtBRE1MaXdHWGI5cklUbDM2elp2ZENjVndhTDV6aU9udm5xRk9Ldw?oc=5",
+              "pubDate": "2026-10-14T02:10:09.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "bank-fined-12b-over-weak-money-laundering-oversight"
+        },
+        {
+          "representativeTitle": "Bank of America Fined $1.2B Over Laundering Violations",
+          "sources": [
+            "Al Jazeera",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "US fines Bank of America $1.2bn for money laundering, sanctions violations",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations?traffic_source=rss",
+              "pubDate": "2026-10-14T01:15:30.000Z",
+              "tier": 1
+            },
+            {
+              "title": "US fines Bank of America US$1.2 billion, says it violated money laundering, sanctions laws",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3370791/us-fines-bank-america-us12-billion-says-it-violated-money-laundering-sanctions-laws?utm_source=rss_feed",
+              "pubDate": "2026-10-13T23:55:49.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "bank-of-america-fined-12b-over-laundering-violations"
+        },
+        {
+          "representativeTitle": "Williams suggests Fed rate hike pause by 2027.",
           "sources": [
             "CNBC Markets",
             "Google Stocks"
@@ -1320,10 +1532,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Fed’s Williams Currently Sees No Need for Rate Hike in 2027",
+              "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
               "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb01adkN2OHdNQWZjaW9DMVk0NlotU0RrVkV2dGVDZDc5WTY5aEJmemJtSjY1eTJNRjM1UzY1OUlBMXNHQ0FBd09mV3ZXdWJlZXZhY2N6Sng3QnRNcW5FY1cyU216SmNtVUNIcEd4TFR4aHR1cGR1eU1CYkZOdjQ0SndhRzJKdWc0aGM1cnlTSWpHZnJJbEtrZVduWl9fSmJObDNFT2k5UXREWWtBT3J3?oc=5",
-              "pubDate": "2026-10-13T18:06:13.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5VSndIVE1JX2VXdmZyMWVSRmFUMS1Senp5cWt3c1hocHY2dVVfbkNkbVhHQnYyZXpmUGIwQWRaY19CZFQ2RWpDYkRKZjFPZ18zdTVXV0k0V1IyeWs0ejRTMjYyQVl5TmMxQXBObWVSQTlEUG5fY1ZCQnF30gF_QVVfeXFMT0dnRDVFSGJQejktSTNBdS1xeGdpSU0weXp0UlJLVms4Z0lxcUVfV254RnNiWi1mcDdXM0prWFp2aV8tT2NDN1pZZV83Qk83TkVqS0FzWHNsTlBLUkdmeC1PTmhlSmg5SGEtbXA4SXFRT0l1bjJZS0lKSHNCQlRaZw?oc=5",
+              "pubDate": "2026-10-13T19:46:12.000Z",
               "tier": 2
             }
           ],
@@ -1332,72 +1544,20 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 8,
           "importance": 60,
-          "slug": "fed-official-signals-no-rate-hikes-expected-by-2027"
+          "slug": "williams-suggests-fed-rate-hike-pause-by-2027"
         },
         {
-          "representativeTitle": "AI Fuels Growth, IMF Cautions Economic Headwinds Ahead",
+          "representativeTitle": "China's Trade Volumes Exceed Analyst Expectations in September",
           "sources": [
-            "The Guardian",
-            "IBTimes"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "IMF warns global economy ‘could soon test the limits of resilience’",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026",
-              "pubDate": "2026-10-13T02:00:11.000Z",
-              "tier": 1
-            },
-            {
-              "title": "The AI Boom is Fueling the Global Economy  but the IMF Warns of a Bumpy Road Ahead",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/ai-boom-fueling-global-economy-imf-warns-bumpy-road-ahead-3808534",
-              "pubDate": "2026-10-13T19:09:40.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "ai-fuels-growth-imf-cautions-economic-headwinds-ahead"
-        },
-        {
-          "representativeTitle": "Fed Official Signals Further Rate Hikes Expected Soon",
-          "sources": [
-            "Bloomberg Markets"
+            "CNBC Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Fed's Collins Says Rates Will Likely Need to Rise More",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-13/fed-s-collins-says-rates-will-likely-need-to-rise-more-video",
-              "pubDate": "2026-10-13T21:41:35.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "fed-official-signals-further-rate-hikes-expected-soon"
-        },
-        {
-          "representativeTitle": "Higher Rates Boost Banking Sector's Lending Income Streams",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Higher Rates Turbocharge Lending Income for Biggest US Banks",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-13/higher-rates-turbocharge-lending-income-for-biggest-us-banks-mv75ycwg",
-              "pubDate": "2026-10-13T20:58:45.000Z",
+              "title": "China's exports and imports surge past expectations in September",
+              "source": "CNBC Markets",
+              "link": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
+              "pubDate": "2026-10-14T02:48:43.000Z",
               "tier": 1
             }
           ],
@@ -1406,7 +1566,73 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "higher-rates-boost-banking-sectors-lending-income-streams"
+          "slug": "chinas-trade-volumes-exceed-analyst-expectations-in-september"
+        },
+        {
+          "representativeTitle": "Copper Mine Strike Halts Production Amid Wage Disputes",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "World’s Top Copper Mine Faces Strike as Wage Talks Break Down",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-14/world-s-top-copper-mine-faces-strike-as-wage-talks-break-down",
+              "pubDate": "2026-10-14T01:05:52.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "copper-mine-strike-halts-production-amid-wage-disputes"
+        },
+        {
+          "representativeTitle": "Hong Kong probes alleged misconduct in IPO process",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hong Kong Investigates IPO Rigging",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-14/hong-kong-investigates-ipo-rigging-video",
+              "pubDate": "2026-10-14T00:56:55.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "hong-kong-probes-alleged-misconduct-in-ipo-process"
+        },
+        {
+          "representativeTitle": "Asia's Coal Demand Rises Amid Supply Concerns",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Asia’s Coal Appetite Endures as Winter Looms and Supply Tightens",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-13/asia-s-coal-appetite-endures-as-winter-looms-and-supply-tightens",
+              "pubDate": "2026-10-13T23:30:58.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "asias-coal-demand-rises-amid-supply-concerns"
         },
         {
           "representativeTitle": "Bank of America fined $1.2B over laundering failures",
@@ -1429,6 +1655,28 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "bank-of-america-fined-12b-over-laundering-failures"
+        },
+        {
+          "representativeTitle": "Low HK Balance Sparks Rate Volatility Concerns Now",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hong Kong’s Low Aggregate Balance Sparks Rate Volatility Concern",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-13/hong-kong-s-low-aggregate-balance-sparks-rate-volatility-concern",
+              "pubDate": "2026-10-13T23:48:02.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "low-hk-balance-sparks-rate-volatility-concerns-now"
         },
         {
           "representativeTitle": "Robotics Startup Taps Former Ford EV Executive",
@@ -1461,17 +1709,17 @@ export const newsData = {
           "slug": "robotics-startup-taps-former-ford-ev-executive"
         },
         {
-          "representativeTitle": "Oil Market Analysis Provided For October Fourteenth Day",
+          "representativeTitle": "HSBC shifts focus toward Indian growth markets.",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Latest Oil Market News and Analysis for Oct. 14",
+              "title": "How HSBC Is Pivoting to Indian Growth Opportunities",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-13/latest-oil-market-news-and-analysis-for-oct-14",
-              "pubDate": "2026-10-13T22:02:59.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-14/how-hsbc-is-pivoting-to-indian-growth-opportunities-video",
+              "pubDate": "2026-10-14T02:23:24.000Z",
               "tier": 1
             }
           ],
@@ -1480,20 +1728,20 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "oil-market-analysis-provided-for-october-fourteenth-day"
+          "slug": "hsbc-shifts-focus-toward-indian-growth-markets"
         },
         {
-          "representativeTitle": "Rio Tinto Copper Output Stable Amid Ore Sales Rise",
+          "representativeTitle": "Hongkong Land Eyes Stake in Singapore Assets Deal",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Rio Tinto Maintains Copper Output as Iron Ore Sales Increase",
+              "title": "Hongkong Land Is Said to Seek Stake in Tycoon’s Singapore Assets",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-13/rio-tinto-maintains-copper-production-while-iron-ore-sales-rise",
-              "pubDate": "2026-10-13T21:40:43.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-14/hongkong-land-is-said-to-seek-stake-in-tycoon-s-singapore-assets",
+              "pubDate": "2026-10-14T02:03:03.000Z",
               "tier": 1
             }
           ],
@@ -1502,42 +1750,42 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "rio-tinto-copper-output-stable-amid-ore-sales-rise"
+          "slug": "hongkong-land-eyes-stake-in-singapore-assets-deal"
         },
         {
-          "representativeTitle": "Skydance Bonds Face Losses Amid Warner Bros. Uncertainty",
+          "representativeTitle": "Court Overturns Order Halting NSW Goldmine Development",
           "sources": [
-            "Bloomberg Markets"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Skydance Bonds Extend Losses Amid Warner Bros. Buyout Angst",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-13/skydance-bonds-extend-losses-amid-warner-bros-buyout-angst",
-              "pubDate": "2026-10-13T21:19:33.000Z",
+              "title": "Court overturns Tanya Plibersek’s protection order which stalled controversial NSW goldmine",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/environment/2026/oct/14/federal-court-overturns-tanya-plibersek-protection-order-nsw-goldmine-mcphillamys-blaney",
+              "pubDate": "2026-10-14T01:58:38.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "World",
           "aiCategory": "Business",
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "skydance-bonds-face-losses-amid-warner-bros-uncertainty"
+          "slug": "court-overturns-order-halting-nsw-goldmine-development"
         },
         {
-          "representativeTitle": "Wells Fargo CFO Discusses Earnings, Deals, Consumer Health",
+          "representativeTitle": "Fed Official Remarks Cool Rate Hike Expectations; Gold Steady",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Wells Fargo CFO on Earnings, Deals, Consumer Strength",
+              "title": "Gold Steady as Fed Official’s Remarks Temper Rate-Hike Bets",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-13/wells-fargo-cfo-on-earnings-deals-consumer-strength-video",
-              "pubDate": "2026-10-13T21:12:38.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-14/gold-steady-as-fed-official-s-remarks-temper-rate-hike-bets",
+              "pubDate": "2026-10-14T00:08:05.000Z",
               "tier": 1
             }
           ],
@@ -1546,7 +1794,29 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "wells-fargo-cfo-discusses-earnings-deals-consumer-health"
+          "slug": "fed-official-remarks-cool-rate-hike-expectations-gold-steady"
+        },
+        {
+          "representativeTitle": "Goldman Notes Investors Seek Profitable Chinese Growth Abroad",
+          "sources": [
+            "CNBC Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Goldman says investors are looking for 'profitable' Chinese business growth overseas",
+              "source": "CNBC Markets",
+              "link": "https://www.cnbc.com/2026/10/14/goldman-says-investors-seek-profitable-chinese-business-growth-abroad.html",
+              "pubDate": "2026-10-13T23:05:12.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "goldman-notes-investors-seek-profitable-chinese-growth-abroad"
         },
         {
           "representativeTitle": "United Airlines alters frequent flyer status requirements.",
@@ -1615,6 +1885,28 @@ export const newsData = {
           "slug": "analyzing-failures-to-revitalize-european-auto-sector"
         },
         {
+          "representativeTitle": "Systemic roadblocks impact Black women in food industry.",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Black women in food industries face systemic roadblocks",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-black-women-food-industries-roadblocks.html",
+              "pubDate": "2026-10-14T01:40:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "systemic-roadblocks-impact-black-women-in-food-industry"
+        },
+        {
           "representativeTitle": "Diesel Futures Rise Despite Political Deal Signals",
           "sources": [
             "NBC News",
@@ -1650,36 +1942,6 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
-          "representativeTitle": "Saudi Man Charged After Planting Device at OpenAI Office",
-          "sources": [
-            "BBC US",
-            "BBC World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-13T21:42:49.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-13T21:42:49.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "saudi-man-charged-after-planting-device-at-openai-office"
-        },
-        {
           "representativeTitle": "Google Play enables private, coded Android app building.",
           "sources": [
             "TechCrunch",
@@ -1703,10 +1965,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+              "title": "Google lets you make personal Android apps for free now – with just prompts",
               "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQLVFJRTBhVmU4SGFjTkFpSFBDdWZuMlhFN182QzNHMF9CRmoyQkloQVhKWVZIeGg1R3dhNGJXUWQ3Mm96SlpmejNtTXdFbEozZDRXMWZsRHJ6WTNqYkRrYTB0bnRKQmd5dF9LV3U1R2F2R0JoS3NyUVRWYllNLURwUGhGZFdJOGVQSTBuek5MUE1aZmt3Ti1jOG1FN2x4YU9tMFp1Yg?oc=5",
-              "pubDate": "2026-10-13T17:00:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1kc2dtRHFySldDR0ttWVhlQmJvZm4zMFN6NHhveFBkRDh3eEFlWGd0d3B3d2FWcXZ0b2k1SFZ6bXNLWHNPUENxMEZycDJONTVPSDFVQ1ZxMHhRUlRwSkRnV3NnQkdaUXZKWV9femtQbFI3Zw?oc=5",
+              "pubDate": "2026-10-13T17:00:07.000Z",
               "tier": 2
             }
           ],
@@ -1748,6 +2010,50 @@ export const newsData = {
           "slug": "fbi-arrests-openai-employee-over-recording-device-planting"
         },
         {
+          "representativeTitle": "Cerebras CEO predicts widespread personal AI assistants soon.",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+              "pubDate": "2026-10-13T23:05:34.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "cerebras-ceo-predicts-widespread-personal-ai-assistants-soon"
+        },
+        {
+          "representativeTitle": "Arrest of Saudi Employee Over OpenAI Office Bugging",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US arrests Saudi employee of OpenAI for allegedly bugging its offices",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/2c3b583a-3ddc-4920-a350-9698c119435c?syn-25a6b1a6=1",
+              "pubDate": "2026-10-14T01:59:24.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "arrest-of-saudi-employee-over-openai-office-bugging"
+        },
+        {
           "representativeTitle": "AI Leaders Urge UK Lawmakers to Regulate AI",
           "sources": [
             "Wired"
@@ -1770,78 +2076,48 @@ export const newsData = {
           "slug": "ai-leaders-urge-uk-lawmakers-to-regulate-ai"
         },
         {
-          "representativeTitle": "EU Watchdog Mandates Clear Recording Signals on Smart Glasses",
+          "representativeTitle": "OpenAI Employee Accused of Planting Office Recording Device",
           "sources": [
-            "Al Jazeera",
-            "Le Monde"
+            "Wired"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "EU watchdog urges smart glasses to clearly signal when recording",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/13/eu-watchdog-urges-smart-glasses-to-clearly-signal-when?traffic_source=rss",
-              "pubDate": "2026-10-13T19:11:09.000Z",
+              "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+              "pubDate": "2026-10-13T23:17:59.000Z",
               "tier": 1
-            },
-            {
-              "title": "EU watchdog says smart glasses must clearly show when recording",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/13/eu-watchdog-says-smart-glasses-must-clearly-show-when-recording_6758566_4.html",
-              "pubDate": "2026-10-13T16:32:46.000Z",
-              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Technology",
           "aiCategory": "Technology",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "eu-watchdog-mandates-clear-recording-signals-on-smart-glasses"
+          "importance": 45,
+          "slug": "openai-employee-accused-of-planting-office-recording-device"
         },
         {
-          "representativeTitle": "AI Firm Tests Robots and Cars Before Public Release",
+          "representativeTitle": "Robotics Advance: Faster Task Switching Boosts Industry",
           "sources": [
             "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+              "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
-              "pubDate": "2026-10-13T17:30:00.000Z",
+              "link": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+              "pubDate": "2026-10-13T23:00:00.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ai-firm-tests-robots-and-cars-before-public-release"
-        },
-        {
-          "representativeTitle": "JPMorgan Restricts AI Agent Access to Customer Accounts",
-          "sources": [
-            "CNBC Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
-              "source": "CNBC Markets",
-              "link": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html",
-              "pubDate": "2026-10-13T20:48:37.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "jpmorgan-restricts-ai-agent-access-to-customer-accounts"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "robotics-advance-faster-task-switching-boosts-industry"
         },
         {
           "representativeTitle": "Apple Revamps Smart Home Strategy With New Hardware",
@@ -1896,48 +2172,26 @@ export const newsData = {
           "slug": "cerebras-ceo-addresses-ai-doomsday-predictions-directly"
         },
         {
-          "representativeTitle": "Cybersecurity Flaws Threaten Everyday Supermarket Infrastructure Now",
+          "representativeTitle": "Saudi Man Charged After Planting Device at OpenAI Office",
           "sources": [
-            "France 24"
+            "BBC US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Supermarket fridge hacking attacks due to lack of basic cybersecurity measures, expert says",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/a-propos/20261013-supermarket-fridge-hacking-attacks-due-to-lack-of-basic-cybersecurity-measures-expert-says",
-              "pubDate": "2026-10-13T21:06:59.000Z",
+              "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-13T21:42:49.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "Technology",
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "cybersecurity-flaws-threaten-everyday-supermarket-infrastructure-now"
-        },
-        {
-          "representativeTitle": "US Indicts Saudi Employee Over OpenAI Office Bugging",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US indicts Saudi employee of OpenAI for allegedly bugging its offices",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/2c3b583a-3ddc-4920-a350-9698c119435c?syn-25a6b1a6=1",
-              "pubDate": "2026-10-13T20:54:58.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "us-indicts-saudi-employee-over-openai-office-bugging"
+          "slug": "saudi-man-charged-after-planting-device-at-openai-office"
         },
         {
           "representativeTitle": "Judge Orders OpenAI to Share Hiring Records in Case",
@@ -2006,128 +2260,62 @@ export const newsData = {
           "slug": "social-media-feeds-guide-attention-toward-misinformation-risks"
         },
         {
-          "representativeTitle": "Niobia offers solutions to costly tech errors.",
+          "representativeTitle": "ESA flags emulation handhelds as piracy enablers.",
           "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Niobia takes the guesswork out of some of tech’s most expensive mistakes",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/13/niobia-takes-the-guesswork-out-of-some-of-techs-most-expensive-mistakes/",
-              "pubDate": "2026-10-13T19:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "niobia-offers-solutions-to-costly-tech-errors"
-        },
-        {
-          "representativeTitle": "AI Tech Deployed to Mitigate Wildlife-Vehicle Collisions",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
-              "pubDate": "2026-10-13T18:30:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ai-tech-deployed-to-mitigate-wildlife-vehicle-collisions"
-        },
-        {
-          "representativeTitle": "Facebook offers users greater control over algorithms.",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Facebook is giving users more control over their algorithm",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
-              "pubDate": "2026-10-13T18:05:24.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "facebook-offers-users-greater-control-over-algorithms"
-        },
-        {
-          "representativeTitle": "Startup Showcases Novel Space Cargo Launch Method Concept",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Forget rockets — Longshot wants to fire cargo into space from a gun. See it at TechCrunch Disrupt 2026",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/13/forget-rockets-longshot-wants-to-fire-cargo-into-space-from-a-gun-see-it-at-techcrunch-disrupt-2026/",
-              "pubDate": "2026-10-13T18:05:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "startup-showcases-novel-space-cargo-launch-method-concept"
-        },
-        {
-          "representativeTitle": "Apple Music Updates Icon Design For Platform Users",
-          "sources": [
-            "The Verge",
+            "Ars Technica",
             "Google Tech"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "It looks like Apple Music is getting a new icon",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/1010619/apple-music-new-icon-ios-27-beta",
-              "pubDate": "2026-10-13T20:05:02.000Z",
+              "title": "ESA targets Anbernic emulation handhelds as \"superfake\" piracy enablers",
+              "source": "Ars Technica",
+              "link": "https://arstechnica.com/gaming/2026/10/esa-targets-anbernic-emulation-handhelds-as-superfake-piracy-enablers/",
+              "pubDate": "2026-10-13T21:55:49.000Z",
               "tier": 2
             },
             {
-              "title": "iOS 27.2 adds new app icon for Apple Music, more design updates",
+              "title": "ESA targets Anbernic emulation handhelds as \"superfake\" piracy enablers",
               "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRS1rakVDcFczMHBhakxjVEp0UTRQNUlpQy1XZzVBU0ozUXdHUDk2cFBablYyR1VUSGV5bEQ5TE5FN251MGljRDZOR3Vla1dTbk1idDFnd0FWai02dlBCNnVBMHdGS0xlcDRpaEFXcjBoYkdEbS01a3JSdHh0eERBVTJnNnI5TUFNazdiZzlYWTZNdzJxdVdCVjZ3?oc=5",
-              "pubDate": "2026-10-13T19:06:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQamp2a1dHZTJLWFZ0c3Bid3F3SExDNG9YWkU5ZEZOTC01VU5GZU9KLVQwcEhDT2MxNm5DQnVmeERGdGFzZ3BHcE5FSDZ4UjZPV19RWG1nU2J4VmFpNnVLVWRfRnRvclViVS1FdTNOcFNoWHgzcTBhVTVxa01jUmJfVlV3ekpGSE1jNjZBVUJxMXJQM0JpYU9NNVBhX2VVcUcwVzJudERVVmNIdExHRnc?oc=5",
+              "pubDate": "2026-10-13T21:55:49.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 3,
-          "importance": 25,
-          "slug": "apple-music-updates-icon-design-for-platform-users"
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "esa-flags-emulation-handhelds-as-piracy-enablers"
         }
       ]
     },
     {
       "name": "Science",
       "children": [
+        {
+          "representativeTitle": "Chip Implants Restore Vision in Stargardt Patient",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+              "pubDate": "2026-10-13T23:13:31.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "chip-implants-restore-vision-in-stargardt-patient"
+        },
         {
           "representativeTitle": "Company claims cheaper iron from pollution recycling.",
           "sources": [
@@ -2173,100 +2361,26 @@ export const newsData = {
           "slug": "cambridge-firm-develops-desktop-fusion-energy-device"
         },
         {
-          "representativeTitle": "Glacier melt threatens higher sea-level rise projections.",
+          "representativeTitle": "Wight Fossil Reveals New Megaraptoran Dinosaur Species",
           "sources": [
             "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Thwaites Glacier could contribute twice as much sea-level rise as previously projected",
+              "title": "Isle of Wight fossil Europe's first known long-clawed megaraptoran dinosaur",
               "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-thwaites-glacier-contribute-sea-previously.html",
-              "pubDate": "2026-10-13T21:50:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "glacier-melt-threatens-higher-sea-level-rise-projections"
-        },
-        {
-          "representativeTitle": "JWST Reveals Cosmic Structure Challenging Universe Models",
-          "sources": [
-            "Science Daily",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "James Webb reveals a massive cosmic structure that challenges our understanding of the Universe",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm",
-              "pubDate": "2026-10-13T11:27:24.000Z",
-              "tier": 2
-            },
-            {
-              "title": "James Webb reveals a massive cosmic structure that challenges our understanding of the Universe",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Fa0F6RDlpYy1pQWg1SFNKMThNNzIwcFhqX1dMYnF0UXAwNkxpdGZfSGNDeEE4TzFvejdrV1YzVkNJZzlHNk5kWG1sRTY5Rk03ZS1fWFFqSDR2a1hNM0NUQXh6M1JpLTJVeS11REFQdw?oc=5",
-              "pubDate": "2026-10-13T11:34:45.000Z",
+              "link": "https://phys.org/news/2026-10-isle-wight-fossil-europe-clawed.html",
+              "pubDate": "2026-10-13T23:10:14.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
           "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 55,
-          "slug": "jwst-reveals-cosmic-structure-challenging-universe-models"
-        },
-        {
-          "representativeTitle": "New Growth Method Yields Novel Quantum Material Discovery",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "'Carpet' growth method yields long-sought 2D quantum material",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-carpet-growth-method-yields-sought.html",
-              "pubDate": "2026-10-13T21:30:02.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "new-growth-method-yields-novel-quantum-material-discovery"
-        },
-        {
-          "representativeTitle": "Simulations reveal diamond defects for quantum tech.",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Faster molecular simulations identify promising diamond defects for quantum computers and sensors",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-faster-molecular-simulations-diamond-defects.html",
-              "pubDate": "2026-10-13T21:20:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "simulations-reveal-diamond-defects-for-quantum-tech"
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "wight-fossil-reveals-new-megaraptoran-dinosaur-species"
         },
         {
           "representativeTitle": "New X-ray Methods Speed Up Chemical Structure Mapping",
