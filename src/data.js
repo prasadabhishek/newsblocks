@@ -1,20 +1,72 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-19T04:11:37.513Z",
+  "lastUpdated": "2026-10-19T08:22:44.830Z",
   "children": [
     {
       "name": "World",
       "children": [
+        {
+          "representativeTitle": "Macron rejects minister's resignation amid unrest.",
+          "sources": [
+            "The Guardian",
+            "Al Jazeera",
+            "France 24",
+            "Le Monde"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Macron refuses minister’s resignation after huge protests rock France – Europe live",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/oct/19/europe-france-protests-riots-macron-ukraine-russia-zelenskyy-sweden-latest-news-updates",
+              "pubDate": "2026-10-19T08:12:54.000Z",
+              "tier": 1
+            },
+            {
+              "title": "France protests live: Macron admits ‘failures’ after days of violent unrest",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/10/19/france-protests-live-macron-admits-failures-after-days-of-violent-unrest?traffic_source=rss",
+              "pubDate": "2026-10-19T07:49:17.000Z",
+              "tier": 1
+            },
+            {
+              "title": "🔴 Live: Macron rejects French interior minister's resignation after weekend of unrest",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261019-live-france-macron-slams-unbridled-violence-protests-weekend-unrest",
+              "pubDate": "2026-10-19T05:18:07.000Z",
+              "tier": 1
+            },
+            {
+              "title": "🔴Watch live: Macron to address France day after nationwide violent protests",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261018-live-vance-blames-immigration-for-violence-during-protests-in-france",
+              "pubDate": "2026-10-18T17:55:27.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Macron refuses interior minister's resignation after protests",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/france/article/2026/10/19/macron-refuses-interior-minister-s-resignation-after-protests_6758746_7.html",
+              "pubDate": "2026-10-19T05:18:24.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 100,
+          "slug": "macron-rejects-ministers-resignation-amid-unrest"
+        },
         {
           "representativeTitle": "Four Killed in Violent Fire at Canadian Base",
           "sources": [
             "BBC World",
             "The Guardian",
             "Al Jazeera",
-            "France 24",
-            "Time"
+            "France 24"
           ],
-          "citationCount": 5,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "Major fire at Canada military base leaves four dead, dozens injured",
@@ -43,70 +95,32 @@ export const newsData = {
               "link": "https://www.france24.com/en/americas/20261018-canada-military-base-fire-four-dead-39-hospitalised",
               "pubDate": "2026-10-18T22:16:51.000Z",
               "tier": 1
-            },
-            {
-              "title": "4 Dead in ‘Violent’ Fire at a Canadian Military Base",
-              "source": "Time",
-              "link": "https://time.com/article/2026/10/18/what-to-know-about-the-deadly-fire-at-a-canadian-military-base/",
-              "pubDate": "2026-10-18T17:10:14.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
-          "relevance_score": 6,
+          "relevance_score": 7,
           "importance": 95,
           "slug": "four-killed-in-violent-fire-at-canadian-base"
         },
         {
-          "representativeTitle": "Macron Condemns Violence Amid French Unrest, Arrests",
+          "representativeTitle": "Trump Endorses Netanyahu Ahead of Israeli Election Vote",
           "sources": [
-            "BBC World",
-            "The Guardian",
-            "Al Jazeera"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Macron calls for 'calm and order' after riots across France",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-18T20:33:21.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Macron criticises ‘unbridled violence’ after days of unrest and 2,400 arrests across France",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron",
-              "pubDate": "2026-10-18T18:57:48.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Macron condemns violence after riots lead to looting and mass arrests",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/18/macron-condemns-violence-after-riots-lead-to-looting-and-mass-arrests?traffic_source=rss",
-              "pubDate": "2026-10-18T21:10:47.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 80,
-          "slug": "macron-condemns-violence-amid-french-unrest-arrests"
-        },
-        {
-          "representativeTitle": "Trump Endorses Netanyahu Ahead of Israeli Election",
-          "sources": [
+            "Al Jazeera",
             "France 24",
             "SCMP",
-            "Sky News",
-            "Euronews"
+            "Sky News"
           ],
           "citationCount": 4,
           "rawArticles": [
+            {
+              "title": "US President Donald Trump endorses Netanyahu for Israeli election",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/us-president-donald-trump-endorses-netanyahu-for-israeli-election?traffic_source=rss",
+              "pubDate": "2026-10-19T05:10:37.000Z",
+              "tier": 1
+            },
             {
               "title": "Trump endorses embattled Israeli PM Netanyahu ahead of October 27 election",
               "source": "France 24",
@@ -127,28 +141,97 @@ export const newsData = {
               "link": "https://news.sky.com/story/trump-endorses-netanyahu-ahead-of-israeli-elections-calling-him-great-warrior-prime-minister-13600658",
               "pubDate": "2026-10-18T14:50:00.000Z",
               "tier": 2
-            },
-            {
-              "title": "Trump endorses Netanyahu days before Israeli election, breaking months of silence",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/19/trump-endorses-netanyahu-days-before-israeli-election-breaking-months-of-silence",
-              "pubDate": "2026-10-19T03:44:41.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": 0,
           "relevance_score": 8,
-          "importance": 70,
-          "slug": "trump-endorses-netanyahu-ahead-of-israeli-election"
+          "importance": 80,
+          "slug": "trump-endorses-netanyahu-ahead-of-israeli-election-vote"
         },
         {
-          "representativeTitle": "Photographer Attacked in West Bank; Netanyahu Criticized",
+          "representativeTitle": "Brazil's Leaders Clash in Heated Presidential Debate",
+          "sources": [
+            "Al Jazeera",
+            "France 24",
+            "SCMP",
+            "Le Monde"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Lula and Bolsonaro spar in Brazil’s fiery first presidential run-off debate",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/19/lula-and-bolsonaro-spar-in-brazils-fiery-first-presidential-run-off-debate?traffic_source=rss",
+              "pubDate": "2026-10-19T04:27:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Brazil's Lula, Bolsonaro clash in bitter debate ahead of election run-off",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/americas/20261019-brazil-lula-bolsonaro-debate-election-runoff",
+              "pubDate": "2026-10-19T03:42:25.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Lula and Bolsonaro trade barbs in fiery Brazil run-off debate",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/americas/article/3371343/lula-and-bolsonaro-trade-barbs-fiery-brazil-run-debate?utm_source=rss_feed",
+              "pubDate": "2026-10-19T04:09:43.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Lula and Bolsonaro trade insults during debate",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/19/lula-and-bolsonaro-trade-insults-during-debate-liar-thug_6758744_4.html",
+              "pubDate": "2026-10-19T03:07:51.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 80,
+          "slug": "brazils-leaders-clash-in-heated-presidential-debate"
+        },
+        {
+          "representativeTitle": "Funding Shortages Force WFP to Cut Gaza Aid",
+          "sources": [
+            "BBC World",
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Funding shortages force World Food Programme to cut aid to Gaza",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-19T06:00:18.000Z",
+              "tier": 1
+            },
+            {
+              "title": "World Food Programme to end aid for half a million in Gaza due to funding shortfall",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/middle-east/20261019-world-food-programme-to-end-aid-for-half-a-million-in-gaza-due-to-funding-shortfall",
+              "pubDate": "2026-10-19T07:33:32.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 80,
+          "slug": "funding-shortages-force-wfp-to-cut-gaza-aid"
+        },
+        {
+          "representativeTitle": "Arrests Made Over Attacks on Foreign Journalists, Diplomats",
           "sources": [
             "BBC World",
             "France 24",
-            "Google World"
+            "Sky News"
           ],
           "citationCount": 3,
           "rawArticles": [
@@ -167,10 +250,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Photographer attacked by settlers in the West Bank feels insulted by Netanyahu",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPay1sclgydEVwSDBaSHdrVFRJUldJSllONTFYRlVRV2o0WGNlX1hTOE1laXRwdnlCbnE0c0ZPYVp1ZzRLZmNBNHVKajZOVUNqQ2s1UV9QZlVuUE8wZkhEeGprOGt3RHE0eTJVWEZUdFRaU2dJWDhOUDV0aUdWcjNyZFVScnRQUTd2ZUF1a3ViZ2l6UjVLc21hUHdfa1ZORWhtLVNJd3VWZHE2X0sxMGt5eHo1RzcwTEk?oc=5",
-              "pubDate": "2026-10-18T19:00:00.000Z",
+              "title": "Arrests over Israeli settler attacks on US photojournalist and European diplomats in West Bank",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/arrests-over-israeli-settler-attacks-on-us-photojournalist-and-european-diplomats-in-west-bank-13600842",
+              "pubDate": "2026-10-19T05:51:00.000Z",
               "tier": 2
             }
           ],
@@ -179,7 +262,53 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 75,
-          "slug": "photographer-attacked-in-west-bank-netanyahu-criticized"
+          "slug": "arrests-made-over-attacks-on-foreign-journalists-diplomats"
+        },
+        {
+          "representativeTitle": "Pope Leo XIV Addresses Public After Cancer Surgery",
+          "sources": [
+            "BBC World",
+            "Al Jazeera",
+            "SCMP",
+            "Google World"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Pope Leo XIV thanks wellwishers in first event after cancer surgery",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/cq70px6pjkg5o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-18T11:09:32.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope greeted by crowds in first major appearance since lung cancer surgery",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/19/pope-greeted-by-crowds-in-first-major-appearance-since-lung-cancer-surgery?traffic_source=rss",
+              "pubDate": "2026-10-19T04:42:13.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope Leo pledges return to duties following lung cancer surgery",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3371311/pope-leo-pledges-return-duties-following-lung-cancer-surgery?utm_source=rss_feed",
+              "pubDate": "2026-10-18T12:03:20.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Pope Leo says he will gradually resume duties after cancer surgery",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaEpvVUJGbmNnNDVLcGMzVXhWOUR1bXFmTHpNV0tuVlZUN0NiNTJETTdkaWRkRE9Gekw1V3ZzcWoxWHlsazdxZ2dqekhYT3R1Uk0wZVU3VnFGTWZjRU9fX1N0aG13QnBkSTdENU9ycG5zaXlzMnhoMXN5UURHVUNfRGpjWU1Kb1VXeG5pSlQtMl95c3pkd2paUVplbldRTmlLc3hBVWllSXYxcmtOQ1E?oc=5",
+              "pubDate": "2026-10-18T12:55:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 70,
+          "slug": "pope-leo-xiv-addresses-public-after-cancer-surgery"
         },
         {
           "representativeTitle": "Flight lands after bomb threat in air travel.",
@@ -191,10 +320,10 @@ export const newsData = {
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Threat forces Israel to Austria flight into emergency landing",
+              "title": "Bomb threat forces Israel to Austria flight into emergency landing",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-19T02:41:50.000Z",
+              "pubDate": "2026-10-19T06:29:55.000Z",
               "tier": 1
             },
             {
@@ -218,52 +347,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 65,
           "slug": "flight-lands-after-bomb-threat-in-air-travel"
-        },
-        {
-          "representativeTitle": "Fire at Alberta Base Kills Service Members, Injures Many",
-          "sources": [
-            "BBC US",
-            "NBC News",
-            "NPR",
-            "ABC News Top"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "Major fire at Canada military base leaves four dead, dozens injured",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-18T23:06:09.000Z",
-              "tier": 1
-            },
-            {
-              "title": "4 service members killed and dozens injured in fire at Canadian military base",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/nightly-news/video/4-service-members-killed-and-dozens-injured-in-fire-at-canadian-military-base-271788613878",
-              "pubDate": "2026-10-18T22:38:36.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Carney says 4 service members killed and dozens injured in fire at Alberta military base",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base",
-              "pubDate": "2026-10-18T07:56:08.000Z",
-              "tier": 2
-            },
-            {
-              "title": "4 dead, 39 injured in explosion at Canadian military training base",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/International/multiple-people-killed-dozens-injured-explosion-canadian-military/story?id=137359465",
-              "pubDate": "2026-10-19T02:16:04.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "fire-at-alberta-base-kills-service-members-injures-many"
         },
         {
           "representativeTitle": "Trump Accuses Zelensky Over War End Efforts",
@@ -334,117 +417,6 @@ export const newsData = {
           "slug": "historic-french-town-hall-set-ablaze-in-incident"
         },
         {
-          "representativeTitle": "French Cities Face After Violent Protests Erupt",
-          "sources": [
-            "France 24",
-            "Euronews"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "🔴Watch live: Macron to address France day after nationwide violent protests",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20261018-live-vance-blames-immigration-for-violence-during-protests-in-france",
-              "pubDate": "2026-10-18T17:55:27.000Z",
-              "tier": 1
-            },
-            {
-              "title": "'Like we had a war': France left reeling after nationwide violent protests",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261018-like-we-had-a-war-france-left-reeling-after-nationwide-violent-protests",
-              "pubDate": "2026-10-18T13:50:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "🔴Live: Trump says 'France is burning', blames 'immigration' for nationwide protests",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20261018-live-vance-blames-immigration-for-violence-during-protests-in-france",
-              "pubDate": "2026-10-18T12:57:24.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Tensions remain high in Paris after violent protests across France",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/video/2026/10/18/tensions-remain-high-in-paris-after-violent-protests-across-france",
-              "pubDate": "2026-10-18T18:10:10.000Z",
-              "tier": 2
-            },
-            {
-              "title": "France: Paris, Lyon and Marseille count the cost after violent protests",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/video/2026/10/18/france-paris-lyon-and-marseille-count-the-cost-after-violent-protests",
-              "pubDate": "2026-10-18T15:56:49.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 70,
-          "slug": "french-cities-face-after-violent-protests-erupt"
-        },
-        {
-          "representativeTitle": "Lula and Bolsonaro Clash in Heated Election Debate",
-          "sources": [
-            "France 24",
-            "SCMP"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Brazil's Lula, Bolsonaro clash in bitter debate ahead of election runoff",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261019-brazil-lula-bolsonaro-debate-election-runoff",
-              "pubDate": "2026-10-19T03:42:25.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Lula and Bolsonaro trade barbs in fiery Brazil run-off debate",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/americas/article/3371343/lula-and-bolsonaro-trade-barbs-fiery-brazil-run-debate?utm_source=rss_feed",
-              "pubDate": "2026-10-19T04:09:43.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "lula-and-bolsonaro-clash-in-heated-election-debate"
-        },
-        {
-          "representativeTitle": "China's Exports Drive Growth Despite Domestic Slowdown",
-          "sources": [
-            "Bloomberg Markets",
-            "Google Stocks"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "China's Growth Rebounds While Home-Price Slump Eases",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-19/china-s-growth-rebounds-while-home-price-slump-eases-video",
-              "pubDate": "2026-10-19T04:02:32.000Z",
-              "tier": 1
-            },
-            {
-              "title": "China’s Export Boom Fuels Growth Despite Slump at Home",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40cnBMZmk3ZzA2bFpuN0hiUnhOZFU3ODMtbGs1NGVTbDRuanNpSWJ5eXpMR3ZTNGU4S0tVc2VYUGlkVW5BdUJCVzdjSFJfeFhpc296NjM1SVNBZmVWNGtmZlhXRHRwaGRYbmhuaVNaV25IYzJU?oc=5",
-              "pubDate": "2026-10-19T02:16:04.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "chinas-exports-drive-growth-despite-domestic-slowdown"
-        },
-        {
           "representativeTitle": "Fire Breaks Out At Canadian Forces Base Wainwright",
           "sources": [
             "BBC US",
@@ -475,7 +447,83 @@ export const newsData = {
           "slug": "fire-breaks-out-at-canadian-forces-base-wainwright"
         },
         {
-          "representativeTitle": "Houthi Attacks Expose Saudi Military Weaknesses Now",
+          "representativeTitle": "France faces pressure after weekend violence erupts.",
+          "sources": [
+            "BBC World",
+            "Euronews"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Katya Adler: France's government under pressure after weekend of widespread violence",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-19T07:46:54.000Z",
+              "tier": 1
+            },
+            {
+              "title": "France grapples with the aftermath of a weekend of violence",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/19/france-grapples-with-the-aftermath-of-a-weekend-of-violence",
+              "pubDate": "2026-10-19T06:21:42.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "france-faces-pressure-after-weekend-violence-erupts"
+        },
+        {
+          "representativeTitle": "Bomb Threat Forces Airline Flight Diversion to Bulgaria",
+          "sources": [
+            "SCMP",
+            "Euronews",
+            "Le Monde",
+            "Google World"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "No danger found after bomb threat diverts Austrian Airlines flight from Tel Aviv",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3371337/bomb-threat-forces-austrian-airlines-flight-tel-aviv-divert-bulgaria?utm_source=rss_feed",
+              "pubDate": "2026-10-19T02:12:37.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Bomb threat forces Austrian Airlines plane from Tel Aviv to divert to Bulgaria",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/19/bomb-threat-forces-austrian-airlines-plane-from-tel-aviv-to-divert-to-bulgaria",
+              "pubDate": "2026-10-19T07:40:43.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Bomb threat forces airliner from Tel Aviv to divert to Bulgaria",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/19/bomb-threat-forces-airliner-from-tel-aviv-to-divert-to-bulgaria_6758741_4.html",
+              "pubDate": "2026-10-18T22:42:12.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Austrian Airlines flight from Tel Aviv to Vienna lands in Sofia after reported bomb threat",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBlUExUNm94dm54NG43aFR6aGk1RHc1M3FjOHAzZjNhdmx0VmZNS294c2ZRTmhmaVM0OEtMMWh3eG1KYTllajBMMWx0VG1hV0NGQ3dMaTlHWQ?oc=5",
+              "pubDate": "2026-10-18T19:04:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "bomb-threat-forces-airline-flight-diversion-to-bulgaria"
+        },
+        {
+          "representativeTitle": "Kenya Reports Eighth Ebola Case Amid Regional Spread",
           "sources": [
             "Al Jazeera",
             "Google World"
@@ -483,17 +531,17 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "GCC condemns Houthi attacks on Saudi Arabia as Yemen fighting intensifies",
+              "title": "Kenya confirms eighth Ebola case amid widening regional outbreak",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/18/gcc-condemns-houthi-attacks-on-saudi-arabia-as-yemen-fighting-intensifies?traffic_source=rss",
-              "pubDate": "2026-10-18T18:44:30.000Z",
+              "link": "https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak?traffic_source=rss",
+              "pubDate": "2026-10-19T01:07:52.000Z",
               "tier": 1
             },
             {
-              "title": "Saudi Arabia’s Military Limitations Are Being Exposed by Houthi Attacks",
+              "title": "Kenya confirms eighth Ebola case amid widening regional outbreak",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM19uejBXQV9UYlQ0ZlFpMFFxYkM3WFY1aWlac3NVWUxFMUxqMzlCTE9DSl9JMlJXRHBPcnN6LVI4Xzl0OHBHYjVKME5jOFcwcFo4VnctUlpRUk1WRkhPczhHWDh2Tl9JeTVaLXU2X2dXVDNKd2dKdU5pcHhOWjRTYktfbV8tRjd3RFpNdXdfZnlxM19QYlRSanZVX0hRUlJBa0V0aFpTNGFUZExoSWs4S0Y0dmZMcUUt?oc=5",
-              "pubDate": "2026-10-19T02:00:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX0NXTG5DemNCMmlGQ3JsaXVINWROZXR6eUpRb1JURkFlM1BMaXhRd19Pdm10YVV3aWtJUmJnUjVOQzZpSXFEX3BycjRNa1A1RW1nQlRXa2NaU2Vpa3JlX0RobXZRaXl3VWdrd1hfd2lCYktibDQzYUEyS2NZR18zUVRrREVUakEyMmxoOVQ3ajhfem1mNWhzNnUxenFPemljWUlGOGpKaDRrd9IBrwFBVV95cUxQaEJVSVE1cnpuaWZhUnNMRDk3V0FvVDh3cEw3bXQyZFNtNk9lWUNDWlpkTUpOSjNsUUZGaDdWUEZkTjhoS3pHakdEZ1RsdnpUNjhGN1kxX0xtZW1CVzlQUGE1QzBwWUhrb2NBUmZ5dUpqX2tQamZtZEEyOHotNXFrRnBOSVVyQ3c3TkRfS3hFQkF3U3dZYTFOel96QkFoMDRYUmlOdXl0UGFOSWk5S1pr?oc=5",
+              "pubDate": "2026-10-19T01:10:39.000Z",
               "tier": 2
             }
           ],
@@ -502,7 +550,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 60,
-          "slug": "houthi-attacks-expose-saudi-military-weaknesses-now"
+          "slug": "kenya-reports-eighth-ebola-case-amid-regional-spread"
         },
         {
           "representativeTitle": "Internal sabotage efforts targeting Putin's regime emerge.",
@@ -535,63 +583,122 @@ export const newsData = {
           "slug": "internal-sabotage-efforts-targeting-putins-regime-emerge"
         },
         {
-          "representativeTitle": "Macron Condemns Violence During French Protests",
+          "representativeTitle": "Major Fire at Canadian Base Claims Four Lives",
           "sources": [
-            "France 24",
-            "Le Monde"
+            "BBC US",
+            "NBC News"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "🔴 Macron says 'nothing justifies' violence in protests during address to nation",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261018-macron-says-nothing-justifies-violence-in-protests-during-address-to-nation",
-              "pubDate": "2026-10-18T19:03:57.000Z",
+              "title": "Major fire at Canada military base leaves four dead, dozens injured",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-18T23:06:09.000Z",
               "tier": 1
             },
             {
-              "title": "Macron says 'nothing justifies' violence in protests during address to nation",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261018-macron-says-nothing-justifies-violence-in-protests-during-address-to-nation",
-              "pubDate": "2026-10-18T18:44:15.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Macron says nothing justifies 'unbridled' violence in France protests",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/france/article/2026/10/18/macron-says-nothing-justifies-unbridled-violence-in-france-protests_6758738_7.html",
-              "pubDate": "2026-10-18T18:56:00.000Z",
+              "title": "4 service members killed and dozens injured in fire at Canadian military base",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/nightly-news/video/4-service-members-killed-and-dozens-injured-in-fire-at-canadian-military-base-271788613878",
+              "pubDate": "2026-10-18T22:38:36.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 65,
-          "slug": "macron-condemns-violence-during-french-protests"
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "major-fire-at-canadian-base-claims-four-lives"
         },
         {
-          "representativeTitle": "Ukraine Strikes Russian Oil Facilities With Drones",
+          "representativeTitle": "French Bond Drops Amid Civil Unrest Pressure",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "France’s Bonds Drop as Rioting Heaps Pressure on Government",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/france-s-bonds-drop-as-rioting-heaps-pressure-on-government",
+              "pubDate": "2026-10-19T07:43:55.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "french-bond-drops-amid-civil-unrest-pressure"
+        },
+        {
+          "representativeTitle": "Philippines Confronts China Over Threat of Force",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Philippines Summons China Envoy Over ‘Use of Force’ Threat",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/philippines-summons-china-envoy-over-use-of-force-threat",
+              "pubDate": "2026-10-19T07:43:21.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "philippines-confronts-china-over-threat-of-force"
+        },
+        {
+          "representativeTitle": "Cuba's perceived loss signals shifting global dynamics.",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+              "title": "Losing Cuba, the global trickster",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss",
-              "pubDate": "2026-10-19T02:10:09.000Z",
+              "link": "https://www.aljazeera.com/opinions/2026/10/19/losing-cuba-the-global-trickster?traffic_source=rss",
+              "pubDate": "2026-10-19T07:02:58.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "ukraine-strikes-russian-oil-facilities-with-drones"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "cubas-perceived-loss-signals-shifting-global-dynamics"
+        },
+        {
+          "representativeTitle": "Saudi Arabia Intercepts Drones; Trump Notes Support",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Saudi Arabia Intercepts Drone Waves, Trump Says Riyadh Welcomes US and Israeli Support",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-19/horizons-middle-east-africa-10-19-2026-video",
+              "pubDate": "2026-10-19T06:49:40.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "saudi-arabia-intercepts-drones-trump-notes-support"
         },
         {
           "representativeTitle": "Salvadoran Soldiers Missing After Haiti Ambush Incident",
@@ -604,7 +711,7 @@ export const newsData = {
               "title": "Five Salvadoran Soldiers Missing in Haiti After Ambush",
               "source": "NY Times",
               "link": "https://www.nytimes.com/2026/10/18/world/americas/salvadoran-soldiers-missing-haiti.html",
-              "pubDate": "2026-10-19T03:16:53.000Z",
+              "pubDate": "2026-10-19T06:43:58.000Z",
               "tier": 1
             }
           ],
@@ -616,39 +723,17 @@ export const newsData = {
           "slug": "salvadoran-soldiers-missing-after-haiti-ambush-incident"
         },
         {
-          "representativeTitle": "Trump defends sanctions relief; criticizes Zelenskyy.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump defends Russian sanctions relief, lashes out at Zelenskyy",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy?traffic_source=rss",
-              "pubDate": "2026-10-19T03:10:05.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trump-defends-sanctions-relief-criticizes-zelenskyy"
-        },
-        {
-          "representativeTitle": "China Coal Output Declines Amid Winter Supply Worries",
+          "representativeTitle": "French Unrest Spreads; Protests Emerge Across Europe",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "China’s Coal Output Drops as Fears Build Over Winter Supply",
+              "title": "French Violence Raises Alert as Protests Flare Across Europe",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-19/china-s-coal-output-drops-as-concerns-build-over-winter-supply",
-              "pubDate": "2026-10-19T02:28:38.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/french-violence-raises-alert-as-protests-flare-across-europe",
+              "pubDate": "2026-10-19T04:15:00.000Z",
               "tier": 1
             }
           ],
@@ -657,124 +742,20 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "china-coal-output-declines-amid-winter-supply-worries"
+          "slug": "french-unrest-spreads-protests-emerge-across-europe"
         },
         {
-          "representativeTitle": "Kenya Reports Eighth Ebola Case Amid Regional Spread",
+          "representativeTitle": "French Debt Sell-Off Linked to Domestic Protests Unrest",
           "sources": [
-            "Al Jazeera"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Kenya confirms eighth Ebola case amid widening regional outbreak",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak?traffic_source=rss",
-              "pubDate": "2026-10-19T01:07:52.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "kenya-reports-eighth-ebola-case-amid-regional-spread"
-        },
-        {
-          "representativeTitle": "Flight Diverted From Israel Amid Reported Threat",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Flight from Israel diverted after ‘threat’",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/77b859ab-e380-413d-894b-2fe3cf6417c5",
-              "pubDate": "2026-10-19T00:55:37.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "flight-diverted-from-israel-amid-reported-threat"
-        },
-        {
-          "representativeTitle": "Hormuz Crisis Traps Sailors Amid Mounting Ship Attacks",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Strait of Hormuz crisis traps 6,000 sailors as attacks on ships mount, UN maritime chief says",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/world/strait-hormuz-crisis-traps-6000-sailors-attacks-ships-mount-un-maritime-chief-says",
-              "pubDate": "2026-10-19T02:23:20.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 55,
-          "slug": "hormuz-crisis-traps-sailors-amid-mounting-ship-attacks"
-        },
-        {
-          "representativeTitle": "Bomb Threat Forces Airline Flight Diversion to Bulgaria",
-          "sources": [
-            "SCMP",
-            "Le Monde",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Bomb threat forces Austrian Airlines flight from Tel Aviv to divert to Bulgaria",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/middle-east/article/3371337/bomb-threat-forces-austrian-airlines-flight-tel-aviv-divert-bulgaria?utm_source=rss_feed",
-              "pubDate": "2026-10-19T02:12:37.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Bomb threat forces airliner from Tel Aviv to divert to Bulgaria",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/19/bomb-threat-forces-airliner-from-tel-aviv-to-divert-to-bulgaria_6758741_4.html",
-              "pubDate": "2026-10-18T22:42:18.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Austrian Airlines flight from Tel Aviv to Vienna lands in Sofia after reported bomb threat",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBlUExUNm94dm54NG43aFR6aGk1RHc1M3FjOHAzZjNhdmx0VmZNS294c2ZRTmhmaVM0OEtMMWh3eG1KYTllajBMMWx0VG1hV0NGQ3dMaTlHWQ?oc=5",
-              "pubDate": "2026-10-18T19:04:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "bomb-threat-forces-airline-flight-diversion-to-bulgaria"
-        },
-        {
-          "representativeTitle": "Louvre Heist: Crown Jewels Still Missing After Year",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Louvre's $100 million crown jewels still missing one year after daring heist",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261019-louvre-100-million-crown-jewels-one-year-heist",
-              "pubDate": "2026-10-19T02:01:56.000Z",
+              "title": "France hit by debt sell-off as protests unnerve investors",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/19/france-hit-by-debt-sell-off-as-protests-unnerve-investors",
+              "pubDate": "2026-10-19T07:32:59.000Z",
               "tier": 1
             }
           ],
@@ -783,45 +764,133 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "louvre-heist-crown-jewels-still-missing-after-year"
+          "slug": "french-debt-sell-off-linked-to-domestic-protests-unrest"
         },
         {
-          "representativeTitle": "Pope Leo XIV Addresses Public After Cancer Surgery",
+          "representativeTitle": "Israeli Buyers Fuel Local Tensions in Athens Hub",
           "sources": [
-            "BBC World",
-            "SCMP",
-            "Google World"
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "In pro-Palestine hub of Athens, Israeli buyers increase local resentment",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/features/2026/10/19/in-pro-palestine-hub-of-athens-israeli-buyers-increase-local-resentment?traffic_source=rss",
+              "pubDate": "2026-10-19T06:51:10.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "israeli-buyers-fuel-local-tensions-in-athens-hub"
+        },
+        {
+          "representativeTitle": "Albanian Protests Clash With Police Amid Unrest",
+          "sources": [
+            "Sky News",
+            "Euronews",
+            "Le Monde"
           ],
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Pope Leo XIV thanks wellwishers in first event after cancer surgery",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/cq70px6pjkg5o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-18T11:09:32.000Z",
+              "title": "Second day of violence in Milan as protesters clash with police",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/second-day-of-violence-in-milan-as-protesters-clash-with-police-13600765",
+              "pubDate": "2026-10-18T18:37:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Albanian police clash with protesters in Tirana as unrest enters sixth day",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/video/2026/10/19/albanian-police-clash-with-protesters-in-tirana-as-unrest-enters-sixth-day",
+              "pubDate": "2026-10-19T05:52:12.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Milan experiences second day of street clashes",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/18/second-day-of-street-clashes-in-milan_6758735_4.html",
+              "pubDate": "2026-10-18T17:25:36.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "albanian-protests-clash-with-police-amid-unrest"
+        },
+        {
+          "representativeTitle": "Alberta Vote Splits Family Over Provincial Separation Issue",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The father and son on opposite sides of Alberta’s separation vote",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/videos/c6g7xj3d88nvo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-19T07:55:32.000Z",
               "tier": 1
-            },
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "alberta-vote-splits-family-over-provincial-separation-issue"
+        },
+        {
+          "representativeTitle": "French Students Protest Over Education Funding Shortfalls",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Pope Leo pledges return to duties following lung cancer surgery",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3371311/pope-leo-pledges-return-duties-following-lung-cancer-surgery?utm_source=rss_feed",
-              "pubDate": "2026-10-18T12:03:20.000Z",
-              "tier": 2
-            },
+              "title": "French student protests: 'There's been lack of investment in education for years now'",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/french-student-protests-there-s-been-lack-of-investment-in-education-for-years-now",
+              "pubDate": "2026-10-19T07:16:26.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "french-students-protest-over-education-funding-shortfalls"
+        },
+        {
+          "representativeTitle": "UK Promises Better Safeguards For Disabled Air Travelers",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Pope Leo says he will gradually resume duties after cancer surgery",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaEpvVUJGbmNnNDVLcGMzVXhWOUR1bXFmTHpNV0tuVlZUN0NiNTJETTdkaWRkRE9Gekw1V3ZzcWoxWHlsazdxZ2dqekhYT3R1Uk0wZVU3VnFGTWZjRU9fX1N0aG13QnBkSTdENU9ycG5zaXlzMnhoMXN5UURHVUNfRGpjWU1Kb1VXeG5pSlQtMl95c3pkd2paUVplbldRTmlLc3hBVWllSXYxcmtOQ1E?oc=5",
-              "pubDate": "2026-10-18T12:55:01.000Z",
-              "tier": 2
+              "title": "UK government promises disabled air passengers better safeguards",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/business/2026/oct/19/uk-government-promises-disabled-air-passengers-better-safeguards",
+              "pubDate": "2026-10-19T07:00:21.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": 0.4,
           "relevance_score": 6,
-          "importance": 55,
-          "slug": "pope-leo-xiv-addresses-public-after-cancer-surgery"
+          "importance": 45,
+          "slug": "uk-promises-better-safeguards-for-disabled-air-travelers"
         },
         {
           "representativeTitle": "Macron Under Fire Following Civil Unrest Outbreak",
@@ -846,70 +915,48 @@ export const newsData = {
           "slug": "macron-under-fire-following-civil-unrest-outbreak"
         },
         {
-          "representativeTitle": "St Petersburg Hit By Major Ukrainian Drone Attack",
+          "representativeTitle": "Oil Prices Shift Amid Sanctions and Middle East Tensions",
           "sources": [
-            "FT International"
+            "WSJ US Business"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "St Petersburg endures biggest Ukrainian drone attack",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1",
-              "pubDate": "2026-10-18T18:30:14.000Z",
-              "tier": 1
+              "title": "Oil Prices Fall as Traders Weigh Russia Sanctions Waiver, Middle East Risks",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-russia-sanctions-waiver-middle-east-risks-05053c4f?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-10-19T07:42:00.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "oil-prices-shift-amid-sanctions-and-middle-east-tensions"
+        },
+        {
+          "representativeTitle": "US Citizens Advised of Heightened Vigilance in Middle East",
+          "sources": [
+            "ABC News Top"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Iran live updates: Americans in Middle East urged to exercise 'heightened vigilance'",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/International/live-updates/iran-live-updates/?id=137370653",
+              "pubDate": "2026-10-19T07:21:42.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "st-petersburg-hit-by-major-ukrainian-drone-attack"
-        },
-        {
-          "representativeTitle": "Pastor Accused Of Child Starvation Faces Verdict Today",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Kenya pastor accused of ordering parents to starve their children to death faces verdict",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-19T03:44:02.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 6,
           "importance": 45,
-          "slug": "pastor-accused-of-child-starvation-faces-verdict-today"
-        },
-        {
-          "representativeTitle": "Indonesia Meets MSCI Regarding Index Threat Concerns",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Indonesia Said to Meet Monday With MSCI Over Shock Index Threat",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-19/indonesia-said-to-meet-monday-with-msci-over-shock-index-threat",
-              "pubDate": "2026-10-19T03:17:53.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "indonesia-meets-msci-regarding-index-threat-concerns"
+          "slug": "us-citizens-advised-of-heightened-vigilance-in-middle-east"
         },
         {
           "representativeTitle": "Fire at Canadian Base Kills Four, Wounds Many",
@@ -934,78 +981,26 @@ export const newsData = {
           "slug": "fire-at-canadian-base-kills-four-wounds-many"
         },
         {
-          "representativeTitle": "Flight Crew Reports Co-Pilot Attack During Flight",
+          "representativeTitle": "Trump Backs Netanyahu Amid Ongoing Israeli Political Turmoil",
           "sources": [
-            "The Guardian",
-            "Google World"
+            "NPR"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Flydubai captain describes blocking axe blows as co-pilot attacked him",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/18/flydubai-captain-smit-machchhar-blocking-axe-blows-flight-fz1073",
-              "pubDate": "2026-10-18T17:27:17.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Captain of flydubai plane describes blocking axe blows as co-pilot attacked",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRlNJNGV2RU1JbHotN25MRXNHQVZIeDJJU3I5eGYzT0pkUjdaSnZqbUpNZzRJY1U2cW1yUUViUjVuTVlvb184VjZsaEF5dnNBdEFBTVhtemRBalZRbG1SdlNhdHFoVkZHTHZ3SzlTMTRWaFhJaTMyVzJxc01qWmp6aUlpa2k5dGJuVTNkeU5mWXZUZ1F6SUlrMzlESGJ4cmRkajZwcF8ybEhoZXRITXQyMVFFTkxKdnZjS0t6WFNBSWQ3M0s3WS14VzhObFM?oc=5",
-              "pubDate": "2026-10-18T16:45:00.000Z",
+              "title": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/19/g-s1-148731/trump-endorses-netanyahu",
+              "pubDate": "2026-10-19T05:35:39.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "flight-crew-reports-co-pilot-attack-during-flight"
-        },
-        {
-          "representativeTitle": "Japan PM Denies Causing Weak Yen and High Rates",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Japan PM Takaichi Denies She’s Driving Weak Yen, High Rates",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-19/japan-pm-takaichi-denies-she-s-driving-weak-yen-high-rates",
-              "pubDate": "2026-10-19T02:15:30.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 45,
-          "slug": "japan-pm-denies-causing-weak-yen-and-high-rates"
-        },
-        {
-          "representativeTitle": "Japan Addresses Fiscal Concerns Through International Outreach Efforts",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Japan Seeks to Quell Fiscal Fears With Outreach in English",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-19/japan-seeks-to-quell-fiscal-fears-with-outreach-in-english",
-              "pubDate": "2026-10-19T02:10:47.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "japan-addresses-fiscal-concerns-through-international-outreach-efforts"
+          "slug": "trump-backs-netanyahu-amid-ongoing-israeli-political-turmoil"
         },
         {
           "representativeTitle": "US Threatens Europe Over Starlink Service Restrictions",
@@ -1015,7 +1010,7 @@ export const newsData = {
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US threatens Europe over Starlink restrictions",
+              "title": "US threatens European companies over Starlink restrictions",
               "source": "FT International",
               "link": "https://www.ft.com/content/d1e28d93-8574-4a46-946a-b261c401d6fa?syn-25a6b1a6=1",
               "pubDate": "2026-10-18T16:00:00.000Z",
@@ -1028,72 +1023,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "us-threatens-europe-over-starlink-service-restrictions"
-        },
-        {
-          "representativeTitle": "Protest violence limited at Sydney demonstration against Israeli visit",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘Limited evidence’ of protester violence at Sydney demonstration against Israeli president Isaac Herzog visit",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/oct/19/limited-evidence-violence-sydney-protest-herzog-visit-police-ntwnfb",
-              "pubDate": "2026-10-19T01:39:12.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "protest-violence-limited-at-sydney-demonstration-against-israeli-visit"
-        },
-        {
-          "representativeTitle": "Senator Denies Misconduct Claims Amid Political Scrutiny",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Australian Greens senator denies claims of misconduct towards women",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cmpdgj8z8v2do?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-19T01:32:40.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "senator-denies-misconduct-claims-amid-political-scrutiny"
-        },
-        {
-          "representativeTitle": "NZ Trade Deficit Grows With Increased Chinese EV Imports",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "New Zealand’s Trade Deficit With China Widens on EV Imports",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-19/new-zealand-s-trade-deficit-with-china-widens-on-ev-imports",
-              "pubDate": "2026-10-19T01:14:22.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "nz-trade-deficit-grows-with-increased-chinese-ev-imports"
         },
         {
           "representativeTitle": "Pope Leo leaves hospital following cancer surgery.",
@@ -1124,50 +1053,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 50,
           "slug": "pope-leo-leaves-hospital-following-cancer-surgery"
-        },
-        {
-          "representativeTitle": "France experiences violence amid protest unrest.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "France reels after ‘unprecedented’ violence from protesters",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/369eba8b-246d-405f-b0d8-6c676b0b6dab?syn-25a6b1a6=1",
-              "pubDate": "2026-10-18T19:52:26.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "france-experiences-violence-amid-protest-unrest"
-        },
-        {
-          "representativeTitle": "Alberta Referendum Divides Family Over Province's Future",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The father and son on opposite sides of Alberta’s separation referendum",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/videos/c6g7xj3d88nvo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-19T00:42:51.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "alberta-referendum-divides-family-over-provinces-future"
         },
         {
           "representativeTitle": "Venezuela Opposition Criticizes Trump's New Oil Partner",
@@ -1212,34 +1097,42 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "wall-street-leaders-question-riyadh-event-after-attacks"
-        },
-        {
-          "representativeTitle": "El-Sayed's Stance Sparks Mixed Regional Reactions",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "El-Sayed’s exchange over Muslim Brotherhood stirs inspiration, condemnation",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRG5ELXJWdm5NVk1VRmctM1U1cmZvUnd1NHlkMzFEU1VwS01XcXhYbjBPanNHbnQ2T0xROVNEakZ0UkdEenpyMkZWVmN6TDNDaGMwbUg5VkY1ZGhyQ0M4Q3h5b3ZQN1dQMG1oS3dHMDJVcF94a3BvUEZsTk9yQU9DZ21HSWdtcUZSN2pVd2k1TUdQaUNjb0hLaXZuc0tGOVdpb3RYQklua1dEZFpqX2JlTUVhSWdNUFFSeDdEcw?oc=5",
-              "pubDate": "2026-10-19T01:34:56.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "el-sayeds-stance-sparks-mixed-regional-reactions"
         }
       ]
     },
     {
       "name": "US",
       "children": [
+        {
+          "representativeTitle": "Maternity Units Face Closures Amid NHS Leadership Warning",
+          "sources": [
+            "The Guardian",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Up to 20 maternity units in England may have to shut, NHS leader warns",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/society/2026/oct/19/up-to-20-maternity-units-england-shut-nhs-warning-matthew-hopkins",
+              "pubDate": "2026-10-19T05:00:19.000Z",
+              "tier": 1
+            },
+            {
+              "title": "NHS bosses say smaller maternity units may have to close",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ueU56YlY2a2YxcmI0b2xGUUh4c0k0Ukd0V0tXUXVqanh0aHhyWVBBQUdvSkdfcDE0WVAwRlVuYXZiZzJ6WUNUZk1yajVVWmRJRGJ0TE4yem9nTXc?oc=5",
+              "pubDate": "2026-10-19T06:24:25.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "maternity-units-face-closures-amid-nhs-leadership-warning"
+        },
         {
           "representativeTitle": "Trump plans D.C. golf course renovation amid legal issues.",
           "sources": [
@@ -1279,6 +1172,72 @@ export const newsData = {
           "slug": "trump-plans-dc-golf-course-renovation-amid-legal-issues"
         },
         {
+          "representativeTitle": "Custody Update Follows Alleged Attack on Haines",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Helen Haines updates: PM says person in custody after alleged attack on Helen Haines",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/live/2026/oct/19/helen-haines-updates-independent-mp-injured-in-incident-wangaratta-ntwnfb",
+              "pubDate": "2026-10-19T08:12:49.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "custody-update-follows-alleged-attack-on-haines"
+        },
+        {
+          "representativeTitle": "MP Injured in Incident Outside Regional Victoria Office",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Independent MP Helen Haines injured in incident outside Wangaratta office in regional Victoria",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/oct/19/mp-helen-haines-injured-incident-wangaratta-ntwnfb",
+              "pubDate": "2026-10-19T07:57:02.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "mp-injured-in-incident-outside-regional-victoria-office"
+        },
+        {
+          "representativeTitle": "Inquest hears mother posed no risk before manslaughter.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Mother assessed as posing no immediate risk to others three weeks before Elizabeth Struhs’ manslaughter, inquest hears",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/oct/19/mother-assessed-as-posing-no-immediate-risk-to-others-three-weeks-before-elizabeth-struhs-manslaughter-inquest-hears-ntwnfb",
+              "pubDate": "2026-10-19T07:39:47.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "inquest-hears-mother-posed-no-risk-before-manslaughter"
+        },
+        {
           "representativeTitle": "Chicago battles synthetic drug flood across US.",
           "sources": [
             "BBC US"
@@ -1299,6 +1258,50 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "chicago-battles-synthetic-drug-flood-across-us"
+        },
+        {
+          "representativeTitle": "White House downplays internal political disagreements and tensions.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "No ‘turmoil’ at the White House",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/opinions/2026/10/19/no-turmoil-at-the-white-house?traffic_source=rss",
+              "pubDate": "2026-10-19T06:50:43.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "white-house-downplays-internal-political-disagreements-and-tensions"
+        },
+        {
+          "representativeTitle": "Congressman Congo pushes economic reforms in Washington.",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Yoka: Rep. Congo Pursues ‘Real Reforms’ to Boost Economy",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-19/yoka-rep-congo-pursues-real-reforms-to-boost-economy-video",
+              "pubDate": "2026-10-19T06:43:04.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "congressman-congo-pushes-economic-reforms-in-washington"
         },
         {
           "representativeTitle": "Obama Slams Trump Officials' Investigation of Omar",
@@ -1331,61 +1334,17 @@ export const newsData = {
           "slug": "obama-slams-trump-officials-investigation-of-omar"
         },
         {
-          "representativeTitle": "Former Attorney General Appointed New Anti-Corruption Boss",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Former Labor attorney general turned judge Robert McClelland named new anti-corruption boss",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/oct/19/former-labor-attorney-general-robert-mcclelland-named-new-nacc-boss",
-              "pubDate": "2026-10-19T03:56:29.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "former-attorney-general-appointed-new-anti-corruption-boss"
-        },
-        {
-          "representativeTitle": "Trump's economic bid reportedly fails to achieve goals.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump’s bid to make America cheap again has failed",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/52a5e9df-cd9a-4951-99b5-2364e575bb44?syn-25a6b1a6=1",
-              "pubDate": "2026-10-18T15:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trumps-economic-bid-reportedly-fails-to-achieve-goals"
-        },
-        {
-          "representativeTitle": "Man Accused Plotting Attack on Religious Site",
+          "representativeTitle": "Billionaire Donates Funds Amid Epstein Scandal Links",
           "sources": [
             "Fox News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Arizona man accused of plotting mass casualty attack on religious site with 'cookbook' tied to OKC bombing",
+              "title": "Epstein-linked billionaire pours $500K into super PAC backing Kentucky Democrat: 'Dirty Epstein-class money'",
               "source": "Fox News",
-              "link": "https://www.foxnews.com/us/arizona-man-accused-plotting-mass-casualty-attack-religious-site-cookbook-tied-okc-bombing",
-              "pubDate": "2026-10-19T02:45:56.000Z",
+              "link": "https://www.foxnews.com/politics/epstein-linked-billionaire-pours-500k-super-pac-backing-kentucky-democrat-dirty-epstein-class-money",
+              "pubDate": "2026-10-19T08:00:19.000Z",
               "tier": 2
             }
           ],
@@ -1394,7 +1353,97 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "man-accused-plotting-attack-on-religious-site"
+          "slug": "billionaire-donates-funds-amid-epstein-scandal-links"
+        },
+        {
+          "representativeTitle": "Driver Released After Killing Boy, Man in Kansas",
+          "sources": [
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Driver in deadly Kansas soccer field crash released while investigation continues",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/driver-deadly-kansas-soccer-field-crash-released-investigation-137365862",
+              "pubDate": "2026-10-19T06:54:24.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Driver released without charges after pickup kills boy, 6, and man on Kansas soccer field",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRkpKc1cyZE1FRm45VFZ3aW9xZ294cFJlbmhJaFRMQ1BZaWNfaEp3TDFzQWJCbmphUVI0dGM4WHdsTmVSSHZ3aFlFUjJQU3Z3c1A4bHY3ZnFLUzBPVU10ZTVRTmQwSHRRSzdXY2pDcnVsZXd1QzZVWTByN1BIeHFWdXdDWEd0bTZHbVpxUDVjX3p0VmNFU2lNaExRc3Z2X3RFbmtV0gGoAUFVX3lxTFBzYU5NeVNsMHVlOTlOcHVuS0VvWlEyeUI0RlVlYndEb2JLV041T0x2M19wdDNEanRDbktTVGtpb0NjbHQtOGgxQmRZZGJmcEZWQjRoeEtPMXZ3Qlo3Y3pwRDFEc016UUtHeGtTRkY3MEwzYnFoanVKeFBMVk9YNjc2WE1DVWdlMlZ5ak9hSm5MM2VrZ044V3dwX2cwQkxXN0tOaE1Wd1FDSg?oc=5",
+              "pubDate": "2026-10-18T21:25:53.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "driver-released-after-killing-boy-man-in-kansas"
+        },
+        {
+          "representativeTitle": "Jeffries weighs in on Democratic House chances campaigning.",
+          "sources": [
+            "ABC News Top",
+            "ABC News US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Jeffries likes Democrats' chances in race for the House as he campaigns in Ohio",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Politics/wireStory/jeffries-likes-democrats-chances-race-house-campaigns-ohio-137367096",
+              "pubDate": "2026-10-19T06:42:27.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Jeffries likes Democrats' chances in race for the House as he campaigns in Ohio",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/jeffries-likes-democrats-chances-race-house-campaigns-ohio-137367095",
+              "pubDate": "2026-10-19T06:42:26.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "jeffries-weighs-in-on-democratic-house-chances-campaigning"
+        },
+        {
+          "representativeTitle": "California Woman Indicted Over Alleged Chinese Espionage",
+          "sources": [
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "California woman indicted on charges she was spying for China",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/california-woman-indicted-charges-spying-china-rcna604242",
+              "pubDate": "2026-10-19T00:58:04.000Z",
+              "tier": 2
+            },
+            {
+              "title": "California woman indicted on charges she was spying for China",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS0VHYVJpXzFweDIxYTJva3BkbHBfanVKcDZBTVVjOGQ3VjRqa2h1RkhxUXd1YmpnakdpYW1xUmRScnJtYWh0TVFJc1YwMENITDkxeERmeDQydTdveTlwbzRXaXd1T01DVzdPRDZXUjhfZzA4VDhpalJSdnp6Y250T3h5dGxOVXpVUEdmWDQzWkJDMzVwNTY3RUVB?oc=5",
+              "pubDate": "2026-10-19T00:58:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "california-woman-indicted-over-alleged-chinese-espionage"
         },
         {
           "representativeTitle": "Trump plans closure of DC golf course for renovations",
@@ -1415,7 +1464,7 @@ export const newsData = {
               "title": "Trump says he will close historic DC golf course for 15 months of renovations",
               "source": "ABC News US",
               "link": "https://abcnews.com/US/wireStory/trump-close-historic-dc-golf-15-months-renovations-137362971",
-              "pubDate": "2026-10-18T19:12:33.000Z",
+              "pubDate": "2026-10-19T05:30:14.000Z",
               "tier": 2
             }
           ],
@@ -1427,37 +1476,29 @@ export const newsData = {
           "slug": "trump-plans-closure-of-dc-golf-course-for-renovations"
         },
         {
-          "representativeTitle": "Jeffries weighs in on Democratic House chances campaigning.",
+          "representativeTitle": "National Guard Member Injured During Washington D.C. Shooting",
           "sources": [
-            "ABC News Top",
-            "ABC News US"
+            "ABC News Top"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Jeffries likes Democrats' chances in race for the House as he campaigns in Ohio",
+              "title": "National Guard member injured in DC shooting, police say",
               "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/wireStory/jeffries-likes-democrats-chances-race-house-campaigns-ohio-137367096",
-              "pubDate": "2026-10-18T23:06:23.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Jeffries likes Democrats' chances in race for the House as he campaigns in Ohio",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/jeffries-likes-democrats-chances-race-house-campaigns-ohio-137367095",
-              "pubDate": "2026-10-18T22:51:10.000Z",
+              "link": "https://abcnews.com/US/dc-police-investigating-shooting-involving-national-guard-member/story?id=137370551",
+              "pubDate": "2026-10-19T07:27:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
+          "sentiment": -0.4,
+          "relevance_score": 7,
           "importance": 40,
-          "slug": "jeffries-weighs-in-on-democratic-house-chances-campaigning"
+          "slug": "national-guard-member-injured-during-washington-dc-shooting"
         },
         {
-          "representativeTitle": "Driver Released After Killing Boy, Man in Kansas",
+          "representativeTitle": "GOP Candidate's Crash Rocks Massachusetts Campaign Efforts",
           "sources": [
             "Fox News",
             "Google US"
@@ -1465,47 +1506,17 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Driver released without charges after pickup kills boy, 6, and man on Kansas soccer field",
+              "title": "Massachusetts GOP ticket rocked by alleged drunken crash as candidate abruptly halts campaign",
               "source": "Fox News",
-              "link": "https://www.foxnews.com/us/driver-released-without-charges-pickup-kills-boy-6-man-kansas-soccer-field",
-              "pubDate": "2026-10-18T21:25:53.000Z",
+              "link": "https://www.foxnews.com/politics/massachusetts-gop-ticket-rocked-alleged-drunken-crash-candidate-abruptly-halts-campaign",
+              "pubDate": "2026-10-19T01:31:21.000Z",
               "tier": 2
             },
             {
-              "title": "Driver released without charges after pickup kills boy, 6, and man on Kansas soccer field",
+              "title": "Massachusetts GOP ticket rocked by alleged drunken crash as candidate abruptly halts campaign",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRkpKc1cyZE1FRm45VFZ3aW9xZ294cFJlbmhJaFRMQ1BZaWNfaEp3TDFzQWJCbmphUVI0dGM4WHdsTmVSSHZ3aFlFUjJQU3Z3c1A4bHY3ZnFLUzBPVU10ZTVRTmQwSHRRSzdXY2pDcnVsZXd1QzZVWTByN1BIeHFWdXdDWEd0bTZHbVpxUDVjX3p0VmNFU2lNaExRc3Z2X3RFbmtV0gGoAUFVX3lxTFBzYU5NeVNsMHVlOTlOcHVuS0VvWlEyeUI0RlVlYndEb2JLV041T0x2M19wdDNEanRDbktTVGtpb0NjbHQtOGgxQmRZZGJmcEZWQjRoeEtPMXZ3Qlo3Y3pwRDFEc016UUtHeGtTRkY3MEwzYnFoanVKeFBMVk9YNjc2WE1DVWdlMlZ5ak9hSm5MM2VrZ044V3dwX2cwQkxXN0tOaE1Wd1FDSg?oc=5",
-              "pubDate": "2026-10-18T21:25:53.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "driver-released-after-killing-boy-man-in-kansas"
-        },
-        {
-          "representativeTitle": "Service Member Dies After Incident at UT Game",
-          "sources": [
-            "NBC News",
-            "ABC News US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Service member dies after falling during pregame demonstration at college football game",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/service-member-dies-falling-pregame-demonstration-college-football-gam-rcna604128",
-              "pubDate": "2026-10-18T17:11:29.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Nellis Air Force Base: Service member dies after incident at a UT San Antonio game",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/nellis-air-force-base-service-member-dies-after-137359469",
-              "pubDate": "2026-10-18T13:01:22.000Z",
+              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZUh4N3NhSDRZWHJKOVpSQ1NXN0hhWWxUSjVPcWp3TWhTUFRYQzNYNzVFUGZiUVJhSmxvZHAzZ0pUMG5iX1JnUTkwb1psQ2dJQlhlMEhHVXlBbVNPNW9jY1hrMkEwYzBlcDRxNUg1MEpLdUN6a3hCM3A2Vk5NZVJ2SkhMV0ZPWGswczN6eGNrUzE5QnUyaF9SV19IRGNxTUxWQ3VVcFl4cHFiUjdoSzJlSDlSSnlXV1JVVTZnetIBwgFBVV95cUxPb290emNuV2lDTjdrTDdQRVlTVHYwOHRUOWZCM1VhM3lMQnFINDFwOXMxWUh1TU1PUy1QY0xZal93U2dDbklkZk9zZnNSRkh3OW9DTW1pZEV2YjBUdkg1ZmZTcTJXYnZjemt1RG5qbkZJQ0FpeGgtbmp6ZkZjSFNZcy1fWldKTkF6eE1UdTNjZjhXaGd1bGlJRVFlUUxqVTlCTU1rMjJwOFRyQXpZMTFBRXZ6SlNMN2ZTbVNFMFRIM2J0Zw?oc=5",
+              "pubDate": "2026-10-19T01:31:21.000Z",
               "tier": 2
             }
           ],
@@ -1514,7 +1525,44 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 40,
-          "slug": "service-member-dies-after-incident-at-ut-game"
+          "slug": "gop-candidates-crash-rocks-massachusetts-campaign-efforts"
+        },
+        {
+          "representativeTitle": "Service Member Dies During Fall at UT Game",
+          "sources": [
+            "NBC News",
+            "ABC News US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Service member dies after falling during demonstration before college football game in San Antonio",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/service-member-dies-falling-pregame-demonstration-college-football-gam-rcna604128",
+              "pubDate": "2026-10-18T17:11:29.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Air Force service member dies from fall before college football game",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/nightly-news/video/air-force-service-member-dies-from-fall-before-college-football-game-271788613912",
+              "pubDate": "2026-10-18T22:42:27.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Nellis Air Force Base: Service member dies after rappelling fall at a UT San Antonio game",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/nellis-air-force-base-service-member-dies-after-137359469",
+              "pubDate": "2026-10-18T17:54:18.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "service-member-dies-during-fall-at-ut-game"
         },
         {
           "representativeTitle": "Congress introduces bill concerning video game ownership rights.",
@@ -1552,7 +1600,7 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "AI Trading Volatility Rattles Bond Market Bets",
+          "representativeTitle": "Indonesia Selloff Deepens Ahead of MSCI Meeting",
           "sources": [
             "Bloomberg Markets",
             "Google Stocks"
@@ -1560,114 +1608,55 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Bond Market’s Big Short Bet Gets Wakeup Call as AI Trade Wobbles",
+              "title": "Insonesia's Selloff Deepens After MSCI Warning (Video)",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-18/bond-market-s-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles",
-              "pubDate": "2026-10-18T19:00:00.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-19/insonesia-s-selloff-deepens-after-msci-warning-video",
+              "pubDate": "2026-10-19T08:19:00.000Z",
               "tier": 1
             },
             {
-              "title": "Bond Market’s Big Short Bet Gets Wakeup Call as AI Trade Wobbles",
+              "title": "Indonesia’s Selloff Deepens With Officials Set for MSCI Meeting",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/indonesian-stocks-tumble-to-lowest-since-2020-after-msci-warning",
+              "pubDate": "2026-10-19T02:07:39.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Indonesia’s Selloff Deepens Across Stocks, Bonds on MSCI Risk",
               "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLWFfUWVYbDM3OXlSc2Zfcjg5THNXeDlYS21oVFF5MTJKMXhuemNtU3J0aVRPMVNtMEczeG5KdE5sbTNZdUFkZEF4eDNuNGFFc0huTmtuNWlFZ2JXN3BKd2lMRmJTMGMyREE4ODhXT3gzQmF1U1h5RWI4eWVmT3I1Z2lfZVhyS1JwTXRXZWRXUzl5Q1BJME1VWWlOV2dPQXl6RUY3dEhiNlROdU14SmwwZ2JHUE8zQQ?oc=5",
-              "pubDate": "2026-10-18T19:00:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQWJhTTQ3dV9IdnFneUl5YTJCbGZWSkRNZUJjMFFsek5MV2FJOXBLZmdZaUs1eF9kTnpEMVo4SDZTOFl3WnhRYldZbVEzcW53TXlsZ2diV0lvNm82dVdYYWZ2eEo4eGR3Q3NmcXZicWhpNTN0ZzZNZ3JwcXFVZjNmS2pzVnJIdGpPR05Yb1M4SGs0Ti1uSXF5ZkJTZkllaGdxTF9oRG9qMXVEY2FpOVdDQWRuejVkdw?oc=5",
+              "pubDate": "2026-10-19T02:07:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "ai-trading-volatility-rattles-bond-market-bets"
+          "relevance_score": 7,
+          "importance": 65,
+          "slug": "indonesia-selloff-deepens-ahead-of-msci-meeting"
         },
         {
-          "representativeTitle": "China State Funding Amid Stock Market Decline Concerns",
+          "representativeTitle": "US Stocks Expected Rebound Following AI Sell-Off",
           "sources": [
-            "Bloomberg Markets"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "China State Funds Active as Stocks Post Record Weekly Losing Run",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-19/china-state-funds-active-as-stocks-post-record-weekly-losing-run",
-              "pubDate": "2026-10-19T03:10:33.000Z",
+              "title": "US stocks set for rebound after AI sell-off",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/915ea7ca-1f35-4847-810a-fb29e8344496?syn-25a6b1a6=1",
+              "pubDate": "2026-10-19T07:05:20.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Business",
           "aiCategory": "Stocks",
-          "sentiment": -0.4,
+          "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "china-state-funding-amid-stock-market-decline-concerns"
-        },
-        {
-          "representativeTitle": "Asian Chip Stocks Decline Amid Funding Concerns",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Asian Chip Stocks Extend Losses on Funding Worry, DeepSeek Model",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-19/korean-stocks-fall-as-deepseek-model-funding-worry-rattle-chips",
-              "pubDate": "2026-10-19T00:17:50.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "asian-chip-stocks-decline-amid-funding-concerns"
-        },
-        {
-          "representativeTitle": "Major Indian Banks Face Investor Scrutiny Post-Earnings",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Nifty Bank Heavyweights HDFC, ICICI in Focus After Weekend Earnings",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/newsletters/2026-10-19/nifty-bank-heavyweights-hdfc-icici-in-focus-after-weekend-earnings",
-              "pubDate": "2026-10-19T02:37:35.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "major-indian-banks-face-investor-scrutiny-post-earnings"
-        },
-        {
-          "representativeTitle": "Indonesia Stocks and Bonds Face Deep Selloff Fears",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Indonesia’s Selloff Deepens Across Stocks, Bonds on MSCI Risk",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-19/indonesian-stocks-tumble-to-lowest-since-2020-after-msci-warning",
-              "pubDate": "2026-10-19T02:07:39.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "indonesia-stocks-and-bonds-face-deep-selloff-fears"
+          "slug": "us-stocks-expected-rebound-following-ai-sell-off"
         }
       ]
     },
@@ -1675,92 +1664,246 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "China's Economy Shows Solid Growth in Third Quarter",
+          "representativeTitle": "High Rates Halt Property Gains; Buyers Cancel Deals",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "China’s economy expands 4.5% in third quarter",
+              "title": "Rising interest rates derail property recovery as buyers recut deals",
               "source": "FT International",
-              "link": "https://www.ft.com/content/cf113314-1077-4ab4-b667-9912656684f1?syn-25a6b1a6=1",
-              "pubDate": "2026-10-19T03:05:41.000Z",
+              "link": "https://www.ft.com/content/aef890f1-e3f5-4add-b1fc-6187e2658106?syn-25a6b1a6=1",
+              "pubDate": "2026-10-19T04:00:06.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "Business",
-          "sentiment": 0.4,
+          "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "chinas-economy-shows-solid-growth-in-third-quarter"
+          "slug": "high-rates-halt-property-gains-buyers-cancel-deals"
         },
         {
-          "representativeTitle": "RBA warns labor market softening faster than expected.",
+          "representativeTitle": "BoE Scrutinizes Barclays Over Misrepresented Credit Claims",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "BoE scrutinises Barclays over claim traders misrepresented private credit exposure",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/f3127b4f-d33a-4431-acff-021829f3aa72?syn-25a6b1a6=1",
+              "pubDate": "2026-10-19T04:00:15.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "boe-scrutinizes-barclays-over-misrepresented-credit-claims"
+        },
+        {
+          "representativeTitle": "HKMA Reshuffles Executive Roles with Darryl Chan",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "RBA’s Kent Says Labor Market Loosening Faster than Predicted",
+              "title": "HKMA Gives Darryl Chan New Roles in Executive Function Reshuffle",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-19/rba-s-kent-says-labor-market-loosening-faster-than-predicted",
-              "pubDate": "2026-10-19T01:52:30.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/hkma-gives-darryl-chan-new-roles-in-executive-function-reshuffle",
+              "pubDate": "2026-10-19T08:03:16.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "hkma-reshuffles-executive-roles-with-darryl-chan"
+        },
+        {
+          "representativeTitle": "Venture Capital Backs Healthcare Firm Challenging Indian Market",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Khosla Ventures doubles down on Even Healthcare to challenge India’s hospital economics",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics/",
+              "pubDate": "2026-10-19T07:30:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "venture-capital-backs-healthcare-firm-challenging-indian-market"
+        },
+        {
+          "representativeTitle": "Electric Plans Copper Sale Amid Data Center Growth",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ivanhoe Electric (IE) in Talks to Sell Arizona Copper Amid Data Center Demand",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/ivanhoe-electric-ie-in-talks-to-sell-arizona-copper-amid-data-center-demand",
+              "pubDate": "2026-10-19T07:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "electric-plans-copper-sale-amid-data-center-growth"
+        },
+        {
+          "representativeTitle": "UK Gilts Face Budget Test Amid Bond Calm",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "UK Gilts Face Budget Test as Bond Market Calm Holds",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/newsletters/2026-10-19/uk-gilts-face-budget-test-as-bond-market-calm-holds",
+              "pubDate": "2026-10-19T06:45:45.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "uk-gilts-face-budget-test-amid-bond-calm"
+        },
+        {
+          "representativeTitle": "Dubai's IPO Boosted by Significant Dividend Payout",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Dubai Sweetens First IPO Since War With $592 Million Dividend",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/dubai-sweetens-first-ipo-since-war-with-592-million-dividend",
+              "pubDate": "2026-10-19T06:42:47.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "dubais-ipo-boosted-by-significant-dividend-payout"
+        },
+        {
+          "representativeTitle": "PHP Secures £700M UK Hospital Venture With GIC",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "PHP Agrees £700 Million UK Private Hospital Venture With GIC",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/php-agrees-700-million-uk-private-hospital-venture-with-gic",
+              "pubDate": "2026-10-19T06:34:41.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "php-secures-700m-uk-hospital-venture-with-gic"
+        },
+        {
+          "representativeTitle": "Heir's Wealth Fuels Major European Investment Firm Growth",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "VW Dealer Heir’s Windfall Fuels €3.5 Billion Investment Firm",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/vw-dealer-heir-s-windfall-fuels-3-5-billion-investment-firm",
+              "pubDate": "2026-10-19T06:15:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "heirs-wealth-fuels-major-european-investment-firm-growth"
+        },
+        {
+          "representativeTitle": "UK Debt Appeal Amid Budget Bets by Traders",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "UK Debt Is a Buy for Traders Betting on a Play-It-Safe Budget",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/uk-debt-is-a-buy-for-traders-betting-on-a-play-it-safe-budget",
+              "pubDate": "2026-10-19T06:10:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "uk-debt-appeal-amid-budget-bets-by-traders"
+        },
+        {
+          "representativeTitle": "Lindt CEO Departure Signals Chocolate Industry Trouble",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Lindt CEO Exits as Swiss Chocolate Industry Struggles",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/lindt-s-ceo-exits-as-chocolate-firm-grapples-with-weak-demand",
+              "pubDate": "2026-10-19T06:08:17.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "rba-warns-labor-market-softening-faster-than-expected"
-        },
-        {
-          "representativeTitle": "Vietnam Plans Index Options Following FTSE Upgrade",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Vietnam Plans Index Options for Next Year After FTSE Upgrade",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-19/vietnam-plans-index-options-for-next-year-after-ftse-upgrade",
-              "pubDate": "2026-10-19T03:25:57.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "vietnam-plans-index-options-following-ftse-upgrade"
-        },
-        {
-          "representativeTitle": "Gold Rises Amid Easing Rate Hike Fears Post-Speech",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Gold Edges Higher as Traders Ease Rate-Hike Bets on Warsh Speech",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-18/gold-edges-higher-as-traders-ease-rate-hike-bets-on-warsh-speech",
-              "pubDate": "2026-10-18T23:47:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "gold-rises-amid-easing-rate-hike-fears-post-speech"
+          "slug": "lindt-ceo-departure-signals-chocolate-industry-trouble"
         },
         {
           "representativeTitle": "Benchmark Partners Advise Caution Amid Market Frenzy",
@@ -1785,6 +1928,28 @@ export const newsData = {
           "slug": "benchmark-partners-advise-caution-amid-market-frenzy"
         },
         {
+          "representativeTitle": "China's CXMT Revenue Expected to Jump Significantly",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China’s CXMT Expects Over Eightfold Revenue Jump Amid Memory Squeeze",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/earnings/chinas-cxmt-expects-over-eightfold-revenue-jump-amid-memory-squeeze-93d24f98?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-10-19T04:23:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "chinas-cxmt-revenue-expected-to-jump-significantly"
+        },
+        {
           "representativeTitle": "Disney Acquires Character.AI Talent Following Agreement",
           "sources": [
             "TechCrunch"
@@ -1805,28 +1970,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "disney-acquires-characterai-talent-following-agreement"
-        },
-        {
-          "representativeTitle": "Debate questions billionaire impact on policy outcomes.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Not every billionaire is a policy failure",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/2c8c610b-83f3-4cab-b409-bab69f4c2207?syn-25a6b1a6=1",
-              "pubDate": "2026-10-18T11:00:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "debate-questions-billionaire-impact-on-policy-outcomes"
         }
       ]
     },
@@ -1838,21 +1981,19 @@ export const newsData = {
           "sources": [
             "BBC World",
             "Al Jazeera",
-            "TechCrunch",
-            "BBC Business",
-            "Google Stocks"
+            "TechCrunch"
           ],
-          "citationCount": 5,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-19T02:41:41.000Z",
+              "pubDate": "2026-10-19T04:30:59.000Z",
               "tier": 1
             },
             {
-              "title": "Anthropic says it will commit 5% of shares to ‘public benefit’ fund",
+              "title": "AI giant Anthropic commits 5% of shares to ‘public benefit’ fund",
               "source": "Al Jazeera",
               "link": "https://www.aljazeera.com/economy/2026/10/19/anthropic-says-it-will-commit-5-of-shares-to-public-benefit-fund?traffic_source=rss",
               "pubDate": "2026-10-19T03:23:54.000Z",
@@ -1864,50 +2005,36 @@ export const newsData = {
               "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
               "pubDate": "2026-10-18T20:37:40.000Z",
               "tier": 1
-            },
-            {
-              "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
-              "source": "BBC Business",
-              "link": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-19T02:41:41.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Anthropic commits 5% of shares to ‘public benefit’ fund",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV2JvZ2g1OThBaW5LcmtjTU5ENmJqaUZsWmRmS2JSem85U0p1am8yWkFpenBDU0M1bkhyZ3dTUEk4R19MMGlPNUxMMHFzekRMcVNEVHRHQ0VPQnVUdE1QVmlTU19FdzUyT2hRUS11RmZpLUZveXRISTVDVGRTY0Y5U0RiZkw?oc=5",
-              "pubDate": "2026-10-19T01:36:09.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "Technology",
           "sentiment": 0,
           "relevance_score": 6,
-          "importance": 85,
+          "importance": 75,
           "slug": "anthropic-commits-shares-to-public-benefit-fund"
         },
         {
-          "representativeTitle": "UK Examines AI's Potential Impact on Workforce",
+          "representativeTitle": "Expert Discusses GPU Market's Trillion Dollar Potential",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "The UK Shows How AI Could Affect Jobs",
+              "title": "Don Wilson on the GPU Market’s Trillion Dollar Question",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-19/opinion-the-uk-shows-how-ai-could-affect-jobs-video",
-              "pubDate": "2026-10-19T04:01:30.000Z",
+              "link": "https://www.bloomberg.com/news/audio/2026-10-19/don-wilson-on-the-gpu-market-s-trillion-dollar-question",
+              "pubDate": "2026-10-19T08:00:00.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Technology",
           "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "uk-examines-ais-potential-impact-on-workforce"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "expert-discusses-gpu-markets-trillion-dollar-potential"
         },
         {
           "representativeTitle": "Anthropic dedicates shares to public benefit fund.",
@@ -2015,15 +2142,8 @@ export const newsData = {
             "Wired",
             "Phys.org"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
-            {
-              "title": "Climate Change Has It In for the World’s Best Surfing",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/climate-change-has-it-in-for-the-worlds-best-surfing/",
-              "pubDate": "2026-10-18T09:00:00.000Z",
-              "tier": 1
-            },
             {
               "title": "Climate Change Has It In for the World’s Best Surfing",
               "source": "Wired",
@@ -2039,12 +2159,56 @@ export const newsData = {
               "tier": 2
             }
           ],
-          "ingestionCategory": "Technology",
+          "ingestionCategory": "Science",
           "aiCategory": "Science",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 70,
+          "importance": 60,
           "slug": "climate-change-threatens-global-surfing-destinations-now"
+        },
+        {
+          "representativeTitle": "Japan's MMX Mission Targets Mars Moon Phobos Samples",
+          "sources": [
+            "Phys.org",
+            "Google Science"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Japan to launch historic round-trip mission to Mars moon",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-japan-historic-mission-mars-moon.html",
+              "pubDate": "2026-10-18T20:20:01.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Japan's MMX mission aims to swipe soil samples from Mars's moon Phobos",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-japan-mmx-mission-aims-swipe.html",
+              "pubDate": "2026-10-18T14:00:01.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Japan to launch spacecraft on a mission to get samples from a Martian moon",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-japan-spacecraft-mission-samples-martian.html",
+              "pubDate": "2026-10-18T11:38:40.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Japan leads mission to make first return trip to Mars",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdk1aVEdoU3NMaGE3TW9Sd3N4LXJGbnV2WTFXZ2FhcW56Z1d4eXNMLWY2YkRmdGh2T0l4eTM3ZGVsWWNSN2lEZUZSdlFGWVVxS3dfTGVQVWJLY1BDUlVYcXExcG9UNHo2ZFByQ0VOUW5ZSHZKOXR1dHV2dWlldlNJenNzaGs?oc=5",
+              "pubDate": "2026-10-19T04:00:15.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "japans-mmx-mission-targets-mars-moon-phobos-samples"
         },
         {
           "representativeTitle": "Scientists Reverse Coral Bleaching at Record Speed Breakthrough",
@@ -2107,134 +2271,17 @@ export const newsData = {
           "slug": "physicists-confirm-quantum-speed-limit-in-thermalization-process"
         },
         {
-          "representativeTitle": "Study questions brain absorption of magnesium supplements",
+          "representativeTitle": "Novel Superconductor Behavior Discovered in Research",
           "sources": [
-            "Wired"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Magnesium May Not Reach Your Brain, Despite Supplement Label Promises",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/magnesium-may-not-reach-your-brain-despite-supplement-label-promises/",
-              "pubDate": "2026-10-18T09:00:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Magnesium May Not Reach Your Brain, Despite Supplement Label Promises",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/magnesium-may-not-reach-your-brain-despite-supplement-label-promises/",
-              "pubDate": "2026-10-18T09:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "study-questions-brain-absorption-of-magnesium-supplements"
-        },
-        {
-          "representativeTitle": "Ancient life evidence threatened by potential loss.",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Earth's oldest evidence of life is written in stone—but it's at risk of disappearing",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-earth-oldest-evidence-life-written.html",
-              "pubDate": "2026-10-18T21:00:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "ancient-life-evidence-threatened-by-potential-loss"
-        },
-        {
-          "representativeTitle": "Japan's MMX Mission Targets Mars Moon Phobos Samples",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Japan to launch historic round-trip mission to Mars moon",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-japan-historic-mission-mars-moon.html",
-              "pubDate": "2026-10-18T20:20:01.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Japan's MMX mission aims to swipe soil samples from Mars's moon Phobos",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-japan-mmx-mission-aims-swipe.html",
-              "pubDate": "2026-10-18T14:00:01.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Japan to launch spacecraft on a mission to get samples from a Martian moon",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-japan-spacecraft-mission-samples-martian.html",
-              "pubDate": "2026-10-18T11:38:40.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "japans-mmx-mission-targets-mars-moon-phobos-samples"
-        },
-        {
-          "representativeTitle": "New Tool Maps DNA Interactions Within Tissue Context",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Spatial genomics tool maps long-range DNA interactions while preserving cells' locations within tissues",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-spatial-genomics-tool-range-dna.html",
-              "pubDate": "2026-10-18T20:00:02.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "new-tool-maps-dna-interactions-within-tissue-context"
-        },
-        {
-          "representativeTitle": "Scientists Win Prize For Third Magnetism Form Discovery",
-          "sources": [
-            "Science Daily",
             "Google Science"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Scientists who discovered a third form of magnetism win major physics prize",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
-              "pubDate": "2026-10-18T09:41:44.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Scientists who discovered a third form of magnetism win major physics prize",
+              "title": "New Form of Superconductor Behavior Discovered That We've Never Seen Before",
               "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yZlFHZzRTdVVlajl6cWs2QnR0X1lFVzhWTlpxRjF4Vl9UcTQwNWhJN0x4YS1MUzJEWGRMUlZCcU91VnRNLWlHaTQ0dF9VbkVvRnk3Sms0NVJWaDN3bkVCZTAwXzd4b3dWUWt2d1FBRQ?oc=5",
-              "pubDate": "2026-10-18T09:43:43.000Z",
+              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYVU3d3h1R0FYQldIMGRpbnBIWU9uZnhzRjJPQ3dIWUhVVlVsX3pqY2R6UjdhOU1qS1B2NVlGd1V1WlBzeWZ5c2RfZ3E3RTVMcmpxbkY2dmlXQ2JTSjhibmx4SlpwWmNSaHJfQk5wUlc3cHR4Q3p3Vk81SmVpUjZJTlZ2ZUtBUUtJOXYxdGVQWXBqUWhlUFUzNXJFdlZlNnZBMV83Ymd3?oc=5",
+              "pubDate": "2026-10-19T02:02:52.000Z",
               "tier": 2
             }
           ],
@@ -2242,8 +2289,8 @@ export const newsData = {
           "aiCategory": "Science",
           "sentiment": 0.4,
           "relevance_score": 8,
-          "importance": 50,
-          "slug": "scientists-win-prize-for-third-magnetism-form-discovery"
+          "importance": 45,
+          "slug": "novel-superconductor-behavior-discovered-in-research"
         },
         {
           "representativeTitle": "Physicists Discover Novel Quantum State: Fermi Sea",
