@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-19T20:47:17.431Z",
+  "lastUpdated": "2026-10-20T00:54:59.165Z",
   "children": [
     {
       "name": "World",
@@ -59,21 +59,21 @@ export const newsData = {
           "slug": "major-fire-engulfs-canadian-military-base-structure-rapidly"
         },
         {
-          "representativeTitle": "France Imposes Curfews Amid Widespread Civil Unrest",
+          "representativeTitle": "Rioting Spurs Curfews Across Major French Cities",
           "sources": [
-            "The Guardian",
+            "BBC World",
             "France 24",
+            "SCMP",
             "Le Monde",
-            "Time",
             "Google World"
           ],
           "citationCount": 5,
           "rawArticles": [
             {
-              "title": "France imposes partial curfews in several cities, including parts of Paris",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/19/french-police-lost-control-during-riots-concedes-interior-minister",
-              "pubDate": "2026-10-19T18:16:45.000Z",
+              "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-19T21:14:53.000Z",
               "tier": 1
             },
             {
@@ -84,6 +84,13 @@ export const newsData = {
               "tier": 1
             },
             {
+              "title": "France imposes curfews in Paris and major cities after worst riots in years",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3371411/frances-pm-calls-curfews-nation-grapples-unrest?utm_source=rss_feed",
+              "pubDate": "2026-10-19T12:57:19.000Z",
+              "tier": 2
+            },
+            {
               "title": "Curfews announced in Paris and other cities as France grapples with unrest",
               "source": "Le Monde",
               "link": "https://www.lemonde.fr/en/france/article/2026/10/19/curfews-announced-in-paris-and-other-cities-as-france-grapples-with-unrest_6758795_8.html",
@@ -91,17 +98,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "France Imposes Partial Curfews After Police 'Lost Control' of Protests",
-              "source": "Time",
-              "link": "https://time.com/article/2026/10/19/how-protests-in-france-europe-spiraled-out-of-control/",
-              "pubDate": "2026-10-19T13:27:20.000Z",
-              "tier": 2
-            },
-            {
-              "title": "France Imposes Curfews in Parts of Paris and Other Cities After Nationwide Rioting",
+              "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QRGxBeGRuaWEyc1kxNmhHM2x5SDliNDRhVklzT1ljYm1JNmg1SjVnQ19YMDBVS2taX0FRQkp4UjVVRDQzMFNBSjlfSHBxODNUVDhaX2tjaExoc2N6eFB6UzVodlFaQkNHQnJBUXdJTVJlT1BDOXNiSHpWUEp0SGs?oc=5",
-              "pubDate": "2026-10-19T19:25:50.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KbTV4RU1RUG1XSzBGSjZULVZ6a0R4SVF6dEwyWXFYbS1iSktHNmY0MGdaZTI2REYtX2NOOUZMUHEzRmdLUld0R2RUY0dsS0pGU1ZUbTFxMXFCNEE?oc=5",
+              "pubDate": "2026-10-19T21:14:53.000Z",
               "tier": 2
             }
           ],
@@ -110,17 +110,54 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 85,
-          "slug": "france-imposes-curfews-amid-widespread-civil-unrest"
+          "slug": "rioting-spurs-curfews-across-major-french-cities"
+        },
+        {
+          "representativeTitle": "Exiled Critic Found Beheaded in Uganda; Human Rights Alarm",
+          "sources": [
+            "BBC World",
+            "Al Jazeera",
+            "SCMP"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Exiled critic of Rwandan president found beheaded",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c3lylj78777do?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-19T13:42:41.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Exiled critic of Rwandan president found beheaded in Uganda",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/20/exiled-critic-of-rwandan-president-found-beheaded-in-uganda?traffic_source=rss",
+              "pubDate": "2026-10-20T00:06:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Beheaded body of Rwandan government critic found in Uganda",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/africa/article/3371423/beheaded-body-rwandan-government-critic-found-uganda?utm_source=rss_feed",
+              "pubDate": "2026-10-19T18:33:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 80,
+          "slug": "exiled-critic-found-beheaded-in-uganda-human-rights-alarm"
         },
         {
           "representativeTitle": "WFP Cuts End Support For Gaza's Half Million People",
           "sources": [
             "BBC World",
             "The Guardian",
-            "Euronews",
             "Google World"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Funding shortages force World Food Programme to cut aid to Gaza",
@@ -137,17 +174,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "UN food agency to cut aid to 500,000 people in Gaza as funding dries up",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/19/un-food-agency-to-cut-aid-to-500000-people-in-gaza-as-funding-dries-up",
-              "pubDate": "2026-10-19T13:46:51.000Z",
-              "tier": 2
-            },
-            {
-              "title": "World Food Programme cuts aid to 500,000 Palestinians in Gaza, citing funding shortages",
+              "title": "World Food Programme cuts aid to 500,000 Palestinians in Gaza, cites funding shortages",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRVBJZ0FaQjFyYlhSaUNPUDRqV1l5RjU2bXltdlBHYmpmNVZpMWF3d25EYXpneWpUQ0RPTVFFSUNXN3BCNDNrb2tGNDlVOUFGYTN2TzYtelgxaUNJLTYwS1FDbFNJMTB0dXVZOURaRDJZVkF1SC1EOE0zRWNuenFyVVkzZFQwSnlqX1pqUjJaOVJ1b1JGUWcxeXZnbXdVMnhFeVVPbEtNUDdaQVZGblZBVjMxZldhUQ?oc=5",
-              "pubDate": "2026-10-19T08:56:42.000Z",
+              "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNenIya2dWLVowN3ZJZjB5eXlJekpqc3VCajlVN0N3eldBMzg4d05JSG9MQXVKQWdqbVZRYnZ3VXlVSGktNEE2MndNU1dZX2FFd0YyeW9teDFfN19WNk9RS09rV0JlM2dnbEluVlgydFFJc3QtQ0RNRkRSWkkxV0V6WjNRM21NX0FqRVZLdnp0WWFtNmFWZEh6YUJXXzJRRVU5Sy1MbmtjRm5pc1VVc1daWk9MTmFScG5yRmh4SHZBNno1eUloQXVDRkRVNU5kUQ?oc=5",
+              "pubDate": "2026-10-19T13:24:18.000Z",
               "tier": 2
             }
           ],
@@ -155,54 +185,8 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.9,
           "relevance_score": 10,
-          "importance": 90,
+          "importance": 85,
           "slug": "wfp-cuts-end-support-for-gazas-half-million-people"
-        },
-        {
-          "representativeTitle": "Cult Leader Convicted Of Mass Child Murders in Kenya",
-          "sources": [
-            "The Guardian",
-            "Al Jazeera",
-            "Sky News",
-            "Google World"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "Kenyan starvation cult leader guilty of murder of 190 children and one adult",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children",
-              "pubDate": "2026-10-19T16:08:14.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Kenyan court convicts starvation cult leader of murdering 191 people",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/19/kenyan-court-convicts-starvation-cult-leader-for-murder-of-191-people?traffic_source=rss",
-              "pubDate": "2026-10-19T15:34:22.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Doomsday cult leader found guilty of murdering 190 children and one adult",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/cult-leader-found-guilty-of-ordered-followers-to-starve-their-children-to-death-13600891",
-              "pubDate": "2026-10-19T09:21:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Kenyan court convicts starvation cult leader of murdering 191 people",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOakdUVWQxYXgtUFBVM2E5bllCYWxjNDRzUUdVTWl5eEtBS1pKNWhRazhlUWZXSHhHZWQtY3ZtT1d2RXVwekJoc2d4NWxYVFBneUgtemdhbVRqWTVaWXotM3VBWUszMGpkaFFDUGlvLVF4X1Y0U09XUEgxZzNIYjdQZjg1b2FJQUN2aEkzTXJtSG9rdHAtNDVEZmhpcy1oU3lYSFkwVzN0S1hzWEZqckI3LdIBtgFBVV95cUxOYWdLTmJBalNzVlotUDk1d0YtWU1UTlZjNFhfMVU1V3hlSXRzNWI4SW13dVV3dUNSSktvSUxTd1ZWVU1SWTVaOFdvSElGTUhtZUdvRTlhSzQzNG9mN24ydVFaaDJDbERfMVlvRXR3bTB0MjBsSEtXUGYtcmRXZlJBdWJ2U19qZVJ3ZXBfSlNqYW9WR211c2NGYUNYRkxtbzZfY0hjeWw1TjFnMm1UajBpNkFYaEtHQQ?oc=5",
-              "pubDate": "2026-10-19T18:25:56.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 80,
-          "slug": "cult-leader-convicted-of-mass-child-murders-in-kenya"
         },
         {
           "representativeTitle": "Cult Leader Convicted Of Mass Murder In Kenya",
@@ -243,6 +227,44 @@ export const newsData = {
           "slug": "cult-leader-convicted-of-mass-murder-in-kenya"
         },
         {
+          "representativeTitle": "Ukraine Conducts First Drone Airlift of Wounded Soldier",
+          "sources": [
+            "BBC World",
+            "France 24",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Ukraine says it carried out first drone airlift of wounded soldier from front line",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/c3vgx05p149wo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-19T20:00:43.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Ukraine deploys drone to airlift wounded soldier in 'world-first' operation",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261019-ukraine-deploys-drone-airlift-wounded-soldier-world-first-operation",
+              "pubDate": "2026-10-19T15:44:42.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Ukraine says it carried out first drone airlift of wounded soldier from front line",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5qZjlVVHJHdnBsRzBQdzBqaDJoYTBrNGlzbzlyNkV4VHdmbmtXdms4V1RZdlZGNG9oLTNIUzU2RHAxS3lvaVRZdGN5YlZnTnRQN2MzcGFBdHo?oc=5",
+              "pubDate": "2026-10-19T20:00:43.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 75,
+          "slug": "ukraine-conducts-first-drone-airlift-of-wounded-soldier"
+        },
+        {
           "representativeTitle": "Ex-OpenAI Employee Accused of Planting Device with Saudi Ties",
           "sources": [
             "BBC World",
@@ -251,10 +273,10 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Ex-OpenAI worker accused of planting device had Saudi support says court filing",
+              "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-19T16:22:12.000Z",
+              "pubDate": "2026-10-19T21:12:30.000Z",
               "tier": 1
             },
             {
@@ -273,25 +295,25 @@ export const newsData = {
           "slug": "ex-openai-employee-accused-of-planting-device-with-saudi-ties"
         },
         {
-          "representativeTitle": "Brazil Court Orders Meta on Campaign Content Fairness",
+          "representativeTitle": "French Protests Draw Global Focus; Immigration Blamed",
           "sources": [
-            "Al Jazeera",
+            "The Guardian",
             "France 24"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Brazilian court orders Meta to prove Lula and Bolsonaro get equal treatment",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/19/brazilian-court-orders-meta-to-prove-lula-and-bolsonaro-get-equal-treatment?traffic_source=rss",
-              "pubDate": "2026-10-19T17:24:28.000Z",
+              "title": "Trump borrows from far right to blame unrest in France on immigration",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/oct/19/trump-france-protests",
+              "pubDate": "2026-10-19T22:48:35.000Z",
               "tier": 1
             },
             {
-              "title": "Brazil court orders Meta to prove it gives Lula, Bolsonaro campaign content equal treatment",
+              "title": "France protests draw global attention: Trump, Vance blame immigration for unrest",
               "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261019-brazil-court-orders-meta-prove-gives-lula-bolsonaro-campaign-content-equal-treatment",
-              "pubDate": "2026-10-19T14:16:05.000Z",
+              "link": "https://www.france24.com/en/video/20261019-france-protests-draw-global-attention-trump-vance-blame-immigration-for-unrest",
+              "pubDate": "2026-10-19T14:04:26.000Z",
               "tier": 1
             }
           ],
@@ -300,37 +322,75 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 65,
-          "slug": "brazil-court-orders-meta-on-campaign-content-fairness"
+          "slug": "french-protests-draw-global-focus-immigration-blamed"
         },
         {
-          "representativeTitle": "Body of critic found in Uganda; international concern rises.",
+          "representativeTitle": "Cult Leader Convicted Of Mass Child Murders in Kenya",
           "sources": [
-            "BBC World",
-            "SCMP"
+            "The Guardian",
+            "Sky News",
+            "Google World"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Exiled critic of Rwandan president found beheaded",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c3lylj78777do?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-19T13:42:41.000Z",
+              "title": "Kenyan starvation cult leader guilty of murder of 190 children and one adult",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children",
+              "pubDate": "2026-10-19T16:08:14.000Z",
               "tier": 1
             },
             {
-              "title": "Beheaded body of Rwandan government critic found in Uganda",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/africa/article/3371423/beheaded-body-rwandan-government-critic-found-uganda?utm_source=rss_feed",
-              "pubDate": "2026-10-19T18:33:05.000Z",
+              "title": "Doomsday cult leader found guilty of murdering 190 children and one adult",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/cult-leader-found-guilty-of-ordered-followers-to-starve-their-children-to-death-13600891",
+              "pubDate": "2026-10-19T09:21:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Kenyan court convicts starvation cult leader of murdering 191 people",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOakdUVWQxYXgtUFBVM2E5bllCYWxjNDRzUUdVTWl5eEtBS1pKNWhRazhlUWZXSHhHZWQtY3ZtT1d2RXVwekJoc2d4NWxYVFBneUgtemdhbVRqWTVaWXotM3VBWUszMGpkaFFDUGlvLVF4X1Y0U09XUEgxZzNIYjdQZjg1b2FJQUN2aEkzTXJtSG9rdHAtNDVEZmhpcy1oU3lYSFkwVzN0S1hzWEZqckI3LdIBtgFBVV95cUxOYWdLTmJBalNzVlotUDk1d0YtWU1UTlZjNFhfMVU1V3hlSXRzNWI4SW13dVV3dUNSSktvSUxTd1ZWVU1SWTVaOFdvSElGTUhtZUdvRTlhSzQzNG9mN24ydVFaaDJDbERfMVlvRXR3bTB0MjBsSEtXUGYtcmRXZlJBdWJ2U19qZVJ3ZXBfSlNqYW9WR211c2NGYUNYRkxtbzZfY0hjeWw1TjFnMm1UajBpNkFYaEtHQQ?oc=5",
+              "pubDate": "2026-10-19T18:25:56.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
-          "relevance_score": 9,
+          "relevance_score": 8,
           "importance": 65,
-          "slug": "body-of-critic-found-in-uganda-international-concern-rises"
+          "slug": "cult-leader-convicted-of-mass-child-murders-in-kenya"
+        },
+        {
+          "representativeTitle": "Protests lead to military presence in Milan.",
+          "sources": [
+            "The Guardian",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Milan luxury shops close as Italy prepares to deploy troops in the city after days of protests",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/20/milan-luxury-shops-close-italy-to-deploy-troops-youth-protests-europe",
+              "pubDate": "2026-10-20T00:08:07.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Milan luxury shops close for fear of new unrest as government prepares to deploy troops",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZWNGMGIzTEZwQjVYM1BNU3lmemRQZTk3OGtQTnhXTWM0UXRFNXhqTTg3WFFQYXdQWVZZTUphR3FGZDd3SE5RaGZlTWdWZ1owRklLYnQzSWN5RlotVjY2OEdjMUtsUGpMZ1RxRk5QS1djT3hnbDZwR0lUSmVwZjlYX243eGIyRHpKLV80NkltM3NmZkk2ZEl0WGNGVEpGRHZUei1LRGJYMnRoME0?oc=5",
+              "pubDate": "2026-10-19T19:14:51.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "protests-lead-to-military-presence-in-milan"
         },
         {
           "representativeTitle": "Houthi Attack Causes Major Casualties in Yemen Conflict",
@@ -400,64 +460,56 @@ export const newsData = {
           "slug": "france-imposes-local-curfews-following-weekend-violence-outbreak"
         },
         {
-          "representativeTitle": "Israeli Police Raid West Bank Settlers; Ten Detained",
+          "representativeTitle": "Trump Threatens Major US Strikes Against Iran",
           "sources": [
-            "The Guardian",
-            "Google World"
+            "Al Jazeera"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Israeli police detain 10 people in rare raid against West Bank settlers",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/19/israeli-police-detain-10-people-in-rare-raid-against-west-bank-settlers",
-              "pubDate": "2026-10-19T18:05:14.000Z",
+              "title": "Iran war live: Trump says US hits Iran hard ‘economically and militarily’",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/10/20/draft-3?traffic_source=rss",
+              "pubDate": "2026-10-20T00:00:00.000Z",
               "tier": 1
-            },
-            {
-              "title": "Israeli police arrest 10 in connection with West Bank assaults",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMW1fMXdJYklFMTZFQ0NtVHpyem0tMjJkeU1EVkNLeEVSLVBmZ2l0QVItaVRrUzA4eHZVVTh3ZTBHa0xJUU9LVHZ0alBaZEo4NDZzWS1qWU1EUU1zcGhjRklQV0ZkT1hvYXhLckxFLTNCNW8zbV9lOTBlSGRNWTRRMEdVaFhGb1ZNMXB2U2JtcVpZVlFDRzBranlpRTdCWF9YOFdTS21KdnlfSFdCWDY4UWlyNm5DbXQwcnpzd01ray1IOVI5SXBrZ2ln?oc=5",
-              "pubDate": "2026-10-19T17:35:41.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
+          "relevance_score": 9,
           "importance": 60,
-          "slug": "israeli-police-raid-west-bank-settlers-ten-detained"
+          "slug": "trump-threatens-major-us-strikes-against-iran"
         },
         {
-          "representativeTitle": "Trump Backs Netanyahu Over Iran Confrontation Strategy",
+          "representativeTitle": "Flooding hits eastern Spain following heavy rainfall.",
           "sources": [
-            "Al Jazeera",
-            "IBTimes"
+            "France 24",
+            "Euronews"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Trump backs Netanyahu: Is the US planning a new Iran attack with Israel?",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/19/trump-backs-netanyahu-is-the-us-planning-a-new-iran-attack-with-israel?traffic_source=rss",
-              "pubDate": "2026-10-19T17:16:22.000Z",
+              "title": "Spain floods kill four as torrential rain inundates eastern regions",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261019-spain-floods-kill-four-as-torrential-rain-inundates-eastern-regions",
+              "pubDate": "2026-10-19T21:39:49.000Z",
               "tier": 1
             },
             {
-              "title": "Trump Backs Netanyahu Ahead Of Israeli Elections. The Two Vowed To 'Finish The Job' Of Defeating Iran.",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/trump-backs-netanyahu-ahead-israeli-elections-two-vowed-finish-job-defeating-iran-3808714",
-              "pubDate": "2026-10-19T08:00:01.000Z",
+              "title": "Deadly floods sweep through eastern Spain after torrential rain",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/video/2026/10/19/deadly-floods-sweep-through-eastern-spain-after-torrential-rain",
+              "pubDate": "2026-10-19T20:00:41.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "trump-backs-netanyahu-over-iran-confrontation-strategy"
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "flooding-hits-eastern-spain-following-heavy-rainfall"
         },
         {
           "representativeTitle": "Houthi Strike Kills Fifty Yemen Security Recruits",
@@ -490,129 +542,17 @@ export const newsData = {
           "slug": "houthi-strike-kills-fifty-yemen-security-recruits"
         },
         {
-          "representativeTitle": "Adviser Blames US for Ukrainian Casualties",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-19T20:13:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "adviser-blames-us-for-ukrainian-casualties"
-        },
-        {
-          "representativeTitle": "Ukraine Uses Drone to Evacuate Wounded Soldier Successfully",
-          "sources": [
-            "France 24",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Ukraine deploys drone to airlift wounded soldier in 'world-first' operation",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20261019-ukraine-deploys-drone-airlift-wounded-soldier-world-first-operation",
-              "pubDate": "2026-10-19T15:44:42.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Ukraine claims world’s first drone evacuation of wounded soldier",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObDBQQTdRSW55VU9wYjREUGhkV0EwcW5RbFYzQXQwSXh6aWZGM0tFNkJHUEdpWjVZTE0yM3FwbkN3VHI1QllfMnVxcjNZQU5xSlZuUDgtOVduQ1lLbzJpTW96ZjliZVBHOUROTkl3VEdvbUpGRDJzUkdzV1I1RkI2TU04cVdLYlBTV0Z4bUpwV0pZeTBrd0N2RTNySE9JU1FrTWNfS3ltcGJGT1E3UUk5TjZoT1Vsa3FK?oc=5",
-              "pubDate": "2026-10-19T13:21:02.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "ukraine-uses-drone-to-evacuate-wounded-soldier-successfully"
-        },
-        {
-          "representativeTitle": "Qatar signals defense pacts amid energy market warnings.",
-          "sources": [
-            "Al Jazeera",
-            "Euronews"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Qatar to announce a new regional defence partnership",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/qatar-to-announce-a-new-regional-defence-partnership?traffic_source=rss",
-              "pubDate": "2026-10-19T17:27:18.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Qatar plans new defence partnership and warns of energy crisis 'peak'",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/19/qatar-plans-new-defence-partnership-and-warns-of-energy-crisis-peak",
-              "pubDate": "2026-10-19T15:40:14.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "qatar-signals-defense-pacts-amid-energy-market-warnings"
-        },
-        {
-          "representativeTitle": "Threats to Australian Politicians Escalate Before Attack",
-          "sources": [
-            "BBC World",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Warning signs over threats to Australian politicians were rising before MP hit by car",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cq398rk4p3exo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-19T16:32:47.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Warning signs over threats to Australian politicians were rising before MP hit by car",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3aFBsdXdUV0xyNFpLUkRlaS1EaUVVTE51c2ZFazJLTFRmLTJobGZoeHlMR244ODhKUzY2Z1FyVy1OTVljQllSM3BQSUZFMUJEb01XTXExVWlrQjQ?oc=5",
-              "pubDate": "2026-10-19T16:32:47.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "threats-to-australian-politicians-escalate-before-attack"
-        },
-        {
-          "representativeTitle": "Finland Acquires Mines Amid Heightened Russian Threat Fears",
+          "representativeTitle": "Tlaib Demands Arrest Over Israeli Soldier Link",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Finland seeking one million land mines as it eyes Russian threat",
+              "title": "Rashida Tlaib demands arrest of Israeli soldier linked to Hind Rajab death",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/19/finland-seeking-one-million-land-mines-as-it-eyes-russian-threat?traffic_source=rss",
-              "pubDate": "2026-10-19T19:57:10.000Z",
+              "link": "https://www.aljazeera.com/news/2026/10/20/rashida-tlaib-demands-arrest-of-israeli-soldier-linked-to-hind-rajab-death?traffic_source=rss",
+              "pubDate": "2026-10-20T00:18:20.000Z",
               "tier": 1
             }
           ],
@@ -621,7 +561,163 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "finland-acquires-mines-amid-heightened-russian-threat-fears"
+          "slug": "tlaib-demands-arrest-over-israeli-soldier-link"
+        },
+        {
+          "representativeTitle": "AI Ambitions Impact Rural Chinese Communities Deeply",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China’s villages pay the price for Beijing’s AI ambitions",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/51a0afc0-65f3-4a51-b1af-5c6fb40a313e?syn-25a6b1a6=1",
+              "pubDate": "2026-10-20T00:15:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ai-ambitions-impact-rural-chinese-communities-deeply"
+        },
+        {
+          "representativeTitle": "Trump envoys discuss Ukraine amid energy concerns.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump envoys to hold fresh Ukraine talks as energy crunch looms over midterms",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/581d8a59-b128-4f68-9f34-6c066b36ca5b?syn-25a6b1a6=1",
+              "pubDate": "2026-10-20T00:14:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "trump-envoys-discuss-ukraine-amid-energy-concerns"
+        },
+        {
+          "representativeTitle": "Activist Seeks Supreme Court Review of Deportation Case",
+          "sources": [
+            "Al Jazeera",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Mahmoud Khalil takes deportation fight to the US Supreme Court",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/19/mahmoud-khalil-takes-deportation-fight-to-the-us-supreme-court?traffic_source=rss",
+              "pubDate": "2026-10-19T23:56:32.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Palestinian activist Mahmoud Khalil asks US Supreme Court to review deportation case",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3371429/palestinian-activist-mahmoud-khalil-asks-us-supreme-court-review-deportation-case?utm_source=rss_feed",
+              "pubDate": "2026-10-19T20:52:34.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "activist-seeks-supreme-court-review-of-deportation-case"
+        },
+        {
+          "representativeTitle": "France Imposes Curfews Following Uncontrolled Protests.",
+          "sources": [
+            "The Guardian",
+            "Time"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "France imposes partial curfews in several cities, including parts of Paris",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/19/french-police-lost-control-during-riots-concedes-interior-minister",
+              "pubDate": "2026-10-19T18:16:45.000Z",
+              "tier": 1
+            },
+            {
+              "title": "France Imposes Partial Curfews After Police 'Lost Control' of Protests",
+              "source": "Time",
+              "link": "https://time.com/article/2026/10/19/how-protests-in-france-europe-spiraled-out-of-control/",
+              "pubDate": "2026-10-19T13:27:20.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "france-imposes-curfews-following-uncontrolled-protests"
+        },
+        {
+          "representativeTitle": "Macron addresses fuel prices during Persian Gulf tour.",
+          "sources": [
+            "France 24",
+            "Le Monde"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Macron kicks off three-day Gulf tour, seeks securing fuel supplies amid crisis",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261019-macron-kicks-off-three-day-gulf-tour-seeks-securing-fuel-supplies-amid-crisis",
+              "pubDate": "2026-10-19T14:02:57.000Z",
+              "tier": 1
+            },
+            {
+              "title": "On tour in the Persian Gulf, Macron seeks a solution to soaring fuel prices",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/20/on-tour-in-the-persian-gulf-macron-seeks-a-solution-to-soaring-fuel-prices_6759237_4.html",
+              "pubDate": "2026-10-19T22:44:54.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "macron-addresses-fuel-prices-during-persian-gulf-tour"
+        },
+        {
+          "representativeTitle": "Hegseth Meets Netanyahu During Unannounced Israel Visit",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hegseth meets Netanyahu in unannounced Israel visit",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/20/hegseth-meets-netanyahu-in-unannounced-israel-visit?traffic_source=rss",
+              "pubDate": "2026-10-20T00:08:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "hegseth-meets-netanyahu-during-unannounced-israel-visit"
         },
         {
           "representativeTitle": "French Bond Sell-Off Linked to Civil Unrest Fears",
@@ -698,130 +794,48 @@ export const newsData = {
           "slug": "protests-block-louvre-amid-french-student-activism"
         },
         {
-          "representativeTitle": "Australian Official Critically Injured in Alleged Attack",
+          "representativeTitle": "Haitian Tycoon Linked to Gangs Passes Away At Ninety-One",
           "sources": [
-            "BBC World",
-            "IBTimes"
+            "NY Times"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Australian MP critically injured after being hit by car in apparent attack",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-19T14:09:54.000Z",
+              "title": "Gilbert Bigio, Haitian Tycoon Linked to Gangs, Dies at 91",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/19/world/americas/gilbert-bigio-dead.html",
+              "pubDate": "2026-10-20T00:34:01.000Z",
               "tier": 1
-            },
-            {
-              "title": "Australian Official Critically Injured In Car Attack; Authorities Say Incident Was Intentional",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/australian-official-critically-injured-car-attack-authorities-say-incident-was-intentional-3808734",
-              "pubDate": "2026-10-19T17:33:58.000Z",
-              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "australian-official-critically-injured-in-alleged-attack"
+          "importance": 45,
+          "slug": "haitian-tycoon-linked-to-gangs-passes-away-at-ninety-one"
         },
         {
-          "representativeTitle": "Houthi Attacks Force Saudi Arabia to Postpone Summit",
+          "representativeTitle": "IMF-WB Meetings Offer Key Global Economic Insights",
           "sources": [
-            "FT International"
+            "CNBC Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Saudi Arabia to postpone ‘Davos in the desert’ after Houthi attacks",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/75a2ee4e-ead9-4d37-b1ea-6fd759c4691d?syn-25a6b1a6=1",
-              "pubDate": "2026-10-19T15:40:33.000Z",
+              "title": "Three big takeaways from the IMF-World Bank meetings",
+              "source": "CNBC Markets",
+              "link": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
+              "pubDate": "2026-10-20T00:33:34.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "Stocks",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "houthi-attacks-force-saudi-arabia-to-postpone-summit"
-        },
-        {
-          "representativeTitle": "French Curfews Imposed Amid Political Unrest Escalation",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "French authorities announce partial curfews as PM blames ‘ultra-left’ for exploiting protests – Europe live",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/live/2026/oct/19/europe-france-protests-riots-macron-ukraine-russia-zelenskyy-sweden-latest-news-updates",
-              "pubDate": "2026-10-19T19:59:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "french-curfews-imposed-amid-political-unrest-escalation"
-        },
-        {
-          "representativeTitle": "France confronts public order policing after protests.",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "France faces reckoning with public order policing after violent protest weekend",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261019-france-faces-reckoning-public-order-policing-after-violent-protest-weekend",
-              "pubDate": "2026-10-19T19:56:15.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "france-confronts-public-order-policing-after-protests"
-        },
-        {
-          "representativeTitle": "Four Soldiers Killed By Rapidly Spreading Grass Fire",
-          "sources": [
-            "The Guardian",
-            "Sky News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Four people killed in ‘violent, fast-moving’ fire at Canadian military base",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
-              "pubDate": "2026-10-18T23:53:13.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Four Canadian soldiers killed after grass fire spread 'a kilometre in 36 seconds'",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/four-canadian-soldiers-killed-after-grass-fire-spread-a-kilometre-in-36-seconds-13600915",
-              "pubDate": "2026-10-19T10:24:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "four-soldiers-killed-by-rapidly-spreading-grass-fire"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "imf-wb-meetings-offer-key-global-economic-insights"
         },
         {
           "representativeTitle": "Machado discusses Venezuela's future and Trump ties.",
@@ -846,6 +860,28 @@ export const newsData = {
           "slug": "machado-discusses-venezuelas-future-and-trump-ties"
         },
         {
+          "representativeTitle": "French Protests Easing Amid Official Admission of Failure",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "French Protests Taper Off as Officials Admit Failure",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-20/french-protests-taper-off-as-officials-admit-failure-video",
+              "pubDate": "2026-10-20T00:00:15.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "french-protests-easing-amid-official-admission-of-failure"
+        },
+        {
           "representativeTitle": "Widespread Violent Protests Erupt Across European Nations",
           "sources": [
             "FT International"
@@ -866,6 +902,50 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "widespread-violent-protests-erupt-across-european-nations"
+        },
+        {
+          "representativeTitle": "Venezuela Opposition Criticizes Trump's New Oil Partner",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Venezuela’s Opposition Leader Calls Trump’s New Oil Partner Corrupt",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/15/world/americas/venezuela-machado-trump-oil-deal.html",
+              "pubDate": "2026-10-19T22:57:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "venezuela-opposition-criticizes-trumps-new-oil-partner"
+        },
+        {
+          "representativeTitle": "Priest Dies in Ecuador After Falling Crucifix Incident",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Priest in Ecuador Dies After Crucifix Falls on Him During Livestreamed Mass",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/19/world/americas/ecuador-priest-dies-crucifix.html",
+              "pubDate": "2026-10-19T22:54:53.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "priest-dies-in-ecuador-after-falling-crucifix-incident"
         },
         {
           "representativeTitle": "French Riots Highlight Political Class Weakness",
@@ -890,202 +970,34 @@ export const newsData = {
           "slug": "french-riots-highlight-political-class-weakness"
         },
         {
-          "representativeTitle": "Zelenskyy's Stance Signals Shift Away From Trump",
+          "representativeTitle": "Vance declines Netanyahu endorsement despite Trump support.",
           "sources": [
-            "FT International"
+            "Fox News",
+            "Google US"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Zelenskyy, Europe and the end of Trump whispering",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/92f271fd-f96c-4723-91f2-48363b98127f?syn-25a6b1a6=1",
-              "pubDate": "2026-10-19T11:21:25.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "zelenskyys-stance-signals-shift-away-from-trump"
-        },
-        {
-          "representativeTitle": "Priest Dies in Ecuador After Falling Crucifix Incident",
-          "sources": [
-            "NY Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
+              "title": "JD Vance declines to endorse Netanyahu despite Trump's strong backing",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/politics/jd-vance-declines-endorse-netanyahu-despite-trumps-strong-backing",
+              "pubDate": "2026-10-20T00:45:41.000Z",
+              "tier": 2
+            },
             {
-              "title": "Priest in Ecuador Dies After Crucifix Falls on Him During Livestreamed Mass",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/19/world/americas/ecuador-priest-dies-crucifix.html",
-              "pubDate": "2026-10-19T20:23:13.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "priest-dies-in-ecuador-after-falling-crucifix-incident"
-        },
-        {
-          "representativeTitle": "Art Crime Expert Warns Museums Face Constant Theft Risk",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Art crime detective Arthur Brand warns: 'All museums have been, and will be, victims of theft'",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/spotlight/20261019-art-crime-detective-arthur-brand-warns-all-museums-have-been-and-will-be-victims-of-theft",
-              "pubDate": "2026-10-19T20:16:10.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "art-crime-expert-warns-museums-face-constant-theft-risk"
-        },
-        {
-          "representativeTitle": "AI Photos Misrepresent Elderly Couple in France Riots",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "France riots: AI photos falsely depict elderly couple ‘stripped and robbed’",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france-riots-ai-photos-falsely-depict-elderly-couple-stripped-and-robbed-1",
-              "pubDate": "2026-10-19T20:06:36.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ai-photos-misrepresent-elderly-couple-in-france-riots"
-        },
-        {
-          "representativeTitle": "Ukraine Uses F-16s to Shoot Down Russian Drones",
-          "sources": [
-            "NY Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Ukraine Uses F-16s to Shoot Down Russia’s Jet-Powered Drones",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/19/world/europe/ukraine-f16-fighter-jets-drones-russia.html",
-              "pubDate": "2026-10-19T09:15:28.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ukraine-uses-f-16s-to-shoot-down-russian-drones"
-        },
-        {
-          "representativeTitle": "US plans to legitimize dark fleet ships, Wright says.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US to Make Some Dark Fleet Ships Legitimate, Wright Says",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-19/us-to-make-some-dark-fleet-ships-legitimate-wright-says-video",
-              "pubDate": "2026-10-19T18:50:57.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "us-plans-to-legitimize-dark-fleet-ships-wright-says"
-        },
-        {
-          "representativeTitle": "Expert Urges Europe Increase Diesel Fuel Supply Now",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Europe Should Release More Diesel Fuel, Wright Says",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-19/europe-should-release-more-diesel-fuel-wright-says-video",
-              "pubDate": "2026-10-19T18:16:39.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "expert-urges-europe-increase-diesel-fuel-supply-now"
-        },
-        {
-          "representativeTitle": "Sanction Changes Impact Oil Futures Market Pricing",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Oil Futures Pull Back as U.S. Waives Some Russia Sanctions",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-russia-sanctions-waiver-middle-east-risks-05053c4f?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-10-19T19:43:00.000Z",
+              "title": "JD Vance declines to endorse Israeli PM Netanyahu for reelection",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU2pYWUNkbmJYbXpfVnBrWHFfV19aUWQ4b2prOTVDZVcycmtNYWlQRTkycDBQa1ZCc3otRFNXdjF6OUk1aHpEZ0I3TGdXU3lUUWZrS0RNOHdGYlN5MXM5RUpxWEE3d01uYm8yMFFvVnMtd0d2djFBTWdPSVlTTjRaY0pQaDZuT2tZWWlMUDVHRjNOSWRnTl9iakg2WkhZX0djencxcDB3?oc=5",
+              "pubDate": "2026-10-19T23:09:00.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "sanction-changes-impact-oil-futures-market-pricing"
-        },
-        {
-          "representativeTitle": "Haitian Tycoon Linked to Gangs Passes Away At Ninety-One",
-          "sources": [
-            "NY Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Gilbert Bigio, Haitian Tycoon Linked to Gangs, Dies at 91",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/19/world/americas/gilbert-bigio-dead.html",
-              "pubDate": "2026-10-19T15:38:53.000Z",
-              "tier": 1
-            }
-          ],
           "ingestionCategory": "US",
           "aiCategory": "World",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 6,
-          "importance": 45,
-          "slug": "haitian-tycoon-linked-to-gangs-passes-away-at-ninety-one"
+          "importance": 40,
+          "slug": "vance-declines-netanyahu-endorsement-despite-trump-support"
         },
         {
           "representativeTitle": "Fire at Canadian Base Kills Four, Wounds Many",
@@ -1110,28 +1022,6 @@ export const newsData = {
           "slug": "fire-at-canadian-base-kills-four-wounds-many"
         },
         {
-          "representativeTitle": "Law Firm Apologizes Over Leaked Middle East Comments",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Freshfields apologises ‘unreservedly’ over Middle East comments in email leak",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/6075e0ec-9116-4de4-84e6-d50b5ed1d47a?syn-25a6b1a6=1",
-              "pubDate": "2026-10-19T11:09:30.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "law-firm-apologizes-over-leaked-middle-east-comments"
-        },
-        {
           "representativeTitle": "CME Plans Tungsten Futures Amid Rising Weapons Demand",
           "sources": [
             "FT International"
@@ -1152,34 +1042,42 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "cme-plans-tungsten-futures-amid-rising-weapons-demand"
-        },
-        {
-          "representativeTitle": "Child Born Amidst Difficult Circumstances Reported",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Born in jail to a mum with a heroin addiction",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/videos/cmlyljlzw487o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-19T12:12:02.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "child-born-amidst-difficult-circumstances-reported"
         }
       ]
     },
     {
       "name": "US",
       "children": [
+        {
+          "representativeTitle": "DHS Grants Reprieve For Over One Hundred Thousand Migrants",
+          "sources": [
+            "The Guardian",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
+              "pubDate": "2026-10-19T22:34:43.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Homeland Security grants temporary deportation reprieve for more than 100K Ukrainians and Sudanese",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYUVrNldBZ1J6elFIMGhXbFk4dkV6WkZjWG9zVjlEZm1hUlBrZER4T0ZpUDhFbzF3YUlBbGpSS0gxekFvbnlBdDBWUk1NOHlXeU1KX19rb2swdDh6Z1M5Z0ZCZlZ6NnFsbnpTcEcxZklFQmZjOXFnT2kyaXZsMlZrX1c3azk1NkNKbS0yaVBSQmZOVlJPR1IwcjQtdjlGdktJVzRmZk9leE5leDc1dnF4M3RZenFJQlZ5VlRWX2FEMWV2dXc?oc=5",
+              "pubDate": "2026-10-19T21:51:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "dhs-grants-reprieve-for-over-one-hundred-thousand-migrants"
+        },
         {
           "representativeTitle": "Trump plans new NIH division for women's health.",
           "sources": [
@@ -1219,11 +1117,11 @@ export const newsData = {
           "slug": "trump-plans-new-nih-division-for-womens-health"
         },
         {
-          "representativeTitle": "Supreme Court to Hear Key Case on School Admissions",
+          "representativeTitle": "Supreme Court to Hear Race Admissions Case in Maryland",
           "sources": [
             "NBC News",
-            "ABC News US",
-            "Google US"
+            "ABC News Top",
+            "ABC News US"
           ],
           "citationCount": 3,
           "rawArticles": [
@@ -1235,17 +1133,24 @@ export const newsData = {
               "tier": 2
             },
             {
+              "title": "Supreme Court to hear case on race in middle school admissions",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/US/wireStory/supreme-court-hear-case-race-middle-school-admissions-137393181",
+              "pubDate": "2026-10-19T21:05:30.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Supreme Court to hear case on race in middle school admissions",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/supreme-court-hear-case-race-middle-school-admissions-137393181",
+              "pubDate": "2026-10-19T21:05:30.000Z",
+              "tier": 2
+            },
+            {
               "title": "Supreme Court declines to hear appeal in disputed Afghan adoption case",
               "source": "ABC News US",
               "link": "https://abcnews.com/US/wireStory/supreme-court-declines-hear-appeal-disputed-afghan-adoption-137382022",
               "pubDate": "2026-10-19T15:38:17.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Supreme Court to Hear New Case on Race and School Admissions",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVGpVbXdLUnpQYVpKRFZHaGp3NmQ0eHBsaWtyZFZmYmRsakVhbUllSV8zV3ljV2t4ZG9kU3h1RVM0ZkY1VVJUblgwejlFTGhpV1lialNRUnJYa0VYOVdTUk5EOWtrSnNuZS1xRVZUSXFuWXBIeXZKc0dQOVRUUFRpVkVuVGh0TnlMWElwLXFTbnFKdw?oc=5",
-              "pubDate": "2026-10-19T18:00:33.000Z",
               "tier": 2
             }
           ],
@@ -1254,36 +1159,58 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "supreme-court-to-hear-key-case-on-school-admissions"
+          "slug": "supreme-court-to-hear-race-admissions-case-in-maryland"
         },
         {
-          "representativeTitle": "Supreme Court blocks effort to revive plea deal.",
+          "representativeTitle": "Official rules to curb unfair private parking fines.",
           "sources": [
-            "NBC News",
+            "The Guardian",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Andy Burnham outlines new rules to outlaw ‘rip-off’ private parking fines",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/money/2026/oct/19/andy-burnham-new-rules-private-parking-fines-code-of-practice",
+              "pubDate": "2026-10-19T21:30:07.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Burnham vows end to 'rip-off parking charges' under new rules",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9tbW1CaE9vYTNCaFk1YlVpVE01Q09jZ0Vma0lDVE1kMW1nekZueV9jbUh2bWJDX1NYNmNDdDIwaENWamViZlRmeXN1RjJiMGcxbGE0djQ4dk5zTm8?oc=5",
+              "pubDate": "2026-10-19T21:30:06.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "official-rules-to-curb-unfair-private-parking-fines"
+        },
+        {
+          "representativeTitle": "Victim Parents Probe School Plans After Shooting",
+          "sources": [
             "ABC News Top",
             "ABC News US"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Supreme Court rejects alleged 9/11 mastermind’s attempt to revive plea deal",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/supreme-court/supreme-court-rejects-alleged-911-masterminds-attempt-revive-plea-deal-rcna603448",
-              "pubDate": "2026-10-19T13:33:31.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Supreme Court rejects effort to revive Khalid Sheikh Mohammed plea deal",
+              "title": "Parents of school shooting victim hire attorneys to probe school plans, gun purchase",
               "source": "ABC News Top",
-              "link": "https://abcnews.com/US/wireStory/supreme-court-rejects-effort-revive-khalid-sheikh-mohammed-137379605",
-              "pubDate": "2026-10-19T16:11:25.000Z",
+              "link": "https://abcnews.com/US/wireStory/parents-bend-school-shooting-victim-hire-attorneys-investigate-137396950",
+              "pubDate": "2026-10-19T23:11:10.000Z",
               "tier": 2
             },
             {
-              "title": "Supreme Court rejects effort to revive Khalid Sheikh Mohammed plea deal",
+              "title": "Parents of school shooting victim hire attorneys to probe school plans, gun purchase",
               "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/supreme-court-rejects-effort-revive-khalid-sheikh-mohammed-137379605",
-              "pubDate": "2026-10-19T16:11:25.000Z",
+              "link": "https://abcnews.com/US/wireStory/parents-bend-school-shooting-victim-hire-attorneys-investigate-137396950",
+              "pubDate": "2026-10-19T23:11:10.000Z",
               "tier": 2
             }
           ],
@@ -1291,8 +1218,8 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "supreme-court-blocks-effort-to-revive-plea-deal"
+          "importance": 50,
+          "slug": "victim-parents-probe-school-plans-after-shooting"
         },
         {
           "representativeTitle": "Election Offices Receive Suspicious Letters Across States",
@@ -1315,6 +1242,74 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "election-offices-receive-suspicious-letters-across-states"
+        },
+        {
+          "representativeTitle": "AG Defends Officer Force in Child's Death",
+          "sources": [
+            "NBC News",
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Mississippi AG says police shooting that killed 1-year-old was ‘justified’",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/mississippi-ag-says-police-shooting-killed-1-year-old-was-justified-rcna604424",
+              "pubDate": "2026-10-19T21:15:25.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Mississippi AG says officer's force was justified during shoplifting call in which boy was killed",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/mississippi-ag-officers-force-justified-shoplifting-call-boy-137386537",
+              "pubDate": "2026-10-19T19:52:48.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Mississippi attorney general says officer's force was justified in death of 1-year-old Kohen Wiley",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQclIzUFV5dzZhQ0RoVHpXcGZGbDF6TVpOM3NCeDM3Z3BVdDRTMHVOcDhFTlBrWHFfS3VEQUNkNHFtRkd2S3BfVUhoU1hEelJNTE8yQmFGT21NclJoWmVxZXpYX3d5Qzl5VlRVYXJnOVVHTEhTbjNyeURmWWtSdExNb0FmY2ZCbmFMOVFubk9iNXdGUmZMUktyOFNNUEkzUUFDZXZkVTBNYjVpSVRLVjZidWRhblNBZzd6a3p1T0dtSlQ3Vl9FQ3JjVXZjTmlqZw?oc=5",
+              "pubDate": "2026-10-19T22:10:32.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ag-defends-officer-force-in-childs-death"
+        },
+        {
+          "representativeTitle": "DOJ Charges Voters in California Over Alleged Noncitizen Status",
+          "sources": [
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Justice Department charges more than 2 dozen in California sweep targeting noncitizen voters",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/justice-department-charges-2-dozen-california-sweep-targeting-137381132",
+              "pubDate": "2026-10-19T15:38:04.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Justice Department charges more than 2 dozen in California sweep targeting alleged noncitizen voters",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa3htdTU3bTZlc0I5ZHpGcW95ak9CMXRIME9SYmtFcU5CalVDeUs2a1NETldSb1kydWFZaGVFemVkOWRkNlZGNVg3OUQ3VXRJaFlVcnh5bm56QWlMbGZTRU9PeFloSnRaMEZuM3Q5WEZOZUdfSWJHZF9WbGtmbWp0VlpqY0cycDBoMVN2VDlJclhENHBuUGNKVEE0aUwyREU?oc=5",
+              "pubDate": "2026-10-19T20:02:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "doj-charges-voters-in-california-over-alleged-noncitizen-status"
         },
         {
           "representativeTitle": "Obama Criticizes Probe of Congresswoman Omar's Actions",
@@ -1369,17 +1364,17 @@ export const newsData = {
           "slug": "secretary-addresses-fuel-shortages-gas-prices-shipping-issues"
         },
         {
-          "representativeTitle": "MP Helen Haines critically injured in Melbourne car crash.",
+          "representativeTitle": "MP's Condition Updates Amid Warnings of Rhetoric",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Helen Haines: independent MP in critical condition in Melbourne’s Alfred hospital after being struck by car in Wangaratta  – follow updates",
+              "title": "Helen Haines live updates: independent MP in critical but stable condition as Asio boss warns about ‘violent rhetoric’",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/live/2026/oct/20/helen-haines-independent-mp-alleged-car-attack-wangaratta-melbourne-hospital-ntwnfb",
-              "pubDate": "2026-10-19T20:30:00.000Z",
+              "pubDate": "2026-10-20T00:48:27.000Z",
               "tier": 1
             }
           ],
@@ -1388,29 +1383,133 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "mp-helen-haines-critically-injured-in-melbourne-car-crash"
+          "slug": "mps-condition-updates-amid-warnings-of-rhetoric"
         },
         {
-          "representativeTitle": "Trump Accounts, Bonds, and Nomads Drive Market Focus",
+          "representativeTitle": "Protester Disrupts Vance Speech Demanding Epstein Files",
           "sources": [
-            "Bloomberg Markets"
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump Accounts, Bonds Barometer, ‘Dividend Nomads’",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-19/etf-iq-10-19-2026-video",
-              "pubDate": "2026-10-19T19:01:57.000Z",
+              "title": "‘Release Epstein files’, protester interrupts JD Vance’s speech",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/20/release-epstein-files-protester-interrupts-jd-vances-speech?traffic_source=rss",
+              "pubDate": "2026-10-20T00:18:48.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "World",
           "aiCategory": "US",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "trump-accounts-bonds-and-nomads-drive-market-focus"
+          "slug": "protester-disrupts-vance-speech-demanding-epstein-files"
+        },
+        {
+          "representativeTitle": "Church battles drug 'tranq' in community effort.",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US church on frontline of battle against drug known as 'tranq'",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/cqd097z3epvno?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-20T00:02:32.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "church-battles-drug-tranq-in-community-effort"
+        },
+        {
+          "representativeTitle": "Supreme Court blocks effort to revive plea deal.",
+          "sources": [
+            "NBC News",
+            "ABC News US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Supreme Court rejects alleged 9/11 mastermind’s attempt to revive plea deal",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/supreme-court/supreme-court-rejects-alleged-911-masterminds-attempt-revive-plea-deal-rcna603448",
+              "pubDate": "2026-10-19T13:33:31.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Supreme Court rejects effort to revive Khalid Sheikh Mohammed plea deal",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/supreme-court-rejects-effort-revive-khalid-sheikh-mohammed-137379605",
+              "pubDate": "2026-10-19T16:11:25.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "supreme-court-blocks-effort-to-revive-plea-deal"
+        },
+        {
+          "representativeTitle": "Coast Guard Halts Search After Boat Incident Off Mexico",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Coast Guard Halts Search for Survivors of Capsized Boat Off Mexico",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/18/us/capsized-boat-survivors-sharks.html",
+              "pubDate": "2026-10-19T21:58:06.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "coast-guard-halts-search-after-boat-incident-off-mexico"
+        },
+        {
+          "representativeTitle": "Candidate Faces Charges After Campaign Suspension Incident",
+          "sources": [
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Shawn Oliver pleads not guilty to OUI after suspending lieutenant governor campaign",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/International/wireStory/shawn-oliver-pleads-guilty-oui-charge-after-crash-137392161",
+              "pubDate": "2026-10-20T00:21:57.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Massachusetts lieutenant governor candidate ends campaign after arrest",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLUJkNEhaMFAwaExPcjN3enFtOGVyWm9GWlJZanRYdGxkM19iUlBjcHBROTBjZGY1dXZFYlNXbjVGZlVPQUE2aExLR3FtTkJlU0lFM0tfQlE5aU9mNFpRNEVEbmNtSG9GMktJTWtxdVBPb2lfRWwzNDdQZ0VCVHRpRjdzdDEyNi1LS3Zic2w5WFMzbFlTYThTNHFqd09WQ2gzbVBVME9uUQ?oc=5",
+              "pubDate": "2026-10-19T13:35:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "candidate-faces-charges-after-campaign-suspension-incident"
         },
         {
           "representativeTitle": "Visitor Killed by Debris at Famous Architectural Site",
@@ -1435,66 +1534,6 @@ export const newsData = {
           "slug": "visitor-killed-by-debris-at-famous-architectural-site"
         },
         {
-          "representativeTitle": "Trump plans golf course renovation amid legal dispute.",
-          "sources": [
-            "NPR",
-            "ABC News US",
-            "Google US"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Trump to close and renovate D.C. golf course, despite legal battle",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/10/18/nx-s1-6007384/trump-to-close-and-renovate-d-c-golf-course-despite-legal-battle",
-              "pubDate": "2026-10-19T02:09:43.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump says he will close historic DC golf course for 15 months of renovations",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/trump-close-historic-dc-golf-15-months-renovations-137362971",
-              "pubDate": "2026-10-19T05:30:14.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump says construction to begin ‘immediately’ on golf course despite judge’s order",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xNFNqZnNFYlVvNGgwak9qaHRDdWdmLV9jV3g5X0ZTdUh4cl84bXhjQ2IweTJxMEhNcUl2QlppZTU2R0hseE5FQ3JWcEJOaE52ak9UQ19CaERXZWtGRk9JX2Qxdm5zaFIyWjhRdFJKcGVfc0xROGhR?oc=5",
-              "pubDate": "2026-10-19T12:24:57.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "trump-plans-golf-course-renovation-amid-legal-dispute"
-        },
-        {
-          "representativeTitle": "Wealth Gap Widens: Young Adults Face Housing Crisis",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The housing gap between young people with and without wealthy parents has nearly doubled",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-housing-gap-young-people-wealthy.html",
-              "pubDate": "2026-10-19T19:20:07.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "wealth-gap-widens-young-adults-face-housing-crisis"
-        },
-        {
           "representativeTitle": "Musk Pledges SpaceX Shares to Every U.S. Child",
           "sources": [
             "WSJ US Business"
@@ -1505,7 +1544,7 @@ export const newsData = {
               "title": "Musk Vows to Give Each U.S. Child a SpaceX Share",
               "source": "WSJ US Business",
               "link": "https://www.wsj.com/business/musk-vows-to-give-each-u-s-child-a-spacex-share-273bc71c?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-10-19T18:11:00.000Z",
+              "pubDate": "2026-10-19T21:21:00.000Z",
               "tier": 2
             }
           ],
@@ -1517,84 +1556,92 @@ export const newsData = {
           "slug": "musk-pledges-spacex-shares-to-every-us-child"
         },
         {
-          "representativeTitle": "Supreme Court reviews old ban on home distilling spirits.",
+          "representativeTitle": "Judge challenges Trump plan to overhaul DC golf course.",
           "sources": [
-            "NBC News",
+            "NPR",
             "Google US"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "High spirits: Supreme Court to decide fate of federal ban on home distilling",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/supreme-court/high-spirits-supreme-court-decide-fate-federal-ban-home-distilling-rcna603576",
-              "pubDate": "2026-10-19T13:37:52.000Z",
+              "title": "Judge chastises Trump administration plan to push ahead overhaul of DC golf course",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/19/nx-s1-6007746/golf-course-potomac-white-house-tree-removal",
+              "pubDate": "2026-10-19T21:56:37.000Z",
               "tier": 2
             },
             {
-              "title": "Supreme Court agrees to review a Reconstruction-era ban on distilling spirits in private homes",
+              "title": "Judge chastises Trump administration plan to push ahead overhaul of DC golf course",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUDYyYTFnZVBnNEQwYzhmdkpaTWZrV1lxX05LelZGS2RaX1o2aTZaUHBkRVE4Q3Z4bWhFTERhY0ZHbTFrRzlzMGc0M0QwQktXRVBxN3ZqMGVuZ2FEc2lIeHhuTlZVb1liaTB1NkI1cGVza3k3Xzc5WjJCaFEzLTA0SFdXeUNJQ052eEhTXzBOS0paVDU2MTFleGZNQ2Q4N2g2WVVuOTZEdm5vcm9lQ1kzNQ?oc=5",
-              "pubDate": "2026-10-19T14:34:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQTlaOERZUlY5VWJ2SU9oN3N0dktEY0VGVElIYnBwejdHS1loc3k2a2RRUXdZdmJudnpxc3lLdTJjY1pYQnZFNUhtYXJ0dXBZQ0xiX3g1V1hiOEJtYW9UazRZZWo0VzM2WGtISHRkVWFWTHBDYmxGNjN3V1p3akdWT1pqZTdtdGZLWGNVNWlwZERaY0E?oc=5",
+              "pubDate": "2026-10-19T21:56:37.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 40,
-          "slug": "supreme-court-reviews-old-ban-on-home-distilling-spirits"
+          "slug": "judge-challenges-trump-plan-to-overhaul-dc-golf-course"
         },
         {
-          "representativeTitle": "Coast Guard Halts Search After Boat Incident Off Mexico",
+          "representativeTitle": "Individual Appeals Supreme Court to Stop Deportation Order",
           "sources": [
-            "NY Times"
+            "ABC News Top",
+            "Google US"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Coast Guard Halts Search for Survivors of Capsized Boat Off Mexico",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/18/us/capsized-boat-survivors-sharks.html",
-              "pubDate": "2026-10-19T09:55:20.000Z",
-              "tier": 1
+              "title": "Mahmoud Khalil appeals to Supreme Court to sue Trump admin over free speech",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Politics/pro-palestinian-activist-mahmoud-khalil-appeals-supreme-court/story?id=137388888",
+              "pubDate": "2026-10-19T20:43:50.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Mahmoud Khalil Appeals to Supreme Court to Halt Deportation",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWo2NE03cWFiSlVyOEtrSkdNSllrWkoza0JsanBrT0dtM043V1Zac3Aya1hkeEU3ZTEzeE9QeXVia29TMWhqbjluU00wR0pqdkJRVXc3Y2lURWtZTUI1aE1mYzBqSF9qUUJUeldtRFJ6aFMyRVgzSHk2OEp3dnhlRHRSa2ZDcm9rYldKSUxyVms2bWxldFpv?oc=5",
+              "pubDate": "2026-10-19T20:22:37.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 45,
-          "slug": "coast-guard-halts-search-after-boat-incident-off-mexico"
-        },
-        {
-          "representativeTitle": "Voters link economic strain to midterm election concerns.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘I suffer with my wallet’: American voters weigh in on the midterms",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/d375cde1-ec37-4c5e-87ab-a3a655e879d8?syn-25a6b1a6=1",
-              "pubDate": "2026-10-19T04:00:06.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "voters-link-economic-strain-to-midterm-election-concerns"
+          "importance": 40,
+          "slug": "individual-appeals-supreme-court-to-stop-deportation-order"
         }
       ]
     },
     {
       "name": "Stocks",
       "children": [
+        {
+          "representativeTitle": "Morgan Stanley AI View Boosts Amazon Stock Performance",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Amazon Rallies as Morgan Stanley Sees Major AI Upside | Closing Bell",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-19/amazon-rallies-on-ai-upside-closing-bell-video",
+              "pubDate": "2026-10-19T20:56:42.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "morgan-stanley-ai-view-boosts-amazon-stock-performance"
+        },
         {
           "representativeTitle": "Defense Stocks Drop Amid Election Political Betting",
           "sources": [
@@ -1618,48 +1665,70 @@ export const newsData = {
           "slug": "defense-stocks-drop-amid-election-political-betting"
         },
         {
-          "representativeTitle": "Tech Gains Cause Treasury Dip Amid Shifting Demand",
+          "representativeTitle": "Mynt's IPO Boost Signals Philippine Market Growth",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Treasuries Fall as Tech Shares Rebound, Denting Haven Demand",
+              "title": "Mynt’s Record IPO Brings a New Heavyweight to Philippine Stocks",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-19/treasuries-fall-as-tech-shares-rebound-weakening-haven-demand",
-              "pubDate": "2026-10-19T16:34:56.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/mynt-s-record-ipo-brings-a-new-heavyweight-to-philippine-stocks",
+              "pubDate": "2026-10-19T23:00:00.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "tech-gains-cause-treasury-dip-amid-shifting-demand"
-        },
-        {
-          "representativeTitle": "Analyst Predicts Diversification Amid Trump Uncertainty",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Diversification Will Win Out With Trump Accounts: Bartolini",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-19/diversification-wins-with-trump-accounts-bartolini-video",
-              "pubDate": "2026-10-19T18:42:14.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0,
+          "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "analyst-predicts-diversification-amid-trump-uncertainty"
+          "slug": "mynts-ipo-boost-signals-philippine-market-growth"
+        },
+        {
+          "representativeTitle": "Asian Stocks Dip Amid US Chip Rally Slowdown",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Asian Stocks Decline in Break From US Chip Rally: Markets Wrap",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/stock-market-today-dow-s-p-live-updates",
+              "pubDate": "2026-10-19T22:09:31.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "asian-stocks-dip-amid-us-chip-rally-slowdown"
+        },
+        {
+          "representativeTitle": "Cboe Launches New Single-Stock Options Trading Debut",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Cboe’s Early Session for Single-Stock Options Makes Debut",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/cboe-s-early-session-for-single-stock-options-makes-debut",
+              "pubDate": "2026-10-19T20:57:09.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "cboe-launches-new-single-stock-options-trading-debut"
         }
       ]
     },
@@ -1727,6 +1796,28 @@ export const newsData = {
           "slug": "asx-chief-warns-australia-lags-asian-finance-hubs"
         },
         {
+          "representativeTitle": "Inflation Concerns Dampen Rate Expectations for Gold",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Gold Holds Decline as Energy-Led Inflation Weighs on Rate Path",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/gold-holds-decline-as-energy-led-inflation-weighs-on-rate-path",
+              "pubDate": "2026-10-19T23:55:45.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "inflation-concerns-dampen-rate-expectations-for-gold"
+        },
+        {
           "representativeTitle": "Amazon Funds Small Nuclear Reactors at Indiana Plant",
           "sources": [
             "TechCrunch",
@@ -1755,6 +1846,94 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 50,
           "slug": "amazon-funds-small-nuclear-reactors-at-indiana-plant"
+        },
+        {
+          "representativeTitle": "Oil Market Analysis Provided For October Twenty",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Latest Oil Market News and Analysis for Oct. 20",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/latest-oil-market-news-and-analysis-for-oct-20",
+              "pubDate": "2026-10-19T22:04:11.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "oil-market-analysis-provided-for-october-twenty"
+        },
+        {
+          "representativeTitle": "Buffett heirs poised to guide massive financial legacy.",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "How the Buffett Kids Will Shape a $150 Billion Legacy",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-19/how-the-buffett-kids-will-shape-a-150-billion-legacy-video",
+              "pubDate": "2026-10-19T21:35:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "buffett-heirs-poised-to-guide-massive-financial-legacy"
+        },
+        {
+          "representativeTitle": "Pensions Chief Alleges Private Equity Expense Misuse",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "New York pensions chief says private equity firm sought to expense jet use",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/97643fcb-46f8-43dc-b559-c33709f37866?syn-25a6b1a6=1",
+              "pubDate": "2026-10-19T21:18:40.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "pensions-chief-alleges-private-equity-expense-misuse"
+        },
+        {
+          "representativeTitle": "NZ Inflation Surge Signals Potential Interest Rate Hikes",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "New Zealand’s Year-End Inflation Surge Points to More Rate Hikes",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-19/new-zealand-s-year-end-inflation-surge-points-to-more-rate-hikes",
+              "pubDate": "2026-10-19T20:50:29.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "nz-inflation-surge-signals-potential-interest-rate-hikes"
         },
         {
           "representativeTitle": "Manhattan Office Bond Sale Faces Latest Delay",
@@ -1801,114 +1980,26 @@ export const newsData = {
           "slug": "bmo-partners-bapoo-on-florida-critical-minerals-project"
         },
         {
-          "representativeTitle": "Economists and Traders Predict Bank of Canada Hike",
+          "representativeTitle": "Netflix Faces Challenges Signaling Streaming Slowdown Ahead",
           "sources": [
-            "Bloomberg Markets"
+            "WSJ US Business"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Bank of Canada Hike Bets Grow Among Economists, Traders",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-19/bank-of-canada-hike-bets-grow-among-economists-traders",
-              "pubDate": "2026-10-19T19:23:07.000Z",
-              "tier": 1
+              "title": "Netflix, America’s Dominant Streaming Service, Has Hit a Wall",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/media/netflix-americas-dominant-streaming-service-has-hit-a-wall-13660401?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-10-19T23:00:00.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "economists-and-traders-predict-bank-of-canada-hike"
-        },
-        {
-          "representativeTitle": "Subway's Profitability Highlights Operational Efficiency Success",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The World’s Most Profitable Subway",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-19/the-world-s-most-profitable-subway-video",
-              "pubDate": "2026-10-19T19:01:02.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "subways-profitability-highlights-operational-efficiency-success"
-        },
-        {
-          "representativeTitle": "Investors use dividends to escape traditional employment.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘Dividend Nomads’ Invest Their Way Out of the 9-to-5",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-19/-dividend-nomads-invest-their-way-out-of-the-9-to-5-video",
-              "pubDate": "2026-10-19T18:25:19.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "investors-use-dividends-to-escape-traditional-employment"
-        },
-        {
-          "representativeTitle": "Walmart to Raise $6.5 Billion Via Bond Sales",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Walmart Set to Raise $6.5 Billion From US, Canadian Bond Sales",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-19/walmart-sells-us-debt-eyes-canadian-market-as-spending-grows",
-              "pubDate": "2026-10-19T15:36:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "walmart-to-raise-65-billion-via-bond-sales"
-        },
-        {
-          "representativeTitle": "Holmes' Deception Exposed After WIRED Investigation",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How Elizabeth Holmes Tricked WIRED—and Everyone Else",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/how-elizabeth-holmes-tricked-wired-and-everyone-else/",
-              "pubDate": "2026-10-19T10:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Science",
+          "ingestionCategory": "Business",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "holmes-deception-exposed-after-wired-investigation"
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "netflix-faces-challenges-signaling-streaming-slowdown-ahead"
         }
       ]
     },
@@ -1916,64 +2007,92 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
-          "representativeTitle": "Musk Pledges SpaceX Shares to All American Kids",
+          "representativeTitle": "AI Firms Nscale and Anthropic Discuss Compute Deal",
           "sources": [
-            "TechCrunch",
-            "The Verge"
+            "TechCrunch"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Musk pledges to give ‘every kid in America’ one of his SpaceX shares",
+              "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/",
-              "pubDate": "2026-10-19T12:42:55.000Z",
+              "link": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+              "pubDate": "2026-10-19T23:39:38.000Z",
               "tier": 1
-            },
-            {
-              "title": "Elon Musk promises to give one SpaceX share to every child in the US",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/1013667/elon-musk-space-x-shares-us-children",
-              "pubDate": "2026-10-19T14:20:11.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "musk-pledges-spacex-shares-to-all-american-kids"
+          "importance": 55,
+          "slug": "ai-firms-nscale-and-anthropic-discuss-compute-deal"
         },
         {
-          "representativeTitle": "Ex-OpenAI Worker Accused of Planting Device; Saudi Link Emerges",
+          "representativeTitle": "Microsoft warns AI agents pose insider threat risks.",
           "sources": [
-            "BBC US",
-            "Google US"
+            "TechCrunch"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Ex-OpenAI worker accused of planting device had Saudi support says court filing",
+              "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+              "pubDate": "2026-10-19T22:04:28.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "microsoft-warns-ai-agents-pose-insider-threat-risks"
+        },
+        {
+          "representativeTitle": "OpenAI Employee Links to Royals Under Scrutiny",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "OpenAI employee accused of bugging had links to Saudi royals, prosecutors claim",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/9e10eaa4-ed5e-417b-85c5-b5003b064017?syn-25a6b1a6=1",
+              "pubDate": "2026-10-19T21:27:34.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "openai-employee-links-to-royals-under-scrutiny"
+        },
+        {
+          "representativeTitle": "Ex-OpenAI Worker Accused of Planting Device with Saudi Links",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
               "source": "BBC US",
               "link": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-19T16:22:12.000Z",
+              "pubDate": "2026-10-19T21:12:30.000Z",
               "tier": 1
-            },
-            {
-              "title": "Ex-OpenAI worker accused of planting device had Saudi support says court filing",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43OE9SMzlBcmp6c2dDQ1FmWlZvZ3BsRlNxakJfci1qVWw5ZWZxalFpVFFzT1BxQWExdEk5Y3A3YzR3ZGtTbF9zUGNSaTBDRDBhTVR4bEpHWG9YdHM?oc=5",
-              "pubDate": "2026-10-19T16:22:12.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "Technology",
           "sentiment": -0.4,
-          "relevance_score": 7,
+          "relevance_score": 8,
           "importance": 55,
-          "slug": "ex-openai-worker-accused-of-planting-device-saudi-link-emerges"
+          "slug": "ex-openai-worker-accused-of-planting-device-with-saudi-links"
         },
         {
           "representativeTitle": "Amazon launches new tool targeting Nvidia AI development.",
@@ -2086,70 +2205,78 @@ export const newsData = {
           "slug": "us-bans-ai-model-use-amid-china-tech-tensions"
         },
         {
-          "representativeTitle": "Anthropic IPO seen as key AI market event.",
+          "representativeTitle": "AI misuse threatens smart TV functionality and use.",
           "sources": [
-            "CNBC Markets"
+            "TechCrunch",
+            "Google Tech"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Anthropic is AI trade's last big hope for a major IPO this year",
-              "source": "CNBC Markets",
-              "link": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html",
-              "pubDate": "2026-10-19T16:42:14.000Z",
+              "title": "People are using AI to make their smart TVs dumb again",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+              "pubDate": "2026-10-19T16:13:22.000Z",
               "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "anthropic-ipo-seen-as-key-ai-market-event"
-        },
-        {
-          "representativeTitle": "Prosecutors allege Saudi links in OpenAI bugging case.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
+            },
             {
-              "title": "US prosecutors allege Saudi royal links in OpenAI bugging case",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/9e10eaa4-ed5e-417b-85c5-b5003b064017?syn-25a6b1a6=1",
-              "pubDate": "2026-10-19T16:13:28.000Z",
-              "tier": 1
+              "title": "People are using AI to make their smart TVs dumb again",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQUlIQzFzeG5lbUQ1eVppbklieXRmRlhva2tGMmQ5MzZIU0ZEYVlBVUNsVnFLYmJuSk5sdk5jdDc3VDZXZFdUd0hiRUNqbUl0ck9MS3hYWU0yQVEyc1ozQTFJd0MtYm5ZR1h6LVNXdEl3dmVpSXZWaXEtMnY2dDZ4NlJEUkNmTW5qbW1mOGhEOWp4eUE?oc=5",
+              "pubDate": "2026-10-19T16:13:22.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "prosecutors-allege-saudi-links-in-openai-bugging-case"
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "ai-misuse-threatens-smart-tv-functionality-and-use"
         },
         {
-          "representativeTitle": "Nvidia releases open models for enterprise AI agents.",
+          "representativeTitle": "AI Evaluators Face Hurdles, Policy Chief Warns",
           "sources": [
             "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+              "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
-              "pubDate": "2026-10-19T15:37:09.000Z",
+              "link": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+              "pubDate": "2026-10-19T22:49:27.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "nvidia-releases-open-models-for-enterprise-ai-agents"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ai-evaluators-face-hurdles-policy-chief-warns"
+        },
+        {
+          "representativeTitle": "Anthropic and Nscale Discuss Major Investment Deal",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Anthropic and Nscale in talks for second multibillion-dollar deal",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/26a604d8-1a9d-4801-bd73-6ac588b63bdc?syn-25a6b1a6=1",
+              "pubDate": "2026-10-19T22:27:32.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "anthropic-and-nscale-discuss-major-investment-deal"
         },
         {
           "representativeTitle": "Startup Secures $30M Funding for AI Companion Tool",
@@ -2238,50 +2365,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "autonomy-promises-radical-changes-to-vehicle-design-future"
-        },
-        {
-          "representativeTitle": "AI misuse threatens smart TV functionality and use.",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "People are using AI to make their smart TVs dumb again",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
-              "pubDate": "2026-10-19T16:13:22.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ai-misuse-threatens-smart-tv-functionality-and-use"
-        },
-        {
-          "representativeTitle": "WhatsApp Leak Exposes Hidden Chatbot Instructions Details",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
-              "pubDate": "2026-10-19T16:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "whatsapp-leak-exposes-hidden-chatbot-instructions-details"
         },
         {
           "representativeTitle": "ReactOS achieves NTFS support milestone in development.",
@@ -2386,144 +2469,70 @@ export const newsData = {
           "slug": "search-for-earhart-plane-yields-natural-obstacles-instead"
         },
         {
-          "representativeTitle": "Japan Launches Mars Moon Phobos Sample Return Mission",
-          "sources": [
-            "Phys.org",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Japan to launch world-first mission to moon of Mars",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-japan-world-mission-moon-mars.html",
-              "pubDate": "2026-10-19T19:30:01.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Watch Japan launch a bold sample-return mission to Mars moon Phobos today",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ3g5WmlKM0FpcmFKWXJWVmtRc3F2YmMzQmpyYWJLYWNYUXNWZVFlU3IySHQ3bU0xRm42UlpUejJhOWlNdUxMYk1xQ2hzWEhPR0RlUVlKUjlDVk9raUxMY1lGazg4OFNkSlpRaFRXRTk2Zmd2eUtEbFJxY0ZGek9ZOEljZzZ5d3ZwQV9JLXoyUlU0SEttV2VWbUNMR3E3LU1JeDh3UmJrcnZ6SG9MeHVManBYdVd1UTM2WHJ3?oc=5",
-              "pubDate": "2026-10-19T10:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "japan-launches-mars-moon-phobos-sample-return-mission"
-        },
-        {
-          "representativeTitle": "Webb Telescope Finds Metal-Rich Gas Near Black Hole",
+          "representativeTitle": "Study Maps Key Global Areas For Biodiversity Protection",
           "sources": [
             "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Webb reveals metal-rich gas around Milky Way's central black hole",
+              "title": "13% of Earth's land identified as biodiversity conservation hotspots",
               "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-webb-reveals-metal-rich-gas.html",
-              "pubDate": "2026-10-19T20:00:15.000Z",
+              "link": "https://phys.org/news/2026-10-earth-biodiversity-hotspots.html",
+              "pubDate": "2026-10-19T23:20:12.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "webb-telescope-finds-metal-rich-gas-near-black-hole"
-        },
-        {
-          "representativeTitle": "Methane plans curb emissions but miss 2030 goal.",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Fully implementing methane plans could reverse emissions growth but miss 2030 target",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-fully-methane-reverse-emissions-growth.html",
-              "pubDate": "2026-10-19T20:40:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "methane-plans-curb-emissions-but-miss-2030-goal"
-        },
-        {
-          "representativeTitle": "Enzyme mechanism speeds hydrogen production via protons.",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Molecular pendulum shuttles protons to enable rapid hydrogen production in enzymes",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-molecular-pendulum-shuttles-protons-enable.html",
-              "pubDate": "2026-10-19T19:40:02.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "enzyme-mechanism-speeds-hydrogen-production-via-protons"
-        },
-        {
-          "representativeTitle": "New Chemistry Destroys Persistent 'Forever' Chemicals",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "New 'hunter-killer' chemistry captures and destroys forever chemicals",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-hunter-killer-chemistry-captures-destroys.html",
-              "pubDate": "2026-10-19T19:00:06.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "new-chemistry-destroys-persistent-forever-chemicals"
-        },
-        {
-          "representativeTitle": "Earhart wreckage likely found within forest trees.",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Possible wreckage of Amelia Earhart's plane likely to be trees, say researchers",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cmq5n8x106jdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-19T09:11:42.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
           "aiCategory": "Science",
           "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "earhart-wreckage-likely-found-within-forest-trees"
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "study-maps-key-global-areas-for-biodiversity-protection"
+        },
+        {
+          "representativeTitle": "Physicists suggest particle may explain existence's mystery.",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Forgotten particle could answer mystery of why we exist, say physicists",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-forgotten-particle-mystery-physicists.html",
+              "pubDate": "2026-10-19T23:10:02.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "physicists-suggest-particle-may-explain-existences-mystery"
+        },
+        {
+          "representativeTitle": "Scientists control self-assembly of molecular helices.",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Synthetic molecules self-assemble into triple helices with new control method",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-synthetic-molecules-triple-helices-method.html",
+              "pubDate": "2026-10-19T22:20:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "scientists-control-self-assembly-of-molecular-helices"
         }
       ]
     }
