@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-21T22:24:48.394Z",
+  "lastUpdated": "2026-10-22T02:25:53.582Z",
   "children": [
     {
       "name": "World",
