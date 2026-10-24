@@ -1,34 +1,40 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-24T08:03:25.791Z",
+  "lastUpdated": "2026-10-24T12:12:11.918Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Historic German Site Burns After Fire Incident",
+          "representativeTitle": "Fire Breaks Out At Historic Bavarian Mountain Retreat",
           "sources": [
             "BBC World",
             "The Guardian",
             "Al Jazeera",
             "Sky News",
-            "Euronews",
-            "Google World"
+            "Euronews"
           ],
-          "citationCount": 6,
+          "citationCount": 5,
           "rawArticles": [
             {
-              "title": "Arrest made after fire at Hitler's famed Eagle's Nest retreat",
+              "title": "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-24T03:51:25.000Z",
+              "pubDate": "2026-10-24T11:23:59.000Z",
               "tier": 1
             },
             {
-              "title": "Blaze engulfs Hitler’s ‘Eagle’s Nest’ mountain retreat in Bavaria",
+              "title": "Suspect arrested over fire at Hitler’s ‘Eagle’s Nest’ retreat in Bavaria",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/2026/oct/24/blaze-engulfs-hitlers-eagles-nest-mountain-retreat-in-bavaria",
-              "pubDate": "2026-10-24T06:21:44.000Z",
+              "pubDate": "2026-10-24T10:04:04.000Z",
+              "tier": 1
+            },
+            {
+              "title": "German police detain suspect after fire engulfs Hitler’s Eagle’s Nest",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/24/german-police-detain-suspect-after-fire-engulfs-hitlers-eagles-nest?traffic_source=rss",
+              "pubDate": "2026-10-24T11:01:05.000Z",
               "tier": 1
             },
             {
@@ -51,29 +57,60 @@ export const newsData = {
               "link": "https://www.euronews.com/2026/10/24/arrest-made-after-major-fire-breaks-out-at-hitlers-eagles-nest-mountain-retreat-in-bavaria",
               "pubDate": "2026-10-24T06:17:50.000Z",
               "tier": 2
-            },
-            {
-              "title": "Suspect arrested as Hitler's Eagle's Nest, the Kehlsteinhaus, catches fire",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQXNqMFNUR1dPQjNiVVJzNFY4TTA0dWNGb1hMejdtMnRlbjBTRFNwWG1qVlBzdEpYQnEtRmI1UFRYdGJrSXBWZ1pHam52WV9sSjRNem5jd3FMZHd3bk95MF9HalBzdzdlckUyRUlwWGVuME5fTncxbnZiME1Pbmk3Y3R4QXlMbEl4WXlxStIBjAFBVV95cUxOb3QzaUZZbmwxdkREYVoxYzcwcjRBSkh4T2JYZlFNNmdhZjFzY0hGUkJBdGN4cFFtcUpRM0swaFN5N2xsbVJUeS1oOWhvNDFmQXNzY1hZSHZoWkd4Z3dtSFFCN3l6RHFRMm1ERFBIampUMUhHTWYtT1Z4RXVEMExKTmZfSXVMMExZYXlTVw?oc=5",
-              "pubDate": "2026-10-24T04:00:45.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
           "relevance_score": 6,
-          "importance": 90,
-          "slug": "historic-german-site-burns-after-fire-incident"
+          "importance": 95,
+          "slug": "fire-breaks-out-at-historic-bavarian-mountain-retreat"
+        },
+        {
+          "representativeTitle": "Ukraine Restores Starlink Connection Following Kyiv's Statement",
+          "sources": [
+            "BBC World",
+            "France 24",
+            "Euronews"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Ukraine says Starlink connection 'now stable' after network limits",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-24T11:17:35.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Ukraine says Starlink and Starshield connection 'stable' again",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261024-ukraine-says-starlink-and-starshield-connection-stable-again",
+              "pubDate": "2026-10-24T09:48:23.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Ukraine restores 'stable' connection to Musk's Starlink, Kyiv says",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/24/ukraine-restores-stable-connection-to-musks-starlink-kyiv-says",
+              "pubDate": "2026-10-24T09:58:18.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 75,
+          "slug": "ukraine-restores-starlink-connection-following-kyivs-statement"
         },
         {
           "representativeTitle": "Macron arrives in France after terrorist attack.",
           "sources": [
             "BBC World",
-            "The Guardian",
             "France 24",
-            "SCMP"
+            "SCMP",
+            "Google World"
           ],
           "citationCount": 4,
           "rawArticles": [
@@ -85,24 +122,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Macron condemns racism after one killed in ‘terrorist’ shooting near Paris",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/23/macron-condemns-racism-after-one-killed-in-terrorist-shooting-near-paris",
-              "pubDate": "2026-10-23T21:44:50.000Z",
-              "tier": 1
-            },
-            {
               "title": "🔴 Live: France’s Macron arrives in Trappes after ‘racist terrorist attack’",
               "source": "France 24",
               "link": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
               "pubDate": "2026-10-23T17:08:51.000Z",
-              "tier": 1
-            },
-            {
-              "title": "🔴 Deadly shooting west of Paris ‘clearly terrorist’ attack, French interior minister says",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
-              "pubDate": "2026-10-23T14:43:33.000Z",
               "tier": 1
             },
             {
@@ -111,120 +134,21 @@ export const newsData = {
               "link": "https://www.scmp.com/news/world/europe/article/3371985/macron-condemns-racist-terrorist-attack-after-deadly-shooting-near-paris",
               "pubDate": "2026-10-23T18:13:09.000Z",
               "tier": 2
+            },
+            {
+              "title": "Macron says Paris suburb shooting that killed one person was terrorist and racist act",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRWRWa2ZyY2MySVU3NVpEWElTQXlveTJMWjlZaXBHTUphcTlTekxveFBQY2ppTFF4enFSWHRrZDVHTDlpMXYwVWlTZ1h3M2dkNEpfTFNmSWc2STFaUVpNRHhrU0hZVnVHSExaMDF0blpEYXNDaThEbWxKeV91UEdGVm1Uc25GSnR6U3R0QS0xbVpZLU9tWC1oN2N4ZkJsZEU?oc=5",
+              "pubDate": "2026-10-23T19:15:47.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 100,
+          "importance": 80,
           "slug": "macron-arrives-in-france-after-terrorist-attack"
-        },
-        {
-          "representativeTitle": "Trump Linked to Localized Russia-Ukraine Ceasefire Talks",
-          "sources": [
-            "BBC World",
-            "SCMP",
-            "IBTimes",
-            "Google World"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-24T07:17:44.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Melania Trump brokers ceasefire in Russian-occupied Ukraine city, White House says",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/russia-central-asia/article/3371983/melania-trump-brokers-ceasefire-russian-occupied-ukraine-city-white-house-says",
-              "pubDate": "2026-10-23T16:26:41.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Melania Trump Helps Broker a Localized Russia-Ukraine Ceasefire For Next Week, White House Says",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/melania-trump-helps-broker-localized-russia-ukraine-ceasefire-next-week-white-house-says-3808927",
-              "pubDate": "2026-10-23T14:41:42.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Russia, Ukraine agree to ceasefire in Ukrainian city hit by food crisis, brokered by Melania Trump",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTDVSRDZhSHhUZTNxWnBGcmRWMkUycnNfVVUzR1VLZmhoR3d6Nmp6N2NFUVFEVVZ4SldZMkhtUml5dklPaEhOdjFDWlhYS2tGS3cyS0NDak1nVXExWkltMS1EZ0pMZWI1TG1QSE4wUFBXNVd5bG9UTFJ4SGoyVE5ZLXY2elQ5d0E?oc=5",
-              "pubDate": "2026-10-23T16:49:35.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "trump-linked-to-localized-russia-ukraine-ceasefire-talks"
-        },
-        {
-          "representativeTitle": "Oil slick persists weeks after tanker strike off UAE.",
-          "sources": [
-            "BBC World",
-            "Al Jazeera"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Oil spill washes up on UAE beaches after tanker strike",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-23T15:30:47.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Massive oil slick seen weeks after tanker struck off UAE’s coast",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/24/massive-oil-slick-seen-weeks-after-tanker-struck-off-uaes-coast?traffic_source=rss",
-              "pubDate": "2026-10-24T04:48:40.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "oil-slick-persists-weeks-after-tanker-strike-off-uae"
-        },
-        {
-          "representativeTitle": "Typhoon Champi Strikes Taiwan; Devastation Reported Now",
-          "sources": [
-            "The Guardian",
-            "Al Jazeera"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
-              "pubDate": "2026-10-24T02:22:32.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Typhoon Champi hits Taiwan, killing one and injuring hundreds",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
-              "pubDate": "2026-10-23T23:10:54.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "typhoon-champi-strikes-taiwan-devastation-reported-now"
         },
         {
           "representativeTitle": "Gunmen Fire at Jordanian Church Funeral; Casualties Reported",
@@ -242,10 +166,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Seven killed and 40 injured after gunmen open fire at church funeral in Jordan",
+              "title": "Eight killed and 40 injured after gunmen open fire at church funeral in Jordan",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan",
-              "pubDate": "2026-10-24T01:57:47.000Z",
+              "pubDate": "2026-10-24T10:23:13.000Z",
               "tier": 1
             }
           ],
@@ -255,6 +179,142 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 70,
           "slug": "gunmen-fire-at-jordanian-church-funeral-casualties-reported"
+        },
+        {
+          "representativeTitle": "Kim Jong Un Travels to China Via New Bridge",
+          "sources": [
+            "The Guardian",
+            "Al Jazeera"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Kim Jong-un crosses over newly opened bridge into China",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/24/kim-jong-un-crosses-newly-opened-bridge-into-china",
+              "pubDate": "2026-10-24T09:34:40.000Z",
+              "tier": 1
+            },
+            {
+              "title": "North Korea’s Kim Jong Un visits China via newly opened bridge",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/24/north-koreas-kim-jong-un-arrives-in-china-south-korean-media-says?traffic_source=rss",
+              "pubDate": "2026-10-24T07:07:20.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "kim-jong-un-travels-to-china-via-new-bridge"
+        },
+        {
+          "representativeTitle": "Woman Dies Rescuing Sons Lost At Sea Bahamas",
+          "sources": [
+            "BBC World",
+            "The Guardian",
+            "Sky News"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "British woman dies after trying to rescue sons swept away at sea in the Bahamas",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cm86z5n0yvy6o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-24T09:45:47.000Z",
+              "tier": 1
+            },
+            {
+              "title": "British woman dies trying to save sons on Bahamas snorkelling trip",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
+              "pubDate": "2026-10-24T09:43:09.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Bahamas police investigate after British woman dies trying to rescue sons",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/bahamas-police-investigate-after-british-woman-dies-trying-to-rescue-sons-13602998",
+              "pubDate": "2026-10-24T09:25:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "woman-dies-rescuing-sons-lost-at-sea-bahamas"
+        },
+        {
+          "representativeTitle": "Report Claims Ceasefire Brokerage in Occupied Ukrainian City",
+          "sources": [
+            "BBC World",
+            "SCMP",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-24T07:17:44.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Melania Trump brokers ceasefire in Russian-occupied Ukraine city, White House says",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/russia-central-asia/article/3371983/melania-trump-brokers-ceasefire-russian-occupied-ukraine-city-white-house-says",
+              "pubDate": "2026-10-23T16:26:41.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Russia, Ukraine agree to ceasefire in Ukrainian city hit by food crisis, brokered by Melania Trump",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTDVSRDZhSHhUZTNxWnBGcmRWMkUycnNfVVUzR1VLZmhoR3d6Nmp6N2NFUVFEVVZ4SldZMkhtUml5dklPaEhOdjFDWlhYS2tGS3cyS0NDak1nVXExWkltMS1EZ0pMZWI1TG1QSE4wUFBXNVd5bG9UTFJ4SGoyVE5ZLXY2elQ5d0E?oc=5",
+              "pubDate": "2026-10-23T16:49:35.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 9,
+          "importance": 70,
+          "slug": "report-claims-ceasefire-brokerage-in-occupied-ukrainian-city"
+        },
+        {
+          "representativeTitle": "France Faces Protests Amid Heightened Security Alert Status",
+          "sources": [
+            "Al Jazeera",
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "France braces for another day of mass protests as security on high alert",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert?traffic_source=rss",
+              "pubDate": "2026-10-24T10:04:25.000Z",
+              "tier": 1
+            },
+            {
+              "title": "France braces for new protests",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/france-braces-for-new-protests",
+              "pubDate": "2026-10-24T11:36:24.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 60,
+          "slug": "france-faces-protests-amid-heightened-security-alert-status"
         },
         {
           "representativeTitle": "Trump Adjusts Tariffs on Select Canadian Goods Now",
@@ -295,44 +355,6 @@ export const newsData = {
           "slug": "trump-adjusts-tariffs-on-select-canadian-goods-now"
         },
         {
-          "representativeTitle": "Ebola Claims Second Life in Kenya; Health Alert Issued",
-          "sources": [
-            "BBC World",
-            "Al Jazeera",
-            "SCMP"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-24T00:05:43.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Kenya announces second Ebola death, says ‘no evidence’ of community spread",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/23/kenya-announces-second-ebola-death-says-no-evidence-of-community-spread?traffic_source=rss",
-              "pubDate": "2026-10-23T22:33:48.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Kenya reports second Ebola death, a close relative of first patient",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/africa/article/3371988/kenya-reports-second-ebola-death-close-relative-first-patient",
-              "pubDate": "2026-10-23T21:19:15.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 65,
-          "slug": "ebola-claims-second-life-in-kenya-health-alert-issued"
-        },
-        {
           "representativeTitle": "Israel launches operation in West Bank following casualties.",
           "sources": [
             "The Guardian",
@@ -363,86 +385,180 @@ export const newsData = {
           "slug": "israel-launches-operation-in-west-bank-following-casualties"
         },
         {
-          "representativeTitle": "Argentina drops probe into Milei over crypto fraud",
-          "sources": [
-            "BBC World",
-            "Al Jazeera"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Argentina drops investigation into President Milei over crypto fraud",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c64g1eplpvddo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-23T20:59:39.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Argentinian judge drops fraud investigation into Milei over crypto scandal",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/24/argentinian-judge-drops-fraud-investigation-into-milei-over-crypto-scandal?traffic_source=rss",
-              "pubDate": "2026-10-24T01:21:18.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "argentina-drops-probe-into-milei-over-crypto-fraud"
-        },
-        {
-          "representativeTitle": "Aid Cuts Threaten Starvation Among West Bank Palestinians",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Displaced West Bank Palestinians face growing hunger after UN cuts food aid",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/features/2026/10/24/displaced-west-bank-palestinians-face-growing-hunger-after-un-cuts-food-aid?traffic_source=rss",
-              "pubDate": "2026-10-24T07:09:55.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "aid-cuts-threaten-starvation-among-west-bank-palestinians"
-        },
-        {
-          "representativeTitle": "Paris Museums Close Amid Large Police Deployment Ahead",
+          "representativeTitle": "Protests escalate in France over far-right rally.",
           "sources": [
             "France 24",
-            "Google World"
+            "Euronews"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "French police deploy in large numbers, major Paris museums close ahead of new protests",
+              "title": "France: Thousands march in Orléans against National Rally congress",
               "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261024-french-police-deploy-in-big-numbers-and-paris-shuts-major-museums-ahead-of-new-protests",
-              "pubDate": "2026-10-24T05:27:48.000Z",
+              "link": "https://www.france24.com/en/video/20261024-france-thousands-march-in-orl%C3%A9ans-against-national-rally-congress",
+              "pubDate": "2026-10-24T11:45:20.000Z",
               "tier": 1
             },
             {
-              "title": "Paris shuts museums and police deploy in big numbers for new protests across France",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWFhXb1VmdWxKRzJmZnRpSGpJTk40b3JoTldmR0FjTW9nWWxibmNBOTJCN1NNa1IyenIycmtueTVnVHhaR19YOUU3TkE2ODBHRFFlRWdDYVZzVWY0MVlqV0dTOHlkaTdEbmxkdnFNMnJicVFjSkhYUVdOaGFYYU5jVEQ5VEhRUU5tWlJjZ1pzOE5GQQ?oc=5",
-              "pubDate": "2026-10-24T04:59:00.000Z",
+              "title": "France: March against National Rally in Orleans",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/france-march-against-national-rally-in-orleans",
+              "pubDate": "2026-10-24T10:30:02.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Tensions mount in France as thousands rally against Marine Le Pen’s National rally",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/24/thousands-protest-against-far-right-national-rally-congress-in-france",
+              "pubDate": "2026-10-24T11:35:25.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
+          "relevance_score": 6,
+          "importance": 60,
+          "slug": "protests-escalate-in-france-over-far-right-rally"
+        },
+        {
+          "representativeTitle": "Brazil Election Focus Shifts to Crime Concerns",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Could Lula Be on the Brink of Defeat in Brazil’s Election?",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/24/world/americas/lula-brazil-election-president.html",
+              "pubDate": "2026-10-24T09:02:26.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Why Brazil’s Election Could Come Down to Crime",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/video/world/americas/100000011222723/why-brazils-election-could-come-down-to-crime.html",
+              "pubDate": "2026-10-24T09:02:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "brazil-election-focus-shifts-to-crime-concerns"
+        },
+        {
+          "representativeTitle": "Gershkovich: Putin Seeks Terms, Not True Deal",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Gershkovich Says Putin Seeks His Terms, Not a Deal",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-24/gershkovich-says-putin-seeks-his-terms-not-a-deal-video",
+              "pubDate": "2026-10-24T11:54:12.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "gershkovich-putin-seeks-terms-not-true-deal"
+        },
+        {
+          "representativeTitle": "Iran Conflict Threatens Global Oil Market Stability Now",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Oil Markets Brace for Renewed Iran Fighting",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-24/oil-markets-brace-for-renewed-iran-fighting-video",
+              "pubDate": "2026-10-24T11:39:37.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "iran-conflict-threatens-global-oil-market-stability-now"
+        },
+        {
+          "representativeTitle": "US Targets Overthrow of Cuban Government Regime",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US seeks to topple Cuba's government",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/us-seeks-to-topple-cuba-s-government",
+              "pubDate": "2026-10-24T11:43:13.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
           "importance": 55,
-          "slug": "paris-museums-close-amid-large-police-deployment-ahead"
+          "slug": "us-targets-overthrow-of-cuban-government-regime"
+        },
+        {
+          "representativeTitle": "Ukraine Reports Lifting of Starlink Service Restrictions Now",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ukraine military says Starlink service restrictions have been removed",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/5b5592f4-c59d-4eb1-af78-078dc32fcab8",
+              "pubDate": "2026-10-24T10:20:39.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ukraine-reports-lifting-of-starlink-service-restrictions-now"
+        },
+        {
+          "representativeTitle": "Bolsonaro's potential successor sparks Brazilian political debate.",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The Other Bolsonaro Who Could Become Brazil’s Next President",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/24/world/americas/flavio-bolsonaro-brazil-election-president.html",
+              "pubDate": "2026-10-24T09:03:12.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "bolsonaros-potential-successor-sparks-brazilian-political-debate"
         },
         {
           "representativeTitle": "Officials Warn Iran Plans Attacks Against Americans",
@@ -465,6 +581,36 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 60,
           "slug": "officials-warn-iran-plans-attacks-against-americans"
+        },
+        {
+          "representativeTitle": "Ebola Claims Second Life in Kenya; Health Alert Issued",
+          "sources": [
+            "BBC World",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-24T09:46:53.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Kenya reports second Ebola death, a close relative of first patient",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/africa/article/3371988/kenya-reports-second-ebola-death-close-relative-first-patient",
+              "pubDate": "2026-10-23T21:19:15.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "ebola-claims-second-life-in-kenya-health-alert-issued"
         },
         {
           "representativeTitle": "Intelligence warns Iran plots against Americans in Middle East",
@@ -511,100 +657,56 @@ export const newsData = {
           "slug": "iran-plots-houthi-attacks-spur-us-departure-orders"
         },
         {
-          "representativeTitle": "Kim Jong Un Visits China Amid Diplomatic Speculation",
+          "representativeTitle": "Senator Urges Cuban Exiles Toward CIA Partnership",
           "sources": [
-            "Al Jazeera"
+            "Al Jazeera",
+            "Euronews"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "North Korea’s Kim Jong Un arrives in China, South Korean media say",
+              "title": "Rubio calls on Cubans to partner with CIA ‘to create positive change’",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/24/north-koreas-kim-jong-un-arrives-in-china-south-korean-media-says?traffic_source=rss",
-              "pubDate": "2026-10-24T07:07:20.000Z",
+              "link": "https://www.aljazeera.com/news/2026/10/24/rubio-calls-on-cubans-to-partner-with-cia-to-create-positive-change?traffic_source=rss",
+              "pubDate": "2026-10-24T08:28:24.000Z",
               "tier": 1
+            },
+            {
+              "title": "Rubio calls on Cubans seeking change to form 'discrete partnership' with CIA",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/24/rubio-calls-on-cubans-seeking-change-to-form-discrete-partnership-with-cia",
+              "pubDate": "2026-10-24T07:28:46.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "kim-jong-un-visits-china-amid-diplomatic-speculation"
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "senator-urges-cuban-exiles-toward-cia-partnership"
         },
         {
-          "representativeTitle": "Fake Video Sparks Outrage Against Spanish Politics",
+          "representativeTitle": "Protests Erupt in France Amid Milan Police Raids",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Opposition deepfake video of Spanish PM’s wife sparks outrage before election",
+              "title": "Protests begin in France, as Italian police raid homes in Milan ahead of demonstrations – Europe live",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election",
-              "pubDate": "2026-10-24T06:51:53.000Z",
+              "link": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
+              "pubDate": "2026-10-24T11:51:58.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "fake-video-sparks-outrage-against-spanish-politics"
-        },
-        {
-          "representativeTitle": "Global Security Challenges Amid Power Vacuum Concerns",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Keeping the world safe when no one is in charge",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/opinions/2026/10/24/keeping-the-world-safe-when-no-one-is-in-charge?traffic_source=rss",
-              "pubDate": "2026-10-24T06:45:18.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "global-security-challenges-amid-power-vacuum-concerns"
-        },
-        {
-          "representativeTitle": "Karak church shooting kills seven; dozens injured.",
-          "sources": [
-            "France 24",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Several killed, dozens wounded in Jordan church shooting",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20261023-several-killed-dozens-wounded-in-jordan-church-shooting",
-              "pubDate": "2026-10-23T14:16:29.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSGwzcE50YVZGam9UZjFMUGFMcUtuY053ZHFCaUVObkczcGRiRHgzWUZYU1JzLU5JaFpFZVQxcDIzUFZRRVRVNXBKWE1NeURrenBrQ29NU1NLWUM1eVdPZXViNFFUaXdQYWRXamZOcldVSTRVekpLYmlLRzBxTFF6bzMzSVE1aTYzUUdzOHh5dm9kOEVB0gGUAUFVX3lxTE1GQVlRWlhmWkI2ME5DQURXRGdjdUU5XzFZSWJWa1RHTmljQU1rMFRXOHl4cU1Ram9CMTU0bFhldnE2ck12N19HTzVzd1JPYW9vUkczVy0wbFdGdlBoYllyNlJmZUR4UzBIMkxTbkZVMVlNd29VS3k1eHpkY0NsOUZZQi1oc0JIRDdYblJlWnF0U2lmWDU?oc=5",
-              "pubDate": "2026-10-24T02:22:09.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
           "relevance_score": 7,
-          "importance": 55,
-          "slug": "karak-church-shooting-kills-seven-dozens-injured"
+          "importance": 50,
+          "slug": "protests-erupt-in-france-amid-milan-police-raids"
         },
         {
           "representativeTitle": "Russian Funding Links US LNG Project to Novatek",
@@ -629,17 +731,39 @@ export const newsData = {
           "slug": "russian-funding-links-us-lng-project-to-novatek"
         },
         {
-          "representativeTitle": "France faces unrest; further instability looms ahead.",
+          "representativeTitle": "US Pressures Mexico Over Security Gains Before Elections",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "U.S. Pressures Mexico to Deliver a Security Win Ahead of Midterm Elections",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/24/world/americas/us-mexico-security-cartels.html",
+              "pubDate": "2026-10-24T09:03:03.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "us-pressures-mexico-over-security-gains-before-elections"
+        },
+        {
+          "representativeTitle": "Ex-military chief challenges Israeli Prime Minister Netanyahu.",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "France is in revolt. But the real storm is yet to come",
+              "title": "Gadi Eisenkot, the Israeli ex-military chief challenging Netanyahu",
               "source": "FT International",
-              "link": "https://www.ft.com/content/62b83fcf-efad-418d-ba6a-569344fa7ecb",
-              "pubDate": "2026-10-24T04:00:23.000Z",
+              "link": "https://www.ft.com/content/5e9fc2a9-975b-46eb-ab5a-11615ca40459?syn-25a6b1a6=1",
+              "pubDate": "2026-10-24T04:00:33.000Z",
               "tier": 1
             }
           ],
@@ -648,7 +772,29 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "france-faces-unrest-further-instability-looms-ahead"
+          "slug": "ex-military-chief-challenges-israeli-prime-minister-netanyahu"
+        },
+        {
+          "representativeTitle": "Intelligence warns of advanced Iranian plots in Middle East",
+          "sources": [
+            "NBC News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Iranian plots to kill U.S. officials in Middle East have reached ‘advanced stages,’ intel memo warns",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/world/middle-east/iranian-plots-kill-us-officials-middle-east-reached-advanced-stages-in-rcna605360",
+              "pubDate": "2026-10-24T11:49:18.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "intelligence-warns-of-advanced-iranian-plots-in-middle-east"
         },
         {
           "representativeTitle": "Indonesia Cuts Gas Exports to Singapore Market",
@@ -673,48 +819,136 @@ export const newsData = {
           "slug": "indonesia-cuts-gas-exports-to-singapore-market"
         },
         {
-          "representativeTitle": "France Prepares For Protest Amid Recent Riots",
+          "representativeTitle": "Czech Republic passes media funding overhaul legislation.",
           "sources": [
-            "BBC World"
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "France prepares for day of protest a week after nationwide riots",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-24T06:19:46.000Z",
+              "title": "Czech Republic advances media funding overhaul despite criticism",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/24/czech-republic-advances-media-funding-overhaul-despite-criticism?traffic_source=rss",
+              "pubDate": "2026-10-24T11:50:32.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "czech-republic-passes-media-funding-overhaul-legislation"
+        },
+        {
+          "representativeTitle": "French Youth Protest Macron Demanding Concrete Action Now",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "France: Young demonstrators demand concrete action from Macron",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/france-young-demonstrators-demand-concrete-action-from-macron",
+              "pubDate": "2026-10-24T11:41:17.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "france-prepares-for-protest-amid-recent-riots"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "french-youth-protest-macron-demanding-concrete-action-now"
         },
         {
-          "representativeTitle": "Ambush Escalates Haiti's Anti-Gang Security Mission",
+          "representativeTitle": "Storm Boelo Brings High Winds and Heavy Rain to UK",
           "sources": [
-            "NY Times"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Ambush of Salvadoran Soldiers Escalates Haiti’s Anti-Gang Mission",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/23/world/americas/el-salvador-military-haiti-gangs.html",
-              "pubDate": "2026-10-23T21:29:29.000Z",
+              "title": "Storm Boelo to bring gusts of up to 80mph and heavy rain to parts of UK",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk",
+              "pubDate": "2026-10-24T11:24:19.000Z",
               "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "storm-boelo-brings-high-winds-and-heavy-rain-to-uk"
+        },
+        {
+          "representativeTitle": "Ebola Death Reported in Kenya; Uganda Restricts Travel",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Kenya Records Second Ebola Death as Uganda Restricts Transit",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-24/kenya-records-second-ebola-death-a-close-relative-of-first-case",
+              "pubDate": "2026-10-24T04:41:29.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "ebola-death-reported-in-kenya-uganda-restricts-travel"
+        },
+        {
+          "representativeTitle": "France faces governance challenges; instability predicted to worsen.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "France is looking ungovernable. And it’s going to get worse",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/62b83fcf-efad-418d-ba6a-569344fa7ecb",
+              "pubDate": "2026-10-24T04:00:23.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "france-faces-governance-challenges-instability-predicted-to-worsen"
+        },
+        {
+          "representativeTitle": "Shooting at Jordanian Church Kills Seven People",
+          "sources": [
+            "NPR"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
+              "pubDate": "2026-10-24T11:59:08.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "World",
-          "sentiment": -0.4,
+          "sentiment": -0.9,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "ambush-escalates-haitis-anti-gang-security-mission"
+          "importance": 45,
+          "slug": "shooting-at-jordanian-church-kills-seven-people"
         },
         {
           "representativeTitle": "White House claims truce brokered in Ukraine city.",
@@ -761,114 +995,26 @@ export const newsData = {
           "slug": "ceasefire-reached-near-occupied-ukrainian-town-today"
         },
         {
-          "representativeTitle": "COP17 Focuses on Armenia's Environmental Record Now",
+          "representativeTitle": "Typhoon Champi causes widespread power outages in Taiwan.",
           "sources": [
-            "Al Jazeera"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "COP17 puts Armenia’s environmental record in the spotlight",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/opinions/2026/10/24/cop17-puts-armenias-environmental-record-in-the-spotlight?traffic_source=rss",
-              "pubDate": "2026-10-24T06:52:41.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "cop17-focuses-on-armenias-environmental-record-now"
-        },
-        {
-          "representativeTitle": "Ukraine reports Starlink speeds remain throttled.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Ukraine says Starlink speeds still throttled",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/e67a3d0e-5893-45a5-b098-64a68a4ef032?syn-25a6b1a6=1",
-              "pubDate": "2026-10-23T19:14:52.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ukraine-reports-starlink-speeds-remain-throttled"
-        },
-        {
-          "representativeTitle": "Kenya Reports Second Ebola Death; Outbreak Continues",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Kenya Records Second Ebola Death, a Close Relative of First Case",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-24/kenya-records-second-ebola-death-a-close-relative-of-first-case",
-              "pubDate": "2026-10-24T04:41:29.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "kenya-reports-second-ebola-death-outbreak-continues"
-        },
-        {
-          "representativeTitle": "Water shortages plague Yemeni city under siege.",
-          "sources": [
-            "NPR"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Drinking water supplies dwindle in Yemeni city besieged by Houthi rebels",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/10/24/g-s1-149729/drinking-water-supplies-dwindle-in-yemeni-city-besieged-by-houthi-rebels",
-              "pubDate": "2026-10-24T07:04:13.000Z",
+              "title": "Typhoon Champi knocks out power to thousands in Taiwan",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-typhoon-champi-power-thousands-taiwan.html",
+              "pubDate": "2026-10-24T09:40:01.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Science",
           "aiCategory": "World",
           "sentiment": -0.9,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "water-shortages-plague-yemeni-city-under-siege"
-        },
-        {
-          "representativeTitle": "France readies police force amid expected protests.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "France prepares for protests with big police deployment",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
-              "pubDate": "2026-10-24T04:00:42.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "france-readies-police-force-amid-expected-protests"
+          "slug": "typhoon-champi-causes-widespread-power-outages-in-taiwan"
         },
         {
           "representativeTitle": "Critique Suggests Youth Exhibit Conformity and Denial",
@@ -893,28 +1039,6 @@ export const newsData = {
           "slug": "critique-suggests-youth-exhibit-conformity-and-denial"
         },
         {
-          "representativeTitle": "France avoids credit downgrade from Moody's rating agency.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "France avoids downgrade from Moody’s in boost for Macron’s government",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/840f9c94-cb41-4340-9fc4-41e76d908831?syn-25a6b1a6=1",
-              "pubDate": "2026-10-23T22:28:52.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "france-avoids-credit-downgrade-from-moodys-rating-agency"
-        },
-        {
           "representativeTitle": "Singapore Expands Haze Investigation to Local Firms",
           "sources": [
             "Bloomberg Markets"
@@ -937,50 +1061,6 @@ export const newsData = {
           "slug": "singapore-expands-haze-investigation-to-local-firms"
         },
         {
-          "representativeTitle": "Trump Rhetoric Revives Cuba Intervention Talk After Iran",
-          "sources": [
-            "ABC News US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump at South Florida rally revives the idea of military intervention in Cuba after Iran",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/trump-south-florida-rally-revives-idea-military-intervention-137524179",
-              "pubDate": "2026-10-24T05:01:25.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "trump-rhetoric-revives-cuba-intervention-talk-after-iran"
-        },
-        {
-          "representativeTitle": "Brazilian Left Faces Voter Erosion Amid Political Shifts",
-          "sources": [
-            "NY Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Where Brazil’s Left Is Losing Voters",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/video/world/americas/100000011230998/brazil-nanuque-election-shift.html",
-              "pubDate": "2026-10-23T19:26:21.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "brazilian-left-faces-voter-erosion-amid-political-shifts"
-        },
-        {
           "representativeTitle": "Trump Tariffs Cut Canada Following Republican Pressure",
           "sources": [
             "FT International"
@@ -1001,50 +1081,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "trump-tariffs-cut-canada-following-republican-pressure"
-        },
-        {
-          "representativeTitle": "Venezuela faces democracy tensions under US watch.",
-          "sources": [
-            "NY Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Under U.S. Watch, Venezuela Grapples With Tensions Over Democracy",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/23/us/politics/venezuela-trump-rubio-elections.html",
-              "pubDate": "2026-10-23T17:15:02.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "venezuela-faces-democracy-tensions-under-us-watch"
-        },
-        {
-          "representativeTitle": "Pará region opposes environmental policy, supports Flávio.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Cidade do Pará rebelada contra política ambiental abraça Flávio",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-23/cidade-do-para-abraca-flavio-video",
-              "pubDate": "2026-10-23T21:51:49.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "par-region-opposes-environmental-policy-supports-flvio"
         }
       ]
     },
@@ -1052,96 +1088,56 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Shooter's Father Expresses Grief Over Lost Children",
+          "representativeTitle": "Trump administration sues to challenge Alaska Senate election.",
           "sources": [
-            "BBC US",
-            "ABC News US",
-            "Google US",
             "BBC World",
-            "Sky News"
+            "France 24"
           ],
-          "citationCount": 5,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-23T22:47:07.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Man who killed school shooter says he regrets there were children he didn't save",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/oregon-man-killed-school-shooter-regrets-children-save-137521607",
-              "pubDate": "2026-10-23T20:14:11.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5heHVLNmZRUjFETkxwbXota0s3T3NDb05qMDBXcW9hMmZXUmpBa2NQTW5lX0gyMTVHbzhQaGktY012MWdCRXBWcG9xWC1Sc3BYQ09Oa3ozNTN6cWM?oc=5",
-              "pubDate": "2026-10-23T22:47:07.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Father who killed Oregon school shooter describes anguish over children he couldn't save",
+              "title": "Trump administration sues to block certification of upcoming Alaska election",
               "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-23T22:47:07.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/c678pv4krx37o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-23T18:49:14.000Z",
               "tier": 1
             },
             {
-              "title": "'I heard children pleading': Father reveals how he stopped Oregon school shooter",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/father-who-stopped-oregon-school-shooting-describes-how-he-killed-gunman-and-his-guilt-over-those-who-died-13602933",
-              "pubDate": "2026-10-24T01:50:00.000Z",
-              "tier": 2
+              "title": "Trump administration sues to block possible Democratic win in Alaska Senate race",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/americas/20261024-trump-administration-sues-to-block-possible-democratic-win-in-alaska-senate-race",
+              "pubDate": "2026-10-24T11:40:50.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 85,
-          "slug": "shooters-father-expresses-grief-over-lost-children"
-        },
-        {
-          "representativeTitle": "Ex-FBI Officials Charged With Lying to Congress",
-          "sources": [
-            "NPR",
-            "ABC News Top",
-            "Google US"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Ex-FBI employees charged with lying to Congress over Hunter Biden inquiries",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/10/23/g-s1-149534/justice-fbi-charged-hunter-biden-laptop",
-              "pubDate": "2026-10-23T15:51:04.000Z",
-              "tier": 2
-            },
-            {
-              "title": "2 ex-FBI officials charged with making false statements about Hunter Biden's laptop",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/wireStory/2-fbi-officials-charged-making-false-statements-hunter-137510537",
-              "pubDate": "2026-10-23T16:18:18.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Former FBI officials charged with lying to Congress about Hunter Biden laptop inquiry",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOc0pJTXdtekptdERlb0dybl9DMGZDa1doWllUS0Rsa0VXeVQ5S2JmRVhiNWNnTElhR3FsbHFRUFQ0c0hjcmUzNXM5aEZmQnd5RXJYSzI5bndraW1LV0RfUFBmU0NXeGx4cUZJb3hGZzRVY0w5anh2U2c3ZWxfRmVqTE1pcUNHZS1KMG1WbWFYRjQ0X3RacFBqUHFjQXJ5YUh0MGpSZmJrWE4zZnZzZnhrLWozTGpRUnZ6WklVbzdqNUx4SlhMbkpDX3dJZThhcXg3V2xjQVBJdHBrU2s?oc=5",
-              "pubDate": "2026-10-24T02:52:21.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ex-fbi-officials-charged-with-lying-to-congress"
+          "relevance_score": 7,
+          "importance": 65,
+          "slug": "trump-administration-sues-to-challenge-alaska-senate-election"
+        },
+        {
+          "representativeTitle": "Election Concerns Highlight Deepening American Political Divides",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Democracy by ZIP Code: Two Americas, one election",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/24/democracy-by-zip-code-two-americas-one-election?traffic_source=rss",
+              "pubDate": "2026-10-24T11:44:16.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "election-concerns-highlight-deepening-american-political-divides"
         },
         {
           "representativeTitle": "Severe Flooding Forces Rescues and Evacuations Regionally",
@@ -1182,6 +1178,28 @@ export const newsData = {
           "slug": "severe-flooding-forces-rescues-and-evacuations-regionally"
         },
         {
+          "representativeTitle": "AI Ads Raise Concerns in Midterm Election Cycle",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The rise of AI election ads in US midterms campaign",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/videos/cm62y59zw8zko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-24T05:03:44.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ai-ads-raise-concerns-in-midterm-election-cycle"
+        },
+        {
           "representativeTitle": "Injured Woman's Condition Improves After Severe Attack",
           "sources": [
             "BBC World",
@@ -1220,7 +1238,7 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "DOJ demands that California counties help identify noncitizen voters",
+              "title": "DOJ demands California counties help identify noncitizen voters",
               "source": "NBC News",
               "link": "https://www.nbcnews.com/politics/2026-election/doj-demands-california-counties-help-identify-noncitizen-voters-rcna605356",
               "pubDate": "2026-10-24T05:13:12.000Z",
@@ -1240,6 +1258,50 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 50,
           "slug": "justice-dept-demands-voter-id-checks-in-california-counties"
+        },
+        {
+          "representativeTitle": "Trump Challenges Alaska Senate Procedural Vote Outcome",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Donald Trump challenges Alaska Senate trace",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/donald-trump-challenges-alaska-senate-trace",
+              "pubDate": "2026-10-24T11:42:17.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "trump-challenges-alaska-senate-procedural-vote-outcome"
+        },
+        {
+          "representativeTitle": "Alberta Referendum Results Contrast With Political Future",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Alberta’s Referendum Was Clear, Unlike Danielle Smith’s Future",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/24/world/canada/alberta-referendum-separation-smith.html",
+              "pubDate": "2026-10-24T10:00:03.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "alberta-referendum-results-contrast-with-political-future"
         },
         {
           "representativeTitle": "Trump threatens election certification over Alaska results.",
@@ -1262,6 +1324,36 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "trump-threatens-election-certification-over-alaska-results"
+        },
+        {
+          "representativeTitle": "Ex-FBI Officials Charged With Lying to Congress",
+          "sources": [
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "2 ex-FBI officials charged with making false statements about Hunter Biden's laptop",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Politics/wireStory/2-fbi-officials-charged-making-false-statements-hunter-137510537",
+              "pubDate": "2026-10-23T16:18:18.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Former FBI officials charged with lying to Congress about Hunter Biden laptop inquiry",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOc0pJTXdtekptdERlb0dybl9DMGZDa1doWllUS0Rsa0VXeVQ5S2JmRVhiNWNnTElhR3FsbHFRUFQ0c0hjcmUzNXM5aEZmQnd5RXJYSzI5bndraW1LV0RfUFBmU0NXeGx4cUZJb3hGZzRVY0w5anh2U2c3ZWxfRmVqTE1pcUNHZS1KMG1WbWFYRjQ0X3RacFBqUHFjQXJ5YUh0MGpSZmJrWE4zZnZzZnhrLWozTGpRUnZ6WklVbzdqNUx4SlhMbkpDX3dJZThhcXg3V2xjQVBJdHBrU2s?oc=5",
+              "pubDate": "2026-10-24T02:52:21.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "ex-fbi-officials-charged-with-lying-to-congress"
         },
         {
           "representativeTitle": "DOJ sues to block Alaska Senate certification process.",
@@ -1294,114 +1386,26 @@ export const newsData = {
           "slug": "doj-sues-to-block-alaska-senate-certification-process"
         },
         {
-          "representativeTitle": "Tax Debate, Midterms, and AI Fuel Anxiety.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Wealth Tax Debate, Midterm Investing, AI Anxiety",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-23/bloomberg-money-10-23-2026-video",
-              "pubDate": "2026-10-23T22:47:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "tax-debate-midterms-and-ai-fuel-anxiety"
-        },
-        {
-          "representativeTitle": "Annual US Healthcare Plan Costs Exceed Twenty-Eight Thousand Dollars",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US Family Annual Healthcare Plan Now Costs More Than $28K",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-23/us-family-healthcare-plan-now-costs-more-than-28k-video",
-              "pubDate": "2026-10-23T21:58:51.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "annual-us-healthcare-plan-costs-exceed-twenty-eight-thousand-dollars"
-        },
-        {
-          "representativeTitle": "Norfolk Couple Wins Legal Battle Against Regulators",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘You need persistence’: the Norfolk couple who took on environmental regulators three times – and won",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/environment/2026/oct/24/norfolk-couple-who-took-on-environmental-regulators-three-times-and-won",
-              "pubDate": "2026-10-24T07:00:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "norfolk-couple-wins-legal-battle-against-regulators"
-        },
-        {
-          "representativeTitle": "Bodycam footage released after fatal police shooting.",
+          "representativeTitle": "Former Chief Calls Minneapolis Withdrawal a Surrender",
           "sources": [
             "BBC US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Bodycam clip released in fatal police shooting of Mississippi one-year-old",
+              "title": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
               "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/ck1wv9p0p9e3o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-23T18:45:47.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/ck20rery78lro?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-24T05:31:01.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "bodycam-footage-released-after-fatal-police-shooting"
-        },
-        {
-          "representativeTitle": "Legal battles loom over disputed election results.",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Campaigns, attorneys weigh in on Trump’s DOJ suit to block election results if Sen. Sullivan loses",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQVpTOGxnNWZyWU01Rm1iRUhIV1BCWWZUcEUyVy1ZbW11cXhoZTEwb2NpRWxtR1pXZFhYNDJHc014cHAwOFc2czBpaWcyR1RQUE4xeXF2bVdfdEtaVnBWZnQwb2MwQ1AwTjRUVkpuZTJFTGUwNmFPYXNxUjhiMGFUdjl0bjFaY3cwS3Z5ak43MFhZU2NIT0Nzelg0NWhTNFNqOHY4dG0yQXNLUkdldUhtbDdFT0hFNjdHTUVqZ1RubmNQM2d0ZFZDLVFrWUI1bUVManc?oc=5",
-              "pubDate": "2026-10-24T06:14:07.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
+          "relevance_score": 6,
           "importance": 45,
-          "slug": "legal-battles-loom-over-disputed-election-results"
+          "slug": "former-chief-calls-minneapolis-withdrawal-a-surrender"
         },
         {
           "representativeTitle": "FBI Arrests Man After Attacking ICE Facility",
@@ -1432,140 +1436,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 40,
           "slug": "fbi-arrests-man-after-attacking-ice-facility"
-        },
-        {
-          "representativeTitle": "Major Lab Giant Confirms Patient Data Breach Compromise",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Lab testing giant Quest Diagnostics confirms patients’ personal and health data was compromised during breach",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach/",
-              "pubDate": "2026-10-23T15:00:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "major-lab-giant-confirms-patient-data-breach-compromise"
-        },
-        {
-          "representativeTitle": "Ramaswamy defends ad featuring political figure's mother.",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Ramaswamy says ad featuring Acton’s mother had nothing to do with allegations of sexual abuse",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/video/ramaswamy-says-ad-featuring-acton-s-mother-had-nothing-to-do-with-allegations-of-sexual-abuse-272145989925",
-              "pubDate": "2026-10-23T23:50:26.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Vivek Ramaswamy defends ad featuring Amy Acton's estranged mother",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYVllZVYzS1A0MHc5Q0FheU5jd3FRcGg2S3N5dUlPZVgzVHFmblhqNGRfZ0xpNGViNWN1NExxNEdIVUdqWk1XRzVBLXN5RDBXbDdaSEd3NExsbTRISGRKV2lkT1JkTzVBSXZMQmM2cUVnRjJhLVZJZ2UtUUdFZHJudVRqekRlUzUwTU1yMkl1OXJpaEJkUWpTLVY3MXJDTlN1bDQ0QdIBqgFBVV95cUxQaUFzeGRJS3RaMXRidlRFVGM4ZDdLV3ptVXRDTzRTamVWQUZla0JpR1ZGQm5iVmlQWk50bkdpVWJHcHl1ZXFBVHhlcHliVkN2NUdEVHl1bzE0WHc2aEczT0hCRlRkWEVZOHBiTlgycUpkR0ZkVFh0YXdpWnFPaVU2Q0FaVUVzLUR0ZkFzZGFuX2VaN3ZEUnJFRW44UEdyRzZBRVR2UkRja2xFQQ?oc=5",
-              "pubDate": "2026-10-23T18:07:34.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "ramaswamy-defends-ad-featuring-political-figures-mother"
-        },
-        {
-          "representativeTitle": "Officer Who Killed Child Resigns After Shooting Incident",
-          "sources": [
-            "ABC News Top",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Mississippi officer who fatally shot 1-year-old resigns",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/mississippi-police-officer-fatally-shot-1-year-kohen/story?id=137514853",
-              "pubDate": "2026-10-23T21:23:53.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Police officer who shot and killed 1-year-old boy in Mississippi has resigned, Senatobia mayor says",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcWlvaks4NXljX3RhX2QxSGlPSFZSZ2V0dWZwdV9QZWhrbXhaRXh1WThQNXFpU0ZJZW53SDB6SlhINWVuTmdzeG83OERFTjBZclBEakZ2Mzc5LWZfelhZcVdmMUZvZUhWWkhwMkFMb0Z4elVYTEw4SVBfYkJOTnNpem9CNFZDbnd1R1VTejZmWlVfMnhGQUVQQjRKc3hUTmpM?oc=5",
-              "pubDate": "2026-10-23T21:11:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "officer-who-killed-child-resigns-after-shooting-incident"
-        },
-        {
-          "representativeTitle": "Omar's Name Confrontation Highlights Political Tensions",
-          "sources": [
-            "Fox News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Ilhan Omar doubles down on ‘real name’ when confronted at Mall of Somalia",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/ilhan-omar-doubles-down-real-name-confronted-mall-somalia",
-              "pubDate": "2026-10-23T20:56:08.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Ilhan Omar doubles down on ‘real name’ when confronted at Mall of Somalia",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeS1vSTg2SmI3bDBIMVNMY3Z5SXRSSmhEZEszbDlYSGtqWHN3S0xqdUs3TVVjWkhDRzd3Z2FReUpsY3VmY3lURUdxTXBmY0trX09Qd042WmZPemczSk91MC01T1FQd1hzeFJBWFRVZHYyOHJlTTU4ZWE1U2xjcTJWQ2VBU0lRNVEtTXI5SWxEUUxxTDVr0gGaAUFVX3lxTE5sWmtwMHQ1QnRndzBDRW1hcVo4QlJ4azlIdjhFYkxXQXF1YldjTXVBNWdOUUtob2ZHZW1mZTJUZXNiTVhuR25BMUZDVGhJaTQtaXR3ZjA4Q21vdEktem1HOGRqZXBnVE80eGpVQnY5TDEwYU1nb2hrdnBJSlpDT0llYUZZVkZDS1hFMExlOTM3TVBGeC1PZWlPeEE?oc=5",
-              "pubDate": "2026-10-23T20:56:08.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "omars-name-confrontation-highlights-political-tensions"
-        },
-        {
-          "representativeTitle": "Musk Donates Millions to Midterm Political Efforts Now",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Elon Musk Just Dumped Another $76 Million Into the Midterms",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/elon-musk-just-dumped-another-dollar76-million-into-the-midterms/",
-              "pubDate": "2026-10-23T16:12:49.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "musk-donates-millions-to-midterm-political-efforts-now"
         }
       ]
     },
@@ -1593,6 +1463,28 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "swiss-stocks-offer-stability-amid-ai-market-fears"
+        },
+        {
+          "representativeTitle": "AI Boom Drives Thematic ETF Investment Interest Now",
+          "sources": [
+            "MarketWatch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "AI fever ignites a boom in thematic ETFs as fund managers hunt for their next big hit",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/ai-fever-ignites-a-boom-in-thematic-etfs-as-fund-managers-hunt-for-their-next-big-hit-82d1566c?mod=mw_rss_topstories",
+              "pubDate": "2026-10-24T12:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "ai-boom-drives-thematic-etf-investment-interest-now"
         },
         {
           "representativeTitle": "Moderna Shares Plunge Amid Leaked Cancer Vaccine Data",
@@ -1643,6 +1535,72 @@ export const newsData = {
     {
       "name": "Business",
       "children": [
+        {
+          "representativeTitle": "Airlines scrapping planes raises industry questions.",
+          "sources": [
+            "CNBC Economy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Why popular airplanes are getting scrapped years early",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
+              "pubDate": "2026-10-24T12:00:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "airlines-scrapping-planes-raises-industry-questions"
+        },
+        {
+          "representativeTitle": "Barclays Links Fixed Income Growth to Equities Outlook",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Barclays ‘House of Fixed Income’ Pins Future Growth on Equities",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-24/barclays-house-of-fixed-income-pins-future-growth-on-equities",
+              "pubDate": "2026-10-24T11:02:54.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "barclays-links-fixed-income-growth-to-equities-outlook"
+        },
+        {
+          "representativeTitle": "Chefs move to Gulf states citing low taxes.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "No unions, low taxes: why some of Britain’s top chefs are opening outposts in Gulf states",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/food/2026/oct/24/uk-tsunami-taxes-top-london-restaurants-expand-abroad",
+              "pubDate": "2026-10-24T11:00:31.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "chefs-move-to-gulf-states-citing-low-taxes"
+        },
         {
           "representativeTitle": "Gas Venture Executives Quit Over Russian Control Claims",
           "sources": [
@@ -1696,48 +1654,26 @@ export const newsData = {
           "slug": "amex-cuts-five-percent-of-global-workforce-staff"
         },
         {
-          "representativeTitle": "Post Office Closures Impact Community Services Significantly",
+          "representativeTitle": "Degrees Remain Valuable Despite AI Advancements Now",
           "sources": [
-            "The Guardian"
+            "Fox News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "More than third of post offices in TG Jones stores to shut by early 2027",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/business/2026/oct/24/more-than-third-of-post-offices-in-tg-jones-stores-to-shut-by-early-2027",
-              "pubDate": "2026-10-24T06:00:27.000Z",
-              "tier": 1
+              "title": "AI hasn’t replaced humans. Employers are still betting on college degrees",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/opinion/ai-replaced-humans-employers-college-degrees",
+              "pubDate": "2026-10-24T12:00:52.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "post-office-closures-impact-community-services-significantly"
-        },
-        {
-          "representativeTitle": "Delayed infrastructure projects waste allocated public funds.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Most levelling up projects still unfinished years after funding allocated",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/oct/24/most-conservative-party-levelling-up-projects-unfinished-funding-allocation",
-              "pubDate": "2026-10-24T06:00:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "delayed-infrastructure-projects-waste-allocated-public-funds"
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "degrees-remain-valuable-despite-ai-advancements-now"
         },
         {
           "representativeTitle": "Regulator Orders Trainer to Refund Large Sum",
@@ -1762,48 +1698,26 @@ export const newsData = {
           "slug": "regulator-orders-trainer-to-refund-large-sum"
         },
         {
-          "representativeTitle": "Data Centers Face Downgrade Risk From Local Pushback",
+          "representativeTitle": "Mauritius Carrier Plans Narrow-Body Jet Fleet Overhaul",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Data Centers Face Downgrade Risk Amid Local Pushback, S&P Says",
+              "title": "Mauritius Carrier Looks at Narrow-Body Jets in Fleet Overhaul",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-23/data-centers-face-downgrade-risk-amid-local-pushback-s-p-says",
-              "pubDate": "2026-10-23T21:56:15.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-24/mauritius-carrier-looks-at-narrow-body-jets-in-fleet-overhaul",
+              "pubDate": "2026-10-24T08:59:12.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "data-centers-face-downgrade-risk-from-local-pushback"
-        },
-        {
-          "representativeTitle": "Partnership aims to boost early employee share sales.",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Carta and NewView partner, hoping to entice more startups to let employees sell shares early",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/",
-              "pubDate": "2026-10-23T19:25:13.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Business",
           "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "partnership-aims-to-boost-early-employee-share-sales"
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "mauritius-carrier-plans-narrow-body-jet-fleet-overhaul"
         },
         {
           "representativeTitle": "Falling Travel Demand Meets Soaring Airfare Costs",
@@ -1907,42 +1821,26 @@ export const newsData = {
           "slug": "spyware-founder-challenges-governments-on-tech-trust"
         },
         {
-          "representativeTitle": "Google considering using personal data for ads.",
+          "representativeTitle": "AI Exposes Software Flaws in PHP Vulnerabilities",
           "sources": [
-            "The Verge",
-            "Ars Technica",
-            "Google Tech"
+            "Wired"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-              "pubDate": "2026-10-23T16:52:55.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-              "source": "Ars Technica",
-              "link": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
-              "pubDate": "2026-10-23T20:19:55.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRnNjMDdtTUVobzdWa1U3VVllSTFMZGZEeEQxSjJ1X1lBMUlDcWhpTk9OdHZIak5mU0VNaG1Na2FBX0sxSW1FNmhHbFV0NjJuMUxsenpaREhJNjFvWlZaZDhKZVdGMWRlOUVnM3hGU2dTREN3c3pHYTllUkJuc0gzOFRNbnR5aHVob1RpVGV6eUdEb1VKdUdaVk5kc1I1VkxTY1VydldoZ2ZkUmFCM3kwa3JqY2o4cWM?oc=5",
-              "pubDate": "2026-10-23T20:19:55.000Z",
-              "tier": 2
+              "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+              "pubDate": "2026-10-24T12:00:00.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "google-considering-using-personal-data-for-ads"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ai-exposes-software-flaws-in-php-vulnerabilities"
         },
         {
           "representativeTitle": "TechCrunch Summit Features Founder Insights on Future Tech",
@@ -1972,6 +1870,28 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 55,
           "slug": "techcrunch-summit-features-founder-insights-on-future-tech"
+        },
+        {
+          "representativeTitle": "Meta Audio Glasses Receive Positive Product Review",
+          "sources": [
+            "Wired"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ray-Ban Meta Audio Review: The Best Smart Glasses",
+              "source": "Wired",
+              "link": "https://www.wired.com/review/ray-ban-meta-audio/",
+              "pubDate": "2026-10-24T09:15:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0.4,
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "meta-audio-glasses-receive-positive-product-review"
         },
         {
           "representativeTitle": "Startup Success Focuses Beyond Viral Marketing Hype",
@@ -2018,108 +1938,48 @@ export const newsData = {
           "slug": "vcs-question-startup-product-market-fit-viability"
         },
         {
-          "representativeTitle": "Xbox COO Departure Signals Internal Corporate Instability",
+          "representativeTitle": "Garmin Fitness Watches See Significant Price Drops Now",
           "sources": [
-            "The Verge",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Xbox’s first chief operating officer is out after just a few months",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
-              "pubDate": "2026-10-23T21:39:26.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Xbox’s first chief operating officer is out after just a few months",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQX0szaFBzRVNlcUw1c2t1aEZ5RFFIY000OGZpQWZocGpudDR4WlVRNmFtb1A0V29Jbk8xOUpreXlZckhSdXBoTEFUckh5WVZQOG9raV9DM0stQWdDNjN1RHFYcE8yQkM0QzYwQTMxczh1SExRY0pSS29zc3BidUlMV2lkM3RZUVJOdmZmODhrYnBMSm8?oc=5",
-              "pubDate": "2026-10-23T21:39:26.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "xbox-coo-departure-signals-internal-corporate-instability"
-        },
-        {
-          "representativeTitle": "Cloud Startup Daytona Reaches Billion Dollar Valuation Milestone",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
-              "pubDate": "2026-10-23T16:26:29.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "cloud-startup-daytona-reaches-billion-dollar-valuation-milestone"
-        },
-        {
-          "representativeTitle": "Anthropic backers' valuations scrutinized ahead of IPO.",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "What some of Anthropic’s backers are worth before its IPO",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
-              "pubDate": "2026-10-23T16:02:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "anthropic-backers-valuations-scrutinized-ahead-of-ipo"
-        },
-        {
-          "representativeTitle": "Analyzing New iPhone Duo Features and Implications",
-          "sources": [
-            "The Verge",
             "Wired"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "The iPhone Duo should have been an iPad",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
-              "pubDate": "2026-10-23T17:00:18.000Z",
-              "tier": 2
-            },
-            {
-              "title": "8 Things to Know About the iPhone Duo",
+              "title": "Garmin Vivoactive 5 and Forerunner 165 Are up to 30 Percent Off (2026)",
               "source": "Wired",
-              "link": "https://www.wired.com/story/8-things-to-know-about-the-apple-iphone-duo/",
-              "pubDate": "2026-10-23T09:15:00.000Z",
+              "link": "https://www.wired.com/story/garmin-deals-october-2026/",
+              "pubDate": "2026-10-24T09:06:00.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 40,
-          "slug": "analyzing-new-iphone-duo-features-and-implications"
+          "relevance_score": 3,
+          "importance": 30,
+          "slug": "garmin-fitness-watches-see-significant-price-drops-now"
+        },
+        {
+          "representativeTitle": "Nine New iPhone Apps Available For Users To Try",
+          "sources": [
+            "Wired"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "9 Unique Apps to Try on the iPhone Duo",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/unique-apps-to-try-on-the-iphone-duo/",
+              "pubDate": "2026-10-24T10:45:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 2,
+          "importance": 25,
+          "slug": "nine-new-iphone-apps-available-for-users-to-try"
         }
       ]
     },
@@ -2127,64 +1987,84 @@ export const newsData = {
       "name": "Science",
       "children": [
         {
-          "representativeTitle": "WHO Launches Ebola Vaccine Trial in Congo",
+          "representativeTitle": "New mRNA Vaccine Significantly Lowers Melanoma Recurrence Risk",
           "sources": [
-            "Al Jazeera",
-            "Le Monde"
+            "Wired"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "WHO announces start of Ebola vaccine clinical trial in DR Congo",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/24/who-announces-start-of-ebola-vaccine-clinical-trial-in-dr-congo?traffic_source=rss",
-              "pubDate": "2026-10-24T00:27:21.000Z",
+              "title": "New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/",
+              "pubDate": "2026-10-24T11:30:00.000Z",
               "tier": 1
             },
             {
-              "title": "Ebola vaccine trial begins in DR Congo",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/health/article/2026/10/24/ebola-vaccine-trial-begins-in-dr-congo_6762605_14.html",
-              "pubDate": "2026-10-23T22:50:32.000Z",
-              "tier": 2
+              "title": "New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/",
+              "pubDate": "2026-10-24T11:30:00.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Technology",
           "aiCategory": "Science",
           "sentiment": 0.4,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "who-launches-ebola-vaccine-trial-in-congo"
+          "importance": 65,
+          "slug": "new-mrna-vaccine-significantly-lowers-melanoma-recurrence-risk"
         },
         {
-          "representativeTitle": "Supervolcano Magma Refill Signals Potential Earth Threat",
+          "representativeTitle": "JWST Debate Focuses on Deep Space Observations",
           "sources": [
-            "Science Daily",
-            "Google Science"
+            "Wired"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "One of Earth’s most powerful supervolcanoes is refilling with fresh magma",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/10/261023003214.htm",
-              "pubDate": "2026-10-23T11:23:19.000Z",
-              "tier": 2
+              "title": "Inside the Supermassive Debate Over the James Webb Telescope’s ‘Little Red Dots’",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
+              "pubDate": "2026-10-24T09:00:00.000Z",
+              "tier": 1
             },
             {
-              "title": "One of Earth’s most powerful supervolcanoes is refilling with fresh magma",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoQW9aQi1BeDRkQ1NyNzRXaHl1ZWc1V01ESGhVUlBqRnFTc1l5RWQtZ3BkOF94R3phZXdNMFBnd1l2TFlYVEZZZ213TV83VHh3QVpHS1dCR2xwOGQxUXRHaHNhckpicWV6blpxYk85VQ?oc=5",
-              "pubDate": "2026-10-23T11:27:55.000Z",
+              "title": "Inside the Supermassive Debate Over the James Webb Telescope’s ‘Little Red Dots’",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
+              "pubDate": "2026-10-24T09:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Science",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "jwst-debate-focuses-on-deep-space-observations"
+        },
+        {
+          "representativeTitle": "NASA Targets Moon Base with Apollo-Era Urgency Now",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "NASA adopting Apollo's urgency to build a moon base and land astronauts within 2 years",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-nasa-apollo-urgency-moon-base.html",
+              "pubDate": "2026-10-24T09:28:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 60,
-          "slug": "supervolcano-magma-refill-signals-potential-earth-threat"
+          "sentiment": 0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "nasa-targets-moon-base-with-apollo-era-urgency-now"
         },
         {
           "representativeTitle": "Genetics research reveals rules governing rapid evolution.",
@@ -2209,28 +2089,6 @@ export const newsData = {
           "slug": "genetics-research-reveals-rules-governing-rapid-evolution"
         },
         {
-          "representativeTitle": "Fusion Company Secures Funding for Semiconductor Development",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Commonwealth Fusion Systems gets $85M to build better fusion-ready semiconductors",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/23/commonwealth-fusion-systems-gets-85m-to-build-better-fusion-ready-semiconductors/",
-              "pubDate": "2026-10-23T16:20:28.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "fusion-company-secures-funding-for-semiconductor-development"
-        },
-        {
           "representativeTitle": "Ancient Protein Reveals Early Human Practices in Africa",
           "sources": [
             "Google Science"
@@ -2251,96 +2109,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "ancient-protein-reveals-early-human-practices-in-africa"
-        },
-        {
-          "representativeTitle": "Mars Cloud Mystery Unveils Exotic Physics Secrets",
-          "sources": [
-            "Wired",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "The ‘Exotic Physics’ Behind a Mysterious 1,000-Mile Cloud on Mars",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/the-exotic-physics-behind-a-mysterious-1000-mile-cloud-on-mars/",
-              "pubDate": "2026-10-23T09:00:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "The ‘Exotic Physics’ Behind a Mysterious 1,000-Mile Cloud on Mars",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWE5idTBkeUl4V05tXzllMy1teFh5OUpOa2t6S0xKNWdDbGpBbHRQa3kzX2NadTNIWUlkNFBHQTl1UWVCeUliOWd2XzZaUldRd0tseVdPakZmdG5Qa1NYclRnYzdSQV83VkFlN0VIUEVlV0xIVlVWNnpsejFMYnA1T1JfYTZ3TWJjM1RvOUpzUHpYYjlSZUE?oc=5",
-              "pubDate": "2026-10-23T09:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "mars-cloud-mystery-unveils-exotic-physics-secrets"
-        },
-        {
-          "representativeTitle": "Fossil Evidence Reveals Ancient Denisovan Human Appearance",
-          "sources": [
-            "Phys.org",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Rare fossils reveal what ancient Denisovans may have looked like",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-rare-fossils-reveal-ancient-denisovans.html",
-              "pubDate": "2026-10-23T18:30:01.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Rare fossils reveal what ancient Denisovans may have looked like",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBkYnFJcmlsZUJaZUZzWFZYbTFNMGJzeGhSQk1Fd1VtYldCOW83Y2tlSGtlRHc5Tm11c2ZUMXlKQm84VDRuZnpmaFRZY0FaWU5NZWdxVHBrTjJPV3RtZnIxdnRiUVNuOXpmTkpkeG1UYk0tc3A1MUo0bEZ6ZmFoQQ?oc=5",
-              "pubDate": "2026-10-23T18:30:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "fossil-evidence-reveals-ancient-denisovan-human-appearance"
-        },
-        {
-          "representativeTitle": "Calculations suggest spinning black holes might split apart.",
-          "sources": [
-            "Phys.org",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Black holes spinning near maximum rate could split in two, calculations suggest",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-black-holes-maximum.html",
-              "pubDate": "2026-10-23T18:20:12.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Black holes spinning near maximum rate could split in two, calculations suggest",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LWHFhdHB5NENZeS04VVNZWDJYUTEyT2FDaGR5ek9Bd2VBUkxIQVRNelhVcnlZdkd1Q05BeEtTVVBHMTQyOXRhVzBDSm12YnM4MHhkNVhMQjhTOUlsNDlNVlgyOVM?oc=5",
-              "pubDate": "2026-10-23T18:20:12.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "calculations-suggest-spinning-black-holes-might-split-apart"
         }
       ]
     }
