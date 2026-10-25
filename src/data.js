@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-24T20:25:18.391Z",
+  "lastUpdated": "2026-10-25T00:29:56.149Z",
   "children": [
     {
       "name": "World",
@@ -11,8 +11,8 @@ export const newsData = {
             "BBC World",
             "The Guardian",
             "SCMP",
-            "Sky News",
-            "Euronews"
+            "Euronews",
+            "Google World"
           ],
           "citationCount": 5,
           "rawArticles": [
@@ -45,13 +45,6 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Suspect arrested after fire at Hitler's 'Eagle's Nest' retreat",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/suspect-arrested-after-fire-at-nazis-wwii-eagles-nest-mountain-retreat-13602938",
-              "pubDate": "2026-10-24T04:15:00.000Z",
-              "tier": 2
-            },
-            {
               "title": "Fire engulfs Hitler’s former Eagle’s Nest retreat in Germany",
               "source": "Euronews",
               "link": "https://www.euronews.com/video/2026/10/24/fire-engulfs-hitlers-former-eagles-nest-retreat-in-germany",
@@ -59,10 +52,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Arrest made after major fire breaks out at Hitler's 'Eagle's Nest' mountain retreat in Bavaria",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/24/arrest-made-after-major-fire-breaks-out-at-hitlers-eagles-nest-mountain-retreat-in-bavaria",
-              "pubDate": "2026-10-24T06:17:50.000Z",
+              "title": "A fire devastates the Eagle’s Nest retreat built for Hitler in Germany. A suspect is detained",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOX3ZLRkl4Y2Jla2ZCdW90UzZ1aHJuTl9xVjZpSGdQb2xzTDdsRFVEeURDTUJvaVQwbGU2bEFNQ21oMlJqMVFZYWc0dUZiQy1yMWQzUnBhWmZXNzFHWUdpVU1ndHdBTHZIUDFybWNZbGx2QWdRQ2VrNlgwZlMtNWxQc2dCa2U4bmxUdXl1bXhGaUlVZW5OU3RmZnFFVW5LdnpsQUdxZGZkTEpqMm54TVpB?oc=5",
+              "pubDate": "2026-10-24T20:23:00.000Z",
               "tier": 2
             }
           ],
@@ -74,7 +67,7 @@ export const newsData = {
           "slug": "fire-destroys-former-hitler-retreat-site-in-germany"
         },
         {
-          "representativeTitle": "Israeli Forces Demolish Homes, Displacing Palestinian Families",
+          "representativeTitle": "Israeli Forces Demolish Palestinian Homes in Hebron",
           "sources": [
             "BBC World",
             "The Guardian",
@@ -87,7 +80,7 @@ export const newsData = {
               "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-24T17:21:42.000Z",
+              "pubDate": "2026-10-24T23:02:06.000Z",
               "tier": 1
             },
             {
@@ -105,10 +98,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Palestinian families displaced as Israeli forces demolish Hebron homes, local officials say",
+              "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
               "source": "Google World",
               "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LMEdmMlZaSzhHcFgtaEdjZlNkQ29JdlE3VEVRaGxyd3J2ZktQeHF0NC1RRTlnaVJKTHNBdlZwNmRVM2JSZ3ljbzY5cmdDWVRBbXJZZXRZYzEweWs?oc=5",
-              "pubDate": "2026-10-24T17:21:42.000Z",
+              "pubDate": "2026-10-24T23:02:06.000Z",
               "tier": 2
             }
           ],
@@ -117,52 +110,45 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 9,
           "importance": 85,
-          "slug": "israeli-forces-demolish-homes-displacing-palestinian-families"
+          "slug": "israeli-forces-demolish-palestinian-homes-in-hebron"
         },
         {
-          "representativeTitle": "Mass Protests Erupt Across Europe's Major Cities",
+          "representativeTitle": "Houthi Attacks Target Saudi Arabia and Yemen",
           "sources": [
-            "The Guardian",
+            "Al Jazeera",
             "France 24",
-            "Euronews"
+            "Le Monde"
           ],
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Hundreds of thousands march in France as protests take place across Europe – Europe live",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
-              "pubDate": "2026-10-24T20:02:58.000Z",
+              "title": "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden?traffic_source=rss",
+              "pubDate": "2026-10-24T21:08:51.000Z",
               "tier": 1
             },
             {
-              "title": "Hundreds of thousands march across France in protests over schools and policing",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/24/hundreds-of-thousands-march-across-france-in-protests-over-schools-and-policing",
-              "pubDate": "2026-10-24T17:54:41.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Fresh protests across France",
+              "title": "Yemen's Houthi rebels claim new attacks on oil facilities and airports across Saudi Arabia",
               "source": "France 24",
-              "link": "https://www.france24.com/en/fresh-protests-across-france",
-              "pubDate": "2026-10-24T13:22:01.000Z",
+              "link": "https://www.france24.com/en/middle-east/20261024-yemen-s-houthi-rebels-claim-new-attacks-on-oil-facilities-and-airports-across-saudi-arabia",
+              "pubDate": "2026-10-24T17:50:25.000Z",
               "tier": 1
             },
             {
-              "title": "Madrid joins weekend of protests across Europe as thousands rally for better pensions",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/24/madrid-joins-weekend-of-protests-across-europe-as-thousands-rally-for-better-pensions",
-              "pubDate": "2026-10-24T12:07:26.000Z",
+              "title": "Yemen's Houthis launch new attacks on Saudi Arabia after accusing the kingdom of strikes that killed 17",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/25/yemen-s-houthis-launch-new-attacks-on-saudi-arabia-after-accusing-the-kingdom-of-strikes-that-killed-17_6763462_4.html",
+              "pubDate": "2026-10-24T23:34:34.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 80,
-          "slug": "mass-protests-erupt-across-europes-major-cities"
+          "relevance_score": 8,
+          "importance": 75,
+          "slug": "houthi-attacks-target-saudi-arabia-and-yemen"
         },
         {
           "representativeTitle": "Ukraine Restores Starlink Connection Following Kyiv's Statement",
@@ -184,7 +170,7 @@ export const newsData = {
               "title": "Ukraine’s military says Starlink satellite connection stable after recent restrictions",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions",
-              "pubDate": "2026-10-24T15:47:20.000Z",
+              "pubDate": "2026-10-24T21:25:58.000Z",
               "tier": 1
             },
             {
@@ -203,34 +189,93 @@ export const newsData = {
           "slug": "ukraine-restores-starlink-connection-following-kyivs-statement"
         },
         {
-          "representativeTitle": "West Bank Imposes Full Lockdown; Civil Life Halted",
+          "representativeTitle": "France Sees Mass Protests, Nearly One Thousand Arrested",
           "sources": [
-            "Al Jazeera",
+            "BBC World",
             "France 24"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Full lockdown of occupied West Bank begins",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/24/full-lockdown-of-occupied-west-bank-begins-2?traffic_source=rss",
-              "pubDate": "2026-10-24T14:24:19.000Z",
+              "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-24T21:09:27.000Z",
               "tier": 1
             },
             {
-              "title": "Israel begins demolitions in West Bank",
+              "title": "France: Clashes erupt as protests sweep across cities",
               "source": "France 24",
-              "link": "https://www.france24.com/en/israel-begins-demolitions-in-west-bank",
-              "pubDate": "2026-10-24T17:13:56.000Z",
+              "link": "https://www.france24.com/en/video/20261024-france-clashes-erupt-as-protests-sweep-across-cities",
+              "pubDate": "2026-10-24T17:50:19.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Fresh protests across France",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/fresh-protests-across-france",
+              "pubDate": "2026-10-24T13:22:01.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 9,
+          "relevance_score": 7,
           "importance": 75,
-          "slug": "west-bank-imposes-full-lockdown-civil-life-halted"
+          "slug": "france-sees-mass-protests-nearly-one-thousand-arrested"
+        },
+        {
+          "representativeTitle": "French Protests Erupt; Police Use Teargas in Cities",
+          "sources": [
+            "France 24",
+            "Euronews",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "France: Protests continue while police fire tear gas at demonstrators",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/france-protests-continue-while-police-fire-tear-gas-at-demonstrators",
+              "pubDate": "2026-10-24T17:10:42.000Z",
+              "tier": 1
+            },
+            {
+              "title": "🔴 French protests live: Police fire teargas at demonstrators in cities including Toulouse, Lyon",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/france/20261024-live-hundreds-of-protests-expected-in-france-amid-high-tensions-and-heavy-police-presence",
+              "pubDate": "2026-10-24T14:41:05.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Violent protests shake Tirana as police use tear gas and water cannons against demonstrators",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/24/tensions-rise-in-albania-as-protesters-burn-symbolic-pillows-outside-prime-ministers-offic",
+              "pubDate": "2026-10-24T12:56:38.000Z",
+              "tier": 2
+            },
+            {
+              "title": "French police fire tear gas to disperse protest in Lyon",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/video/2026/10/24/french-police-fire-tear-gas-to-disperse-protest-in-lyon",
+              "pubDate": "2026-10-24T11:03:35.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Violent protests shake Tirana as police use tear gas and water cannons against demonstrators",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcHh5UlhVbktTLXFoQ0NjSXdJRXJyQ2JRT3lrWThzWGFOd2FTQ2s1ZlE2cndoSzV6U21pZ2FCN0ZXSjBYX3htMk1aNk9Cd3hGMFNVRGphNnNGRXlsY0FsQU9xQlVNTHQ2bmhKS1dkOTFGX3pYWWZ3WTV2MTZ0WUpka0tWTUc1N2d6ckQtUFNiYzVKd2ZFWEFiLXlNVy1HV21oWEtlN0xiVFBxNFd5T1B5bHlwTkk1bGZiaFpReUxqQUlCMFdv?oc=5",
+              "pubDate": "2026-10-24T12:56:38.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 70,
+          "slug": "french-protests-erupt-police-use-teargas-in-cities"
         },
         {
           "representativeTitle": "Kim Jong Un visits China to open new bridge.",
@@ -271,13 +316,79 @@ export const newsData = {
           "slug": "kim-jong-un-visits-china-to-open-new-bridge"
         },
         {
+          "representativeTitle": "Israel launches operation in West Bank following casualties.",
+          "sources": [
+            "France 24",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Israel begins demolitions in West Bank",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/israel-begins-demolitions-in-west-bank",
+              "pubDate": "2026-10-24T17:13:56.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Israel launches major operation in West Bank after soldiers killed",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3372010/israel-launches-major-operation-west-bank-after-soldiers-killed",
+              "pubDate": "2026-10-24T07:00:20.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 65,
+          "slug": "israel-launches-operation-in-west-bank-following-casualties"
+        },
+        {
+          "representativeTitle": "Mass Protests Erupt Across Europe's Major Cities",
+          "sources": [
+            "The Guardian",
+            "Euronews"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Hundreds of thousands march in France as protests take place across Europe – as it happened",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
+              "pubDate": "2026-10-24T20:22:18.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Hundreds of thousands march across France in protests over schools and policing",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/24/hundreds-of-thousands-march-across-france-in-protests-over-schools-and-policing",
+              "pubDate": "2026-10-24T17:54:41.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Madrid joins weekend of protests across Europe as thousands rally for better pensions",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/24/madrid-joins-weekend-of-protests-across-europe-as-thousands-rally-for-better-pensions",
+              "pubDate": "2026-10-24T12:07:26.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 60,
+          "slug": "mass-protests-erupt-across-europes-major-cities"
+        },
+        {
           "representativeTitle": "Woman Dies Rescuing Sons Lost At Sea Bahamas",
           "sources": [
             "BBC World",
-            "The Guardian",
-            "Sky News"
+            "The Guardian"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "British woman dies after trying to rescue sons swept away at sea in the Bahamas",
@@ -292,65 +403,66 @@ export const newsData = {
               "link": "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
               "pubDate": "2026-10-24T09:43:09.000Z",
               "tier": 1
-            },
-            {
-              "title": "Bahamas police investigate after British woman dies trying to rescue sons",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/bahamas-police-investigate-after-british-woman-dies-trying-to-rescue-sons-13602998",
-              "pubDate": "2026-10-24T09:25:00.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
           "relevance_score": 6,
-          "importance": 65,
+          "importance": 60,
           "slug": "woman-dies-rescuing-sons-lost-at-sea-bahamas"
         },
         {
-          "representativeTitle": "French Protests Erupt; Police Use Teargas in Cities",
+          "representativeTitle": "Trump hints at potential Iran attack or deal.",
           "sources": [
-            "France 24",
-            "Euronews"
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
+              "pubDate": "2026-10-25T00:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "trump-hints-at-potential-iran-attack-or-deal"
+        },
+        {
+          "representativeTitle": "Israeli Protests Target Netanyahu Ahead of Election Day",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "France: Protests continue while police fire tear gas at demonstrators",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france-protests-continue-while-police-fire-tear-gas-at-demonstrators",
-              "pubDate": "2026-10-24T17:10:42.000Z",
+              "title": "Thousands of Israelis rally against Netanyahu gov’t days before election",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/24/thousands-of-israelis-rally-against-netanyahu-govt-days-before-election?traffic_source=rss",
+              "pubDate": "2026-10-24T19:11:48.000Z",
               "tier": 1
             },
             {
-              "title": "🔴 French protests live: Police fire teargas at demonstrators in cities including Toulouse, Lyon",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261024-live-hundreds-of-protests-expected-in-france-amid-high-tensions-and-heavy-police-presence",
-              "pubDate": "2026-10-24T14:41:05.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Violent protests shake Tirana as police use tear gas and water cannons against demonstrators",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/24/tensions-rise-in-albania-as-protesters-burn-symbolic-pillows-outside-prime-ministers-offic",
-              "pubDate": "2026-10-24T12:56:38.000Z",
-              "tier": 2
-            },
-            {
-              "title": "French police fire tear gas to disperse protest in Lyon",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/video/2026/10/24/french-police-fire-tear-gas-to-disperse-protest-in-lyon",
-              "pubDate": "2026-10-24T11:03:35.000Z",
+              "title": "Thousands of Israelis rally against Netanyahu gov’t days before election",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDJ1SGFoTUhVdlBmTFRuTFc2eEJiMlBKc3RiWmdpQVlWZzZOTEppNkpweDlxbEJfQm5hbUdfRFB2eTN1MlZEMk1wcGxJMWtyc1NYYW5VV1p3b0RaVDh4SlpnUC13T0Fna0ZRSUpnRlBOWDd2NHVDTEZtbzM4cXd2RU1QZVVHNTVXWnd2enphaUR3NkJoQ0x1c3J3SWdjc3FLRmhNYWY3aXFhNXFKbjFxUUhNSdIBuAFBVV95cUxNMVE4bWlIamtEdEtYR2R6YnR0VW9zOGRZb0lhaURxbUNiMEhzTVVTX0VTMU9Bdmd3TkZRQThuR001Tm5za1VZLTB2dkNRb05kNWFteWZfSkhFMXB5el9sY09IVmg5NjlvRnFNS3ZhcWhaRWhRT3Iwa1VVWVZqODNOeng0amxiSldFb1daOEpGWlVNWFVKaUNMNlAxRWZwM294djdDUHFsbG9oY3lPRXJUNFJlWTBlVGhh?oc=5",
+              "pubDate": "2026-10-24T19:15:46.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 65,
-          "slug": "french-protests-erupt-police-use-teargas-in-cities"
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "israeli-protests-target-netanyahu-ahead-of-election-day"
         },
         {
           "representativeTitle": "Thousands Protest Netanyahu in Tel Aviv Streets",
@@ -390,34 +502,34 @@ export const newsData = {
           "slug": "thousands-protest-netanyahu-in-tel-aviv-streets"
         },
         {
-          "representativeTitle": "Starlink Restored Amid Ongoing Attacks in Regions",
+          "representativeTitle": "Paris sees clashes between protesters and police forces.",
           "sources": [
-            "Al Jazeera",
-            "SCMP"
+            "BBC World",
+            "Euronews"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Ukraine says Starlink restored as attacks continue in Russia and Ukraine",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine?traffic_source=rss",
-              "pubDate": "2026-10-24T14:23:40.000Z",
+              "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-24T19:37:35.000Z",
               "tier": 1
             },
             {
-              "title": "Ukraine’s Starlink speeds restored after week of frontline disruption",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/russia-central-asia/article/3372040/ukraines-starlink-speeds-restored-after-week-frontline-disruption",
-              "pubDate": "2026-10-24T18:00:35.000Z",
+              "title": "Young protesters clash with police on Rome streets",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/video/2026/10/24/young-protesters-clash-with-police-on-rome-streets",
+              "pubDate": "2026-10-24T20:51:03.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "starlink-restored-amid-ongoing-attacks-in-regions"
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "paris-sees-clashes-between-protesters-and-police-forces"
         },
         {
           "representativeTitle": "Brazil Election Focus Shifts to Crime Concerns",
@@ -449,34 +561,77 @@ export const newsData = {
           "slug": "brazil-election-focus-shifts-to-crime-concerns"
         },
         {
-          "representativeTitle": "Paris sees clashes between police and protesters.",
+          "representativeTitle": "Haiti Remains Linked to Missing Salvadoran Soldiers",
           "sources": [
-            "BBC World",
-            "Euronews"
+            "NY Times"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-24T19:37:35.000Z",
+              "title": "Remains Found in Haiti Could Be Those of Missing Salvadoran Soldiers",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/24/world/americas/salvadoran-soldiers-haiti-dead.html",
+              "pubDate": "2026-10-25T00:06:30.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "haiti-remains-linked-to-missing-salvadoran-soldiers"
+        },
+        {
+          "representativeTitle": "Poll shows Lula and Bolsonaro remain competitive.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Brazil’s Lula, Bolsonaro draw thousands to election-eve rallies",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss",
+              "pubDate": "2026-10-24T21:39:29.000Z",
               "tier": 1
             },
             {
-              "title": "Clashes erupt between police and protesters in Paris with teargas and water cannons deployed",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/24/new-round-of-protests-underway-in-france-as-police-fire-tear-gas-at-demonstrators",
-              "pubDate": "2026-10-24T11:55:30.000Z",
-              "tier": 2
+              "title": "Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-and-bolsonaro-about-even-ahead-of-election-run-off-poll?traffic_source=rss",
+              "pubDate": "2026-10-24T15:36:38.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
+          "sentiment": 0,
+          "relevance_score": 6,
           "importance": 55,
-          "slug": "paris-sees-clashes-between-police-and-protesters"
+          "slug": "poll-shows-lula-and-bolsonaro-remain-competitive"
+        },
+        {
+          "representativeTitle": "Ukraine Reports Lifting of Starlink Service Restrictions Now",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ukraine military says Starlink service restrictions have been lifted",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/5b5592f4-c59d-4eb1-af78-078dc32fcab8",
+              "pubDate": "2026-10-24T21:30:37.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ukraine-reports-lifting-of-starlink-service-restrictions-now"
         },
         {
           "representativeTitle": "Officials Warn Iran Plans Attacks Against Americans",
@@ -545,6 +700,36 @@ export const newsData = {
           "slug": "memo-warns-iran-plots-attacks-against-americans"
         },
         {
+          "representativeTitle": "Starlink Access Restored in Ukraine Following Disruption",
+          "sources": [
+            "NPR",
+            "ABC News Top"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Ukraine says Starlink is back to normal after disruptions",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions",
+              "pubDate": "2026-10-24T17:54:25.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Starlink access in Ukraine fully back after disruption: Officials",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/International/ukraine-starlink-satellite-access-fully-back-after-weeklong/story?id=137538401",
+              "pubDate": "2026-10-24T23:53:13.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "starlink-access-restored-in-ukraine-following-disruption"
+        },
+        {
           "representativeTitle": "Protests Erupt in Paris Amid Civil Unrest Across France",
           "sources": [
             "France 24",
@@ -575,14 +760,14 @@ export const newsData = {
           "slug": "protests-erupt-in-paris-amid-civil-unrest-across-france"
         },
         {
-          "representativeTitle": "Israel Central Bank Blocks Crypto Sanctions Evasion Plan",
+          "representativeTitle": "Israeli Bank Blocks Crypto Sanctions Evasion Plan",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Israel central bank rejects Netanyahu’s plan to use crypto to evade sanctions",
+              "title": "Israeli central bank rejects Netanyahu’s plan to use crypto to evade sanctions",
               "source": "FT International",
               "link": "https://www.ft.com/content/39e475e7-0392-4856-aaaf-5ab3e35b8215?syn-25a6b1a6=1",
               "pubDate": "2026-10-24T19:19:48.000Z",
@@ -594,81 +779,29 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "israel-central-bank-blocks-crypto-sanctions-evasion-plan"
+          "slug": "israeli-bank-blocks-crypto-sanctions-evasion-plan"
         },
         {
-          "representativeTitle": "Israeli Protests Target Netanyahu Ahead of Election Day",
+          "representativeTitle": "Brazil Candidates Hold Rallies Before Runoff Vote",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Thousands of Israelis rally against Netanyahu gov’t days before election",
+              "title": "Brazil’s candidates hold final rallies before knife-edge run off",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/24/thousands-of-israelis-rally-against-netanyahu-govt-days-before-election?traffic_source=rss",
-              "pubDate": "2026-10-24T19:11:48.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/24/brazils-candidates-hold-final-rallies-before-knife-edge-run-off?traffic_source=rss",
+              "pubDate": "2026-10-24T21:36:23.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "israeli-protests-target-netanyahu-ahead-of-election-day"
-        },
-        {
-          "representativeTitle": "Gershkovich: Putin Seeks Terms, Not True Deal",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Gershkovich Says Putin Seeks His Terms, Not a Deal",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-24/gershkovich-says-putin-seeks-his-terms-not-a-deal-video",
-              "pubDate": "2026-10-24T11:54:12.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "gershkovich-putin-seeks-terms-not-true-deal"
-        },
-        {
-          "representativeTitle": "Nairobi Building Collapse: Two Rescued, Five Missing",
-          "sources": [
-            "BBC World",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Two rescued after Nairobi building collapse with five still missing",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c317kxyknwp2o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-24T17:25:46.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Two rescued after Nairobi building collapse with five still missing",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ldXlLZkdROVc0NW1YRGg3cEd3cHFwMy1IN1dBMEotV2pZUXdwZE1pNnpIS3RPeWF2V0pZcXFKOXRJSWpTYlgwdzRPOFU4aWFDNUxEejFHRl9oTWM?oc=5",
-              "pubDate": "2026-10-24T17:25:46.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 6,
+          "sentiment": 0,
+          "relevance_score": 7,
           "importance": 50,
-          "slug": "nairobi-building-collapse-two-rescued-five-missing"
+          "slug": "brazil-candidates-hold-rallies-before-runoff-vote"
         },
         {
           "representativeTitle": "Madrid Rally Supports Spain's State Pension Scheme Funding",
@@ -701,78 +834,99 @@ export const newsData = {
           "slug": "madrid-rally-supports-spains-state-pension-scheme-funding"
         },
         {
-          "representativeTitle": "Senator Urges Cubans to Work With CIA Now",
+          "representativeTitle": "Intelligence Warns of Advanced Iranian Plots Against Americans",
           "sources": [
-            "The Guardian",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Rubio tells Cubans ‘now is the time’ to act to see political change",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump",
-              "pubDate": "2026-10-24T00:30:02.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Rubio calls on Cubans seeking \"positive change\" to work with CIA: \"Now is the time\"",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LbUJ2ek1uS2tBbzBrbUpTaG1nZTZzbnJVZDlTRHZoVGpRUFZ3Z01ka2dJZWUwLXFnNmtZdnVLbzFqMHpZRjdnSTRrYVJRWnZGS19YLVUzamN2cVk4Qk9UQ2V1LWQ4Zw?oc=5",
-              "pubDate": "2026-10-24T15:49:32.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "senator-urges-cubans-to-work-with-cia-now"
-        },
-        {
-          "representativeTitle": "Paris Protests Continue Amid Increased Police Crackdowns",
-          "sources": [
-            "Al Jazeera"
+            "NBC News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Thousands join Paris protests as authorities clamp down on disorder",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/24/thousands-join-paris-protests-as-authorities-clamp-down-on-disorder?traffic_source=rss",
-              "pubDate": "2026-10-24T19:01:52.000Z",
-              "tier": 1
+              "title": "Iranian plots to kill Americans in Middle East have reached ‘advanced stages,’ intel memo warns",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/nightly-news/video/iranian-plots-to-kill-americans-in-middle-east-have-reached-advanced-stages-intel-memo-warns-272179269503",
+              "pubDate": "2026-10-24T22:39:32.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Iranian plots to kill U.S. officials in Middle East have reached ‘advanced stages,’ intel warns",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/world/middle-east/iranian-plots-kill-us-officials-middle-east-reached-advanced-stages-in-rcna605360",
+              "pubDate": "2026-10-24T11:49:18.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
+          "relevance_score": 9,
           "importance": 50,
-          "slug": "paris-protests-continue-amid-increased-police-crackdowns"
+          "slug": "intelligence-warns-of-advanced-iranian-plots-against-americans"
         },
         {
-          "representativeTitle": "Ukraine Reports Lifting of Starlink Service Restrictions Now",
+          "representativeTitle": "Mass protests continue across France's streets.",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Ukraine military says Starlink service restrictions have been lifted",
+              "title": "Hundreds of thousands protest in France in second weekend of mass demonstrations",
               "source": "FT International",
-              "link": "https://www.ft.com/content/5b5592f4-c59d-4eb1-af78-078dc32fcab8",
-              "pubDate": "2026-10-24T13:16:04.000Z",
+              "link": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
+              "pubDate": "2026-10-24T23:23:01.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ukraine-reports-lifting-of-starlink-service-restrictions-now"
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "mass-protests-continue-across-frances-streets"
+        },
+        {
+          "representativeTitle": "Trump Praises Melania Over Ceasefire Deal Progress",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss",
+              "pubDate": "2026-10-24T23:08:16.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "trump-praises-melania-over-ceasefire-deal-progress"
+        },
+        {
+          "representativeTitle": "Burnham seeks EU discussion on movement freedom.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Andy Burnham says he wants ‘honest discussion’ about freedom of movement with EU",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/2026/oct/25/andy-burnham-says-he-wants-honest-discussion-about-freedom-of-movement-with-eu",
+              "pubDate": "2026-10-24T23:07:12.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "burnham-seeks-eu-discussion-on-movement-freedom"
         },
         {
           "representativeTitle": "Russian Diesel Trade Faces Legal Ambiguity Concerns",
@@ -797,78 +951,92 @@ export const newsData = {
           "slug": "russian-diesel-trade-faces-legal-ambiguity-concerns"
         },
         {
-          "representativeTitle": "Trump Adjusts Tariffs on Select Canadian Goods Now",
+          "representativeTitle": "Storm Boelo Disrupts UK Travel and Local Events",
           "sources": [
-            "BBC US",
-            "NY Times"
+            "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-24T00:36:47.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Ahead of Tight Race, Trump Swaps Tariffs on Some Canadian Goods",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/23/business/trump-susan-collins-canada-tariffs.html",
-              "pubDate": "2026-10-23T20:29:40.000Z",
+              "title": "Storm Boelo: Travel disrupted and events cancelled as UK hit by wind and rain",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/uk-news/2026/oct/24/storm-boelo-travel-disrupted-events-cancelled-uk-hit-wind-and-rain",
+              "pubDate": "2026-10-24T22:40:08.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "storm-boelo-disrupts-uk-travel-and-local-events"
+        },
+        {
+          "representativeTitle": "Ten killed in eastern Nigeria gunmen attack.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Gunmen kill at least 10 people in eastern Nigeria, police say",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/24/gunmen-kill-at-least-10-people-in-eastern-nigeria-police-say?traffic_source=rss",
+              "pubDate": "2026-10-24T22:35:45.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ten-killed-in-eastern-nigeria-gunmen-attack"
+        },
+        {
+          "representativeTitle": "Saudi Arabia suggests Riyadh Airport reopening Sunday.",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Saudi Arabia Suggests Riyadh Airport May Reopen on Sunday",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-24/saudi-arabia-suggests-riyadh-airport-may-reopen-on-sunday",
+              "pubDate": "2026-10-24T21:27:28.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
           "aiCategory": "World",
           "sentiment": 0,
           "relevance_score": 6,
-          "importance": 60,
-          "slug": "trump-adjusts-tariffs-on-select-canadian-goods-now"
+          "importance": 45,
+          "slug": "saudi-arabia-suggests-riyadh-airport-reopening-sunday"
         },
         {
-          "representativeTitle": "Intelligence Chief Warns of Increased Iranian Threats",
+          "representativeTitle": "Starlink service reportedly functional again in Ukraine.",
           "sources": [
-            "BBC US"
+            "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran trying harder to target US personnel in Middle East, intelligence chief warns",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cmn8w1ddg2x9o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-24T07:36:02.000Z",
+              "title": "Starlink seems to be working normally again in Ukraine",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
+              "pubDate": "2026-10-24T20:46:34.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Technology",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "intelligence-chief-warns-of-increased-iranian-threats"
-        },
-        {
-          "representativeTitle": "Israeli demolition actions escalate tensions in West Bank",
-          "sources": [
-            "NBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Bulldozers tear down home as Israel cracks down in the West Bank",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/world/israel/bulldozers-tear-home-israel-cracks-west-bank-rcna605365",
-              "pubDate": "2026-10-24T20:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "israeli-demolition-actions-escalate-tensions-in-west-bank"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "starlink-service-reportedly-functional-again-in-ukraine"
         },
         {
           "representativeTitle": "Protests escalate in France over far-right rally.",
@@ -901,144 +1069,48 @@ export const newsData = {
           "slug": "protests-escalate-in-france-over-far-right-rally"
         },
         {
-          "representativeTitle": "Mass protests continue across France's streets.",
+          "representativeTitle": "Fighting intensifies over key strategic geographic areas.",
           "sources": [
-            "FT International"
+            "NBC News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Hundreds of thousands protest in France in second weekend of mass demonstrations",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
-              "pubDate": "2026-10-24T19:48:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "mass-protests-continue-across-frances-streets"
-        },
-        {
-          "representativeTitle": "Bolsonaro's potential successor sparks Brazilian political debate.",
-          "sources": [
-            "NY Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The Other Bolsonaro Who Could Become Brazil’s Next President",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/24/world/americas/flavio-bolsonaro-brazil-election-president.html",
-              "pubDate": "2026-10-24T09:03:13.000Z",
-              "tier": 1
+              "title": "All-out fight for critical battleground states ramps up",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/nightly-news/video/all-out-fight-for-critical-battleground-states-ramps-up-272177733901",
+              "pubDate": "2026-10-24T22:52:33.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "bolsonaros-potential-successor-sparks-brazilian-political-debate"
+          "importance": 45,
+          "slug": "fighting-intensifies-over-key-strategic-geographic-areas"
         },
         {
-          "representativeTitle": "Ebola Claims Second Life in Kenya; Health Alert Issued",
+          "representativeTitle": "Europe Sees Widespread Protests Across Multiple Nations",
           "sources": [
-            "BBC World",
-            "SCMP"
+            "NBC News"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-24T09:46:53.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Kenya reports second Ebola death, a close relative of first patient",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/africa/article/3371988/kenya-reports-second-ebola-death-close-relative-first-patient",
-              "pubDate": "2026-10-23T21:19:15.000Z",
+              "title": "Widespread protests expand across Europe as thousands take to streets",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/nightly-news/video/widespread-protests-expand-across-europe-as-thousands-take-to-streets-272178245507",
+              "pubDate": "2026-10-24T22:37:51.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "ebola-claims-second-life-in-kenya-health-alert-issued"
-        },
-        {
-          "representativeTitle": "France Monitors Aftermath of Civil Unrest Protests",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "France: Watching the Post-Riot Protests",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/spotlight/20261024-france-watching-the-post-riot-protests",
-              "pubDate": "2026-10-24T18:42:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 45,
-          "slug": "france-monitors-aftermath-of-civil-unrest-protests"
-        },
-        {
-          "representativeTitle": "Committee Chief Calls For Witkoff's Resignation Now",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "“Witkoff should step down” says Ukraine Committee Chief",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/spotlight/20261024-witkoff-should-step-down-says-ukraine-committee-chief",
-              "pubDate": "2026-10-24T18:37:05.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "committee-chief-calls-for-witkoffs-resignation-now"
-        },
-        {
-          "representativeTitle": "Thousands Rally in Albania Against Government Rule",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Thousands gather at new Albanian antigovernment rally",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/24/thousands-gather-at-new-albanian-antigovernment-rally?traffic_source=rss",
-              "pubDate": "2026-10-24T18:30:56.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "thousands-rally-in-albania-against-government-rule"
+          "slug": "europe-sees-widespread-protests-across-multiple-nations"
         },
         {
           "representativeTitle": "France Sees New Protests Following Week of Violence",
@@ -1061,28 +1133,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "france-sees-new-protests-following-week-of-violence"
-        },
-        {
-          "representativeTitle": "Advisor claims brokering truce between Putin and Zelenskyy.",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Melania Trump's advisor reveals how she bridged Putin, Zelenskyy to broker frontline Ukraine truce",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/media/melania-trumps-advisor-reveals-how-she-bridged-putin-zelenskyy-broker-front-line-ukraine-truce",
-              "pubDate": "2026-10-24T20:04:44.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "advisor-claims-brokering-truce-between-putin-and-zelenskyy"
         },
         {
           "representativeTitle": "French Protests Erupt; Gas Used Amid Rising Tensions",
@@ -1129,28 +1179,6 @@ export const newsData = {
           "slug": "venezuela-restarts-power-plant-with-chinese-assistance"
         },
         {
-          "representativeTitle": "US Pressures Mexico Over Security Gains Before Elections",
-          "sources": [
-            "NY Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "U.S. Pressures Mexico to Deliver a Security Win Ahead of Midterm Elections",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/24/world/americas/us-mexico-security-cartels.html",
-              "pubDate": "2026-10-24T09:03:03.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "us-pressures-mexico-over-security-gains-before-elections"
-        },
-        {
           "representativeTitle": "Ex-military chief challenges Israeli Prime Minister Netanyahu.",
           "sources": [
             "FT International"
@@ -1195,58 +1223,6 @@ export const newsData = {
           "slug": "examining-gershkovichs-detention-in-russian-prisons"
         },
         {
-          "representativeTitle": "Man Arrested Over Alleged Teen Suicide Attempt in Germany",
-          "sources": [
-            "ABC News Top",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "German teen arrested on suspicion of murder in connection with US girl's death",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/german-teen-arrested-suspicion-murder-connection-us-girls/story?id=137525700",
-              "pubDate": "2026-10-24T05:01:49.000Z",
-              "tier": 2
-            },
-            {
-              "title": "German man arrested for allegedly driving American teen girl to die by suicide, prosecutors say",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8xSWtuV0txemF6bDlxbTllcnVVYmZqWWFLVjN1OE4yRWdUTDM5VWxSSTdOZHpvU3RwNF9FS2hucjVSRm5YQnZVS2tFeDJKbnBkcHc3N1QtYzZrbmhSZVlwZnJ2TXRZZFFON3FSV2RoaFNQMjhf?oc=5",
-              "pubDate": "2026-10-24T17:26:19.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "man-arrested-over-alleged-teen-suicide-attempt-in-germany"
-        },
-        {
-          "representativeTitle": "Musk explains Starlink speed changes after Ukraine service.",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Musk says he was behind Starlink speed restriction after service in Ukraine is restored",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOGd5SnEtSm9xemFDa0s3MnhQUjFKOHZmcUxxcHVJU01FWk5aWWEzQWJKaG1DUGlqMFVIWVJrWXA0NUx6NTVQblRkb2lUNXJSWWdrd3A5VlNuc1BqbWM1TEdCZ0pJaHUwdWFpa1g3MVFkODMzWEZuS21WaGpqSldLTEZqT2xReDFQY1I3NEV6ZEZWTl9Pb2gzbG13?oc=5",
-              "pubDate": "2026-10-24T20:03:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "musk-explains-starlink-speed-changes-after-ukraine-service"
-        },
-        {
           "representativeTitle": "France faces governance challenges; instability predicted to worsen.",
           "sources": [
             "FT International"
@@ -1269,28 +1245,6 @@ export const newsData = {
           "slug": "france-faces-governance-challenges-instability-predicted-to-worsen"
         },
         {
-          "representativeTitle": "White House claims truce brokered in Ukraine city.",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-24T07:17:44.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "white-house-claims-truce-brokered-in-ukraine-city"
-        },
-        {
           "representativeTitle": "Critique Suggests Youth Exhibit Conformity and Denial",
           "sources": [
             "FT International"
@@ -1311,28 +1265,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "critique-suggests-youth-exhibit-conformity-and-denial"
-        },
-        {
-          "representativeTitle": "France avoids credit downgrade from Moody's rating agency.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "France avoids downgrade from Moody’s in boost for Macron’s government",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/840f9c94-cb41-4340-9fc4-41e76d908831?syn-25a6b1a6=1",
-              "pubDate": "2026-10-23T22:28:52.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "france-avoids-credit-downgrade-from-moodys-rating-agency"
         }
       ]
     },
@@ -1342,23 +1274,31 @@ export const newsData = {
         {
           "representativeTitle": "Obama and Trump Campaign Ahead of Midterms",
           "sources": [
-            "ABC News Top",
-            "Google US"
+            "BBC US",
+            "NBC News",
+            "ABC News Top"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
+            {
+              "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-24T23:46:55.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Obama describes Trump as an agent of ‘chaos and cruelty’ in midterm elections pitch",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/2026-election/obama-trump-chaos-cruelty-midterm-election-pitch-acton-ramaswamy-rcna605223",
+              "pubDate": "2026-10-24T20:44:55.000Z",
+              "tier": 2
+            },
             {
               "title": "WATCH:  Obama, Trump hit the campaign trail ahead of critical midterm elections",
               "source": "ABC News Top",
               "link": "https://abcnews.com/video/137540917/",
               "pubDate": "2026-10-24T19:01:37.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Obama Issues Searing Attacks on Trump, Ramaswamy in Return to Campaign Trail",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeUdkajdVaE81UXowdEROTVA0NFNwX0JJTUw1RHdaMmtHQURmRzZmNVN6dmplOGQtZ1BrQXNrb0JPZXdPZXQ3Qi1mNG9zb1RONC1DeDV0eXNzRmdDd2lpNkhjSHJLWDFrcFk5S0JLNHpKWVB5UnoyT2E3U2NPSHpKVXE5REdYdzlR?oc=5",
-              "pubDate": "2026-10-24T09:02:32.000Z",
               "tier": 2
             }
           ],
@@ -1366,29 +1306,29 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": 0,
           "relevance_score": 8,
-          "importance": 50,
+          "importance": 65,
           "slug": "obama-and-trump-campaign-ahead-of-midterms"
         },
         {
-          "representativeTitle": "Legal battles loom over disputed election results.",
+          "representativeTitle": "NY Archdiocese Settles Abuse Claims For $800 Million",
           "sources": [
-            "ABC News Top",
-            "Google US"
+            "NPR",
+            "ABC News US"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Trump told DOJ to sue to block Alaska Senate results if Republican narrowly loses",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/doj-preemptively-sues-block-alaska-senate-results-republican/story?id=137512876",
-              "pubDate": "2026-10-24T02:13:16.000Z",
+              "title": "Archdiocese of New York agrees to $800 million settlement over sexual abuse claims",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/24/nx-s1-6015522/new-york-archdiocese-settlement-agreement",
+              "pubDate": "2026-10-24T22:47:58.000Z",
               "tier": 2
             },
             {
-              "title": "Campaigns, attorneys weigh in on Trump’s DOJ suit to block election results if Sen. Sullivan loses",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQVpTOGxnNWZyWU01Rm1iRUhIV1BCWWZUcEUyVy1ZbW11cXhoZTEwb2NpRWxtR1pXZFhYNDJHc014cHAwOFc2czBpaWcyR1RQUE4xeXF2bVdfdEtaVnBWZnQwb2MwQ1AwTjRUVkpuZTJFTGUwNmFPYXNxUjhiMGFUdjl0bjFaY3cwS3Z5ak43MFhZU2NIT0Nzelg0NWhTNFNqOHY4dG0yQXNLUkdldUhtbDdFT0hFNjdHTUVqZ1RubmNQM2d0ZFZDLVFrWUI1bUVManc?oc=5",
-              "pubDate": "2026-10-24T17:30:36.000Z",
+              "title": "New York's archdiocese and survivors of clergy abuse agree to $800 million legal settlement",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/new-yorks-archdiocese-survivors-clergy-abuse-agree-800-137544598",
+              "pubDate": "2026-10-24T23:50:19.000Z",
               "tier": 2
             }
           ],
@@ -1397,7 +1337,73 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 50,
-          "slug": "legal-battles-loom-over-disputed-election-results"
+          "slug": "ny-archdiocese-settles-abuse-claims-for-800-million"
+        },
+        {
+          "representativeTitle": "Obama Rallies Michigan Crowd Supporting El-Sayed Candidate",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
+              "pubDate": "2026-10-25T00:14:30.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "obama-rallies-michigan-crowd-supporting-el-sayed-candidate"
+        },
+        {
+          "representativeTitle": "Trump Votes Midterm Despite Past Criticism of Voting",
+          "sources": [
+            "Google US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump, Who Once Called Early Voting ‘Ridiculous,’ Casts a Midterm Ballot",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQODV1QzViUjNrbThYSHFGSG5DcmhNdXFxeE16QkctVll2N282TkdRR1d1UzhKWDF2ODB4aE0zYmxKcDM2Mk9JRmFCUUozNmhSTHlNTTE2U0RxejY1NVNlTDRlU0VXd3YwZ2xVcXVCV0o1Y240X2VvSmhCcllYVGt4OVRUb0FUazJROEd1bGZyNUg?oc=5",
+              "pubDate": "2026-10-24T21:40:56.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "trump-votes-midterm-despite-past-criticism-of-voting"
+        },
+        {
+          "representativeTitle": "Senator Faces Scrutiny Over DEI Language Controversy",
+          "sources": [
+            "Fox News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Democratic senator accused of 'political malpractice' after job ad ignites firestorm over DEI language",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/media/democratic-senator-accused-political-malpractice-after-job-ad-ignites-firestorm-over-dei-language",
+              "pubDate": "2026-10-24T22:00:59.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "senator-faces-scrutiny-over-dei-language-controversy"
         },
         {
           "representativeTitle": "Injured Woman's Condition Improves After Severe Attack",
@@ -1501,6 +1507,36 @@ export const newsData = {
           "slug": "risky-debt-concerns-unnerve-markets-credit-weekly-reports"
         },
         {
+          "representativeTitle": "Quaker Oats Plant Experiences Fire and Explosion",
+          "sources": [
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Explosion and fire erupt at Quaker Oats plant in Cedar Rapids, Iowa; no injuries",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Business/wireStory/fire-breaks-quaker-oats-plant-cedar-rapids-iowa-137544207",
+              "pubDate": "2026-10-25T00:19:19.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Smoke near Quaker Oats in downtown Cedar Rapids",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMTV4UWVSTlZYSFJCUWhTOVU4MUxteVB5OGJFYm1fLUxjdkN3MlppUGpvMWx5NUxONzYycWNacm1LT2lWYlRRZkkyaXQxUVpTS1pFY04tZVlCb0lpNUJmQmRPVHZhTnlUVHVnOS1JcjVWNG5saGZvU0JNYmVROVBmZko3U0RMMFEzTko1S3cxak1UUHE1OXhzWkVVUEhobF82UlJDb1VsV1QtdDFRSWc?oc=5",
+              "pubDate": "2026-10-24T23:15:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "quaker-oats-plant-experiences-fire-and-explosion"
+        },
+        {
           "representativeTitle": "Instacart reportedly discusses sale with major rivals.",
           "sources": [
             "TechCrunch"
@@ -1589,6 +1625,28 @@ export const newsData = {
           "slug": "metals-traders-report-record-profits-amid-strong-demand"
         },
         {
+          "representativeTitle": "Energy Exec Quits Startup Over Russian Funding Allegations",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "U.S. Energy Execs Say They Quit Startup Over Undisclosed Russian Funding",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/energy-oil/u-s-energy-execs-say-they-quit-startup-over-undisclosed-russian-funding-b5eae266?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-10-24T22:24:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "energy-exec-quits-startup-over-russian-funding-allegations"
+        },
+        {
           "representativeTitle": "Dalmore Eyes Cinven Supplier JLA Acquisition Interest",
           "sources": [
             "Bloomberg Markets"
@@ -1655,28 +1713,6 @@ export const newsData = {
           "slug": "hr-adapts-workforce-strategies-amid-ai-shifts"
         },
         {
-          "representativeTitle": "Gas Venture Executives Quit Over Russian Control Claims",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US executives quit $25bn gas venture over claims of secret Russian control",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/e9cfbfbb-e65a-4303-aebb-20d59319ef1b?syn-25a6b1a6=1",
-              "pubDate": "2026-10-24T00:22:20.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "gas-venture-executives-quit-over-russian-control-claims"
-        },
-        {
           "representativeTitle": "Vultures Harvest Metals From Decommissioned Wind Turbines",
           "sources": [
             "WSJ US Business"
@@ -1726,6 +1762,36 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
+          "representativeTitle": "AI Failures Documented: Startups Struggle to Survive Now",
+          "sources": [
+            "TechCrunch",
+            "Google Tech"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+              "pubDate": "2026-10-24T19:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZmMyVGFaQTZkQWdEM2x5SjJTSXRLaVQ5VjNBcGhhU2w3WU9nb3FkZExxLXJ6d2JhY1drM0kwRkRRcHlFcEE5T1YwMkpWSjRzdjN0Znl5M203S2kzTHd4LS1yM2JCVEhpc1FBSm0zMmtYOFhyOFFpZkp6YnoxdjREZnhsRGthM21PeVAtS1Y3TWFfbHFhZnR1ZUVlMVBWSkkwOWF6emE1VDA5QmNXd2dr?oc=5",
+              "pubDate": "2026-10-24T19:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "ai-failures-documented-startups-struggle-to-survive-now"
+        },
+        {
           "representativeTitle": "Nine New iPhone Apps Available For Users To Try",
           "sources": [
             "TechCrunch",
@@ -1762,28 +1828,6 @@ export const newsData = {
           "relevance_score": 2,
           "importance": 45,
           "slug": "nine-new-iphone-apps-available-for-users-to-try"
-        },
-        {
-          "representativeTitle": "AI Failures Documented: Startups Struggle to Survive Now",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-              "pubDate": "2026-10-24T19:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ai-failures-documented-startups-struggle-to-survive-now"
         },
         {
           "representativeTitle": "Block releases new voice model with human quality.",
@@ -1902,66 +1946,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 40,
           "slug": "apple-to-unveil-new-product-line-at-event"
-        },
-        {
-          "representativeTitle": "MacBook criticized; Lenovo offers alternative design insights.",
-          "sources": [
-            "The Verge",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
-              "pubDate": "2026-10-24T14:00:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdmUxYy1sMTdoZEtXektnaEFmZ2ttZW0zTTFIT3ZXci00M0oxWGluUzZaQTlzRG5JUFM3Z0gzZ3JjbnFnS1hRamlkbTRZcVN4cUg1d1hteGswc3pORmRLZU81dHFzaGU5UG1oZkdLeVlKb2NOZnZGRDFwYWZ0R3VrM2tlckVpQ1pRekJhOUVkN2Nod0lhak1kcEtoeTMwbjFjelkyNA?oc=5",
-              "pubDate": "2026-10-24T14:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "macbook-criticized-lenovo-offers-alternative-design-insights"
-        },
-        {
-          "representativeTitle": "Browser Change Suggests Platform or Security Concerns",
-          "sources": [
-            "The Verge",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "It’s time to find a new browser",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/1018121/cod-4-claude-duet-wildwood-installer",
-              "pubDate": "2026-10-24T12:00:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "It’s time to find a new browser",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mRm1lSjNVTE9CbEVCeElnV0Zhdl9uZ3luVGtMU2JVQlVNTmRVMUxNMXZQNllteXd3T0F3MXFEUHJ4a01WeXo0UHVsWVR0eFBERHVpNnU0bzMwMmE5MjhrVEVncWNONGNlanJYNzUtOGRTU3FTNlBIMWNpeFFqdDQ?oc=5",
-              "pubDate": "2026-10-24T12:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 30,
-          "slug": "browser-change-suggests-platform-or-security-concerns"
         }
       ]
     },
@@ -1996,6 +1980,66 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 65,
           "slug": "new-mrna-vaccine-significantly-lowers-melanoma-recurrence-risk"
+        },
+        {
+          "representativeTitle": "Asteroid Samples Reveal Deep Secrets of Early Solar System",
+          "sources": [
+            "Science Daily",
+            "Google Science"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
+              "pubDate": "2026-10-24T12:50:06.000Z",
+              "tier": 2
+            },
+            {
+              "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwLWlya3JGbVY4b0cxYzZ4UjlxeVpfRGF2dS1LeTB1RU52eWZ5TmFjeWQ2cWJfTUQ1OHZGM3NJSmVPRkJZSWhKeW0xUlJObjEtZUFEU3hRRmVPUU8wUURwMDVZTFBmZnBsVlNPc2o1Yw?oc=5",
+              "pubDate": "2026-10-24T13:15:40.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "asteroid-samples-reveal-deep-secrets-of-early-solar-system"
+        },
+        {
+          "representativeTitle": "Language Bias Challenges Decades of Scientific Understanding Now",
+          "sources": [
+            "Science Daily",
+            "Google Science"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "A hidden bias in human language challenges 70 years of science",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/10/261023023738.htm",
+              "pubDate": "2026-10-24T13:01:22.000Z",
+              "tier": 2
+            },
+            {
+              "title": "A hidden bias in human language challenges 70 years of science",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qa2JBNkZzcHdPZVFiU3lyZjNtSGNXSl8wMXRwVDhjQ0VPNEVwRUNLZndCVU10WEtBV016cTJxa2o5Wk5qWjMxQUdlN1dNRm9RdEs5bDFfWkRpTncxb1NkdzVWWDBCRHFaa0k2ZDJMTQ?oc=5",
+              "pubDate": "2026-10-24T13:03:09.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "language-bias-challenges-decades-of-scientific-understanding-now"
         },
         {
           "representativeTitle": "JWST Debate Focuses on Deep Space Observations",
@@ -2042,72 +2086,6 @@ export const newsData = {
           "slug": "protein-pathway-aids-hiv-persistence-despite-treatment-efforts"
         },
         {
-          "representativeTitle": "Language Bias Challenges Decades of Scientific Understanding Now",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "A hidden bias in human language challenges 70 years of science",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/10/261023023738.htm",
-              "pubDate": "2026-10-24T13:01:22.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "language-bias-challenges-decades-of-scientific-understanding-now"
-        },
-        {
-          "representativeTitle": "Asteroid Samples Reveal Deep Secrets of Early Solar System",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
-              "pubDate": "2026-10-24T12:50:06.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "asteroid-samples-reveal-deep-secrets-of-early-solar-system"
-        },
-        {
-          "representativeTitle": "Scientists develop method to detect hypothetical life forms.",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Scientists propose a way to detect dangerous “mirror life” before it exists",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/10/261023023726.htm",
-              "pubDate": "2026-10-24T12:39:16.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "scientists-develop-method-to-detect-hypothetical-life-forms"
-        },
-        {
           "representativeTitle": "New Alloy Redesign Boosts Deep-Space Durability Potential",
           "sources": [
             "Phys.org"
@@ -2128,28 +2106,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "new-alloy-redesign-boosts-deep-space-durability-potential"
-        },
-        {
-          "representativeTitle": "Seabirds accumulate plastic pollution beyond diet.",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Seabird family tree predicts which species accumulate plastic better than diet, global analysis finds",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-seabird-family-tree-species-accumulate.html",
-              "pubDate": "2026-10-24T14:00:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "seabirds-accumulate-plastic-pollution-beyond-diet"
         },
         {
           "representativeTitle": "Medical Detective Inspired Sherlock Holmes's Genius",
