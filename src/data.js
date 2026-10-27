@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-27T01:52:51.104Z",
+  "lastUpdated": "2026-10-27T05:59:17.852Z",
   "children": [
     {
       "name": "World",
@@ -8,12 +8,20 @@ export const newsData = {
         {
           "representativeTitle": "Jordan Attacks Syria Following Church Attack Incident",
           "sources": [
+            "BBC World",
             "The Guardian",
             "Al Jazeera",
-            "France 24"
+            "SCMP"
           ],
-          "citationCount": 3,
+          "citationCount": 4,
           "rawArticles": [
+            {
+              "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-27T02:40:17.000Z",
+              "tier": 1
+            },
             {
               "title": "Jordan attacks militants in Syria in retaliation for last week’s church attack",
               "source": "The Guardian",
@@ -36,18 +44,25 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Jordan's strikes on Syria over church terror attack kill several civilians",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20261026-jordan-arrests-three-following-deadly-terror-attack-on-church",
-              "pubDate": "2026-10-26T15:12:52.000Z",
-              "tier": 1
+              "title": "Jordan strikes targets in Syria after deadly church attack",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3372253/jordan-strikes-targets-syria-after-deadly-church-attack",
+              "pubDate": "2026-10-27T05:22:48.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Jordan arrests 3 relatives over deadly church attack after shoot-out",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3372198/jordan-arrests-3-relatives-over-deadly-church-attack-after-shoot-out",
+              "pubDate": "2026-10-26T13:02:50.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 95,
+          "importance": 100,
           "slug": "jordan-attacks-syria-following-church-attack-incident"
         },
         {
@@ -55,9 +70,10 @@ export const newsData = {
           "sources": [
             "BBC World",
             "The Guardian",
-            "France 24"
+            "France 24",
+            "Google World"
           ],
-          "citationCount": 3,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
@@ -79,14 +95,51 @@ export const newsData = {
               "link": "https://www.france24.com/en/serbian-student-movement-eyes-power-after-election-triumph",
               "pubDate": "2026-10-26T19:48:10.000Z",
               "tier": 1
+            },
+            {
+              "title": "'The smell of freedom': Serbia's student movement celebrates election triumph",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYkNmcEdDMmREVlVmLWxjT05YTlZYbDF5RjQ3eW9JdE5CVWVTaG5GaWZnaHJsTE4tMm9nNWpyOTdSLVpvTDBQZ0RXc1lrUkZlRkNGZFQ3VWhOSFhlZ2hLMll4YklTeFkxR1NXU0RUeTFkLXRfdzFyVE55b0RvTS1hSmR3YVh3QQ?oc=5",
+              "pubDate": "2026-10-26T08:41:34.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 75,
+          "importance": 80,
           "slug": "veteran-ruler-loses-election-to-student-protest-movement"
+        },
+        {
+          "representativeTitle": "Israel holds election amid post-conflict political uncertainty.",
+          "sources": [
+            "Al Jazeera",
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Israel election 2026 live: Netanyahu faces tough test in high-stakes polls",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/10/27/israel-election-2026-live-netanyahu-faces-tough-test-in-high-stakes-polls?traffic_source=rss",
+              "pubDate": "2026-10-27T04:30:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Israel votes in first election since October 7 attack as Netanyahu faces crucial test",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/middle-east/20261027-israel-election-2026-netanyahu-october-7",
+              "pubDate": "2026-10-27T04:12:41.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 75,
+          "slug": "israel-holds-election-amid-post-conflict-political-uncertainty"
         },
         {
           "representativeTitle": "Brazilian Politician Ordered to Surrender Passports",
@@ -127,13 +180,79 @@ export const newsData = {
           "slug": "brazilian-politician-ordered-to-surrender-passports"
         },
         {
-          "representativeTitle": "Trump Claims Brazil Election Rigged Amid Acknowledgment",
+          "representativeTitle": "Opposition Leader Returns to Politically Charged Venezuela",
+          "sources": [
+            "BBC World",
+            "Time"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Opposition leader María Machado returns from exile to a Venezuela reshaped by Trump",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c8vgx3pvdeq1o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-27T00:31:11.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Crowds welcome Venezuela's María Machado after months in exile",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/cwgkv8kmly4zo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-26T09:31:12.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Exiled Opposition Leader María Corina Machado Returns to Venezuela",
+              "source": "Time",
+              "link": "https://time.com/article/2026/10/26/venezuela-maria-corina-machado-return-opposition-election-democracy/",
+              "pubDate": "2026-10-26T10:30:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "opposition-leader-returns-to-politically-charged-venezuela"
+        },
+        {
+          "representativeTitle": "Israel Election Underway Amid Historic National Vote",
+          "sources": [
+            "The Guardian",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Israel election live: polls open in most consequential vote in country’s history",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/oct/27/israel-elections-knesset-netanyahu-likud-eisenkot-gaza-latest-updates",
+              "pubDate": "2026-10-27T05:44:13.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Israel election live: polls open in most consequential vote in country’s history",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWDNDVFV4WXJIY1lXcTVhR0I0ZU5VNWNhaW8tSDR6WEFjV2Z2SUEtd2RKcFc0WXlqTXpYQkNmOHp0YktJVW1KY1FaYTFZTkdJNXBkZUNOU2FNV19NV29kbmhQdnI4MzY5UXhoZUY5SGNxSmRQYTVpQnRBcHJLQTRkX3loMnJ5VFpEZkVQTWdZNEZaYndXeXZmem5BR2owS05XYTcxdU5acnJya3l1aFpqeVktUEF5U2E3M3pCVQ?oc=5",
+              "pubDate": "2026-10-27T04:56:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "israel-election-underway-amid-historic-national-vote"
+        },
+        {
+          "representativeTitle": "Bolsonaro's Party Accepts Election Amid Trump Claims",
           "sources": [
             "Al Jazeera",
-            "SCMP",
             "Euronews"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Bolsonaro’s party accepts Brazil election after Trump calls vote ‘rigged’",
@@ -141,13 +260,6 @@ export const newsData = {
               "link": "https://www.aljazeera.com/news/2026/10/27/bolsonaros-party-accepts-result-after-trump-suggests-vote-was?traffic_source=rss",
               "pubDate": "2026-10-27T01:32:54.000Z",
               "tier": 1
-            },
-            {
-              "title": "Trump claims Brazil election ‘rigged’ as Bolsonaro’s party acknowledges result",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/americas/article/3372220/brazils-flavio-bolsonaro-says-he-will-lead-opposition-lula-government",
-              "pubDate": "2026-10-26T21:34:03.000Z",
-              "tier": 2
             },
             {
               "title": "Trump says Brazil election looked 'rigged' without giving evidence",
@@ -161,98 +273,8 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 65,
-          "slug": "trump-claims-brazil-election-rigged-amid-acknowledgment"
-        },
-        {
-          "representativeTitle": "WhatsApp Channel Linked to Turning Brazil Election Outcome",
-          "sources": [
-            "BBC World",
-            "Al Jazeera"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "How 'Lula's Army' WhatsApp channel helped turn Brazil election around",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cwz0vg4v3ndeo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-26T15:37:33.000Z",
-              "tier": 1
-            },
-            {
-              "title": "How a WhatsApp channel helped Lula win Brazil’s election",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/brazil-lula-victory-whatsapp-campaign-janones?traffic_source=rss",
-              "pubDate": "2026-10-26T20:20:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "whatsapp-channel-linked-to-turning-brazil-election-outcome"
-        },
-        {
-          "representativeTitle": "Lula's political victory over Bolsonaro reported.",
-          "sources": [
-            "BBC World",
-            "The Guardian"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Watch: How President Lula turned it around to beat Flávio Bolsonaro",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/cmp8g0x4l11yo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-26T02:53:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "How Lula beat far-right Bolsonaro in Brazil – The Latest",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/news/audio/2026/oct/26/how-lula-beat-far-right-bolsonaro-in-brazil-the-latest",
-              "pubDate": "2026-10-26T17:38:16.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "lulas-political-victory-over-bolsonaro-reported"
-        },
-        {
-          "representativeTitle": "Netanyahu Pushes Iran Attack Amid Israeli Election Tension",
-          "sources": [
-            "The Guardian",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Netanyahu reportedly pressured military to attack Iran in run-up to election",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/26/netanyahu-reportedly-pressured-israel-military-attack-iran-runup-to-election",
-              "pubDate": "2026-10-26T19:21:36.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Netanyahu Pushed for Attack on Iran Ahead of Israeli Election, Officials Say",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMERWcXFaZ1BsZ3FLanZOZHo1QVowcEtkb0VZTkE1dkF6cmktY3pwUVBYZ2FRTkVOaWpwMTZqbDZmNU15clM1MENCVU5OWWF6YlBYU1JUUUZiQ005VWhZZkxtczA1S1hDc0FFME9heGxMUFhUalJpUHV0X3Z6QjRoUXJyNHg3WERCVDVMa2hKTS0?oc=5",
-              "pubDate": "2026-10-26T22:44:39.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 65,
-          "slug": "netanyahu-pushes-iran-attack-amid-israeli-election-tension"
+          "importance": 60,
+          "slug": "bolsonaros-party-accepts-election-amid-trump-claims"
         },
         {
           "representativeTitle": "Netanyahu links Trump backing to Iran conflict.",
@@ -285,7 +307,37 @@ export const newsData = {
           "slug": "netanyahu-links-trump-backing-to-iran-conflict"
         },
         {
-          "representativeTitle": "Lula Wins Brazilian Presidency, Signaling Political Shift",
+          "representativeTitle": "Trump Claims Brazil Election Rigged Amid Lula Win",
+          "sources": [
+            "The Guardian",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Brazil runoff as it happened: world leaders congratulate Lula on historic election win as Bolsonaro refuses to concede",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
+              "pubDate": "2026-10-26T17:10:31.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump claims Brazil election ‘rigged’ as Bolsonaro’s party acknowledges Lula win",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/americas/article/3372220/brazils-flavio-bolsonaro-says-he-will-lead-opposition-lula-government",
+              "pubDate": "2026-10-26T21:34:03.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "trump-claims-brazil-election-rigged-amid-lula-win"
+        },
+        {
+          "representativeTitle": "Lula Wins Brazilian Presidency, Shifts Regional Politics",
           "sources": [
             "NY Times"
           ],
@@ -311,97 +363,198 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 65,
-          "slug": "lula-wins-brazilian-presidency-signaling-political-shift"
+          "slug": "lula-wins-brazilian-presidency-shifts-regional-politics"
         },
         {
-          "representativeTitle": "Trump's 9/11 Reference Sparks Controversy in El-Sayed",
+          "representativeTitle": "Australian Politics: Coalition Challenges Labor on Grants",
           "sources": [
-            "BBC US",
-            "Google US"
+            "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump faces backlash after invoking 9/11 in verbal assault on El-Sayed",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c3rryxlkq5qro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-26T20:41:43.000Z",
+              "title": "Australian politics live: Coalition tells Albanese to ‘stop the spin’ on $6m golf grant; Labor promises ‘swift response’ on MP safety",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/live/2026/oct/27/one-nation-pauline-hanson-independent-jacqui-lambie-labor-anthony-albanese-coalition-ntwnfb",
+              "pubDate": "2026-10-27T05:46:07.000Z",
               "tier": 1
             },
             {
-              "title": "Backlash after Trump invokes 9/11 in attack on El-Sayed",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GWGlxNi1aZnlrRTRJZU9Nbkd5SU1wRV9mV1N4Q2FOakxuV2pNdFNKejQ3RGk0ekdvUnpRQ2hEU0VvajVucG96cmhDUFptdlQzcDNMVWNYZzZtUHM?oc=5",
-              "pubDate": "2026-10-26T20:41:43.000Z",
-              "tier": 2
+              "title": "Albanese promises ‘swift response’ on MP safety as he mulls panic buttons for politicians",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/oct/27/albanese-promises-swift-response-on-mp-safety-as-he-mulls-panic-buttons-for-politicians-ntwnfb",
+              "pubDate": "2026-10-27T05:19:39.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "australian-politics-coalition-challenges-labor-on-grants"
+        },
+        {
+          "representativeTitle": "Brazil's Market Turmoil Puts Lula's Economy Under Strain",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Lula faces a fiscal reckoning after Brazil’s market rout",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/0231b234-14dc-4ff0-8263-e1063b0a25d5?syn-25a6b1a6=1",
+              "pubDate": "2026-10-27T05:00:28.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "trumps-911-reference-sparks-controversy-in-el-sayed"
+          "importance": 55,
+          "slug": "brazils-market-turmoil-puts-lulas-economy-under-strain"
         },
         {
-          "representativeTitle": "Iran tensions rise amid talks skepticism and fire.",
+          "representativeTitle": "Economic Insecurity Threatens Political Stability Globally Now",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Beware the political cost of economic insecurity",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/4c7afa74-96a0-4064-879d-7d2620585608",
+              "pubDate": "2026-10-27T05:00:18.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "economic-insecurity-threatens-political-stability-globally-now"
+        },
+        {
+          "representativeTitle": "Investment Firm Joins Saudi Consortium Amid Houthi Attacks",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Investcorp Joins Consortium for Saudi Firm Even as Houthi Attacks Intensify",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-27/investcorp-joins-consortium-for-saudi-firm-even-as-houthi-attacks-intensify",
+              "pubDate": "2026-10-27T05:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "investment-firm-joins-saudi-consortium-amid-houthi-attacks"
+        },
+        {
+          "representativeTitle": "Iran, Saudi, Turkiye, Pakistan Plan Further Talks",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran war live: Iran says US ‘not serious’ about talks; ship ablaze off Iraq",
+              "title": "Iran, Saudi, Turkiye and Pakistan agree to more talks amid Houthi attacks",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-iran-says-us-not-serious-on-talks-ship-on-fire-off-iraq?traffic_source=rss",
-              "pubDate": "2026-10-27T00:00:00.000Z",
+              "link": "https://www.aljazeera.com/news/2026/10/27/iran-saudi-turkiye-and-pakistan-agree-to-more-talks-amid-houthi-attacks?traffic_source=rss",
+              "pubDate": "2026-10-27T04:54:26.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "iran-tensions-rise-amid-talks-skepticism-and-fire"
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "iran-saudi-turkiye-pakistan-plan-further-talks"
         },
         {
-          "representativeTitle": "Jordan raids suspects after church attack; arrests made.",
+          "representativeTitle": "Drilling Platform Sinks Off Gabon; People Missing",
           "sources": [
-            "Al Jazeera",
-            "SCMP",
-            "Google World"
+            "Al Jazeera"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Jordan arrests three suspects over deadly church attack",
+              "title": "People missing after massive drilling platform sinks off Gabon",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jordan-arrests-three-suspects-over-deadly-church-attack?traffic_source=rss",
-              "pubDate": "2026-10-26T19:25:53.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/27/people-missing-after-massive-drilling-platform-sinks-off-gabon?traffic_source=rss",
+              "pubDate": "2026-10-27T04:45:16.000Z",
               "tier": 1
-            },
-            {
-              "title": "Jordan arrests 3 relatives over deadly church attack after shoot-out",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/middle-east/article/3372198/jordan-arrests-3-relatives-over-deadly-church-attack-after-shoot-out",
-              "pubDate": "2026-10-26T13:02:50.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Jordan arrests three suspects over church attack in dawn raid: What to know",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYVVyZ2g4M3hpMUxPYlFfOEdOVFp1NTYwc3RDTjVaSVEtdnJZMkFUbGdITTdvN0VSTzBVc3oweU11VE9DTk9jUmR0VmR4T2Y5YnI5bS1IOHFscG1ITkYtc25aaDNUNU9xamtYSml4bjlLMlNtOWZya3VlZGF3UHhfR3hSLVdtWU53OUJ6dnJxeDVkZE5XT2htSjdTcUpqdzJnSmhER3VxVVRqVFl0eVNIVEZNelRzX03SAbwBQVVfeXFMUF9DbXEzVjB0RTBUdEtoMmlkRmdoOWhxQTVsVkRrRzdsQkNUQ3EtOTkyS3VoODluM0g1VnlqdmFJWVYtVm9lTWRLU1h5dXFzRHh2RnlmbzFqVVUwX2N1R1pJdkE2aGR0akRBc2pRblZEVEtMOWJ4ajYyN2FYZVhFWm9WM0tNSHFtSGxCeFJMMThZTGs1MVo4UzJTbjNZR1JlaTYxVnFuN2QxTjJCX3d2M1k3NFVrd3lqTkhjeC0?oc=5",
-              "pubDate": "2026-10-26T17:25:58.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
+          "sentiment": -0.9,
+          "relevance_score": 8,
           "importance": 55,
-          "slug": "jordan-raids-suspects-after-church-attack-arrests-made"
+          "slug": "drilling-platform-sinks-off-gabon-people-missing"
+        },
+        {
+          "representativeTitle": "China Bond Yields Near Record Low Levels Now",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China’s 5-Year Government Bond Yield Trades Near Record Low",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-27/china-5-year-yield-hits-record-low-on-pboc-s-cash-injection",
+              "pubDate": "2026-10-27T02:01:24.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "china-bond-yields-near-record-low-levels-now"
+        },
+        {
+          "representativeTitle": "Ceasefire Takes Effect In Conflict Zone Town",
+          "sources": [
+            "NBC News",
+            "NPR"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Ceasefire brokered by Melania Trump goes into effect in Russian-occupied town ‘on the brink of disaster’",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/world/ukraine/ceasefire-brokered-melania-trump-comes-effect-russian-occupied-town-br-rcna605667",
+              "pubDate": "2026-10-27T01:42:33.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+              "pubDate": "2026-10-27T05:26:58.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "ceasefire-takes-effect-in-conflict-zone-town"
         },
         {
           "representativeTitle": "Bolsonaro Party Accepts Defeat Amid Trump Claims",
@@ -426,80 +579,6 @@ export const newsData = {
           "slug": "bolsonaro-party-accepts-defeat-amid-trump-claims"
         },
         {
-          "representativeTitle": "Romania alleges Russian sabotage near weapons factory fire",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Romania says Russia-run sabotage network set fire near weapons factory",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/27/romania-says-russia-run-sabotage-network-set-fire-near-weapons-factory?traffic_source=rss",
-              "pubDate": "2026-10-27T00:33:06.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "romania-alleges-russian-sabotage-near-weapons-factory-fire"
-        },
-        {
-          "representativeTitle": "Brazil's Election Victory Sparks Latin America Questions",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Reader Q&A: After Lula’s sensational victory in Brazil’s presidential election, post your questions for the Guardian’s Latin America correspondent",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/live/2026/oct/27/brazil-election-reader-questions-lula-bolsonaro",
-              "pubDate": "2026-10-27T00:00:03.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "brazils-election-victory-sparks-latin-america-questions"
-        },
-        {
-          "representativeTitle": "US Marine Indicted in Japan Over Woman's Murder",
-          "sources": [
-            "BBC World",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "US Marine indicted for murder and robbery of woman in Japan",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c3vgxjex1z9wo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-26T14:13:18.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US Marine indicted for murder and robbery of woman in Japan",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GMXVSc0JLenIyZVFHZmhWWERuVkZ4a1pzUE9yUWZ1UE5pYXhIUlVvZGRpejNxQmVQTXRqVm01emgxNGo0SldxZEFjelhvU3JGd29qbERrZWVGSGc?oc=5",
-              "pubDate": "2026-10-26T14:13:18.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "us-marine-indicted-in-japan-over-womans-murder"
-        },
-        {
           "representativeTitle": "Machado's Return Strains US Influence in Venezuela",
           "sources": [
             "NY Times"
@@ -522,7 +601,29 @@ export const newsData = {
           "slug": "machados-return-strains-us-influence-in-venezuela"
         },
         {
-          "representativeTitle": "Mexico Election Official Resigns Amid Corruption Scandal",
+          "representativeTitle": "Analyzing Brazil's Election Outcomes and Future Trajectory",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "What to Know About Brazil’s Election, and What Comes Next",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/26/world/americas/brazil-election-lula-win-what-to-know.html",
+              "pubDate": "2026-10-27T04:08:13.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "analyzing-brazils-election-outcomes-and-future-trajectory"
+        },
+        {
+          "representativeTitle": "Mexico Election Chief Resigns Amid Corruption Scandal Fallout",
           "sources": [
             "NY Times"
           ],
@@ -541,17 +642,17 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "mexico-election-official-resigns-amid-corruption-scandal"
+          "slug": "mexico-election-chief-resigns-amid-corruption-scandal-fallout"
         },
         {
-          "representativeTitle": "Brazil Currency Plummets After Lula's Surprise Win",
+          "representativeTitle": "Brazil Currency Plummets Post-Lula Election Victory",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Brazil’s currency plunges most since 1999 after Lula’s surprise victory",
+              "title": "Brazil’s currency plunges most since 1999 after Lula’s election victory",
               "source": "FT International",
               "link": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db?syn-25a6b1a6=1",
               "pubDate": "2026-10-26T21:08:50.000Z",
@@ -563,81 +664,51 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "brazil-currency-plummets-after-lulas-surprise-win"
+          "slug": "brazil-currency-plummets-post-lula-election-victory"
         },
         {
-          "representativeTitle": "Lula's Victory Signals New Era For Brazil.",
+          "representativeTitle": "French Minister Pledges Protest Appeasement Without Spending",
           "sources": [
-            "NY Times"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "What to Know About Lula’s Election Victory in Brazil, and What Comes Next",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/26/world/americas/brazil-election-lula-win-what-to-know.html",
-              "pubDate": "2026-10-26T20:55:24.000Z",
+              "title": "France must appease protesters without extra spending, says finance minister",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/167fd08f-2f01-46ee-a419-074e22ffd1a8?syn-25a6b1a6=1",
+              "pubDate": "2026-10-27T05:00:28.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "lulas-victory-signals-new-era-for-brazil"
-        },
-        {
-          "representativeTitle": "Vucic's Defeat Signals Shift in Serbian Policy",
-          "sources": [
-            "Al Jazeera",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "What Vucic’s defeat means for Serbia’s foreign policy",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/26/what-vucics-defeat-means-for-serbias-foreign-policy?traffic_source=rss",
-              "pubDate": "2026-10-26T20:38:40.000Z",
-              "tier": 1
-            },
-            {
-              "title": "What Vucic’s defeat means for Serbia’s foreign policy",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMHY2M2NFem5tWU1HQVpJRHNPTVFWbTg0OExYQjdQVE8zOFR5a1VCejN5VDF3aTQ0UGJpa3ZDUE16bEM2YzI3V3M2Y2lRcXJEY3VlSC1CeXh1cndxdGRLMmVXc2NwU3lrTlFVSzlNZTRMWFkwc29QVUlvNlJCWWZJSnBKRnZlYTJZUGFqUXRYZDJ0YWc4eWtrNtIBngFBVV95cUxPYmFyaDY0WWpKV0o4b1BpMHNRZHE2ZmQ3NUdxX0EwNDZDZXBSNVZ2aDZEdldGaWlVZFB3aW5PT0VoYlRub3E5RXgzMVItNzdadklWVnNFdkJidE84YXRBcE5oQ3NKUlpBdV9jN1oyY0o4NS0wcENyZHY3aHRFenZLU1FxbW5mRTBDU25EcE5MV2hYb2drOEQ1NVlGYUg5UQ?oc=5",
-              "pubDate": "2026-10-26T20:41:57.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "vucics-defeat-signals-shift-in-serbian-policy"
-        },
-        {
-          "representativeTitle": "Bolsonaro Vows Opposition Leadership After Court Ban",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Flavio Bolsonaro vows to lead opposition after Brazil court imposes travel ban",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261026-flavio-bolsonaro-opposition-brazil-court-travel-ban",
-              "pubDate": "2026-10-26T23:56:24.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Business",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "bolsonaro-vows-opposition-leadership-after-court-ban"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "french-minister-pledges-protest-appeasement-without-spending"
+        },
+        {
+          "representativeTitle": "Trump Jr's Trip Links to Kremlin Oligarch in Mongolia",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Inside Trump Jr’s Mongolian hunting trip with a Kremlin-linked oligarch",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/f41fc704-c9e6-42de-b800-d43cabe61947?syn-25a6b1a6=1",
+              "pubDate": "2026-10-27T05:00:10.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "trump-jrs-trip-links-to-kremlin-oligarch-in-mongolia"
         },
         {
           "representativeTitle": "Brazil Court Orders Bolsonaro to Surrender Passports Now",
@@ -662,7 +733,59 @@ export const newsData = {
           "slug": "brazil-court-orders-bolsonaro-to-surrender-passports-now"
         },
         {
-          "representativeTitle": "Machado's Return Signals Potential Shift in Venezuela Politics",
+          "representativeTitle": "Indonesia Cuts Gas Exports to Singapore; Reasons Cited",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Why Indonesia Is Reducing Gas Exports to Singapore",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-27/why-indonesia-is-reducing-gas-exports-to-singapore",
+              "pubDate": "2026-10-27T03:52:38.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "indonesia-cuts-gas-exports-to-singapore-reasons-cited"
+        },
+        {
+          "representativeTitle": "Pope's South American Trip Proceeds Despite Surgery",
+          "sources": [
+            "BBC World",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Pope's South American trip to go ahead as planned after lung cancer surgery",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cjr4y5rq46p2o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-26T18:46:19.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope's South American trip to go ahead following lung cancer surgery",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jWWljb09vaWpvSlFVS2ZsRGlfeTJFakxRT25MYzY1ZmlzNDR2WTF6ODlQOTJqQ0dZSVZTWWxWTlpPdkdTeE81NTJ5amRnS0w5aGstSjJLcDBsN0U?oc=5",
+              "pubDate": "2026-10-26T18:46:19.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "popes-south-american-trip-proceeds-despite-surgery"
+        },
+        {
+          "representativeTitle": "Machado's Return Marks Key Political Development in Venezuela",
           "sources": [
             "NY Times"
           ],
@@ -681,125 +804,29 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "machados-return-signals-potential-shift-in-venezuela-politics"
+          "slug": "machados-return-marks-key-political-development-in-venezuela"
         },
         {
-          "representativeTitle": "Trump, Netanyahu Discuss Escalation Risks Regarding Iran",
+          "representativeTitle": "Guide details Israel's upcoming high-stakes election process.",
           "sources": [
-            "FT International"
+            "NPR"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump, Netanyahu and the politics of escalation against Iran",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/7b3c17e7-c0bf-4e93-bc5d-17f86fa1b2a5?syn-25a6b1a6=1",
-              "pubDate": "2026-10-26T11:37:21.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "trump-netanyahu-discuss-escalation-risks-regarding-iran"
-        },
-        {
-          "representativeTitle": "Markets react to Lula's political victory outcomes.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Como os mercados reagiram após a vitória do Lula",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-26/como-os-mercados-reagiram-apos-a-vitoria-do-lula-video",
-              "pubDate": "2026-10-26T20:49:30.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "markets-react-to-lulas-political-victory-outcomes"
-        },
-        {
-          "representativeTitle": "UN Condemns Blocking of Women's Rights Bill",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Australian politics live: UN condemns Labor and Coalition blocking bill to ban shackling pregnant women; texting triple-zero trial begins",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/live/2026/oct/27/one-nation-pauline-hanson-independent-jacqui-lambie-labor-anthony-albanese-coalition-ntwnfb",
-              "pubDate": "2026-10-27T01:28:12.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "un-condemns-blocking-of-womens-rights-bill"
-        },
-        {
-          "representativeTitle": "Macron avoids emergency despite ongoing French protests.",
-          "sources": [
-            "France 24",
-            "SCMP"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "France protests: Macron rules out state of emergency – for now",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261026-france-protests-macron-rules-out-state-of-emergency-%E2%80%93-for-now",
-              "pubDate": "2026-10-26T16:16:44.000Z",
-              "tier": 1
-            },
-            {
-              "title": "France’s Macron promises ‘strong measures’ to ease protests",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3372201/frances-macron-promises-strong-measures-ease-protests",
-              "pubDate": "2026-10-26T13:33:11.000Z",
+              "title": "A quick guide to Israel's high-stakes elections",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/27/g-s1-149944/israel-election-guide",
+              "pubDate": "2026-10-27T04:54:30.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "macron-avoids-emergency-despite-ongoing-french-protests"
-        },
-        {
-          "representativeTitle": "Serbia Celebrates Election Victory After Second Night",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Serbia’s ‘students’ celebrate for a second night after election victory",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/27/serbias-students-celebrate-for-a-second-night-after-election-victory?traffic_source=rss",
-              "pubDate": "2026-10-27T01:06:50.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": 0,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 45,
-          "slug": "serbia-celebrates-election-victory-after-second-night"
+          "slug": "guide-details-israels-upcoming-high-stakes-election-process"
         },
         {
           "representativeTitle": "Lula's campaign strategy credited with election victory.",
@@ -824,48 +851,26 @@ export const newsData = {
           "slug": "lulas-campaign-strategy-credited-with-election-victory"
         },
         {
-          "representativeTitle": "Lula's political comeback confronts fiscal constraints.",
+          "representativeTitle": "Solidarity Shifts Tracked Amid Prolonged Conflict Analysis",
           "sources": [
-            "FT International"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Lula’s stunning comeback meets fiscal reality",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/79785581-88c2-49a9-a109-9d5ccafc3c7d?syn-25a6b1a6=1",
-              "pubDate": "2026-10-26T18:14:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "lulas-political-comeback-confronts-fiscal-constraints"
-        },
-        {
-          "representativeTitle": "Ceasefire Takes Effect In Conflict Zone Town",
-          "sources": [
-            "NBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Ceasefire brokered by Melania Trump comes into effect in Russian-occupied town ‘on the brink of disaster’",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/world/ukraine/ceasefire-brokered-melania-trump-comes-effect-russian-occupied-town-br-rcna605667",
-              "pubDate": "2026-10-27T01:42:33.000Z",
+              "title": "Social media analysis reveals how international solidarity shifts during prolonged conflict",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-social-media-analysis-reveals-international.html",
+              "pubDate": "2026-10-27T03:00:01.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Science",
           "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "ceasefire-takes-effect-in-conflict-zone-town"
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "solidarity-shifts-tracked-amid-prolonged-conflict-analysis"
         },
         {
           "representativeTitle": "Japan's Depopulation Policy Faces Stability Questions Now",
@@ -917,33 +922,48 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Judge rules firing of Comey's daughter illegal.",
+          "representativeTitle": "Comey faces new charges from Trump administration.",
           "sources": [
             "BBC World",
             "Al Jazeera",
-            "SCMP"
+            "SCMP",
+            "Sky News"
           ],
-          "citationCount": 3,
+          "citationCount": 4,
           "rawArticles": [
             {
-              "title": "Trump administration illegally fired James Comey's daughter, judge rules",
+              "title": "Ex-FBI chief James Comey faces federal charges for third time",
               "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-26T19:27:21.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-27T02:01:27.000Z",
               "tier": 1
             },
             {
-              "title": "US court rules daughter of Trump critic James Comey was illegally fired",
+              "title": "Ex-FBI chief Comey defiant in the face of third prosecution",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/26/us-court-rules-daughter-of-trump-critic-james-comey-was-illegally-fired?traffic_source=rss",
-              "pubDate": "2026-10-26T20:55:37.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/27/ex-fbi-chief-comey-defiant-in-the-face-of-third-prosecution?traffic_source=rss",
+              "pubDate": "2026-10-27T03:17:40.000Z",
               "tier": 1
             },
             {
-              "title": "Daughter of ex-FBI director Comey was unlawfully fired as federal prosecutor, judge rules",
+              "title": "Former FBI director James Comey hit with third set of charges under Trump",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/26/former-fbi-director-james-comey-hit-with-third-set-of-charges-under-trump?traffic_source=rss",
+              "pubDate": "2026-10-26T22:03:26.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Ex-FBI chief Comey hit with fresh charges as daughter’s firing ruled unlawful",
               "source": "SCMP",
               "link": "https://www.scmp.com/news/world/united-states-canada/article/3372214/judge-rules-daughter-ex-fbi-director-comey-was-unlawfully-fired-federal-prosecutor",
               "pubDate": "2026-10-26T17:58:23.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Former FBI chief charged for third time by Trump administration",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/former-fbi-chief-james-comey-charged-for-third-time-by-trump-administration-13604200",
+              "pubDate": "2026-10-26T22:41:00.000Z",
               "tier": 2
             }
           ],
@@ -951,8 +971,8 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 75,
-          "slug": "judge-rules-firing-of-comeys-daughter-illegal"
+          "importance": 90,
+          "slug": "comey-faces-new-charges-from-trump-administration"
         },
         {
           "representativeTitle": "Trump administration targets Comey with new prosecution efforts.",
@@ -993,10 +1013,17 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Trump administration illegally fired James Comey's daughter, judge rules",
+              "title": "Trump administration attempting to prosecute former FBI Director James Comey again",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Lb0NoWlVub0VHcF92OFRsZVI2SjVHUFNidzJRMGFRSkUySFdkUUtUOE5hN1VweS1lWGlnbmtnWDJXQmhoeWQxb0IzdzRGWE5UdDZHYkNqR1pzUmc?oc=5",
-              "pubDate": "2026-10-26T19:27:21.000Z",
+              "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVFhiQXJoSHJjeFJsN3VtWEpEbTEzcktHWnRFU0ZpSW02MXJQcVpWaUEyMW81U19Ea2lBQnA2Nk10QlI5cTlMUGhuZG9ZSDlQVWh3OEV4STB2WXYwc2FCelZRak5PV1hCYmNHWGFCLWhMSUt4WFRKVFlaeldwdExWaXlHR210NllvNFR3ekxNakxOWVVuR08xU0lSSUo?oc=5",
+              "pubDate": "2026-10-27T03:39:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump administration's firing of prosecutor Maurene Comey was unlawful, judge rules",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcWZ2TUkxWGJOaXdWYTVwUkFCMFJTZlUwTW1GYUZ3LTBxNEtLcE91UGVaWkNJZ0JMTHRUYmRVc2ZObGZ0M1V5YVNWYkZ5UlJBSS16eHpLSTFyRjAxQmc1VFQ1UmhFT2RlNVo3UjFLd0dGRmZSZHFxTXlhTFVwbF9KUU13QmRuaktSZEFnbFgzUXltNGlVQWdXNlJlUDFmdHgtQmRneG5TcmNyUGhYS0pZOHRIalhCMmFMNUF3Z1pJazNnNFRNOWttYmVQOA?oc=5",
+              "pubDate": "2026-10-26T17:26:36.000Z",
               "tier": 2
             }
           ],
@@ -1008,25 +1035,63 @@ export const newsData = {
           "slug": "trump-administration-targets-comey-with-new-prosecution-efforts"
         },
         {
-          "representativeTitle": "Comey faces new charges from Trump administration.",
+          "representativeTitle": "Bishops Apologize Over Controversial Trump Meeting Details",
           "sources": [
-            "Al Jazeera",
-            "Sky News"
+            "BBC US",
+            "BBC World",
+            "Time"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Catholic bishops apologise for 'exploited' Trump meeting",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cw8rz1d286v3o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-26T15:46:31.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Catholic bishops apologise for 'exploited' Trump meeting",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cw8rz1d286v3o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-26T15:46:31.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Why Catholic Bishops Are Apologizing Over 'Exploited' Trump Meeting",
+              "source": "Time",
+              "link": "https://time.com/article/2026/10/26/catholic-bishops-apologize-meeting-with-trump-white-house-video/",
+              "pubDate": "2026-10-26T19:18:02.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "bishops-apologize-over-controversial-trump-meeting-details"
+        },
+        {
+          "representativeTitle": "Trump Proposes Bounty Over Voter Fraud Ahead of Midterms",
+          "sources": [
+            "France 24",
+            "Le Monde"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Former FBI director James Comey hit with third set of charges under Trump",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/26/former-fbi-director-james-comey-hit-with-third-set-of-charges-under-trump?traffic_source=rss",
-              "pubDate": "2026-10-26T22:03:26.000Z",
+              "title": "Trump offers $1 million for tipoffs leading to vote fraud conviction as midterms approach",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/americas/20261026-trump-offers-1-million-for-tipoffs-leading-to-vote-fraud-conviction-as-midterms-approach",
+              "pubDate": "2026-10-26T21:17:23.000Z",
               "tier": 1
             },
             {
-              "title": "Former FBI chief charged for third time by Trump administration",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/former-fbi-chief-james-comey-charged-for-third-time-by-trump-administration-13604200",
-              "pubDate": "2026-10-26T22:41:00.000Z",
+              "title": "Before midterms, Trump offers $1 million bounty in voter fraud campaign",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/27/before-midterms-trump-offers-1-million-bounty-in-voter-fraud-campaign_6765178_4.html",
+              "pubDate": "2026-10-27T02:51:11.000Z",
               "tier": 2
             }
           ],
@@ -1035,7 +1100,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 60,
-          "slug": "comey-faces-new-charges-from-trump-administration"
+          "slug": "trump-proposes-bounty-over-voter-fraud-ahead-of-midterms"
         },
         {
           "representativeTitle": "Comey Charged Again by Trump Administration Officials",
@@ -1049,7 +1114,7 @@ export const newsData = {
               "title": "Ex-FBI chief James Comey faces federal charges for third time",
               "source": "BBC US",
               "link": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-27T00:07:28.000Z",
+              "pubDate": "2026-10-27T02:01:27.000Z",
               "tier": 1
             },
             {
@@ -1075,70 +1140,26 @@ export const newsData = {
           "slug": "comey-charged-again-by-trump-administration-officials"
         },
         {
-          "representativeTitle": "Court rules against Trump administration in California voting.",
+          "representativeTitle": "Analyzing major donors influencing 2026 election cycle.",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US court rules against Trump administration in California voting case",
+              "title": "Tracking the money: The biggest donors in the 2026 US midterm elections",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/27/us-court-rules-against-trump-administration-in-california-voting-case?traffic_source=rss",
-              "pubDate": "2026-10-27T01:01:53.000Z",
+              "link": "https://www.aljazeera.com/news/2026/10/27/tracking-the-money-the-biggest-donors-in-the-2026-us-midterm-elections?traffic_source=rss",
+              "pubDate": "2026-10-27T05:29:24.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "court-rules-against-trump-administration-in-california-voting"
-        },
-        {
-          "representativeTitle": "Trump Offers Reward For Election Fraud Tips",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump offers $1mn reward for tips leading to election fraud conviction",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/fe3cb92f-bc25-4db7-8fa8-dff3f1f38348?syn-25a6b1a6=1",
-              "pubDate": "2026-10-26T21:50:06.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trump-offers-reward-for-election-fraud-tips"
-        },
-        {
-          "representativeTitle": "Trump Accused of Manipulating Catholic Bishops Politically",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump accused of ‘manipulating’ Catholic bishops for political gain",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/d8e6fac8-9c71-4e0d-9639-b8cf1d5617b4?syn-25a6b1a6=1",
-              "pubDate": "2026-10-26T21:13:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trump-accused-of-manipulating-catholic-bishops-politically"
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "analyzing-major-donors-influencing-2026-election-cycle"
         },
         {
           "representativeTitle": "Trump Admin Questions Voter Eligibility in Ballots",
@@ -1171,6 +1192,65 @@ export const newsData = {
           "slug": "trump-admin-questions-voter-eligibility-in-ballots"
         },
         {
+          "representativeTitle": "Trump faces backlash over invoking 9/11 remarks.",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump faces backlash after invoking 9/11 in verbal assault on El-Sayed",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/c3rryxlkq5qro?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-26T20:41:43.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "trump-faces-backlash-over-invoking-911-remarks"
+        },
+        {
+          "representativeTitle": "Convicted Murderer Escapes Tennessee Prison; Manhunt Underway",
+          "sources": [
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Authorities launch manhunt for convicted killer who escaped from Tennessee prison",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/manhunt-murderer-escaped-tennessee-rcna605826",
+              "pubDate": "2026-10-26T23:40:38.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Manhunt underway for convicted murderer who escaped from Tennessee prison",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/nightly-news/video/manhunt-underway-for-convicted-murderer-who-escaped-from-tennessee-prison-272262213778",
+              "pubDate": "2026-10-26T22:58:33.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Manhunt Begins After Convicted Murderer Escapes From Tennessee Prison",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeG9sWThHVVZZU0NPcnFTeEtFTjBEQzBSTFV2dGVFUUpCeV9NSEJsV3pISjQ1dk5sRVhDMDNRMlROd3IwSmVqZnEtaDI0d1RfZjB4SmY2OFgweTlZeTdyWGFqSnIxTEF6M2xrQnhtV0trY3phNjVpWDFQQ1FYQWxFVA?oc=5",
+              "pubDate": "2026-10-26T21:34:38.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "convicted-murderer-escapes-tennessee-prison-manhunt-underway"
+        },
+        {
           "representativeTitle": "Critics argue Trump's media bans threaten press freedom.",
           "sources": [
             "BBC US"
@@ -1193,67 +1273,29 @@ export const newsData = {
           "slug": "critics-argue-trumps-media-bans-threaten-press-freedom"
         },
         {
-          "representativeTitle": "Trump Offers Reward For Voter Fraud Tips Leading Convictions",
+          "representativeTitle": "Political cartoons spark controversy over alleged violence.",
           "sources": [
-            "NBC News",
-            "ABC News Top"
+            "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump offers $1 million reward for voter fraud tips that lead to convictions",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/trump-offers-1-million-reward-voter-fraud-tips-lead-convictions-rcna605798",
-              "pubDate": "2026-10-26T22:09:48.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump offers $1M reward for voter fraud tips that result in conviction",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/trump-offers-1m-reward-people-report-voter-fraud/story?id=137581908",
-              "pubDate": "2026-10-26T22:20:16.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "trump-offers-reward-for-voter-fraud-tips-leading-convictions"
-        },
-        {
-          "representativeTitle": "Bishops Apologize Over Controversial Trump Meeting Details",
-          "sources": [
-            "BBC World",
-            "Time"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Catholic bishops apologise for 'exploited' Trump meeting",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cw8rz1d286v3o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-26T15:46:31.000Z",
+              "title": "Labor condemns One Nation cartoons depicting Penny Wong being murdered as Hanson says videos ‘not going anywhere’",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/oct/27/one-nation-cartoon-penny-wong-beheading-condemned-ntwnfb",
+              "pubDate": "2026-10-27T05:13:57.000Z",
               "tier": 1
-            },
-            {
-              "title": "Why Catholic Bishops Are Apologizing Over 'Exploited' Trump Meeting",
-              "source": "Time",
-              "link": "https://time.com/article/2026/10/26/catholic-bishops-apologize-meeting-with-trump-white-house-video/",
-              "pubDate": "2026-10-26T19:18:02.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "bishops-apologize-over-controversial-trump-meeting-details"
+          "importance": 45,
+          "slug": "political-cartoons-spark-controversy-over-alleged-violence"
         },
         {
-          "representativeTitle": "Judge rules Trump fired official illegally.",
+          "representativeTitle": "Judge Rules Trump Admin Firing Of Judge Illegal",
           "sources": [
             "FT International"
           ],
@@ -1272,7 +1314,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "judge-rules-trump-fired-official-illegally"
+          "slug": "judge-rules-trump-admin-firing-of-judge-illegal"
         },
         {
           "representativeTitle": "Former FBI Chief Charged By US Authorities Again",
@@ -1297,131 +1339,34 @@ export const newsData = {
           "slug": "former-fbi-chief-charged-by-us-authorities-again"
         },
         {
-          "representativeTitle": "Teen Arrested Following Shooting Near Florida Stadium",
+          "representativeTitle": "Trump Campaigning in Mississippi Highlights GOP Challenges",
           "sources": [
-            "BBC US",
-            "NBC News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Police arrest teenager after shooting that injured 12, including children, in Florida",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/ckpdg8vnv171o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-26T15:45:30.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Police arrest a 15-year-old in shooting near Florida A&M stadium",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/now/video/police-arrest-suspect-in-shooting-near-florida-a-m-stadium-272217669952",
-              "pubDate": "2026-10-26T12:37:48.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "teen-arrested-following-shooting-near-florida-stadium"
-        },
-        {
-          "representativeTitle": "Authorities hunt escaped convicted killer from Tennessee prison.",
-          "sources": [
-            "NBC News",
+            "NPR",
             "Google US"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Authorities launch manhunt for convicted killer who escaped from Tennessee prison",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/manhunt-murderer-escaped-tennessee-rcna605826",
-              "pubDate": "2026-10-26T23:40:38.000Z",
+              "title": "Trump campaigns in Mississippi, highlighting Republicans' challenges",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/27/nx-s1-6019090/trump-campaign-mississippi",
+              "pubDate": "2026-10-27T05:22:24.000Z",
               "tier": 2
             },
             {
-              "title": "Manhunt underway for convicted murderer who escaped from Tennessee prison",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/nightly-news/video/manhunt-underway-for-convicted-murderer-who-escaped-from-tennessee-prison-272262213778",
-              "pubDate": "2026-10-26T22:58:33.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Authorities launch manhunt for convicted killer who escaped from Tennessee prison",
+              "title": "Trump campaigns in Mississippi, highlighting Republicans’ challenges",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYTRZSlNuRU9PcFo2SVJGcUphM0k5ZWM5cW1ZN1RtZE5JZGJpNjZZZVpOUC1KR2tLd3RycFQtTWtkOGlmY2hCWlFlQjdsUlNIWGN0ZHVzS3haMEhiTzk0OGJMRjB5ejdmTkRiMkxCVVFsNDlYTkFHZ1NkMXdiRWZnMjR4YWdFenVlV1E?oc=5",
-              "pubDate": "2026-10-26T23:40:38.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "authorities-hunt-escaped-convicted-killer-from-tennessee-prison"
-        },
-        {
-          "representativeTitle": "Comey faces new DOJ case over defense disclosure allegations",
-          "sources": [
-            "Fox News",
-            "ABC News Top"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "James Comey faces new DOJ case over alleged national defense disclosure",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/james-comey-faces-new-doj-case-over-alleged-national-defense-disclosure",
-              "pubDate": "2026-10-26T21:46:28.000Z",
-              "tier": 2
-            },
-            {
-              "title": "DOJ seeking to charge Comey with conspiring to disclose national defense information",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/doj-seeks-charge-comey-conspiring-disclose-national-defense/story?id=137584148",
-              "pubDate": "2026-10-26T23:28:08.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "comey-faces-new-doj-case-over-defense-disclosure-allegations"
-        },
-        {
-          "representativeTitle": "Observers Expected to Monitor Election Day Polling Sites",
-          "sources": [
-            "ABC News Top",
-            "ABC News US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Thousands of observers are to descend on polling places to monitor on Election Day",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/wireStory/thousands-observers-expected-descend-polling-places-monitor-vote-137566138",
-              "pubDate": "2026-10-26T16:10:23.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Thousands of observers are to descend on polling places to monitor on Election Day",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/thousands-observers-expected-descend-polling-places-monitor-vote-137566138",
-              "pubDate": "2026-10-26T16:10:23.000Z",
+              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONkZHeDk4QUpKb1pUNFJwT3FEMEpzSGdqUjdJcGdNTFM3ZkRMU3hnbkNkTHlRSjl4dVNwR3JyZTJEdVdZR0Jaa1lPNmpHenlpNzVlaVdRYlp1UlczRFpKLVQ4bmNJQ2JSMjUtUUl4U19wZHhCUGhpT2Yxdkh0enhLakhoZy1YZk1MUTdLcERFVGZhdEIz?oc=5",
+              "pubDate": "2026-10-27T03:08:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "observers-expected-to-monitor-election-day-polling-sites"
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "trump-campaigning-in-mississippi-highlights-gop-challenges"
         },
         {
           "representativeTitle": "FTC and States Sue Dollar General Over Pricing Practices",
@@ -1446,102 +1391,6 @@ export const newsData = {
           "slug": "ftc-and-states-sue-dollar-general-over-pricing-practices"
         },
         {
-          "representativeTitle": "Governor questioned on xenophobia's midterm election impact",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Gretchen Whitmer asked whether 'hidden xenophobia' will affect midterm elections",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/media/gretchen-whitmer-asked-whether-hidden-xenophobia-affect-midterm-elections",
-              "pubDate": "2026-10-27T01:23:49.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "governor-questioned-on-xenophobias-midterm-election-impact"
-        },
-        {
-          "representativeTitle": "Trump Rally Draws Democrats Amid Political Showdown",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump in Mississippi for a midterm rally, and the Democrat he wants defeated is there, too",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONkZHeDk4QUpKb1pUNFJwT3FEMEpzSGdqUjdJcGdNTFM3ZkRMU3hnbkNkTHlRSjl4dVNwR3JyZTJEdVdZR0Jaa1lPNmpHenlpNzVlaVdRYlp1UlczRFpKLVQ4bmNJQ2JSMjUtUUl4U19wZHhCUGhpT2Yxdkh0enhLakhoZy1YZk1MUTdLcERFVGZhdEIz?oc=5",
-              "pubDate": "2026-10-27T01:23:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "trump-rally-draws-democrats-amid-political-showdown"
-        },
-        {
-          "representativeTitle": "Man Charged Mailing Threatening Letters to Congress Members",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Man charged with mailing threatening letters with white substance to members of Congress",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/justice-department/man-charged-mailing-threatening-letters-white-substance-congress-rcna605793",
-              "pubDate": "2026-10-26T19:58:09.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Man charged with mailing threatening letters with white substance to members of Congress",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSHFZT0gyOTdGejhfWUFRNllTU2xFdFJVekhJRnEyR2kzQUpZa0Vta2FSNENhZlppcmMxdURpcG1wX1VwNjVabjk1LTEwcXFEdVhyUk1LazNzRU54anZHNlVObnJKVHNxbTJkMjJ1eUNYOFYyR1dESmRZZF80YzhnRk9PcFFlWHJISjVXWmctc0l2UUFBMW83Z2xiYlhfMmszMWY1TU1YRkxUQ2E2QU1MejJsdFR2RExvb1VCcWtRRmNIVHZncUE?oc=5",
-              "pubDate": "2026-10-26T19:58:09.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "man-charged-mailing-threatening-letters-to-congress-members"
-        },
-        {
-          "representativeTitle": "Bishops Apologize Over Trump Meeting Controversy",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Catholic bishops apologise for 'exploited' Trump meeting",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cw8rz1d286v3o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-26T15:46:31.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "bishops-apologize-over-trump-meeting-controversy"
-        },
-        {
           "representativeTitle": "BBC Questions Democrat on Michigan Senate Race Dynamics",
           "sources": [
             "BBC US"
@@ -1562,28 +1411,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "bbc-questions-democrat-on-michigan-senate-race-dynamics"
-        },
-        {
-          "representativeTitle": "Alaska Candidate Pauses Campaign Following Vehicle Accident",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Alaska's Democratic Senate candidate pauses midterms campaigning after car crash",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cky93gep3gyeo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-26T13:53:18.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "alaska-candidate-pauses-campaign-following-vehicle-accident"
         }
       ]
     },
@@ -1591,26 +1418,100 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "Tech Rally Continues Across Asia; Oil Prices Dip.",
+          "representativeTitle": "AI Trade Boosts Global Equity Market Gains Today",
           "sources": [
-            "Bloomberg Markets"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Tech Rally Extends to Asia on Anthropic, Oil Falls: Markets Wrap",
+              "title": "Global equity markets rise as AI trade regains steam",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441?syn-25a6b1a6=1",
+              "pubDate": "2026-10-27T05:14:43.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ai-trade-boosts-global-equity-market-gains-today"
+        },
+        {
+          "representativeTitle": "Gains Continue Amid IPO Buzz, Oil Declines: Markets Wrap",
+          "sources": [
+            "Bloomberg Markets",
+            "Google Stocks"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Stocks Extend Gains on Anthropic IPO, Oil Drops: Markets Wrap",
               "source": "Bloomberg Markets",
               "link": "https://www.bloomberg.com/news/articles/2026-10-26/stock-market-today-dow-s-p-live-updates",
               "pubDate": "2026-10-26T22:03:56.000Z",
               "tier": 1
+            },
+            {
+              "title": "Asian Stocks to Gain as Anthropic Files for IPO: Markets Wrap",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYTFLZTJNckNaRFN0TG9fLXJTY3h3VkVRSnZfMDJfLVkxOTNsU01IbWtXbDZQUTFIOXJXWENhY2NIX0ZuLUdLSHJMemcyUkNEZklQdUQxZlpHUWNwaVE3WFp1dk1meVZwejRrSUF1dEhFdDBjNUp3WVdqVnNBamJfQjFrN2g5b3QwZFBUMHZjYVU2aGhK?oc=5",
+              "pubDate": "2026-10-27T04:57:00.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
           "sentiment": 0,
           "relevance_score": 6,
+          "importance": 50,
+          "slug": "gains-continue-amid-ipo-buzz-oil-declines-markets-wrap"
+        },
+        {
+          "representativeTitle": "Asia Stocks Rise Following Anthropic IPO Boost",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Asia Stocks Rally as Anthropic IPO Boosts Chip Shares",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-27/the-asia-trade-10-27-2026-video",
+              "pubDate": "2026-10-27T04:32:03.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "asia-stocks-rise-following-anthropic-ipo-boost"
+        },
+        {
+          "representativeTitle": "Jio Shares See Significant Gains in Gray Market Trading",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Jio Shares Indicated 22% Higher in India Gray-Market Trading",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-27/jio-shares-mukesh-ambani-india-gray-market-trading",
+              "pubDate": "2026-10-27T04:43:45.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 6,
           "importance": 45,
-          "slug": "tech-rally-continues-across-asia-oil-prices-dip"
+          "slug": "jio-shares-see-significant-gains-in-gray-market-trading"
         }
       ]
     },
@@ -1618,39 +1519,61 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "Pimco Invests $4B in SpaceX AI Debt Package Deal",
+          "representativeTitle": "Dubai IPO Completes Amid Global Market Turmoil",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Pimco Scoops Up $4 Billion of Massive SpaceX AI Debt Package",
+              "title": "Dubai Firm’s $543 Million IPO Covered Within Minutes Despite War",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-26/pimco-scoops-up-4-billion-of-massive-spacex-ai-debt-package",
-              "pubDate": "2026-10-26T21:43:04.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-27/dubai-investments-pjsc-dip-543-million-first-uae-listing-2026",
+              "pubDate": "2026-10-27T04:36:03.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
           "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "pimco-invests-4b-in-spacex-ai-debt-package-deal"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "dubai-ipo-completes-amid-global-market-turmoil"
         },
         {
-          "representativeTitle": "Rupiah Defense Needs Interest Rate Boost Now",
+          "representativeTitle": "Pandora invests $150M factory in Vietnam expansion.",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Indonesia’s Rupiah Defense Seen Needing a Rate-Hike Turbocharge",
+              "title": "Pandora Bets on Vietnam With New $150 Million Factory",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-26/indonesia-s-rupiah-defense-seen-needing-a-rate-hike-turbocharge",
-              "pubDate": "2026-10-26T23:30:00.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-27/pandora-bets-on-vietnam-with-new-150-million-factory",
+              "pubDate": "2026-10-27T05:04:48.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "pandora-invests-150m-factory-in-vietnam-expansion"
+        },
+        {
+          "representativeTitle": "Infrastructure Decay Threatens Foreign Investment in Johannesburg",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Johannesburg’s Infrastructure Decay Risks Driving Multinationals Out, Busi Mavuso Warns",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-27/mavuso-joburg-infrastructure-risks-driving-business-out-video",
+              "pubDate": "2026-10-27T05:00:37.000Z",
               "tier": 1
             }
           ],
@@ -1659,20 +1582,86 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "rupiah-defense-needs-interest-rate-boost-now"
+          "slug": "infrastructure-decay-threatens-foreign-investment-in-johannesburg"
         },
         {
-          "representativeTitle": "Gold Price Holds Steady Ahead of Fed Rate Decision",
+          "representativeTitle": "Analyzing winners and losers in weight-loss market.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The winners and losers of the weight-loss economy",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/2f1667a8-ef1b-46a0-bc95-6061ec85fb8e?syn-25a6b1a6=1",
+              "pubDate": "2026-10-27T05:00:18.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "analyzing-winners-and-losers-in-weight-loss-market"
+        },
+        {
+          "representativeTitle": "HSBC Profits Rise Thirty-Two Percent Amid Cuts",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "HSBC quarterly profits surge 32% amid cost cutting",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/fd23db26-a45b-4a98-b771-4234a30b7937?syn-25a6b1a6=1",
+              "pubDate": "2026-10-27T04:50:26.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "hsbc-profits-rise-thirty-two-percent-amid-cuts"
+        },
+        {
+          "representativeTitle": "Samsung Life Bond Shows Strength Amid Market Turmoil",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Gold Steadies Near $4,000 as Traders Prepare for Fed Rate Call",
+              "title": "Samsung Life’s Record Bond Shows High-Grade Grit in Turmoil",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-26/gold-steadies-above-4-000-with-fed-rate-decision-in-focus",
-              "pubDate": "2026-10-26T23:20:28.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-27/samsung-life-insurance-south-korea-coupon-note-debt-dollar-bond-sale",
+              "pubDate": "2026-10-27T03:26:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "samsung-life-bond-shows-strength-amid-market-turmoil"
+        },
+        {
+          "representativeTitle": "JPMorgan Predicts US Bonds Return Seven to Eight Percent",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "JPMorgan’s Michele Sees US Bonds Returning 7%-8% Over 12 Months",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-27/jpmorgan-asset-management-bob-michele-us-bonds-treasury-fed",
+              "pubDate": "2026-10-27T03:25:15.000Z",
               "tier": 1
             }
           ],
@@ -1681,20 +1670,20 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "gold-price-holds-steady-ahead-of-fed-rate-decision"
+          "slug": "jpmorgan-predicts-us-bonds-return-seven-to-eight-percent"
         },
         {
-          "representativeTitle": "Oil Market Analysis Provided For October Twenty-Seventh",
+          "representativeTitle": "CIMB Poised to Sell Philippine Unit to Banks",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Latest Oil Market News and Analysis for Oct. 27",
+              "title": "CIMB Is Said to Attract BPI, Metrobank for Philippine Unit Sale",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-26/latest-oil-market-news-and-analysis-for-oct-27",
-              "pubDate": "2026-10-26T22:03:22.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-27/cimb-bpi-metrobank-philippine-unit-sale",
+              "pubDate": "2026-10-27T03:23:22.000Z",
               "tier": 1
             }
           ],
@@ -1703,7 +1692,51 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "oil-market-analysis-provided-for-october-twenty-seventh"
+          "slug": "cimb-poised-to-sell-philippine-unit-to-banks"
+        },
+        {
+          "representativeTitle": "MSCI Fallout Widens Amid Indonesian Bond Sale Halt",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "MSCI Fallout Widens With Indonesian Corporate Bond Sale Shelved",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-27/msci-indonesian-corporate-bond-sale-kb-bank-moodys-ratings-fitch-prabowo",
+              "pubDate": "2026-10-27T03:15:10.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "msci-fallout-widens-amid-indonesian-bond-sale-halt"
+        },
+        {
+          "representativeTitle": "China's Industrial Profits Show Strong September Growth",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China’s Industrial Profit Growth Surged in September",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/economy/chinas-industrial-profit-growth-surged-in-september-fc3b5d58?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-10-27T03:16:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "chinas-industrial-profits-show-strong-september-growth"
         },
         {
           "representativeTitle": "JetBlue reports bigger loss amid fuel cost pressures.",
@@ -1728,95 +1761,7 @@ export const newsData = {
           "slug": "jetblue-reports-bigger-loss-amid-fuel-cost-pressures"
         },
         {
-          "representativeTitle": "Nucor Profit Rises Due to Higher Steel Prices",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Nucor Profit Beats Estimates as Higher Steel Prices Lift Results",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-26/nucor-profit-beats-estimates-as-higher-steel-prices-lift-results",
-              "pubDate": "2026-10-26T21:09:05.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "nucor-profit-rises-due-to-higher-steel-prices"
-        },
-        {
-          "representativeTitle": "Data Center Operator Seeks Major Private Debt Funding",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Blackstone Data-Center Operator QTS Seeks $800 Million in Private Placement Debt",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-26/blackstone-data-center-operator-qts-seeks-800-million-in-private-placement-debt",
-              "pubDate": "2026-10-26T21:01:54.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "data-center-operator-seeks-major-private-debt-funding"
-        },
-        {
-          "representativeTitle": "Schwab CEO Sees Strong Talent Pool in Texas Market",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Schwab CEO Says It's Easy to Find Top Talent in Texas",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-26/schwab-ceo-says-they-keep-finding-top-talent-in-texas-video",
-              "pubDate": "2026-10-26T21:01:18.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "schwab-ceo-sees-strong-talent-pool-in-texas-market"
-        },
-        {
-          "representativeTitle": "Universal Music Explores Going Private Via Buyout Firms",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Universal Music Discussed Going Private With Buyout Firms",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-26/universal-music-group-discussed-going-private-with-buyout-firms",
-              "pubDate": "2026-10-26T20:46:36.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "universal-music-explores-going-private-via-buyout-firms"
-        },
-        {
-          "representativeTitle": "Wonder Bets on Texas Growth, Automation, Restaurants Before IPO",
+          "representativeTitle": "Wonder Bets on Texas Growth Amid IPO Plans",
           "sources": [
             "CNBC Economy"
           ],
@@ -1835,29 +1780,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "wonder-bets-on-texas-growth-automation-restaurants-before-ipo"
-        },
-        {
-          "representativeTitle": "Mayo CEO Cites Substantial Growth Potential Ahead",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Duke’s Mayo CEO: Our Room for Growth Is Substantial",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-26/duke-s-mayo-ceo-our-room-for-growth-is-substantial-video",
-              "pubDate": "2026-10-26T21:48:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "mayo-ceo-cites-substantial-growth-potential-ahead"
+          "slug": "wonder-bets-on-texas-growth-amid-ipo-plans"
         }
       ]
     },
@@ -1911,7 +1834,7 @@ export const newsData = {
           "slug": "anthropic-ipo-boosts-market-sentiment-amid-losses"
         },
         {
-          "representativeTitle": "AI firm warns of catastrophic risk before listing.",
+          "representativeTitle": "AI Firm Warns of Existential Risk Amid Listing Hype",
           "sources": [
             "BBC US"
           ],
@@ -1937,10 +1860,32 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 9,
           "importance": 70,
-          "slug": "ai-firm-warns-of-catastrophic-risk-before-listing"
+          "slug": "ai-firm-warns-of-existential-risk-amid-listing-hype"
         },
         {
-          "representativeTitle": "Apple Unveils New iPad Mini with OLED Display",
+          "representativeTitle": "OpenAI transforms coding tools into personal assistant.",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+              "pubDate": "2026-10-27T02:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "openai-transforms-coding-tools-into-personal-assistant"
+        },
+        {
+          "representativeTitle": "Apple Unveils iPad Mini with OLED and Faster Chip",
           "sources": [
             "TechCrunch",
             "Ars Technica",
@@ -1975,7 +1920,7 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 55,
-          "slug": "apple-unveils-new-ipad-mini-with-oled-display"
+          "slug": "apple-unveils-ipad-mini-with-oled-and-faster-chip"
         },
         {
           "representativeTitle": "Anthropic IPO Prospectus Lacks Key Financial Details",
@@ -2005,72 +1950,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 60,
           "slug": "anthropic-ipo-prospectus-lacks-key-financial-details"
-        },
-        {
-          "representativeTitle": "AI IPO Filing Boosts Asian Chip Sector Stocks",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Asian Chip Stocks Rise as Anthropic IPO Filing Rekindles AI Bets",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-27/asian-chip-stocks-rise-as-anthropic-ipo-filing-rekindles-ai-bets",
-              "pubDate": "2026-10-27T01:00:52.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ai-ipo-filing-boosts-asian-chip-sector-stocks"
-        },
-        {
-          "representativeTitle": "Anthropic Cautions Investors Over Rising Debt Levels",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Anthropic Mum on Investment Grade as It Warns of More Debt",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-remains-mum-on-investment-grade-as-it-flags-more-debt",
-              "pubDate": "2026-10-26T20:56:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "anthropic-cautions-investors-over-rising-debt-levels"
-        },
-        {
-          "representativeTitle": "Meta plans massive stock offering for AI growth.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Meta plans $95bn stock offering to bankroll AI expansion",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/94e5a0ae-874d-447a-bbfc-cd465a1a7555?syn-25a6b1a6=1",
-              "pubDate": "2026-10-26T20:49:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "meta-plans-massive-stock-offering-for-ai-growth"
         },
         {
           "representativeTitle": "AI Agents Emerge as Simulated Journalism Reporters Now",
@@ -2155,28 +2034,6 @@ export const newsData = {
           "slug": "iphone-duo-models-breaking-ifixit-suggests-cause"
         },
         {
-          "representativeTitle": "Microsoft Announces Buyouts Affecting Sixty Thousand Employees",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Microsoft offers buyouts to 60,000 staff",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/2ef29406-f2f8-413f-81f6-5ae098c97569?syn-25a6b1a6=1",
-              "pubDate": "2026-10-26T20:22:52.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "microsoft-announces-buyouts-affecting-sixty-thousand-employees"
-        },
-        {
           "representativeTitle": "AI Model Interaction Sparks Geopolitical Tech Discussion",
           "sources": [
             "TechCrunch"
@@ -2219,28 +2076,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "ai-model-flags-inaccuracies-in-odyssey-rewrite"
-        },
-        {
-          "representativeTitle": "Anthropic Adopts 'Anti-Sell' Strategy For IPO",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Dave Lee: Anthropic Brings ‘Anti-Sell’ Strategy to Its IPO",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-26/dave-lee-anthropic-brings-anti-sell-strategy-to-ipo-video",
-              "pubDate": "2026-10-26T22:26:18.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "anthropic-adopts-anti-sell-strategy-for-ipo"
         },
         {
           "representativeTitle": "Co-founder shares strategies for winning enterprise clients.",
@@ -2309,50 +2144,6 @@ export const newsData = {
           "slug": "instagram-shifts-format-from-short-to-long-video"
         },
         {
-          "representativeTitle": "Cassidy Supports Zuckerberg's Vision Regarding Tech Future",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "We Support Zuckerberg's Vision: Cassidy",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-26/we-support-zuckerberg-s-vision-cassidy-video",
-              "pubDate": "2026-10-26T20:51:58.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "cassidy-supports-zuckerbergs-vision-regarding-tech-future"
-        },
-        {
-          "representativeTitle": "Anthropic IPO Filing Reveals Company Strategy Details",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘Bold but sane’: what we learnt from Anthropic’s 240,000-word IPO filing",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/a6c43402-719e-4295-ae5f-541edb0aeb29?syn-25a6b1a6=1",
-              "pubDate": "2026-10-26T17:45:49.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "anthropic-ipo-filing-reveals-company-strategy-details"
-        },
-        {
           "representativeTitle": "Startup's Excavators Secure Major Funding Round Success",
           "sources": [
             "TechCrunch"
@@ -2375,37 +2166,7 @@ export const newsData = {
           "slug": "startups-excavators-secure-major-funding-round-success"
         },
         {
-          "representativeTitle": "New iOS Update Adds Apple Pencil Support to Duo",
-          "sources": [
-            "The Verge",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "iPhone Duo now supports Apple Pencil with iOS 27.2",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/1018827/ios-27-2-iphone-duo-apple-pencil",
-              "pubDate": "2026-10-26T18:51:06.000Z",
-              "tier": 2
-            },
-            {
-              "title": "iPhone Duo now supports Apple Pencil with iOS 27.2",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE90R3NjVEROaFJhTmQ1bzlqeWxITHlUSVlKNTdqbFZEdVEyM2lDNzRnczFxcGlrNVI5OWNzZEY4STV3NS01aEg5OE83NFp5RVRHZGpTR2NXMmQyNXVqM21wUTk2aExUTXV6Y0tsUzFHMkFDcUotOEhwOXFR?oc=5",
-              "pubDate": "2026-10-26T18:51:06.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "new-ios-update-adds-apple-pencil-support-to-duo"
-        },
-        {
-          "representativeTitle": "iPhone Duo reportedly experiencing cracking issues, users complain.",
+          "representativeTitle": "iPhone Duo Cracking Issues Prompt User Dissatisfaction Concerns",
           "sources": [
             "TechCrunch"
           ],
@@ -2424,7 +2185,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 4,
           "importance": 35,
-          "slug": "iphone-duo-reportedly-experiencing-cracking-issues-users-complain"
+          "slug": "iphone-duo-cracking-issues-prompt-user-dissatisfaction-concerns"
         },
         {
           "representativeTitle": "Anker Sale Offers Discounts on Chargers and Power Banks",
@@ -2449,7 +2210,7 @@ export const newsData = {
           "slug": "anker-sale-offers-discounts-on-chargers-and-power-banks"
         },
         {
-          "representativeTitle": "Apple AirTags Second Generation Now Available On Sale",
+          "representativeTitle": "Apple AirTags Second Generation Now Available Discounted",
           "sources": [
             "Wired"
           ],
@@ -2468,7 +2229,7 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 3,
           "importance": 30,
-          "slug": "apple-airtags-second-generation-now-available-on-sale"
+          "slug": "apple-airtags-second-generation-now-available-discounted"
         },
         {
           "representativeTitle": "Reviewer Prefers Air Over New Google Fitbit Device",
@@ -2497,6 +2258,28 @@ export const newsData = {
     {
       "name": "Science",
       "children": [
+        {
+          "representativeTitle": "AI Achieves Breakthroughs Across Multiple Scientific Fields",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "AI makes discoveries in mathematics, computer science, physics, OpenAI says",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/economy/2026/10/27/ai-makes-discoveries-in-mathematics-computer-science-physics-openai-says?traffic_source=rss",
+              "pubDate": "2026-10-27T05:01:13.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "ai-achieves-breakthroughs-across-multiple-scientific-fields"
+        },
         {
           "representativeTitle": "Private Telescope Targets Twenty-Seven Exoplanets For Study",
           "sources": [
@@ -2540,28 +2323,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "new-gene-system-controls-multiple-cell-types-independently"
-        },
-        {
-          "representativeTitle": "Nanomaterial breakthrough promises enhanced green hydrogen fuel.",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Water into fuel: The new nanomaterial that could upgrade green hydrogen",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-fuel-nanomaterial-green-hydrogen.html",
-              "pubDate": "2026-10-26T23:00:03.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "nanomaterial-breakthrough-promises-enhanced-green-hydrogen-fuel"
         }
       ]
     }
