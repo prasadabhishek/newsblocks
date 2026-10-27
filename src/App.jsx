@@ -3,7 +3,6 @@ import NewsTreemap from './components/NewsTreemap';
 import MobileSwipeableTreemap from './components/MobileSwipeableTreemap';
 import { newsData } from './data';
 
-import { Github, Linkedin } from 'lucide-react';
 
 function App() {
   const [dimensions, setDimensions] = useState({
@@ -284,11 +283,7 @@ function App() {
         </details>
 
         <div className="social-links">
-          <span className="made-by">Made by Abhishek Prasad</span>
-          <a href="https://github.com/prasadabhishek" target="_blank" rel="noopener noreferrer" className="social-link">
-            <Github size={14} />
-            <span>GitHub</span>
-          </a>
+          <span className="made-by">NewsBlocks</span>
         </div>
       </footer>
     </div>
