@@ -1,140 +1,87 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-28T10:57:33.549Z",
+  "lastUpdated": "2026-10-28T15:05:59.432Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Israel Deadlock Follows; Nordic Leaders Meet on Putin",
+          "representativeTitle": "Spain reveals wreckage of deadly train crash site.",
           "sources": [
             "BBC World",
-            "The Guardian",
             "Al Jazeera",
-            "SCMP",
-            "Euronews",
-            "Google World"
-          ],
-          "citationCount": 6,
-          "rawArticles": [
-            {
-              "title": "Norway and Finland leaders hold rare call with Putin",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-27T18:28:23.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Oleshky truce appears to hold as two European leaders have ‘frank’ call with Putin",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/27/oleshky-truce-ukraine-russia-putin",
-              "pubDate": "2026-10-27T17:43:02.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Norway and Finland hold rare phone call with Putin: What that means",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/28/norway-and-finland-hold-rare-phone-call-with-putin-what-that-means?traffic_source=rss",
-              "pubDate": "2026-10-28T10:31:22.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Norway, Finland leaders hold ‘frank’ talk with Putin on ending Ukraine war",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3372326/norway-finland-leaders-hold-frank-talk-putin-ending-ukraine-war",
-              "pubDate": "2026-10-27T12:14:16.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Europe Today: Israel faces deadlock after vote, Nordic leaders hold rare Putin call",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/28/europe-today-israel-faces-deadlock-after-vote-nordic-leaders-hold-rare-putin-call",
-              "pubDate": "2026-10-28T07:01:50.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Putin call pits Finland and Norway against Denmark and Sweden",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUDVhdlNGeTV4dDVxVXRfdF80N2Q3cFVQd3FWeFFNczNQV1VQUVZVeTVyME5VSktUX0pIQmxmZG5vb2lSX1lROW04TTEyQWtSelF4cm81d1psNWNsOVBHSW1sQU1IQzFjT3J1a0xfSjJQTFZBTmhRVkFEem9sVFpTeHRJTXZUWVlwRzloMEwwek54bTlWTGVUUDh4Nk45dw?oc=5",
-              "pubDate": "2026-10-27T16:20:39.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 100,
-          "slug": "israel-deadlock-follows-nordic-leaders-meet-on-putin"
-        },
-        {
-          "representativeTitle": "Israeli Polls Show No Clear Winner; Arab Gains Noted",
-          "sources": [
-            "The Guardian",
-            "Al Jazeera",
-            "France 24",
-            "Euronews"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "Israel election results live: vote count continues as exit polls suggest no clear winner",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
-              "pubDate": "2026-10-28T10:47:33.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Israel’s stock market drops as exit polls show no clear election winner",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/economy/2026/10/28/israels-stock-market-drops-as-exit-polls-show-no-clear-election-winner?traffic_source=rss",
-              "pubDate": "2026-10-28T09:55:47.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Israel election: There's no clear winner",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/israel-election-there-s-no-clear-winner",
-              "pubDate": "2026-10-28T09:40:15.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Israel: First exit polls show no clear winner, Arab parties make gains",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261027-israel-first-exit-polls-show-no-clear-winner-arab-parties-make-gains",
-              "pubDate": "2026-10-27T21:41:42.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Israel votes in a pivotal election but no clear winner emerges",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/28/israel-votes-in-a-pivotal-election-but-no-clear-winner-emerges",
-              "pubDate": "2026-10-28T07:36:28.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 100,
-          "slug": "israeli-polls-show-no-clear-winner-arab-gains-noted"
-        },
-        {
-          "representativeTitle": "Spain train crash kills ten; death toll expected to rise.",
-          "sources": [
-            "The Guardian",
             "France 24",
             "Euronews",
             "Le Monde"
           ],
-          "citationCount": 4,
+          "citationCount": 5,
           "rawArticles": [
             {
-              "title": "Spain train crash: at least 10 dead after collision in Toledo province",
+              "title": "What we know so far about deadly Spain train crash",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-28T14:53:38.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Photos: Spain high-speed train crash kills 30",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/gallery/2026/10/28/photos-spain-high-speed-train-collision-kills-30?traffic_source=rss",
+              "pubDate": "2026-10-28T12:46:09.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Deadly high-speed train collision in Spain",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/deadly-high-speed-train-collision-in-spain?traffic_source=rss",
+              "pubDate": "2026-10-28T11:02:31.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Spain: At least 64 dead in high-speed train crash",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261028-spain-at-least-64-dead-in-high-speed-train-crash",
+              "pubDate": "2026-10-28T14:33:17.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Spain: First footage reveals wreckage of deadly high-speed train crash",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/video/2026/10/28/spain-first-footage-reveals-wreckage-of-deadly-high-speed-train-crash",
+              "pubDate": "2026-10-28T11:16:14.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Train crash in central Spain kills at least 64, injures 80",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/28/train-crash-in-central-spain-kills-at-least-10_6765871_4.html",
+              "pubDate": "2026-10-28T10:05:37.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 100,
+          "slug": "spain-reveals-wreckage-of-deadly-train-crash-site"
+        },
+        {
+          "representativeTitle": "Spain Train Crash Claims Dozens Lives in Toledo",
+          "sources": [
+            "The Guardian",
+            "France 24",
+            "SCMP",
+            "Euronews",
+            "Google World"
+          ],
+          "citationCount": 5,
+          "rawArticles": [
+            {
+              "title": "Spain train crash: at least 64 dead after collision in Toledo province",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo",
-              "pubDate": "2026-10-28T09:59:53.000Z",
+              "pubDate": "2026-10-28T13:22:21.000Z",
               "tier": 1
             },
             {
@@ -152,200 +99,51 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "High-speed train crash in Spain kills at least 10, death toll likely to rise",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/28/train-crash-in-spain-reportedly-kills-at-least-10-people-multiple-injured",
-              "pubDate": "2026-10-28T09:28:26.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Train crash in central Spain kills at least 10",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/28/train-crash-in-central-spain-kills-at-least-10_6765871_4.html",
-              "pubDate": "2026-10-28T10:05:37.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 85,
-          "slug": "spain-train-crash-kills-ten-death-toll-expected-to-rise"
-        },
-        {
-          "representativeTitle": "Train Collision in Spain Kills At Least Ten People",
-          "sources": [
-            "The Guardian",
-            "Al Jazeera",
-            "SCMP"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Ten reported dead after two trains collide in Spain – latest updates",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
-              "pubDate": "2026-10-28T10:49:49.000Z",
-              "tier": 1
-            },
-            {
-              "title": "At least 10 killed after two trains collide in Spain, authorities say",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/28/injuries-reported-after-two-trains-collide-in-spain?traffic_source=rss",
-              "pubDate": "2026-10-28T09:26:47.000Z",
-              "tier": 1
-            },
-            {
-              "title": "At least 10 dead in Spain after high-speed trains collide",
+              "title": "At least 64 dead in Spain after high-speed trains collide",
               "source": "SCMP",
               "link": "https://www.scmp.com/news/world/europe/article/3372446/least-10-dead-spain-after-high-speed-trains-collide",
               "pubDate": "2026-10-28T09:53:03.000Z",
               "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 65,
-          "slug": "train-collision-in-spain-kills-at-least-ten-people"
-        },
-        {
-          "representativeTitle": "Israeli election deadlock stalls government formation process.",
-          "sources": [
-            "France 24",
-            "Le Monde"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "🔴 Live: Israel election deadlock leaves Netanyahu and rival Eisenkot short of majority",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20261027-live-polls-open-in-first-israeli-election-since-october-7-attack",
-              "pubDate": "2026-10-28T06:27:07.000Z",
-              "tier": 1
             },
             {
-              "title": "Israeli elections: Netanyahu and opposition both fall short of a majority",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/video/2026/10/28/israeli-elections-netanyahu-and-opposition-both-fall-short-of-a-majority_6765872_4.html",
-              "pubDate": "2026-10-28T10:22:03.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "israeli-election-deadlock-stalls-government-formation-process"
-        },
-        {
-          "representativeTitle": "Israel Awaits Election Results; Netanyahu's Status Uncertain",
-          "sources": [
-            "France 24",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Israelis await final election results as Netanyahu remains far from defeated",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261028-israelis-await-final-election-results-as-netanyahu-remains-far-from-defeated",
-              "pubDate": "2026-10-28T10:12:33.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Israelis await final election results as Netanyahu remains far from defeated",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVkhkVlMyeHNjUXZ4YXlWMVNFVXZMWkwzRW9qQUlxWkhVZHJiTlhRLTFIbjJzOUVDOE1QQ09acFBOM0xPOUstY1NMVXV5RlYzaVl5cVhvVE9MZ3lpQk44RFhfSjR2eEVFYm1RekhzVzBFMVI0TWxjM2Znbi1rSkhxVndVenhQdWpJdGgtNG1LQTh2dUdWbmQ4SEwwWmtvMEVEcGh2SUljSkpBYWloNnVmcWhiOTVzTFl5dEE?oc=5",
-              "pubDate": "2026-10-28T10:09:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "israel-awaits-election-results-netanyahus-status-uncertain"
-        },
-        {
-          "representativeTitle": "French Senate Passes Bill on Protest Damages Fines",
-          "sources": [
-            "France 24",
-            "Euronews"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "French Senate debates new 'rioters pay' bill",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/business/20261028-french-senate-debates-new-rioters-pay-bill",
-              "pubDate": "2026-10-28T08:43:09.000Z",
-              "tier": 1
-            },
-            {
-              "title": "French Senate backs 'make rioters pay' bill despite rights concerns",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261028-french-senate-backs-bill-to-make-protesters-pay-for-unrest-damage-despite-rights-concern",
-              "pubDate": "2026-10-28T00:10:35.000Z",
-              "tier": 1
-            },
-            {
-              "title": "French Senate backs bill making protesters pay up to €10,000 for unrest damage",
+              "title": "Pictures show rescue efforts after deadly Spain train collision",
               "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/28/french-senate-backs-bill-making-protesters-pay-up-to-10000-for-unrest-damage",
-              "pubDate": "2026-10-28T08:54:16.000Z",
+              "link": "https://www.euronews.com/2026/10/28/pictures-show-rescue-efforts-after-deadly-spain-train-collision",
+              "pubDate": "2026-10-28T13:47:22.000Z",
               "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "french-senate-passes-bill-on-protest-damages-fines"
-        },
-        {
-          "representativeTitle": "Cyclone Arnab makes landfall in Andhra Pradesh region.",
-          "sources": [
-            "Al Jazeera",
-            "Le Monde"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Cyclone Arnab makes landfall in India’s Andhra Pradesh",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh?traffic_source=rss",
-              "pubDate": "2026-10-28T08:07:26.000Z",
-              "tier": 1
             },
             {
-              "title": "India evacuates tens of thousands as Cyclone Arnab makes landfall",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/india/article/2026/10/28/india-evacuates-tens-of-thousands-as-cyclone-arnab-makes-landfall_6765642_168.html",
-              "pubDate": "2026-10-28T01:49:22.000Z",
+              "title": "Spain train crash kills at least 68 as witnesses describe devastating scenes",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNWtOSHNOSFBibkl5WkRpN0IyaGZWbnhhRmtwenJfa2M3cXVucE9qQnhreUhDZmFvMTYwcGR5T3p0YjhZTjh3NV9mWHBqUUpjYmVaWHFGS2NEay1QVnZocWRiZ3A4Q1pCVXJyWlY0RTFEdnV5SVljTkZUNlhtQ1IyN2NPdXpCUQ?oc=5",
+              "pubDate": "2026-10-28T14:52:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "cyclone-arnab-makes-landfall-in-andhra-pradesh-region"
+          "relevance_score": 6,
+          "importance": 85,
+          "slug": "spain-train-crash-claims-dozens-lives-in-toledo"
         },
         {
-          "representativeTitle": "Bolsonaro Exits Brazil Following Election Defeat to Lula",
+          "representativeTitle": "Bolsonaro Lands Miami Following Brazilian Election Loss",
           "sources": [
             "The Guardian",
-            "SCMP"
+            "Al Jazeera",
+            "SCMP",
+            "Euronews"
           ],
-          "citationCount": 2,
+          "citationCount": 4,
           "rawArticles": [
+            {
+              "title": "Flávio Bolsonaro lands in Miami after Brazil election loss",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
+              "pubDate": "2026-10-28T13:39:01.000Z",
+              "tier": 1
+            },
             {
               "title": "Flávio Bolsonaro flees Brazil after presidential election loss, reports say",
               "source": "The Guardian",
@@ -354,57 +152,393 @@ export const newsData = {
               "tier": 1
             },
             {
+              "title": "Flavio Bolsonaro lands in Miami after losing Brazil’s presidential election",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/28/flavio-bolsonaro-lands-in-miami-after-losing-brazils-presidential-election?traffic_source=rss",
+              "pubDate": "2026-10-28T14:32:16.000Z",
+              "tier": 1
+            },
+            {
               "title": "Flavio Bolsonaro leaves Brazil for US after shock election loss to Lula",
               "source": "SCMP",
               "link": "https://www.scmp.com/news/world/americas/article/3372350/brazil-wonders-where-earth-flavio-bolsonaro",
               "pubDate": "2026-10-27T17:41:44.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Flavio Bolsonaro arrives in Miami after fleeing Brazil",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/28/us-to-grant-flavio-bolsonaro-visa-as-he-flees-brazil-and-makes-brief-stop-in-ecuador-via-a",
+              "pubDate": "2026-10-28T11:14:24.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "bolsonaro-exits-brazil-following-election-defeat-to-lula"
+          "relevance_score": 6,
+          "importance": 80,
+          "slug": "bolsonaro-lands-miami-following-brazilian-election-loss"
         },
         {
-          "representativeTitle": "Police Kill Attacker Near Israeli Embassy in Serbia",
+          "representativeTitle": "Brazil Election and Bolsonaro's Departure Under Scrutiny",
           "sources": [
-            "Sky News",
-            "Euronews",
-            "Le Monde"
+            "NY Times",
+            "ABC News Top",
+            "Google US"
           ],
           "citationCount": 3,
           "rawArticles": [
+            {
+              "title": "Flávio Bolsonaro Lands in Miami After Fleeing Brazil",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/28/world/americas/flavio-bolsonaro-us-miami-brazil-trump.html",
+              "pubDate": "2026-10-28T14:41:48.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Flávio Bolsonaro Leaves Brazil for the U.S. After Election Defeat",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/27/world/americas/brazil-flavio-bolsonaro-flees-election.html",
+              "pubDate": "2026-10-28T10:43:41.000Z",
+              "tier": 1
+            },
+            {
+              "title": "What to Know About Brazil’s Election and Flávio Bolsonaro’s Departure",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/26/world/americas/brazil-election-lula-win-what-to-know.html",
+              "pubDate": "2026-10-28T14:10:55.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Flavio Bolsonaro arrives in the US after fleeing Brazil following election defeat",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/International/brazilian-authorities-investigating-flvio-bolsonaro-fled-us-election/story?id=137618388",
+              "pubDate": "2026-10-28T14:55:38.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Flávio Bolsonaro lands in Miami after Brazil election loss",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSDFQcDMtUURYOUoyeGM0S29OTzZROUlCazJ6RVVybHJLZmdJQ2N0ZUpfNHlYcG5vaXN4STBhNFhyRWJHeXI0YjVaVDVtXy1ldkRuUkt1aDE5WWtCZm5QN1hxNEZ0bThwM3pFaklmd1l0c01yTXRXUV9NdGI1a2RUZDgzX2MxMEs5MGJ1NXdzNm5ra3JBYWsxTTJoTDZ2b0lPc1JsSUZ1ZE0?oc=5",
+              "pubDate": "2026-10-28T11:32:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 75,
+          "slug": "brazil-election-and-bolsonaros-departure-under-scrutiny"
+        },
+        {
+          "representativeTitle": "Spain Train Collision Death Toll Rises To Sixty-Four",
+          "sources": [
+            "The Guardian",
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Death toll rises to 64 with dozens injured after high-speed train collision in Spain – latest updates",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
+              "pubDate": "2026-10-28T14:49:47.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Spain: Dozens killed after one high-speed train slams into another",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261028-spain-dozens-killed-after-one-high-speed-train-slams-into-another",
+              "pubDate": "2026-10-28T14:34:15.000Z",
+              "tier": 1
+            },
+            {
+              "title": "🔴 Death toll from train collision in central Spain rises to 64, regional government says",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261028-two-high-speed-trains-collide-in-southern-spain-rail-operator-says",
+              "pubDate": "2026-10-28T13:11:18.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 70,
+          "slug": "spain-train-collision-death-toll-rises-to-sixty-four"
+        },
+        {
+          "representativeTitle": "Israeli Election Lacks Clear Winner Amid Uncertainty",
+          "sources": [
+            "BBC World",
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Israel's election result is messy",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/c893zeknlvnno?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-28T14:26:24.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Israel election: There's no clear winner",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/israel-election-there-s-no-clear-winner",
+              "pubDate": "2026-10-28T09:40:15.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "israeli-election-lacks-clear-winner-amid-uncertainty"
+        },
+        {
+          "representativeTitle": "Israeli Election Counting Sparks Hope and Despair",
+          "sources": [
+            "Al Jazeera",
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Israeli voters: hope and despair as election ballots are counted",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/israeli-voters-hope-and-despair-as-election-ballots-are-counted?traffic_source=rss",
+              "pubDate": "2026-10-28T11:55:08.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Israeli election: As votes are counted, no clear winner emerges",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261028-israeli-election-as-votes-are-counted-no-clear-winner-emerges",
+              "pubDate": "2026-10-28T11:32:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "israeli-election-counting-sparks-hope-and-despair"
+        },
+        {
+          "representativeTitle": "Israeli coalition talks stall amid majority failure.",
+          "sources": [
+            "BBC World",
+            "The Guardian"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Netanyahu and Eisenkot face difficult paths to power as neither set to win majority",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cjy561y4pl56o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-28T10:35:13.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Coalition talks loom in Israel as Netanyahu and Eisenkot blocs set to fall short of majority",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/28/israel-election-exit-polls-suggest-netanyahu-eisenkot-blocs-tied-ntwnfb",
+              "pubDate": "2026-10-28T11:21:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "israeli-coalition-talks-stall-amid-majority-failure"
+        },
+        {
+          "representativeTitle": "Fuel Costs Stranding Luxury Cruise Passengers in Cambodia",
+          "sources": [
+            "BBC World",
+            "Sky News",
+            "BBC Business",
+            "Google Stocks"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-28T10:31:22.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Cruise ship left stranded in Cambodia after 'soaring fuel costs'",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/cruise-ship-mv-odyssey-stranded-in-cambodia-after-soaring-fuel-costs-13604720",
+              "pubDate": "2026-10-28T10:05:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+              "source": "BBC Business",
+              "link": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-28T10:31:22.000Z",
+              "tier": 2
+            },
+            {
+              "title": "A US cruise ship suspends a global voyage in Asia due to fuel costs, stranding 200 passengers",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcWI4RUhjcG1nTkdOMzYyQ1NMNTBqWTFCNTlhWjlMMFNnYlZMc3ZMMHpfWGQyZnAxd2ViT2hwSU1uS1FleDl1V0ZkTENPSFdBYVpSR1kxN2k5S2lzbHd4ZUowMkdZRjZhaV9VSS1scERpUTR2dG9xMjJiYlJMZ2hDY2JXc0dyaWJNTHUyRXpqUDFxUQ?oc=5",
+              "pubDate": "2026-10-28T13:02:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 60,
+          "slug": "fuel-costs-stranding-luxury-cruise-passengers-in-cambodia"
+        },
+        {
+          "representativeTitle": "Oleshky Truce Details Reported Amid Diplomatic Efforts",
+          "sources": [
+            "BBC World",
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/c687z5ne1w4ro?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-27T20:42:38.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Ukraine: Melania Trump-brokered local ceasefire holds for second day",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261028-ukraine-melania-trump-brokered-local-ceasefire-holds-for-second-day",
+              "pubDate": "2026-10-28T12:42:31.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 60,
+          "slug": "oleshky-truce-details-reported-amid-diplomatic-efforts"
+        },
+        {
+          "representativeTitle": "Denmark criticizes Nordic allies over Putin calls.",
+          "sources": [
+            "BBC World",
+            "The Guardian",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Norway and Finland leaders hold rare call with Putin",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-27T18:28:23.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Oleshky truce appears to hold as two European leaders have ‘frank’ call with Putin",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/27/oleshky-truce-ukraine-russia-putin",
+              "pubDate": "2026-10-27T17:43:02.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Denmark's Frederiksen criticizes Finland and Norway for calling Putin without coordinating with allies",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNRWpsSDA4UFRLSUF3Mk9DemtfRXZQZXFsem1Qd0J3S1gtaU9OM0VzQmxIYWFpMzhVTnlOZU1xOU5LRFBwLTlUZ1EwRGM3MDhXV3NaRE1vRUF6bmRKTGhpZS1lbTJkMzRvbkd0SlNkTTZpOE53NWczUVFoVjJsVzMxMGtmaWVyUGVZMEpMSkt3NDFQNVpSazV4bGFHRl9qUGJ0T1k4X2E0QUtoSHFpUjFqTGduMEd3YkxUSERiYnN0d01JZUJQaEZINVp5cVF6TFRkLUdJWUg5X0ljWmxCY3hOSXc5SDMxYmhEN200Y0E3M0JzTENuR0VRaHVzbkbSAfwBQVVfeXFMUGluU0xaNlFWSDFxWU5hcmtvYU11VFNONnItYjhYY3p6RDBtVDJHa3JOSEJUX3BmUWt0cWs1bnFJbzk5MXNxZkJiSUQwTFBlZGEzYTdSSmI4ZHdCanF2cndnUDlBQnZwY01PYTNFUG51WFU1VldnbG9hcDJRZkZSLWQxLVBvektIQmxOaWhoZnpMaUhkeEFrUEhHMHlyTktablcwWlFvb0xTdjlvajlQcjFoMEFXeDRXNmdZRENtaTJFTnd3eExES1A4MGE2czl4Zm1ZRzVKR21wRFY0UmQxYUJPNklQeVROa19YVnpYV2ZYWHRhT2xsWTdzZlI3?oc=5",
+              "pubDate": "2026-10-28T03:09:34.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "denmark-criticizes-nordic-allies-over-putin-calls"
+        },
+        {
+          "representativeTitle": "Assailant Killed After Attacking Police Officer in Serbia",
+          "sources": [
+            "BBC World",
+            "SCMP",
+            "Sky News"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-28T10:17:54.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Assailant outside Israeli embassy in Serbia killed after attacking police officer",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3372460/assailant-outside-israeli-embassy-serbia-killed-after-attacking-police-officer",
+              "pubDate": "2026-10-28T11:06:41.000Z",
+              "tier": 2
+            },
             {
               "title": "Knife attacker shot dead by police outside Israeli embassy",
               "source": "Sky News",
               "link": "https://news.sky.com/story/serbia-knife-attacker-shot-dead-by-police-outside-israeli-embassy-in-belgrade-13604683",
               "pubDate": "2026-10-28T10:00:00.000Z",
               "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 60,
+          "slug": "assailant-killed-after-attacking-police-officer-in-serbia"
+        },
+        {
+          "representativeTitle": "Bolsonaro Flees Argentina For Ecuador After Brazil",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Brazil: Flavio Bolsonaro leaves Argentina for alleged US asylum after defeat",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261028-brazil-flavio-bolsonaro-leaves-argentina-for-alleged-us-asylum-after-defeat",
+              "pubDate": "2026-10-28T11:43:38.000Z",
+              "tier": 1
             },
             {
-              "title": "Serbian police kill attacker outside Israeli Embassy in suspected ‘terrorist attack’",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/28/serbian-police-kill-attacker-outside-israeli-embassy-in-suspected-terrorist-attack",
-              "pubDate": "2026-10-28T07:27:16.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Serbian police kill attacker outside Israeli embassy, as country raises terrorism threat level to 'red'",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/28/serbian-police-kill-attacker-outside-israeli-embassy-as-country-raises-terrorism-threat-level-to-red_6765873_4.html",
-              "pubDate": "2026-10-28T10:22:43.000Z",
-              "tier": 2
+              "title": "Flavio Bolsonaro on way to Ecuador from Argentina after fleeing Brazil",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261028-flavio-bolsonaro-on-way-to-ecuador-from-argentina-after-fleeing-brazil",
+              "pubDate": "2026-10-28T10:14:29.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "police-kill-attacker-near-israeli-embassy-in-serbia"
+          "importance": 65,
+          "slug": "bolsonaro-flees-argentina-for-ecuador-after-brazil"
         },
         {
           "representativeTitle": "Zelenskyy Signals Opening to Russian Security Guarantees",
@@ -429,61 +563,17 @@ export const newsData = {
           "slug": "zelenskyy-signals-opening-to-russian-security-guarantees"
         },
         {
-          "representativeTitle": "Houthi Strike Hits Aramco Amid Israeli Political Deadlock",
+          "representativeTitle": "Netanyahu bloc fails to secure governing majority.",
           "sources": [
-            "Bloomberg Markets"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Houthi Strike Hits Aramco Refinery as Israel Election Ends in Deadlock",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-28/horizons-middle-east-africa-10-28-2026-video",
-              "pubDate": "2026-10-28T08:08:08.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "houthi-strike-hits-aramco-amid-israeli-political-deadlock"
-        },
-        {
-          "representativeTitle": "Ceasefire Holds In Occupied Ukrainian Town For Days",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Ukraine: Ceasefire holds for its first 30 hours in occupied Oleshky",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261028-ukraine-ceasefire-holds-for-its-first-30-hours-in-occupied-oleshky",
-              "pubDate": "2026-10-28T10:46:51.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ceasefire-holds-in-occupied-ukrainian-town-for-days"
-        },
-        {
-          "representativeTitle": "Israeli Politics Stalemate Hinders Path to Power",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Netanyahu and Eisenkot face difficult paths to power as neither set to win majority",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cjy561y4pl56o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-28T10:35:13.000Z",
+              "title": "Israel election results live: Netanyahu bloc and main opposition set to fall short of majority as 92% of ballots counted",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
+              "pubDate": "2026-10-28T14:47:51.000Z",
               "tier": 1
             }
           ],
@@ -492,86 +582,86 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "israeli-politics-stalemate-hinders-path-to-power"
+          "slug": "netanyahu-bloc-fails-to-secure-governing-majority"
         },
         {
-          "representativeTitle": "US Advises Ships to Bypass Strait of Hormuz",
+          "representativeTitle": "Bolsonaro's US Arrival Marks Political Exile After Brazil",
           "sources": [
-            "Bloomberg Markets"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US Tells Ships to Avoid Unnecessary Transits Through Hormuz",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-28/us-tells-ships-to-avoid-unnecessary-transits-through-hormuz",
-              "pubDate": "2026-10-28T10:31:32.000Z",
+              "title": "Bolsonaro lands in the US after fleeing Brazil",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/ec7a3e3e-21e3-44de-81ee-db2f2073bee3?syn-25a6b1a6=1",
+              "pubDate": "2026-10-28T14:47:14.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "us-advises-ships-to-bypass-strait-of-hormuz"
-        },
-        {
-          "representativeTitle": "Netanyahu nears majority in Israeli political maneuvering.",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Israel: Netanyahu edges closer to a majority",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/israel-netanyahu-edges-closer-to-a-majority",
-              "pubDate": "2026-10-28T10:20:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "netanyahu-nears-majority-in-israeli-political-maneuvering"
-        },
-        {
-          "representativeTitle": "Bolsonaro Flees Argentina For Ecuador After Brazil",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Flavio Bolsonaro on way to Ecuador from Argentina after fleeing Brazil",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261028-flavio-bolsonaro-on-way-to-ecuador-from-argentina-after-fleeing-brazil",
-              "pubDate": "2026-10-28T10:14:29.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Business",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "bolsonaro-flees-argentina-for-ecuador-after-brazil"
+          "slug": "bolsonaros-us-arrival-marks-political-exile-after-brazil"
         },
         {
-          "representativeTitle": "Hormuz Spill Closes UAE Beaches Amid Environmental Crisis",
+          "representativeTitle": "Netanyahu's political edge fueled by public fear.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The fear factor giving Netanyahu the edge",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/1631483b-69ee-424c-b0d0-9086ae1efece?syn-25a6b1a6=1",
+              "pubDate": "2026-10-28T14:35:06.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "netanyahus-political-edge-fueled-by-public-fear"
+        },
+        {
+          "representativeTitle": "Arab parties' role questioned in Israeli election outcome.",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Hormuz oil spill forces closure of UAE beaches",
+              "title": "Why Arab parties may not be the ‘kingmakers’ in this Israeli election",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/hormuz-oil-spill-forces-closure-of-uae-beaches?traffic_source=rss",
-              "pubDate": "2026-10-28T10:02:32.000Z",
+              "link": "https://www.aljazeera.com/news/2026/10/28/can-israeli-leader-eisenkot-ally-with-arab-parties-to-unseat-netanyahu?traffic_source=rss",
+              "pubDate": "2026-10-28T14:30:17.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "arab-parties-role-questioned-in-israeli-election-outcome"
+        },
+        {
+          "representativeTitle": "Iran: Espionage Blurs Lines Between Security and Dissent",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Espionage threats blur lines between security and dissent in Iran",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/28/iran-faces-espionage-attempts-but-using-threat-for-crackdown-on-opponents?traffic_source=rss",
+              "pubDate": "2026-10-28T14:03:08.000Z",
               "tier": 1
             }
           ],
@@ -580,7 +670,59 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "hormuz-spill-closes-uae-beaches-amid-environmental-crisis"
+          "slug": "iran-espionage-blurs-lines-between-security-and-dissent"
+        },
+        {
+          "representativeTitle": "Man convicted of harassing journalists in court.",
+          "sources": [
+            "The Guardian",
+            "Sky News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Tommy Robinson found guilty of harassing journalists",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/uk-news/2026/oct/28/tommy-robinson-found-guilty-of-harassing-journalists",
+              "pubDate": "2026-10-28T14:39:34.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Tommy Robinson guilty of harassing two journalists",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/tommy-robinson-found-guilty-of-harassing-two-journalists-13604466",
+              "pubDate": "2026-10-28T14:20:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "man-convicted-of-harassing-journalists-in-court"
+        },
+        {
+          "representativeTitle": "China's Car Exports Signal Domestic Economic Strain",
+          "sources": [
+            "CNBC Economy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Why China is desperate to ship cars outside of the country",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/10/28/china-car-exports.html",
+              "pubDate": "2026-10-28T13:17:20.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "chinas-car-exports-signal-domestic-economic-strain"
         },
         {
           "representativeTitle": "Israeli Election Shows Netanyahu Leading, No Clear Winner",
@@ -605,263 +747,201 @@ export const newsData = {
           "slug": "israeli-election-shows-netanyahu-leading-no-clear-winner"
         },
         {
-          "representativeTitle": "Bolsonaro Leaves Brazil Following Election Defeat Outcome",
+          "representativeTitle": "Egypt fines editor, shuts down independent news outlet.",
           "sources": [
-            "NY Times",
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown",
+              "pubDate": "2026-10-28T14:16:24.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "egypt-fines-editor-shuts-down-independent-news-outlet"
+        },
+        {
+          "representativeTitle": "High-Speed Train Collision Claims At Least Sixty-Four Lives",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "At least 64 killed in collision of high-speed trains in Spain",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/3500a00d-d676-4460-83f8-8ea2bfce1049?syn-25a6b1a6=1",
+              "pubDate": "2026-10-28T14:02:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "high-speed-train-collision-claims-at-least-sixty-four-lives"
+        },
+        {
+          "representativeTitle": "Woman Convicted of ISIS Training After Marriage",
+          "sources": [
+            "ABC News US",
             "Google US"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Flávio Bolsonaro Leaves Brazil for the U.S. After Election Defeat",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/27/world/americas/brazil-flavio-bolsonaro-flees-election.html",
-              "pubDate": "2026-10-28T10:43:41.000Z",
-              "tier": 1
+              "title": "New York woman is convicted of Islamic State training after becoming a teen bride to a fighter",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/new-york-woman-convicted-islamic-state-training-after-137616972",
+              "pubDate": "2026-10-27T20:14:58.000Z",
+              "tier": 2
             },
             {
-              "title": "Brazil's Flávio Bolsonaro and family will get US visas after election loss, State Department says",
+              "title": "U.S. woman who became ISIS teen bride convicted of getting weapons training from terror group",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYVBiQjE0QTJza2Y3LV9qZi1mSWh6QzY4ZXRqYmVzNGZDb2UxU0VaODliT1N6WTFlY1pjcTJhdnB2dHFRWGhUMnlPSHBnemIyVnBiaEpwaWF5NkxNLWZPZElRTjM4U0xwRkpoZnhSekEtdllFT18wdThnQS1vU2EySTA1UlIzTV94bG5aSl9yZW1xQXBlYmJWVDFYSmNuZw?oc=5",
-              "pubDate": "2026-10-28T04:58:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOb2EwaEMtQXpHSVZEa2JWaGlVUEctdVFBNEJWRlhtRm82NjJZZUE4Q0x3OHRPXzFxUE1fS1V1Z1dhQVNDQ1VEdjZZTThWOFVkR3JFZHlCaVhGU0ZwSkhfeXVOUDJtbTVuUU83N0tkeGRCclJBWDZfZUlRQlZFMy1MNEFUUVFaVWtoT29UdlFHX1FmU2tu?oc=5",
+              "pubDate": "2026-10-28T11:06:42.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 50,
-          "slug": "bolsonaro-leaves-brazil-following-election-defeat-outcome"
+          "slug": "woman-convicted-of-isis-training-after-marriage"
         },
         {
-          "representativeTitle": "Cambodia Strands Cruise Passengers; Rescue Efforts Underway",
+          "representativeTitle": "Spanish Minister Addresses Train Crash Aftermath Press Conference",
           "sources": [
-            "BBC World",
-            "Euronews"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-28T10:31:22.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Abandon ship! Around 200 ‘cruise for life’ passengers stranded in Cambodia",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/28/abandon-ship-around-200-cruise-for-life-passengers-stranded-in-cambodia",
-              "pubDate": "2026-10-28T10:30:49.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "cambodia-strands-cruise-passengers-rescue-efforts-underway"
-        },
-        {
-          "representativeTitle": "Bolsonaro arrives in US after Brazilian election loss.",
-          "sources": [
-            "FT International"
+            "France 24"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Bolsonaro lands in US after fleeing Brazil following election defeat",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/ec7a3e3e-21e3-44de-81ee-db2f2073bee3?syn-25a6b1a6=1",
-              "pubDate": "2026-10-28T08:42:08.000Z",
+              "title": "REPLAY: Spanish Transport Minister gives press conference on train crash",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261028-replay-spanish-transport-minister-gives-press-conference-on-train-crash",
+              "pubDate": "2026-10-28T14:43:33.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "bolsonaro-arrives-in-us-after-brazilian-election-loss"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "spanish-minister-addresses-train-crash-aftermath-press-conference"
         },
         {
-          "representativeTitle": "Train collision kills dozens in central Spain incident",
+          "representativeTitle": "Fatal train collisions raise doubts on Spain's rail.",
           "sources": [
-            "France 24",
-            "Google World"
+            "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Dozens killed in high-speed train collision in central Spain",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20261028-two-high-speed-trains-collide-in-southern-spain-rail-operator-says",
-              "pubDate": "2026-10-28T09:00:03.000Z",
+              "title": "Second fatal train collision this year casts doubt over Spain’s high-speed rail network",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/28/analysis-fatal-collision-doubt-over-spain-high-speed-rail",
+              "pubDate": "2026-10-28T14:29:34.000Z",
               "tier": 1
-            },
-            {
-              "title": "Ten people confirmed dead in high-speed Spain train crash, local media report",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfRFl6WmZqOFVDQjg1NU5IbGJOZlA0Nm1UeTJfWUpiR2Frcjd1ZU9CeUZBVHZQN2hpSWFTQWNqaUJXZVdnQWxmMVNZcXNMa0NLNW5vcU1iZzZVUXNrWFAtcVg2YldaWFg4UEc2dFhpSU1NbmvSAXhBVV95cUxQV1FtLXNuMEUwdV9KRVVhU054RHlNTmh3VTRiS3ZVdlUtdjlEQjVzOFlzR3ZoNV9RbFVWNFNkSHpLN1RtN19GTWY5bmRGV0Jzanh1N3g1STFHZGk4ODZzX09PUWI2QUx2VnU5N3RNT1EzN1pDakVQVms?oc=5",
-              "pubDate": "2026-10-28T09:35:17.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "train-collision-kills-dozens-in-central-spain-incident"
+          "importance": 45,
+          "slug": "fatal-train-collisions-raise-doubts-on-spains-rail"
         },
         {
-          "representativeTitle": "Canada and UAE Sign New Trade Agreement Deal",
+          "representativeTitle": "Botswana seeks fuel supply from Nigeria to Oman.",
           "sources": [
-            "Al Jazeera",
-            "Google World"
+            "Bloomberg Markets"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Canada signs trade deal with UAE in push for non-US markets",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/28/canada-signs-trade-deal-with-uae-in-push-for-non-us-markets?traffic_source=rss",
-              "pubDate": "2026-10-28T08:50:55.000Z",
+              "title": "Landlocked Botswana Looks to Secure Fuel From Nigeria to Oman",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-28/landlocked-botswana-looks-to-secure-fuel-from-nigeria-to-oman",
+              "pubDate": "2026-10-28T13:51:12.000Z",
               "tier": 1
-            },
-            {
-              "title": "Canada, UAE sign trade deal as Carney seeks new trading partners",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVlZyZUhRTFlaX1JCLVRSSFJCcXFLT2ZCNGhkVTRUcW8xelVUeWZXUlR5cHpIZEg2WDd4UnEtZjZHTUE4NmprZmxJN1hKa0lVdHRCay14czZsdldteVE4VndYbHZtUGpSenFHcElzVnlVUVVXYWRQbUUzVnVZblJSeFZrc21iUk9QYWFfd2lxQ3Vidw?oc=5",
-              "pubDate": "2026-10-27T15:31:00.000Z",
-              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Stocks",
           "aiCategory": "World",
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "canada-and-uae-sign-new-trade-agreement-deal"
+          "importance": 45,
+          "slug": "botswana-seeks-fuel-supply-from-nigeria-to-oman"
         },
         {
-          "representativeTitle": "King Acknowledges Past Suffering During Caribbean Tour",
+          "representativeTitle": "Iraqi PM Meets Syrian Official in Historic Visit",
           "sources": [
-            "BBC World",
-            "Google World"
+            "Al Jazeera"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "King acknowledges 'suffering of the past' as Caribbean tour begins",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cmwyv8ld22z1o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-28T04:32:36.000Z",
+              "title": "Iraqi PM Ali al-Zaidi meets Ahmed al-Sharaa in historic Syria visit",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/28/iraqi-pm-ali-al-zaidi-meets-ahmed-al-sharaa-in-historic-syria-visit?traffic_source=rss",
+              "pubDate": "2026-10-28T13:47:39.000Z",
               "tier": 1
-            },
-            {
-              "title": "King acknowledges 'suffering of the past' as Caribbean tour begins",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZYXowQXp1OElaVTdJajJmZ21xcmNXWXNqck56TXJyNFZqNHRLTTVhRXVLZTQwc0J3cThWTGladmo3X0FfQzIySEF3dXdNbTljTkkta0VJR0o5VkU?oc=5",
-              "pubDate": "2026-10-28T04:32:36.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": 0,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "king-acknowledges-past-suffering-during-caribbean-tour"
+          "importance": 45,
+          "slug": "iraqi-pm-meets-syrian-official-in-historic-visit"
         },
         {
-          "representativeTitle": "Brothers Sentenced For Sex Trafficking Charges",
+          "representativeTitle": "Ethiopia Receives Russian Fighter Jets Ahead of Schedule",
           "sources": [
-            "BBC World",
-            "SCMP"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Alexander brothers each sentenced to 30 years in prison in sex trafficking case",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cqn498mng08ro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-28T02:20:25.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Alexander brothers each get 30 years in prison for drugging, raping women",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3372357/alexander-brothers-each-get-30-years-prison-drugging-raping-women",
-              "pubDate": "2026-10-27T22:26:07.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "brothers-sentenced-for-sex-trafficking-charges"
-        },
-        {
-          "representativeTitle": "US Military Focuses on Cartel Threat in Caribbean Region",
-          "sources": [
-            "NY Times"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "U.S. Defends Military Campaign Against Cartels as Leaders Gather in Caribbean",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/27/us/politics/us-military-cartels-caribbean.html",
-              "pubDate": "2026-10-28T01:18:49.000Z",
+              "title": "Ethiopia Takes Delivery of Russia Fighter Jets Ahead of Schedule",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-28/ethiopia-takes-delivery-of-russia-fighter-jets-ahead-of-schedule",
+              "pubDate": "2026-10-28T13:17:59.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Stocks",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "us-military-focuses-on-cartel-threat-in-caribbean-region"
-        },
-        {
-          "representativeTitle": "Ten Killed in High-Speed Train Collision Across Spain",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "At least 10 killed in collision of high-speed trains in Spain",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/3500a00d-d676-4460-83f8-8ea2bfce1049?syn-25a6b1a6=1",
-              "pubDate": "2026-10-28T10:06:37.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.9,
+          "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "ten-killed-in-high-speed-train-collision-across-spain"
+          "slug": "ethiopia-receives-russian-fighter-jets-ahead-of-schedule"
         },
         {
-          "representativeTitle": "Mexico's Unusual Response to Ocean Color Change",
+          "representativeTitle": "Mexico's Unusual Stance on Coastal Seaweed Blooms",
           "sources": [
             "NY Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "The Ocean ‘Was the Color of Chocolate.’ Mexico Declares War on Seaweed",
+              "title": "The Ocean ‘Was the Color of Chocolate.’ Mexico Declares War on Seaweed.",
               "source": "NY Times",
               "link": "https://www.nytimes.com/2026/10/28/world/americas/mexico-seaweed-navy.html",
-              "pubDate": "2026-10-28T09:05:55.000Z",
+              "pubDate": "2026-10-28T12:08:53.000Z",
               "tier": 1
             }
           ],
@@ -870,150 +950,136 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "mexicos-unusual-response-to-ocean-color-change"
+          "slug": "mexicos-unusual-stance-on-coastal-seaweed-blooms"
         },
         {
-          "representativeTitle": "Bolsonaro's Location Sparks International Diplomatic Confusion",
+          "representativeTitle": "Solar Boom Challenges Lula's Political Authority in Brazil",
           "sources": [
-            "BBC US"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Confusion about Flávio Bolsonaro's whereabouts as Argentina says he flew to Ecuador",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/ckly0xpxp243o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-28T08:55:49.000Z",
+              "title": "Lula Feels the Heat From Brazil’s Solar Boom",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/newsletters/2026-10-28/lula-feels-the-heat-from-brazil-s-solar-boom",
+              "pubDate": "2026-10-28T12:08:07.000Z",
               "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "bolsonaros-location-sparks-international-diplomatic-confusion"
-        },
-        {
-          "representativeTitle": "Analyzing Brazil's Election Outcomes and Future Trajectory",
-          "sources": [
-            "NY Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "What to Know About Brazil’s Election, and What Comes Next",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/26/world/americas/brazil-election-lula-win-what-to-know.html",
-              "pubDate": "2026-10-28T02:36:51.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "analyzing-brazils-election-outcomes-and-future-trajectory"
-        },
-        {
-          "representativeTitle": "Report details alleged diplomatic role in ceasefire talks.",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Inside Melania Trump's secret diplomatic role in the Russia-Ukraine ceasefire deal",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/inside-melania-trumps-secret-diplomatic-role-russia-ukraine-ceasefire-deal",
-              "pubDate": "2026-10-28T10:33:36.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "report-details-alleged-diplomatic-role-in-ceasefire-talks"
-        },
-        {
-          "representativeTitle": "Netanyahu defies polls; vote shifts but majority remains.",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Netanyahu defies exit polls as vote shifts in his favor, but majority remains elusive",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/world/netanyahu-defies-exit-polls-vote-shifts-his-favor-majority-remains-elusive",
-              "pubDate": "2026-10-28T10:10:20.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "netanyahu-defies-polls-vote-shifts-but-majority-remains"
-        },
-        {
-          "representativeTitle": "Ancient Statue Discovery Links Pharaohs and Moses",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Giant statues of pharaoh with Moses link discovered after farmer finds inscribed stone",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/travel/giant-statues-pharaoh-moses-link-discovered-after-farmer-finds-inscribed-stone",
-              "pubDate": "2026-10-28T10:00:12.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "ancient-statue-discovery-links-pharaohs-and-moses"
-        },
-        {
-          "representativeTitle": "Fuel Costs Stranding Luxury Cruise Passengers in Cambodia",
-          "sources": [
-            "BBC Business",
-            "Google Stocks"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-              "source": "BBC Business",
-              "link": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-28T10:31:22.000Z",
-              "tier": 2
-            },
-            {
-              "title": "A U.S. cruise ship ends voyage due to fuel costs and passengers lose their homes",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWXl2cjYxdDZrU1NEZ1U3UGcyTDlBUTZlVlpyUHZnamJvODdCQ0RwN1JCUURCdEpzT3luekd4M2ZTVEZXSEEtdFdSaUVueks2QnF2Rnd0ZjJoXzdUWEJuUnpldXQ1aklzNHcwd2ZySXFxU0JEWG4wVjRqWnJMbkQyNE12TXppNWF6VV81eF9qa1YzOXhITUU2Ng?oc=5",
-              "pubDate": "2026-10-28T07:57:51.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 40,
-          "slug": "fuel-costs-stranding-luxury-cruise-passengers-in-cambodia"
+          "importance": 45,
+          "slug": "solar-boom-challenges-lulas-political-authority-in-brazil"
         },
         {
-          "representativeTitle": "Train crash in Spain claims at least ten lives.",
+          "representativeTitle": "Brothers Sentenced For Major Sex Trafficking Conviction",
+          "sources": [
+            "BBC US",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Alexander brothers each sentenced to 30 years in prison in sex trafficking case",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cqn498mng08ro?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-28T02:20:25.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Alexander brothers each sentenced to 30 years in prison for sex trafficking case",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xSDE0aXJTYUN4QXRNbTdUZEwtZ2NXZW0zcjNHcG56MzRrUkhQeTlQUWdsOV83TG1SVWVFSHo4NDAzVDR4eE1USWFLZlp6TUpBVHpEdS1UYm0zNm8?oc=5",
+              "pubDate": "2026-10-28T02:20:25.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "brothers-sentenced-for-major-sex-trafficking-conviction"
+        },
+        {
+          "representativeTitle": "Peat fires choke Indonesia, release stored carbon.",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Indonesia's El Niño–driven peat fires are choking the region—and releasing centuries of stored carbon",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-indonesia-el-niodriven-peat-region.html",
+              "pubDate": "2026-10-28T13:40:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "peat-fires-choke-indonesia-release-stored-carbon"
+        },
+        {
+          "representativeTitle": "UN Votes on Condemning US Cuba Embargo Status",
+          "sources": [
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "UN holds annual vote on condemning US embargo on Cuba as tensions spill into public",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/holds-annual-vote-condemning-us-embargo-cuba-tensions-137630117",
+              "pubDate": "2026-10-28T12:34:16.000Z",
+              "tier": 2
+            },
+            {
+              "title": "UN holds annual vote on condemning US embargo on Cuba as tensions spill into public",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQT1AybC1RV0tHWW5xdlNoUlpHMUlnREtVMUJRQW9Sd1ZhOU1YZTlMemJkZ2ljXzRHa2pwVDFYUW9iN3RCV3VQNDk3MjJxQUUxZTRBeTd1OGlSVzBDZmN4MDZ3aV9TaEoxZWNhWGpBZlR5MmpxRU5JYTZUeGRhaFRsNG9RWjgzeXJhQTZWalhXTHhfU0hjcHJYczRGdkZUM3Q3a3ZN?oc=5",
+              "pubDate": "2026-10-28T12:01:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "un-votes-on-condemning-us-cuba-embargo-status"
+        },
+        {
+          "representativeTitle": "Trump Warns Macron Over French Protests Escalation",
+          "sources": [
+            "Fox News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump revisits 10-year warning to Macron as protests sweep France: ‘You have to get them out’",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/politics/trump-revisits-10-year-warning-macron-protests-sweep-france-get-them-out",
+              "pubDate": "2026-10-28T14:56:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "trump-warns-macron-over-french-protests-escalation"
+        },
+        {
+          "representativeTitle": "Spanish train crash kills dozens; investigation launched.",
           "sources": [
             "NBC News",
             "NPR"
@@ -1021,14 +1087,14 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "At least 30 dead after two trains collide in Spain",
+              "title": "Spain train crash leaves at least 64 dead in second major collision this year",
               "source": "NBC News",
               "link": "https://www.nbcnews.com/world/spain/spain-train-crash-high-speed-collision-toledo-rcna606070",
               "pubDate": "2026-10-28T09:50:57.000Z",
               "tier": 2
             },
             {
-              "title": "At least 10 dead in crash between 2 trains in Spain",
+              "title": "Dozens are dead in a high-speed train crash in Spain",
               "source": "NPR",
               "link": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
               "pubDate": "2026-10-28T10:09:46.000Z",
@@ -1040,7 +1106,29 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 6,
           "importance": 40,
-          "slug": "train-crash-in-spain-claims-at-least-ten-lives"
+          "slug": "spanish-train-crash-kills-dozens-investigation-launched"
+        },
+        {
+          "representativeTitle": "Individual Arrives in US After Leaving Brazil",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Flávio chega aos EUA após deixar o Brasil",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-28/flavio-chega-aos-eua-apos-deixar-o-brasil-video",
+              "pubDate": "2026-10-28T14:44:06.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "individual-arrives-in-us-after-leaving-brazil"
         }
       ]
     },
@@ -1048,13 +1136,12 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Bundy linked to decades-old Utah murder case.",
+          "representativeTitle": "Bundy linked to decades-old teenage murder case.",
           "sources": [
             "BBC US",
-            "NBC News",
             "ABC News US"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Serial killer Ted Bundy linked to teenage girl's murder after 52 years",
@@ -1062,13 +1149,6 @@ export const newsData = {
               "link": "https://www.bbc.co.uk/news/articles/ckqxnd7j5007o?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-10-27T19:56:02.000Z",
               "tier": 1
-            },
-            {
-              "title": "Serial killer Ted Bundy linked to 1974 murder of Utah teenager",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/nightly-news/video/serial-killer-ted-bundy-linked-to-1974-murder-of-utah-teenager-272375365653",
-              "pubDate": "2026-10-27T23:50:48.000Z",
-              "tier": 2
             },
             {
               "title": "What to know about serial killer Ted Bundy and his rampage of violence",
@@ -1082,68 +1162,8 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 65,
-          "slug": "bundy-linked-to-decades-old-utah-murder-case"
-        },
-        {
-          "representativeTitle": "Midterms Polls Show Leaders Amid Political Rallies",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US midterms: Six days left – who leads in the polls as Trump, Obama rally",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/28/us-midterms-six-days-left-who-leads-in-the-polls-as-trump-obama-rally?traffic_source=rss",
-              "pubDate": "2026-10-28T10:31:37.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "midterms-polls-show-leaders-amid-political-rallies"
-        },
-        {
-          "representativeTitle": "Brokers sentenced thirty years for sex trafficking charges",
-          "sources": [
-            "BBC US",
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Alexander brothers each sentenced to 30 years in prison in sex trafficking case",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cqn498mng08ro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-28T02:20:25.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Alexander brothers, ex-luxury real estate brokers, sentenced to 30 years in prison for sex trafficking",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/ex-luxury-real-estate-brokers-brother-sentenced-federal-sex-traffickin-rcna605818",
-              "pubDate": "2026-10-27T12:10:41.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Alexander brothers each sentenced to 30 years in prison for sex trafficking case",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xSDE0aXJTYUN4QXRNbTdUZEwtZ2NXZW0zcjNHcG56MzRrUkhQeTlQUWdsOV83TG1SVWVFSHo4NDAzVDR4eE1USWFLZlp6TUpBVHpEdS1UYm0zNm8?oc=5",
-              "pubDate": "2026-10-28T02:20:25.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "brokers-sentenced-thirty-years-for-sex-trafficking-charges"
+          "importance": 60,
+          "slug": "bundy-linked-to-decades-old-teenage-murder-case"
         },
         {
           "representativeTitle": "American 'Haves' Feel Economic Pressure Now",
@@ -1168,32 +1188,40 @@ export const newsData = {
           "slug": "american-haves-feel-economic-pressure-now"
         },
         {
-          "representativeTitle": "ICE Accused of Major Anti-Left Surveillance Operation",
+          "representativeTitle": "Judge questions legality of Trump-appointed prosecutor's actions.",
           "sources": [
-            "Wired"
+            "ABC News US",
+            "Google US"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "ICE Is Running One of the Largest Anti-Left Surveillance Operations in US History",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
-              "pubDate": "2026-10-28T09:30:00.000Z",
-              "tier": 1
+              "title": "Federal judge rules top US prosecutor in Los Angeles isn't legally serving",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/federal-judge-rules-top-us-prosecutor-los-angeles-137630207",
+              "pubDate": "2026-10-28T06:47:53.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Judge rules Trump-appointed US prosecutor in Los Angeles is not serving legally – US politics live",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMGhGTG1obVlWRkw5TXM4UXFxOWtvc3NpbTZaWXJWUGYtbk9HcmRKOTY0QWNSSHBYRW9Yd2xuUWp5dzY0VDZub1M2aG1oVkpfbVYzVmFsM01QNGFfZUFtUDRGU0VoSnkxRTFZREdSNlR1eWdKWmNXYWZHNk92ckFwZ3hfZ0diOVhtamlsS040emRQTlNqQmJsU05vaFJfaGxXdzJmUDZraHk3U2pTOC1XTGpOX2hkU1hlcG50NnhtOHhzb3VtZnR6ZnZR?oc=5",
+              "pubDate": "2026-10-28T11:29:00.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Technology",
+          "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "ice-accused-of-major-anti-left-surveillance-operation"
+          "importance": 50,
+          "slug": "judge-questions-legality-of-trump-appointed-prosecutors-actions"
         },
         {
-          "representativeTitle": "FBI Searches Home Linked to Former California Politician",
+          "representativeTitle": "FBI Raids California Home Linked to Swalwell",
           "sources": [
             "BBC US",
-            "ABC News Top"
+            "Google US"
           ],
           "citationCount": 2,
           "rawArticles": [
@@ -1205,10 +1233,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "FBI searches home connected to former California Rep. Eric Swalwell",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/fbi-searches-home-connected-former-california-rep-eric/story?id=137609856",
-              "pubDate": "2026-10-27T17:36:29.000Z",
+              "title": "FBI raids California home tied to former Congressman Eric Swalwell - US media",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fbDdKaDR1b3pLYkQzNzVFSFlmc1p6OHE5OEdvZWlMM2NpV0ljSDBhSzQyOUc2alFEZDNiX1B6eTRFWXJmTmtTejU3ekExMVZzWW1JNUpfd3k0MFE?oc=5",
+              "pubDate": "2026-10-28T02:51:25.000Z",
               "tier": 2
             }
           ],
@@ -1217,297 +1245,139 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 55,
-          "slug": "fbi-searches-home-linked-to-former-california-politician"
+          "slug": "fbi-raids-california-home-linked-to-swalwell"
         },
         {
-          "representativeTitle": "Arizona food stamp cuts anger voters amid midterms.",
+          "representativeTitle": "Senators Question Dr. Oz's Links to Denial Groups",
           "sources": [
-            "France 24"
+            "Wired"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US midterms: Slashing of food stamps in Arizona angers voters",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261028-us-midterms-slashing-of-food-stamps-in-arizona-angers-voters",
-              "pubDate": "2026-10-28T10:43:14.000Z",
+              "title": "Senators Demand to Know if Dr. Oz Collaborated With Election Denial Groups",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/senators-demand-to-know-if-dr-oz-collaborated-with-election-denial-groups/",
+              "pubDate": "2026-10-28T14:46:35.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Technology",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "arizona-food-stamp-cuts-anger-voters-amid-midterms"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "senators-question-dr-ozs-links-to-denial-groups"
         },
         {
-          "representativeTitle": "Judge rules on attorney's unauthorized practice in California.",
+          "representativeTitle": "FTC and States Sue Dollar General Over Pricing Practices",
           "sources": [
-            "Fox News",
-            "ABC News Top",
-            "ABC News US"
+            "CNBC Economy"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Federal judge rules Bill Essayli unlawfully serving as de facto US attorney in California",
+              "title": "FTC and 20 states sue Dollar General, alleging retailer overcharged shoppers",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/10/26/ftc-dollar-general-lawsuit.html",
+              "pubDate": "2026-10-28T13:23:05.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ftc-and-states-sue-dollar-general-over-pricing-practices"
+        },
+        {
+          "representativeTitle": "Lawsuit targets State Dept over embassy dispute fallout.",
+          "sources": [
+            "Fox News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump admin hit with $461M lawsuit as embassy fight started under Biden comes back to haunt State Dept",
               "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/federal-judge-rules-bill-essayli-unlawfully-serving-de-facto-us-attorney-california",
-              "pubDate": "2026-10-28T05:22:12.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Federal judge rules top US prosecutor in Los Angeles isn't legally serving",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/wireStory/federal-judge-rules-top-us-prosecutor-los-angeles-137630207",
-              "pubDate": "2026-10-28T06:47:53.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Federal judge rules top US prosecutor in Los Angeles isn't legally serving",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/federal-judge-rules-top-us-prosecutor-los-angeles-137630207",
-              "pubDate": "2026-10-28T06:47:53.000Z",
+              "link": "https://www.foxnews.com/politics/trump-admin-hit-461m-lawsuit-embassy-fight-started-under-biden-comes-back-haunt-state-dept",
+              "pubDate": "2026-10-28T15:01:33.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 45,
-          "slug": "judge-rules-on-attorneys-unauthorized-practice-in-california"
+          "slug": "lawsuit-targets-state-dept-over-embassy-dispute-fallout"
         },
         {
-          "representativeTitle": "Trump Claims Widespread Voter Fraud Concerns Persist Now",
+          "representativeTitle": "Exile warns socialist surge empowers Beijing in Washington.",
+          "sources": [
+            "Fox News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China exile-turned-GOP nominee warns socialist surge could give Beijing greater influence in Washington",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/politics/china-exile-turned-gop-nominee-warns-socialist-surge-could-give-beijing-greater-influence-washington",
+              "pubDate": "2026-10-28T14:39:34.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "exile-warns-socialist-surge-empowers-beijing-in-washington"
+        },
+        {
+          "representativeTitle": "Trump Legal Challenge Impacts Biden Deportation Rule Status",
+          "sources": [
+            "Fox News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump's unusual legal gambit against Biden-era deportation rule pays off at Supreme Court",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/politics/trumps-unusual-legal-gambit-against-biden-era-deportation-rule-pays-off-supreme-court",
+              "pubDate": "2026-10-28T14:19:49.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "trump-legal-challenge-impacts-biden-deportation-rule-status"
+        },
+        {
+          "representativeTitle": "Democrats Outline Potential Investigations If Congress Wins",
           "sources": [
             "BBC US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump says US voter fraud is 'rampant'",
+              "title": "Four investigations Democrats could launch if they win control of Congress",
               "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/ckeq3vezxlx1o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-27T21:46:43.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/cvglwg033027o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-28T11:00:12.000Z",
               "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trump-claims-widespread-voter-fraud-concerns-persist-now"
-        },
-        {
-          "representativeTitle": "U.S. Weakens Methane Limits on Oil Gas Producers",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "U.S. moves to weaken methane limits on oil and gas producers",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-weaken-methane-limits-oil-gas.html",
-              "pubDate": "2026-10-28T10:20:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "us-weakens-methane-limits-on-oil-gas-producers"
-        },
-        {
-          "representativeTitle": "Senate Control Uncertain; Democrats Face Political Hurdles",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Senate control is a coin flip — and Democrats’ path runs through Trump Country",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/senate-control-coin-flip-democrats-path-runs-through-trump-country",
-              "pubDate": "2026-10-28T10:00:16.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "senate-control-uncertain-democrats-face-political-hurdles"
-        },
-        {
-          "representativeTitle": "Cold Case Solved: Bundy Linked To 1974 Teen Death",
-          "sources": [
-            "ABC News US",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Utah authorities are connecting serial killer Ted Bundy to another 1970s homicide",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/utah-authorities-connecting-serial-killer-ted-bundy-1970s-137607423",
-              "pubDate": "2026-10-27T19:13:20.000Z",
-              "tier": 2
-            },
-            {
-              "title": "The 1974 death of a Midvale teen has been solved. Serial killer Ted Bundy did it, authorities say.",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03VjlPWkhSczVweURJRXg1YWo5d1VEWVJQbm1zV1RLT2E1cTZ6b1BuYk5WVWJZYUN2NkNjNjFOb2o4T3ZyaDV6UDhPS08xQkVLUVR3MVlXcjV6aDdtN013N051R051ZEItNGV3N19IanhzV1JQRnVTV0NvSTlOWmc?oc=5",
-              "pubDate": "2026-10-28T00:59:34.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "cold-case-solved-bundy-linked-to-1974-teen-death"
-        },
-        {
-          "representativeTitle": "Grand jury declines indictment of former Trump aide.",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Grand jury declines to indict former Trump aide Cassidy Hutchinson, star witness of Jan. 6 committee",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/justice-department/grand-jury-declines-indict-former-trump-aide-cassidy-hutchinson-jan-6-rcna603233",
-              "pubDate": "2026-10-27T22:42:04.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Grand jury declines to indict Cassidy Hutchinson over Jan. 6 testimony",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaTZ6MVVDcjRBSkRkVmk3blpYOGNFb2IyMlNQWE1paEdrT1FHcVdHUGxodXhfTUlOTGs5SkRXVXhSdjh6RlNIZHllNXdGREp1b2g0NDhNWUdIUzhXVEJ6MVhKZGp3YlZZdkNpWjFvLXhTeFFiWG93UXNLTC1GUDhkMEJMRVlhYjRfQk9uNWZHeEZaZEZHUEk0Q1ZjUGJ2YVZWSldIWDhrb1YxTWZ4Z1dLNVBkTmRuajlydHVxUzlGZUUta1dvQ1E?oc=5",
-              "pubDate": "2026-10-28T04:25:58.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "grand-jury-declines-indictment-of-former-trump-aide"
-        },
-        {
-          "representativeTitle": "Judge criticizes DOJ attorney over new FBI charges.",
-          "sources": [
-            "NBC News",
-            "ABC News US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Judge berates DOJ attorney in court over new charge filed against former FBI officials",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/justice-department/judge-berates-doj-attorney-new-charge-filed-former-fbi-officials-rcna606013",
-              "pubDate": "2026-10-27T23:59:53.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Hunter Biden laptop issue resurfaces as judge scolds prosecutors over case against ex-FBI officials",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/hunter-biden-laptop-issue-resurfaces-judge-scolds-prosecutors-137593771",
-              "pubDate": "2026-10-28T02:54:45.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "judge-criticizes-doj-attorney-over-new-fbi-charges"
-        },
-        {
-          "representativeTitle": "Teacher Unions Spend $900M on Political Activities",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Unearthed filing shows largest teachers unions poured over $900 million into political activities",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/media/unearthed-filing-shows-top-teachers-unions-poured-900-million-political-activities",
-              "pubDate": "2026-10-28T10:00:42.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "teacher-unions-spend-900m-on-political-activities"
-        },
-        {
-          "representativeTitle": "Rabbi accused of worker death in California incident",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "California rabbi accused of intentionally running down, killing worker painting Costco lot: prosecutors",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/us/california-rabbi-accused-intentionally-running-down-killing-worker-painting-costco-lot-prosecutors",
-              "pubDate": "2026-10-28T10:00:32.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "rabbi-accused-of-worker-death-in-california-incident"
-        },
-        {
-          "representativeTitle": "GOP Senator Endorses Democrat in Alaska Governor Race",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "GOP Sen. Lisa Murkowski endorses Democratic candidate in Alaska governor’s race",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/lisa-murkowski-endorses-democrat-alaska-governor-race-rcna606045",
-              "pubDate": "2026-10-28T03:27:46.000Z",
-              "tier": 2
-            },
-            {
-              "title": "GOP Sen. Lisa Murkowski endorses Democratic candidate in Alaska governor’s race",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQelpUTUtOam9YcklFMkNDeGlMS1NnenVnY2ctSWd2Q2YwMXNheC1KQ3hUWnJrQnFDTXFsMUI0a1lpLWs2cGp6Ykt2Tkoxemh1MkE3bDZyZWtySEN0b3YzZzVRRGxMZkUtWG5HUTI2eTFybGZlSG9BRVl5Q0pBVHltcnE2cVdSOGU5UVVCOVMwenhIb01FWFp5ZnZVc0VYTk1lcnV0SDBWaUN3VEZkM081QQ?oc=5",
-              "pubDate": "2026-10-28T03:27:00.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0,
           "relevance_score": 6,
-          "importance": 40,
-          "slug": "gop-senator-endorses-democrat-in-alaska-governor-race"
+          "importance": 45,
+          "slug": "democrats-outline-potential-investigations-if-congress-wins"
         }
       ]
     },
@@ -1515,48 +1385,48 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "Israeli Markets Decline Amid Election Stalemate Fears",
+          "representativeTitle": "Lula Win Causes Investor Jolt After Brazil Rout",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Israeli Markets Slide Across Board on Election Stalemate Concern",
+              "title": "Investors Jolted by Lula Win Search for Bottom After Brazil Rout",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-28/israeli-markets-slide-across-board-on-election-stalemate-concern",
-              "pubDate": "2026-10-28T09:31:37.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-28/investors-jolted-by-lula-win-search-for-bottom-after-brazil-rout",
+              "pubDate": "2026-10-28T14:00:59.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "israeli-markets-decline-amid-election-stalemate-fears"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "lula-win-causes-investor-jolt-after-brazil-rout"
         },
         {
-          "representativeTitle": "Jio Shares Surge After Successful India IPO Debut",
+          "representativeTitle": "Stellantis Stock Jumps After Turnaround Plan Gains Traction",
           "sources": [
-            "TechCrunch"
+            "CNBC Economy"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Jio shares surge 21% in market debut after blockbuster India IPO",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/27/jio-shares-surge-21-in-market-debut-after-blockbuster-india-ipo/",
-              "pubDate": "2026-10-28T05:20:32.000Z",
+              "title": "Stellantis stock rises 12% as automaker's turnaround plan, cost cuts gain traction",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/10/28/stellantis-45-billion-cash-drain-turnaround.html",
+              "pubDate": "2026-10-28T13:48:05.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Technology",
+          "ingestionCategory": "Business",
           "aiCategory": "Stocks",
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "jio-shares-surge-after-successful-india-ipo-debut"
+          "slug": "stellantis-stock-jumps-after-turnaround-plan-gains-traction"
         }
       ]
     },
@@ -1564,112 +1434,39 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "Oil Price Concerns Signal Market Volatility Ahead",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Latest Oil Market News and Analysis for Oct. 28",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-27/latest-oil-market-news-and-analysis-for-oct-28",
-              "pubDate": "2026-10-27T22:04:57.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Oil Is the Real Risk for Another Week: Market Analysis",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-28/oil-is-the-real-risk-for-another-week-3-minutes-mliv-video",
-              "pubDate": "2026-10-28T08:43:15.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "oil-price-concerns-signal-market-volatility-ahead"
-        },
-        {
-          "representativeTitle": "Budget Scraps Gas Charges, Saving Millions For Consumers",
+          "representativeTitle": "Budget 2026: Energy Aid Meets Bank Tax Hike",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Budget 2026 live: gas standing charges to be scrapped for millions as chancellor prepares to deliver budget",
+              "title": "Budget 2026 live: Healey announces £100 energy payment for millions and rise in bank tax",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/uk-news/live/2026/oct/28/budget-2026-latest-updates-john-healey-andy-burnham-labour-uk-politics",
-              "pubDate": "2026-10-28T10:48:39.000Z",
+              "pubDate": "2026-10-28T14:46:19.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "budget-scraps-gas-charges-saving-millions-for-consumers"
-        },
-        {
-          "representativeTitle": "Fed Signals Concern Over Elevated Energy Prices Now",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Sprake: Fed Now Concerned About High Energy Prices",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-28/sprake-fed-now-concerned-about-high-energy-prices-video",
-              "pubDate": "2026-10-28T09:11:45.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "fed-signals-concern-over-elevated-energy-prices-now"
+          "slug": "budget-2026-energy-aid-meets-bank-tax-hike"
         },
         {
-          "representativeTitle": "UK Budget Tests Markets Amid Global Economic Headwinds",
+          "representativeTitle": "RBC Criticizes UK Budget Lacking Clear Themes",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "UK Budget Tests Bond Markets as Fed, ECB and Oil Risks Loom",
+              "title": "UK Budget Lacked 'Big Picture Themes,' RBC Capital Says",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/newsletters/2026-10-28/uk-budget-tests-bond-markets-as-fed-ecb-and-oil-risks-loom",
-              "pubDate": "2026-10-28T07:44:07.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "uk-budget-tests-markets-amid-global-economic-headwinds"
-        },
-        {
-          "representativeTitle": "Turkey Revokes Brokerage License Amid Fund Crisis Fears",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Turkey Cancels License of Brokerage at Heart of Fund Crisis",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-28/turkey-cancels-license-of-brokerage-at-heart-of-fund-crisis",
-              "pubDate": "2026-10-28T08:46:31.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-28/uk-budget-lacked-big-picture-themes-rbc-capital-says-video",
+              "pubDate": "2026-10-28T14:26:20.000Z",
               "tier": 1
             }
           ],
@@ -1678,17 +1475,193 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "turkey-revokes-brokerage-license-amid-fund-crisis-fears"
+          "slug": "rbc-criticizes-uk-budget-lacking-clear-themes"
         },
         {
-          "representativeTitle": "GE Vernova to Acquire Trench Group For Nine Billion Dollars",
+          "representativeTitle": "UK Tax Hike on Banks Amid Stability Pledges",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "GE Vernova Agrees to Pay $9 Billion to Acquire Trench Group",
+              "title": "Healey Raises UK Banks Tax, Vows to Keep Finances Stable",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-28/healey-raises-uk-banks-tax-vows-to-keep-finances-stable-video",
+              "pubDate": "2026-10-28T14:19:25.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "uk-tax-hike-on-banks-amid-stability-pledges"
+        },
+        {
+          "representativeTitle": "UK Maintains Wind Tax Despite Industry Opposition",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "UK Sticks With North Sea Windfall Tax Despite Industry Outcry",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-28/uk-sticks-with-north-sea-windfall-tax-despite-industry-outcry",
+              "pubDate": "2026-10-28T14:41:41.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "uk-maintains-wind-tax-despite-industry-opposition"
+        },
+        {
+          "representativeTitle": "Barclays Uses Insurers to Hedge Data Center Debt Risks",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Barclays Turns to Insurers to Hedge Billions of Data Center Debt",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-28/barclays-turns-to-insurers-to-hedge-billions-of-data-center-debt",
+              "pubDate": "2026-10-28T14:00:28.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "barclays-uses-insurers-to-hedge-data-center-debt-risks"
+        },
+        {
+          "representativeTitle": "Major Airline Reports Significant Airfare Price Increase",
+          "sources": [
+            "CNBC Economy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "America's largest budget airline reports 71% jump in airfare",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/10/28/frontier-airlines-airfare-plane-tickets.html",
+              "pubDate": "2026-10-28T13:50:38.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "major-airline-reports-significant-airfare-price-increase"
+        },
+        {
+          "representativeTitle": "Former Fed Official Questions Current Policy Tightness Levels",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Former Fed President Harker Says Policy Is Not Restrictive",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-28/former-fed-president-harker-policy-is-not-restrictive-video",
+              "pubDate": "2026-10-28T12:39:27.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "former-fed-official-questions-current-policy-tightness-levels"
+        },
+        {
+          "representativeTitle": "CEO Addresses Losses Following Customer Study Findings",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Kalshi CEO Eyes Guardrails After Studies Detail Customer Losses",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-28/kalshi-ceo-eyes-guardrails-after-studies-detail-customer-losses",
+              "pubDate": "2026-10-28T12:35:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ceo-addresses-losses-following-customer-study-findings"
+        },
+        {
+          "representativeTitle": "Ambani Deal Captivates India's Market With Success",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ambani Magic Captivates India Once More With Blockbuster Deal",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-28/ambani-magic-captivates-india-once-more-with-blockbuster-deal",
+              "pubDate": "2026-10-28T12:08:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ambani-deal-captivates-indias-market-with-success"
+        },
+        {
+          "representativeTitle": "Rising Prices Draw Intense Global Market Scrutiny Now",
+          "sources": [
+            "ABC News Top"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "WATCH:  All eyes on rising prices",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/video/137634065/",
+              "pubDate": "2026-10-28T14:24:35.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "rising-prices-draw-intense-global-market-scrutiny-now"
+        },
+        {
+          "representativeTitle": "GE Vernova Acquires Grid Supplier Trench Group For $9B",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "GE Vernova to Pay $9 Billion for Grid Supplier Trench Group",
               "source": "Bloomberg Markets",
               "link": "https://www.bloomberg.com/news/articles/2026-10-28/ge-vernova-agrees-to-pay-9-billion-to-acquire-trench-group",
               "pubDate": "2026-10-28T10:16:16.000Z",
@@ -1700,139 +1673,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "ge-vernova-to-acquire-trench-group-for-nine-billion-dollars"
-        },
-        {
-          "representativeTitle": "Ambani's Emotional Reaction Marks Jio Listing Event",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Mukesh Ambani Gets Emotional at Jio Listing",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-28/mukesh-ambani-gets-emotional-at-jio-listing-video",
-              "pubDate": "2026-10-28T09:39:32.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ambanis-emotional-reaction-marks-jio-listing-event"
-        },
-        {
-          "representativeTitle": "Adani Group Profit Returns Amid New Ventures Growth",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Adani Flagship Returns to Profit as Newer Businesses Deliver",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-28/adani-flagship-returns-to-profit-as-newer-businesses-deliver",
-              "pubDate": "2026-10-28T08:12:23.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "adani-group-profit-returns-amid-new-ventures-growth"
-        },
-        {
-          "representativeTitle": "Healey to Scrap UK Gas Bill Standing Charges",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Healey to Scrap UK’s Standing Charges on Gas Bills",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-28/healey-to-scrap-uk-s-standing-charges-on-gas-bills",
-              "pubDate": "2026-10-28T07:07:13.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "healey-to-scrap-uk-gas-bill-standing-charges"
-        },
-        {
-          "representativeTitle": "Cointreau China Inventory Concerns Dampen Sales Growth",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Remy Cointreau’s China Inventory Issues Outweigh Sales Jump",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-28/remy-cointreau-beats-estimates-on-strong-china-cognac-demand",
-              "pubDate": "2026-10-28T06:29:36.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "cointreau-china-inventory-concerns-dampen-sales-growth"
-        },
-        {
-          "representativeTitle": "Anthropic flags gas supply as major near-term risk.",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Anthropic Flags Gas Supply as One of Its Biggest Near-Term Risks",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/",
-              "pubDate": "2026-10-27T18:20:28.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "anthropic-flags-gas-supply-as-major-near-term-risk"
-        },
-        {
-          "representativeTitle": "Boeing delays 737 Max production ramp until 2027.",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Boeing says it won't significantly ramp up 737 Max production until late 2027",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",
-              "pubDate": "2026-10-27T20:32:24.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "boeing-delays-737-max-production-ramp-until-2027"
+          "slug": "ge-vernova-acquires-grid-supplier-trench-group-for-9b"
         }
       ]
     },
@@ -1918,115 +1759,86 @@ export const newsData = {
           "slug": "google-workspace-offers-discounted-subscription-rates-now"
         },
         {
-          "representativeTitle": "AI Alerts Loom; Human Readiness Remains Questionable Now",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
-              "pubDate": "2026-10-28T08:30:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
-              "pubDate": "2026-10-28T08:30:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 70,
-          "slug": "ai-alerts-loom-human-readiness-remains-questionable-now"
-        },
-        {
-          "representativeTitle": "Google's Genie Model Advances with Audio and Realism",
+          "representativeTitle": "Amazon Expands Alexa Ecosystem with New Devices",
           "sources": [
             "TechCrunch",
-            "Ars Technica",
+            "Wired",
             "Google Tech"
           ],
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+              "title": "Amazon debuts the Alexa Photo Frame and Echo Time smart clock, plus other upgraded devices",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
-              "pubDate": "2026-10-27T16:30:57.000Z",
+              "link": "https://techcrunch.com/2026/10/28/amazon-debuts-the-alexa-photo-frame-and-echo-time-smart-clock-plus-other-upgraded-devices/",
+              "pubDate": "2026-10-28T14:34:25.000Z",
               "tier": 1
             },
             {
-              "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
-              "source": "Ars Technica",
-              "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
-              "pubDate": "2026-10-27T16:00:22.000Z",
-              "tier": 2
+              "title": "Amazon Adds an Alexa Photo Frame and a Bedside Clock to Its Echo Family",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/amazon-adds-an-alexa-photo-frame-and-a-bedside-clock-to-its-echo-family/",
+              "pubDate": "2026-10-28T12:01:00.000Z",
+              "tier": 1
             },
             {
-              "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+              "title": "Amazon Debuts 16-Inch Echo Smart Display and Alexa Photo Frame",
               "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMHlIVGhJZ2l4WnlyUGRWa2JXbnpUVl84TGl2RzRaYmt5VWdjMFh2UzJhM09rUThlQjU5ZGppdXVNOTlldFprRHU0eXUzMHBsOC15QXFjM1BiUGRkaENaMWxhQ0FYdzlkeDZlN0pFUmhaYjluckRIcXJqOHR6WUFYSHRHeDMwcF91UWhsWlJna3V3MkQ3Wk5hRnVnVVZVTGZUQnJXWVJNdEJJMlMtZE1UMmcwb1BLSEoxRlE?oc=5",
-              "pubDate": "2026-10-27T16:30:57.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLVBnQnNmeDh0Q2poMkJCWlZFQkNkcUJ3cFJGcnlaMWdfc3JqZGF0elFzQ3hTT0FiR2Mwa0dRN25hM2ZMQnR6NFMzSDlZYm5RQS1XMkdETE54ajlyd0RSWVFhd3l3Zzh1dWZQdTNVNjRTbzVEeXUtRnlPWFlJRDVzRGdHSXhWVTIwRkdXeVpzSlBHNnZka0FpUGpJSWpIcTI5X0NqTDc1TTBvRU4tZFpaNTBqVEpFWEd0QkloZDBPNlR0VEU?oc=5",
+              "pubDate": "2026-10-28T12:00:11.000Z",
               "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 55,
+          "slug": "amazon-expands-alexa-ecosystem-with-new-devices"
+        },
+        {
+          "representativeTitle": "Nvidia launches open voice AI transcription model.",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+              "pubDate": "2026-10-28T15:00:00.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": 0.4,
           "relevance_score": 8,
-          "importance": 65,
-          "slug": "googles-genie-model-advances-with-audio-and-realism"
+          "importance": 55,
+          "slug": "nvidia-launches-open-voice-ai-transcription-model"
         },
         {
-          "representativeTitle": "AI Sector Faces Supply Constraints, Growth Slows Down",
+          "representativeTitle": "AI Alerts Loom; Human Readiness Remains Questionable Now",
           "sources": [
-            "Bloomberg Markets"
+            "Wired"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Wall Street’s AI Debt Machine Is Starting to Choke on Supply",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-28/wall-street-s-ai-debt-machine-is-starting-to-choke-on-supply",
-              "pubDate": "2026-10-28T10:30:00.000Z",
+              "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+              "pubDate": "2026-10-28T08:30:00.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Science",
           "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ai-sector-faces-supply-constraints-growth-slows-down"
-        },
-        {
-          "representativeTitle": "Tech Giants Face Scrutiny Over AI Promises",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Microsoft, Alphabet Have a Lot to Prove to AI Skeptics",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/newsletters/2026-10-28/microsoft-alphabet-have-a-lot-to-prove-to-ai-skeptics",
-              "pubDate": "2026-10-28T10:14:36.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "tech-giants-face-scrutiny-over-ai-promises"
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "ai-alerts-loom-human-readiness-remains-questionable-now"
         },
         {
           "representativeTitle": "Call to End Internet Access Sparks Concern",
@@ -2051,42 +1863,26 @@ export const newsData = {
           "slug": "call-to-end-internet-access-sparks-concern"
         },
         {
-          "representativeTitle": "Apple refreshes iMac and MacBook Pro with M6 chip.",
+          "representativeTitle": "Kodiak Secures Deal for Autonomous Truck Highways",
           "sources": [
-            "TechCrunch",
-            "Ars Technica",
-            "Google Tech"
+            "TechCrunch"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Apple unveils new 14-inch MacBook Pro with M6 chip",
+              "title": "Kodiak lands first commercial deal to supply driverless trucks for public highways",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/",
-              "pubDate": "2026-10-27T14:25:11.000Z",
+              "link": "https://techcrunch.com/2026/10/28/kodiak-lands-first-commercial-deal-to-supply-driverless-trucks-for-public-highways/",
+              "pubDate": "2026-10-28T13:00:00.000Z",
               "tier": 1
-            },
-            {
-              "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
-              "source": "Ars Technica",
-              "link": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
-              "pubDate": "2026-10-27T22:37:30.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNN0tDN05WTnZhc3hqQlUyZnRKYVdzZnBsSmFoQ3JFa0VZNEw4TWZoaC1XYmZZRFVpWlZKRUVmdkhjSDFBaUZZZllGN2cyQzh0RW1BcTV1MTlBTU5abklTS0hCRHhyN0FCWDJkVS10blNRM2lONXNUOFJPcnduLVdIRGZyN292VnlLT0hIWkpSbzNJN19GcU5lUkR1X0R3RzFXZnJPcHozaw?oc=5",
-              "pubDate": "2026-10-27T22:37:30.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "apple-refreshes-imac-and-macbook-pro-with-m6-chip"
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "kodiak-secures-deal-for-autonomous-truck-highways"
         },
         {
           "representativeTitle": "Anthropic Founders Consolidate Control Before IPO",
@@ -2111,95 +1907,81 @@ export const newsData = {
           "slug": "anthropic-founders-consolidate-control-before-ipo"
         },
         {
-          "representativeTitle": "Amazon Expected to Outshine Anthropic IPO Gains",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-              "pubDate": "2026-10-28T01:15:28.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "amazon-expected-to-outshine-anthropic-ipo-gains"
-        },
-        {
-          "representativeTitle": "Parents Sue OpenAI Over AI's Medical Advice",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-              "pubDate": "2026-10-27T23:34:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "parents-sue-openai-over-ais-medical-advice"
-        },
-        {
-          "representativeTitle": "Anthropic Claims AI Will Transform Biological Sciences Future",
+          "representativeTitle": "Sony unveils transparent controllers, shifting gaming focus.",
           "sources": [
             "Wired"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
+              "title": "Sony Wants You to Forget About Discs With Its Gorgeous Transparent Controllers",
               "source": "Wired",
-              "link": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
-              "pubDate": "2026-10-27T19:39:04.000Z",
+              "link": "https://www.wired.com/story/sony-wants-you-to-forget-about-discs-with-its-gorgeous-transparent-controller/",
+              "pubDate": "2026-10-28T15:00:00.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Science",
+          "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "anthropic-claims-ai-will-transform-biological-sciences-future"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "sony-unveils-transparent-controllers-shifting-gaming-focus"
         },
         {
-          "representativeTitle": "Warren Questions AI Firm on Existential Risks",
+          "representativeTitle": "Garena's Free Fire Returns to Indian Market Now",
           "sources": [
-            "WSJ US Business"
+            "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Elizabeth Warren Demands Answers From Anthropic on ‘Existential’ Risks",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/finance/regulation/elizabeth-warren-demands-answers-from-anthropic-on-existential-risks-5362f009?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-10-28T09:00:00.000Z",
+              "title": "Free Fire returns to India as Garena launches localized version four years after ban",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/28/free-fire-returns-to-india-as-garena-launches-localized-version-four-years-after-ban/",
+              "pubDate": "2026-10-28T13:39:18.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "garenas-free-fire-returns-to-indian-market-now"
+        },
+        {
+          "representativeTitle": "Platform's monetization tactics scrutinized by users.",
+          "sources": [
+            "The Verge",
+            "Google Tech"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "This is how badly X wants you to pay to promote your posts",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/tech/1020488/x-twitter-animated-hand-point-promote-posts",
+              "pubDate": "2026-10-28T13:26:39.000Z",
+              "tier": 2
+            },
+            {
+              "title": "This is how badly X wants you to pay to promote your posts",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRTlOODlMVGdqazIyM3FzWlpMVlVkcXRkV0l4c1JudE90eV83a0hmMFpHaEs4QUZHaTBHTDJON0dUWXl6SmRjWl9ybGF6clZNNGRiWEhxQXNWRjBLSjFSeEpYaVYzeEF1eW9TOHB6NWhIc1pjTjlkel84TE1YdnFxZU5uVjFOWlRJ?oc=5",
+              "pubDate": "2026-10-28T13:26:39.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": -0.4,
-          "relevance_score": 7,
+          "relevance_score": 6,
           "importance": 40,
-          "slug": "warren-questions-ai-firm-on-existential-risks"
+          "slug": "platforms-monetization-tactics-scrutinized-by-users"
         },
         {
-          "representativeTitle": "Meta Director Joins Microsoft Office Suite After Eight Years",
+          "representativeTitle": "Meta launches new AI pet application called Waddle World",
           "sources": [
             "TechCrunch",
             "Google Tech"
@@ -2207,56 +1989,100 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+              "title": "Meta has a new AI pet app called Waddle World",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
-              "pubDate": "2026-10-27T14:59:09.000Z",
+              "link": "https://techcrunch.com/2026/10/28/meta-has-a-new-ai-pet-app-called-waddle-world/",
+              "pubDate": "2026-10-28T13:53:31.000Z",
               "tier": 1
             },
             {
-              "title": "Exclusive: Meta director Rohit Patel departs after 8 years to take on Microsoft Office Suite",
+              "title": "Meta has a new AI pet app called Waddle World",
               "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNenBXenBKaW9oQ1R5bGVxbWNzYko0NTRSQkNfS1ZNMVZsWW84Y1JHQmtZMmVHcWNwU042b1ZmUEl2bTJfUnRhc05sMl9WUm1OZ1g3a2MySWJtYVVSc0FndURSQms3ZHBMVUZ3Mm4xQ3NfVnZRWk00cWhFR0VTVFZaTUFONzVjVEdCXzRfaDFQc3JrbjA4Q3N6a2xuU2FENlJBSEJzWGprdHdteVYxVXNUSEJfWWN0OXFsMFYw?oc=5",
-              "pubDate": "2026-10-27T14:59:09.000Z",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOUJhcmFQaktsWGd3eUk2SlF1TWE1OXR5cGFxbnJWZ2gyd0xudWdXdk1MY0MtUHB6b0pDOGxVaTFyVXNCdlM0aWQ0b2Y3Q2FndThadVFHSTU4Zlo1dUYwZ0FOaUZNWjFjbmxxM3lzRmdaU2RPXzFka1ZoRDgxWUY1S0RhemVfX1k?oc=5",
+              "pubDate": "2026-10-28T13:53:31.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "meta-director-joins-microsoft-office-suite-after-eight-years"
+          "relevance_score": 3,
+          "importance": 35,
+          "slug": "meta-launches-new-ai-pet-application-called-waddle-world"
         },
         {
-          "representativeTitle": "Apple Updates iOS with New AI Languages, Fixes",
+          "representativeTitle": "Review Compares Kindle and Colorsoft E-Readers Now",
           "sources": [
-            "TechCrunch",
+            "Wired",
             "Google Tech"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Apple rolls out iOS 27.2 with new Siri AI languages and security fixes",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/",
-              "pubDate": "2026-10-27T13:54:51.000Z",
+              "title": "Amazon Kindle Paperwhite (2026) and Colorsoft (2026) Review: Best for Accessories",
+              "source": "Wired",
+              "link": "https://www.wired.com/review/kindle-paperwhite-kindle-colorsoft-2026/",
+              "pubDate": "2026-10-28T13:01:00.000Z",
               "tier": 1
             },
             {
-              "title": "Apple rolls out iOS 27.2 with new Siri AI languages and security fixes",
+              "title": "Kindle Paperwhite Signature Edition (2026) Review: Updated In All The Right Places",
               "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWWthVXBaTlJqVVNuZk9XRHNqaDNOSDNZVXZraUh4UlRNamhrY3d5Tk9HcVVNRUo4YlI4TGNrVjV0cGNGazZzcUlYbzAtTmFZdlRTVldCVC0tMklzTk96bHNDV3otNVhyOVRTWml2ejBabFRBR3Naa2VCQkNfc2k2VXo2TFllZGRENmxWSGljYlRoNjY2Z3R6ZFJXN0RidEJaQlJKUDZWUzQ?oc=5",
-              "pubDate": "2026-10-27T13:54:51.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV1hqUTNWT01adE4zeUFYaVladUFuX09sLVVTQTIzYjF0a2I5eHRNU1E1ZlhqdlhVeFp6M001VEh0UEVHZnBWM2JNN1lreHNuaHBNeHEtLTB1WGVfb3pYVGNXMzRwd0JCZnpxQ24wR3A3SDVNekJoeWJZSnVPVUFYSzF1WDRQRDJj?oc=5",
+              "pubDate": "2026-10-28T13:00:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "apple-updates-ios-with-new-ai-languages-fixes"
+          "relevance_score": 3,
+          "importance": 35,
+          "slug": "review-compares-kindle-and-colorsoft-e-readers-now"
+        },
+        {
+          "representativeTitle": "TikTok Expands Platform with New Restaurant Guide Feature",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "TikTok expands into restaurant guides with ‘Must Eat’ feature",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/28/tiktok-expands-into-restaurant-guides-with-must-eat-feature/",
+              "pubDate": "2026-10-28T14:26:36.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "tiktok-expands-platform-with-new-restaurant-guide-feature"
+        },
+        {
+          "representativeTitle": "TechCrunch Summit nears; early bird discounts available now.",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/",
+              "pubDate": "2026-10-28T13:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 3,
+          "importance": 30,
+          "slug": "techcrunch-summit-nears-early-bird-discounts-available-now"
         },
         {
           "representativeTitle": "Apple AirPods Max See Price Drop Before Black Friday",
@@ -2286,158 +2112,122 @@ export const newsData = {
       "name": "Science",
       "children": [
         {
-          "representativeTitle": "EU Threatens Antibiotic Protection, Impacting Pharma Sector",
+          "representativeTitle": "Low Lakes Water Triggers Warning of Fish Die-Off",
           "sources": [
-            "Bloomberg Markets"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Sandoz Warns EU May Scrap Antibiotic Protection, Risking Plant",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-28/sandoz-warns-eu-may-scrap-antibiotic-protection-risking-plant",
-              "pubDate": "2026-10-28T09:34:29.000Z",
+              "title": "Menindee Lakes water levels drop to lowest in five years as experts warn of mass fish deaths",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/oct/28/menindee-lakes-water-levels-drop-mass-fish-death-fears",
+              "pubDate": "2026-10-28T14:00:07.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "eu-threatens-antibiotic-protection-impacting-pharma-sector"
-        },
-        {
-          "representativeTitle": "King Tides Swamp South Florida and California Coasts",
-          "sources": [
-            "ABC News Top"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "WATCH:  King tides swamp homes with seawater in South Florida and California coasts",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/video/137619368/",
-              "pubDate": "2026-10-28T10:31:11.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
           "aiCategory": "Science",
           "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "king-tides-swamp-south-florida-and-california-coasts"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "low-lakes-water-triggers-warning-of-fish-die-off"
         },
         {
-          "representativeTitle": "Ocean Shifts Raise Concerns Over Heat, Carbon Storage",
+          "representativeTitle": "Global seed platform launches to boost nature restoration.",
           "sources": [
             "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Major Southern Hemisphere ocean layer shifts, raising questions about heat and carbon storage",
+              "title": "Launch of global seed platform to tackle native seed bottleneck holding back nature restoration",
               "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-major-southern-hemisphere-ocean-layer.html",
-              "pubDate": "2026-10-28T10:00:01.000Z",
+              "link": "https://phys.org/news/2026-10-global-seed-platform-tackle-native.html",
+              "pubDate": "2026-10-28T14:40:05.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": -0.4,
+          "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "ocean-shifts-raise-concerns-over-heat-carbon-storage"
+          "slug": "global-seed-platform-launches-to-boost-nature-restoration"
         },
         {
-          "representativeTitle": "Personalization and Psychedelics Advance Psychiatry Research",
+          "representativeTitle": "Japan's Gene Editing Law Sparks Global Ethical Debate",
           "sources": [
-            "Nature"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "How personalization and psychedelics are revitalizing psychiatry",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/d41586-026-03402-7",
-              "pubDate": "2026-10-28T00:00:00.000Z",
-              "tier": 1
+              "title": "Japan's genome-editing law sets a global ethics challenge",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-japan-genome-law-global-ethics.html",
+              "pubDate": "2026-10-28T14:35:54.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "japans-gene-editing-law-sparks-global-ethical-debate"
+        },
+        {
+          "representativeTitle": "Researchers Control Single Atom's Magnetic Core",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Against all expectations, researchers control the magnetic core of a single atom",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-magnetic-core-atom.html",
+              "pubDate": "2026-10-28T14:20:08.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
           "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "personalization-and-psychedelics-advance-psychiatry-research"
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "researchers-control-single-atoms-magnetic-core"
         },
         {
-          "representativeTitle": "Personalized care aims to transform mental health treatment.",
+          "representativeTitle": "New Study Questions Comets' Role in Life Origin",
           "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The grand plan to transform psychiatry — by personalizing mental-health care",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/d41586-026-03391-7",
-              "pubDate": "2026-10-28T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "personalized-care-aims-to-transform-mental-health-treatment"
-        },
-        {
-          "representativeTitle": "Five Divisions Chart Future Trajectory of Space Exploration",
-          "sources": [
+            "Phys.org",
             "Google Science"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "These five divisions define how far we can go in space",
+              "title": "Comets probably didn't seed life on Earth after all, new study suggests",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-comets-didnt-seed-life-earth.html",
+              "pubDate": "2026-10-28T10:00:10.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Comets probably didn't seed life on Earth after all, new study suggests",
               "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0tSDZQOUJKZkh2NEFlYjRqRlhfdTNxX1ZVUGZUelFtbnNGNkprQVZCcXpuRUExSTRzcWo5NTJJN1BUNnlvcXM0RWl0amxGYjZjSnFrRUdCeWZwS0tGSXpDM3BtODl0Q3JXT3BkX2VQNmx6MjRWcDV5aw?oc=5",
-              "pubDate": "2026-10-28T06:00:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NMExiRVM0TVlTUGoyUmpidzdCbUo5R3pnWFM1NGJOVzYtdVczTnl5Ylg3TjViVUhIWVBjcjFySFFKLUg2emZud205ZHl2MXpfaWlDNlJ3cWh2UkJEYk9BcXpRSHhjM2ExOGY5c2Q4Ync?oc=5",
+              "pubDate": "2026-10-28T10:00:10.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "five-divisions-chart-future-trajectory-of-space-exploration"
-        },
-        {
-          "representativeTitle": "Preprint publishing model gains significant momentum boost.",
-          "sources": [
-            "Nature"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Preprint-centric publishing model gets major boost",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/d41586-026-03445-w",
-              "pubDate": "2026-10-28T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 6,
-          "importance": 45,
-          "slug": "preprint-publishing-model-gains-significant-momentum-boost"
+          "importance": 40,
+          "slug": "new-study-questions-comets-role-in-life-origin"
         }
       ]
     }
