@@ -1,25 +1,25 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-27T22:32:42.966Z",
+  "lastUpdated": "2026-10-28T02:41:03.476Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Israeli Election Polls Show No Clear Winner Emerging",
+          "representativeTitle": "Israel Election: Netanyahu Speaks Amid Opposition Bloc Tie",
           "sources": [
             "The Guardian",
             "Al Jazeera",
             "France 24",
-            "Time"
+            "Euronews"
           ],
           "citationCount": 4,
           "rawArticles": [
             {
-              "title": "Israel election live: exit polls project no clear winner, as anti-Netanyahu bloc leads but Likud remains biggest party",
+              "title": "Israel election live: Netanyahu speaks as exit polls point to tie with Eisenkot opposition bloc",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/live/2026/oct/27/israel-elections-knesset-netanyahu-likud-eisenkot-gaza-latest-updates",
-              "pubDate": "2026-10-27T22:08:28.000Z",
+              "pubDate": "2026-10-28T02:33:17.000Z",
               "tier": 1
             },
             {
@@ -30,7 +30,14 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Exit polls from Israel’s election show no clear winner",
+              "title": "Netanyahu, Eisenkot camps clash over Israel election projections",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/28/exit-polls-trigger-heated-debate-across-israeli-political-divide?traffic_source=rss",
+              "pubDate": "2026-10-28T00:43:02.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Exit polls signal blow for Netanyahu but no clear winner in Israel election",
               "source": "Al Jazeera",
               "link": "https://www.aljazeera.com/news/2026/10/27/exit-polls-following-israeli-elections-indicate-no-clear-winner?traffic_source=rss",
               "pubDate": "2026-10-27T20:18:18.000Z",
@@ -44,10 +51,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Israeli Exit Polls Indicate No Clear Winner in Pivotal Election",
-              "source": "Time",
-              "link": "https://time.com/article/2026/10/27/israel-netanyahu-eisenkot-knesset-election-explainer/",
-              "pubDate": "2026-10-27T09:05:00.000Z",
+              "title": "Israel: opposition supporters celebrate narrow lead in exit polls",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/video/2026/10/28/israel-opposition-supporters-celebrate-narrow-lead-in-exit-polls",
+              "pubDate": "2026-10-27T23:31:17.000Z",
               "tier": 2
             }
           ],
@@ -56,19 +63,18 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 8,
           "importance": 100,
-          "slug": "israeli-election-polls-show-no-clear-winner-emerging"
+          "slug": "israel-election-netanyahu-speaks-amid-opposition-bloc-tie"
         },
         {
-          "representativeTitle": "Bolsonaro Flees Brazil Amid Political Defeat to Lula",
+          "representativeTitle": "Bolsonaro Exits Brazil Following Election Defeat to Lula",
           "sources": [
             "The Guardian",
             "Al Jazeera",
             "SCMP",
             "Sky News",
-            "Euronews",
-            "Time"
+            "Euronews"
           ],
-          "citationCount": 6,
+          "citationCount": 5,
           "rawArticles": [
             {
               "title": "Flávio Bolsonaro flees Brazil after presidential election loss, reports say",
@@ -85,7 +91,7 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Flavio Bolsonaro flees Brazil, will get US visas after shock loss to Lula",
+              "title": "Flavio Bolsonaro leaves Brazil for US after shock election loss to Lula",
               "source": "SCMP",
               "link": "https://www.scmp.com/news/world/americas/article/3372350/brazil-wonders-where-earth-flavio-bolsonaro",
               "pubDate": "2026-10-27T17:41:44.000Z",
@@ -104,21 +110,14 @@ export const newsData = {
               "link": "https://www.euronews.com/2026/10/27/brazilian-police-probe-claims-flavio-bolsonaro-fled-to-argentina-after-election-defeat",
               "pubDate": "2026-10-27T16:03:31.000Z",
               "tier": 2
-            },
-            {
-              "title": "Flavio Bolsonaro Reportedly Flees Brazil Amid Election Loss and Money Laundering Investigation",
-              "source": "Time",
-              "link": "https://time.com/article/2026/10/27/brazil-flavio-bolsonaro-money-laundering-supreme-court-lula/",
-              "pubDate": "2026-10-27T09:45:00.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 90,
-          "slug": "bolsonaro-flees-brazil-amid-political-defeat-to-lula"
+          "importance": 85,
+          "slug": "bolsonaro-exits-brazil-following-election-defeat-to-lula"
         },
         {
           "representativeTitle": "Putin's Call Divides Nordic Nations Geopolitically Now",
@@ -126,10 +125,9 @@ export const newsData = {
             "BBC World",
             "The Guardian",
             "SCMP",
-            "Euronews",
-            "Google World"
+            "Euronews"
           ],
-          "citationCount": 5,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "Norway and Finland leaders hold rare call with Putin",
@@ -158,87 +156,36 @@ export const newsData = {
               "link": "https://www.euronews.com/2026/10/27/putin-call-pits-finland-and-norway-against-denmark-and-sweden",
               "pubDate": "2026-10-27T16:20:39.000Z",
               "tier": 2
-            },
-            {
-              "title": "Norway and Finland hold rare call with Putin to discuss ending war",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuWm1OYWtDeFFLZ0JBTzN0bUdYWGVpUnc1aDBjTVZTSDIyTDJ3bzFPelE5X2ttdVlrYXpSQ3ZPQTU3OUt1WnU1Z004MElQR2lId0RQUXlTbXVnSkk?oc=5",
-              "pubDate": "2026-10-27T18:28:23.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 9,
-          "importance": 90,
+          "importance": 85,
           "slug": "putins-call-divides-nordic-nations-geopolitically-now"
         },
         {
-          "representativeTitle": "Bolsonaro Flees US Amid Passport Controversy After Defeat",
+          "representativeTitle": "Arab Bloc Turnout Marks Key Israeli Election Moment",
           "sources": [
-            "The Guardian",
+            "Al Jazeera",
             "France 24"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Brazil: defeated Flávio Bolsonaro ordered to surrender passports",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/26/flavio-bolsonaro-brazil-lula-election",
-              "pubDate": "2026-10-26T23:02:17.000Z",
+              "title": "‘Go home, Ben-Gvir’; Arab Bloc celebrates record turnout in Israel election",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/27/go-home-ben-gvir-arab-bloc-celebrates-record-turnout-in-israel-election?traffic_source=rss",
+              "pubDate": "2026-10-27T22:31:31.000Z",
               "tier": 1
             },
             {
-              "title": "🔴Brazil's defeated candidate Flavio Bolsonaro heads to US, sources say",
+              "title": "Israel election: Record turnout as Netanyahu and Eisenkot remain deadlocked",
               "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261027-defeated-brazilian-candidate-flavio-bolsonaro-passports-cancelled-whereabouts-unknown",
-              "pubDate": "2026-10-27T20:49:40.000Z",
+              "link": "https://www.france24.com/en/middle-east/20261027-israel-election-record-turnout-netanyahu-eisenkot-deadlock",
+              "pubDate": "2026-10-27T22:58:53.000Z",
               "tier": 1
-            },
-            {
-              "title": "Brazil's defeated candidate Flavio Bolsonaro flees to US despite cancelled passports",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261027-defeated-brazilian-candidate-flavio-bolsonaro-passports-cancelled-whereabouts-unknown",
-              "pubDate": "2026-10-27T16:33:13.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 70,
-          "slug": "bolsonaro-flees-us-amid-passport-controversy-after-defeat"
-        },
-        {
-          "representativeTitle": "Election Hours Extension Rejected For Israeli Voters",
-          "sources": [
-            "France 24",
-            "Le Monde"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "🔴Live: Israeli election committee refuses Netanyahu's request to extend voting hours",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20261027-live-polls-open-in-first-israeli-election-since-october-7-attack",
-              "pubDate": "2026-10-27T18:30:47.000Z",
-              "tier": 1
-            },
-            {
-              "title": "🔴Live: Netanyahu's party asks to extend Israeli election hours amid record turnout",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20261027-live-polls-open-in-first-israeli-election-since-october-7-attack",
-              "pubDate": "2026-10-27T15:39:28.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Netanyahu's request to extend Israeli election voting hours rejected by elections committee",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/27/record-turnout-as-israeli-voters-deliver-verdict-on-netanyahu_6765419_4.html",
-              "pubDate": "2026-10-27T17:08:59.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
@@ -246,37 +193,121 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 70,
-          "slug": "election-hours-extension-rejected-for-israeli-voters"
+          "slug": "arab-bloc-turnout-marks-key-israeli-election-moment"
         },
         {
-          "representativeTitle": "Lula's Return Shifts Latin American Political Landscape",
+          "representativeTitle": "Egypt Releases Journalist Lina Attalah From Custody",
           "sources": [
             "BBC World",
-            "Al Jazeera"
+            "Al Jazeera",
+            "Le Monde"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
+              "title": "Egypt court fines journalist Lina Attalah and orders news site's closure",
               "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cq62yg6rggj0o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-27T01:46:38.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/cw8rz14k1jvxo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-27T20:44:40.000Z",
               "tier": 1
             },
             {
-              "title": "The WhatsApp ‘general’ behind Lula’s election comeback in Brazil",
+              "title": "Egypt orders closure of leading independent news site Mada Masr",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/27/the-whatsapp-general-behind-lulas-election-comeback-in-brazil?traffic_source=rss",
-              "pubDate": "2026-10-27T18:35:05.000Z",
+              "link": "https://www.aljazeera.com/news/2026/10/27/egypt-orders-closure-of-leading-independent-news-site-mada-masr?traffic_source=rss",
+              "pubDate": "2026-10-27T20:35:18.000Z",
               "tier": 1
+            },
+            {
+              "title": "Egypt releases prominent journalist Lina Attalah from custody",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/28/egypt-releases-prominent-journalist-lina-attalah-from-custody_6765574_4.html",
+              "pubDate": "2026-10-27T23:24:19.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "egypt-releases-journalist-lina-attalah-from-custody"
+        },
+        {
+          "representativeTitle": "Israeli Election Polls Show No Clear Winner Emerging",
+          "sources": [
+            "France 24",
+            "Le Monde",
+            "Time"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Israel: First exit polls show no clear winner, Arab parties make gains",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261027-israel-first-exit-polls-show-no-clear-winner-arab-parties-make-gains",
+              "pubDate": "2026-10-27T21:41:42.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Israeli elections: Exit polls show no clear winner as Netanyahu and Eisenkot both vow to form a government",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/10/28/israeli-elections-exit-polls-show-no-clear-winner-as-netanyahu-and-opposition-bloc-neck-and-neck_6765641_4.html",
+              "pubDate": "2026-10-28T01:47:16.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Israeli Exit Polls Indicate No Clear Winner in Pivotal Election",
+              "source": "Time",
+              "link": "https://time.com/article/2026/10/27/israel-netanyahu-eisenkot-knesset-election-explainer/",
+              "pubDate": "2026-10-27T09:05:00.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": 0,
-          "relevance_score": 7,
+          "relevance_score": 8,
           "importance": 65,
-          "slug": "lulas-return-shifts-latin-american-political-landscape"
+          "slug": "israeli-election-polls-show-no-clear-winner-emerging"
+        },
+        {
+          "representativeTitle": "Bolsonaro Leaves Brazil Following Election Defeat Outcome",
+          "sources": [
+            "NY Times",
+            "NPR",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Flávio Bolsonaro Leaves Brazil for the U.S. After Election Defeat",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/27/world/americas/brazil-flavio-bolsonaro-flees-election.html",
+              "pubDate": "2026-10-28T00:26:51.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Bolsonaro's party accepts Brazil election defeat, but he refuses to concede",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/27/nx-s1-6019217/bolsonaro-flavio-lula-brazil-election-trump",
+              "pubDate": "2026-10-27T14:41:17.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Bolsonaro is granted a visa to enter the U.S. after fleeing Brazil following election loss",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdTN4OHhtN2JLNm4wR29xdDZXS0xyQllDLXFoZ1lQWUZhMUlfVGFSa3FQcWxacTdlaWREMno1R1pWbUJkWlJRd3ZLdjU3YzY5WXJuajI3V3N0amR3bEg2SkhDMW1UMDZ4UEowaVRCU3B0eF9xQmtmSnNMQ2lwdFdWcElmNHMyRF9ydzFWU1NQckJiSC1ET0hOVVIzNXhvTTEteWtXbEFoaTdldXR3MVR5YlZDQnJ2ejdhRk5LTHN3?oc=5",
+              "pubDate": "2026-10-28T01:28:02.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "bolsonaro-leaves-brazil-following-election-defeat-outcome"
         },
         {
           "representativeTitle": "US Strike on Drug Vessel Kills Five People",
@@ -309,77 +340,25 @@ export const newsData = {
           "slug": "us-strike-on-drug-vessel-kills-five-people"
         },
         {
-          "representativeTitle": "Egypt Court Fines Journalist, Closes News Site",
+          "representativeTitle": "Israeli Politics Stalemate Follows Opposition's Challenge",
           "sources": [
-            "BBC World",
-            "Al Jazeera"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Egypt court fines journalist Lina Attalah and orders news site's closure",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cw8rz14k1jvxo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-27T20:44:40.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Egypt orders closure of leading independent news site Mada Masr",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/27/egypt-orders-closure-of-leading-independent-news-site-mada-masr?traffic_source=rss",
-              "pubDate": "2026-10-27T20:35:18.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "egypt-court-fines-journalist-closes-news-site"
-        },
-        {
-          "representativeTitle": "Israel holds election amid ongoing regional tensions.",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Bibi's moment of truth: Israel votes in first general election since October 7",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/the-debate/20261027-bibi-s-moment-of-truth-israel-votes-in-first-general-election-since-october-7",
-              "pubDate": "2026-10-27T21:26:10.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "israel-holds-election-amid-ongoing-regional-tensions"
-        },
-        {
-          "representativeTitle": "Israeli Election Tests Netanyahu's Political Grip Power",
-          "sources": [
-            "France 24",
+            "Al Jazeera",
             "SCMP"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Israelis vote in a tense election: What's at stake?",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/israelis-vote-in-a-tense-election-what-s-at-stake",
-              "pubDate": "2026-10-27T16:59:06.000Z",
+              "title": "Israel election results: No clear winner projected, what’s next?",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/27/no-clear-mandate-projected-in-israel-election-whats-next?traffic_source=rss",
+              "pubDate": "2026-10-27T23:06:47.000Z",
               "tier": 1
             },
             {
-              "title": "Israelis vote in tense election testing Netanyahu’s grip on power",
+              "title": "Israel’s opposition vows to replace Netanyahu, but election yields no clear winner",
               "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/middle-east/article/3372273/israelis-vote-tense-election-testing-netanyahus-grip-power",
-              "pubDate": "2026-10-27T07:00:49.000Z",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3372354/israel-exit-polls-show-election-deadlock-netanyahus-fate-balance",
+              "pubDate": "2026-10-27T20:26:06.000Z",
               "tier": 2
             }
           ],
@@ -388,7 +367,163 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 60,
-          "slug": "israeli-election-tests-netanyahus-political-grip-power"
+          "slug": "israeli-politics-stalemate-follows-oppositions-challenge"
+        },
+        {
+          "representativeTitle": "Netanyahu rejects Arab coalition talks as shameful.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Netanyahu: Coalition with Arab parties would be ‘shameful’",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/netanyahu-coalition-with-arab-parties-would-be?traffic_source=rss",
+              "pubDate": "2026-10-28T02:26:27.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "netanyahu-rejects-arab-coalition-talks-as-shameful"
+        },
+        {
+          "representativeTitle": "West Warns of Famine Risk Amid Sudan Conflict",
+          "sources": [
+            "BBC World",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "West warns of famine risk in Sudan as civil war grinds on",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cj5ynkk6v3pzo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-27T15:41:46.000Z",
+              "tier": 1
+            },
+            {
+              "title": "West warns of famine risk in Sudan as civil war grinds on",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1leUwzQk1hNjlWNjdGWkwwamVMQlJZTjZTTmF2eFRxQWU5QmpRaFpRWHR6eHZ3NHFabjZkLVpxMWZ6eWZVME4tS1JqZUJnMXhiS3NUdEJWaS10SzQ?oc=5",
+              "pubDate": "2026-10-27T15:41:46.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 65,
+          "slug": "west-warns-of-famine-risk-amid-sudan-conflict"
+        },
+        {
+          "representativeTitle": "Palestinian parties' Knesset rise reshapes Israeli politics.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Rise of Palestinian parties in Knesset will redraw Israel’s political landscape",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/27/palestinian-parties-knesset-election-exit-polls-redraw-israel-political-landscape",
+              "pubDate": "2026-10-27T23:57:50.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "palestinian-parties-knesset-rise-reshapes-israeli-politics"
+        },
+        {
+          "representativeTitle": "Inquiry finds preventable deaths in Nigerian detention cells",
+          "sources": [
+            "BBC World",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Deaths in detention cells in Nigeria were entirely preventable, inquiry finds",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cmgel8pqj5rwo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-27T19:01:16.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Deaths in detention cells in Nigeria were entirely preventable, inquiry finds",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKQS1VMWl2RG9qUmtQZ2E0aHhOSDFDemlrTHdxNWpzMFF2T25MWjM1cTJiNm5LTjctNHRqX1NqejJrc2xoYWpLclduVGZMVlZscWpVWF8yUzFKRlk?oc=5",
+              "pubDate": "2026-10-27T19:01:16.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "inquiry-finds-preventable-deaths-in-nigerian-detention-cells"
+        },
+        {
+          "representativeTitle": "Brothers Sentenced For Sex Trafficking Charges",
+          "sources": [
+            "BBC World",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Alexander brothers each sentenced to 30 years in prison in sex trafficking case",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cqn498mng08ro?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-28T02:20:25.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Alexander brothers each get 30 years in prison for drugging, raping women",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3372357/alexander-brothers-each-get-30-years-prison-drugging-raping-women",
+              "pubDate": "2026-10-27T22:26:07.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "brothers-sentenced-for-sex-trafficking-charges"
+        },
+        {
+          "representativeTitle": "US Military Focuses on Cartel Threat in Caribbean Region",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "U.S. Defends Military Campaign Against Cartels as Leaders Gather in Caribbean",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/27/us/politics/us-military-cartels-caribbean.html",
+              "pubDate": "2026-10-28T01:18:49.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "us-military-focuses-on-cartel-threat-in-caribbean-region"
         },
         {
           "representativeTitle": "Ebola Outbreak Tops Ten Thousand Cases in Congo",
@@ -421,39 +556,17 @@ export const newsData = {
           "slug": "ebola-outbreak-tops-ten-thousand-cases-in-congo"
         },
         {
-          "representativeTitle": "Ceasefire Extended in Ukraine's Kherson Region Now",
+          "representativeTitle": "Israeli Official Claims Country Voted For Change",
           "sources": [
-            "BBC World"
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-27T22:11:08.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ceasefire-extended-in-ukraines-kherson-region-now"
-        },
-        {
-          "representativeTitle": "Israeli Polls Show No Clear Winner; Arab Gains Noted",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Israel: First exit polls show no clear winner, Arab parties make gains",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261027-israel-first-exit-polls-show-no-clear-winner-arab-parties-make-gains",
-              "pubDate": "2026-10-27T21:41:42.000Z",
+              "title": "Israel’s Eisenkot says country voted for change",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/israels-eisenkot-says-country-voted-for-change?traffic_source=rss",
+              "pubDate": "2026-10-28T00:30:22.000Z",
               "tier": 1
             }
           ],
@@ -462,7 +575,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "israeli-polls-show-no-clear-winner-arab-gains-noted"
+          "slug": "israeli-official-claims-country-voted-for-change"
         },
         {
           "representativeTitle": "Israeli election lacks clear winner; exit polls suggest uncertainty.",
@@ -475,7 +588,7 @@ export const newsData = {
               "title": "No clear winner in Israeli parliamentary election, exit polls suggest",
               "source": "FT International",
               "link": "https://www.ft.com/content/6dab34da-a039-46e6-9547-0c7213a00001?syn-25a6b1a6=1",
-              "pubDate": "2026-10-27T21:37:38.000Z",
+              "pubDate": "2026-10-27T23:50:27.000Z",
               "tier": 1
             }
           ],
@@ -487,108 +600,26 @@ export const newsData = {
           "slug": "israeli-election-lacks-clear-winner-exit-polls-suggest-uncertainty"
         },
         {
-          "representativeTitle": "Brothers Sentenced For Sex Trafficking Charges",
+          "representativeTitle": "Analyzing Brazil's Election Outcomes and Future Trajectory",
           "sources": [
-            "BBC World",
-            "SCMP"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Alexander brothers each sentenced to 30 years in prison for sex trafficking case",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cqn498mng08ro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-27T21:12:39.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Alexander brothers each get 30 years in prison for drugging, raping women",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3372357/alexander-brothers-each-get-30-years-prison-drugging-raping-women",
-              "pubDate": "2026-10-27T22:26:07.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "brothers-sentenced-for-sex-trafficking-charges"
-        },
-        {
-          "representativeTitle": "Hebron Groom Detained Amid Israeli Military Lockdown",
-          "sources": [
-            "Al Jazeera"
+            "NY Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Dream postponed: Hebron groom caught in Israeli military lockdown",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/27/dream-postponed-hebron-groom-caught-in-israeli-military-lockdown?traffic_source=rss",
-              "pubDate": "2026-10-27T21:12:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "hebron-groom-detained-amid-israeli-military-lockdown"
-        },
-        {
-          "representativeTitle": "Bolsonaro Leaves Brazil Following Election Defeat Outcome",
-          "sources": [
-            "NY Times",
-            "NPR"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Flávio Bolsonaro Leaves Brazil for the U.S. After Election Defeat",
+              "title": "What to Know About Brazil’s Election, and What Comes Next",
               "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/27/world/americas/brazil-flavio-bolsonaro-flees-election.html",
-              "pubDate": "2026-10-27T21:54:16.000Z",
+              "link": "https://www.nytimes.com/2026/10/26/world/americas/brazil-election-lula-win-what-to-know.html",
+              "pubDate": "2026-10-28T02:36:51.000Z",
               "tier": 1
-            },
-            {
-              "title": "Bolsonaro's party accepts Brazil election defeat, but he refuses to concede",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/10/27/nx-s1-6019217/bolsonaro-flavio-lula-brazil-election-trump",
-              "pubDate": "2026-10-27T14:41:17.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
+          "sentiment": 0,
+          "relevance_score": 7,
           "importance": 50,
-          "slug": "bolsonaro-leaves-brazil-following-election-defeat-outcome"
-        },
-        {
-          "representativeTitle": "Lebanon, Syria Expect Status Quo From Israel Policy",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Lebanese and Syrians expect no change in Israeli policy after election",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/27/aje-onl-nf_lebanese-syrians-expectaions-israeli-elections-271026?traffic_source=rss",
-              "pubDate": "2026-10-27T20:34:44.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "lebanon-syria-expect-status-quo-from-israel-policy"
+          "slug": "analyzing-brazils-election-outcomes-and-future-trajectory"
         },
         {
           "representativeTitle": "UK Charges Men Over Alleged Iran Terror Plot Near US Base",
@@ -627,6 +658,72 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "uk-charges-men-over-alleged-iran-terror-plot-near-us-base"
+        },
+        {
+          "representativeTitle": "Terror Case Delay Amid Unprecedented Investigation Focus",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Criminal case against alleged Bondi terrorist delayed amid ‘unprecedented’ investigation",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/oct/28/criminal-case-against-alleged-bondi-guman-delayed-amid-unprecedented-investigation-ntwnfb",
+              "pubDate": "2026-10-28T01:18:39.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "terror-case-delay-amid-unprecedented-investigation-focus"
+        },
+        {
+          "representativeTitle": "Arab parties projected to gain seats in Israeli election.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Arab parties projected to win 18 seats in Israel parliamentary election",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/28/arab-parties-could-win-18-seats-in-israeli-elections-exit-polls-suggest?traffic_source=rss",
+              "pubDate": "2026-10-28T00:43:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "arab-parties-projected-to-gain-seats-in-israeli-election"
+        },
+        {
+          "representativeTitle": "King Discusses Slavery Legacy With Commonwealth Leaders",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "King Charles to discuss legacy of slavery with Commonwealth leaders at summit",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/28/king-charles-confirms-he-will-discuss-legacy-of-slavery-at-commonwealth-summit",
+              "pubDate": "2026-10-28T00:07:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "king-discusses-slavery-legacy-with-commonwealth-leaders"
         },
         {
           "representativeTitle": "Washington discusses Russian deals amid Ukraine peace talks.",
@@ -673,6 +770,28 @@ export const newsData = {
           "slug": "putin-addresses-nordic-leaders-on-russian-history"
         },
         {
+          "representativeTitle": "Lula Slams Bolsonaro Over Brazil Exit Stance",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "President Lula calls Bolsonaro’s Brazil exit ‘shameful’",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/27/president-lula-calls-bolsonaros-brazil-exit?traffic_source=rss",
+              "pubDate": "2026-10-27T23:23:42.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "lula-slams-bolsonaro-over-brazil-exit-stance"
+        },
+        {
           "representativeTitle": "Machado's Return Strains US Influence in Venezuela",
           "sources": [
             "NY Times"
@@ -695,56 +814,70 @@ export const newsData = {
           "slug": "machados-return-strains-us-influence-in-venezuela"
         },
         {
-          "representativeTitle": "Israel Election Turnout Reaches Decades High Mark",
+          "representativeTitle": "US Envoy Confronts Cuban Diplomat During UN Session",
           "sources": [
-            "FT International"
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Israel election turnout highest in decades",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/87d81352-5086-44bd-a5bb-797582e2d07c?syn-25a6b1a6=1",
-              "pubDate": "2026-10-27T19:13:09.000Z",
+              "title": "‘This is America’: US envoy scolds Cuban diplomat at UN",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/this-is-america-us-envoy-scolds-cuban-diplomat-at-un?traffic_source=rss",
+              "pubDate": "2026-10-28T00:25:08.000Z",
               "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "israel-election-turnout-reaches-decades-high-mark"
-        },
-        {
-          "representativeTitle": "Israeli Election Turnout Undermines Opposition's Hopes",
-          "sources": [
-            "SCMP",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Israel opposition holds narrow edge over Netanyahu in first election projections",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/middle-east/article/3372354/israel-exit-polls-show-election-deadlock-netanyahus-fate-balance",
-              "pubDate": "2026-10-27T20:26:06.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Israel's election has a high turnout, lifting opposition hopes of beating Netanyahu",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1TaTk2cno4VTM1Ql9DVVVmdnRqQkhkVGVhVFI2dHh3MVBSZGgtMVQtenNPX1ZpQk9XWXV0amhwVFJTR1hzcTVJUGtxVWFwdy1ETmszZXFYZlNRZnVqWGZRenNaY3FHeEhYYnNyX0lR?oc=5",
-              "pubDate": "2026-10-27T22:09:09.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 7,
+          "sentiment": -0.4,
+          "relevance_score": 6,
           "importance": 45,
-          "slug": "israeli-election-turnout-undermines-oppositions-hopes"
+          "slug": "us-envoy-confronts-cuban-diplomat-during-un-session"
+        },
+        {
+          "representativeTitle": "Gaza Women Filmmakers Channel Pain Into Artistry Now",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Gaza’s women filmmakers turn pain into cinema as new academy launches",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/27/gazas-women-filmmakers-turn-pain-into-cinema-as-new-academy-launches?traffic_source=rss",
+              "pubDate": "2026-10-27T23:35:51.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "gaza-women-filmmakers-channel-pain-into-artistry-now"
+        },
+        {
+          "representativeTitle": "Ben-Gvir faces criticism after addressing supporters.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "A bad day for Ben-Gvir as he addresses his supporters",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/27/a-bad-day-for-ben-gvir-as-he-addresses-his-supporters?traffic_source=rss",
+              "pubDate": "2026-10-27T23:16:38.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ben-gvir-faces-criticism-after-addressing-supporters"
         },
         {
           "representativeTitle": "Washington Issues Visa to Bolsonaro Post-Election Loss",
@@ -767,86 +900,88 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "washington-issues-visa-to-bolsonaro-post-election-loss"
-        },
-        {
-          "representativeTitle": "Ex-wife freed after attempted murder case collapse.",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Ex-wife of Zimbabwe's vice-president freed after collapse of attempted murder case",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6e3xgq11jqlo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-27T21:09:12.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ex-wife-freed-after-attempted-murder-case-collapse"
-        },
-        {
-          "representativeTitle": "Netanyahu Rallies Likud Voters in Public Mall Event",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Netanyahu rallies Likud voters with megaphone in shopping mall",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/27/netanyahu-rallies-likud-voters-with-megaphone-in-shopping-mall?traffic_source=rss",
-              "pubDate": "2026-10-27T20:38:17.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "netanyahu-rallies-likud-voters-in-public-mall-event"
-        },
-        {
-          "representativeTitle": "US and Cuba Clash Over UN Economic Embargo Debate",
-          "sources": [
-            "ABC News Top",
-            "ABC News US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "US, Cuban officials engage in shouting match during UN debate over economic embargo",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/wireStory/us-cuban-officials-engage-shouting-match-debate-economic-137613774",
-              "pubDate": "2026-10-27T20:37:01.000Z",
-              "tier": 2
-            },
-            {
-              "title": "US, Cuban officials engage in shouting match during UN debate over economic embargo",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/us-cuban-officials-engage-shouting-match-debate-economic-137613774",
-              "pubDate": "2026-10-27T20:37:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "us-and-cuba-clash-over-un-economic-embargo-debate"
         }
       ]
     },
     {
       "name": "US",
       "children": [
+        {
+          "representativeTitle": "DNA Links Bundy to Unsolved Utah Teen Killing",
+          "sources": [
+            "BBC US",
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Serial killer Ted Bundy linked to teenage girl's murder after 52 years",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/ckqxnd7j5007o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-27T19:56:02.000Z",
+              "tier": 1
+            },
+            {
+              "title": "What to know about serial killer Ted Bundy and his rampage of violence",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/serial-killer-ted-bundy-rampage-violence-137619916",
+              "pubDate": "2026-10-28T01:13:28.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Serial killer Ted Bundy is linked to another Utah teenager’s 1974 killing through DNA testing",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdE4ybTBpY3ItMkNXQTVVZFJsMW0zYWt6aTUtdnJRVWNqVzlEMTZtLTVPTmx5REVUT2ZFWmRISV9BSFVuWjNGSDc4Y3JXbldvWnJPamdObkJqbjFTTTdaRms2YWdoX2J4YzRYUi1NUl9aeE9FNVFVcW5tcHV2NGlIU2kxd0xvTXhqSFRjQUdMWG1kdkNhRjFmV2djVQ?oc=5",
+              "pubDate": "2026-10-27T22:32:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "dna-links-bundy-to-unsolved-utah-teen-killing"
+        },
+        {
+          "representativeTitle": "Brokers sentenced thirty years for sex trafficking charges",
+          "sources": [
+            "BBC US",
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Alexander brothers each sentenced to 30 years in prison in sex trafficking case",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cqn498mng08ro?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-28T02:20:25.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Alexander brothers, ex-luxury real estate brokers, sentenced to 30 years in prison for sex trafficking",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/ex-luxury-real-estate-brokers-brother-sentenced-federal-sex-traffickin-rcna605818",
+              "pubDate": "2026-10-27T12:10:41.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Alexander brothers each sentenced to 30 years in prison for sex trafficking case",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xSDE0aXJTYUN4QXRNbTdUZEwtZ2NXZW0zcjNHcG56MzRrUkhQeTlQUWdsOV83TG1SVWVFSHo4NDAzVDR4eE1USWFLZlp6TUpBVHpEdS1UYm0zNm8?oc=5",
+              "pubDate": "2026-10-27T23:41:23.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "brokers-sentenced-thirty-years-for-sex-trafficking-charges"
+        },
         {
           "representativeTitle": "FBI raids California home linked to Swalwell.",
           "sources": [
@@ -886,103 +1021,6 @@ export const newsData = {
           "slug": "fbi-raids-california-home-linked-to-swalwell"
         },
         {
-          "representativeTitle": "Brokers sentenced thirty years for sex trafficking charges",
-          "sources": [
-            "BBC US",
-            "NBC News",
-            "Fox News"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Alexander brothers each sentenced to 30 years in prison for sex trafficking case",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cqn498mng08ro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-27T21:12:39.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Alexander brothers, ex-luxury real estate brokers, sentenced to 30 years in prison for sex trafficking",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/ex-luxury-real-estate-brokers-brother-sentenced-federal-sex-traffickin-rcna605818",
-              "pubDate": "2026-10-27T12:10:41.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Luxury real estate brothers sentenced to 30 years in prison for yearslong sex-trafficking scheme",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/us/luxury-real-estate-brothers-sentenced-30-years-prison-yearslong-sex-trafficking-scheme",
-              "pubDate": "2026-10-27T21:15:15.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "brokers-sentenced-thirty-years-for-sex-trafficking-charges"
-        },
-        {
-          "representativeTitle": "Trump questions US midterm election integrity again.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump says he’ll respect US midterm results if elections are ‘honest’",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/27/trump-says-hell-respect-us-midterm-results-if-elections-are?traffic_source=rss",
-              "pubDate": "2026-10-27T19:11:27.000Z",
-              "tier": 1
-            },
-            {
-              "title": "‘If they’re honest’: Trump casts latest suspicion on US midterm elections",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/27/if-theyre-honest-trump-casts-latest-suspicion-on-us-midterm-elections?traffic_source=rss",
-              "pubDate": "2026-10-27T18:24:13.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "trump-questions-us-midterm-election-integrity-again"
-        },
-        {
-          "representativeTitle": "DNA Links Bundy to Cold Case Utah Murder Investigation",
-          "sources": [
-            "BBC US",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Serial killer Ted Bundy linked to teenage girl's murder after 52 years",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/ckqxnd7j5007o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-27T19:56:02.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Serial killer Ted Bundy linked to another Utah teenager's cold case murder through DNA testing, prosecutor says",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NaTdzUTFiYlpIQ1NvM1NhSWNEV05LdGxDU1BYT1ZySnhwWVRLd1JLQndLOWhtQmM4Rzhsd2lBSGtydEZkQ0J4R196clhkbF82ekhvYmFDbmRvMHJ2R21WUHNfc3F6Yk5VaDFRRzJmTEp0QVUxeF8ya3gta0RpZjg?oc=5",
-              "pubDate": "2026-10-27T18:54:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "dna-links-bundy-to-cold-case-utah-murder-investigation"
-        },
-        {
           "representativeTitle": "Trump Claims Widespread Voter Fraud Concerns Persist Now",
           "sources": [
             "BBC US"
@@ -1005,28 +1043,6 @@ export const newsData = {
           "slug": "trump-claims-widespread-voter-fraud-concerns-persist-now"
         },
         {
-          "representativeTitle": "Former Officer Found Guilty of Rape Charges",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Former Met officer who worked with Wayne Couzens found guilty of rape",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/oct/27/former-met-officer-who-served-in-same-unit-as-david-carrick-and-wayne-couzens-found-guilty-of-sexual-offences",
-              "pubDate": "2026-10-27T20:34:59.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "former-officer-found-guilty-of-rape-charges"
-        },
-        {
           "representativeTitle": "Killer Escapes Prison; Manhunt Launched in Tennessee",
           "sources": [
             "BBC US"
@@ -1047,6 +1063,36 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "killer-escapes-prison-manhunt-launched-in-tennessee"
+        },
+        {
+          "representativeTitle": "DOJ charges against witness fail; indictment avoided.",
+          "sources": [
+            "Fox News",
+            "ABC News Top"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Cassidy Hutchinson avoids indictment after DOJ effort to charge her over Jan 6 testimony fails: sources",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/politics/cassidy-hutchinson-avoids-indictment-doj-effort-charge-jan-6-testimony-fails-sources",
+              "pubDate": "2026-10-28T00:51:36.000Z",
+              "tier": 2
+            },
+            {
+              "title": "DOJ fails to get indictment against ex-Trump aide Cassidy Hutchinson: Sources",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/US/doj-fails-indictment-trump-aide-cassidy-hutchinson-jan/story?id=137619918",
+              "pubDate": "2026-10-27T23:00:12.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "doj-charges-against-witness-fail-indictment-avoided"
         },
         {
           "representativeTitle": "Judge Criticizes Trump Plans for D.C. Golf Course",
@@ -1109,29 +1155,7 @@ export const newsData = {
           "slug": "measles-resurgence-highlights-weaknesses-in-public-health"
         },
         {
-          "representativeTitle": "Trump uses Venezuelan oil to rally Texas voters.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump showcases Venezuelan oil as he seeks to rally voters in Texas",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/27/trump-showcases-venezuelan-oil-as-he-seeks-to-rally-voters-in-texas?traffic_source=rss",
-              "pubDate": "2026-10-27T21:28:33.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "trump-uses-venezuelan-oil-to-rally-texas-voters"
-        },
-        {
-          "representativeTitle": "Parents demand DOJ evidence regarding ICE shooting.",
+          "representativeTitle": "Grand Jury Drops Charges Against Hutchinson After Review",
           "sources": [
             "NBC News",
             "Google US"
@@ -1139,17 +1163,39 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Alex Pretti’s parents demand DOJ release evidence of fatal ICE shooting",
+              "title": "Grand jury declines to indict former Trump aide Cassidy Hutchinson, star witness of Jan. 6 committee",
               "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/parents-nurse-killed-ice-demand-doj-release-evidence-fatal-shooting-rcna605923",
-              "pubDate": "2026-10-27T19:24:29.000Z",
+              "link": "https://www.nbcnews.com/politics/justice-department/grand-jury-declines-indict-former-trump-aide-cassidy-hutchinson-jan-6-rcna603233",
+              "pubDate": "2026-10-27T22:42:04.000Z",
               "tier": 2
             },
             {
-              "title": "Parents of nurse killed by ICE demand DOJ release evidence of fatal shooting",
+              "title": "Grand Jury Declines to Bring Charges Against Cassidy Hutchinson",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUVRKN1FUSVpaM0ltVDgyTmZpQTVKU3RINHRKbDg1YnZTdXhLdHFfWS1RTFMtVEh0Ml93am1QOW1oVDA3dl9FYWpiNTAxUVl5UlpZN1FvZG1FTm8xQ2I5VDItVVRobWNFQUNBZ3V0b0VtZ0VmZ0pfMTkySE1NR2dMZ2poc3ZIU2N6SlhfWTlNeWZZdU1mZ3pYVHd6Y1pLVjRIX0JMSTV3WVRraXlPRTdXUUFXWGNWUQ?oc=5",
-              "pubDate": "2026-10-27T19:24:29.000Z",
+              "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQN080UWt5OGpaWGdHclZVWFhCSGRVemFhTlJSX1hSWGh2NmxqdkM4VGozOWZWWlZHMnNSMG1LWGJRZE5nYnlpSW9VOEpRaTBkZDVlQ0d6eFIwTVBxNmdFbGVBc2o4bkNtZGV2SFhRVGJWZ2Zqa09rM3VudWx5LW5lYnVjNUhwYlF1cURTQVBfUldhdk5oSjFkdkxaWQ?oc=5",
+              "pubDate": "2026-10-28T00:45:29.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "grand-jury-drops-charges-against-hutchinson-after-review"
+        },
+        {
+          "representativeTitle": "Trump vows rolling back methane rules for oil sector.",
+          "sources": [
+            "NBC News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump says he’ll roll back Biden-era methane rules for oil and gas companies",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/science/climate-change/trump-methane-rules-leaks-emissions-oil-gas-rcna605983",
+              "pubDate": "2026-10-28T01:37:47.000Z",
               "tier": 2
             }
           ],
@@ -1157,52 +1203,30 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 45,
-          "slug": "parents-demand-doj-evidence-regarding-ice-shooting"
+          "importance": 40,
+          "slug": "trump-vows-rolling-back-methane-rules-for-oil-sector"
         },
         {
-          "representativeTitle": "Chow Wins Toronto Mayoral Election For Second Term",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Olivia Chow elected as Toronto mayor for second term in victory for progressives",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/27/olivia-chow-toronto-mayor-election-results",
-              "pubDate": "2026-10-27T20:23:46.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "chow-wins-toronto-mayoral-election-for-second-term"
-        },
-        {
-          "representativeTitle": "Trump Admin Power Could Halt Deportation Proceedings Now",
+          "representativeTitle": "EPA Loosens Methane Rules, Impacting Oil Industry Standards",
           "sources": [
             "Google US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump administration can block immigration judges from closing deportation cases",
+              "title": "E.P.A. to Loosen Methane Rules for Oil Firms",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQkRoOEw1UVdTNFEtMUE5SWtiUE1Oc3ZDX01Xdl9jZVlLTFhmNlBIUGdXMDdmMVJVVm9SSS1GVDJVbTk2bEptdmZoMVpaTUxHWEtHWDAzbG9BM2toV0xlV0l6eWdNMmpsWmpFS29FcS1wd2h5VW9EbVNvajJFYVN1XzFuRDBoamFtbmx2amlwODFxUEFqZGFVekJDWFFlNXVObnYwTUkySVJ5VEJ5Ti01UmpXMi1JSl9fclBoOGR5TXpNUlotenc?oc=5",
-              "pubDate": "2026-10-27T22:21:50.000Z",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaDlyT2d2eWZkNjg2YXU5YURQUlYtQktqVmtIVWpLQmdJbW0zZDRMcUZtcFRRQURvMlA0amtJeUdTa3lDZDYyeVRld3NpRjgwV3VSTDZEUi0zcjBaeXJoRldycWxET21URTVqRUo3LWtrVXZoSlVMMDlHZHNzVlA4SmpqNDBYa0xUclFLbElSYw?oc=5",
+              "pubDate": "2026-10-28T01:17:36.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "trump-admin-power-could-halt-deportation-proceedings-now"
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "epa-loosens-methane-rules-impacting-oil-industry-standards"
         },
         {
           "representativeTitle": "Florida Mother Arrested After Leaving Children Unattended Days",
@@ -1233,50 +1257,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 40,
           "slug": "florida-mother-arrested-after-leaving-children-unattended-days"
-        },
-        {
-          "representativeTitle": "Regulators ease scrutiny on credit rating agencies.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US insurance regulators back down on credit ratings scrutiny",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/4a12c55c-40d1-4e91-990b-3adc51b85912?syn-25a6b1a6=1",
-              "pubDate": "2026-10-27T15:36:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "regulators-ease-scrutiny-on-credit-rating-agencies"
-        },
-        {
-          "representativeTitle": "DOJ Fails to Indict Aide; Sources Report Developments",
-          "sources": [
-            "ABC News Top"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "DOJ fails to get indictment against ex-Trump aide Cassidy Hutchinson: Sources",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/doj-fails-indictment-trump-aide-cassidy-hutchinson-jan/story?id=137619918",
-              "pubDate": "2026-10-27T22:16:55.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "doj-fails-to-indict-aide-sources-report-developments"
         }
       ]
     },
@@ -1284,14 +1264,58 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "AI Optimism Drives Gains Across Asian Markets Today",
+          "representativeTitle": "China Stock Premium Widens Amid State Intervention Concerns",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Asian Stocks Set to Gain on Resurgent AI Optimism: Markets Wrap",
+              "title": "China Stock Premium Over Hong Kong Widens on State Intervention",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-27/china-stock-premium-over-hong-kong-widens-on-state-intervention",
+              "pubDate": "2026-10-27T23:49:37.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "china-stock-premium-widens-amid-state-intervention-concerns"
+        },
+        {
+          "representativeTitle": "Dongshan Stock Drops After Major HK Listing Debut",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Dongshan Precision Slips in Debut After $1.3 Billion HK Listing",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-27/dongshan-precision-set-to-debut-after-1-3-billion-hk-listing",
+              "pubDate": "2026-10-27T23:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "dongshan-stock-drops-after-major-hk-listing-debut"
+        },
+        {
+          "representativeTitle": "Asian Stocks Rise on AI Optimism and Oil Gains",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Asian Stocks Climb on AI Trade Optimism, Oil Gains: Markets Wrap",
               "source": "Bloomberg Markets",
               "link": "https://www.bloomberg.com/news/articles/2026-10-27/stock-market-today-dow-s-p-live-updates",
               "pubDate": "2026-10-27T22:09:07.000Z",
@@ -1301,9 +1325,9 @@ export const newsData = {
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
           "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "ai-optimism-drives-gains-across-asian-markets-today"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "asian-stocks-rise-on-ai-optimism-and-oil-gains"
         },
         {
           "representativeTitle": "GM to Change Listing Exchange From NYSE to Nasdaq",
@@ -1326,6 +1350,28 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "gm-to-change-listing-exchange-from-nyse-to-nasdaq"
+        },
+        {
+          "representativeTitle": "SK Hynix Announces Major Shareholder Return Plan",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "SK Hynix Plans $75 Billion in Shareholder Returns After Blockbuster Earnings",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/earnings/sk-hynix-plans-75-billion-in-shareholder-returns-after-blockbuster-earnings-f3a460b7?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-10-28T02:07:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "sk-hynix-announces-major-shareholder-return-plan"
         },
         {
           "representativeTitle": "UPS Exceeds Earnings, Boosts Full-Year Outlook",
@@ -1355,33 +1401,114 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "Anthropic flags gas supply as major near-term risk.",
+          "representativeTitle": "Jio Targets Mega-IPO Success After Market Jinx",
           "sources": [
-            "Wired"
+            "Bloomberg Markets"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Anthropic Flags Gas Supply as One of Its Biggest Near-Term Risks",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/",
-              "pubDate": "2026-10-27T18:20:28.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Anthropic Flags Gas Supply as One of Its Biggest Near-Term Risks",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/",
-              "pubDate": "2026-10-27T18:20:28.000Z",
+              "title": "Jio Looks to Break India Mega-IPO Jinx With a Blockbuster Stock-Market Debut",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/newsletters/2026-10-28/jio-looks-to-break-india-mega-ipo-jinx-with-a-blockbuster-stock-market-debut",
+              "pubDate": "2026-10-28T02:35:31.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Technology",
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "jio-targets-mega-ipo-success-after-market-jinx"
+        },
+        {
+          "representativeTitle": "Kaplan Suggests Fed Should Delay Interest Rate Hikes",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Robert Kaplan: Fed Can Wait Before Hiking Rates",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-28/robert-kaplan-fed-can-wait-before-hiking-rates-video",
+              "pubDate": "2026-10-28T00:49:45.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "kaplan-suggests-fed-should-delay-interest-rate-hikes"
+        },
+        {
+          "representativeTitle": "Fed Signals Rate Hold Amid December Decision Guidance",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Fed Seen Holding Rates With Nod to December: Decision-Day Guide",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-27/fed-seen-holding-rates-with-nod-to-december-decision-day-guide",
+              "pubDate": "2026-10-27T23:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "fed-signals-rate-hold-amid-december-decision-guidance"
+        },
+        {
+          "representativeTitle": "Australia Inflation Rises; Rate Hike Fears Mount Now",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Australia’s inflation rate rises to 4.3%, fuelling fears of fifth interest rate hike this year",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/oct/28/inflation-rate-australia-2026-number-data-consumer-price-index-cpi-release",
+              "pubDate": "2026-10-28T02:17:32.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "anthropic-flags-gas-supply-as-major-near-term-risk"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "australia-inflation-rises-rate-hike-fears-mount-now"
+        },
+        {
+          "representativeTitle": "RBI Curbs Rupee Bets Amid Fading Cash Surplus",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "India’s Record Bank Cash Surplus Fades as RBI Curbs Rupee Bets",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-28/india-s-record-bank-cash-surplus-fades-as-rbi-curbs-rupee-bets",
+              "pubDate": "2026-10-28T01:51:10.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "rbi-curbs-rupee-bets-amid-fading-cash-surplus"
         },
         {
           "representativeTitle": "Venture Firm Raises $10B Fund for Startup Bets",
@@ -1406,6 +1533,50 @@ export const newsData = {
           "slug": "venture-firm-raises-10b-fund-for-startup-bets"
         },
         {
+          "representativeTitle": "Anthropic flags gas supply as major near-term risk.",
+          "sources": [
+            "Wired"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Anthropic Flags Gas Supply as One of Its Biggest Near-Term Risks",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/anthropic-ipo-identifies-gas-supply-as-big-near-term-risks/",
+              "pubDate": "2026-10-27T18:20:28.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "anthropic-flags-gas-supply-as-major-near-term-risk"
+        },
+        {
+          "representativeTitle": "NZD Weakens Significantly Against Australian Dollar Pair",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "New Zealand Dollar Slides Most Versus Aussie Since 2017 on RBNZ",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-28/new-zealand-dollar-slides-most-versus-aussie-since-2017-on-rbnz",
+              "pubDate": "2026-10-28T01:50:36.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "nzd-weakens-significantly-against-australian-dollar-pair"
+        },
+        {
           "representativeTitle": "Boeing delays 737 Max production ramp until 2027.",
           "sources": [
             "CNBC Economy"
@@ -1426,6 +1597,72 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "boeing-delays-737-max-production-ramp-until-2027"
+        },
+        {
+          "representativeTitle": "Politician Defends Cup Use Amid Environmental Criticism",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘I use disposable cups’: Chris Minns backflips on takeaway coffee cups after media and business backlash",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/oct/28/chris-minns-backflips-disposable-coffee-cups-nsw-politics",
+              "pubDate": "2026-10-28T00:38:27.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "politician-defends-cup-use-amid-environmental-criticism"
+        },
+        {
+          "representativeTitle": "Jewelers Halt Gold Buying Amid Price Drop Bets",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "India Jewelers Hold Off Gold Buying, Betting Prices Will Drop",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-28/india-jewelers-hold-off-gold-buying-betting-prices-will-drop",
+              "pubDate": "2026-10-28T00:21:27.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "jewelers-halt-gold-buying-amid-price-drop-bets"
+        },
+        {
+          "representativeTitle": "Gold Price Holds Steady Awaiting Fed Rate Decision",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Gold Holds Above $4,000 as Traders Look to Fed Rate Decision",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-27/gold-holds-above-4-000-as-traders-look-to-fed-rate-decision",
+              "pubDate": "2026-10-27T23:36:58.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "gold-price-holds-steady-awaiting-fed-rate-decision"
         },
         {
           "representativeTitle": "Auto Tariffs Threaten Canadian Automotive Industry Stability",
@@ -1494,28 +1731,6 @@ export const newsData = {
           "slug": "sec-filings-reveal-corporate-insights-from-october-data"
         },
         {
-          "representativeTitle": "Australian Politics: Bonus Scandal and Culture Clash Emerge",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Politics live: Australia Post chief paid ‘mind-blowing’ bonus; Labor says One Nation should justify Bluey ‘satire’",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/live/2026/oct/28/inflation-abs-labor-anthony-albanese-parliament-greens-david-shoebridge-one-nation-ntwnfb",
-              "pubDate": "2026-10-27T22:10:59.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "australian-politics-bonus-scandal-and-culture-clash-emerge"
-        },
-        {
           "representativeTitle": "Oil Market Analysis Provided For October Twenty-Eighth",
           "sources": [
             "Bloomberg Markets"
@@ -1536,6 +1751,28 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "oil-market-analysis-provided-for-october-twenty-eighth"
+        },
+        {
+          "representativeTitle": "China Auto Sector: Global Success Meets Domestic Struggles",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China’s Car Industry Is Wowing the World—but Crashing at Home",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/autos/china-cars-domestic-sale-declines-983ced7b?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-10-28T01:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "china-auto-sector-global-success-meets-domestic-struggles"
         },
         {
           "representativeTitle": "GM Shifts Focus Toward Hybrid Vehicle Offerings Now",
@@ -1582,138 +1819,6 @@ export const newsData = {
           "slug": "major-banks-target-affluent-texas-clientele-services"
         },
         {
-          "representativeTitle": "Retailer and Nasdaq Discuss Corporate Listing Plans",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Nasdaq Texas & Walmart Discuss Corp Listing Strategies",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-27/nasdaq-texas-walmart-discuss-corp-listing-strategies-video",
-              "pubDate": "2026-10-27T21:42:32.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "retailer-and-nasdaq-discuss-corporate-listing-plans"
-        },
-        {
-          "representativeTitle": "JPM Analysts Discuss Trends in Texas Wealth Market",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "JPM's Agather & Herbst on Texas Wealth Wave",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-27/jpm-s-agather-herbst-on-texas-wealth-wave-video",
-              "pubDate": "2026-10-27T21:36:39.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "jpm-analysts-discuss-trends-in-texas-wealth-market"
-        },
-        {
-          "representativeTitle": "Montage Intl CEO Predicts Strong Future Bookings Through 2027",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Montage Intl. CEO: Future Bookings Are Higher Into 2027",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-27/montage-intl-ceo-future-bookings-are-higher-into-2027-video",
-              "pubDate": "2026-10-27T21:31:05.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "montage-intl-ceo-predicts-strong-future-bookings-through-2027"
-        },
-        {
-          "representativeTitle": "Major Funds Eye Raizen Debt Restructuring Efforts Now",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Raizen Debt to Be Eyed by FS, Mubadala in Restructuring",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-27/raizen-debt-is-said-to-be-eyed-by-fs-mubadala-in-restructuring",
-              "pubDate": "2026-10-27T21:02:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "major-funds-eye-raizen-debt-restructuring-efforts-now"
-        },
-        {
-          "representativeTitle": "Barclays Warns of High FX Volatility Amid Dollar Strength",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Barclays Sees FX Volatility Staying Elevated as Dollar Rises",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-27/barclays-sees-fx-volatility-staying-elevated-as-dollar-rises",
-              "pubDate": "2026-10-27T21:01:03.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "barclays-warns-of-high-fx-volatility-amid-dollar-strength"
-        },
-        {
-          "representativeTitle": "Investors Eye Commercial Real Estate Market Opportunities Now",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Real Estate Investors on Commercial Market Opportunities",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-27/real-estate-investors-on-commercial-market-opportunities-video",
-              "pubDate": "2026-10-27T20:51:44.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "investors-eye-commercial-real-estate-market-opportunities-now"
-        },
-        {
           "representativeTitle": "Re:Build Raises $2.1B Funding Following Slate Auto Spinout",
           "sources": [
             "TechCrunch"
@@ -1734,28 +1839,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "rebuild-raises-21b-funding-following-slate-auto-spinout"
-        },
-        {
-          "representativeTitle": "Elite Consulting Firms Raise Starting Salaries Again",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Elite consulting firms raise starting salaries for first time since 2022",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/dcfaf62f-497d-4db0-bb2d-a55e0b749750?syn-25a6b1a6=1",
-              "pubDate": "2026-10-27T19:33:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "elite-consulting-firms-raise-starting-salaries-again"
         },
         {
           "representativeTitle": "Major Law Firm Faces Potential Wind-Down Amid Crisis",
@@ -1810,11 +1893,10 @@ export const newsData = {
           "representativeTitle": "Google's AI Model Advances with Audio and Realism",
           "sources": [
             "TechCrunch",
-            "The Verge",
             "Ars Technica",
             "Google Tech"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
@@ -1822,13 +1904,6 @@ export const newsData = {
               "link": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
               "pubDate": "2026-10-27T16:30:57.000Z",
               "tier": 1
-            },
-            {
-              "title": "Google’s next Genie AI model generates more realistic experiences",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
-              "pubDate": "2026-10-27T16:00:00.000Z",
-              "tier": 2
             },
             {
               "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
@@ -1849,8 +1924,46 @@ export const newsData = {
           "aiCategory": "Technology",
           "sentiment": 0.4,
           "relevance_score": 8,
-          "importance": 70,
+          "importance": 65,
           "slug": "googles-ai-model-advances-with-audio-and-realism"
+        },
+        {
+          "representativeTitle": "Apple refreshes iMac and MacBook Pro with M6 chip.",
+          "sources": [
+            "TechCrunch",
+            "Ars Technica",
+            "Google Tech"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Apple unveils new 14-inch MacBook Pro with M6 chip",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/",
+              "pubDate": "2026-10-27T14:25:11.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
+              "source": "Ars Technica",
+              "link": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
+              "pubDate": "2026-10-27T22:37:30.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNN0tDN05WTnZhc3hqQlUyZnRKYVdzZnBsSmFoQ3JFa0VZNEw4TWZoaC1XYmZZRFVpWlZKRUVmdkhjSDFBaUZZZllGN2cyQzh0RW1BcTV1MTlBTU5abklTS0hCRHhyN0FCWDJkVS10blNRM2lONXNUOFJPcnduLVdIRGZyN292VnlLT0hIWkpSbzNJN19GcU5lUkR1X0R3RzFXZnJPcHozaw?oc=5",
+              "pubDate": "2026-10-27T22:37:30.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "apple-refreshes-imac-and-macbook-pro-with-m6-chip"
         },
         {
           "representativeTitle": "Anthropic Claims AI Will Transform Biological Sciences Future",
@@ -1882,26 +1995,174 @@ export const newsData = {
           "slug": "anthropic-claims-ai-will-transform-biological-sciences-future"
         },
         {
-          "representativeTitle": "AI Risks Highlighted: Catastrophe and IPO Concerns Emerge",
+          "representativeTitle": "Firmware Flaw Threatens Global Server Infrastructure Security",
+          "sources": [
+            "Ars Technica",
+            "Google Tech"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+              "source": "Ars Technica",
+              "link": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+              "pubDate": "2026-10-27T20:25:55.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcDR4S09mcHF5WUxhTXVmaWppbVhmdGNwTXB2WXVSTURjdU9YeHUyN0hXUlFLNHg3U1FyakJJdUljS0h4TEV0RFZ2ck12eWNpUVZ5UEtna0pIWExPNmNaMlhfSnY2eFlIbldoSFRPeVJqdWcwdjRLX2NvcE5OSkxKS2pqNGVZVFEwY1FybDUzc0o0bUpEa1ZPTjQ2dnQzZUVlTHhtZWVyYk5uVGw3R1NPYnFDRzQ5b1Vj?oc=5",
+              "pubDate": "2026-10-27T20:25:55.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 60,
+          "slug": "firmware-flaw-threatens-global-server-infrastructure-security"
+        },
+        {
+          "representativeTitle": "Amazon Expected to Outshine Anthropic IPO Gains",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+              "pubDate": "2026-10-28T01:15:28.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "amazon-expected-to-outshine-anthropic-ipo-gains"
+        },
+        {
+          "representativeTitle": "Hynix Profits Surge Driven by AI Chip Demand",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "SK Hynix profits soar amid roaring AI chip demand",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/44c35ed7-aa46-4d45-91f5-2773f00ae6be",
+              "pubDate": "2026-10-28T01:15:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "hynix-profits-surge-driven-by-ai-chip-demand"
+        },
+        {
+          "representativeTitle": "SK Hynix Reports Record Profits Driven by AI Boom",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Catastrophe, Rogue AI and Other Anthropic IPO Risks",
+              "title": "SK Hynix Posts Record Profit Amid AI Rush",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-10-27/catastrophe-rogue-ai-and-other-anthropic-ipo-risks-video",
-              "pubDate": "2026-10-27T21:12:39.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-10-28/sk-hynix-posts-record-profit-amid-ai-rush-video",
+              "pubDate": "2026-10-28T00:18:39.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Technology",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "ai-risks-highlighted-catastrophe-and-ipo-concerns-emerge"
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "sk-hynix-reports-record-profits-driven-by-ai-boom"
+        },
+        {
+          "representativeTitle": "Parents Sue OpenAI Over AI's Medical Advice",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+              "pubDate": "2026-10-27T23:34:27.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "parents-sue-openai-over-ais-medical-advice"
+        },
+        {
+          "representativeTitle": "Google Indexing Discord Servers Changes User Privacy",
+          "sources": [
+            "TechCrunch",
+            "Google Tech"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Discord is making its public communities more searchable, and people have concerns",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/27/discord-is-making-its-public-communities-more-searchable-and-people-have-concerns/",
+              "pubDate": "2026-10-27T21:22:35.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Discord Is Making Public Server Messages Searchable on Google",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQblh4SWllU08wWW1lMGhzNW9oUjhLWmxTQ2lCaEdHYXkwZk93SjhxanlkVHpBUUpCQmlKaTBXUzA1bFhrRDN1SjFkRzZqVTlWc0ROZHBWX3lRRzNjZERKS2Mwd3dDOTV6eVV5VlpsNWpoSU9MTDdtOVZTaVFraFdKZHN0dUhReWxSOXRXaEpheGxwMzhv?oc=5",
+              "pubDate": "2026-10-27T19:29:38.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "google-indexing-discord-servers-changes-user-privacy"
+        },
+        {
+          "representativeTitle": "Data Centers Power US Grid Through Innovation Boost",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The data center boom has an upside: innovation for the US grid",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+              "pubDate": "2026-10-27T22:55:41.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "data-centers-power-us-grid-through-innovation-boost"
         },
         {
           "representativeTitle": "Concerns surface regarding AI boom's financial limits.",
@@ -1926,34 +2187,26 @@ export const newsData = {
           "slug": "concerns-surface-regarding-ai-booms-financial-limits"
         },
         {
-          "representativeTitle": "Apple Unveils New MacBook Pro Featuring M6 Chip",
+          "representativeTitle": "Anthropic Tapped to Lead JPMorgan IPO Offering",
           "sources": [
-            "TechCrunch",
-            "Google Tech"
+            "Bloomberg Markets"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Apple unveils new 14-inch MacBook Pro with M6 chip",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/",
-              "pubDate": "2026-10-27T14:25:11.000Z",
+              "title": "Anthropic Said to Pick JPMorgan to Lead IPO’s US Retail Offering",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-28/anthropic-said-to-pick-jpmorgan-to-lead-ipo-s-us-retail-offering",
+              "pubDate": "2026-10-28T00:32:33.000Z",
               "tier": 1
-            },
-            {
-              "title": "Apple unveils new 14-inch MacBook Pro with M6 chip",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV3NvSWI3cjhYTVBaZndZUnBOc1oyYUxfZXFNS1NOMV9BQS1CTE5yaWVtWGljeWRIRmtRWXBFYnM4QlhIMkRaUEQzZG05b19fX3JzRmxjUmQ0NDQxakREZDNCSDBqTmI2VXFkQjBGSGxXbkRfN3pCeFVkOHhlZnMxdUU1eF9Tb0NmYVdVTlZ3?oc=5",
-              "pubDate": "2026-10-27T14:25:11.000Z",
-              "tier": 2
             }
           ],
-          "ingestionCategory": "Technology",
+          "ingestionCategory": "Stocks",
           "aiCategory": "Technology",
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "apple-unveils-new-macbook-pro-featuring-m6-chip"
+          "importance": 45,
+          "slug": "anthropic-tapped-to-lead-jpmorgan-ipo-offering"
         },
         {
           "representativeTitle": "Apple Faces Criticism Over iPhone Duo Screen Issues",
@@ -2030,58 +2283,6 @@ export const newsData = {
           "slug": "bank-warns-against-sharing-passwords-with-ai-assistants"
         },
         {
-          "representativeTitle": "Discord enhances searchability; users express mixed concerns.",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Discord is making its public communities more searchable, and people have concerns",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/27/discord-is-making-its-public-communities-more-searchable-and-people-have-concerns/",
-              "pubDate": "2026-10-27T21:22:35.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "discord-enhances-searchability-users-express-mixed-concerns"
-        },
-        {
-          "representativeTitle": "Google Certifies App Stores for Android Globally Now",
-          "sources": [
-            "Ars Technica",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Google begins certifying Registered App Stores for Android, but not in the US",
-              "source": "Ars Technica",
-              "link": "https://arstechnica.com/gadgets/2026/10/googles-android-registered-app-stores-program-launches-dec-1-applications-now-open/",
-              "pubDate": "2026-10-27T19:32:07.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Google begins certifying Registered App Stores for Android, but not in the US",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbldtbGVnS1pFVk4yQm9NQ2ctSHBOTzdGMFN2WldMVnVXTWxieWtiZ0ROXzJscVB0U0t5Z2dvSU5XWDV5MEN5MEdYelAzc2tnUFpaaWR1QXRMaFU2NlBldERJRVdzU2JYdDNuZ29tdFVhNkxFWHVrRFVaVTljckQxQnBiemNaM29PcFJ0b3JRVkRuREFNclE3c3lyT3NtX21XZ25sMGd0UWM1Q0tYS0MxaXZwTmhwemUxTkt6T3ZpQmg?oc=5",
-              "pubDate": "2026-10-27T19:32:07.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "google-certifies-app-stores-for-android-globally-now"
-        },
-        {
           "representativeTitle": "Motorola Offers Free Tech With Razr Phone Purchase",
           "sources": [
             "Wired"
@@ -2108,6 +2309,28 @@ export const newsData = {
     {
       "name": "Science",
       "children": [
+        {
+          "representativeTitle": "El Niño threatens water, food, and power supplies.",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Report indicates water, food and power at risk by strong El Niño",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-food-power-strong-el-nio.html",
+              "pubDate": "2026-10-28T00:40:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "el-nio-threatens-water-food-and-power-supplies"
+        },
         {
           "representativeTitle": "NASA's Old Martian Craft Continue Scientific Missions",
           "sources": [
@@ -2139,61 +2362,17 @@ export const newsData = {
           "slug": "nasas-old-martian-craft-continue-scientific-missions"
         },
         {
-          "representativeTitle": "Open database standardizes global water cycle data.",
+          "representativeTitle": "Biobatteries Power Field Urea Production Breakthrough",
           "sources": [
             "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Open database tracks Earth's water cycle by standardizing decades of satellite data",
+              "title": "Researchers produce urea in the field using system powered by biobatteries and solar energy",
               "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-database-tracks-earth-standardizing-decades.html",
-              "pubDate": "2026-10-27T22:20:13.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "open-database-standardizes-global-water-cycle-data"
-        },
-        {
-          "representativeTitle": "Light Controls Magnetism and Topology in Thin Materials",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Scientists uncover new way to control magnetism and topology using light in atomically thin materials",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-scientists-uncover-magnetism-topology-atomically.html",
-              "pubDate": "2026-10-27T21:40:06.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "light-controls-magnetism-and-topology-in-thin-materials"
-        },
-        {
-          "representativeTitle": "Observatory Finds New Dwarf Planet Candidate Orbiting Sun",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Rubin Observatory reveals its first dwarf planet candidate in our solar system",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-rubin-observatory-reveals-dwarf-planet.html",
-              "pubDate": "2026-10-27T22:30:05.000Z",
+              "link": "https://phys.org/news/2026-10-urea-field-powered-biobatteries-solar.html",
+              "pubDate": "2026-10-28T01:40:01.000Z",
               "tier": 2
             }
           ],
@@ -2202,7 +2381,29 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "observatory-finds-new-dwarf-planet-candidate-orbiting-sun"
+          "slug": "biobatteries-power-field-urea-production-breakthrough"
+        },
+        {
+          "representativeTitle": "Math dispute fuels fears AI could undermine science.",
+          "sources": [
+            "Google Science"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "A bust-up between mathematicians is fuelling fears that AI could undermine science",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHM2xuV0Uwd1VhLWFMQXRmSHpzSGh4cC1kRzJZQWdCWjcyeHNOenZ1cWVzUDhCR0h1alJxSkpzWUxNcTBqdW54UTVXVW52NWZrbFNVcjlMWmw0Z0U?oc=5",
+              "pubDate": "2026-10-28T01:01:02.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "math-dispute-fuels-fears-ai-could-undermine-science"
         },
         {
           "representativeTitle": "Dinosaur Skeleton Sells For Six Million Dollars",
