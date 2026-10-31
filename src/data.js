@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-10-31T00:57:23.761Z",
+  "lastUpdated": "2026-10-31T05:04:24.573Z",
   "children": [
     {
       "name": "World",
@@ -12,9 +12,11 @@ export const newsData = {
             "NBC News",
             "ABC News US",
             "Google US",
-            "FT International"
+            "FT International",
+            "BBC World",
+            "Al Jazeera"
           ],
-          "citationCount": 5,
+          "citationCount": 7,
           "rawArticles": [
             {
               "title": "US approves sale of 500 Patriot missiles to Ukraine",
@@ -50,75 +52,58 @@ export const newsData = {
               "link": "https://www.ft.com/content/321cf4f9-d236-4b50-a52c-c2a21f7c447b?syn-25a6b1a6=1",
               "pubDate": "2026-10-30T21:28:58.000Z",
               "tier": 1
+            },
+            {
+              "title": "US approves sale of 500 Patriot missiles to Ukraine",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-31T00:40:43.000Z",
+              "tier": 1
+            },
+            {
+              "title": "US greenlights $2.1bn Patriot missile sale to Ukraine",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine?traffic_source=rss",
+              "pubDate": "2026-10-31T04:51:25.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": 0.4,
           "relevance_score": 9,
-          "importance": 90,
+          "importance": 100,
           "slug": "us-approves-major-missile-sale-to-ukraine-nation"
-        },
-        {
-          "representativeTitle": "Pope Votes in US Election: Global Diplomatic Novelty",
-          "sources": [
-            "BBC US",
-            "Google US",
-            "BBC World",
-            "SCMP"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-30T14:48:22.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Pope Leo becomes first pontiff to vote in U.S. election",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN1puZ1VYaFNYaEdYRVNES3JfV2E0SFFYeXFfWE82QW5kV0RpUUZ2SWpwa3Z2eW1oVXFIdlJDeGZkcUtlVHRlRFlWZEUyVFc2TFJfRlZkQVpzX0xyenMtMm9IcHFDV1dxQkdzalhaclVQTGZRQkw2M21OeDdYZmZnNDFqRHFCTl9rb3daUzUtSUVnVVhVNjhfNVprN3E?oc=5",
-              "pubDate": "2026-10-30T21:08:41.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-30T14:48:22.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Pope Leo becomes first pope ever to vote in US election, submits mail-in ballot",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3372784/pope-leo-becomes-first-pope-ever-vote-us-election-submits-mail-ballot",
-              "pubDate": "2026-10-30T14:02:26.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 80,
-          "slug": "pope-votes-in-us-election-global-diplomatic-novelty"
         },
         {
           "representativeTitle": "Evacuations Underway From Russian-Occupied Ukrainian Town",
           "sources": [
             "BBC World",
+            "Al Jazeera",
             "France 24",
             "Euronews"
           ],
-          "citationCount": 3,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-10-30T16:26:11.000Z",
+              "tier": 1
+            },
+            {
+              "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-30T23:19:17.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Hundreds evacuated from Melania-brokered ceasefire town of Oleshky",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/hundreds-evacuated-from-melania-brokered-ceasefire-town-of-oleshky?traffic_source=rss",
+              "pubDate": "2026-10-31T02:44:38.000Z",
               "tier": 1
             },
             {
@@ -138,73 +123,67 @@ export const newsData = {
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
+          "sentiment": -0.9,
           "relevance_score": 9,
-          "importance": 80,
+          "importance": 100,
           "slug": "evacuations-underway-from-russian-occupied-ukrainian-town"
         },
         {
-          "representativeTitle": "Protests Over Costs Expected Across Europe Soon",
-          "sources": [
-            "The Guardian",
-            "Al Jazeera"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Cost of living protests  to spread to Germany and reignite in France on Halloween",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/30/cost-of-living-protests-to-spread-to-germany-and-reignite-in-france-on-halloween",
-              "pubDate": "2026-10-30T14:42:46.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Germany and France brace for protests on Halloween weekend",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/31/germany-and-france-brace-for-protests-on-halloween-weekend?traffic_source=rss",
-              "pubDate": "2026-10-31T00:17:35.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "protests-over-costs-expected-across-europe-soon"
-        },
-        {
-          "representativeTitle": "G20 Summit Photo Cancelled Over Russian Presence",
+          "representativeTitle": "Pope Votes in US Election: Global Religious Milestone Achieved",
           "sources": [
             "BBC US",
-            "BBC World"
+            "Google US",
+            "BBC World",
+            "Al Jazeera",
+            "SCMP"
           ],
-          "citationCount": 2,
+          "citationCount": 5,
           "rawArticles": [
             {
-              "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+              "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
               "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-30T22:11:52.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-30T14:48:22.000Z",
               "tier": 1
             },
             {
-              "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+              "title": "Pope Leo becomes first pontiff to vote in US general election",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbFctQzhwb2F0MTU0SXJnY2t5QVh2dlhyRGVPRUF6Q19XcTYtYmtpY2w0MXlCazBwOG9vUzlBTDNqNzhGUERzRXVhZmhYdlR5MzRzREgtYzZYenNjX0lYejN2aFZwMnJZbDJubU5WdzJQS0ZoakNrNW52bTYyaTQwZkEwcmpNVkRzOEpabVgwXzVveGFrM1EzelVXdmNuSnlPaGo2cWpB0gGrAUFVX3lxTE9WYjZWdy1qaHNEQ0RfbjAtSnhrVXdybkVXUFVtNnB6dUJweDV5dnFzN3FxOUpwQVlNSE5QYmQ4bWhjUDRadS00X055TXl1WWtxX01aNFJjOXhRVDkzUDhGZ0k4S1BuNHJueHBqazFzN3lGRThNeGpjYURZZW1QdkR1cDFOMkU2N0hQb1lBU0NtTGNDejZyNFZzNm9BbUwyX253b3lMM3owSmc1Yw?oc=5",
+              "pubDate": "2026-10-31T01:40:57.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
               "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-30T22:11:52.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-30T14:48:22.000Z",
               "tier": 1
+            },
+            {
+              "title": "Pope Leo becomes first pontiff to vote in US general election",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/31/pope-leo-becomes-first-pontiff-to-vote-in-us-general-election?traffic_source=rss",
+              "pubDate": "2026-10-31T01:31:44.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pope Leo becomes first pope ever to vote in US election, submits mail-in ballot",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3372784/pope-leo-becomes-first-pope-ever-vote-us-election-submits-mail-ballot",
+              "pubDate": "2026-10-30T14:02:26.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "World",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 8,
-          "importance": 70,
-          "slug": "g20-summit-photo-cancelled-over-russian-presence"
+          "importance": 95,
+          "slug": "pope-votes-in-us-election-global-religious-milestone-achieved"
         },
         {
-          "representativeTitle": "G20 Photo Op Stalls Amid European Diplomatic Rift",
+          "representativeTitle": "Iran Claims Tanker Fires After Mine Strikes in Hormuz",
           "sources": [
             "Al Jazeera",
             "Euronews",
@@ -213,36 +192,96 @@ export const newsData = {
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "G20 drops group photo as Europeans refuse to stand with Lavrov",
+              "title": "Iran says four tankers on fire after striking mines in Hormuz",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss",
-              "pubDate": "2026-10-30T20:37:20.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/iran-says-four-tankers-on-fire-after-striking-mines-in-hormuz?traffic_source=rss",
+              "pubDate": "2026-10-31T03:55:48.000Z",
               "tier": 1
             },
             {
-              "title": "EU diplomats object to G20 photo with Lavrov, prompting US cancellation",
+              "title": "Iran’s Revolutionary Guard reports three tankers on fire in Strait of Hormuz as talks continue",
               "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/30/eu-diplomats-object-to-g20-photo-with-lavrov-prompting-us-cancellation",
-              "pubDate": "2026-10-30T17:03:13.000Z",
+              "link": "https://www.euronews.com/2026/10/30/irans-revolutionary-guard-reports-two-tankers-on-fire-in-strait-of-hormuz-as-talks-continu",
+              "pubDate": "2026-10-30T14:43:36.000Z",
               "tier": 2
             },
             {
-              "title": "G20 drops group photo as Europeans refuse to stand with Lavrov",
+              "title": "Iran’s Revolutionary Guard reports three tankers on fire in Strait of Hormuz as talks continue",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMGNaZzRWSTJvYl9ad1drWldtbzFGOGRJOFBjVEdEODBIRVlSMGRtbmlmeEVqQ24zYWptNmU3TVZSTklPaUVPRWd4QmMwYVU2WGN6aTZESjVKVzdSVnFmb3RiUHFSU045VEVpc1g3ZXNGc2VWa0NLYzFDaVZBTVpRNzJwNGRYbVRXQ2ZQNkpESlV1RmlyWDd0anh2bjRxX2VSUkZoTTZYSdIBrAFBVV95cUxOZU1xa0wwcmlKX19CamoyNE0xUU82ZERWRnhLa1RzQWFhMy1yNWZfUkp4OUZMUzVRRzI2WE1YSGVaUTlRVXNnYmpNV2dhSE9ya1RSR0NKM1hLVHk3TllrdDRUM2JSekM4OTc0OVNiMHlDYlE1UTQ3LThfVjNMT0VTenJkeVdRV21lalpwVjVyZkJwYWk5OGlFS1F1bHZfYm1xSGt0NmtDWmQ2Yi1z?oc=5",
-              "pubDate": "2026-10-30T20:44:52.000Z",
+              "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU1JDR1N6cUFoVC1hX3Z6YUlCdkRHRm1hS2dZd1FlWTFaWTljZnVta1A3dHdRZFJQbExwcHlhS1BkaGlvQ1FYeXZkUzRUcWpRaE9wN0FaWFhoNHdYWC0zemp5ZVREdG9xUnlYUEhPYnFMemdBemZvdHE3MEVhNTVEZmpTdzVLcjhwNE14clhyTVFYTzkwQlJuSXQ5ZXZkbmdROEsxdFJTMDAzMlB2bXBhNHJCV25Hb1VyU3oxajFrU3JjSWNj?oc=5",
+              "pubDate": "2026-10-30T14:43:36.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "g20-photo-op-stalls-amid-european-diplomatic-rift"
+          "relevance_score": 9,
+          "importance": 70,
+          "slug": "iran-claims-tanker-fires-after-mine-strikes-in-hormuz"
         },
         {
-          "representativeTitle": "Russian Newspaper Founder Claims Authorities Stifled Press Freedom",
+          "representativeTitle": "Trump Tariffs Threaten Economic Stability in Canada",
+          "sources": [
+            "BBC US",
+            "BBC World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Trump's tariffs could shutter this Canadian town",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-31T02:39:25.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump's tariffs could shutter this Canadian town",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-31T02:39:25.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "trump-tariffs-threaten-economic-stability-in-canada"
+        },
+        {
+          "representativeTitle": "Riot Police Deployed to Polish Constitutional Court After Judge Suspends",
+          "sources": [
+            "BBC World",
+            "The Guardian"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Police deployed during stand-off over control of top Poland court",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-31T01:11:43.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Riot police deployed to Poland’s constitutional court after judge suspended",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended",
+              "pubDate": "2026-10-31T04:27:25.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 65,
+          "slug": "riot-police-deployed-to-polish-constitutional-court-after-judge-suspends"
+        },
+        {
+          "representativeTitle": "Russian Newspaper Founder Claims State Pressure Tactics",
           "sources": [
             "BBC World",
             "Euronews",
@@ -277,37 +316,127 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 65,
-          "slug": "russian-newspaper-founder-claims-authorities-stifled-press-freedom"
+          "slug": "russian-newspaper-founder-claims-state-pressure-tactics"
         },
         {
-          "representativeTitle": "Fear Grows in Occupied Ukrainian Mission Area",
+          "representativeTitle": "Russia's Novaya Gazeta Faces Shutdown Amid Pressure",
           "sources": [
-            "France 24",
-            "Le Monde"
+            "Al Jazeera",
+            "SCMP"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Residents leave Russian-occupied Oleshky in evacuation operation",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation",
-              "pubDate": "2026-10-30T21:46:29.000Z",
+              "title": "Russia’s Novaya Gazeta ‘killed off’ after murders, arrests and pressure",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/russias-novaya-gazeta-killed-off-after-murders-arrests-and-pressure?traffic_source=rss",
+              "pubDate": "2026-10-31T03:27:21.000Z",
               "tier": 1
             },
             {
-              "title": "In Ukraine, humanitarian mission in occupied Oleshky hides growing fear of Russian military operation",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/10/30/in-ukraine-humanitarian-mission-in-occupied-oleshky-hides-growing-fear-of-russian-military-operation_6767463_4.html",
-              "pubDate": "2026-10-30T13:14:57.000Z",
+              "title": "Russia’s top independent newspaper Novaya Gazeta ‘killed’ by Kremlin pressure",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/russia-central-asia/article/3372798/russias-top-independent-newspaper-novaya-gazeta-shuts-under-kremlin-pressure",
+              "pubDate": "2026-10-30T21:03:58.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 65,
-          "slug": "fear-grows-in-occupied-ukrainian-mission-area"
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "russias-novaya-gazeta-faces-shutdown-amid-pressure"
+        },
+        {
+          "representativeTitle": "G20 Photo Canceled Amid Russia Boycott Dispute",
+          "sources": [
+            "The Guardian",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "US cancels G20 ‘family photo’ after Australia, UK and others refuse to appear with Russia",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia",
+              "pubDate": "2026-10-31T00:29:28.000Z",
+              "tier": 1
+            },
+            {
+              "title": "US cancels G20 ‘family photo’ after Australia, UK and others refuse to appear with Russia",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaENwN21qQkg0bzFXbGU4UXdDSi1pWXJMRjFfWFVoS1REb3BGUWFvMndKb2Y5M1FPbzM4d2M2NmloWVE1UjREOXc0aGFKYS1wa21DVDg1Q0I4NkpYc3NlNzU4elc5cFZmQnFQNi12VlNZMVU4TDFYX1dHREttTlBzb0tNaDhDS1Z0R2d1emw2NGU0QVpmaFJTOFBrZS00bTlwaEtQbjI5bTRUQlJ3aHFud0dxalhYanllYldueDJDZDNNa0YwSUU0QlQxX3A?oc=5",
+              "pubDate": "2026-10-31T02:55:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "g20-photo-canceled-amid-russia-boycott-dispute"
+        },
+        {
+          "representativeTitle": "Polish President Cancels Senegal Trip Amid Court Crisis",
+          "sources": [
+            "Al Jazeera",
+            "Sky News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Poland’s president joins protest amid constitutional crisis at top court",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/polands-president-joins-protest-amid-constitutional-crisis-at-top-court?traffic_source=rss",
+              "pubDate": "2026-10-31T02:24:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Poland's president turns back from Senegal trip as court chief's ousting sparks crisis",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/polands-president-turns-back-from-senegal-trip-as-court-chiefs-ousting-sparks-crisis-13606013",
+              "pubDate": "2026-10-31T01:16:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "polish-president-cancels-senegal-trip-amid-court-crisis"
+        },
+        {
+          "representativeTitle": "Nature Talks Conclude Deal Amid Funding Disputes",
+          "sources": [
+            "BBC World",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Global nature talks reach deal but money remains an issue",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-31T01:27:05.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Global nature talks reach deal but money remains an issue",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xVlRZdy1YNF91QkpILUltT1R2OUxSOXoxS1BLUWZqQjlyNG1kazg3M2NiSEVKcGtKYjNueDFpTnc5OS1OTjhxSk5RZVlRWHNBaTg5UWF2UFNjZEE?oc=5",
+              "pubDate": "2026-10-31T01:27:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "nature-talks-conclude-deal-amid-funding-disputes"
         },
         {
           "representativeTitle": "Polish unrest erupts following court chief's actions.",
@@ -328,7 +457,7 @@ export const newsData = {
               "title": "Polish riot police deployed as deposed court chief sets off crisis",
               "source": "Le Monde",
               "link": "https://www.lemonde.fr/en/international/article/2026/10/31/polish-riot-police-deployed-as-deposed-court-chief-sets-off-crisis_6767752_4.html",
-              "pubDate": "2026-10-30T23:40:10.000Z",
+              "pubDate": "2026-10-30T23:40:08.000Z",
               "tier": 2
             }
           ],
@@ -340,85 +469,25 @@ export const newsData = {
           "slug": "polish-unrest-erupts-following-court-chiefs-actions"
         },
         {
-          "representativeTitle": "China Purges Officials Amid Intensified Party Crackdown",
+          "representativeTitle": "G20 Photo Op Stalls Amid European Diplomatic Rift",
           "sources": [
-            "BBC World",
-            "The Guardian"
+            "Al Jazeera",
+            "Euronews"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cq5ynw94k7kzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-30T03:24:12.000Z",
+              "title": "G20 drops group photo as Europeans refuse to stand with Lavrov",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss",
+              "pubDate": "2026-10-30T20:37:20.000Z",
               "tier": 1
             },
             {
-              "title": "China expels a record number from Communist party amid Xi’s intensified purges of top officials",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/30/china-expels-record-number-communist-party-xi-jinping-purges-officials-fifth-plenum",
-              "pubDate": "2026-10-30T02:56:46.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 75,
-          "slug": "china-purges-officials-amid-intensified-party-crackdown"
-        },
-        {
-          "representativeTitle": "Canada Nears EU Membership Through Associate Status Deal",
-          "sources": [
-            "NY Times",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Carney Commits Canada to Becoming European Union’s First ‘Associate Member’",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/10/30/world/canada/carney-canada-european-union.html",
-              "pubDate": "2026-10-30T21:08:01.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Canada is taking steps toward becoming European Union's first associate member",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWWRwdTRQMnFWaWJZdVJ1cmlHSGk4anl6NG44WlZDUVpIbHUxVUdaMHh0cUp4dlRTT3ZYZElYTVF1eEl3U1VxVDFRRVdLVHRmblBlXzJwT1k5RmFRRDFWc2pERkpQbGcxS2ROT0N1LUoxX0JkemN2OXNnS1NjLWlUa18yUWN5VjgxY0FlNFZhYmcyLTh3YnFZWXdqMlItOUs5SG93ZEdzWkhlT0pwVFk3aW9B0gG3AUFVX3lxTE5NVGRLc3NHNnJOV0RZRWtDck5IenhMbG1SdUxURGxCc3IyWVQ5bUNobVJiR2RzTVpjdVViTS03Q0dZUUgyY2VNT0pLeFhKZG8xUGJGU1o5a2g2a2NrNFVJOVlHT2hhTDk2MFVnM3VKVWFKa0FzeUlwRThYVHg0UU4xQ0NPaHdYY3NtTHN0Q0R3c0Y0MndMTzlyYUlFTkNXdzhzTjF5RktweXp3Y19fN0FoY2xueWpOTQ?oc=5",
-              "pubDate": "2026-10-30T19:25:06.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "canada-nears-eu-membership-through-associate-status-deal"
-        },
-        {
-          "representativeTitle": "Kremlin Crackdown Forces Major Russian Newspaper Closure",
-          "sources": [
-            "France 24",
-            "SCMP"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Russia’s Novaya Gazeta to cease publication amid Kremlin crackdown",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261030-russia-s-novaya-gazeta-to-cease-publication-amid-kremlin-crackdown",
-              "pubDate": "2026-10-30T16:58:51.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Russia’s top independent newspaper Novaya Gazeta ‘killed’ by Kremlin pressure",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/russia-central-asia/article/3372798/russias-top-independent-newspaper-novaya-gazeta-shuts-under-kremlin-pressure",
-              "pubDate": "2026-10-30T21:03:58.000Z",
+              "title": "EU diplomats object to G20 photo with Lavrov, prompting US cancellation",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/10/30/eu-diplomats-object-to-g20-photo-with-lavrov-prompting-us-cancellation",
+              "pubDate": "2026-10-30T17:03:13.000Z",
               "tier": 2
             }
           ],
@@ -427,29 +496,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 60,
-          "slug": "kremlin-crackdown-forces-major-russian-newspaper-closure"
-        },
-        {
-          "representativeTitle": "US Approves Sale of Patriot Missiles to Ukraine",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US approves sale of 500 Patriot missiles to Ukraine",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-31T00:40:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "us-approves-sale-of-patriot-missiles-to-ukraine"
+          "slug": "g20-photo-op-stalls-amid-european-diplomatic-rift"
         },
         {
           "representativeTitle": "Canada, EU Forge Alliance on Ukraine, Minerals, AI",
@@ -482,77 +529,17 @@ export const newsData = {
           "slug": "canada-eu-forge-alliance-on-ukraine-minerals-ai"
         },
         {
-          "representativeTitle": "Oil Tanker Attacks in Hormuz Spark Regional Tensions",
+          "representativeTitle": "US Jails Chinese Nationals Over Alleged Spying Activities",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran war live: Oil tankers hit in Hormuz; Trump says conflict will end soon",
+              "title": "US jails two Chinese nationals for spying",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
-              "pubDate": "2026-10-31T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "oil-tanker-attacks-in-hormuz-spark-regional-tensions"
-        },
-        {
-          "representativeTitle": "French Protests Echo Past Unrest Risks Violence Escalation",
-          "sources": [
-            "France 24",
-            "SCMP",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "France braces for new wave of protests, govt warns of 'very high' violence risk",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261030-france-braces-for-new-wave-of-protests-govt-warns-of-very-high-violence-risk",
-              "pubDate": "2026-10-30T14:35:37.000Z",
-              "tier": 1
-            },
-            {
-              "title": "France’s protests, like Hong Kong’s in 2019, risk being defined by violence",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/opinion/world-opinion/article/3372437/frances-protests-hong-kongs-2019-risk-being-defined-violence",
-              "pubDate": "2026-10-30T01:30:08.000Z",
-              "tier": 2
-            },
-            {
-              "title": "French minister warns of 'very high' violence risk as country braces for Halloween protests",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTGUtdnBSTWUtTUFnbnFtQ3hDTEZnNm9OZENibEJiVEpHbUdEQlFFcjdGdzNscW9YY0ptM1poSkNsNXg1N2FVQVVnZUpFcWExQkRieXprS2NkaEtrNEhfRUdpbzAteDRtOXdwZlhYaEVNWWtWS2hPVndHSXFvNEFUcnhhOXRtRWc5TUZLZW9IZHpQUmk0X1ZoeVFuNmxwWFRSS1J3VHFIajRENTE5MFdSUnl5Sk9OWVpUMEFjZzFpWml6ZjByanpPTnk0NmtUQQ?oc=5",
-              "pubDate": "2026-10-30T06:57:15.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 60,
-          "slug": "french-protests-echo-past-unrest-risks-violence-escalation"
-        },
-        {
-          "representativeTitle": "G20 Photo Canceled Amid Russia Boycott Dispute",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US cancels G20 ‘family photo’ after Australia, UK and others refuse to appear with Russia",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia",
-              "pubDate": "2026-10-31T00:29:28.000Z",
+              "link": "https://www.aljazeera.com/news/2026/10/31/us-jails-two-chinese-nationals-for-spying?traffic_source=rss",
+              "pubDate": "2026-10-31T04:41:32.000Z",
               "tier": 1
             }
           ],
@@ -561,10 +548,106 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "g20-photo-canceled-amid-russia-boycott-dispute"
+          "slug": "us-jails-chinese-nationals-over-alleged-spying-activities"
         },
         {
-          "representativeTitle": "Major Heist Unfolds: $6.3 Billion Stolen Quickly",
+          "representativeTitle": "Ebola death toll surpasses five thousand in Congo.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ebola death toll in DR Congo passes 5,000",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/31/ebola-death-toll-in-dr-congo-passes-5000?traffic_source=rss",
+              "pubDate": "2026-10-31T02:51:52.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ebola-death-toll-surpasses-five-thousand-in-congo"
+        },
+        {
+          "representativeTitle": "Zelenskyy Praises US Aid While Noting Delays",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ukraine’s Zelenskyy praises US over $2.1bn Patriot missile deal but warns it could take years",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+              "pubDate": "2026-10-31T02:18:17.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "zelenskyy-praises-us-aid-while-noting-delays"
+        },
+        {
+          "representativeTitle": "North Korea Suspected in Major Cryptocurrency Exchange Hack",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-31T02:12:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "north-korea-suspected-in-major-cryptocurrency-exchange-hack"
+        },
+        {
+          "representativeTitle": "Germany, France Brace For Potential Halloween Protests",
+          "sources": [
+            "Al Jazeera",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Germany and France brace for protests on Halloween weekend",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/31/germany-and-france-brace-for-protests-on-halloween-weekend?traffic_source=rss",
+              "pubDate": "2026-10-31T00:17:35.000Z",
+              "tier": 1
+            },
+            {
+              "title": "France on alert as 70,000 police mobilised for Halloween protests",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3372682/france-alert-70000-police-mobilised-halloween-protests",
+              "pubDate": "2026-10-30T05:25:54.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "germany-france-brace-for-potential-halloween-protests"
+        },
+        {
+          "representativeTitle": "Major Heist Details Revealed: $6.3 Billion Stolen Fast",
           "sources": [
             "FT International"
           ],
@@ -583,81 +666,73 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "major-heist-unfolds-63-billion-stolen-quickly"
+          "slug": "major-heist-details-revealed-63-billion-stolen-fast"
         },
         {
-          "representativeTitle": "UN Nature Summit Passes Key Environmental Agreements Today",
+          "representativeTitle": "G20 Summit Photo Cancelled Amid Russian Protest Concerns",
           "sources": [
-            "France 24"
+            "BBC US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "UN nature summit approves two key agreements after marathon negotiations",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/environment/20261030-un-nature-summit-approves-two-key-agreements-after-marathon-negotiations",
-              "pubDate": "2026-10-30T20:52:22.000Z",
+              "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-30T22:11:52.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "g20-summit-photo-cancelled-amid-russian-protest-concerns"
+        },
+        {
+          "representativeTitle": "Canada Nears EU Membership Status Through Agreement",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Carney Commits Canada to Becoming European Union’s First ‘Associate Member’",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/10/30/world/canada/carney-canada-european-union.html",
+              "pubDate": "2026-10-30T21:08:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "un-nature-summit-passes-key-environmental-agreements-today"
+          "slug": "canada-nears-eu-membership-status-through-agreement"
         },
         {
-          "representativeTitle": "Brazil summons diplomat over Bolsonaro's US trip",
+          "representativeTitle": "Albania seeks reset amid domestic and rate pressures.",
           "sources": [
-            "Al Jazeera"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Brazil summons Argentinian diplomat over Bolsonaro’s flight to US",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/31/brazil-summons-argentinian-diplomat-over-bolsonaros-flight-to-us?traffic_source=rss",
-              "pubDate": "2026-10-31T00:02:06.000Z",
+              "title": "Albanese looks for reset on world stage as ‘spot fires burn’ domestically and likely interest rate hike looms",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/oct/31/albanese-reset-world-stage-economic-spot-fires-rba-interest-rate-decision",
+              "pubDate": "2026-10-31T02:24:10.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "brazil-summons-diplomat-over-bolsonaros-us-trip"
-        },
-        {
-          "representativeTitle": "Pakistan assesses Iran-US mediation progress cautiously.",
-          "sources": [
-            "Al Jazeera",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Pakistan army ‘cautiously optimistic’ about US-Iran mediation efforts",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/30/pakistan-army-cautiously-optimistic-about-us-iran-mediation-efforts?traffic_source=rss",
-              "pubDate": "2026-10-30T18:55:36.000Z",
-              "tier": 1
-            },
-            {
-              "title": "EXCLUSIVE: Pakistan military 'cautiously optimistic' on Iran-US mediation",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeG4zX0dQOXRZdkNCLTVnaWQ4bm1Wem53VEh1cjZvYmdqQkx5SVZzZUlzQUkzT0w3UEc2a1Zhb3I5UDhreVlGYVZWR2NhYTMydlkzNDZWMnJvQlVCLUZkY01ZaWRaMm1WNjVmckZOZEpIRXZ4UzRLNjIxOUtTdnp2Y2hLSmNlbEZId0cxNGg4LWw5TWNEejVCUW1zdy0td3FoUm9STVJ1OVB2SUljWmtid25B?oc=5",
-              "pubDate": "2026-10-30T18:39:08.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "pakistan-assesses-iran-us-mediation-progress-cautiously"
+          "importance": 45,
+          "slug": "albania-seeks-reset-amid-domestic-and-rate-pressures"
         },
         {
           "representativeTitle": "Russia Observes Ceasefire For Ukraine Evacuations",
@@ -682,6 +757,28 @@ export const newsData = {
           "slug": "russia-observes-ceasefire-for-ukraine-evacuations"
         },
         {
+          "representativeTitle": "Rubio Meets Brazil Minister Amid Election Tensions",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Rubio and Brazil Foreign Minister to Meet After Election Tension",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-31/rubio-meet-brazil-foreign-minister-mauro-vieira-luiz-inacio-lula-flavio-bolsonaro-trump",
+              "pubDate": "2026-10-31T02:13:04.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "rubio-meets-brazil-minister-amid-election-tensions"
+        },
+        {
           "representativeTitle": "Brazil Questions Argentina Over Bolsonaro's Escape Role",
           "sources": [
             "Bloomberg Markets"
@@ -704,7 +801,89 @@ export const newsData = {
           "slug": "brazil-questions-argentina-over-bolsonaros-escape-role"
         },
         {
-          "representativeTitle": "Analyzing North Korea's Rise as Hacking Powerhouse",
+          "representativeTitle": "Australian PM Visits Beijing Following APEC Summit",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Australian PM Set to Visit Beijing After APEC Meeting, SCMP Says",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-31/australia-pm-anthony-albanese-xi-jinping-visit-beijing-apec-meeting",
+              "pubDate": "2026-10-31T01:27:39.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "australian-pm-visits-beijing-following-apec-summit"
+        },
+        {
+          "representativeTitle": "Senator Links Egypt Press Crackdown to US Aid Decision",
+          "sources": [
+            "BBC World",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Democratic senator blames Egypt press crackdown on US military aid decision",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c63r529wn2vzo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-30T15:17:11.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Democratic senator blames Egypt press crackdown on US military aid decision",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrVkEyVGM5Z2c4RTFPbzlYc2ZlbEtzQ3BDQkpXb1Y0WDZKbHlzcWtjM0h4VjhmU3ZoamlrTGVYMkZrZjJmUEg3YjhHU0VEbTlhRWNuMHBDdUtDOHM?oc=5",
+              "pubDate": "2026-10-30T15:17:11.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "senator-links-egypt-press-crackdown-to-us-aid-decision"
+        },
+        {
+          "representativeTitle": "French Minister Warns of High Violence Risk Ahead",
+          "sources": [
+            "France 24",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "France braces for new wave of protests, govt warns of 'very high' violence risk",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261030-france-braces-for-new-wave-of-protests-govt-warns-of-very-high-violence-risk",
+              "pubDate": "2026-10-30T14:35:37.000Z",
+              "tier": 1
+            },
+            {
+              "title": "French minister warns of 'very high' violence risk as country braces for Halloween protests",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTGUtdnBSTWUtTUFnbnFtQ3hDTEZnNm9OZENibEJiVEpHbUdEQlFFcjdGdzNscW9YY0ptM1poSkNsNXg1N2FVQVVnZUpFcWExQkRieXprS2NkaEtrNEhfRUdpbzAteDRtOXdwZlhYaEVNWWtWS2hPVndHSXFvNEFUcnhhOXRtRWc5TUZLZW9IZHpQUmk0X1ZoeVFuNmxwWFRSS1J3VHFIajRENTE5MFdSUnl5Sk9OWVpUMEFjZzFpWml6ZjByanpPTnk0NmtUQQ?oc=5",
+              "pubDate": "2026-10-30T06:57:15.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "french-minister-warns-of-high-violence-risk-ahead"
+        },
+        {
+          "representativeTitle": "Analyzing North Korea's Rise as Cyber Threat Actor",
           "sources": [
             "FT International"
           ],
@@ -723,29 +902,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "analyzing-north-koreas-rise-as-hacking-powerhouse"
-        },
-        {
-          "representativeTitle": "Swiss Court Upholds Sentence For Ex-Rebel Commander",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Swiss supreme court upholds Liberian ex-rebel commander’s 20-year sentence",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/30/swiss-supreme-court-upholds-liberian-ex-rebel-commanders-20-year-sentence?traffic_source=rss",
-              "pubDate": "2026-10-30T21:00:51.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "swiss-court-upholds-sentence-for-ex-rebel-commander"
+          "slug": "analyzing-north-koreas-rise-as-cyber-threat-actor"
         },
         {
           "representativeTitle": "Crematoria Used For Heating Homes and Pools",
@@ -841,88 +998,28 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Judge orders inquiry into DOJ misconduct allegations.",
-          "sources": [
-            "BBC US",
-            "NPR",
-            "Google US"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Judge investigating whether Trump administration lied about golf course renovations",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cmj6jpn8px28o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-30T21:19:23.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Judge orders an inquiry into potential DOJ misconduct in Trump's golf course case",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/10/30/nx-s1-6023328/east-potomac-reyes-misconduct-inquiry-doj",
-              "pubDate": "2026-10-30T21:56:52.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Judge orders an inquiry into potential DOJ misconduct in Trump's golf course case",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaHozamh6SWw4b0ZTZHJFREh1RTNtdFg0Y1RrT0QzWTdUZWFKemFrYURLMnZvQUNzcUNPR204d2ZyQXNaVWFxQzR0bTJwd0xESjFjMEkwUGJyVG9ITVdJTHlMWnRUZERmZk9xODBScWlEanpqS1h3VUtHZkstZTJTM2N2U2NkTTNmQUZZbGtpSQ?oc=5",
-              "pubDate": "2026-10-30T21:56:52.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "judge-orders-inquiry-into-doj-misconduct-allegations"
-        },
-        {
-          "representativeTitle": "Candidate denies knowledge of ballot plot allegations.",
-          "sources": [
-            "BBC US",
-            "BBC World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-31T00:29:58.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-31T00:29:58.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "candidate-denies-knowledge-of-ballot-plot-allegations"
-        },
-        {
-          "representativeTitle": "Former Inmate Reports Constant Pain After Execution Attempt",
+          "representativeTitle": "Inmate Reports Constant Pain After Tennessee Execution Attempt",
           "sources": [
             "BBC World",
+            "Al Jazeera",
             "SCMP",
             "Euronews",
             "Le Monde"
           ],
-          "citationCount": 4,
+          "citationCount": 5,
           "rawArticles": [
             {
               "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-10-30T17:07:19.000Z",
+              "tier": 1
+            },
+            {
+              "title": "US execution survivor Christa Pike says she is now in ‘constant pain’",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/10/31/us-execution-survivor-christa-pike-says-she-is-now-in-constant?traffic_source=rss",
+              "pubDate": "2026-10-31T03:42:14.000Z",
               "tier": 1
             },
             {
@@ -951,8 +1048,60 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
+          "importance": 75,
+          "slug": "inmate-reports-constant-pain-after-tennessee-execution-attempt"
+        },
+        {
+          "representativeTitle": "Judge orders inquiry into DOJ misconduct allegations.",
+          "sources": [
+            "BBC US",
+            "NPR"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Judge investigating whether Trump administration lied about golf course renovations",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cmj6jpn8px28o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-30T21:19:23.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Judge orders an inquiry into potential DOJ misconduct in Trump's golf course case",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/30/nx-s1-6023328/east-potomac-reyes-misconduct-inquiry-doj",
+              "pubDate": "2026-10-30T21:56:52.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
           "importance": 60,
-          "slug": "former-inmate-reports-constant-pain-after-execution-attempt"
+          "slug": "judge-orders-inquiry-into-doj-misconduct-allegations"
+        },
+        {
+          "representativeTitle": "Fake polls reveal weaknesses in US election integrity.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Fake polls expose vulnerabilities in US elections ahead of midterms",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news-analysis/2026/10/31/fake-polls-expose-vulnerabilities-in-us-elections-ahead-of-midterms?traffic_source=rss",
+              "pubDate": "2026-10-31T01:26:34.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "fake-polls-reveal-weaknesses-in-us-election-integrity"
         },
         {
           "representativeTitle": "ICE Agent Charged After Hitting Immigrant With Vehicle",
@@ -977,29 +1126,89 @@ export const newsData = {
           "slug": "ice-agent-charged-after-hitting-immigrant-with-vehicle"
         },
         {
-          "representativeTitle": "Judge orders ethics probe into Trump lawyers.",
+          "representativeTitle": "Judge Halts Trump Admin Threats Against Election Officials",
           "sources": [
-            "Al Jazeera"
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Judge orders Trump administration to stop threatening election officials",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/2026-election/judge-orders-trump-administration-stop-threatening-election-officials-rcna606659",
+              "pubDate": "2026-10-31T02:19:44.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Judge orders DOJ to stop threatening to prosecute election officials",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZk5jWjN6NS1ZTTdYMG5VUS1wWk5rRUpLTS00MTdRU1VWN0Jua0RVOUpFOTlRX3o3V1g5LVVjOGlqRG93bGthTEl4U0lCQWRMZVNHWUtVc0UxclBxb1g0TlcwTkNiZ1BWdFdDdGRJN2RWUkYyRmdCSVpnbGNVSDFNckFnaFdiNmNNWExGRzV2U2NoWEJ1TDBqMg?oc=5",
+              "pubDate": "2026-10-31T01:05:47.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "judge-halts-trump-admin-threats-against-election-officials"
+        },
+        {
+          "representativeTitle": "Judge blocks DOJ threats against election workers.",
+          "sources": [
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Midterm elections live updates: Judge orders DOJ to halt threats to election workers",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Politics/live-updates/midterm-elections-2026-1-week-high-stakes-elections/?id=137578278",
+              "pubDate": "2026-10-31T01:43:07.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Judge blocks DOJ from threatening election workers before midterms",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4zdndkaWZvRWVwWUlwZU82X1JCU1g4MDV2QTZ2QkQ1OUpVSlBhc3RLU3FXaWFfVVdVS0NLWlZXNHUwVTRGcHg1VVpLeWRIZzFLUEE0dk44M0djRmIwUUdLSW55eEF5MWV5bXZ1QUExZEMyeFNsV2RFT05n?oc=5",
+              "pubDate": "2026-10-31T02:10:40.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "judge-blocks-doj-threats-against-election-workers"
+        },
+        {
+          "representativeTitle": "Lawyers File Motion To Dismiss State Charges Now",
+          "sources": [
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US judge orders ethics inquiry into Trump lawyers over golf course case",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/30/us-judge-orders-ethics-inquiry-into-trump-lawyers-over-golf-course-case?traffic_source=rss",
-              "pubDate": "2026-10-30T22:58:38.000Z",
+              "title": "Luigi Mangione’s lawyers file to dismiss state charges, citing double jeopardy law",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/oct/31/luigi-mangione-new-york-case",
+              "pubDate": "2026-10-31T04:09:50.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "judge-orders-ethics-probe-into-trump-lawyers"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "lawyers-file-motion-to-dismiss-state-charges-now"
         },
         {
-          "representativeTitle": "Pike Describes Pain After Botched Execution Attempt",
+          "representativeTitle": "Survivor Speaks on Failed Execution Attempt Details",
           "sources": [
             "BBC US",
             "Google US"
@@ -1014,10 +1223,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "‘My Body Hurts’: Pike Describes Pain and Isolation After Botched Execution",
+              "title": "'Confused and in pain': Christa Pike speaks out for first time on failed execution attempt",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbUpGSENqNUNPNS1pVjhiVkxpdU5yZWxTeHlXbndIZk9oZVIxRFlIM3FIWlBUSDdyWGxjZnBaZkQ1ckN5VVlhSnFJTFNWeVpnaVgtb0dGZzRMMGloUmRObHZrTFEtLXlETEtIZjBrQTFKRG14UGtibVZMNlB3aGF2ek9ZRnptdFQzUm1N?oc=5",
-              "pubDate": "2026-10-30T21:13:56.000Z",
+              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMkxXclZ4M2hFR1cxUnpPQXV6TmNBVmozUWNrcnBZd0Y0VXdadkpWX0J0R1lyZWNRUWo0QmRYcGhDQTBudWhGN0dyM1dKdVZyaEV3d2M1SEpNQURzZTE4VUQzVmdxS1N0LWZUQnZzZXZyZFNUMWIzMlhKd0d5QzZYR2FtSkRBQXdzOHFMNk5RRUpTaGFpdUpXMUVzeGdnbEdKVXB2bzlmYTVkZHNMcUVHMjVYN01oUQ?oc=5",
+              "pubDate": "2026-10-30T13:37:19.000Z",
               "tier": 2
             }
           ],
@@ -1026,7 +1235,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 50,
-          "slug": "pike-describes-pain-after-botched-execution-attempt"
+          "slug": "survivor-speaks-on-failed-execution-attempt-details"
         },
         {
           "representativeTitle": "Wall Street Boom Halves New York State Deficit Projection",
@@ -1051,6 +1260,50 @@ export const newsData = {
           "slug": "wall-street-boom-halves-new-york-state-deficit-projection"
         },
         {
+          "representativeTitle": "Dog Walker Threatened During ICE Arrest in LA",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Dog walker threatened with gun during ICE arrest in North Hollywood",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/dog-walker-threatened-with-gun-during-ice-arrest-in-north-hollywood?traffic_source=rss",
+              "pubDate": "2026-10-31T01:23:59.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "dog-walker-threatened-during-ice-arrest-in-la"
+        },
+        {
+          "representativeTitle": "Candidate denies knowledge of alleged ballot plot.",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-31T00:29:58.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "candidate-denies-knowledge-of-alleged-ballot-plot"
+        },
+        {
           "representativeTitle": "Midterm Candidates' Attire Signals Political Messaging Shifts",
           "sources": [
             "BBC US"
@@ -1073,78 +1326,26 @@ export const newsData = {
           "slug": "midterm-candidates-attire-signals-political-messaging-shifts"
         },
         {
-          "representativeTitle": "Educator Recalls Confrontation With School Shooter Incident",
-          "sources": [
-            "NBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘It all happened so fast,’ Oregon educator who confronted school shooter says",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/-happened-fast-oregon-teacher-confronted-school-shooter-says-rcna606650",
-              "pubDate": "2026-10-31T00:12:38.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "educator-recalls-confrontation-with-school-shooter-incident"
-        },
-        {
-          "representativeTitle": "Grand Jury Indicts Officer Over Immigrant Vehicle Strike",
+          "representativeTitle": "Trump Focuses on GOP Turnout in Key Midwest States",
           "sources": [
             "Google US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Grand jury indicts ICE officer for striking Houston immigrant with vehicle",
+              "title": "Midterm Elections Live Updates: After Rally In Florida, Trump Looks to Boost GOP Turnout in Kansas and Iowa",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQl80b0J3MUxhakVEWklkcUc5dnphb3JkdnJyMjRXek4wMFFjRHBrbDA5NkkwM0tBVE9neEQzdEdjdEQ0N0JCbnRFQmdodUlocFVSZmVscTdvX1BXQ3NfV1NDOUVDSkJHaW1pQTRNT0FBR053LXh4YUxsYk9pU0ptZTgxYTl1RmRLWTU4OG9QelJkdTRTeE9SZjdJS184ZkFOdEtMTWNyTGJVck5yTHdsWk5XU1ZPbVVyUzgyZGV5X0lac2I0dHVqSUhGVW8wdno2SjgwM2RRNTNwYlFOUUNkMmMxQ1I0NUJ4ejFvNmZxZGk0TUVGdmpMZFh30gGCAkFVX3lxTFBINmlpZ3NvZ2xXUmVWZzJ6YVhsWEg2WUdoMU5hZjJZbUlnZFQ3VHRESVFwTHdhemZmVnYtSC14VEpGQUQ0QVhVYzEyVklZaXRZX0lDYXRhWWJXVjA3UnJ0bGltbEdXbm5KZThDMzdPOExqT0o1WDF5OVRjVEZ2Ylhta245TU5LUE9tUnpiYzlPMzJRalZsZGVPY0R3X3BPemhMRDcxanhqTHRhSE1MUUhqSXIzbFg5Vm51dy1PNHpzQ0V2NUt6TXpLZmlHZjEwb0NUZHdLeTZsTTBXLVljam9GRnNQZlo5TkFVbzdXOWxVNU5hQUZZdW1iNzhlX3pLcGV5QQ?oc=5",
-              "pubDate": "2026-10-30T23:34:13.000Z",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RczlvZzdOcEVBeko0ZS1TRHQ5LThyMjljT255UVJEOW9ZRGdRQzJZclQ5ZjZjazFZVFNtbDhYZUxVMGxCVkhRcDJ6Zkl0QlhnbWdJdjNTYkZKT0VScmNDdk80VjRaNkh5UzZZ?oc=5",
+              "pubDate": "2026-10-31T04:44:54.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "grand-jury-indicts-officer-over-immigrant-vehicle-strike"
-        },
-        {
-          "representativeTitle": "DOJ Requests Separation of Alaska Senate Ballots",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "DOJ requests separating Alaska ballots that rank Dan J. Sullivan in Senate race",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/doj-requests-separating-alaska-ballots-rank-dan-j-sullivan-senate-race-rcna606646",
-              "pubDate": "2026-10-30T22:38:13.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Live updates: Justice Department looks to separate Alaska ballots that rank Dan J. Sullivan",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xZDZuOWpQaTc1elVGT1hyZEtvTTAxNEZ5S1VCTGg0emF6Z1dmTVBVTHhra2ZaSlU5SVQ0Vlh4NlloZ3BWTDJ0OGMwTFZEX3AyZlZKandvanZwSEdQNHprUDBMTmJKRENKOEpqWFluWERtbUhhX0hJX2U3NA?oc=5",
-              "pubDate": "2026-10-31T00:15:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
+          "sentiment": 0,
+          "relevance_score": 7,
           "importance": 40,
-          "slug": "doj-requests-separation-of-alaska-senate-ballots"
+          "slug": "trump-focuses-on-gop-turnout-in-key-midwest-states"
         },
         {
           "representativeTitle": "Iran Oil Tensions Impact Key Senate Election Races",
@@ -1169,29 +1370,7 @@ export const newsData = {
           "slug": "iran-oil-tensions-impact-key-senate-election-races"
         },
         {
-          "representativeTitle": "Teacher Confronts Gunman After School Shooting Incident",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Oregon teacher who wrestled shotgun from school gunman shares emotional message after attack",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/us/oregon-teacher-wrestled-shotgun-school-gunman-shares-emotional-message-after-attack",
-              "pubDate": "2026-10-31T00:04:13.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "teacher-confronts-gunman-after-school-shooting-incident"
-        },
-        {
-          "representativeTitle": "Professor's Family Shot Dead; Son Now In Custody",
+          "representativeTitle": "Justice Dept Requests Separating Alaska Senate Ballots",
           "sources": [
             "NBC News",
             "Google US"
@@ -1199,48 +1378,26 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Oberlin College professor and wife found fatally shot; son charged with murder",
+              "title": "DOJ requests separating Alaska ballots that rank Dan J. Sullivan in Senate race",
               "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/oberlin-college-professor-wife-found-shot-son-arrested-rcna606522",
-              "pubDate": "2026-10-30T17:21:08.000Z",
+              "link": "https://www.nbcnews.com/politics/2026-election/doj-requests-separating-alaska-ballots-rank-dan-j-sullivan-senate-race-rcna606646",
+              "pubDate": "2026-10-30T22:38:13.000Z",
               "tier": 2
             },
             {
-              "title": "Son in custody after Oberlin professor dad and stepmother shot dead in Ohio",
+              "title": "Justice Department requests separating Alaska ballots that rank Dan J. Sullivan in Senate race",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQa1k1Njc3NHBFbG9XQjJnYTUyT3Eza3d0Ny1rNlFFOHB5UTdIWXFqQVdMeHNQSktnRlQ3VmEtNGlQc2JramJhMHFPTzdlMGhoU0JCcnZnU19ydGlGTlRRcERJM0RpUDBGNUxEbE1JR2lfaHpwZ0JtWkFxSFRyc1I2cXlqM3lFOGR6X0E?oc=5",
-              "pubDate": "2026-10-30T15:42:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTGVrSk1wXzE5RFdpVW1QOGRpV2V1RWs2QjdVTS1tMVdrc1FNb0tIYTVqZWVOQ2xVeXdDUUlLdy1iRjVOeEN1bEtKTGh2NHd2cm5FamVpQUF1VlAyTGlDeDk0d2x0dEF0ZE83UTZieFpRRDlibFpiSDZmRUZYS3ZGWjdoRW1aZlU2b3pkX1diYXpDZ184amp2YmQxb3Z4ODJCTElTYlRsRXhjYTQ1SnRhSVZKeTl3QXBDME91T1A1YzBKZGRTaVRr?oc=5",
+              "pubDate": "2026-10-30T22:38:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.9,
+          "sentiment": 0,
           "relevance_score": 6,
           "importance": 40,
-          "slug": "professors-family-shot-dead-son-now-in-custody"
-        },
-        {
-          "representativeTitle": "Allegations prompt discussion on parental sexual education.",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "What the Cornell 7 sexual assault allegations reveal about how parents talk to their kids about rape",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-cornell-sexual-assault-allegations-reveal.html",
-              "pubDate": "2026-10-30T20:20:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "allegations-prompt-discussion-on-parental-sexual-education"
+          "slug": "justice-dept-requests-separating-alaska-senate-ballots"
         },
         {
           "representativeTitle": "2026 Daylight Saving Time Ends Halloween Weekend",
@@ -1300,29 +1457,7 @@ export const newsData = {
           "slug": "intel-stock-plummets-affecting-government-holdings-value"
         },
         {
-          "representativeTitle": "Tech Stocks Fall Amid AI Spending Concerns Rising",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US tech stocks tumble as concerns over AI spending intensify",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
-              "pubDate": "2026-10-30T21:13:50.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "tech-stocks-fall-amid-ai-spending-concerns-rising"
-        },
-        {
-          "representativeTitle": "Tech Stocks Fall Amid Massive AI Spending Reports",
+          "representativeTitle": "Tech Stocks Fall Amidst Trillion-Dollar AI Spending Surge",
           "sources": [
             "BBC US"
           ],
@@ -1341,81 +1476,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "tech-stocks-fall-amid-massive-ai-spending-reports"
-        },
-        {
-          "representativeTitle": "Intel Stock Plummets Amid Major Market Concerns",
-          "sources": [
-            "MarketWatch",
-            "Google Stocks"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Why Intel’s stock saw its worst day in decades — and a $140 billion wipeout",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories",
-              "pubDate": "2026-10-30T20:48:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Intel stock plunges nearly 30%, on pace for its worst day since 1974",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVzZhNDBiSG10QXlBZHhLRlc0OWNfamlJM2hsUnNxamNqT0pVQ3oyMnhWSEhZUmlxYndJUGo4bzRQb200djJHcmt3ZWd0ZnpxVnRRUEo2Y2VxN0lFM0NuN1BfVVAyWFBWS0RSdDFhcmlmRm01UXBQZG1UVmtFU0N1Y0djcEZpYjIwX0NueDc2UTdFMlc1eWJGSnNYVmpySWNZVUd5NWlQLXJHVmthS2x4aTVYYjdzRUxyQVdEMnhNOW4?oc=5",
-              "pubDate": "2026-10-30T20:05:54.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "intel-stock-plummets-amid-major-market-concerns"
-        },
-        {
-          "representativeTitle": "AI Dip-Buyers Face Losses Amid Selling Spasm",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "AI Dip-Buyers Gored as Selling Spasm Caps Third Week of Losses",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-30/ai-dip-buyers-gored-as-selling-spasm-caps-third-week-of-losses",
-              "pubDate": "2026-10-30T20:30:15.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ai-dip-buyers-face-losses-amid-selling-spasm"
-        },
-        {
-          "representativeTitle": "Dermatology Biotech Stock Drops After IPO Funding",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Dermatology Biotech Bambusa Dips 6.3% After $168.9 Million IPO",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-30/dermatology-biotech-bambusa-slides-7-after-168-9-million-ipo",
-              "pubDate": "2026-10-30T15:37:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "dermatology-biotech-stock-drops-after-ipo-funding"
+          "slug": "tech-stocks-fall-amidst-trillion-dollar-ai-spending-surge"
         }
       ]
     },
@@ -1423,56 +1484,26 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "Binance suffers massive $6.3 billion hack loss.",
+          "representativeTitle": "VC Investors Discuss Market Pressures and Payouts",
           "sources": [
-            "France 24",
-            "Le Monde"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Biggest hack in history: Cryptocurrency giant Binance loses $6.3 billion",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261030-biggest-hack-in-history-cryptocurrency-giant-binance-loses-6-3-billion",
-              "pubDate": "2026-10-30T15:34:46.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Binance hack: What we know about the largest cryptocurrency theft in history",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/pixels/article/2026/10/30/binance-hack-what-we-know-about-the-largest-cryptocurrency-theft-in-history_6767471_13.html",
-              "pubDate": "2026-10-30T15:56:34.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Business",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 65,
-          "slug": "binance-suffers-massive-63-billion-hack-loss"
-        },
-        {
-          "representativeTitle": "Binance seeks recovery of $6.3B stolen funds.",
-          "sources": [
-            "BBC World"
+            "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-30T21:13:14.000Z",
+              "title": "Pile-ins, payouts, and pacing pressure: the investors behind the VCs open up",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/30/pile-ins-payouts-and-pacing-pressure-the-investors-behind-the-vcs-open-up/",
+              "pubDate": "2026-10-31T04:16:50.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Technology",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "binance-seeks-recovery-of-63b-stolen-funds"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "vc-investors-discuss-market-pressures-and-payouts"
         },
         {
           "representativeTitle": "CEO and Family Attacked; Manhunt Underway in Toronto",
@@ -1495,6 +1526,50 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "ceo-and-family-attacked-manhunt-underway-in-toronto"
+        },
+        {
+          "representativeTitle": "Cruise Industry Faces Scrutiny After Safety Failures",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The cursed cruise: how the dream of never-ending luxury at sea became a nightmare",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/news/ng-interactive/2026/oct/31/mv-odyssey-cruise-passengers-nightmare-stranded-cambodia",
+              "pubDate": "2026-10-31T03:00:31.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "cruise-industry-faces-scrutiny-after-safety-failures"
+        },
+        {
+          "representativeTitle": "BOJ ETF Sales May Aid Takaichi Spending Plans",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "BOJ’s Faster ETF Sales May Help Takaichi’s Spending Plan",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-10-31/boj-faster-etf-sales-may-help-takaichi-spending-plan-non-tax-revenue",
+              "pubDate": "2026-10-31T02:32:32.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "boj-etf-sales-may-aid-takaichi-spending-plans"
         },
         {
           "representativeTitle": "Hedge Funds Bet Against Natural Gas Prices Heavily",
@@ -1541,6 +1616,28 @@ export const newsData = {
           "slug": "salesforce-acquires-defense-tech-startup-rune-for-375m"
         },
         {
+          "representativeTitle": "CD&R Targets $40 Billion Global Payments Buyout Deal",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "CD&R pursues buyout of $40bn card processor Global Payments",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/da16af06-4431-4ced-9c3e-a0753d8c45c9?syn-25a6b1a6=1",
+              "pubDate": "2026-10-30T17:10:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "cdr-targets-40-billion-global-payments-buyout-deal"
+        },
+        {
           "representativeTitle": "AI Firm Bids on Weil Gotshal Law Firm Assets",
           "sources": [
             "TechCrunch"
@@ -1563,7 +1660,7 @@ export const newsData = {
           "slug": "ai-firm-bids-on-weil-gotshal-law-firm-assets"
         },
         {
-          "representativeTitle": "Cheaper Cars Selling Faster Signals Consumer Strength",
+          "representativeTitle": "Cheaper Cars Selling Faster Than Earlier This Year",
           "sources": [
             "CNBC Economy"
           ],
@@ -1582,32 +1679,10 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "cheaper-cars-selling-faster-signals-consumer-strength"
+          "slug": "cheaper-cars-selling-faster-than-earlier-this-year"
         },
         {
-          "representativeTitle": "CD&R Targets $40 Billion Global Payments Buyout Deal",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "CD&R pursues buyout of $40bn card processor Global Payments",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/da16af06-4431-4ced-9c3e-a0753d8c45c9?syn-25a6b1a6=1",
-              "pubDate": "2026-10-30T17:10:22.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "cdr-targets-40-billion-global-payments-buyout-deal"
-        },
-        {
-          "representativeTitle": "Starbucks Sales Miss; U.S. Turnaround Shows Promise",
+          "representativeTitle": "Starbucks Sales Miss, But US Turnaround Gains Momentum",
           "sources": [
             "CNBC Economy"
           ],
@@ -1626,7 +1701,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "starbucks-sales-miss-us-turnaround-shows-promise"
+          "slug": "starbucks-sales-miss-but-us-turnaround-gains-momentum"
         },
         {
           "representativeTitle": "Lawyer Nee in Talks to Join Major Law Firm",
@@ -1766,26 +1841,34 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
-          "representativeTitle": "AI Poses Threat to Global Digital Infrastructure Stability",
+          "representativeTitle": "Major Crypto Exchange Hack Details Largest Theft Ever",
           "sources": [
-            "Al Jazeera"
+            "BBC World",
+            "Le Monde"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Why AI could threaten much of the world’s digital infrastructure",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/30/why-ai-could-threaten-much-of-the-worlds-digital-infrastructure?traffic_source=rss",
-              "pubDate": "2026-10-30T23:13:51.000Z",
+              "title": "What we know about Binance's $6.3bn hack",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-30T12:27:28.000Z",
               "tier": 1
+            },
+            {
+              "title": "Binance hack: What we know about the largest cryptocurrency theft in history",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/pixels/article/2026/10/30/binance-hack-what-we-know-about-the-largest-cryptocurrency-theft-in-history_6767471_13.html",
+              "pubDate": "2026-10-30T15:56:34.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "Technology",
-          "sentiment": -0.4,
+          "sentiment": -0.9,
           "relevance_score": 9,
-          "importance": 60,
-          "slug": "ai-poses-threat-to-global-digital-infrastructure-stability"
+          "importance": 65,
+          "slug": "major-crypto-exchange-hack-details-largest-theft-ever"
         },
         {
           "representativeTitle": "OpenAI cuts funding target amid mounting tech anxieties.",
@@ -1876,7 +1959,7 @@ export const newsData = {
           "slug": "ai-extension-attack-compromises-thousands-of-devices"
         },
         {
-          "representativeTitle": "Blackstone questions Anthropic's post-IPO rating outlook.",
+          "representativeTitle": "Blackstone questions Anthropic's post-IPO credit rating.",
           "sources": [
             "FT International"
           ],
@@ -1895,7 +1978,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "blackstone-questions-anthropics-post-ipo-rating-outlook"
+          "slug": "blackstone-questions-anthropics-post-ipo-credit-rating"
         },
         {
           "representativeTitle": "Contractor AI Agent Accesses Sensitive Pentagon Systems",
@@ -1942,34 +2025,26 @@ export const newsData = {
           "slug": "whistleblower-warns-ai-boom-risks-deception-and-fraud"
         },
         {
-          "representativeTitle": "Google launches data center satellite; poetry noted.",
+          "representativeTitle": "Nvidia Considers Cosigning AI Data Center Project",
           "sources": [
-            "TechCrunch",
-            "Google Tech"
+            "TechCrunch"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Google’s first data center satellite is online and writing poetry",
+              "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-              "pubDate": "2026-10-30T17:00:00.000Z",
+              "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+              "pubDate": "2026-10-31T01:20:05.000Z",
               "tier": 1
-            },
-            {
-              "title": "Google’s first data center satellite is online and writing poetry",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLWFhS0ZkZnRnV2JEWFJWNXMyb1U4eWxqQ2JUOWM4RXBZOHNNemh0QWVxbWxrYzhXSVpkWEg0U0gzWENkbmJZU1RzZmNhWS1MRWNTVEpuQzlrSGZKR0ZOQW9ReXBjbXc0dzVzNjdCZ0tndU1LT1BrSEE1MWRmeVRVUU01ZDBlQkE1RHY2T0pWOHY2YTNiQy1iZVZnRDU0UWFU?oc=5",
-              "pubDate": "2026-10-30T17:00:00.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "google-launches-data-center-satellite-poetry-noted"
+          "importance": 45,
+          "slug": "nvidia-considers-cosigning-ai-data-center-project"
         },
         {
           "representativeTitle": "Satlyt advances satellite data center capabilities significantly.",
@@ -2082,26 +2157,26 @@ export const newsData = {
           "slug": "ai-agent-books-restaurant-reservations-via-text-messages"
         },
         {
-          "representativeTitle": "Insider Reveals Apple Hiring Strategy After CEO Meeting",
+          "representativeTitle": "Google launches data center satellite; poetry writing noted.",
           "sources": [
-            "Wired"
+            "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "I Spent 30 Minutes With Apple’s CEO. Now I Know Why John Ternus Got the Job",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/i-spent-30-minutes-with-apples-ceo-now-i-know-why-john-ternus-got-the-job/",
-              "pubDate": "2026-10-30T15:00:00.000Z",
+              "title": "Google’s first data center satellite is online and writing poetry",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+              "pubDate": "2026-10-30T17:00:00.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
-          "sentiment": 0,
+          "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "insider-reveals-apple-hiring-strategy-after-ceo-meeting"
+          "slug": "google-launches-data-center-satellite-poetry-writing-noted"
         },
         {
           "representativeTitle": "Privacy AI Assistant Ollie Announces Operational Shutdown Today",
@@ -2173,28 +2248,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "sahara-meteorite-confirms-ancient-martian-origin-discovery"
-        },
-        {
-          "representativeTitle": "Photonic Chip Advances Telescope Viewing of Universe Detail",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Tiny photonic chip links telescopes together to view the universe in 'astonishing' detail",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-tiny-photonic-chip-links-telescopes.html",
-              "pubDate": "2026-10-30T20:20:06.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "photonic-chip-advances-telescope-viewing-of-universe-detail"
         },
         {
           "representativeTitle": "Scientist Breaks Long-Standing Computational Barrier After Years",
