@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-11-01T01:34:28.547Z",
+  "lastUpdated": "2026-11-01T05:39:32.689Z",
   "children": [
     {
       "name": "World",
@@ -16,10 +16,10 @@ export const newsData = {
           "citationCount": 4,
           "rawArticles": [
             {
-              "title": "Evacuees of Russian-occupied Oleshky reunited with families",
+              "title": "Ukrainian evacuees from Russian-occupied Oleshky reunite with family",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_evacuees-from-oleshky-reunite-w-families-in-ukraine-311026?traffic_source=rss",
-              "pubDate": "2026-10-31T18:32:20.000Z",
+              "link": "https://www.aljazeera.com/news/2026/11/1/ukrainian-evacuees-from-russian-occupied-oleshky-reunite-with-family?traffic_source=rss",
+              "pubDate": "2026-11-01T03:37:23.000Z",
               "tier": 1
             },
             {
@@ -52,49 +52,80 @@ export const newsData = {
           "slug": "evacuees-arrive-amid-localized-truce-in-conflict-zone"
         },
         {
-          "representativeTitle": "Protest Arrests Occur Against Palestine Action Ban in London",
+          "representativeTitle": "FBI blames North Korea for massive crypto theft.",
           "sources": [
-            "The Guardian",
             "Al Jazeera",
-            "Google World"
+            "SCMP",
+            "Le Monde",
+            "Google Stocks"
           ],
-          "citationCount": 3,
+          "citationCount": 4,
           "rawArticles": [
             {
-              "title": "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london",
-              "pubDate": "2026-10-31T18:28:30.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Palestine Action supporters arrested outside US embassy in London",
+              "title": "FBI blames North Korea for record $6.3bn crypto heist from Binance",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_palestine-action-supporters-arrested-in-london-311026?traffic_source=rss",
-              "pubDate": "2026-10-31T22:10:53.000Z",
+              "link": "https://www.aljazeera.com/news/2026/11/1/fbi-blames-north-korea-for-record-6-3bn-crypto-heist?traffic_source=rss",
+              "pubDate": "2026-11-01T02:28:38.000Z",
               "tier": 1
             },
             {
-              "title": "London police arrest 139 as hundreds protest Palestine Action ban",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
-              "pubDate": "2026-10-31T18:48:29.000Z",
-              "tier": 1
+              "title": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3372858/fbi-blames-north-korea-stolen-billions-binance-biggest-hack-history",
+              "pubDate": "2026-10-31T23:49:22.000Z",
+              "tier": 2
             },
             {
-              "title": "London police arrest 139 as hundreds protest Palestine Action ban",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNam1UMDNjenNVXzcybTdDd0twaF9lLVNwTzB3V1JVSUNSZlA1UFlKZUZJREtOYVBLbnBLYV91Q2JyenU4NGozZ3R3ejJudVh1TGxTeHgtWHR1eng4MHFmX2lDbVNMZzJQOWh6QjZ4NUJjVVZseVg2UmJVd25LREg2OVRSZjB0eWtoYWhQVW5nVmgzdDFWaUdTRlB6OE1teFJQYlo2bkVVSkx0Z9IBrwFBVV95cUxNdVNqNXZDOU9UMDlNNl9qU3hibWJVNDhLT3dScUFLZHdhN05kbkQ5bGJ6NVVwclliVDZHQ3k2ZnZYTzJtZUw4SVhLZzZnTUhqSTRPWWg0NjI3RE5KaUVQNFQyc3RfUkxiOXd6TnhqQlpkTk1yS0hQcWtSNUdwTWthUUZmMlJ5UFJ1ZGZkdXpUTlpIWHNCbHZpTXRvOUlXeDVma1ZtMTJBaVA3MDlfZFow?oc=5",
-              "pubDate": "2026-10-31T21:45:56.000Z",
+              "title": "FBI accuses North Korea of $6 billion crypto theft from Binance",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/pixels/article/2026/11/01/fbi-accuses-north-korea-of-6-billion-crypto-theft-from-binance_6768478_13.html",
+              "pubDate": "2026-11-01T02:13:38.000Z",
+              "tier": 2
+            },
+            {
+              "title": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQkM3dmhycV92Tk5Oa2xmTVhpMUI3RnluVVRpV1dlUGtIVXo4NjBqX0RDcjlLVW5FaGN4TGhZOXpEMlhBbzhzZ0gteVMwWUx2dVFoVzhnMzkxeU5tZzlDaHpZZE5LUVMxYllLTVBfTzhTcEZMaTl4eXhKT2l4ekwxWFFWOHc3bjJrWXhHRkVQQTFhOUNXMzlJSGQyZw?oc=5",
+              "pubDate": "2026-11-01T01:28:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 6,
+          "relevance_score": 9,
           "importance": 75,
-          "slug": "protest-arrests-occur-against-palestine-action-ban-in-london"
+          "slug": "fbi-blames-north-korea-for-massive-crypto-theft"
+        },
+        {
+          "representativeTitle": "Major Crypto Hack Losses Linked to North Korea Attack",
+          "sources": [
+            "BBC World",
+            "The Guardian"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-10-31T22:11:45.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Binance says 90% of losses from $6.3bn hack covered as FBI says North Korea behind attack",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
+              "pubDate": "2026-11-01T02:41:34.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "major-crypto-hack-losses-linked-to-north-korea-attack"
         },
         {
           "representativeTitle": "French protests continue despite official positive claims.",
@@ -108,7 +139,7 @@ export const newsData = {
               "title": "Police clash with masked rioters after largely peaceful protests across France",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france",
-              "pubDate": "2026-10-31T18:23:56.000Z",
+              "pubDate": "2026-11-01T01:43:02.000Z",
               "tier": 1
             },
             {
@@ -134,79 +165,280 @@ export const newsData = {
           "slug": "french-protests-continue-despite-official-positive-claims"
         },
         {
-          "representativeTitle": "Mass Protests Continue Across France's Streets Today",
+          "representativeTitle": "German Protests Turn Violent Amid Youth Demonstrations",
           "sources": [
+            "BBC World",
             "Al Jazeera",
-            "SCMP",
-            "Le Monde",
             "Google World"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Tension and clashes as hundreds of thousands protest again in France",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
-              "pubDate": "2026-10-31T18:28:14.000Z",
+              "title": "Shops looted as German cost of living protests turn violent",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-01T01:59:57.000Z",
               "tier": 1
             },
             {
-              "title": "Clashes break out at France’s Halloween protests, as hundreds of thousands take to streets",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets",
-              "pubDate": "2026-10-31T18:23:31.000Z",
-              "tier": 2
+              "title": "Gen Z-led protests in Germany turn violent",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/germany-gen-z-protests-education-military-service?traffic_source=rss",
+              "pubDate": "2026-11-01T00:27:20.000Z",
+              "tier": 1
             },
             {
-              "title": "Hundreds of thousands demonstrated across France, clashes erupted after dark in several cities",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/france/article/2026/10/31/france-braces-for-third-saturday-of-protests-as-interior-minister-warns-of-street-violence-on-halloween_6767950_7.html",
-              "pubDate": "2026-10-31T07:54:45.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Hundreds of Thousands Join Another Round of Protests in France",
+              "title": "Shops looted as German cost of living protests turn violent",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLVpZYzZlRmU2d3VWb1JHXzd4MThSUlRfVmt1NzVPVWhEWEcwOFN2dU9oT1hSMkFodG90UEdkdFNldU45Tkx0Q3c4N1U5U0kzWmpPRExqcEltempmN2hLUXZXUmJITHdvOVRQQU4xazFzVlp5MnZxeTRMYUVIek5aNi1pSWktUQ?oc=5",
-              "pubDate": "2026-10-31T21:00:33.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtRTMtQlNJcjUxVG5zZmwySzJ6NkRoUEtqV0dkWE9INjZMVWVhd2NFaThYMzRPQWlNanM3cUFBYUVEUU9tcnZKWDJZNnJqb2xPdUw4M0VmdFlMMm8?oc=5",
+              "pubDate": "2026-11-01T01:59:57.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
+          "relevance_score": 6,
           "importance": 65,
-          "slug": "mass-protests-continue-across-frances-streets-today"
+          "slug": "german-protests-turn-violent-amid-youth-demonstrations"
         },
         {
-          "representativeTitle": "Ukrainians Report Resilience After Front-Line Struggle",
+          "representativeTitle": "Protest Arrests Occur Near US Embassy in London",
           "sources": [
-            "BBC World"
+            "The Guardian",
+            "Al Jazeera",
+            "Google World"
           ],
-          "citationCount": 1,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-31T19:22:26.000Z",
+              "title": "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london",
+              "pubDate": "2026-10-31T18:28:30.000Z",
               "tier": 1
             },
             {
-              "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-31T17:53:35.000Z",
+              "title": "Palestine Action supporters arrested outside US embassy in London",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_palestine-action-supporters-arrested-in-london-311026?traffic_source=rss",
+              "pubDate": "2026-10-31T22:10:53.000Z",
+              "tier": 1
+            },
+            {
+              "title": "London police arrest 139 as hundreds protest Palestine Action ban",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNam1UMDNjenNVXzcybTdDd0twaF9lLVNwTzB3V1JVSUNSZlA1UFlKZUZJREtOYVBLbnBLYV91Q2JyenU4NGozZ3R3ejJudVh1TGxTeHgtWHR1eng4MHFmX2lDbVNMZzJQOWh6QjZ4NUJjVVZseVg2UmJVd25LREg2OVRSZjB0eWtoYWhQVW5nVmgzdDFWaUdTRlB6OE1teFJQYlo2bkVVSkx0Z9IBrwFBVV95cUxNdVNqNXZDOU9UMDlNNl9qU3hibWJVNDhLT3dScUFLZHdhN05kbkQ5bGJ6NVVwclliVDZHQ3k2ZnZYTzJtZUw4SVhLZzZnTUhqSTRPWWg0NjI3RE5KaUVQNFQyc3RfUkxiOXd6TnhqQlpkTk1yS0hQcWtSNUdwTWthUUZmMlJ5UFJ1ZGZkdXpUTlpIWHNCbHZpTXRvOUlXeDVma1ZtMTJBaVA3MDlfZFow?oc=5",
+              "pubDate": "2026-10-31T21:45:56.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "protest-arrests-occur-near-us-embassy-in-london"
+        },
+        {
+          "representativeTitle": "France sees ongoing protests through third weekend.",
+          "sources": [
+            "Al Jazeera",
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "France protests enter third week as police fire tear gas",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/france-protests-teargas-police-clashes?traffic_source=rss",
+              "pubDate": "2026-11-01T04:31:24.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Third weekend of protests in France",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/third-weekend-of-protests-in-france",
+              "pubDate": "2026-10-31T11:13:44.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0.4,
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 60,
+          "slug": "france-sees-ongoing-protests-through-third-weekend"
+        },
+        {
+          "representativeTitle": "UN Demands Probe After Staffer Dies in Yemen",
+          "sources": [
+            "Al Jazeera",
+            "Sky News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "UN demands investigation after staffer’s death in Houthi custody in Yemen",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/1/un-demands-investigation-after-staffers-death-in-houthi-custody-in-yemen?traffic_source=rss",
+              "pubDate": "2026-11-01T04:49:15.000Z",
+              "tier": 1
+            },
+            {
+              "title": "UN demands investigation into death of staff member in Houthi custody",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/un-demands-investigation-into-death-of-staff-member-in-houthi-custody-13606554",
+              "pubDate": "2026-11-01T01:17:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 65,
-          "slug": "ukrainians-report-resilience-after-front-line-struggle"
+          "importance": 60,
+          "slug": "un-demands-probe-after-staffer-dies-in-yemen"
+        },
+        {
+          "representativeTitle": "Thousands Rally in Israel Against Netanyahu's Leadership",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Thousands rally in Israel urging ‘Jewish-Arab’ coalition to oust Netanyahu",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-israel-urging-eisenkot-arab-deal-to-remove-netanyahu?traffic_source=rss",
+              "pubDate": "2026-11-01T02:05:40.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Thousands rally in Israel urging ‘Jewish-Arab’ coalition to oust Netanyahu",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUERhVWJoQkxxNnNJMTAweURfZC1paFdKUDhIZFVBSGNjVGJqLUt1OFRiSnFwR0VkSDZjZE9UV3dRaGRCV0dUSENJZUVNdnBVNnJBUU53dFBsSy1wd0tzdG1OaG1WZi1kc3dmS0FJNG9wM3QtLWttR3JhVkRBWHBLaTlRRXR6TlV6U2hYZnMyMlRLUTkxX1M3Ri1vb1VZbmZZUVVVeHJyeXoySFNaTjNvVkN30gG3AUFVX3lxTE5KdFhzaWRtcWozRDhSYVp2LTJsLU1zeEpBMERRd2w2dFlEZzh3MU9uRFUxUFd0UUl0WnpsQkhTZ05sMEhMaUZZeE1uT19kVTZwNEpMcmptOVN2emtwb0hySlVzcVVSQS1DWEc2amE5OHpERURhRTJ3Rk1teklYVnBzSTFONGotVWZhSlZfRDUtOTJhb0U5OVFMRXlHUWcxc0d3a1AtelJNM3p3T1pMNVRhUlhxTDZORQ?oc=5",
+              "pubDate": "2026-11-01T02:08:37.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "thousands-rally-in-israel-against-netanyahus-leadership"
+        },
+        {
+          "representativeTitle": "Arctic Shipping Routes Shift Grain Amid Black Sea Conflict",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Russia forced to ship grain via Arctic as Black Sea battles rage",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/50aeab56-c5e3-44c5-9117-8fadc2f980fb?syn-25a6b1a6=1",
+              "pubDate": "2026-11-01T05:00:09.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "arctic-shipping-routes-shift-grain-amid-black-sea-conflict"
+        },
+        {
+          "representativeTitle": "Iran Threatens Hormuz; US Talks Remain Stable.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Iran war live: Tehran eyes 2-day Hormuz plan; Trump says talks ‘going fine’",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss",
+              "pubDate": "2026-11-01T00:00:51.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "iran-threatens-hormuz-us-talks-remain-stable"
+        },
+        {
+          "representativeTitle": "Germany misses winter gas storage capacity targets.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Germany fails to meet Winter gas storage target",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/99b0bbf1-4604-4e56-bc66-9f49d2814737?syn-25a6b1a6=1",
+              "pubDate": "2026-11-01T05:00:17.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "germany-misses-winter-gas-storage-capacity-targets"
+        },
+        {
+          "representativeTitle": "Analyzing US Efforts to Resolve Iran Conflict",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "What we know about latest efforts to end US war on Iran",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/iran-wrap-iran-latest-developments-011126?traffic_source=rss",
+              "pubDate": "2026-11-01T03:24:02.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "analyzing-us-efforts-to-resolve-iran-conflict"
+        },
+        {
+          "representativeTitle": "Dam Project Faces Indigenous Resistance Amid China Tensions",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "India’s largest dam planned to counter China faces Indigenous revolt",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/indias-largest-dam-planned-to-counter-china-faces-indigenous-revolt?traffic_source=rss",
+              "pubDate": "2026-11-01T03:19:28.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "dam-project-faces-indigenous-resistance-amid-china-tensions"
         },
         {
           "representativeTitle": "Iran Leader Warns US, Israel Against Attacks",
@@ -287,7 +519,7 @@ export const newsData = {
               "title": "Tusk defends overhaul of Poland’s constitutional court despite protests",
               "source": "Google World",
               "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN2tCSVYwNXlmVktrRkpCNWM3UVVoRzVUWlhtVElmUllrbWlhZjIxcXV3MUNDTmVEM1lQLU9qWWtOOWNOaC1BYmN5RTdNMDY2dzJ0STYzNG1mQy1FS3ltbnliY0lKREtiVWNMWVN4NnJtYzlnek5qUFZfbFlSbzNXWUJHRjliVF9tbG51d0x0NjJuQlRpNjVzSWNFdXBLY0xqOTN4Ymo1LWRhV3ZqOFBuWGhaM0U1aVdXOVVz?oc=5",
-              "pubDate": "2026-10-31T22:57:00.000Z",
+              "pubDate": "2026-10-31T22:43:00.000Z",
               "tier": 2
             }
           ],
@@ -299,26 +531,34 @@ export const newsData = {
           "slug": "tusk-defends-polish-court-overhaul-amid-protests"
         },
         {
-          "representativeTitle": "Talks resume on reopening vital Hormuz Strait passage.",
+          "representativeTitle": "Serbia's leader mirrors Hungary's political decline.",
           "sources": [
-            "Al Jazeera"
+            "BBC World",
+            "Google World"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Iran war live: Araghchi says talks under way on 2-day plan to reopen Hormuz",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss",
-              "pubDate": "2026-11-01T00:00:51.000Z",
+              "title": "How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c893z699q401o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-01T00:55:06.000Z",
               "tier": 1
+            },
+            {
+              "title": "How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MaEc5N21LeEtBM3AwTlRrbkdpWE5tdnR1bmw5eTlfN0ZsdHBlcGduemszdjdnLWh1SEotUFZ0R2RPZlkyZHdHR2c5ekl5ZkJ0WFljS3BUdTRIc0k?oc=5",
+              "pubDate": "2026-11-01T00:55:06.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "talks-resume-on-reopening-vital-hormuz-strait-passage"
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "serbias-leader-mirrors-hungarys-political-decline"
         },
         {
           "representativeTitle": "Polish President Holds Talks After Court Showdown",
@@ -373,45 +613,7 @@ export const newsData = {
           "slug": "rubio-defends-russias-g20-role-amid-allies-criticism"
         },
         {
-          "representativeTitle": "PM Signals Openness on Slavery Apology, Not Funds",
-          "sources": [
-            "France 24",
-            "SCMP",
-            "Sky News"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "UK PM Burnham says 'open' to slavery apology but rules out financial reparations",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20261031-burnham-says-uk-open-to-slavery-apology-but-rules-out-financial-reparations",
-              "pubDate": "2026-10-31T12:31:49.000Z",
-              "tier": 1
-            },
-            {
-              "title": "UK PM Burnham ‘open’ to slavery apology, but not reparations",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3372842/uk-pm-burnham-open-slavery-apology-not-reparations",
-              "pubDate": "2026-10-31T12:06:40.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Burnham 'open' to slavery apology",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/king-arrives-in-antigua-and-barbuda-as-burnham-open-to-slavery-apology-13606019",
-              "pubDate": "2026-10-31T03:11:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "pm-signals-openness-on-slavery-apology-not-funds"
-        },
-        {
-          "representativeTitle": "Belfast Man Charged With Possessing Explosives And Firearms",
+          "representativeTitle": "Belfast Man Charged With Possessing Explosives, Firearms",
           "sources": [
             "The Guardian",
             "Sky News"
@@ -438,7 +640,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 50,
-          "slug": "belfast-man-charged-with-possessing-explosives-and-firearms"
+          "slug": "belfast-man-charged-with-possessing-explosives-firearms"
         },
         {
           "representativeTitle": "India Opposition Plans Major Rally Against Chief Minister",
@@ -485,166 +687,92 @@ export const newsData = {
           "slug": "eu-official-warns-putin-visit-risks-normalizing-war-crimes"
         },
         {
-          "representativeTitle": "Iran Warns of Broad Retaliation If Attacked",
+          "representativeTitle": "NZ political power shifts to young consultant.",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran warns it will retaliate without ‘geographical limitations’ if attacked",
+              "title": "New Zealand’s kingmaker could be a 38-year-old ex-KPMG consultant",
               "source": "FT International",
-              "link": "https://www.ft.com/content/77370477-62df-4499-9ab6-4063d3e361bd?syn-25a6b1a6=1",
-              "pubDate": "2026-10-31T13:38:29.000Z",
+              "link": "https://www.ft.com/content/217e8187-7b57-40dc-9439-03266e6c900f?syn-25a6b1a6=1",
+              "pubDate": "2026-11-01T05:00:09.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "nz-political-power-shifts-to-young-consultant"
+        },
+        {
+          "representativeTitle": "Trump, Netanyahu Discuss Renewed Strikes Against Iran",
+          "sources": [
+            "Google US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump holds call with Netanyahu amid preparations to renew strikes on Iran — report",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdWluR210TDk5VTZTZHNNRklLcVFDN3A4bDBRTzUxQmJpSmJBcjRTdUctZlB5c3Y3TlBqVm96dXluVV9nUjhVOXJaUkVjRnNkUnZjdjRUVFVoaXpKZEpXdFV4T2NVNXFjWExqZmVxTDFwc2IyRjhaWXZsZWJ3UnduN1F0NFBJOVFLNV9kUm1WNnEwTHhtdG1NdWwwQ0txVXFpREpaT29rdVBRQjJXS0hfSGtn0gG3AUFVX3lxTE9USVRTN3ZxWWV4ZVVWbWRRdXk4ZlM1Y1FGcTJWTFlja2V6MDJ6OXFhOTJ2OEt2Uk9ma3poaWkyMHdaeDBUdEJxWlFqY1hxSHFLczloQ1RYbDY0akMwVzV2TURxeWdjc2M0aUxHM1BlWTRXZHlBdUMzX3VYMUFoWkFrSURtVUFRWmtDa0hVSDR2QjRaOHpRQnBKRlRMZFJ6dXJpOElNczhQUjQ0OS12ZlRIeHNsVUdfWQ?oc=5",
+              "pubDate": "2026-11-01T02:36:32.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "trump-netanyahu-discuss-renewed-strikes-against-iran"
+        },
+        {
+          "representativeTitle": "Bolivia declares emergency due to El Nino weather.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Bolivia declares state of emergency over El Nino weather pattern",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/1/bolivia-declares-state-of-emergency-over-el-nino-weather-pattern?traffic_source=rss",
+              "pubDate": "2026-11-01T04:04:40.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "bolivia-declares-emergency-due-to-el-nino-weather"
+        },
+        {
+          "representativeTitle": "Evacuees Arrive in Ukraine From Occupied Russian City",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Evacuees from Russian-occupied city arrive in Ukraine",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/55dfa145-4078-450f-a853-5f2d551260f1",
+              "pubDate": "2026-10-31T15:17:34.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "iran-warns-of-broad-retaliation-if-attacked"
-        },
-        {
-          "representativeTitle": "US Approves Sale of Patriot Missiles to Ukraine",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US approves sale of 500 Patriot missiles to Ukraine",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-31T12:21:25.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "us-approves-sale-of-patriot-missiles-to-ukraine"
-        },
-        {
-          "representativeTitle": "French Protests Continue With Lower Turnout, Early Clashes",
-          "sources": [
-            "France 24",
-            "Euronews"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Third weekend of protests in France",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/third-weekend-of-protests-in-france",
-              "pubDate": "2026-10-31T11:13:44.000Z",
-              "tier": 1
-            },
-            {
-              "title": "France's third weekend of social protests sees lower turnout and early clashes in major cities",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/10/31/frances-third-weekend-of-social-protests-sees-lower-turnout-and-early-clashes-in-major-cit",
-              "pubDate": "2026-10-31T17:08:02.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "french-protests-continue-with-lower-turnout-early-clashes"
-        },
-        {
-          "representativeTitle": "Health Authorities Investigate Suspected Ebola Cases in Nigeria",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Health authorities probe two suspected Ebola cases in northeast Nigeria",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/31/health-authorities-probe-two-suspected-ebola-cases-in-northeast-nigeria?traffic_source=rss",
-              "pubDate": "2026-10-31T21:01:19.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "health-authorities-investigate-suspected-ebola-cases-in-nigeria"
-        },
-        {
-          "representativeTitle": "Qatar election interference allegations rejected by authorities.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Israel’s allegations of Qatari election interference rejected",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/israels-allegations-of-qatari-election-interference-rejected?traffic_source=rss",
-              "pubDate": "2026-10-31T20:24:58.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "qatar-election-interference-allegations-rejected-by-authorities"
-        },
-        {
-          "representativeTitle": "Serbia's leader mirrors Hungary's political decline.",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c893z699q401o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-01T00:55:06.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "serbias-leader-mirrors-hungarys-political-decline"
-        },
-        {
-          "representativeTitle": "German Protests Turn Violent Amid Youth Demonstrations",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Gen Z-led protests in Germany turn violent",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/germany-gen-z-protests-education-military-service?traffic_source=rss",
-              "pubDate": "2026-11-01T00:27:20.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "german-protests-turn-violent-amid-youth-demonstrations"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "evacuees-arrive-in-ukraine-from-occupied-russian-city"
         },
         {
           "representativeTitle": "EU Chief Warns Against Normalizing Russia Ties",
@@ -669,94 +797,6 @@ export const newsData = {
           "slug": "eu-chief-warns-against-normalizing-russia-ties"
         },
         {
-          "representativeTitle": "Island Resident Trapped Due to Visa Issues Abroad",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "I've been stuck on a tiny Pacific island for years and can't get a transit visa to fly home",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cmq5npz5l5geo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-31T23:06:13.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "island-resident-trapped-due-to-visa-issues-abroad"
-        },
-        {
-          "representativeTitle": "Tusk Pledges Judiciary Overhaul in Poland's Politics",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Tusk vows to press on with overhaul of Poland’s judiciary",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/d49a7943-fc11-45cb-bcf2-f5876c3c381d?syn-25a6b1a6=1",
-              "pubDate": "2026-10-31T22:51:11.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "tusk-pledges-judiciary-overhaul-in-polands-politics"
-        },
-        {
-          "representativeTitle": "Dutch Authorities Rescue People From Adrift Boat",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Dutch authorities rescue 38 people adrift in rubber boat",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/31/dutch-authorities-rescue-38-people-adrift-in-rubber-boat?traffic_source=rss",
-              "pubDate": "2026-10-31T22:38:03.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "dutch-authorities-rescue-people-from-adrift-boat"
-        },
-        {
-          "representativeTitle": "Russia Keeps Diesel Exports Banned Until January",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Russia Extends Ban on Most Diesel Exports Through January",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-31/russia-extends-ban-on-most-diesel-exports-through-january",
-              "pubDate": "2026-10-31T12:13:37.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "russia-keeps-diesel-exports-banned-until-january"
-        },
-        {
           "representativeTitle": "Turkey Names New Regulator Amid Fund Crisis Response Efforts",
           "sources": [
             "Bloomberg Markets"
@@ -779,70 +819,26 @@ export const newsData = {
           "slug": "turkey-names-new-regulator-amid-fund-crisis-response-efforts"
         },
         {
-          "representativeTitle": "Protests and Police Confrontations Erupt in Albania",
+          "representativeTitle": "German Protests Turn Violent; Shops Looted Amid Unrest",
           "sources": [
-            "Al Jazeera"
+            "BBC Business"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Fiery confrontations between protestors and police in Albania",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/fiery-confrontations-between-protestors-and-police-in-albania?traffic_source=rss",
-              "pubDate": "2026-10-31T21:12:46.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "protests-and-police-confrontations-erupt-in-albania"
-        },
-        {
-          "representativeTitle": "US Plans Deportation of Afghans Via Pakistan Routes",
-          "sources": [
-            "ABC News US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "U.S. plans to deport Afghans back to their home country through Pakistan, documents show",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/us-plans-deport-afghans-back-home-country-pakistan-137741097",
-              "pubDate": "2026-10-31T22:59:34.000Z",
+              "title": "Shops looted as German cost of living protests turn violent",
+              "source": "BBC Business",
+              "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-01T01:59:57.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Stocks",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "us-plans-deportation-of-afghans-via-pakistan-routes"
-        },
-        {
-          "representativeTitle": "Rubio: Trump Has Not Decided on Iran Action",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "No choice made yet by Trump on resuming military action against Iran, Rubio says",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUW82emNVZFFoQXk5bVRPZF9NTGphSmZ2U08ybEI1SlV1b1RPUVJYSHltUnpzOVNaaXdMUXZXUjNNMV9WRkpHQ1BaTHRKMi1mc3hlLVRQTGNZZ1E3Z0tNSWw1d0hCaEhTT1VwdDh4RmZzQVd2Y3Y0dlZKTUtMQnloNTJydnpFWEU1?oc=5",
-              "pubDate": "2026-10-31T22:46:55.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "rubio-trump-has-not-decided-on-iran-action"
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "german-protests-turn-violent-shops-looted-amid-unrest"
         },
         {
           "representativeTitle": "China Executive Suspected of Sharing Sensitive Information",
@@ -865,50 +861,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 50,
           "slug": "china-executive-suspected-of-sharing-sensitive-information"
-        },
-        {
-          "representativeTitle": "Senegal Budget Rejection Jeopardizes Crucial IMF Funding Deal",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Senegal Lawmakers Reject Budget Again, Risking IMF Deal",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-31/senegal-lawmakers-reject-budget-again-putting-imf-deal-at-risk",
-              "pubDate": "2026-10-31T12:27:56.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "senegal-budget-rejection-jeopardizes-crucial-imf-funding-deal"
-        },
-        {
-          "representativeTitle": "Debate centers on individual right to remain apolitical.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The right to be apolitical",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/74c46706-a4d9-4c8b-a2e7-7ff6ad811ec0?syn-25a6b1a6=1",
-              "pubDate": "2026-10-31T05:01:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "debate-centers-on-individual-right-to-remain-apolitical"
         }
       ]
     },
@@ -944,6 +896,52 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 60,
           "slug": "dc-virginia-sue-to-halt-trump-arch-plans"
+        },
+        {
+          "representativeTitle": "Virginia and D.C. Sue to Halt Trump Arch Construction",
+          "sources": [
+            "NBC News",
+            "NPR",
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Virginia and D.C. sue to stop proposed Trump arch",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/white-house/dc-virginia-lawsuit-stop-proposed-trump-arch-construction-rcna606705",
+              "pubDate": "2026-10-31T17:03:15.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Virginia and D.C. sue to block construction of Trump arch",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/10/31/nx-s1-6024694/virginia-dc-sue-trump-arch",
+              "pubDate": "2026-10-31T22:48:51.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Virginia and DC sue over Trump's arch, adding to legal challenges as government wants work to begin",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/virginia-dc-sue-trumps-arch-adding-legal-challenges-137736588",
+              "pubDate": "2026-11-01T04:23:30.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Virginia and DC sue over Trump's arch, adding to legal challenges as government wants work to begin",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVWdIdnZjbU5ESzhYMXdsdHlpbWVNbC1GRFdmSGN1UUwxbUluTk5SQzF4VktaaV9JQ1dGN1VyY0IwWmg1QUtXNVFFSy1mRkkwWTFtODdoWWNoeHZWUU9ZLUNKT29EUFpIN3NsYjRWdFcybFlZeU9ZS0ZpeTh0U1ZFR2o4OElGVjN6LUtCQjVYbWhYUlNMX1oydVpPNkVNSi1qNFNjNlNiczJvM3BNNFZCeEpkUEVJQQ?oc=5",
+              "pubDate": "2026-11-01T01:10:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "virginia-and-dc-sue-to-halt-trump-arch-construction"
         },
         {
           "representativeTitle": "Judge dismisses Trump lawsuit regarding WSJ letter.",
@@ -984,50 +982,56 @@ export const newsData = {
           "slug": "judge-dismisses-trump-lawsuit-regarding-wsj-letter"
         },
         {
-          "representativeTitle": "DC Sues to Halt Construction on Trump Arch Plan",
+          "representativeTitle": "Shooting at Halloween Store Kills Woman, Wounds Six",
           "sources": [
-            "NBC News",
-            "NPR",
-            "ABC News Top",
+            "ABC News US",
             "Google US"
           ],
-          "citationCount": 4,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Virginia and D.C. sue to stop proposed Trump arch",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/white-house/dc-virginia-lawsuit-stop-proposed-trump-arch-construction-rcna606705",
-              "pubDate": "2026-10-31T17:03:15.000Z",
+              "title": "Shooting at Spirit Halloween store in California leaves pregnant woman dead and 6 wounded",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/shooting-spirit-halloween-store-california-leaves-pregnant-woman-137730147",
+              "pubDate": "2026-11-01T04:28:03.000Z",
               "tier": 2
             },
             {
-              "title": "Virginia and D.C. sue to block construction of Trump arch",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/10/31/nx-s1-6024694/virginia-dc-sue-trump-arch",
-              "pubDate": "2026-10-31T22:48:51.000Z",
-              "tier": 2
-            },
-            {
-              "title": "DC, Virginia file suit to block construction on Trump's proposed arch",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/dc-virginia-file-suit-block-construction-trumps-proposed/story?id=137739420",
-              "pubDate": "2026-10-31T22:20:34.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Virginia and D.C. sue to block construction of Trump arch",
+              "title": "31-year-old pregnant woman identified as killed in Fairfield shooting at Spirit Halloween",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uUFZpekxGX1haSlJXNUMzU29KaUF1WTFzQm9wMGk3TlVCQklydzFxakRnV2xSZkk2dkFIQTF3aTNKVjhnTFY5dG5CLVJNeHJfUGIxcHFXQ3VDT19rcTVwUk5sTGx6aHUxVzFKZ2xmX0dON2lELTlFNmZGNA?oc=5",
-              "pubDate": "2026-10-31T22:48:51.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ2VEU1VYa3FhenA2OGF2UWsxcXR6S1dzME1PMERCQ1hQMU92cTY4Z0VzcmVhWTd0Rl90NWpVU2puWUVQd0tWZE04aThWenNhdXh1dlJIQ3BYVnd2SnJrQ1pHR2d0ekxVUWxOdlczX2lzUjlyYjlyTlBZcU9UcmpHV2JsOXdXMHNMZzJlZ3M3bkdjSUpUTE9Sd1lPeGQ2MXVPTTRFNV9aMFppS3M?oc=5",
+              "pubDate": "2026-11-01T03:31:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
+          "sentiment": -0.9,
+          "relevance_score": 8,
           "importance": 50,
-          "slug": "dc-sues-to-halt-construction-on-trump-arch-plan"
+          "slug": "shooting-at-halloween-store-kills-woman-wounds-six"
+        },
+        {
+          "representativeTitle": "Bond Investors Avoid Key US Midterm Election Decisions",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Bond investors sit out ‘most consequential’ US midterm elections in years",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/937308d7-aa2e-4dac-b19b-423d83bc1253?syn-25a6b1a6=1",
+              "pubDate": "2026-11-01T05:00:17.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "bond-investors-avoid-key-us-midterm-election-decisions"
         },
         {
           "representativeTitle": "Michigan Feud Risks Democratic Unity in Senate Race",
@@ -1052,29 +1056,51 @@ export const newsData = {
           "slug": "michigan-feud-risks-democratic-unity-in-senate-race"
         },
         {
-          "representativeTitle": "Legal filing challenges Trump's voting claims in California.",
+          "representativeTitle": "Political figure advised to avoid campaign events.",
           "sources": [
-            "Al Jazeera"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Legal filing questions Trump’s claims of non-citizen voting in California",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/10/31/legal-filing-questions-trumps-claims-of-non-citizen-voting-in-california?traffic_source=rss",
-              "pubDate": "2026-10-31T21:38:54.000Z",
+              "title": "Haley Stevens advised to stay away from Abdul El-Sayed campaign events to limit ‘distractions’",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/oct/31/abdul-el-sayed-haley-stevens-disinvited-from-events",
+              "pubDate": "2026-11-01T03:56:49.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "legal-filing-challenges-trumps-voting-claims-in-california"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "political-figure-advised-to-avoid-campaign-events"
         },
         {
-          "representativeTitle": "Election Countdown Hits Amid Tech Sector Decline",
+          "representativeTitle": "Bronx schoolboy murdered; police investigate brutal crime.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The murder of Javits Frimpong, a bullied schoolboy in The Bronx",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/the-murder-of-javits-frimpong-a-bullied-schoolboy-in-the-bronx?traffic_source=rss",
+              "pubDate": "2026-11-01T03:18:02.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "bronx-schoolboy-murdered-police-investigate-brutal-crime"
+        },
+        {
+          "representativeTitle": "Election Build-up Hits Tech Sector With Declining Stocks",
           "sources": [
             "Bloomberg Markets"
           ],
@@ -1093,10 +1119,40 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "election-countdown-hits-amid-tech-sector-decline"
+          "slug": "election-build-up-hits-tech-sector-with-declining-stocks"
         },
         {
-          "representativeTitle": "Candidate denies knowledge of alleged ballot plot.",
+          "representativeTitle": "Heavy Rains Threaten Flooding Across Southwest US",
+          "sources": [
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Heavy rains expected to bring flooding risk to already saturated parts of the US Southwest",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/heavy-rains-expected-bring-flooding-risk-saturated-parts-137739514",
+              "pubDate": "2026-11-01T00:26:21.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Heavy rains expected to bring flooding risk to already saturated parts of the U.S. Southwest",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQXVheWFDZkdPbmtBVENKSFBreTV6aDVhZ1Q4R3QzOU9HQ1hMWFJNOHRQZ0Y5ZXU0aHYwX1pqWGZiX2RLTVdmQUdkVGNkRzF0QzhWNzFWZlE1Y2pXcUEzSHpCcTFGc2gyaUR6WmpFUjN1N1k2S2pxRUJCc2QtR1pBbGV2WEZGSkZDRXlQblpB?oc=5",
+              "pubDate": "2026-10-31T21:14:56.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "heavy-rains-threaten-flooding-across-southwest-us"
+        },
+        {
+          "representativeTitle": "Candidate denies knowledge of ballot plot allegations.",
           "sources": [
             "BBC US"
           ],
@@ -1115,29 +1171,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "candidate-denies-knowledge-of-alleged-ballot-plot"
-        },
-        {
-          "representativeTitle": "Campaign excludes rival from political events citing distractions.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Abdul El-Sayed’s campaign disinvites Haley Stevens from events to limit ‘distractions’",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/oct/31/abdul-el-sayed-haley-stevens-disinvited-from-events",
-              "pubDate": "2026-10-31T23:58:44.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "campaign-excludes-rival-from-political-events-citing-distractions"
+          "slug": "candidate-denies-knowledge-of-ballot-plot-allegations"
         },
         {
           "representativeTitle": "ICE Agent's Shove Causes Woman to Fly Through Air",
@@ -1162,48 +1196,56 @@ export const newsData = {
           "slug": "ice-agents-shove-causes-woman-to-fly-through-air"
         },
         {
-          "representativeTitle": "Candidates Campaign in Key States During Election Finale Weekend",
+          "representativeTitle": "Alaska Officials Challenge DOJ Over Ballot Set-Aside Order",
           "sources": [
-            "Google US"
+            "NBC News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "2026 Elections Live Updates: Candidates Campaign in Battleground States on Final Weekend",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YR1owcUlLb3d1ajhFeWJacmU2aXAwV1g2Uk9aUjhtNFFNSlRSMXFxR2RCaWlIUWZ5M0w2M2kwODVndGNuSFdUangydkM0b0p5WERGOFY5QjZtSzNnYnhZTFd5NW1yZ2d6amJwMk9sdll6ZXdQeWc?oc=5",
-              "pubDate": "2026-11-01T01:30:17.000Z",
+              "title": "Alaska officials ask judge to deny DOJ’s ‘impossible’ demand to set aside ballots",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/2026-election/alaska-officials-ask-judge-deny-trump-administrations-impossible-deman-rcna606765",
+              "pubDate": "2026-11-01T02:00:50.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "alaska-officials-challenge-doj-over-ballot-set-aside-order"
+        },
+        {
+          "representativeTitle": "Judge dismisses Trump suit regarding WSJ Epstein letter.",
+          "sources": [
+            "NBC News",
+            "ABC News US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Judge dismisses Trump’s $10 billion defamation suit over Jeffrey Epstein birthday card story",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/donald-trump/judge-dismisses-trump-10-billion-defamation-suit-jeffrey-epstein-wsj-rcna591049",
+              "pubDate": "2026-10-31T21:09:34.000Z",
+              "tier": 2
+            },
+            {
+              "title": "'Grasping at straws': Judge dismisses Trump suit against Wall Street Journal over Epstein letter",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/grasping-straws-judge-dismisses-trump-suit-wall-street-137738720",
+              "pubDate": "2026-11-01T02:42:13.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "candidates-campaign-in-key-states-during-election-finale-weekend"
-        },
-        {
-          "representativeTitle": "Bannon Predicts Post-Midterm Political Turmoil Among Republicans",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Steve Bannon: Republicans will erupt in ‘civil war’ after midterm elections",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/a97de5ca-484e-4ed9-84e0-958b90b85ef8?syn-25a6b1a6=1",
-              "pubDate": "2026-10-31T12:00:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "bannon-predicts-post-midterm-political-turmoil-among-republicans"
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "judge-dismisses-trump-suit-regarding-wsj-epstein-letter"
         },
         {
           "representativeTitle": "Lawsuit proceeds regarding AI data center pollution.",
@@ -1228,198 +1270,6 @@ export const newsData = {
           "slug": "lawsuit-proceeds-regarding-ai-data-center-pollution"
         },
         {
-          "representativeTitle": "Judge Halts Trump Admin Threats Against Election Officials",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Judge orders Trump administration to stop threatening US election officials",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mSkRFcTFYRlhyeEo2clZWcEJNOTZDYkNuT1FsVVIza3IyQkxLWW50S0xydjJ6MjdZdDkxNmF4bjdwLTNKRUFUYkU3ZEYzRmREazJzYWxnbWI4akE?oc=5",
-              "pubDate": "2026-10-31T23:04:12.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "judge-halts-trump-admin-threats-against-election-officials"
-        },
-        {
-          "representativeTitle": "Mass Shooting Strikes Spirit Halloween Store; Injuries Reported",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Fairfield mass shooting: Pregnant woman killed, 6 others hurt at Spirit Halloween store",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcC10Yzdtb0w4X0hKWjhHdFhrdzRzSllzbTRUd0o2T0p4Ym93aVh1ZnVGRFhJVW15TUNwODFscmhTM3BkQzdNVmhzQ2laZ29vbHhSa0FtbWt4aW5HUU9RU0ZKNE92ejI1dmZmcnBBNmR6eFBPZDJRY25mOGRDU2E0Uk82aHd4ZXl3b081blF1cC1SUnFuWFlBODI1RTQ?oc=5",
-              "pubDate": "2026-10-31T22:46:18.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "mass-shooting-strikes-spirit-halloween-store-injuries-reported"
-        },
-        {
-          "representativeTitle": "Judge dismisses Trump suit regarding WSJ Epstein letter.",
-          "sources": [
-            "NBC News",
-            "ABC News US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Judge dismisses Trump’s $10 billion defamation suit over Jeffrey Epstein birthday card story",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/donald-trump/judge-dismisses-trump-10-billion-defamation-suit-jeffrey-epstein-wsj-rcna591049",
-              "pubDate": "2026-10-31T21:09:34.000Z",
-              "tier": 2
-            },
-            {
-              "title": "'Grasping at straws': Judge dismisses Trump suit against Wall Street Journal over Epstein letter",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/grasping-straws-judge-dismisses-trump-suit-wall-street-137738720",
-              "pubDate": "2026-10-31T21:55:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "judge-dismisses-trump-suit-regarding-wsj-epstein-letter"
-        },
-        {
-          "representativeTitle": "FBI Visit to Donor Amid Alaska Senate Inquiry Widens",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "FBI visits Dan J. Sullivan donor in candidate’s hometown as Alaska Senate inquiry widens",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRV9KLUhEZ0cwNXhZaFZjbnNSVFdwZW5WdHp0NFZhYUtSNnpaNUVwd3h3TVd5eVBMNHIyNlBoRjFpeUMtaEtVTEYzcU5WMl9VTTZLY0xrYW5PRkNoc05sdU5QRHBCVUVXb0YyQ1ZUangwTHZLUWloaWRuOVVOLWVxbjh5UHhWZk5JTUtsRFY2MEFEV1pmT0J6UDNFWHNDQ3V2WVplcjA1UUo5S2NYalE?oc=5",
-              "pubDate": "2026-11-01T01:18:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "fbi-visit-to-donor-amid-alaska-senate-inquiry-widens"
-        },
-        {
-          "representativeTitle": "Agent pointing gun sparks public outrage over incident",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Video showing federal agent pointing handgun in face of bystander sparks outrage",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVmtMVm5HQnhoQnl6VzQtZTFWSEVDRzEzdkdHb2dodXhZVVk0dTg4em5BTmFSYWdONXJqNlk0eHR2dFZqLUlPMjBZT0RKUmdLTkVBOFZWbFdrXzhJTWtaWWt3TzF4bXdQTGlDenVuc3VsOFZYaVdneVhLWEJaMmdyXzZxTTRVYUdmUENNS2pGX0s3Ni1WcHNtQVZxdVI1RVBpNzhjTGNUbWhMZDJZVjNJUmRLYmxkTVlFLW1lZEhTS0l5UkU?oc=5",
-              "pubDate": "2026-11-01T01:06:09.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "agent-pointing-gun-sparks-public-outrage-over-incident"
-        },
-        {
-          "representativeTitle": "Texas GOP Concerned Over Low Early Voting Turnout Numbers",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Texas Republicans sweating over low turnout in early voting",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbHFqYzJRejQ3XzViNS1DUi03amZDLThHNk1HV0xTX1ZaQWxDV1E3ZlZ2dXF5bmZGQUhPM1ZHbWd4Y1BkV2FRR2hiWkhKbzA2YmFxWEE5WEYtVVhwS0pjM0cxZFVta3JOSGtfQXhxeVZNblFOVUNZQURFRWxVblZRREx2cDdRVTdHMDJ0M2o0eFYxVmNkdFZTckh5M2x4c2tCWVlQUnJXdjVRZw?oc=5",
-              "pubDate": "2026-11-01T00:56:04.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "texas-gop-concerned-over-low-early-voting-turnout-numbers"
-        },
-        {
-          "representativeTitle": "Federal probe investigates Mississippi police department fire.",
-          "sources": [
-            "ABC News Top",
-            "ABC News US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Federal officials investigate fire at beleaguered police department in Mississippi",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/wireStory/federal-officials-investigate-fire-beleaguered-police-department-mississippi-137739234",
-              "pubDate": "2026-10-31T20:46:14.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Federal officials investigate fire at beleaguered police department in Mississippi",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/federal-officials-investigate-fire-beleaguered-police-department-mississippi-137739234",
-              "pubDate": "2026-10-31T20:46:14.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "federal-probe-investigates-mississippi-police-department-fire"
-        },
-        {
-          "representativeTitle": "Heavy Rains Threaten Flooding Across Southwest US",
-          "sources": [
-            "ABC News US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Heavy rains expected to bring flooding risk to already saturated parts of the US Southwest",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/heavy-rains-expected-bring-flooding-risk-saturated-parts-137739514",
-              "pubDate": "2026-10-31T23:54:13.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "heavy-rains-threaten-flooding-across-southwest-us"
-        },
-        {
           "representativeTitle": "Midterms Focus on Credit Card Rates Across Parties",
           "sources": [
             "Bloomberg Markets"
@@ -1442,7 +1292,7 @@ export const newsData = {
           "slug": "midterms-focus-on-credit-card-rates-across-parties"
         },
         {
-          "representativeTitle": "Task Force Meets With DNA Scientists on Case Update",
+          "representativeTitle": "Task Force Meets With DNA Scientists on Case Progress",
           "sources": [
             "NBC News",
             "Google US"
@@ -1469,35 +1319,13 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 40,
-          "slug": "task-force-meets-with-dna-scientists-on-case-update"
+          "slug": "task-force-meets-with-dna-scientists-on-case-progress"
         }
       ]
     },
     {
       "name": "Stocks",
       "children": [
-        {
-          "representativeTitle": "AI Fears Cause Investors to Cut Growth Bets",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Investors trim growth bets over fears of US economy’s AI exposure",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/56b0d5fa-829c-47b1-b07b-b4be18f60151?syn-25a6b1a6=1",
-              "pubDate": "2026-10-31T14:00:02.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ai-fears-cause-investors-to-cut-growth-bets"
-        },
         {
           "representativeTitle": "Asian Trader Guide Addresses US Midterm Election Impact",
           "sources": [
@@ -1526,39 +1354,83 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "Binance covers losses following massive $6.3B hack.",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-10-31T22:11:45.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "binance-covers-losses-following-massive-63b-hack"
-        },
-        {
-          "representativeTitle": "Truckmaker Bets Service Against Chinese EV Competition",
+          "representativeTitle": "Oil Majors Resist Refinery Investment Amid Rising Fuel Costs",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Toyota-backed truckmaker bets on aftersales service to fend off Chinese EV rivals",
+              "title": "Oil majors resist pressure to invest in new refineries as fuel prices keep rising",
               "source": "FT International",
-              "link": "https://www.ft.com/content/7e749777-dcee-4c11-9bdc-7f81bee80455?syn-25a6b1a6=1",
-              "pubDate": "2026-11-01T01:00:06.000Z",
+              "link": "https://www.ft.com/content/4d63f08d-3556-4d84-8e1d-40f866741d15?syn-25a6b1a6=1",
+              "pubDate": "2026-11-01T05:00:18.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "oil-majors-resist-refinery-investment-amid-rising-fuel-costs"
+        },
+        {
+          "representativeTitle": "EU leaders jeopardize support for European startups.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "EU leaders risk breaking their promise to help European start-ups",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/ce1e852d-c699-4cf6-b8a0-78fd283556f3?syn-25a6b1a6=1",
+              "pubDate": "2026-11-01T05:00:09.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "eu-leaders-jeopardize-support-for-european-startups"
+        },
+        {
+          "representativeTitle": "Macau Gaming Revenue Declines Despite Holiday Boost",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Macau Gaming Revenue Decline Extends Despite Golden Week Boost",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-01/macau-gaming-revenue-decline-extends-despite-golden-week-boost",
+              "pubDate": "2026-11-01T05:14:49.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "macau-gaming-revenue-declines-despite-holiday-boost"
+        },
+        {
+          "representativeTitle": "Quant Fund Spins Out of Tudor in Major Launch",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Quant hedge fund to spin out of Tudor in record $9bn launch",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/8ee19897-1d15-4dd7-8ca8-162c4ea22b3a?syn-25a6b1a6=1",
+              "pubDate": "2026-11-01T05:00:18.000Z",
               "tier": 1
             }
           ],
@@ -1567,29 +1439,29 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "truckmaker-bets-service-against-chinese-ev-competition"
+          "slug": "quant-fund-spins-out-of-tudor-in-major-launch"
         },
         {
-          "representativeTitle": "Norwegian Firm Linked to Mercuria Baltic Case Funds",
+          "representativeTitle": "Australian Home Auction Market Shows Significant Decline",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Norwegian Firm Has $100 Million Riding on Mercuria’s Baltic Case",
+              "title": "Australia Home Auction Clearance Rate Falls to Six-Year Low",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-10-31/norwegian-firm-has-100-million-riding-on-mercuria-s-baltic-case",
-              "pubDate": "2026-10-31T11:30:00.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-01/australia-home-auction-clearance-rate-falls-to-six-year-low",
+              "pubDate": "2026-11-01T04:01:17.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "norwegian-firm-linked-to-mercuria-baltic-case-funds"
+          "slug": "australian-home-auction-market-shows-significant-decline"
         },
         {
           "representativeTitle": "Haunted Attractions Boost Local Neighborhood Economies Now",
@@ -1641,7 +1513,51 @@ export const newsData = {
           "slug": "apple-ceo-cautions-against-unnecessary-ai-deployment"
         },
         {
-          "representativeTitle": "OpenAI reportedly adjusts funding goals for new round.",
+          "representativeTitle": "Firms fueling fears of AI bubble bursting risks.",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-01T01:37:26.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "firms-fueling-fears-of-ai-bubble-bursting-risks"
+        },
+        {
+          "representativeTitle": "Data Centers Become Key Infrastructure Issue in Brooklyn",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Data centers are now a midterm issue, even in Brooklyn",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+              "pubDate": "2026-11-01T02:22:10.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "data-centers-become-key-infrastructure-issue-in-brooklyn"
+        },
+        {
+          "representativeTitle": "OpenAI reportedly scales back funding goals for round.",
           "sources": [
             "TechCrunch"
           ],
@@ -1657,13 +1573,13 @@ export const newsData = {
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "openai-reportedly-adjusts-funding-goals-for-new-round"
+          "slug": "openai-reportedly-scales-back-funding-goals-for-round"
         },
         {
-          "representativeTitle": "AI Hype Falters Amid Weakening Tech Earnings Reports",
+          "representativeTitle": "AI Hype Cycle Falters Amid Tech Earnings Disappointment",
           "sources": [
             "Bloomberg Markets"
           ],
@@ -1682,7 +1598,29 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "ai-hype-falters-amid-weakening-tech-earnings-reports"
+          "slug": "ai-hype-cycle-falters-amid-tech-earnings-disappointment"
+        },
+        {
+          "representativeTitle": "AI Prodigy's Death Sparks Bitter Industry Accusations",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The Sudden Death of an Nvidia AI Prodigy Leaves Behind Bitter Accusations",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/us-news/the-sudden-death-of-an-nvidia-ai-prodigy-leaves-behind-bitter-accusations-57ee23ec?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-01T01:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "ai-prodigys-death-sparks-bitter-industry-accusations"
         },
         {
           "representativeTitle": "AI-Powered Malware Threatens Data Security Globally Now",
@@ -1707,6 +1645,28 @@ export const newsData = {
           "slug": "ai-powered-malware-threatens-data-security-globally-now"
         },
         {
+          "representativeTitle": "AI Investment Focuses on Securing Future Market Bets",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "AI Investors Are Racing to Get Insurance on the Biggest Market Bet in History",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/finance/stocks/ai-investors-are-racing-to-get-insurance-on-the-biggest-market-bet-in-history-a60e296f?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-01T00:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "ai-investment-focuses-on-securing-future-market-bets"
+        },
+        {
           "representativeTitle": "Meta's AI Tool Poised to Transform Multiple Industries",
           "sources": [
             "Wired"
@@ -1729,7 +1689,7 @@ export const newsData = {
           "slug": "metas-ai-tool-poised-to-transform-multiple-industries"
         },
         {
-          "representativeTitle": "Automakers Use 3D Printing to Cut Costs",
+          "representativeTitle": "Automakers use 3D printing to cut costs, speed production.",
           "sources": [
             "CNBC Economy"
           ],
@@ -1748,10 +1708,10 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "automakers-use-3d-printing-to-cut-costs"
+          "slug": "automakers-use-3d-printing-to-cut-costs-speed-production"
         },
         {
-          "representativeTitle": "TikTok expands services into commerce and payments.",
+          "representativeTitle": "TikTok expands services into diverse consumer sectors.",
           "sources": [
             "TechCrunch"
           ],
@@ -1770,7 +1730,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "tiktok-expands-services-into-commerce-and-payments"
+          "slug": "tiktok-expands-services-into-diverse-consumer-sectors"
         },
         {
           "representativeTitle": "TechCrunch Summit offers networking opportunities for growth.",
@@ -1851,7 +1811,51 @@ export const newsData = {
           "slug": "ai-agent-injects-drugs-into-live-mouse-brain"
         },
         {
-          "representativeTitle": "Virus Gene Discovery Illuminates Protein Evolution Study",
+          "representativeTitle": "New Particle Theory May Explain Universe's Existence",
+          "sources": [
+            "Science Daily"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Scientists say a forgotten particle may explain why the universe exists",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm",
+              "pubDate": "2026-11-01T04:33:36.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "new-particle-theory-may-explain-universes-existence"
+        },
+        {
+          "representativeTitle": "Scientists Uncover Cholesterol Driver and Reversal Method",
+          "sources": [
+            "Science Daily"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Scientists discover a hidden driver of high cholesterol and a way to stop it",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/10/261030003003.htm",
+              "pubDate": "2026-11-01T01:57:50.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "scientists-uncover-cholesterol-driver-and-reversal-method"
+        },
+        {
+          "representativeTitle": "Virus Gene Discovery Advances Protein Evolution Understanding",
           "sources": [
             "Phys.org"
           ],
@@ -1870,10 +1874,10 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "virus-gene-discovery-illuminates-protein-evolution-study"
+          "slug": "virus-gene-discovery-advances-protein-evolution-understanding"
         },
         {
-          "representativeTitle": "AI Tool Advances Enzyme Creation from Ingenuity",
+          "representativeTitle": "AI Tool Converts Ingenuity to Life-Enhancing Enzymes",
           "sources": [
             "Phys.org"
           ],
@@ -1892,29 +1896,7 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "ai-tool-advances-enzyme-creation-from-ingenuity"
-        },
-        {
-          "representativeTitle": "NASA Telescope Plunges Earth After Failed Rescue Mission",
-          "sources": [
-            "Google Science"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "NASA telescope is on the verge of plunging back to Earth after failed rescue mission - ABC News",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM2hHNTJVeGNHb0VHMU9jZ0JscHRGOFI1MkRfR2pDZ0xRNU8zNVZ1SVRYcFo2Sk5heklqM01rZ3d3Rmw3X1gyZWJkMHBBZVlsUURLRC01U3FSZW5sRDNmcGtoZXZ1ZzVqMzR6RUIwOGdPZ2k3YjZlR19sYUcxUzdwN2RMdTNiNlNiVk0tcFhROU5JODY5bXJxS0p3Y2tkdnBIX3QyUVk0ONIBrAFBVV95cUxOQlNYZWhtSDhmTEpOc2pPZGNNQUdMVTZXYTFHTlc0M1ZQQUM2SDEzQll2bjE4eFhrRVYyVElzWXhVVWJDckZMQUNqRkxONVRHNGJUak9GVTVNV0dKOTN5ODI5c0pFSk1lb1RFVWVUbHZOS080ajhhejBESVgxZmc2Mmp1NURkYURKQjcyaTh4UmFiamdXYkpfWl9oM2V4UnZhaDl1YUtnSXYtWUZi?oc=5",
-              "pubDate": "2026-10-31T17:09:07.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "nasa-telescope-plunges-earth-after-failed-rescue-mission"
+          "slug": "ai-tool-converts-ingenuity-to-life-enhancing-enzymes"
         },
         {
           "representativeTitle": "Ancient Celtic Helmet Found in Polish Excavation Site",
