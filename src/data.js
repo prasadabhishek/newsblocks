@@ -1,10 +1,110 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-11-01T22:09:22.847Z",
+  "lastUpdated": "2026-11-02T02:15:17.154Z",
   "children": [
     {
       "name": "World",
       "children": [
+        {
+          "representativeTitle": "Petrol Bomb Thrown at French Police; Probe Launched",
+          "sources": [
+            "BBC World",
+            "The Guardian",
+            "Al Jazeera",
+            "SCMP",
+            "Google World"
+          ],
+          "citationCount": 5,
+          "rawArticles": [
+            {
+              "title": "France launches attempted murder investigation after petrol bomb thrown at police",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cwvg05z184j0o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-02T00:15:30.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Attempted murder probe after petrol bomb thrown at French riot police",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/01/petrol-bomb-thrown-at-french-riot-police",
+              "pubDate": "2026-11-01T16:24:38.000Z",
+              "tier": 1
+            },
+            {
+              "title": "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/1/france-opens-attempted-murder-probe-into-molotov-attacks-on-police?traffic_source=rss",
+              "pubDate": "2026-11-01T18:58:23.000Z",
+              "tier": 1
+            },
+            {
+              "title": "France opens ‘attempted murder’ probe over petrol bomb attacks on security forces",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3372907/france-opens-attempted-murder-probe-over-petrol-bomb-attacks-security-forces",
+              "pubDate": "2026-11-01T18:01:03.000Z",
+              "tier": 2
+            },
+            {
+              "title": "France launches attempted murder investigation after petrol bomb thrown at police",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41V0xneml3Vm91VHN3bTVkbzNhNVFBb09qM1BQR29ZNHlKeGhvZlA2cFFrM1dRQXNRWWYyZ0tKVjZPUV9GM0d0bjZxNW90TXJhdXpFZTFpMlowSWc?oc=5",
+              "pubDate": "2026-11-02T00:15:30.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 85,
+          "slug": "petrol-bomb-thrown-at-french-police-probe-launched"
+        },
+        {
+          "representativeTitle": "UN Peacekeeping Ends in Western Sahara After Decades",
+          "sources": [
+            "ABC News US",
+            "Al Jazeera",
+            "France 24",
+            "Google World"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "UN’s peacekeeping mission in Western Sahara ends after 35 years following US-Russia standoff",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/uns-peacekeeping-mission-western-sahara-ends-after-35-137752620",
+              "pubDate": "2026-11-02T00:40:14.000Z",
+              "tier": 2
+            },
+            {
+              "title": "UN warns of security risks in Western Sahara as peacekeeping mission ends",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends?traffic_source=rss",
+              "pubDate": "2026-11-01T23:19:51.000Z",
+              "tier": 1
+            },
+            {
+              "title": "UN’s peacekeeping mission in disputed Western Sahara ends after 35 years",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/africa/20261101-un-s-peacekeeping-mission-in-disputed-western-sahara-ends-after-35-years",
+              "pubDate": "2026-11-01T20:37:45.000Z",
+              "tier": 1
+            },
+            {
+              "title": "UN’s peacekeeping mission in Western Sahara ends after 35 years following US-Russia standoff",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVjMzNTMwSWprQVp3aTBMUThUbmFLcldfYVE1LTdxTE8wRWpuXzU0YkNod2o5T09pSWxpSG9RcHpPVGNvdmpCZ2Y3WUVaWjYyNjNUemZ6M1FBb0IxWkRid3lrRk16VnBPa0FMWTh1QTU4NUh1X1RoZlF5THpLYjk5bTQ1R3d5T2NUOTF5MEl2Vk9VVTJRcnlTVzRXQ0tXekxLUDJWM2FTdXRsZw?oc=5",
+              "pubDate": "2026-11-01T18:34:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 80,
+          "slug": "un-peacekeeping-ends-in-western-sahara-after-decades"
+        },
         {
           "representativeTitle": "Kherson Ceasefire Ends Amid Russia's Refusal To Extend",
           "sources": [
@@ -29,10 +129,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+              "title": "Civilians in Ukraine’s Kherson prepare for the return of war as localized ceasefire ends",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ENHI1LTZhR1pHYUFaTjhiQ1VyTy04ODc0dzdaYTk0QkFZdDRPa1RIZ0hoUy0xdzBBOUhMSGdjbFgzWDdyZmJXV0hSSVpZRVBlVDcxUmFVRjhZVVk?oc=5",
-              "pubDate": "2026-11-01T21:01:58.000Z",
+              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSmJHM1BrS0RMNk5BS0hac0VyQjZTSkdPbmlGdkZ6bGJiUGF2dkJuZVFhNzNTaUNhNU0yOXRyUGVKZU42dE1PZzBMWjNFY3hOVTBfSFRkc0lCclpXZ0xCLVhrRi02REF4b25JVEZFeTFDc2tQSnVsTDNuNVVjeHlEdG5zaXB4ODRDSUYwcWtQZFF2THR6eVNjQUZvUElmd1VwdWNDbVZjVQ?oc=5",
+              "pubDate": "2026-11-01T23:24:00.000Z",
               "tier": 2
             }
           ],
@@ -44,42 +144,72 @@ export const newsData = {
           "slug": "kherson-ceasefire-ends-amid-russias-refusal-to-extend"
         },
         {
-          "representativeTitle": "Petrol Bomb Thrown at French Police; Probe Launched",
+          "representativeTitle": "Ukraine Air Raid App Hacked With False Threat",
           "sources": [
-            "The Guardian",
-            "Al Jazeera",
-            "SCMP"
+            "BBC World",
+            "France 24",
+            "Google World"
           ],
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Attempted murder probe after petrol bomb thrown at French riot police",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/01/petrol-bomb-thrown-at-french-riot-police",
-              "pubDate": "2026-11-01T16:24:38.000Z",
+              "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-02T01:18:27.000Z",
               "tier": 1
             },
             {
-              "title": "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/1/france-opens-attempted-murder-probe-into-molotov-attacks-on-police?traffic_source=rss",
-              "pubDate": "2026-11-01T18:58:23.000Z",
+              "title": "Ukraine suspects nationwide air raid alert app has been hacked",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261102-ukraine-suspects-nationwide-air-raid-alert-app-has-been-hacked",
+              "pubDate": "2026-11-02T01:20:44.000Z",
               "tier": 1
             },
             {
-              "title": "France opens ‘attempted murder’ probe over petrol bomb attacks on security forces",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3372907/france-opens-attempted-murder-probe-over-petrol-bomb-attacks-security-forces",
-              "pubDate": "2026-11-01T18:01:03.000Z",
+              "title": "Ukraine says public air raid alert app sent false alerts after being hacked",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYjdWbExXZ1JiYUVET2JwdTc2VVZ0T3J0czdJbUNyLWhLTzI3cW1zOWkxZF9mU3ZnVWtDYXR5SjVwZTlDZ0tFdXE5bkdIUjBwZEZRbmRDWGY4WkNvVkFqSFRJeXdBMzBPS0VJSmlzRkRTS1lCekRwOWRWZ3dSUXNyOVJMRk1Ga3lKZHV2bnctMFhVNTJDVFQ3UlBSWGl5QV95b3pMR2lGd05TRXdiRDdlUHFITkxmZw?oc=5",
+              "pubDate": "2026-11-01T21:36:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 65,
-          "slug": "petrol-bomb-thrown-at-french-police-probe-launched"
+          "relevance_score": 8,
+          "importance": 75,
+          "slug": "ukraine-air-raid-app-hacked-with-false-threat"
+        },
+        {
+          "representativeTitle": "Israeli Officials Vow Elections Despite Political Claims",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Israeli officials say results stand as Netanyahu claims election ‘stolen’",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss",
+              "pubDate": "2026-11-02T00:29:16.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Israeli officials say elections will stand after Netanyahu claimed Arabs stole vote",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWE9TZXk3dG55dWJ3eGVTcFo5S3VVanNpRDFhT2hoWFZqSGJaQnlLaGZ3MHljVGVCOHNsZzZqSGdzXzl4WnNfLXJuRVVXOXdUM1hTWVF4bk85aEg4Unc2NzlOSDJJQUdJcURDdlNnUUJCT25TR3hXcDEzVFdHQkpYOHVvQXB6cVVQZ2xFTDFsYjEzaHFTSkg5UllBTmcydWJqWUR3RFNFcUppd3hwSklqZnE5RlA1dWJENDJNQ0s5UnNiTVV6TG11cG1aMUZxQQ?oc=5",
+              "pubDate": "2026-11-01T23:17:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "israeli-officials-vow-elections-despite-political-claims"
         },
         {
           "representativeTitle": "Negotiators Brace for Worst Over Hormuz Strait Talks",
@@ -112,33 +242,64 @@ export const newsData = {
           "slug": "negotiators-brace-for-worst-over-hormuz-strait-talks"
         },
         {
-          "representativeTitle": "Israel Continues Siege and Arrests in Hebron Area",
+          "representativeTitle": "Thousands Protest Modi Regime Amid Delhi Unrest",
           "sources": [
-            "Al Jazeera"
+            "The Guardian",
+            "Le Monde"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Thousands displaced from Hebron as Israel carries on siege",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/thousands-displaced-from-hebron-as-israel-carries-on-siege?traffic_source=rss",
-              "pubDate": "2026-11-01T21:28:47.000Z",
+              "title": "Tens of thousands protest against Narendra Modi regime in Delhi",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/01/india-opposition-protest-rally-delhi",
+              "pubDate": "2026-11-01T16:11:50.000Z",
               "tier": 1
             },
             {
-              "title": "JERUSALEM DAILY: Israel continues siege and arrests in Hebron",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/jerusalem-daily-israel-continues-siege-and-arrests-in-hebron?traffic_source=rss",
-              "pubDate": "2026-11-01T15:38:12.000Z",
-              "tier": 1
+              "title": "Tens of thousands protest in India's capital against voter roll revision",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/11/01/tens-of-thousands-protest-in-india-s-capital-against-voter-roll-revision_6769171_4.html",
+              "pubDate": "2026-11-01T22:33:16.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 65,
-          "slug": "israel-continues-siege-and-arrests-in-hebron-area"
+          "importance": 60,
+          "slug": "thousands-protest-modi-regime-amid-delhi-unrest"
+        },
+        {
+          "representativeTitle": "Truce Ends in Kherson Region Amid Conflict Escalation",
+          "sources": [
+            "Al Jazeera",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
+              "pubDate": "2026-11-01T22:15:14.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Longest truce of Ukraine war ends in Kherson region",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/russia-central-asia/article/3372908/longest-truce-ukraine-war-kherson-region-set-end",
+              "pubDate": "2026-11-01T18:25:28.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "truce-ends-in-kherson-region-amid-conflict-escalation"
         },
         {
           "representativeTitle": "Israeli Strikes in Gaza Kill Eight People Including Child",
@@ -171,104 +332,6 @@ export const newsData = {
           "slug": "israeli-strikes-in-gaza-kill-eight-people-including-child"
         },
         {
-          "representativeTitle": "Bulgarian Acting President Wins Run-Off Election Vote",
-          "sources": [
-            "Al Jazeera",
-            "SCMP",
-            "Euronews"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Bulgaria’s acting President Iotova leads in run-off exit polls",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/1/bulgarian-president-yotova-leads-runoff-exit-polls-show?traffic_source=rss",
-              "pubDate": "2026-11-01T20:43:33.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Bulgarian acting president Iliana Iotova wins run-off election, exit polls show",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3372909/bulgarian-acting-president-iliana-iotova-wins-run-election-exit-polls-show",
-              "pubDate": "2026-11-01T19:14:49.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Bulgaria's acting President Yotova leads in exit polls of runoff election",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/01/bulgarias-acting-president-yotova-leads-in-exit-polls-of-runoff-election",
-              "pubDate": "2026-11-01T18:59:50.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "bulgarian-acting-president-wins-run-off-election-vote"
-        },
-        {
-          "representativeTitle": "Truce in Oleshky Ends Amid Ongoing Ukraine Conflict",
-          "sources": [
-            "France 24",
-            "Le Monde"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Oleshky: Evacuations during first humanitarian truce of war end",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/oleshky-evacuations-during-first-humanitarian-truce-of-war-end",
-              "pubDate": "2026-11-01T17:44:51.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Longest truce of Ukraine war, in Oleshky, set to end",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/11/01/longest-truce-of-ukraine-war-in-oleshky-set-to-end_6769006_4.html",
-              "pubDate": "2026-11-01T19:10:25.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "truce-in-oleshky-ends-amid-ongoing-ukraine-conflict"
-        },
-        {
-          "representativeTitle": "Russia detains minor over alleged Moscow attack plot.",
-          "sources": [
-            "Al Jazeera",
-            "Le Monde"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Russia detains minor over alleged Moscow attack plot after US warning",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/1/russia-detains-minor-over-alleged-moscow-attack-plot-after-us-warning?traffic_source=rss",
-              "pubDate": "2026-11-01T16:24:16.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Russia arrests one after US warns of planned attack on Moscow",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/11/01/russia-arrests-one-after-us-warns-of-planned-attack-on-moscow_6768907_4.html",
-              "pubDate": "2026-11-01T17:20:58.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "russia-detains-minor-over-alleged-moscow-attack-plot"
-        },
-        {
           "representativeTitle": "Gulf Braces for Escalating US-Israel-Iran Conflict",
           "sources": [
             "FT International"
@@ -279,7 +342,7 @@ export const newsData = {
               "title": "Gulf braced for escalation of war between US-Israel alliance and Iran",
               "source": "FT International",
               "link": "https://www.ft.com/content/efaa2962-1acb-45cf-afb4-d0088f0a1046?syn-25a6b1a6=1",
-              "pubDate": "2026-11-01T18:02:52.000Z",
+              "pubDate": "2026-11-02T01:36:43.000Z",
               "tier": 1
             }
           ],
@@ -291,17 +354,113 @@ export const newsData = {
           "slug": "gulf-braces-for-escalating-us-israel-iran-conflict"
         },
         {
-          "representativeTitle": "UN Peacekeeping Mission Ends After Thirty-Five Years",
+          "representativeTitle": "Iran Warns War With US Could Be Prolonged Conflict",
           "sources": [
             "France 24"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "UN’s peacekeeping mission in disputed Western Sahara ends after 35 years",
+              "title": "Iran warns renewed war with US could outlast previous conflict",
               "source": "France 24",
-              "link": "https://www.france24.com/en/africa/20261101-un-s-peacekeeping-mission-in-disputed-western-sahara-ends-after-35-years",
-              "pubDate": "2026-11-01T20:37:45.000Z",
+              "link": "https://www.france24.com/en/middle-east/20261102-iran-warns-renewed-war-with-us-could-outlast-previous-conflict",
+              "pubDate": "2026-11-02T00:23:23.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "iran-warns-war-with-us-could-be-prolonged-conflict"
+        },
+        {
+          "representativeTitle": "Spain Train Crash Claims Lives of Multiple Nationalities",
+          "sources": [
+            "The Guardian",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Spain train crash: US, Japan and Canada citizens among dead, authorities say",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/02/spain-train-crash-us-citizens-japan-canada-dead",
+              "pubDate": "2026-11-02T01:06:13.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Spain train crash: four US citizens, and nationals from Japan, Canada among dead, authorities say",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS3JjUHBVQlZtX0pqdlE3aTNvTWJzTDBQdnVqNkZkRFNxeXlqLUs3eXVIVUZNN1I3cU5TSExmeG0wN0NhU21FOV9IZTBsRnV0SloyUG55Sl9WR3lCaDBKbU5jeHFpeXJMQkZOTm5xWFVRaDFhRFZDdTNJVnRjYjA3ZUlVOVd1TUJYbjdmRVlMWFNOLWlvbDBNUA?oc=5",
+              "pubDate": "2026-11-02T01:06:19.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "spain-train-crash-claims-lives-of-multiple-nationalities"
+        },
+        {
+          "representativeTitle": "Gulf States Fear Iran Retaliation Over US Strikes",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Gulf States Fear Iran Retaliation If US Strikes Again",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-02/gulf-states-fear-iran-retaliation-if-us-strikes-again-video",
+              "pubDate": "2026-11-02T00:01:10.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "gulf-states-fear-iran-retaliation-over-us-strikes"
+        },
+        {
+          "representativeTitle": "Hormuz Tensions Rise Amid Reported Tanker Attacks",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
+              "pubDate": "2026-11-02T00:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "hormuz-tensions-rise-amid-reported-tanker-attacks"
+        },
+        {
+          "representativeTitle": "Ukraine blames Russia over false air warnings.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ukraine blames Russia after air alert app sends out false warnings",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
+              "pubDate": "2026-11-02T01:40:50.000Z",
               "tier": 1
             }
           ],
@@ -310,7 +469,59 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "un-peacekeeping-mission-ends-after-thirty-five-years"
+          "slug": "ukraine-blames-russia-over-false-air-warnings"
+        },
+        {
+          "representativeTitle": "German protests escalate from peaceful to violent disorder.",
+          "sources": [
+            "BBC World",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Peaceful protests in Germany spiral into violence and looting",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/cqgm0der7zkmo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-01T18:51:56.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Peaceful protests in Germany spiral into violence and looting",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1kZ3B0NlFUUmY3WGlxTnlfUjRRcTFrTFBfXzlUZlQwVndpdmphbGJDNnhqN1I0b2Z1aWZXRmE0MllyYm5EN2p3RFVwcjRrQ0FpeTM0dklvY1Q?oc=5",
+              "pubDate": "2026-11-01T18:51:56.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "german-protests-escalate-from-peaceful-to-violent-disorder"
+        },
+        {
+          "representativeTitle": "Colombia faces default risk without immediate fixes.",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Colombia at Risk of Default Without a Fix, Restrepo Tells Semana",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-01/colombia-is-at-risk-of-default-without-fiscal-fix-restrepo-says",
+              "pubDate": "2026-11-01T22:38:32.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "colombia-faces-default-risk-without-immediate-fixes"
         },
         {
           "representativeTitle": "Portugal sees police clash with housing protesters.",
@@ -343,160 +554,114 @@ export const newsData = {
           "slug": "portugal-sees-police-clash-with-housing-protesters"
         },
         {
-          "representativeTitle": "German Protests Turn Violent; Shops Looted Amid Unrest",
-          "sources": [
-            "BBC World",
-            "Euronews"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Shops looted as German cost-of-living protests turn violent",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-01T11:57:48.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Germany 'Gen Z' protests turn violent as shops looted",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/01/germany-gen-z-protests-turn-violent-as-shops-looted",
-              "pubDate": "2026-11-01T12:46:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "german-protests-turn-violent-shops-looted-amid-unrest"
-        },
-        {
-          "representativeTitle": "Police Detain Hundreds During London Protest at Embassy",
-          "sources": [
-            "The Guardian",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Police detain 325 people at pro-Palestine Action protest at US embassy in London",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/nov/01/police-detain-325-people-at-pro-palestine-action-protest-at-us-embassy-in-london",
-              "pubDate": "2026-11-01T17:29:20.000Z",
-              "tier": 1
-            },
-            {
-              "title": "More than 300 arrests at Palestine Action support protest outside US embassy",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xamxPb1I0V2FXVjh6U3E2bXg0RVgxTmFfek1GVHNlXzFjMF9qUWZFb2V4TVE0Q3hsZGt0dHNUdHNhZEFfY2NDZmQyak9CYTdnMTh1T0xvMy1TQTg?oc=5",
-              "pubDate": "2026-11-01T13:41:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "police-detain-hundreds-during-london-protest-at-embassy"
-        },
-        {
-          "representativeTitle": "Ecuador Floods Cause House Collapse; Damage Reported",
+          "representativeTitle": "Bhutan builds stupas promoting local mindfulness culture.",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Video captures house collapsing due to Ecuador floods",
+              "title": "Tens of thousands build 108 Buddhist stupas for Bhutan ‘mindfulness’ city",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/video-captures-house-collapsing-due-to-ecuador-floods?traffic_source=rss",
-              "pubDate": "2026-11-01T19:56:47.000Z",
+              "link": "https://www.aljazeera.com/news/2026/11/2/tens-of-thousands-build-108-buddhist-stupas-for-bhutan-mindfulness-city?traffic_source=rss",
+              "pubDate": "2026-11-02T01:31:21.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "ecuador-floods-cause-house-collapse-damage-reported"
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "bhutan-builds-stupas-promoting-local-mindfulness-culture"
         },
         {
-          "representativeTitle": "French schools face renewed student protest blockades Monday",
+          "representativeTitle": "Japan Official Signals Action for Stable Currency Market",
           "sources": [
-            "France 24",
-            "Google World"
+            "Bloomberg Markets"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "French high school blockades to restart on Monday, student unions say",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261101-french-high-school-blockades-to-restart-on-monday-student-unions-say",
-              "pubDate": "2026-11-01T14:31:49.000Z",
+              "title": "Japan’s Katayama Says Ready to Act for Stable FX Market",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-02/japan-s-katayama-says-ready-to-take-steps-for-stable-fx-market",
+              "pubDate": "2026-11-02T01:09:29.000Z",
               "tier": 1
-            },
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "japan-official-signals-action-for-stable-currency-market"
+        },
+        {
+          "representativeTitle": "US Pushes Gas Sales Through Ukraine Amid Tensions",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "French high school blockades to restart on Monday, student unions say",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOVB3T0xBSHNYOWFMNHB0cy10YXpFcTJZajVjTDBYTGxQV21NM3MwRWtJbEpSc1VaNFBvbnY5V3I3LU9kZEl4c192eE1XVmVCNTZBejFJZEdYUVE0X2VEc0RJYm5aOU9udzdwRkRaTjZzSEtzYXQxVXJ0ZFBiX1VOMU43UThWTmRnWklLS25UaE8xUThBTmV6ckNjanlpTUgtcG9neVZ1ajh2d0F2NDdKMWh3?oc=5",
-              "pubDate": "2026-11-01T14:31:49.000Z",
+              "title": "U.S. Pushes to Restore Russian Gas Sales to Europe Via Ukraine",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/world/europe/u-s-pushes-to-restore-russian-gas-sales-to-europe-via-ukraine-0ca62dc7?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-02T02:00:00.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "us-pushes-gas-sales-through-ukraine-amid-tensions"
+        },
+        {
+          "representativeTitle": "Oil Prices Dip Amid Mideast Peace Negotiations Progress",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Oil Drops Amid Diplomatic Efforts to Revive Mideast Peace Talks",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/energy-oil/oil-drops-amid-diplomatic-efforts-to-revive-mideast-peace-talks-964fc4d6?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-02T01:15:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "oil-prices-dip-amid-mideast-peace-negotiations-progress"
+        },
+        {
+          "representativeTitle": "Far-Right Gains Poll Lead Amid Government Weakness",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Australian Far-Right Party Regains Poll Lead as Government Slips",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-01/australian-far-right-party-regains-poll-lead-as-government-slips",
+              "pubDate": "2026-11-01T22:09:50.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "french-schools-face-renewed-student-protest-blockades-monday"
-        },
-        {
-          "representativeTitle": "Philippe rejects centre-right primary candidacy bid.",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "French presidential candidate Édouard Philippe rejects centre-right primary",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261101-french-presidential-candidate-philippe-rejects-centre-right-primary",
-              "pubDate": "2026-11-01T21:51:36.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
           "importance": 45,
-          "slug": "philippe-rejects-centre-right-primary-candidacy-bid"
-        },
-        {
-          "representativeTitle": "Trade Talks Advance Amid Looming Midterm Elections Focus",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Carney signals progress on Canada-US trade deal talks as midterms loom",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/1/carney-signals-progress-on-canada-us-trade-deal-talks-as-midterms-loom?traffic_source=rss",
-              "pubDate": "2026-11-01T21:01:33.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "trade-talks-advance-amid-looming-midterm-elections-focus"
+          "slug": "far-right-gains-poll-lead-amid-government-weakness"
         },
         {
           "representativeTitle": "France and UK discuss forming new diplomatic pact.",
@@ -519,72 +684,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "france-and-uk-discuss-forming-new-diplomatic-pact"
-        },
-        {
-          "representativeTitle": "Territory Water Plan Faces Strong Environmental Condemnation",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Northern Territory water plan condemned as ‘blatant and shameless’ attack on nature",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/nov/02/northern-territory-water-plan-condemned-as-blatant-and-shameless-attack-on-nature",
-              "pubDate": "2026-11-01T20:02:57.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "territory-water-plan-faces-strong-environmental-condemnation"
-        },
-        {
-          "representativeTitle": "Brazil warns caution on crowded emerging market trades.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Brazil Shakeup Sounds Warning on Crowded Emerging-Market Trades",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-01/brazil-shakeup-sounds-warning-on-crowded-emerging-market-trades",
-              "pubDate": "2026-11-01T13:30:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "brazil-warns-caution-on-crowded-emerging-market-trades"
-        },
-        {
-          "representativeTitle": "NZ Assets Face Headwinds Amid Election Uncertainty",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "New Zealand Assets Face Headwinds as Election Race Tightens",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-01/new-zealand-assets-face-headwinds-as-election-race-tightens",
-              "pubDate": "2026-11-01T18:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "nz-assets-face-headwinds-amid-election-uncertainty"
         },
         {
           "representativeTitle": "Serbia's future governance structure remains uncertain.",
@@ -631,80 +730,6 @@ export const newsData = {
           "slug": "delhi-imposes-new-restrictions-amid-pollution-crisis"
         },
         {
-          "representativeTitle": "Al Jazeera Marks Three Decades of News Coverage",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Al Jazeera Director General hails 30 years of groundbreaking news",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/al-jazeera-director-general-hails-30-years-of-groundbreaking-news?traffic_source=rss",
-              "pubDate": "2026-11-01T20:48:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "al-jazeera-marks-three-decades-of-news-coverage"
-        },
-        {
-          "representativeTitle": "Al Jazeera marks three decades of global broadcasting.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Al Jazeera celebrates 30th anniversary",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/al-jazeera-celebrates-30th-anniversary?traffic_source=rss",
-              "pubDate": "2026-11-01T20:21:05.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "al-jazeera-marks-three-decades-of-global-broadcasting"
-        },
-        {
-          "representativeTitle": "Russian FSB Detains Minor After Moscow Attack Threat",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Minor detained after U.S. warned Russia of possible Moscow terror attack, FSB says",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/world/russia/us-warned-russia-possible-moscow-terror-attack-fsb-says-rcna606789",
-              "pubDate": "2026-11-01T13:20:12.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Russia's FSB Says Minor Detained Over Moscow Park Attack Threat After U.S. Tip-Off",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ2ljblRNMl9PRHRjNDBrS0I3UjQwa1VvVjhKS2xVeVI3OFZDaTdFT2FuTzd4eV9WOUZaWEFxN296WG5XN2hiV25mYjcwcjl6bDhOVVprZlBVNjI2b0RZbndDV3hqZzh6WjhYX3R5bi1vWjM1bmZCMUk1dEZmMmQ2WFE0Wm5ublpjUVBadTYzZmhNTGtGeVRnblBMZmdjWVNpMFVjMGl1X2REYklOVmV1WHZKcnNBdjZQT3IzMWwwbkpic053bzBn?oc=5",
-              "pubDate": "2026-11-01T14:18:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "russian-fsb-detains-minor-after-moscow-attack-threat"
-        },
-        {
           "representativeTitle": "OPEC Output Steady Amid Persistent Gulf Shipping Threats",
           "sources": [
             "WSJ US Business"
@@ -732,7 +757,45 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Democrat Endorses GOP Candidate Amid Internal Rift",
+          "representativeTitle": "Jet Crash Kills Nine in South Florida Neighborhood",
+          "sources": [
+            "The Guardian",
+            "Al Jazeera",
+            "France 24"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "All nine people aboard business jet that crashed in Florida have died",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/nov/01/business-jet-crash-florida",
+              "pubDate": "2026-11-01T21:13:23.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Nine die in ‘cataclysmic’ Florida business jet crash",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/2/nine-die-in-cataclysmic-florida-business-jet?traffic_source=rss",
+              "pubDate": "2026-11-02T00:34:22.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Nine killed as business jet crashes into South Florida neighbourhood",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/americas/20261101-nine-killed-as-business-jet-crashes-into-south-florida-neighbourhood",
+              "pubDate": "2026-11-01T23:45:08.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 85,
+          "slug": "jet-crash-kills-nine-in-south-florida-neighborhood"
+        },
+        {
+          "representativeTitle": "Democrat Endorses GOP Candidate in Michigan Senate Race",
           "sources": [
             "BBC US",
             "NBC News",
@@ -746,7 +809,7 @@ export const newsData = {
               "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
               "source": "BBC US",
               "link": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-01T21:16:45.000Z",
+              "pubDate": "2026-11-02T01:45:42.000Z",
               "tier": 1
             },
             {
@@ -767,14 +830,14 @@ export const newsData = {
               "title": "Democratic Rep. Stevens endorses GOP candidate Mike Rogers in Michigan US Senate race",
               "source": "ABC News Top",
               "link": "https://abcnews.com/Politics/democratic-rep-haley-stevens-endorses-gop-candidate-mike/story?id=137752255",
-              "pubDate": "2026-11-01T22:00:41.000Z",
+              "pubDate": "2026-11-02T00:40:50.000Z",
               "tier": 2
             },
             {
-              "title": "Democrat Haley Stevens endorses Michigan GOP Senate candidate Mike Rogers amid rift with Abdul El-Sayed",
+              "title": "Democrat Haley Stevens endorses Republican in Michigan Senate race",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNi1XY2poaWRlNk9heFJwZXBkSjNaTHJTS1otZTNENVBySG1yTF9hZHhUa2xoaHN6ZnhjU2lVWktaLTY5bXd4YmgyV2l5UzlfbzJTVXZkM3lvMlhMQjR6a2RxV2ZIVmU1VXNjR2o4T2J4X1lSbmN1V3BnRVM1RUZLWndUamN6cldPM3F6TGloT3ZJM0gtYzI1c0FSRmVTLTNPeWxSYw?oc=5",
-              "pubDate": "2026-11-01T21:38:19.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzcmxwU2pKejlDSnBrOU4yNVZ3WUJMMXpOVjlNQmtHRWIxYjZpUEZ1UWQ5Q3VsaGNzR2tRWDFfUEVVVHVvdzM0aUZ5VV96cjBqcTJhTktweDlDNEE?oc=5",
+              "pubDate": "2026-11-02T00:02:15.000Z",
               "tier": 2
             }
           ],
@@ -783,7 +846,44 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 65,
-          "slug": "democrat-endorses-gop-candidate-amid-internal-rift"
+          "slug": "democrat-endorses-gop-candidate-in-michigan-senate-race"
+        },
+        {
+          "representativeTitle": "Trump Invites Democrat to Join Republican Party Ranks",
+          "sources": [
+            "BBC World",
+            "Al Jazeera"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-02T01:45:42.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump invites Michigan Democrat Stevens to join the Republican Party",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/2/trump-invites-michigan-democrat-stevens-to-join-the-republican-party?traffic_source=rss",
+              "pubDate": "2026-11-02T01:25:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Michigan Democrat Haley Stevens endorses Republican Senate candidate",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/1/michigan-dem-haley-stevens-endorses-republican-senate-candidate-mike-rogers?traffic_source=rss",
+              "pubDate": "2026-11-01T18:51:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 70,
+          "slug": "trump-invites-democrat-to-join-republican-party-ranks"
         },
         {
           "representativeTitle": "Democrat Endorses Rival in Republican Primary Race",
@@ -797,7 +897,7 @@ export const newsData = {
               "title": "Democrat Haley Stevens endorses Abdul El-Sayed’s Republican rival Mike Rogers",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/us-news/2026/nov/01/abdul-el-sayed-haley-stevens-michigan-senate",
-              "pubDate": "2026-11-01T20:31:30.000Z",
+              "pubDate": "2026-11-02T00:12:17.000Z",
               "tier": 1
             },
             {
@@ -823,57 +923,221 @@ export const newsData = {
           "slug": "democrat-endorses-rival-in-republican-primary-race"
         },
         {
-          "representativeTitle": "Michigan Endorses Rogers for Republican Senate Race",
+          "representativeTitle": "Trump's Rally Remarks Draw Criticism Over Language",
           "sources": [
-            "BBC World",
-            "Al Jazeera"
+            "Google US",
+            "The Guardian"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-01T21:16:45.000Z",
+              "title": "Trump launches racist diatribe against Abdul El-Sayed at Iowa rally",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFZlZvQkRaYWotaG1DdzJJVDJoQjdqWjNyUk14SE9ZYTFwbzdSak5MWDdUeHhuNTRfR1Nldmh4MTdFX1pIS2VWZHJjdUVzV3Fod0p0eHlPby0xazhsRlNwSnVNdno3QkpFckNQUU8xNjAzQQ?oc=5",
+              "pubDate": "2026-11-02T00:16:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump launches racist diatribe against Abdul El-Sayed at Iowa rally",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/nov/01/trump-iowa-rally",
+              "pubDate": "2026-11-02T01:07:23.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "trumps-rally-remarks-draw-criticism-over-language"
+        },
+        {
+          "representativeTitle": "Halloween Shootings Leave Six Dead, Many Injured",
+          "sources": [
+            "France 24",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Halloween weekend shootings across US leave at least six dead, dozens wounded",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/americas/20261102-halloween-weekend-shootings-across-us-leave-at-least-six-dead-dozens-wounded",
+              "pubDate": "2026-11-02T00:49:01.000Z",
               "tier": 1
             },
             {
-              "title": "Michigan Dem Haley Stevens endorses Republican Senate candidate Mike Rogers",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/1/michigan-dem-haley-stevens-endorses-republican-senate-candidate-mike-rogers?traffic_source=rss",
-              "pubDate": "2026-11-01T18:51:07.000Z",
+              "title": "Wave of US Halloween weekend shootings leaves 6 dead, dozens wounded",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3372906/4-dead-15-injured-3-separate-shootings-dallas-texas-halloween-night-police-say",
+              "pubDate": "2026-11-01T17:02:08.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "halloween-shootings-leave-six-dead-many-injured"
+        },
+        {
+          "representativeTitle": "Private Jet Crash Near Mar-a-Lago; Nine Injured",
+          "sources": [
+            "NBC News",
+            "Fox News",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Jet crashes in Florida, killing all nine people on board",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/jet-crashes-florida-nine-people-board-rcna606874",
+              "pubDate": "2026-11-01T20:43:44.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Private jet with 9 people on board crashes just miles from Mar-a-Lago",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/us/private-jet-9-people-board-crashes-just-miles-from-mar-a-lago",
+              "pubDate": "2026-11-01T19:31:26.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Jet crashes in Florida, killing all 9 on board",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONUkxcDZGX2dOUUVfOEpxQU5tSjh3eHhHOVBKVVZFajdsSWNsRzhibUM3UGcxVGdBYlVQQUM5S3NidjA3WDIyS0lYaWFyUEotZ2E5MHF5V245MDFmMGF4SUVMU19lQjQzdDM2UTNLVVBXMWtpb0I0SWc4VWZJNUZjLU1wYmE5QkJVcmI5dUpn?oc=5",
+              "pubDate": "2026-11-01T23:24:51.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "private-jet-crash-near-mar-a-lago-nine-injured"
+        },
+        {
+          "representativeTitle": "Halloween Weekend Shootings Kill Six, Injure Dozens Nationally",
+          "sources": [
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Mass shootings over Halloween weekend leave at least 6 dead and dozens injured across US",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/mass-shootings-halloween-weekend-leave-6-dead-dozens-137745666",
+              "pubDate": "2026-11-02T01:30:14.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Mass shootings over Halloween weekend leave at least 6 dead and dozens injured across US",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPU3RKZGYwcUhNeFYteE1MaHpGTHlUTUpneGg5Q2lqdU9JMmNWeldVb1pRZ28zU0tLUFJHamJlUmRya1RrUnFic3N2bG5MbEc4aHdxd3k5dGVJQmozVmItY3k4S0ZBbGZQSEFaOUxWZjY1eTBkRU1ZX3pyVTQzaldFeUxCOURQRVkyOFd5QmRyVWw?oc=5",
+              "pubDate": "2026-11-01T23:38:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 55,
+          "slug": "halloween-weekend-shootings-kill-six-injure-dozens-nationally"
+        },
+        {
+          "representativeTitle": "Trump targets voters with final midterm campaign pitch.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump makes final pitch to restive voters in midterms campaign",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/75e8405b-124f-44aa-9c5e-0a33d0ee5b92?syn-25a6b1a6=1",
+              "pubDate": "2026-11-02T01:47:26.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "trump-targets-voters-with-final-midterm-campaign-pitch"
+        },
+        {
+          "representativeTitle": "Police Use Facial Recognition in WA Arrests",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Police use facial recognition to scan one million faces in WA trial leading to 122 arrests",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial",
+              "pubDate": "2026-11-02T02:02:34.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "michigan-endorses-rogers-for-republican-senate-race"
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "police-use-facial-recognition-in-wa-arrests"
         },
         {
-          "representativeTitle": "Connecticut Senator Chris Murphy Hospitalized Following Stroke",
+          "representativeTitle": "DOJ Urges Sanctions Over Voting Claims Analysis",
+          "sources": [
+            "ABC News Top",
+            "ABC News US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "DOJ urges sanctions for database analysis critical of its noncitizen voting claims",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/US/wireStory/justice-department-urges-sanctions-database-analysis-critical-noncitizen-137757433",
+              "pubDate": "2026-11-01T23:54:05.000Z",
+              "tier": 2
+            },
+            {
+              "title": "DOJ urges sanctions for database analysis critical of its noncitizen voting claims",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/justice-department-urges-sanctions-database-analysis-critical-noncitizen-137757433",
+              "pubDate": "2026-11-01T23:54:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "doj-urges-sanctions-over-voting-claims-analysis"
+        },
+        {
+          "representativeTitle": "Connecticut Senator Hospitalized Following Stroke Incident",
           "sources": [
             "NBC News",
-            "Fox News",
             "NPR",
             "Google US"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Sen. Chris Murphy hospitalized after stroke",
               "source": "NBC News",
               "link": "https://www.nbcnews.com/politics/congress/chris-murphy-hospitalized-stroke-recovery-rcna606834",
               "pubDate": "2026-11-01T18:01:47.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Connecticut Dem Sen Chris Murphy hospitalized Saturday for stroke",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/connecticut-dem-sen-chris-murphy-hospitalized-stroke",
-              "pubDate": "2026-11-01T17:33:11.000Z",
               "tier": 2
             },
             {
@@ -884,10 +1148,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Sen. Chris Murphy hospitalized for stroke, his office says",
+              "title": "Connecticut senator Chris Murphy hospitalized after stroke",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZC1FLW8wYndWZjJyYl9IbTZLY3IxdzZEU1dodVA5eWR2WndWQUg1dnU0WnFlWjdsRUVOR08wNmtCbjhnb0s3Q0VxZFRTTm1jNk4yYjF5X1h6T2g1NzgzaEZwbzk1NUlzd3MyekdiQ2s1ZmlQTDE5VlNtM0N0NXk3X1NBdkdDU1FfbWkyM3ROLWdTUQ?oc=5",
-              "pubDate": "2026-11-01T21:09:55.000Z",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa3VVWXN1YUVUYXZQajFjMjNxcXVlRnpXTjZHbVpZbWM1eU1IQU1FVVNROUhROUpUQ0dsZkJFd0JhQXRkMWprMUNhQkM5UHpyMUxmWk1fYlNpaWl3QkR1dmRzdHlKNDlWaEVLM1VCaS1TTlExclhHWUZtdWNJbkY1cnctNExVbm8?oc=5",
+              "pubDate": "2026-11-02T00:51:00.000Z",
               "tier": 2
             }
           ],
@@ -895,38 +1159,8 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 50,
-          "slug": "connecticut-senator-chris-murphy-hospitalized-following-stroke"
-        },
-        {
-          "representativeTitle": "Jet crash in Florida neighborhood; nine people aboard.",
-          "sources": [
-            "The Guardian",
-            "Sky News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Business jet carrying nine people crashes in Florida neighborhood",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/01/business-jet-crash-florida",
-              "pubDate": "2026-11-01T21:13:23.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Business jet crashes in Florida killing all nine on board",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/business-jet-carrying-nine-crashes-in-florida-13606818",
-              "pubDate": "2026-11-01T20:34:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "jet-crash-in-florida-neighborhood-nine-people-aboard"
+          "importance": 45,
+          "slug": "connecticut-senator-hospitalized-following-stroke-incident"
         },
         {
           "representativeTitle": "Judge blocks Trump challenge to Alaska Senate results.",
@@ -959,47 +1193,105 @@ export const newsData = {
           "slug": "judge-blocks-trump-challenge-to-alaska-senate-results"
         },
         {
-          "representativeTitle": "Trump targets voters with final midterm campaign pitch.",
+          "representativeTitle": "Democrats' Hopes Clash With Mixed Midterm Poll Results",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Democrats have high hopes for midterms, but polls have let them down before",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cmg47p3edv4do?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-02T00:25:12.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "democrats-hopes-clash-with-mixed-midterm-poll-results"
+        },
+        {
+          "representativeTitle": "Learjet Crashes in Florida Neighborhood; Investigation Underway",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Learjet Plummets to Ground in Florida Neighborhood",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-01/learjet-plummets-to-ground-in-florida-neighborhood-video",
+              "pubDate": "2026-11-01T23:50:15.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "learjet-crashes-in-florida-neighborhood-investigation-underway"
+        },
+        {
+          "representativeTitle": "Learjet Crash Claims Nine Lives in Florida Incident",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Nine people dead after Learjet crashes in Florida",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/nine-people-dead-after-learjet-crashes-in-florida?traffic_source=rss",
+              "pubDate": "2026-11-01T23:29:48.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "learjet-crash-claims-nine-lives-in-florida-incident"
+        },
+        {
+          "representativeTitle": "Business Jet Crash Claims Nine Lives in Florida",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump makes final pitch to restive voters in midterms campaign",
+              "title": "Nine killed as business jet crashes in Florida",
               "source": "FT International",
-              "link": "https://www.ft.com/content/75e8405b-124f-44aa-9c5e-0a33d0ee5b92?syn-25a6b1a6=1",
-              "pubDate": "2026-11-01T16:54:05.000Z",
+              "link": "https://www.ft.com/content/2bd1e339-98b2-43a9-a0e6-812736abedf8?syn-25a6b1a6=1",
+              "pubDate": "2026-11-01T23:25:46.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trump-targets-voters-with-final-midterm-campaign-pitch"
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "business-jet-crash-claims-nine-lives-in-florida"
         },
         {
-          "representativeTitle": "Private Jet Crash Near Mar-a-Lago; Nine Injured",
+          "representativeTitle": "Flash Flooding Forces Evacuations in Southwest Region",
           "sources": [
-            "NBC News",
-            "Fox News"
+            "ABC News US"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Jet crashes in Florida, killing all nine people on board",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/jet-crashes-florida-nine-people-board-rcna606874",
-              "pubDate": "2026-11-01T20:43:44.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Private jet with 9 people on board crashes just miles from Mar-a-Lago",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/us/private-jet-9-people-board-crashes-just-miles-from-mar-a-lago",
-              "pubDate": "2026-11-01T19:31:26.000Z",
+              "title": "Flash flooding triggers evacuations in Southwest and dire warning for Colorado spa town",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/flash-floods-trigger-evacuations-arizona-colorado-amid-heavy-137753110",
+              "pubDate": "2026-11-02T01:54:20.000Z",
               "tier": 2
             }
           ],
@@ -1007,40 +1299,24 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.9,
           "relevance_score": 8,
-          "importance": 50,
-          "slug": "private-jet-crash-near-mar-a-lago-nine-injured"
+          "importance": 45,
+          "slug": "flash-flooding-forces-evacuations-in-southwest-region"
         },
         {
-          "representativeTitle": "Trump Faces Challenges Persuading Voters on Economy",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump Struggles to Sell Voters on the Economy",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-01/trump-struggles-to-sell-voters-on-the-economy-video",
-              "pubDate": "2026-11-01T15:39:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trump-faces-challenges-persuading-voters-on-economy"
-        },
-        {
-          "representativeTitle": "Judge blocks Trump officials' Alaska election challenge.",
+          "representativeTitle": "Judge dismisses Trump challenge to Alaska Senate results.",
           "sources": [
             "NBC News",
-            "NPR",
-            "Google US"
+            "NPR"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
+            {
+              "title": "Judge dismisses Trump lawsuit in Alaska Senate race",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/nightly-news/video/judge-dismisses-trump-lawsuit-in-alaska-senate-race-272667717592",
+              "pubDate": "2026-11-01T23:52:39.000Z",
+              "tier": 2
+            },
             {
               "title": "Federal judge dismisses Trump attempt to interfere in Alaska Senate race",
               "source": "NBC News",
@@ -1054,234 +1330,27 @@ export const newsData = {
               "link": "https://www.npr.org/2026/11/01/nx-s1-6023766/doj-alaska-lawsuit-senate-race-dan-sullivan",
               "pubDate": "2026-11-01T18:00:37.000Z",
               "tier": 2
-            },
-            {
-              "title": "Judge Rejects Trump Officials’ Move to Challenge Alaska Senate Election",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHeDdFRU5nYjhHUG1EZ1JXdnVtZHpXMW43MEZJQnpVY0hEcWJ4TGowcjFVSTFjNm0wcUVHRjhmLW9BOXNheE1CMGFiTmxweENxLXBNb3NfdzEyb0dUWERraC1UTWNqaEwtQ21UVzVWd2p6U1BrZDExakNXSkgzdw?oc=5",
-              "pubDate": "2026-11-01T19:44:11.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0,
           "relevance_score": 6,
-          "importance": 45,
-          "slug": "judge-blocks-trump-officials-alaska-election-challenge"
-        },
-        {
-          "representativeTitle": "Democrat Endorses Republican Candidate Over Rival",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Michigan Democrat Haley Stevens endorses Republican instead of Abdul El-Sayed",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/d77e4c6f-0ac7-49ce-bca8-b30080bf9797?syn-25a6b1a6=1",
-              "pubDate": "2026-11-01T21:44:06.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "democrat-endorses-republican-candidate-over-rival"
-        },
-        {
-          "representativeTitle": "Shooting at Halloween Store Kills Woman, Wounds Six",
-          "sources": [
-            "ABC News US",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Shooting at Spirit Halloween store in California leaves pregnant woman dead and 6 wounded",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/shooting-spirit-halloween-store-california-leaves-pregnant-woman-137730147",
-              "pubDate": "2026-11-01T04:28:03.000Z",
-              "tier": 2
-            },
-            {
-              "title": "31-year-old pregnant woman identified as killed in Fairfield shooting at Spirit Halloween",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ2VEU1VYa3FhenA2OGF2UWsxcXR6S1dzME1PMERCQ1hQMU92cTY4Z0VzcmVhWTd0Rl90NWpVU2puWUVQd0tWZE04aThWenNhdXh1dlJIQ3BYVnd2SnJrQ1pHR2d0ekxVUWxOdlczX2lzUjlyYjlyTlBZcU9UcmpHV2JsOXdXMHNMZzJlZ3M3bkdjSUpUTE9Sd1lPeGQ2MXVPTTRFNV9aMFppS3M?oc=5",
-              "pubDate": "2026-11-01T15:36:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "shooting-at-halloween-store-kills-woman-wounds-six"
-        },
-        {
-          "representativeTitle": "Learjet Crash Reported in Florida County Area",
-          "sources": [
-            "ABC News Top",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Learjet with 9 aboard crashes in Palm Beach County, Florida: FAA",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/learjet-9-aboard-crashes-palm-beach-florida-faa/story?id=137753599",
-              "pubDate": "2026-11-01T22:00:36.000Z",
-              "tier": 2
-            },
-            {
-              "title": "9 killed after a Learjet crashes and erupts into flames in Palm Beach County, Florida",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTcWQ5OXN3NllJNlVibFNZdm95OURiTUxLVThOdHhwQ2RfdmlSRHRYV1F1QlpXZVFTSjVGaTNaZFFUVlcwd1hWVmVQU2NhcXFLS2ZTd0R4aDJqbVZtRklidXR2X1J3V1FlWDNr?oc=5",
-              "pubDate": "2026-11-01T20:31:08.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 6,
           "importance": 40,
-          "slug": "learjet-crash-reported-in-florida-county-area"
+          "slug": "judge-dismisses-trump-challenge-to-alaska-senate-results"
         },
         {
-          "representativeTitle": "Flavio's departure causes internal right-wing political issues.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Fuga de Flávio cria problema familiar para direita",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-01/fuga-de-flavio-cria-problema-familiar-para-direita-video",
-              "pubDate": "2026-11-01T17:13:25.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "flavios-departure-causes-internal-right-wing-political-issues"
-        },
-        {
-          "representativeTitle": "Guardian reports on US midterms and election interference.",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The Guardian view on the US midterms and election interference: Trump’s attempted heist is already under way",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPeDdYLWpvX250QWIwS2UxVU9OLXFfU3V0S1hCOWltTDJQQVMwbzl5OFBNTkhpd3ExYW9ma3hKd0VONkVQd1FuN3BJRVUtRWViNl9WMGY4ZjhaSnZ5VUIzUkxKbEF5RVUwM2hqTkFtVklzYXlaRjFuOEo0cEFvT0wxUUxPV29QSlZucFQyb3M4M1lUVU1udzRqVHN5djdiQVAyTjNLbldwbDN1VUtYbmsyWXFJZV85SG4zSW5qUThMdkhUN2Zzd0txQmplb3NDYUxKMmwyYTBpWThfaWtxN2NmaVNaUmtYMXpXeXJZZnhJSUhxUQ?oc=5",
-              "pubDate": "2026-11-01T19:56:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "guardian-reports-on-us-midterms-and-election-interference"
-        },
-        {
-          "representativeTitle": "Trump faces declining support among Latino voters.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump loses Latino support",
-              "source": "FT International",
-              "link": "https://www.ft.com/video/fbc0f62e-50ea-4509-9fa7-32f00c98c424?syn-25a6b1a6=1",
-              "pubDate": "2026-11-01T05:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trump-faces-declining-support-among-latino-voters"
-        },
-        {
-          "representativeTitle": "Guthrie Pleads Help Following Mother's Kidnapping Incident",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "‘Please help us’: Savannah Guthrie issues new plea for help in mother’s kidnapping",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/savannah-guthrie-issues-new-plea-mothers-kidnapping-rcna606816",
-              "pubDate": "2026-11-01T16:14:24.000Z",
-              "tier": 2
-            },
-            {
-              "title": "‘Please help us’: Savannah Guthrie issues new plea for help in mother’s kidnapping",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYXBpSDJHQTBLZHJYNmlPbkswdFc1UEtHTXRBZGVjUUZiaWZGdERPVkFwSmxVNHJySTBDMlFBenhESFJoRThlZldEUEY0cUYya3E0dTZwVFc5bThpUG1GaWluUHFYY200MUFNQ3VNTEhYbVJfVDUycGpsaDgzMDBndlBKSnFyOW5XUXRHYWd4VUpENUhyd3haQjFtMy1yUUFv?oc=5",
-              "pubDate": "2026-11-01T16:14:24.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "guthrie-pleads-help-following-mothers-kidnapping-incident"
-        },
-        {
-          "representativeTitle": "Flash Floods Force Evacuations Across Arizona, Colorado",
+          "representativeTitle": "Trump Rallies Amid Republican Fight for Congressional Control",
           "sources": [
             "ABC News US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Flash floods trigger evacuations in Arizona and Colorado amid heavy rains in southwest",
+              "title": "Trump rallies in Iowa and Kansas as Republicans fight to keep Senate and House control",
               "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/flash-floods-trigger-evacuations-arizona-colorado-amid-heavy-137753110",
-              "pubDate": "2026-11-01T20:04:23.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "flash-floods-force-evacuations-across-arizona-colorado"
-        },
-        {
-          "representativeTitle": "Midterms loom; Trump campaigns across Iowa, Kansas.",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "2 days until midterms, Trump campaigns in Iowa and Kansas as both parties make final push",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS1YwTjFwd3hnOUNlZjh6eWhZQ3k2VGZaVTVmVkNweExTMmFubTNUR25Wb3lnR29CdkRUSW91OUhkX2pqeldROFlPRjhBSFRuQzA3YjdobjJPbUVkY01RYy1mWGV5LUliRkpXTDAtbEVSZ1JOcFRrUkd4V2dEVGNOZ1JMdl9xQjFsemdQbU9R?oc=5",
-              "pubDate": "2026-11-01T19:40:05.000Z",
+              "link": "https://abcnews.com/US/wireStory/trump-rallies-iowa-kansas-republicans-fight-senate-house-137746860",
+              "pubDate": "2026-11-01T23:49:01.000Z",
               "tier": 2
             }
           ],
@@ -1290,7 +1359,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "midterms-loom-trump-campaigns-across-iowa-kansas"
+          "slug": "trump-rallies-amid-republican-fight-for-congressional-control"
         },
         {
           "representativeTitle": "NY Data Center Moratorium Offers Lessons For Democrats",
@@ -1335,28 +1404,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "bond-investors-avoid-key-us-midterm-election-decisions"
-        },
-        {
-          "representativeTitle": "Debate continues over daylight saving time changes.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The Political Debate on Daylight Saving Time",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-01/the-political-debate-on-daylight-saving-time-video",
-              "pubDate": "2026-11-01T16:23:36.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "debate-continues-over-daylight-saving-time-changes"
         }
       ]
     },
@@ -1364,26 +1411,26 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "Asian Stocks Expected to Fall Amid AI Fears",
+          "representativeTitle": "Foreign Outflows Hit Taiwan Stocks Amid AI Concerns",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Asian Stocks to Fall as Tech Rout Fuels AI Fears: Markets Wrap",
+              "title": "Foreigners Make Record Withdrawal From Taiwan Stocks on AI Rout",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-01/stock-market-today-dow-s-p-live-updates",
-              "pubDate": "2026-11-01T21:28:04.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-02/foreigners-make-record-withdrawal-from-taiwan-stocks-on-ai-rout",
+              "pubDate": "2026-11-02T01:00:27.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "asian-stocks-expected-to-fall-amid-ai-fears"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "foreign-outflows-hit-taiwan-stocks-amid-ai-concerns"
         },
         {
           "representativeTitle": "Junk Debt Sell-Off Triggers Credit Investor Losses",
@@ -1408,26 +1455,26 @@ export const newsData = {
           "slug": "junk-debt-sell-off-triggers-credit-investor-losses"
         },
         {
-          "representativeTitle": "Tech Selloff May Alleviate Federal Reserve Pressure",
+          "representativeTitle": "Gold Rebounds From Lows Amid Buyer Support Surge",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Tech Selloff Could Ease Pressure on the Fed",
+              "title": "Gold Climbs Back From One-Year Low as Dip Buyers Arrest Slide",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-01/tech-selloff-could-ease-pressure-on-the-fed-video",
-              "pubDate": "2026-11-01T13:33:21.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-02/gold-climbs-back-from-one-year-low-as-dip-buyers-arrest-slide",
+              "pubDate": "2026-11-02T00:03:36.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "tech-selloff-may-alleviate-federal-reserve-pressure"
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "gold-rebounds-from-lows-amid-buyer-support-surge"
         },
         {
           "representativeTitle": "Indonesia Market Volatility Linked to Wash Trading Concerns",
@@ -1452,39 +1499,17 @@ export const newsData = {
           "slug": "indonesia-market-volatility-linked-to-wash-trading-concerns"
         },
         {
-          "representativeTitle": "Tech Sell-off Signals Volatility Ahead For Markets",
+          "representativeTitle": "Asian Selloff Eases; Oil Prices See Decline Today",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "After Tech Rout, Investors Gird for More Wild Days for Stocks",
+              "title": "Stock Selloff Eases in Asian Trade, Oil Declines: Markets Wrap",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-01/wall-street-braces-for-more-wild-days-in-stocks-after-tech-rout",
-              "pubDate": "2026-11-01T15:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "tech-sell-off-signals-volatility-ahead-for-markets"
-        },
-        {
-          "representativeTitle": "Analyst Advises Buying Stocks Despite Midterm Uncertainty",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Mike Wilson Says Buy Stock Dip Regardless of Who Wins Midterms",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-01/mike-wilson-says-buy-stock-dip-regardless-of-who-wins-midterms",
-              "pubDate": "2026-11-01T14:00:00.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-01/stock-market-today-dow-s-p-live-updates",
+              "pubDate": "2026-11-01T21:28:04.000Z",
               "tier": 1
             }
           ],
@@ -1493,7 +1518,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "analyst-advises-buying-stocks-despite-midterm-uncertainty"
+          "slug": "asian-selloff-eases-oil-prices-see-decline-today"
         }
       ]
     },
@@ -1504,9 +1529,11 @@ export const newsData = {
           "representativeTitle": "Binance covers losses following massive $6.3B hack.",
           "sources": [
             "BBC World",
-            "The Guardian"
+            "The Guardian",
+            "BBC Business",
+            "Google Stocks"
           ],
-          "citationCount": 2,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
@@ -1521,27 +1548,48 @@ export const newsData = {
               "link": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
               "pubDate": "2026-11-01T11:54:23.000Z",
               "tier": 1
+            },
+            {
+              "title": "Binance users withdraw $3.6bn after record crypto hack",
+              "source": "BBC Business",
+              "link": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-02T01:15:25.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+              "source": "BBC Business",
+              "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-01T13:11:37.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Binance users withdraw $3.6bn after record crypto hack",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBabVFHSUg2RlNyUVdrekNWMk1UMGhiVmtrOTRiSGNJaDk4N2RUeXhCekNacnFEYjRDR1Z3SkNDeHJVUWJMcFE2V1JMLVRlSThCZmx2TmxNNm5JQjQ?oc=5",
+              "pubDate": "2026-11-02T01:15:25.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "Business",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 70,
+          "importance": 80,
           "slug": "binance-covers-losses-following-massive-63b-hack"
         },
         {
-          "representativeTitle": "Treasury Sales Overhaul Signals Major Market Shift Ahead",
+          "representativeTitle": "PBOC Overnight Repo Signals Policy Anchor Shift",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Wall Street Braces for Biggest Treasury Sales Overhaul in Years",
+              "title": "PBOC Conducts Overnight Reverse Repo as Policy Anchor Shifts",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-01/wall-street-braces-for-biggest-treasury-sales-overhaul-in-years",
-              "pubDate": "2026-11-01T20:00:01.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-02/pboc-conducts-overnight-reverse-repo-as-policy-anchor-shifts",
+              "pubDate": "2026-11-02T01:39:19.000Z",
               "tier": 1
             }
           ],
@@ -1550,7 +1598,51 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "treasury-sales-overhaul-signals-major-market-shift-ahead"
+          "slug": "pboc-overnight-repo-signals-policy-anchor-shift"
+        },
+        {
+          "representativeTitle": "Billionaire to Build Major US Rare Earths Mine",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Billionaire Friedland to Build Major US-Backed Rare Earths Mine",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-01/billionaire-friedland-to-build-major-us-backed-rare-earths-mine",
+              "pubDate": "2026-11-01T23:02:49.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "billionaire-to-build-major-us-rare-earths-mine"
+        },
+        {
+          "representativeTitle": "China Factory Output Grows But Slows Growth Rate",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China Factory Activity Expands But Ends Streak of Faster Growth",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-02/china-factory-activity-expands-but-ends-streak-of-faster-growth",
+              "pubDate": "2026-11-02T01:54:37.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "china-factory-output-grows-but-slows-growth-rate"
         },
         {
           "representativeTitle": "Binance resumes withdrawals after major security breach.",
@@ -1575,70 +1667,48 @@ export const newsData = {
           "slug": "binance-resumes-withdrawals-after-major-security-breach"
         },
         {
-          "representativeTitle": "AI Talent Competition Intensifies Across Financial Sector",
+          "representativeTitle": "Philippine Bonds Outlook Improves If War Risks Fade",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "AI Talent War Spreads to Wall Street",
+              "title": "Philippine Bonds Can Beat Asia If War Risks Ebb, Says Brandywine",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-01/ai-talent-war-spreads-to-wall-street-video",
-              "pubDate": "2026-11-01T14:26:56.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-01/philippine-bonds-can-beat-asia-if-war-risks-ebb-says-brandywine",
+              "pubDate": "2026-11-01T23:55:15.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ai-talent-competition-intensifies-across-financial-sector"
-        },
-        {
-          "representativeTitle": "Westpac Profit Misses Estimates; CEO Cites Uncertainty",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Westpac Profit Misses Estimates, CEO Says Economy Uncertain",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-01/westpac-profit-misses-estimates-ceo-says-economy-uncertain",
-              "pubDate": "2026-11-01T20:41:10.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "westpac-profit-misses-estimates-ceo-cites-uncertainty"
-        },
-        {
-          "representativeTitle": "Lagoon Owner Plans Expansion Amid Tourism Growth",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Blue Lagoon owner plans to float as Icelandic tourism booms",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/6a3c6f12-cada-4368-8aad-4deb4db13fcb?syn-25a6b1a6=1",
-              "pubDate": "2026-11-01T18:00:03.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
           "aiCategory": "Business",
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "lagoon-owner-plans-expansion-amid-tourism-growth"
+          "slug": "philippine-bonds-outlook-improves-if-war-risks-fade"
+        },
+        {
+          "representativeTitle": "Oil Market Analysis Provided For November Second Trading Day",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Latest Oil Market News and Analysis for Nov. 2",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-01/latest-oil-market-news-and-analysis-for-nov-2",
+              "pubDate": "2026-11-01T23:11:50.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "oil-market-analysis-provided-for-november-second-trading-day"
         }
       ]
     },
@@ -1829,28 +1899,6 @@ export const newsData = {
           "slug": "automated-bots-threaten-major-e-commerce-platform-operations"
         },
         {
-          "representativeTitle": "AI Prodigy's Death Sparks Bitter Industry Accusations",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The Sudden Death of an Nvidia AI Prodigy Leaves Behind Bitter Accusations",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/us-news/the-sudden-death-of-an-nvidia-ai-prodigy-leaves-behind-bitter-accusations-57ee23ec?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-11-01T01:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "ai-prodigys-death-sparks-bitter-industry-accusations"
-        },
-        {
           "representativeTitle": "Lenovo LOQ Laptop Positioned as Budget Gaming Choice",
           "sources": [
             "Wired"
@@ -1871,28 +1919,6 @@ export const newsData = {
           "relevance_score": 3,
           "importance": 30,
           "slug": "lenovo-loq-laptop-positioned-as-budget-gaming-choice"
-        },
-        {
-          "representativeTitle": "Review of Upcoming Chromebooks and Google Devices",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Best Chromebooks and Googlebooks (2026): Laptops With a Google Touch",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/best-chromebooks/",
-              "pubDate": "2026-11-01T10:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 3,
-          "importance": 30,
-          "slug": "review-of-upcoming-chromebooks-and-google-devices"
         }
       ]
     },
@@ -1938,6 +1964,28 @@ export const newsData = {
           "slug": "scientist-dies-in-spain-train-accident-tributes-issued"
         },
         {
+          "representativeTitle": "Measles Resurgence Signals Vaccine Vigilance Needed Now",
+          "sources": [
+            "Nature"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Measles made a stealthy return as another virus took the spotlight",
+              "source": "Nature",
+              "link": "https://www.nature.com/articles/d41586-026-03387-3",
+              "pubDate": "2026-11-02T00:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "measles-resurgence-signals-vaccine-vigilance-needed-now"
+        },
+        {
           "representativeTitle": "Human Metabolism Emissions Estimated At Two Billion Tons",
           "sources": [
             "Phys.org"
@@ -1958,35 +2006,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 50,
           "slug": "human-metabolism-emissions-estimated-at-two-billion-tons"
-        },
-        {
-          "representativeTitle": "Cosmic Debris Trail Models Solar System's End",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "A Newly Discovered Trail of Cosmic Debris Illustrates How the End of the Solar System Could Look",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/a-newly-discovered-trail-of-cosmic-debris-illustrates-what-the-end-of-the-solar-system-could-look-like/",
-              "pubDate": "2026-11-01T10:00:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "A Newly Discovered Trail of Cosmic Debris Illustrates How the End of the Solar System Could Look",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/a-newly-discovered-trail-of-cosmic-debris-illustrates-what-the-end-of-the-solar-system-could-look-like/",
-              "pubDate": "2026-11-01T10:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Science",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "cosmic-debris-trail-models-solar-systems-end"
         },
         {
           "representativeTitle": "Climate Change Threatens Sacred Uluru Flora; Owners Concerned",
@@ -2011,26 +2030,108 @@ export const newsData = {
           "slug": "climate-change-threatens-sacred-uluru-flora-owners-concerned"
         },
         {
-          "representativeTitle": "Mediterranean Climate Shifts Toward Tropical Conditions Now",
+          "representativeTitle": "Moab site may yield oldest North American dinosaur bones.",
           "sources": [
-            "Phys.org"
+            "Google Science"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Warmer seas and shifting pressure systems: The signs that suggest the Mediterranean's climate is 'tropicalizing'",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-10-warmer-seas-shifting-pressure-mediterranean.html",
-              "pubDate": "2026-11-01T19:00:01.000Z",
+              "title": "New Moab excavation site could be oldest Cretaceous dinosaur bonebed in North America",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeG9CQU1jbExmMjJkSUZhM1hnZXowU0QwN1ZyOGVndXowMkhsRDZJMGR2QndQNjFxT1AxX0VRRGRZdEJBQlV5b3JjWHB2d3VMUHNuQjZrMFJxU1N4M0VUTnJJMzZsUEU5aHFkZXZOMkl3eWxTQWpobW5IVlZfUzFJWEtBNHU5ckpyMkJPOWd3cXhoNXI0UzUyOGViZkZhcGJ0MWM3eVE3U3pEVjdnWVRxYkQ3eWpzeWNoVnlrOUduMA?oc=5",
+              "pubDate": "2026-11-01T21:10:38.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": -0.4,
+          "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "mediterranean-climate-shifts-toward-tropical-conditions-now"
+          "slug": "moab-site-may-yield-oldest-north-american-dinosaur-bones"
+        },
+        {
+          "representativeTitle": "Scientists miniaturize Archimedes' screw to molecular scale",
+          "sources": [
+            "Science Daily",
+            "Google Science"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Scientists shrink Archimedes’ screw to the size of a single molecule",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/10/261030002940.htm",
+              "pubDate": "2026-11-01T11:55:46.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Scientists shrink Archimedes’ screw to the size of a single molecule",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tY2xvdGY0VkdDTWdsSkJ3VjR5MlFhYVFfekJqX0Y4LTlDeUROM21tM05sWkhaYy1rRmlaS0NUS1BSLUszTkV4UWV0ekZRNmF4V1pyM1Exd0J1bnM2dUQ2QnVVaVI5YU9VYWtaZkYwVQ?oc=5",
+              "pubDate": "2026-11-01T11:57:32.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "scientists-miniaturize-archimedes-screw-to-molecular-scale"
+        },
+        {
+          "representativeTitle": "Hydrogen in Comet Points to Cold Origin",
+          "sources": [
+            "Phys.org",
+            "Google Science"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Heavy hydrogen in 3I/ATLAS's methane points to a frigid birthplace",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-heavy-hydrogen-3iatlas-methane-frigid.html",
+              "pubDate": "2026-11-01T15:20:02.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Heavy hydrogen in 3I/ATLAS's methane points to a frigid birthplace",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE54aVlOemxXV09YSjliZlMyS0htSnNXT3BSR3QzWHhzanVrUXJjcVFxc09mMkxtRGV2MHJCVXNuUE1jYzRoTWhRZ0gtTndIdE9DdEhBaUxUdktETk5HcGpkSVQxTHpJVEI4QnVFMHI3emk3dWJnSG16ZXUyVEQ?oc=5",
+              "pubDate": "2026-11-01T15:20:02.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "hydrogen-in-comet-points-to-cold-origin"
+        },
+        {
+          "representativeTitle": "Cosmic Debris Trail Models Solar System's End",
+          "sources": [
+            "Wired"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "A Newly Discovered Trail of Cosmic Debris Illustrates How the End of the Solar System Could Look",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/a-newly-discovered-trail-of-cosmic-debris-illustrates-what-the-end-of-the-solar-system-could-look-like/",
+              "pubDate": "2026-11-01T10:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "cosmic-debris-trail-models-solar-systems-end"
         },
         {
           "representativeTitle": "Scientists create anti-spin ice using attracting particles.",
