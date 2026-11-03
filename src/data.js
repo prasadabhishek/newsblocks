@@ -1,10 +1,80 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-11-03T19:33:36.675Z",
+  "lastUpdated": "2026-11-03T23:41:32.754Z",
   "children": [
     {
       "name": "World",
       "children": [
+        {
+          "representativeTitle": "Spain Minister Resigns After Fatal Train Crash Incident",
+          "sources": [
+            "BBC World",
+            "The Guardian",
+            "SCMP",
+            "Sky News",
+            "Euronews",
+            "Le Monde",
+            "Google World"
+          ],
+          "citationCount": 7,
+          "rawArticles": [
+            {
+              "title": "Spanish transport minister resigns days after deadly train crash",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-03T22:45:59.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Spanish transport minister resigns after deadly train crash",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/03/spain-transport-minister-oscar-puente-resigns-deadly-train-crash",
+              "pubDate": "2026-11-03T21:46:02.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Spain’s transport minister resigns after train crash that killed 69",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3373189/spains-transport-minister-resigns-after-train-crash-killed-69",
+              "pubDate": "2026-11-03T21:55:32.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Spain's transport minister to resign after train crash killed 69 people",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/spains-transport-minister-oscar-puente-to-resign-after-train-crash-killed-69-people-13607610",
+              "pubDate": "2026-11-03T20:32:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Spain’s transport minister Óscar Puente resigns over Urda train crash that killed 69",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/11/03/spains-transport-minister-oscar-puente-resigns-over-urda-train-crash-that-killed-69",
+              "pubDate": "2026-11-03T21:12:54.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Spain's transport minister resigns after deadly train crash that killed 69 people",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/11/03/spain-s-transport-minister-resigns-after-deadly-train-crash-that-killed-69-people_6770821_4.html",
+              "pubDate": "2026-11-03T21:38:33.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Spanish transport minister resigns after two deadly train crashes in one year",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOVhPQ2ltU3N0bVhHeng4cVF6dnlGa0Q3cFFyeURMVU1kbzhnVFpHRV9nelZ3NlJyUnNUdG1ZZEFJRGV3SHQ2T0R1T0c2MThTUW5GRDgtQWh3TllSUzVBcGhyVHpJN2VpMVd4UUpZc2FVV19NODEzeHF1MmtDMXlGbEo3N1dsUWJMRXl3?oc=5",
+              "pubDate": "2026-11-03T20:43:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 95,
+          "slug": "spain-minister-resigns-after-fatal-train-crash-incident"
+        },
         {
           "representativeTitle": "Hoax threats disrupt European air travel across continent.",
           "sources": [
@@ -20,7 +90,7 @@ export const newsData = {
               "title": "Seven flights across Europe targeted by suspected bomb threats",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-03T17:56:03.000Z",
+              "pubDate": "2026-11-03T20:42:47.000Z",
               "tier": 1
             },
             {
@@ -55,7 +125,7 @@ export const newsData = {
               "title": "Bomb threats on flights, cruise ship cause disruption in Europe, no devices found",
               "source": "Google World",
               "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU3p6WFp5MDNvNDdBY3d2ekZROTM3REtEZk5fNWdBSS1ZSndENEJkcm5nVUFKOUY0cUNxUkFNWkNQS2swdURVeW8wWThUZFlrUVZNeXozVEp4bWdVV1ZhanpFRGdkWFFNQUZ2cUNsaDJWVHlnWk1QQXdKZzJ4eXNGWkx5aW1hRHdTb0hLeGFGMm5CYkRHQVF1aUJIeURKQzdlcHlidmJhX1hlakxyaC11aUh3WGJueVFJblQ5dHJQQQ?oc=5",
-              "pubDate": "2026-11-03T17:15:07.000Z",
+              "pubDate": "2026-11-03T18:06:04.000Z",
               "tier": 2
             }
           ],
@@ -67,50 +137,80 @@ export const newsData = {
           "slug": "hoax-threats-disrupt-european-air-travel-across-continent"
         },
         {
-          "representativeTitle": "US Strikes Iranian Island Amid Election Tensions",
+          "representativeTitle": "Russia Attacks Aid Center, Hospital; Death Toll Rises",
           "sources": [
-            "BBC US",
             "BBC World",
-            "Al Jazeera"
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-03T16:57:41.000Z",
+              "tier": 1
+            },
+            {
+              "title": "‘Vile terrorist attack’: Russia bombs Ukraine aid centre",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261103-vile-terrorist-attack-russia-bombs-ukraine-aid-centre",
+              "pubDate": "2026-11-03T16:30:08.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 80,
+          "slug": "russia-attacks-aid-center-hospital-death-toll-rises"
+        },
+        {
+          "representativeTitle": "UK Royal Comments Spark Debate Over Slavery Apology",
+          "sources": [
+            "The Guardian",
+            "France 24",
+            "SCMP"
           ],
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "US strikes Iranian island ahead of midterm elections",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-03T11:33:33.000Z",
+              "title": "King Charles addresses summit as demands for slavery apology grow",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
+              "pubDate": "2026-11-03T22:15:19.000Z",
               "tier": 1
             },
             {
-              "title": "US strikes Iranian island ahead of midterm elections",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-03T11:33:33.000Z",
+              "title": "King Charles says he has greater understanding of 'horrors' of slavery, falls short of apology",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261103-king-charles-says-he-has-greater-understanding-of-horrors-of-slavery-falls-short-of-apology",
+              "pubDate": "2026-11-03T15:26:37.000Z",
               "tier": 1
             },
             {
-              "title": "In Pictures: US midterm elections in 20 photos",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/gallery/2026/11/3/in-pictures-us-midterm-elections-in-20-photos?traffic_source=rss",
-              "pubDate": "2026-11-03T15:46:57.000Z",
-              "tier": 1
+              "title": "UK’s King Charles calls slavery ‘monstrous injustice’, as PM mulls apology",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3373184/uks-king-charles-calls-slavery-monstrous-injustice-pm-mulls-apology",
+              "pubDate": "2026-11-03T18:08:43.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 90,
-          "slug": "us-strikes-iranian-island-amid-election-tensions"
+          "relevance_score": 7,
+          "importance": 70,
+          "slug": "uk-royal-comments-spark-debate-over-slavery-apology"
         },
         {
           "representativeTitle": "Trump Cuts Major Military Aid Funding To Israel",
           "sources": [
             "The Guardian",
-            "France 24",
             "SCMP",
-            "Euronews"
+            "Euronews",
+            "Le Monde"
           ],
           "citationCount": 4,
           "rawArticles": [
@@ -119,13 +219,6 @@ export const newsData = {
               "source": "The Guardian",
               "link": "https://www.theguardian.com/us-news/2026/nov/03/donald-trump-usa-end-military-aid-to-israel-end-year-midterms",
               "pubDate": "2026-11-03T17:17:11.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump says US will halt $4 billion in aid to Israel after end of the year",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20261103-trump-says-us-will-halt-4-billion-in-aid-to-israel-after-end-of-this-year",
-              "pubDate": "2026-11-03T14:35:19.000Z",
               "tier": 1
             },
             {
@@ -141,52 +234,21 @@ export const newsData = {
               "link": "https://www.euronews.com/2026/11/03/trump-says-us-will-end-military-aid-to-israel-as-americans-vote-in-midterms",
               "pubDate": "2026-11-03T18:10:17.000Z",
               "tier": 2
+            },
+            {
+              "title": "Trump says US military aid to Israel will be 'cut off at the end of the year'",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/11/03/trump-says-us-military-aid-to-israel-will-be-cut-off-at-the-end-of-the-year_6770788_4.html",
+              "pubDate": "2026-11-03T21:08:17.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 80,
+          "importance": 70,
           "slug": "trump-cuts-major-military-aid-funding-to-israel"
-        },
-        {
-          "representativeTitle": "Russia Attacks Aid Center, Hospital; Death Toll Rises",
-          "sources": [
-            "BBC World",
-            "France 24",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-03T16:57:41.000Z",
-              "tier": 1
-            },
-            {
-              "title": "‘Vile terrorist attack’: Russia bombs Ukraine aid centre",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261103-vile-terrorist-attack-russia-bombs-ukraine-aid-centre",
-              "pubDate": "2026-11-03T16:30:08.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOM2FoblJSYWxpbFBKV3BrQUZuRXFHTWN6d29HWV9hU0ZPQmxMMHltY01LOVIxSUR4V040UWt1ZEZGUGtlQThobzB4c1o4UHhjVVlQTVdfOHJOcDg?oc=5",
-              "pubDate": "2026-11-03T16:38:02.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 85,
-          "slug": "russia-attacks-aid-center-hospital-death-toll-rises"
         },
         {
           "representativeTitle": "Democracy's Future Hinges On Scientific Protection Efforts",
@@ -219,6 +281,36 @@ export const newsData = {
           "slug": "democracys-future-hinges-on-scientific-protection-efforts"
         },
         {
+          "representativeTitle": "Deadlock threatens Netanyahu's political future in Israel.",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Israel political deadlock leaves Netanyahu’s future hanging in the balance",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/3/israel-political-deadlock-leaves-netanyahus-future-hanging-in-the-balance?traffic_source=rss",
+              "pubDate": "2026-11-03T16:49:10.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Israel political deadlock leaves Netanyahu’s future hanging in the balance",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWWFVQXRlaFUxUVhZazlRdnZHbGpEekRjamxZRXJNNHFBWUNJelUwVWNWdHA3V3dMTmFXUS1xTUt0MXd0eFppZzNPU3ljZzdoU1JiTmZIaEJSMHZnX1FnYXA4eG1sUXp1SjQ1UGpHVFItZ0YxbHZkOGR1ekpQYzg1UFlrTGQ4YVlGZVZ4cFlRdmtEOXYwdzRESFUxc1hoX0hORGJhcFJDQnlKVDRTRkF1U1h2RjbSAboBQVVfeXFMUFVERF8wbDJUaUo0YnZ2bTZuZFFzSFRUMExhcUNZZEVWd283U2NmNUw2WE9uUndrUFVxRTIwOVJwTVplOUxYUFVTRWVUT2dzYTRvZllWbFB2SURpMDc5djJucnl0SmJIMGs0UmtaS3NmakRJVldEeTlwdjVQY1RpOHVtcFM1N0tFa3BEcDAtS1pVSlFMMlcyZ053cnFOYVQwUlNvM0w4VkNuRmJsSlZmVDVFaVpyRzh0SDFB?oc=5",
+              "pubDate": "2026-11-03T16:54:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "deadlock-threatens-netanyahus-political-future-in-israel"
+        },
+        {
           "representativeTitle": "Brazil Unveils Plan to Phase Out Fossil Fuels Globally",
           "sources": [
             "The Guardian",
@@ -249,160 +341,136 @@ export const newsData = {
           "slug": "brazil-unveils-plan-to-phase-out-fossil-fuels-globally"
         },
         {
-          "representativeTitle": "Trump Slashing Aid to Israel's Military Spending",
+          "representativeTitle": "US Allegedly Aided Deadly Drone Strike in Venezuela",
           "sources": [
-            "France 24",
-            "Le Monde"
+            "NY Times"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump cuts Israeli military aid: $3.8 billion in security assistance slashed",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261103-trump-cuts-israeli-military-aid-3-8-billion-in-security-assistance-slashed",
-              "pubDate": "2026-11-03T16:01:30.000Z",
+              "title": "U.S. Assisted Venezuela in Deadly Drone Strike, Officials Say",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/11/03/world/americas/us-venezuela-strike-eln-drug-trafficking.html",
+              "pubDate": "2026-11-03T23:03:45.000Z",
               "tier": 1
-            },
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "us-allegedly-aided-deadly-drone-strike-in-venezuela"
+        },
+        {
+          "representativeTitle": "Zelenskyy Links US Elections to Ukraine War Future",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Trump announces end of $3.8 billion annual security assistance to Israel",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/11/03/trump-announces-end-of-3-8-billion-annual-security-assistance-to-israel_6770491_4.html",
-              "pubDate": "2026-11-03T15:34:38.000Z",
-              "tier": 2
+              "title": "President Zelenskyy says US elections will impact war in Ukraine",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/3/president-zelenskyy-says-us-elections-will-impact-war-in-ukraine?traffic_source=rss",
+              "pubDate": "2026-11-03T21:43:19.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "trump-slashing-aid-to-israels-military-spending"
+          "importance": 55,
+          "slug": "zelenskyy-links-us-elections-to-ukraine-war-future"
         },
         {
-          "representativeTitle": "UK Royal Comments Spark Debate Over Slavery Apology",
+          "representativeTitle": "Trump Threatens Ending US Military Aid to Israel",
           "sources": [
-            "France 24",
-            "SCMP"
+            "FT International"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "King Charles says he has greater understanding of 'horrors' of slavery, falls short of apology",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20261103-king-charles-says-he-has-greater-understanding-of-horrors-of-slavery-falls-short-of-apology",
-              "pubDate": "2026-11-03T15:26:37.000Z",
+              "title": "Trump says US will end military aid to Israel by end of the year",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/2f1a826a-5d98-47ba-be3f-5d21edce89c8?syn-25a6b1a6=1",
+              "pubDate": "2026-11-03T15:32:31.000Z",
               "tier": 1
-            },
-            {
-              "title": "UK’s King Charles calls slavery ‘monstrous injustice’, as PM mulls apology",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3373184/uks-king-charles-calls-slavery-monstrous-injustice-pm-mulls-apology",
-              "pubDate": "2026-11-03T18:08:43.000Z",
-              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Business",
           "aiCategory": "World",
           "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "trump-threatens-ending-us-military-aid-to-israel"
+        },
+        {
+          "representativeTitle": "US Strikes Iran Island Amid Election Tensions",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US strikes Iran’s Qeshm Island on eve of election",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/ebeaca62-8958-459a-be9d-d3d39e441a53?syn-25a6b1a6=1",
+              "pubDate": "2026-11-03T14:46:20.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "us-strikes-iran-island-amid-election-tensions"
+        },
+        {
+          "representativeTitle": "Early warnings precede massive North Korean crypto heist.",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/",
+              "pubDate": "2026-11-03T19:45:48.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "early-warnings-precede-massive-north-korean-crypto-heist"
+        },
+        {
+          "representativeTitle": "Venezuela repeals controversial hate speech law impacting citizens.",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Venezuela Moves to Unwind Hate Speech Law That Jailed Thousands",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-03/venezuela-moves-to-unwind-hate-speech-law-that-jailed-thousands",
+              "pubDate": "2026-11-03T22:08:37.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0.4,
           "relevance_score": 7,
-          "importance": 55,
-          "slug": "uk-royal-comments-spark-debate-over-slavery-apology"
-        },
-        {
-          "representativeTitle": "Yemen Accuses Iran Allies of Backing Houthis",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Yemen gov’t accuses IRGC, Hezbollah of sending 21 experts to back Houthis",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-to-back-houthis?traffic_source=rss",
-              "pubDate": "2026-11-03T19:09:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "yemen-accuses-iran-allies-of-backing-houthis"
-        },
-        {
-          "representativeTitle": "American Community Uses Flags to Defend West Bank Homes",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Palestinian Americans turn to US flags to protect West Bank homes",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/3/palestinian-americans-turn-to-us-flags-to-protect-west-bank-homes?traffic_source=rss",
-              "pubDate": "2026-11-03T18:38:50.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "american-community-uses-flags-to-defend-west-bank-homes"
-        },
-        {
-          "representativeTitle": "UK Slashing Aid to Commonwealth Despite Warm Talk",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "UK makes huge aid cuts to Commonwealth nations despite warm words at Chogm summit",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/03/uk-cuts-aid-commonwealth-countries-despite-warm-words-at-chogm-summit",
-              "pubDate": "2026-11-03T17:49:57.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "uk-slashing-aid-to-commonwealth-despite-warm-talk"
-        },
-        {
-          "representativeTitle": "North Korea's Sister Slams FBI Over Binance Allegations",
-          "sources": [
-            "BBC World",
-            "SCMP"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "North Korea denies being behind record $6.3bn Binance hack",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-03T08:33:20.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Sister of North Korea’s Kim slams FBI’s Binance hack allegations as ‘grave’ provocation",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3373050/sister-north-koreas-kim-slams-fbis-binance-hack-allegations-grave-provocation",
-              "pubDate": "2026-11-02T23:40:37.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "north-koreas-sister-slams-fbi-over-binance-allegations"
+          "importance": 50,
+          "slug": "venezuela-repeals-controversial-hate-speech-law-impacting-citizens"
         },
         {
           "representativeTitle": "Trump Signals Halt to $4B Aid Funding For Israel",
@@ -420,10 +488,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "As Americans vote, Trump says US will stop $4 billion in aid to Israel",
+              "title": "Trump says US will stop giving Israel aid after year-end",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTnAzZzVDS3N1RTJJdnkxYUJPQkl1X3h4d3hZaC1MX0RwXzRHOGRybmM3QjEzR1kybkJIUmNYcnVPbkNPMkt6TFBnTEdOYWFJemJkelBhVXZsRDQ5VG4wc1lSS0Q2dlRlUmV0VHI2Y3YxNWstRWVPUV95Y2pNUVp5TUlES3pCMC1GUzNTTXVfWWlGd1JlQ3p1XzJUWmJmbzlWUmtYTFlXNDFlZw?oc=5",
-              "pubDate": "2026-11-03T17:47:41.000Z",
+              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ0dUNVRlTTRrMGdlaGlfVldzdHdiVGxXaGxWcWRxRUI2TFpJTEJvR0dXaUZtRnBaeGNQSE9oWlllWWRWYTU5WWN4X1licmwtTXFJNWVkZmdhOEx3ek5xWjZncV9xQ2lGcUtKV2pWTmVHb0g4WjJtQ1gzenNhRV9NWVpubHpwS2pQZkUyY1FzaW9QRHpNNDdxS2RGVEtiUTdlQ05PY0Rn0gGrAUFVX3lxTE1NX2tqcGFZV2V1OHdlVi1ZbmwxVFAyTWszUm14REJqRTRNZXpaM2taNC11OE9DQXpJZUFVa2ZJY1RQblcyOHY5UWZZb214VkwzWmgwZ0hzcWtjSTBLSGkyTkZzRk9fZF9DbmhyMEcwU2VWYUZMNGdDRnBrMTJSMjVDdWtQWUZJejZ0eURhd3BTR2RUeUdOVzdSdUxhV2tOSHJKaDJBUTdiY21IWQ?oc=5",
+              "pubDate": "2026-11-03T20:53:57.000Z",
               "tier": 2
             }
           ],
@@ -435,34 +503,26 @@ export const newsData = {
           "slug": "trump-signals-halt-to-4b-aid-funding-for-israel"
         },
         {
-          "representativeTitle": "Tourist Killed in Helicopter Collision Near Everest Base Camp",
+          "representativeTitle": "US Strikes Iranian Island Amid Election Tensions",
           "sources": [
-            "BBC World",
-            "Google World"
+            "BBC US"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Indian tourist killed after two helicopters collide near Everest base camp",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cmqlnx7z1549o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-03T11:51:08.000Z",
+              "title": "US strikes Iranian island ahead of midterm elections",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-03T11:33:33.000Z",
               "tier": 1
-            },
-            {
-              "title": "1 dead, 2 injured in helicopter crash near Mount Everest base camp",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaFlfallxSDc5UjdoNGlyNGJZR1luUkZ0VHpUWlZ2ZUtkNllXMVVVTTRkNFUwMm5pUmFzRWxpc3RfOWxPNHVFUmtxSkc3UE9SWUlyVHJuR3UxcFBjR0x0N0doV1duZzJZVWFTNWN0UjRodGpkQVZwRF92NVU4N2xvYW1R?oc=5",
-              "pubDate": "2026-11-03T14:19:38.000Z",
-              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "tourist-killed-in-helicopter-collision-near-everest-base-camp"
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "us-strikes-iranian-island-amid-election-tensions"
         },
         {
           "representativeTitle": "Trump Pushes US Troop Presence in Venezuela Talks",
@@ -475,7 +535,7 @@ export const newsData = {
               "title": "Trump Pushes Venezuela for Agreement Allowing U.S. Troops to Stay",
               "source": "NY Times",
               "link": "https://www.nytimes.com/2026/11/03/us/politics/trump-venezuela-troop-agreement.html",
-              "pubDate": "2026-11-03T18:17:14.000Z",
+              "pubDate": "2026-11-03T19:47:00.000Z",
               "tier": 1
             }
           ],
@@ -485,6 +545,28 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "trump-pushes-us-troop-presence-in-venezuela-talks"
+        },
+        {
+          "representativeTitle": "AMLO's Son Denies Graft Charges Before Election Bid",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "AMLO’s Son Denies Graft Charges Ahead of Mexico Congress Run",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-03/amlo-s-son-denies-crime-allegations-ahead-of-mexico-congress-run",
+              "pubDate": "2026-11-03T18:16:21.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "amlos-son-denies-graft-charges-before-election-bid"
         },
         {
           "representativeTitle": "Vance Optimism on Iran Deal Meets Tehran Skepticism",
@@ -517,180 +599,78 @@ export const newsData = {
           "slug": "vance-optimism-on-iran-deal-meets-tehran-skepticism"
         },
         {
-          "representativeTitle": "Dollar Rises Amid Iran Focus Over Elections",
+          "representativeTitle": "Bear Attack Claims One Life, Leaves Another Missing",
           "sources": [
-            "Bloomberg Markets"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Dollar Rises With US Yields as Focus on Iran Outweighs Election",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-03/dollar-rises-with-us-yields-as-focus-on-iran-outweighs-election",
-              "pubDate": "2026-11-03T17:49:16.000Z",
+              "title": "One dead and another missing in suspected grizzly bear attack in Canada",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/03/grizzly-bear-attack-canada",
+              "pubDate": "2026-11-03T22:08:50.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "dollar-rises-amid-iran-focus-over-elections"
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "bear-attack-claims-one-life-leaves-another-missing"
         },
         {
-          "representativeTitle": "US Strikes in Hormuz Raise Global Tensions Significantly",
+          "representativeTitle": "Helicopter Collision Near Everest Base Camp Claims Life",
           "sources": [
-            "Google US"
+            "BBC World",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Indian tourist killed after two helicopters collide near Everest base camp",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cmqlnx7z1549o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-03T11:51:08.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Helicopters collide below Mount Everest base camp, killing 1 person and injuring 2",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdl9VVGZkNGpWSFViUDJ2M1o4NG5Od1FUOEtzZ1lHb25XRXFRMHhwbnNyaDNSNGRKWEpIemwtR3RlNWxWTVJDUTBBZkJXSEJOR1NOdlNwX0Q3UzdrUldfUDg5MFFlcnVXa2pEbEk2MEp5Vk5MTGRlNU9JTDNWOGRRcVQteFRKUFFxSnJZZVB0aXJHQVNBVndrYy0zZGszSUk0YVlmVnJiVzQ2eEhsZl9pS3Y1d01mZw?oc=5",
+              "pubDate": "2026-11-03T12:06:31.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "helicopter-collision-near-everest-base-camp-claims-life"
+        },
+        {
+          "representativeTitle": "West Bank Sales Tactics Encounter Canadian Obstacles Now",
+          "sources": [
+            "NY Times"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US strikes in the Strait of Hormuz create more questions about what’s ahead",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbjU1Vjk0S2NySC14ZnByNG9Ld0J4cnZZaUxaTDdBeHgwMm41Q1Y3OGpVeXpKVWQ3dFNlcGtNTERub3h1Z1g3Rl93NzhqamZhWm1HYkhXVFBWNFdqbko2eWlUVU1HSmcxZmJJSlIyQlFZUjdTY1pxcU5kWjJyV3d1UTlfTjhPQXVOZW42MlBCc1Ztc3c?oc=5",
-              "pubDate": "2026-11-03T19:11:00.000Z",
-              "tier": 2
+              "title": "West Bank Property Sales Tactics Face a Challenge in Canada",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/11/03/world/canada/canada-west-bank-lawsuit.html",
+              "pubDate": "2026-11-03T20:58:18.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "us-strikes-in-hormuz-raise-global-tensions-significantly"
-        },
-        {
-          "representativeTitle": "King Charles addresses slave trade history in Antigua.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "UK’s King Charles expresses ‘sorrow’ in Antigua over slave trade",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/3/uks-king-charles-expresses-profound-sorrow-over-transatlantic-slave-era?traffic_source=rss",
-              "pubDate": "2026-11-03T18:32:46.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "king-charles-addresses-slave-trade-history-in-antigua"
-        },
-        {
-          "representativeTitle": "Bomb Threats Ground Seven Aircraft Across Europe",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Seven aircraft grounded in Europe after bomb threats",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/f1122a7d-f27b-437f-84ba-59ea87e2ba17?syn-25a6b1a6=1",
-              "pubDate": "2026-11-03T18:24:35.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "bomb-threats-ground-seven-aircraft-across-europe"
-        },
-        {
-          "representativeTitle": "AMLO's Son Addresses Allegations Before Congress Run",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "AMLO’s Son Denies Crime Allegations Ahead of Mexico Congress Run",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-03/amlo-s-son-denies-crime-allegations-ahead-of-mexico-congress-run",
-              "pubDate": "2026-11-03T18:16:21.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "amlos-son-addresses-allegations-before-congress-run"
-        },
-        {
-          "representativeTitle": "Greenland Approves Security Pact With US, Denmark",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Greenland parliament approves security deal with US, Denmark",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/3/greenland-parliament-approves-security-deal-with-us-denmark?traffic_source=rss",
-              "pubDate": "2026-11-03T18:05:48.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "greenland-approves-security-pact-with-us-denmark"
-        },
-        {
-          "representativeTitle": "London Thames Bridges Face Widespread Structural Deterioration Issues",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Majority of London’s Thames Bridges Are in Poor Condition",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-03/majority-of-london-s-thames-bridges-are-in-poor-condition",
-              "pubDate": "2026-11-03T17:15:19.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "london-thames-bridges-face-widespread-structural-deterioration-issues"
-        },
-        {
-          "representativeTitle": "US and Venezuela Discuss Aluminum Trade Revival Talks",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US, Venezuela in Talks on Fresh Aluminum Cargo in Trade Revival",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-03/us-venezuela-in-talks-on-fresh-aluminum-cargo-in-trade-revival",
-              "pubDate": "2026-11-03T16:46:21.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "us-and-venezuela-discuss-aluminum-trade-revival-talks"
+          "slug": "west-bank-sales-tactics-encounter-canadian-obstacles-now"
         },
         {
           "representativeTitle": "US Politician Calls For Venezuelan Prisoner Release",
@@ -713,78 +693,58 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "us-politician-calls-for-venezuelan-prisoner-release"
-        },
-        {
-          "representativeTitle": "Oil Prices Dip Amid Middle East Diplomacy Hopes",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Oil Futures Turn Lower as Market Holds Out Hope for Middle East Diplomacy",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/world/middle-east/oil-prices-rebound-as-u-s-strikes-on-iran-renew-supply-concerns-c662f284?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-11-03T17:57:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "oil-prices-dip-amid-middle-east-diplomacy-hopes"
-        },
-        {
-          "representativeTitle": "Individual Fails Legal Bid Against Major News Outlets",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘Well-known individual’ fails in bid for injunction against Guardian and ITN",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/nov/03/well-known-individual-fails-injunction-bid-guardian-itn",
-              "pubDate": "2026-11-03T17:56:14.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "individual-fails-legal-bid-against-major-news-outlets"
-        },
-        {
-          "representativeTitle": "Day of the Dead Celebrations Highlight Mexican Culture",
-          "sources": [
-            "NY Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Celebrating Day of the Dead, High in Mexico’s Mountains",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/11/03/world/americas/mexico-day-of-the-dead-metlatonoc.html",
-              "pubDate": "2026-11-03T10:03:31.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "day-of-the-dead-celebrations-highlight-mexican-culture"
         }
       ]
     },
     {
       "name": "US",
       "children": [
+        {
+          "representativeTitle": "Americans Vote in Midterm Elections Today",
+          "sources": [
+            "Al Jazeera",
+            "France 24",
+            "Euronews",
+            "Time"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "First polls close in pivotal US midterm elections",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/3/first-polls-close-in-pivotal-us-midterm-elections?traffic_source=rss",
+              "pubDate": "2026-11-03T23:03:42.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Brazil keeps a close eye on US midterm elections",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261103-brazil-keeps-a-close-eye-on-us-midterm-elections",
+              "pubDate": "2026-11-03T16:36:07.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Americans head to the polls for US midterm elections",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/video/2026/11/03/americans-head-to-the-polls-for-us-midterm-elections",
+              "pubDate": "2026-11-03T15:25:21.000Z",
+              "tier": 2
+            },
+            {
+              "title": "First Midterm Polls Close, With Hours of Voting Still Ahead Elsewhere in the U.S.: Live Election Updates",
+              "source": "Time",
+              "link": "https://time.com/article/2026/11/03/midterm-elections-2026-key-races-live-results-polls-latest-news-updates/",
+              "pubDate": "2026-11-03T19:36:25.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 80,
+          "slug": "americans-vote-in-midterm-elections-today"
+        },
         {
           "representativeTitle": "Jet wreckage reported; family named among victims.",
           "sources": [
@@ -824,37 +784,7 @@ export const newsData = {
           "slug": "jet-wreckage-reported-family-named-among-victims"
         },
         {
-          "representativeTitle": "Michigan Senate Race Sees Candidates Urging Voter Turnout",
-          "sources": [
-            "Al Jazeera",
-            "France 24"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Michigan US Senate race: Rogers, El-Sayed urge turnout for critical race",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/3/michigan-us-senate-race-rogers-el-sayed-urge-turnout-for-critical-race?traffic_source=rss",
-              "pubDate": "2026-11-03T19:13:49.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US midterms: All eyes on crucial Michigan Senate race",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261103-us-midterms-all-eyes-on-crucial-michigan-senate-race",
-              "pubDate": "2026-11-03T15:15:48.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "michigan-senate-race-sees-candidates-urging-voter-turnout"
-        },
-        {
-          "representativeTitle": "Midterms Election Day: Voters Decide Congressional Control",
+          "representativeTitle": "Midterms Polls Close: Voters Shape Congress's Future Direction",
           "sources": [
             "The Guardian",
             "Euronews"
@@ -862,17 +792,17 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
+              "title": "US midterm elections 2026 live updates: polls begin to close as voters decide direction of Congress for remainder of Trump’s term",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-              "pubDate": "2026-11-03T19:13:09.000Z",
+              "link": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+              "pubDate": "2026-11-03T23:25:44.000Z",
               "tier": 1
             },
             {
-              "title": "Americans head to the polls for US midterm elections",
+              "title": "Live updates on the 2026 midterm elections in the US",
               "source": "Euronews",
-              "link": "https://www.euronews.com/video/2026/11/03/americans-head-to-the-polls-for-us-midterm-elections",
-              "pubDate": "2026-11-03T15:25:21.000Z",
+              "link": "https://www.euronews.com/2026/11/04/live-updates-on-the-2026-midterm-elections-in-the-us",
+              "pubDate": "2026-11-03T23:35:24.000Z",
               "tier": 2
             }
           ],
@@ -881,68 +811,135 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 8,
           "importance": 60,
-          "slug": "midterms-election-day-voters-decide-congressional-control"
+          "slug": "midterms-polls-close-voters-shape-congresss-future-direction"
         },
         {
-          "representativeTitle": "Trump addresses voters in final campaign speech.",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Voter voices: Trump's influence on US midterm voters",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/videos/cqj346nndl0yo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-03T10:55:05.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump targets midterm voters with final campaign speech at Reflecting Pool",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/videos/c6m2dg0d7e8ko?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-02T23:02:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "trump-addresses-voters-in-final-campaign-speech"
-        },
-        {
-          "representativeTitle": "Severe Weather Disrupts Election Day Across Multiple States",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Severe weather disrupts election day across several US states",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/3/aje-onl-nf_severe-weather-disrupts-election-day-across-us-031126?traffic_source=rss",
-              "pubDate": "2026-11-03T19:13:19.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "severe-weather-disrupts-election-day-across-multiple-states"
-        },
-        {
-          "representativeTitle": "Trump faces midterm challenge in key Pennsylvania district.",
+          "representativeTitle": "Polls close on high-stakes US Congressional vote.",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump faces midterm reckoning in Pennsylvania’s ‘swingiest’ district",
+              "title": "First polls close in high-stakes vote for control of US Congress",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/77c2eaca-4fe1-4c69-b3bd-c517b045ff37?syn-25a6b1a6=1",
+              "pubDate": "2026-11-03T23:16:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "polls-close-on-high-stakes-us-congressional-vote"
+        },
+        {
+          "representativeTitle": "High Voter Turnout Signals Key Congressional Direction Shift",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Voter turnout surges in election that will determine direction of Congress – as it happened",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+              "pubDate": "2026-11-03T22:54:58.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "high-voter-turnout-signals-key-congressional-direction-shift"
+        },
+        {
+          "representativeTitle": "Voters cite frustration and costs in voting decisions.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US voters share why they cast their ballots – from frustration with Trump to affordability concerns",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/nov/03/republican-voters-maine-susan-collins-trump",
+              "pubDate": "2026-11-03T22:30:16.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "voters-cite-frustration-and-costs-in-voting-decisions"
+        },
+        {
+          "representativeTitle": "Midterm Election Results Emerge As Polls Close Nationally",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US midterm election results live: Polls start closing in some states",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/11/3/us-midterm-election-results-live-polls-to-start-closing-in-some-states?traffic_source=rss",
+              "pubDate": "2026-11-03T22:30:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "midterm-election-results-emerge-as-polls-close-nationally"
+        },
+        {
+          "representativeTitle": "Councillor Charged With Multiple Serious Criminal Allegations",
+          "sources": [
+            "The Guardian",
+            "Sky News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Reform UK councillor charged with 12 counts of rape and multiple other offences",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/uk-news/2026/nov/03/reform-uk-councillor-george-madgwick-charged-12-counts-rape",
+              "pubDate": "2026-11-03T22:04:24.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Reform councillor charged with 35 offences including 12 counts of rape",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/reform-councillor-charged-with-35-offences-including-rape-13607499",
+              "pubDate": "2026-11-03T14:36:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "councillor-charged-with-multiple-serious-criminal-allegations"
+        },
+        {
+          "representativeTitle": "Pennsylvania City Could Shape Upcoming US Midterm Elections",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "How Pennsylvania’s bellwether city could decide the US midterms",
               "source": "FT International",
               "link": "https://www.ft.com/content/4dde93b5-60ec-4ad4-ad14-c870fa17db2c?syn-25a6b1a6=1",
               "pubDate": "2026-11-03T18:53:53.000Z",
@@ -951,138 +948,154 @@ export const newsData = {
           ],
           "ingestionCategory": "Business",
           "aiCategory": "US",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "trump-faces-midterm-challenge-in-key-pennsylvania-district"
+          "slug": "pennsylvania-city-could-shape-upcoming-us-midterm-elections"
         },
         {
-          "representativeTitle": "Midterms Underway: Congress's Future and Agenda at Stake",
+          "representativeTitle": "Supreme Court Ruling Impacts LGBTQ Access to Preschools",
           "sources": [
-            "France 24"
+            "Fox News",
+            "NPR"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Supreme Court offers support for Catholic preschools challenging state funding requirements",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/politics/supreme-court-offers-support-catholic-preschools-challenging-state-funding-requirements",
+              "pubDate": "2026-11-03T19:43:14.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Supreme Court leans toward LGBTQ exclusion for publicly funded Catholic preschools",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/03/nx-s1-6026566/scotus-religious-freedom-case",
+              "pubDate": "2026-11-03T22:14:29.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "supreme-court-ruling-impacts-lgbtq-access-to-preschools"
+        },
+        {
+          "representativeTitle": "Texas Senate Race Marks Expensive Political Contest",
+          "sources": [
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "🔴 Midterms live: Voting under way to determine control of Congress and the future of Trump's agenda",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
-              "pubDate": "2026-11-03T18:42:49.000Z",
+              "title": "Texans vote in most expensive Senate race in US history",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/3/texans-vote-in-most-expensive-senate-race-in-us-history?traffic_source=rss",
+              "pubDate": "2026-11-03T21:41:53.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "midterms-underway-congresss-future-and-agenda-at-stake"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "texas-senate-race-marks-expensive-political-contest"
         },
         {
-          "representativeTitle": "Voters Head to Polls Amid Political Uncertainty",
+          "representativeTitle": "AI Concerns Surface Amid State Election Focus",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Wall Street braces as voters head to high-stakes polls",
+              "title": "Investors watch US state races for signs of backlash against AI boom",
               "source": "FT International",
               "link": "https://www.ft.com/content/c8a092e5-c1e4-46b8-83e1-73404900a0c5?syn-25a6b1a6=1",
-              "pubDate": "2026-11-03T18:30:51.000Z",
+              "pubDate": "2026-11-03T20:25:23.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "voters-head-to-polls-amid-political-uncertainty"
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "ai-concerns-surface-amid-state-election-focus"
         },
         {
-          "representativeTitle": "Election serves as referendum on Trump's presidency.",
+          "representativeTitle": "Colorado Preschool Funding Case Heads to Supreme Court",
           "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Americans vote in election that doubles as referendum on Trump’s presidency",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/77c2eaca-4fe1-4c69-b3bd-c517b045ff37?syn-25a6b1a6=1",
-              "pubDate": "2026-11-03T10:52:57.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "election-serves-as-referendum-on-trumps-presidency"
-        },
-        {
-          "representativeTitle": "Americans Cast Votes in Ongoing Election Updates",
-          "sources": [
-            "ABC News Top",
+            "NBC News",
+            "ABC News US",
             "Google US"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Election 2026 live updates: Americans cast their votes",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
-              "pubDate": "2026-11-03T19:09:50.000Z",
+              "title": "Supreme Court sympathetic to Catholic plea to participate in Colorado preschool program",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/supreme-court/supreme-court-hears-catholic-colorado-preschool-program-case-rcna605703",
+              "pubDate": "2026-11-03T11:00:40.000Z",
               "tier": 2
             },
             {
-              "title": "Midterm elections 2026: Live updates, election results and key races across the country",
+              "title": "Case over state funding for Catholic preschools in Colorado comes before the Supreme Court",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/case-state-funding-catholic-preschools-colorado-supreme-court-137808641",
+              "pubDate": "2026-11-03T14:58:43.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Supreme Court hears challenge to Catholic preschools' exclusion from Colorado-funded program",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZUNDMkZ2MGxkWnhhYWxaekk5Wk1PZ3ZZa3RTelBkcldncEczam56c3RkcXkyTEk5NFhqRjJHQ09wb2xnX1E2MEJ3bWZYd2JlalFNOGxiclkzMXRKMk0xQXlkNHRGcjlwOUxVbXozbGt1TGM2Q2l5OExFRk81S2FhTExPeENnMEN6Z2VEeksxbVJxZkQ5VTdzNG1WTkxaUkIyWTRNNkZ1NXN2RGM?oc=5",
-              "pubDate": "2026-11-03T18:46:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcEwyRGtJcTNHV3dnQ0NUNVk2RU5lblpKcVFCRWMwS1lnUm5JNXBCM2dSWlQySWNtZnZKZjJoWXlrREd5bmxjOXRGQ2JBb3RDcy1NZEdqR0I5eXotWmVtekJjS1hzNVktZEpINUhDYWdMcTNGaFpOZjZNbGpCVjVfS3NGZHBQeGlzNkh0ZEg1UlctVFZlbTB1LXNrM0RSSWJtVV93aFotU1JxOHJMQmc?oc=5",
+              "pubDate": "2026-11-03T19:32:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "americans-cast-votes-in-ongoing-election-updates"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "colorado-preschool-funding-case-heads-to-supreme-court"
         },
         {
-          "representativeTitle": "Americans Vote in Elections Shaping Trump's Future",
+          "representativeTitle": "NTSB finds plane parts near Florida crash site.",
           "sources": [
-            "BBC US"
+            "BBC World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Americans head to the polls for elections that could define Trump's closing chapter",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cq2d6k4r5n9ro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-03T09:29:32.000Z",
+              "title": "NTSB says crucial plane parts found three miles from Florida crash site",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c9e8lk5dpj7no?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-03T21:53:38.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
           "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "americans-vote-in-elections-shaping-trumps-future"
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ntsb-finds-plane-parts-near-florida-crash-site"
         },
         {
-          "representativeTitle": "Analyzing Trump's Impact on American Landscape After Two Years",
+          "representativeTitle": "Trump's potential second term raises political uncertainty.",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "What 21 months of Trump have done to America",
+              "title": "The head-spinning turbulence of Trump’s second term",
               "source": "FT International",
               "link": "https://www.ft.com/content/703f842f-599f-4267-a7c9-1ec1d00ded00?syn-25a6b1a6=1",
               "pubDate": "2026-11-03T11:40:58.000Z",
@@ -1094,160 +1107,42 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "analyzing-trumps-impact-on-american-landscape-after-two-years"
+          "slug": "trumps-potential-second-term-raises-political-uncertainty"
         },
         {
-          "representativeTitle": "Midterm Election Outcomes Presented Through Three Scenarios",
+          "representativeTitle": "DOJ Settlement Details Concerning Dorsey's Block",
           "sources": [
-            "BBC US"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Three scenarios for how the US midterm results could unfold",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cq78pgn7em34o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-03T10:32:56.000Z",
+              "title": "Dorsey’s Block Details Bigger DOJ Settlement, Sunnier Guide",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-03/jack-dorsey-s-block-modestly-beats-third-quarter-expectations",
+              "pubDate": "2026-11-03T21:20:03.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "midterm-election-outcomes-presented-through-three-scenarios"
-        },
-        {
-          "representativeTitle": "Panel stops inquiry into harassment claims against peer",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Panel rules out further inquiry into sexual harassment claims against Lib Dem peer Chris Rennard",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/politics/2026/nov/03/inquiry-sexual-harassment-claims-lib-dem-peer-chris-rennard",
-              "pubDate": "2026-11-03T18:03:07.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Stocks",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "panel-stops-inquiry-into-harassment-claims-against-peer"
+          "slug": "doj-settlement-details-concerning-dorseys-block"
         },
         {
-          "representativeTitle": "Man Charged Mailing Powder to Officials Before Midterms",
+          "representativeTitle": "Conspiracy Theories Target Election Integrity Concerns Now",
           "sources": [
-            "The Guardian"
+            "Wired"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US man charged with mailing hundreds of letters containing powder to officials before midterms",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/03/charges-powder-letters-midterms",
-              "pubDate": "2026-11-03T17:50:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "man-charged-mailing-powder-to-officials-before-midterms"
-        },
-        {
-          "representativeTitle": "Court hears disturbing comments on sexual fantasies.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Man who drugged and raped wife found many men ‘whose fantasy is an unconscious woman’, court told",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/nov/03/man-drugged-and-raped-wife-stockport-men-fantasy-unconscious-woman-court-told",
-              "pubDate": "2026-11-03T17:47:15.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "court-hears-disturbing-comments-on-sexual-fantasies"
-        },
-        {
-          "representativeTitle": "Severe Weather Disrupts U.S. Election Day Operations",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Floods and severe weather beset parts of the U.S. on Election Day",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/weather/floods/floods-severe-weather-beset-parts-us-election-day-rcna607186",
-              "pubDate": "2026-11-03T10:54:12.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Floods and severe weather beset parts of the U.S. on Election Day",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaDRzTjJaSmI3NHBodDlTNWJhWVRlRmhFeGNFV1FDeU94cUxEb2h0V05ybTFZOEl0N0JUOWl0UExPY2dEdDJUUmplMEJjekM0aDZ1YkJTS3NtMTJ2RnlHZHJXTzlkQ2gxYi1tb3prVGtqb2REMU1JS0Nncm1XZDVaTWk0WFRhOVNidVJwT2pSYlQ4Z3FWRjVWNzZzSjBkLWt0?oc=5",
-              "pubDate": "2026-11-03T10:54:12.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "severe-weather-disrupts-us-election-day-operations"
-        },
-        {
-          "representativeTitle": "Midterms Election Day: Americans Vote on Congress Control",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "(1) US midterm elections 2026 live: Americans go to the polls to decide control of Congress",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOHAxandYeXRUQ1lNd2NxTVVTMXo4Mld4WXFnYWJyZF81MEFLV3oybk1FVHB0UDJDNGZPYXZrX21Pa2lxcVFNX1pNOEYtLVZ2bjg2VGlsUGd1cjFaUUhSMUNLTjYyNG9XOXh0OTUxY0swWXpoam9BWDhHdklQQlRWVFlnRTBSNko1T3V5WW1qeDh4cWpo?oc=5",
-              "pubDate": "2026-11-03T19:08:29.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "midterms-election-day-americans-vote-on-congress-control"
-        },
-        {
-          "representativeTitle": "NYC Official Criticizes MSG Owner Over Surveillance Tech Use",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "New York City’s Mamdani criticizes Madison Square Garden owner over surveillance tech",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/03/new-york-citys-mamdani-criticizes-madison-square-garden-owner-over-surveillance-tech/",
-              "pubDate": "2026-11-03T16:04:55.000Z",
+              "title": "The Internet’s Conspiracy Theorists Are Desperate for Voter Fraud",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/the-internets-conspiracy-theorists-are-desperate-for-voter-fraud/",
+              "pubDate": "2026-11-03T21:11:00.000Z",
               "tier": 1
             }
           ],
@@ -1256,37 +1151,162 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "nyc-official-criticizes-msg-owner-over-surveillance-tech-use"
+          "slug": "conspiracy-theories-target-election-integrity-concerns-now"
         },
         {
-          "representativeTitle": "Missouri Patrol Recaptures Escaped Convicted Murderer From Tennessee",
+          "representativeTitle": "Analyzing Trump's Influence on Midterm Election Voters",
           "sources": [
-            "Fox News",
-            "ABC News Top"
+            "BBC US"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Missouri State Highway Patrol recaptures convicted murderer who escaped Tennessee prison",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/us/missouri-state-highway-patrol-recaptures-convicted-murderer-escaped-tennessee-prison",
-              "pubDate": "2026-11-03T17:21:49.000Z",
-              "tier": 2
-            },
+              "title": "Voter voices: Trump's influence on US midterm voters",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/videos/cqj346nndl0yo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-03T10:55:05.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "analyzing-trumps-influence-on-midterm-election-voters"
+        },
+        {
+          "representativeTitle": "Poll shows Trump faces voter and economy doubts.",
+          "sources": [
+            "ABC News Top"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Convicted murderer who escaped prison captured",
+              "title": "Election 2026 live updates: Preliminary Voter Poll shows Trump, economy disapproval",
               "source": "ABC News Top",
-              "link": "https://abcnews.com/US/tennessee-escaped-murderer-caught-kansas-city/story?id=137815827",
-              "pubDate": "2026-11-03T19:05:01.000Z",
+              "link": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
+              "pubDate": "2026-11-03T23:39:45.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "poll-shows-trump-faces-voter-and-economy-doubts"
+        },
+        {
+          "representativeTitle": "Midterms promise historic shifts across states and nation.",
+          "sources": [
+            "Google US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Midterms may bring in wave of historic firsts for some states and the country",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUE1lVWRlWlptbUNFLUoxdUxhVDBGQXJaalludXNlLWhxQ05GSlhkaUxSRlZ1OVVHN3Zuam5wNWxZdmFqbjQ5cTlQNllScnpmSDkwVTNkc2NkczBFcnphSTl5MmJsZEV6LS1zeVZyYzVLRHl2SmNlMkc5MWxYSksyWVV2b0NXeGRlWUF4ZTNqa0JMUWhSejk5YkFodmFEdlIwV295NU9PQkdkcnpGbEc3SC0yV1ZldlQ3SXpVd3dB?oc=5",
+              "pubDate": "2026-11-03T23:27:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "midterms-promise-historic-shifts-across-states-and-nation"
+        },
+        {
+          "representativeTitle": "Record Gas Prices Hit Amid Election Day Changes",
+          "sources": [
+            "NBC News",
+            "ABC News Top"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Highest gas prices for Election Day in U.S. history",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/now/video/highest-gas-prices-for-election-day-in-u-s-history-272776773863",
+              "pubDate": "2026-11-03T19:10:38.000Z",
+              "tier": 2
+            },
+            {
+              "title": "WATCH:  New states in play as record gas prices hit on Election Day",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/video/137803591/",
+              "pubDate": "2026-11-03T14:06:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Where do gas prices stand in key states on Election Day?",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Business/gas-prices-stand-key-states-election-day/story?id=137766114",
+              "pubDate": "2026-11-03T19:04:08.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "record-gas-prices-hit-amid-election-day-changes"
+        },
+        {
+          "representativeTitle": "Florida receives extreme rainfall in short period.",
+          "sources": [
+            "Google US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Parts of Florida see half a year’s worth of rain in 36 hours",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdURXNVJaOUpGT1BoVG03d1cxMGZZYnY4YTZwaHZOSXY2YkFGcE9iOU9vSndiVjVBNmMzOG1JaDZHU1oxWUJKM0RaZW9XWF9sOVNoRG1tMHdlTGN3dFRKdk9lREdQQUl2RGZGRnhoc01kaVRBb1p6cW0xZ3ZUQXdtVGFVeUZGQlEtYnE4UnpHVVNKcndE?oc=5",
+              "pubDate": "2026-11-03T23:08:42.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "florida-receives-extreme-rainfall-in-short-period"
+        },
+        {
+          "representativeTitle": "NBC Explains Election Night Exit Poll Methodology and Use",
+          "sources": [
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "NBC News Exit Poll: How it works and how we use the results on election night",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/2026-election/nbc-news-exit-poll-how-works-results-election-night-rcna606180",
+              "pubDate": "2026-11-03T10:00:40.000Z",
+              "tier": 2
+            },
+            {
+              "title": "See CBS News exit poll results for the 2026 midterm elections",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83NjJWcDNwNEZFX2ZWNlJ5RWxOVWtSbTlFeHJSY1N0dDVYZnQ2N1NCMzJIQm9BVm9iLUJRb0pzQ0s3ZEljdGpXSE45ZWNub0FkLWp0bmVIR1JGMXRDS1ZBeVktVkEyQWo4NGZGMkVtV290amRoSWZhNWZhdE0?oc=5",
+              "pubDate": "2026-11-03T22:15:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
           "relevance_score": 6,
           "importance": 40,
-          "slug": "missouri-patrol-recaptures-escaped-convicted-murderer-from-tennessee"
+          "slug": "nbc-explains-election-night-exit-poll-methodology-and-use"
         },
         {
           "representativeTitle": "Tennessee Authorities Capture Previously Escaped Inmate Now",
@@ -1307,7 +1327,7 @@ export const newsData = {
               "title": "Escaped Tennessee inmate captured, authorities say",
               "source": "Google US",
               "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdm5pXzJ5aWVrVzNNMWhRck1ERVFXd25BMTlJTGpUNUZOUWVGYmQ2cHJ1N3FjUWlEYlNudGNOSVpqbzY2aUZFalRtQ0xWZFphZ3doRVBSYUhhTW8xYXZMSUhrVXp1MjhjV1B1UlByWExVa21mUGtwSW02SlJlVExZRFBadnpvdkw3dU05MUlsb05aMHZlbHh0TDN3?oc=5",
-              "pubDate": "2026-11-03T18:01:00.000Z",
+              "pubDate": "2026-11-03T19:26:26.000Z",
               "tier": 2
             }
           ],
@@ -1319,95 +1339,7 @@ export const newsData = {
           "slug": "tennessee-authorities-capture-previously-escaped-inmate-now"
         },
         {
-          "representativeTitle": "FT guides readers through election night developments.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The FT’s guide to election night",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/c3be88d4-37bb-4eff-8e12-34ab019012e5?syn-25a6b1a6=1",
-              "pubDate": "2026-11-03T14:00:03.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ft-guides-readers-through-election-night-developments"
-        },
-        {
-          "representativeTitle": "Record Gas Prices Hit Amid Election Day Changes",
-          "sources": [
-            "ABC News Top"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "WATCH:  New states in play as record gas prices hit on Election Day",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/video/137803591/",
-              "pubDate": "2026-11-03T14:06:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Where do gas prices stand in key states on Election Day?",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Business/gas-prices-stand-key-states-election-day/story?id=137766114",
-              "pubDate": "2026-11-03T19:04:08.000Z",
-              "tier": 2
-            },
-            {
-              "title": "WATCH:  On the ground in Maine on Election Day",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/video/137804385/",
-              "pubDate": "2026-11-03T16:00:12.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "record-gas-prices-hit-amid-election-day-changes"
-        },
-        {
-          "representativeTitle": "Colorado Preschool Funding Case Heads to Supreme Court",
-          "sources": [
-            "NBC News",
-            "ABC News US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Supreme Court hears Catholic plea to participate in Colorado preschool program",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/supreme-court/supreme-court-hears-catholic-colorado-preschool-program-case-rcna605703",
-              "pubDate": "2026-11-03T11:00:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Case over state funding for Catholic preschools in Colorado comes before the Supreme Court",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/case-state-funding-catholic-preschools-colorado-supreme-court-137808641",
-              "pubDate": "2026-11-03T14:58:43.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "colorado-preschool-funding-case-heads-to-supreme-court"
-        },
-        {
-          "representativeTitle": "NBC Explains Election Night Exit Poll Methodology and Use",
+          "representativeTitle": "Michigan Senate Midterm Election Results Now Available",
           "sources": [
             "NBC News",
             "Google US"
@@ -1415,17 +1347,24 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "NBC News Exit Poll: How it works and how we use the results on election night",
+              "title": "Steve Kornacki analyzes midterm election results live all night long",
               "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/nbc-news-exit-poll-how-works-results-election-night-rcna606180",
-              "pubDate": "2026-11-03T10:00:40.000Z",
+              "link": "https://www.nbcnews.com/video/watch-live-steve-kornacki-analyzes-midterm-election-results-live-all-night-long-272551493776",
+              "pubDate": "2026-11-03T19:20:35.000Z",
               "tier": 2
             },
             {
-              "title": "NBC News Exit Poll: How it works and how we use the results on election night",
+              "title": "Live Results: Michigan Senate midterm election",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQWN5U0pmbmJuaW1MUTg0a1gzSU5XOTNJTUJsT1hUNXBNbVF1UXUtT1gxVk5LY2RJVjJFbGliZkV2ekhyajFVTW5xd1I3UE5OUjhrcnNDaUVwek9LcGF2YldIMVRrR1FiV3NJbEM4VGc5NEo3WVFJYmJEa25kTU1yQnZLdmRobkNmOTF2OFNGVUY4MGhobU9Ga08wSk9WNVBHYUJuN0N4dVVpc0Y5bmc?oc=5",
-              "pubDate": "2026-11-03T10:00:40.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcURNVEI0NEpMQWZWazBFWllBUDVEcDdmWWlnZklCdGhaclI3QTNhR2R2WGNoZk5CdWNzSHJ2WWU0ODlEeld3OUR0anhveTlmb0V6OFQ0OFpoYTVRWkNkUW1BMHZvTmlCbTBHdjU1d2F4LUo4S3NYMGR4cHZNaDhxNXV3TnJpR3FjajFz0gGQAUFVX3lxTE1jeWlDb3laVWJGMl9FUHRqY3h3UVg4RTIyVGdpZlRRNUZxODE1S0xMSVEtQjZXRnBnV1NWUnlSOTRzdFA4RUNBU3Rvb00tclJZQUplaGc2TmpSZHp2R0lWaWRFYW5IYnZ0S1E3Sm9iTm9ZckpxZ3lKbkFOS3c1eGx3RHZzQmlYTjNTdmFMTmFGXw?oc=5",
+              "pubDate": "2026-11-03T14:30:16.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Live Results: Florida Senate midterm election",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZzkyLXh3eUV3LTRqckhqYTR3bUlWaS14NjVmTGZJRjBNMnNLQUJ2N1ZrUW1ndWotS3QwcFhvbUI4OHc4RUJlaXd3WVdfWFo5OUFJMmpGUGRjMFVuZXo2clZLWGs0djNZeWFFS185UmZuOU0xNHdObDQxV0x0OFNSbmljcnRyZHVFRUHSAY8BQVVfeXFMTURhTGVxV1BGaUNkTzQyMzR4SzE2Mk8zZ0dpbmF6UEtIOVJxM3BCMXc4dkhteEw1SkVDM3RtLUlzTGZTRUlWUlQ1NzJBWldXdWZMRVVGRk54d1pIemh1c2FiZ0lqY0Q3cUwteEpicWIwVUJKN1AxY2pGc3czSkROdGExcWpER3ltNEY2eDVTQUE?oc=5",
+              "pubDate": "2026-11-03T14:30:48.000Z",
               "tier": 2
             }
           ],
@@ -1434,13 +1373,101 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 40,
-          "slug": "nbc-explains-election-night-exit-poll-methodology-and-use"
+          "slug": "michigan-senate-midterm-election-results-now-available"
+        },
+        {
+          "representativeTitle": "Democrats Outline Priorities Should They Win House",
+          "sources": [
+            "NPR"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "What Democrats plan to prioritize if they retake the House",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/03/nx-s1-6026666/what-democrats-plan-to-prioritize-if-they-retake-the-house",
+              "pubDate": "2026-11-03T23:11:49.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "democrats-outline-priorities-should-they-win-house"
+        },
+        {
+          "representativeTitle": "States Vote On Voter ID And Redistricting Measures",
+          "sources": [
+            "NPR"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Results: States decide on voter ID and redistricting ballot measures",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/03/nx-s1-6027957/results-voter-id-citizenship-ballot-measures",
+              "pubDate": "2026-11-03T22:53:23.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "states-vote-on-voter-id-and-redistricting-measures"
         }
       ]
     },
     {
       "name": "Stocks",
       "children": [
+        {
+          "representativeTitle": "AI Stock Selloff Occurs Amid Market Uncertainty Fears",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The Big AI Stock Selloff Is Happening at a Bad Time",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/newsletters/2026-11-03/the-big-ai-stock-selloff-is-happening-at-a-bad-time",
+              "pubDate": "2026-11-03T20:57:24.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ai-stock-selloff-occurs-amid-market-uncertainty-fears"
+        },
+        {
+          "representativeTitle": "AI Rally Drives US Stock Futures Higher Today",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US Stock Futures Climb on AI Rally as US Votes: Markets Wrap",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-03/stock-market-today-dow-s-p-live-updates",
+              "pubDate": "2026-11-03T22:20:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "ai-rally-drives-us-stock-futures-higher-today"
+        },
         {
           "representativeTitle": "Ferrari Boosts 2026 Outlook Following Strong Earnings",
           "sources": [
@@ -1452,7 +1479,7 @@ export const newsData = {
               "title": "Ferrari raises 2026 guidance after Q3 earnings beat",
               "source": "CNBC Economy",
               "link": "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html",
-              "pubDate": "2026-11-03T18:52:06.000Z",
+              "pubDate": "2026-11-03T21:11:34.000Z",
               "tier": 1
             }
           ],
@@ -1462,6 +1489,28 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "ferrari-boosts-2026-outlook-following-strong-earnings"
+        },
+        {
+          "representativeTitle": "Palantir's growth masks underlying warning signs.",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+              "pubDate": "2026-11-03T21:05:55.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Stocks",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "palantirs-growth-masks-underlying-warning-signs"
         },
         {
           "representativeTitle": "S&P History Analyzed Post-Midterm Election Impact",
@@ -1486,50 +1535,6 @@ export const newsData = {
           "slug": "sp-history-analyzed-post-midterm-election-impact"
         },
         {
-          "representativeTitle": "Market Bounces Amid Election Uncertainty Awaits Results",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Stocks Bounce Back as Wall Street Awaits Midterm Election Results",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-03/bloomberg-surveillance-11-3-2026-video",
-              "pubDate": "2026-11-03T16:57:48.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "market-bounces-amid-election-uncertainty-awaits-results"
-        },
-        {
-          "representativeTitle": "CFTC Approves Trading on US Stock Perpetuals Contracts",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trading on US Stock Perpetuals Contracts Is Approved by CFTC",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-03/trading-on-us-stock-perpetuals-contracts-is-approved-by-cftc",
-              "pubDate": "2026-11-03T15:50:06.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "cftc-approves-trading-on-us-stock-perpetuals-contracts"
-        },
-        {
           "representativeTitle": "Versant Beats Earnings Driven by Digital Platforms Growth",
           "sources": [
             "CNBC Economy"
@@ -1550,36 +1555,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "versant-beats-earnings-driven-by-digital-platforms-growth"
-        },
-        {
-          "representativeTitle": "Palantir Stock Drops Amid Earnings Concerns Raised",
-          "sources": [
-            "MarketWatch",
-            "Google Stocks"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
-              "pubDate": "2026-11-03T16:31:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Palantir Stock Tumbles as Wall Street Finds Problems in Big Earnings Beat",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmaHVqdkxNZVdKWERyTmp6U1VTRHdub05tMHZSRHlrd0MwajF1aDdWeW5YT2JHMXpSeTR5a3RXcG1PeUQ4S244U2xLT1NYTlRaajVDb0RGN1FlTjJINk1QQmdrRzFRMVhpa2ZuNU1PbTR5cWVtcGVtVlIybw?oc=5",
-              "pubDate": "2026-11-03T15:55:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "palantir-stock-drops-amid-earnings-concerns-raised"
         }
       ]
     },
@@ -1617,33 +1592,70 @@ export const newsData = {
           "slug": "cyberattacks-hit-uk-food-suppliers-after-europe"
         },
         {
-          "representativeTitle": "Morgan Stanley Offers Billions in Debt to Dell Family",
+          "representativeTitle": "CVS Health plans dismantling massive healthcare empire.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "CVS Health moves to dismantle $117bn healthcare empire",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/2478a5ea-263a-4f4f-ac96-7d619fb39bb8?syn-25a6b1a6=1",
+              "pubDate": "2026-11-03T22:33:06.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "cvs-health-plans-dismantling-massive-healthcare-empire"
+        },
+        {
+          "representativeTitle": "Tariffs Impact Small Businesses Across Economy Now",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump tariffs hitting small businesses",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/tv-shows/business/20261103-trump-tariffs-hitting-small-businesses",
+              "pubDate": "2026-11-03T21:45:39.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "tariffs-impact-small-businesses-across-economy-now"
+        },
+        {
+          "representativeTitle": "Hong Kong IPO Boom Slows; Deals Abandoned Since 2008",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "NextEra Offers New Safeguards for $67 Billion Dominion Deal",
+              "title": "Hong Kong Deal Boom Slows With Most IPOs Abandoned Since 2008",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-03/nextera-agrees-to-more-safeguards-for-67-billion-dominion-deal",
-              "pubDate": "2026-11-03T12:24:22.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Morgan Stanley Offers $2.3 Billion Debt for Dell Family Deal",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-03/morgan-stanley-offers-2-3-billion-debt-for-dell-family-deal",
-              "pubDate": "2026-11-03T16:43:57.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-03/hong-kong-deal-boom-slows-with-most-ipos-abandoned-since-2008",
+              "pubDate": "2026-11-03T23:00:00.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "morgan-stanley-offers-billions-in-debt-to-dell-family"
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "hong-kong-ipo-boom-slows-deals-abandoned-since-2008"
         },
         {
           "representativeTitle": "Taco Bell Sales Improve Following Cyclospora Outbreak Fallout",
@@ -1676,6 +1688,94 @@ export const newsData = {
           "slug": "taco-bell-sales-improve-following-cyclospora-outbreak-fallout"
         },
         {
+          "representativeTitle": "UOB Profit Misses Estimates Due to Lower Income",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "UOB Profits Miss Estimates as Lower Trading Income Dampens Gains",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-03/uob-profits-miss-estimates-as-lower-trading-income-dampens-gains",
+              "pubDate": "2026-11-03T23:14:17.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "uob-profit-misses-estimates-due-to-lower-income"
+        },
+        {
+          "representativeTitle": "Oil Market Analysis Provided For November Fourth Trading",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Latest Oil Market News and Analysis for Nov. 4",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-03/latest-oil-market-news-and-analysis-for-nov-4",
+              "pubDate": "2026-11-03T23:08:04.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "oil-market-analysis-provided-for-november-fourth-trading"
+        },
+        {
+          "representativeTitle": "JetBlue raises fees amid rising fuel costs.",
+          "sources": [
+            "CNBC Economy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "JetBlue raises bag fees for third time in a year as fuel costs bite",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/11/03/jetblue-checked-bag-fee.html",
+              "pubDate": "2026-11-03T22:26:20.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "jetblue-raises-fees-amid-rising-fuel-costs"
+        },
+        {
+          "representativeTitle": "CEO Discusses Future Trajectory of Detroit Real Estate Market",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Bedrock CEO on Future of Detroit Real Estate",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-03/bedrock-ceo-on-future-of-detroit-real-estate-video",
+              "pubDate": "2026-11-03T22:19:33.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ceo-discusses-future-trajectory-of-detroit-real-estate-market"
+        },
+        {
           "representativeTitle": "Disney Announces Layoffs and Cost-Cutting Measures Now",
           "sources": [
             "CNBC Economy"
@@ -1698,17 +1798,83 @@ export const newsData = {
           "slug": "disney-announces-layoffs-and-cost-cutting-measures-now"
         },
         {
-          "representativeTitle": "BoC Says Fiscal Policy Not Currently Fueling Inflation",
+          "representativeTitle": "Booking Sees Weaker Quarter Due to Prices, Unrest",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Bank of Canada Says Fiscal Policy Isn’t Stoking Inflation Yet",
+              "title": "Booking Sees Weaker Final Quarter as Prices, Unrest Hurt Travel",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-03/bank-of-canada-says-fiscal-and-monetary-policy-aren-t-at-odds",
-              "pubDate": "2026-11-03T19:03:58.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-03/booking-sees-weaker-final-quarter-as-prices-unrest-hurt-travel",
+              "pubDate": "2026-11-03T21:56:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "booking-sees-weaker-quarter-due-to-prices-unrest"
+        },
+        {
+          "representativeTitle": "NZ Joblessness Hits Eleven-Year High Amid Election Fears",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "New Zealand Jobless Rises to 11-Year High as Election Looms",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-03/new-zealand-jobless-rises-to-11-year-high-as-election-looms",
+              "pubDate": "2026-11-03T21:50:39.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "nz-joblessness-hits-eleven-year-high-amid-election-fears"
+        },
+        {
+          "representativeTitle": "Venture Firm Seeks Funds Amid Cybersecurity Boom",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+              "pubDate": "2026-11-03T21:43:08.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "venture-firm-seeks-funds-amid-cybersecurity-boom"
+        },
+        {
+          "representativeTitle": "Traders shift sentiment on Treasuries ahead of data.",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Traders Turn Less Bearish on Treasuries Before Refunding, Jobs",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-03/traders-turn-less-bearish-on-treasuries-before-refunding-jobs",
+              "pubDate": "2026-11-03T21:30:23.000Z",
               "tier": 1
             }
           ],
@@ -1717,7 +1883,51 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "boc-says-fiscal-policy-not-currently-fueling-inflation"
+          "slug": "traders-shift-sentiment-on-treasuries-ahead-of-data"
+        },
+        {
+          "representativeTitle": "Schneider Electric Coalition Focuses on Industry Solutions",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Schneider Electric Coalition Spotlight",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-03/schneider-electric-coalition-spotlight-video",
+              "pubDate": "2026-11-03T21:18:36.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "schneider-electric-coalition-focuses-on-industry-solutions"
+        },
+        {
+          "representativeTitle": "AGOA End Threatens South African Job Market Stability",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "South Africa braces for some job losses as AGOA ends",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/south-africa-braces-for-some-job-losses-as-agoa-ends",
+              "pubDate": "2026-11-03T21:18:25.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "agoa-end-threatens-south-african-job-market-stability"
         },
         {
           "representativeTitle": "Ferrari's New EV Model Sells Out For 2027",
@@ -1764,158 +1974,26 @@ export const newsData = {
           "slug": "former-weil-partners-sue-over-firm-wind-down-issues"
         },
         {
-          "representativeTitle": "Billionaire Considers Selling Major Insurance Company Stake",
+          "representativeTitle": "Analysis reveals factors causing law firm failures.",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Billionaire Mark Walter has explored sale of $71bn insurer Delaware Life",
+              "title": "What Weil Gotshal teaches us about how law firms die",
               "source": "FT International",
-              "link": "https://www.ft.com/content/570191b9-7910-4627-8779-6a382ef26613?syn-25a6b1a6=1",
-              "pubDate": "2026-11-03T17:42:39.000Z",
+              "link": "https://www.ft.com/content/958c09b7-bebf-4322-9c11-c2ec5b0eed73",
+              "pubDate": "2026-11-03T11:00:07.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "billionaire-considers-selling-major-insurance-company-stake"
-        },
-        {
-          "representativeTitle": "JPMorgan Urges Treasury to Scrap Bond Issuance",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "JPMorgan’s Michele Urges Treasury to Ax ‘Orphan’ 20-Year Bond",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-03/jpmorgan-s-michele-urges-treasury-to-ax-orphan-20-year-bond",
-              "pubDate": "2026-11-03T17:26:02.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "jpmorgan-urges-treasury-to-scrap-bond-issuance"
-        },
-        {
-          "representativeTitle": "Hydro-Quebec Imports Power After US Utility Deals",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Hydro-Quebec Forced to Import More Power After Deals With US Utilities",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-03/hydro-quebec-forced-to-import-more-power-after-deals-with-us-utilities",
-              "pubDate": "2026-11-03T17:18:12.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "hydro-quebec-imports-power-after-us-utility-deals"
-        },
-        {
-          "representativeTitle": "Rivian Spinout Drops Kenyan E-Moto Project Plans",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Rivian spinout Also was working on an e-moto project in Kenya — until it walked away",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/03/rivian-spinout-also-owns-up-to-mistakes-in-delayed-e-bike-launch/",
-              "pubDate": "2026-11-03T16:49:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "rivian-spinout-drops-kenyan-e-moto-project-plans"
-        },
-        {
-          "representativeTitle": "Chile Pension Funds See Relief From Narrowing Swap Losses",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Chile Pension Funds Breath Sigh of Relief as Swap Losses Narrow",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-03/chile-pension-funds-breath-sigh-of-relief-as-swap-losses-narrow",
-              "pubDate": "2026-11-03T16:48:24.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "chile-pension-funds-see-relief-from-narrowing-swap-losses"
-        },
-        {
-          "representativeTitle": "UK Charges Builders Fee on First Home Sales",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "UK to Charge Builders 4% of ‘Your First Home’ Program Sales",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-03/uk-government-to-charge-builders-4-of-your-first-home-sales",
-              "pubDate": "2026-11-03T16:37:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "uk-charges-builders-fee-on-first-home-sales"
-        },
-        {
-          "representativeTitle": "Roli's Collapse Leaves Customers Facing Losses",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Roli Has Fallen Apart—and Left Customers Holding the Bag",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/roli-has-fallen-apart-and-left-customers-holding-the-bag/",
-              "pubDate": "2026-11-03T14:00:34.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "rolis-collapse-leaves-customers-facing-losses"
+          "slug": "analysis-reveals-factors-causing-law-firm-failures"
         },
         {
           "representativeTitle": "Baked by Melissa Launches Cupcake Mix at Target",
@@ -1944,6 +2022,36 @@ export const newsData = {
     {
       "name": "Technology",
       "children": [
+        {
+          "representativeTitle": "Major Crypto Exchange Reports Massive Theft Incident Details",
+          "sources": [
+            "The Verge",
+            "Wired"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
+              "pubDate": "2026-11-03T22:04:02.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Binance Says Hackers Used Well-Known Tricks to Carry Out a $6.34 Billion Heist",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/binance-says-hackers-used-well-known-tricks-to-carry-out-a-dollar634-billion-heist/",
+              "pubDate": "2026-11-03T19:04:58.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "major-crypto-exchange-reports-massive-theft-incident-details"
+        },
         {
           "representativeTitle": "Google AI Tools Limited; Search Functionality Impacted Now",
           "sources": [
@@ -1975,39 +2083,61 @@ export const newsData = {
           "slug": "google-ai-tools-limited-search-functionality-impacted-now"
         },
         {
-          "representativeTitle": "Major Crypto Exchange Reports Massive Theft Incident Details",
+          "representativeTitle": "AI Pioneer Warns: Humanity Might Be Better Off Without It",
           "sources": [
-            "Wired"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Binance Says Hackers Used Well-Known Tricks to Carry Out a $6.34 Billion Heist",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/binance-says-hackers-used-well-known-tricks-to-carry-out-a-dollar634-billion-heist/",
-              "pubDate": "2026-11-03T19:04:58.000Z",
+              "title": "AI ‘godfather’ Geoffrey Hinton: it might turn out we were better off without AI",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+              "pubDate": "2026-11-03T21:35:42.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Technology",
+          "ingestionCategory": "World",
           "aiCategory": "Technology",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "major-crypto-exchange-reports-massive-theft-incident-details"
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "ai-pioneer-warns-humanity-might-be-better-off-without-it"
         },
         {
-          "representativeTitle": "Anthropic faces compute economics challenges in AI race.",
+          "representativeTitle": "Anthropic develops system to verify AI model identity.",
           "sources": [
             "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Anthropic is still grappling with the economics of compute",
+              "title": "Anthropic is working on a system to prove AI models’ identity",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
-              "pubDate": "2026-11-03T17:07:01.000Z",
+              "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+              "pubDate": "2026-11-03T22:41:03.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "anthropic-develops-system-to-verify-ai-model-identity"
+        },
+        {
+          "representativeTitle": "Data Centers Use Old Engines Amid Power Shortages",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Data centers are turning to old jet engines as the wait for power grows",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+              "pubDate": "2026-11-03T22:19:53.000Z",
               "tier": 1
             }
           ],
@@ -2016,7 +2146,59 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "anthropic-faces-compute-economics-challenges-in-ai-race"
+          "slug": "data-centers-use-old-engines-amid-power-shortages"
+        },
+        {
+          "representativeTitle": "AI Startup Fal Doubles Valuation Amid Surging Demand",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+              "pubDate": "2026-11-03T19:34:43.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ai-startup-fal-doubles-valuation-amid-surging-demand"
+        },
+        {
+          "representativeTitle": "Google threatens search access over AI tool rejection.",
+          "sources": [
+            "NBC News",
+            "ABC News US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Google to shut off search for schools that opt out of AI",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/tech/tech-news/google-shut-search-schools-opt-ai-rcna607280",
+              "pubDate": "2026-11-03T18:32:31.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Google will cut off search access for students at schools that reject AI tools",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/google-cut-off-search-access-students-schools-reject-137823026",
+              "pubDate": "2026-11-03T21:52:54.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "google-threatens-search-access-over-ai-tool-rejection"
         },
         {
           "representativeTitle": "Hackers Steal $6.3 Billion From Binance Exchange",
@@ -2041,78 +2223,56 @@ export const newsData = {
           "slug": "hackers-steal-63-billion-from-binance-exchange"
         },
         {
-          "representativeTitle": "Experts Warn Against Using AI in Voting Processes",
+          "representativeTitle": "Apple Restricts Dating Apps and AI Companions Usage",
           "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Here’s Why You Shouldn’t Use AI to Vote",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
-              "pubDate": "2026-11-03T14:45:08.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "experts-warn-against-using-ai-in-voting-processes"
-        },
-        {
-          "representativeTitle": "Google removes botnet from millions of Android TVs.",
-          "sources": [
-            "Ars Technica",
+            "TechCrunch",
             "Google Tech"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Google dismantles botnet secretly running on 1.3 million Android TV boxes",
-              "source": "Ars Technica",
-              "link": "https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/",
-              "pubDate": "2026-11-03T17:08:21.000Z",
-              "tier": 2
+              "title": "Apple restricts dating apps and AI companions to users 18 and up",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+              "pubDate": "2026-11-03T15:38:27.000Z",
+              "tier": 1
             },
             {
-              "title": "Google dismantles botnet secretly running on 1.3 million Android TV boxes",
+              "title": "Apple restricts dating apps and AI companions to users 18 and up",
               "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaDVBR280clh0VUlSdFA3ZU5JOU1FbHRsdExRal9rajlJWTlUU2M2aDlhZUVmQ0JFMlJsWllaVWVZX0NSaHlka2ttenRFUGVmZEd2X0tuUlFoZEI2cDZ2d2pDcGx6R05zcWJvaE9Td21nVHE5U3RQRE1rSGZ3WWlOZUgzNlp3VnljM3FoZDhWeDY1VjRfeDllekdhdVJFN0RkUUhmRzYtVVZxSlFNS0NhVUp1NA?oc=5",
-              "pubDate": "2026-11-03T17:08:21.000Z",
+              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRllpdmJRcjJ2OVhjQnI1dVVqdW9mZW5IYm5VX2J1QmhQSHRlTGsyUkJIVDZweWp6dmZ6WnVWUGJubUhUc2F6dGpmVGdyVXVsUWpZLVVyUDRKbXYtc0tBQk5senJkSFI5SS1yV2dJY0FFallfVjRsM2dvN3NXYnBfek5tZmVhSUotcUVjMUF5dW9SRktDYmVPZkwtSWVFS2lY?oc=5",
+              "pubDate": "2026-11-03T15:38:27.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
+          "sentiment": 0,
+          "relevance_score": 6,
           "importance": 50,
-          "slug": "google-removes-botnet-from-millions-of-android-tvs"
+          "slug": "apple-restricts-dating-apps-and-ai-companions-usage"
         },
         {
-          "representativeTitle": "CrowdStrike Invests Heavily In AI Security Startups",
+          "representativeTitle": "Black Forest Lab details next phase of AI research.",
           "sources": [
-            "TechCrunch"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
-              "pubDate": "2026-11-03T17:56:52.000Z",
+              "title": "Black Forest Lab on AI’s Next Phase",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-03/black-forest-lab-on-ai-s-next-phase-video",
+              "pubDate": "2026-11-03T21:03:45.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Technology",
+          "ingestionCategory": "Stocks",
           "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "crowdstrike-invests-heavily-in-ai-security-startups"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "black-forest-lab-details-next-phase-of-ai-research"
         },
         {
           "representativeTitle": "Reddit tests ads amid traffic decline concerns.",
@@ -2137,88 +2297,6 @@ export const newsData = {
           "slug": "reddit-tests-ads-amid-traffic-decline-concerns"
         },
         {
-          "representativeTitle": "Netflix Uses AI To Personalize Viewing Experience Further",
-          "sources": [
-            "TechCrunch",
-            "The Verge"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
-              "pubDate": "2026-11-03T18:42:16.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
-              "pubDate": "2026-11-03T18:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 4,
-          "importance": 40,
-          "slug": "netflix-uses-ai-to-personalize-viewing-experience-further"
-        },
-        {
-          "representativeTitle": "Apple Watch Beta Tests AI Conversation Rewind Features",
-          "sources": [
-            "TechCrunch",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
-              "pubDate": "2026-11-03T07:20:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ2dtZU5rb1NSbFYxcy16T1dCUHBoYjhGeWxVaWgwODd2dUFJSDdkRjctSkVfWkVDRUNMSjJ0cUhnM3dfVWV3UW93QXM3VExfQ0xLWkJkSF85MllnWi1udHkwRXBsWE1qaWU2UUNlT01DVDU2c3J5MFR2bGxGZmQya05yTDdxR2Y4ckc3S19BMUdzSVoxbkFOeWtBX1dWZGhSN0U3cG92eXRfZzl5TmRUU3lVNERFbzFxR2tPWQ?oc=5",
-              "pubDate": "2026-11-03T07:20:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "apple-watch-beta-tests-ai-conversation-rewind-features"
-        },
-        {
-          "representativeTitle": "Apple Restricts Dating Apps and AI Companions Usage",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Apple restricts dating apps and AI companions to users 18 and up",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
-              "pubDate": "2026-11-03T15:38:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "apple-restricts-dating-apps-and-ai-companions-usage"
-        },
-        {
           "representativeTitle": "Apple delays foldable iPhone release timing before holidays.",
           "sources": [
             "BBC US"
@@ -2241,56 +2319,48 @@ export const newsData = {
           "slug": "apple-delays-foldable-iphone-release-timing-before-holidays"
         },
         {
-          "representativeTitle": "Boston Event Offers More Than Tech Summit Focus",
+          "representativeTitle": "Netflix Uses AI To Personalize Viewing Experience Further",
           "sources": [
             "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on Nov. 4",
+              "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/",
-              "pubDate": "2026-11-03T14:30:00.000Z",
+              "link": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+              "pubDate": "2026-11-03T18:42:16.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0.4,
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "netflix-uses-ai-to-personalize-viewing-experience-further"
+        },
+        {
+          "representativeTitle": "Lenovo IdeaPad Slim 5 Now Available For $900",
+          "sources": [
+            "Wired"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The Lenovo IdeaPad Slim 5x Is Only $900 Right Now",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/lenovo-ideapad-slim-5x-deal-11-26/",
+              "pubDate": "2026-11-03T22:44:01.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "boston-event-offers-more-than-tech-summit-focus"
-        },
-        {
-          "representativeTitle": "Xbox releases smallest controller; comfort praised by users.",
-          "sources": [
-            "The Verge",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Xbox’s smallest-ever controller is surprisingly comfortable",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/1025097/xbox-nano-controller-hands-on",
-              "pubDate": "2026-11-03T17:00:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Xbox’s smallest-ever controller is surprisingly comfortable",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1XSXdVZ182OXFlUUpTTzRrU1VvUUJld1VldmctdkRlUG5EeXlKSlo0ZC1jUzZYV0h0YWtnaU1qY3BFeGQ0QlJXdlJoSXRmOVBGM3JRNzNOcFlhQUFXZjJVNHdudV84ZTlweFlYTmxHc0xLNDkyUVE?oc=5",
-              "pubDate": "2026-11-03T17:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 3,
+          "relevance_score": 2,
           "importance": 25,
-          "slug": "xbox-releases-smallest-controller-comfort-praised-by-users"
+          "slug": "lenovo-ideapad-slim-5-now-available-for-900"
         }
       ]
     },
@@ -2298,102 +2368,107 @@ export const newsData = {
       "name": "Science",
       "children": [
         {
-          "representativeTitle": "Sahara Meteorite Reveals Secrets of Mars Water Past",
+          "representativeTitle": "Space Station Prints First Rigid Beam in Vacuum",
           "sources": [
-            "Wired",
-            "Google Science"
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Orbital Matter 3D-printed the first rigid beam in the vacuum of space",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/",
+              "pubDate": "2026-11-03T20:57:17.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "space-station-prints-first-rigid-beam-in-vacuum"
+        },
+        {
+          "representativeTitle": "Astronauts Vote From Space: Novel Political Procedure Explored",
+          "sources": [
+            "Al Jazeera",
+            "Time"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Ancient Meteorite Found in the Sahara Holds Secrets About Mars’ Watery Past",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/ancient-fragment-from-mars-found-in-the-sahara-holds-secrets-about-the-planets-watery-past/",
-              "pubDate": "2026-11-03T10:15:00.000Z",
+              "title": "US astronauts vote from space in 2026 midterm elections",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/3/aje-onl-nf_us-astronauts-vote-from-space-in-2026-elections-031126?traffic_source=rss",
+              "pubDate": "2026-11-03T21:03:24.000Z",
               "tier": 1
             },
             {
-              "title": "Ancient Mars Meteorite From the Sahara Is Over 4 Billion Years Old",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMnVfN18tZGNSM1pfOUZsVHdFcnAwUFZwT2JyTU5jU3JleVZiQ05PSXlvdVRUUGJ2c1YxQ3pWTG03U1RvZHY0MThkbXFILWlLQVpaVjZzN2czdmx6SGVCX19TY29IcmxEX2RkQTBUeWt4WGJEcENJeXVQRFdBSHduTHVzbjBBWHItLTJLSkMzWEc1aDgtbk1IQURhZURua1ZzXzRjRG5QYlhvelZBUVNMeXczMjFlajEzc3FMbDlTa0pDVF9lUVE?oc=5",
-              "pubDate": "2026-11-03T14:25:53.000Z",
+              "title": "How Astronauts Are Casting Their Midterm Votes From Space",
+              "source": "Time",
+              "link": "https://time.com/article/2026/11/03/how-astronauts-are-casting-their-midterm-votes-from-space/",
+              "pubDate": "2026-11-03T19:46:54.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "Science",
+          "ingestionCategory": "World",
           "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "sahara-meteorite-reveals-secrets-of-mars-water-past"
-        },
-        {
-          "representativeTitle": "Ancient Asteroid Reveals Full Blueprint of Life's Code",
-          "sources": [
-            "Science Daily",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "All 5 genetic “letters” of DNA and RNA discovered in a 4.5-billion-year-old asteroid",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm",
-              "pubDate": "2026-11-03T10:58:24.000Z",
-              "tier": 2
-            },
-            {
-              "title": "All 5 genetic “letters” of DNA and RNA discovered in a 4.5-billion-year-old asteroid",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WU2FVT3lpVXI0eUFiSG9kNng3LXpYVjhHUkhMNk9zUkxEdk83a3VxUXlVSm1rc2ZZWUhfWGI3ZWYzOHBJN2RhQXd1NWRDSVdUby1zZHBlemh2Y1ozb2stRUxTS1pLMW9fSHpUcnFiWQ?oc=5",
-              "pubDate": "2026-11-03T11:00:02.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 55,
-          "slug": "ancient-asteroid-reveals-full-blueprint-of-lifes-code"
-        },
-        {
-          "representativeTitle": "Physicists advance toward 'Zeptoverse' particle research.",
-          "sources": [
-            "Phys.org",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Physicists step closer to the 'Zeptoverse' after 42-year particle search",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-physicists-closer-zeptoverse-year-particle.html",
-              "pubDate": "2026-11-03T15:40:30.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Physicists step closer to the 'Zeptoverse' after 42-year particle search",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUTd4MEhZeDNfMkVpdkszR2RQdE4taWF6RGt2elFzcWZfb25NRW02N0tFWWlxSGE5THZwZzkta2xfYm9VSl9iRVAwMjZnNk9hMGhvTkpYTVBpN0o1SnpKNEQ0bEdhWHR1NjlIU1drOWlKbUdYbWw0OXZjcnUzY0ZKU1Ixdw?oc=5",
-              "pubDate": "2026-11-03T15:40:30.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
+          "sentiment": 0,
+          "relevance_score": 6,
           "importance": 50,
-          "slug": "physicists-advance-toward-zeptoverse-particle-research"
+          "slug": "astronauts-vote-from-space-novel-political-procedure-explored"
+        },
+        {
+          "representativeTitle": "Cooking Emissions Exceed Vehicle Exhausts in Major Cities",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Cooking is a bigger source of harmful air particles than vehicle exhausts in London and Beijing",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-cooking-bigger-source-air-particles.html",
+              "pubDate": "2026-11-03T23:20:02.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "cooking-emissions-exceed-vehicle-exhausts-in-major-cities"
+        },
+        {
+          "representativeTitle": "New Framework Measures Biodiversity Goals for Action",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "New framework helps turn biodiversity goals into measurable action",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-framework-biodiversity-goals-action.html",
+              "pubDate": "2026-11-03T23:20:07.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "new-framework-measures-biodiversity-goals-for-action"
         },
         {
           "representativeTitle": "NASA Observatory Falling; Impact Details Provided Now",
           "sources": [
-            "Wired",
-            "Google Science"
+            "Wired"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "NASA’s Swift Observatory Is Falling to Earth. Here’s What to Know About the Impending Impact",
@@ -2401,95 +2476,14 @@ export const newsData = {
               "link": "https://www.wired.com/story/nasas-swift-observatory-is-falling-to-earth-heres-what-to-know-about-the-impending-impact/",
               "pubDate": "2026-11-03T10:45:00.000Z",
               "tier": 1
-            },
-            {
-              "title": "NASA’s Swift Observatory Is Falling to Earth. Here’s What to Know About the Impending Impact",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmxYOHZ1aUFOVFhsZlRRZC1aREMtOWRrR2I0MEtfdVJiVEd3X095cDFwT29IbS1rakdqRGNPYUJVY19YWEROc3haalQwYTJrbVdXbkV1UU5TaENrdF9GeWhqcU5XSzFYbnh4ZE1nU2pES2p0a1JleWhCMWJvd3RvUGxKNWFpOEVKbE1QMEd6WWY5TGFmQ2tXWmdyN2pTMWJVbEJwN2U2cTN1cmZMQjJhanBwV244LXRJTmc?oc=5",
-              "pubDate": "2026-11-03T10:45:00.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 50,
+          "importance": 45,
           "slug": "nasa-observatory-falling-impact-details-provided-now"
-        },
-        {
-          "representativeTitle": "Sea-level rise impacts daily life even inland areas.",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Five ways that sea‑level rise affects your daily life, even if you live inland",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-ways-sealevel-affects-daily-life.html",
-              "pubDate": "2026-11-03T19:00:11.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "sea-level-rise-impacts-daily-life-even-inland-areas"
-        },
-        {
-          "representativeTitle": "Wildfire damage projected to triple by mid-century",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US wildfire damage is on pace to triple by mid‑century, but there are affordable ways to lower the risk",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-wildfire-pace-triple-midcentury-ways.html",
-              "pubDate": "2026-11-03T18:40:02.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "wildfire-damage-projected-to-triple-by-mid-century"
-        },
-        {
-          "representativeTitle": "Voyager 1 Nears Historic One-Light-Day Milestone Marker",
-          "sources": [
-            "Science Daily",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "NASA’s Voyager 1 is about to reach a historic one-light-day milestone",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/11/261103003152.htm",
-              "pubDate": "2026-11-03T08:11:10.000Z",
-              "tier": 2
-            },
-            {
-              "title": "NASA’s Voyager 1 is about to reach a historic one-light-day milestone",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yWC0yb2gtSi1vdU1VaEtIVUhiY1ZIY0JiTkdVTXUxT3dGaWIwcGxyZGFMLU5FMDd0MkxwT0hfcG1jUjdxdDQyRnRpWGQwWmpOZ3ZPeWtnaTNRemdpUHFIT2NmRGl3Zkc5R0dkQmkybw?oc=5",
-              "pubDate": "2026-11-03T08:25:47.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "voyager-1-nears-historic-one-light-day-milestone-marker"
         }
       ]
     }
