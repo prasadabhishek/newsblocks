@@ -1,23 +1,20 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-11-04T07:55:56.453Z",
+  "lastUpdated": "2026-11-04T12:04:56.268Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Spain Minister Resigns After Fatal Train Crash Incident",
+          "representativeTitle": "Spain Transport Minister Resigns After Deadly Train Crash",
           "sources": [
             "BBC World",
             "The Guardian",
-            "Al Jazeera",
             "SCMP",
             "Sky News",
-            "Euronews",
-            "Le Monde",
-            "Google World"
+            "Le Monde"
           ],
-          "citationCount": 8,
+          "citationCount": 5,
           "rawArticles": [
             {
               "title": "Spanish transport minister resigns days after deadly train crash",
@@ -31,13 +28,6 @@ export const newsData = {
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/2026/nov/03/spain-transport-minister-oscar-puente-resigns-deadly-train-crash",
               "pubDate": "2026-11-03T21:46:02.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Spanish transport minister resigns after train crash killed 69 people",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/spanish-transport-minister-resigns-after-train-crash-killed-69-people?traffic_source=rss",
-              "pubDate": "2026-11-04T07:18:08.000Z",
               "tier": 1
             },
             {
@@ -55,126 +45,88 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Spain’s transport minister Óscar Puente resigns over Urda train crash that killed 69",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/03/spains-transport-minister-oscar-puente-resigns-over-urda-train-crash-that-killed-69",
-              "pubDate": "2026-11-03T21:12:54.000Z",
-              "tier": 2
-            },
-            {
               "title": "Spain's transport minister resigns after deadly train crash that killed 69 people",
               "source": "Le Monde",
               "link": "https://www.lemonde.fr/en/international/article/2026/11/03/spain-s-transport-minister-resigns-after-deadly-train-crash-that-killed-69-people_6770821_4.html",
               "pubDate": "2026-11-03T21:38:33.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Spanish transport minister resigns days after deadly train crash",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtZl9lbHNZbnYyZi02bEw3ZUxsc3FkUzNNZ1JDelZNY1NnSjFaajBGSC1HTlZFNkY5RUZMOExvNXNSUXFTVTNRbFNlMmxXRmtaekdkaVJvc041RVU?oc=5",
-              "pubDate": "2026-11-03T22:45:59.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 100,
-          "slug": "spain-minister-resigns-after-fatal-train-crash-incident"
-        },
-        {
-          "representativeTitle": "Bomb Threats Cause Widespread European Flight Disruptions Now",
-          "sources": [
-            "BBC World",
-            "The Guardian",
-            "SCMP",
-            "Google World"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "Seven flights across Europe targeted by suspected bomb threats",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-03T20:42:47.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Seven reported bomb threats against European flights confirmed as false alarms – as it happened",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news",
-              "pubDate": "2026-11-03T18:22:57.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Seven planes across Europe searched or diverted after ‘malicious hoax’ bomb threats",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/03/four-planes-flying-across-europe-targeted-by-bomb-threats",
-              "pubDate": "2026-11-03T17:32:45.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Fake bomb threats on flights and cruise ship cause travel disruption in Europe",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3373186/fake-bomb-threats-flights-and-cruise-ship-cause-travel-disruption-europe",
-              "pubDate": "2026-11-03T19:04:21.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Bomb Threats Disrupt Several Flights Across Europe",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV1NrMER4Z3FTa1hfdDd3b0RNV0pGUEtQS3BHZ2RBbklBbUhMMjhKdlVSVm5Gcy12TGFlZzBKOU9QM3dmdVNBNkdNV2hrRVVqTFlndllJcGg5ckpXSVhKb1pScEVzXzFKaXQyY0tRdF9LaG1lVkhMM2x2d2JINk9KaDR5TUVMZjgwSTZjZExfd0M?oc=5",
-              "pubDate": "2026-11-04T07:29:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 90,
-          "slug": "bomb-threats-cause-widespread-european-flight-disruptions-now"
+          "importance": 85,
+          "slug": "spain-transport-minister-resigns-after-deadly-train-crash"
         },
         {
-          "representativeTitle": "ANC Faces Anger Amid Local Election Voting Day",
+          "representativeTitle": "Election Body Rejects Fraud Claims Against Arab Party",
           "sources": [
-            "The Guardian",
-            "Al Jazeera"
+            "Al Jazeera",
+            "SCMP"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "ANC faces anger over poor services as South Africans vote in local elections",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
-              "pubDate": "2026-11-04T04:00:23.000Z",
+              "title": "Israel vote results confirmed as election commission rejects fraud claims",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/4/israel-vote-results-confirmed-as-election-commission-rejects-fraud-claims?traffic_source=rss",
+              "pubDate": "2026-11-04T10:37:21.000Z",
               "tier": 1
             },
             {
-              "title": "South Africans vote in local elections seen as test for embattled ANC",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc?traffic_source=rss",
-              "pubDate": "2026-11-04T06:57:06.000Z",
-              "tier": 1
+              "title": "Blow for Netanyahu as Israeli election body rejects claims of Arab party fraud",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3373260/blow-netanyahu-israeli-election-body-rejects-claims-arab-party-fraud",
+              "pubDate": "2026-11-04T09:24:54.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 70,
-          "slug": "anc-faces-anger-amid-local-election-voting-day"
+          "importance": 60,
+          "slug": "election-body-rejects-fraud-claims-against-arab-party"
+        },
+        {
+          "representativeTitle": "Iran Issues Warning to Trump After Election Loss",
+          "sources": [
+            "BBC World",
+            "IBTimes"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Iran's chief negotiator says Americans voted 'no to war'",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T10:11:39.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Iran Says Americans Voted 'No To War.' Tehran Has A Warning For Trump After The Midterm Defeat.",
+              "source": "IBTimes",
+              "link": "https://www.ibtimes.com/iran-speaker-us-midterms-trump-iran-war-3809381",
+              "pubDate": "2026-11-04T09:48:41.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "iran-issues-warning-to-trump-after-election-loss"
         },
         {
           "representativeTitle": "Trump Slashing Aid to Israel Over Support Levels",
           "sources": [
             "The Guardian",
             "SCMP",
-            "Euronews",
             "Le Monde"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Trump claims US will end military aid to Israel by end of this year",
@@ -191,13 +143,6 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Trump says US will end military aid to Israel as Americans vote in midterms",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/03/trump-says-us-will-end-military-aid-to-israel-as-americans-vote-in-midterms",
-              "pubDate": "2026-11-03T18:10:17.000Z",
-              "tier": 2
-            },
-            {
               "title": "Trump says US military aid to Israel will be 'cut off at the end of the year'",
               "source": "Le Monde",
               "link": "https://www.lemonde.fr/en/international/article/2026/11/03/trump-says-us-military-aid-to-israel-will-be-cut-off-at-the-end-of-the-year_6770788_4.html",
@@ -209,172 +154,222 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 70,
+          "importance": 65,
           "slug": "trump-slashing-aid-to-israel-over-support-levels"
         },
         {
-          "representativeTitle": "Tanker Destruction Reported in Strait of Hormuz Conflict",
+          "representativeTitle": "EU Leads Talks on Ukraine Support with Allies",
           "sources": [
-            "BBC World",
-            "Google World"
+            "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Four tankers destroyed by naval mines in Strait of Hormuz, Iran's IRGC says",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T07:17:08.000Z",
+              "title": "EU to lead talks on support for Ukraine with US, Nato, partners – Europe live",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news",
+              "pubDate": "2026-11-04T11:57:57.000Z",
               "tier": 1
-            },
-            {
-              "title": "Four tankers destroyed by naval mines in Strait of Hormuz, Iran's IRGC says",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TQUxQNVBvM2RuXzZnTWxjS1VPRHo5dHR3S25zZVFJeFhJYzVnSHJMcGMyb1JpODhEOG5ScDlHb3d3M3Jqbm1FRjR1OUlESElyUVFvLXJmbFFlWkU?oc=5",
-              "pubDate": "2026-11-04T07:17:08.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 65,
-          "slug": "tanker-destruction-reported-in-strait-of-hormuz-conflict"
-        },
-        {
-          "representativeTitle": "North Korea Fires Missiles Amid Crypto Hack Dispute",
-          "sources": [
-            "Al Jazeera",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "N Korea fires multiple missiles, denies US claims on Binance hack",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss",
-              "pubDate": "2026-11-04T05:11:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "N Korea fires multiple missiles, denies US claims on Binance hack",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZXpDX29iOWZfM0JZd3hobEU3SVFHamNBUlZoUGkxS3dLZzRhbE9yTjRCMFFRSklaZlNPdlZfdUd2a0pUY1FtcEEwenJqN05ZelFuNHVRTE1SZm92TkdzZWtONjVZdmFTaTNrczYxRUdGc2xleWhIY1NESVFKS0E0RHBYQ3VZcTB2azJMU2dtazZJY0M2WEc0N1RPX2VZdTJmLWk4OHgtajbSAa4BQVVfeXFMTnJkR0RtM2s0VzB3Wi1NZ3RqNWJHRVZuVnVmbnotZVdhczRjZ3VZRWY1YjdlRVhyTU9LbUF2Q3ZfOE5OWmozMXhXR21EMElQRmtsQWhxbjNUUU11QTFoVUU1NUM4TWloVEhrcUFVVXZod016QVl2a1VteGs1MWh4QzFuMTVrNlJUUDY2U29QNkM3aE81WkVaR2xuNkNMTHZ2S2YwbExvM3k0T2lCQktB?oc=5",
-              "pubDate": "2026-11-04T05:15:57.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 65,
-          "slug": "north-korea-fires-missiles-amid-crypto-hack-dispute"
-        },
-        {
-          "representativeTitle": "Midterms Outcome Analyzed: Global Market Implications Discussed",
-          "sources": [
-            "Al Jazeera",
-            "Euronews"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Trump and Republicans trampled in the midterms",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-and-republicans-trampled-in-the-midterms?traffic_source=rss",
-              "pubDate": "2026-11-04T04:47:55.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US midterms: What Trump's defeat means for Europe and global markets",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/04/us-midterms-what-trumps-defeat-means-for-europe-and-global-markets",
-              "pubDate": "2026-11-04T07:06:41.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": 0,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "midterms-outcome-analyzed-global-market-implications-discussed"
-        },
-        {
-          "representativeTitle": "Delhi Air Quality Worsens Amid Diwali Firework Bans",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T07:39:38.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
           "importance": 55,
-          "slug": "delhi-air-quality-worsens-amid-diwali-firework-bans"
+          "slug": "eu-leads-talks-on-ukraine-support-with-allies"
         },
         {
-          "representativeTitle": "UK Royal Comments Spark Debate Over Slavery Apology",
+          "representativeTitle": "Fake threats disrupt European travel across flights.",
           "sources": [
-            "The Guardian",
-            "SCMP"
+            "BBC World",
+            "SCMP",
+            "Google World"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "King Charles addresses summit as demands for slavery apology grow",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
-              "pubDate": "2026-11-03T22:15:19.000Z",
+              "title": "Seven flights across Europe targeted by suspected bomb threats",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-03T20:42:47.000Z",
               "tier": 1
             },
             {
-              "title": "UK’s King Charles calls slavery ‘monstrous injustice’, as PM mulls apology",
+              "title": "Fake bomb threats on flights and cruise ship cause travel disruption in Europe",
               "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3373184/uks-king-charles-calls-slavery-monstrous-injustice-pm-mulls-apology",
-              "pubDate": "2026-11-03T18:08:43.000Z",
+              "link": "https://www.scmp.com/news/world/europe/article/3373186/fake-bomb-threats-flights-and-cruise-ship-cause-travel-disruption-europe",
+              "pubDate": "2026-11-03T19:04:21.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Flights across Europe searched and diverted after hoax bomb threats",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZkdXcG1iZGRwUVNncG1XV0ctTzAxa3lVQXhJYzdUcVVTdHFxSkFQV2J4UzVLeWpQRkk0RmgxS3lxQW1nYUdSVlhlVnNKc09NaEdRNkd5UXFjMkNibjh4VnJLZjFRNk5TeV8tcUpOWHF5WUVMUktMRDBCbk5wWlRNM0twei1vZ0RiZE1sSE9WN1k5R05tcl9QdUpR?oc=5",
+              "pubDate": "2026-11-04T02:12:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "uk-royal-comments-spark-debate-over-slavery-apology"
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "fake-threats-disrupt-european-travel-across-flights"
         },
         {
-          "representativeTitle": "Frozen Turkish Funds Liquidate Blue-Chip Assets Quietly",
+          "representativeTitle": "ANC Faces Pressure Over South Africa's Decline",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "ANC under pressure to reverse South Africa decline",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cr4g1x6l77xyo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T11:47:44.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "anc-faces-pressure-over-south-africas-decline"
+        },
+        {
+          "representativeTitle": "Europe Praises Democrats' US Midterm Victory Over Trumpism",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Europe hails Democrats’ US midterm victory as a rebuke of Trumpism",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/97070d8f-ce2d-4873-8c70-cc8338f7ce1c?syn-25a6b1a6=1",
+              "pubDate": "2026-11-04T10:48:26.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "europe-praises-democrats-us-midterm-victory-over-trumpism"
+        },
+        {
+          "representativeTitle": "State Secretary faces scrutiny in UK political session.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "First secretary of state Louise Haigh to face deputy PMQs – UK politics live",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/politics/live/2026/nov/04/ed-miliband-andy-burnham-king-charles-labour-louise-haigh-alex-burghart-pmqs-conservatives-uk-politics-latest-news",
+              "pubDate": "2026-11-04T11:53:35.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "state-secretary-faces-scrutiny-in-uk-political-session"
+        },
+        {
+          "representativeTitle": "UK proposes cutting firework noise limits for wildlife",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Firework noise limit should be drastically cut to protect wild animals, UK government told",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/environment/2026/nov/04/firework-noise-limit-protect-wild-animals-bonfire-night",
+              "pubDate": "2026-11-04T11:47:33.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "uk-proposes-cutting-firework-noise-limits-for-wildlife"
+        },
+        {
+          "representativeTitle": "US Sanctions Lead to Rwandan Team's League Removal",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Rwanda's army team removed from Africa league after US sanctions, NBA says",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T11:46:09.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "us-sanctions-lead-to-rwandan-teams-league-removal"
+        },
+        {
+          "representativeTitle": "India Approves Plan to Increase Military Recruitment Numbers",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Frozen Turkish Funds’ Blue-Chip Holdings Sold Off-Market",
+              "title": "India Approves Plan to Absorb More Short-Term Military Recruits",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/frozen-turkish-funds-blue-chip-holdings-sold-off-market",
-              "pubDate": "2026-11-04T06:54:32.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/india-approves-plan-to-absorb-more-short-term-military-recruits",
+              "pubDate": "2026-11-04T11:19:47.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "frozen-turkish-funds-liquidate-blue-chip-assets-quietly"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "india-approves-plan-to-increase-military-recruitment-numbers"
+        },
+        {
+          "representativeTitle": "Ethiopia plans major expansion of hydropower capacity.",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ethiopia expands hydropower ambitions",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261104-ethiopia-expands-hydropower-ambitions",
+              "pubDate": "2026-11-04T11:19:36.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ethiopia-plans-major-expansion-of-hydropower-capacity"
         },
         {
           "representativeTitle": "Trump: US Has No Immediate Plan to Strike Iran",
@@ -399,114 +394,26 @@ export const newsData = {
           "slug": "trump-us-has-no-immediate-plan-to-strike-iran"
         },
         {
-          "representativeTitle": "US Allegedly Aided Deadly Drone Strike in Venezuela",
+          "representativeTitle": "Air Pollution Levels Spike in Major Indian City",
           "sources": [
-            "NY Times"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "U.S. Assisted Venezuela in Deadly Drone Strike, Officials Say",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/11/03/world/americas/us-venezuela-strike-eln-drug-trafficking.html",
-              "pubDate": "2026-11-03T23:03:45.000Z",
-              "tier": 1
+              "title": "Toxic air pollution surges in Indian capital",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-toxic-air-pollution-surges-indian.html",
+              "pubDate": "2026-11-04T10:20:01.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Science",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "us-allegedly-aided-deadly-drone-strike-in-venezuela"
-        },
-        {
-          "representativeTitle": "China Uses State Power to Bolster Markets",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "China Boosts Market Defense With National Team, Buybacks",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/china-boosts-market-defense-with-national-team-buying-buybacks",
-              "pubDate": "2026-11-04T02:57:05.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
           "relevance_score": 7,
-          "importance": 50,
-          "slug": "china-uses-state-power-to-bolster-markets"
-        },
-        {
-          "representativeTitle": "Early warnings preceded massive crypto theft incident.",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/",
-              "pubDate": "2026-11-03T19:45:48.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "early-warnings-preceded-massive-crypto-theft-incident"
-        },
-        {
-          "representativeTitle": "Trump's Iran Stance Threatens European Gas Markets",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "European Gas Market Braces for Trump’s Next Move on Iran After Midterms",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/finance/commodities-futures/european-gas-market-braces-for-trumps-next-move-on-iran-after-midterms-ca5f2b56?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-11-04T07:48:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "trumps-iran-stance-threatens-european-gas-markets"
-        },
-        {
-          "representativeTitle": "Oil Prices React to US Politics and Iran Tensions",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Oil Prices Rise as Investors Weigh U.S. Midterm Results, Iran Risks",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-investors-weigh-u-s-midterm-results-iran-risks-1d97da8a?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-11-04T07:40:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "oil-prices-react-to-us-politics-and-iran-tensions"
+          "importance": 40,
+          "slug": "air-pollution-levels-spike-in-major-indian-city"
         },
         {
           "representativeTitle": "Statement Signals Readiness For Potential Conflict Escalation",
@@ -536,83 +443,13 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Muslim Candidate Wins Michigan Senate Election Victory",
-          "sources": [
-            "The Guardian",
-            "Al Jazeera",
-            "France 24",
-            "Euronews",
-            "Time"
-          ],
-          "citationCount": 5,
-          "rawArticles": [
-            {
-              "title": "US midterm elections 2026 live updates: Democrats win control of Congress; El-Sayed wins Senate race in Michigan",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-              "pubDate": "2026-11-04T07:40:49.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Progressive Abdul El-Sayed wins Michigan Senate race to become first Muslim US senator",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/03/abdul-el-sayed-mike-rogers-michigan-senate",
-              "pubDate": "2026-11-04T07:32:42.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Democratic Party wins US Senate in 2026 midterm elections",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/democratic-party-flips-us-senate-in-2026-midterm-elections?traffic_source=rss",
-              "pubDate": "2026-11-04T04:37:05.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Midterms 2026: Democrats win control of House and Senate as Republican strongholds fall",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
-              "pubDate": "2026-11-04T06:27:54.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US midterm elections: Democrats take control of US Congress in rejection of Trump",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/04/live-updates-on-the-2026-midterm-elections-in-the-us",
-              "pubDate": "2026-11-03T23:35:24.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Abdul El-Sayed Wins Michigan Senate Race, Making History as First Muslim Senator",
-              "source": "Time",
-              "link": "https://time.com/article/2026/11/03/abdul-el-sayed-michigan-senate-2026-midterm-elections-mike-rogers/",
-              "pubDate": "2026-11-04T07:30:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Democrats Win House and Senate: Live Election Updates",
-              "source": "Time",
-              "link": "https://time.com/article/2026/11/03/midterm-elections-2026-key-races-live-results-polls-latest-news-updates/",
-              "pubDate": "2026-11-03T19:33:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 100,
-          "slug": "muslim-candidate-wins-michigan-senate-election-victory"
-        },
-        {
           "representativeTitle": "Democrat Wins Texas Senate Seat After Three Decades",
           "sources": [
             "BBC World",
-            "France 24",
-            "Euronews",
-            "Le Monde",
+            "Al Jazeera",
             "Time"
           ],
-          "citationCount": 5,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
@@ -622,25 +459,18 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "US midterms: Democrat James Talarico wins Senate race in deep-red Texas",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261104-us-midterms-democrat-james-talarico-wins-senate-race-in-deep-red-texas",
-              "pubDate": "2026-11-04T07:36:28.000Z",
+              "title": "Republicans fuming after Democrat Talarico flips Texas Senate blue",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/republicans-fuming-after-democrat-talarico-flips-texas-senate-blue?traffic_source=rss",
+              "pubDate": "2026-11-04T08:42:50.000Z",
               "tier": 1
             },
             {
-              "title": "‘We defeated Goliath’: Talarico says after historic Texas Senate win",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/video/2026/11/04/we-defeated-goliath-talarico-says-after-historic-texas-senate-win",
-              "pubDate": "2026-11-04T06:38:54.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Talarico flips Texas Senate seat in historic win for Democrats",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/11/04/talarico-flips-texas-senate-seat-in-historic-win-for-democrats_6771184_4.html",
-              "pubDate": "2026-11-04T04:41:06.000Z",
-              "tier": 2
+              "title": "Democrat from Kansas elected to US Senate for first time since 1932",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/democrat-from-kansas-elected-to-us-senate-for-first-time-since-great-depres?traffic_source=rss",
+              "pubDate": "2026-11-04T08:09:44.000Z",
+              "tier": 1
             },
             {
               "title": "Talarico Wins Texas Senate Race, First Democrat to Win Statewide in More than 30 Years",
@@ -658,150 +488,52 @@ export const newsData = {
           "slug": "democrat-wins-texas-senate-seat-after-three-decades"
         },
         {
-          "representativeTitle": "Democrat wins SC Senate seat after decades.",
+          "representativeTitle": "Muslim Candidate Wins Michigan Senate Election Victory",
           "sources": [
-            "BBC US",
-            "BBC World",
-            "Al Jazeera"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "South Carolina elects Democratic senator for first time in almost three decades",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T07:32:02.000Z",
-              "tier": 1
-            },
-            {
-              "title": "South Carolina elects Democratic senator for first time in almost three decades",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T07:32:02.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Kansas elects first Democratic senator in almost a century",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/kansas-elects-democrat-adam-hamilton?traffic_source=rss",
-              "pubDate": "2026-11-04T04:37:12.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 75,
-          "slug": "democrat-wins-sc-senate-seat-after-decades"
-        },
-        {
-          "representativeTitle": "Acton defeats Ramaswamy in Ohio gubernatorial race.",
-          "sources": [
-            "Al Jazeera",
             "France 24",
+            "Le Monde",
             "Time"
           ],
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Democrat Amy Acton makes history in Ohio",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/democrat-amy-acton-makes-history-in-ohio?traffic_source=rss",
-              "pubDate": "2026-11-04T06:49:23.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Democrat Amy Acton beats Republican Vivek Ramaswamy in Ohio governor’s race",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/democrat-amy-acton-beats-republican-vivek-ramaswamy-in-ohio-governors-race?traffic_source=rss",
-              "pubDate": "2026-11-04T04:25:54.000Z",
-              "tier": 1
-            },
-            {
-              "title": "2026 Midterms: Democrat Keisha Lance Bottoms makes history in Georgia",
+              "title": "Abdul El-Sayed set to become first Muslim senator after win in Michigan",
               "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261104-2026-midterms-democrat-keisha-lance-bottoms-makes-history-in-georgia",
-              "pubDate": "2026-11-04T07:02:13.000Z",
+              "link": "https://www.france24.com/en/video/20261104-abdul-el-sayed-set-to-become-first-muslim-senator-after-win-in-michigan",
+              "pubDate": "2026-11-04T10:09:52.000Z",
               "tier": 1
             },
             {
-              "title": "Democrat Amy Acton Defeats Vivek Ramaswamy in Ohio Governor’s Race",
+              "title": "Democrat Abdul El-Sayed to become first Muslim senator after winning Michigan race",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/americas/20261104-democrat-abdul-el-sayed-to-become-first-muslim-senator-after-winning-michigan-race",
+              "pubDate": "2026-11-04T09:20:05.000Z",
+              "tier": 1
+            },
+            {
+              "title": "El-Sayed wins Michigan Senate race to become first Muslim senator",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/11/04/abdul-el-sayed-wins-michigan-senate-race-to-become-first-muslim-senator_6771415_4.html",
+              "pubDate": "2026-11-04T07:59:07.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Abdul El-Sayed Wins Michigan Senate Race, Making History as First Muslim Senator",
               "source": "Time",
-              "link": "https://time.com/article/2026/11/04/amy-acton-ohio-governor-ramaswamy-midterm-election-bitter-race-against/",
-              "pubDate": "2026-11-04T04:02:54.000Z",
+              "link": "https://time.com/article/2026/11/03/abdul-el-sayed-michigan-senate-2026-midterm-elections-mike-rogers/",
+              "pubDate": "2026-11-04T07:30:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
+          "sentiment": 0.4,
+          "relevance_score": 8,
           "importance": 75,
-          "slug": "acton-defeats-ramaswamy-in-ohio-gubernatorial-race"
+          "slug": "muslim-candidate-wins-michigan-senate-election-victory"
         },
         {
-          "representativeTitle": "Midterms conclude with notable political shifts across US.",
-          "sources": [
-            "BBC US",
-            "BBC World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Ecstatic scenes and historic results: Key moments from US midterms",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T07:40:12.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Ecstatic scenes and historic results: Key moments from US midterms",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T07:40:12.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "midterms-conclude-with-notable-political-shifts-across-us"
-        },
-        {
-          "representativeTitle": "Democrats Seize Senate Control After Midterm Elections",
-          "sources": [
-            "Al Jazeera",
-            "France 24"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Talarico wins Senate race, ending decades of Republican dominance in Texas",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/talarico-wins-texas-senate-race-ending-decades-of-republican-dominance?traffic_source=rss",
-              "pubDate": "2026-11-04T04:03:41.000Z",
-              "tier": 1
-            },
-            {
-              "title": "🔴 Midterms live : Democrats take control of Senate, ending Republican dominance in Washington",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
-              "pubDate": "2026-11-04T04:37:39.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "democrats-seize-senate-control-after-midterm-elections"
-        },
-        {
-          "representativeTitle": "Democrat Wins Ohio Governor's Race Over Republican Rival",
+          "representativeTitle": "Ramaswamy addresses supporters after Ohio race loss.",
           "sources": [
             "BBC US",
             "NBC News",
@@ -818,6 +550,13 @@ export const newsData = {
               "tier": 1
             },
             {
+              "title": "Democrat Amy Acton projected to win Ohio governor's race",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/video/democrat-amy-acton-projected-to-win-ohio-governor-s-race-272820293834",
+              "pubDate": "2026-11-04T04:13:36.000Z",
+              "tier": 2
+            },
+            {
               "title": "Democrat Amy Acton wins Ohio’s race for governor",
               "source": "NBC News",
               "link": "https://www.nbcnews.com/politics/2026-election/amy-acton-democrat-ohio-gubernatorial-race-vivek-ramaswamy-gop-rcna603352",
@@ -828,145 +567,144 @@ export const newsData = {
               "title": "WATCH:  Amy Acton addresses supporters after projected win in Ohio governor's race",
               "source": "ABC News Top",
               "link": "https://abcnews.com/video/137835236/",
-              "pubDate": "2026-11-04T04:45:13.000Z",
+              "pubDate": "2026-11-04T08:56:12.000Z",
               "tier": 2
             },
             {
               "title": "WATCH:  Vivek Ramaswamy addresses supporters after projected defeat in Ohio governor's race",
               "source": "ABC News Top",
               "link": "https://abcnews.com/video/137834723/",
-              "pubDate": "2026-11-04T04:43:54.000Z",
+              "pubDate": "2026-11-04T10:37:16.000Z",
               "tier": 2
             },
             {
-              "title": "Democrat Amy Acton wins Ohio governor's race, defeating Republican Vivek Ramaswamy",
+              "title": "Democrat Amy Acton wins race for Ohio governor",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3c0WWlHakNEbDEta29iMUJHWmZpck56RmYzR0NTTXhLd0RFVWRmQklIS0NQNTQySnVhWEdyQ21RMDlJSXpvbmRFV3lzVjJKNFM5SWFjZDJRUDF2Y204a2Z5VWs1VzgwZ1FIZXhqb3pOSjZ2el9XU1VaVm9YU0lPYllNMTUtemtkWldz?oc=5",
-              "pubDate": "2026-11-04T03:53:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYnlLZVlOMTJJdjNmMXBLWF9WTE5qTTIzUnR0MjlVN1g5UHpNSnBqNEhOenJqOTUxMUFIQXBQaTRwd2ZGY2RhYTBGZHpBU2d0SHhaczRzM3h5OVRseDZjbEhfaTJ5eWwzMUlNQmFpTHYwRFNNdFFWT01uVlFOYTloX3ptN0U5QTYwaTNoNG5MdjlfZmNvT1F4ZHZCWTk5R1JCRFFPX2VQM2xWNDVuQ1pMbXI1WWJGdEJXOXpj?oc=5",
+              "pubDate": "2026-11-04T07:00:32.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 60,
-          "slug": "democrat-wins-ohio-governors-race-over-republican-rival"
+          "slug": "ramaswamy-addresses-supporters-after-ohio-race-loss"
         },
         {
-          "representativeTitle": "Democrats Win Midterms Amid Significant Political Shift",
+          "representativeTitle": "Democrats Win House and Senate Amid Midterm Gains",
           "sources": [
-            "Al Jazeera",
-            "IBTimes"
+            "MarketWatch",
+            "Bloomberg Markets"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Democrats deliver a historic routing to Republicans in US midterms",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/democrats-deliver-a-historic-routing-to-republicans-in-us-midterms?traffic_source=rss",
-              "pubDate": "2026-11-04T07:46:12.000Z",
-              "tier": 1
+              "title": "Democrats win the House and Senate. Here’s what it means for your finances.",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/democrats-win-the-senate-but-control-of-the-house-is-still-up-in-the-air-heres-what-it-means-for-your-finances-ed78cd6e?mod=mw_rss_topstories",
+              "pubDate": "2026-11-04T06:27:00.000Z",
+              "tier": 2
             },
             {
-              "title": "Republicans Report More Financial Security Than Democrats Ahead of the Midterms",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/pew-republicans-democrats-financial-security-midterms-3809359",
-              "pubDate": "2026-11-03T22:23:59.000Z",
-              "tier": 2
+              "title": "Democrats Sweep House and Senate in Midterm Rebuke of Trump",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-04/the-pulse-11-4-2026-video",
+              "pubDate": "2026-11-04T11:40:24.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Stocks",
           "aiCategory": "US",
           "sentiment": 0.4,
           "relevance_score": 9,
           "importance": 65,
-          "slug": "democrats-win-midterms-amid-significant-political-shift"
+          "slug": "democrats-win-house-and-senate-amid-midterm-gains"
         },
         {
-          "representativeTitle": "Michigan Senate Race Features Key Candidates Facing Off",
+          "representativeTitle": "Democrats Seize Congressional Power Amid Political Shift",
           "sources": [
             "Al Jazeera",
-            "France 24"
+            "Time"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "El-Sayed defeats Rogers to win Senate seat in Michigan",
+              "title": "Democrats win control of House and Senate: Key US midterms takeaways",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/el-sayed-defeats-rogers-to-win-senate-seat-in-michigan?traffic_source=rss",
-              "pubDate": "2026-11-04T07:31:20.000Z",
+              "link": "https://www.aljazeera.com/news/2026/11/4/democrats-win-control-of-house-and-senate-key-us-midterms-takeaways?traffic_source=rss",
+              "pubDate": "2026-11-04T10:39:52.000Z",
               "tier": 1
             },
             {
-              "title": "Midterms: Abdul El-Sayed, Mike Rogers face off for Michigan Senate seat",
+              "title": "Democrats Win Control of Both House and Senate in Huge Blow to Trump",
+              "source": "Time",
+              "link": "https://time.com/article/2026/11/04/democrats-win-control-of-senate-in-blue-wave-election/",
+              "pubDate": "2026-11-04T04:57:38.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 65,
+          "slug": "democrats-seize-congressional-power-amid-political-shift"
+        },
+        {
+          "representativeTitle": "Midterm Gains Cause Cautious Market Reaction Today",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US midterms: Trump reacts to the Democrats’ sweeping victory",
               "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261104-midterms-abdul-el-sayed-mike-rogers-face-off-for-michigan-senate-seat",
-              "pubDate": "2026-11-04T02:53:45.000Z",
+              "link": "https://www.france24.com/en/video/20261104-us-midterms-trump-reacts-to-the-democrats-sweeping-victory",
+              "pubDate": "2026-11-04T11:24:24.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Markets react with caution to Democrats' victory in US midterms",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/tv-shows/business/20261104-markets-react-with-caution-to-democrats-victory-in-us-midterms",
+              "pubDate": "2026-11-04T10:40:31.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "michigan-senate-race-features-key-candidates-facing-off"
-        },
-        {
-          "representativeTitle": "Analysis details American voting patterns across maps.",
-          "sources": [
-            "BBC US",
-            "BBC World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "How America voted in maps and charts",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cm4g1j0n92qdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T07:24:59.000Z",
-              "tier": 1
-            },
-            {
-              "title": "How America voted in maps and charts",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cm4g1j0n92qdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T07:24:59.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "analysis-details-american-voting-patterns-across-maps"
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "midterm-gains-cause-cautious-market-reaction-today"
         },
         {
           "representativeTitle": "Florida elects first Black governor amid political tension.",
           "sources": [
-            "BBC US",
-            "BBC World"
+            "BBC World",
+            "Al Jazeera"
           ],
           "citationCount": 2,
           "rawArticles": [
-            {
-              "title": "Florida Republicans fend off Democrats as state elects first black governor",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c9146d88pl32o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T07:12:21.000Z",
-              "tier": 1
-            },
             {
               "title": "Florida Republicans fend off Democrats as state elects first black governor",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/c9146d88pl32o?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-11-04T07:12:21.000Z",
               "tier": 1
+            },
+            {
+              "title": "Georgia elects first Black woman governor in US",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/us-elects-its-first-black-woman-governor?traffic_source=rss",
+              "pubDate": "2026-11-04T08:19:27.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
           "aiCategory": "US",
           "sentiment": 0,
           "relevance_score": 6,
@@ -974,26 +712,33 @@ export const newsData = {
           "slug": "florida-elects-first-black-governor-amid-political-tension"
         },
         {
-          "representativeTitle": "Cooper flips Senate seat amid midterm election results.",
+          "representativeTitle": "Democrat Retains Michigan Senate Seat Amid Internal Strife",
           "sources": [
             "Al Jazeera",
-            "France 24"
+            "IBTimes"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Democrat Josh Turek flips Iowa Senate seat",
+              "title": "‘Rejecting hate’: Abdul El-Sayed wins Senate seat despite racist attacks",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/democrat-josh-turek-flips-iowa-senate-seat?traffic_source=rss",
-              "pubDate": "2026-11-04T04:55:10.000Z",
+              "link": "https://www.aljazeera.com/news/2026/11/4/rejecting-hate-abdul-el-sayed-wins-senate-seat-despite-racist-attacks?traffic_source=rss",
+              "pubDate": "2026-11-04T09:47:49.000Z",
               "tier": 1
             },
             {
-              "title": "🔴 Midterms live: Democrat Roy Cooper flips first Senate seat, follow the results",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
-              "pubDate": "2026-11-04T01:38:44.000Z",
+              "title": "Democrat Abdul El-Sayed wins election to US Senate from Michigan",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/democrat-abdul-el-sayed-wins-election-to-us-senate-from-michigan-2?traffic_source=rss",
+              "pubDate": "2026-11-04T08:18:40.000Z",
               "tier": 1
+            },
+            {
+              "title": "El-Sayed Wins Hotly Contested Michigan Senate Race, Retains Seat For Democrats Despite Internal Division",
+              "source": "IBTimes",
+              "link": "https://www.ibtimes.com/abdul-el-sayed-wins-michigan-senate-race-3809376",
+              "pubDate": "2026-11-04T08:05:59.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
@@ -1001,82 +746,104 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 60,
-          "slug": "cooper-flips-senate-seat-amid-midterm-election-results"
+          "slug": "democrat-retains-michigan-senate-seat-amid-internal-strife"
         },
         {
-          "representativeTitle": "Jeffries Poised to Become First Black House Speaker",
+          "representativeTitle": "Jackson defeats Collins in Maine Senate election.",
           "sources": [
-            "Fox News",
-            "NPR",
+            "BBC US",
+            "NBC News",
             "Google US"
           ],
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Democrat David Crowley makes history as Wisconsin’s first Black governor",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/democrat-david-crowley-makes-history-wisconsins-first-black-governor",
-              "pubDate": "2026-11-04T04:00:21.000Z",
+              "title": "Republican Susan Collins loses Maine seat to Democrat, ending nearly 30 years in the Senate",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cred3jj69jvqo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T07:29:51.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Susan Collins concedes in Maine Senate race",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/video/susan-collins-concedes-in-maine-senate-race-272823877613",
+              "pubDate": "2026-11-04T05:48:13.000Z",
               "tier": 2
             },
             {
-              "title": "Democrat David Crowley will be Wisconsin's first Black governor",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/03/g-s1-151235/democrat-david-crowley-will-be-wisconsins-first-black-governor",
-              "pubDate": "2026-11-04T04:28:24.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Democrat Hakeem Jeffries poised to make history as the first Black speaker of the House",
+              "title": "Democrat Troy Jackson unseats Susan Collins in Maine Senate race",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZ1Q4eFE1MW5HUzhtVS1paHZOcjhrQVdVY0IzVEo0TF9Qdnk4NXhGLUhWOHA0NUI5dmRVd0NnMW9kdC1NNnZSVUttVDhvSGZyOERwOGgzd2IwblhtOTg2Q0ZYRDlmbFJ4V2gwT2pVamg5WVdBbTQ2bU1hUUJQUnlkZ0E2NXYyeUZfSlg4WDE3ZUJ5QjJlOFpSUnJIWnNGLW9xSkE?oc=5",
-              "pubDate": "2026-11-04T06:30:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ya1V2RHVqNkhsT3hITkFkNUJUZmo2VE53S0g0aFBPcGlEdEthMHpxbnludjhRU1JNcnU5QWdBbXBKc3MxWFd4Mm9FaGlqMmwwZTQwbnNpcDhUMXAzYkZ5UGVYaS1nOG94a0NHMFF2dUtOdFVQMm5QZg?oc=5",
+              "pubDate": "2026-11-04T10:45:34.000Z",
               "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "jackson-defeats-collins-in-maine-senate-election"
+        },
+        {
+          "representativeTitle": "Trump addresses Iran war role; congratulates Democrats.",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Midterms: Trump acknowledges role of Iran war, congratulates Dems",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261104-midterms-trump-acknowledges-role-of-iran-war-congratulates-dems",
+              "pubDate": "2026-11-04T11:13:53.000Z",
+              "tier": 1
             },
             {
-              "title": "Democrat David Crowley will be Wisconsin’s first Black governor",
+              "title": "What next for Iran war after Trump's midterms defeat?",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261104-what-next-for-iran-war-after-trump-s-midterms-defeat",
+              "pubDate": "2026-11-04T09:11:16.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 60,
+          "slug": "trump-addresses-iran-war-role-congratulates-democrats"
+        },
+        {
+          "representativeTitle": "Donalds poised to become Florida's first Black governor.",
+          "sources": [
+            "BBC US",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Florida Republicans fend off Democrats as state elects first black governor",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/c9146d88pl32o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T07:12:21.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump-backed Byron Donalds to make history as Florida’s first Black governor",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdFM0ZDNOOVFhbXhtN1dnT0Y2QUhNYm1YYkNSSVBOT0RuTFlTMTNSVWpkSDJ6X2lIUVFvZmxINE1ISHpXazIwVVdPdGlNUjVZd0tzZGhrdGhaNTZVZVFETUk0QWVYMGRobGVOMkdqM2ZRWmEyeTA1a2FDdXFhVVF3MXV3eS1ERzNjZW1CakVnME53d1IzY2EwU2dhbWxHTkFMWFlObmlXZHg?oc=5",
-              "pubDate": "2026-11-04T04:28:24.000Z",
+              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZU1vT1Mzc29YMHUtUlBCbXNzWDR0TXQtN3A2ZE5jeWdSM1p6SjFYX1hvRHVOQUdPWUVtZFlRd3BzTGl0ek4zYUxMdF9QVHZNQllZYTRfaThCdWg0OE1JSFNYaXVOdWxIZ1NKMWhDSHNHUEtQNGNac0d1R2RpWmk4UlZJNlQxVkxGd3g2b2w5Ujc5dXNRQVBYTk16dWJvLTNadml2X9IBqgFBVV95cUxPVDdRVWQzSXR5a1NPQXpBN1RwV05CV3BwSWpfT1o0bUFvd1hLcGxTUzQ3aFkxM2FmdktiMHFoSktKUEVNRzFSUGJ6LS1FZVhEYTlHeEhsY2haWGM4eFhVN0RfRHE3NW5XMDNZUlR5Ylcwblk3NEZPS1JnQnhrR3pXNmNaSTVxVVRtVVRnV0w2S1NQTGZpeXdCeXdOUVR2b2ZuVTVTODE5YkpZUQ?oc=5",
+              "pubDate": "2026-11-04T02:20:02.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "jeffries-poised-to-become-first-black-house-speaker"
-        },
-        {
-          "representativeTitle": "Minority Leaders Achieve Historic Firsts in Midterm Votes",
-          "sources": [
-            "Al Jazeera",
-            "Euronews"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Firsts for women and minorities in US midterm elections",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/firsts-for-women-and-minorities-in-us-midterm-elections?traffic_source=rss",
-              "pubDate": "2026-11-04T06:54:23.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Historic leadership firsts for minorities across US in midterm vote",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/04/historic-leadership-firsts-for-minorities-across-us-in-midterm-vote",
-              "pubDate": "2026-11-04T06:29:54.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 60,
-          "slug": "minority-leaders-achieve-historic-firsts-in-midterm-votes"
+          "slug": "donalds-poised-to-become-floridas-first-black-governor"
         },
         {
           "representativeTitle": "Democrat Talarico Wins Texas Senate Race Against Paxton",
@@ -1093,6 +860,13 @@ export const newsData = {
               "link": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-11-04T05:39:36.000Z",
               "tier": 1
+            },
+            {
+              "title": "Talarico wins Texas Senate seat, NBC News projects",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/video/talarico-wins-texas-senate-seat-nbc-news-projects-272820293727",
+              "pubDate": "2026-11-04T04:01:51.000Z",
+              "tier": 2
             },
             {
               "title": "Democrat James Talarico turns Texas Senate seat blue, defeating Ken Paxton",
@@ -1117,27 +891,217 @@ export const newsData = {
           "slug": "democrat-talarico-wins-texas-senate-race-against-paxton"
         },
         {
-          "representativeTitle": "Democrat Jackson Unseats Republican Senator Collins in Maine",
+          "representativeTitle": "Blue wave sweeps country; rebuke delivered to Trump.",
           "sources": [
-            "Al Jazeera",
-            "Le Monde",
-            "Time"
+            "FT International"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Democrat Troy Jackson wins Maine US Senate seat in blow to Republicans",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/democrat-troy-jackson-wins-maine-us-senate-seat-in-blow-to-republicans?traffic_source=rss",
-              "pubDate": "2026-11-04T07:04:35.000Z",
+              "title": "Americans deliver stunning rebuke to Trump as blue wave sweeps country",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/b1eb9500-612a-4bb0-bdc3-0311cfc0ec99?syn-25a6b1a6=1",
+              "pubDate": "2026-11-04T08:34:14.000Z",
               "tier": 1
-            },
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "blue-wave-sweeps-country-rebuke-delivered-to-trump"
+        },
+        {
+          "representativeTitle": "Midterm Election Results Shape Future US Policy Landscape",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Democrat Troy Jackson unseats longtime Republican Senator Susan Collins in Maine",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/11/04/democrat-troy-jackson-unseats-longtime-republican-senator-susan-collins_6771250_4.html",
-              "pubDate": "2026-11-04T06:22:49.000Z",
-              "tier": 2
+              "title": "Everything you need to know from the US midterm elections",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T12:01:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "midterm-election-results-shape-future-us-policy-landscape"
+        },
+        {
+          "representativeTitle": "El-Sayed's political success contrasts with Trump criticism.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘Call me senator’: How Abdul El-Sayed beat Trump’s hate to create history",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/4/call-me-senator-how-abdul-el-sayed-beat-trumps-hate-to-create-history?traffic_source=rss",
+              "pubDate": "2026-11-04T11:46:46.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "el-sayeds-political-success-contrasts-with-trump-criticism"
+        },
+        {
+          "representativeTitle": "Midterm Election Results Spark Global Political Reaction",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘Seismic shift’: World reacts to US midterm election results",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/4/seismic-shift-world-reacts-to-us-midterm-election-results?traffic_source=rss",
+              "pubDate": "2026-11-04T11:24:50.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "midterm-election-results-spark-global-political-reaction"
+        },
+        {
+          "representativeTitle": "Democrats face challenges controlling Trump's foreign policy.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Why Democrats may struggle to rein in Trump’s foreign policy",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/why-democrats-may-struggle-to-rein-in-trumps-foreign-policy?traffic_source=rss",
+              "pubDate": "2026-11-04T11:16:40.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "democrats-face-challenges-controlling-trumps-foreign-policy"
+        },
+        {
+          "representativeTitle": "Democrats Win Key Gains Across Republican Strongholds",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "From Kansas to Texas, Democrats win big in Republican heartlands",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261104-from-kansas-to-texas-democrats-win-big-in-republican-heartlands",
+              "pubDate": "2026-11-04T11:15:51.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "democrats-win-key-gains-across-republican-strongholds"
+        },
+        {
+          "representativeTitle": "Midterms yield historic representation gains for diverse groups.",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US midterms bring surge of historic firsts for women and members of minority groups",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/americas/20261104-us-midterms-bring-surge-of-historic-firsts-women-members-minority-groups",
+              "pubDate": "2026-11-04T11:15:39.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "midterms-yield-historic-representation-gains-for-diverse-groups"
+        },
+        {
+          "representativeTitle": "Republican internal conflict follows disappointing midterm results.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Republicans turn on each other after disastrous midterms",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/83a46027-3cde-41fa-8c55-405f40c6fa82?syn-25a6b1a6=1",
+              "pubDate": "2026-11-04T11:00:10.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "republican-internal-conflict-follows-disappointing-midterm-results"
+        },
+        {
+          "representativeTitle": "Young Republicans Acknowledge Midterm Election Defeat",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘A deep sense of deceit’: Young Republicans reckon with US midterms rout",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/ec6029c3-3ec2-4948-8b69-298e3b10399f?syn-25a6b1a6=1",
+              "pubDate": "2026-11-04T10:00:09.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "young-republicans-acknowledge-midterm-election-defeat"
+        },
+        {
+          "representativeTitle": "Democrat Jackson Unseats Republican Collins in Maine",
+          "sources": [
+            "Al Jazeera",
+            "Time"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Democrat Troy Jackson unseats Republican Senator Susan Collins in Maine",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/democrat-troy-jackson-unseats-republican-senator-susan-collins-in-maine?traffic_source=rss",
+              "pubDate": "2026-11-04T08:30:38.000Z",
+              "tier": 1
             },
             {
               "title": "Troy Jackson Defeats Susan Collins in Maine Senate Race",
@@ -1151,247 +1115,8 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": 0,
           "relevance_score": 6,
-          "importance": 55,
-          "slug": "democrat-jackson-unseats-republican-senator-collins-in-maine"
-        },
-        {
-          "representativeTitle": "Blue wave sweeps country; rebuke delivered to Trump.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Americans deliver stunning rebuke to Trump as blue wave sweeps country",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/b1eb9500-612a-4bb0-bdc3-0311cfc0ec99?syn-25a6b1a6=1",
-              "pubDate": "2026-11-04T06:40:10.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "blue-wave-sweeps-country-rebuke-delivered-to-trump"
-        },
-        {
-          "representativeTitle": "Democrat Wins Michigan Senate Race Against Republican Opponent",
-          "sources": [
-            "NBC News",
-            "Fox News",
-            "NPR",
-            "Google US"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "Democrat Abdul El-Sayed wins Michigan’s high-stakes Senate race",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/democrat-abdul-el-sayed-wins-michigans-high-stakes-senate-race-rcna603315",
-              "pubDate": "2026-11-04T07:26:43.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Abdul El-Sayed delivers major blow to GOP in Michigan after bruising Senate race",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/abdul-el-sayed-delivers-major-blow-gop-michigan-after-bruising-senate-race",
-              "pubDate": "2026-11-04T06:17:28.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Democrat Abdul El-Sayed defeats Republican Mike Rogers in key Michigan Senate race",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/04/g-s1-150029/michigan-senate-race-abdul-el-sayed-mike-rogers",
-              "pubDate": "2026-11-04T07:28:02.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Abdul El-Sayed grows lead over Mike Rogers in Michigan US Senate race",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMnVBT2pBNjZsUTgxZUJ0NGthY2wybVR5bTlaa0t5M0JOWE5XWjJpSVh6Vy1mQ2RFWGxkYXJLOFdjMXlIQlhGTXJRRGZ4eUJrbjlEWEFRQnQ5TFFKU096LU9ldDRHZHo4dWF6Vk11NFBvUGxSUWpKbnc0STJnTEJEZEVPblVDYi03TEhhT0Q1NFAxTk1TbkctY01IWHJ0RXp1NGI3TGZWNmo?oc=5",
-              "pubDate": "2026-11-04T07:10:14.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Democrat Annie Andrews wins South Carolina Senate race in major upset",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRV9PR0lYWUhzN2VKZTdFbFFMcVVqSHd0d3p4bDV1eWl3Y3E3NkVURlktcFFDTk9RTUdBZGFtZHVIQXo2aHNGM3BRSEhrZ2FHbUswYnRzMU1NdEVNSC1hOWRobGVYcW1LQ1dUQllwVVluRXE5YTZqZVphZ3dhSmZSekNwd0YtQzFTYlgzUg?oc=5",
-              "pubDate": "2026-11-04T03:39:29.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
           "importance": 50,
-          "slug": "democrat-wins-michigan-senate-race-against-republican-opponent"
-        },
-        {
-          "representativeTitle": "Hinojosa defeats Abbott, changing Texas governance.",
-          "sources": [
-            "NBC News",
-            "Fox News",
-            "Google US"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Democrat Gina Hinojosa takes down Texas Gov. Greg Abbott in stunning result",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/gina-hinojosa-win-texas-governor-race-greg-abbott-upset-election-rcna603360",
-              "pubDate": "2026-11-04T04:07:20.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Democrat Gina Hinojosa stuns Abbott, makes history as first Latina Texas governor",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/democrat-gina-hinojosa-stuns-abbott-makes-history-first-latina-texas-governor",
-              "pubDate": "2026-11-04T03:20:55.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Gina Hinojosa defeats Gov. Greg Abbott, ending decades of Republican control of Texas governor’s office",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS2t5Mm1uN0JxSFNacEQ2a2lVeWhpSU1WYWNuWF92TEVRdGxNYlRGakFyakdEbFFMclJ0a0h5djMwenFtbWNwWjZxSHFtTEdlWDNOaDRHN0V5VVoyX3pobElvY0hQNS1ncFpqS3p3VjhKOWkwUXNlTGZ1eXYyYjAzTnBZSjFrV1RWVDQ0TmZMcEVqR2FNc3c?oc=5",
-              "pubDate": "2026-11-04T05:09:29.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "hinojosa-defeats-abbott-changing-texas-governance"
-        },
-        {
-          "representativeTitle": "Senate Seat Flip Boosts Democrats' Path to Majority",
-          "sources": [
-            "NBC News",
-            "NPR",
-            "Google US"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Josh Turek flips Iowa Senate seat, giving Democrats a boost in the fight for the majority",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/josh-turek-democrats-iowa-senate-flip-democrats-majority-boost-hinson-rcna603305",
-              "pubDate": "2026-11-04T04:23:52.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Democrat Josh Turek wins the Senate seat in Iowa",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/03/g-s1-148956/iowa-senate-race-josh-turek",
-              "pubDate": "2026-11-04T04:37:55.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Josh Turek flips Iowa Senate seat, giving Democrats a boost in the fight for the majority",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVUhuMU41Q2FQYnVjX2pNQV9DNUZac1V3LUlwbmp4a2pTdlhNU2E1Z2QxdWQxdzhBdHdMWTN6VW52T01pb0x6ckVuUWdyZEgzY1MtUW5uSHRPWDNSQUxQamhxWTlzUEJPNUZVV1NoV3c5NG9qQmtVLTJGT3ZnMVF2Q3o5SnVVOF9VOUFNS0RoN21OU2w5TnEtWHJ3TDNCZlByb0NjOE1aZXpnNENvcmpNaFZwRFlmcjZrZG95LWlDaHZkdDVUQWc?oc=5",
-              "pubDate": "2026-11-04T04:23:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "senate-seat-flip-boosts-democrats-path-to-majority"
-        },
-        {
-          "representativeTitle": "Democrats Seize Congress; Political Shift Sparks Concern",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Blue wave 'turning into a tsunami' as Democrats take control of Congress",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261104-blue-wave-turning-into-a-tsunami-as-democrats-take-control-of-congress",
-              "pubDate": "2026-11-04T07:51:12.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "democrats-seize-congress-political-shift-sparks-concern"
-        },
-        {
-          "representativeTitle": "Trump links Iran to Republican electoral losses.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Live coverage: Trump admits Iran war a factor as Republicans routed",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/77c2eaca-4fe1-4c69-b3bd-c517b045ff37?syn-25a6b1a6=1",
-              "pubDate": "2026-11-04T07:39:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trump-links-iran-to-republican-electoral-losses"
-        },
-        {
-          "representativeTitle": "Senator Collins Loses Seat After Three Decades",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Republican Susan Collins loses seat to Democrat, ending nearly 30 years in the Senate",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cred3jj69jvqo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T07:29:51.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "senator-collins-loses-seat-after-three-decades"
-        },
-        {
-          "representativeTitle": "Democrats Win Congress; Implications Analyzed For Nation",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Democrats win Congress: How they did it, and what it means",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/democrats-win-the-us-senate-what-does-this-mean?traffic_source=rss",
-              "pubDate": "2026-11-04T07:23:45.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "democrats-win-congress-implications-analyzed-for-nation"
+          "slug": "democrat-jackson-unseats-republican-collins-in-maine"
         },
         {
           "representativeTitle": "Trump faces political setbacks amid ongoing scrutiny.",
@@ -1438,86 +1163,48 @@ export const newsData = {
           "slug": "economy-and-democracy-top-concerns-for-voters"
         },
         {
-          "representativeTitle": "Democrat Victory Ends Texas Political Drought Period",
+          "representativeTitle": "Trump Criticizes Republicans While Praising Democrats' Work",
           "sources": [
-            "France 24",
-            "IBTimes"
+            "BBC US"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Talarico says 'power belongs to the people' as Democrats win big in Texas",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261104-talarico-says-power-belongs-to-the-people-as-democrats-win-big-in-texas",
-              "pubDate": "2026-11-04T07:36:13.000Z",
-              "tier": 1
-            },
-            {
-              "title": "James Talarico Pulls Another Key Win For Democrats, Ending a Decades-Long Drought in Texas",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/james-talarico-defeats-ken-paxton-texas-senate-3809369",
-              "pubDate": "2026-11-04T05:03:34.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "democrat-victory-ends-texas-political-drought-period"
-        },
-        {
-          "representativeTitle": "Cooper Wins NC Senate Race, Democratic Victory Achieved",
-          "sources": [
-            "BBC US",
-            "NBC News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Democrat Roy Cooper flips key North Carolina Senate seat from Republicans",
+              "title": "Trump takes aim at Republicans but says Democrats did a 'good job'",
               "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cmn5vndlgdgdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T07:34:11.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/c6073l9y15xxo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T10:15:42.000Z",
               "tier": 1
-            },
-            {
-              "title": "Former Gov. Roy Cooper wins North Carolina’s Senate race, flipping the seat for Democrats",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/roy-cooper-north-carolina-senate-election-win-democrats-rcna603330",
-              "pubDate": "2026-11-04T01:23:30.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 6,
+          "sentiment": 0,
+          "relevance_score": 7,
           "importance": 50,
-          "slug": "cooper-wins-nc-senate-race-democratic-victory-achieved"
+          "slug": "trump-criticizes-republicans-while-praising-democrats-work"
         },
         {
-          "representativeTitle": "Trump's actions generate significant political fallout.",
+          "representativeTitle": "Talarico's Senate Win Signals Political Shift Against Musk",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump’s American slapdown for the ages",
+              "title": "James Talarico’s historic Texas Senate victory deals blow to Elon Musk",
               "source": "FT International",
-              "link": "https://www.ft.com/content/0a9d5d07-bc57-4348-b67e-54cf4f1a246e?syn-25a6b1a6=1",
-              "pubDate": "2026-11-04T05:11:06.000Z",
+              "link": "https://www.ft.com/content/b2d07a1f-dfa6-449b-a598-1db51951d6f6?syn-25a6b1a6=1",
+              "pubDate": "2026-11-04T10:03:31.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trumps-actions-generate-significant-political-fallout"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "talaricos-senate-win-signals-political-shift-against-musk"
         },
         {
           "representativeTitle": "Senate Shift Impacts Future Political Landscape For Trump",
@@ -1564,6 +1251,132 @@ export const newsData = {
           "slug": "democrats-win-key-races-amid-political-shift"
         },
         {
+          "representativeTitle": "Florida Midterm Election Results Show Key Local Races",
+          "sources": [
+            "NBC News",
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Candidates speak amid 2026 midterm election results",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/video/watch-live-candidates-speak-amid-2026-midterm-election-results-272550981755",
+              "pubDate": "2026-11-04T00:39:19.000Z",
+              "tier": 2
+            },
+            {
+              "title": "These candidates made history in the 2026 midterm elections",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Politics/candidates-made-history-2026-midterm-elections/story?id=137829582",
+              "pubDate": "2026-11-04T09:28:59.000Z",
+              "tier": 2
+            },
+            {
+              "title": "See 2026 Texas midterm election results from key local races",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9JS05QVWhDY0dMU3Rjb241MkxmX0x0VlMweklnMERjbkh6Vkx4WGotRkRtWXdrT0NVTVVzOUFWZ0V4dzhwUEZzcmJTSDFseklDbG9ibVd0YVJTWnVPMWYzb2p3S1RxTWJMT1FpOTNCZ2htZEk5YjRlcTdRUEw?oc=5",
+              "pubDate": "2026-11-04T05:55:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Texas 2026 live midterm election results",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTUE1bFJaZUxUUGhNbWtTdGFmQ213SVZjdVotWmtfMEhLVzFRam5sckxHd2hsMjNKZC1HTm9ycnFDT1NTZlJiemdhMGRKZ0ZONW93alJrbEE4T1NsUkN0Z0I3b3pTSlFiZHBhRHpaVmJranE0TFdldmlYZUQwWjRJcQ?oc=5",
+              "pubDate": "2026-11-04T02:15:28.000Z",
+              "tier": 2
+            },
+            {
+              "title": "See 2026 Florida midterm election results from key local races",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UZzZPY05uNThIY2lnQzRCazRHVWVrbGNqUk9oODhVWGZzcTAwZmNUYlplb084OTk2aWZYdVFvUjJxMEVEQ0tZU0pDZ2tiN2g0VFIwX05CRm41SndFWHg2TVZGYnhTQ1R4dDFWMmpiUkZLbms2SWEtLTVzTEJnYUU?oc=5",
+              "pubDate": "2026-11-04T05:08:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "florida-midterm-election-results-show-key-local-races"
+        },
+        {
+          "representativeTitle": "Democrat Wins Upset Victory Against GOP Senator in Kansas",
+          "sources": [
+            "NBC News",
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Democrat Adam Hamilton projected to win Senate race in Kansas",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/video/democrat-adam-hamilton-projected-to-win-senate-race-in-kansas-272821317609",
+              "pubDate": "2026-11-04T04:27:37.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Gina Hinojosa projected to win Texas governor's race",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/video/gina-hinojosa-projected-to-win-texas-governor-s-race-272818757955",
+              "pubDate": "2026-11-04T04:13:52.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Democrat Adam Hamilton pulls off upset over GOP Sen. Roger Marshall in Kansas",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/2026-election/adam-hamilton-kansas-senate-democrat-winner-upset-roger-marshall-rcna603310",
+              "pubDate": "2026-11-04T04:20:36.000Z",
+              "tier": 2
+            },
+            {
+              "title": "WATCH:  Jon Ossoff addresses supporters after projected win in Georgia Senate race",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/video/137828154/",
+              "pubDate": "2026-11-04T08:03:42.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Ricketts expected to win tight race for U.S. Senate",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT1NBakFDXy1PdDJybUtKclk5RndXU09Lak9GWkpTWDlMSUJpZW90eVRaMG5KbnFLbTg4VUNaMzBzN3lGcmROd0RHLTJmYzBaYW80RXNhejBqTHctUjdnZmFCQjl5bEluNUQ0V0toRzhWaThSN3o3dUVfLTl5NmNZUDBaT0dCSEVyVHVvYlAzNzRjN2R6TzFicy1CRU1BdE9xMkhZYU5Cb2w?oc=5",
+              "pubDate": "2026-11-04T07:16:21.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "democrat-wins-upset-victory-against-gop-senator-in-kansas"
+        },
+        {
+          "representativeTitle": "Corporate America Fears Democratic Investigations Looms",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Corporate America braced for Democrats to unleash investigations",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/89b80817-fe6b-4172-ad01-8f675e3be6a5?syn-25a6b1a6=1",
+              "pubDate": "2026-11-04T07:44:52.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "corporate-america-fears-democratic-investigations-looms"
+        },
+        {
           "representativeTitle": "Smith discusses Democratic shifts within House Republicans.",
           "sources": [
             "BBC US",
@@ -1594,14 +1407,36 @@ export const newsData = {
           "slug": "smith-discusses-democratic-shifts-within-house-republicans"
         },
         {
-          "representativeTitle": "Democrats challenge Trump's political map results.",
+          "representativeTitle": "Voters Approve Tax Funding For BART Transit System",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "San Francisco’s BART Gets Lifeline as Voters Approve New Tax",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/san-francisco-s-bart-gets-lifeline-as-voters-approve-new-tax",
+              "pubDate": "2026-11-04T11:58:28.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "voters-approve-tax-funding-for-bart-transit-system"
+        },
+        {
+          "representativeTitle": "Democrats challenge Trump base in political battle.",
           "sources": [
             "BBC US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Anthony Zurcher: Democrats tear up Trump's political map on historic night",
+              "title": "Anthony Zurcher: Democrats push deep into Trump heartland on historic night",
               "source": "BBC US",
               "link": "https://www.bbc.co.uk/news/articles/cwz0v5lv30lyo?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-11-04T06:53:56.000Z",
@@ -1613,40 +1448,62 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "democrats-challenge-trumps-political-map-results"
+          "slug": "democrats-challenge-trump-base-in-political-battle"
         },
         {
-          "representativeTitle": "Democrats Challenge Trump Amid Republican Midterm Losses",
+          "representativeTitle": "Johnson Speaks Amid Democratic House Takeover Projections",
           "sources": [
             "Fox News",
-            "Google US"
+            "ABC News Top"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "‘LAWYER UP’: Dems immediately put Trump on notice amid Republicans' midterm bloodbath",
+              "title": "Speaker Mike Johnson projected to cruise to re-election for fifth House term",
               "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/lawyer-up-dems-immediately-put-trump-notice-amid-republicans-midterm-bloodbath",
-              "pubDate": "2026-11-04T04:50:17.000Z",
+              "link": "https://www.foxnews.com/politics/speaker-mike-johnson-cruises-re-election-fifth-house-term",
+              "pubDate": "2026-11-04T07:21:54.000Z",
               "tier": 2
             },
             {
-              "title": "Top Democrat tells Trump and Republicans to ‘lawyer up’ after US midterm defeats",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSnZSRk5JdU5jN1VFN2hwWG53R0dRVVVWV2trTW1ibjc5aFp5endicFlLYS10ejE3M01CT0VObUlSd1U2TXlscmdmM0xuREF2dkVSSmhsR0VtOUZRUWtGRHUyVEhSblBiOC1BTHVhNlQ5MUF5MTNLalE2djkydW5xOXhHWQ?oc=5",
-              "pubDate": "2026-11-04T05:22:00.000Z",
+              "title": "WATCH:  House Speaker Mike Johnson speaks after Democrats projected to take control of House",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/video/137834129/",
+              "pubDate": "2026-11-04T10:32:52.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "democrats-challenge-trump-amid-republican-midterm-losses"
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "johnson-speaks-amid-democratic-house-takeover-projections"
         },
         {
-          "representativeTitle": "Analyzing Texas Midterm Election Results From Local Races",
+          "representativeTitle": "New Jersey Ebike Law Sparks Public Confusion and Debate",
+          "sources": [
+            "Wired"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "New Jersey’s New Ebike Law Is Causing Chaos",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/new-jerseys-new-ebike-law-is-causing-chaos/",
+              "pubDate": "2026-11-04T10:45:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "new-jersey-ebike-law-sparks-public-confusion-and-debate"
+        },
+        {
+          "representativeTitle": "Shapiro discusses Democratic Party's future direction.",
           "sources": [
             "NBC News",
             "ABC News Top",
@@ -1655,24 +1512,24 @@ export const newsData = {
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Candidates speak amid 2026 midterm election results",
+              "title": "Pennsylvania Governor Josh Shapiro speaks on the future of the Democratic Party",
               "source": "NBC News",
-              "link": "https://www.nbcnews.com/video/watch-live-candidates-speak-amid-2026-midterm-election-results-272550981755",
-              "pubDate": "2026-11-04T00:39:19.000Z",
+              "link": "https://www.nbcnews.com/video/pennsylvania-governor-josh-shapiro-speaks-on-the-future-of-the-democratic-party-272822853621",
+              "pubDate": "2026-11-04T05:29:13.000Z",
               "tier": 2
             },
             {
-              "title": "These candidates made history in the 2026 midterm elections",
+              "title": "WATCH:  Josh Shapiro addresses supporters after projected win in Pennsylvania governor's race",
               "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/candidates-made-history-2026-midterm-elections/story?id=137829582",
-              "pubDate": "2026-11-04T06:15:23.000Z",
+              "link": "https://abcnews.com/video/137830963/",
+              "pubDate": "2026-11-04T04:57:33.000Z",
               "tier": 2
             },
             {
-              "title": "See 2026 Texas midterm election results from key local races",
+              "title": "Gov. Josh Shapiro cruises to a second term in Pennsylvania",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9JS05QVWhDY0dMU3Rjb241MkxmX0x0VlMweklnMERjbkh6Vkx4WGotRkRtWXdrT0NVTVVzOUFWZ0V4dzhwUEZzcmJTSDFseklDbG9ibVd0YVJTWnVPMWYzb2p3S1RxTWJMT1FpOTNCZ2htZEk5YjRlcTdRUEw?oc=5",
-              "pubDate": "2026-11-04T05:55:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZTZLa3BQLTRZakx5QkpQQVZJNXJ6ZTdNejQ2N0VQVHAwOEtyTWczb0trdGRfNTlFalN2X2lMZGxBTlNjdUZBeUVmemxYd0hISFpfNGxNWktONGhidU1hNUVDRG5YcnVVY2dBeVFQYnJWRkVrS2k1VTF1UzR5bjBTTjVYRUJxNDZKeGlBa1ViZDJzWkZMWDV1ekYxdXR2SldwYmxn?oc=5",
+              "pubDate": "2026-11-04T05:40:06.000Z",
               "tier": 2
             }
           ],
@@ -1681,42 +1538,20 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "analyzing-texas-midterm-election-results-from-local-races"
+          "slug": "shapiro-discusses-democratic-partys-future-direction"
         },
         {
-          "representativeTitle": "Talarico's Senate Win Signals Political Shift Against Musk",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "James Talarico’s historic Texas Senate victory deals blow to Elon Musk",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/b2d07a1f-dfa6-449b-a598-1db51951d6f6?syn-25a6b1a6=1",
-              "pubDate": "2026-11-04T05:37:26.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "talaricos-senate-win-signals-political-shift-against-musk"
-        },
-        {
-          "representativeTitle": "Ossoff Projected to Keep Georgia Congressional Seat",
+          "representativeTitle": "Analysis details American voting patterns across maps.",
           "sources": [
             "BBC US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Democratic rising star Ossoff projected to hold Georgia seat",
+              "title": "How America voted in maps and charts",
               "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cqwyrmm2k4mpo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T07:33:09.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/cm4g1j0n92qdo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T09:53:18.000Z",
               "tier": 1
             }
           ],
@@ -1725,17 +1560,83 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "ossoff-projected-to-keep-georgia-congressional-seat"
+          "slug": "analysis-details-american-voting-patterns-across-maps"
         },
         {
-          "representativeTitle": "Midterm election results yield key political takeaways.",
+          "representativeTitle": "Midterm Election Coverage Shows Mixed Voter Emotions",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Tears, celebrations and selfies: US midterms in pictures",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cq74pexm44elo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T08:05:53.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "midterm-election-coverage-shows-mixed-voter-emotions"
+        },
+        {
+          "representativeTitle": "Democrat wins SC Senate seat after decades.",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "South Carolina elects Democratic senator for first time in almost three decades",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T07:32:02.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "democrat-wins-sc-senate-seat-after-decades"
+        },
+        {
+          "representativeTitle": "Elected Winners Address Supporters After Midterm Gains",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Watch: Winners address supporters after midterms victories",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/videos/cq3dj7xn2xvko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T07:23:10.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "elected-winners-address-supporters-after-midterm-gains"
+        },
+        {
+          "representativeTitle": "Midterm results offer key takeaways for politics.",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Four takeaways from the midterm results",
+              "title": "Five takeaways from the midterm results",
               "source": "FT International",
               "link": "https://www.ft.com/content/2bfbe464-f070-44bb-a761-fecad1cde4d4?syn-25a6b1a6=1",
               "pubDate": "2026-11-04T07:21:14.000Z",
@@ -1747,91 +1648,17 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "midterm-election-results-yield-key-political-takeaways"
+          "slug": "midterm-results-offer-key-takeaways-for-politics"
         },
         {
-          "representativeTitle": "Trump Acknowledges Democrats' Midterm Victory; Cites Iran.",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump congratulates Democrats on midterms win, says Iran war played role",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261104-trump-congratulates-democrats-on-midterms-win-says-iran-war-played-role",
-              "pubDate": "2026-11-04T07:13:41.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "trump-acknowledges-democrats-midterm-victory-cites-iran"
-        },
-        {
-          "representativeTitle": "Councillor Charged With Multiple Serious Criminal Allegations",
-          "sources": [
-            "The Guardian",
-            "Sky News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Reform UK councillor charged with 12 counts of rape and multiple other offences",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/nov/03/reform-uk-councillor-george-madgwick-charged-12-counts-rape",
-              "pubDate": "2026-11-03T22:04:24.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Reform councillor charged with 35 offences including 12 counts of rape",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/reform-councillor-charged-with-35-offences-including-rape-13607499",
-              "pubDate": "2026-11-03T14:36:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "councillor-charged-with-multiple-serious-criminal-allegations"
-        },
-        {
-          "representativeTitle": "Governors promise to curb data center construction growth.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Democratic governors elected on promises to stop data centre building",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/badd6af9-88b7-47b7-b1c2-067814e70fb5?syn-25a6b1a6=1",
-              "pubDate": "2026-11-04T06:40:23.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "governors-promise-to-curb-data-center-construction-growth"
-        },
-        {
-          "representativeTitle": "Treasuries react to Democrat win; await refund plan.",
+          "representativeTitle": "Bond Market Reacts to Democratic Victory Focus",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Treasuries Rise on Democrat Win as Traders Await Refunding Plan",
+              "title": "US Bonds Rise on Democrat Win With Focus Moving to Debt Plan",
               "source": "Bloomberg Markets",
               "link": "https://www.bloomberg.com/news/articles/2026-11-04/treasuries-advance-as-traders-eye-us-votes-refinancing-plans",
               "pubDate": "2026-11-04T01:00:49.000Z",
@@ -1843,7 +1670,147 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "treasuries-react-to-democrat-win-await-refund-plan"
+          "slug": "bond-market-reacts-to-democratic-victory-focus"
+        },
+        {
+          "representativeTitle": "Trump faces criticism following recent public statements.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump’s slapdown by America is one for the ages",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/0a9d5d07-bc57-4348-b67e-54cf4f1a246e?syn-25a6b1a6=1",
+              "pubDate": "2026-11-04T05:11:06.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "trump-faces-criticism-following-recent-public-statements"
+        },
+        {
+          "representativeTitle": "Democrat El-Sayed Wins Michigan Senate Race Election",
+          "sources": [
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "El-Sayed wins Michigan Senate seat, NBC News projects",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/video/el-sayed-wins-michigan-senate-seat-nbc-news-projects-272825413790",
+              "pubDate": "2026-11-04T07:39:57.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Troy Jackson wins Maine Senate seat, NBC News projects",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/video/troy-jackson-wins-maine-senate-seat-nbc-news-projects-272824389727",
+              "pubDate": "2026-11-04T06:02:04.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Democrats win the Senate, taking full control of Congress, NBC News projects",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/video/democrats-win-the-senate-taking-full-control-of-congress-nbc-news-projects-272822341585",
+              "pubDate": "2026-11-04T04:36:34.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Democrat Sherrod Brown wins the Ohio Senate race, NBC News projects",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/video/democrat-sherrod-brown-wins-the-ohio-senate-race-nbc-news-projects-272821317568",
+              "pubDate": "2026-11-04T04:22:30.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Democrat Abdul El-Sayed wins Michigan’s Senate race",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/2026-election/democrat-abdul-el-sayed-wins-michigans-high-stakes-senate-race-rcna603315",
+              "pubDate": "2026-11-04T07:26:43.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Ashley Moody wins Florida 2026 Senate election, CBS News projects",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qM1lFUkc1b3hOYzlrLWhpQ3dsMjFQaHM4emVzWEZ5d2d0c3I3SGU4VGxtZURXRkdKdTlyRmJaSXU2SDEwejlxNUk4VVpSSVh1MDVJWnpfNG9sQTFXSHoyOE5namcwMEhXWUxUVmxB?oc=5",
+              "pubDate": "2026-11-04T01:42:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "democrat-el-sayed-wins-michigan-senate-race-election"
+        },
+        {
+          "representativeTitle": "Democrat Wins Michigan Senate Race Against Republican Opponent",
+          "sources": [
+            "Fox News",
+            "NPR"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Abdul El-Sayed delivers major blow to GOP in Michigan after bruising Senate race",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/politics/abdul-el-sayed-delivers-major-blow-gop-michigan-after-bruising-senate-race",
+              "pubDate": "2026-11-04T06:17:28.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Democrat Abdul El-Sayed defeats Republican Mike Rogers in key Michigan Senate race",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/04/g-s1-150029/michigan-senate-race-abdul-el-sayed-mike-rogers",
+              "pubDate": "2026-11-04T07:28:02.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "democrat-wins-michigan-senate-race-against-republican-opponent"
+        },
+        {
+          "representativeTitle": "Democratic Leader Declares American Revival Amid Political Climate",
+          "sources": [
+            "NPR",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "House Democratic Leader Hakeem Jeffries declares \"America is back\"",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house",
+              "pubDate": "2026-11-04T06:50:28.000Z",
+              "tier": 2
+            },
+            {
+              "title": "House Democratic Leader Hakeem Jeffries declares \"America is back\"",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOGZ5M0ZlbDZyODgtU2lEZC1odXpzMXVOS2s2dVNUcWpzZU9TY1FCRGdyMUlyX2lhaWlhZ1dDcDVGODdBYl9UdUVEeF82TkF1allLcWlxeTkwLUtXQWZqV1VqelVfZVlBSE1CaDg3MlBQeENQdWZwQ3g3M0J1a3VQdQ?oc=5",
+              "pubDate": "2026-11-04T06:50:28.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "democratic-leader-declares-american-revival-amid-political-climate"
         },
         {
           "representativeTitle": "Escaped Killer Captured After Week-Long Manhunt Effort",
@@ -1898,56 +1865,34 @@ export const newsData = {
           "slug": "jackson-defeats-collins-in-maine-senate-race"
         },
         {
-          "representativeTitle": "GOP Rep Loses Election Amid Ex-Wife Allegations",
+          "representativeTitle": "Former Governor Comments on Democratic Political Gains",
           "sources": [
-            "NBC News",
+            "NPR",
             "Google US"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "GOP Rep. Max Miller loses re-election in Ohio following abuse allegations from his ex-wife",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/brian-poindexter-win-max-miller-house-election-ohio-abuse-allegations-rcna603372",
-              "pubDate": "2026-11-04T05:28:23.000Z",
+              "title": "Former Arkansas governor says Democrats' gains are 'more significant than ever anticipated'",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/04/nx-s1-6028116/former-arkansas-governor-says-democrats-gains-are-more-significant-than-ever-anticipated",
+              "pubDate": "2026-11-04T05:14:01.000Z",
               "tier": 2
             },
             {
-              "title": "GOP Rep. Max Miller loses re-election in Ohio following abuse allegations from his ex-wife",
+              "title": "Former Arkansas governor says Democrats' gains are 'more significant than ever anticipated'",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaHNwZ05NV0U1cjBNb2lvMnBxSWNqT0tYSGpzdmYxZDZuNkctbHc0eDFRSmhjREN5VFBwLXBUYkpLLTJvemhVdGEtMHJNb3NtaXkzVXRpZU9yazhoM1FVQmRZUVRabFhycE5wUFY3X2F6SFNpQVkta0U5WXVlaXB1QldudlNiU2U4aTRHeERVMG9ZNWtkc0VoaGxmd0F5T3lxejByR3kyTlRUVVhUaDl1VVpURWNkV0h0R25CdHFaajNNeWt6dEE?oc=5",
-              "pubDate": "2026-11-04T05:28:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR00zN2VoN1lWUTRfemJPdVpMbGJmYmhhR2tja1pEeENaNlB5b2ZCV2UxYkV4b0p4QlVaeE53UnFkVWhKODZLR0luaER4YXpwNmFtSjlRdy00b0xKVUVpYnJ6Skk3b3BiMzFKOGQ3V2t4VjJyTzZXbDJQWmFubUt0VUtSTWI5Y053cHBLWE5RVDlNSmRKamZseGhMS0tpQ3Y4ZThNV2tyVlVMMUp2Z1h5VUlrZkZ0ZmhGaW0zN1lxX1k0SWhsT0tkUkNsNEZTZw?oc=5",
+              "pubDate": "2026-11-04T05:14:01.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 6,
           "importance": 40,
-          "slug": "gop-rep-loses-election-amid-ex-wife-allegations"
-        },
-        {
-          "representativeTitle": "Conspiracy Theories Target Election Integrity Concerns Now",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The Internet’s Conspiracy Theorists Are Desperate for Voter Fraud",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/the-internets-conspiracy-theorists-are-desperate-for-voter-fraud/",
-              "pubDate": "2026-11-03T21:11:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "conspiracy-theories-target-election-integrity-concerns-now"
+          "slug": "former-governor-comments-on-democratic-political-gains"
         }
       ]
     },
@@ -1955,65 +1900,43 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "US Sweep Signals Potential Decline in European Markets",
+          "representativeTitle": "Defense Stocks Fall Amid Political Uncertainty Cloud",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "FTSE 100 Live: UK, European Stocks Set to Fall After US Democratic Sweep",
+              "title": "European Defense Stocks Slide as Democrats’ Sweep Dents Optimism",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/live-blog/2026-11-04/ftse-100-live-updates-pound-bonds-gilts-us-midterms-trump-democrats-pmi-novo-what-s-moving-uk-markets-right-now-markets-today-mw1rl1g6",
-              "pubDate": "2026-11-04T06:57:20.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/european-defense-stocks-slide-as-democrats-sweep-dents-optimism",
+              "pubDate": "2026-11-04T11:27:31.000Z",
               "tier": 1
             },
             {
-              "title": "European Stocks Set to Dip as Democrat Sweep Stokes AI Worries",
+              "title": "Musk’s Tesla, SpaceX Slide as Democrats Sweep Congress",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/european-stocks-set-to-dip-as-democrat-sweep-stokes-ai-worries",
-              "pubDate": "2026-11-04T05:51:38.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/tesla-spacex-shares-take-early-hit-as-midterm-blue-wave-unfolds",
+              "pubDate": "2026-11-04T04:28:06.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 60,
-          "slug": "us-sweep-signals-potential-decline-in-european-markets"
-        },
-        {
-          "representativeTitle": "Political Wins Spark Market Fears Over AI Boom",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Stocks fall as Democratic wins stoke fears for AI boom",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
-              "pubDate": "2026-11-04T04:39:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 8,
+          "relevance_score": 6,
           "importance": 55,
-          "slug": "political-wins-spark-market-fears-over-ai-boom"
+          "slug": "defense-stocks-fall-amid-political-uncertainty-cloud"
         },
         {
-          "representativeTitle": "Renewable Stocks Rise Following Democratic Congressional Victory",
+          "representativeTitle": "Renewable Stocks Rise Following Democratic Congressional Sweep",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Global Renewable Stocks Jump as Democrats Win Congress Control",
+              "title": "Global Renewable Stocks Surge After Democrats Sweep Congress",
               "source": "Bloomberg Markets",
               "link": "https://www.bloomberg.com/news/articles/2026-11-04/global-solar-stocks-jump-as-democrats-hold-early-us-midterm-lead",
               "pubDate": "2026-11-04T03:13:54.000Z",
@@ -2025,86 +1948,20 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "renewable-stocks-rise-following-democratic-congressional-victory"
+          "slug": "renewable-stocks-rise-following-democratic-congressional-sweep"
         },
         {
-          "representativeTitle": "McDonald's Earnings Report Expected Soon; Analysts Prepare",
+          "representativeTitle": "Market Rallies Following Democratic Political Sweep Gains",
           "sources": [
-            "CNBC Economy"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "McDonald's is about to report earnings. Here's what to expect",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
-              "pubDate": "2026-11-04T05:01:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Stocks",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "mcdonalds-earnings-report-expected-soon-analysts-prepare"
-        },
-        {
-          "representativeTitle": "Japan Stocks Decline Amid US Election Uncertainty",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Japan Stocks Trim Declines as Investors Weigh US Vote",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/japanese-stocks-sink-as-us-midterm-results-hit-tech-shares",
-              "pubDate": "2026-11-04T04:45:41.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "japan-stocks-decline-amid-us-election-uncertainty"
-        },
-        {
-          "representativeTitle": "Korean Stocks Rebound Amid US Market Concerns",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Korean Stocks Rebound as US Midterm-Driven Losses Seen Excessive",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/kospi-slumps-as-democrats-us-election-lead-spurs-chip-selloff",
-              "pubDate": "2026-11-04T03:22:59.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "korean-stocks-rebound-amid-us-market-concerns"
-        },
-        {
-          "representativeTitle": "Ferrari Boosts 2026 Outlook Following Strong Quarter",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Ferrari raises 2026 guidance after Q3 earnings beat",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html",
-              "pubDate": "2026-11-03T21:11:34.000Z",
+              "title": "Stocks rebound after Democrats’ sweep",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
+              "pubDate": "2026-11-04T11:37:26.000Z",
               "tier": 1
             }
           ],
@@ -2113,29 +1970,117 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "ferrari-boosts-2026-outlook-following-strong-quarter"
+          "slug": "market-rallies-following-democratic-political-sweep-gains"
         },
         {
-          "representativeTitle": "Palantir's growth masks underlying warning signs.",
+          "representativeTitle": "Market Bulls Welcome End of Election Uncertainty Period",
           "sources": [
-            "TechCrunch"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
-              "pubDate": "2026-11-03T21:05:55.000Z",
+              "title": "Stock Bulls Are Glad This Election Is Finally Over",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/newsletters/2026-11-04/stock-bulls-are-glad-this-election-is-finally-over",
+              "pubDate": "2026-11-04T11:20:44.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Technology",
+          "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
-          "sentiment": -0.4,
+          "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "palantirs-growth-masks-underlying-warning-signs"
+          "slug": "market-bulls-welcome-end-of-election-uncertainty-period"
+        },
+        {
+          "representativeTitle": "Asia Stocks Recover After AI Scrutiny Fears Ease",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Asia Stocks Erase Losses on Bets AI Scrutiny Fears Overdone",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/asian-stocks-fall-as-democratic-gains-in-us-add-to-ai-worries",
+              "pubDate": "2026-11-04T03:52:59.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "asia-stocks-recover-after-ai-scrutiny-fears-ease"
+        },
+        {
+          "representativeTitle": "European Stocks Rise Following Midterm Gains in Sectors",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "European Stocks Rise After Midterms as Renewables and Banks Jump",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/european-stocks-set-to-dip-as-democrat-sweep-stokes-ai-worries",
+              "pubDate": "2026-11-04T05:51:38.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "european-stocks-rise-following-midterm-gains-in-sectors"
+        },
+        {
+          "representativeTitle": "Copper Rises With Strong Market Sentiment Following Sweep",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Copper Follows Stock Markets Higher as Democrats Sweep Congress",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/copper-holds-losses-below-14-000-on-us-midterm-risks-to-stocks",
+              "pubDate": "2026-11-04T02:47:04.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "copper-rises-with-strong-market-sentiment-following-sweep"
+        },
+        {
+          "representativeTitle": "Singapore Stocks Recover As Regional Sentiment Improves",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Singapore Stocks Claw Back Losses as Regional Mood Improves",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/singapore-stocks-set-for-correction-as-bank-profit-outlook-sours",
+              "pubDate": "2026-11-04T02:37:31.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "singapore-stocks-recover-as-regional-sentiment-improves"
         }
       ]
     },
@@ -2153,7 +2098,7 @@ export const newsData = {
               "title": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
               "source": "CNBC Markets",
               "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
-              "pubDate": "2026-11-04T07:27:48.000Z",
+              "pubDate": "2026-11-04T10:02:00.000Z",
               "tier": 1
             }
           ],
@@ -2165,114 +2110,136 @@ export const newsData = {
           "slug": "yields-fall-as-safety-seeking-capital-flows-to-bonds"
         },
         {
-          "representativeTitle": "BHEL Wins Major $3 Billion Power Order From Adani",
+          "representativeTitle": "Dollar Weakens Amid US Political Policy Uncertainty Fears",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "India’s BHEL Wins $3 Billion Adani Power Orders, Shares Jump",
+              "title": "Dollar Dips Most in Two Months as US Vote Spurs Policy Risks",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/india-s-bhel-wins-3-billion-adani-power-orders-shares-jump",
-              "pubDate": "2026-11-04T07:09:25.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/franc-yen-emerge-as-fx-winners-as-us-midterms-weaken-dollar",
+              "pubDate": "2026-11-04T03:11:23.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "bhel-wins-major-3-billion-power-order-from-adani"
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "dollar-weakens-amid-us-political-policy-uncertainty-fears"
         },
         {
-          "representativeTitle": "M&S Shows UK Retail Resilience Amid Spending Cuts",
+          "representativeTitle": "McDonald's Earnings Beat Amid Declining U.S. Traffic",
           "sources": [
-            "Bloomberg Markets"
+            "CNBC Economy"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Marks & Spencer Results Show UK Retail Strength Despite Consumer Squeeze",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/newsletters/2026-11-04/marks-spencer-results-show-uk-retail-strength-despite-consumer-squeeze",
-              "pubDate": "2026-11-04T07:42:56.000Z",
+              "title": "McDonald's earnings beat, but traffic to chain's U.S. restaurants falls",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
+              "pubDate": "2026-11-04T12:04:42.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ms-shows-uk-retail-resilience-amid-spending-cuts"
-        },
-        {
-          "representativeTitle": "India's Central Bank Forms Panel on Markets",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "India’s Central Bank Sets Up Panel to Assess Forex, Bond Markets",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/india-s-central-bank-sets-up-panel-to-assess-forex-bond-markets",
-              "pubDate": "2026-11-04T07:37:26.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Business",
           "aiCategory": "Business",
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "indias-central-bank-forms-panel-on-markets"
+          "slug": "mcdonalds-earnings-beat-amid-declining-us-traffic"
         },
         {
-          "representativeTitle": "Encube Ethicals Plans Major Indian IPO This Month",
+          "representativeTitle": "Canva Cuts Over Thousand Jobs Amid Growth Slowdown",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Canva lays off over 1,200 people amid slowing growth",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/04/canva-lays-off-over-1200-people-amid-slowing-growth/",
+              "pubDate": "2026-11-04T11:59:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "canva-cuts-over-thousand-jobs-amid-growth-slowdown"
+        },
+        {
+          "representativeTitle": "BMW Warns on Profits Amid Job Cut Plans",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "BMW warns on profits as it counts cost of plan for 8,000 job cuts",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/business/2026/nov/04/bmw-warns-on-profits-counts-cost-plan-for-8000-job-cuts",
+              "pubDate": "2026-11-04T11:58:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "bmw-warns-on-profits-amid-job-cut-plans"
+        },
+        {
+          "representativeTitle": "Rain Shortfall Threatens India's Coffee Output Forecast",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Encube Ethicals Said to Plan $317 Million India IPO This Month",
+              "title": "India Coffee Output to Miss Forecast After Below-Normal Rains",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/encube-ethicals-said-to-plan-317-million-india-ipo-this-month",
-              "pubDate": "2026-11-04T07:20:50.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/india-coffee-output-to-miss-forecast-after-below-normal-rains",
+              "pubDate": "2026-11-04T11:06:22.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "encube-ethicals-plans-major-indian-ipo-this-month"
+          "slug": "rain-shortfall-threatens-indias-coffee-output-forecast"
         },
         {
-          "representativeTitle": "Ex-Executive Joins Motilal Oswal's Alternates Business Unit",
+          "representativeTitle": "India's Spending Boom Paired With Rising Debt Concerns",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Ex-Temasek Holdings Executive to Lead Motilal Oswal’s Alternates Business",
+              "title": "India’s Consumer Spending Boom Comes With Growing Debt Bill",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/ex-temasek-holdings-executive-to-lead-motilal-oswal-s-alternates-business",
-              "pubDate": "2026-11-04T05:34:04.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/india-s-middle-class-spending-boom-comes-with-growing-debt-bill",
+              "pubDate": "2026-11-04T01:00:00.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ex-executive-joins-motilal-oswals-alternates-business-unit"
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "indias-spending-boom-paired-with-rising-debt-concerns"
         },
         {
           "representativeTitle": "Foreign Investment Fuels India's Microdrama Market Growth",
@@ -2297,124 +2264,6 @@ export const newsData = {
           "slug": "foreign-investment-fuels-indias-microdrama-market-growth"
         },
         {
-          "representativeTitle": "Palm Oil Prices Drop Amid Stockpile Worries",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Palm Oil Sinks to Lowest Since June as Stockpile Concerns Mount",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/palm-oil-sinks-to-lowest-since-june-as-stockpile-concerns-mount",
-              "pubDate": "2026-11-04T04:38:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "palm-oil-prices-drop-amid-stockpile-worries"
-        },
-        {
-          "representativeTitle": "FX Markets Shift: Franc, Yen Gain as Dollar Weakens",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/franc-yen-emerge-as-fx-winners-as-us-midterms-weaken-dollar",
-              "pubDate": "2026-11-04T03:11:23.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "fx-markets-shift-franc-yen-gain-as-dollar-weakens"
-        },
-        {
-          "representativeTitle": "Copper Price Volatility Driven by Economic Data, Dollar",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Copper Swings as Traders Weigh Midterm Results and Weaker Dollar",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/copper-holds-losses-below-14-000-on-us-midterm-risks-to-stocks",
-              "pubDate": "2026-11-04T02:47:04.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "copper-price-volatility-driven-by-economic-data-dollar"
-        },
-        {
-          "representativeTitle": "Taco Bell Sales Improve Following Cyclospora Outbreak Scare",
-          "sources": [
-            "CNBC Economy",
-            "WSJ US Business"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Yum Brands earnings beat estimates, but cyclospora outbreak weighs on Taco Bell",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/11/03/yum-brands-yum-q3-2026-earnings.html",
-              "pubDate": "2026-11-03T15:19:14.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Yum Says Taco Bell Sales Are Improving After Cyclospora Outbreak Fallout",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/business/earnings/yum-revenue-rises-despite-taco-bell-cyclospora-outbreak-fallout-04afd09a?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-11-03T16:55:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "taco-bell-sales-improve-following-cyclospora-outbreak-scare"
-        },
-        {
-          "representativeTitle": "JetBlue raises fees amid rising fuel costs.",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "JetBlue raises bag fees for third time in a year as fuel costs bite",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/11/03/jetblue-checked-bag-fee.html",
-              "pubDate": "2026-11-03T22:26:20.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "jetblue-raises-fees-amid-rising-fuel-costs"
-        },
-        {
           "representativeTitle": "Venture Firm Seeks Funds Amid Cybersecurity Boom",
           "sources": [
             "TechCrunch"
@@ -2435,28 +2284,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "venture-firm-seeks-funds-amid-cybersecurity-boom"
-        },
-        {
-          "representativeTitle": "Disney Announces Layoffs and Cost-Cutting Measures Now",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Disney plans several thousand layoffs, asks some managers to cut costs by up to 20%",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/11/03/disney-layoffs-cost-cuts.html",
-              "pubDate": "2026-11-03T17:05:29.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "disney-announces-layoffs-and-cost-cutting-measures-now"
         }
       ]
     },
@@ -2568,108 +2395,26 @@ export const newsData = {
           "slug": "data-centers-use-old-engines-amid-power-shortages"
         },
         {
-          "representativeTitle": "Apple Restricts Dating Apps and AI Companions Access",
+          "representativeTitle": "Review Suggests Accessory Over Amazon Kindle Purchase",
           "sources": [
-            "TechCrunch",
-            "Google Tech"
+            "Wired"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Apple restricts dating apps and AI companions to users 18 and up",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
-              "pubDate": "2026-11-03T15:38:27.000Z",
+              "title": "I Tried Amazon’s New Kindles. Buy This Accessory Instead (2026)",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/finally-a-kindle-page-turner/",
+              "pubDate": "2026-11-04T11:36:00.000Z",
               "tier": 1
-            },
-            {
-              "title": "Apple restricts dating apps and AI companions to users 18 and up",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRllpdmJRcjJ2OVhjQnI1dVVqdW9mZW5IYm5VX2J1QmhQSHRlTGsyUkJIVDZweWp6dmZ6WnVWUGJubUhUc2F6dGpmVGdyVXVsUWpZLVVyUDRKbXYtc0tBQk5senJkSFI5SS1yV2dJY0FFallfVjRsM2dvN3NXYnBfek5tZmVhSUotcUVjMUF5dW9SRktDYmVPZkwtSWVFS2lY?oc=5",
-              "pubDate": "2026-11-03T15:38:27.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "apple-restricts-dating-apps-and-ai-companions-access"
-        },
-        {
-          "representativeTitle": "Study reveals widespread AI image abuse among adults",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "One in 15 adults has experienced AI-generated image-based abuse, study finds",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-adults-experienced-ai-generated-image.html",
-              "pubDate": "2026-11-04T02:40:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "study-reveals-widespread-ai-image-abuse-among-adults"
-        },
-        {
-          "representativeTitle": "Digital Leaders Face Increased Cyberattack Vulnerabilities Now",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Digitalization front-runners are more vulnerable to cyberattacks",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-digitalization-front-runners-vulnerable-cyberattacks.html",
-              "pubDate": "2026-11-04T01:30:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "digital-leaders-face-increased-cyberattack-vulnerabilities-now"
-        },
-        {
-          "representativeTitle": "Valve adjusts Steam policies amid content surge.",
-          "sources": [
-            "The Verge",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Valve is making changes to deal with a ‘significant increase’ in Steam game submissions",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/games/1025722/valve-steam-game-increase-submissions",
-              "pubDate": "2026-11-03T22:15:33.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Valve is making changes to deal with a ‘significant increase’ in Steam game submissions",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYWVZel9NX1R0ZUJlZmF2NWV1c0tyNTcwSUdzY3FrXzBfYmY4NEtBemNScnplMHJ2NXNZenBPcmlJenVpWlVWek9vOUpkZ2pRR3VJR25aM19pSDVQNU4xam1obUllQlJRcjQzVmZ1LVVRTUwxSnd1WlJCVkRvdkQzMXJn?oc=5",
-              "pubDate": "2026-11-03T22:15:33.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 4,
+          "relevance_score": 3,
           "importance": 30,
-          "slug": "valve-adjusts-steam-policies-amid-content-surge"
+          "slug": "review-suggests-accessory-over-amazon-kindle-purchase"
         },
         {
           "representativeTitle": "Lenovo IdeaPad Slim 5 Now Available For $900",
@@ -2699,26 +2444,77 @@ export const newsData = {
       "name": "Science",
       "children": [
         {
-          "representativeTitle": "Space Station Prints First Rigid Beam in Vacuum",
+          "representativeTitle": "Pharma Deal Signals Major Advance in Cancer Treatment",
           "sources": [
-            "TechCrunch"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Orbital Matter 3D-printed the first rigid beam in the vacuum of space",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/",
-              "pubDate": "2026-11-03T20:57:17.000Z",
+              "title": "Boehringer, Sino Enter Cancer Drug Deal Worth Over $7 Billion",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/boehringer-sino-enter-cancer-drug-deal-worth-over-7-billion",
+              "pubDate": "2026-11-04T09:49:40.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "pharma-deal-signals-major-advance-in-cancer-treatment"
+        },
+        {
+          "representativeTitle": "Chernobyl Dogs Evolving; Scientists Study Unknown Changes",
+          "sources": [
+            "Wired"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Chernobyl’s Dogs May Be Evolving, but Scientists Don’t Know Why",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/chernobyls-dogs-may-be-evolving-but-scientists-dont-know-why/",
+              "pubDate": "2026-11-04T10:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Chernobyl’s Dogs May Be Evolving, but Scientists Don’t Know Why",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/chernobyls-dogs-may-be-evolving-but-scientists-dont-know-why/",
+              "pubDate": "2026-11-04T10:00:00.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Science",
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 45,
+          "slug": "chernobyl-dogs-evolving-scientists-study-unknown-changes"
+        },
+        {
+          "representativeTitle": "WHO identifies six measures saving millions of lives.",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Six measures could save 1.6 million lives a year: WHO",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-million-year.html",
+              "pubDate": "2026-11-04T09:48:48.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
           "sentiment": 0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "space-station-prints-first-rigid-beam-in-vacuum"
+          "importance": 45,
+          "slug": "who-identifies-six-measures-saving-millions-of-lives"
         },
         {
           "representativeTitle": "Scientists engineer cancer cells to produce killing drugs.",
@@ -2765,48 +2561,48 @@ export const newsData = {
           "slug": "gene-editing-promises-medical-revolution-with-caveats"
         },
         {
-          "representativeTitle": "Lab-Grown Neurons Mimic Early Brain Development Stages",
+          "representativeTitle": "Human role vital for ecosystem survival and health.",
           "sources": [
-            "Phys.org"
+            "Nature"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Lab-grown neurons retain features of embryonic development",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-lab-grown-neurons-retain-features.html",
-              "pubDate": "2026-11-04T02:00:06.000Z",
-              "tier": 2
+              "title": "Ecosystems depend on people: don’t abandon them",
+              "source": "Nature",
+              "link": "https://www.nature.com/articles/d41586-026-03544-8",
+              "pubDate": "2026-11-04T00:00:00.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
+          "sentiment": 0,
+          "relevance_score": 6,
           "importance": 45,
-          "slug": "lab-grown-neurons-mimic-early-brain-development-stages"
+          "slug": "human-role-vital-for-ecosystem-survival-and-health"
         },
         {
-          "representativeTitle": "Shared Data Ecosystem Boosts Biological Discovery Potential",
+          "representativeTitle": "Human Absence Reveals Unexpected Biodiversity Shifts Now",
           "sources": [
-            "Phys.org"
+            "Nature"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Shared data ecosystem could help scientists explore new biological connections",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-ecosystem-scientists-explore-biological.html",
-              "pubDate": "2026-11-04T01:40:01.000Z",
-              "tier": 2
+              "title": "When humans disappear, biodiversity takes a surprising turn",
+              "source": "Nature",
+              "link": "https://www.nature.com/articles/d41586-026-03505-1",
+              "pubDate": "2026-11-04T00:00:00.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "shared-data-ecosystem-boosts-biological-discovery-potential"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "human-absence-reveals-unexpected-biodiversity-shifts-now"
         }
       ]
     }
