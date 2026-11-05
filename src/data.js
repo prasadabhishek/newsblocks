@@ -1,17 +1,61 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-11-04T20:20:20.702Z",
+  "lastUpdated": "2026-11-05T00:29:20.379Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
+          "representativeTitle": "Trump defends Iran war despite election losses.",
+          "sources": [
+            "Al Jazeera",
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Iran war live: Trump says war caused election wipeout but he ‘had to do it’",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
+              "pubDate": "2026-11-05T00:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump blames Iran war for midterms losses",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-blames-iran-war-for-midterms-losses?traffic_source=rss",
+              "pubDate": "2026-11-04T23:30:01.000Z",
+              "tier": 1
+            },
+            {
+              "title": "US midterm election results live: Trump blames Iran war after losses",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
+              "pubDate": "2026-11-04T21:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "🔴 Live: Trump says going to war in Iran was worth it, despite midterm rout",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
+              "pubDate": "2026-11-04T18:32:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 90,
+          "slug": "trump-defends-iran-war-despite-election-losses"
+        },
+        {
           "representativeTitle": "French Blood Banks Hit By Major Cyberattack Threat",
           "sources": [
             "The Guardian",
             "France 24",
-            "Sky News",
-            "Le Monde"
+            "Le Monde",
+            "Google World"
           ],
           "citationCount": 4,
           "rawArticles": [
@@ -30,17 +74,17 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Cyber attack threatens French blood banks",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/cyber-attack-threatens-french-blood-banks-13606660",
-              "pubDate": "2026-11-04T06:13:00.000Z",
-              "tier": 2
-            },
-            {
               "title": "Cyberattack targets French blood banks",
               "source": "Le Monde",
               "link": "https://www.lemonde.fr/en/france/article/2026/11/04/new-cyberattack-targets-french-blood-banks_6771517_7.html",
               "pubDate": "2026-11-04T11:16:59.000Z",
+              "tier": 2
+            },
+            {
+              "title": "French blood banks targeted by refrigerator cyberattack",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQXVNNEdlbnFOY3BmcGl1dmdfWjJIZVdDM0c0anpPOUNvZ2NESDdzWGtreTliZWkwM2ozR1AwVEg2SXhSS251aG1xNHVKU2Etdjc3RV8xeF9YV0ZCZGRVYXlaWGljMlk0RWx1OTlUWmJtTFNZQ3l6bkFBdDVoQm9aOS1YRG5MMENfWmlHRUlPd2hPQQ?oc=5",
+              "pubDate": "2026-11-04T21:03:16.000Z",
               "tier": 2
             }
           ],
@@ -52,32 +96,138 @@ export const newsData = {
           "slug": "french-blood-banks-hit-by-major-cyberattack-threat"
         },
         {
-          "representativeTitle": "Trump's Midterms Impact on Global Flashpoints Analyzed",
+          "representativeTitle": "Mother and daughter killed by grizzly bear attack.",
           "sources": [
-            "France 24",
+            "BBC US",
+            "Fox News",
+            "The Guardian",
+            "Google World"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Mother and daughter die after suspected grizzly bear attack in Canada",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cqvgry8k5d01o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T23:50:40.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Canadian mother and daughter dead after suspected grizzly bear attack on hiking trail",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/world/canadian-mother-daughter-dead-suspected-grizzly-bear-attack-hiking-trail",
+              "pubDate": "2026-11-04T21:14:59.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Mother and daughter killed in grizzly bear attack, Canadian authorities confirm",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed",
+              "pubDate": "2026-11-04T19:42:47.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Mother, daughter dead in suspected grizzly bear attack in Canada",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORHI0OEJSaWRpNlNBWXNwOS1DWWNvQzNOaXg5MTNLTWtPSmpUamcxem5ERnBmUUdrZ3ZmQXl6MHByME5kU0xaeDRhRnhzaVh4QkpOS2pmazRmUnR6TFpLRXd1NkVBVFhwZ3dpQzFBODJCQnJhcXJuOGk5U2JhTnl3ZzBUQUxTQk1VaVE?oc=5",
+              "pubDate": "2026-11-04T15:27:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 70,
+          "slug": "mother-and-daughter-killed-by-grizzly-bear-attack"
+        },
+        {
+          "representativeTitle": "ANC Faces Anger Amid Local Election Voting Day",
+          "sources": [
+            "The Guardian",
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "ANC faces anger over poor services as South Africans vote in local elections",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
+              "pubDate": "2026-11-04T14:50:47.000Z",
+              "tier": 1
+            },
+            {
+              "title": "South Africans vote in key municipal elections",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/south-africans-vote-in-key-municipal-elections",
+              "pubDate": "2026-11-04T21:26:13.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "anc-faces-anger-amid-local-election-voting-day"
+        },
+        {
+          "representativeTitle": "Ukraine claims video shows deadly Russian bombing.",
+          "sources": [
+            "BBC World",
             "Google World"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "US midterms: Iran's deputy parliament speaker reacts to Trump's elections setback",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261104-us-midterms-iran-s-deputy-parliament-speaker-reacts-to-trump-s-elections-setback-1",
-              "pubDate": "2026-11-04T16:50:06.000Z",
+              "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T22:48:43.000Z",
               "tier": 1
             },
             {
-              "title": "US midterms: Trump reacts to the Democrats’ sweeping victory",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261104-us-midterms-trump-reacts-to-the-democrats-sweeping-victory",
-              "pubDate": "2026-11-04T11:24:24.000Z",
-              "tier": 1
-            },
-            {
-              "title": "What Trump’s midterms setback could mean for Iran, Israel and Ukraine",
+              "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdmRtNUxIYTJJb2ZOaEtKMGMzbjRmX0hwSk5YNXpsbHdqSzluVW5udGFObGpuVnh1VGllcWVBdXlhZExtNlE0Mi1aY1V0MktvYkpCU3EwM0ZfS2d4Q0lNMGxrRG1kZzRYZEZoZkswS2Q0RGx6ZTczT3pkUXpCeV82VVZB?oc=5",
-              "pubDate": "2026-11-04T16:37:19.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0MlQ3RGZXaWNFM2h6RUpwSnRnRWw2VXgyYlRORFVTQ0xzcEMxVkdGUXdoR1FHSF93Y3pTMU1Bd0NUekpRMXU1OW5kOXB6WUNjenRMZ3Ryc25FZEU?oc=5",
+              "pubDate": "2026-11-04T22:48:43.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 65,
+          "slug": "ukraine-claims-video-shows-deadly-russian-bombing"
+        },
+        {
+          "representativeTitle": "Israel's President Begins Forming New Government Structure",
+          "sources": [
+            "BBC World",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Israel's president begins consultations with parties after election deadlock",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6z98z5z91ppo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T16:18:21.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Israel's president takes first steps on building new government after accepting election results",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPckhTYTdoNmhkQXZPUXFXY1lVNG9iYjEzT2Z4Umx1WFZPNTdKbEFpV2NTMFpnUktRUUJmZ0kzT1U1Q1JHLXRneGtuc1QyV2g2V0ZadGh0UDBBcmNQVW50UWhLRVQ0c1NGb0hxRkdnelIwR3BDRjhfSmJWQW04N2J5b2NnTkhuMDdJbXJYSzMzdm14QTBvdlRIdHJZbHdrQUE3NG1na0o4d29nOVFKVkdwSm83SFM4Qm81dW9kaVhkYXNGZnd3QnZpak530gHPAUFVX3lxTE5VU1ZqYW5rY3YtRzlqMzZtbmZsNUV4TFRwZG1iODdUWFdOSTl2TDd3NFlrdWFTMlhZczE4cks0alNLNjVhUjJJY0tpdUlIMDViSEJYcWdKU0xIVWZmWnFRMGprd1g0V3dFdmhJZm1KNElzX3U2R0NFTkNrNzZ1UVRCZGtfTnBoR3FtVm5vcWJMdWIwdGowbk8zZUxHVUxpSW9FRl9lUGxFMVFLM1Y0c0E4Z1ROVzA5MUlCV1hXOXRjT1ppZHptbzd6UGJNWDMtMA?oc=5",
+              "pubDate": "2026-11-04T21:16:26.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Israel's president begins consultations with parties after election deadlock",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16VlJEM1d3V3hZVURESU85dmlFTTlValUxVG8xLUlaNi1hVy1sYmlPMG4zdWg2cW5EMUdLWEZHczFMWG9Qcy1DcnlNNmd4SlVXUGhYS2NZX1FBcjQ?oc=5",
+              "pubDate": "2026-11-04T16:18:21.000Z",
               "tier": 2
             }
           ],
@@ -85,46 +235,8 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": 0,
           "relevance_score": 8,
-          "importance": 70,
-          "slug": "trumps-midterms-impact-on-global-flashpoints-analyzed"
-        },
-        {
-          "representativeTitle": "Election Body Rejects Fraud Claims Against Arab Party",
-          "sources": [
-            "The Guardian",
-            "SCMP",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Israel’s election commission rejects Netanyahu claims of voting fraud",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/04/israel-election-commission-rejects-netanyahu-claims-voting-fraud",
-              "pubDate": "2026-11-04T12:19:18.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Blow for Netanyahu as Israeli election body rejects claims of Arab party fraud",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/middle-east/article/3373260/blow-netanyahu-israeli-election-body-rejects-claims-arab-party-fraud",
-              "pubDate": "2026-11-04T09:24:54.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Israel vote results confirmed as election commission rejects fraud claims",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbFVPQWh2WmM5MEM0RmVWc25WT3NhVHZZdjd5TEcyTm0xcm1RcTlVQ2RjRHJzb0lCNGNpNG1ZNXJ4MzFpUW92VndxU1RHTXNib2ZqSDQyMXJXai05TmY5UmRTYnJGV1YwZkNqUDF6OGxIYnI5VEpyQkJ3VXZZUV9XSTBqTXpCUG9FX2lHLU04UElmQ0pQdFZWLUp0cFdEaTN2aTVKVDNMZ2VKa3JfUEs1SnlwdnHSAboBQVVfeXFMUHJxMUNwanRIeWQtUTdqZnBuZE5LZUY0UmpLR3V0OTQzc1JGZ1V6cHMtQnowS3NLZ0JNQ3pqYjhnOWJPZnllem1CcElvQjl0QWdabWNqVTl3YTktNVAyRl9MM2VsMlNEdGQ1dE0zYVFHYXZPODRuWEtHbmRUNDgxZW40dkNlLTdfS3RDUVlvLWtBY21La0tCdC1nRE1pWS1Ra3pUY1UxRlFWNVZHWVl0RG56eTJ4d0cydXdR?oc=5",
-              "pubDate": "2026-11-04T13:58:28.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "election-body-rejects-fraud-claims-against-arab-party"
+          "importance": 60,
+          "slug": "israels-president-begins-forming-new-government-structure"
         },
         {
           "representativeTitle": "Danish Students Protest Education Funding Cuts Across Europe",
@@ -165,7 +277,51 @@ export const newsData = {
           "slug": "danish-students-protest-education-funding-cuts-across-europe"
         },
         {
-          "representativeTitle": "Israel President Consults Parties Amid Election Stalemate",
+          "representativeTitle": "Trump, Vance, Netanyahu Banners Burned at Tehran Rally",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Giant banner of Trump, Vance and Netanyahu burnt at Tehran rally",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/giant-banner-of-trump-vance-and-netanyahu-burnt-at-tehran-rally?traffic_source=rss",
+              "pubDate": "2026-11-04T23:34:47.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "trump-vance-netanyahu-banners-burned-at-tehran-rally"
+        },
+        {
+          "representativeTitle": "Trump's Comments Ease Tensions in Asian Markets",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Asian Markets React as Trump Cools Iran Fears",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-04/asian-markets-react-as-trump-cools-iran-fears-video",
+              "pubDate": "2026-11-04T23:31:57.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "trumps-comments-ease-tensions-in-asian-markets"
+        },
+        {
+          "representativeTitle": "Hungary releases secret police files decades later.",
           "sources": [
             "BBC World",
             "Google World"
@@ -173,47 +329,91 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Israel's president begins consultations with parties after election deadlock",
+              "title": "Secret police files released in Hungary, 37 years after fall of communism",
               "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6z98z5z91ppo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T16:18:21.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/c977p01kgmmko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T15:28:18.000Z",
               "tier": 1
             },
             {
-              "title": "Israel's president begins consultations with parties after election deadlock",
+              "title": "Hungary releases secret police files from communist era",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16VlJEM1d3V3hZVURESU85dmlFTTlValUxVG8xLUlaNi1hVy1sYmlPMG4zdWg2cW5EMUdLWEZHczFMWG9Qcy1DcnlNNmd4SlVXUGhYS2NZX1FBcjQ?oc=5",
-              "pubDate": "2026-11-04T16:18:21.000Z",
+              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdVpmSW91NUhGX3RRZEF3UGxFeFlkT3AtNnlXN1pyN1JrYXdPWHNUdnR0SWw3WWZxRE5hQnBaWUJqdnliSGNqX2lfMy1GS3dLZFJNb2pkeXJOSTBxSm5NbkVEYkZMNjZKclB5eWxxYWt2dm1WWjh3SjdqTkFUR2dSV0czVDVwQ1ZpTi03TU92Sm03QQ?oc=5",
+              "pubDate": "2026-11-04T18:43:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "israel-president-consults-parties-amid-election-stalemate"
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "hungary-releases-secret-police-files-decades-later"
         },
         {
-          "representativeTitle": "Weakened Trump Poses Potential Threat to Europe",
+          "representativeTitle": "War Devastation Hinders Sudan's Industrial Recovery Efforts",
           "sources": [
-            "France 24",
-            "Euronews"
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Sudan factories struggle to restart after devastating wartime losses",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/4/sudan-factories-struggle-to-restart-after-devastating-wartime-losses?traffic_source=rss",
+              "pubDate": "2026-11-04T22:31:09.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "war-devastation-hinders-sudans-industrial-recovery-efforts"
+        },
+        {
+          "representativeTitle": "Netanyahu alleges foreign spending influences Israeli election.",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Netanyahu claims 'serious concerns' of foreign spending to sway Israeli election",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/middle-east/20261104-netanyahu-claims-serious-concerns-of-foreign-spending-to-sway-israeli-election",
+              "pubDate": "2026-11-04T21:26:53.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "netanyahu-alleges-foreign-spending-influences-israeli-election"
+        },
+        {
+          "representativeTitle": "Election Body Rejects Fraud Claims Against Arab Party",
+          "sources": [
+            "The Guardian",
+            "SCMP"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Trump after the midterms: Gridlock, impeachment and succession?",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261104-trump-after-the-midterms-gridlock-impeachment-and-succession",
-              "pubDate": "2026-11-04T15:54:58.000Z",
+              "title": "Israel’s election commission rejects Netanyahu claims of voting fraud",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/04/israel-election-commission-rejects-netanyahu-claims-voting-fraud",
+              "pubDate": "2026-11-04T12:19:18.000Z",
               "tier": 1
             },
             {
-              "title": "After US midterms, a weakened Trump may pose a greater threat to Europe",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/04/after-us-midterms-a-weakened-trump-may-pose-a-greater-threat-to-europe",
-              "pubDate": "2026-11-04T13:27:02.000Z",
+              "title": "Blow for Netanyahu as Israeli election body rejects claims of Arab party fraud",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3373260/blow-netanyahu-israeli-election-body-rejects-claims-arab-party-fraud",
+              "pubDate": "2026-11-04T09:24:54.000Z",
               "tier": 2
             }
           ],
@@ -222,54 +422,10 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 60,
-          "slug": "weakened-trump-poses-potential-threat-to-europe"
+          "slug": "election-body-rejects-fraud-claims-against-arab-party"
         },
         {
-          "representativeTitle": "Illegal West Bank Produce Sold in Australia Market",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Food grown in illegal West Bank settlements being sold in Australia as ‘produce of Israel’",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/nov/04/food-grown-in-settlements-west-bank-sold-in-australia-produce-of-israel-ntwnfb",
-              "pubDate": "2026-11-04T20:00:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "illegal-west-bank-produce-sold-in-australia-market"
-        },
-        {
-          "representativeTitle": "Midterms signal strain on US-Israel ties.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The midterms were a thumping rebuke of the US-Israel relationship",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/04/israel-relationship-midterm-elections",
-              "pubDate": "2026-11-04T19:22:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "midterms-signal-strain-on-us-israel-ties"
-        },
-        {
-          "representativeTitle": "Mother and daughter killed by grizzly bear attack.",
+          "representativeTitle": "Serbia detains officers over alleged protest force use.",
           "sources": [
             "The Guardian",
             "Google World"
@@ -277,48 +433,78 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Mother and daughter both killed in grizzly bear attack, Canadian authorities confirm",
+              "title": "Serbia detains police officers over alleged use of force against protesters",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed",
-              "pubDate": "2026-11-04T19:42:47.000Z",
+              "link": "https://www.theguardian.com/world/2026/nov/04/serbia-officers-protesters",
+              "pubDate": "2026-11-04T20:42:14.000Z",
               "tier": 1
             },
             {
-              "title": "Mother, daughter dead in suspected grizzly bear attack in Canada",
+              "title": "Serbia detains police officers over alleged use of force against protesters",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORHI0OEJSaWRpNlNBWXNwOS1DWWNvQzNOaXg5MTNLTWtPSmpUamcxem5ERnBmUUdrZ3ZmQXl6MHByME5kU0xaeDRhRnhzaVh4QkpOS2pmazRmUnR6TFpLRXd1NkVBVFhwZ3dpQzFBODJCQnJhcXJuOGk5U2JhTnl3ZzBUQUxTQk1VaVE?oc=5",
-              "pubDate": "2026-11-04T15:27:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5rV20zTk9hb2xMa09lNWhsUGxsMndsTmtTcmFaZFpwTTBLY2FSYzFHME80NHRIQ0Fsak9JSWdGMVJsV0c1d3RWMFdKMWIzUXFDdGNaTng4Uk16d1g2Zi1jUU0yR3c0Y2VucEtxUW1uYndKc0JhSi1fMGxJMWk?oc=5",
+              "pubDate": "2026-11-04T20:42:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.9,
+          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 50,
-          "slug": "mother-and-daughter-killed-by-grizzly-bear-attack"
+          "slug": "serbia-detains-officers-over-alleged-protest-force-use"
         },
         {
-          "representativeTitle": "North Sea Oil Plunge Deepens Amid Iran Tensions",
+          "representativeTitle": "Ethiopia expels Sudanese diplomats, closes consulate.",
           "sources": [
-            "Bloomberg Markets"
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "North Sea Oil Plunge Deepens as Traders Weigh Iran De-Escalation",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/north-sea-oil-plunge-deepens-as-traders-weigh-iran-de-escalation",
-              "pubDate": "2026-11-04T17:43:39.000Z",
+              "title": "Ethiopia expels six Sudanese diplomats, orders closure of consulate",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/4/sudan-ethiopia-order-tit-for-tat-diplomatic-expulsions?traffic_source=rss",
+              "pubDate": "2026-11-04T23:43:26.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "north-sea-oil-plunge-deepens-amid-iran-tensions"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "ethiopia-expels-sudanese-diplomats-closes-consulate"
+        },
+        {
+          "representativeTitle": "Europe Welcomes Democratic US Midterm Election Victory",
+          "sources": [
+            "France 24",
+            "Sky News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "European leaders welcome Democrats' US midterms election win",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/european-leaders-welcome-democrats-us-midterms-election-win",
+              "pubDate": "2026-11-04T17:00:09.000Z",
+              "tier": 1
+            },
+            {
+              "title": "The scale of the Democrats' win",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/us-midterms-live-results-and-analysis-whos-ahead-in-key-races-find-out-here-13605253",
+              "pubDate": "2026-11-04T00:30:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "europe-welcomes-democratic-us-midterm-election-victory"
         },
         {
           "representativeTitle": "Zelensky Honors Trump After Oleshky Ceasefire Talks",
@@ -343,17 +529,17 @@ export const newsData = {
           "slug": "zelensky-honors-trump-after-oleshky-ceasefire-talks"
         },
         {
-          "representativeTitle": "Iranian Celebration Marks US Midterm Election Outcome",
+          "representativeTitle": "UK and Caribbean Plan Dialogue Following Reparations Calls",
           "sources": [
-            "Al Jazeera"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iranians celebrate Democrat victory in US midterms",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/iranians-celebrate-democrat-victory-in-us-midterms?traffic_source=rss",
-              "pubDate": "2026-11-04T19:59:14.000Z",
+              "title": "UK and Caribbean to begin ‘dialogue’ within next year after slavery reparations call",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/04/debt-relief-aid-no-replacement-slavery-reparations-uk-told-caribbean",
+              "pubDate": "2026-11-04T23:51:58.000Z",
               "tier": 1
             }
           ],
@@ -362,51 +548,37 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "iranian-celebration-marks-us-midterm-election-outcome"
+          "slug": "uk-and-caribbean-plan-dialogue-following-reparations-calls"
         },
         {
-          "representativeTitle": "Official Welcomes Cuts to Israel Aid, Halts Arms Sales",
+          "representativeTitle": "Police Arrest Protesters Near UK Supreme Court Building",
           "sources": [
-            "NPR",
-            "Google US"
+            "Sky News",
+            "Euronews",
+            "Google World"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Abdul El-Sayed welcomes Trump's plan to cut Israel aid, calls for end to arms sales",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/04/nx-s1-6028702/abdul-el-sayed-michigan-senate-israel-aid",
-              "pubDate": "2026-11-04T13:38:09.000Z",
+              "title": "Dozens arrested outside court hearing Palestine Action ban challenge",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/dozens-arrested-outside-court-hearing-palestine-action-ban-challenge-13607796",
+              "pubDate": "2026-11-04T12:44:00.000Z",
               "tier": 2
             },
             {
-              "title": "Abdul El-Sayed welcomes Trump's plan to cut Israel aid, calls for end to arms sales",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQT1FoZU41QU9vc05waFBPWVB3Y3M3NW80TmgyQ3o5U25lTHV2VGVmY0FpOEtSTVkyQ3BNZ2RZQ1dheDluQUhoR1JucVlUek9mNWVtSW1QOUIzbUsxOUpiQ09iQmZVVTV0SzdpSzU3bkpDR1UxRXFPdXVOMGlxSmw1TWdSd2UxdGhtb1pLS29HRQ?oc=5",
-              "pubDate": "2026-11-04T13:38:09.000Z",
+              "title": "UK: Police arrest Palestine Action supporters outside Supreme Court",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/video/2026/11/04/uk-police-arrest-palestine-action-supporters-outside-supreme-court",
+              "pubDate": "2026-11-04T16:48:34.000Z",
               "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "official-welcomes-cuts-to-israel-aid-halts-arms-sales"
-        },
-        {
-          "representativeTitle": "Ebola worker evacuated from Congo to UK.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
+            },
             {
-              "title": "British healthcare worker with Ebola evacuated from DR Congo to UK",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
-              "pubDate": "2026-11-04T18:18:37.000Z",
-              "tier": 1
+              "title": "UK ban on Palestine Action is challenged at top court, some protesters arrested",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWUdyLW1IVU5XY2Q2NXIxOWlQNlZoanpJRHQ3bWpyYTM4Z0FNZURLeExENU5XUk5hdFhpbXVYUC1ibVp0a1JZeEVxVDdDbkNlWTdmRnFHcWcxQjl1aFZJZnhtTnhvY01BRmxNZmVkcGJpTDRYWnlFYWE4Ykw5cEdQYTVZWk9vbUhobGJIRXRuYjZIMC00cmtsS2FhMURPYTV1ckN3TWdoVWFtMW1INGY0Z1l0UXhtVzVW?oc=5",
+              "pubDate": "2026-11-04T15:47:21.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
@@ -414,7 +586,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "ebola-worker-evacuated-from-congo-to-uk"
+          "slug": "police-arrest-protesters-near-uk-supreme-court-building"
         },
         {
           "representativeTitle": "US Midterms Impact Canadian Tariff Relief Hopes",
@@ -466,51 +638,6 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Democrats Seize Congressional Power Amid Political Shift",
-          "sources": [
-            "The Guardian",
-            "Al Jazeera",
-            "Time"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "US voters rebuke Trump as Democrats win control of Congress in ‘blue wave’",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/04/democrats-house-midterm-elections-results",
-              "pubDate": "2026-11-04T19:22:04.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Democratic voters celebrate El-Sayed’s Michigan win in election ‘blue wave’",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/democratic-voters-celebrate-el-sayeds-michigan-win-in-election-blue?traffic_source=rss",
-              "pubDate": "2026-11-04T15:51:32.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump loses control of Congress",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-loses-control-of-congress?traffic_source=rss",
-              "pubDate": "2026-11-04T14:42:23.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Democrats Win Control of Both House and Senate in Huge Blow to Trump",
-              "source": "Time",
-              "link": "https://time.com/article/2026/11/04/democrats-win-control-of-senate-in-blue-wave-election/",
-              "pubDate": "2026-11-04T04:57:38.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 90,
-          "slug": "democrats-seize-congressional-power-amid-political-shift"
-        },
-        {
           "representativeTitle": "Republicans Blame Trump Over Midterm Election Defeat",
           "sources": [
             "BBC US",
@@ -549,50 +676,34 @@ export const newsData = {
           "slug": "republicans-blame-trump-over-midterm-election-defeat"
         },
         {
-          "representativeTitle": "Democrat Talarico Wins Texas Senate Race Against Paxton",
+          "representativeTitle": "Democrats regain Congress; policy implications unfold now.",
           "sources": [
             "BBC US",
-            "NBC News",
-            "ABC News Top",
-            "Google US"
+            "ABC News Top"
           ],
-          "citationCount": 4,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
+              "title": "What Democrats can and can't do with their new power after taking Congress",
               "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T14:17:58.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T18:01:27.000Z",
               "tier": 1
             },
             {
-              "title": "Democrat James Talarico turns Texas Senate seat blue, defeating Ken Paxton",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/james-talarico-democrat-wins-texas-senate-race-ken-paxton-rcna603319",
-              "pubDate": "2026-11-04T03:53:01.000Z",
-              "tier": 2
-            },
-            {
-              "title": "WATCH:  James Talarico addresses supporters after projected win in Texas Senate race",
+              "title": "WATCH:  What to know after Democrats take back control of Congress",
               "source": "ABC News Top",
-              "link": "https://abcnews.com/video/137836878/",
-              "pubDate": "2026-11-04T07:21:21.000Z",
-              "tier": 2
-            },
-            {
-              "title": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxaU1PS2NEUWtMcnZQRi0ya1F2aHZiNVVfaXVwUS1JdXNiUWR4a2lUTjVncHNPZjlRTlpncGJmczVCOWFkQlV1TzRqM3lZY1JsUDk5QUt2c0diRUE?oc=5",
-              "pubDate": "2026-11-04T14:17:58.000Z",
+              "link": "https://abcnews.com/video/137859587/",
+              "pubDate": "2026-11-04T22:24:26.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 60,
-          "slug": "democrat-talarico-wins-texas-senate-race-against-paxton"
+          "slug": "democrats-regain-congress-policy-implications-unfold-now"
         },
         {
           "representativeTitle": "2026 Midterms: Analyzing Early Political Trends Now",
@@ -625,132 +736,108 @@ export const newsData = {
           "slug": "2026-midterms-analyzing-early-political-trends-now"
         },
         {
-          "representativeTitle": "Johnson Speaks Amid Democratic House Takeover Projections",
+          "representativeTitle": "Voter Stances Revealed on Key State Ballot Issues",
           "sources": [
             "NBC News",
             "NPR",
-            "ABC News Top",
             "Google US"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "House Speaker Mike Johnson will not stay on as Republican leader after GOP losses",
+              "title": "Ballot measure takeaways: Voters back abortion rights and voter ID",
               "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/congress/house-speaker-mike-johnson-republican-leader-gop-losses-rcna607434",
-              "pubDate": "2026-11-04T15:14:15.000Z",
+              "link": "https://www.nbcnews.com/politics/2026-election/ballot-measure-takeaways-voters-back-abortion-rights-photo-id-citizens-rcna607016",
+              "pubDate": "2026-11-04T21:24:36.000Z",
               "tier": 2
             },
             {
-              "title": "Mike Johnson will step aside as top House Republican next Congress",
+              "title": "Where voters stand on state ballot measures, from abortion to LGBTQ rights to guns",
               "source": "NPR",
-              "link": "https://www.npr.org/2026/11/04/g-s1-151854/2026-midterms-mike-johnson-speaker",
-              "pubDate": "2026-11-04T18:14:13.000Z",
+              "link": "https://www.npr.org/2026/11/04/nx-s1-6028833/midterms-ballot-measures-abortion-lgbtq-guns",
+              "pubDate": "2026-11-04T21:49:17.000Z",
               "tier": 2
             },
             {
-              "title": "WATCH:  House Speaker Mike Johnson speaks after Democrats projected to take control of House",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/video/137834129/",
-              "pubDate": "2026-11-04T10:32:52.000Z",
-              "tier": 2
-            },
-            {
-              "title": "House Speaker Mike Johnson will not stay on as Republican leader after GOP losses",
+              "title": "Where voters stand on state ballot measures, from abortion to LGBTQ rights to guns",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWXY5a2NQWHFxa3dPbENhdXF3d0gxWlBUWFkzb0lwTlRhSXpRTlF6LUxtb20wU1JEZ0E2aWh5VXc1cHVjWnluZXN3UHRvc0FxNWRkM0kzaW1sa2J1Z2I2UUJKZVFYSTR1SEtiM3h3QVI4SGFtV1pnU0hFVEFEM3VjMlRRNmVuamRUSkZQVnNmVXBOX3dJMlFFOVRVU01TZW01XzB0RXRES0ZWSzI5?oc=5",
-              "pubDate": "2026-11-04T18:12:23.000Z",
+              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ1c2OG9ldXhNbzhNcml0ZE14NjVnT1dOWUVjSHB1ejFxQUE0Wk04T20wOXVHWWhDMm1McEpIR2VXSmp2dzQweG1ja0RDWkI5eXFoQ2V6Y20wY3ViT3JBNjVfVGtIWFJnNVY3bVVvQ3c3eGg2ZEZaLVZKS2pUSUI5aE1JTDEwcnN0eW1yNGhhaUlsYzQ?oc=5",
+              "pubDate": "2026-11-04T21:49:17.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 7,
+          "relevance_score": 8,
           "importance": 55,
-          "slug": "johnson-speaks-amid-democratic-house-takeover-projections"
+          "slug": "voter-stances-revealed-on-key-state-ballot-issues"
         },
         {
-          "representativeTitle": "Democratic Congress Takeover Signals Market Uncertainty Ahead",
+          "representativeTitle": "DSA Sees Strong Gains in Midterm Election Results",
           "sources": [
-            "Bloomberg Markets",
-            "Google Stocks"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Wall Street Reckoning Looms as Democrats Take Over Congress",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/wall-street-s-reckoning-looms-as-democrats-take-over-congress",
-              "pubDate": "2026-11-04T14:32:23.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Treasury Yields Fall as Democrats Take Control of Congress",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ0dlOUVqNVVZdVdVN1Jjc2lBejJfdkkwdFpxRzlGUEJfYXBteU9CUC14V3NWZS0zcGNORHZac1NLTDNWWEZ1UGdhLWRjS1pOUi1jeDNzSHJubXl1NEtyYXQyVHRnYXRTUDFBQWdyV01TU3J2T0xZajNwMzVuQTRrdE1RcUhaSHdxY1ZYUmh3T0VjdmtzSHlj?oc=5",
-              "pubDate": "2026-11-04T15:08:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "democratic-congress-takeover-signals-market-uncertainty-ahead"
-        },
-        {
-          "representativeTitle": "Political commentary frames Trump's remaining presidential term.",
-          "sources": [
-            "Al Jazeera",
-            "Time"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Is Trump really a ‘lame duck’ after losing both houses of US Congress?",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/is-trump-really-a-lame-duck-after-losing-both-houses-of-us-congress?traffic_source=rss",
-              "pubDate": "2026-11-04T15:04:08.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Welcome to Trump’s Lame-Duck Era",
-              "source": "Time",
-              "link": "https://time.com/article/2026/11/04/trump-lame-duck-era/",
-              "pubDate": "2026-11-04T13:47:30.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "political-commentary-frames-trumps-remaining-presidential-term"
-        },
-        {
-          "representativeTitle": "Trump Addresses Election Losses, Iran War Unpopularity Concerns",
-          "sources": [
-            "The Guardian"
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US midterm elections 2026 live updates: Trump defiant about brutal Republican losses and acknowledges Iran war’s unpopularity",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
-              "pubDate": "2026-11-04T20:09:43.000Z",
+              "title": "Democratic Socialists of America see record wins in US midterm elections",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/4/democratic-socialists-of-america-see-record-wins-in-us-midterm-elections?traffic_source=rss",
+              "pubDate": "2026-11-04T22:45:24.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "dsa-sees-strong-gains-in-midterm-election-results"
+        },
+        {
+          "representativeTitle": "Musk's Influence Fails to Secure Republican Gains Midterms",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T21:41:15.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "trump-addresses-election-losses-iran-war-unpopularity-concerns"
+          "slug": "musks-influence-fails-to-secure-republican-gains-midterms"
+        },
+        {
+          "representativeTitle": "Midterms weaken Trump, but power remains.",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Anthony Zurcher: Midterm carnage weakens Trump but he still wields power for now",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cmpdg093e589o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T20:35:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "midterms-weaken-trump-but-power-remains"
         },
         {
           "representativeTitle": "Internal White House Strife Signals Political Instability Ahead",
@@ -773,28 +860,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "internal-white-house-strife-signals-political-instability-ahead"
-        },
-        {
-          "representativeTitle": "Midterms' Impact on Trump's Future Foreign Policy Unclear",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How US midterm results could reshape Trump’s foreign policy",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_how-us-midterm-could-reshape-trumps-foreign-policy-041126?traffic_source=rss",
-              "pubDate": "2026-11-04T19:15:50.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "midterms-impact-on-trumps-future-foreign-policy-unclear"
         },
         {
           "representativeTitle": "Analysis details Democratic party's electoral map success.",
@@ -863,70 +928,64 @@ export const newsData = {
           "slug": "republican-internal-conflict-follows-disappointing-midterm-results"
         },
         {
-          "representativeTitle": "Democrats Gain Congressional Control Amid Stock Gains",
+          "representativeTitle": "Johnson Speaks Amid Democratic House Takeover Projections",
           "sources": [
-            "Bloomberg Markets"
+            "NBC News",
+            "NPR",
+            "ABC News Top"
           ],
-          "citationCount": 1,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Stocks Rise, Democrats Clinch Control of Congress in Rebuke to President Trump",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-04/bloomberg-surveillance-11-4-2026-video",
-              "pubDate": "2026-11-04T18:19:02.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "democrats-gain-congressional-control-amid-stock-gains"
-        },
-        {
-          "representativeTitle": "Democrats Win Midterms; Political Landscape Shifts Significantly",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
+              "title": "House Speaker Mike Johnson will not stay on as Republican leader after GOP losses",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/congress/house-speaker-mike-johnson-republican-leader-gop-losses-rcna607434",
+              "pubDate": "2026-11-04T15:14:15.000Z",
+              "tier": 2
+            },
             {
-              "title": "Key moments as Democrats sweep to victories in US midterms",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/key-moments-as-democrats-sweep-to-victories-in-us-midterms?traffic_source=rss",
-              "pubDate": "2026-11-04T18:13:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "democrats-win-midterms-political-landscape-shifts-significantly"
-        },
-        {
-          "representativeTitle": "Democrats Win Congress; Focus Shifts to Governance Challenges.",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
+              "title": "Mike Johnson will step aside as top House Republican next Congress",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/04/g-s1-151854/2026-midterms-mike-johnson-speaker",
+              "pubDate": "2026-11-04T18:14:13.000Z",
+              "tier": 2
+            },
             {
-              "title": "Democrats won Congress in a blue wave. Now comes the hard part.",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T18:01:27.000Z",
-              "tier": 1
+              "title": "WATCH:  House Speaker Mike Johnson speaks after Democrats projected to take control of House",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/video/137834129/",
+              "pubDate": "2026-11-04T10:32:52.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "democrats-win-congress-focus-shifts-to-governance-challenges"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "johnson-speaks-amid-democratic-house-takeover-projections"
+        },
+        {
+          "representativeTitle": "AI PAC Spending Reveals Efforts to Shape Congress",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+              "pubDate": "2026-11-04T22:45:09.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "ai-pac-spending-reveals-efforts-to-shape-congress"
         },
         {
           "representativeTitle": "Political analysis suggests shift away from Trump era.",
@@ -951,35 +1010,6 @@ export const newsData = {
           "slug": "political-analysis-suggests-shift-away-from-trump-era"
         },
         {
-          "representativeTitle": "CEO Comments on Working Relationship With Trump",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "‘You Don’t Put Your Head in the Sand for 4 Years’: Colossal CEO Ben Lamm on Working With Trump",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/wired-world-fair-2026-ben-lamm-colossal-biosciences/",
-              "pubDate": "2026-11-04T16:43:35.000Z",
-              "tier": 1
-            },
-            {
-              "title": "‘You Don’t Put Your Head in the Sand for 4 Years’: Colossal CEO Ben Lamm on Working With Trump",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/wired-world-fair-2026-ben-lamm-colossal-biosciences/",
-              "pubDate": "2026-11-04T16:43:35.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "ceo-comments-on-working-relationship-with-trump"
-        },
-        {
           "representativeTitle": "African-rooted politicians make history in US midterms.",
           "sources": [
             "BBC US"
@@ -1002,56 +1032,78 @@ export const newsData = {
           "slug": "african-rooted-politicians-make-history-in-us-midterms"
         },
         {
-          "representativeTitle": "Election Debate Highlights Political Blame Game Amid Tension",
+          "representativeTitle": "Social Media Reacts to Congressional Power Shift",
           "sources": [
-            "ABC News Top",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Election 2026 live results: Trump defends war after Vance blames it for GOP losses",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085",
-              "pubDate": "2026-11-04T19:55:42.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Midterm elections 2026 live updates: Vance blames Iran war for Republican losses",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdEhFN2xhemN6TGo3SFNfWFlsYUprNy1LbndBY25jUDRGdTNWSlltV1NUbTFpVVEwMnZIVU9DZHRsSXpLVnVmRjZRM2lTXzJoR1RnM0Y1eTRNbmVsSmM1S1JGN3hrSmUxUlN1Y0E5WlpQSGdWXzdPLTliMnYxdlI0WTd4SUJlQdIBiwFBVV95cUxOWENJekh3a01FVnYySmxQc1UzS2hqemVpaWdacFNqazBkOGViX21aY3BNVEhHRmtpRTBfWTVQWDZib0tJWkpzeEctZUlNa0NNZkppVnE5eV9FOFI2cVZaSUlpUTRmUGZSOElsRDZOR0otMkZyWnIybGhlTWNMZ29MTThjSTQ4a3JKZngw?oc=5",
-              "pubDate": "2026-11-04T17:36:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "election-debate-highlights-political-blame-game-amid-tension"
-        },
-        {
-          "representativeTitle": "Musk's Influence Fails to Secure Texas GOP Victory",
-          "sources": [
-            "BBC US"
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T15:51:37.000Z",
+              "title": "Social media reacts to Democrats’ takeover of US Congress",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/social-media-reacts-to-democrats-takeover-of-us-congress?traffic_source=rss",
+              "pubDate": "2026-11-04T21:21:58.000Z",
               "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "social-media-reacts-to-congressional-power-shift"
+        },
+        {
+          "representativeTitle": "Female Governors Elected Across Seventeen States Record",
+          "sources": [
+            "NBC News",
+            "ABC News Top"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Record number of female governors elected",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/2026-election/record-number-female-governors-elected-rcna607366",
+              "pubDate": "2026-11-04T05:45:20.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Voters elect female governors in 17 states, setting new record",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/GMA/News/women-make-history-governor-congressional-races-2026-midterms/story?id=137841842",
+              "pubDate": "2026-11-04T18:47:12.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.4,
+          "sentiment": 0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "musks-influence-fails-to-secure-texas-gop-victory"
+          "importance": 50,
+          "slug": "female-governors-elected-across-seventeen-states-record"
+        },
+        {
+          "representativeTitle": "Midterms: Demo Lead Grows in Mississippi Senate Race",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US midterm elections 2026 live: Democratic lead grows in Mississippi Senate race as Republican blame game begins",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
+              "pubDate": "2026-11-05T00:06:31.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "midterms-demo-lead-grows-in-mississippi-senate-race"
         },
         {
           "representativeTitle": "Midterm Election Results Shape Future US Policy Landscape",
@@ -1076,198 +1128,7 @@ export const newsData = {
           "slug": "midterm-election-results-shape-future-us-policy-landscape"
         },
         {
-          "representativeTitle": "Market Prepares For Future US Debt Ceiling Showdown",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Wall Street Girding for US Debt Ceiling Showdown in 2027",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/wall-street-girding-for-us-debt-ceiling-showdown-in-2027",
-              "pubDate": "2026-11-04T18:50:46.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "market-prepares-for-future-us-debt-ceiling-showdown"
-        },
-        {
-          "representativeTitle": "DeSantis Warns GOP Midterms Face Major Setback",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "DeSantis Calls GOP Midterm Wipeout ‘Extinction Level Event’",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/desantis-calls-gop-s-midterm-wipeout-extinction-level-event",
-              "pubDate": "2026-11-04T16:02:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "desantis-warns-gop-midterms-face-major-setback"
-        },
-        {
-          "representativeTitle": "Democrats debate strategy regarding ongoing Trump opposition.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Democrats debate how far to take their fight against Trump",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/1b492f63-85b4-472c-9bbd-f741a1dfdb0b?syn-25a6b1a6=1",
-              "pubDate": "2026-11-04T15:43:36.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "democrats-debate-strategy-regarding-ongoing-trump-opposition"
-        },
-        {
-          "representativeTitle": "Fox News viewership dips following Republican election night.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Viewers stayed away from Fox News on a disappointing election night for Republicans",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/media/2026/nov/04/fox-news-midterm-ratings",
-              "pubDate": "2026-11-04T20:06:55.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "fox-news-viewership-dips-following-republican-election-night"
-        },
-        {
-          "representativeTitle": "Reporelle urges Democrats focus on corruption and costs.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Democrats Need to Focus on Corruption, Affordability Says Rep. Morelle",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-04/dems-need-to-focus-on-corruption-says-rep-morelle-video",
-              "pubDate": "2026-11-04T19:58:02.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "reporelle-urges-democrats-focus-on-corruption-and-costs"
-        },
-        {
-          "representativeTitle": "Progressive Wing Wins Key California Central Valley Election",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Democratic progressive wing notches win in California Central Valley",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/democratic-progressive-wing-notches-win-in-california-central-valley?traffic_source=rss",
-              "pubDate": "2026-11-04T19:50:37.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "progressive-wing-wins-key-california-central-valley-election"
-        },
-        {
-          "representativeTitle": "Jeffries Vows Focus on Affordability Post-Midterm Gains",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Hakeem Jeffries promises ‘affordability’ focus after Democratic midterm win",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/4/hakeem-jeffries-promises-affordability-focus-after-democratic-midterm-win?traffic_source=rss",
-              "pubDate": "2026-11-04T19:30:41.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "jeffries-vows-focus-on-affordability-post-midterm-gains"
-        },
-        {
-          "representativeTitle": "DeSantis Warns GOP Midterms Face Severe Political Crisis",
-          "sources": [
-            "Fox News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "DeSantis calls GOP midterm losses 'extinction-level event' — and explains why Florida survived",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/desantis-calls-gop-midterm-losses-extinction-level-event-explains-why-florida-survived",
-              "pubDate": "2026-11-04T18:10:10.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Florida DeSantis describes GOP midterms wipeout as 'close to an extinction-level event' for Republicans",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/florida-desantis-describes-gop-midterms-wipeout-close-extinction-level-event-republicans",
-              "pubDate": "2026-11-04T17:48:25.000Z",
-              "tier": 2
-            },
-            {
-              "title": "DeSantis calls midterm bloodbath an ‘extinction-level event for Republicans’",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTW1jU1JtWE9IWUN0LWY3c0NIVXlvU0R4d0FHTGQ2ZVo5TFQtVG54dTB3OXVldll0akN6dEd0bUJmeWpLQ0pOMXFaMWI1NXR0VlZod0dFWjVTdW95SkdRODIxMGw5SWRCd21SUDJ6VHMzN1pJN2dBYUU1U0VmenJ1ak14OUNZZW1OcDI0MnJDZjRBRmxfQVlLQ1VvX1AtVnZDYjc1VWQ2Y19wVGpGSi1WVEtveDE4WElETzNia1lWMjBWUQ?oc=5",
-              "pubDate": "2026-11-04T15:26:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "desantis-warns-gop-midterms-face-severe-political-crisis"
-        },
-        {
-          "representativeTitle": "Democrat El-Sayed Wins Michigan Senate Race Election",
+          "representativeTitle": "Democrat Talarico Wins Texas Senate Race Against Paxton",
           "sources": [
             "BBC US",
             "NBC News"
@@ -1275,17 +1136,17 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Democrat El-Sayed wins Michigan to become first Muslim senator in US history",
+              "title": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
               "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c893z55pxrewo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T10:03:19.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T14:17:58.000Z",
               "tier": 1
             },
             {
-              "title": "Democrat Abdul El-Sayed wins Michigan’s Senate race",
+              "title": "Democrat James Talarico turns Texas Senate seat blue, defeating Ken Paxton",
               "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/democrat-abdul-el-sayed-wins-michigans-high-stakes-senate-race-rcna603315",
-              "pubDate": "2026-11-04T07:26:43.000Z",
+              "link": "https://www.nbcnews.com/politics/2026-election/james-talarico-democrat-wins-texas-senate-race-ken-paxton-rcna603319",
+              "pubDate": "2026-11-04T03:53:01.000Z",
               "tier": 2
             }
           ],
@@ -1294,7 +1155,212 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 50,
-          "slug": "democrat-el-sayed-wins-michigan-senate-race-election"
+          "slug": "democrat-talarico-wins-texas-senate-race-against-paxton"
+        },
+        {
+          "representativeTitle": "Big Tech Campaign Spending Fails to Move Midterms",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘The money didn’t work’: Big Tech’s $600mn midterm campaign falls flat",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/3e65138f-068f-465f-a1ae-a9c61ea1afc4?syn-25a6b1a6=1",
+              "pubDate": "2026-11-04T22:38:45.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "big-tech-campaign-spending-fails-to-move-midterms"
+        },
+        {
+          "representativeTitle": "Election Night Viewership Shifts Favor NBC Over Fox.",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Election Night TV Viewers Rise With NBC in Lead, Fox Falling",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/election-night-tv-viewers-rise-with-nbc-in-the-lead-fox-falling",
+              "pubDate": "2026-11-04T22:03:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "election-night-viewership-shifts-favor-nbc-over-fox"
+        },
+        {
+          "representativeTitle": "Vance Links Iran Conflict to Republican Election Losses",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Vance blames Iran war for crushing Republican midterms defeat",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/6bc8be51-5bd8-468c-bd3c-82bbc2866ba1?syn-25a6b1a6=1",
+              "pubDate": "2026-11-04T21:34:58.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "vance-links-iran-conflict-to-republican-election-losses"
+        },
+        {
+          "representativeTitle": "Yields fall amid political uncertainty and oil dip.",
+          "sources": [
+            "CNBC Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
+              "source": "CNBC Markets",
+              "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+              "pubDate": "2026-11-04T21:18:44.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "yields-fall-amid-political-uncertainty-and-oil-dip"
+        },
+        {
+          "representativeTitle": "Influencers Discuss Fragmented Reality in Online Politics",
+          "sources": [
+            "Wired"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘We Have No Shared Reality’: Two Political Influencers on the Future of Politics Online",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/wired-world-fair-2026-cj-pearson-and-kat-abughazaleh/",
+              "pubDate": "2026-11-04T21:04:05.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "influencers-discuss-fragmented-reality-in-online-politics"
+        },
+        {
+          "representativeTitle": "2026 Midterms: Candidates Made Significant Electoral History",
+          "sources": [
+            "ABC News Top"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "These candidates made history in the 2026 midterm elections",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Politics/candidates-made-history-2026-midterm-elections/story?id=137829582",
+              "pubDate": "2026-11-05T00:03:33.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "2026-midterms-candidates-made-significant-electoral-history"
+        },
+        {
+          "representativeTitle": "Murdoch's Media Empire Shifts Stance Away From Trump",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘Rupert does not want to be with a loser’: Murdoch’s media empire cools on Trump",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/ead0309f-537a-4cc1-9d65-a3b9de01e69d?syn-25a6b1a6=1",
+              "pubDate": "2026-11-04T20:58:24.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "murdochs-media-empire-shifts-stance-away-from-trump"
+        },
+        {
+          "representativeTitle": "Democrats Win Senate; Vow Fierce Legislative Battles Ahead",
+          "sources": [
+            "Google US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Election 2026 live updates: Democrats win Congress as Trump, Republicans confront midterm losses",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYUZmRTc3bktLUzF1bmtzVHVlckllcURQaDJrVWV0YWdvNkd5NWhiYlBsTjNydlZFOWcxcTJmdmd4RGtiRW5qQ2ZsMFZYN2NvQ2IxWUp4S21oNDE4bFdlY3plV1B0bXhRclp3TnA3V2M3Zll4VEw3UDNNT0tBY18tM1ZodXF5SnpEanZCUGhJZ3NvMk9tcjhFa2xxWmF5TXNuQlRPOVVwRkNMd3VHOWhJUF9rQTZCTVVwaFpoY0Q2bUV2ZGFUOXYwcElTdVU1LVpTZWhuVWl3bWp3b1Q3V1ZTT18tWmNYSi12WFE?oc=5",
+              "pubDate": "2026-11-04T22:18:51.000Z",
+              "tier": 2
+            },
+            {
+              "title": "2026 Senate midterm election results as Democrats win control, Schumer vows \"legislative razor wire\" against Trump",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzTlE4RlRRRzctSDlFc0l4WTIyN3dETWJ0b0JfeDh1X1NmdEc2Q2pWMTZlQ19sNXBjRFFjSHlVc2hsVnQ5eEhhb3FLbEpVVVdUU0lIMnJ2Zy1CUEdaSERiSEc5YTJUTTNWdEtxV0t4Q21jMlp2?oc=5",
+              "pubDate": "2026-11-04T23:58:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "democrats-win-senate-vow-fierce-legislative-battles-ahead"
+        },
+        {
+          "representativeTitle": "AI PAC Influence Questioned After Midterm Elections",
+          "sources": [
+            "Wired"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+              "pubDate": "2026-11-04T20:41:29.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ai-pac-influence-questioned-after-midterm-elections"
         },
         {
           "representativeTitle": "Midterm election results prompt varied voter reactions.",
@@ -1317,6 +1383,36 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "midterm-election-results-prompt-varied-voter-reactions"
+        },
+        {
+          "representativeTitle": "Former prosecutor leads Cornell assault investigation efforts.",
+          "sources": [
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Former ‘Diddy’ prosecutor to lead investigation into alleged Cornell sexual assault",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/letitia-james-taps-diddy-prosecutor-jacqueline-kelly-lead-cornell-7-in-rcna607410",
+              "pubDate": "2026-11-04T15:03:13.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Former ‘Diddy’ prosecutor to lead investigation into alleged Cornell sexual assault",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUEJ5Y2pTdVN6VlJvS3laa0tiUzJtclFEWkNwY1pBYWhDZVhEdU5wMFc2LXpMOEJTNzFPWVBCUjZ6R2RwX01jVHpxYWpSMzJERTNwRHk2dVU1MVlJZWk4ZWc5ajNaTUkwNk5YOVZUcEZuSzBJRDFES1pqelJLanNsVk1IZldlZ2FXamJ1MDkyZGUzRWRPbzdRTkRRUHBkWmN5TXhhUmdLd3pOdHpNUExLNVlfRXN0WkNoenc?oc=5",
+              "pubDate": "2026-11-04T17:53:24.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "former-prosecutor-leads-cornell-assault-investigation-efforts"
         },
         {
           "representativeTitle": "Trump Blames Fox News Amid GOP Losses, Ratings Decline",
@@ -1385,91 +1481,61 @@ export const newsData = {
           "slug": "political-group-faces-perceived-decline-in-support"
         },
         {
-          "representativeTitle": "Yields fall amid political uncertainty and oil dip.",
-          "sources": [
-            "CNBC Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
-              "source": "CNBC Markets",
-              "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
-              "pubDate": "2026-11-04T17:11:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "yields-fall-amid-political-uncertainty-and-oil-dip"
-        },
-        {
-          "representativeTitle": "Vance Links Iran Conflict to Republican Election Losses",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Vance blames Iran war for crushing Republican midterms defeat",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/6bc8be51-5bd8-468c-bd3c-82bbc2866ba1?syn-25a6b1a6=1",
-              "pubDate": "2026-11-04T16:27:31.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "vance-links-iran-conflict-to-republican-election-losses"
-        },
-        {
-          "representativeTitle": "Voters' Actions Target Elon Musk's Finances",
+          "representativeTitle": "CEO Comments on Working Relationship With Trump",
           "sources": [
             "Wired"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Voters Set $400 Million of Elon Musk’s Money on Fire",
+              "title": "‘You Don’t Put Your Head in the Sand for 4 Years’: Colossal CEO Ben Lamm on Working With Trump",
               "source": "Wired",
-              "link": "https://www.wired.com/story/voters-set-dollar400-million-of-elon-musks-money-on-fire/",
-              "pubDate": "2026-11-04T16:06:12.000Z",
+              "link": "https://www.wired.com/story/wired-world-fair-2026-ben-lamm-colossal-biosciences/",
+              "pubDate": "2026-11-04T16:43:35.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Technology",
+          "ingestionCategory": "Science",
           "aiCategory": "US",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "voters-actions-target-elon-musks-finances"
+          "slug": "ceo-comments-on-working-relationship-with-trump"
         },
         {
-          "representativeTitle": "Midterm election results prompt global reaction and analysis.",
+          "representativeTitle": "Redistricting efforts fail to secure midterm electoral advantage.",
           "sources": [
-            "NPR",
-            "ABC News Top"
+            "Google US"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "The world is reacting to the Democrats' sweeping midterm elections victory",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/04/nx-s1-6028664/world-reacts-midterm-elections",
-              "pubDate": "2026-11-04T12:34:35.000Z",
+              "title": "Trump-backed Republican redistricting sought a midterm edge. It didn’t work",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX2JROXdkeWhPR0RzZ0JxTnRYcFNNWkc3VEtWU2NUZ1BFQXpMcURGa2ZSc0RuNnV1S3R2dnhPcDF3RzFMMTdCRDFMZ1BBVkxlVzVVZVpvbkRmazdWQmJuYXZuVncwb2FNZWkzV0xpckR5OVJtTG5ZNTJLeFFYZ0pqQTNPZklLOXhFbmpGVGdzbzNlTkZSZ3RsVzVkWm1ILXdhTnJUNQ?oc=5",
+              "pubDate": "2026-11-05T00:09:00.000Z",
               "tier": 2
-            },
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "redistricting-efforts-fail-to-secure-midterm-electoral-advantage"
+        },
+        {
+          "representativeTitle": "Democrats eyeing five key healthcare policy battles.",
+          "sources": [
+            "NBC News"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "WATCH:  World leaders react to US midterm elections",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/video/137845749/",
-              "pubDate": "2026-11-04T14:54:26.000Z",
+              "title": "5 healthcare fights Democrats could take on after midterms sweep",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/health/health-care/5-healthcare-fights-democrats-take-midterms-sweep-rcna607457",
+              "pubDate": "2026-11-05T00:02:55.000Z",
               "tier": 2
             }
           ],
@@ -1477,142 +1543,8 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": 0,
           "relevance_score": 7,
-          "importance": 45,
-          "slug": "midterm-election-results-prompt-global-reaction-and-analysis"
-        },
-        {
-          "representativeTitle": "Trump Criticizes Republicans While Praising Democrats' Work",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump takes aim at Republicans but says Democrats did a 'good job'",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c6073l9y15xxo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T10:15:42.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "trump-criticizes-republicans-while-praising-democrats-work"
-        },
-        {
-          "representativeTitle": "Trump returns to White House ballroom after midterms.",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Trump brags about the White House ballroom in his first post-election appearance",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/donald-trump/trump-election-white-house-ballroom-iran-rcna607487",
-              "pubDate": "2026-11-04T18:36:28.000Z",
-              "tier": 2
-            },
-            {
-              "title": "After midterms beatdown, Trump returns to his hobby: the White House ballroom",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONFl1MzduS3dIREN1YW51MjRQZHR1QU15Zk5Idi01TDlTUzVISTJhYTdMd0x6dmVHajBXNDRTRXB5LUNabFdKRnQwUjd4Z2pCUnkxNG4zcjVXXzdrSVVmTWFDMC1CbVhqdzJMSGpRWGJvVklZdFNfbms1SVZaV0I5b1g4SGhLbFdkcW5nMEdn?oc=5",
-              "pubDate": "2026-11-04T19:15:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
           "importance": 40,
-          "slug": "trump-returns-to-white-house-ballroom-after-midterms"
-        },
-        {
-          "representativeTitle": "Progressive Defeats GOP Candidate in Michigan Election",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Progressive William Lawrence defeats GOP Rep. Tom Barrett in swing Michigan district",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/william-lawrence-democrat-michigan-house-election-win-tom-barrett-rcna603374",
-              "pubDate": "2026-11-04T19:08:58.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Progressive William Lawrence defeats GOP Rep. Tom Barrett in swing Michigan district",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNckNKX3BxcUdZckF2eDZZZmtaZGI2eFhOYm0zcVhfOWo0dVdLNzFaQUxPQk9xOUFzOWJ2c21zWV9TUTlJcXFWdWhZUUVBTk5jWUR2RDhvdWF3RFlzU0tkWHduZnRwbXRoMlVLZkJhZ1RRbl9fLUcxQUVNc195YWlERmFxeDJvZUV2ZnZqSTFPd3RhS2ZMWDFiRDlWOW5nTXQ3dE9wSi15TWR4TG85X0RfN1NHalMwc2Zxb2lkeVFZamU?oc=5",
-              "pubDate": "2026-11-04T19:08:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "progressive-defeats-gop-candidate-in-michigan-election"
-        },
-        {
-          "representativeTitle": "Democrats' Night Signals Shifts in Political Landscape",
-          "sources": [
-            "NPR",
-            "ABC News Top"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "6 takeaways from Democrats' big wave on election night",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/04/nx-s1-6022216/midterms-democrats-trump-republicans-analysis",
-              "pubDate": "2026-11-04T12:02:38.000Z",
-              "tier": 2
-            },
-            {
-              "title": "WATCH:  What Democrats' big night means for the political landscape",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/video/137845838/",
-              "pubDate": "2026-11-04T14:54:31.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "democrats-night-signals-shifts-in-political-landscape"
-        },
-        {
-          "representativeTitle": "Analysis details American voting patterns across maps.",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How America voted in maps and charts",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cm4g1j0n92qdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T09:53:18.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "analysis-details-american-voting-patterns-across-maps"
+          "slug": "democrats-eyeing-five-key-healthcare-policy-battles"
         }
       ]
     },
@@ -1620,26 +1552,100 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "Stock Market Rises Following Democratic Political Sweep",
+          "representativeTitle": "Musk's Companies Shares Drop After Midterm Sweep",
           "sources": [
-            "FT International"
+            "FT International",
+            "WSJ US Business"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Stocks climb after Democrats’ sweep",
+              "title": "US stocks post best day since August after Democrats sweep midterms",
               "source": "FT International",
               "link": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
-              "pubDate": "2026-11-04T17:09:03.000Z",
+              "pubDate": "2026-11-04T21:33:37.000Z",
               "tier": 1
+            },
+            {
+              "title": "Shares in Elon Musk’s SpaceX, Tesla Fall Premarket After Democrats Sweep Midterms",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/shares-in-elon-musks-spacex-tesla-fall-premarket-after-democrats-sweep-midterms-a10325e6?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-04T10:35:00.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "Stocks",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "musks-companies-shares-drop-after-midterm-sweep"
+        },
+        {
+          "representativeTitle": "India Earnings Boost Stocks Amid Asian Market Weakness",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Upbeat Earnings Bolster Case for India Stocks as Asia Wavers",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/upbeat-earnings-bolster-case-for-india-stocks-as-asia-wavers",
+              "pubDate": "2026-11-04T23:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
           "sentiment": 0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "stock-market-rises-following-democratic-political-sweep"
+          "slug": "india-earnings-boost-stocks-amid-asian-market-weakness"
+        },
+        {
+          "representativeTitle": "Wall Street Bets on US Stock Rally Post-Midterms",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Wall Street Trading Desks Bet on US Stock Rally After Midterms",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/wall-street-trading-desks-bet-on-us-stock-rally-after-midterms",
+              "pubDate": "2026-11-04T22:02:58.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "wall-street-bets-on-us-stock-rally-post-midterms"
+        },
+        {
+          "representativeTitle": "Asian Stocks Rise Amid Oil Price Decline After Election",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Asian Stocks Rise as Oil Slides After US Election: Markets Wrap",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates",
+              "pubDate": "2026-11-04T22:15:04.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "asian-stocks-rise-amid-oil-price-decline-after-election"
         },
         {
           "representativeTitle": "McDonald's Stock Rises Following Strong Earnings Report",
@@ -1652,7 +1658,7 @@ export const newsData = {
               "title": "McDonald's stock rises as earnings beat, U.S. restaurants show improvement",
               "source": "CNBC Economy",
               "link": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
-              "pubDate": "2026-11-04T19:47:32.000Z",
+              "pubDate": "2026-11-04T21:02:53.000Z",
               "tier": 1
             }
           ],
@@ -1662,56 +1668,34 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "mcdonalds-stock-rises-following-strong-earnings-report"
-        },
-        {
-          "representativeTitle": "Alcohol Stocks Rise Following Positive Industry Outlook",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Alcohol Stocks Jump as Blue Wave Boosts Industry Prospects",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/alcohol-stocks-jump-as-blue-wave-lifts-tariff-immigration-hopes",
-              "pubDate": "2026-11-04T17:19:47.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "alcohol-stocks-rise-following-positive-industry-outlook"
-        },
-        {
-          "representativeTitle": "Market Rallies After Democrats Seize Congressional Control",
-          "sources": [
-            "Google Stocks"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Stock market today: Dow jumps over 1,000 points, S&P 500 and Nasdaq gain after Democrats win control of Congress",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOVJpdWloYmdyVkpKX0E1LTQzNm5LMnlnYkQ3UktwbU5OUWJ2MEpEQUgxWEQ5bk1FQzhydGhaVmxsSG9hMGdFUjFiWTBGTzQzcHNnVWtZaE54YUlhTVZLc29yQnM4Mk9pVUJNaDl6eG9YNUhnamdjMmp4UFFEWUZUWEdUQlhndDdfa29KX2xJTlRJcGlnWG14TG9YeW5VZTFTdzM5Y19mclhEaWN5U3ZEZmprTG9wTjBr?oc=5",
-              "pubDate": "2026-11-04T20:09:54.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "market-rallies-after-democrats-seize-congressional-control"
         }
       ]
     },
     {
       "name": "Business",
       "children": [
+        {
+          "representativeTitle": "China Tech Sector Faces Downturn Amid Investor Concern",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China Tech Frenzy Turns Into Year of Dismay for Retail Traders",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-05/china-tech-frenzy-turns-into-year-of-dismay-for-retail-traders",
+              "pubDate": "2026-11-05T00:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "china-tech-sector-faces-downturn-amid-investor-concern"
+        },
         {
           "representativeTitle": "Oil Prices Drop Below $100 Amid Peace Hopes",
           "sources": [
@@ -1723,7 +1707,7 @@ export const newsData = {
               "title": "Oil tumbles below $100 on post-election peace hopes",
               "source": "FT International",
               "link": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
-              "pubDate": "2026-11-04T17:47:07.000Z",
+              "pubDate": "2026-11-04T20:18:53.000Z",
               "tier": 1
             }
           ],
@@ -1735,26 +1719,26 @@ export const newsData = {
           "slug": "oil-prices-drop-below-100-amid-peace-hopes"
         },
         {
-          "representativeTitle": "Sequoia reverses two decades of company growth strategy.",
+          "representativeTitle": "David Jones enters administration; job losses expected.",
           "sources": [
-            "TechCrunch"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Sequoia hits rewind, undoing 20 years of expansion",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/",
-              "pubDate": "2026-11-04T17:11:15.000Z",
+              "title": "David Jones goes into administration, with store closures expected and thousands of jobs at risk",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/business/2026/nov/05/david-jones-stores-closing-down-collapse-administration",
+              "pubDate": "2026-11-04T22:53:29.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Technology",
+          "ingestionCategory": "World",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "sequoia-reverses-two-decades-of-company-growth-strategy"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "david-jones-enters-administration-job-losses-expected"
         },
         {
           "representativeTitle": "CVS to Split Drugstore Unit Amid Corporate Restructuring",
@@ -1767,7 +1751,7 @@ export const newsData = {
               "title": "CVS to split off drugstore business in major breakup of healthcare giant; shares fall 10%",
               "source": "CNBC Economy",
               "link": "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html",
-              "pubDate": "2026-11-04T18:35:35.000Z",
+              "pubDate": "2026-11-04T21:04:13.000Z",
               "tier": 1
             }
           ],
@@ -1779,26 +1763,246 @@ export const newsData = {
           "slug": "cvs-to-split-drugstore-unit-amid-corporate-restructuring"
         },
         {
-          "representativeTitle": "Musk Faces $30 Billion Losses After Midterms",
+          "representativeTitle": "Philippine Inflation Jumps Near Four-Year High Mark",
           "sources": [
-            "FT International"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "The midterms have already cost Musk close to $30bn",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/9a8d4922-74dd-4149-bb28-a15f719ca836",
-              "pubDate": "2026-11-04T13:23:30.000Z",
+              "title": "Philippine October Inflation Accelerates 7.8%, Close to Four-Year High",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-05/philippine-october-inflation-accelerates-7-8-close-to-four-year-high",
+              "pubDate": "2026-11-05T00:05:46.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "philippine-inflation-jumps-near-four-year-high-mark"
+        },
+        {
+          "representativeTitle": "Review suggests jobs revolution for disabled youth.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Milburn review to call for jobs ’revolution’ for young people with disabilities",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/society/2026/nov/05/milburn-review-jobs-revolution-young-people-disabilities-neets",
+              "pubDate": "2026-11-05T00:01:47.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "review-suggests-jobs-revolution-for-disabled-youth"
+        },
+        {
+          "representativeTitle": "Gold Holds Above $4K Amid Dollar Weakness Signals",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Gold Holds Above $4,000 as Dollar, Yields Fall on Midterm Result",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/gold-holds-above-4-000-as-dollar-yields-fall-on-midterm-result",
+              "pubDate": "2026-11-04T23:58:33.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "gold-holds-above-4k-amid-dollar-weakness-signals"
+        },
+        {
+          "representativeTitle": "Historic Australian Retailer David Jones Files For Collapse",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Australian Chain David Jones Collapses After Almost 200 Years",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/australian-chain-david-jones-collapses-after-almost-200-years",
+              "pubDate": "2026-11-04T23:44:05.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "historic-australian-retailer-david-jones-files-for-collapse"
+        },
+        {
+          "representativeTitle": "Oil Market Analysis Provided For November Fifth Trading",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Latest Oil Market News and Analysis for Nov. 5",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/latest-oil-market-news-and-analysis-for-nov-5",
+              "pubDate": "2026-11-04T23:08:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "oil-market-analysis-provided-for-november-fifth-trading"
+        },
+        {
+          "representativeTitle": "Malaysia Holds Rates Amid Strong Growth Outlook",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Malaysia Set to Hold Rates on Strong Growth, Signal Hike in 2027",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/malaysia-set-to-hold-rates-on-strong-growth-signal-hike-in-2027",
+              "pubDate": "2026-11-04T23:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "malaysia-holds-rates-amid-strong-growth-outlook"
+        },
+        {
+          "representativeTitle": "DBS Profit Misses Estimates; Trading Income Concerns Rise",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "DBS Profit Misses Estimates on Trading Income, Names Lim Chair",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/dbs-profit-misses-estimates-on-trading-income-names-lim-chair",
+              "pubDate": "2026-11-04T22:52:52.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "dbs-profit-misses-estimates-trading-income-concerns-rise"
+        },
+        {
+          "representativeTitle": "Host Hotels CEO Discusses Third Quarter Financial Results",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Host Hotels & Resorts CEO on 3Q Quarterly Results",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-04/host-hotels-resorts-ceo-on-3q-quarterly-results-video",
+              "pubDate": "2026-11-04T22:48:47.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "host-hotels-ceo-discusses-third-quarter-financial-results"
+        },
+        {
+          "representativeTitle": "Sony Faces Pressure Beyond Major Game Franchises",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Sony Needs More Than ‘GTA’ and Spider-Man to Lift Stock Further",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/sony-needs-more-than-gta-and-spider-man-to-lift-stock-further",
+              "pubDate": "2026-11-04T22:30:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "sony-faces-pressure-beyond-major-game-franchises"
+        },
+        {
+          "representativeTitle": "Rainfall Concerns Threaten Australian Grain Supply Quality",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Australia’s Heavy October Rainfall Sparks Grain Quality Concerns",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-04/australia-s-heavy-october-rainfall-sparks-grain-quality-concerns",
+              "pubDate": "2026-11-04T21:52:41.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "rainfall-concerns-threaten-australian-grain-supply-quality"
+        },
+        {
+          "representativeTitle": "e.l.f. Beauty Reports Strong Sales Growth, Raises Guidance",
+          "sources": [
+            "CNBC Economy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/11/04/elf-beauty-elf-q2-2027-earnings.html",
+              "pubDate": "2026-11-04T21:47:22.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "musk-faces-30-billion-losses-after-midterms"
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "elf-beauty-reports-strong-sales-growth-raises-guidance"
         },
         {
           "representativeTitle": "Wayfair Sales Rise Amid Sluggish Furniture Market Gains",
@@ -1811,7 +2015,7 @@ export const newsData = {
               "title": "Wayfair sales jump 10% as furniture retailer says it's winning share of sluggish market",
               "source": "CNBC Economy",
               "link": "https://www.cnbc.com/2026/11/04/wayfair-w-q3-2026-earnings.html",
-              "pubDate": "2026-11-04T20:04:26.000Z",
+              "pubDate": "2026-11-04T21:04:47.000Z",
               "tier": 1
             }
           ],
@@ -1867,50 +2071,6 @@ export const newsData = {
           "slug": "flutter-ceo-bets-promotions-amid-declining-profits"
         },
         {
-          "representativeTitle": "Company Links Bankruptcy to Nike Loss and Tariffs",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "FitLab Blames Bankruptcy on Loss of Nike Partnership, Trump Tariffs",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/fitlab-blames-bankruptcy-on-loss-of-nike-partnership-trump-tariffs",
-              "pubDate": "2026-11-04T19:47:44.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "company-links-bankruptcy-to-nike-loss-and-tariffs"
-        },
-        {
-          "representativeTitle": "US Debt Guidance Tweaks Shift Treasury Auction Forecasts",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US Tweaks Debt-Sale Guidance, Spurring Auction-Forecast Changes",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/us-revamps-debt-sales-guidance-opening-path-to-auction-changes",
-              "pubDate": "2026-11-04T13:34:13.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "us-debt-guidance-tweaks-shift-treasury-auction-forecasts"
-        },
-        {
           "representativeTitle": "Voter sentiment dampens US data center expansion plans.",
           "sources": [
             "FT International"
@@ -1931,78 +2091,94 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "voter-sentiment-dampens-us-data-center-expansion-plans"
-        },
-        {
-          "representativeTitle": "Traders Bet on Data Center Slowdown Impact",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Credit Traders Make Big Post-Midterm Bet on Data-Center Slowdown",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/hyperscalers-lead-credit-market-gains-amid-broad-risk-on-rally",
-              "pubDate": "2026-11-04T13:27:18.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "traders-bet-on-data-center-slowdown-impact"
-        },
-        {
-          "representativeTitle": "Activist Ousts Chairman, Gains Board Control At DGB",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Activist DGB Ousts Ethan Allen Chairman, Wins Board Control",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/dgb-is-said-to-oust-ethan-allen-chair-win-three-board-seats",
-              "pubDate": "2026-11-04T17:23:24.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "activist-ousts-chairman-gains-board-control-at-dgb"
-        },
-        {
-          "representativeTitle": "Kraft Heinz Sells North American Coffee Business For $650M",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Kraft Heinz to divest its North American coffee business in $650 million deal",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/11/04/kraft-heinz-coffee-business-one-rock-deal.html",
-              "pubDate": "2026-11-04T17:21:06.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "kraft-heinz-sells-north-american-coffee-business-for-650m"
         }
       ]
     },
     {
       "name": "Technology",
       "children": [
+        {
+          "representativeTitle": "AI firm reportedly influencing future election outcomes.",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "OpenAI is already trying to shape the 2028 election",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+              "pubDate": "2026-11-04T21:25:44.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "ai-firm-reportedly-influencing-future-election-outcomes"
+        },
+        {
+          "representativeTitle": "State Actors Exploit Web Scripts for Mobile Vulnerabilities",
+          "sources": [
+            "Ars Technica",
+            "Google Tech"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Hackers exploited iOS and Android flaws to infect phones",
+              "source": "Ars Technica",
+              "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
+              "pubDate": "2026-11-04T22:26:49.000Z",
+              "tier": 2
+            },
+            {
+              "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ldjNRckVDYzhzNU8zOWdiSFY0VXQwSkl4dXpaMjdmN1g0Y1RnWXU0WkFYMjFadkZQVmlhZW83bkpvVFJSXy1aM25SYW96dzFiM2VZb0ZYZURHTGJUZGV1VVpTbzNmRHR6RUc1MDdxYlVBU3NMVlY3b3Nn?oc=5",
+              "pubDate": "2026-11-04T14:27:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 55,
+          "slug": "state-actors-exploit-web-scripts-for-mobile-vulnerabilities"
+        },
+        {
+          "representativeTitle": "CEO Teases Mysterious AI Device Launch Next Month",
+          "sources": [
+            "TechCrunch",
+            "The Verge"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+              "pubDate": "2026-11-04T22:13:16.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Nothing teases a screen-free AI device ahead of launch next month",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+              "pubDate": "2026-11-04T18:26:07.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "ceo-teases-mysterious-ai-device-launch-next-month"
+        },
         {
           "representativeTitle": "Google AI Overviews Prompt School Resistance Concerns",
           "sources": [
@@ -2048,48 +2224,152 @@ export const newsData = {
           "slug": "open-source-ai-growth-hugging-face-details-profit-streams"
         },
         {
-          "representativeTitle": "Google faces backlash over school search restrictions.",
+          "representativeTitle": "Google Pixel Phones On Sale With Significant Savings",
+          "sources": [
+            "The Verge",
+            "Wired",
+            "Google Tech"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Google’s Pixel 11 phones are up to 27 percent off",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale",
+              "pubDate": "2026-11-04T19:00:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Google Pixel 11, 11 Pro, and 11 Pro XL Sale: Save Up to $350",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/google-pixel-11-deal-november-2026/",
+              "pubDate": "2026-11-04T18:27:19.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Google’s Pixel 11 phones are up to 27 percent off",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeV9nY0lnUkNBV3VXaWk1WURVRU5ZU3JVbjlNWG5SWURrUGtNc3FwUTRVM1VLT21ZaE1Ma2RJWmQ1U2JJQlRNWTcwa3NlQkpkVm1xVEFsQlNYX3MzaVZ1WENuaU5MREJrLWdNZm54dGV4aXRlMUZ2UWFRLWRqSFozRHB3?oc=5",
+              "pubDate": "2026-11-04T19:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0.4,
+          "relevance_score": 4,
+          "importance": 45,
+          "slug": "google-pixel-phones-on-sale-with-significant-savings"
+        },
+        {
+          "representativeTitle": "Meta Acquires AI Coding Startup Conductor For Development",
           "sources": [
             "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+              "title": "Meta acquires AI coding startup Conductor",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
-              "pubDate": "2026-11-04T16:17:22.000Z",
+              "link": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+              "pubDate": "2026-11-04T21:10:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "meta-acquires-ai-coding-startup-conductor-for-development"
+        },
+        {
+          "representativeTitle": "Hackers Steal Customer Files From DreamHost Platform",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hackers stole DreamHost customer files and inboxes during months-long attack",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/04/hackers-stole-dreamhost-customer-files-and-inboxes-during-months-long-attack/",
+              "pubDate": "2026-11-04T20:36:57.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "google-faces-backlash-over-school-search-restrictions"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "hackers-steal-customer-files-from-dreamhost-platform"
         },
         {
-          "representativeTitle": "Lawyer Challenges Big Tech Accountability in Courtroom",
+          "representativeTitle": "Tech firms race to secure space data center resources.",
           "sources": [
             "Wired"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "The Lawyer Holding Big Tech Accountable by ‘Beating the Tar Out of Them’ in Court",
+              "title": "The Blue Wave Has Tech Bros Scrambling for Data Centers in Space",
               "source": "Wired",
-              "link": "https://www.wired.com/story/wired-world-fair-2026-mark-lanier/",
-              "pubDate": "2026-11-04T18:21:26.000Z",
+              "link": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space/",
+              "pubDate": "2026-11-04T23:13:14.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "tech-firms-race-to-secure-space-data-center-resources"
+        },
+        {
+          "representativeTitle": "AI Agents Not Yet Used For Ride Booking",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Almost no one uses AI agents to book their Uber, company says",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+              "pubDate": "2026-11-04T21:56:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ai-agents-not-yet-used-for-ride-booking"
+        },
+        {
+          "representativeTitle": "Snapchat Reaches Thirty Million Paid Subscribers Milestone",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Snapchat surpasses 30M paid subscribers",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/04/snapchat-surpasses-30m-paid-subscribers/",
+              "pubDate": "2026-11-04T21:49:29.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "lawyer-challenges-big-tech-accountability-in-courtroom"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "snapchat-reaches-thirty-million-paid-subscribers-milestone"
         },
         {
           "representativeTitle": "DuckDuckGo targets schools amid Google AI policy backlash.",
@@ -2112,146 +2392,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "duckduckgo-targets-schools-amid-google-ai-policy-backlash"
-        },
-        {
-          "representativeTitle": "Hugging Face CEO Asserts Low Probability of Doom",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
-              "pubDate": "2026-11-04T19:16:25.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "hugging-face-ceo-asserts-low-probability-of-doom"
-        },
-        {
-          "representativeTitle": "Waymo Signals Shift in Uber Partnership by 2028",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Waymo confirms it’s shaking up its Uber relationship in January 2028",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/04/waymo-confirms-its-shaking-up-its-uber-relationship-in-january-2028/",
-              "pubDate": "2026-11-04T18:12:30.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "waymo-signals-shift-in-uber-partnership-by-2028"
-        },
-        {
-          "representativeTitle": "Google Pixel Phones On Sale With Significant Savings",
-          "sources": [
-            "The Verge",
-            "Wired"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Google’s Pixel 11 phones are up to 27 percent off",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale",
-              "pubDate": "2026-11-04T19:00:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Google Pixel 11, 11 Pro, and 11 Pro XL Sale: Save Up to $350",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/google-pixel-11-deal-november-2026/",
-              "pubDate": "2026-11-04T18:27:19.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 4,
-          "importance": 40,
-          "slug": "google-pixel-phones-on-sale-with-significant-savings"
-        },
-        {
-          "representativeTitle": "Demand Signals Revival of Smaller Mobile Phones",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Small Phones Have Vanished. Enough Phone Wants to Bring Them Back",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/big-tech-abandoned-the-small-phone-the-enough-phone-wants-to-save-it/",
-              "pubDate": "2026-11-04T18:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "demand-signals-revival-of-smaller-mobile-phones"
-        },
-        {
-          "representativeTitle": "Microsoft and Amazon Boost Market Value Significantly",
-          "sources": [
-            "MarketWatch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Microsoft and Amazon combine for a $400 billion market-cap boost — and these factors show why",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/microsoft-and-amazon-combine-for-a-400-billion-market-cap-boost-and-these-factors-show-why-6655d1a9?mod=mw_rss_topstories",
-              "pubDate": "2026-11-04T20:04:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "microsoft-and-amazon-boost-market-value-significantly"
-        },
-        {
-          "representativeTitle": "Voters Express Displeasure With Data Center Infrastructure",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The Results Are In: Voters Hate Data Centers",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
-              "pubDate": "2026-11-04T16:56:17.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "voters-express-displeasure-with-data-center-infrastructure"
         },
         {
           "representativeTitle": "Apple Siri Recaps Show Utility, Raise Privacy Concerns",
@@ -2282,72 +2422,12 @@ export const newsData = {
           "relevance_score": 4,
           "importance": 40,
           "slug": "apple-siri-recaps-show-utility-raise-privacy-concerns"
-        },
-        {
-          "representativeTitle": "New Phone Concept Tests Small Smartphone Market Appeal",
-          "sources": [
-            "Ars Technica",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "People say they want small smartphones—the Enough Phone will put that to the test",
-              "source": "Ars Technica",
-              "link": "https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/",
-              "pubDate": "2026-11-04T18:00:40.000Z",
-              "tier": 2
-            },
-            {
-              "title": "People say they want small smartphones—the Enough Phone will put that to the test",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTTkxMTJnMTkxUTBuSmhBQ2hWdm42RjR1bWQ4TUNkVVZpMElPZnVrVkxFY0RJZFJBcVJGam1uU19XQm4yamRwazZWdkVwdkNxd2RPN0JHSjVkenJfS0pQZWhyZlpFYzRDMUZmaXlhOGdLeWQtYTJQeHc3eUh3eXE5RG00ZVFIeEJ3UTU2ZmZDSUx4b3F1Q0ZaUlBITWt6TmYyVnYxWHl4X3hPcng0N0FPb1NlQnZRVUQxR2tyUVZEaw?oc=5",
-              "pubDate": "2026-11-04T18:00:40.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 30,
-          "slug": "new-phone-concept-tests-small-smartphone-market-appeal"
         }
       ]
     },
     {
       "name": "Science",
       "children": [
-        {
-          "representativeTitle": "AI Automates Biology Lab: DNA Sequencing Breakthrough Achieved",
-          "sources": [
-            "Nature",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "AI agents run this automated biology lab that sequences DNA and more",
-              "source": "Nature",
-              "link": "https://www.nature.com/articles/d41586-026-03552-8",
-              "pubDate": "2026-11-04T00:00:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "AI agents run this automated biology lab that sequences DNA and more",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kdTc3UWI4ODM5b09JU3ZMSnIyS3lkR2UxaXBEaE4xX3FrQVhxWGZrMG00cTNiV2gwLXpuNjFKOENkRTNic01WNjRfVnlXWWt3SUh2YnBYckhGbm94Qi1R?oc=5",
-              "pubDate": "2026-11-04T18:48:49.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 65,
-          "slug": "ai-automates-biology-lab-dna-sequencing-breakthrough-achieved"
-        },
         {
           "representativeTitle": "WHO Supports Ebola Vaccine Trials Amid Outbreak Efforts",
           "sources": [
@@ -2379,100 +2459,92 @@ export const newsData = {
           "slug": "who-supports-ebola-vaccine-trials-amid-outbreak-efforts"
         },
         {
-          "representativeTitle": "AI Predicts Immune Interactions From Protein Sequences Alone",
+          "representativeTitle": "Scientists Observe Hydrogen in Metal Gaps Directly",
           "sources": [
             "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "AlphaFold 3 predicts complex immune interactions using protein sequences alone",
+              "title": "First direct observations reveal hydrogen dissolved in tiny gaps between metal atoms",
               "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-alphafold-complex-immune-interactions-protein.html",
-              "pubDate": "2026-11-04T19:20:01.000Z",
+              "link": "https://phys.org/news/2026-11-reveal-hydrogen-dissolved-tiny-gaps.html",
+              "pubDate": "2026-11-05T00:20:06.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
           "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "ai-predicts-immune-interactions-from-protein-sequences-alone"
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "scientists-observe-hydrogen-in-metal-gaps-directly"
         },
         {
-          "representativeTitle": "Permafrost Greening Hides Weakened Plant Resilience Now",
+          "representativeTitle": "Genetic Map Aids New Antibiotic Combinations for TB",
           "sources": [
             "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Northern permafrost greening masks declining plant resilience, study finds",
+              "title": "Genetic interaction map could lead to better antibiotic pairings for tuberculosis",
               "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-northern-permafrost-greening-masks-declining.html",
-              "pubDate": "2026-11-04T20:00:08.000Z",
+              "link": "https://phys.org/news/2026-11-genetic-interaction-antibiotic-pairings-tuberculosis.html",
+              "pubDate": "2026-11-04T23:40:01.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": -0.4,
+          "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "permafrost-greening-hides-weakened-plant-resilience-now"
+          "slug": "genetic-map-aids-new-antibiotic-combinations-for-tb"
         },
         {
-          "representativeTitle": "NASA Seeks Industry Input to Save Hubble Telescope",
+          "representativeTitle": "NASA experiment boosts future planetary landing capabilities.",
           "sources": [
-            "Science Daily",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "NASA is racing against time to save the Hubble Space Telescope",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/11/261104012254.htm",
-              "pubDate": "2026-11-04T11:22:33.000Z",
-              "tier": 2
-            },
-            {
-              "title": "NASA asks industry for ideas about saving Hubble Space Telescope",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVDVJaS1CSnR4czBnUThSQ01FYWlPcUNGOFV0dUZKeTFiSUdQTXBuZlk0VUM0R1ZGTG14Wkdxc1A2UDdPUXBVdWFtbENpTDVuaDhPNjJOUm5kb2pmVVlOSjRXTDEtRFV4ZTY3SDFlbFA4Ukl5Q1Z5MjRya0pKUGM1czNSSjNEWUJNVWttZ2VQQ0JxWm1IZFBqVlN2TE85MTZUelVwc0oyRzNVZVM1SWlQdGR4WEptWTJLTE04?oc=5",
-              "pubDate": "2026-11-03T22:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "nasa-seeks-industry-input-to-save-hubble-telescope"
-        },
-        {
-          "representativeTitle": "Chernobyl Dogs Evolving; Scientists Study Unknown Changes",
-          "sources": [
-            "Wired"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Chernobyl’s Dogs May Be Evolving, but Scientists Don’t Know Why",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/chernobyls-dogs-may-be-evolving-but-scientists-dont-know-why/",
-              "pubDate": "2026-11-04T10:00:00.000Z",
-              "tier": 1
+              "title": "NASA navigation experiment shows promise for planetary landings",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-nasa-planetary.html",
+              "pubDate": "2026-11-04T23:20:07.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "chernobyl-dogs-evolving-scientists-study-unknown-changes"
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "nasa-experiment-boosts-future-planetary-landing-capabilities"
+        },
+        {
+          "representativeTitle": "Ancient Ice Age Art Discovered in Unexpected Locations",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hundreds of Ice Age rock art engravings discovered hidden in plain sight",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-10-hundreds-ice-age-art-engravings.html",
+              "pubDate": "2026-11-04T23:00:06.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "ancient-ice-age-art-discovered-in-unexpected-locations"
         }
       ]
     }
