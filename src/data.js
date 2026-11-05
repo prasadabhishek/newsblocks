@@ -1,33 +1,42 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-11-05T04:36:36.666Z",
+  "lastUpdated": "2026-11-05T08:44:43.366Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Activist Joshua Wong Sentenced to Decade Prison Term",
+          "representativeTitle": "Hong Kong Activist Sentenced to Decade in Prison",
           "sources": [
             "BBC World",
             "The Guardian",
             "Al Jazeera",
             "France 24",
+            "Euronews",
+            "Le Monde",
             "Google World"
           ],
-          "citationCount": 5,
+          "citationCount": 7,
           "rawArticles": [
             {
               "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-05T03:56:16.000Z",
+              "pubDate": "2026-11-05T08:07:22.000Z",
               "tier": 1
             },
             {
               "title": "Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case",
-              "pubDate": "2026-11-05T04:04:49.000Z",
+              "pubDate": "2026-11-05T07:56:21.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Hong Kong democracy activist Joshua Wong sentenced to 10 years in jail",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/5/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-years-in-jail?traffic_source=rss",
+              "pubDate": "2026-11-05T07:50:44.000Z",
               "tier": 1
             },
             {
@@ -45,10 +54,24 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case",
+              "title": "Hong Kong democracy activist Joshua Wong sentenced to 10 more years for collusion",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/11/05/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-more-years-for-collusion",
+              "pubDate": "2026-11-05T06:24:58.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Hong Kong democracy activist Joshua Wong sentenced to 10 years in prison",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/11/05/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-years-in-prison_6772438_4.html",
+              "pubDate": "2026-11-05T07:22:06.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Joshua Wong, Hong Kong Democracy Activist, Is Sentenced to 10 Years in Prison",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVVZ6cDRIQ0tnc0cwQWRCSldiSXRHeUE4YllDUVVSV2dYQmNtY3pYakJKdmEzcmYyYnpLZXlPV096WVJRbWs2WDFUVEp1Yi1XRVBXd2Ytc3RoTTBXcGJwNlJ6LW1KTmJ1Ti1lYkZLNHhYQXZOZy1pemo5WUk4U0NtQ250WUxSWFlwWXNHMnBrRFdxUVM2TkRjMWlGbVE4eGVhNHc?oc=5",
-              "pubDate": "2026-11-05T03:30:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQc2liS1VZcERBcGdsLWxMTlpHMllXeVVsdEJvbEMyUEtJSHZ4SmkyX1hMdDNoQVJVd0prVGd2M1h4X3pzdmVxUnZfbTRPODNJbVhGbU05Sy1RY2R6SXVMUzRYVU1sU2ZlSHBhLWxQd21PTGQ3Y1dHczJmM1I0bjFpVlNtbWdHeWJVRmc?oc=5",
+              "pubDate": "2026-11-05T06:56:00.000Z",
               "tier": 2
             }
           ],
@@ -57,7 +80,61 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 100,
-          "slug": "activist-joshua-wong-sentenced-to-decade-prison-term"
+          "slug": "hong-kong-activist-sentenced-to-decade-in-prison"
+        },
+        {
+          "representativeTitle": "South Korea Deploys Forces Near Key Strait",
+          "sources": [
+            "The Guardian",
+            "Al Jazeera",
+            "France 24",
+            "Le Monde",
+            "Google World"
+          ],
+          "citationCount": 5,
+          "rawArticles": [
+            {
+              "title": "South Korea says it will expand naval operations closer to strait of Hormuz",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/05/south-korea-to-expand-anti-piracy-unit-strait-of-hormuz",
+              "pubDate": "2026-11-05T04:22:49.000Z",
+              "tier": 1
+            },
+            {
+              "title": "South Korea plans to expand anti-piracy operations closer to Hormuz Strait",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/5/south-korea-plans-to-expand-anti-piracy-operations-closer-to-hormuz-strait?traffic_source=rss",
+              "pubDate": "2026-11-05T07:44:47.000Z",
+              "tier": 1
+            },
+            {
+              "title": "South Korea to deploy military mission to keep Strait of Hormuz open",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/asia-pacific/20261105-south-korea-military-mission-strait-of-hormuz",
+              "pubDate": "2026-11-05T02:17:44.000Z",
+              "tier": 1
+            },
+            {
+              "title": "South Korea to deploy forces near Hormuz Strait in mission to help keep it open",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/11/05/south-korea-to-help-keep-hormuz-strait-open_6772409_4.html",
+              "pubDate": "2026-11-05T04:44:52.000Z",
+              "tier": 2
+            },
+            {
+              "title": "South Korea to deploy military mission to keep Strait of Hormuz open",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ0Q1VWtaeXpoeUNSbm44YmthamNhOWhjRE1sckxKVzhZeXNkX3NGanp1SXZtNlRpY1dRQlVjM3d1SVh3TDR0ZWQtcUhmUThET3VUVjEyUDhHYU9JeEpDNHVIOENWOFVfMm1la3c5UHpsU0JTUHBnamdGY01kUXRRQkpLUXprYXV5NzJDdVI4MGVyQmN1Q0dVdGtIVQ?oc=5",
+              "pubDate": "2026-11-05T02:17:44.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 95,
+          "slug": "south-korea-deploys-forces-near-key-strait"
         },
         {
           "representativeTitle": "Grizzly Hunt Underway After Bear Attack in Canada",
@@ -106,12 +183,13 @@ export const newsData = {
           "slug": "grizzly-hunt-underway-after-bear-attack-in-canada"
         },
         {
-          "representativeTitle": "ANC Faces Anger Amid Local Election Voting Day",
+          "representativeTitle": "South African Vote Signals ANC's Potential Decline",
           "sources": [
             "The Guardian",
-            "France 24"
+            "France 24",
+            "Google World"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "ANC faces anger over poor services as South Africans vote in local elections",
@@ -126,14 +204,51 @@ export const newsData = {
               "link": "https://www.france24.com/en/south-africans-vote-in-key-municipal-elections",
               "pubDate": "2026-11-04T21:26:13.000Z",
               "tier": 1
+            },
+            {
+              "title": "South Africans vote in local elections that could continue the decline of the once-mighty ANC",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeGc1LWRVNkE1OThmTUs3aGY5OFlVZkZFV1h2R0VwY28wcHRXWXM0d3Vsd0JnS29YNk52VVVUTW02YURuakNHdUtsNHpXSUhGdWd6eDdRTWNaaTY2NVpqU2MwWVhyTGZUS2NNcEtoSkJlOFVHRGJ5SjlzREltc3hGM1NFRUw0UHZhUVRXcExYZ0huY3pGX0pad0tCYjI5c0dWcGVibw?oc=5",
+              "pubDate": "2026-11-04T11:18:00.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "south-african-vote-signals-ancs-potential-decline"
+        },
+        {
+          "representativeTitle": "Israeli Leader Accepts Vote Results; Talks Begin Forming Government",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Israel’s Herzog accepts vote results, opens talks on forming a government",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government?traffic_source=rss",
+              "pubDate": "2026-11-05T01:53:30.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Israel’s Herzog accepts vote results, opens talks on forming a government",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV004NGVpUkpHZGJjd1ByTGZFZ0dXdjlNWmtqcEJMUjlURmFvTVFDVVUyRWRyTGRYNm02MmpldWptUzdDWV8zZTM1bGMwQW1PM3VHYk8zbVFMTFNkWUhRRUdPLXBBT1pSdmR2XzhGRDl5MFg0TmJTYjFoS0ZOS29uZDcxWHAwRnFoeF8xYUdNRjBIdkhNeXVuRmh0V3lnc3BQSlVBWDA4bkNLT0E5dnJqYzN30gG3AUFVX3lxTE1wb09hUVRJUjZtVFJheVdJVkJVTV8zcFo2VkgzczVDMlpjMU5fUlZIS3M5Y0VOT3k3cklrV0kyd0l6RjBzVFc0ZGVwSEQ3Q1Vza1J5VUVDdUU5bW1lU0ptLUlXZTlTTHlTN2FFaDh1dUJRYm1fWjNtRDFLN29MZFE1MkRpS2F4NlllZ2dTUVB4Q2JLX2ZEUWhidlZ5c215a3F1dXhvNW9vZU8xUENtZ1VRY1NibXZMcw?oc=5",
+              "pubDate": "2026-11-05T08:14:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
           "relevance_score": 8,
-          "importance": 70,
-          "slug": "anc-faces-anger-amid-local-election-voting-day"
+          "importance": 60,
+          "slug": "israeli-leader-accepts-vote-results-talks-begin-forming-government"
         },
         {
           "representativeTitle": "Ukraine claims video shows deadly Russian bombing.",
@@ -166,42 +281,33 @@ export const newsData = {
           "slug": "ukraine-claims-video-shows-deadly-russian-bombing"
         },
         {
-          "representativeTitle": "Serbia arrests officers over student protest violence.",
+          "representativeTitle": "France faces strikes testing Macron's governance policies.",
           "sources": [
-            "The Guardian",
-            "Euronews",
-            "Google World"
+            "France 24"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Serbia detains police officers over alleged use of force against protesters",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/04/serbia-officers-protesters",
-              "pubDate": "2026-11-04T20:42:14.000Z",
+              "title": "Live: France braces for nationwide strikes in fresh test for Macron’s policies",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/france/20261105-live-france-nationwide-strikes-living-costs",
+              "pubDate": "2026-11-05T07:10:32.000Z",
               "tier": 1
             },
             {
-              "title": "Serbia arrests police officers accused of using violence against student protesters",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/05/serbia-arrests-police-officers-accused-of-using-violence-against-student-protesters",
-              "pubDate": "2026-11-05T04:34:57.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Serbia detains police officers over alleged use of force against protesters",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5rV20zTk9hb2xMa09lNWhsUGxsMndsTmtTcmFaZFpwTTBLY2FSYzFHME80NHRIQ0Fsak9JSWdGMVJsV0c1d3RWMFdKMWIzUXFDdGNaTng4Uk16d1g2Zi1jUU0yR3c0Y2VucEtxUW1uYndKc0JhSi1fMGxJMWk?oc=5",
-              "pubDate": "2026-11-04T20:42:00.000Z",
-              "tier": 2
+              "title": "France braces for fresh protests in test for Macron's policies",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/france-braces-for-fresh-protests-in-test-for-macron-s-policies",
+              "pubDate": "2026-11-05T06:24:09.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "serbia-arrests-officers-over-student-protest-violence"
+          "relevance_score": 7,
+          "importance": 60,
+          "slug": "france-faces-strikes-testing-macrons-governance-policies"
         },
         {
           "representativeTitle": "Bavarian Politician Found Deceased in Berlin Hotel",
@@ -222,7 +328,7 @@ export const newsData = {
               "title": "Bavaria's Deputy Premier Hubert Aiwanger found dead in Berlin hotel",
               "source": "Le Monde",
               "link": "https://www.lemonde.fr/en/international/article/2026/11/05/bavaria-s-deputy-premier-hubert-aiwanger-found-dead-in-berlin-hotel_6772372_4.html",
-              "pubDate": "2026-11-05T01:21:36.000Z",
+              "pubDate": "2026-11-05T01:21:35.000Z",
               "tier": 2
             }
           ],
@@ -234,212 +340,166 @@ export const newsData = {
           "slug": "bavarian-politician-found-deceased-in-berlin-hotel"
         },
         {
-          "representativeTitle": "Cyberattack Hits French Blood Bank Refrigeration Systems",
+          "representativeTitle": "UK's Defense and AI Depend on China Minerals",
           "sources": [
-            "France 24",
-            "Google World"
+            "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "French blood banks foil new cyberattack targeting refrigerators",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261104-french-blood-banks-foil-new-cyberattack-targeting-refrigerators",
-              "pubDate": "2026-11-04T15:10:17.000Z",
-              "tier": 1
-            },
-            {
-              "title": "France: Cyberattack targets blood bank refrigerators",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQXVNNEdlbnFOY3BmcGl1dmdfWjJIZVdDM0c0anpPOUNvZ2NESDdzWGtreTliZWkwM2ozR1AwVEg2SXhSS251aG1xNHVKU2Etdjc3RV8xeF9YV0ZCZGRVYXlaWGljMlk0RWx1OTlUWmJtTFNZQ3l6bkFBdDVoQm9aOS1YRG5MMENfWmlHRUlPd2hPQdIBkgFBVV95cUxQaUtuSWhpcEd3dGg3MG85UXNoclB3c084cjNuZTl1NGxqQjVCS2JhNHFOZ2dRNlA0WmdQYmhaTjllV3JRQWZxMk1hMDdWQ0JiQ2RtVDRSdVIza1FFcE0zZ05nY0pVeUxiUmd0b2Mtc0V6Wmk4Q1JmY1FPOXFnd1BLZU9BQ0NzcTdHX3pNSHBiLVlsQQ?oc=5",
-              "pubDate": "2026-11-04T21:49:04.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "cyberattack-hits-french-blood-bank-refrigeration-systems"
-        },
-        {
-          "representativeTitle": "Election Body Rejects Fraud Claims Against Arab Party",
-          "sources": [
-            "The Guardian",
-            "SCMP",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Israel’s election commission rejects Netanyahu claims of voting fraud",
+              "title": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/04/israel-election-commission-rejects-netanyahu-claims-voting-fraud",
-              "pubDate": "2026-11-04T12:19:18.000Z",
+              "link": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
+              "pubDate": "2026-11-05T05:00:55.000Z",
               "tier": 1
-            },
-            {
-              "title": "Blow for Netanyahu as Israeli election body rejects claims of Arab party fraud",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/middle-east/article/3373260/blow-netanyahu-israeli-election-body-rejects-claims-arab-party-fraud",
-              "pubDate": "2026-11-04T09:24:54.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Israel’s president accepts certified election results in a blow to Netanyahu’s claim of vote fraud",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV21MWjhQNFltc0NQaE1BNlhDenNma1JNU0xmNHBoRkZ2Z0l0YVlUZUgyeE0tVFd1QmhzX3Y0X1hzNWF1cV8wRjd6VDdEZzZWYkd0dEZBNTlUOWlqdWFlX1N4djBxTGlMRFU5YlI5R3JTN1JxdVozZkF6NUdmLXlPbmR4TFp1Q3FfVmNSdjZBandIS2dzelZmTE01MzhVWFo3ZFd0aXlXbWpHWmZxWWZ1WVFyV2VjWDhaR2c?oc=5",
-              "pubDate": "2026-11-04T12:39:35.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "election-body-rejects-fraud-claims-against-arab-party"
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "uks-defense-and-ai-depend-on-china-minerals"
         },
         {
-          "representativeTitle": "Global Trade Reshaping Costs Higher, Says Expert",
+          "representativeTitle": "Hormuz Diplomacy Advances Amid Iran Strike De-escalation",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Deborah Elms: Global Trade Is Being Reshaped at Higher Cost",
+              "title": "Hormuz Diplomacy Gains Ground as Trump Plays Down New Iran Strikes",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-05/deborah-elms-on-trade-reshuffling-and-rising-costs-video",
-              "pubDate": "2026-11-05T04:17:55.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-05/horizons-middle-east-africa-11-5-2026-video",
+              "pubDate": "2026-11-05T06:58:28.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "global-trade-reshaping-costs-higher-says-expert"
-        },
-        {
-          "representativeTitle": "Paraguay Bank Collapse Threatens Citizen Savings Fund",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Paraguay bank collapses with half of population’s savings",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/paraguay-bank-collapses-with-half-of-populations-savings?traffic_source=rss",
-              "pubDate": "2026-11-05T04:11:45.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "paraguay-bank-collapse-threatens-citizen-savings-fund"
-        },
-        {
-          "representativeTitle": "Hong Kong Jails Activist Wong; Human Rights Concerns Rise",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Hong Kong Jails Activist Joshua Wong for 10 Years",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-05/hong-kong-jails-activist-joshua-wong-for-10-years-video",
-              "pubDate": "2026-11-05T03:24:45.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "hong-kong-jails-activist-wong-human-rights-concerns-rise"
-        },
-        {
-          "representativeTitle": "South Korea Deploys Military Mission to Secure Strait",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "South Korea to deploy military mission to keep Strait of Hormuz open",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/asia-pacific/20261105-south-korea-military-mission-strait-of-hormuz",
-              "pubDate": "2026-11-05T02:17:44.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": 0,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "south-korea-deploys-military-mission-to-secure-strait"
+          "slug": "hormuz-diplomacy-advances-amid-iran-strike-de-escalation"
         },
         {
-          "representativeTitle": "Bukele Touts Military Intervention in Haiti Crisis",
+          "representativeTitle": "Midterms' Impact on US-China Relations Analyzed Now",
           "sources": [
-            "Al Jazeera"
+            "CNBC Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "El Salvador’s Bukele touts military intervention in Haiti",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/5/el-salvadors-bukele-touts-military-intervention-in-haiti?traffic_source=rss",
-              "pubDate": "2026-11-05T02:10:07.000Z",
+              "title": "What the Democratic midterms sweep changes for U.S.-China relations",
+              "source": "CNBC Markets",
+              "link": "https://www.cnbc.com/2026/11/05/what-the-democrat-midterms-sweep-changes-for-us-china-tech-rivalry.html",
+              "pubDate": "2026-11-05T06:54:52.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Stocks",
           "aiCategory": "World",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "bukele-touts-military-intervention-in-haiti-crisis"
+          "slug": "midterms-impact-on-us-china-relations-analyzed-now"
         },
         {
-          "representativeTitle": "Trump's Midterms Impact on Global Flashpoints Analyzed",
+          "representativeTitle": "First Lady Hosts Ukrainian and Russian Officials at White House",
           "sources": [
             "France 24",
-            "Google World"
+            "Euronews"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "US midterms: Iran's deputy parliament speaker reacts to Trump's elections setback",
+              "title": "Melania Trump to host Ukrainian, Russian officials at White House",
               "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261104-us-midterms-iran-s-deputy-parliament-speaker-reacts-to-trump-s-elections-setback-1",
-              "pubDate": "2026-11-04T16:50:06.000Z",
+              "link": "https://www.france24.com/en/americas/20261105-melania-trump-to-host-ukrainian-russian-officials-at-white-house",
+              "pubDate": "2026-11-05T05:23:48.000Z",
               "tier": 1
             },
             {
-              "title": "What Trump’s midterms setback could mean for Iran, Israel and Ukraine",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdmRtNUxIYTJJb2ZOaEtKMGMzbjRmX0hwSk5YNXpsbHdqSzluVW5udGFObGpuVnh1VGllcWVBdXlhZExtNlE0Mi1aY1V0MktvYkpCU3EwM0ZfS2d4Q0lNMGxrRG1kZzRYZEZoZkswS2Q0RGx6ZTczT3pkUXpCeV82VVZB?oc=5",
-              "pubDate": "2026-11-04T16:37:19.000Z",
+              "title": "US First Lady Melania Trump to host Ukrainian and Russian officials at White House",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/11/05/us-first-lady-melania-trump-to-host-ukrainian-and-russian-officials-at-white-house",
+              "pubDate": "2026-11-05T07:26:32.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "first-lady-hosts-ukrainian-and-russian-officials-at-white-house"
+        },
+        {
+          "representativeTitle": "Israel Opposition Slams Netanyahu After US Congress Shift",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Israel’s opposition slams ‘toxic Netanyahu’ after Democrats win US Congress",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/5/israels-opposition-slams-toxic-netanyahu-after-democrats-win-us-congress?traffic_source=rss",
+              "pubDate": "2026-11-05T05:39:31.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "trumps-midterms-impact-on-global-flashpoints-analyzed"
+          "importance": 55,
+          "slug": "israel-opposition-slams-netanyahu-after-us-congress-shift"
+        },
+        {
+          "representativeTitle": "German Politician Predicts Trump Will Ignore Congress",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Germany’s Merz expects Trump to keep ignoring Congress",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/germanys-merz-expects-trump-to-keep-ignoring-congress?traffic_source=rss",
+              "pubDate": "2026-11-05T07:25:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "german-politician-predicts-trump-will-ignore-congress"
+        },
+        {
+          "representativeTitle": "Indonesia Deploys Troops Amid Wiretapping Scandal Fallout",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Indonesia Deploys Troops Amid Wiretapping Scandal",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-05/indonesia-deploys-troops-amid-wiretapping-scandal-video",
+              "pubDate": "2026-11-05T07:16:45.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "indonesia-deploys-troops-amid-wiretapping-scandal-fallout"
         },
         {
           "representativeTitle": "Midterms signal shifts in Middle East policy.",
@@ -464,166 +524,152 @@ export const newsData = {
           "slug": "midterms-signal-shifts-in-middle-east-policy"
         },
         {
-          "representativeTitle": "Hungary releases secret police files decades later.",
+          "representativeTitle": "UK Porn Ban Sparks Fears Over Censorship Concerns",
           "sources": [
-            "BBC World",
+            "Wired"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "A New UK Porn Ban Sparks Fears of Unprecedented Sex Censorship",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/a-new-uk-ban-sparks-fears-of-unprecedented-sex-censorship/",
+              "pubDate": "2026-11-05T07:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "uk-porn-ban-sparks-fears-over-censorship-concerns"
+        },
+        {
+          "representativeTitle": "New Zealand faces uncertain election outcome; key details emerge.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "New Zealand braces for knife-edge election: What you need to know",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/5/new-zealand-braces-for-knife-edge-election-what-you-need-to-know?traffic_source=rss",
+              "pubDate": "2026-11-05T06:34:50.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "new-zealand-faces-uncertain-election-outcome-key-details-emerge"
+        },
+        {
+          "representativeTitle": "Historic Sites Added to Heritage At-Risk Register Now",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Norman conquest castle and Dickens chalet among sites added to heritage at risk register",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/artanddesign/2026/nov/05/hastings-castle-dickens-chalet-heritage-at-risk-register",
+              "pubDate": "2026-11-05T06:00:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "historic-sites-added-to-heritage-at-risk-register-now"
+        },
+        {
+          "representativeTitle": "Serbia detains officers over alleged protest force use.",
+          "sources": [
+            "The Guardian",
             "Google World"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Secret police files released in Hungary, 37 years after fall of communism",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c977p01kgmmko?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T15:28:18.000Z",
+              "title": "Serbia detains police officers over alleged use of force against protesters",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/04/serbia-officers-protesters",
+              "pubDate": "2026-11-04T20:42:14.000Z",
               "tier": 1
             },
             {
-              "title": "Hungary releases secret police files from communist era",
+              "title": "Serbia detains police officers over alleged use of force against protesters",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdVpmSW91NUhGX3RRZEF3UGxFeFlkT3AtNnlXN1pyN1JrYXdPWHNUdnR0SWw3WWZxRE5hQnBaWUJqdnliSGNqX2lfMy1GS3dLZFJNb2pkeXJOSTBxSm5NbkVEYkZMNjZKclB5eWxxYWt2dm1WWjh3SjdqTkFUR2dSV0czVDVwQ1ZpTi03TU92Sm03QQ?oc=5",
-              "pubDate": "2026-11-04T18:43:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5rV20zTk9hb2xMa09lNWhsUGxsMndsTmtTcmFaZFpwTTBLY2FSYzFHME80NHRIQ0Fsak9JSWdGMVJsV0c1d3RWMFdKMWIzUXFDdGNaTng4Uk16d1g2Zi1jUU0yR3c0Y2VucEtxUW1uYndKc0JhSi1fMGxJMWk?oc=5",
+              "pubDate": "2026-11-04T20:42:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "hungary-releases-secret-police-files-decades-later"
-        },
-        {
-          "representativeTitle": "Violent storm damages Brazilian airport infrastructure severely.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Brazilian airport torn apart by violent storm",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/brazilian-airport-torn-apart-by-violent-storm?traffic_source=rss",
-              "pubDate": "2026-11-05T04:12:11.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
           "relevance_score": 6,
-          "importance": 45,
-          "slug": "violent-storm-damages-brazilian-airport-infrastructure-severely"
+          "importance": 50,
+          "slug": "serbia-detains-officers-over-alleged-protest-force-use"
         },
         {
-          "representativeTitle": "Syria and Saudi Arabia Ink Defense Cooperation Deal",
+          "representativeTitle": "Marine's Name Released After Japan Training Incident",
           "sources": [
-            "Al Jazeera"
+            "Fox News",
+            "ABC News Top"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Syria, Saudi Arabia sign defence cooperation deal, agree $403m in loans",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/5/syria-saudi-arabia-sign-defence-cooperation-deal-agree-403m-in-loans?traffic_source=rss",
-              "pubDate": "2026-11-05T03:46:13.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "syria-and-saudi-arabia-ink-defense-cooperation-deal"
-        },
-        {
-          "representativeTitle": "Israeli Generals Aid Palestinian Olive Farming Efforts Now",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
+              "title": "US Marine dies in training incident at Japan military base, officials say",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/world/us-marine-dies-training-incident-japan-military-base",
+              "pubDate": "2026-11-05T04:38:44.000Z",
+              "tier": 2
+            },
             {
-              "title": "Former Israeli generals help Palestinian olive farmers",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/former-israeli-generals-help-palestinian-olive-farmers?traffic_source=rss",
-              "pubDate": "2026-11-05T02:52:30.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "israeli-generals-aid-palestinian-olive-farming-efforts-now"
-        },
-        {
-          "representativeTitle": "South Africa Election Vote Counting Underway Now",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Vote counting underway in critical South Africa elections",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/vote-counting-underway-in-critical-south-africa-elections?traffic_source=rss",
-              "pubDate": "2026-11-05T02:43:04.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "south-africa-election-vote-counting-underway-now"
-        },
-        {
-          "representativeTitle": "Expert Discusses China's Comedy Scene and Censorship",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Des Bishop on China's Comedy Boom and Censorship",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-05/des-bishop-on-china-s-comedy-boom-and-censorship-video",
-              "pubDate": "2026-11-05T01:53:55.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "expert-discusses-chinas-comedy-scene-and-censorship"
-        },
-        {
-          "representativeTitle": "Zelensky Honors Trump After Oleshky Ceasefire Talks",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Zelensky gives Melania Trump Ukraine's highest award after Oleshky ceasefire",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cm87zvpzwq0no?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T15:01:10.000Z",
-              "tier": 1
+              "title": "Officials release name of US Marine who died after training incident in Japan",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/International/officials-release-us-marine-died-after-training-incident/story?id=137868269",
+              "pubDate": "2026-11-05T07:49:42.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "World",
-          "sentiment": 0.4,
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "marines-name-released-after-japan-training-incident"
+        },
+        {
+          "representativeTitle": "Activist Joshua Wong Sentenced to Decade in Prison",
+          "sources": [
+            "NPR"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hong Kong activist Joshua Wong sentenced to 10 years in prison",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/05/g-s1-152032/hong-kong-activist-wong-sentenced",
+              "pubDate": "2026-11-05T05:29:56.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "zelensky-honors-trump-after-oleshky-ceasefire-talks"
+          "importance": 45,
+          "slug": "activist-joshua-wong-sentenced-to-decade-in-prison"
         },
         {
           "representativeTitle": "Mother and daughter killed by grizzly bear attack.",
@@ -690,28 +736,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "us-midterms-impact-canadian-tariff-relief-hopes"
-        },
-        {
-          "representativeTitle": "Ghanaian Mother Killed in US; Justice Sought For Funeral",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Mother of Ghanaian boy killed in US 'wants justice' as she flies for funeral",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cq62yjnmg4ego?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T15:18:03.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ghanaian-mother-killed-in-us-justice-sought-for-funeral"
         }
       ]
     },
@@ -749,6 +773,28 @@ export const newsData = {
           "slug": "democrats-assess-new-power-within-congress"
         },
         {
+          "representativeTitle": "2026 Midterms: Live Results Across All States Reported",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US midterm elections 2026: live results from Senate, House and governor races in all 50 states",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/04/midterm-elections-full-results-senate-house-governor-races",
+              "pubDate": "2026-11-05T08:33:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "2026-midterms-live-results-across-all-states-reported"
+        },
+        {
           "representativeTitle": "Democrats regain Congress; policy implications unfold now.",
           "sources": [
             "BBC US",
@@ -777,58 +823,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 60,
           "slug": "democrats-regain-congress-policy-implications-unfold-now"
-        },
-        {
-          "representativeTitle": "Vance critiques Trump amid election and Iran tensions.",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-05T03:47:56.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "vance-critiques-trump-amid-election-and-iran-tensions"
-        },
-        {
-          "representativeTitle": "Vance Links Iran War to GOP Midterm Election Losses",
-          "sources": [
-            "France 24",
-            "IBTimes"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "🔴 Live: Trump says going to war in Iran was worth it, despite midterm rout",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
-              "pubDate": "2026-11-04T18:32:56.000Z",
-              "tier": 1
-            },
-            {
-              "title": "JD Vance Blamed the Iran War for the GOP's Midterm Rout. Oil Prices are Plunging.",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/oil-prices-fall-republicans-iran-war-midterm-losses-3809426",
-              "pubDate": "2026-11-04T17:12:56.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "vance-links-iran-war-to-gop-midterm-election-losses"
         },
         {
           "representativeTitle": "Johnson Speaks Amid Democratic House Takeover Projections",
@@ -862,10 +856,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Mike Johnson will step aside as top House Republican next Congress",
+              "title": "House Speaker Mike Johnson won’t stay on as Republican leader after GOP losses",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcWs4dG5kNUJxZ2xWSGU0eGowcFhoUGF3aHRLZVdaMmpETm5JLUFyWEhLSDlEOUtBaWpxdTBVejc1d2xLbXhMaGNIaHRZRVdXZGc1dFpFcFZnSWx3N1hGTVpUZE1sWHFlMzRnd3BtMy1HNFl1RG5yU3RpaEZ3SnYzRzYxTQ?oc=5",
-              "pubDate": "2026-11-04T18:14:13.000Z",
+              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWXY5a2NQWHFxa3dPbENhdXF3d0gxWlBUWFkzb0lwTlRhSXpRTlF6LUxtb20wU1JEZ0E2aWh5VXc1cHVjWnluZXN3UHRvc0FxNWRkM0kzaW1sa2J1Z2I2UUJKZVFYSTR1SEtiM3h3QVI4SGFtV1pnU0hFVEFEM3VjMlRRNmVuamRUSkZQVnNmVXBOX3dJMlFFOVRVU01TZW01XzB0RXRES0ZWSzI5?oc=5",
+              "pubDate": "2026-11-04T22:01:14.000Z",
               "tier": 2
             }
           ],
@@ -877,42 +871,152 @@ export const newsData = {
           "slug": "johnson-speaks-amid-democratic-house-takeover-projections"
         },
         {
-          "representativeTitle": "Voter Stances Revealed on Key State Ballot Issues",
+          "representativeTitle": "Next US Presidential Race Officially Underway Now",
           "sources": [
-            "NBC News",
-            "NPR",
-            "Google US"
+            "FT International"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Ballot measure takeaways: Voters back abortion rights and voter ID",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/ballot-measure-takeaways-voters-back-abortion-rights-photo-id-citizens-rcna607016",
-              "pubDate": "2026-11-04T21:24:36.000Z",
-              "tier": 2
+              "title": "The next US presidential race has begun",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/a7fe8e95-bd9a-4cd7-a308-f156073cd074?syn-25a6b1a6=1",
+              "pubDate": "2026-11-05T05:00:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "next-us-presidential-race-officially-underway-now"
+        },
+        {
+          "representativeTitle": "Vance critiques Trump amid election and Iran tensions.",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-05T03:47:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "vance-critiques-trump-amid-election-and-iran-tensions"
+        },
+        {
+          "representativeTitle": "Democrats plan policy shifts following midterm election wins.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Democrats look to reshape America after historic midterm victories",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/9a4a7357-f783-462f-b5d3-9852daf0f328?syn-25a6b1a6=1",
+              "pubDate": "2026-11-05T05:00:25.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "democrats-plan-policy-shifts-following-midterm-election-wins"
+        },
+        {
+          "representativeTitle": "Republicans face criticism over policy failures; rethinking needed.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Republicans paid the price for Trump’s failed policies — they must rethink",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/800da770-639b-406c-a46a-a30552aa1128",
+              "pubDate": "2026-11-05T05:00:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "republicans-face-criticism-over-policy-failures-rethinking-needed"
+        },
+        {
+          "representativeTitle": "Democrat leads Mississippi Senate race by narrow margin.",
+          "sources": [
+            "BBC US",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Democrat leads by dozens of votes in surprisingly tight Mississippi Senate race",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/c6n9rwxlx992o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-05T00:51:45.000Z",
+              "tier": 1
             },
             {
-              "title": "Where voters stand on state ballot measures, from abortion to LGBTQ rights to guns",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/04/nx-s1-6028833/midterms-ballot-measures-abortion-lgbtq-guns",
-              "pubDate": "2026-11-04T21:49:17.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Where voters stand on state ballot measures, from abortion to LGBTQ rights to guns",
+              "title": "Democrat leads by dozens of votes in surprisingly tight Mississippi Senate race",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ1c2OG9ldXhNbzhNcml0ZE14NjVnT1dOWUVjSHB1ejFxQUE0Wk04T20wOXVHWWhDMm1McEpIR2VXSmp2dzQweG1ja0RDWkI5eXFoQ2V6Y20wY3ViT3JBNjVfVGtIWFJnNVY3bVVvQ3c3eGg2ZEZaLVZKS2pUSUI5aE1JTDEwcnN0eW1yNGhhaUlsYzQ?oc=5",
-              "pubDate": "2026-11-04T21:49:17.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HMzQwZkNtWnM3ci1XOWpTeGItSFhoVzUtdGVENE1jZkFDVnFuUzVycjJuSnNUUWNxVzVralZfRkJZcWZvTjhJQnVGMUNiMndIRmQyRzVNczZmVm8?oc=5",
+              "pubDate": "2026-11-05T00:51:45.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "democrat-leads-mississippi-senate-race-by-narrow-margin"
+        },
+        {
+          "representativeTitle": "Four Dead After Domestic Shooting Involving Deputies",
+          "sources": [
+            "Fox News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Four dead, including Washington deputy, following domestic call shooting; another deputy on life support",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/us/four-dead-including-washington-deputy-following-domestic-call-shooting-another-deputy-life-support",
+              "pubDate": "2026-11-04T23:41:09.000Z",
+              "tier": 2
+            },
+            {
+              "title": "3 dead, including responding deputy, in domestic violence shooting: Sheriff - ABC News",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWXByYk9DT1VHd1FzbkhqVGRvcnEzODVqTFpaZkhFWHN0cFZ4SmVMbTdOci1KMFcyb2otMFFKb1hmY3hoOWVrLXphalBzU09XRXBhMVRYYXNYOG90c05BZ1VMM2ZpSjFJbGl5dHQ2S1JZUFZobFFQeUpyWWg3bk9lRUJFdHdkakthdFNINExmbU9DdnhDcTZjR9IBngFBVV95cUxPM0l0Z3ZvTFEyNk1hdTdJVm5ua0p0S0NfSms4NXNnTlpiRFJsb29rR0tIa29sNFctVUVZRzJPZkVpaFR4d2hKTzZBdlJWTzlScnNVektZYlhxNkNubHk1d1FmV0VrMUIzdFZPdDFUdFZNQzZ4QlA0bXRYQlZXSUlxTHFaMFRVWnFIY1FycXRTdWlPQnVBdUxOdkt2bHZiUQ?oc=5",
+              "pubDate": "2026-11-05T02:02:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.9,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "voter-stances-revealed-on-key-state-ballot-issues"
+          "importance": 50,
+          "slug": "four-dead-after-domestic-shooting-involving-deputies"
         },
         {
           "representativeTitle": "Musk's Influence Fails to Secure Republican Gains Midterms",
@@ -937,6 +1041,72 @@ export const newsData = {
           "slug": "musks-influence-fails-to-secure-republican-gains-midterms"
         },
         {
+          "representativeTitle": "Ministers plan action against e-bike pavement obstruction.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Ministers to target ‘wild west’ of e-bikes blocking pavements",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/05/e-bikes-blocking-pavements-department-for-transport",
+              "pubDate": "2026-11-05T07:00:57.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ministers-plan-action-against-e-bike-pavement-obstruction"
+        },
+        {
+          "representativeTitle": "Accused gives evidence in high-profile murder trial.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Accused double murderer gives evidence in high-profile case – as it happened",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/live/2026/nov/05/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
+              "pubDate": "2026-11-05T06:58:33.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "accused-gives-evidence-in-high-profile-murder-trial"
+        },
+        {
+          "representativeTitle": "Witness Accuses of Tampering in Double Murder Trial",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Beau Lamarre-Condon tells double murder trial he went through Jesse Baird’s phone and poured water into his fuel tank",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/nov/05/beau-lamarre-condon-witness-trial-ntwnfb",
+              "pubDate": "2026-11-05T06:56:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "witness-accuses-of-tampering-in-double-murder-trial"
+        },
+        {
           "representativeTitle": "Midterms weaken Trump, but power remains.",
           "sources": [
             "BBC US"
@@ -959,26 +1129,78 @@ export const newsData = {
           "slug": "midterms-weaken-trump-but-power-remains"
         },
         {
-          "representativeTitle": "Analysis details Democratic party's electoral map success.",
+          "representativeTitle": "Democrats Gain Control Of Multiple State Legislatures",
+          "sources": [
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Democrats take House and Senate in historic midterm win",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/nightly-news/video/democrats-take-house-and-senate-in-historic-midterm-win-272884293564",
+              "pubDate": "2026-11-05T00:11:40.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Democrats win full control of more state governments and the Texas House",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeHhtcHhnektKamxRU25FOW5rR3FjRTFYUklvWXQ1WXlZek1VZFphX3hKSE5iSEhGZ3l6NmdLWmZkVE5GY2FacTk4cVBCenZlRjduQWp0dlljLTQySDhreUtScm5PYXQybHp5WjgwOFp0Z3dkQUFrUGxIN3FGWUJGaEV3eURsRE16aFhwblhkaDgxZ2Y1b0JTdFJEX1NQOFFKaTRiU3pueDkwRlVZdmc4X01WOVc2UQ?oc=5",
+              "pubDate": "2026-11-04T23:05:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "democrats-gain-control-of-multiple-state-legislatures"
+        },
+        {
+          "representativeTitle": "Democratic Wave Keeps Wealth Tax Discussion Alive",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "How Democrats pulled off the blue wave in maps and charts",
+              "title": "Democratic wave keeps US wealth taxes alive despite California loss",
               "source": "FT International",
-              "link": "https://www.ft.com/content/f27626ac-8427-45d7-a995-a8dfe8d01bd9?syn-25a6b1a6=1",
-              "pubDate": "2026-11-04T19:12:33.000Z",
+              "link": "https://www.ft.com/content/c701ac0d-0ef4-426f-a629-e38ed29d5260?syn-25a6b1a6=1",
+              "pubDate": "2026-11-05T00:52:16.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "analysis-details-democratic-partys-electoral-map-success"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "democratic-wave-keeps-wealth-tax-discussion-alive"
+        },
+        {
+          "representativeTitle": "Politician to appeal discrimination ruling in high court.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘Bring it on’: Pauline Hanson to appeal Mehreen Faruqi racial discrimination ruling in high court",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/nov/05/pauline-hanson-to-appeal-mehreen-faruqi-racial-discrimination-ruling-high-court-ntwnfb",
+              "pubDate": "2026-11-05T05:03:08.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "politician-to-appeal-discrimination-ruling-in-high-court"
         },
         {
           "representativeTitle": "Trump's Loss Impacts Domestic Power, Foreign Policy Shifts",
@@ -1003,70 +1225,34 @@ export const newsData = {
           "slug": "trumps-loss-impacts-domestic-power-foreign-policy-shifts"
         },
         {
-          "representativeTitle": "Republican internal conflict follows midterm election results.",
+          "representativeTitle": "Voter Stances Revealed on Key State Ballot Issues",
           "sources": [
-            "FT International"
+            "NPR",
+            "Google US"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Republicans turn on each other after disastrous midterms",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/83a46027-3cde-41fa-8c55-405f40c6fa82?syn-25a6b1a6=1",
-              "pubDate": "2026-11-04T18:29:39.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "republican-internal-conflict-follows-midterm-election-results"
-        },
-        {
-          "representativeTitle": "Double Murder Trial Continues With Accused Testimony Today",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
+              "title": "Where voters stand on state ballot measures, from abortion to LGBTQ rights to guns",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/04/nx-s1-6028833/midterms-ballot-measures-abortion-lgbtq-guns",
+              "pubDate": "2026-11-04T21:49:17.000Z",
+              "tier": 2
+            },
             {
-              "title": "Beau Lamarre-Condon trial live updates: accused double murderer gives evidence in high-profile case",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/live/2026/nov/05/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
-              "pubDate": "2026-11-05T04:17:37.000Z",
-              "tier": 1
+              "title": "Where voters stand on state ballot measures, from abortion to LGBTQ rights to guns",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ1c2OG9ldXhNbzhNcml0ZE14NjVnT1dOWUVjSHB1ejFxQUE0Wk04T20wOXVHWWhDMm1McEpIR2VXSmp2dzQweG1ja0RDWkI5eXFoQ2V6Y20wY3ViT3JBNjVfVGtIWFJnNVY3bVVvQ3c3eGg2ZEZaLVZKS2pUSUI5aE1JTDEwcnN0eW1yNGhhaUlsYzQ?oc=5",
+              "pubDate": "2026-11-04T21:49:17.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "double-murder-trial-continues-with-accused-testimony-today"
-        },
-        {
-          "representativeTitle": "Midterms: Demo Lead Grows in Mississippi Senate Race",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US midterm elections 2026 live: Democratic lead grows in Mississippi Senate race as Republican blame game begins",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
-              "pubDate": "2026-11-05T04:14:32.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "midterms-demo-lead-grows-in-mississippi-senate-race"
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "voter-stances-revealed-on-key-state-ballot-issues"
         },
         {
           "representativeTitle": "AI PAC Spending Reveals Efforts to Shape Congress",
@@ -1091,28 +1277,6 @@ export const newsData = {
           "slug": "ai-pac-spending-reveals-efforts-to-shape-congress"
         },
         {
-          "representativeTitle": "Police Officer Claims Bullying During Murder Trial Testimony",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Beau Lamarre-Condon tells double murder trial he suffered ‘daily bullying’ when working for NSW police",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/nov/05/beau-lamarre-condon-witness-trial-ntwnfb",
-              "pubDate": "2026-11-05T03:16:08.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "police-officer-claims-bullying-during-murder-trial-testimony"
-        },
-        {
           "representativeTitle": "African-rooted politicians make history in US midterms.",
           "sources": [
             "BBC US"
@@ -1135,17 +1299,17 @@ export const newsData = {
           "slug": "african-rooted-politicians-make-history-in-us-midterms"
         },
         {
-          "representativeTitle": "Trump's stance on Iran sparks voter backlash.",
+          "representativeTitle": "Analysis reveals flaws in GOP redistricting tactics.",
           "sources": [
             "Google US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump concedes Iran war angered voters, triggered Democratic landslide",
+              "title": "The fatal assumption behind Republicans' redistricting strategy",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONUlGcnVxOUNGdUpRN1hoM2FIcHRHMGdqQUpGRGZJeWVqb0NBNmgtbzBXV3I2eWt4bVd1U3h6MXJQTURlRnRVc1RZMEZRNm4zSlNSQnUwNzhrMWxqNmcyVFdtdmFwN3Awd0ZSNmpEckdmbXlhUkM0NmdYSjQtQlNYZllyVXRsOW9EU1BWNU9rMTJDcTAtR2FWTjdaSE9OR2RpU2JFV3c5cw?oc=5",
-              "pubDate": "2026-11-05T04:16:59.000Z",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9wX2J5OVozM1BJM0hWQ3VBZ0YxYjF0MTRpSlpnejQ5RndnR196R202YjdwUjZfZlBQRjg4VDUzY29oTlE2b0JDQmhSZGlFdHptTG1wVmJJZkg3d05Nd0xxTWdGOGVwZHlaaWVLOFlEM05FTi1qWEEwN3UwTTI?oc=5",
+              "pubDate": "2026-11-05T04:24:24.000Z",
               "tier": 2
             }
           ],
@@ -1154,111 +1318,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "trumps-stance-on-iran-sparks-voter-backlash"
-        },
-        {
-          "representativeTitle": "Democrat Talarico Speaks After Projected Election Win",
-          "sources": [
-            "BBC US",
-            "ABC News Top"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T14:17:58.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Texas Democrat James Talarico speaks out after projected win against Paxton",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/texas-democrat-james-talarico-speaks-after-win-paxton/story?id=137841748",
-              "pubDate": "2026-11-04T16:01:53.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "democrat-talarico-speaks-after-projected-election-win"
-        },
-        {
-          "representativeTitle": "Wealth Tax Remains Key Democratic Policy Focus Despite Setback",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Democratic wave keeps US wealth taxes on the agenda despite California setback",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/c701ac0d-0ef4-426f-a629-e38ed29d5260?syn-25a6b1a6=1",
-              "pubDate": "2026-11-05T00:52:16.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "wealth-tax-remains-key-democratic-policy-focus-despite-setback"
-        },
-        {
-          "representativeTitle": "Female Governors Elected Across Seventeen States Record",
-          "sources": [
-            "NBC News",
-            "ABC News Top"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Record number of female governors elected",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/record-number-female-governors-elected-rcna607366",
-              "pubDate": "2026-11-04T05:45:20.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Voters elect female governors in 17 states, setting new record",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/GMA/News/women-make-history-governor-congressional-races-2026-midterms/story?id=137841842",
-              "pubDate": "2026-11-04T18:47:12.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "female-governors-elected-across-seventeen-states-record"
-        },
-        {
-          "representativeTitle": "Midterm Election Results Shape Future US Policy Landscape",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Everything you need to know from the US midterm elections",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-04T14:05:42.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "midterm-election-results-shape-future-us-policy-landscape"
+          "slug": "analysis-reveals-flaws-in-gop-redistricting-tactics"
         },
         {
           "representativeTitle": "Midterm election results prompt varied voter reactions.",
@@ -1283,28 +1343,6 @@ export const newsData = {
           "slug": "midterm-election-results-prompt-varied-voter-reactions"
         },
         {
-          "representativeTitle": "Midterms Show Partisan Divide in Washington Politics",
-          "sources": [
-            "Google US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Midterm Elections Live Updates: Democrats Project Power as G.O.P. Reels in a Reordered Washington",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZ3N3bFh4Q1JsM0lqczM5Q2l5Wmx1WG90Q0hBV1hZRDVmdmJUTFdBWDhySHI0RGlFV2dZeUhlRGR0UEtGdVZkUS15WDZ6eXlSRVJIVFV6eEo5ODBXY3h4S1JWQUoyb1N1dW9YQXFTUEM1dFNTTXRxOW1vcGRpUmhKbmNQWQ?oc=5",
-              "pubDate": "2026-11-05T02:32:55.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "midterms-show-partisan-divide-in-washington-politics"
-        },
-        {
           "representativeTitle": "Big Tech Campaign Spending Fails to Move Midterms",
           "sources": [
             "FT International"
@@ -1327,55 +1365,26 @@ export const newsData = {
           "slug": "big-tech-campaign-spending-fails-to-move-midterms"
         },
         {
-          "representativeTitle": "Vance Links Iran Conflict to Republican Election Losses",
+          "representativeTitle": "Americans React to Historic Political Shifts Unfolding",
           "sources": [
-            "FT International"
+            "BBC US"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Vance blames Iran war for crushing Republican midterms defeat",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/6bc8be51-5bd8-468c-bd3c-82bbc2866ba1?syn-25a6b1a6=1",
-              "pubDate": "2026-11-04T21:34:58.000Z",
+              "title": "'Hopefully things get done': Americans react to historic political shift",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/videos/cwj0l61e2927o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-04T22:34:08.000Z",
               "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "vance-links-iran-conflict-to-republican-election-losses"
-        },
-        {
-          "representativeTitle": "Black Candidates Achieve Historic Success in Midterms",
-          "sources": [
-            "ABC News Top"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Black candidates from both parties made history in midterm elections",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/black-candidates-make-history-party-lines-250-years/story?id=137851377",
-              "pubDate": "2026-11-05T00:26:47.000Z",
-              "tier": 2
-            },
-            {
-              "title": "These candidates made history in the 2026 midterm elections",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/candidates-made-history-2026-midterm-elections/story?id=137829582",
-              "pubDate": "2026-11-05T00:03:33.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 8,
+          "sentiment": 0,
+          "relevance_score": 6,
           "importance": 45,
-          "slug": "black-candidates-achieve-historic-success-in-midterms"
+          "slug": "americans-react-to-historic-political-shifts-unfolding"
         },
         {
           "representativeTitle": "Influencers Discuss Fragmented Reality in Online Politics",
@@ -1444,50 +1453,6 @@ export const newsData = {
           "slug": "ai-pac-influence-questioned-after-midterm-elections"
         },
         {
-          "representativeTitle": "Cruz comments on midterm election wave's impact.",
-          "sources": [
-            "NBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘A Watergate-level repudiation’: Ted Cruz weighs in on midterm wave",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/-watergate-level-repudiation-ted-cruz-weighs-midterm-wave-rcna607568",
-              "pubDate": "2026-11-05T03:21:37.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "cruz-comments-on-midterm-election-waves-impact"
-        },
-        {
-          "representativeTitle": "Trump Blames Fox News Amid GOP Losses, Ratings Decline",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump hammers Fox News, blaming network for GOP losses as ratings slide",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/11/04/trump-fox-news-gop-midterm-losses.html",
-              "pubDate": "2026-11-04T18:37:11.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "trump-blames-fox-news-amid-gop-losses-ratings-decline"
-        },
-        {
           "representativeTitle": "CEO Comments on Working Relationship With Trump",
           "sources": [
             "Wired"
@@ -1515,69 +1480,17 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "Musk's Companies Shares Drop After Midterm Sweep",
-          "sources": [
-            "FT International",
-            "WSJ US Business"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "US stocks post best day since August after Democrats sweep midterms",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
-              "pubDate": "2026-11-05T03:11:55.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Shares in Elon Musk’s SpaceX, Tesla Fall Premarket After Democrats Sweep Midterms",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/business/shares-in-elon-musks-spacex-tesla-fall-premarket-after-democrats-sweep-midterms-a10325e6?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-11-04T10:35:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "musks-companies-shares-drop-after-midterm-sweep"
-        },
-        {
-          "representativeTitle": "AI Fears Drag Asian Chip Stocks Lower Today",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Chipmakers lead Asian stocks lower on post-midterm AI fears",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/21755495-c68a-45a9-90d8-64f698cd1952?syn-25a6b1a6=1",
-              "pubDate": "2026-11-05T04:13:31.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ai-fears-drag-asian-chip-stocks-lower-today"
-        },
-        {
-          "representativeTitle": "Chinese Renewables Stocks Surge Following Democratic Sweep",
+          "representativeTitle": "European Stocks Hit Records Fueled by AI Optimism",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Chinese Renewables Stocks Extend Surge After Democratic Sweep",
+              "title": "European Stocks Hit Fresh Record as AI Unwind Boosts Region",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-05/chinese-renewables-stocks-extend-surge-after-democratic-sweep",
-              "pubDate": "2026-11-05T02:55:33.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-05/european-stocks-hit-fresh-record-as-ai-unwind-boosts-region",
+              "pubDate": "2026-11-05T08:09:35.000Z",
               "tier": 1
             }
           ],
@@ -1586,7 +1499,29 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "chinese-renewables-stocks-surge-following-democratic-sweep"
+          "slug": "european-stocks-hit-records-fueled-by-ai-optimism"
+        },
+        {
+          "representativeTitle": "China Stocks Surge Amid Korean Sector Weakness",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China Stocks Surge As Blue Wave Sinks Korea's Heavyweights",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-05/insight-with-haslinda-amin-11-5-2026-video",
+              "pubDate": "2026-11-05T07:32:55.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "china-stocks-surge-amid-korean-sector-weakness"
         },
         {
           "representativeTitle": "Hong Kong Stocks Rise Amid Value Rotation Boost",
@@ -1611,48 +1546,70 @@ export const newsData = {
           "slug": "hong-kong-stocks-rise-amid-value-rotation-boost"
         },
         {
-          "representativeTitle": "Stock Rotation Hurts Asian Chips, Helps Auto Sector",
+          "representativeTitle": "DIP Holding IPO Highly Oversubscribed by Investors",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Blue Wave Stock Rotation Sinks Asian Chipmakers, Boosts Autos",
+              "title": "DIP Holding: IPO More or Less 4 Times Oversubscribed",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-05/blue-wave-stock-rotation-sinks-asian-chipmakers-boosts-autos",
-              "pubDate": "2026-11-05T01:45:33.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-05/dip-holding-ipo-more-or-less-4-times-oversubscribed-video",
+              "pubDate": "2026-11-05T06:31:30.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "dip-holding-ipo-highly-oversubscribed-by-investors"
+        },
+        {
+          "representativeTitle": "Market sentiment wanes despite morning optimism.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Morning in America, twilight in the markets",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/d21e2a87-191b-447d-b81b-edcf7bc2f007",
+              "pubDate": "2026-11-05T05:00:16.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Stocks",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "market-sentiment-wanes-despite-morning-optimism"
+        },
+        {
+          "representativeTitle": "Asian Shares Mixed After US Election; AI Stocks Sink",
+          "sources": [
+            "ABC News US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Asian shares are mixed after US midterm elections as AI-related stocks sink in Japan and South Korea",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/asian-shares-advance-us-midterms-kospi-falls-selling-137865043",
+              "pubDate": "2026-11-05T08:26:22.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
           "aiCategory": "Stocks",
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 50,
-          "slug": "stock-rotation-hurts-asian-chips-helps-auto-sector"
-        },
-        {
-          "representativeTitle": "Nifty Outperforms Asia Driven by Foreign Capital Inflows",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Nifty Bounces Back to Beat All of Asia on Foreign Flows, Earnings",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/newsletters/2026-11-05/nifty-bounces-back-to-beat-all-of-asia-on-foreign-flows-earnings",
-              "pubDate": "2026-11-05T02:30:31.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "nifty-outperforms-asia-driven-by-foreign-capital-inflows"
+          "importance": 40,
+          "slug": "asian-shares-mixed-after-us-election-ai-stocks-sink"
         },
         {
           "representativeTitle": "McDonald's Stock Rises Following Strong Earnings Report",
@@ -1682,7 +1639,43 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "Historic Australian Department Store Chain Collapses After Two Centuries",
+          "representativeTitle": "Analyst Sees Cooling Inflation, Attractive US Yields Now",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Yardeni: Yields Attractive at 5%; Nasdaq to Outperform",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-05/yardeni-yields-attractive-at-5-nasdaq-to-outperform-video",
+              "pubDate": "2026-11-05T07:16:56.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Ed Yardeni Says 5% Treasury Yields Now Attractive",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-05/ed-yardeni-says-5-treasury-yields-now-attractive-video",
+              "pubDate": "2026-11-05T06:52:15.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Yardeni Sees Inflation Cooling, Says US Yields Attractive at 5%",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-05/yardeni-sees-inflation-cooling-says-us-yields-attractive-at-5",
+              "pubDate": "2026-11-05T06:26:51.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 75,
+          "slug": "analyst-sees-cooling-inflation-attractive-us-yields-now"
+        },
+        {
+          "representativeTitle": "BOE Rate Hike Signals Tightening Monetary Policy Ahead",
           "sources": [
             "Bloomberg Markets",
             "BBC Business",
@@ -1691,77 +1684,55 @@ export const newsData = {
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Australia Chain David Jones Collapses After Almost 200 Years",
+              "title": "BOE Set to Hike Rates for First Time Three Years",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-04/australian-chain-david-jones-collapses-after-almost-200-years",
-              "pubDate": "2026-11-04T23:44:05.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-05/boe-set-to-hike-rates-for-first-time-three-years-video",
+              "pubDate": "2026-11-05T07:50:30.000Z",
               "tier": 1
             },
             {
-              "title": "Australia's oldest department store David Jones folds after 188 years",
+              "title": "Interest rates expected to rise for first time in over three years",
               "source": "BBC Business",
-              "link": "https://www.bbc.co.uk/news/articles/cky93z5y0171o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-05T00:59:22.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-05T00:00:09.000Z",
               "tier": 2
             },
             {
-              "title": "Major Australian retailer David Jones folds after 188 years in operation",
+              "title": "Bank of England poised to hike rates for first time in 3 years",
               "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBa2VuNGt3QUNJWlE0cmFxRXhQUENmRm45QTBOY1UzRnFHZlZDdE5HSWdJU19ZcUtEV0JmTFFkcVEwZkJKSXZMTk9hdlBUZkd5WmNhbjM3R2RXQUk?oc=5",
-              "pubDate": "2026-11-05T00:09:40.000Z",
+              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYXM1eE1qNm05dkg5WWJabktscTRfLXlCdktDcTJYRjYzR2RLUXc1UkdTZHFwSzNCV2NxQTdPT2JrRTVENFNOeTdiYWtFZzZ0dFowUXV1anpnSWZudktCR3FwZm9QMFhJUTJtckJfdlpQM21seG1BVEV0MWpfNXJOZjhhcEwzUG5XZ2FNRk9RS0JrSFU4bElfdTFB?oc=5",
+              "pubDate": "2026-11-05T00:03:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "historic-australian-department-store-chain-collapses-after-two-centuries"
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "boe-rate-hike-signals-tightening-monetary-policy-ahead"
         },
         {
-          "representativeTitle": "China Bank Funding Costs Drop Following PBOC Shift",
+          "representativeTitle": "BOE Signals Rate Hike; Markets Focus on December Outlook",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "China Bank Funding Costs Hit Record Low on PBOC Rate Shift",
+              "title": "BOE Decision Day: With a Hike Baked in Traders Look to December",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-05/china-bank-funding-costs-hit-record-low-on-pboc-rate-shift",
-              "pubDate": "2026-11-05T04:27:44.000Z",
+              "link": "https://www.bloomberg.com/news/newsletters/2026-11-05/boe-decision-day-with-a-hike-baked-in-traders-look-to-december",
+              "pubDate": "2026-11-05T07:45:03.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "china-bank-funding-costs-drop-following-pboc-shift"
-        },
-        {
-          "representativeTitle": "Treasuries Rise Amid Hopes of Lower Bond Supply",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Treasuries Gain as US Vote Fuels Hopes for Curbing Bond Supply",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-05/treasuries-gain-as-us-vote-fuels-hopes-for-curbing-bond-supply",
-              "pubDate": "2026-11-05T03:12:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "treasuries-rise-amid-hopes-of-lower-bond-supply"
+          "slug": "boe-signals-rate-hike-markets-focus-on-december-outlook"
         },
         {
           "representativeTitle": "Oil Prices Drop Below $100 Amid Peace Hopes",
@@ -1774,7 +1745,7 @@ export const newsData = {
               "title": "Oil tumbles below $100 on post-election peace hopes",
               "source": "FT International",
               "link": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
-              "pubDate": "2026-11-05T03:01:11.000Z",
+              "pubDate": "2026-11-05T07:20:20.000Z",
               "tier": 1
             }
           ],
@@ -1786,14 +1757,36 @@ export const newsData = {
           "slug": "oil-prices-drop-below-100-amid-peace-hopes"
         },
         {
-          "representativeTitle": "China's Copper Shortage Strains Global Metal Markets",
+          "representativeTitle": "Emirates Profit Plummets Amid Geopolitical Tensions",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "China’s Copper Squeeze Deepens as Buyers Scramble for Spot Metal",
+              "title": "Emirates Profit Drops 66% as Iran War, High Oil Prices Hit Dubai Airline",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-05/emirates-profit-drops-66-as-iran-war-high-oil-prices-hit-dubai-airline",
+              "pubDate": "2026-11-05T07:15:48.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "emirates-profit-plummets-amid-geopolitical-tensions"
+        },
+        {
+          "representativeTitle": "China's Copper Shortage Signals Global Industrial Strain",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China’s Copper Squeeze Deepens as Buyers Scramble For Metal",
               "source": "Bloomberg Markets",
               "link": "https://www.bloomberg.com/news/articles/2026-11-05/china-s-copper-squeeze-deepens-as-buyers-scramble-for-spot-metal",
               "pubDate": "2026-11-05T02:30:00.000Z",
@@ -1805,108 +1798,42 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "chinas-copper-shortage-strains-global-metal-markets"
+          "slug": "chinas-copper-shortage-signals-global-industrial-strain"
         },
         {
-          "representativeTitle": "China's $3T Rout Impacts Retail Investor Sentiment",
+          "representativeTitle": "Commerzbank Signals Strength Ahead of UniCredit Deal",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "China’s $3 Trillion Rout Leaves Retail Traders Feeling Duped",
+              "title": "Commerzbank in 'Position of Strength' Ahead of UniCredit Deal, CEO Says",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-05/china-tech-frenzy-turns-into-year-of-dismay-for-retail-traders",
-              "pubDate": "2026-11-05T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "chinas-3t-rout-impacts-retail-investor-sentiment"
-        },
-        {
-          "representativeTitle": "Oil Dip Boosts Indian Bonds, Rupee Stability Outlook",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Indian Bonds, Rupee Rally as Sliding Oil Eases Inflation Risks",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-05/indian-bonds-rupee-rally-as-sliding-oil-eases-inflation-risks",
-              "pubDate": "2026-11-05T03:34:12.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-05/commerzbank-in-position-of-strength-ahead-of-deal-ceo-video",
+              "pubDate": "2026-11-05T07:31:20.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
           "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "oil-dip-boosts-indian-bonds-rupee-stability-outlook"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "commerzbank-signals-strength-ahead-of-unicredit-deal"
         },
         {
-          "representativeTitle": "Indonesia Resumes Dollar Bond Sales After MSCI Concerns",
+          "representativeTitle": "Canadian Firm Acquires Company, Gains Major Tech Clients",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Indonesia Kicks Off First Dollar Bond Sale Since MSCI Fallout",
+              "title": "Canada’s Avenir Global Acquires Marker Collective, Adding Nvidia, Meta Clients",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-05/indonesia-kicks-off-first-dollar-bond-sale-since-msci-fallout",
-              "pubDate": "2026-11-05T03:26:32.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "indonesia-resumes-dollar-bond-sales-after-msci-concerns"
-        },
-        {
-          "representativeTitle": "David Jones enters administration; job losses expected.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "David Jones goes into administration, with store closures expected and thousands of jobs at risk",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/business/2026/nov/05/david-jones-stores-closing-down-collapse-administration",
-              "pubDate": "2026-11-05T03:12:54.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "david-jones-enters-administration-job-losses-expected"
-        },
-        {
-          "representativeTitle": "Japan Bond Auction Shows Softer Demand, Yields Fall",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Japan’s 10-Year Bond Auction Sees Softer Demand as Yields Drop",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-05/japan-s-10-year-bond-sale-demand-in-line-with-12-month-average",
-              "pubDate": "2026-11-05T03:39:30.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-05/canada-s-avenir-global-acquires-marker-collective-adding-nvidia-meta-clients",
+              "pubDate": "2026-11-05T07:01:00.000Z",
               "tier": 1
             }
           ],
@@ -1915,7 +1842,29 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "japan-bond-auction-shows-softer-demand-yields-fall"
+          "slug": "canadian-firm-acquires-company-gains-major-tech-clients"
+        },
+        {
+          "representativeTitle": "Air France-KLM Overhaul Boosts Stock Performance Significantly",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Air France-KLM Deepens Dutch Airline Overhaul; Stock Surges",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-05/air-france-klm-to-deepen-dutch-airline-overhaul-amid-high-costs",
+              "pubDate": "2026-11-05T07:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "air-france-klm-overhaul-boosts-stock-performance-significantly"
         },
         {
           "representativeTitle": "CVS to Split Drugstore Unit Amid Major Corporate Change",
@@ -2028,28 +1977,6 @@ export const newsData = {
           "slug": "cvs-health-considering-corporate-split-structure-now"
         },
         {
-          "representativeTitle": "CEO Bets Promotions Amid Declining Company Profits",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "New Flutter CEO bets on FanDuel promotions to win customers as profits suffer",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/11/04/flutter-fanduel-promotions-q3-2026.html",
-              "pubDate": "2026-11-04T19:53:32.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ceo-bets-promotions-amid-declining-company-profits"
-        },
-        {
           "representativeTitle": "Key ROM Chip Supplier Exits Nintendo's Supply Chain",
           "sources": [
             "Ars Technica",
@@ -2078,28 +2005,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 40,
           "slug": "key-rom-chip-supplier-exits-nintendos-supply-chain"
-        },
-        {
-          "representativeTitle": "Voter Sentiment Slows US Data Center Expansion Boom",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Voters have put a helpful chill on the US data centre boom",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/b7d0761f-e5fb-4746-924f-b15420a57844?syn-25a6b1a6=1",
-              "pubDate": "2026-11-04T18:33:54.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "voter-sentiment-slows-us-data-center-expansion-boom"
         },
         {
           "representativeTitle": "Study details harassment toll on gig economy workers.",
@@ -2201,28 +2106,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "apple-reportedly-scaling-back-internal-artificial-intelligence-spending"
-        },
-        {
-          "representativeTitle": "Google AI Overviews Prompt School Resistance Concerns",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Google Is Forcing AI Overviews in Classrooms. Schools Are Searching for a Way Out",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/google-is-forcing-ai-overviews-in-classrooms-schools-are-searching-for-a-way-out/",
-              "pubDate": "2026-11-04T20:06:21.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "google-ai-overviews-prompt-school-resistance-concerns"
         },
         {
           "representativeTitle": "Data center conflict looms post-midterm elections.",
@@ -2387,36 +2270,6 @@ export const newsData = {
           "slug": "google-pixel-sale-offers-significant-savings-on-new-phones"
         },
         {
-          "representativeTitle": "Reviewers assess Siri's new recap features utility.",
-          "sources": [
-            "TechCrunch",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
-              "pubDate": "2026-11-04T16:51:35.000Z",
-              "tier": 1
-            },
-            {
-              "title": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMWZMVFFyZzFEcy1uSUJibVFYcnVNTmRsTzR4RnZNLWV2OVRuRGpVcVJJTS1EUHJOYy1VNGs0Qk5DYmQyUkdNUmU3NGg2Mko3UTNKdnZOUkFtcnFOUE5RQkJtM1pTdkh5em8yelFtbE5nT045NXN5eFF2TUMxeWM0RFhiUERWSVE0TS01V0JiWFM2X0RxQnB1em1ROXN4YmxNcm9sNzVrZHhRRUprbElVTE5B?oc=5",
-              "pubDate": "2026-11-04T16:51:35.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 40,
-          "slug": "reviewers-assess-siris-new-recap-features-utility"
-        },
-        {
           "representativeTitle": "X Updates Web App Performance With Speed Improvements",
           "sources": [
             "The Verge",
@@ -2452,6 +2305,28 @@ export const newsData = {
       "name": "Science",
       "children": [
         {
+          "representativeTitle": "Warming Seas Threaten Fundamental Marine Ecosystem Changes",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Warming UK seas could ‘fundamentally reshape marine ecosystems’ – report",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/environment/2026/nov/05/warming-uk-seas-could-fundamentally-reshape-marine-ecosystems-report",
+              "pubDate": "2026-11-05T07:00:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "warming-seas-threaten-fundamental-marine-ecosystem-changes"
+        },
+        {
           "representativeTitle": "Ancient Ice Age Art Discovered in Unexpected Locations",
           "sources": [
             "Phys.org",
@@ -2480,6 +2355,28 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 50,
           "slug": "ancient-ice-age-art-discovered-in-unexpected-locations"
+        },
+        {
+          "representativeTitle": "Cemetery Links Climate Shocks to Past Disease Outbreaks",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Centuries-old cemetery helps scientists link climate shocks to Industrial Revolution disease",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-centuries-cemetery-scientists-link-climate.html",
+              "pubDate": "2026-11-05T05:00:06.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "cemetery-links-climate-shocks-to-past-disease-outbreaks"
         },
         {
           "representativeTitle": "Scientists Observe Hydrogen in Metal Gaps Directly",
