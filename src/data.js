@@ -1,12 +1,58 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-11-07T01:59:50.330Z",
+  "lastUpdated": "2026-11-07T06:04:50.529Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Pope Begins Extended Latin American Tour Starting Uruguay",
+          "representativeTitle": "Paraguay leadership changes amid arrest and inauguration.",
+          "sources": [
+            "BBC World",
+            "Al Jazeera",
+            "Le Monde",
+            "Google World"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Paraguay's President Santiago Peña impeached and arrested",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-07T03:25:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Paraguay’s Santiago Pena under arrest, new president Pedro Alliana sworn in",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in?traffic_source=rss",
+              "pubDate": "2026-11-07T00:31:41.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Paraguay's impeached president Peña put under house arrest",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/11/07/paraguay-s-impeached-president-pena-put-under-house-arrest_6773857_4.html",
+              "pubDate": "2026-11-07T00:04:16.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Paraguay's President Santiago Peña impeached and arrested",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13U2tMV01VSGd5ekZEWjNpRFh6SWhYMlFrNUNwa3Z2dkFrcmcxa29WcFNCUkNIbzZSS1NfVEtuWDJyZ1BwNV85ZW1oT2VBaUNVemNvUEdiVEJuTVE?oc=5",
+              "pubDate": "2026-11-07T03:25:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 75,
+          "slug": "paraguay-leadership-changes-amid-arrest-and-inauguration"
+        },
+        {
+          "representativeTitle": "Pope Travels to Uruguay Despite Recent Surgery Recovery",
           "sources": [
             "Al Jazeera",
             "France 24",
@@ -20,13 +66,6 @@ export const newsData = {
               "source": "Al Jazeera",
               "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/pope-leo-xiv-arrives-for-south-american-tour-after-cancer-surgery?traffic_source=rss",
               "pubDate": "2026-11-07T00:55:51.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Pope Leo XIV arrives in Uruguay starting 12-day Latin America tour",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/6/pope-leo-arrives-in-uruguay-starting-12-day-latin-america-tour?traffic_source=rss",
-              "pubDate": "2026-11-06T20:22:22.000Z",
               "tier": 1
             },
             {
@@ -53,20 +92,87 @@ export const newsData = {
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0,
+          "sentiment": 0.4,
           "relevance_score": 6,
-          "importance": 80,
-          "slug": "pope-begins-extended-latin-american-tour-starting-uruguay"
+          "importance": 70,
+          "slug": "pope-travels-to-uruguay-despite-recent-surgery-recovery"
         },
         {
-          "representativeTitle": "Multiple European Flights Face Fresh Bomb Threats",
+          "representativeTitle": "US Strikes Iran's Qeshm Island Amid Tensions",
+          "sources": [
+            "The Guardian",
+            "Al Jazeera"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says",
+              "pubDate": "2026-11-07T03:07:01.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump confirms new US strikes on Iran’s Qeshm island",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island?traffic_source=rss",
+              "pubDate": "2026-11-07T03:53:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 75,
+          "slug": "us-strikes-irans-qeshm-island-amid-tensions"
+        },
+        {
+          "representativeTitle": "Cult Leader Sentenced For Murders In Kenya",
+          "sources": [
+            "The Guardian",
+            "France 24",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
+              "pubDate": "2026-11-06T15:08:43.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Kenyan cult leader sentenced to 200 years in prison",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/kenyan-cult-leader-sentenced-to-200-years-in-prison",
+              "pubDate": "2026-11-06T21:23:53.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Doomsday cult leader sentenced to 200 years in prison for murders of 190 children, 1 adult in Kenya",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSWJEZlhYUDBGWkdyUkFhRTIyOHhxTDlGeU1iNV9GQS1Jd2ZnR1d1ZWRDdjRSa0JhUTBWNDE4bklCS09Xd0MxTXhCTzNWRGxxSGhMWXozZ3M0eVlUbjF5ZVlEQXVfVmwtTklCcDQ1cUt5QkZWRnZKcXRzMmpaMlFUSFcwdkxSRURZdUdyZXFiSGd4Wnc?oc=5",
+              "pubDate": "2026-11-06T13:17:31.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 75,
+          "slug": "cult-leader-sentenced-for-murders-in-kenya"
+        },
+        {
+          "representativeTitle": "European Airlines Face New Wave of Bomb Threats",
           "sources": [
             "BBC World",
             "France 24",
-            "SCMP",
-            "Le Monde"
+            "SCMP"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "New wave of bomb threats hit European airlines",
@@ -88,97 +194,66 @@ export const newsData = {
               "link": "https://www.scmp.com/news/world/europe/article/3373611/clock-ticking-european-tv-channels-targeted-wave-hoax-bomb-threats",
               "pubDate": "2026-11-06T15:31:04.000Z",
               "tier": 2
-            },
-            {
-              "title": "Mutiple European flights targeted in fresh bomb threats",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/11/06/mutiple-european-flights-targeted-in-fresh-bomb-threats_6773529_4.html",
-              "pubDate": "2026-11-06T12:23:22.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 80,
-          "slug": "multiple-european-flights-face-fresh-bomb-threats"
+          "importance": 75,
+          "slug": "european-airlines-face-new-wave-of-bomb-threats"
         },
         {
-          "representativeTitle": "Sect Leader Jailed For Mass Murder of Children",
+          "representativeTitle": "Russia Strikes Kyiv; Residents Report Injuries From Attack",
           "sources": [
-            "The Guardian",
-            "France 24",
-            "Le Monde"
+            "Al Jazeera"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
-              "pubDate": "2026-11-06T15:08:43.000Z",
+              "title": "Russia launches missile attack on Kyiv, injuring residents",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
+              "pubDate": "2026-11-07T05:11:03.000Z",
               "tier": 1
-            },
-            {
-              "title": "Kenyan cult leader sentenced to 200 years in prison",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/kenyan-cult-leader-sentenced-to-200-years-in-prison",
-              "pubDate": "2026-11-06T21:23:53.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Kenyan cult leader sentenced to 200 years in prison for child murders",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/le-monde-africa/article/2026/11/06/kenyan-cult-leader-sentenced-to-200-years-in-prison-for-child-murders_6773593_124.html",
-              "pubDate": "2026-11-06T16:02:32.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 70,
-          "slug": "sect-leader-jailed-for-mass-murder-of-children"
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "russia-strikes-kyiv-residents-report-injuries-from-attack"
         },
         {
-          "representativeTitle": "Paraguay leadership changes amid arrest and inauguration.",
+          "representativeTitle": "Herzog to Name Government Candidate Sunday Amid Politics",
           "sources": [
             "Al Jazeera",
-            "SCMP",
-            "Le Monde"
+            "Google World"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Paraguay’s Santiago Pena under arrest, new president Pedro Alliana sworn in",
+              "title": "President Herzog faces key choice as Israel struggles to form government",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in?traffic_source=rss",
-              "pubDate": "2026-11-07T00:31:41.000Z",
+              "link": "https://www.aljazeera.com/news/2026/11/7/president-herzog-faces-key-choice-as-israel-struggles-to-form-government?traffic_source=rss",
+              "pubDate": "2026-11-07T05:16:18.000Z",
               "tier": 1
             },
             {
-              "title": "Paraguay’s President Pena impeached over Ueno banking crisis, placed under house arrest",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/americas/article/3373623/paraguays-president-pena-impeached-over-ueno-banking-crisis-placed-under-house-arrest",
-              "pubDate": "2026-11-06T23:41:08.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Paraguay's impeached president Peña put under house arrest",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/11/07/paraguay-s-impeached-president-pena-put-under-house-arrest_6773857_4.html",
-              "pubDate": "2026-11-07T00:04:16.000Z",
+              "title": "Israel’s President Herzog to name candidate to form government on Sunday",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZzAxaDM3QW1ENXNkWE02d0I4bTJGQkMydGxkNW5lVl83QXo4MGdhZml6OXNHQWhPX2piZkZycmNKNEJMZVgtc1FzSmozT20tYUxJMmlQc0pXUHRMbkNYSEMteTFEMnh1bVo0SU1MblV3ekpRRFAzT1J4TFhwLXduc0F0dE4tT0VYc1JENG5kNkp4WndXTjc3Q25wZGxpZl91eVJtVnhHTdIBrAFBVV95cUxQXzVIMW80cTVQQjlqMkFEZGJCbFdSOHM1am9YOVpWZHFyWWdCXzYwaXhHcmF3Ty1rSkI4SlMwTGtIXzRFZ3B4U2szaE9LYzhUYWNOeV9Qb3A1N2dFWG1rTkNBSWdQX256dHdGSDNCcGxIQVBEeGt2azRSQzFxTkxmMk1aejRxcE9HWGlMaGg1b2RGbTJQeGlRT0FyYVdYd3o5VEQ2N01wYTNOM1RW?oc=5",
+              "pubDate": "2026-11-06T07:30:39.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
+          "sentiment": 0,
+          "relevance_score": 8,
           "importance": 60,
-          "slug": "paraguay-leadership-changes-amid-arrest-and-inauguration"
+          "slug": "herzog-to-name-government-candidate-sunday-amid-politics"
         },
         {
           "representativeTitle": "Bomb Threats Disrupt Multiple European Flights Again",
@@ -211,6 +286,132 @@ export const newsData = {
           "slug": "bomb-threats-disrupt-multiple-european-flights-again"
         },
         {
+          "representativeTitle": "Russia Uses Arctic Routes to Bypass Ukrainian Strikes",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Russia ships metal via the Arctic to evade Ukrainian strikes",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/80d91653-c210-43cd-b91e-2b8c644561c1?syn-25a6b1a6=1",
+              "pubDate": "2026-11-07T05:00:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "russia-uses-arctic-routes-to-bypass-ukrainian-strikes"
+        },
+        {
+          "representativeTitle": "Beijing Vows Retaliation Against US Sanctions Actions",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Beijing Vows to Hit Back Against US Sanctions on China Companies",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-07/beijing-vows-to-hit-back-against-us-sanctions-on-china-companies",
+              "pubDate": "2026-11-07T01:54:36.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "beijing-vows-retaliation-against-us-sanctions-actions"
+        },
+        {
+          "representativeTitle": "Paraguay President Impeached Amid Banking Crisis Fallout",
+          "sources": [
+            "The Guardian",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
+              "pubDate": "2026-11-07T01:55:11.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Paraguay’s President Pena impeached over Ueno banking crisis, placed under house arrest",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/americas/article/3373623/paraguays-president-pena-impeached-over-ueno-banking-crisis-placed-under-house-arrest",
+              "pubDate": "2026-11-06T23:41:08.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "paraguay-president-impeached-amid-banking-crisis-fallout"
+        },
+        {
+          "representativeTitle": "Agencies probe Russian links to bomb hoaxes.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "European security agencies probe whether bomb hoaxes started in Russia",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/0845687f-1f74-4bbf-88c9-5c6b031c7f20?syn-25a6b1a6=1",
+              "pubDate": "2026-11-07T05:00:33.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "agencies-probe-russian-links-to-bomb-hoaxes"
+        },
+        {
+          "representativeTitle": "Pope's Latin America Trip Mixed With Health Concerns",
+          "sources": [
+            "France 24",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Pope Leo embarks on Latin America trip with a first stop in Uruguay",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261106-pope-leo-embarks-on-latin-america-trip-with-a-first-stop-in-uruguay",
+              "pubDate": "2026-11-06T14:58:24.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Poised for breakout moment in Latin America, Pope Leo also faces test of health",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTjhTMEYwNXlmU0o2amJvbTJhZno3TF9Ua1k3bkNZc2duYXFhalc3b0tWY2dFeUJiTDU3d3VHanVaMFhTTTlRWE41M2J4aVFaY2tOdDd6azBwR1J2Xzc4UjRJY0hwLWh5Z0JMV1RORVBRbThUeTRlaGJhT04tY0JwSXk1X0pYZkRHblZmMmVOU3p4R1U1U0lybXBjTlZNc0E3SzBFaGpiRnZRYzFQUk9XLWdLNEpMZ2tq?oc=5",
+              "pubDate": "2026-11-07T04:13:24.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "popes-latin-america-trip-mixed-with-health-concerns"
+        },
+        {
           "representativeTitle": "Paraguay President Removed Amid Financial Crisis Fallout",
           "sources": [
             "NY Times"
@@ -233,78 +434,78 @@ export const newsData = {
           "slug": "paraguay-president-removed-amid-financial-crisis-fallout"
         },
         {
-          "representativeTitle": "Pope's Latin America Trip Mixed With Health Concerns",
+          "representativeTitle": "US Offers Reward For Iranian Nuclear Intel",
           "sources": [
-            "France 24",
-            "Google World"
+            "SCMP",
+            "Le Monde"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Pope Leo embarks on Latin America trip with a first stop in Uruguay",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261106-pope-leo-embarks-on-latin-america-trip-with-a-first-stop-in-uruguay",
-              "pubDate": "2026-11-06T14:58:24.000Z",
-              "tier": 1
+              "title": "Iran’s nuclear programme: US offers US$20 million reward for information",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3373625/irans-nuclear-programme-us-offers-us20-million-reward-information",
+              "pubDate": "2026-11-07T02:04:14.000Z",
+              "tier": 2
             },
             {
-              "title": "Poised for breakout moment in Latin America, Pope Leo also faces test of health",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTjhTMEYwNXlmU0o2amJvbTJhZno3TF9Ua1k3bkNZc2duYXFhalc3b0tWY2dFeUJiTDU3d3VHanVaMFhTTTlRWE41M2J4aVFaY2tOdDd6azBwR1J2Xzc4UjRJY0hwLWh5Z0JMV1RORVBRbThUeTRlaGJhT04tY0JwSXk1X0pYZkRHblZmMmVOU3p4R1U1U0lybXBjTlZNc0E3SzBFaGpiRnZRYzFQUk9XLWdLNEpMZ2tq?oc=5",
-              "pubDate": "2026-11-07T01:54:44.000Z",
+              "title": "US offers $20 million reward for info on 'Iran's nuclear program'",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/11/07/us-offers-20-million-reward-for-info-on-iran-s-nuclear-program_6774089_4.html",
+              "pubDate": "2026-11-07T04:42:12.000Z",
               "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "popes-latin-america-trip-mixed-with-health-concerns"
-        },
-        {
-          "representativeTitle": "Qatar urges US, Iran toward peace agreement now.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?traffic_source=rss",
-              "pubDate": "2026-11-07T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "qatar-urges-us-iran-toward-peace-agreement-now"
-        },
-        {
-          "representativeTitle": "US Pressures China Over Unfulfilled Trade Commitments",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US urges China to honour Busan trade deal commitments",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments?traffic_source=rss",
-              "pubDate": "2026-11-06T23:00:37.000Z",
-              "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "us-pressures-china-over-unfulfilled-trade-commitments"
+          "importance": 50,
+          "slug": "us-offers-reward-for-iranian-nuclear-intel"
+        },
+        {
+          "representativeTitle": "Haiti PM Celebrates Police Operation Against Gang Leader",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘One less gang leader’: Haiti’s prime minister celebrates police operation",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/7/one-less-gang-leader-haitis-prime-minister-celebrates-police-operation?traffic_source=rss",
+              "pubDate": "2026-11-07T05:02:49.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "haiti-pm-celebrates-police-operation-against-gang-leader"
+        },
+        {
+          "representativeTitle": "US Sanctions Hit Canadian Money Exchange Firms Over Iran",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US Treasury sanctions eight Canadian money exchange firms over Iran ties",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
+              "pubDate": "2026-11-07T04:50:46.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "us-sanctions-hit-canadian-money-exchange-firms-over-iran"
         },
         {
           "representativeTitle": "US Warns China Over Unmet Trade Deal Terms",
@@ -359,64 +560,92 @@ export const newsData = {
           "slug": "spain-rail-authorities-face-european-fraud-probe-after-disaster"
         },
         {
-          "representativeTitle": "School Bus Crash Kills Two Students in France",
+          "representativeTitle": "Paraguay's Leader Under Protection Amid Bank Collapse Chaos",
           "sources": [
-            "BBC World",
-            "Sky News"
+            "Al Jazeera"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Two dead after bus crashes in France, officials say",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-06T15:33:52.000Z",
+              "title": "Paraguay’s Pena under military protection in bank collapse chaos",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/aje-onl-nf_paraguays-pena-under-house-arrest-061126?traffic_source=rss",
+              "pubDate": "2026-11-07T05:51:23.000Z",
               "tier": 1
-            },
-            {
-              "title": "Two dead after bus carrying schoolchildren crashes in France, officials say",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/two-dead-after-bus-carrying-schoolchildren-crashes-in-france-officials-say-13608677",
-              "pubDate": "2026-11-06T12:10:00.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "school-bus-crash-kills-two-students-in-france"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "paraguays-leader-under-protection-amid-bank-collapse-chaos"
         },
         {
-          "representativeTitle": "ANC suffers major defeat in South African elections.",
+          "representativeTitle": "Climate disasters worsen debt cycle globally.",
           "sources": [
-            "The Guardian",
-            "Google World"
+            "Phys.org"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
-              "pubDate": "2026-11-06T12:48:37.000Z",
-              "tier": 1
-            },
-            {
-              "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNejUxbmtfN2l5WmpaNzUyQ3VJbmZ3UkNNdUNtQXgyUjNjUEFIY3M5SW93bWNVZlVkaEpiTVVvNmRQNmgydkJkU0lLR2pQOFNkTFliNHNNNzM5NjdacDVnanpJVDRReHFBd2t6WXgtUkxIYmExNThpb0k5OXJ1QWU3b00wSDhabWtubnNwMEloeWhOYXdWWHpv?oc=5",
-              "pubDate": "2026-11-06T14:25:00.000Z",
+              "title": "Disasters and debt. Escaping the 'climate-debt doom loop'",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-disasters-debt-climate-doom-loop.html",
+              "pubDate": "2026-11-07T02:20:02.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Science",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "anc-suffers-major-defeat-in-south-african-elections"
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "climate-disasters-worsen-debt-cycle-globally"
+        },
+        {
+          "representativeTitle": "Najib's House Arrest Status Delayed Pending Review",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Former Malaysia PM Najib’s House Arrest Delayed Pending Review",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-07/former-malaysia-pm-najib-s-house-arrest-delayed-pending-review",
+              "pubDate": "2026-11-07T03:36:07.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "najibs-house-arrest-status-delayed-pending-review"
+        },
+        {
+          "representativeTitle": "China's Gold Buying Continues Despite Falling Prices",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China Extends Gold-Buying Streak to Two Years as Prices Drop",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-07/china-extends-gold-buying-streak-to-two-years-as-prices-drop",
+              "pubDate": "2026-11-07T02:26:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "chinas-gold-buying-continues-despite-falling-prices"
         },
         {
           "representativeTitle": "EU Investigates Fatal Train Crash Incident in Spain",
@@ -441,7 +670,7 @@ export const newsData = {
           "slug": "eu-investigates-fatal-train-crash-incident-in-spain"
         },
         {
-          "representativeTitle": "Lawyers sue minister over protester injuries in France.",
+          "representativeTitle": "Lawyers sue minister over protest injuries in France",
           "sources": [
             "France 24",
             "Euronews"
@@ -468,185 +697,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 50,
-          "slug": "lawyers-sue-minister-over-protester-injuries-in-france"
-        },
-        {
-          "representativeTitle": "New Zealand Voters Head to Polls Today",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "New Zealanders head to polls on final day of voting",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/6/new-zealanders-head-to-polls-on-final-day-of-voting?traffic_source=rss",
-              "pubDate": "2026-11-06T23:48:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "new-zealand-voters-head-to-polls-today"
-        },
-        {
-          "representativeTitle": "Cult Leader Jailed For Mass Murder of Followers",
-          "sources": [
-            "BBC World",
-            "SCMP"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-06T14:46:03.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Kenyan doomsday cult leader jailed for 200 years for murdering 191 followers",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/africa/article/3373594/kenyan-doomsday-cult-leader-jailed-200-years-murdering-191-followers",
-              "pubDate": "2026-11-06T12:55:28.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "cult-leader-jailed-for-mass-murder-of-followers"
-        },
-        {
-          "representativeTitle": "Gaza witnesses mass wedding ceremony among couples",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Palestinian couples tie the knot in mass wedding in Gaza",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/6/palestinian-couples-tie-the-knot-in-mass-wedding-in-gaza?traffic_source=rss",
-              "pubDate": "2026-11-06T21:37:30.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "gaza-witnesses-mass-wedding-ceremony-among-couples"
-        },
-        {
-          "representativeTitle": "Voters choose leaders in New Zealand election.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Voters take their pick in New Zealand’s ‘supermarket election’",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/1e80651b-14f3-4cf0-9b47-2f6dee158496?syn-25a6b1a6=1",
-              "pubDate": "2026-11-06T21:00:10.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "voters-choose-leaders-in-new-zealand-election"
-        },
-        {
-          "representativeTitle": "Trump claims tariffs lack effectiveness globally.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump has taught the world that tariffs are useless",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/aab95234-0b9a-4b95-b1e5-d932669076d5?syn-25a6b1a6=1",
-              "pubDate": "2026-11-06T11:00:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trump-claims-tariffs-lack-effectiveness-globally"
-        },
-        {
-          "representativeTitle": "Co-pilot's Father Speaks After Jet Crash Tragedy",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Father of young co-pilot killed in jet crash says recording shows she fought until the last minute",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/father-young-co-pilot-killed-jet-crash-says-recording-shows-fought-las-rcna607848",
-              "pubDate": "2026-11-06T19:17:21.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Father of young co-pilot killed in jet crash says recording shows she fought until the last minute",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONFZnWGVqaHcySFpyNHNqWW5tejBENnlpWlZ1Q25GeldfRkxoVnFJaWZpYjhXUGl1a3NsMC1ScUhfd1RRdWlHSjVHTTc4SFhsSDNmLTRscDBlZmFRVDNqUHlQcW9JSXN4dm9TU2JVSWZJVGNCNDh4NVk5TVhxdHFDbjRKOFVuUkU4XzhIMmJ2RFEtWW1oeDFyRW1Xa09VVWtXOXBlNjRuNzJsWGZfbXphMVZzRWJSbUxpbGc?oc=5",
-              "pubDate": "2026-11-06T19:17:21.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "co-pilots-father-speaks-after-jet-crash-tragedy"
-        },
-        {
-          "representativeTitle": "Pope's Visit to South America Draws International Attention",
-          "sources": [
-            "NY Times",
-            "ABC News US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Pope Leo’s Trip to Latin America: What to Know",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/11/06/world/americas/pope-leo-uruguay-argentina-peru.html",
-              "pubDate": "2026-11-06T05:01:17.000Z",
-              "tier": 1
-            },
-            {
-              "title": "What to know about Pope Leo XIV's trip to Uruguay, Argentina and Peru",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/pope-leo-xivs-trip-uruguay-argentina-peru-137902287",
-              "pubDate": "2026-11-06T05:37:43.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "popes-visit-to-south-america-draws-international-attention"
+          "slug": "lawyers-sue-minister-over-protest-injuries-in-france"
         }
       ]
     },
@@ -656,7 +707,7 @@ export const newsData = {
         {
           "representativeTitle": "Miller named Trump's new Chief of Staff role.",
           "sources": [
-            "The Guardian",
+            "BBC World",
             "Al Jazeera",
             "France 24",
             "Euronews",
@@ -666,17 +717,10 @@ export const newsData = {
           "citationCount": 6,
           "rawArticles": [
             {
-              "title": "Stephen Miller, architect of Trump’s immigration crackdown, to become White House chief of staff",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/06/stephen-miller-chief-of-staff-trump",
-              "pubDate": "2026-11-07T01:38:06.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Democrats blast Trump’s decision to appoint Stephen Miller as chief of staff in wake of Republican midterm rout – live",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/live/2026/nov/06/us-midterm-elections-2026-democrats-blue-wave-congress-latest-news-updates",
-              "pubDate": "2026-11-07T01:08:08.000Z",
+              "title": "With Stephen Miller pick, Trump readies for a battle",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-06T23:24:15.000Z",
               "tier": 1
             },
             {
@@ -691,13 +735,6 @@ export const newsData = {
               "source": "Al Jazeera",
               "link": "https://www.aljazeera.com/video/newsfeed/2026/11/6/trump-promotes-stephen-miller-to-chief-of-staff-to-run-things?traffic_source=rss",
               "pubDate": "2026-11-06T20:48:25.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump names Stephen Miller as new chief of staff, replacing Susie Wiles",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/6/trump-says-making-adviser-stephen-miller-white-house-chief-of-staff?traffic_source=rss",
-              "pubDate": "2026-11-06T19:08:31.000Z",
               "tier": 1
             },
             {
@@ -737,13 +774,104 @@ export const newsData = {
           "slug": "miller-named-trumps-new-chief-of-staff-role"
         },
         {
-          "representativeTitle": "Trump Appoints Hard-Liner Miller as Chief of Staff",
+          "representativeTitle": "Cornell Faculty Reject Leadership Over Allegations Handling",
           "sources": [
             "BBC US",
-            "NPR",
-            "Google US"
+            "NBC News",
+            "BBC World",
+            "SCMP",
+            "Sky News"
+          ],
+          "citationCount": 5,
+          "rawArticles": [
+            {
+              "title": "Cornell faculty pass no-confidence vote over leadership's handling of Jane Doe allegations",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/c933xxl8yv0go?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-06T23:46:08.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Cornell faculty senate votes no confidence in administration’s handling of sexual assault",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/education/cornell-faculty-senate-issues-no-confidence-vote-administrations-handl-rcna607286",
+              "pubDate": "2026-11-06T20:54:27.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Cornell faculty pass no-confidence vote over leadership's handling of Jane Doe allegations",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c933xxl8yv0go?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-06T23:46:08.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Cornell faculty vote no-confidence in leadership after gang rape case",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3373621/cornell-faculty-vote-no-confidence-leadership-after-gang-rape-case",
+              "pubDate": "2026-11-06T23:06:09.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Cornell faculty vote 'no confidence' in university leadership after alleged gang rape",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/cornell-faculty-vote-no-confidence-in-university-leadership-after-alleged-gang-rape-13609090",
+              "pubDate": "2026-11-06T21:44:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 75,
+          "slug": "cornell-faculty-reject-leadership-over-allegations-handling"
+        },
+        {
+          "representativeTitle": "Measles Cases Surge Past Five Thousand in US",
+          "sources": [
+            "Al Jazeera",
+            "Euronews",
+            "Le Monde"
           ],
           "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "CDC reports more than 5,000 measles cases, highest number in 35 years",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/7/cdc-reports-more-than-5000-measles-cases-highest-number-in-35-years?traffic_source=rss",
+              "pubDate": "2026-11-07T01:55:03.000Z",
+              "tier": 1
+            },
+            {
+              "title": "US measles cases exceed 5,000 in 2026, reaching their highest level in 35 years",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/11/06/us-measles-cases-exceed-5000-in-2026-reaching-their-highest-level-in-35-years",
+              "pubDate": "2026-11-06T21:24:05.000Z",
+              "tier": 2
+            },
+            {
+              "title": "US reports over 5,000 measles cases, the highest in 35 years",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/11/07/us-reports-over-5-000-measles-cases-the-highest-in-35-years_6773923_4.html",
+              "pubDate": "2026-11-07T02:08:13.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "measles-cases-surge-past-five-thousand-in-us"
+        },
+        {
+          "representativeTitle": "Miller to Replace Wiles as Trump Chief of Staff",
+          "sources": [
+            "BBC US",
+            "NPR"
+          ],
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "With Stephen Miller pick, Trump readies for a battle",
@@ -765,12 +893,35 @@ export const newsData = {
               "link": "https://www.npr.org/2026/11/06/nx-s1-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff",
               "pubDate": "2026-11-06T19:13:52.000Z",
               "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "miller-to-replace-wiles-as-trump-chief-of-staff"
+        },
+        {
+          "representativeTitle": "Texas Mayor Directs Police to Limit ICE Cooperation",
+          "sources": [
+            "BBC US",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Texas mayor instructs police to limit cooperation with ICE",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/c8dx33d22zkro?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-07T03:31:54.000Z",
+              "tier": 1
             },
             {
-              "title": "Trump Elevates Stephen Miller, a Fiery Hard-Liner, to Chief of Staff",
+              "title": "Texas mayor instructs police to limit cooperation with ICE",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNODhhX2lsY3lxQnp4V1Ryd1g4NnhFNXBtYmpsMUM5VzE3RlNoTU9UanZ6QWN2WWtEcloyVzZ1MkZjYWFDMkp6ZTNhamx1RjJzMUFaTEZMb3puQmphbGo1dGxSY0xuZVVUN0RTSkkzTFlYTUZRQXhIOG9LRGlRZnJabUxn?oc=5",
-              "pubDate": "2026-11-07T01:40:58.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GdU1NT1VMR3lESjY1ekRRNDhVR2hKWEVtTTlMZGFDSzcyNkNpR2FFWHl1c2VoSlVaNXFfemVQZW0xdEdkWU1jRzgzcUtPT3lhQ09WOXlDTzZoX3c?oc=5",
+              "pubDate": "2026-11-07T03:31:54.000Z",
               "tier": 2
             }
           ],
@@ -778,8 +929,30 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 75,
-          "slug": "trump-appoints-hard-liner-miller-as-chief-of-staff"
+          "importance": 60,
+          "slug": "texas-mayor-directs-police-to-limit-ice-cooperation"
+        },
+        {
+          "representativeTitle": "Trump's Defeat Signals Potential US Global Retreat",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump’s defeat heralds a US retreat",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/f80ff605-6f6e-4b5d-9fab-20276b78e9b7?syn-25a6b1a6=1",
+              "pubDate": "2026-11-07T05:00:34.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "trumps-defeat-signals-potential-us-global-retreat"
         },
         {
           "representativeTitle": "Arrest Made Near White House Over Threat Allegations",
@@ -842,103 +1015,51 @@ export const newsData = {
           "slug": "trump-seeks-monument-status-for-oval-office"
         },
         {
-          "representativeTitle": "Miller Appointment Signals Continued Hardline Immigration Stance",
+          "representativeTitle": "Major American Policy Shift Undergoing Significant Review",
           "sources": [
-            "The Guardian"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "How Stephen Miller appointment shows Trump hasn’t learned his lesson on immigration",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/06/donald-trump-stephen-miller-immigration",
-              "pubDate": "2026-11-07T01:04:52.000Z",
+              "title": "The mother of all American course corrections",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/452cf328-c819-482e-8f2c-61b65c96f8ce?syn-25a6b1a6=1",
+              "pubDate": "2026-11-07T05:00:33.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Business",
           "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "miller-appointment-signals-continued-hardline-immigration-stance"
-        },
-        {
-          "representativeTitle": "Political group warns shakeup harms GOP's future.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "MTG warns Miller-Wiles shakeup will sink Republican chances in 2028",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/aje-onl-nf_mtg-warns-white-house-shakeup-sink-republican-2028-061126?traffic_source=rss",
-              "pubDate": "2026-11-07T00:21:49.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "political-group-warns-shakeup-harms-gops-future"
-        },
-        {
-          "representativeTitle": "Trump's Iran Narrative Cited in Midterm Election Loss",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How Trump’s unconvincing narrative on Iran lost him the US midterms",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/the-listening-post/2026/11/6/how-trumps-unconvincing-narrative-on-iran-lost-him-the-us-midterms?traffic_source=rss",
-              "pubDate": "2026-11-06T23:07:22.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trumps-iran-narrative-cited-in-midterm-election-loss"
-        },
-        {
-          "representativeTitle": "Cornell Faculty Reject Leadership Over Allegations Handling",
-          "sources": [
-            "BBC US",
-            "NBC News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Cornell faculty pass no-confidence vote over leadership's handling of Jane Doe allegations",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c933xxl8yv0go?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-06T23:46:08.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Cornell faculty senate votes no confidence in administration’s handling of sexual assault",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/education/cornell-faculty-senate-issues-no-confidence-vote-administrations-handl-rcna607286",
-              "pubDate": "2026-11-06T20:54:27.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
+          "sentiment": 0,
+          "relevance_score": 7,
           "importance": 50,
-          "slug": "cornell-faculty-reject-leadership-over-allegations-handling"
+          "slug": "major-american-policy-shift-undergoing-significant-review"
         },
         {
-          "representativeTitle": "Trump Names Hardliner Miller as Chief of Staff",
+          "representativeTitle": "Midterms Impact Big Tech Amid Political Scrutiny",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
+              "pubDate": "2026-11-07T04:16:43.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "midterms-impact-big-tech-amid-political-scrutiny"
+        },
+        {
+          "representativeTitle": "Trump Names Hardliner Miller Chief of Staff Role",
           "sources": [
             "FT International"
           ],
@@ -957,7 +1078,95 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "trump-names-hardliner-miller-as-chief-of-staff"
+          "slug": "trump-names-hardliner-miller-chief-of-staff-role"
+        },
+        {
+          "representativeTitle": "Liberal political year marked by mixed outcomes.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "A bittersweet year for liberals",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/3370e949-4a32-4a2d-8738-2f1cde6a35ea?syn-25a6b1a6=1",
+              "pubDate": "2026-11-07T05:00:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "liberal-political-year-marked-by-mixed-outcomes"
+        },
+        {
+          "representativeTitle": "LA reacts to historic mayoral election results.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Los Angeles reacts to historic mayoral election",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/los-angeles-reacts-to-historic-mayoral-election?traffic_source=rss",
+              "pubDate": "2026-11-07T04:14:12.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "la-reacts-to-historic-mayoral-election-results"
+        },
+        {
+          "representativeTitle": "Midterms Show Voter Resistance to Data Centers' Growth",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "How the US midterm elections reflected resistance to data centres",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/economy/2026/11/7/how-the-us-midterm-elections-reflected-resistance-to-data-centres?traffic_source=rss",
+              "pubDate": "2026-11-07T03:22:41.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "midterms-show-voter-resistance-to-data-centers-growth"
+        },
+        {
+          "representativeTitle": "Democrats Criticize Trump's Staff Appointment Choice",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Democrats blast Trump’s decision to make Stephen Miller his chief of staff as president defends picking loyal ‘MVP’",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/live/2026/nov/06/us-midterm-elections-2026-democrats-blue-wave-congress-latest-news-updates",
+              "pubDate": "2026-11-07T03:02:26.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "democrats-criticize-trumps-staff-appointment-choice"
         },
         {
           "representativeTitle": "Democrats Win Statehouse Control Amid Midterm Shifts",
@@ -970,7 +1179,7 @@ export const newsData = {
               "title": "Democrats flip statehouses in midterm wave",
               "source": "ABC News Top",
               "link": "https://abcnews.com/Politics/democrats-flip-statehouses-midterm-wave/story?id=137924342",
-              "pubDate": "2026-11-07T01:41:28.000Z",
+              "pubDate": "2026-11-07T05:30:59.000Z",
               "tier": 2
             }
           ],
@@ -980,6 +1189,50 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "democrats-win-statehouse-control-amid-midterm-shifts"
+        },
+        {
+          "representativeTitle": "Texas Democrats Challenge Musk's Influence on State.",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Elon Musk Staked His Empire on Texas. Now State Democrats Want to Rein Him In.",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/politics/policy/elon-musk-texas-midterm-elections-b993e58d?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-07T03:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "texas-democrats-challenge-musks-influence-on-state"
+        },
+        {
+          "representativeTitle": "Mississippi Senate Race Intensifies With Ballot Battle",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Razor-tight Mississippi Senate race sparks ballot battle",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cwj0llvqqm72o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-06T22:22:51.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "mississippi-senate-race-intensifies-with-ballot-battle"
         },
         {
           "representativeTitle": "Trump Names Miller to Replace Chief of Staff Wiles",
@@ -994,13 +1247,6 @@ export const newsData = {
               "source": "NBC News",
               "link": "https://www.nbcnews.com/nightly-news/video/stephen-miller-named-as-new-white-house-chief-of-staff-273042501821",
               "pubDate": "2026-11-07T01:05:57.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump names Stephen Miller his new chief of staff, replacing Susie Wiles",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/donald-trump/trump-stephen-miller-susie-wiles-white-house-chief-of-staff-rcna607892",
-              "pubDate": "2026-11-06T19:00:20.000Z",
               "tier": 2
             },
             {
@@ -1063,28 +1309,6 @@ export const newsData = {
           "slug": "federal-charges-detailed-against-thomas-markle"
         },
         {
-          "representativeTitle": "Democrat Talarico's Political Rise in Texas Spotlighted",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "James Talarico: the Democrats’ rising star who turned Texas blue",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/7eb006c7-a430-40fd-bba6-48dcbb810ba2?syn-25a6b1a6=1",
-              "pubDate": "2026-11-06T17:23:03.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "democrat-talaricos-political-rise-in-texas-spotlighted"
-        },
-        {
           "representativeTitle": "Candidate Sues Official Over Alleged Election Bias",
           "sources": [
             "NBC News",
@@ -1115,7 +1339,7 @@ export const newsData = {
           "slug": "candidate-sues-official-over-alleged-election-bias"
         },
         {
-          "representativeTitle": "Democrats eyeing 2028 presidential race, aide reports",
+          "representativeTitle": "Democrats eyeing 2028 presidential field, aide reports.",
           "sources": [
             "BBC US"
           ],
@@ -1134,7 +1358,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "democrats-eyeing-2028-presidential-race-aide-reports"
+          "slug": "democrats-eyeing-2028-presidential-field-aide-reports"
         },
         {
           "representativeTitle": "Connecticut Senator Murphy Hospitalized After Stroke",
@@ -1167,7 +1391,7 @@ export const newsData = {
           "slug": "connecticut-senator-murphy-hospitalized-after-stroke"
         },
         {
-          "representativeTitle": "Midterms takeaways shape future White House race.",
+          "representativeTitle": "Midterms analyzed: Key takeaways for future presidential race.",
           "sources": [
             "BBC US"
           ],
@@ -1186,10 +1410,10 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "midterms-takeaways-shape-future-white-house-race"
+          "slug": "midterms-analyzed-key-takeaways-for-future-presidential-race"
         },
         {
-          "representativeTitle": "Analysis details American voting patterns via maps.",
+          "representativeTitle": "Analysis details American voting patterns across maps.",
           "sources": [
             "BBC US"
           ],
@@ -1208,111 +1432,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "analysis-details-american-voting-patterns-via-maps"
-        },
-        {
-          "representativeTitle": "Utility Seeks Major Rate Hike Amid California Concerns",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "A Berkshire Hathaway Electric Utility Wants a Historic Rate Hike in California",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/business/energy-oil/a-berkshire-hathaway-electric-utility-wants-a-historic-rate-hike-in-california-b7a0cc70?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-11-06T23:33:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "utility-seeks-major-rate-hike-amid-california-concerns"
-        },
-        {
-          "representativeTitle": "Alberta Librarians Face Rising Threat of Book Bans",
-          "sources": [
-            "NY Times"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Alberta’s Librarians Brace for a New Era of ‘Book Bans’",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/11/06/world/canada/alberta-book-ban-public-libraries.html",
-              "pubDate": "2026-11-06T14:41:59.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "alberta-librarians-face-rising-threat-of-book-bans"
-        },
-        {
-          "representativeTitle": "Officials Fund Puerto Rico Water and Power Needs",
-          "sources": [
-            "ABC News Top",
-            "ABC News US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "US officials unveil $280K deal to help Puerto Rico face water and power crises",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/wireStory/us-officials-unveil-280k-deal-puerto-rico-face-137918082",
-              "pubDate": "2026-11-06T17:41:48.000Z",
-              "tier": 2
-            },
-            {
-              "title": "US officials unveil $280K deal to help Puerto Rico face water and power crises",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/us-officials-unveil-280k-deal-puerto-rico-face-137918082",
-              "pubDate": "2026-11-06T17:41:48.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "officials-fund-puerto-rico-water-and-power-needs"
-        },
-        {
-          "representativeTitle": "Former Senator Jay Rockefeller Passes Away At Age Eighty-Nine",
-          "sources": [
-            "ABC News Top",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Jay Rockefeller, former West Virginia governor and US senator, dies at 89",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/wireStory/jay-rockefeller-former-west-virginia-governor-us-senator-137911360",
-              "pubDate": "2026-11-06T15:30:19.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZDBJMDRPNVh2YlpfUHRFLTNnNG9YSWJwQ0lEYWpIc1M3Q2c2WW1aLUZKVm9xaGVEMHNkUVpHbXRYLWp0NzB3WlN0VlMxVWxQWFRaSUtJamtqelJoQkdNMGZ4TWpaR1Rya0FKZlRPM2NYRkZMSm9DN1VtNlZNZlc4eXdyT0hVdzR2VHNVbWs0emtkRjdwRVlFQmhSbzhGMFBlVUZhTzdJamRhTDlmdVRB?oc=5",
-              "pubDate": "2026-11-06T16:52:50.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 30,
-          "slug": "former-senator-jay-rockefeller-passes-away-at-age-eighty-nine"
+          "slug": "analysis-details-american-voting-patterns-across-maps"
         }
       ]
     },
@@ -1342,6 +1462,28 @@ export const newsData = {
           "slug": "us-stocks-recover-cautiously-after-ai-fears"
         },
         {
+          "representativeTitle": "AI Bets Unwind, Causing $5.7 Trillion Market Rout",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Wall Street Grapples With $5.7 Trillion Rout as AI Bets Unwind",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-06/ai-s-wild-week-has-wall-street-hunting-for-fresh-escape-routes",
+              "pubDate": "2026-11-06T21:23:32.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ai-bets-unwind-causing-57-trillion-market-rout"
+        },
+        {
           "representativeTitle": "AI Stocks Rise Despite Market Value Losses",
           "sources": [
             "BBC US"
@@ -1364,7 +1506,7 @@ export const newsData = {
           "slug": "ai-stocks-rise-despite-market-value-losses"
         },
         {
-          "representativeTitle": "Nasdaq Correction: Investors Watch Next Market Moves",
+          "representativeTitle": "Nasdaq Correction: Analyzing Potential Market Aftermath Scenarios Now",
           "sources": [
             "CNBC Markets"
           ],
@@ -1383,7 +1525,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "nasdaq-correction-investors-watch-next-market-moves"
+          "slug": "nasdaq-correction-analyzing-potential-market-aftermath-scenarios-now"
         },
         {
           "representativeTitle": "Midterms Spark AI Stock Selloff Concerns Amid Uncertainty",
@@ -1406,6 +1548,28 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "midterms-spark-ai-stock-selloff-concerns-amid-uncertainty"
+        },
+        {
+          "representativeTitle": "Diwali Trading Explained: India's Market Tradition Deep Dive",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Why India’s Stock Markets Hold a Session on Diwali: Explainer",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-07/why-india-s-stock-markets-hold-a-session-on-diwali-explainer",
+              "pubDate": "2026-11-07T04:30:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "diwali-trading-explained-indias-market-tradition-deep-dive"
         },
         {
           "representativeTitle": "Hedge Funds Retreat From Oil Bets Before Election Day",
@@ -1452,36 +1616,6 @@ export const newsData = {
           "slug": "figs-beats-earnings-amid-strong-demand-growth"
         },
         {
-          "representativeTitle": "Musk's Cybertruck Issues Raise Investor Concerns",
-          "sources": [
-            "BBC Business",
-            "Google Stocks"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Elon Musk appears to signal the end of the road for Cybertruck",
-              "source": "BBC Business",
-              "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-06T21:49:50.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Elon Musk Is Killing the Cybertruck. What It Means for Tesla Stock.",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU1BjRWpvRk9HZ21UWmN4Q3dkcmlOMEktZnpTMmRZYXg3N3pGUlhEaFNXQ1pjeE85QTlidTBlblZja3NPNnE4cTh5VGoxNEVSOTZ4UEJzVTBSNmtLN3ZPOVljVXNvRy10N1ZMZ3NUU29fWTJpb3A4WGZwX0ZEWUlhSFowZFg?oc=5",
-              "pubDate": "2026-11-06T21:41:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "musks-cybertruck-issues-raise-investor-concerns"
-        },
-        {
           "representativeTitle": "Traders cautiously buy stocks after market downturn.",
           "sources": [
             "Bloomberg Markets"
@@ -1509,36 +1643,7 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "US Debt Nears $41 Trillion Mark in February",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Wall Street Grapples With $5.7 Trillion Rout as AI Bets Unwind",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-06/ai-s-wild-week-has-wall-street-hunting-for-fresh-escape-routes",
-              "pubDate": "2026-11-06T21:23:32.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Wall Street Sees US Hitting $41.1 Trillion Debt Cap in February",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-06/wall-street-sees-us-hitting-41-1-trillion-debt-cap-in-february",
-              "pubDate": "2026-11-06T20:33:40.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "us-debt-nears-41-trillion-mark-in-february"
-        },
-        {
-          "representativeTitle": "US Job Growth Beats Expectations in October Report",
+          "representativeTitle": "US Job Growth Exceeds Expectations in October Report",
           "sources": [
             "FT International"
           ],
@@ -1557,29 +1662,29 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "us-job-growth-beats-expectations-in-october-report"
+          "slug": "us-job-growth-exceeds-expectations-in-october-report"
         },
         {
-          "representativeTitle": "Fed Official Warns of Persistent Inflation and Rate Hikes",
+          "representativeTitle": "Sequoia Ends Scouts Program, Signaling Shift in Focus",
           "sources": [
-            "CNBC Markets"
+            "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
-              "source": "CNBC Markets",
-              "link": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
-              "pubDate": "2026-11-06T19:05:00.000Z",
+              "title": "Sequoia shutting down its Scouts program marks the end of an era",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/",
+              "pubDate": "2026-11-07T05:01:54.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Technology",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "fed-official-warns-of-persistent-inflation-and-rate-hikes"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "sequoia-ends-scouts-program-signaling-shift-in-focus"
         },
         {
           "representativeTitle": "Crusoe Sells Wyoming Data Center Project To Google",
@@ -1626,48 +1731,26 @@ export const newsData = {
           "slug": "sweetgreen-sales-rebound-following-illness-related-dip"
         },
         {
-          "representativeTitle": "Braskem Funding Offer Withdrawn Amid Debt Talks Snag",
+          "representativeTitle": "US Auto Market Losing Global Manufacturing Appeal",
           "sources": [
-            "Bloomberg Markets"
+            "WSJ US Business"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Braskem Owners Pull Funding Offer as Debt Talks Hit Snag",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-06/braskem-shareholders-pull-funding-offer-as-debt-talks-hit-snags",
-              "pubDate": "2026-11-06T19:38:53.000Z",
-              "tier": 1
+              "title": "America Has Become the Last Place to Make Money for the World’s Automakers",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/autos/america-has-become-the-last-place-to-make-money-for-the-worlds-automakers-3ee3ae7c?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-07T02:00:00.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Business",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 45,
-          "slug": "braskem-funding-offer-withdrawn-amid-debt-talks-snag"
-        },
-        {
-          "representativeTitle": "Weak Jobs Data Plunges Canadian Dollar to Lows",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Canadian Dollar Notches Worst Week Since September on Weak Jobs",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-06/canadian-dollar-set-for-worst-week-since-september-on-weak-jobs",
-              "pubDate": "2026-11-06T18:48:22.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "weak-jobs-data-plunges-canadian-dollar-to-lows"
+          "slug": "us-auto-market-losing-global-manufacturing-appeal"
         },
         {
           "representativeTitle": "Fox Acquires Roku in Major $22 Billion Deal",
@@ -1734,28 +1817,6 @@ export const newsData = {
           "relevance_score": 4,
           "importance": 35,
           "slug": "mba-discusses-capital-provision-to-tech-firms"
-        },
-        {
-          "representativeTitle": "Rising Shipping Costs Threaten Small Retail Holiday Sales",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Small retailers brace for 'huge hit' this holiday season as shipping costs spike",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/11/06/small-business-holiday-shipping-costs.html",
-              "pubDate": "2026-11-06T12:00:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "rising-shipping-costs-threaten-small-retail-holiday-sales"
         }
       ]
     },
@@ -1763,51 +1824,7 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
-          "representativeTitle": "Musk Signals Potential End for Cybertruck Model",
-          "sources": [
-            "BBC US",
-            "BBC World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Elon Musk appears to signal the end of the road for Cybertruck",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-06T21:49:50.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Watch: Is it the end of the road for Tesla's Cybertruck?",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/videos/cv8ezz9ll7nyo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-06T15:02:03.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Elon Musk appears to signal the end of the road for Cybertruck",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-06T21:49:50.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Watch: Is it the end of the road for Tesla's Cybertruck?",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/cv8ezz9ll7nyo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-06T15:02:03.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 80,
-          "slug": "musk-signals-potential-end-for-cybertruck-model"
-        },
-        {
-          "representativeTitle": "Protesters Breach Microsoft Data Center Amid Europe Backlash",
+          "representativeTitle": "Protesters Breach Microsoft Data Center in Amsterdam",
           "sources": [
             "The Guardian",
             "Al Jazeera",
@@ -1830,10 +1847,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Protesters break into Microsoft data center site in Amsterdam as Europe’s backlash spreads",
+              "title": "Protesters Break Into Microsoft Data Center in Amsterdam",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMWg1SzZHQUk0WHZnZEZhLXhJaVVsaWFCR0ZEMklGeC1YZmE4UVZWRGs2aXBxNVhYeVBBMFlhU2pRZ0VKRjcyOVVFYzdnTTAyV0dCUWxlamwtU0VDZGI1UkJvbFVwZ3JiM1Bpb2REVENuTzRNSHZweDNIUXVadVR4TnNORjlQWU41ekYzNnlUdTZ0am1QaDlwSGZmUFVlYjY5Z2JtaTlR?oc=5",
-              "pubDate": "2026-11-06T19:00:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOTkyUHlNZFBaZFY5UjNTMjRjOGl5ZVdVcmgtMU9zQWQxaUF5dDZ6dFhJY3hRVXVqeTcyRTJyaEpuYk10WF9LYWFiTXNzemFVX1hQd1dpLUpHajFTS1JTdFItVW15Q09GMkpqZ21MMVA5N0lQU2hjN19wdmtuSkJ3ajZtRGFITVNlcVlRZ3BxNVFGVXQ3WDA5ZVprUU9xX3lQczlveG9NQWRPYUZCNnpDejdB?oc=5",
+              "pubDate": "2026-11-06T14:27:55.000Z",
               "tier": 2
             }
           ],
@@ -1842,7 +1859,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 70,
-          "slug": "protesters-breach-microsoft-data-center-amid-europe-backlash"
+          "slug": "protesters-breach-microsoft-data-center-in-amsterdam"
         },
         {
           "representativeTitle": "AI Spending Slowdown Hits Near IPO Company",
@@ -1875,36 +1892,6 @@ export const newsData = {
           "slug": "ai-spending-slowdown-hits-near-ipo-company"
         },
         {
-          "representativeTitle": "AI Impersonation Scam Steals Millions From US Targets",
-          "sources": [
-            "The Guardian",
-            "SCMP"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Three men charged in US with using AI to impersonate CEOs and steal millions",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/06/ai-ceo-impersonation-theft",
-              "pubDate": "2026-11-06T21:20:49.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US accuses trio of using AI to impersonate CEOs and lawyers to steal US$129 million",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3373511/us-accuses-trio-using-ai-impersonate-ceos-and-lawyers-steal-us129-million",
-              "pubDate": "2026-11-06T05:43:32.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "ai-impersonation-scam-steals-millions-from-us-targets"
-        },
-        {
           "representativeTitle": "OpenAI Secures $11B Funding at Trillion-Dollar Valuation",
           "sources": [
             "TechCrunch"
@@ -1927,26 +1914,56 @@ export const newsData = {
           "slug": "openai-secures-11b-funding-at-trillion-dollar-valuation"
         },
         {
-          "representativeTitle": "EU Targets TikTok Over Harmful Content Feed Changes",
+          "representativeTitle": "Protests Target Data Center Construction Site Amid Backlash",
           "sources": [
-            "Al Jazeera"
+            "Al Jazeera",
+            "IBTimes"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "EU tells TikTok to fix ‘harmful’ For You feed, threatens fines",
+              "title": "Protesters storm site of Microsoft’s planned Amsterdam data centre",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/6/eu-tells-tiktok-to-fix-harmful-for-you-feed-threatens-fines?traffic_source=rss",
-              "pubDate": "2026-11-06T23:33:28.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/protesters-storm-site-of-microsofts-planned-amsterdam-data-centre?traffic_source=rss",
+              "pubDate": "2026-11-07T04:08:02.000Z",
               "tier": 1
+            },
+            {
+              "title": "Backlash Against Data Centers Grows. Protesters Broke Into a Microsoft Construction Site.",
+              "source": "IBTimes",
+              "link": "https://www.ibtimes.com/activists-breach-microsoft-data-center-site-amsterdam-3809501",
+              "pubDate": "2026-11-06T16:00:13.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "Technology",
           "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "protests-target-data-center-construction-site-amid-backlash"
+        },
+        {
+          "representativeTitle": "US Report Links Nvidia CEO to Alleged Chinese Spy",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
+              "pubDate": "2026-11-07T02:33:26.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "eu-targets-tiktok-over-harmful-content-feed-changes"
+          "slug": "us-report-links-nvidia-ceo-to-alleged-chinese-spy"
         },
         {
           "representativeTitle": "Cybertruck's perceived failure benefits broader EV market.",
@@ -1978,6 +1995,35 @@ export const newsData = {
           "slug": "cybertrucks-perceived-failure-benefits-broader-ev-market"
         },
         {
+          "representativeTitle": "Musk signals potential slowdown for Cybertruck sales.",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-06T21:49:50.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Watch: Is it the end of the road for Tesla's Cybertruck?",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/videos/cv8ezz9ll7nyo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-06T15:02:03.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "musk-signals-potential-slowdown-for-cybertruck-sales"
+        },
+        {
           "representativeTitle": "Anthropic Targets Massive IPO Valuation Amid Growth",
           "sources": [
             "FT International"
@@ -1998,36 +2044,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "anthropic-targets-massive-ipo-valuation-amid-growth"
-        },
-        {
-          "representativeTitle": "Apple announces upcoming 'Duo' applications to users.",
-          "sources": [
-            "TechCrunch",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "The Duo apps are coming, says Apple",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/",
-              "pubDate": "2026-11-06T21:38:05.000Z",
-              "tier": 1
-            },
-            {
-              "title": "The Duo apps are coming, says Apple",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBpRzNFdkt1VzdsdXduNDhYNlhGNWxKS3RNeTNWa09TMFFuSVhzREVqWWFTaEtxTE1PbF9MQmZCZlYwQlJDYVd3TjlVb2NJTURRczNtZEd2T25wUVdmMEJBZ2xRLTZvOU0tTTA0U1Btc0hXaV8yOUNKRw?oc=5",
-              "pubDate": "2026-11-06T21:38:05.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "apple-announces-upcoming-duo-applications-to-users"
         },
         {
           "representativeTitle": "AI Hacking Tools Exposed Online Posing Security Risk",
@@ -2072,6 +2088,36 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "chinese-ai-models-show-concerning-hacking-capabilities-now"
+        },
+        {
+          "representativeTitle": "Meta launches Spaces for Muse agent collaboration features.",
+          "sources": [
+            "TechCrunch",
+            "Google Tech"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+              "pubDate": "2026-11-06T18:44:20.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWThXdnB2TE9RM3M4SUQ2NTZhc1Y0SVBveGpsQm9ySU54VFFRTWJmVjdodEJYLWlmemwzeWlfdnlUcUdfU2JmUm1EdGFXRzdVZzNPcUpEV0dmVDhPRDVidzRZVzVkM1NnWi02NTMwekRRN01YLXZ4RmNYekpvSW54cUlPR2VIX2hJTW1kOGd5ZV9pUldRMExwTjE1dE5Ea0hYT0FhdnFR?oc=5",
+              "pubDate": "2026-11-06T18:44:20.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "meta-launches-spaces-for-muse-agent-collaboration-features"
         },
         {
           "representativeTitle": "Tesla Halts Cybertruck Production Amid Sales Slowdown",
@@ -2148,47 +2194,17 @@ export const newsData = {
           "slug": "expert-urges-focus-on-understanding-artificial-intelligence"
         },
         {
-          "representativeTitle": "Meta's AI Creates Custom App Experiences On Demand",
-          "sources": [
-            "The Verge",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-              "pubDate": "2026-11-06T18:10:10.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xQUF5VTNxUVoyTWpMMXotUzg2TmZ0NmZIcEtJbDZ2Vk9vTVhWTk5xYTBBQ04tcURMX2NkWTRNMnJkTjNFTEJwaWtqc1k4MlczNVVtRHBwQ0FubTVjWTl3NHVOSGstWWd3?oc=5",
-              "pubDate": "2026-11-06T18:10:10.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "metas-ai-creates-custom-app-experiences-on-demand"
-        },
-        {
-          "representativeTitle": "Meta launches Spaces for Muse agent collaboration features.",
+          "representativeTitle": "Apple announces upcoming 'Duo' applications to users.",
           "sources": [
             "TechCrunch"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+              "title": "The Duo apps are coming, says Apple",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-              "pubDate": "2026-11-06T18:44:20.000Z",
+              "link": "https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/",
+              "pubDate": "2026-11-06T21:38:05.000Z",
               "tier": 1
             }
           ],
@@ -2197,10 +2213,10 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "meta-launches-spaces-for-muse-agent-collaboration-features"
+          "slug": "apple-announces-upcoming-duo-applications-to-users"
         },
         {
-          "representativeTitle": "Pentagon Funds Startup Factory Buildout in US",
+          "representativeTitle": "Pentagon Funds Battery Startup's US Factory Buildout",
           "sources": [
             "TechCrunch"
           ],
@@ -2219,32 +2235,10 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "pentagon-funds-startup-factory-buildout-in-us"
+          "slug": "pentagon-funds-battery-startups-us-factory-buildout"
         },
         {
-          "representativeTitle": "Amazon Revamps Alexa Shopping Experience After Block.",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
-              "pubDate": "2026-11-06T14:10:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "amazon-revamps-alexa-shopping-experience-after-block"
-        },
-        {
-          "representativeTitle": "Firm doubles down on Anthropic despite tech downturn.",
+          "representativeTitle": "Firm Bets Big on Anthropic Amid Tech Downturn",
           "sources": [
             "FT International"
           ],
@@ -2263,7 +2257,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "firm-doubles-down-on-anthropic-despite-tech-downturn"
+          "slug": "firm-bets-big-on-anthropic-amid-tech-downturn"
         }
       ]
     },
@@ -2315,7 +2309,29 @@ export const newsData = {
           "slug": "cmb-analysis-advances-understanding-of-early-universe"
         },
         {
-          "representativeTitle": "Light Powers Drug Discovery Using Previously Unused Compounds",
+          "representativeTitle": "Hera Mission Reveals Asteroid Didymos's Hidden Secrets",
+          "sources": [
+            "Google Science"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hera Mission Reveals Hidden Side of Asteroid Didymos After DART",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTjE4azFiQy1FU05QcVc2TU0wVVhrNzUwdDk2VlBfcHF4ZEVIdTItRjBUZ0UzYjVlUmJDRVNMM2hpZFpvVkNKclA3UU1CMDdOcnV2cUw4eGl1czVJMUx1SG0xOW1RYldhcU9lenlBUjZId1pvOHgwbFVpTlJlYmpLLVdzNWZneTVhb1Z1Wkdud1daeUR5UFBjNjBseTNYdm1rSGl4WlA0ZmRPdw?oc=5",
+              "pubDate": "2026-11-06T20:45:46.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "hera-mission-reveals-asteroid-didymoss-hidden-secrets"
+        },
+        {
+          "representativeTitle": "Light Powers Drug Discovery, Reviving Failed Compounds",
           "sources": [
             "Phys.org"
           ],
@@ -2334,7 +2350,7 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "light-powers-drug-discovery-using-previously-unused-compounds"
+          "slug": "light-powers-drug-discovery-reviving-failed-compounds"
         },
         {
           "representativeTitle": "Microscope reveals atoms in tunable quantum system.",
@@ -2359,26 +2375,34 @@ export const newsData = {
           "slug": "microscope-reveals-atoms-in-tunable-quantum-system"
         },
         {
-          "representativeTitle": "European Forests Face Dual Crises Requiring Local Action",
+          "representativeTitle": "Scientists model black hole horizon using light mirrors.",
           "sources": [
-            "Phys.org"
+            "Phys.org",
+            "Google Science"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "European forests need to solve two crises—but not necessarily in one place",
+              "title": "Vibrating mirrors of light create analog of a black hole event horizon",
               "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-european-forests-crises-necessarily.html",
-              "pubDate": "2026-11-06T20:00:01.000Z",
+              "link": "https://phys.org/news/2026-11-vibrating-mirrors-analog-black-hole.html",
+              "pubDate": "2026-11-06T17:40:11.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Vibrating mirrors of light create analog of a black hole event horizon",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBTNDR5eDR0UGJ2dk1hSVc1WjZlYURlS285ZlQ3czh1TUVsMXBrUzRYb3psMDduQV9oTG5TX205b2NpQzZCZ1k0anpad3NweG5uVi00MVNFWE5kV1V5d1h2bFlHNnczYmJnYWxvZUliRHE1SkNobzVERnhn?oc=5",
+              "pubDate": "2026-11-06T17:40:11.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 7,
+          "sentiment": 0,
+          "relevance_score": 6,
           "importance": 40,
-          "slug": "european-forests-face-dual-crises-requiring-local-action"
+          "slug": "scientists-model-black-hole-horizon-using-light-mirrors"
         }
       ]
     }
