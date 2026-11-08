@@ -1,18 +1,19 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-11-08T02:34:24.237Z",
+  "lastUpdated": "2026-11-08T06:38:10.077Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Israeli Government Formation Faces Lingering Political Uncertainty",
+          "representativeTitle": "Israeli Govt Formation Faces Lingering Political Uncertainty Now",
           "sources": [
             "Al Jazeera",
             "France 24",
-            "IBTimes"
+            "IBTimes",
+            "Google World"
           ],
-          "citationCount": 3,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "Eisenkot chosen over Netanyahu to form Israel’s next government",
@@ -41,59 +42,21 @@ export const newsData = {
               "link": "https://www.ibtimes.com/herzog-tasks-eisenkot-form-israel-government-3809534",
               "pubDate": "2026-11-07T21:28:18.000Z",
               "tier": 2
+            },
+            {
+              "title": "Netanyahu rival Eisenkot tapped to form Israeli government",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNmlUTjlyRlZYWGxKSWtiSE42dVl5N1QtdFlhS3ZKWFQ1cGVwU3dFZDFmUHRFZGYxak9jOVFteVVPcy1SUGVURGFVVnQ2QlIxYUJRbkg5bFZVN3l5NEZDSEs3RFllcFF0aXF4LVRGWTA2NE9LZ3ZraWtzdkl4dm1MRWJn?oc=5",
+              "pubDate": "2026-11-08T02:15:02.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 85,
-          "slug": "israeli-government-formation-faces-lingering-political-uncertainty"
-        },
-        {
-          "representativeTitle": "Paraguay Swears In New President After Impeachment",
-          "sources": [
-            "BBC World",
-            "Al Jazeera",
-            "Euronews"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Paraguay's former president charged after bank collapse",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-07T19:17:22.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Paraguay’s ousted president appears before prosecutors after impeachment",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-paraguay-former-president-detained-appears?traffic_source=rss",
-              "pubDate": "2026-11-07T20:08:47.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Paraguay’s ousted president charged over banking scandal",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/economy/2026/11/7/paraguays-ousted-president-charged-over-banking-scandal?traffic_source=rss",
-              "pubDate": "2026-11-07T18:35:15.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Pedro Alliana sworn in as Paraguay president after Santiago Peña's impeachment",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/07/pedro-alliana-sworn-in-as-paraguay-president-after-santiago-penas-impeachment",
-              "pubDate": "2026-11-07T10:36:19.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 75,
-          "slug": "paraguay-swears-in-new-president-after-impeachment"
+          "importance": 90,
+          "slug": "israeli-govt-formation-faces-lingering-political-uncertainty-now"
         },
         {
           "representativeTitle": "US Offers Reward For Iran Nuclear Intel",
@@ -132,6 +95,140 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 75,
           "slug": "us-offers-reward-for-iran-nuclear-intel"
+        },
+        {
+          "representativeTitle": "Krakow gunman killed six; far-right views cited.",
+          "sources": [
+            "France 24",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
+              "pubDate": "2026-11-07T15:26:49.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Gunman who killed at least six people in Krakow had ‘far-right’ views, Polish government says",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
+              "pubDate": "2026-11-07T15:23:48.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Polish gunman who killed 6 people in Krakow has ‘ultranationalistic’ views, authorities say",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT3JpbnhmUWhOUkNrNkUwYVdXYkk1cDFHbEVsVGlsOElHU1dkOUNWa3JVLUdsWkdlQ1A1aWlqbkRQMmVxMk1iRko4Vng5cWdKWTA2cVdBR0xaVUVWU3pQbjJveEFwbzhmTktUX0dyQWFxX3R4eU9zbFFaWTBBM3FRaDE1TW1pZFJHUlBJbVpGMHZCVnpZVV9FUGVn?oc=5",
+              "pubDate": "2026-11-08T01:13:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "krakow-gunman-killed-six-far-right-views-cited"
+        },
+        {
+          "representativeTitle": "US Blocks Iran Routes; UAE Rescues Sailors Amid Tensions",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US launches task force to disrupt Iran’s land-based supply routes",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes?traffic_source=rss",
+              "pubDate": "2026-11-08T02:34:04.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Iran war live: US moves to block land supply routes; UAE rescues 22 sailors",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss",
+              "pubDate": "2026-11-08T00:00:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 70,
+          "slug": "us-blocks-iran-routes-uae-rescues-sailors-amid-tensions"
+        },
+        {
+          "representativeTitle": "Paraguay Swears In New President After Impeachment",
+          "sources": [
+            "BBC World",
+            "Al Jazeera",
+            "Euronews"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Paraguay's former president charged after bank collapse",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-07T19:17:22.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Paraguay’s ousted president appears before prosecutors after impeachment",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-paraguay-former-president-detained-appears?traffic_source=rss",
+              "pubDate": "2026-11-07T20:08:47.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Pedro Alliana sworn in as Paraguay president after Santiago Peña's impeachment",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/11/07/pedro-alliana-sworn-in-as-paraguay-president-after-santiago-penas-impeachment",
+              "pubDate": "2026-11-07T10:36:19.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "paraguay-swears-in-new-president-after-impeachment"
+        },
+        {
+          "representativeTitle": "Earthquake Strikes Central Japan; Injuries Reported.",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Earthquake hits central Japan, injuring more than 20 people",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people?traffic_source=rss",
+              "pubDate": "2026-11-08T04:20:57.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Strong earthquake shakes central Japan, shattering store windows and injuring at least 22",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWUdHZWFQdzh4U25aT0hXNC16czN1X1NmMzFMYXZleGZ6SWU1bWswdzktZ0pFbXRXQTBTajJTRGg3MFhMMzE5Q1NzMHIwU1dKMW1vUE5LTGdBU2dZa2NqN2J4TjN2aVU0ZDZaLWRaVjhqTjFqMXl3M0dRNUJrY3NSNnhB?oc=5",
+              "pubDate": "2026-11-08T00:45:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "earthquake-strikes-central-japan-injuries-reported"
         },
         {
           "representativeTitle": "Mélenchon gains Gen Z support in French election.",
@@ -178,93 +275,100 @@ export const newsData = {
           "slug": "mlenchon-gains-gen-z-support-in-french-election"
         },
         {
-          "representativeTitle": "Strikes Kill Thirty People in Yemen Market",
+          "representativeTitle": "Gunman Shooting Claims Six Lives in Kraków Square",
           "sources": [
-            "Al Jazeera",
-            "France 24"
+            "The Guardian",
+            "Euronews"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Houthis report 25 killed in Yemen strikes",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/houthis-report-25-killed-in-yemen-strikes?traffic_source=rss",
-              "pubDate": "2026-11-07T17:39:23.000Z",
+              "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+              "pubDate": "2026-11-08T06:06:46.000Z",
               "tier": 1
             },
             {
-              "title": "Yemen: 30 dead in strikes on Taiz market",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market",
-              "pubDate": "2026-11-07T09:37:16.000Z",
-              "tier": 1
+              "title": "Six killed and more than a dozen injured after gunman opens fire in historic centre of Kraków",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/11/07/at-least-five-killed-in-shooting-in-krakow-polish-police-say",
+              "pubDate": "2026-11-07T15:37:50.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
           "relevance_score": 7,
-          "importance": 65,
-          "slug": "strikes-kill-thirty-people-in-yemen-market"
+          "importance": 55,
+          "slug": "gunman-shooting-claims-six-lives-in-krakw-square"
         },
         {
-          "representativeTitle": "Pope Urges Uruguayan Catholics to Build Bridges",
+          "representativeTitle": "Uyghurs Fear Deportation to China's Labor System",
           "sources": [
-            "Al Jazeera",
-            "France 24"
+            "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Pope Leo hold first mass in Uruguay, urges crowd to be ‘bridge builders’",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/7/pope-leo-hold-first-mass-in-uruguay-urges-crowd-to-be-bridge-builders?traffic_source=rss",
-              "pubDate": "2026-11-07T18:00:21.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Pope Leo calls on Uruguay's Catholics to be 'bridge builders'",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/pope-leo-calls-on-uruguay-catholics-bridge-builders",
-              "pubDate": "2026-11-07T14:59:30.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Pope urges healthcare for all in Uruguay",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/pope-urges-healthcare-for-all-in-uruguay",
-              "pubDate": "2026-11-07T09:41:23.000Z",
+              "title": "Uyghurs facing deportation by Thailand say they will be ‘like slaves’ in China",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation",
+              "pubDate": "2026-11-08T03:00:28.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 4,
+          "sentiment": -0.9,
+          "relevance_score": 9,
           "importance": 60,
-          "slug": "pope-urges-uruguayan-catholics-to-build-bridges"
+          "slug": "uyghurs-fear-deportation-to-chinas-labor-system"
         },
         {
-          "representativeTitle": "Iran Conflict Escalates: Blasts Reported; US Blocks Routes",
+          "representativeTitle": "Houthi Claim: Saudi Strike Killed At Least Thirty-Three",
           "sources": [
-            "Al Jazeera"
+            "BBC World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran war live: Blasts heard in Qeshm; US moves to block land supply routes",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss",
-              "pubDate": "2026-11-08T00:00:56.000Z",
+              "title": "Houthis say at least 33 killed in Saudi air strike",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-08T04:03:12.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "iran-conflict-escalates-blasts-reported-us-blocks-routes"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "houthi-claim-saudi-strike-killed-at-least-thirty-three"
+        },
+        {
+          "representativeTitle": "China Forecasted to Lead Global Energy Investment by 2026",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China Set to Lead World in Energy Investment in 2026, CCTV Says",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-08/china-set-to-lead-world-in-energy-investment-in-2026-cctv-says",
+              "pubDate": "2026-11-08T04:02:33.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "china-forecasted-to-lead-global-energy-investment-by-2026"
         },
         {
           "representativeTitle": "Qatar links Strait reopening to Iran inspections plan.",
@@ -297,66 +401,6 @@ export const newsData = {
           "slug": "qatar-links-strait-reopening-to-iran-inspections-plan"
         },
         {
-          "representativeTitle": "Russian Strikes Hit Ukraine Power Grid Before Talks",
-          "sources": [
-            "BBC World",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-07T12:49:36.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Ukraine's power network suffers further damage after fresh Russian strikes",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xdVBJeW5PN1I4VjRSQkNZY3lRYWltZlZfZ2VVOWl0S1NBR0UyX2dzekpEUEpLblRYLTRDSjNqRWhsQUV4OURqY2lWaFJIMFlKVGFIMXRzaV9VWm8?oc=5",
-              "pubDate": "2026-11-07T12:49:36.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 65,
-          "slug": "russian-strikes-hit-ukraine-power-grid-before-talks"
-        },
-        {
-          "representativeTitle": "Gunman Shooting Kills Six in Kraków Center",
-          "sources": [
-            "The Guardian",
-            "Euronews"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
-              "pubDate": "2026-11-07T22:32:41.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Six killed and more than a dozen injured after gunman opens fire in historic centre of Kraków",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/07/at-least-five-killed-in-shooting-in-krakow-polish-police-say",
-              "pubDate": "2026-11-07T15:37:50.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "gunman-shooting-kills-six-in-krakw-center"
-        },
-        {
           "representativeTitle": "Krakow Gun Attack: Initial Reports Emerge Now",
           "sources": [
             "BBC World"
@@ -377,6 +421,28 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "krakow-gun-attack-initial-reports-emerge-now"
+        },
+        {
+          "representativeTitle": "Drone Attack Hits Colombian Army Base; Casualties Reported",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Drone attack on Colombian army base kills three soldiers and wounds 16",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/8/drone-attack-on-colombian-army-base-kills-three-soldiers-and-wounds-16?traffic_source=rss",
+              "pubDate": "2026-11-08T04:56:37.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "drone-attack-hits-colombian-army-base-casualties-reported"
         },
         {
           "representativeTitle": "Gun violence claims six lives in Krakow attack",
@@ -401,108 +467,78 @@ export const newsData = {
           "slug": "gun-violence-claims-six-lives-in-krakow-attack"
         },
         {
-          "representativeTitle": "Six Dead After Gunman Opens Fire in Krakow",
+          "representativeTitle": "Kraków Shooting Claims Six Lives; Over Twelve Injured",
           "sources": [
-            "The Guardian",
-            "Google World"
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
+              "pubDate": "2026-11-07T22:32:41.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "krakw-shooting-claims-six-lives-over-twelve-injured"
+        },
+        {
+          "representativeTitle": "Gunman Kills Six People in Krakow Attack",
+          "sources": [
+            "SCMP",
+            "Sky News"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-              "pubDate": "2026-11-07T21:19:01.000Z",
-              "tier": 1
+              "title": "Gunman ‘fascinated by far-right’ kills 6 in Krakow, Poland",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3373667/5-killed-shooting-tourist-heart-krakow-poland",
+              "pubDate": "2026-11-07T16:33:05.000Z",
+              "tier": 2
             },
             {
-              "title": "At Least 6 Dead in Poland After Gunman Opens Fire in Krakow, Police Say",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObkx0c1ppY3BJRjhPbmhyaUdzdVU3RE94RDFvQkprdkJWbGJ0YVRIM3pkc1pwaEFvVGJyaHNwdDlOcWtKc3JwOHFRLXRMN2RHdWN4eXpEQ1YxSWs5YW83M29Vd3hhcDVuUDdXM0JrRWpGWTg0S0NOeFFNYmRaaFU2OA?oc=5",
-              "pubDate": "2026-11-07T23:36:17.000Z",
+              "title": "Briton among six killed by 'far-right' gunman in Krakow rampage",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/british-national-among-six-killed-by-far-right-gunman-in-krakow-rampage-13609612",
+              "pubDate": "2026-11-08T02:19:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.9,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 50,
-          "slug": "six-dead-after-gunman-opens-fire-in-krakow"
+          "slug": "gunman-kills-six-people-in-krakow-attack"
         },
         {
-          "representativeTitle": "Protests and Clashes Erupt Across France's Streets",
+          "representativeTitle": "Environmentalists Criticize Fossil Fuel Venue Choice",
           "sources": [
-            "Al Jazeera"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Police clash with protesters as anti-government rallies sweep France",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/police-clash-with-protesters-as-anti-government-rallies-sweep-france?traffic_source=rss",
-              "pubDate": "2026-11-07T21:24:10.000Z",
+              "title": "Environmentalists criticise choice of Earthshot prize venue owned by fossil fuel firm",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/environment/2026/nov/08/earthshot-prize-venue-criticism-fossil-fuel-firm-reliance-industries-india-mumbai",
+              "pubDate": "2026-11-08T06:00:33.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "protests-and-clashes-erupt-across-frances-streets"
-        },
-        {
-          "representativeTitle": "France Investigates Bomb Threats Linked To Foreign Powers",
-          "sources": [
-            "France 24",
-            "Le Monde"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "France investigating if bogus bomb threats against airlines linked to 'foreign powers'",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261107-france-investigating-if-bogus-bomb-threats-against-airlines-linked-to-foreign-powers",
-              "pubDate": "2026-11-07T16:33:53.000Z",
-              "tier": 1
-            },
-            {
-              "title": "France probes if bomb threats against airlines linked to 'foreign powers'",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/economy/article/2026/11/07/france-probes-if-bomb-threats-against-airlines-linked-to-foreign-powers_6774486_19.html",
-              "pubDate": "2026-11-07T17:13:57.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "france-investigates-bomb-threats-linked-to-foreign-powers"
-        },
-        {
-          "representativeTitle": "Mélenchon vows action against Israeli annexation.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Mélenchon promises action against Israeli annexation if elected President",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/melenchon-promises-action-against-israeli-annexation-if-elected-president?traffic_source=rss",
-              "pubDate": "2026-11-07T20:53:47.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "mlenchon-vows-action-against-israeli-annexation"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "environmentalists-criticize-fossil-fuel-venue-choice"
         },
         {
           "representativeTitle": "Polish PM labels Krakow shooting as terrorism act",
@@ -527,34 +563,48 @@ export const newsData = {
           "slug": "polish-pm-labels-krakow-shooting-as-terrorism-act"
         },
         {
-          "representativeTitle": "Israeli Politics Sees Rival Tapped Amid Coalition Uncertainty",
+          "representativeTitle": "Haitians support Bukele amid ongoing gang conflict.",
           "sources": [
-            "Fox News",
-            "NPR"
+            "Al Jazeera"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Israeli president taps Netanyahu rival to form government as coalition battle looms",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/world/israeli-president-picks-netanyahu-rival-form-government-coalition-battle-looms",
-              "pubDate": "2026-11-07T22:17:37.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Israel's president taps opposition candidate, not Netanyahu, to form a government",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog",
-              "pubDate": "2026-11-07T20:18:18.000Z",
-              "tier": 2
+              "title": "Haitians cheer El Salvador’s Bukele amid gang war",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/8/haitians-cheer-el-salvadors-bukele-amid-gang-war?traffic_source=rss",
+              "pubDate": "2026-11-08T05:09:39.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "israeli-politics-sees-rival-tapped-amid-coalition-uncertainty"
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "haitians-support-bukele-amid-ongoing-gang-conflict"
+        },
+        {
+          "representativeTitle": "China Sets Delegate Count For 2027 Party Congress",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China Raises Delegate Count to 2,360 for 2027 Party Congress",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-08/china-raises-delegate-count-to-2-360-for-2027-party-congress",
+              "pubDate": "2026-11-08T03:29:25.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "china-sets-delegate-count-for-2027-party-congress"
         },
         {
           "representativeTitle": "Six killed in Kraków shooting incident reported.",
@@ -577,36 +627,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "six-killed-in-krakw-shooting-incident-reported"
-        },
-        {
-          "representativeTitle": "Sect Leader Jailed For Mass Murder of Children",
-          "sources": [
-            "France 24",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Kenyan cult leader sentenced to 200 years in prison",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/kenyan-cult-leader-sentenced-to-200-years-in-prison-1",
-              "pubDate": "2026-11-07T12:10:34.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRjFCU2tjUm10ZGhKVldPcDU0ZDh5Y2NQTnlzSXVOZEMwZi12TVVJdXhvNXQzSnRKTzM5QVliZVNPTWppWmNUTTlPWmNLSUM2OGdSR1dKV2J1YVR6ZldsMnpZSC1heTJLQXoySnVjdGlYWGdKU2ZPbDBEZDBJM1h1UTZrcy1oaEdDazA4RmlQTkcwSlphc2hva1NPR040WXM4VDBRbHd3?oc=5",
-              "pubDate": "2026-11-07T04:19:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "sect-leader-jailed-for-mass-murder-of-children"
         },
         {
           "representativeTitle": "Israeli President Grants Eisenkot Government Formation Chance",
@@ -651,28 +671,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "canary-islands-declare-emergency-over-migrant-influx"
-        },
-        {
-          "representativeTitle": "Mass Protests Erupt Across France Over Rising Costs",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "More than 140,000 rally as new protests against rising costs sweep France",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/7/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france?traffic_source=rss",
-              "pubDate": "2026-11-07T20:12:22.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "mass-protests-erupt-across-france-over-rising-costs"
         },
         {
           "representativeTitle": "NZ Election Uncertainty Looms Ahead of 2026 Vote",
@@ -779,29 +777,7 @@ export const newsData = {
           "slug": "krakow-market-shooting-leaves-six-dead-fifteen-injured"
         },
         {
-          "representativeTitle": "Official Slams Trump's Tariff War Against Canada",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Abdul El-Sayed slams Trump’s tariff war with Canada",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss",
-              "pubDate": "2026-11-07T20:44:34.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "official-slams-trumps-tariff-war-against-canada"
-        },
-        {
-          "representativeTitle": "Paraguay Ex-President Charged With Corruption Allegations",
+          "representativeTitle": "Paraguay's Ex-President Charged With Corruption Allegations",
           "sources": [
             "NY Times"
           ],
@@ -820,7 +796,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "paraguay-ex-president-charged-with-corruption-allegations"
+          "slug": "paraguays-ex-president-charged-with-corruption-allegations"
         },
         {
           "representativeTitle": "Nightclub Shelters Haitians Amid Gang Violence Fears",
@@ -849,6 +825,52 @@ export const newsData = {
     {
       "name": "US",
       "children": [
+        {
+          "representativeTitle": "Father Calls Daughter After Co-Pilot's Fatal Crash",
+          "sources": [
+            "NY Times",
+            "Washington Post",
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Father Calls Daughter, the Co-Pilot Killed in Florida Crash, ‘a Hero’",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/11/07/us/florida-jet-crash-father-pilot.html",
+              "pubDate": "2026-11-07T20:12:26.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Tearful father of young Florida crash co-pilot aims to protect her legacy",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/nation/2026/11/07/tearful-father-young-florida-crash-co-pilot-aims-protect-her-legacy/",
+              "pubDate": "2026-11-07T17:30:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Grieving father of Learjet co-pilot defends his daughter's reputation after crash",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/dad-20-year-pilot-florida-learjet-crash-final-137919371",
+              "pubDate": "2026-11-07T06:56:22.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Father Calls Daughter, the Co-Pilot Killed in Florida Crash, ‘a Hero’",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE04MGV6Tm9ROEdJRXFNOXZhMzdIR1dreE5GMU54TUptR1RyUjdBQjBGdTdUZjZpSU9fazNRaTN4dTFYTGQybmU5Z0tqVVV1NlRwMFF0dE5ta19Rby1JMjhkN1Bvb1czWmJlMENneFoybWhLTGJQeWdjMkFMYWF5dw?oc=5",
+              "pubDate": "2026-11-07T20:12:26.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 70,
+          "slug": "father-calls-daughter-after-co-pilots-fatal-crash"
+        },
         {
           "representativeTitle": "Backlash Grows Over Miller's Proposed Chief of Staff Role",
           "sources": [
@@ -886,74 +908,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 75,
           "slug": "backlash-grows-over-millers-proposed-chief-of-staff-role"
-        },
-        {
-          "representativeTitle": "Father Calls Daughter After Co-Pilot's Fatal Crash",
-          "sources": [
-            "NY Times",
-            "Washington Post",
-            "ABC News US"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Father Calls Daughter, the Co-Pilot Killed in Florida Crash, ‘a Hero’",
-              "source": "NY Times",
-              "link": "https://www.nytimes.com/2026/11/07/us/florida-jet-crash-father-pilot.html",
-              "pubDate": "2026-11-07T20:12:26.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Tearful father of young Florida crash co-pilot aims to protect her legacy",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/nation/2026/11/07/tearful-father-young-florida-crash-co-pilot-aims-protect-her-legacy/",
-              "pubDate": "2026-11-07T17:30:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Grieving father of Learjet co-pilot defends his daughter's reputation after crash",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/dad-20-year-pilot-florida-learjet-crash-final-137919371",
-              "pubDate": "2026-11-07T06:56:22.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 65,
-          "slug": "father-calls-daughter-after-co-pilots-fatal-crash"
-        },
-        {
-          "representativeTitle": "Texas Mayor Directs Police to Limit ICE Cooperation Efforts",
-          "sources": [
-            "BBC World",
-            "Al Jazeera"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Texas mayor instructs police to limit co-operation with ICE",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c8dx33d22zkro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-07T08:15:55.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Houston mayor orders police to limit cooperation with ICE",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/7/houston-mayor-orders-police-to-limit-cooperation-with-ice?traffic_source=rss",
-              "pubDate": "2026-11-07T18:55:40.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "texas-mayor-directs-police-to-limit-ice-cooperation-efforts"
         },
         {
           "representativeTitle": "Democrats Vow Investigation Into Donald Trump's Actions",
@@ -1008,25 +962,129 @@ export const newsData = {
           "slug": "trump-coalition-fractures-amid-political-divisions-deepening"
         },
         {
-          "representativeTitle": "Texas Education Policy Faces Potential Reversal Efforts",
+          "representativeTitle": "Centrists dominate Congress despite left focus.",
           "sources": [
-            "Washington Post",
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "‘Radical left’ get the headlines but centrists dominate new US Congress",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/c8692ed7-f32b-487f-9efa-3ccd3d144f42?syn-25a6b1a6=1",
+              "pubDate": "2026-11-08T05:00:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "centrists-dominate-congress-despite-left-focus"
+        },
+        {
+          "representativeTitle": "White House Job Offer Sparks Trump-Dana White Meeting",
+          "sources": [
+            "NBC News",
+            "Fox News",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "UFC head Dana White says he’ll meet with Trump Monday on press secretary offer",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/white-house/trump-offers-press-secretary-job-ufc-ceo-dana-white-rcna608039",
+              "pubDate": "2026-11-07T21:39:10.000Z",
+              "tier": 2
+            },
+            {
+              "title": "JACKSON THOMPSON: Dana White says he'll meet with Trump amid claim of White House press secretary job offer",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/outkick-sports/jackson-thompson-dana-white-says-hell-meet-trump-amid-claim-white-house-press-secretary-job-offer",
+              "pubDate": "2026-11-08T02:55:18.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump says he offered White House press secretary role to UFC’s Dana White",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWDk3dmNRMjFNZWFHWWtoOWFCeDVLXzB1WnlKVEljUk01NXhRX20zcllRMjJETzMzZElwYVE5ZXN5QVpfTWJELXlkMFk3SktkX1NmNjFqYkgxbFhNM2xzVVQtODAyaUstRGlGamNqbmtJOG42bU5WVFpVTC1Kd3FQV3VrVGRmQWlKVWR6UnJ4Y2ZCTDJTYzVpRDJLbElpVEVuQzlPUm9ndkp6RGxZNWlaTjlweTcyVm5odHc?oc=5",
+              "pubDate": "2026-11-08T03:08:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "white-house-job-offer-sparks-trump-dana-white-meeting"
+        },
+        {
+          "representativeTitle": "Societal Trend Points Toward Desire for Community Life",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "America is craving a return to community",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/2a0bc83c-1c48-451a-a2b6-3371a36fc287?syn-25a6b1a6=1",
+              "pubDate": "2026-11-08T05:00:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "societal-trend-points-toward-desire-for-community-life"
+        },
+        {
+          "representativeTitle": "Plane Clips Truck During Florida Emergency Landing",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Plane clips truck during emergency landing on busy Florida road",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/8/aje-onl-nf_plane-clips-truck-during-emergency-landing-florida-071126?traffic_source=rss",
+              "pubDate": "2026-11-08T04:59:02.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "plane-clips-truck-during-florida-emergency-landing"
+        },
+        {
+          "representativeTitle": "Ex-officer accused of stabbing appears emotionless.",
+          "sources": [
+            "Fox News",
             "Google US"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Texas remade education in the GOP’s image. Hinojosa plans to undo it.",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/education/2026/11/07/texas-remade-education-gops-image-hinojosa-plans-undo-it/",
-              "pubDate": "2026-11-07T11:00:00.000Z",
-              "tier": 1
+              "title": "Ex-police officer accused of stabbing NYC jogger to death appears emotionless in new photos",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/us/ex-police-officer-accused-stabbing-nyc-jogger-death-appears-emotionless-new-photos",
+              "pubDate": "2026-11-08T00:00:18.000Z",
+              "tier": 2
             },
             {
-              "title": "Texas remade education in the GOP’s image. Hinojosa plans to undo it.",
+              "title": "Ex-police officer accused of stabbing NYC jogger to death appears emotionless in new photos",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPajN0UnE3dGV4UUdyeG5zWGVMczJNaXB2SWx5NTg0SmpCVXFVU3BVdGNBb2lJLXBGemdLSWNPb3pwZkZvdHJtN2M0bExKOWpLNlJHTXpfVmc4bVhlYk8wb2Vxa0NRNUxkTUI0SHdrS09JQU0tZFRIMWVQWHZfU2p6TURyMG5fcGhyTTZIZnJDWTk5M09fLTQwa2FnQ2tmemd1cG4zOEhITmJOaUN3Y1E?oc=5",
-              "pubDate": "2026-11-07T19:00:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVS1MQW5hOEMxMm8tV2JqU29YSFM0RTRNYWJscDRHai1KUTJESFdNdTZudmI2QzI5RnRIVW93VkNsajBITkhjVUtnbHdwZjA2RW1zYjRNTWpERzRTMkxRU2xoVXpMMlBCZ0xGVHBfbUxsZ0pGYmxCZmx6bTJLb2tkNjdfWXZEeEN4VEl6cnVHLVdpcktCdVU1d082LXJMVGt2Y2MwWEhFbS12U3JpYVHSAbMBQVVfeXFMTjlTQmxsb19xSmtfdnpDOTBzay05d1djWm5DMGlDNTl4b3Q4VUd4VlN0UVB6RXQtRmVLY3pjZ0VhU1VVQkF3Q0NCdm5oVXhVaWtIeEhrRlpVemE2emJ2ak1xTUNnZS1PdUY4NWRpbzAyYUQ1cTl4aXB2cGljcW4weFZDRzUwNGgtN0p2UHVZVFlfVEZrdWFnQ2tfWDhfUUxsdjJGUTg1ZVZnZzhkSVVyY19xYnc?oc=5",
+              "pubDate": "2026-11-08T00:00:18.000Z",
               "tier": 2
             }
           ],
@@ -1034,11 +1092,11 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 7,
-          "importance": 55,
-          "slug": "texas-education-policy-faces-potential-reversal-efforts"
+          "importance": 45,
+          "slug": "ex-officer-accused-of-stabbing-appears-emotionless"
         },
         {
-          "representativeTitle": "Crypto Boom Linked to Politics Nearing Conclusion",
+          "representativeTitle": "Crypto Boom Linked to Politics Now Declining",
           "sources": [
             "Bloomberg Markets",
             "Google Stocks"
@@ -1063,31 +1121,9 @@ export const newsData = {
           "ingestionCategory": "Stocks",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "crypto-boom-linked-to-politics-nearing-conclusion"
-        },
-        {
-          "representativeTitle": "Economic and Democratic Factors Fueled Political Shift",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Economy and Democracy Drove the Blue Wave",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-07/economy-and-democracy-drove-the-blue-wave-video",
-              "pubDate": "2026-11-07T14:19:05.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "economic-and-democratic-factors-fueled-political-shift"
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "crypto-boom-linked-to-politics-now-declining"
         },
         {
           "representativeTitle": "Healthcare Stock Outlook Uncertain Pending Congressional Action",
@@ -1112,7 +1148,7 @@ export const newsData = {
           "slug": "healthcare-stock-outlook-uncertain-pending-congressional-action"
         },
         {
-          "representativeTitle": "Houston Mayor Limits Police ICE Calls to Jailable Crimes",
+          "representativeTitle": "Houston Mayor Limits Police ICE Calls to Jailable Offenses",
           "sources": [
             "Washington Post"
           ],
@@ -1131,24 +1167,16 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "houston-mayor-limits-police-ice-calls-to-jailable-crimes"
+          "slug": "houston-mayor-limits-police-ice-calls-to-jailable-offenses"
         },
         {
-          "representativeTitle": "Scholarship Funds Secured For LSU Foster Care Students",
+          "representativeTitle": "Trump and LSU Announce Foster Care Scholarship Program",
           "sources": [
-            "Fox News",
             "ABC News US",
             "Google US"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
-            {
-              "title": "Melania Trump secures $7.2M for foster care scholarships at LSU ahead of Alabama showdown",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/melania-trump-secures-7-2m-foster-care-scholarships-lsu-ahead-alabama-showdown",
-              "pubDate": "2026-11-07T21:36:56.000Z",
-              "tier": 2
-            },
             {
               "title": "Melania Trump and LSU are set to announce a scholarship program for students who were in foster care",
               "source": "ABC News US",
@@ -1167,12 +1195,12 @@ export const newsData = {
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0.4,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "scholarship-funds-secured-for-lsu-foster-care-students"
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "trump-and-lsu-announce-foster-care-scholarship-program"
         },
         {
-          "representativeTitle": "Iran Conflict Impacts Alaskan Economy Unevenly Now",
+          "representativeTitle": "Iran Conflict Impacts Alaskan Economy Differently Now",
           "sources": [
             "Bloomberg Markets"
           ],
@@ -1191,29 +1219,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "iran-conflict-impacts-alaskan-economy-unevenly-now"
-        },
-        {
-          "representativeTitle": "Trump's Defeat Signals Potential US Global Retreat",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump’s defeat heralds a US retreat",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/f80ff605-6f6e-4b5d-9fab-20276b78e9b7?syn-25a6b1a6=1",
-              "pubDate": "2026-11-07T05:00:34.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trumps-defeat-signals-potential-us-global-retreat"
+          "slug": "iran-conflict-impacts-alaskan-economy-differently-now"
         },
         {
           "representativeTitle": "Florida City Challenges Republican Party's Political Stance",
@@ -1238,78 +1244,26 @@ export const newsData = {
           "slug": "florida-city-challenges-republican-partys-political-stance"
         },
         {
-          "representativeTitle": "Major American Policy Shift Undergoing Significant Review",
+          "representativeTitle": "Candidate Focuses on Data Centers Ahead of Congress",
           "sources": [
-            "FT International"
+            "Wired"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "The mother of all American course corrections",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/452cf328-c819-482e-8f2c-61b65c96f8ce?syn-25a6b1a6=1",
-              "pubDate": "2026-11-07T05:00:33.000Z",
+              "title": "He Ran on Fighting Data Centers. Now, He’s Going to Congress",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress/",
+              "pubDate": "2026-11-07T11:00:00.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "Technology",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "major-american-policy-shift-undergoing-significant-review"
-        },
-        {
-          "representativeTitle": "Man Arrested For Leaving Child Near Card Release",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "South Carolina man arrested after leaving sleeping 6-year-old daughter in line for Pokémon card release, police say",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/man-arrested-leaving-sleeping-6-year-old-daughter-pokemon-rcna607993",
-              "pubDate": "2026-11-07T16:59:33.000Z",
-              "tier": 2
-            },
-            {
-              "title": "South Carolina man arrested after leaving sleeping 6-year-old daughter in line for Pokémon card release, police say",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcDMxR3BGTF9iQ1Q1Sl9velQwTmx2NzVLVHI0a2JvTGtiRmpFXzZTWGszdWZHTVlJUnVwMHRfUGhaZnZMYWFsMWxDODJzbjdrSEc2OWg1VlpfeUtyaHBkMWZCMGlnOVpGRDVRR1NuSkZDTHQ0RE9qNFJHV1VpbjBicHNBaFNnQU9ua2ZnOG04ckY4ZmNYdkZsRnRMSnpXRVpjUEZxRVlTZ3k?oc=5",
-              "pubDate": "2026-11-07T17:19:11.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 4,
-          "importance": 30,
-          "slug": "man-arrested-for-leaving-child-near-card-release"
-        },
-        {
-          "representativeTitle": "Texas Democrats Challenge Musk's Influence on State.",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Elon Musk Staked His Empire on Texas. Now State Democrats Want to Rein Him In.",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/politics/policy/elon-musk-texas-midterm-elections-b993e58d?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-11-07T03:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
+          "relevance_score": 6,
           "importance": 45,
-          "slug": "texas-democrats-challenge-musks-influence-on-state"
+          "slug": "candidate-focuses-on-data-centers-ahead-of-congress"
         }
       ]
     },
@@ -1317,7 +1271,7 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "Berkshire doubles buybacks despite declining quarterly earnings.",
+          "representativeTitle": "Berkshire doubles buybacks despite falling earnings reports.",
           "sources": [
             "CNBC Markets"
           ],
@@ -1336,29 +1290,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "berkshire-doubles-buybacks-despite-declining-quarterly-earnings"
-        },
-        {
-          "representativeTitle": "Wall Street AI Bet Falters Amid Market Correction Fears",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How Wall Street’s all-in bet on AI blew up",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/5a6806f0-e82e-4b34-b761-f9877e2b511c?syn-25a6b1a6=1",
-              "pubDate": "2026-11-07T05:00:31.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "wall-street-ai-bet-falters-amid-market-correction-fears"
+          "slug": "berkshire-doubles-buybacks-despite-falling-earnings-reports"
         }
       ]
     },
@@ -1366,7 +1298,29 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "Binance CFO Departs After Massive $6.3 Billion Hack",
+          "representativeTitle": "Crypto faces scrutiny over political ties to Trump.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Crypto industry braces for reckoning over Trump ties",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/f1b98a61-4103-447c-bb9a-3dccc0819f61?syn-25a6b1a6=1",
+              "pubDate": "2026-11-08T05:00:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "crypto-faces-scrutiny-over-political-ties-to-trump"
+        },
+        {
+          "representativeTitle": "Binance CFO Departs After Massive Hack Incident",
           "sources": [
             "TechCrunch"
           ],
@@ -1385,7 +1339,7 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 9,
           "importance": 60,
-          "slug": "binance-cfo-departs-after-massive-63-billion-hack"
+          "slug": "binance-cfo-departs-after-massive-hack-incident"
         },
         {
           "representativeTitle": "Berkshire Boosts Buybacks Despite Income Decline",
@@ -1416,6 +1370,50 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 50,
           "slug": "berkshire-boosts-buybacks-despite-income-decline"
+        },
+        {
+          "representativeTitle": "Local Industry Faces Decline Amid Market Shifts",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The Small-Town Colossus Faces the End of the Road",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/11/08/world/canada/roadside-attractions-giant-dinosaur.html",
+              "pubDate": "2026-11-08T05:01:10.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "local-industry-faces-decline-amid-market-shifts"
+        },
+        {
+          "representativeTitle": "Apple Saves Billions Through Singapore Tax Planning",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Apple saves $2.7bn in taxes by booking profits in Singapore",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/49453406-99f2-4f5b-8f5d-01dc8cac5ede?syn-25a6b1a6=1",
+              "pubDate": "2026-11-08T05:00:11.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "apple-saves-billions-through-singapore-tax-planning"
         },
         {
           "representativeTitle": "AI Slowdown Boosts Asia's Traditional Industries Across Nations",
@@ -1506,70 +1504,26 @@ export const newsData = {
           "slug": "new-chief-of-staff-linked-to-tech-selloff-fears"
         },
         {
-          "representativeTitle": "Berkshire Hathaway Buys Shares With Nine Billion Dollars",
+          "representativeTitle": "Ecoflow Power Bank Sale Offers Consumers Savings Now",
           "sources": [
-            "FT International"
+            "Wired"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Berkshire Hathaway steps up share buybacks with $9.6bn of purchases",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/1f153350-2377-4e48-a073-0539376eab4c?syn-25a6b1a6=1",
-              "pubDate": "2026-11-07T16:43:06.000Z",
+              "title": "Ecoflow Rapid Pro Power Bank Deal: Save $80",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/ecoflow-rapid-pro-deal-november-2026/",
+              "pubDate": "2026-11-07T11:00:00.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "berkshire-hathaway-buys-shares-with-nine-billion-dollars"
-        },
-        {
-          "representativeTitle": "Protein Demand Drives Investment in Livestock Health Sector",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Protein Craze Fuels an Investment Boom in Livestock Health",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-07/protein-craze-fuels-an-investment-boom-in-livestock-health",
-              "pubDate": "2026-11-07T15:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Technology",
           "aiCategory": "Business",
           "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "protein-demand-drives-investment-in-livestock-health-sector"
-        },
-        {
-          "representativeTitle": "Young Travelers Show Growing Interest In Cruises",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Young Travelers Are Warming Up to Cruises",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-07/young-travelers-are-warming-up-to-cruises-video",
-              "pubDate": "2026-11-07T14:27:25.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "young-travelers-show-growing-interest-in-cruises"
+          "relevance_score": 3,
+          "importance": 30,
+          "slug": "ecoflow-power-bank-sale-offers-consumers-savings-now"
         }
       ]
     },
@@ -1577,29 +1531,7 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
-          "representativeTitle": "US Report Links Nvidia CEO to Alleged Chinese Spy",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
-              "pubDate": "2026-11-07T21:41:05.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "us-report-links-nvidia-ceo-to-alleged-chinese-spy"
-        },
-        {
-          "representativeTitle": "Intelligence memo alleges corporate espionage targeting Nvidia CEO.",
+          "representativeTitle": "Intelligence Memo Details Spying on Nvidia CEO",
           "sources": [
             "TechCrunch"
           ],
@@ -1618,7 +1550,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "intelligence-memo-alleges-corporate-espionage-targeting-nvidia-ceo"
+          "slug": "intelligence-memo-details-spying-on-nvidia-ceo"
         },
         {
           "representativeTitle": "Apple Offers Early Black Friday Deals on Key Products",
@@ -1702,7 +1634,7 @@ export const newsData = {
           "slug": "meta-issues-25b-bond-sale-amid-tech-debt-shifts"
         },
         {
-          "representativeTitle": "Companies developing safer mobile technology for children.",
+          "representativeTitle": "Companies Develop Safer Phone Features For Children",
           "sources": [
             "TechCrunch"
           ],
@@ -1721,7 +1653,7 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "companies-developing-safer-mobile-technology-for-children"
+          "slug": "companies-develop-safer-phone-features-for-children"
         },
         {
           "representativeTitle": "Amazon launches basic Kindle, focusing on simplicity.",
@@ -1754,7 +1686,7 @@ export const newsData = {
           "slug": "amazon-launches-basic-kindle-focusing-on-simplicity"
         },
         {
-          "representativeTitle": "Chenault Discusses Leadership Challenges Amidst AI Era",
+          "representativeTitle": "Chenault Discusses Leadership Amidst Artificial Intelligence Age",
           "sources": [
             "Bloomberg Markets"
           ],
@@ -1773,10 +1705,10 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "chenault-discusses-leadership-challenges-amidst-ai-era"
+          "slug": "chenault-discusses-leadership-amidst-artificial-intelligence-age"
         },
         {
-          "representativeTitle": "IoT Security Flaws Expose Smart Home Vulnerabilities Now",
+          "representativeTitle": "IoT Security Flaws Highlight Digital Vulnerability Risks",
           "sources": [
             "Wired"
           ],
@@ -1795,7 +1727,29 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "iot-security-flaws-expose-smart-home-vulnerabilities-now"
+          "slug": "iot-security-flaws-highlight-digital-vulnerability-risks"
+        },
+        {
+          "representativeTitle": "AI Integration in Caregiver Apps Faces Skepticism",
+          "sources": [
+            "Wired"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
+              "pubDate": "2026-11-07T11:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ai-integration-in-caregiver-apps-faces-skepticism"
         },
         {
           "representativeTitle": "Free App Helps Manage Mac Storage Space Effectively",
@@ -1824,6 +1778,72 @@ export const newsData = {
     {
       "name": "Science",
       "children": [
+        {
+          "representativeTitle": "NASA awards $10B Moon base contract; industry joins.",
+          "sources": [
+            "Google Stocks"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "NASA unveils $10B Moon base contract as SpaceX, Blue Origin join lunar gold rush",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPanpSbHlYTHFlRTZiRFBUMTNTZkl0aVNPOXdrZi10Z1VveWo1dnRvQ1owZWstbEhTczVMZTVtbXpibGE4NXNmVWhmZU9OYVpOOEgtTHJTR1FTbHJNTnB4bVJkUWVRaDNOVUhsazZKdmN2LW5ZYWdLbUJkTURfdzJaMXZ1LThCVFZVSldRcnJvZmJlbHR1ZHNQcnVFSHViTmk1TVpvR1NGYXV6LUUxbEhIOEhNT0ROeThhVXVFNVlvUQ?oc=5",
+              "pubDate": "2026-11-08T03:09:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "nasa-awards-10b-moon-base-contract-industry-joins"
+        },
+        {
+          "representativeTitle": "Cold Blast Brings Snow to Australian Alpine Regions",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Cold blast brings springtime snow to alpine regions as temperatures plummet across Australia’s south-east",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/nov/08/australia-weather-cold-blast-springtime-snow-thredbo-perisher-hotham-victoria-tasmania-el-nino",
+              "pubDate": "2026-11-08T02:34:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "cold-blast-brings-snow-to-australian-alpine-regions"
+        },
+        {
+          "representativeTitle": "Brain Drain Impacts American Scientific Research Capacity Now",
+          "sources": [
+            "Google Science"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The American Brain Drain Claims Another Scientist",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSkpqbHFCNVQzMjZHQmxxMFh0cURkTHdBbi1BWklTTnVDSkl1SUxCd1RvV0U4bm9aRzdqSHY2WC1hZVlBQndrQ2llb0dRZGttRkFkNmxZWDM1aGhneG9QLUtvWl9CejljSGNLVFpERmVFSVpuUDAtYW05ekZ0NmlxUWpUSDNsNTgwaVdjX1hjeG4wMWdwM3owaFJ1U2p2VmM?oc=5",
+              "pubDate": "2026-11-08T02:00:19.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "brain-drain-impacts-american-scientific-research-capacity-now"
+        },
         {
           "representativeTitle": "New Universe Theory Passes Key Cosmological Tests",
           "sources": [
@@ -1919,6 +1939,28 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "rain-doubles-glacier-speeds-in-alaskan-region"
+        },
+        {
+          "representativeTitle": "NASA's Dragonfly Mission Targets Titan Exploration Now",
+          "sources": [
+            "Google Science"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Send your name to Saturn's moon Titan with NASA's upcoming Dragonfly mission",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZlp5VUpaeFNkS1REZ0NpRGtEX29qbF9aMjdfLUJIel9LdXFDa3R4ak9BYzFyeXluZlJ0WEEyNG1VdERWMEZMREdySHFxMWRROVRWQk90ZTJmOHNFMVdBUncycjYzbjd3SWczQ3YwcEN0LUZFdzVnTlhidkJQVzg5Z2FKQXc5MXlIM1gzOGlYcFFJaFA5MVNaUFdTdVVrVXBqVXZvX1RxQTQxaTMwWVpyQm1ST09pY29ibWg5cDFrUWVmS3A2a1puNWZoNGRabkk?oc=5",
+              "pubDate": "2026-11-07T15:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "nasas-dragonfly-mission-targets-titan-exploration-now"
         }
       ]
     }
