@@ -1,27 +1,36 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-11-09T23:51:36.750Z",
+  "lastUpdated": "2026-11-10T03:59:24.186Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "France Blames Iran Over Supermarket Cyberattacks",
+          "representativeTitle": "Iran Hacked French Supermarket Refrigerators; France Warns",
           "sources": [
             "BBC World",
+            "Al Jazeera",
             "France 24",
+            "SCMP",
             "Sky News",
             "Euronews",
             "Le Monde",
             "Google World"
           ],
-          "citationCount": 6,
+          "citationCount": 8,
           "rawArticles": [
             {
               "title": "France accuses Iran of supermarket fridge hacking",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-11-09T20:20:08.000Z",
+              "tier": 1
+            },
+            {
+              "title": "France blames Iran for October supermarket cyberattack",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss",
+              "pubDate": "2026-11-10T01:01:47.000Z",
               "tier": 1
             },
             {
@@ -32,11 +41,11 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "France accuses Iran of hacking supermarket fridges",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20261109-iran-revolutionary-guards-behind-cyberattacks-on-supermarket-fridges-says-french-fm-barrot",
-              "pubDate": "2026-11-09T16:42:07.000Z",
-              "tier": 1
+              "title": "France accuses Iran of cyberattacks on supermarket fridges",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3373845/french-officials-suspect-iran-behind-fridge-cyberattacks-sources-say",
+              "pubDate": "2026-11-09T16:42:10.000Z",
+              "tier": 2
             },
             {
               "title": "France blames Iran for massive cyber attack on supermarket fridges",
@@ -60,29 +69,147 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "France accuses Iran of supermarket fridge hacking",
+              "title": "Iran hacked hundreds of French supermarket refrigerators, France says",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzeFI0SDNQMm9ieHFIWGNtSFV6cEliY0dwOUhXNE9NODFkSTZKUktramxLV0ZHS1BaN3RZX1pTWEtsNmZxSVlBQTNfN2I0Rlk4NTlCdnRnUElYbUE?oc=5",
-              "pubDate": "2026-11-09T20:20:08.000Z",
+              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaDBnQlE3aDk3bFMwa25Ec21wc0ZRMWVMNmRoNUt3QVVqZWZGZUttOFYteURiaVZxa0RJbko3cmxKS1RBX3NtUHlsRmw0VDB4ZXdCTGZHR0ZVc2pVNHBoVVQzX01kQy03TVZrTV9XbWxvZEI1eUI2TjVDZFJnZFk3RHk3Rzk2czlzbUdQdlYtSERiVVVjOW05QXJhZ0pPT09UN1NIUU5STEd6eHEyZjRkd2FmQnI?oc=5",
+              "pubDate": "2026-11-10T03:44:38.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 95,
-          "slug": "france-blames-iran-over-supermarket-cyberattacks"
+          "relevance_score": 8,
+          "importance": 100,
+          "slug": "iran-hacked-french-supermarket-refrigerators-france-warns"
+        },
+        {
+          "representativeTitle": "Trump Claims Iran War Militarily Over After Qatar Meeting",
+          "sources": [
+            "BBC World",
+            "Al Jazeera",
+            "Sky News",
+            "Google World"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Trump says Iran war is 'effectively over' militarily with further strikes unlikely",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-10T02:38:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "After meeting Qatar PM, Trump calls Iran war ‘effectively over’ militarily",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm?traffic_source=rss",
+              "pubDate": "2026-11-09T22:31:19.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump believes Iran war 'militarily is effectively over'",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/positive-momentum-towards-end-to-iran-war-trump-says-13610128",
+              "pubDate": "2026-11-09T10:52:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump says Iran war is 'effectively over' militarily with further strikes unlikely",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZVGlrZGdkVXQyRXBjbUdDMVliNVZPR2l1eFFud2tLMnRGSlRmbmYtbnBpVGFfX1FqRkh0WGpMbHlfT1U3WjVkR21hNnJmRFdTcndqS2F1OE5EYXM?oc=5",
+              "pubDate": "2026-11-10T02:38:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 80,
+          "slug": "trump-claims-iran-war-militarily-over-after-qatar-meeting"
+        },
+        {
+          "representativeTitle": "Saudi Arabia intercepts missiles following Houthi attack.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss",
+              "pubDate": "2026-11-10T03:17:51.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Saudi Arabia reports new attack on key East-West pipeline",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/9/saudi-arabia-reports-new-attack-on-key-east-west-pipeline?traffic_source=rss",
+              "pubDate": "2026-11-09T22:10:52.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "saudi-arabia-intercepts-missiles-following-houthi-attack"
+        },
+        {
+          "representativeTitle": "Russia Strikes Threaten to Sever Ukraine in Half",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Russian strikes aim to cut Ukraine in half, Zelenskyy warns",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/efc3048c-c614-4d71-bf1b-e8cdce40722f?syn-25a6b1a6=1",
+              "pubDate": "2026-11-10T00:08:38.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "russia-strikes-threaten-to-sever-ukraine-in-half"
+        },
+        {
+          "representativeTitle": "Russia, Ukraine, US Meet Amid Battlefield Claims",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Russia, Ukraine and US to meet as Zelenskyy claims battlefield successes",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes?traffic_source=rss",
+              "pubDate": "2026-11-10T02:45:14.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "russia-ukraine-us-meet-amid-battlefield-claims"
         },
         {
           "representativeTitle": "Steel Plant Explosion Kills Seventeen People in Turkey",
           "sources": [
             "BBC World",
-            "Al Jazeera",
             "SCMP",
             "Euronews"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Turkey steel factory blast kills at least 17 people",
@@ -92,14 +219,7 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Explosion at Turkish steel plant kills at least 16 people",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/9/explosion-at-turkish-steel-plant-kills-at-least-16-people?traffic_source=rss",
-              "pubDate": "2026-11-09T19:58:40.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Anger as 17 killed in Turkey steel factory blast",
+              "title": "Explosion rips through steel plant in Turkey, killing at least 17",
               "source": "SCMP",
               "link": "https://www.scmp.com/news/world/europe/article/3373832/turkey-steel-factory-blast-kills-6",
               "pubDate": "2026-11-09T13:12:03.000Z",
@@ -124,166 +244,82 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.9,
           "relevance_score": 6,
-          "importance": 70,
+          "importance": 55,
           "slug": "steel-plant-explosion-kills-seventeen-people-in-turkey"
         },
         {
-          "representativeTitle": "Trump claims Iran conflict winding down after talks.",
-          "sources": [
-            "The Guardian",
-            "Al Jazeera"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Trump says US war in Iran ‘effectively over’ as he plays down escalation concerns",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/09/trump-iran-war",
-              "pubDate": "2026-11-09T22:58:31.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Trump says war on Iran ‘effectively over’ after talks with Qatar’s PM",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm?traffic_source=rss",
-              "pubDate": "2026-11-09T22:31:19.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "trump-claims-iran-conflict-winding-down-after-talks"
-        },
-        {
-          "representativeTitle": "French FM blames Iran for cyberattacks on fridges.",
-          "sources": [
-            "France 24",
-            "SCMP",
-            "IBTimes"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "🔴 Iran's Revolutionary Guards behind cyberattacks on supermarket fridges, says French FM",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/europe/20261109-iran-revolutionary-guards-behind-cyberattacks-on-supermarket-fridges-says-french-fm-barrot",
-              "pubDate": "2026-11-09T16:44:44.000Z",
-              "tier": 1
-            },
-            {
-              "title": "French officials accuse Iran of being behind fridge cyberattacks",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3373845/french-officials-suspect-iran-behind-fridge-cyberattacks-sources-say",
-              "pubDate": "2026-11-09T16:42:10.000Z",
-              "tier": 2
-            },
-            {
-              "title": "French Supermarkets Faced Repeated Cyberattacks. Officials Reportedly Suspect Iran Was Behind Them.",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/iranian-hackers-target-european-supermarket-freezers-3809563",
-              "pubDate": "2026-11-09T16:40:38.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "french-fm-blames-iran-for-cyberattacks-on-fridges"
-        },
-        {
-          "representativeTitle": "Pope Criticizes Argentina's Austerity Measures During Visit",
-          "sources": [
-            "The Guardian",
-            "Le Monde",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Pope Leo delivers stinging rebuke of Milei’s austerity measures during Argentina visit",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/09/pope-leo-argentina-visit-speech-javier-milei-austerity",
-              "pubDate": "2026-11-09T02:11:25.000Z",
-              "tier": 1
-            },
-            {
-              "title": "In Argentina, Pope Leo delivers stinging rebuke to Milei over austerity measures",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/11/09/in-argentina-pope-leo-delivers-stinging-rebuke-to-milei-over-austerity-measures_6775541_4.html",
-              "pubDate": "2026-11-09T04:05:06.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Pope Leo delivers veiled rebuke of austerity measures in predecessor’s homeland",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObGZQb2t3dmtrRk9rN2l1TWhaV1E0NWdsUFJNbzRCb3RPSWsxRnN5T0V5X2FCM0ZpWEtvd1NhcTVmTVYtWmZvQlNBbFpmMWV1VHR0STRzcHBEeHRlVkRQOEJIc0h6QmZWSndTLVh0M0hWYmFiOF9jYkpQNWVuS194S0tOQUNNR2s5VS00dUsydFh3amF2MHg1MEpURFdLWHNoNE1XejlYZUtXNnNxYUE?oc=5",
-              "pubDate": "2026-11-09T19:27:20.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 60,
-          "slug": "pope-criticizes-argentinas-austerity-measures-during-visit"
-        },
-        {
-          "representativeTitle": "Russia Strikes Threaten to Sever Ukraine in Half",
+          "representativeTitle": "Peace Board Warns of Gaza Humanitarian Emergency Now",
           "sources": [
             "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Russian strikes aim to cut Ukraine in half, Zelenskyy warns",
+              "title": "Trump’s Board of Peace warns of  ‘immediate humanitarian emergency’ in Gaza",
               "source": "FT International",
-              "link": "https://www.ft.com/content/efc3048c-c614-4d71-bf1b-e8cdce40722f?syn-25a6b1a6=1",
-              "pubDate": "2026-11-09T19:43:53.000Z",
+              "link": "https://www.ft.com/content/20dc125b-02e0-4bee-be43-16aa7f8185d9?syn-25a6b1a6=1",
+              "pubDate": "2026-11-09T23:51:16.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "World",
           "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "russia-strikes-threaten-to-sever-ukraine-in-half"
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "peace-board-warns-of-gaza-humanitarian-emergency-now"
         },
         {
-          "representativeTitle": "Qatar PM Meets Trump Discuss Ending Iran Conflict",
+          "representativeTitle": "Hormuz Flows Suggest Easing Global Market Tensions",
           "sources": [
-            "Al Jazeera",
-            "Sky News"
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Rising Fuel Flows Through Hormuz May Help Ease Strained Market",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-10/rising-fuel-flows-through-hormuz-may-help-ease-strained-market",
+              "pubDate": "2026-11-10T03:39:50.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "hormuz-flows-suggest-easing-global-market-tensions"
+        },
+        {
+          "representativeTitle": "Trump questions likelihood of new Iran attacks.",
+          "sources": [
+            "BBC US",
+            "Google US"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Qatar PM meets with Trump for talks on ending war on Iran",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/qatar-pm-meets-with-trump-for-talks-on-ending-war-on-iran?traffic_source=rss",
-              "pubDate": "2026-11-09T18:48:00.000Z",
+              "title": "Trump says Iran war is 'effectively over' militarily with further strikes unlikely",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-10T02:38:00.000Z",
               "tier": 1
             },
             {
-              "title": "'Positive momentum' towards end to Iran war, Trump says",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/positive-momentum-towards-end-to-iran-war-trump-says-13610128",
-              "pubDate": "2026-11-09T10:52:00.000Z",
+              "title": "Trump: New Iran attacks \"quite unlikely\"",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWmhpTVpNQWZvRlZVdVMtWFNXZldjWXhfVURkUDVZNmNyVENYU0JrN09FbVotWkozWEtxcjEwZ1liRGFwOHhzNlRCcjVWU2c2cUNERk9tSVBLdGZjUm5Yc0Fka3hSc0NpemV0d0pGYmVfMmF2S3NUV0FQeVBUclExeGtPTjdxQ2lXd1pn?oc=5",
+              "pubDate": "2026-11-10T01:17:06.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "qatar-pm-meets-trump-discuss-ending-iran-conflict"
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "trump-questions-likelihood-of-new-iran-attacks"
         },
         {
           "representativeTitle": "French PM Boosts Minimum Wage by One Point Six Percent",
@@ -334,7 +370,7 @@ export const newsData = {
               "title": "Isabel Letelier, a Chilean Voice for Human Rights, Has Died",
               "source": "NY Times",
               "link": "https://www.nytimes.com/2026/11/09/obituaries/isabel-letelier-dead.html",
-              "pubDate": "2026-11-09T23:26:57.000Z",
+              "pubDate": "2026-11-10T00:13:10.000Z",
               "tier": 1
             }
           ],
@@ -344,6 +380,66 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "chilean-human-rights-advocate-isabel-letelier-has-passed-away"
+        },
+        {
+          "representativeTitle": "ExxonMobil Deal Signals Potential Return to Venezuela",
+          "sources": [
+            "Bloomberg Markets",
+            "Google Stocks"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "ExxonMobil Signs Deal in Step Toward Re-Entering Venezuela",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-10/exxonmobil-signs-deal-in-step-toward-re-entering-venezuela",
+              "pubDate": "2026-11-10T00:01:34.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Exxon Takes First Step Toward Investing in Venezuela",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWW9IY0xQOGQtXzBTdnMxdUlXelVuT1NYMHNQcXRaNXdmYTMxZ2FtVTVxa0tQVWthNVFxdUNjUUczS0JZQUpuQ2kxZmswYml1VEItMkpvQmNBdXlHUWo2cGxlRy1TZ2RiOG9iSVNiWkhkN3JRWHpMVURUeUZfTnhFMC0zNnhoY045Wm4zbWx1elFaYTByWjJVYXBPclI5alAzZmpN?oc=5",
+              "pubDate": "2026-11-10T00:58:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "exxonmobil-deal-signals-potential-return-to-venezuela"
+        },
+        {
+          "representativeTitle": "Trump Claims Victory Over Iran Conflict Escalation",
+          "sources": [
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Iran live updates: Trump says Hegseth has 'won the war in Iran'",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/International/live-updates/iran-live-updates-americans-tired-forever-wars-araghchi/?id=137967256",
+              "pubDate": "2026-11-09T22:33:32.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Hegseth impeachment efforts, Congress latest: Live updates",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdTg1d0p6bUlOQnpCWndYSEhCY0pDZWVsME5XZEYzS01nQ3Nzb1B1MUc1R0w1aGozUG16bUxuNnlrNkY1MmVhSlNFRWdLc3FoSWRIYkpSck5vWmJhalFLRlIyV2JVaG1NOC1mc0Yya3NDN1E4b2lUcVllU1BKUFI0RjdoVUk5ZWR1?oc=5",
+              "pubDate": "2026-11-10T03:13:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "trump-claims-victory-over-iran-conflict-escalation"
         },
         {
           "representativeTitle": "Millions Gather in Buenos Aires for Pope's Visit",
@@ -376,48 +472,26 @@ export const newsData = {
           "slug": "millions-gather-in-buenos-aires-for-popes-visit"
         },
         {
-          "representativeTitle": "Pope Meets Survivors Regarding Clergy Abuse in Argentina",
+          "representativeTitle": "Demolitions leave families homeless in Harare.",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Pope meets with clergy abuse survivors in Argentina",
+              "title": "Harare demolitions leave families homeless after years of building",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/9/pope-meets-with-clergy-abuse-survivors-in-argentina?traffic_source=rss",
-              "pubDate": "2026-11-09T22:14:37.000Z",
+              "link": "https://www.aljazeera.com/news/2026/11/10/harare-demolitions-leave-families-homeless-after-years-of-building?traffic_source=rss",
+              "pubDate": "2026-11-10T02:48:19.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "pope-meets-survivors-regarding-clergy-abuse-in-argentina"
-        },
-        {
-          "representativeTitle": "Russia rations fuel following Ukrainian refinery strikes.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Russia rations petrol after new Ukrainian strikes on refineries",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/ae06452b-3447-4fee-bd94-355cd324d1c5?syn-25a6b1a6=1",
-              "pubDate": "2026-11-09T16:37:52.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "russia-rations-fuel-following-ukrainian-refinery-strikes"
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "demolitions-leave-families-homeless-in-harare"
         },
         {
           "representativeTitle": "President's Influence Linked to Bank's Rise and Fall",
@@ -502,36 +576,6 @@ export const newsData = {
           "slug": "sa-election-results-signal-major-political-shift-for-anc"
         },
         {
-          "representativeTitle": "Polish Leaders Honor Victims of Kraków Shooting Incident",
-          "sources": [
-            "Al Jazeera",
-            "Euronews"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Krakow shooting suspect dies as Poland mourns six victims",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/krakow-shooting-suspect-dies-as-poland-mourns-six-victims?traffic_source=rss",
-              "pubDate": "2026-11-09T18:12:46.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Poland: Tusk and Nawrocki honour six victims of Kraków shooting",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/video/2026/11/09/poland-tusk-and-nawrocki-honour-six-victims-of-krakow-shooting",
-              "pubDate": "2026-11-09T21:34:14.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "polish-leaders-honor-victims-of-krakw-shooting-incident"
-        },
-        {
           "representativeTitle": "Armed Group Strikes Back in Colombia After US Targeting",
           "sources": [
             "NY Times"
@@ -552,36 +596,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "armed-group-strikes-back-in-colombia-after-us-targeting"
-        },
-        {
-          "representativeTitle": "Cyprus rivals agree on more crossings across divide.",
-          "sources": [
-            "Al Jazeera",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Cyprus rivals agree new crossings across island’s dividing line",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/9/cyprus-rivals-agree-new-crossings-across-islands-dividing-line?traffic_source=rss",
-              "pubDate": "2026-11-09T20:50:20.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Ethnically split Cyprus’ rival leaders agree to 2 more crossings across island’s dividing line",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMGlOUF9QSmdLRTJyZ2xwOURVSWdhWW80cDcxZzR4NmVvRTlSWTBGZ0kxTlJPOTFSalY2SE5EZUNEMFhlM2MtUkExbFNhZWFpZzBRdmlCZjlaVno5LXdydjY2TkV1SldSbHEwSjZoenlSeThFVXZfWGtfSlRaanZQWXRnd2hBbTVIZ3BReUI4X0xHQmpKdzJyS0ZGM3FTVk1lSDRpYmdFaC02am5B?oc=5",
-              "pubDate": "2026-11-09T15:34:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "cyprus-rivals-agree-on-more-crossings-across-divide"
         },
         {
           "representativeTitle": "France Blames Iran For Grocery Store Hacking Attacks",
@@ -606,48 +620,114 @@ export const newsData = {
           "slug": "france-blames-iran-for-grocery-store-hacking-attacks"
         },
         {
-          "representativeTitle": "France Blames Iran For Supermarket Cyber Attacks",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "France accuses Iran of cyber attacks on supermarket refrigerators",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/176ad787-59af-4900-9efc-8b6f9a247255?syn-25a6b1a6=1",
-              "pubDate": "2026-11-09T18:31:21.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "france-blames-iran-for-supermarket-cyber-attacks"
-        },
-        {
-          "representativeTitle": "Kiwi's Gains Continue Following Recent Election Outcome",
+          "representativeTitle": "Singapore Offers Gold Vaulting Services to Central Banks",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Kiwi Extends Gains to Most in Seven Months After Election Result",
+              "title": "Singapore Launches Gold Vaulting Service for Central Banks",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-09/kiwi-extends-gains-to-most-in-seven-months-after-election-result",
-              "pubDate": "2026-11-09T22:50:15.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-10/singapore-launches-gold-vaulting-service-for-central-banks",
+              "pubDate": "2026-11-10T03:00:10.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "World",
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "kiwis-gains-continue-following-recent-election-outcome"
+          "slug": "singapore-offers-gold-vaulting-services-to-central-banks"
+        },
+        {
+          "representativeTitle": "Amnesty Questions El Salvador's Haiti Troop Deployment Terms",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Amnesty urges El Salvador to disclose terms of Haiti troop deployment",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/americas/20261110-amnesty-urges-el-salvador-to-disclose-terms-of-haiti-troop-deployment",
+              "pubDate": "2026-11-10T02:24:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "amnesty-questions-el-salvadors-haiti-troop-deployment-terms"
+        },
+        {
+          "representativeTitle": "China Water Sector Seeks Major Loan Restructuring Funds",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China Water Environment Seeks $410 Million Loan Restructuring",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-10/china-water-environment-seeks-410-million-loan-restructuring",
+              "pubDate": "2026-11-10T01:51:14.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "china-water-sector-seeks-major-loan-restructuring-funds"
+        },
+        {
+          "representativeTitle": "Exxon Strikes Deal to Re-enter Venezuelan Oil Market",
+          "sources": [
+            "NY Times"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Exxon Strikes Preliminary Deal to Return to Venezuela",
+              "source": "NY Times",
+              "link": "https://www.nytimes.com/2026/11/09/business/energy-environment/exxon-mobil-venezuela-oil-deal.html",
+              "pubDate": "2026-11-10T00:51:53.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "exxon-strikes-deal-to-re-enter-venezuelan-oil-market"
+        },
+        {
+          "representativeTitle": "Japan's Preparation Signals Global Priorities Moving Forward",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Japan can tell the world what really matters when prepping",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/559a8eeb-0e91-4920-8321-5066f81ea015?syn-25a6b1a6=1",
+              "pubDate": "2026-11-10T00:47:30.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "japans-preparation-signals-global-priorities-moving-forward"
         },
         {
           "representativeTitle": "Trump claims positive momentum toward ending Iran conflict.",
@@ -691,14 +771,21 @@ export const newsData = {
               "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
               "source": "BBC US",
               "link": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-09T23:45:14.000Z",
+              "pubDate": "2026-11-10T01:38:49.000Z",
               "tier": 1
             },
             {
               "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-09T23:45:14.000Z",
+              "pubDate": "2026-11-10T01:38:49.000Z",
+              "tier": 1
+            },
+            {
+              "title": "US congressman files resolution to impeach Defence Secretary Pete Hegseth",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/9/us-congressman-files-resolution-to-impeach-defence-secretary-pete-hegseth?traffic_source=rss",
+              "pubDate": "2026-11-09T23:53:03.000Z",
               "tier": 1
             },
             {
@@ -738,7 +825,67 @@ export const newsData = {
           "slug": "congress-moves-to-impeach-defense-secretary-hegseth"
         },
         {
-          "representativeTitle": "Trump Claims FBI Investigating Nvidia CEO's Ties",
+          "representativeTitle": "Trump Claims FBI Probe Involves Nvidia CEO Affair",
+          "sources": [
+            "BBC World",
+            "Al Jazeera",
+            "France 24",
+            "Sky News"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-10T03:58:13.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-09T19:58:01.000Z",
+              "tier": 1
+            },
+            {
+              "title": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-09T07:10:11.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Trump says FBI probing Nvidia CEO Huang’s affair with alleged spy",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/economy/2026/11/10/trump-says-fbi-probing-nvidia-ceos-affair-with-alleged-spy?traffic_source=rss",
+              "pubDate": "2026-11-10T00:44:28.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Nvidia shares slide as board probes CEO over affair with alleged Chinese spy",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261110-nvidia-shares-slide-as-board-probes-ceo-over-affair-with-alleged-chinese-spy",
+              "pubDate": "2026-11-10T00:22:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "FBI investigating Nvidia CEO over affair with alleged Chinese spy",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/fbi-to-investigate-nvidia-ceo-over-affair-with-alleged-chinese-spy-trump-says-13610382",
+              "pubDate": "2026-11-10T02:06:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 100,
+          "slug": "trump-claims-fbi-probe-involves-nvidia-ceo-affair"
+        },
+        {
+          "representativeTitle": "Trump claims FBI probes Nvidia CEO's China ties",
           "sources": [
             "BBC US",
             "Washington Post",
@@ -764,7 +911,7 @@ export const newsData = {
               "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
               "source": "BBC US",
               "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-09T15:46:20.000Z",
+              "pubDate": "2026-11-09T23:51:22.000Z",
               "tier": 1
             },
             {
@@ -782,7 +929,7 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Trump says FBI is investigating Nvidia CEO Jensen Huang’s relationship with alleged Chinese spy",
+              "title": "Trump says FBI is investigating Nvidia CEO’s relationship with alleged Chinese spy",
               "source": "NBC News",
               "link": "https://www.nbcnews.com/business/corporations/trump-fbi-probe-nvidia-jensen-huang-spy-rcna608439",
               "pubDate": "2026-11-09T22:25:07.000Z",
@@ -794,18 +941,63 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 95,
-          "slug": "trump-claims-fbi-investigating-nvidia-ceos-ties"
+          "slug": "trump-claims-fbi-probes-nvidia-ceos-china-ties"
         },
         {
-          "representativeTitle": "Supreme Court allows Trump border wall construction in Texas.",
+          "representativeTitle": "Judge denies dismissal in Clancy murder case proceedings.",
+          "sources": [
+            "BBC US",
+            "Google US",
+            "BBC World",
+            "SCMP"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Judge denies motion to dismiss Lindsay Clancy's murder case",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/ck1l3le7q29vo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-09T23:28:53.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Judge denies motion to dismiss Lindsay Clancy's murder case",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oQVBpTHcxeUw5dVhlSmE1NWpaLWM4SGdGcEFKUllmMWdTLTVyMTBpTmVnemtjSnNwczM2LW5EX0Z0N2RkdC1aMy1qazI1cjhtbEg1eWxVTFRXOHM?oc=5",
+              "pubDate": "2026-11-09T23:28:53.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Judge denies motion to dismiss Lindsay Clancy's murder case",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/ck1l3le7q29vo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-09T23:28:53.000Z",
+              "tier": 1
+            },
+            {
+              "title": "US mother Lindsay Clancy faces retrial after bid to dismiss murder case fails",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3373851/judge-denies-lindsay-clancys-motion-dismiss-charges-deaths-her-3-children",
+              "pubDate": "2026-11-09T21:42:15.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 70,
+          "slug": "judge-denies-dismissal-in-clancy-murder-case-proceedings"
+        },
+        {
+          "representativeTitle": "Supreme Court Allows Trump Wall Construction in Big Bend",
           "sources": [
             "Washington Post",
             "NBC News",
             "NPR",
-            "ABC News Top",
             "Google US"
           ],
-          "citationCount": 5,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "Supreme Court allows major part of Trump’s border security project in Texas",
@@ -829,55 +1021,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Supreme Court lifts pause on border construction in Big Bend, Texas",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/Politics/supreme-court-lifts-pause-border-construction-big-bend/story?id=137988610",
-              "pubDate": "2026-11-09T22:16:11.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Supreme Court paves way for Trump to build a section of his border wall in the Big Bend area of Texas",
+              "title": "Supreme Court Allows Construction of Trump’s Border Wall in Big Bend",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcnk2bHNkaTJLbFNVcWZtcVZlbUtfcnFCZktRbHFoNFZGamhYaHVycG5DOVUtakRSRFhBWENqZ3drc3UtRGoxOFB1TW13LTJtOFJ5M0xfT1g5MDdCdFVGYjlrNVlhUUh3Qml0Y0tUWVpQS3llbkNxc3NDZ3FFNDZVQXpaMDdDMV9ER0w1eVZkX09yQWMxVjhtanp2V1BMeWkzOWt2LTdRbw?oc=5",
-              "pubDate": "2026-11-09T22:55:29.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 75,
-          "slug": "supreme-court-allows-trump-border-wall-construction-in-texas"
-        },
-        {
-          "representativeTitle": "Judge denies dismissal in Clancy murder case proceedings.",
-          "sources": [
-            "BBC US",
-            "BBC World",
-            "SCMP"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Judge denies motion to dismiss Lindsay Clancy's murder case",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/ck1l3le7q29vo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-09T23:28:53.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Judge denies motion to dismiss Lindsay Clancy's murder case",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ck1l3le7q29vo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-09T23:28:53.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US judge denies Lindsay Clancy’s motion to dismiss charges in the deaths of her 3 children",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3373851/judge-denies-lindsay-clancys-motion-dismiss-charges-deaths-her-3-children",
-              "pubDate": "2026-11-09T21:42:15.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQXRJdHFlR3B5SDg0Y1BBTlE3WVRmX1BnRU4xYjAtTUNHMXN6em1TY05MbHRwQmJabkkzSUowQ0c0MVRfekowZ21va0ppQld1T2JkM0pCOXlSNUJsNnJqNkFwbGFFRUJhUUlsZlM0UmxHbThKbENaOXV1OS1YTkxPaTNFQm5VbmtWaHY4?oc=5",
+              "pubDate": "2026-11-10T01:34:09.000Z",
               "tier": 2
             }
           ],
@@ -885,17 +1032,46 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 65,
-          "slug": "judge-denies-dismissal-in-clancy-murder-case-proceedings"
+          "importance": 60,
+          "slug": "supreme-court-allows-trump-wall-construction-in-big-bend"
+        },
+        {
+          "representativeTitle": "California Voters Reject Proposed Billionaire Wealth Tax",
+          "sources": [
+            "The Guardian",
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "California voters fail to pass proposed one-time tax on billionaires’ wealth",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/nov/09/california-tax-billionaires-prop-40",
+              "pubDate": "2026-11-10T02:54:54.000Z",
+              "tier": 1
+            },
+            {
+              "title": "California voters reject proposed one-time tax on billionaires' wealth",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+              "pubDate": "2026-11-10T03:19:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 60,
+          "slug": "california-voters-reject-proposed-billionaire-wealth-tax"
         },
         {
           "representativeTitle": "Dana White declines Trump's press secretary offer.",
           "sources": [
             "BBC World",
-            "France 24",
-            "SCMP"
+            "France 24"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Dana White declines Trump’s offer to be White House press secretary",
@@ -910,97 +1086,95 @@ export const newsData = {
               "link": "https://www.france24.com/en/tv-shows/truth-or-fake/20261109-trump-says-he-was-kidding-about-dana-white-press-secretary-job-amid-online-mix-up-claims",
               "pubDate": "2026-11-09T20:51:32.000Z",
               "tier": 1
-            },
-            {
-              "title": "Trump says ‘only kidding’ about naming UFC’s Dana White as press secretary",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3373723/trump-says-only-kidding-about-naming-ufcs-dana-white-press-secretary",
-              "pubDate": "2026-11-09T00:38:23.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
           "sentiment": 0,
           "relevance_score": 6,
-          "importance": 65,
+          "importance": 60,
           "slug": "dana-white-declines-trumps-press-secretary-offer"
         },
         {
-          "representativeTitle": "Killer's Trial Date Set For June Two Thousand Twenty-Eight",
+          "representativeTitle": "California Voters Reject Billionaire Tax Proposal Effort",
           "sources": [
             "BBC US",
-            "NBC News",
-            "ABC News Top",
-            "Google US"
+            "NBC News"
           ],
-          "citationCount": 4,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Trial date of alleged Charlie Kirk killer set for June 2028",
+              "title": "Californians reject wealth tax for billionaires",
               "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cq0mem8d2p3xo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-09T21:48:38.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/cq398em3032wo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-10T03:34:46.000Z",
               "tier": 1
             },
             {
-              "title": "Utah judge schedules 2028 trial for man accused of assassinating Charlie Kirk",
+              "title": "California voters reject new tax on billionaires in a blow to the left",
               "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/tyler-robinson-trial-date-accused-charlie-kirk-assassin-stand-trial-su-rcna608314",
-              "pubDate": "2026-11-09T21:23:37.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trial for man accused of murdering Charlie Kirk set to begin in mid-2028, judge rules",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/judge-expected-set-trial-date-man-accused-murdering/story?id=137916405",
-              "pubDate": "2026-11-09T20:43:34.000Z",
-              "tier": 2
-            },
-            {
-              "title": "A Utah judge is expected to set a trial date in Charlie Kirk’s killing",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbmM5Mi0zaTVvYW9aLXpEUWJmLVgyLXJHTDBCVE9PMFpSRmNQaHhhejFXN2tmZTBhVFRndUFveGJEb0pPeWZGUDdvOHBWaDEtUm02RnpKUVBxUjZDMXlsNlFQRUtydEZ2Y1I2SGl3Q2RITmFwVjBsbklSSmJzZ1lPYkVfQkpJQnczaGJpbDB2aS1FbmkxU1ZR?oc=5",
-              "pubDate": "2026-11-09T05:00:00.000Z",
+              "link": "https://www.nbcnews.com/politics/2026-election/california-reject-billionaire-tax-ballot-measure-prop-40-rcna603382",
+              "pubDate": "2026-11-10T02:36:09.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "killers-trial-date-set-for-june-two-thousand-twenty-eight"
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "california-voters-reject-billionaire-tax-proposal-effort"
         },
         {
-          "representativeTitle": "Suspect Faces Trial Over Alleged Killing of Kirk",
+          "representativeTitle": "Democrats React to Hegseth Impeachment Bid Developments",
           "sources": [
-            "BBC World",
-            "The Guardian"
+            "Al Jazeera"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trial date of alleged Charlie Kirk killer set for June 2028",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cq0mem8d2p3xo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-09T21:48:38.000Z",
+              "title": "Newly-elected Democrats react to Hegseth impeachment bid",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/newly-elected-democrats-react-to-hegseth-impeachment-bid?traffic_source=rss",
+              "pubDate": "2026-11-10T03:16:44.000Z",
               "tier": 1
             },
             {
-              "title": "Suspect in Charlie Kirk killing to stand trial for murder in July 2028",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/09/charlie-kirk-murder-trial",
-              "pubDate": "2026-11-09T20:55:57.000Z",
+              "title": "Trump, Rubio defend Hegseth as impeachment bid nears",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/9/trump-rubio-defend-hegseth-as-impeachment-bid-nears?traffic_source=rss",
+              "pubDate": "2026-11-09T23:47:11.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 6,
-          "importance": 60,
-          "slug": "suspect-faces-trial-over-alleged-killing-of-kirk"
+          "importance": 55,
+          "slug": "democrats-react-to-hegseth-impeachment-bid-developments"
+        },
+        {
+          "representativeTitle": "Political Feud Intensifies: Impeachment Looms Amid Conflict",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Hegseth Hits Out at Critics as Massie Pushes Impeachment",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-10/hegseth-hits-out-at-critics-as-massie-pushes-impeachment-video",
+              "pubDate": "2026-11-10T02:49:21.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "political-feud-intensifies-impeachment-looms-amid-conflict"
         },
         {
           "representativeTitle": "Trump Questions Midterm Election Results Amid Political Turmoil",
@@ -1033,26 +1207,77 @@ export const newsData = {
           "slug": "trump-questions-midterm-election-results-amid-political-turmoil"
         },
         {
-          "representativeTitle": "Supreme Court allows wall construction in Texas park.",
+          "representativeTitle": "Senate advances bill covering gas and clean energy.",
           "sources": [
-            "FT International"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Supreme Court lets Trump build border wall through Texas national park",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/426452cc-61cd-4f68-9fe0-b28161ecffac?syn-25a6b1a6=1",
-              "pubDate": "2026-11-09T23:14:29.000Z",
+              "title": "Senate advances bill to speed up projects from gas pipelines to clean energy",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/nov/09/senate-energy-infrastructure-bill-vote",
+              "pubDate": "2026-11-10T02:28:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Senate advances bill to speed up permit reviews for infrastructure projects",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/nov/09/senate-advances-bill-energy-projects",
+              "pubDate": "2026-11-10T01:03:14.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "senate-advances-bill-covering-gas-and-clean-energy"
+        },
+        {
+          "representativeTitle": "Trump Claims FBI Probe Involves Nvidia Executive Affair",
+          "sources": [
+            "BBC Business",
+            "Google Stocks"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+              "source": "BBC Business",
+              "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-10T03:58:13.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+              "source": "BBC Business",
+              "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-09T19:58:01.000Z",
+              "tier": 2
+            },
+            {
+              "title": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
+              "source": "BBC Business",
+              "link": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-09T07:10:11.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VYUxyVHdHSk13YlNwc0JfajNMejBiRVAwYzJPbGl1cG9fZUlsUFZOSHNhWVJodHBFYTR3dFBraWlUbVd2cTl5Vl81cjhlS21RR1hoM0x4dWI4bk0?oc=5",
+              "pubDate": "2026-11-10T01:44:53.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Stocks",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "supreme-court-allows-wall-construction-in-texas-park"
+          "importance": 50,
+          "slug": "trump-claims-fbi-probe-involves-nvidia-executive-affair"
         },
         {
           "representativeTitle": "Court may limit prisoner medical malpractice lawsuits.",
@@ -1107,34 +1332,109 @@ export const newsData = {
           "slug": "trump-claims-nvidia-ceo-ignored-spy-allegations"
         },
         {
-          "representativeTitle": "Trump admits immigration policy contributed to losses.",
+          "representativeTitle": "Dana White speaks at Trump's White House briefing.",
           "sources": [
             "BBC US",
-            "ABC News Top"
+            "Fox News"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Trump says immigration crackdown was 'too tough' and played part in midterms defeat",
+              "title": "Dana White declines Trump’s offer to be White House press secretary",
               "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cmg476w7wnl2o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-09T01:51:44.000Z",
+              "link": "https://www.bbc.co.uk/news/videos/cwm2328pyy1jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-09T22:46:27.000Z",
               "tier": 1
             },
             {
-              "title": "Trump says 'too tough' deportation policies hurt him in the midterms",
+              "title": "Trump says he was 'kidding' about Dana White press secretary offer",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/ck0j0j87959eo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-09T08:49:17.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Dana White takes questions at podium during White House briefing with Trump",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/politics/dana-white-takes-questions-podium-during-white-house-briefing-trump",
+              "pubDate": "2026-11-09T22:24:33.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 50,
+          "slug": "dana-white-speaks-at-trumps-white-house-briefing"
+        },
+        {
+          "representativeTitle": "NTSB Recovers Recorder From Florida Crash Site",
+          "sources": [
+            "Fox News",
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "NTSB recovers cockpit voice recorder from Learjet crash site in Florida",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/us/ntsb-recovers-cockpit-voice-recorder-learjet-crash-site-florida",
+              "pubDate": "2026-11-10T02:08:49.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Investigators recover the voice recorder from a jet crash in Florida that killed 9",
               "source": "ABC News Top",
-              "link": "https://abcnews.com/US/trump-tough-deportation-policies-hurt-midterms/story?id=137963657",
-              "pubDate": "2026-11-09T09:22:00.000Z",
+              "link": "https://abcnews.com/Business/wireStory/investigators-recover-voice-recorder-jet-crash-florida-killed-137995963",
+              "pubDate": "2026-11-10T00:54:09.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Investigators recover cockpit voice recorder from fatal Learjet crash site",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0yMmhMLVNOTXFrTWplR1dWbFprNlhGdklrSE9xa3Z2ajV1Y18yU2VxSnJMU2tReUpZTjFUbUxhSG5hTF8zTXJfc19tTHo4UFRJOWJ0YnJvRzA0cm55b1FVQXQxalRZV1dDZXpLY0U1c1BZOThNR2k5dWdn?oc=5",
+              "pubDate": "2026-11-09T23:10:47.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "trump-admits-immigration-policy-contributed-to-losses"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ntsb-recovers-recorder-from-florida-crash-site"
+        },
+        {
+          "representativeTitle": "Killer's Trial Date Set For June Two Thousand Twenty-Eight",
+          "sources": [
+            "BBC US",
+            "NBC News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Trial date of alleged Charlie Kirk killer set for June 2028",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cq0mem8d2p3xo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-09T21:48:38.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Utah judge schedules 2028 trial for man accused of assassinating Charlie Kirk",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/tyler-robinson-trial-date-accused-charlie-kirk-assassin-stand-trial-su-rcna608314",
+              "pubDate": "2026-11-09T21:23:37.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "killers-trial-date-set-for-june-two-thousand-twenty-eight"
         },
         {
           "representativeTitle": "Trump Questions Election Integrity Despite Past Acceptance",
@@ -1159,117 +1459,48 @@ export const newsData = {
           "slug": "trump-questions-election-integrity-despite-past-acceptance"
         },
         {
-          "representativeTitle": "Congressman Files Impeachment Articles Against Defense Secretary",
+          "representativeTitle": "Political Party Drops Candidate Over Hitler Remarks",
           "sources": [
-            "NBC News",
-            "NPR",
-            "Google US"
+            "The Guardian"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Rep. Massie unveils impeachment articles against Defense Secretary Hegseth",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/now/video/rep-massie-unveils-impeachment-articles-against-defense-secretary-hegseth-273150021848",
-              "pubDate": "2026-11-09T20:14:59.000Z",
-              "tier": 2
-            },
-            {
-              "title": "GOP Rep. Thomas Massie files impeachment articles against Pete Hegseth",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/trump-administration/thomas-massie-pete-hegseth-impeachment-house-defense-rcna597989",
-              "pubDate": "2026-11-09T19:29:34.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Thomas Massie files articles of impeachment against Defense Secretary Pete Hegseth",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth",
-              "pubDate": "2026-11-09T20:52:24.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Thomas Massie files articles of impeachment against Defense Secretary Pete Hegseth",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVEVycllJNF9meEdQNkVKeTZLWjRmX2t1U3luV3otVkhWbkJPYVNQYl93X3FEUGdrYl9vaXBDT2JBWENBRFlwTlczOHdpbURZMk1fTjc1XzlTcTNWZ1RsZkRqMVhkTnZGMzFWanpYS1NvY2Y0RWFBRG1CeHUzMG56M05DMFZBbGlqZDZJ?oc=5",
-              "pubDate": "2026-11-09T22:34:42.000Z",
-              "tier": 2
+              "title": "One Nation dumps Victorian election candidate who praised Adolf Hitler as ‘GOAT’",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/nov/10/one-nation-dumps-franco-guardiani-praised-hitler-victoria-elections-ntwnfb",
+              "pubDate": "2026-11-10T03:33:55.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "congressman-files-impeachment-articles-against-defense-secretary"
+          "slug": "political-party-drops-candidate-over-hitler-remarks"
         },
         {
-          "representativeTitle": "SCOTUS Allows Border Construction in Texas Big Bend",
+          "representativeTitle": "Accused denies stalking amid ongoing murder trial proceedings.",
           "sources": [
-            "Fox News",
-            "ABC News US"
+            "The Guardian"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "SCOTUS allows Trump admin to temporarily resume border construction in Texas' Big Bend",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/scotus-allows-trump-admin-temporarily-resume-border-construction-texas-big-bend",
-              "pubDate": "2026-11-09T21:01:08.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Court clears the way for border wall construction in Texas’s Big Bend to resume",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/supreme-court-clears-border-wall-construction-texass-big-137987366",
-              "pubDate": "2026-11-09T20:58:26.000Z",
-              "tier": 2
+              "title": "Beau Lamarre-Condon denies stalking Jesse Baird as double murder trial continues",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/nov/10/beau-lamarre-condon-murder-trial-ntwnfb",
+              "pubDate": "2026-11-10T03:07:17.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "scotus-allows-border-construction-in-texas-big-bend"
-        },
-        {
-          "representativeTitle": "FBI Investigates Homicide on Cruise Ship in Texas",
-          "sources": [
-            "NBC News",
-            "Fox News",
-            "Google US"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "FBI is investigating a possible homicide on a  cruise ship that left Texas",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/fbi-investigating-possible-homicide-cruise-ship-left-texas-rcna608423",
-              "pubDate": "2026-11-09T21:40:36.000Z",
-              "tier": 2
-            },
-            {
-              "title": "FBI investigates suspected homicide aboard MSC Seascape cruise ship after sudden return to Texas",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/us/fbi-investigates-suspected-homicide-aboard-msc-seascape-cruise-ship-sudden-return-texas",
-              "pubDate": "2026-11-09T20:15:41.000Z",
-              "tier": 2
-            },
-            {
-              "title": "FBI investigates suspected homicide aboard MSC Seascape cruise ship after sudden return to Texas",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRll5Q2ZOUEVIRnNkOWZqYm0wSGpFcUhOVGpuTVZySmI5Q0ZScTZvaGVSU1JCVDJQWGNobWVteVAtblowZUFkTWZRTzQ2cV8zTWlHaHdyNHdoMnNjdl9UNENTaEk0a3ZiWE5QeTI0Y1h1TnFFTDJvVFJTUnlNVEtjNkdBU2lzcG5hSEhfenJVdkI2Wm5UMFRXS1lwTjd6Ni1semxHWWU3aDJpRHgxejBXWXRfdXjSAboBQVVfeXFMTzBjS1ktQzItS2FZTzdHR3lqRlhnRWI5N2U5N1JILVZhY0w5LUhET0N2aExjakFlTDBkRlYza04wdG1QdzVjUWJzbC1ETXgzeFdRZzFVRFExMU01ZW4xRnktLVBSQS1HSjN1cWIxUld6VGlmUlZOZ1F5WDNnWUhFNzBxVFQtR1Y2VzJjeGcwcWIzU3VISU1QY01DS0E0U2pUUWh3Q1NfTjc5M0h5NGdOUWxrck5Ha2VzYVJR?oc=5",
-              "pubDate": "2026-11-09T20:15:41.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "fbi-investigates-homicide-on-cruise-ship-in-texas"
+          "slug": "accused-denies-stalking-amid-ongoing-murder-trial-proceedings"
         },
         {
           "representativeTitle": "Trump Defends Ally Amid Impeachment Efforts Escalation",
@@ -1279,10 +1510,10 @@ export const newsData = {
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Donald Trump doubles down on defense of Pete Hegseth and attacks fresh effort to impeach him – live",
+              "title": "Donald Trump doubles down on defense of Pete Hegseth and attacks fresh effort to impeach him – as it happened",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/us-news/live/2026/nov/09/donald-trump-stephen-miller-immigration-midterms-iran-qatar-economy-latest-news-updates",
-              "pubDate": "2026-11-09T23:29:01.000Z",
+              "pubDate": "2026-11-10T03:00:40.000Z",
               "tier": 1
             }
           ],
@@ -1294,26 +1525,64 @@ export const newsData = {
           "slug": "trump-defends-ally-amid-impeachment-efforts-escalation"
         },
         {
-          "representativeTitle": "Supreme Court Allows Border Wall Construction in Park",
+          "representativeTitle": "University Investigates Fraternity After Fire Video Surfaces",
           "sources": [
-            "Al Jazeera"
+            "NBC News",
+            "Google US"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "US Supreme Court allows border wall in Big Bend National Park to proceed",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/9/us-supreme-court-allows-border-wall-in-big-bend-national-park-to-proceed?traffic_source=rss",
-              "pubDate": "2026-11-09T23:15:19.000Z",
-              "tier": 1
+              "title": "Ohio State University investigating fraternity after video appears to show two people on fire",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/ohio-state-university-investigating-fraternity-video-appears-show-two-rcna608313",
+              "pubDate": "2026-11-09T18:07:12.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Ohio State suspends fraternity while investigating a video showing men engulfed in flames",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN3RzZXdLM2Z1eWpsd09YYVdIT3RKVDVKVmI1QWtIUDJWVDZ3WGZGRkZKQ1VQdVRKZmM2NDZIVG03ZWtMY1RReVYxazdwVEV2Q0dPVFBpV051TnBLNUZ1ZGtWejJVajVaTVVUWnl0VUYtRXRwcnRSVEJ6MUZJT05OVWUtSko0SU8xTHlTX193?oc=5",
+              "pubDate": "2026-11-09T22:14:00.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
+          "sentiment": -0.9,
+          "relevance_score": 7,
           "importance": 45,
-          "slug": "supreme-court-allows-border-wall-construction-in-park"
+          "slug": "university-investigates-fraternity-after-fire-video-surfaces"
+        },
+        {
+          "representativeTitle": "California Voters Reject Proposed Billionaire Tax Measure",
+          "sources": [
+            "NPR",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "California voters defeat billionaire tax proposal that divided Democrats",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/09/g-s1-151625/california-billionaire-tax-referendum",
+              "pubDate": "2026-11-10T03:05:39.000Z",
+              "tier": 2
+            },
+            {
+              "title": "California Voters Reject Prop. 40 Billionaire Tax Measure",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNblhVQkFPV2doMWVtV2djUGtQckRRYmxWbDZQNmR6OVlPNVUyY2dIbjFzZUJMOW9mWXh5WU10Y1VReVFnTVJRRUczU2NjVkE3NmFJVFUxbTRpMlFLR0FFMVp4X3p1YkZVb29ua1dyaXJ2UkdYNFhPWmNfdy1tQks4eG5RYw?oc=5",
+              "pubDate": "2026-11-10T02:37:46.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "california-voters-reject-proposed-billionaire-tax-measure"
         },
         {
           "representativeTitle": "Lawmaker Moves to Impeach Defense Secretary Hegseth",
@@ -1358,36 +1627,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "new-jersey-town-suffers-major-financial-theft-loss"
-        },
-        {
-          "representativeTitle": "University Investigates Fraternity After Fire Video Surfaces",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Ohio State University investigating fraternity after video appears to show two people on fire",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/ohio-state-university-investigating-fraternity-video-appears-show-two-rcna608313",
-              "pubDate": "2026-11-09T18:07:12.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Ohio State suspends fraternity while investigating a video showing men engulfed in flames",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN3RzZXdLM2Z1eWpsd09YYVdIT3RKVDVKVmI1QWtIUDJWVDZ3WGZGRkZKQ1VQdVRKZmM2NDZIVG03ZWtMY1RReVYxazdwVEV2Q0dPVFBpV051TnBLNUZ1ZGtWejJVajVaTVVUWnl0VUYtRXRwcnRSVEJ6MUZJT05OVWUtSko0SU8xTHlTX193?oc=5",
-              "pubDate": "2026-11-09T19:27:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "university-investigates-fraternity-after-fire-video-surfaces"
         },
         {
           "representativeTitle": "DOJ leadership changes continue following midterm elections.",
@@ -1439,91 +1678,17 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "Nvidia Plummets After Board Probe Over Allegations",
-          "sources": [
-            "BBC World",
-            "IBTimes"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Who is the suspected Chinese spy at centre of the Nvidia investigation?",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/c80404zyr53wo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-09T14:50:35.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Nvidia Shares Plunge Over 5% as Jensen Huang's Affair With Suspected Chinese Spy Sparks Board Probe",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/nvidia-stock-falls-huang-board-investigation-3809545",
-              "pubDate": "2026-11-09T13:49:22.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "nvidia-plummets-after-board-probe-over-allegations"
-        },
-        {
-          "representativeTitle": "Nvidia Stock Drops Amid Market Gains; S&P Diverges",
+          "representativeTitle": "Copper Rallies Amid Tech Sector's Resuming Gains",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Nvidia Sees Historic Split From S&P as Stock Sinks, Market Soars",
+              "title": "Copper Extends Rebound as Global Technology Stocks Resume Rally",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-09/nvidia-sees-historic-split-from-s-p-as-stock-sinks-market-soars",
-              "pubDate": "2026-11-09T21:41:16.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "nvidia-stock-drops-amid-market-gains-sp-diverges"
-        },
-        {
-          "representativeTitle": "S&P Rebounds From Losses; Bitcoin Shows Strength",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "S&P 500 Erases Midterm Losses, Bitcoin Bounce",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-09/etf-iq-11-9-2026-video",
-              "pubDate": "2026-11-09T21:38:31.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "sp-rebounds-from-losses-bitcoin-shows-strength"
-        },
-        {
-          "representativeTitle": "Asian Stocks Expected Rally Amid Tech Gains, Oil Dip",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Asian Stocks to Rally on US Tech Surge, Oil Slump: Markets Wrap",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates",
-              "pubDate": "2026-11-09T22:16:53.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-10/copper-extends-rebound-as-global-technology-stocks-resume-rally",
+              "pubDate": "2026-11-10T03:04:14.000Z",
               "tier": 1
             }
           ],
@@ -1532,7 +1697,29 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "asian-stocks-expected-rally-amid-tech-gains-oil-dip"
+          "slug": "copper-rallies-amid-tech-sectors-resuming-gains"
+        },
+        {
+          "representativeTitle": "South Korean Stocks Rise Amid Chipmaker Buying Surge",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "South Korean Stocks Jump as Chipmakers Roar Back on Dip Buying",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-10/south-korean-stocks-jump-as-chipmakers-roar-back-on-dip-buying",
+              "pubDate": "2026-11-10T00:09:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "south-korean-stocks-rise-amid-chipmaker-buying-surge"
         },
         {
           "representativeTitle": "Lucid Misses Earnings; Boosts Saudi Funding Deal",
@@ -1555,34 +1742,42 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "lucid-misses-earnings-boosts-saudi-funding-deal"
-        },
-        {
-          "representativeTitle": "Skydance Reports First Earnings Since Merger Completion",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Skydance Reports First Earnings Since Merger",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-09/skydance-reports-first-earnings-since-merger-video",
-              "pubDate": "2026-11-09T22:28:02.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "skydance-reports-first-earnings-since-merger-completion"
         }
       ]
     },
     {
       "name": "Business",
       "children": [
+        {
+          "representativeTitle": "Qantas Cuts Jobs, Outsourcing Work to India Via AI",
+          "sources": [
+            "BBC World",
+            "The Guardian"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Qantas to outsource 850 local jobs with most roles moving to India",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-10T01:55:22.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/business/2026/nov/10/qantas-850-job-cuts-outsource-work-to-india-ai-overhaul",
+              "pubDate": "2026-11-10T01:34:47.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 60,
+          "slug": "qantas-cuts-jobs-outsourcing-work-to-india-via-ai"
+        },
         {
           "representativeTitle": "Huang Hires PR Firm Linked to Past Scandals",
           "sources": [
@@ -1614,47 +1809,39 @@ export const newsData = {
           "slug": "huang-hires-pr-firm-linked-to-past-scandals"
         },
         {
-          "representativeTitle": "Goldman CEO Sees Strong AI Financing Despite Jitters",
+          "representativeTitle": "China's Trade Surplus Exceeds One Trillion Dollars",
           "sources": [
-            "CNBC Economy",
-            "CNBC Markets"
+            "FT International"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html",
-              "pubDate": "2026-11-09T18:14:47.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
-              "source": "CNBC Markets",
-              "link": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html",
-              "pubDate": "2026-11-09T18:14:47.000Z",
+              "title": "China’s trade surplus exceeds $1tn for first 10 months of year",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/a267d321-a489-4426-940e-1e4be712dc09?syn-25a6b1a6=1",
+              "pubDate": "2026-11-10T03:09:14.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "goldman-ceo-sees-strong-ai-financing-despite-jitters"
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "chinas-trade-surplus-exceeds-one-trillion-dollars"
         },
         {
-          "representativeTitle": "Yen Forecast Hits Key Level Amid Rate Convergence Fears",
+          "representativeTitle": "Inflation Data Challenges Treasury Rally Amid Safe Haven Flows",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Top Yen Forecaster Predicts 147 Per Dollar as Rate Gap Narrows",
+              "title": "Inflation Data to Test Limits of Treasury Rally After Haven Bid",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-09/top-yen-forecaster-predicts-147-per-dollar-as-rate-gap-narrows",
-              "pubDate": "2026-11-09T21:00:00.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-10/inflation-data-to-test-limits-of-treasury-rally-after-haven-bid",
+              "pubDate": "2026-11-10T00:46:46.000Z",
               "tier": 1
             }
           ],
@@ -1663,7 +1850,29 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "yen-forecast-hits-key-level-amid-rate-convergence-fears"
+          "slug": "inflation-data-challenges-treasury-rally-amid-safe-haven-flows"
+        },
+        {
+          "representativeTitle": "Japan Household Spending Hits Pandemic Lows Again",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Japan’s Household Spending Slumps Most Since Pandemic",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-09/japan-household-outlays-fall-for-10th-month-as-inflation-lingers",
+              "pubDate": "2026-11-09T23:34:15.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "japan-household-spending-hits-pandemic-lows-again"
         },
         {
           "representativeTitle": "Children's Place Files Bankruptcy; Assets Planned For Sale",
@@ -1726,26 +1935,114 @@ export const newsData = {
           "slug": "honda-invests-3b-in-ohio-hybrid-vehicle-production-boost"
         },
         {
-          "representativeTitle": "China Quotas Dampen JBS Profit Despite US Gains",
+          "representativeTitle": "Japan Bond Demand Weakens Below Historical Averages",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "JBS Profit Hit as China Quotas Overshadow US Beef Recovery",
+              "title": "Japan 30-Year Bond Sale Sees Weaker Demand Than 12-Month Average",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-09/jbs-profit-hit-as-china-quotas-overshadow-us-beef-improvement",
-              "pubDate": "2026-11-09T21:27:37.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-10/japan-30-year-bond-sale-sees-weaker-demand-than-12-month-average-mwa53xcl",
+              "pubDate": "2026-11-10T03:38:06.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "china-quotas-dampen-jbs-profit-despite-us-gains"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "japan-bond-demand-weakens-below-historical-averages"
+        },
+        {
+          "representativeTitle": "Kioxia Product Returns to Hong Kong Market",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Kioxia Leveraged Product Debuts in HK After One Year Hiatus",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-10/kioxia-leveraged-product-debuts-in-hk-after-one-year-hiatus",
+              "pubDate": "2026-11-10T01:59:09.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "kioxia-product-returns-to-hong-kong-market"
+        },
+        {
+          "representativeTitle": "Singapore Interbank Rate Reaches Year High Mark",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Singapore’s Interbank Rate Hits Highest in More Than a Year",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-10/singapore-s-interbank-rate-climbs-to-highest-in-more-than-a-year",
+              "pubDate": "2026-11-10T01:21:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "singapore-interbank-rate-reaches-year-high-mark"
+        },
+        {
+          "representativeTitle": "Berkshire Tests Yen Spreads in Japanese Bond Deal",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Berkshire Tests Wider Yen Spreads in Latest Japan Bond Deal",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-10/berkshire-tests-wider-yen-spreads-in-latest-japan-bond-deal",
+              "pubDate": "2026-11-10T01:16:38.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "berkshire-tests-yen-spreads-in-japanese-bond-deal"
+        },
+        {
+          "representativeTitle": "Indonesia Issues Panda Bonds Amid MSCI Pressure",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Indonesia Markets Second Panda Bond Offering Despite MSCI Threat",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-10/indonesia-markets-second-panda-bond-offering-despite-msci-threat",
+              "pubDate": "2026-11-10T01:02:37.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "indonesia-issues-panda-bonds-amid-msci-pressure"
         },
         {
           "representativeTitle": "Boeing Cuts Workers Amid Production Delays Concerns",
@@ -1768,6 +2065,28 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "boeing-cuts-workers-amid-production-delays-concerns"
+        },
+        {
+          "representativeTitle": "Gold Rises Amid Lower Oil Prices Easing Inflation Fears",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Gold Holds Gain Above $4,100 as Lower Oil Eases Inflation Woes",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-10/gold-holds-gain-above-4-100-as-lower-oil-eases-inflation-woes",
+              "pubDate": "2026-11-10T00:04:12.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "gold-rises-amid-lower-oil-prices-easing-inflation-fears"
         },
         {
           "representativeTitle": "PepsiCo Cuts Jobs Amid North American Struggles",
@@ -1814,138 +2133,6 @@ export const newsData = {
           "slug": "skydance-details-planned-6-billion-cost-savings-strategy"
         },
         {
-          "representativeTitle": "Oil Market Analysis Provided For November Tenth Trading",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Latest Oil Market News and Analysis for Nov. 10",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-09/latest-oil-market-news-and-analysis-for-nov-10",
-              "pubDate": "2026-11-09T23:01:44.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "oil-market-analysis-provided-for-november-tenth-trading"
-        },
-        {
-          "representativeTitle": "Philippine Growth Slowdown Spurs Calls For Easing Rates",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Faltering Philippine Growth Spurs Calls for State Action, Pause in Rate Hikes",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-09/faltering-philippine-growth-spurs-calls-for-state-action-pause-in-rate-hikes",
-              "pubDate": "2026-11-09T23:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "philippine-growth-slowdown-spurs-calls-for-easing-rates"
-        },
-        {
-          "representativeTitle": "CEO Links Gas Prices to Consumer Spending Concerns",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Dutch Bros CEO: Gas Prices Are Impacting the Consumer",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-09/dutch-bros-ceo-gas-prices-are-impacting-the-consumer-video",
-              "pubDate": "2026-11-09T22:24:17.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ceo-links-gas-prices-to-consumer-spending-concerns"
-        },
-        {
-          "representativeTitle": "CVS Lacks Offers For Major Pharmacy Business Unit",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "CVS Has Not Received Offers For the Retail Pharmacy Business, CEO Says",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-09/cvs-received-no-offers-for-pharmacies-ceo-says-video",
-              "pubDate": "2026-11-09T21:49:19.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "cvs-lacks-offers-for-major-pharmacy-business-unit"
-        },
-        {
-          "representativeTitle": "JPMorgan offers discounts to secure software debt funding.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "JPMorgan Weighs Big Discount to Lure Lenders for Software Debt",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-09/jpmorgan-weighs-big-discount-to-lure-lenders-for-software-debt",
-              "pubDate": "2026-11-09T21:46:26.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "jpmorgan-offers-discounts-to-secure-software-debt-funding"
-        },
-        {
-          "representativeTitle": "Barrick Revisits Gold Deposit Plans; Study Timeline Unclear",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Barrick (GOLD) Revisits Fourmile Gold Deposit Plans, Study Deadline Uncertain",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-09/barrick-gold-revisits-fourmile-gold-deposit-plans-study-deadline-uncertain",
-              "pubDate": "2026-11-09T20:12:15.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "barrick-revisits-gold-deposit-plans-study-timeline-unclear"
-        },
-        {
           "representativeTitle": "Poppi Founders Challenge Gatorade With New Beverage Brand",
           "sources": [
             "CNBC Economy"
@@ -1966,6 +2153,28 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "poppi-founders-challenge-gatorade-with-new-beverage-brand"
+        },
+        {
+          "representativeTitle": "Goldman CEO Sees Strong AI Financing Despite Jitters",
+          "sources": [
+            "CNBC Economy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Goldman CEO Solomon says AI financing remains strong despite market jitters",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html",
+              "pubDate": "2026-11-09T18:14:47.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Business",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "goldman-ceo-sees-strong-ai-financing-despite-jitters"
         }
       ]
     },
@@ -1973,48 +2182,78 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
-          "representativeTitle": "Nvidia CEO faces scandal amid political support.",
+          "representativeTitle": "Jensen Huang's Issues Cause AI Industry Concern",
           "sources": [
-            "BBC World",
-            "The Guardian"
+            "Wired"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-09T23:20:29.000Z",
+              "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
+              "pubDate": "2026-11-10T00:18:19.000Z",
               "tier": 1
-            },
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "jensen-huangs-issues-cause-ai-industry-concern"
+        },
+        {
+          "representativeTitle": "Australia Mandates AI Reporting After OpenAI Hack Incident",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-09T19:58:01.000Z",
-              "tier": 1
-            },
-            {
-              "title": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-09T07:10:11.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy",
+              "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-affair-trump-musk",
-              "pubDate": "2026-11-09T23:30:37.000Z",
+              "link": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+              "pubDate": "2026-11-10T02:31:08.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "Technology",
           "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "australia-mandates-ai-reporting-after-openai-hack-incident"
+        },
+        {
+          "representativeTitle": "Nvidia CEO linked to alleged espionage drama timeline.",
+          "sources": [
+            "FT International",
+            "WSJ US Business"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Trump says FBI is ‘looking into’ Nvidia’s Jensen Huang",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/cbabf2da-2079-4b69-88e3-0ba84cf8d6fd?syn-25a6b1a6=1",
+              "pubDate": "2026-11-10T00:35:56.000Z",
+              "tier": 1
+            },
+            {
+              "title": "A Timeline of Nvidia CEO Jensen Huang’s Suspected Spy Drama",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/tech/ai/a-timeline-of-nvidia-ceo-jensen-huangs-suspected-spy-drama-05cbebf3?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-09T22:36:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 80,
-          "slug": "nvidia-ceo-faces-scandal-amid-political-support"
+          "importance": 50,
+          "slug": "nvidia-ceo-linked-to-alleged-espionage-drama-timeline"
         },
         {
           "representativeTitle": "Anthropic releases new AI models amid market caution.",
@@ -2089,6 +2328,28 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "govt-questions-waymos-autonomous-vehicle-safety-claims"
+        },
+        {
+          "representativeTitle": "Anthropic reportedly advancing plans for IPO listing",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Anthropic reportedly plans to move forward with IPO plans",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+              "pubDate": "2026-11-10T01:27:12.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "anthropic-reportedly-advancing-plans-for-ipo-listing"
         },
         {
           "representativeTitle": "Spy Allegations Cloud Nvidia's China Market Strategy",
@@ -2245,50 +2506,6 @@ export const newsData = {
           "slug": "wyndham-exposed-customer-data-via-app-security-lapse"
         },
         {
-          "representativeTitle": "Nvidia probe suggests lobbying focus on US government.",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Nvidia: honeypot may have been aimed at 'lobbying Jensen Huang to lobby the US government'",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/a-propos/20261109-nvidia-honeypot-may-have-been-aimed-at-lobbying-jensen-huang-to-lobby-the-us-government",
-              "pubDate": "2026-11-09T22:17:02.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "nvidia-probe-suggests-lobbying-focus-on-us-government"
-        },
-        {
-          "representativeTitle": "Meta launches Muse Ember lightweight agent execution model.",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-              "pubDate": "2026-11-09T18:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "meta-launches-muse-ember-lightweight-agent-execution-model"
-        },
-        {
           "representativeTitle": "New Music App Launches to Reconnect Friends Through Songs",
           "sources": [
             "TechCrunch",
@@ -2376,39 +2593,61 @@ export const newsData = {
           "slug": "scientists-discover-potential-massive-starless-galaxy-structure"
         },
         {
-          "representativeTitle": "Some Regions Already Face Warming World Conditions",
+          "representativeTitle": "Space Debris Threatens Orbit; Problem Worsening Now",
           "sources": [
-            "Phys.org"
+            "Google Science"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Some regions may already be living in a 1.5°C warmer world",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-regions-15c-warmer-world.html",
-              "pubDate": "2026-11-09T22:50:01.000Z",
+              "title": "Earth is surrounded by millions of pieces of space junk and the problem is getting worse",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMnFhWUhqbTdZQUY5azdvem94anh4NGdSaXVjVFR4MVNSWUdyMndabnRuUERaejFJMjZfWTcxems5SU4zdjVXSXU0dV92Tmc2RDZfWlUwN3VWQ25hNVZtNnZJODQxMktxTmhsVGtSbmNYWFBOTkFMZUJxWUk5ZVJleVZIbzRROXZYLVdGZUVGZlB0dWtrWU1wUEVwdndSZmNjcFFPSXItQ1FvQkxPQ0NUZXRxMk1fSmx1YVVr?oc=5",
+              "pubDate": "2026-11-10T02:16:58.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "some-regions-already-face-warming-world-conditions"
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "space-debris-threatens-orbit-problem-worsening-now"
         },
         {
-          "representativeTitle": "New Microscope Visualizes Quantum Particle Movement Directly",
+          "representativeTitle": "Alzheimer's Warning Signs Found Beyond Brain Tissue",
           "sources": [
-            "Phys.org"
+            "Science Daily"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Upgraded microscope can now watch individual quantum particles in motion",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-microscope-individual-quantum-particles-motion.html",
-              "pubDate": "2026-11-09T22:30:05.000Z",
+              "title": "Alzheimer’s may have early warning signs outside the brain",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm",
+              "pubDate": "2026-11-10T01:47:34.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "alzheimers-warning-signs-found-beyond-brain-tissue"
+        },
+        {
+          "representativeTitle": "CERN Detects Rare Particle Decay After Four Decades",
+          "sources": [
+            "Science Daily"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "After 40 years, CERN finds evidence of a one-in-10-billion particle decay",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/11/261108233047.htm",
+              "pubDate": "2026-11-10T00:42:52.000Z",
               "tier": 2
             }
           ],
@@ -2417,7 +2656,29 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "new-microscope-visualizes-quantum-particle-movement-directly"
+          "slug": "cern-detects-rare-particle-decay-after-four-decades"
+        },
+        {
+          "representativeTitle": "Fossil CO2 Emissions Projected To Decline By 2026",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Fossil CO₂ emissions projected to decrease in 2026 amid clean energy growth and Iran conflict",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-fossil-emissions-decrease-energy-growth.html",
+              "pubDate": "2026-11-10T01:00:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "fossil-co2-emissions-projected-to-decline-by-2026"
         },
         {
           "representativeTitle": "Drone Aids Wildlife Rescue Amid Flooding Crisis",
