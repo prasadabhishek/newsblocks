@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-11-12T01:25:46.374Z",
+  "lastUpdated": "2026-11-12T05:33:25.673Z",
   "children": [
     {
       "name": "World",
@@ -12,10 +12,12 @@ export const newsData = {
             "The Guardian",
             "Al Jazeera",
             "France 24",
+            "SCMP",
+            "Sky News",
             "Euronews",
             "Google World"
           ],
-          "citationCount": 6,
+          "citationCount": 8,
           "rawArticles": [
             {
               "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
@@ -53,6 +55,20 @@ export const newsData = {
               "tier": 1
             },
             {
+              "title": "Clashes erupt as millions join Spain’s first general strike in 14 years",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/europe/article/3374082/spanish-workers-stage-huge-general-strike-1st-14-years-angry-over-housing",
+              "pubDate": "2026-11-11T09:57:57.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Fiery clashes erupt in Spain as millions join general strike",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/fiery-clashes-erupt-in-spain-as-millions-join-general-strike-13611270",
+              "pubDate": "2026-11-12T02:41:00.000Z",
+              "tier": 2
+            },
+            {
               "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
               "source": "Euronews",
               "link": "https://www.euronews.com/video/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march",
@@ -63,7 +79,7 @@ export const newsData = {
               "title": "Spain: Housing crisis prompts first general strike in 14 years, before hundreds of thousands join protest",
               "source": "Google World",
               "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMHh4aG9MdmZ1bUU3cGp1ZnRMVExTMkl2NmZZTk1fOVBuYmdBWS1uNUdUTFFtVUFZSlk1YUxURDE2bGlmdW1OZDEyei0tRnNvZ3VPX0xlODlMSHFqX0FYbnlnZnh0YnJzelI2cmdnZnZNUGZSMTVIamsteFp4WUc3UmlOTHNEUW9LX3FMN3R0OTJiVXVEbGdPTkhCMS1NNDREMGfSAaIBQVVfeXFMT0ZTT2Q0bS1peXI1bGstaVNyYzRhSjBfR19zWlp0WHZ3ZmdmSk5YZkZvRWtNRXRzMlNmdnRtckpJNTlyeV9KWHhOcm1ycS1yS0xCczdiUnZwRXVQVWhZN3NxOFpYbE9nTGJUN3ctWl9jYUVRaEozZVE3M1Q2ZVp0MVJiNEVuaXczYzdvcGJBUGtadEJHUkVwY0h3dzY2aXViQW5B?oc=5",
-              "pubDate": "2026-11-11T23:14:32.000Z",
+              "pubDate": "2026-11-12T02:18:18.000Z",
               "tier": 2
             }
           ],
@@ -75,12 +91,58 @@ export const newsData = {
           "slug": "barcelona-clashes-erupt-following-peaceful-protest-march"
         },
         {
+          "representativeTitle": "Ex-Red Brigades Member Evades House Arrest in Argentina",
+          "sources": [
+            "BBC World",
+            "The Guardian",
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c933gn6710lyo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-11T14:56:11.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Ex-member of radical Marxist group scales balcony, escapes house arrest in Argentina",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/11/red-brigades-leonardo-bertulazzi-escapes-house-arrest-argentina",
+              "pubDate": "2026-11-11T19:00:33.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Former Italian Red Brigades member escapes house arrest in Argentina",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/12/former-italian-red-brigades-member-escapes-house-arrest-in-argentina?traffic_source=rss",
+              "pubDate": "2026-11-12T01:04:28.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPYlhaZWNPeEdJVGhUU3dwbHFZQXItTHVYcHN5YlU1dkJiNGZvLWh1ZV9oLUVyQXA1WDNRUHYwcWdCa3lyakxMS1pfY3VyZWw2a2U1ZE1SWENycVU?oc=5",
+              "pubDate": "2026-11-11T14:56:11.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 90,
+          "slug": "ex-red-brigades-member-evades-house-arrest-in-argentina"
+        },
+        {
           "representativeTitle": "Schools Face Threats From Suspected Bomb Hoax Incidents",
           "sources": [
             "BBC World",
-            "Al Jazeera",
             "France 24",
             "SCMP",
+            "Le Monde",
             "Google World"
           ],
           "citationCount": 5,
@@ -90,13 +152,6 @@ export const newsData = {
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-11-11T18:38:45.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Hoax bomb threats target schools across Italy, UK and Ireland",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/hoax-bomb-threats-target-schools-across-italy-uk-and-ireland?traffic_source=rss",
-              "pubDate": "2026-11-11T21:01:42.000Z",
               "tier": 1
             },
             {
@@ -114,10 +169,17 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Wave of hoax bomb threats sent to schools in UK, Ireland and Italy",
+              "title": "Italian, Irish and Scottish schools targeted by bomb threats",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/11/12/italian-irish-and-scottish-schools-targeted-by-bomb-threats_6778149_4.html",
+              "pubDate": "2026-11-11T23:39:29.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Hoax bomb alerts sent to schools in Italy, UK and Ireland in latest disruption",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVUVoNHRTZVJ0ZjRUTXRjcnptRDljYjlXOEQ5RGM4WFM1YlJQX1lZYkQwQnFBemRGbjZzTGNPYzBIaHZBdnlNb2RIWk1BYmtVc2V6SjRSWThhMnBDZEdVSUI0QjVFRjBLbHlPeldVMVZXRl9fSFd4dm9FS2lkd2JFYXBFdnh5R0ZOMnZvdUk4bjZvOFU2Nm91eHpIZ3NLcEdzRllBWm0wTU5CUzRyYm1EcQ?oc=5",
-              "pubDate": "2026-11-11T10:57:35.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLUZHS1hQdFNsS21tSW0zXzRnRDNsVEN2T1hITTBwX1l3d3VCWmw5MXVMaEYwM2ROMXpYNnR6cTNwMlVuSUNsekp2YmZtX1h2VE9wNnc2RThjc05OV2tBc0VNNzNicWNGcGtKVG9VTGo2Yzl5eUFxeE9IQ3JlZWpHb25vcWk5VmlWZkRwbmQzRmhzbDF2cmhWM1F0RmNlTGhtM0Zv?oc=5",
+              "pubDate": "2026-11-11T20:47:43.000Z",
               "tier": 2
             }
           ],
@@ -125,14 +187,14 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 85,
+          "importance": 75,
           "slug": "schools-face-threats-from-suspected-bomb-hoax-incidents"
         },
         {
           "representativeTitle": "Treasury Secretary Relocated Amid Alleged Iranian Threats",
           "sources": [
             "BBC US",
-            "Google US",
+            "ABC News Top",
             "BBC World",
             "SCMP"
           ],
@@ -146,10 +208,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zd3ZrWWdDRjlxempmWlJkWUVZYW9KOExTcWNqazhPXzZMM0tEY05iaXFmV0d4cG9FRGpMcTFEa1VQcy1JTklJZWVSXzA1NFhFQ2RvM2VkTUNPZTA?oc=5",
-              "pubDate": "2026-11-11T16:45:11.000Z",
+              "title": "Treasury Secretary Scott Bessent moved to a military base: Sources",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Politics/treasury-secretary-scott-bessent-moved-military-base-sources/story?id=138044885",
+              "pubDate": "2026-11-11T20:33:27.000Z",
               "tier": 2
             },
             {
@@ -173,6 +235,36 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 80,
           "slug": "treasury-secretary-relocated-amid-alleged-iranian-threats"
+        },
+        {
+          "representativeTitle": "Envoys Meet Putin and Zelensky After Abu Dhabi Talks",
+          "sources": [
+            "The Guardian",
+            "France 24"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "US envoys to meet Putin and Zelenskyy separately",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
+              "pubDate": "2026-11-11T16:08:20.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Live: US envoys to meet Putin and Zelensky after Abu Dhabi talks",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261112-live-us-envoys-to-meet-putin-and-zelensky-after-abu-dhabi-talks",
+              "pubDate": "2026-11-12T02:31:55.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 70,
+          "slug": "envoys-meet-putin-and-zelensky-after-abu-dhabi-talks"
         },
         {
           "representativeTitle": "Prisoner Exchange Occurs Amid Stalled Peace Talks",
@@ -213,62 +305,17 @@ export const newsData = {
           "slug": "prisoner-exchange-occurs-amid-stalled-peace-talks"
         },
         {
-          "representativeTitle": "Ex-Marxist Escapes House Arrest in Argentina Nationally",
+          "representativeTitle": "Israeli strike kills five Palestinians in Gaza hospital.",
           "sources": [
-            "BBC World",
-            "The Guardian",
-            "Google World"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c933gn6710lyo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-11T14:56:11.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Ex-member of radical Marxist group scales balcony, escapes house arrest in Argentina",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/11/red-brigades-leonardo-bertulazzi-escapes-house-arrest-argentina",
-              "pubDate": "2026-11-11T19:00:33.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPYlhaZWNPeEdJVGhUU3dwbHFZQXItTHVYcHN5YlU1dkJiNGZvLWh1ZV9oLUVyQXA1WDNRUHYwcWdCa3lyakxMS1pfY3VyZWw2a2U1ZE1SWENycVU?oc=5",
-              "pubDate": "2026-11-11T14:56:11.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 65,
-          "slug": "ex-marxist-escapes-house-arrest-in-argentina-nationally"
-        },
-        {
-          "representativeTitle": "Israeli Strikes Hit Gaza Medical Complex; Nine Killed",
-          "sources": [
-            "Al Jazeera"
+            "BBC World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Israeli strikes hit medical complex as nine killed across Gaza",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza?traffic_source=rss",
-              "pubDate": "2026-11-11T22:55:37.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Gaza goalkeeper killed in Israeli attack",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/gaza-goalkeeper-killed-in-israeli-attack?traffic_source=rss",
-              "pubDate": "2026-11-11T20:44:34.000Z",
+              "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-12T05:06:27.000Z",
               "tier": 1
             }
           ],
@@ -276,63 +323,99 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.9,
           "relevance_score": 9,
-          "importance": 70,
-          "slug": "israeli-strikes-hit-gaza-medical-complex-nine-killed"
+          "importance": 60,
+          "slug": "israeli-strike-kills-five-palestinians-in-gaza-hospital"
         },
         {
-          "representativeTitle": "Iran Warns Europe; Israel Attacks Gaza Escalates Conflict",
+          "representativeTitle": "Iran Warns Retaliation Amid Israel Attack Fears",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran war live: Iran warns of Europe retaliation, Israel attacks Gaza",
+              "title": "Iran warns of expanded retaliation as Israel reportedly readies to attack",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/liveblog/2026/11/12/iran-war-live-tehran-warns-of-wider-retaliation-israel-kills-in-gaza?traffic_source=rss",
-              "pubDate": "2026-11-12T00:00:44.000Z",
+              "link": "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack?traffic_source=rss",
+              "pubDate": "2026-11-12T03:50:42.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 65,
-          "slug": "iran-warns-europe-israel-attacks-gaza-escalates-conflict"
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "iran-warns-retaliation-amid-israel-attack-fears"
         },
         {
-          "representativeTitle": "Iran Labels Argentina Military Forces as Terrorist Groups",
+          "representativeTitle": "Mother Reunites With Sons After Pinochet Captivity",
           "sources": [
-            "Al Jazeera",
-            "Google World"
+            "Al Jazeera"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Iran designates Argentinian navy, air force as ‘terrorist organisations’",
+              "title": "Mother reunites with sons taken under Pinochet regime 40 years ago",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
-              "pubDate": "2026-11-11T22:34:43.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/aje-onl-nf_mother-reunites-with-sons-taken-under-pinochet-111126?traffic_source=rss",
+              "pubDate": "2026-11-12T03:13:32.000Z",
               "tier": 1
-            },
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.9,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "mother-reunites-with-sons-after-pinochet-captivity"
+        },
+        {
+          "representativeTitle": "Political Figure Barred From Public Life By Authorities",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Iran designates Argentina's navy and air force as 'terrorist organizations'",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVGJGbXpBaU9TM2xZZXVhbFN0MFlBdVdhRGFjR1VkaHNnU2F5NXl6WmpmV01CZ2lXd1NiMlVsUDA2ZThZY3RMWHN5TmRKLTRidmdIYnRVQmdmQXBUQUc3MFNIaTJlYS0yMDNFck4xaTBIQXJ4M3RPQ3JhQzVQQUluMXJ2T1Nycm1zZWoxSkkxUTBoZi1ZWFkwQVR3bE1hRUtlWG9IdmhXUEljR2VrMElQNVVrUTJ1Z3c?oc=5",
-              "pubDate": "2026-11-11T06:10:00.000Z",
-              "tier": 2
+              "title": "Najib Barred From Politics, Media Appearances Under House Arrest",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-12/najib-barred-from-politics-media-appearances-under-house-arrest",
+              "pubDate": "2026-11-12T04:53:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "political-figure-barred-from-public-life-by-authorities"
+        },
+        {
+          "representativeTitle": "Fighting Intensifies in Yemen Amid Houthi Denial",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Fighting intensifies in Yemen as Houthis deny targeting Mecca",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/12/fighting-intensifies-in-yemen-as-houthis-deny-targeting-mecca?traffic_source=rss",
+              "pubDate": "2026-11-12T04:41:17.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "iran-labels-argentina-military-forces-as-terrorist-groups"
+          "importance": 55,
+          "slug": "fighting-intensifies-in-yemen-amid-houthi-denial"
         },
         {
-          "representativeTitle": "New Israeli Parliament Plans Policy Reversal From Netanyahu",
+          "representativeTitle": "Pope's Return to Peru Garners Massive Public Welcome",
           "sources": [
             "France 24",
             "Google World"
@@ -340,116 +423,100 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Gadi Eisenkot unveils agenda to reverse Netanyahu’s policies",
+              "title": "Pope Leo XIV returns to second homeland Peru to a nationwide welcome",
               "source": "France 24",
-              "link": "https://www.france24.com/en/tv-shows/a-propos/20261111-gadi-eisenkot-unveils-agenda-to-reverse-netanyahu-s-policies",
-              "pubDate": "2026-11-11T22:13:05.000Z",
+              "link": "https://www.france24.com/en/americas/20261111-pope-leo-xiv-returns-to-second-homeland-peru-to-a-nationwide-welcome",
+              "pubDate": "2026-11-11T23:43:24.000Z",
               "tier": 1
             },
             {
-              "title": "Eisenkot unveils agenda to reverse Netanyahu’s policies as Israel’s new parliament is sworn in",
+              "title": "Mammoth crowds greet Pope Leo on return to Peru, his adopted homeland",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ1pwamowLTNQNERPRUUyTzRWWGxYVGo1MnRlYjl0UGR3OEhtclpFSXRmRjc1YThpTUJJcWlVWHVJVnVNajQ5dHJCd08tTXdtQW5Ya3YtODVhUVVvLVE2SUYxLXpUOW5QVWFZVVU0UHFfTWoydGh2MG93NlFBTUt2Mjk2VXVHYkc5b0NJOGdZR21hZTFOWVFSY0xWcVJ0bWZ4MHZ6el9QRmJWalZaOGdya1B5cmRwNDJvTkE?oc=5",
-              "pubDate": "2026-11-11T02:48:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeUpuTEFWN2VuSlF3TnN5Z2MyeUg4dmt5WmVYNHBIUjJLMDNaMnh2OXVibjZUT3BGZmtXT1lTSnFhX1M4dU8wYVpsNi1XX3Y5SXRObkkxSmdCQU53OFMtTkxVcTBIVEo1UE5RUHZmVnpCNV9FblhuM3QxdlVILS1pWWJ2dzEzYmRLMUoybmpneFlPeW1YYUE?oc=5",
+              "pubDate": "2026-11-12T05:27:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "new-israeli-parliament-plans-policy-reversal-from-netanyahu"
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "popes-return-to-peru-garners-massive-public-welcome"
         },
         {
-          "representativeTitle": "Saudi Oil Output Rises Near Pre-War Levels",
+          "representativeTitle": "Iran Negotiator Points Blame to US Court System",
           "sources": [
-            "Al Jazeera",
-            "IBTimes"
+            "Al Jazeera"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Oil production nears pre-Iran war levels, OPEC says",
+              "title": "Iran’s chief negotiator tells Al Jazeera ‘ball in US court’",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says?traffic_source=rss",
-              "pubDate": "2026-11-11T20:45:30.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/irans-chief-negotiator-tells-al-jazeera-ball-in-us?traffic_source=rss",
+              "pubDate": "2026-11-12T04:19:55.000Z",
               "tier": 1
-            },
-            {
-              "title": "Saudi Arabia Keeps Increasing Its Oil Production. OPEC+'s Output is Now Near Pre-Iran War Levels.",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/opec-plus-oil-output-nears-prewar-levels-3809654",
-              "pubDate": "2026-11-11T18:13:11.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "saudi-oil-output-rises-near-pre-war-levels"
-        },
-        {
-          "representativeTitle": "Envoys Meet Putin, Zelensky After Key Talks",
-          "sources": [
-            "The Guardian",
-            "Le Monde"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Ukraine talks in Abu Dhabi bring progress on prisoners but not on peace",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/11/ukraine-talks-in-abu-dhabi-bring-progress-on-prisoners-but-not-on-peace",
-              "pubDate": "2026-11-11T17:03:43.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US envoys to meet Putin, Zelensky after Ukraine talks in Abu Dhabi",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/11/11/russia-ukraine-agree-biggest-prisoner-release-after-talks-says-kushner_6777685_4.html",
-              "pubDate": "2026-11-11T11:58:24.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "envoys-meet-putin-zelensky-after-key-talks"
-        },
-        {
-          "representativeTitle": "Iran-backed group plots attacks on U.K. base.",
-          "sources": [
-            "BBC US",
-            "NPR"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Three Iran-backed suspects plotted attacks including incident near UK air base, US says",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-11T16:59:34.000Z",
-              "tier": 1
-            },
-            {
-              "title": "An Iran-backed trio is accused of plotting attacks on a U.K. base hosting U.S. jets",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/10/nx-s1-6036786/uk-iran-airbase-russia-spy",
-              "pubDate": "2026-11-11T10:02:54.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "iran-backed-group-plots-attacks-on-uk-base"
+          "importance": 55,
+          "slug": "iran-negotiator-points-blame-to-us-court-system"
+        },
+        {
+          "representativeTitle": "Amnesty: UN, South Sudan Failed Preventing Massacre",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Amnesty says UN, South Sudan officials failed to prevent village massacre",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/12/amnesty-says-un-south-sudan-officials-failed-to-prevent-village-massacre?traffic_source=rss",
+              "pubDate": "2026-11-12T04:00:24.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "amnesty-un-south-sudan-failed-preventing-massacre"
+        },
+        {
+          "representativeTitle": "Australian Teen Rescued Alive After Six Days Missing",
+          "sources": [
+            "BBC World",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Australian teen missing in bush for six days rescued alive",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/ckvg25zmppglo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-12T02:40:18.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Australian teen missing in bush for six days rescued alive",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VNEE3dFVYWDhwbExMUEhKX1RLYkJiZ1lYazdMbHpnWWIzUExPQWRsakNiZGRqT2hTaUo1X0FrRlhraUZLZndRcFJNZW9wbUU3SXhoZVZFb1Y3NjA?oc=5",
+              "pubDate": "2026-11-12T02:40:18.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "australian-teen-rescued-alive-after-six-days-missing"
         },
         {
           "representativeTitle": "Russian Ambassador Dies Suddenly; Details Emerge Slowly",
@@ -461,7 +528,7 @@ export const newsData = {
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Russia’s ambassador to the US dies ‘suddenly’, foreign ministry says",
+              "title": "Russia’s ambassador to US dies ‘suddenly’ in Moscow",
               "source": "SCMP",
               "link": "https://www.scmp.com/news/world/russia-central-asia/article/3374121/russias-ambassador-us-dies-suddenly-foreign-ministry-says",
               "pubDate": "2026-11-11T17:27:41.000Z",
@@ -490,61 +557,47 @@ export const newsData = {
           "slug": "russian-ambassador-dies-suddenly-details-emerge-slowly"
         },
         {
-          "representativeTitle": "Measles-free status threatened across US, Mexico, Guatemala.",
+          "representativeTitle": "Israeli Settler Turned Back Upon Arrival in Paris",
+          "sources": [
+            "France 24",
+            "Le Monde"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "France turns back Israeli settler representative upon arrival in Paris",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/france/20261111-france-turns-back-israeli-settler-representative-upon-arrival-in-paris",
+              "pubDate": "2026-11-11T20:58:55.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Israeli settler representative Yossi Dagan turned back after landing at Paris airport",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/11/12/israeli-settler-representative-yossi-dagan-turned-back-after-landing-at-paris-airport_6778279_4.html",
+              "pubDate": "2026-11-12T01:32:55.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "israeli-settler-turned-back-upon-arrival-in-paris"
+        },
+        {
+          "representativeTitle": "Hundreds Rescued Migrants Off Spanish Canary Islands",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Why the US, Mexico and Guatemala may lose their measles-free status",
+              "title": "More than 300 migrants rescued off Spain’s Canary Islands",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/12/why-the-us-mexico-and-guatemala-may-lose-their-measles-free-status?traffic_source=rss",
-              "pubDate": "2026-11-12T00:33:44.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "measles-free-status-threatened-across-us-mexico-guatemala"
-        },
-        {
-          "representativeTitle": "Myanmar IPO Bets on Peace Amid Crisis Fears",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Rare IPO Bets on End of War and Economic Crisis in Myanmar",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-12/rare-ipo-bets-on-end-of-war-and-economic-crisis-in-myanmar",
-              "pubDate": "2026-11-12T00:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "myanmar-ipo-bets-on-peace-amid-crisis-fears"
-        },
-        {
-          "representativeTitle": "Torso Found in Sydney Bushland; Homicide Probe Launched",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Human torso found in sofa in Sydney bushland prompts homicide investigation",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/nov/12/human-torso-found-sydneys-lower-north-shore-ntwnfb",
-              "pubDate": "2026-11-12T00:56:57.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/more-than-300-migrants-rescued-off-spains-canary-islands?traffic_source=rss",
+              "pubDate": "2026-11-12T05:04:25.000Z",
               "tier": 1
             }
           ],
@@ -553,7 +606,302 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "torso-found-in-sydney-bushland-homicide-probe-launched"
+          "slug": "hundreds-rescued-migrants-off-spanish-canary-islands"
+        },
+        {
+          "representativeTitle": "EU and UK Delay Tariffs on Electric Vehicles",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "EU and UK set to delay 10% tariff on electric cars",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/b6c31ee9-0837-4fb0-83d9-a0e70100d0a3?syn-25a6b1a6=1",
+              "pubDate": "2026-11-12T05:00:21.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "eu-and-uk-delay-tariffs-on-electric-vehicles"
+        },
+        {
+          "representativeTitle": "Entourage Reprimanded At National Memorial Site",
+          "sources": [
+            "Al Jazeera",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Hegseth entourage reprimanded by guard at Tomb of the Unknown Soldier",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/12/hegseth-entourage-reprimanded-by-guard-at-tomb-of-the-unknown-soldier?traffic_source=rss",
+              "pubDate": "2026-11-12T00:42:37.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Hegseth scolded by security at Tomb of the Unknown Soldier",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/hegseth-scolded-by-security-at-tomb-of-the-unknown-soldier?traffic_source=rss",
+              "pubDate": "2026-11-12T00:18:46.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Hegseth and aides reprimanded by guard at Tomb of the Unknown Soldier",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3374128/hegseth-and-staff-scolded-guard-after-laughter-heard-tomb-unknown-soldier",
+              "pubDate": "2026-11-11T22:40:30.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 4,
+          "importance": 50,
+          "slug": "entourage-reprimanded-at-national-memorial-site"
+        },
+        {
+          "representativeTitle": "China Central Bank Confirms Low Loan Interest Rates Persist",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China’s Loan Interest Rates Are Already Low, Central Bank Says",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-12/china-s-loan-interest-rates-are-already-low-central-bank-says",
+              "pubDate": "2026-11-12T03:53:13.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "china-central-bank-confirms-low-loan-interest-rates-persist"
+        },
+        {
+          "representativeTitle": "Ocean liner sunk to create massive artificial reef.",
+          "sources": [
+            "NPR",
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/11/nx-s1-6030853/ss-united-states-artificial-reef-sinking",
+              "pubDate": "2026-11-12T03:10:32.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Ocean liner being sunk to make largest artificial reef",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/ocean-liner-worlds-fastest-sunk-make-largest-artificial-138036442",
+              "pubDate": "2026-11-11T18:18:15.000Z",
+              "tier": 2
+            },
+            {
+              "title": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdGEzdmFyWGVPSTdKOTczZFBVOV9oV2ZiVGNsbUZWaHU4VEVXaWRrSjRTLUp0aTMxWDdhd0RSRldjM0d6NWZrdVpvbkxwaDV2eXE1VWhKOF9IbkhCUGpydkE4X21icFpob0RnRnJFUkhIX1dyTVkyVWxyejBuWGI4UnU0TWhiWVBsSFFkT0pR?oc=5",
+              "pubDate": "2026-11-12T03:10:32.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ocean-liner-sunk-to-create-massive-artificial-reef"
+        },
+        {
+          "representativeTitle": "Taiwan plans wealth fund legislation by year-end.",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Taiwan Drafts Plans for Wealth Fund, Aims for Bill by Year-End",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-12/taiwan-drafts-plans-for-wealth-fund-aims-for-bill-by-year-end",
+              "pubDate": "2026-11-12T02:40:18.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "taiwan-plans-wealth-fund-legislation-by-year-end"
+        },
+        {
+          "representativeTitle": "French Guard Collapse Sparks Presidential Response Efforts",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "French guard collapses as Macron rushes to help",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/aje-onl-nf_guard-collapses-during-macrons-welcome-slovak-pres-111126?traffic_source=rss",
+              "pubDate": "2026-11-12T05:11:15.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "french-guard-collapse-sparks-presidential-response-efforts"
+        },
+        {
+          "representativeTitle": "France backs Spain's ECB presidential candidate bid.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "France signals support for Spain’s ECB presidential candidate",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/b0d03a62-a75d-41f9-bac3-1518cefe400a?syn-25a6b1a6=1",
+              "pubDate": "2026-11-12T05:00:21.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "france-backs-spains-ecb-presidential-candidate-bid"
+        },
+        {
+          "representativeTitle": "Angola's Oil Wealth Spurs Economic Diversification Efforts Now",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Angola’s Oil Windfall Fuels Diversification Push, Citi Says",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-12/angola-s-oil-windfall-fuels-diversification-push-citi-says",
+              "pubDate": "2026-11-12T05:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "angolas-oil-wealth-spurs-economic-diversification-efforts-now"
+        },
+        {
+          "representativeTitle": "Bolivia arrests judge over drug trafficking suspicions.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Bolivia arrests former judge on suspicion of drug trafficking",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/12/bolivia-arrests-former-judge-on-suspicion-of-drug-trafficking?traffic_source=rss",
+              "pubDate": "2026-11-12T04:40:25.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "bolivia-arrests-judge-over-drug-trafficking-suspicions"
+        },
+        {
+          "representativeTitle": "Paraguay refunds depositors after Ueno Bank collapse.",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Paraguay partially refunds Ueno Bank depositors after collapse",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/americas/20261112-paraguay-partially-refunds-ueno-bank-depositors-after-collapse",
+              "pubDate": "2026-11-12T03:11:52.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "paraguay-refunds-depositors-after-ueno-bank-collapse"
+        },
+        {
+          "representativeTitle": "Iran-backed suspects plotted attacks near UK air base.",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Three Iran-backed suspects plotted attacks including incident near UK air base, US says",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-11T16:59:34.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "iran-backed-suspects-plotted-attacks-near-uk-air-base"
+        },
+        {
+          "representativeTitle": "War's Enduring Global Impact Across Five Centuries",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "How war has connected the world for 500 years",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-war-world-years.html",
+              "pubDate": "2026-11-12T03:40:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "wars-enduring-global-impact-across-five-centuries"
         },
         {
           "representativeTitle": "UK Court Decriminalizes Same-Sex Relations in T&T",
@@ -578,100 +926,26 @@ export const newsData = {
           "slug": "uk-court-decriminalizes-same-sex-relations-in-tt"
         },
         {
-          "representativeTitle": "Hezbollah links US election to Lebanon's future.",
+          "representativeTitle": "Indonesia faces massive forest loss from fires.",
           "sources": [
-            "Al Jazeera"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US election results could be positive for Lebanon, Hezbollah chief says",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/12/us-election-results-could-be-positive-for-lebanon-hezbollah-chief-says?traffic_source=rss",
-              "pubDate": "2026-11-12T00:06:50.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "hezbollah-links-us-election-to-lebanons-future"
-        },
-        {
-          "representativeTitle": "Pope's Return to Peru Met With National Celebration",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Pope Leo XIV returns to second homeland Peru to a nationwide welcome",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261111-pope-leo-xiv-returns-to-second-homeland-peru-to-a-nationwide-welcome",
-              "pubDate": "2026-11-11T23:43:24.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "popes-return-to-peru-met-with-national-celebration"
-        },
-        {
-          "representativeTitle": "Air Assault Hits Gang HQ Amid Troop Search Efforts",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "El Salvador-backed air assault destroys Haiti gang headquarters amid search for missing troops",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/world/el-salvador-air-assault-destroys-haiti-gang-headquarters-search-missing-troops",
-              "pubDate": "2026-11-12T01:04:45.000Z",
+              "title": "Indonesia fires burned through nearly 2.9 million hectares: Monitor",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-indonesia-million-hectares.html",
+              "pubDate": "2026-11-12T03:00:08.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Science",
           "aiCategory": "World",
-          "sentiment": -0.4,
+          "sentiment": -0.9,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "air-assault-hits-gang-hq-amid-troop-search-efforts"
-        },
-        {
-          "representativeTitle": "Soldier's Actions Spark Controversy at Memorial Site",
-          "sources": [
-            "Fox News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Army sentinel sharply reprimands Hegseth's group at Tomb of the Unknown Soldier on Veterans Day",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/army-sentinel-sharply-reprimands-hegseths-group-tomb-unknown-soldier-veterans-day",
-              "pubDate": "2026-11-11T23:11:12.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Soldier Shouts Toward Hegseth to Show ‘Respect’ at Tomb of the Unknown Soldier",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd1d5VlBwMjdDU2wxVFVIYnE2bG5IMXU0Nm13UWQtbHN3d2c1bGs1Sy1rNkl3blJ3aHM2d3BSV2tyVW16QmJZcXBLb2Q3UFFmeFR2RElpWE96VmI4UE1ZVE80NzZVcEhqcmJqeFdySnFFemJXbWZ5YWlWUHh0WmxvSTl6OFJFZ2d4U2RzSzVNVQ?oc=5",
-              "pubDate": "2026-11-12T00:04:19.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "soldiers-actions-spark-controversy-at-memorial-site"
+          "slug": "indonesia-faces-massive-forest-loss-from-fires"
         },
         {
           "representativeTitle": "Trump claims victory in Iran conflict during service.",
@@ -696,28 +970,6 @@ export const newsData = {
           "slug": "trump-claims-victory-in-iran-conflict-during-service"
         },
         {
-          "representativeTitle": "Middle East Risks Drive Oil Prices Higher Again",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Oil Prices Rebound as Middle East Supply Risks Persist",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/business/energy-oil/oil-prices-rebound-as-middle-east-supply-risks-persist-4e078d4b?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-11-11T20:58:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "middle-east-risks-drive-oil-prices-higher-again"
-        },
-        {
           "representativeTitle": "Passenger Arrested Amid Cruise Ship Homicide Investigation",
           "sources": [
             "NY Times"
@@ -738,28 +990,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "passenger-arrested-amid-cruise-ship-homicide-investigation"
-        },
-        {
-          "representativeTitle": "Multiple European Schools Face Bomb Threats Today",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Thousands of schools in Italy, Scotland and Ireland receive bomb threats",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/7bbc0a5e-b7e2-4a3f-874f-a63de94e922d?syn-25a6b1a6=1",
-              "pubDate": "2026-11-11T15:39:44.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "multiple-european-schools-face-bomb-threats-today"
         },
         {
           "representativeTitle": "Pope's Visit Highlights Competition Within Peruvian Catholicism",
@@ -792,9 +1022,9 @@ export const newsData = {
           "representativeTitle": "Colom Wins Mississippi Senate Seat; Historic Milestone Achieved",
           "sources": [
             "BBC World",
+            "The Guardian",
             "Al Jazeera",
             "France 24",
-            "SCMP",
             "Sky News",
             "Le Monde"
           ],
@@ -804,7 +1034,14 @@ export const newsData = {
               "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-12T01:00:04.000Z",
+              "pubDate": "2026-11-12T04:00:30.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Scott Colom claims victory as he addresses supporters in Mississippi following his historic Senate victory – as it happened",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates",
+              "pubDate": "2026-11-12T03:46:55.000Z",
               "tier": 1
             },
             {
@@ -820,13 +1057,6 @@ export const newsData = {
               "link": "https://www.france24.com/en/americas/20261111-democrat-scott-colom-wins-historic-senate-race-in-mississippi",
               "pubDate": "2026-11-11T23:47:50.000Z",
               "tier": 1
-            },
-            {
-              "title": "US midterms: Democrat Colom defeats Hyde-Smith in Mississippi to win historic Senate seat",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3374129/democrat-colom-defeats-hyde-smith-mississippi-win-historic-senate-seat",
-              "pubDate": "2026-11-12T00:02:23.000Z",
-              "tier": 2
             },
             {
               "title": "Democrat Scott Colom wins Mississippi Senate race",
@@ -851,7 +1081,7 @@ export const newsData = {
           "slug": "colom-wins-mississippi-senate-seat-historic-milestone-achieved"
         },
         {
-          "representativeTitle": "Democrat Wins Mississippi Senate Seat, Shifts Power Balance",
+          "representativeTitle": "Mississippi Elects First Black US Senator Since Reconstruction",
           "sources": [
             "BBC US",
             "NBC News",
@@ -865,14 +1095,21 @@ export const newsData = {
               "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
               "source": "BBC US",
               "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-12T01:00:04.000Z",
+              "pubDate": "2026-11-12T04:00:30.000Z",
               "tier": 1
             },
             {
-              "title": "Democrat Scott Colom projected to win Mississippi Senate seat",
+              "title": "Why Democrat Scott Colom’s win in Mississippi Senate race is so significant",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/videos/cjy5x42p3qzko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-12T02:02:37.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Democrat wins Mississippi Senate race",
               "source": "NBC News",
-              "link": "https://www.nbcnews.com/video/democrat-scott-colom-projected-to-win-mississippi-senate-seat-273301573841",
-              "pubDate": "2026-11-11T23:10:11.000Z",
+              "link": "https://www.nbcnews.com/nightly-news/video/democrat-wins-mississippi-senate-race-273303621688",
+              "pubDate": "2026-11-12T00:01:47.000Z",
               "tier": 2
             },
             {
@@ -900,23 +1137,69 @@ export const newsData = {
               "title": "Democrat Colom flips Mississippi Senate seat",
               "source": "ABC News Top",
               "link": "https://abcnews.com/Politics/democrat-colom-mississippis-black-senator-100-years-ap/story?id=137984057",
-              "pubDate": "2026-11-12T01:22:13.000Z",
+              "pubDate": "2026-11-12T05:23:08.000Z",
               "tier": 2
             },
             {
-              "title": "Democrat Scott Colom wins Mississippi Senate race",
+              "title": "Mississippi elects Democrat Scott Colom as state's first Black US senator since Reconstruction",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNG1IdGdCaVV2RjNVUUwxbHhqMXBpUktSREFGUnZxZnVmZ01XbG5rakZNWVpBeFpqZW5fNE5mTnBNdmtNYjFVSkZGQjB5R2tKUEF5RUFBZWktcWdZTEdEZDd3UUk0RWViRTg2U1MzSFBRRHlublZ1ZUxDdUkyRk02dV9UMUg?oc=5",
-              "pubDate": "2026-11-12T00:18:15.000Z",
+              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVVhWcG5USS14S1FTbUdWOGtpYjRXSWdoUlJ4Ym95VXFGdnQtdVgyY3pMcjFScHpQc0c3a202TWJVcHp6YjFobDFfRl9Ga01PSGdaTEhZREZXRmtKUFBQY1JWQ0NmTHM2aVZnUVdNS3lPZG5RbDVVdHZFZnBkNmlwNU1Sc21GV1RvY0dwVHlyekd0UFg5aUZlNU1nYkJQZE1Y?oc=5",
+              "pubDate": "2026-11-12T05:25:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 70,
-          "slug": "democrat-wins-mississippi-senate-seat-shifts-power-balance"
+          "relevance_score": 8,
+          "importance": 85,
+          "slug": "mississippi-elects-first-black-us-senator-since-reconstruction"
+        },
+        {
+          "representativeTitle": "NYC Building Collapse Claims Lives; People Trapped Inside",
+          "sources": [
+            "BBC World",
+            "Al Jazeera",
+            "Sky News",
+            "Euronews"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "New York building collapse kills at least two, officials say",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-12T05:12:56.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen?traffic_source=rss",
+              "pubDate": "2026-11-12T03:31:08.000Z",
+              "tier": 1
+            },
+            {
+              "title": "At least two killed in Brooklyn collapse",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/people-feared-trapped-after-building-collapses-in-new-york-13611256",
+              "pubDate": "2026-11-11T23:23:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "At least two dead while others are trapped in the rubble after a building collapse in New York City",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
+              "pubDate": "2026-11-12T04:07:38.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 80,
+          "slug": "nyc-building-collapse-claims-lives-people-trapped-inside"
         },
         {
           "representativeTitle": "Infant Rescued After Being Buried Alive Locally",
@@ -965,25 +1248,55 @@ export const newsData = {
           "slug": "infant-rescued-after-being-buried-alive-locally"
         },
         {
-          "representativeTitle": "Two Killed in New York Building Collapse Incident",
+          "representativeTitle": "Historic SS United States Ship Reported Sunk Off Coast",
           "sources": [
-            "BBC World",
-            "Sky News"
+            "BBC US",
+            "BBC World"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "New York building collapse kills one person and injures 12",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-11T22:55:26.000Z",
+              "title": "Famed ship SS United States sunk off coast of Florida",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-12T04:03:13.000Z",
               "tier": 1
             },
             {
-              "title": "Two killed in 'devastating' New York building collapse",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/people-feared-trapped-after-building-collapses-in-new-york-13611256",
-              "pubDate": "2026-11-11T23:23:00.000Z",
+              "title": "Famed ship SS United States sunk off coast of Florida",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-12T04:03:13.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 60,
+          "slug": "historic-ss-united-states-ship-reported-sunk-off-coast"
+        },
+        {
+          "representativeTitle": "Brooklyn building collapse kills two; people trapped.",
+          "sources": [
+            "Al Jazeera",
+            "Le Monde"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Three-storey building collapses in Brooklyn",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/three-storey-building-collapses-in-brooklyn?traffic_source=rss",
+              "pubDate": "2026-11-12T01:50:36.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Building collapses in Brooklyn, killing 2 and trapping people in wreckage",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/11/12/nyc-building-collapses-in-brooklyn-killing-2-and-trapping-people-in-wreckage_6778345_4.html",
+              "pubDate": "2026-11-12T02:29:04.000Z",
               "tier": 2
             }
           ],
@@ -992,7 +1305,7 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 8,
           "importance": 60,
-          "slug": "two-killed-in-new-york-building-collapse-incident"
+          "slug": "brooklyn-building-collapse-kills-two-people-trapped"
         },
         {
           "representativeTitle": "Political Figures Reprimanded at Tomb of Unknown Soldier",
@@ -1032,72 +1345,26 @@ export const newsData = {
           "slug": "political-figures-reprimanded-at-tomb-of-unknown-soldier"
         },
         {
-          "representativeTitle": "Brooklyn Building Collapse Claims Lives, Injures Many",
+          "representativeTitle": "Nvidia CEO loses favor in Trump's Washington circle.",
           "sources": [
-            "NBC News",
-            "ABC News Top",
-            "Google US"
+            "FT International"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "At least 1 person dead, 4 injured after a building collapse in Brooklyn",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/video/at-least-1-person-dead-4-injured-after-a-building-collapse-in-brooklyn-273302597757",
-              "pubDate": "2026-11-11T23:20:44.000Z",
-              "tier": 2
-            },
-            {
-              "title": "At least 2 dead, multiple injured after building collapses in Brooklyn: Mayor",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/rescue-operations-underway-after-building-collapses-brooklyn-new/story?id=138059620",
-              "pubDate": "2026-11-12T01:20:46.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Brooklyn building collapse: At least 2 people dead, 10 hurt in Flatbush",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWGxYems3T1dGcG5ob3R6aFo5VHhELXNLR0djOTJDWHJLQjEyeTV5TF9WRnR1TTByMkFVQmtJLTk5blA1bk9ZNzg3QnFVeDZwY2dFdXRUcHlvcWU1Q1BGQVkwRFBFd3FhLWItRUx4NXVtdzZBdC1MZlBnTGxFLVZWMGllLW0wdG8wbUxkWkh6Zi1Nb1N6WHptdUNDdUc0dlh6QUJR0gGoAUFVX3lxTE5EcDNUNEdPdThKYmhEM3F6aVJNQWFJNUpuSTVvWDdwbUI5dFduUTRQNWxHaXMzcTNtTGZGVmR5X1JBaE5JV09xZDdTeGtaVVlyZmlWZG5pSlU1VHBUX085azRUaW9fRWFqTzRoQmlsQ283MG9LQmhLUDN1WW9RUXhxZ2RhQ1duMElqSDBDU3h2bGVtLXNtc05PX3ByZFU3V19TMGg3QnZtWg?oc=5",
-              "pubDate": "2026-11-12T00:37:37.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "brooklyn-building-collapse-claims-lives-injures-many"
-        },
-        {
-          "representativeTitle": "Historic SS United States Ship Scheduled For Sinking",
-          "sources": [
-            "BBC US",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Famed ship SS United States to be sunk off coast of Florida",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-11T18:42:27.000Z",
+              "title": "State dinners to scrutiny: Nvidia’s Huang falls out of favour in Trump’s Washington",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/9ca8ba83-5a3c-409e-96d9-abee1323b688?syn-25a6b1a6=1",
+              "pubDate": "2026-11-12T04:19:48.000Z",
               "tier": 1
-            },
-            {
-              "title": "SS United States live updates: All valves open as sinking process continues off Florida coast",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2dqbjNScGZtYXF0TFpWM3JHRzcxRU56NmczZ2F4bjJfYjlVRUx5UUFLcy1kZVFmRkVoUGVyQ3pqckd4eG9JUElBMUtjMHhnRzZkUWRCeVc4TkRjd3pnU29YWUw2TzFiT3gyZmhLd1dhcG5oTUFXamthOHczS0hqY3dYUG4tdTRsTFZkTWk4ejhKSHByNGZBZWgwZDhZcU0xU3RCOURJQVE2UFU5ajhtYThZdDZPUUVoTS1uRk5FWjA5anU2ek9oS0NEQVNRYjhTSUlNeGFsd1pEbmpNZkE?oc=5",
-              "pubDate": "2026-11-12T01:16:00.000Z",
-              "tier": 2
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Business",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "historic-ss-united-states-ship-scheduled-for-sinking"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "nvidia-ceo-loses-favor-in-trumps-washington-circle"
         },
         {
           "representativeTitle": "Trump addresses war policies at Arlington National Cemetery.",
@@ -1118,7 +1385,7 @@ export const newsData = {
               "title": "Trump defends his war policies in speech at Arlington National Cemetery",
               "source": "Google US",
               "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQek5TR25SaDZ3eDVOVkUwdWZhUURfZTJ0NzFDTXpyc3RISkJXNXlKMkRSZ05uWUdRRFlELXJLcFRJZFppSFBxcVpfV2RkOGNOQ3NxQnVGLUx1dHlqRGdZMDBsaXVObm5HZGRITWxuQnpoTVZNelJzdVZRaFNxVjlHUU9lX2N0Sm9VTW9VOU80d2R1ODNmVnQ1eTlJbFNaY3pmbVVHQkZtTUlOakdfTjAtdTk3SW5WZw?oc=5",
-              "pubDate": "2026-11-12T01:09:32.000Z",
+              "pubDate": "2026-11-12T02:45:00.000Z",
               "tier": 2
             }
           ],
@@ -1130,34 +1397,41 @@ export const newsData = {
           "slug": "trump-addresses-war-policies-at-arlington-national-cemetery"
         },
         {
-          "representativeTitle": "Judge allows Trump's defamation suit against BBC.",
+          "representativeTitle": "NYC Building Collapse Claims Lives, Injures Many People",
           "sources": [
-            "Al Jazeera",
-            "SCMP"
+            "NBC News",
+            "Google US"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Judge rules Trump’s $10bn BBC defamation suit can proceed",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/11/judge-rules-trumps-10bn-bbc-defamation-suit-can-proceed?traffic_source=rss",
-              "pubDate": "2026-11-11T22:10:12.000Z",
-              "tier": 1
+              "title": "At least two people dead in Brooklyn partial building collapse",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/video/at-least-two-people-dead-in-brooklyn-partial-building-collapse-273311813538",
+              "pubDate": "2026-11-12T02:14:59.000Z",
+              "tier": 2
             },
             {
-              "title": "US judge rejects BBC bid to dismiss Trump defamation case",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3374096/us-judge-rejects-bbc-bid-dismiss-trump-defamation-case",
-              "pubDate": "2026-11-11T11:16:09.000Z",
+              "title": "2 dead, at least 17 hurt in NYC building collapse, authorities say",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/new-york-brooklyn-building-collapse-rcna608909",
+              "pubDate": "2026-11-12T00:04:59.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Brooklyn building collapse in Flatbush live updates: 2 dead, 17 hurt as search goes on",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSldxZVJzWUozM1oybklaa2d6bzlrVG5MeUpYX3Q0d2k2SmoyVGloMTZGb3N5MmszMmJ2TzEycUJYbXVUUnhkQmZYOXNaTUNFUm50Z3ZNZWQwai0xeGVMdF9oNVBHbTR6dUdKMi1ONHlveVhPSFNPOWloaGhkQk5FV3NOQVBVekJQaFRmYUF0Z2pGSkZEUWxHZEVDUjRvZw?oc=5",
+              "pubDate": "2026-11-12T04:59:00.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
+          "sentiment": -0.9,
+          "relevance_score": 8,
           "importance": 50,
-          "slug": "judge-allows-trumps-defamation-suit-against-bbc"
+          "slug": "nyc-building-collapse-claims-lives-injures-many-people"
         },
         {
           "representativeTitle": "Man Admits Throwing Phone After Alleged Murders Trial",
@@ -1170,7 +1444,7 @@ export const newsData = {
               "title": "Beau Lamarre-Condon admits throwing Jesse Baird’s phone off a bridge after alleged murders, trial hears",
               "source": "The Guardian",
               "link": "https://www.theguardian.com/australia-news/2026/nov/12/beau-lamarre-condon-jesse-baird-phone-murder-trial-ntwnfb",
-              "pubDate": "2026-11-12T00:24:22.000Z",
+              "pubDate": "2026-11-12T02:46:16.000Z",
               "tier": 1
             }
           ],
@@ -1182,7 +1456,7 @@ export const newsData = {
           "slug": "man-admits-throwing-phone-after-alleged-murders-trial"
         },
         {
-          "representativeTitle": "Congress questions chip executive over alleged Chinese ties.",
+          "representativeTitle": "Congress questions chip executive over alleged espionage ties.",
           "sources": [
             "TechCrunch"
           ],
@@ -1201,7 +1475,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "congress-questions-chip-executive-over-alleged-chinese-ties"
+          "slug": "congress-questions-chip-executive-over-alleged-espionage-ties"
         },
         {
           "representativeTitle": "Federal Arrest Targets Healthcare Official Over Drug Importation",
@@ -1264,7 +1538,7 @@ export const newsData = {
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "El-Sayed tells Hegseth to resign after impeachment effort fails, 'make it easy for everybody'",
+              "title": "El-Sayed tells Hegseth to resign after impeachment effort fails: 'Make it easy for everybody'",
               "source": "Fox News",
               "link": "https://www.foxnews.com/media/el-sayed-tells-hegseth-resign-after-democrats-derail-impeachment-effort-make-easy-everybody",
               "pubDate": "2026-11-12T01:17:26.000Z",
@@ -1286,7 +1560,7 @@ export const newsData = {
           "slug": "failed-impeachment-sparks-democratic-party-backlash"
         },
         {
-          "representativeTitle": "Measles Surge Threatens Public Health; Costs Rising",
+          "representativeTitle": "Measles Surge Threatens U.S. Public Health Efforts",
           "sources": [
             "CNBC Economy"
           ],
@@ -1305,7 +1579,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "measles-surge-threatens-public-health-costs-rising"
+          "slug": "measles-surge-threatens-us-public-health-efforts"
         },
         {
           "representativeTitle": "Colom Wins Historic Senate Race in Mississippi State",
@@ -1330,55 +1604,56 @@ export const newsData = {
           "slug": "colom-wins-historic-senate-race-in-mississippi-state"
         },
         {
-          "representativeTitle": "BBC Interviews Mississippi Voters After Senate Results",
+          "representativeTitle": "Scandal Overhang Defeats Political Favor With Trump",
           "sources": [
-            "BBC US"
+            "WSJ US Business"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "In Mississippi, voters await cliffhanger Senate result with hope and frustration",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/c6ly0y8r54pqo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-11T02:53:57.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Watch: BBC talks to Mississippi voters awaiting Senate result",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/videos/crvg2xex290no?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-11T13:03:05.000Z",
-              "tier": 1
+              "title": "Huang’s Coziness With Trump Wasn’t Enough to Save Him From Spying Scandal",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/politics/national-security/huangs-coziness-with-trump-wasnt-enough-to-save-him-from-spying-scandal-85ce06f4?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-12T02:00:00.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Business",
           "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "bbc-interviews-mississippi-voters-after-senate-results"
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "scandal-overhang-defeats-political-favor-with-trump"
         },
         {
-          "representativeTitle": "Democrats Signal Investigation Into Trump Ally's Actions",
+          "representativeTitle": "DUI Suspect Arrested After Killing Three Women",
           "sources": [
-            "Fox News"
+            "Fox News",
+            "Google US"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Jeffries leaves door open to investigating major Trump ally as Democrats prepare to take power",
+              "title": "Suspected DUI driver arrested on 3 murder counts after deadly North Hollywood crash, police say",
               "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/jeffries-leaves-door-open-investigating-major-trump-ally-democrats-prepare-take-power",
-              "pubDate": "2026-11-12T01:00:00.000Z",
+              "link": "https://www.foxnews.com/us/suspected-dui-driver-arrested-3-murder-counts-after-deadly-north-hollywood-crash-police-say",
+              "pubDate": "2026-11-12T02:05:04.000Z",
+              "tier": 2
+            },
+            {
+              "title": "North Hollywood crash: Driver accused of killing 3 women in crash near Metro station arrested on suspicion of DUI",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbWFyOTI0YTJERXQwUGRQTFpGdFA4bkdjTFlWMTdOTEJkUVlvNFo3Yjk5Q1d6NjI1SFlsa0d0b3FQWHZmQkZQTjVQNHlydXBkT0ZNMzRPTlluTGxuWDhiZE43LVJPamlheGYzV3cwZnoxdHFoUGVQTTdwZmNfLUJPeURld2I1ak1qV3hsVEtrelBoTERNaHJUVnpaYlNHWjhPOEM5TmlES09ncHdvRXlTa2RIU3pfOV9LSHpoVWF30gHDAUFVX3lxTE04cUNueE9jYUwzaDVMdWtHTGdld2dqQ292WHEzRWgySGZ4RXdTMzBxUVVmMlFFSDA2M2pGMnBqNEk4WUFuMVF5cXRTc0ZaQmRtRGpzUWNmYTVYczVfQ0JDUThsX2pVOGw5RUJvQ0YwYTZQTk9XWDBQbW9FTnp1enh5XzY5NHZMcDVNVXhkVUhabnBlMGF2YXU0cDBTaTlMZW1ENmFZMDBCaDQySUlwVnFSUHJYRndjcVRiOFBVSUllTHhfOA?oc=5",
+              "pubDate": "2026-11-11T15:42:45.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "democrats-signal-investigation-into-trump-allys-actions"
+          "sentiment": -0.9,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "dui-suspect-arrested-after-killing-three-women"
         },
         {
           "representativeTitle": "Political Figure Faces Potential Public Criticism or Backlash",
@@ -1425,6 +1700,36 @@ export const newsData = {
           "slug": "democrats-vow-to-expose-alleged-trump-corruption-efforts"
         },
         {
+          "representativeTitle": "Republicans Elect Jordan as Minority Leader Next Congress",
+          "sources": [
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "House Republicans elect Jim Jordan as minority leader for the next Congress",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Politics/house-republicans-elect-jim-jordan-minority-leader-congress/story?id=138016685",
+              "pubDate": "2026-11-11T12:41:29.000Z",
+              "tier": 2
+            },
+            {
+              "title": "OSU abuse survivors blast Jim Jordan’s election as House minority leader",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNTlEaVFRcHdmNnh3Y1RQdDlOUTJqa1hPb1Q1cjJTdHh0cEdQd01DNndMb2NDeXFiTUtWcWp0NlFldVB3NENEdmRhYVVjcEpnaTJRLUVkbHVIQ3h2MHNVcktibV9nbnBRZ29tY1MzajduVkpXUjgxZWN5LXZyRFhsVXVRSWpRM1Fjd29pVERzcTc2UmI3TkF3bllZeFBrckx0dk05bmt4LU5EbWRTeXlocmxlUDc2Q2c?oc=5",
+              "pubDate": "2026-11-12T00:20:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "republicans-elect-jordan-as-minority-leader-next-congress"
+        },
+        {
           "representativeTitle": "Immigration Arrests Continue Despite Political Shifts Now",
           "sources": [
             "ABC News US",
@@ -1455,26 +1760,26 @@ export const newsData = {
           "slug": "immigration-arrests-continue-despite-political-shifts-now"
         },
         {
-          "representativeTitle": "Michigan Utilities Sue After Anti-Corporate Political Vote",
+          "representativeTitle": "Democrats Target Trump's Nvidia-China Records Now",
           "sources": [
-            "Wired"
+            "WSJ US Business"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Michigan Residents Voted to Get Corporate Money Out of Politics. Now Utilities Are Suing",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/michigan-voters-want-utility-money-out-of-politics-lawsuit/",
-              "pubDate": "2026-11-11T11:15:00.000Z",
-              "tier": 1
+              "title": "Top Democrats Target Trump Administration’s Nvidia-China Records",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/politics/policy/top-democrats-target-trump-administrations-nvidia-china-records-0c212746?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-12T02:00:00.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Science",
+          "ingestionCategory": "Business",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "michigan-utilities-sue-after-anti-corporate-political-vote"
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "democrats-target-trumps-nvidia-china-records-now"
         }
       ]
     },
@@ -1482,56 +1787,92 @@ export const newsData = {
       "name": "Stocks",
       "children": [
         {
-          "representativeTitle": "Nvidia Shares Plunge Amid CEO Future Concerns",
+          "representativeTitle": "Nvidia Shares Decline After-Hours Trading Session",
           "sources": [
-            "Al Jazeera",
-            "Sky News"
+            "FT International"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Nvidia shares plunge amid reports board to discuss CEO Huang’s future",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future?traffic_source=rss",
-              "pubDate": "2026-11-12T00:43:26.000Z",
+              "title": "Nvidia shares tumble in after-market trading",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/a93307a7-e2cd-4abd-bd89-c38832d8c40e?syn-25a6b1a6=1",
+              "pubDate": "2026-11-12T03:39:25.000Z",
               "tier": 1
-            },
-            {
-              "title": "Nvidia preparing to oust CEO amid reports of a second affair",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/nvidia-shares-hit-52-week-low-amid-claims-ceo-jensen-huang-had-second-affair-13611255",
-              "pubDate": "2026-11-11T22:56:00.000Z",
-              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Business",
           "aiCategory": "Stocks",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "nvidia-shares-plunge-amid-ceo-future-concerns"
+          "importance": 55,
+          "slug": "nvidia-shares-decline-after-hours-trading-session"
         },
         {
-          "representativeTitle": "Bond Gains Signal Worsening Risk Appetite Concerns",
+          "representativeTitle": "Bernstein Downgrade Signals Caution on Nvidia Stock",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Long US Bonds Reopen With Gains as Risk Sentiment Sours Again",
+              "title": "Why Bernstein Downgraded Nvidia Stock",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-12/long-us-bonds-reopen-with-gains-as-risk-sentiment-sours-again",
-              "pubDate": "2026-11-12T00:58:09.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-12/why-bernstein-downgraded-nvidia-stock-video",
+              "pubDate": "2026-11-12T03:34:15.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "bond-gains-signal-worsening-risk-appetite-concerns"
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "bernstein-downgrade-signals-caution-on-nvidia-stock"
+        },
+        {
+          "representativeTitle": "Competitors Poised to Benefit From Nvidia Issues",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "AMD, Broadcom, Alphabet Poised to Gain From Nvidia Scandal",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-turmoil-lifts-amd-broadcom-on-bets-for-business-gains",
+              "pubDate": "2026-11-12T02:56:15.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "competitors-poised-to-benefit-from-nvidia-issues"
+        },
+        {
+          "representativeTitle": "India's Stock Market Rises to Global Top Five Status",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "India Reclaims Spot Among World’s Five Biggest Stock Markets as Rally Extends",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/newsletters/2026-11-12/india-reclaims-spot-among-world-s-five-biggest-stock-markets-as-rally-extends",
+              "pubDate": "2026-11-12T02:30:33.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "indias-stock-market-rises-to-global-top-five-status"
         }
       ]
     },
@@ -1539,105 +1880,61 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "India Builds Machines to Reduce China Dependence",
+          "representativeTitle": "Nvidia Board Considers Leadership Change Amid Scandal",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "India’s BEML to Build Tunneling Machines to Cut China Reliance",
+              "title": "Nvidia Weighs Ousting Jensen Huang as Infidelity Scandal Deepens",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-12/india-s-beml-to-build-tunneling-machines-to-cut-china-reliance",
-              "pubDate": "2026-11-12T01:00:00.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-12/the-asia-trade-11-12-2026-video",
+              "pubDate": "2026-11-12T04:23:07.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
-          "sentiment": 0.4,
+          "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "india-builds-machines-to-reduce-china-dependence"
+          "slug": "nvidia-board-considers-leadership-change-amid-scandal"
         },
         {
-          "representativeTitle": "US Shipbuilding Sector Signals $150 Billion Opportunity",
+          "representativeTitle": "El Niño Threatens Palm Oil Supply, Driving Price Spikes",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "The $150 Billion Catch in US Shipbuilding",
+              "title": "Palm Oil Climbs as El Niño Threatens Indonesia’s 2027 Supplies",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-12/opinion-the-150-billion-us-shipbuilding-catch-video",
-              "pubDate": "2026-11-12T00:00:59.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-12/palm-oil-climbs-as-el-nino-threatens-indonesia-s-2027-supplies",
+              "pubDate": "2026-11-12T04:07:35.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Business",
-          "sentiment": 0.4,
+          "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "us-shipbuilding-sector-signals-150-billion-opportunity"
+          "slug": "el-nio-threatens-palm-oil-supply-driving-price-spikes"
         },
         {
-          "representativeTitle": "States Eye Lawsuits Against Tobacco Over Healthcare Costs",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Australian states could sue tobacco companies for billions in healthcare costs under proposal",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/business/2026/nov/12/australian-states-could-sue-tobacco-companies-for-billions-smoking-healthcare-costs",
-              "pubDate": "2026-11-12T01:02:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "states-eye-lawsuits-against-tobacco-over-healthcare-costs"
-        },
-        {
-          "representativeTitle": "Gold Price Holds Steady Awaiting Federal Reserve Signals",
+          "representativeTitle": "Rupiah Plummets Amid MSCI Concerns and Oil Risks",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Gold Holds Below $4,000 as Market Looks Ahead to Fed Rate Hike",
+              "title": "IDR/USD: Indonesian Rupiah Drops to Record Amid MSCI Concerns, Oil Risks",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-12/gold-holds-below-4-000-as-market-looks-ahead-to-fed-rate-hike",
-              "pubDate": "2026-11-12T00:12:52.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "gold-price-holds-steady-awaiting-federal-reserve-signals"
-        },
-        {
-          "representativeTitle": "UK Housing Market Weakens, Surveyors Report Poor Conditions",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "UK Surveyors Face Weakest Housing Market Since 2023, RICS Says",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-12/uk-surveyors-face-weakest-housing-market-since-2023-rics-says",
-              "pubDate": "2026-11-12T00:01:00.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-12/idr-usd-indonesian-rupiah-drops-to-record-amid-msci-concerns-oil-risks",
+              "pubDate": "2026-11-12T02:06:49.000Z",
               "tier": 1
             }
           ],
@@ -1646,42 +1943,42 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 50,
-          "slug": "uk-housing-market-weakens-surveyors-report-poor-conditions"
+          "slug": "rupiah-plummets-amid-msci-concerns-and-oil-risks"
         },
         {
-          "representativeTitle": "ExxonMobil Challenges EU Carbon Capture Regulations Legally",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "ExxonMobil launches legal challenge to EU carbon capture rules",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/377d2ae5-112f-411f-bfc1-5e498948cb7b?syn-25a6b1a6=1",
-              "pubDate": "2026-11-11T21:26:48.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "exxonmobil-challenges-eu-carbon-capture-regulations-legally"
-        },
-        {
-          "representativeTitle": "NZ Tourism Booms Amid Wellness Trends and Currency Shifts",
+          "representativeTitle": "Vietnam Bond Sale Paused Amid Rising Fuel Costs",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "New Zealand Draws Record US Tourists With Wellness and Weak Kiwi Dollar",
+              "title": "Vietnam Dollar Bond Sale on Hold as Fuel Cost Fans Inflation",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-12/new-zealand-draws-record-us-tourists-with-wellness-and-weak-kiwi-dollar",
-              "pubDate": "2026-11-12T00:19:45.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-12/vietnam-dollar-bond-sale-on-hold-as-fuel-shock-fans-inflation",
+              "pubDate": "2026-11-12T04:19:44.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "vietnam-bond-sale-paused-amid-rising-fuel-costs"
+        },
+        {
+          "representativeTitle": "NZ Bond Demand Reaches Strongest Level Since 2013",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "New Zealand Bond Auction Demand Climbs to Highest Since 2013",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-12/new-zealand-bond-auction-demand-climbs-to-highest-since-2013",
+              "pubDate": "2026-11-12T04:12:33.000Z",
               "tier": 1
             }
           ],
@@ -1690,20 +1987,20 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "nz-tourism-booms-amid-wellness-trends-and-currency-shifts"
+          "slug": "nz-bond-demand-reaches-strongest-level-since-2013"
         },
         {
-          "representativeTitle": "Global Funds Inflow Boost Indonesian Bond Market Yields",
+          "representativeTitle": "Japan Bond Sales See Strong Demand Amid Yields",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Indonesia Bonds Lure Global Funds as Yields Hit Six-Year High",
+              "title": "Japan 5-Year Bond Sale Sees Firm Demand as Yields Entice Buyers",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-12/indonesia-bonds-lure-global-funds-as-yields-hit-six-year-high",
-              "pubDate": "2026-11-12T00:05:36.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-12/japan-5-year-bond-sale-sees-firmer-demand-than-12-month-average-mwd011h1",
+              "pubDate": "2026-11-12T03:39:12.000Z",
               "tier": 1
             }
           ],
@@ -1712,20 +2009,20 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "global-funds-inflow-boost-indonesian-bond-market-yields"
+          "slug": "japan-bond-sales-see-strong-demand-amid-yields"
         },
         {
-          "representativeTitle": "IMC Quant Firm Plans Significant Staff Expansion in Hong Kong",
+          "representativeTitle": "Chevron's Strategy for Permian Basin Prominence Detailed",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Quant Trading Firm IMC Plans to Double Staff in Hong Kong",
+              "title": "How Chevron Is Maintaining Prominence in the Permian Basin",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-12/quant-trading-firm-imc-plans-to-double-staff-in-hong-kong",
-              "pubDate": "2026-11-12T00:00:00.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-12/how-chevron-is-maintaining-prominence-in-the-permian-video",
+              "pubDate": "2026-11-12T02:30:29.000Z",
               "tier": 1
             }
           ],
@@ -1734,73 +2031,7 @@ export const newsData = {
           "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "imc-quant-firm-plans-significant-staff-expansion-in-hong-kong"
-        },
-        {
-          "representativeTitle": "Expert Discusses Department Store Industry's Future Trajectory",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Dana Telsey on the Future of Department Stores",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-11/dana-telsey-on-the-future-of-department-stores-video",
-              "pubDate": "2026-11-11T23:35:13.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "expert-discusses-department-store-industrys-future-trajectory"
-        },
-        {
-          "representativeTitle": "Oil Market Analysis Provided For November Twelfth Trading",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Latest Oil Market News and Analysis for Nov. 12",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-11/latest-oil-market-news-and-analysis-for-nov-12",
-              "pubDate": "2026-11-11T23:04:06.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "oil-market-analysis-provided-for-november-twelfth-trading"
-        },
-        {
-          "representativeTitle": "Woodside CEO Discusses US LNG Development Outlook",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Woodside Energy CEO on LNG Development in the US",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-11/woodside-energy-ceo-on-lng-development-in-the-us-video",
-              "pubDate": "2026-11-11T22:53:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "woodside-ceo-discusses-us-lng-development-outlook"
+          "slug": "chevrons-strategy-for-permian-basin-prominence-detailed"
         },
         {
           "representativeTitle": "JetBlue upgrades first-class seats aiming boost profits.",
@@ -1825,36 +2056,6 @@ export const newsData = {
           "slug": "jetblue-upgrades-first-class-seats-aiming-boost-profits"
         },
         {
-          "representativeTitle": "Poundland faces ongoing talks to secure rescue deal.",
-          "sources": [
-            "BBC Business",
-            "Google Stocks"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
-              "source": "BBC Business",
-              "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-12T00:49:05.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEWTAxeW5RS2RldkxaeEoySTNmZWR6WF9KRnZzRExJcXdBSTlDU3F6V0V6ZVA3a3R1bTZJM01UQndVM0UyWXRNb3hwSkhWTTdzdExXMjktYlUwc1U?oc=5",
-              "pubDate": "2026-11-12T00:49:05.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "poundland-faces-ongoing-talks-to-secure-rescue-deal"
-        },
-        {
           "representativeTitle": "Major Lego Marketplace BrickLink Experiences Outage Now",
           "sources": [
             "BBC US"
@@ -1877,7 +2078,7 @@ export const newsData = {
           "slug": "major-lego-marketplace-bricklink-experiences-outage-now"
         },
         {
-          "representativeTitle": "American Airlines Returns Fresh Food to First Class Travel",
+          "representativeTitle": "American Airlines Restores Fresh Food Service On Flights",
           "sources": [
             "CNBC Economy"
           ],
@@ -1896,13 +2097,51 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 4,
           "importance": 35,
-          "slug": "american-airlines-returns-fresh-food-to-first-class-travel"
+          "slug": "american-airlines-restores-fresh-food-service-on-flights"
         }
       ]
     },
     {
       "name": "Technology",
       "children": [
+        {
+          "representativeTitle": "Nvidia Board Considers Ousting Longtime CEO Huang",
+          "sources": [
+            "The Guardian",
+            "Al Jazeera",
+            "France 24"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Nvidia board reportedly meeting to decide CEO Jensen Huang’s future as chip giant’s share price plunges – follow live",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+              "pubDate": "2026-11-12T05:14:25.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Nvidia shares plunge amid reports board to discuss CEO Huang’s future",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future?traffic_source=rss",
+              "pubDate": "2026-11-12T00:43:26.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Nvidia board to decide whether to oust longtime CEO Jensen Huang",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/technology/20261112-nvidia-board-to-decide-whether-to-oust-longtime-ceo-jensen-huang",
+              "pubDate": "2026-11-12T04:05:14.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 90,
+          "slug": "nvidia-board-considers-ousting-longtime-ceo-huang"
+        },
         {
           "representativeTitle": "Nvidia CEO's Job Security Questioned Amid Uncertainty",
           "sources": [
@@ -1942,26 +2181,101 @@ export const newsData = {
           "slug": "nvidia-ceos-job-security-questioned-amid-uncertainty"
         },
         {
-          "representativeTitle": "Facial Recognition Errors Threaten Minority Rights, Watchdog Warns",
+          "representativeTitle": "Pressure mounts on Nvidia CEO Jensen Huang's leadership.",
           "sources": [
-            "The Guardian"
+            "BBC US",
+            "ABC News Top"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Facial recognition errors put ethnic minorities at risk of wrongful arrest, police watchdog warns",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/technology/2026/nov/12/facial-recognition-errors-put-ethnic-minorities-at-risk-of-wrongful-arrest-police-watchdog-warns",
-              "pubDate": "2026-11-12T00:01:03.000Z",
+              "title": "What we know as pressure builds on embattled Nvidia CEO Jensen Huang",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-12T04:18:33.000Z",
               "tier": 1
+            },
+            {
+              "title": "Nvidia board reportedly preparing to oust CEO Jensen Huang after alleged affairs",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/US/nvidia-board-reportedly-preparing-oust-ceo-jensen-huang/story?id=138062059",
+              "pubDate": "2026-11-12T02:42:23.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "pressure-mounts-on-nvidia-ceo-jensen-huangs-leadership"
+        },
+        {
+          "representativeTitle": "Nvidia Board Questions CEO Over Alleged Espionage Links",
+          "sources": [
+            "MarketWatch",
+            "BBC Business",
+            "Google Stocks"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
+              "source": "MarketWatch",
+              "link": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
+              "pubDate": "2026-11-12T02:52:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "What we know as pressure builds on embattled Nvidia CEO Jensen Huang",
+              "source": "BBC Business",
+              "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-12T04:18:33.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Nvidia board weighs fate of CEO Jensen Huang after affair with alleged Chinese spy",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRHgyQ1hDQlhOb0JIMEptNHA2VFpUZDFuYWl5R0RwSlpjYXNIMnJ1M0dVNnFlSUxkOVF5RFE3MUNPZWtKTkR1M3pNTEI2cC15ZGhvN240YTd0QTNYZEowNFNobjdSNm1WY1RlRXoyMUdaUE41TGtzWUNGeTFENG1PY3BNa1c5MHczSzJ4V1VZbjVISmZKOHpwNFFhOVdCZnRjSWtuM0c5WTVZa0lmS3o3YnJ5Q1pvZXo3LWtfRmV3?oc=5",
+              "pubDate": "2026-11-12T03:43:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Nvidia's stock dives as chipmaker's board weighs move to oust CEO Jensen Huang",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQV0ppMjd4Z0pxWkJVRnlaSXNZWUd6Nmd3TC0tWEVLYmp1Z3hmWVFhY2VnRS1Da0U5eXJTdnhtRHNkdTR4bFlDc21UTzctUTNodll1NlJITU81WG1jSVNmV1FVVllJZGlJcWVaSl9LS1A4N3FZeGZ6THVPbTZCOWRaSUFyMzJoaTdZNEh0Vmt3eTd0Zw?oc=5",
+              "pubDate": "2026-11-11T23:20:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Stocks",
           "aiCategory": "Technology",
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "facial-recognition-errors-threaten-minority-rights-watchdog-warns"
+          "slug": "nvidia-board-questions-ceo-over-alleged-espionage-links"
+        },
+        {
+          "representativeTitle": "Nvidia Board to Decide CEO's Future Over Affair",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Nvidia board to decide Jensen Huang’s fate after revelation of affair with subordinate",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
+              "pubDate": "2026-11-12T01:13:24.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "nvidia-board-to-decide-ceos-future-over-affair"
         },
         {
           "representativeTitle": "Jensen Huang Scandal Unfolds: Key Events Timeline",
@@ -2015,28 +2329,6 @@ export const newsData = {
           "slug": "startup-uses-ai-to-counter-potential-bioweapon-threats"
         },
         {
-          "representativeTitle": "Advisor CEO Urges Investors to Include AI Assets",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Pivotal Advisors CEO: Investors Should See AI as Part of Portfolio",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-11/mcghee-investors-should-see-ai-as-part-of-portfolio-video",
-              "pubDate": "2026-11-11T23:48:05.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "advisor-ceo-urges-investors-to-include-ai-assets"
-        },
-        {
           "representativeTitle": "OpenAI Revenue Hits $10 Billion Milestone Mark",
           "sources": [
             "TechCrunch"
@@ -2057,28 +2349,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "openai-revenue-hits-10-billion-milestone-mark"
-        },
-        {
-          "representativeTitle": "Nvidia Board Meets Amid Executive Affair Scandal",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Nvidia board set to meet after revelations Huang had affair with top company executive",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
-              "pubDate": "2026-11-11T22:56:26.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "nvidia-board-meets-amid-executive-affair-scandal"
         },
         {
           "representativeTitle": "Nvidia's Singapore Sales Mystery Deepens Market Concern",
@@ -2103,36 +2373,6 @@ export const newsData = {
           "slug": "nvidias-singapore-sales-mystery-deepens-market-concern"
         },
         {
-          "representativeTitle": "New Tech Promises Significant Smartphone Camera Improvements Soon",
-          "sources": [
-            "Wired",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Exclusive: Your Smartphone Camera Could Get a Big Upgrade With This Tech",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/your-smartphone-camera-could-get-a-big-upgrade-with-this-tech/",
-              "pubDate": "2026-11-11T12:00:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Exclusive: Your Smartphone Camera Could Get a Big Upgrade With This Tech",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOEJwVnpzYXB4ek5wdG5rMTFhU3JfY2VyOGJ4VEl0cVVvd3dFbmpnU2E4OEZRcU05dFlqaXFsSGlLYjlPOGhYUGdzb250VnNNZ29wM1VoQzdmS3VQcWdVVDZFZWsyZ3R5ZjY0MFdVbm5VZFg3V2R3UXlBWjJZOWJBYl9UWlI3N2hScU1JQXpJRXdTMWct?oc=5",
-              "pubDate": "2026-11-11T12:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "new-tech-promises-significant-smartphone-camera-improvements-soon"
-        },
-        {
           "representativeTitle": "Data center construction faces potential roadblocks and delays.",
           "sources": [
             "TechCrunch"
@@ -2155,7 +2395,7 @@ export const newsData = {
           "slug": "data-center-construction-faces-potential-roadblocks-and-delays"
         },
         {
-          "representativeTitle": "Meta Loses Key Infrastructure Leader Amid Uncertainty",
+          "representativeTitle": "Meta Loses Key Infrastructure Leader Amid Departures",
           "sources": [
             "TechCrunch"
           ],
@@ -2174,7 +2414,29 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "meta-loses-key-infrastructure-leader-amid-uncertainty"
+          "slug": "meta-loses-key-infrastructure-leader-amid-departures"
+        },
+        {
+          "representativeTitle": "Naver Profit Halves Due to AI Spending Pressure",
+          "sources": [
+            "WSJ US Business"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Naver Profit Nearly Halves as AI Spending Squeezes Margins",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/earnings/naver-quarterly-profit-falls-on-year-missing-expectations-d394a172?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-12T03:58:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "naver-profit-halves-due-to-ai-spending-pressure"
         },
         {
           "representativeTitle": "CoreWeave Funds AI Growth Via Prepayments, Shorter Deals",
@@ -2199,7 +2461,7 @@ export const newsData = {
           "slug": "coreweave-funds-ai-growth-via-prepayments-shorter-deals"
         },
         {
-          "representativeTitle": "British firm secures funding boost for AI chip race.",
+          "representativeTitle": "British firm secures funding boost for AI chips.",
           "sources": [
             "TechCrunch"
           ],
@@ -2218,7 +2480,7 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "british-firm-secures-funding-boost-for-ai-chip-race"
+          "slug": "british-firm-secures-funding-boost-for-ai-chips"
         },
         {
           "representativeTitle": "Virtual Duck Showcases Future of Robotics Interaction",
@@ -2278,56 +2540,136 @@ export const newsData = {
       "name": "Science",
       "children": [
         {
-          "representativeTitle": "Leaders Warn: Climate Action Needed to Avoid Collapse",
-          "sources": [
-            "The Guardian",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "‘The world we know is over’ without urgent climate action, leaders tell Cop31",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/environment/2026/nov/11/the-world-we-know-is-over-marshall-islands-president-cop31",
-              "pubDate": "2026-11-11T18:52:08.000Z",
-              "tier": 1
-            },
-            {
-              "title": "‘The world we know is over’ without urgent climate action, leaders tell Cop31",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLVJVdHUyUk9FT2pJRzNfMUlWcGhDYUJrakN3cFZ1SkZ5R3ViYmdBWG8yaHRNa0R4aHc0ZV96ZVJaMlEteHZwdHJrY1JQckRYaERPNTNWV1E4bHFHVk16UHZDV0xRLXlpclZXY2lCU2dITFdfNk5lRXJVS0R6MDEtUVJlcU5kdWs4Ym9wN2R0enl4S1N2UWk5TGo5TlEwQVRYTFpWa2Z5dFg0VE5xTU9z?oc=5",
-              "pubDate": "2026-11-11T18:52:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Science",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 65,
-          "slug": "leaders-warn-climate-action-needed-to-avoid-collapse"
-        },
-        {
-          "representativeTitle": "Bog Find Illuminates Roman Life in Scotland",
+          "representativeTitle": "Space view reveals oil slicks harming Gulf ecosystems.",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Bronze leg found in Scottish bog sheds new light on Roman occupation",
+              "title": "Oil slicks seen from space: the devastating impact of boat strikes on fragile Gulf ecosystems",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/nov/12/bronze-leg-scottish-bog-roman-occupation-exhibit",
-              "pubDate": "2026-11-12T00:01:03.000Z",
+              "link": "https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
+              "pubDate": "2026-11-12T03:00:07.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 6,
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "space-view-reveals-oil-slicks-harming-gulf-ecosystems"
+        },
+        {
+          "representativeTitle": "Warming Seas Link Droughts Across Continents Now",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "From Romania to Kazakhstan, summer droughts linked to less winter ice in two rapidly warming seas",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-romania-kazakhstan-summer-droughts-linked.html",
+              "pubDate": "2026-11-12T05:00:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 8,
           "importance": 45,
-          "slug": "bog-find-illuminates-roman-life-in-scotland"
+          "slug": "warming-seas-link-droughts-across-continents-now"
+        },
+        {
+          "representativeTitle": "Sugar May Aid Cancer Cell Escape and Spread",
+          "sources": [
+            "Science Daily"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Scientists discover a common sugar may help cancer cells break free and spread",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/11/261111221501.htm",
+              "pubDate": "2026-11-12T04:39:31.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "sugar-may-aid-cancer-cell-escape-and-spread"
+        },
+        {
+          "representativeTitle": "Simulation models reveal universe's emergence from darkness.",
+          "sources": [
+            "Science Daily"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "A massive new simulation reveals how the universe emerged from darkness",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm",
+              "pubDate": "2026-11-12T04:07:24.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "simulation-models-reveal-universes-emergence-from-darkness"
+        },
+        {
+          "representativeTitle": "Quantum Computer Memory Exhibits Novel Vibrational Properties",
+          "sources": [
+            "Science Daily"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Inside this quantum computer, memory vibrates like a guitar string",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/11/261109205416.htm",
+              "pubDate": "2026-11-12T02:35:20.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "quantum-computer-memory-exhibits-novel-vibrational-properties"
+        },
+        {
+          "representativeTitle": "Probe finds pattern in Sun's magnetic fields",
+          "sources": [
+            "Science Daily"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "NASA’s Parker Solar Probe discovers a hidden pattern in the Sun’s chaotic magnetic fields",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/11/261109205411.htm",
+              "pubDate": "2026-11-12T01:45:09.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "probe-finds-pattern-in-suns-magnetic-fields"
         },
         {
           "representativeTitle": "Microplastics Found Far From Human Influence in Wildlife",
@@ -2352,70 +2694,34 @@ export const newsData = {
           "slug": "microplastics-found-far-from-human-influence-in-wildlife"
         },
         {
-          "representativeTitle": "New Technique Confirms Major M87 Galaxy Image Data",
+          "representativeTitle": "Mollusk Reveals New Symbiotic Bacterial Structure Discovery",
           "sources": [
-            "Phys.org"
+            "Phys.org",
+            "Google Science"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Independent technique validates landmark M87* image",
+              "title": "Deep-sea mollusk houses bacteria in tiny 'dragon balls,' revealing a new symbiotic structure",
               "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-independent-technique-validates-landmark-m87.html",
-              "pubDate": "2026-11-12T00:00:04.000Z",
+              "link": "https://phys.org/news/2026-11-deep-sea-mollusk-houses-bacteria.html",
+              "pubDate": "2026-11-11T21:00:01.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Deep-sea mollusk houses bacteria in tiny 'dragon balls,' revealing a new symbiotic structure",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OX29xTmNaLTRxdEVqZm1iVkxJTktuc3drQVNuY05XLUZQZllhVG1WOWFUbGJEMlVGeE5nYk0yTE56dVhKeE5oMmVDcE5hdXBuWW92bUpmelNqbVlITk43OGFfeVJRQnNlMWxENmdPWjlSMGV5bnc?oc=5",
+              "pubDate": "2026-11-11T21:00:01.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
           "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "new-technique-confirms-major-m87-galaxy-image-data"
-        },
-        {
-          "representativeTitle": "New Tech Finds Hidden Neurotoxins in Drinking Water",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Clean water, hidden risks: New technology reveals neurotoxicity missed by conventional water quality monitoring",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-hidden-technology-reveals-neurotoxicity-conventional.html",
-              "pubDate": "2026-11-11T23:40:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "new-tech-finds-hidden-neurotoxins-in-drinking-water"
-        },
-        {
-          "representativeTitle": "Cellular Clock Reversal Offers New Anti-Aging Benchmark",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "A New Benchmark for De-Aging Comes From Slowly Turning Back Cells’ Clocks",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/a-new-benchmark-for-de-aging-comes-from-slowly-turning-back-cells-clocks/",
-              "pubDate": "2026-11-11T10:30:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "cellular-clock-reversal-offers-new-anti-aging-benchmark"
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "mollusk-reveals-new-symbiotic-bacterial-structure-discovery"
         }
       ]
     }
