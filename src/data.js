@@ -1,88 +1,18 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-11-13T06:20:17.903Z",
+  "lastUpdated": "2026-11-13T10:27:41.497Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Israeli Strike Causes Devastation at Gaza Hospital",
-          "sources": [
-            "BBC World",
-            "The Guardian",
-            "Al Jazeera",
-            "France 24",
-            "SCMP",
-            "Euronews"
-          ],
-          "citationCount": 6,
-          "rawArticles": [
-            {
-              "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-12T16:54:12.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Israeli airstrike on Nasser hospital in Gaza kills surgeon and five others",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon",
-              "pubDate": "2026-11-12T12:19:01.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Gaza surgeon films aftermath of Israeli strike",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/gaza-surgeon-films-aftermath-of-israeli-strike?traffic_source=rss",
-              "pubDate": "2026-11-13T03:11:43.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Israeli strike on Gaza hospital kills six, including surgeon, medics say",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/israeli-strike-on-gaza-hospital-kills-six-including-surgeon-medics-say",
-              "pubDate": "2026-11-12T20:03:55.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Israel kills six in Gaza hospital strike as 9-month-old baby freezes to death",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20261112-israel-kills-six-in-gaza-hospital-strike-as-9-month-old-baby-freezes-to-death",
-              "pubDate": "2026-11-12T16:18:24.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Israeli strike on Gaza hospital deadliest since election",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/middle-east/article/3374264/israeli-strike-gaza-hospital-kills-11-deadliest-attack-election",
-              "pubDate": "2026-11-12T18:32:12.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Gaza: Devastation inside Nasser Hospital after deadly Israeli strike",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/video/2026/11/12/gaza-devastation-inside-nasser-hospital-after-deadly-israeli-strike",
-              "pubDate": "2026-11-12T16:10:23.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 10,
-          "importance": 100,
-          "slug": "israeli-strike-causes-devastation-at-gaza-hospital"
-        },
-        {
-          "representativeTitle": "Europe Confirms Participation in Ukraine Talks Round",
+          "representativeTitle": "Europe joins talks as Putin remains unyielding.",
           "sources": [
             "BBC World",
             "France 24",
-            "SCMP",
-            "Euronews"
+            "SCMP"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
@@ -92,7 +22,14 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Live: Zelensky and Kushner confirm that Europe will join next round of Russia-Ukraine talks",
+              "title": "'Big development' in peace talks as Ukraine says Europe to join Russia negotiations",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261113-big-development-in-peace-talks-as-ukraine-says-europe-to-join-russia-negotiations",
+              "pubDate": "2026-11-13T10:13:57.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Ukraine live: EU top diplomat Kallas warns Europe not to fall into Russia's 'traps'",
               "source": "France 24",
               "link": "https://www.france24.com/en/europe/20261113-live-zelensky-and-kushner-confirm-that-europe-will-join-next-round-of-russia-ukraine-talks",
               "pubDate": "2026-11-13T01:39:42.000Z",
@@ -111,21 +48,52 @@ export const newsData = {
               "link": "https://www.scmp.com/news/world/russia-central-asia/article/3374265/putin-indicates-he-will-not-compromise-ukraine-meeting-us-envoys",
               "pubDate": "2026-11-12T19:05:17.000Z",
               "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 100,
+          "slug": "europe-joins-talks-as-putin-remains-unyielding"
+        },
+        {
+          "representativeTitle": "Israeli Strike on Gaza Hospital Kills Six People",
+          "sources": [
+            "The Guardian",
+            "France 24",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Israeli airstrike on Nasser hospital in Gaza kills surgeon and five others",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon",
+              "pubDate": "2026-11-12T12:19:01.000Z",
+              "tier": 1
             },
             {
-              "title": "Russia plays down peace talks with Europe after Witkoff raises hopes of breakthrough",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/12/russia-plays-down-peace-talks-with-europe-after-witkoff-raises-hopes-of-breakthrough",
-              "pubDate": "2026-11-12T18:31:23.000Z",
+              "title": "Israeli strike on Gaza hospital kills six, including surgeon, medics say",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/israeli-strike-on-gaza-hospital-kills-six-including-surgeon-medics-say",
+              "pubDate": "2026-11-12T20:03:55.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Israeli strike on Gaza’s Nasser Hospital kills at least six people, officials say",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQUdEakxtMWZpbTJoLTBTOGRoNElEcDFodXFDNzcyUEtVS2dJMU92anJoQWFpdjEwT042d3lRVExOcHpFdDdrZ3lNTWZ2dlp1dzdoVjN3YU5TdUJkb1NWTWZBNHhqOTlBVWNYTkRoS2tpUWRrMTVMVFlLMDN1NHB6blRvV3dkbERhZWJHSFM1enVSaGlsaHUzRVk2cTBSREp3aENrYVBCbTlteEpMMzd2U05n?oc=5",
+              "pubDate": "2026-11-12T22:22:13.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0.4,
+          "sentiment": -0.9,
           "relevance_score": 9,
-          "importance": 95,
-          "slug": "europe-confirms-participation-in-ukraine-talks-round"
+          "importance": 80,
+          "slug": "israeli-strike-on-gaza-hospital-kills-six-people"
         },
         {
           "representativeTitle": "Pope Meets Victims; Church Vows to Make Amends",
@@ -143,13 +111,6 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Pope Leo calls for Church to make ‘amends’ to sex abuse victims",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/pope-leo-calls-for-church-to-make-amends-to-sex-abuse-victims?traffic_source=rss",
-              "pubDate": "2026-11-12T20:59:53.000Z",
-              "tier": 1
-            },
-            {
               "title": "Pope Leo XIV meets abuse victims in Peru, says Church must make 'amends'",
               "source": "France 24",
               "link": "https://www.france24.com/en/americas/20261113-pope-leo-xiv-meets-abuse-victims-in-peru-says-church-must-make-amends",
@@ -161,37 +122,103 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 80,
+          "importance": 70,
           "slug": "pope-meets-victims-church-vows-to-make-amends"
         },
         {
-          "representativeTitle": "Ukrainian Drone Strikes Russian Warship in Finland Gulf",
+          "representativeTitle": "Rainfall Threatens Gaza's Power and Healthcare Access",
           "sources": [
-            "BBC World",
-            "Al Jazeera",
-            "Google World"
+            "Al Jazeera"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-12T20:09:16.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Finland detects strike on Russian warship as Zelenskyy meets US envoys",
+              "title": "With every rainfall, Gaza risks losing access to power and healthcare",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys?traffic_source=rss",
-              "pubDate": "2026-11-13T02:35:21.000Z",
+              "link": "https://www.aljazeera.com/news/2026/11/13/with-every-rainfall-gaza-risks-losing-access-to-power-and-healthcare?traffic_source=rss",
+              "pubDate": "2026-11-13T09:43:30.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "rainfall-threatens-gazas-power-and-healthcare-access"
+        },
+        {
+          "representativeTitle": "Putin Targets Ukrainian Infrastructure Amid Escalating Conflict",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Winter is coming: Putin seeks to 'hammer Ukrainians, their power grid, their water supplies'",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/winter-is-coming-putin-seeks-to-hammer-ukrainians-their-power-grid-their-water-supplies",
+              "pubDate": "2026-11-13T09:26:32.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "putin-targets-ukrainian-infrastructure-amid-escalating-conflict"
+        },
+        {
+          "representativeTitle": "EU Leaders Meet Dublin Seeking Russia Peace Negotiator",
+          "sources": [
+            "The Guardian",
+            "Euronews"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Leaders meet in Dublin amid search for lead EU negotiator for peace talks with Russia",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/nov/13/eu-leaders-negotiations-ukraine-russia-dublin-ai-summit-kushner-witkoff-latest-news-updates",
+              "pubDate": "2026-11-13T10:07:18.000Z",
               "tier": 1
             },
             {
-              "title": "Finland detects strike on Russian warship as Zelenskyy meets US envoys",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQk5HZ2otLXgxVjM2Y2t3MVVGZllBYWlRUTBIYjJZb3FGcW15b0g1ZUlfR0FQT2NTZGhUcFpGR1JYczNaT3hucW91SE92U21TMW9lZEtkdUVTQm1hYUx1WmFJYmFzODdaUXFRSjV1aXZ5VzBRYzhrcHhvdTBMNVF2V1ZPTVhoWVN1dmdWRUUydWFFQi1mblE3a2dhN3ItSHhIWkNKSm1uMjVhS09NbW9na0VR0gG3AUFVX3lxTFBZTDVsS0F3WXJrQ1VlTDd1dUgzWC03ZlFSQjdSMzUyNG9JUzhzNW8wbmc2YXBiM1ZXbjlLa2NZc3VTTWtKY09QeHNOWHlFQl9mbVp2aFFId1JtdEFwb1N1WWc2c1VqYTJaX0U4ZTNjV1d4SUJJRW9WckF0Mm1hUVFQWENJS0xiYUNOTnRGdkk3WkRSZVJRUWxrRHlzN0JIX25ybzVCNk5ob2FjWEpobHJBblJabzhjdw?oc=5",
-              "pubDate": "2026-11-13T02:38:46.000Z",
+              "title": "EU leaders in Dublin grapple with who speaks for Europe in peace talks",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/11/13/eu-leaders-gather-in-dublin-to-decide-who-will-speak-for-europe-in-peace-talks",
+              "pubDate": "2026-11-13T07:19:52.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "eu-leaders-meet-dublin-seeking-russia-peace-negotiator"
+        },
+        {
+          "representativeTitle": "Iran Claims Destroying US Radar After Attack",
+          "sources": [
+            "Al Jazeera",
+            "Euronews"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Iran says it targeted US radar site in Bahrain",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain?traffic_source=rss",
+              "pubDate": "2026-11-13T03:17:27.000Z",
+              "tier": 1
+            },
+            {
+              "title": "IRGC says it destroyed US radar in Bahrain after attack on southern Iran",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran",
+              "pubDate": "2026-11-13T09:39:16.000Z",
               "tier": 2
             }
           ],
@@ -199,8 +226,90 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 75,
-          "slug": "ukrainian-drone-strikes-russian-warship-in-finland-gulf"
+          "importance": 60,
+          "slug": "iran-claims-destroying-us-radar-after-attack"
+        },
+        {
+          "representativeTitle": "Trump Allies Meet Putin in Moscow Regarding Ukraine",
+          "sources": [
+            "Euronews",
+            "Time",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Europe Today: US envoys meet Putin as Europe pushes to join Ukraine talks",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/11/13/europe-today-us-envoys-meet-putin-as-europe-pushes-to-join-ukraine-talks",
+              "pubDate": "2026-11-13T07:02:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Trump Envoys Witkoff and Kushner Meet With Putin in Moscow for Ukraine Talks",
+              "source": "Time",
+              "link": "https://time.com/article/2026/11/12/ukraine-russia-peace-deal-talks-putin-zelensky-witkoff-kushner/",
+              "pubDate": "2026-11-12T14:22:12.000Z",
+              "tier": 2
+            },
+            {
+              "title": "US envoys meet with Putin in Moscow on Ukraine talks, then see Zelenskyy in Dublin",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFZuQ05KbXhLT294akRzMl9XWE5rUmRhV01fSDY4VVF6dnNaZVlCUzdCd1I2TnI0azFRT1VHcW1hVm9oMWhUNTZaVUc0QjNVNkNseGxYTGU3RmpSWXppTVZ4TzVRWEpxdE1tOVc3NDJYdFZmdWhoeFBvSXc4MXV4N0JUSW95SzlZalpwcERuU3hRNHpSbVBwNXl1Y19kUDU1d2c?oc=5",
+              "pubDate": "2026-11-13T02:09:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "trump-allies-meet-putin-in-moscow-regarding-ukraine"
+        },
+        {
+          "representativeTitle": "COP31 Empty Chairs Signal Weak Climate Ambitions",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "As world gripped by climate emergency, COP31’s empty chairs signal low ambitions",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261113-as-world-gripped-by-climate-emergency-cop31-s-empty-chairs-signal-low-ambitions",
+              "pubDate": "2026-11-13T10:12:17.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "cop31-empty-chairs-signal-weak-climate-ambitions"
+        },
+        {
+          "representativeTitle": "Russia-Ukraine Attacks Continue Amid US Diplomacy Efforts",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Russia and Ukraine report overnight attacks amid US diplomatic push",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/13/russia-and-ukraine-report-overnight-attacks-amid-us-diplomatic-push?traffic_source=rss",
+              "pubDate": "2026-11-13T10:11:38.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "russia-ukraine-attacks-continue-amid-us-diplomacy-efforts"
         },
         {
           "representativeTitle": "Report Claims Massive Russian Casualties in Ukraine War",
@@ -225,34 +334,78 @@ export const newsData = {
           "slug": "report-claims-massive-russian-casualties-in-ukraine-war"
         },
         {
-          "representativeTitle": "Europe to Join Talks Ending Ukraine Conflict After Putin Meeting",
+          "representativeTitle": "Ukrainian Drone Strikes Russian Warship in Finland Gulf",
           "sources": [
-            "France 24",
+            "BBC World",
             "Google World"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Russia's Vladimir Putin suggests no Ukraine compromise in meeting with US envoys",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261112-russia-s-vladimir-putin-suggests-no-ukraine-compromise-in-meeting-with-us-envoys",
-              "pubDate": "2026-11-12T16:46:14.000Z",
+              "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-12T20:09:16.000Z",
               "tier": 1
             },
             {
-              "title": "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war",
+              "title": "Finland detects strike on Russian warship as Zelenskyy meets US envoys",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaWdyUWhPQnRiR210eElwazFOZ2pyWWgxN2FWX09VU0ZSZUpFcVlweFllV2E4aF9CcXpwQkhybkVzMjkwdTBOY3JTRFBXdlZBOXVvU2l5cjBKX1Znel9XR2JJb0gwbVlQOV9TenpJUkY2ZG1YcXEtRWdNWTQ0MDJTM3pQdnRHSkE0WXlWQjA5Y2JXQkpUN2hoSkkyTXhrTE1FdnUyblFjWDdqWHZTMGM1LVU4V2oxZnpqZzBj?oc=5",
-              "pubDate": "2026-11-13T05:24:36.000Z",
+              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQk5HZ2otLXgxVjM2Y2t3MVVGZllBYWlRUTBIYjJZb3FGcW15b0g1ZUlfR0FQT2NTZGhUcFpGR1JYczNaT3hucW91SE92U21TMW9lZEtkdUVTQm1hYUx1WmFJYmFzODdaUXFRSjV1aXZ5VzBRYzhrcHhvdTBMNVF2V1ZPTVhoWVN1dmdWRUUydWFFQi1mblE3a2dhN3ItSHhIWkNKSm1uMjVhS09NbW9na0VR0gG3AUFVX3lxTFBZTDVsS0F3WXJrQ1VlTDd1dUgzWC03ZlFSQjdSMzUyNG9JUzhzNW8wbmc2YXBiM1ZXbjlLa2NZc3VTTWtKY09QeHNOWHlFQl9mbVp2aFFId1JtdEFwb1N1WWc2c1VqYTJaX0U4ZTNjV1d4SUJJRW9WckF0Mm1hUVFQWENJS0xiYUNOTnRGdkk3WkRSZVJRUWxrRHlzN0JIX25ybzVCNk5ob2FjWEpobHJBblJabzhjdw?oc=5",
+              "pubDate": "2026-11-13T02:38:46.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 60,
-          "slug": "europe-to-join-talks-ending-ukraine-conflict-after-putin-meeting"
+          "slug": "ukrainian-drone-strikes-russian-warship-in-finland-gulf"
+        },
+        {
+          "representativeTitle": "Mexico Graft Scandal Undermines Electoral Authority Trust",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Mexico Graft Scandal Erodes Trust in Electoral Authority, Threatens Sheinbaum",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-13/mexico-graft-scandal-erodes-trust-in-electoral-authority-threatens-sheinbaum",
+              "pubDate": "2026-11-13T10:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "mexico-graft-scandal-undermines-electoral-authority-trust"
+        },
+        {
+          "representativeTitle": "Storm Charles causes widespread flooding across Europe.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Storm Charles causes floods and flight cancellations across southern Europe",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather",
+              "pubDate": "2026-11-13T08:49:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "storm-charles-causes-widespread-flooding-across-europe"
         },
         {
           "representativeTitle": "Mexican Prosecutor Fled US After CIA Links Exposed",
@@ -306,188 +459,92 @@ export const newsData = {
           "slug": "kushner-europe-vital-for-ending-ukraine-conflict"
         },
         {
-          "representativeTitle": "Iranian Boxer Vows Resistance Despite Death Sentence",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Boxer on death row in Iran vows ‘not to bow before oppression’ after winning rights prize",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/global-development/2026/nov/13/mohammad-javad-vafaei-sani-iran-boxer-death-row-magnitsky-award",
-              "pubDate": "2026-11-13T06:00:11.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "iranian-boxer-vows-resistance-despite-death-sentence"
-        },
-        {
-          "representativeTitle": "Rival armed groups fight as state weakens in Burkina Faso.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Burkina Faso’s rival armed groups turn on each other as state loses ground",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground?traffic_source=rss",
-              "pubDate": "2026-11-13T05:23:31.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "rival-armed-groups-fight-as-state-weakens-in-burkina-faso"
-        },
-        {
-          "representativeTitle": "Asia's Energy Focus Shifts Back to Middle East",
+          "representativeTitle": "Iraq Oil Output Reaches High Levels Since 2019",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Oil-Hungry Asia Turns Back to Mideast in Earnest as Flows Expand",
+              "title": "Iraq October Oil Output Jumps to Highest Since 2019, IEA Says",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-13/oil-hungry-asia-turns-back-to-mideast-in-earnest-as-flows-expand",
-              "pubDate": "2026-11-13T05:07:46.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-13/iraq-october-oil-output-jumps-to-highest-since-2019-iea-says",
+              "pubDate": "2026-11-13T09:05:30.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "World",
           "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "asias-energy-focus-shifts-back-to-middle-east"
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "iraq-oil-output-reaches-high-levels-since-2019"
         },
         {
-          "representativeTitle": "German female soldiers report high rates of abuse.",
+          "representativeTitle": "Committee warns UK-EU deal pressures parliament scrutiny.",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "More than 60% of Germany’s female soldiers report harassment or abuse",
+              "title": "UK-EU deal will lead to ‘growing pressure’ for parliament to scrutinise legislation, warns committee – UK politics live",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/13/more-than-60-of-germanys-female-soldiers-report-harassment-or-abuse",
-              "pubDate": "2026-11-13T05:00:09.000Z",
+              "link": "https://www.theguardian.com/politics/live/2026/nov/13/uk-eu-post-brexit-deal-relationship-trade-food-standards-committee-latest-news-updates",
+              "pubDate": "2026-11-13T10:05:57.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "german-female-soldiers-report-high-rates-of-abuse"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "committee-warns-uk-eu-deal-pressures-parliament-scrutiny"
         },
         {
-          "representativeTitle": "Funding cuts worsen refugee hardship in Lebanon.",
+          "representativeTitle": "Pope Warns About Pressures Facing Modern Families Today",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
+              "title": "Pope Leo XIV warns on pressures facing modern families",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/features/2026/11/13/unrwa-funding-cuts-deepen-hardship-for-palestinian-refugees-in-lebanon?traffic_source=rss",
-              "pubDate": "2026-11-13T04:51:56.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "funding-cuts-worsen-refugee-hardship-in-lebanon"
-        },
-        {
-          "representativeTitle": "Netanyahu's Politics Linked to Anti-Iranian Sentiment",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/13/iranophobia-netanyahus-bid-to-transform-fear-into-political-survival?traffic_source=rss",
-              "pubDate": "2026-11-13T04:48:40.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/pope-leo-xiv-warns-on-pressures-facing-modern-families?traffic_source=rss",
+              "pubDate": "2026-11-13T09:11:37.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "netanyahus-politics-linked-to-anti-iranian-sentiment"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "pope-warns-about-pressures-facing-modern-families-today"
         },
         {
-          "representativeTitle": "Envoys mediate talks between Russia and Ukraine.",
+          "representativeTitle": "Terror Case Links to RAF Fairford Arrests Mystery",
           "sources": [
-            "Al Jazeera"
+            "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US envoys shuttle between Putin and Zelenskyy",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/aje-onl-nf_us-envoys-shuttle-between-putin-and-zelenskyy-121126?traffic_source=rss",
-              "pubDate": "2026-11-13T04:12:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "envoys-mediate-talks-between-russia-and-ukraine"
-        },
-        {
-          "representativeTitle": "Iranian Men Convicted in UK Spying on Journalists",
-          "sources": [
-            "The Guardian",
-            "Google World"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Two men found guilty of helping Iran try to ‘eliminate’ UK-based journalists",
+              "title": "US terror case sheds light on RAF Fairford arrests mystery",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/nov/12/two-men-found-guilty-over-iranian-attempts-to-eliminate-uk-based-journalists",
-              "pubDate": "2026-11-12T19:15:30.000Z",
+              "link": "https://www.theguardian.com/uk-news/2026/nov/13/us-terror-case-raf-fairford-arrests",
+              "pubDate": "2026-11-13T07:55:56.000Z",
               "tier": 1
-            },
-            {
-              "title": "Two Iranian men found guilty in UK of spying on dissident journalists on IRGC’s behalf",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMjlDTlRfUFlaOGxCN1ROMVRsajExdzBZN1FVU1JVVEVhcmtZb25NNVgxZGJHMi01eEZCWmswVmpTcWJ2eEp4TjJmOVhkeUNHRHNNbXI0RGFvY3hHWjZER2lSVkZyc0JnN3htWkhvQkItTjJFNmhZOV9GdHdMbFNFdWFTT2g3NWxqMjBqTExtR0w1ZDNkSHltajlmNXRJZ0Z3V3EzMXFNMXI2REZUTHR4VDZ1dTB5NzTSAbwBQVVfeXFMUExfenJFem1NLS1lVldITElmLXMwQkFpdDM0MVJEeUxXcE9zU0UxM1BuRzA1SlFlRmJHc3VySVgwTTFPZEY2NDBkNVVkN3BLSWRNalplM0N2U0dqblZmQlM3ZEMxNkpSV1RhRnU4eWJwZ1NJS1VSZGxwSWMzNXhvRWJ5SmtuTmUycFQ0WW9kajNCQk9VQ0w1Nl80NXpwRmJSY2Z2eE9YS2E5NVJuTlZJWG54dDcxTzkwLTFDRE0?oc=5",
-              "pubDate": "2026-11-12T14:22:00.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "iranian-men-convicted-in-uk-spying-on-journalists"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "terror-case-links-to-raf-fairford-arrests-mystery"
         },
         {
           "representativeTitle": "Trump signals end to Iran peace deal efforts.",
@@ -512,64 +569,26 @@ export const newsData = {
           "slug": "trump-signals-end-to-iran-peace-deal-efforts"
         },
         {
-          "representativeTitle": "Bomb Hoaxes Force Evacuations At Italian Schools",
+          "representativeTitle": "Middle East Risks Drive Oil Prices Higher Again",
           "sources": [
-            "BBC World",
-            "Google World"
+            "WSJ US Business"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-12T19:23:02.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nY1B6TXNUb193LUUzMVVGd3JOX1ZBeENFLWxRQ2ViNnFVWmYzczdxclZnNEt3TW9JYk1HOFRCdUVCNkw2NzY2VnlTVWV1UXVOOWQweld5N0FWYmc?oc=5",
-              "pubDate": "2026-11-12T19:23:02.000Z",
+              "title": "Oil Prices Rise as Middle East Supply Risks Persist",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-13T07:37:00.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Business",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "bomb-hoaxes-force-evacuations-at-italian-schools"
-        },
-        {
-          "representativeTitle": "Israel Bans French Politician Mélenchon From Entry",
-          "sources": [
-            "France 24",
-            "Le Monde"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Israel to ban far-left French politician Jean-Luc Mélenchon from entry",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20261112-israel-to-ban-far-left-french-politician-jean-luc-m%C3%A9lenchon-from-entry",
-              "pubDate": "2026-11-12T17:43:03.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Israel says it will ban French leftist leader Mélenchon from entry",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/11/12/israel-says-it-will-ban-french-leftist-leader-melenchon-from-entry_6778873_4.html",
-              "pubDate": "2026-11-12T17:56:38.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "israel-bans-french-politician-mlenchon-from-entry"
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "middle-east-risks-drive-oil-prices-higher-again"
         },
         {
           "representativeTitle": "UK Court Decriminalizes Same-Sex Relations in T&T",
@@ -592,28 +611,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "uk-court-decriminalizes-same-sex-relations-in-tt"
-        },
-        {
-          "representativeTitle": "Populism Threatens Intelligence Agencies Through Internal Erosion",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How populist leaders dismantle intelligence agencies from within: New study reveals the 'intelligence cyclone'",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-populist-leaders-dismantle-intelligence-agencies.html",
-              "pubDate": "2026-11-13T02:00:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "populism-threatens-intelligence-agencies-through-internal-erosion"
         }
       ]
     },
@@ -624,13 +621,12 @@ export const newsData = {
           "representativeTitle": "Ex-Nvidia CEO faces Congress over alleged espionage.",
           "sources": [
             "BBC US",
-            "NBC News",
             "BBC World",
-            "The Guardian",
+            "Al Jazeera",
             "France 24",
             "Euronews"
           ],
-          "citationCount": 6,
+          "citationCount": 5,
           "rawArticles": [
             {
               "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
@@ -647,13 +643,6 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "The rise and fall of former Nvidia CEO Jensen Huang",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/now/video/the-rise-and-fall-of-former-nvidia-ceo-jensen-huang-273361477672",
-              "pubDate": "2026-11-12T20:40:44.000Z",
-              "tier": 2
-            },
-            {
               "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
@@ -661,10 +650,17 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Nvidia’s Jensen Huang expected to testify before Congress amid calls for crackdown on China chip exports – live",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/technology/live/2026/nov/13/nvidia-jensen-huang-to-testify-before-congress-live-latest-updates",
-              "pubDate": "2026-11-13T06:07:54.000Z",
+              "title": "Nvidia’s Huang, Lutnick summoned to testify to US Senate",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/13/nvidias-huang-lutnick-summoned-to-testify-to-us-senate?traffic_source=rss",
+              "pubDate": "2026-11-13T08:49:59.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Potential 'national security crisis' as Nvidia ex-CEO summoned by US Congress",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261113-potential-national-security-crisis-as-nvidia-ex-ceo-summoned-by-us-congress",
+              "pubDate": "2026-11-13T10:00:52.000Z",
               "tier": 1
             },
             {
@@ -677,8 +673,8 @@ export const newsData = {
             {
               "title": "What is next for Nvidia after CEO Jensen Huang resigns?",
               "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/12/what-is-next-for-nvidia-after-ceo-jensen-huang-resigns",
-              "pubDate": "2026-11-12T16:30:24.000Z",
+              "link": "https://www.euronews.com/2026/11/13/what-is-next-for-nvidia-after-ceo-jensen-huang-resigns",
+              "pubDate": "2026-11-13T08:30:24.000Z",
               "tier": 2
             }
           ],
@@ -694,11 +690,9 @@ export const newsData = {
           "sources": [
             "BBC US",
             "NBC News",
-            "Google US",
-            "France 24",
-            "SCMP"
+            "Google US"
           ],
-          "citationCount": 5,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "What we know about Brooklyn building collapse that killed eight people",
@@ -720,133 +714,60 @@ export const newsData = {
               "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaR2NJSnEtNGdGS05uaU94T05ULXIyQW4yYXdzYnpZMWdGOTU5b1JnSEhfdWNNRjBlNkxwNVZhLXI3aWktSlVkeHlvQ2p3Skg3UUlLLW9HTkd3c2s?oc=5",
               "pubDate": "2026-11-13T03:26:47.000Z",
               "tier": 2
-            },
-            {
-              "title": "Eight killed, including two children, in New York building collapse",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261112-eight-killed-including-two-children-in-new-york-building-collapse",
-              "pubDate": "2026-11-12T22:58:23.000Z",
-              "tier": 1
-            },
-            {
-              "title": "New York hunts for clues in Brooklyn building collapse that killed 8",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
-              "pubDate": "2026-11-12T13:43:09.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.9,
           "relevance_score": 8,
-          "importance": 85,
+          "importance": 65,
           "slug": "brooklyn-building-collapse-claims-eight-lives-investigation-underway"
         },
         {
-          "representativeTitle": "Black Senator Breaks Historic Political Barrier in Mississippi",
+          "representativeTitle": "Official Awards Medal To Soldier Who Criticized Him",
           "sources": [
-            "BBC World",
-            "Al Jazeera"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-12T12:56:55.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Mississippi elects first black senator in nearly 150 years",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/mississippi-elects-first-black-senator-in-nearly-150-years?traffic_source=rss",
-              "pubDate": "2026-11-13T03:21:25.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 70,
-          "slug": "black-senator-breaks-historic-political-barrier-in-mississippi"
-        },
-        {
-          "representativeTitle": "Senator Van Hollen Challenges Schumer For Leadership Role",
-          "sources": [
-            "Al Jazeera",
-            "Euronews"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "US Senator Chris Van Hollen seeks to lead Democrats: Who is he?",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/13/who-is-us-senator-chris-van-hollen?traffic_source=rss",
-              "pubDate": "2026-11-13T04:28:45.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Chris Van Hollen launches bid to lead Democrats in US Senate",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/13/chris-van-hollen-to-run-for-us-senate-majority-leader?traffic_source=rss",
-              "pubDate": "2026-11-13T02:42:41.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US senator Chris Van Hollen to challenge Chuck Schumer for Senate majority leader",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/13/us-senator-chris-van-hollen-to-challenge-chuck-schumer-for-senate-majority-leader",
-              "pubDate": "2026-11-13T04:16:44.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "senator-van-hollen-challenges-schumer-for-leadership-role"
-        },
-        {
-          "representativeTitle": "Van Hollen Challenges Schumer For Majority Leader Role",
-          "sources": [
+            "BBC US",
             "NBC News",
-            "NPR",
+            "ABC News Top",
             "Google US"
           ],
-          "citationCount": 3,
+          "citationCount": 4,
           "rawArticles": [
             {
-              "title": "Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader",
+              "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-12T18:47:35.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Hegseth awards medal to soldier who reprimanded him at Arlington National Cemetery",
               "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/congress/sen-chris-van-hollen-says-will-challenge-sen-chuck-schumer-majority-le-rcna609100",
-              "pubDate": "2026-11-13T02:03:11.000Z",
+              "link": "https://www.nbcnews.com/politics/trump-administration/hegseth-awards-medal-soldier-reprimanded-arlington-national-cemetery-rcna609043",
+              "pubDate": "2026-11-12T20:15:28.000Z",
               "tier": 2
             },
             {
-              "title": "Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/12/nx-s1-6039357/chris-van-hollen-chuck-schumer-senate-majority-leader",
-              "pubDate": "2026-11-13T03:52:25.000Z",
+              "title": "Soldier who admonished Hegseth group at Arlington Cemetery awarded a medal",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/Politics/soldier-admonished-hegseth-group-arlington-cemetery-awarded-medal/story?id=138084221",
+              "pubDate": "2026-11-12T18:40:28.000Z",
               "tier": 2
             },
             {
-              "title": "Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+              "title": "Hegseth awards medal to guard who scolded him at the Tomb of the Unknown Soldier",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdVNLOGZvSnVMbmRFQkZOcDU0NmVSWWt4U1NubHpEdC1rdVo3N2cyWnNVVUYxMUs1dTVjM0xtZFIwMFAtRHhCWWZtTUJXd1BWSFZTMTZRZDhTODRReTBEbkFYLXRtN1ktdTFpdzB4bHhXNlV3cnBCQ2JNdlAycjNSY0JBR0VMQVZWVlBxd1VZY0g3amRYRmg2VFYtQmRiZUU?oc=5",
-              "pubDate": "2026-11-13T03:52:25.000Z",
+              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSlIxN1duT2xFeTlnRlZjLURlV0xqUENxZWlTZTBrOHczU2tYOC02SEUwSk5MVmZuTU53NEdJa0g5Skx5OGU2UDNpenFlM2JuVWh4ZmJpOWtIVzZPNHQ2U0JiNjhNdFRvaGFxX3dXeFRRb1VUZ1lWUTk2SjJYQkV6TDFHeEt0aFBDN1lnU0Nqdjd2N19XbzNtRWZyejl4NFVVTEIxWUYwcWx5d09CSkp2dTFSMU1sSFRFVGNqcV930gHGAUFVX3lxTE01d2s3d2xSMHZXbXA1Z0xLdnVrWVRnd0UyN0VyR1RzYUw1NkQ1UW44Z09fbmNHMVZUUk5sYjhiVUhNeHhKaFVCTjROY1RRU04tR3B0eDJHZmVZWXFpaWU3SVJBNThvdGlXMEp6MVNWXzl0NktvVkk0ZXNOMlJhRG5MM0Z5bUxqaDd6NUFzLV9lY0k3NUpWUXMwZHRnanFmUEZuYUhiWGxjM1F6X0NWQ0EtbDZIMWFBcFRpSnpUQWV6SzM2b19aUQ?oc=5",
+              "pubDate": "2026-11-12T18:14:18.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 7,
+          "relevance_score": 4,
           "importance": 50,
-          "slug": "van-hollen-challenges-schumer-for-majority-leader-role"
+          "slug": "official-awards-medal-to-soldier-who-criticized-him"
         },
         {
           "representativeTitle": "Midterm vote counting delays plague largest state.",
@@ -893,17 +814,47 @@ export const newsData = {
           "slug": "lawmakers-pressure-lutnick-amid-nvidia-scandal-growth"
         },
         {
-          "representativeTitle": "Defendant Details Hypothetical Murder Planning to Court",
+          "representativeTitle": "Van Hollen Challenges Schumer For Majority Leader Role",
           "sources": [
-            "The Guardian"
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Sen. Chris Van Hollen says he will challenge Sen. Chuck Schumer for majority leader",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/congress/sen-chris-van-hollen-says-will-challenge-sen-chuck-schumer-majority-le-rcna609100",
+              "pubDate": "2026-11-13T02:03:11.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Chris Van Hollen to challenge Schumer for Senate majority leader",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EWXE3TUNOZkZjYmRyYWxrYUFOa05nXzhCYnBKM2FQUHlDUWpNYXhsWGU4Zi1hT2MwZ2tFU1NreEZ4TnM3TEJkVmE3Q1BIQjJMcjlhaXF1VFdScVlwOExTa1VoME5PcF9wcFE5UHRCcmdDZlBZV3p3U1ZkNkJuMjg?oc=5",
+              "pubDate": "2026-11-13T07:30:58.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "van-hollen-challenges-schumer-for-majority-leader-role"
+        },
+        {
+          "representativeTitle": "Washington Vigil Follows Deadly Shooting Incident",
+          "sources": [
+            "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "‘If I wanted to plan a murder’: Beau Lamarre-Condon tells court what he would have done",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/nov/13/beau-lamarre-condon-trial-sim-card-pseudonym-ntwnfb",
-              "pubDate": "2026-11-13T05:33:48.000Z",
+              "title": "Washington residents hold vigil after deadly shooting",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-sv-washington-dc-shooting-vigil?traffic_source=rss",
+              "pubDate": "2026-11-13T08:06:44.000Z",
               "tier": 1
             }
           ],
@@ -912,97 +863,51 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "defendant-details-hypothetical-murder-planning-to-court"
+          "slug": "washington-vigil-follows-deadly-shooting-incident"
         },
         {
-          "representativeTitle": "White House Discusses Commerce Secretary Role Future",
+          "representativeTitle": "Democratic Congress Victory Faces Internal Political Challenges",
           "sources": [
-            "France 24",
-            "SCMP"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "White House reportedly discussing Howard Lutnick's future as Commerce secretary",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/white-house-reportedly-discussing-howard-lutnick-s-future-as-commerce-secretary",
-              "pubDate": "2026-11-12T19:22:28.000Z",
-              "tier": 1
-            },
-            {
-              "title": "White House discussing Howard Lutnick’s future as commerce secretary, sources say",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3374266/white-house-discussing-howard-lutnicks-future-commerce-secretary-sources-say",
-              "pubDate": "2026-11-12T20:19:33.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "white-house-discusses-commerce-secretary-role-future"
-        },
-        {
-          "representativeTitle": "Politician appeals to Trump legacy for reforms.",
-          "sources": [
-            "Al Jazeera"
+            "Fox News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Talarico appeals to Trump’s legacy in bid for bipartisan reforms",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/talarico-appeals-to-trumps-legacy-in-bid-for-bipartisan-reforms?traffic_source=rss",
-              "pubDate": "2026-11-13T04:36:45.000Z",
-              "tier": 1
+              "title": "Democrats won Congress, but their Trump obsession could give it right back",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/opinion/democrats-won-congress-trump-obsession-give-back",
+              "pubDate": "2026-11-13T10:00:08.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
+          "sentiment": -0.4,
+          "relevance_score": 8,
           "importance": 45,
-          "slug": "politician-appeals-to-trump-legacy-for-reforms"
+          "slug": "democratic-congress-victory-faces-internal-political-challenges"
         },
         {
-          "representativeTitle": "Democrat Wins Kansas Governor's Race Against Republican Opponent",
+          "representativeTitle": "Voter Trends Explain Southern Election Outcomes Analysis",
           "sources": [
-            "NBC News",
-            "NPR",
-            "Google US"
+            "NPR"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Democrat Cindy Holscher defeats Republican Ty Masterson in Kansas governor’s race",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/kansas-governor-cindy-holscher-democrat-election-win-masterson-rcna603370",
-              "pubDate": "2026-11-12T22:46:39.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+              "title": "These two voter turnout trends explain what happened across the South in the election",
               "source": "NPR",
-              "link": "https://www.npr.org/2026/11/12/g-s1-151239/kansas-governor-midterms-holscher-masterson",
-              "pubDate": "2026-11-12T23:36:19.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Cindy Holscher wins in Kansas, holding governor’s office for Democrats",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQblNkYWQtS3otVHhSOEhKODE5NjZPWGlYc0JfLV8tRno3RDNWWVJ6enp4UGpCMkRYVGxNLWZJZ2Roa3JXQWRJX0xoMW1McW5MSy10NXlNQ3g1Y09rWWFjRlZWSnhKdTNPaW14ZmNMRWhiaWpzU2szVTc2aFNyT1VYVmRlbHVPRlo2QTdNbVhKaw?oc=5",
-              "pubDate": "2026-11-12T23:36:19.000Z",
+              "link": "https://www.npr.org/2026/11/13/nx-s1-6038701/midterm-election-voter-turnout-south",
+              "pubDate": "2026-11-13T10:00:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 45,
-          "slug": "democrat-wins-kansas-governors-race-against-republican-opponent"
+          "slug": "voter-trends-explain-southern-election-outcomes-analysis"
         },
         {
           "representativeTitle": "Doctor Kills Building Manager Over Mould Dispute",
@@ -1025,6 +930,50 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "doctor-kills-building-manager-over-mould-dispute"
+        },
+        {
+          "representativeTitle": "Voters show low expectations for divided government.",
+          "sources": [
+            "NPR"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "These swing voters have low expectations for divided government",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/13/nx-s1-6035826/north-carolina-swing-voters-congress-trump",
+              "pubDate": "2026-11-13T10:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "voters-show-low-expectations-for-divided-government"
+        },
+        {
+          "representativeTitle": "Red State Caps Insulin Prices for Local Patients",
+          "sources": [
+            "NPR"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Fed up with the healthcare industry, this red state capped insulin prices for patients",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/13/nx-s1-6032717/diabetes-insurance-insulin-price",
+              "pubDate": "2026-11-13T10:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "red-state-caps-insulin-prices-for-local-patients"
         },
         {
           "representativeTitle": "Democrats Investigate Nvidia Over Trump Ties",
@@ -1079,140 +1028,6 @@ export const newsData = {
           "slug": "trump-advises-vance-to-focus-on-domestic-issues"
         },
         {
-          "representativeTitle": "Exonerated Inmates Urge Governor-Elect to Halt Executions",
-          "sources": [
-            "Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "3 exonerated inmates urge Florida’s governor-elect to halt executions",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/nation/2026/11/12/former-florida-death-row-inmates-appeal-governor-elect-halt-executions/",
-              "pubDate": "2026-11-12T20:22:22.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "exonerated-inmates-urge-governor-elect-to-halt-executions"
-        },
-        {
-          "representativeTitle": "Blanche claims DOJ lacks investigation into Democrats.",
-          "sources": [
-            "NBC News",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "DOJ has no ‘investigations into words’ of Democrats, Todd Blanche says",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/justice-department/doj-no-investigations-words-democrats-todd-blanche-says-rcna609073",
-              "pubDate": "2026-11-12T23:08:23.000Z",
-              "tier": 2
-            },
-            {
-              "title": "DOJ has no ‘investigations into words’ of Democrats, Todd Blanche says",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSlRMeWZHcmNBUGV1d0VnZnZxajZIX1dCdkVPY2JMb0VIdHNyWThHejZuSFVoNUlyYld0dkNjbl9FU2NLSTR2dEZpbS14by12QmhLSFlFRW5ZTjFINTJKQkh0aV8zMFpsRlRFaE5rQlFxTWlTcjFiTHBHZHVYOWd2UUtudjIyVGJLZWJTRS1fNmlOa3hsQUtvU253dVJjNWF6NWdjai1JLTM2eGJuX1plOTNmODhkbXJOc2c?oc=5",
-              "pubDate": "2026-11-12T23:08:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "blanche-claims-doj-lacks-investigation-into-democrats"
-        },
-        {
-          "representativeTitle": "Mayor Praises Responders After Building Collapse Incident",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "New York Mayor Mamdani praises 'heroism' of building collapse responders",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/videos/cmvg2lkv0lz9o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-12T18:26:54.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "mayor-praises-responders-after-building-collapse-incident"
-        },
-        {
-          "representativeTitle": "SF Approves Gay Bathhouse, Marking Cultural Milestone",
-          "sources": [
-            "Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "San Francisco approves first gay bathhouse since AIDS epidemic",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/nation/2026/11/12/san-francisco-approves-first-gay-bathhouse-since-aids-epidemic/",
-              "pubDate": "2026-11-12T18:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "sf-approves-gay-bathhouse-marking-cultural-milestone"
-        },
-        {
-          "representativeTitle": "Ex-Inmate Pleads Guilty To Older Murder Charge",
-          "sources": [
-            "NBC News",
-            "ABC News US",
-            "Google US"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Oklahoma dismisses murder charge against former death row inmate Richard Glossip",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/oklahoma-dismisses-murder-charge-former-death-row-inmate-richard-gloss-rcna609070",
-              "pubDate": "2026-11-12T21:44:01.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Ex-Oklahoma death row inmate Richard Glossip pleads guilty to lesser charge in 1997 murder",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/oklahoma-death-row-inmate-richard-glossip-pleads-guilty-138092028",
-              "pubDate": "2026-11-12T22:03:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Oklahoma dismisses murder charge against former death row inmate Richard Glossip",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLUEwMG1Uam5hRmQxeXBkT1RldkVqR3NHeW5wc3RYT000RlUtR0M0bDlBSk5rZ2twMWtraUs3azlEakhUcW1jai1MQWFiZkpmbUlSLU9RM0d5Z3ZsU0pXQy12UW54SnU2Y09IcVZ5REVDaUpYUUpRaEN5ZHlrUnFWZXdxTXpvZVlqUDZOWFg0Z2FDQjQwbWdpb3AxVk9mblNlMjRKV3gwNmNMc3hyVGQzbks4cWlMRC1UUWc?oc=5",
-              "pubDate": "2026-11-12T21:56:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "ex-inmate-pleads-guilty-to-older-murder-charge"
-        },
-        {
           "representativeTitle": "Veterans Day reprimand examines military decorum traditions.",
           "sources": [
             "BBC US"
@@ -1243,15 +1058,23 @@ export const newsData = {
           "representativeTitle": "Jensen Huang's Ouster Causes Market Volatility; Stocks Drop",
           "sources": [
             "BBC World",
+            "The Guardian",
             "IBTimes"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Jensen Huang has resigned, what's next for Nvidia?",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss",
               "pubDate": "2026-11-12T19:33:37.000Z",
+              "tier": 1
+            },
+            {
+              "title": "A baffling trail from Australia to Singapore: what is Megaspeed, the company implicated in downfall of Nvidia’s Jensen Huang?",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/technology/2026/nov/13/a-baffling-trail-from-australia-to-singapore-what-is-megaspeed-the-company-implicated-in-downfall-of-nvidias-jensen-huang",
+              "pubDate": "2026-11-13T07:07:41.000Z",
               "tier": 1
             },
             {
@@ -1266,87 +1089,43 @@ export const newsData = {
           "aiCategory": "Stocks",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
+          "importance": 75,
           "slug": "jensen-huangs-ouster-causes-market-volatility-stocks-drop"
         },
         {
-          "representativeTitle": "Rate Fears and Inflation Threaten Nifty's Rally",
+          "representativeTitle": "Market Focus Shifts to Nvidia Value Over Founder",
           "sources": [
-            "Bloomberg Markets"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Rate Hike Fears Set to Test Nifty’s Rally as India Inflation Accelerates",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/newsletters/2026-11-13/rate-hike-fears-set-to-test-nifty-s-rally-as-india-inflation-accelerates",
-              "pubDate": "2026-11-13T02:31:00.000Z",
+              "title": "Value Nvidia, not Huang",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/1f76f0b0-96c6-41de-9725-9051545d32af?syn-25a6b1a6=1",
+              "pubDate": "2026-11-13T06:30:07.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Business",
           "aiCategory": "Stocks",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "rate-fears-and-inflation-threaten-niftys-rally"
+          "slug": "market-focus-shifts-to-nvidia-value-over-founder"
         },
         {
-          "representativeTitle": "Trading Suspended Amid Investor Uncertainty Over Next Steps",
+          "representativeTitle": "Indonesian Stocks Rise Amid Strong Foreign Investment Inflows",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "New World Suspends Trading as Investors Watch for Next Steps",
+              "title": "Indonesian Stocks Notch Best Week Since June on Foreign Buying",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-13/new-world-suspends-trading-as-investors-watch-for-next-steps",
-              "pubDate": "2026-11-13T00:57:36.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trading-suspended-amid-investor-uncertainty-over-next-steps"
-        },
-        {
-          "representativeTitle": "Huang's Resignation Sparks Nvidia Stock Sell-Off Fears",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Stocks Fall as Huang Resigns, Nvidia Turns to CFO",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-13/the-close-11-12-2026-video",
-              "pubDate": "2026-11-13T00:23:37.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "huangs-resignation-sparks-nvidia-stock-sell-off-fears"
-        },
-        {
-          "representativeTitle": "EM Stocks Gain Ground Following Tech Sector Rebound",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "EM Stocks Eye First Weekly Gain Since September as Tech Rebounds",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-13/em-stocks-eye-first-weekly-gain-since-september-as-tech-rebounds",
-              "pubDate": "2026-11-13T04:53:47.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-13/indonesian-stocks-set-for-best-week-since-june-on-foreign-buying",
+              "pubDate": "2026-11-13T09:17:11.000Z",
               "tier": 1
             }
           ],
@@ -1355,29 +1134,29 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "em-stocks-gain-ground-following-tech-sector-rebound"
+          "slug": "indonesian-stocks-rise-amid-strong-foreign-investment-inflows"
         },
         {
-          "representativeTitle": "Order placement signals suggest market instability brewing.",
+          "representativeTitle": "European Shares Retreat After Strong Four-Day Rally",
           "sources": [
-            "Phys.org"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Early signs of stock market instability may appear in how traders place orders",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-early-stock-instability-traders.html",
-              "pubDate": "2026-11-13T01:00:01.000Z",
-              "tier": 2
+              "title": "European Shares Pull Back From Record High After Four-Day Rally",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-13/european-shares-pull-back-from-record-high-after-four-day-rally",
+              "pubDate": "2026-11-13T08:22:26.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "Science",
+          "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "order-placement-signals-suggest-market-instability-brewing"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "european-shares-retreat-after-strong-four-day-rally"
         }
       ]
     },
@@ -1385,39 +1164,69 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "China Policy Bank Bonds Selloff Driven By Tax Fears",
+          "representativeTitle": "IEA Predicts Oil Surplus From Gulf Exports Recovery",
           "sources": [
-            "Bloomberg Markets"
+            "FT International",
+            "WSJ US Business"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "China Policy Bank Bonds Suffer Selloff as Tax Worries Hit Market",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-13/china-policy-bank-bonds-suffer-selloff-as-tax-worries-hit-market",
-              "pubDate": "2026-11-13T04:06:12.000Z",
+              "title": "Global oil markets swing to surplus as Gulf shipments rebound",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1",
+              "pubDate": "2026-11-13T09:04:06.000Z",
               "tier": 1
+            },
+            {
+              "title": "Global Oil Market Set to Return to Surplus as Gulf Exports Recover, IEA Says",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/energy-oil/global-oil-market-set-to-return-to-surplus-as-gulf-exports-recover-iea-says-d535096c?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-13T09:40:00.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Business",
           "aiCategory": "Business",
-          "sentiment": -0.4,
+          "sentiment": 0.4,
           "relevance_score": 8,
-          "importance": 55,
-          "slug": "china-policy-bank-bonds-selloff-driven-by-tax-fears"
+          "importance": 60,
+          "slug": "iea-predicts-oil-surplus-from-gulf-exports-recovery"
         },
         {
-          "representativeTitle": "Japan Bonds Drop Amid Fed Rate Hike Speculation",
+          "representativeTitle": "Lutnick faces scrutiny over Nvidia scandal actions.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Nvidia scandal: Howard Lutnick under pressure over alleged lack of action",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+              "pubDate": "2026-11-13T09:41:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "lutnick-faces-scrutiny-over-nvidia-scandal-actions"
+        },
+        {
+          "representativeTitle": "China's Credit Growth Falls Despite Policy Backing",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Japan Bonds Fall as Treasury Rout Extends on Fed-Hike Bets",
+              "title": "China’s Credit Growth Disappoints Despite Greater Policy Support",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-13/japan-bonds-fall-as-treasury-rout-extends-on-fed-hike-bets",
-              "pubDate": "2026-11-13T03:11:15.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-13/china-s-credit-growth-disappoints-despite-greater-policy-support",
+              "pubDate": "2026-11-13T09:12:53.000Z",
               "tier": 1
             }
           ],
@@ -1426,7 +1235,51 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "japan-bonds-drop-amid-fed-rate-hike-speculation"
+          "slug": "chinas-credit-growth-falls-despite-policy-backing"
+        },
+        {
+          "representativeTitle": "IEA Reports Gulf Exports Cause Oil Surplus Globally",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Global Oil Market Swings to Surplus on Gulf Exports, IEA Says",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-13/global-oil-market-swings-to-surplus-on-gulf-exports-iea-says",
+              "pubDate": "2026-11-13T09:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "iea-reports-gulf-exports-cause-oil-surplus-globally"
+        },
+        {
+          "representativeTitle": "Yield Surge Shatters Hopes; Bond Rout Continues Pressure",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-13/treasury-yield-surge-shatters-hopes-worst-of-bond-rout-is-over",
+              "pubDate": "2026-11-13T06:00:17.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "yield-surge-shatters-hopes-bond-rout-continues-pressure"
         },
         {
           "representativeTitle": "Walmart's Early Deals Position as Gift Guide",
@@ -1465,70 +1318,92 @@ export const newsData = {
           "slug": "walmarts-early-deals-position-as-gift-guide"
         },
         {
-          "representativeTitle": "Contractor Faces Loss Over Union Dispute in Victoria",
+          "representativeTitle": "African Pension Funds Seek Billion in Refinery IPO",
           "sources": [
-            "The Guardian"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Minister’s office said contractor should handle CFMEU or lose work in Victoria, Big Build inquiry hears",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/nov/13/big-build-royal-commission-vida-construction-workers-fearful-cfmeu-ntwnfb",
-              "pubDate": "2026-11-13T04:51:17.000Z",
+              "title": "Africa’s Top Pension Funds Ask for About $1 Billion in Dangote’s Refinery IPO",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-13/africa-s-top-pension-funds-ask-for-about-1-billion-in-dangote-s-refinery-ipo",
+              "pubDate": "2026-11-13T09:49:29.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Stocks",
           "aiCategory": "Business",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "contractor-faces-loss-over-union-dispute-in-victoria"
+          "slug": "african-pension-funds-seek-billion-in-refinery-ipo"
         },
         {
-          "representativeTitle": "Nscale Warns Cash Needs Before Major IPO Launch",
+          "representativeTitle": "ICTSI Plans Expansion Across Southern and Western Africa",
           "sources": [
-            "FT International"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Nscale warns it needs more cash ahead of $35bn IPO",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47?syn-25a6b1a6=1",
-              "pubDate": "2026-11-13T04:10:06.000Z",
+              "title": "ICTSI: Keen to Expand in Southern, Western Africa",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-13/ictsi-keen-to-expand-in-southern-western-africa-video",
+              "pubDate": "2026-11-13T09:13:12.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "Stocks",
           "aiCategory": "Business",
-          "sentiment": -0.4,
+          "sentiment": 0,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "nscale-warns-cash-needs-before-major-ipo-launch"
+          "slug": "ictsi-plans-expansion-across-southern-and-western-africa"
         },
         {
-          "representativeTitle": "Home Sales Hit Slump Since Great Recession Aftermath",
+          "representativeTitle": "Hong Kong Economy Boosted by Growth Upgrade Forecast",
           "sources": [
-            "Washington Post"
+            "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Home sales in worst slump since the aftermath of the Great Recession",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/business/2026/11/12/housing-market-worst-slump-since-aftermath-great-recession/",
-              "pubDate": "2026-11-12T17:47:38.000Z",
+              "title": "Hong Kong Turns Even More Bullish on Economy With Growth Upgrade",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-13/hong-kong-lifts-gdp-growth-outlook-again-as-ai-boom-spurs-export",
+              "pubDate": "2026-11-13T08:34:47.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Stocks",
           "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "home-sales-hit-slump-since-great-recession-aftermath"
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "hong-kong-economy-boosted-by-growth-upgrade-forecast"
+        },
+        {
+          "representativeTitle": "Grocery Demand Rises Despite Mideast Instability Reports",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Talabat CEO: Grocery Demand Up Amid Mideast Situation",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-13/talabat-ceo-grocery-demand-up-amid-mideast-situation-video",
+              "pubDate": "2026-11-13T08:18:03.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "grocery-demand-rises-despite-mideast-instability-reports"
         },
         {
           "representativeTitle": "Lutnick Testifies Amid Nvidia Scandal Pressure Growth",
@@ -1561,94 +1436,6 @@ export const newsData = {
           "slug": "lutnick-testifies-amid-nvidia-scandal-pressure-growth"
         },
         {
-          "representativeTitle": "Copper Rises From Low After Weak Metals Week",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Copper Climbs From Three-Month Low After Rough Week for Metals",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-13/copper-climbs-from-three-month-low-after-rough-week-for-metals",
-              "pubDate": "2026-11-13T03:44:36.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "copper-rises-from-low-after-weak-metals-week"
-        },
-        {
-          "representativeTitle": "Singtel reassures investors amid Nvidia market concerns.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Singtel Says ‘Fairly Insulated’ From Nvidia, Raises Guidance",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-13/singtel-raises-profit-outlook-as-overseas-businesses-gain-ground",
-              "pubDate": "2026-11-13T00:45:59.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "singtel-reassures-investors-amid-nvidia-market-concerns"
-        },
-        {
-          "representativeTitle": "Silver Market Faces Deficit Despite Solar Cuts",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Silver Market Set for Deficit Even as Solar Makers Cut Back",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-13/silver-market-set-for-deficit-even-as-solar-makers-cut-back",
-              "pubDate": "2026-11-13T00:30:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "silver-market-faces-deficit-despite-solar-cuts"
-        },
-        {
-          "representativeTitle": "Australia Bonds Underperform US Peers Amid Diverging Rates",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Australia Bond Yield Falls Below US Peer as Rate Paths Diverge",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-13/australia-bond-yield-falls-below-us-peer-as-rate-paths-diverge",
-              "pubDate": "2026-11-13T00:24:14.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "australia-bonds-underperform-us-peers-amid-diverging-rates"
-        },
-        {
           "representativeTitle": "Scout Motors Gains Momentum With Plant Nearing Completion",
           "sources": [
             "CNBC Economy"
@@ -1669,6 +1456,28 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "scout-motors-gains-momentum-with-plant-nearing-completion"
+        },
+        {
+          "representativeTitle": "CEO Discusses New K-Beauty ETF Launch Details",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Guinness Atkinson CEO Discusses New K-Beauty ETF Launch",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-13/guinness-atkinson-ceo-discusses-new-k-beauty-etf-launch-video",
+              "pubDate": "2026-11-13T06:29:30.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 35,
+          "slug": "ceo-discusses-new-k-beauty-etf-launch-details"
         },
         {
           "representativeTitle": "Mint Mobile Offers $500 Discount on New Phones",
@@ -1697,6 +1506,57 @@ export const newsData = {
     {
       "name": "Technology",
       "children": [
+        {
+          "representativeTitle": "Microsoft Outage Disrupts UK Hospitals, Schools, Police Services",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Microsoft outage hits hospitals, GPs, schools and police across UK",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-hits-nhs-hospitals-gps-schools-and-police-across-uk",
+              "pubDate": "2026-11-13T10:11:39.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Technology",
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "microsoft-outage-disrupts-uk-hospitals-schools-police-services"
+        },
+        {
+          "representativeTitle": "Succession planning looms for Nvidia's CEO Huang.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Meet the contenders to succeed Jensen Huang",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/6f21835f-97a1-4f7a-bbb8-f38609998909",
+              "pubDate": "2026-11-12T17:24:08.000Z",
+              "tier": 1
+            },
+            {
+              "title": "The downfall of Jensen Huang",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/ef8f85a6-e2d7-4d41-b70e-092b2567813a?syn-25a6b1a6=1",
+              "pubDate": "2026-11-13T03:47:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "succession-planning-looms-for-nvidias-ceo-huang"
+        },
         {
           "representativeTitle": "Nvidia Names Colette Kress as Interim CEO",
           "sources": [
@@ -1728,41 +1588,70 @@ export const newsData = {
           "slug": "nvidia-names-colette-kress-as-interim-ceo"
         },
         {
-          "representativeTitle": "Huang's Struggles Signal Tech Sector Weakness",
+          "representativeTitle": "Major Microsoft Outage Continues Impacting Services Nationally",
           "sources": [
-            "FT International",
-            "WSJ US Business"
+            "France 24"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "The downfall of Jensen Huang",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/ef8f85a6-e2d7-4d41-b70e-092b2567813a?syn-25a6b1a6=1",
-              "pubDate": "2026-11-13T03:47:19.000Z",
+              "title": "'One of the biggest outages ever': Disruption to Microsoft services enters second day",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261113-one-of-the-biggest-outages-ever-disruption-to-microsoft-services-enters-second-day",
+              "pubDate": "2026-11-13T09:59:22.000Z",
               "tier": 1
-            },
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "major-microsoft-outage-continues-impacting-services-nationally"
+        },
+        {
+          "representativeTitle": "Microsoft works to restore services after global outage.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Jensen Huang’s Downfall Is a Sign of Silicon Valley’s Power Drain",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/tech/jensen-huang-nvidia-silicon-valley-ce74b63f?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-11-13T02:00:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Opinion | The Fallout From the Fall of Jensen Huang",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/opinion/jensen-huang-resigns-nvidia-alice-huang-china-megaspeed-c0106752?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-11-12T23:29:00.000Z",
-              "tier": 2
+              "title": "Microsoft races to restore services after global outage",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7?syn-25a6b1a6=1",
+              "pubDate": "2026-11-13T09:42:01.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "Technology",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "huangs-struggles-signal-tech-sector-weakness"
+          "importance": 55,
+          "slug": "microsoft-works-to-restore-services-after-global-outage"
+        },
+        {
+          "representativeTitle": "Nvidia's Move Disrupts China's AI Sector Dynamics",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "China’s AI Sector Caught in the Crossfire After Nvidia Ousts Huang",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-13/insight-with-haslinda-amin-11-13-2026-video",
+              "pubDate": "2026-11-13T08:44:29.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "nvidias-move-disrupts-chinas-ai-sector-dynamics"
         },
         {
           "representativeTitle": "Whoop Launches Social Network Using Heartbeat Verification",
@@ -1803,78 +1692,26 @@ export const newsData = {
           "slug": "whoop-launches-social-network-using-heartbeat-verification"
         },
         {
-          "representativeTitle": "Microsoft works to restore services after global outage.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Microsoft races to restore services after global outage",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7?syn-25a6b1a6=1",
-              "pubDate": "2026-11-13T06:03:26.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "microsoft-works-to-restore-services-after-global-outage"
-        },
-        {
-          "representativeTitle": "Huang's Saga Tests AI Sector Ahead of IPO",
+          "representativeTitle": "Tech Sector Navigates Leadership Vacuum After Key Figure's Departure",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Jensen Huang Saga Tests AI Trade Ahead of Anthropic IPO",
+              "title": "Tech Tries to Soldier On Without Huang: Market Analysis",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-13/the-asia-trade-11-13-2026-video",
-              "pubDate": "2026-11-13T04:41:48.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-13/tech-tries-to-soldier-on-without-huang-3-minutes-mliv-video",
+              "pubDate": "2026-11-13T08:55:57.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "huangs-saga-tests-ai-sector-ahead-of-ipo"
-        },
-        {
-          "representativeTitle": "Major Microsoft Outage Disrupts Millions Globally Now",
-          "sources": [
-            "NBC News",
-            "NPR"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Widespread outage of Microsoft apps used by hundreds of millions",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/nightly-news/video/widespread-outage-of-microsoft-apps-used-by-hundreds-of-millions-273386053592",
-              "pubDate": "2026-11-13T00:01:28.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Is Outlook down? Widespread outage hits Microsoft email and other apps",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/12/nx-s1-6039343/is-outlook-down-widespread-outage-hits-microsoft-email-and-other-apps",
-              "pubDate": "2026-11-13T01:26:24.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "Technology",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 55,
-          "slug": "major-microsoft-outage-disrupts-millions-globally-now"
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "tech-sector-navigates-leadership-vacuum-after-key-figures-departure"
         },
         {
           "representativeTitle": "Veterans Guide Nvidia's Next Chapter of Growth",
@@ -1897,73 +1734,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "veterans-guide-nvidias-next-chapter-of-growth"
-        },
-        {
-          "representativeTitle": "Analyzing Jensen Huang's career trajectory and impact.",
-          "sources": [
-            "BBC Business",
-            "Google Stocks"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "The rise and fall of Jensen Huang",
-              "source": "BBC Business",
-              "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-12T17:11:48.000Z",
-              "tier": 2
-            },
-            {
-              "title": "The downfall of Jensen Huang",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRlBZMEhVQzRCSXVHeERpUHl6bXFFcmVWQ281TVJWMjRlU1ptOVJtYThTejV0RGY5V29lSHNUengydW96cWZEUDZlcUVKU2ZPQlRISmlJZFNPeGhBbU1fRlZ4OFlYc0xZR3J6SzVFLWNCX2luUWg3VzAtQ21GZVM5OUF1R1M?oc=5",
-              "pubDate": "2026-11-13T03:49:03.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "analyzing-jensen-huangs-career-trajectory-and-impact"
-        },
-        {
-          "representativeTitle": "Google details privacy features for smart glasses.",
-          "sources": [
-            "Wired",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Google and Samsung’s Android XR Smart Glasses Are Finally Here",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/google-samsung-intelligent-eyewear-launch-warby-parker-gentle-monster-smart-glasses/",
-              "pubDate": "2026-11-12T14:00:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Here’s How Google Says It’s Making Its Smart Glasses More Private",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/how-google-is-making-its-smart-glasses-more-private/",
-              "pubDate": "2026-11-12T14:00:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Google and Samsung’s Android XR Smart Glasses Are Finally Here",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTkdqekZoTjN6QnRSZWg0RTQyd0IybW5iRU80WnFpb0ZtZ0FHd282bVNaYURRZnVoRTlUQmlYSXR1ZVBwR21VbHBvQ2tzSEM2UnVPdTJORzdzdkVGY0NmTWFkUnpoUzNQSmp3ZVVQN0M1OVlyLUkybG9HZl9jazBmVk5KcC1hakRzT29mZGNzeDQtSnpDRWVIWkNCcGpwTFYzVnFITFRXTWNUbl9lc09wdEN3?oc=5",
-              "pubDate": "2026-11-12T14:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "google-details-privacy-features-for-smart-glasses"
         },
         {
           "representativeTitle": "Huang's struggles critique Big Tech founder model.",
@@ -2018,72 +1788,6 @@ export const newsData = {
           "slug": "google-upgrades-search-to-better-answer-complex-queries"
         },
         {
-          "representativeTitle": "Huang's Succession Plan Sparks Tech Leadership Discussion",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Jensen Huang Didn’t Name His Own Replacement as One of Tech’s Most Powerful Women",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech/",
-              "pubDate": "2026-11-12T20:35:11.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "huangs-succession-plan-sparks-tech-leadership-discussion"
-        },
-        {
-          "representativeTitle": "Microsoft Outage Causes Major Australian Digital Disruption",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "‘Looks like we’ll have to talk to people’: Australia sent back to time before email with major Microsoft outage",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/technology/2026/nov/13/major-microsoft-outage-impacts-australian-government-services-and-schools",
-              "pubDate": "2026-11-13T04:40:14.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "microsoft-outage-causes-major-australian-digital-disruption"
-        },
-        {
-          "representativeTitle": "Magnetism Breakthrough Promises Vastly Lower AI Chip Power Use",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "A breakthrough in magnetism could make AI chips use dramatically less energy",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/11/261111005853.htm",
-              "pubDate": "2026-11-13T01:40:17.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "magnetism-breakthrough-promises-vastly-lower-ai-chip-power-use"
-        },
-        {
           "representativeTitle": "Silicon Valley Defends Nvidia CEO Amid Scrutiny",
           "sources": [
             "Wired"
@@ -2104,28 +1808,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 50,
           "slug": "silicon-valley-defends-nvidia-ceo-amid-scrutiny"
-        },
-        {
-          "representativeTitle": "Nvidia issues dampen AI boom's market exuberance.",
-          "sources": [
-            "ABC News US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Fallout from the Nvidia scandal may dampen the exuberance around the AI boom",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/fallout-nvidia-scandal-dampen-exuberance-ai-boom-138101241",
-              "pubDate": "2026-11-13T05:36:16.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "nvidia-issues-dampen-ai-booms-market-exuberance"
         },
         {
           "representativeTitle": "Nvidia staff petition for CEO Huang's return.",
@@ -2194,32 +1876,61 @@ export const newsData = {
           "slug": "nebius-plans-40b-spending-on-neocloud-playbook"
         },
         {
-          "representativeTitle": "Nvidia Begins Search Process For New CEO",
+          "representativeTitle": "Antivirus Review Highlights Bitdefender's Competitive Edge",
           "sources": [
-            "WSJ US Business"
+            "Wired"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Nvidia Starts Search for Next CEO",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/business/nvidia-starts-search-for-next-ceo-4fe0a873?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-11-12T22:41:00.000Z",
-              "tier": 2
+              "title": "Bitdefender Antivirus Plus Review: Undercutting the Competition",
+              "source": "Wired",
+              "link": "https://www.wired.com/review/bitdefender-antivirus-plus/",
+              "pubDate": "2026-11-13T10:00:00.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "nvidia-begins-search-process-for-new-ceo"
+          "relevance_score": 3,
+          "importance": 30,
+          "slug": "antivirus-review-highlights-bitdefenders-competitive-edge"
         }
       ]
     },
     {
       "name": "Science",
       "children": [
+        {
+          "representativeTitle": "Hubble Telescope Faces Structural Issues; NASA Works On Fixes",
+          "sources": [
+            "Wired"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "The Hubble Space Telescope Is Sinking. NASA Is Looking for Ways to Keep It Afloat",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/nasa-wants-to-keep-the-hubble-space-telescope-afloat/",
+              "pubDate": "2026-11-13T10:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "The Hubble Space Telescope Is Sinking. NASA Is Looking for Ways to Keep It Afloat",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/nasa-wants-to-keep-the-hubble-space-telescope-afloat/",
+              "pubDate": "2026-11-13T10:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "hubble-telescope-faces-structural-issues-nasa-works-on-fixes"
+        },
         {
           "representativeTitle": "Climate Change Pushes Global Ice Beyond Safe Limits",
           "sources": [
@@ -2243,26 +1954,114 @@ export const newsData = {
           "slug": "climate-change-pushes-global-ice-beyond-safe-limits"
         },
         {
-          "representativeTitle": "Wood smoke pollution rivals traffic exhaust risks.",
+          "representativeTitle": "Small Temperature Changes Intensify Global Climate Risks",
           "sources": [
-            "The Guardian"
+            "NPR"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Children’s exposure to home wood-burning could be as significant as traffic exhaust, study suggests",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/environment/2026/nov/13/wood-burning-stoves-pollution-traffic-exhaust-children",
-              "pubDate": "2026-11-13T06:00:12.000Z",
-              "tier": 1
+              "title": "Why even a fraction of a degree can escalate climate change impacts",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/13/nx-s1-6035801/climate-goal-degrees-cop31-summit",
+              "pubDate": "2026-11-13T10:00:00.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "Science",
           "sentiment": -0.4,
-          "relevance_score": 6,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "small-temperature-changes-intensify-global-climate-risks"
+        },
+        {
+          "representativeTitle": "SpaceX Tests Starship For Novel Orbital Capture Maneuver",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "SpaceX Starship test to attempt first-ever spaceship 'catch'",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-spacex-starship-spaceship.html",
+              "pubDate": "2026-11-13T10:11:51.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0,
+          "relevance_score": 8,
           "importance": 45,
-          "slug": "wood-smoke-pollution-rivals-traffic-exhaust-risks"
+          "slug": "spacex-tests-starship-for-novel-orbital-capture-maneuver"
+        },
+        {
+          "representativeTitle": "El Niño Linked to Indonesian Wildfires: New Research Shows",
+          "sources": [
+            "Phys.org"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "El Niño mostly to blame for Indonesian wildfires: Research",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-el-nio-blame-indonesian-wildfires.html",
+              "pubDate": "2026-11-13T10:10:32.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "el-nio-linked-to-indonesian-wildfires-new-research-shows"
+        },
+        {
+          "representativeTitle": "SpaceX Rocket Progress Signals Major Industry Shift",
+          "sources": [
+            "NPR"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "SpaceX's giant rocket may leave NASA in the dust",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/13/nx-s1-6039312/spacex-nasa-starship-iss-dragon-falcon-musk",
+              "pubDate": "2026-11-13T10:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "spacex-rocket-progress-signals-major-industry-shift"
+        },
+        {
+          "representativeTitle": "NASA Plans Astronaut Pay for Lunar Missions",
+          "sources": [
+            "NPR"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Fill in the blank in the quiz: NASA will pay astronauts $___ to live on the moon",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/13/g-s1-153174/tesla-nvidia-huang-arch-nasa-gas-trump-news-quiz",
+              "pubDate": "2026-11-13T10:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 45,
+          "slug": "nasa-plans-astronaut-pay-for-lunar-missions"
         },
         {
           "representativeTitle": "Quantum Computing Advances Harness Speed of Light Potential",
@@ -2307,28 +2106,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "brain-implant-trial-paused-over-performance-concerns"
-        },
-        {
-          "representativeTitle": "Climate change impacts differ significantly between sexes.",
-          "sources": [
-            "Phys.org"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Climate change has different consequences for the health of women and men",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-climate-consequences-health-women-men.html",
-              "pubDate": "2026-11-13T01:40:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "climate-change-impacts-differ-significantly-between-sexes"
         },
         {
           "representativeTitle": "Automated Space Assembly Points Toward Future Progress",
