@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-11-14T19:24:13.984Z",
+  "lastUpdated": "2026-11-14T23:29:14.748Z",
   "children": [
     {
       "name": "World",
@@ -9,27 +9,19 @@ export const newsData = {
           "representativeTitle": "Ukraine questioned on Donbas concessions for NATO entry.",
           "sources": [
             "BBC World",
-            "Al Jazeera",
             "France 24",
             "SCMP",
             "Sky News",
             "Euronews",
             "Google World"
           ],
-          "citationCount": 7,
+          "citationCount": 6,
           "rawArticles": [
             {
               "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T19:21:10.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Three killed in Russia as Ukraine claims US floated NATO membership option",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option?traffic_source=rss",
-              "pubDate": "2026-11-14T11:43:06.000Z",
+              "pubDate": "2026-11-14T22:37:25.000Z",
               "tier": 1
             },
             {
@@ -64,7 +56,7 @@ export const newsData = {
               "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
               "source": "Google World",
               "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Sc2FZdms0a2VhSnZ3bHhCakcwcnl4SWhTWi1HaDJUdmZXdzVKTmtocFp0aFRYQk9VYllVZ1Uzdkp5OV9Ic2l5NmtUUXU4WVBaNFpMdDVselhoS2c?oc=5",
-              "pubDate": "2026-11-14T15:15:57.000Z",
+              "pubDate": "2026-11-14T22:37:25.000Z",
               "tier": 2
             }
           ],
@@ -72,7 +64,7 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": -0.4,
           "relevance_score": 9,
-          "importance": 100,
+          "importance": 95,
           "slug": "ukraine-questioned-on-donbas-concessions-for-nato-entry"
         },
         {
@@ -114,6 +106,66 @@ export const newsData = {
           "slug": "trump-putin-xi-plan-major-china-summit-next-week"
         },
         {
+          "representativeTitle": "Netanyahu Pushes Iran Conflict Amid Unity Talks",
+          "sources": [
+            "France 24",
+            "IBTimes"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Netanyahu renews call for Israeli government unity as Eisenkot dismisses 'tricks'",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/middle-east/20261114-netanyahu-renews-call-for-israeli-government-unity-as-eisenkot-dismisses-tricks",
+              "pubDate": "2026-11-14T20:35:22.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Netanyahu Calls For Escalation Of Iran War In Plea For Unity Government With Eisenkot",
+              "source": "IBTimes",
+              "link": "https://www.ibtimes.com/netanyahu-eisenkot-unity-government-iran-nuclear-threat-3809771",
+              "pubDate": "2026-11-14T20:40:27.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 65,
+          "slug": "netanyahu-pushes-iran-conflict-amid-unity-talks"
+        },
+        {
+          "representativeTitle": "US Aims Europe-Russia Talks Amid Ukraine Peace Push",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "US envoy Kushner says he aims to broker Europe-Russia talks on Ukraine",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/14/us-envoy-kushner-says-he-aims-to-broker-europe-russia-talks-on-ukraine?traffic_source=rss",
+              "pubDate": "2026-11-14T21:10:26.000Z",
+              "tier": 1
+            },
+            {
+              "title": "U.S. facilitating direct engagement between Europe and Russia amid push for peace in Ukraine, Kushner says",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5PQ1hLMTNVb094dE1lVlNkWWdtNXVYQjFqUUQ0Q0xkR0s1VnFzUExZQVVlVEZLYTNIUWN3cWoxa1dIM0xkc0docFNONklpRTZ6UFlTb3hLeFJxWC1feVRscDJMSWZaazQ0YzQwRVNyTDNqYUdiMUszLQ?oc=5",
+              "pubDate": "2026-11-14T22:07:08.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "us-aims-europe-russia-talks-amid-ukraine-peace-push"
+        },
+        {
           "representativeTitle": "Gaza Faces Water Crisis: Clean vs. Sewage Dilemma",
           "sources": [
             "Wired"
@@ -143,42 +195,77 @@ export const newsData = {
           "slug": "gaza-faces-water-crisis-clean-vs-sewage-dilemma"
         },
         {
-          "representativeTitle": "Hungary Corruption Case Unearths Nearly Twenty Million Euros",
+          "representativeTitle": "Explosion in Syria Kills Father and Child Victims",
           "sources": [
-            "The Guardian",
-            "Euronews",
-            "Google World"
+            "Al Jazeera"
           ],
-          "citationCount": 3,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Hungary seizes $19.5m in cash found buried in forests amid graft inquiry",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry",
-              "pubDate": "2026-11-13T22:12:54.000Z",
+              "title": "Explosion near Syria’s capital kills father and child",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child?traffic_source=rss",
+              "pubDate": "2026-11-14T22:43:12.000Z",
               "tier": 1
             },
             {
-              "title": "Hungary seizes millions in cash found buried in forests amid corruption investigation",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/14/hungary-seizes-millions-in-cash-found-buried-in-forests-amid-corruption-investigation",
-              "pubDate": "2026-11-14T11:31:19.000Z",
-              "tier": 2
-            },
+              "title": "Deadly car bomb blast kills two near Syria’s capital",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
+              "pubDate": "2026-11-14T19:46:36.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 60,
+          "slug": "explosion-in-syria-kills-father-and-child-victims"
+        },
+        {
+          "representativeTitle": "Macron warns aid cuts risk sparking new conflict.",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
             {
-              "title": "Nearly €20m in cash found buried, hidden in Hungary corruption case",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRWpaQ0R5clFucEpOR09uNV91cEcwUi1SMGdiWjhVYWM3VkFfTnJibzRLR013M2FXQWNlRXVHaV9fRXJVaEtvWWxmdm5DOXZ2RlFXRWJCbm54MWdLQnNVOXYzblRKUDRrMjh6WEFCSXY1NGpNeXVraVVrVWtmS25jQjdDZGRld0VBUFpHdUFxaTU3R09IS0NiaW1Wb3lOblc1?oc=5",
-              "pubDate": "2026-11-14T13:16:00.000Z",
-              "tier": 2
+              "title": "Macron says limiting Ukraine aid would pave way to 'another war'",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/europe/20261114-macron-says-limiting-ukraine-aid-would-pave-way-to-another-war",
+              "pubDate": "2026-11-14T20:15:43.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 6,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "macron-warns-aid-cuts-risk-sparking-new-conflict"
+        },
+        {
+          "representativeTitle": "Netanyahu links security to unity government formation.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Netanyahu says only a unity government can guarantee Israel’s security",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security?traffic_source=rss",
+              "pubDate": "2026-11-14T23:01:30.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
           "importance": 55,
-          "slug": "hungary-corruption-case-unearths-nearly-twenty-million-euros"
+          "slug": "netanyahu-links-security-to-unity-government-formation"
         },
         {
           "representativeTitle": "China's Intelligence Targets Focus on Technology Sector",
@@ -201,6 +288,28 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 60,
           "slug": "chinas-intelligence-targets-focus-on-technology-sector"
+        },
+        {
+          "representativeTitle": "Assam demolishes homes of Muslim families in India",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "India’s Assam state demolishes homes of 132 Muslim families",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/14-11-sv-assam-muslim-families-evicted-demolition-drive?traffic_source=rss",
+              "pubDate": "2026-11-14T20:14:10.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "assam-demolishes-homes-of-muslim-families-in-india"
         },
         {
           "representativeTitle": "Burnham: Brexit Caused More Losses Than Gains",
@@ -285,6 +394,36 @@ export const newsData = {
           "slug": "trump-visits-china-for-talks-with-xi-and-putin"
         },
         {
+          "representativeTitle": "Large Yellow Vest Protests Disrupt French Streets Again",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "More than 100,000 rally across France in new Yellow Vest protests",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests?traffic_source=rss",
+              "pubDate": "2026-11-14T19:46:24.000Z",
+              "tier": 1
+            },
+            {
+              "title": "More than 100,000 protest across France, interior ministry says",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMWJZRklkOFZabGx4WDN5V0pUSnFnUW9uSG0wek82OGNyVm1CeHVSWlNkTmF6am1UNVplVTd6LU9iakE0RzczR2JpTWQ2UUYtNmc4dTNDVzEwS1F3WG5mQUpDMEI0SlcteHAyOTVKOHZWNE1pM05XYVZuc19zampUcmZJSm5uZjg5TVJlX29BemJFX0ZDenlkN3I2OW9WUEtf?oc=5",
+              "pubDate": "2026-11-14T07:09:32.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "large-yellow-vest-protests-disrupt-french-streets-again"
+        },
+        {
           "representativeTitle": "Peace talks shift focus to NATO and Donbas.",
           "sources": [
             "Bloomberg Markets"
@@ -305,36 +444,6 @@ export const newsData = {
           "relevance_score": 9,
           "importance": 60,
           "slug": "peace-talks-shift-focus-to-nato-and-donbas"
-        },
-        {
-          "representativeTitle": "France Protests Over Costs and Police Tactics",
-          "sources": [
-            "France 24",
-            "Euronews"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "France protests for fifth Saturday against living costs and heavy-handed policing",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france-protests-for-fifth-saturday-against-living-costs-and-heavy-handed-policing",
-              "pubDate": "2026-11-14T10:15:42.000Z",
-              "tier": 1
-            },
-            {
-              "title": "France sees fifth consecutive Saturday of nationwide protests",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/14/france-sees-fifth-consecutive-saturday-of-nationwide-protests",
-              "pubDate": "2026-11-14T18:11:18.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "france-protests-over-costs-and-police-tactics"
         },
         {
           "representativeTitle": "Ukraine Links NATO Membership to Donbas Withdrawal Deal",
@@ -379,140 +488,12 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "trumps-oil-focus-strains-venezuelan-national-identity"
-        },
-        {
-          "representativeTitle": "Cost Rises Spark Protests Amid CAR Arrests",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Rising costs and arrests fuel protests in Central African Republic",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/rising-costs-and-arrests-fuel-protests-in-central-african-republic?traffic_source=rss",
-              "pubDate": "2026-11-14T17:50:28.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "cost-rises-spark-protests-amid-car-arrests"
-        },
-        {
-          "representativeTitle": "US-Canada Trade Talks Show Progress Toward Deal",
-          "sources": [
-            "ABC News US",
-            "Google US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Canada’s Carney reports progress in trade talks with Trump as he expands ties with Asia",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/canadas-carney-reports-progress-trade-talks-trump-expands-138136808",
-              "pubDate": "2026-11-14T10:31:30.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Carney says U.S. and Canada ‘making progress’ towards possible trade deal",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRS1tRnE4a1I1bWhRRVhoazNuQS1XRXNPcm1yX0FVeVdPdUlPU3NmQmo0NkkwRmpJRWNfbWFhY0NLYmdtM2Z4aGQyQ1lnRkRvSHFGU0FwNWRFX1l6WEV1MWIyQ1ZxOUNhem5FQkt5S01vbkRySmw2MVpDdzQxbkZxVlNSV2VPTnVZNmFDUGZRb3JIdXVIaTdZdllxR2dDb1dXZ0J5YXkyNDllV1BJWXUyTzFZd0lFYnB3ZGc?oc=5",
-              "pubDate": "2026-11-14T18:48:54.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "us-canada-trade-talks-show-progress-toward-deal"
-        },
-        {
-          "representativeTitle": "Guinea Plans Bauxite Index to Boost Ore Prices",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Guinea Plans Bauxite Index as It Seeks to Bolster Ore Prices",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-14/guinea-plans-bauxite-index-as-it-seeks-to-bolster-ore-prices",
-              "pubDate": "2026-11-14T11:27:57.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "guinea-plans-bauxite-index-to-boost-ore-prices"
         }
       ]
     },
     {
       "name": "US",
       "children": [
-        {
-          "representativeTitle": "Tanker Capsizes Near Cruise Ship; Injuries Reported.",
-          "sources": [
-            "BBC World",
-            "France 24",
-            "SCMP",
-            "Euronews",
-            "IBTimes"
-          ],
-          "citationCount": 5,
-          "rawArticles": [
-            {
-              "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T19:14:33.000Z",
-              "tier": 1
-            },
-            {
-              "title": "USA: All passengers survive after tanker hits docked river cruise ship in New Orleans",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans",
-              "pubDate": "2026-11-14T13:15:42.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Miracle on the Mississippi: everyone safe after tanker hits and sinks New Orleans cruise",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3374410/tanker-hits-new-orleans-cruise-boat-carrying-129-passengers",
-              "pubDate": "2026-11-13T20:49:15.000Z",
-              "tier": 2
-            },
-            {
-              "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
-              "pubDate": "2026-11-13T21:04:32.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Oil Tanker Capsizes Cruise Ship Carrying 129 Passengers In New Orleans. 32 Taken To Hospitals.",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/new-orleans-tanker-cruise-ship-collision-rescue-3809752",
-              "pubDate": "2026-11-13T21:11:19.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.9,
-          "relevance_score": 8,
-          "importance": 85,
-          "slug": "tanker-capsizes-near-cruise-ship-injuries-reported"
-        },
         {
           "representativeTitle": "Cruise Ship Overturns After Collision in New Orleans",
           "sources": [
@@ -522,6 +503,13 @@ export const newsData = {
           ],
           "citationCount": 3,
           "rawArticles": [
+            {
+              "title": "New Orleans port sues tanker owners over cruise ship collision for $1m",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-14T22:27:06.000Z",
+              "tier": 1
+            },
             {
               "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
               "source": "BBC US",
@@ -540,7 +528,7 @@ export const newsData = {
               "title": "Port of New Orleans sues tanker owners for over $1M after cruise ship crash",
               "source": "Google US",
               "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdHhOSHEwdDUzX1RxRHJNRkFOMU5LczlMZXdzTV9LSF9kVWoyU1c2Y3dGQ2QydGRVdG1NVXBaTGlOM0RuV2lnUFA4dDkxTW5pQ2xKR3pqSjFGRjlfdDJuNVB4SW81R3d1R0dXVUZTQlhTMjNCNjB0Mk9Hb3p4bWNqTE9waVNkZ3VnODJlV2RlWWdXdmo4dExDVjRQcGxLZmtvWUdxRG50bXIwVDdRSWhGMXR2M1VXQjlxSkpHeUJVLWZWdnFMWmJqNFpZMUhQcFFoek5PM042QUExZGs?oc=5",
-              "pubDate": "2026-11-14T18:45:00.000Z",
+              "pubDate": "2026-11-14T18:49:50.000Z",
               "tier": 2
             }
           ],
@@ -548,16 +536,159 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.9,
           "relevance_score": 7,
-          "importance": 70,
+          "importance": 80,
           "slug": "cruise-ship-overturns-after-collision-in-new-orleans"
+        },
+        {
+          "representativeTitle": "All Survive After Tanker Hits New Orleans Cruise Ship",
+          "sources": [
+            "BBC World",
+            "France 24",
+            "Sky News"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-14T19:14:33.000Z",
+              "tier": 1
+            },
+            {
+              "title": "USA: All passengers survive after tanker hits docked river cruise ship in New Orleans",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans",
+              "pubDate": "2026-11-14T13:15:42.000Z",
+              "tier": 1
+            },
+            {
+              "title": "New Orleans port officials sue owner of tanker that hit cruise ship",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/new-orleans-port-officials-sue-owner-of-tanker-that-hit-cruise-ship-13612331",
+              "pubDate": "2026-11-14T19:40:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "all-survive-after-tanker-hits-new-orleans-cruise-ship"
+        },
+        {
+          "representativeTitle": "Measles Elimination Status Lost; Public Health Setback",
+          "sources": [
+            "Washington Post",
+            "Fox News",
+            "NPR"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "U.S. loses measles-elimination status, erasing a landmark public health achievement",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/health/2026/11/13/us-loses-measles-elimination-status-erasing-landmark-achievement/",
+              "pubDate": "2026-11-14T04:20:15.000Z",
+              "tier": 1
+            },
+            {
+              "title": "US reportedly loses longstanding measles elimination status as cases surge nationwide",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/health/us-loses-longstanding-measles-elimination-status-cases-surge-nationwide",
+              "pubDate": "2026-11-14T19:17:16.000Z",
+              "tier": 2
+            },
+            {
+              "title": "US has lost measles elimination status, global health authorities say",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho",
+              "pubDate": "2026-11-14T22:15:02.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 65,
+          "slug": "measles-elimination-status-lost-public-health-setback"
+        },
+        {
+          "representativeTitle": "Telecom upgrades cause significant US flight disruptions.",
+          "sources": [
+            "BBC US",
+            "BBC World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "How telecoms upgrade work sparked US flight chaos",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-14T23:11:27.000Z",
+              "tier": 1
+            },
+            {
+              "title": "How telecoms upgrade work sparked US flight chaos",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-14T23:11:27.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 65,
+          "slug": "telecom-upgrades-cause-significant-us-flight-disruptions"
+        },
+        {
+          "representativeTitle": "FAA Lifts Ground Stop After Major Air Travel Disruption",
+          "sources": [
+            "Al Jazeera",
+            "France 24",
+            "IBTimes"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "US blames system upgrade for longest nationwide FAA ground stop since 9/11",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/14/us-blames-system-upgrade-for-longest-nationwide-faa-ground-stop-since-9?traffic_source=rss",
+              "pubDate": "2026-11-14T18:02:53.000Z",
+              "tier": 1
+            },
+            {
+              "title": "US: What exactly caused the longest nationwide ground stop in 25 years?",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/us-what-exactly-caused-the-longest-nationwide-ground-stop-in-25-years",
+              "pubDate": "2026-11-14T16:35:52.000Z",
+              "tier": 1
+            },
+            {
+              "title": "FAA Lifts Nationwide Ground Stop After Hourslong Shutdown. Duffy Blames Aging Technology.",
+              "source": "IBTimes",
+              "link": "https://www.ibtimes.com/faa-lifts-nationwide-ground-stop-air-traffic-failure-3809762",
+              "pubDate": "2026-11-14T02:07:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "faa-lifts-ground-stop-after-major-air-travel-disruption"
         },
         {
           "representativeTitle": "FAA lifts ground stops; travel chaos persists across US.",
           "sources": [
-            "Washington Post",
-            "Fox News"
+            "Washington Post"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
               "title": "Travel chaos, flight cancellations continue following nationwide ground stop",
@@ -572,43 +703,58 @@ export const newsData = {
               "link": "https://www.washingtonpost.com/transportation/2026/11/13/faa-grounds-flights-all-us-airports-citing-communications-issue/",
               "pubDate": "2026-11-14T02:59:12.000Z",
               "tier": 1
-            },
-            {
-              "title": "4 critical travel issues for those delayed and disrupted by FAA nationwide ground stop",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/travel/4-critical-travel-issues-those-still-scrambling-after-faa-nationwide-ground-stop",
-              "pubDate": "2026-11-14T17:00:30.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 70,
+          "importance": 65,
           "slug": "faa-lifts-ground-stops-travel-chaos-persists-across-us"
         },
         {
-          "representativeTitle": "Outdated Tech Cited for Widespread Flight Disruptions Nationally",
+          "representativeTitle": "Air Travel Chaos Exposes Systemic Infrastructure Weaknesses Now",
           "sources": [
-            "Al Jazeera"
+            "FT International"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "US blames outdated technology for nationwide flight disruption",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-blames-outdated-technology-for-nationwide-flight-disruption?traffic_source=rss",
-              "pubDate": "2026-11-14T18:32:40.000Z",
+              "title": "US air travel chaos exposes system held together by ‘string and duct tape’",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/9df17e1c-c77a-4f67-b5b4-1adb64bcd063?syn-25a6b1a6=1",
+              "pubDate": "2026-11-14T22:57:26.000Z",
               "tier": 1
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Business",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "outdated-tech-cited-for-widespread-flight-disruptions-nationally"
+          "slug": "air-travel-chaos-exposes-systemic-infrastructure-weaknesses-now"
+        },
+        {
+          "representativeTitle": "Air Traffic Control Outage Causes Widespread Passenger Disruption",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Passengers face widespread disruption after US air traffic control outage",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/f66f9811-59a2-4e52-a944-c7ed81dabc50?syn-25a6b1a6=1",
+              "pubDate": "2026-11-14T21:02:31.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "air-traffic-control-outage-causes-widespread-passenger-disruption"
         },
         {
           "representativeTitle": "Transport Chief Links Flight Delays to Old Wiring",
@@ -663,77 +809,25 @@ export const newsData = {
           "slug": "flight-grounding-blamed-on-routine-equipment-upgrade"
         },
         {
-          "representativeTitle": "Air Traffic Control Outage Causes Widespread Passenger Disruption",
+          "representativeTitle": "States gain time on Medicaid work requirements removal.",
           "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Passengers face widespread disruption after US air traffic control outage",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/f66f9811-59a2-4e52-a944-c7ed81dabc50?syn-25a6b1a6=1",
-              "pubDate": "2026-11-14T17:36:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "air-traffic-control-outage-causes-widespread-passenger-disruption"
-        },
-        {
-          "representativeTitle": "FAA Lifts Ground Stop After Major Air Travel Disruption",
-          "sources": [
-            "Al Jazeera",
-            "IBTimes"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "US blames system upgrade for longest nationwide FAA ground stop since 9/11",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/14/us-blames-system-upgrade-for-longest-nationwide-faa-ground-stop-since-9?traffic_source=rss",
-              "pubDate": "2026-11-14T18:02:53.000Z",
-              "tier": 1
-            },
-            {
-              "title": "FAA Lifts Nationwide Ground Stop After Hourslong Shutdown. Duffy Blames Aging Technology.",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/faa-lifts-nationwide-ground-stop-air-traffic-failure-3809762",
-              "pubDate": "2026-11-14T02:07:05.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "faa-lifts-ground-stop-after-major-air-travel-disruption"
-        },
-        {
-          "representativeTitle": "FAA Ground Stop Halts Thousands of Flights Nationwide Saturday",
-          "sources": [
-            "NBC News",
+            "ABC News US",
             "Google US"
           ],
           "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Thousands of flights canceled or delayed Saturday after FAA’s nationwide ground stop",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
-              "pubDate": "2026-11-13T21:09:53.000Z",
+              "title": "US gives states another 6 months before they have to remove people from Medicaid for not working",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/us-states-6-months-remove-people-medicaid-working-138126129",
+              "pubDate": "2026-11-14T03:02:21.000Z",
               "tier": 2
             },
             {
-              "title": "Thousands of Flights Are Canceled After Friday’s Nationwide Ground Stop: Live Updates",
+              "title": "U.S. gives states another 6 months before they have to remove people from Medicaid for not working",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeTRaYmRMM2tYYnJxcUpmYjNRQXpXdzd4Sjl0ZVNXNkRFWTBmTjJQUEFlVTdvWGNrN2FsVnotSnJXZ0RQbE13c1FjLWV6algtb3FmWTI1MGdqZ1d5Q1JFY3A0WnU1U2U1ZnFBRnFXQTVkRGY1eFBrSmZPSGlrd2RLdzA5NA?oc=5",
-              "pubDate": "2026-11-14T19:11:55.000Z",
+              "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMDFqbmFkaTJmS0hGOEtoWEh2VGRkLVhYQUEyTzltcDVkRm9fVUZUZlNPQXpaei1BNDgwTHBfN0o2bnlOTGplVWRlUC1XVUpRVHZnVVFHNzRXb3gyZ0k3OTJodkg4QjVIY2lDWVQ3dkRsYlNaWXNKcnJZYTV6YVNfd2NMYWYxY2UwNWFmNkNyRHlQSHJVamVGcUZlbHowYXpRMVIxVXB2S0l4UFJ6M2dHcVpVREtPbHcxcFd2dVV6eGhRVTZBSHdROGdiaDlSUQ?oc=5",
+              "pubDate": "2026-11-14T18:05:33.000Z",
               "tier": 2
             }
           ],
@@ -742,29 +836,7 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 50,
-          "slug": "faa-ground-stop-halts-thousands-of-flights-nationwide-saturday"
-        },
-        {
-          "representativeTitle": "Telecom upgrades cause significant US flight disruptions.",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How telecoms upgrade work sparked US flight chaos",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T19:00:16.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "telecom-upgrades-cause-significant-us-flight-disruptions"
+          "slug": "states-gain-time-on-medicaid-work-requirements-removal"
         },
         {
           "representativeTitle": "Air Travel Chaos Focuses Scrutiny on FAA Systems",
@@ -811,42 +883,78 @@ export const newsData = {
           "slug": "evangelical-voters-shift-away-from-republican-party"
         },
         {
-          "representativeTitle": "Democrat Wins Alaska Governorship Amid Political Shift",
+          "representativeTitle": "US Flights Resume Following Aging Tech Outage",
           "sources": [
-            "NBC News",
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US flights resume after ageing technology blamed for outage",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-flights-resume-after-ageing-technology-blamed-for-outage?traffic_source=rss",
+              "pubDate": "2026-11-14T21:36:19.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "us-flights-resume-following-aging-tech-outage"
+        },
+        {
+          "representativeTitle": "Bomb Found Near Illinois Plant; Evacuations Ordered Now",
+          "sources": [
             "NPR",
             "Google US"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Democrat Jonathan Kreiss-Tomkins wins the Alaska governor’s race",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/jonathan-kreiss-tomkins-democrat-wins-alaska-governor-race-rcna606558",
-              "pubDate": "2026-11-14T05:05:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
+              "title": "Bomb found near ethanol plant in central Illinois forces evacuations",
               "source": "NPR",
-              "link": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins",
-              "pubDate": "2026-11-14T05:12:43.000Z",
+              "link": "https://www.npr.org/2026/11/14/g-s1-153781/bomb-ethanol-plant-peoria-illinois-evacuations",
+              "pubDate": "2026-11-14T20:12:34.000Z",
               "tier": 2
             },
             {
-              "title": "Democrat wins Alaska governor’s seat for first time in nearly 30 years",
+              "title": "Bomb found near ethanol plant in central Illinois forces evacuations",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaHpOelhJaHVyV3hfZ1Qwa1FJM0w2aE45emVoZFZnOFdVb0xuMTdCN2VXSkYtRTV2VlN3QWhXQUpwaHh2YUs3ZUxWazd6eXJOV0p1QUhPSVJMdlBuTWNlalZKQllwazZiTDhOOTZhVDBLeFMzcmlTTmxDM29fbUstSHpUSWxyNkVzVXhmcTNyVUM0aVVWa05QazZCUFJ5ZUdxcHBR?oc=5",
-              "pubDate": "2026-11-14T16:58:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUmJYNUozVC1GX01ibDFuSlJTOUNVYU92dm45TGRJNHZpcVNRQ2tFbXJBbDczRHljY0RKT1ZWUzFpMExnRkJhQWtmOGRmUTNYZHJXOWdhaldrQmNxNWZsaUR5b21CR3NiRVpWRFQ4U2pZdkl1eDVPX2V1VkFtZVRtaEUyNi1zMkxTSkpDbG9PR0dkdWM?oc=5",
+              "pubDate": "2026-11-14T20:12:34.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": 0,
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 45,
+          "slug": "bomb-found-near-illinois-plant-evacuations-ordered-now"
+        },
+        {
+          "representativeTitle": "Evacuation lifted after bomb found at Illinois plant",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Evacuation zone lifted after bomb found at Illinois ethanol plant",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
+              "pubDate": "2026-11-14T20:14:27.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": 0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "democrat-wins-alaska-governorship-amid-political-shift"
+          "slug": "evacuation-lifted-after-bomb-found-at-illinois-plant"
         },
         {
           "representativeTitle": "Spy Plane Link Points to Florida Senior Community Site",
@@ -871,77 +979,47 @@ export const newsData = {
           "slug": "spy-plane-link-points-to-florida-senior-community-site"
         },
         {
-          "representativeTitle": "Labor MPs Question Premier's Youth Offender Plan",
+          "representativeTitle": "Fetterman Signals Deep Rift with Left Democrats Over Israel",
           "sources": [
-            "The Guardian"
+            "Fox News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Even Labor MPs are at a loss over the Victorian premier’s ‘tough love’ plan for youth offenders",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/nov/15/victoria-premier-ben-caroll-youth-crime-offenders-plan-ntwnfb",
-              "pubDate": "2026-11-14T19:00:53.000Z",
-              "tier": 1
+              "title": "Fetterman warns there is no longer 'common ground' with far-left Democrats over Israel",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/media/fetterman-warns-no-longer-common-ground-far-left-democrats-israel",
+              "pubDate": "2026-11-14T22:26:31.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 6,
+          "relevance_score": 8,
           "importance": 45,
-          "slug": "labor-mps-question-premiers-youth-offender-plan"
+          "slug": "fetterman-signals-deep-rift-with-left-democrats-over-israel"
         },
         {
-          "representativeTitle": "Senator warns AI policy must protect art culture.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Art ‘must not be sacrificed on the altar of corporate profit’ Liberal senator says as AI policy debate rages",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
-              "pubDate": "2026-11-14T19:00:52.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "senator-warns-ai-policy-must-protect-art-culture"
-        },
-        {
-          "representativeTitle": "Alaska Voters Support Ranked Choice Voting Primaries",
+          "representativeTitle": "Peltola's Path to Victory Remains Strong in Alaska",
           "sources": [
             "NBC News",
-            "NPR",
             "Google US"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Alaskans opt to stick with ranked choice voting",
+              "title": "Why Mary Peltola is on track to win in Alaska, even if ranked choice ballots come into play",
               "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/alaskans-opt-stick-ranked-choice-voting-rcna607641",
-              "pubDate": "2026-11-14T05:08:58.000Z",
+              "link": "https://www.nbcnews.com/politics/2026-election/mary-peltola-track-win-alaska-even-ranked-choice-ballots-come-play-rcna609299",
+              "pubDate": "2026-11-14T21:22:15.000Z",
               "tier": 2
             },
             {
-              "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/14/nx-s1-6034952/alaska-results-ranked-choice-voting-nonpartisan-primary",
-              "pubDate": "2026-11-14T13:08:05.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
+              "title": "Why Mary Peltola is on track to win in Alaska, even if ranked choice ballots come into play",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYi0wWjZpZmFyTS0xMlZ2eEF2YXJzTDhBd3E0RXhpTWR1TzlGSEUteldFZUNYNmNRSlE5NEpZMFZFb1daVkZVS0pvUm5TSWFpZklPRzZfVkZ1TTh0cEdFWUJlZFRkSmF2ODR5MWgzTkllU1ZQQ19GSl9zcW5lZ21MMTI1cXhjdHJRT1JfWGZYWnVfM3IzM2hyUURTU21qOHMtd0E?oc=5",
-              "pubDate": "2026-11-14T13:08:05.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPM0tWRjdXLWNKYmp0NERhQ053eDlqTG9MenJsc0VMUFQ4YlE0eW1KVjhJcUNvcjVlcGJVbXJlRERTejBoNG5JQ0hIQVlZZEphR3doVndCb2I5N19ILU40Z21FZTJKYk8waGR6NzU3V08xYVFLX21mcEMxZnpFejNENzl2U3FZWUFYUmRRMm5tX0JCZ3lKODR5MjZUcnZlbmQ2N2R5bWNvMXlGZ3QyOEJjMlRYcDgxLW02Wjk2TUU5Mm5PQQ?oc=5",
+              "pubDate": "2026-11-14T21:22:15.000Z",
               "tier": 2
             }
           ],
@@ -949,84 +1027,78 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": 0,
           "relevance_score": 6,
-          "importance": 45,
-          "slug": "alaska-voters-support-ranked-choice-voting-primaries"
+          "importance": 40,
+          "slug": "peltolas-path-to-victory-remains-strong-in-alaska"
         },
         {
-          "representativeTitle": "Flight Stoppages Continue Amid Routine Maintenance Claims",
+          "representativeTitle": "Threat triggers evacuation near Illinois ethanol plant.",
           "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "US officials say flight stoppage stemmed from ‘routine maintenance’ as travel chaos continues",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos",
-              "pubDate": "2026-11-14T17:11:18.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "flight-stoppages-continue-amid-routine-maintenance-claims"
-        },
-        {
-          "representativeTitle": "FAA Ground Stop Continues Amid Safety Concerns",
-          "sources": [
+            "NBC News",
             "ABC News Top"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "FAA ground stop live updates: 'Zero evidence of anything nefarious,' FAA head says",
+              "title": "Device deemed ‘credible threat’ triggers evacuation around ethanol plant in Peoria, Illinois",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/evacuation-order-ethanol-plant-peoria-illinois-suspicious-device-rcna609287",
+              "pubDate": "2026-11-14T10:25:02.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Authorities investigate 'credible' bomb threat at Illinois plant",
               "source": "ABC News Top",
-              "link": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
-              "pubDate": "2026-11-14T19:21:07.000Z",
+              "link": "https://abcnews.com/US/peoria-police-urge-evacuations-after-reported-bomb-threat/story?id=138137440",
+              "pubDate": "2026-11-14T20:50:59.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": -0.4,
-          "relevance_score": 7,
+          "relevance_score": 6,
           "importance": 40,
-          "slug": "faa-ground-stop-continues-amid-safety-concerns"
+          "slug": "threat-triggers-evacuation-near-illinois-ethanol-plant"
         },
         {
-          "representativeTitle": "Texas Democrat Vows Moderation Over Culture Wars",
+          "representativeTitle": "Democrat Wins Alaska Governor's Election Race",
           "sources": [
-            "Washington Post"
+            "NBC News",
+            "Google US"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Texas’s Democratic gov.-elect vows to trade GOP culture wars for moderation",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/nation/2026/11/14/texass-democratic-gov-elect-vows-trade-gop-culture-wars-moderation/",
-              "pubDate": "2026-11-14T10:00:00.000Z",
-              "tier": 1
+              "title": "Democrat Jonathan Kreiss-Tomkins wins the Alaska governor’s race",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/2026-election/jonathan-kreiss-tomkins-democrat-wins-alaska-governor-race-rcna606558",
+              "pubDate": "2026-11-14T05:05:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Democrat wins Alaska governor’s seat for first time in nearly 30 years",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaHpOelhJaHVyV3hfZ1Qwa1FJM0w2aE45emVoZFZnOFdVb0xuMTdCN2VXSkYtRTV2VlN3QWhXQUpwaHh2YUs3ZUxWazd6eXJOV0p1QUhPSVJMdlBuTWNlalZKQllwazZiTDhOOTZhVDBLeFMzcmlTTmxDM29fbUstSHpUSWxyNkVzVXhmcTNyVUM0aVVWa05QazZCUFJ5ZUdxcHBR?oc=5",
+              "pubDate": "2026-11-14T16:58:00.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
           "sentiment": 0,
           "relevance_score": 6,
-          "importance": 45,
-          "slug": "texas-democrat-vows-moderation-over-culture-wars"
+          "importance": 40,
+          "slug": "democrat-wins-alaska-governors-election-race"
         },
         {
-          "representativeTitle": "FAA Groundstop Causes Major Weekend Air Travel Delays",
+          "representativeTitle": "FAA Lift Causes Air Travel Disruptions Nationwide Weekend",
           "sources": [
             "WSJ US Business"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Weekend Air Travel Woes Mount After FAA Lifts Nationwide Groundstop",
+              "title": "Weekend Air Travel Woes Mount After FAA Lifts Nationwide Ground Stop",
               "source": "WSJ US Business",
               "link": "https://www.wsj.com/us-news/faa-temporarily-halts-flights-across-u-s-b9b06e59?mod=pls_whats_news_us_business_f",
               "pubDate": "2026-11-14T13:10:00.000Z",
@@ -1038,7 +1110,34 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 7,
           "importance": 40,
-          "slug": "faa-groundstop-causes-major-weekend-air-travel-delays"
+          "slug": "faa-lift-causes-air-travel-disruptions-nationwide-weekend"
+        }
+      ]
+    },
+    {
+      "name": "Stocks",
+      "children": [
+        {
+          "representativeTitle": "High Bond Yields Attract Capital Amid Tech Volatility",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+              "pubDate": "2026-11-14T20:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "high-bond-yields-attract-capital-amid-tech-volatility"
         }
       ]
     },
@@ -1046,26 +1145,26 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "Art Sale Challenged Over Allegations of Duress",
+          "representativeTitle": "Air Travel Meltdown Linked to Infrastructure Failures",
           "sources": [
-            "BBC World"
+            "WSJ US Business"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Sotheby's auction of $180m Van Gogh challenged over claims it was 'sold under duress'",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cmwy05gg75lvo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T18:00:10.000Z",
-              "tier": 1
+              "title": "The Tangle of Wires at the Heart of a Nationwide Air-Travel Meltdown",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/airlines/the-tangle-of-wires-at-the-heart-of-a-nationwide-air-travel-meltdown-0356872e?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-14T22:13:00.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Business",
           "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
+          "sentiment": -0.9,
+          "relevance_score": 8,
           "importance": 45,
-          "slug": "art-sale-challenged-over-allegations-of-duress"
+          "slug": "air-travel-meltdown-linked-to-infrastructure-failures"
         },
         {
           "representativeTitle": "Poppi Founders Face Business Setback After Changes",
@@ -1178,48 +1277,26 @@ export const newsData = {
           "slug": "retailers-use-entertainment-to-capture-consumer-attention"
         },
         {
-          "representativeTitle": "Ex-CEO's potential wealth linked to Anthropic IPO.",
+          "representativeTitle": "Routine Work Causes Major Air Travel Outage Worldwide",
           "sources": [
-            "FT International"
+            "WSJ US Business"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Sam Bankman-Fried would have made nearly $40bn in Anthropic IPO",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/0ef40ac9-6d01-428f-98c8-a52bf5b9a787?syn-25a6b1a6=1",
-              "pubDate": "2026-11-13T23:39:26.000Z",
-              "tier": 1
+              "title": "Outage That Swamped Air Travel Blamed on ‘Routine’ Work to Replace Copper Wire",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/business/airlines/travel-woes-persist-as-airlines-race-to-reset-after-groundstop-f34a7f9f?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-14T19:24:00.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "Business",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ex-ceos-potential-wealth-linked-to-anthropic-ipo"
-        },
-        {
-          "representativeTitle": "Major Retailers Announce Thanksgiving Meal Deals Roundup",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Thanksgiving Meal Deals Roundup (2026): Walmart, Amazon, Target",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/thanksgiving-meal-deals-2026/",
-              "pubDate": "2026-11-14T10:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 3,
-          "importance": 30,
-          "slug": "major-retailers-announce-thanksgiving-meal-deals-roundup"
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "routine-work-causes-major-air-travel-outage-worldwide"
         }
       ]
     },
@@ -1232,10 +1309,9 @@ export const newsData = {
             "BBC World",
             "Al Jazeera",
             "Le Monde",
-            "IBTimes",
-            "Google World"
+            "IBTimes"
           ],
-          "citationCount": 5,
+          "citationCount": 4,
           "rawArticles": [
             {
               "title": "Italy fines Meta €805m over accessing users' photos",
@@ -1252,10 +1328,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Italy fines Meta $880mn over photo privacy",
+              "title": "Italy fines Meta $880 million over photo privacy",
               "source": "Le Monde",
               "link": "https://www.lemonde.fr/en/international/article/2026/11/14/italy-fines-meta-880mn-over-photo-privacy_6780820_4.html",
-              "pubDate": "2026-11-14T15:30:34.000Z",
+              "pubDate": "2026-11-14T15:30:33.000Z",
               "tier": 2
             },
             {
@@ -1264,20 +1340,13 @@ export const newsData = {
               "link": "https://www.ibtimes.com/italy-meta-fine-facebook-photo-access-consent-3809767",
               "pubDate": "2026-11-14T14:04:21.000Z",
               "tier": 2
-            },
-            {
-              "title": "Italy fines Meta $887 million over Android users' data access",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSVFmcHRvNGEzVXRKbU5Kc0JhSDV4R2o0bnpXSUJMZnRMc1E2ckNCRzBaWDhzY2xObHVtNmtiWmdoX3g4NlVsYkc1bzFDbVB0T016LWczNHJ6bGx2ZXlQeDZPUGNjeXJPaWZ3Wm5DdU9za21PMXFlZVVDckh5Q1I0QnROcElOTnA2bGMzczBMbFJweW1ISkkwWUgzNXJpTU95N0NR?oc=5",
-              "pubDate": "2026-11-14T18:12:05.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "Technology",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 85,
+          "importance": 80,
           "slug": "italy-fines-meta-over-unauthorized-user-data-access"
         },
         {
@@ -1309,35 +1378,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 60,
           "slug": "microsoft-restores-services-after-global-outage-period"
-        },
-        {
-          "representativeTitle": "Wall Street plans for Nvidia's next leadership chapter.",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-14/how-wall-street-is-bracing-for-the-post-jensen-huang-nvidia-era",
-              "pubDate": "2026-11-14T09:00:19.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Odd Lots: Wall Street and the Post-Huang Nvidia Era (Podcast)",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/audio/2026-11-14/odd-lots-wall-street-and-the-post-huang-nvidia-era-podcast",
-              "pubDate": "2026-11-14T09:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "wall-street-plans-for-nvidias-next-leadership-chapter"
         },
         {
           "representativeTitle": "Ground Stop Lifts; Nvidia Scandal, Starship Test Report",
@@ -1384,6 +1424,36 @@ export const newsData = {
           "slug": "asian-governments-react-to-nvidia-ceo-departure"
         },
         {
+          "representativeTitle": "AI Failures Documented: Startups Struggle to Survive Now",
+          "sources": [
+            "TechCrunch",
+            "Google Tech"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+              "pubDate": "2026-11-14T17:30:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNVRfXzM5NXVKbU5PVWZpQXBwNjBmaG9uLWstSHBPNWI5QVMwcW1OaUwzbkdpQUFkR1RST2dqVEFyMnZaenBmRjQ2MkJ1RmptYU82LTBKUTRDZk5zakViN2RsdU9HcWJGdVFUVzMyNFJfUG1jS2JOZTkxSU9tWkxQaHZORHlIUlp1dWFqWjJlTUFSSjdPMGZGb3VNajdUOWZtTEszdEZvYl9VbmozYmJn?oc=5",
+              "pubDate": "2026-11-14T17:30:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "ai-failures-documented-startups-struggle-to-survive-now"
+        },
+        {
           "representativeTitle": "AI Trade Outlook Hinges on Nvidia and Congress",
           "sources": [
             "CNBC Markets"
@@ -1404,6 +1474,28 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "ai-trade-outlook-hinges-on-nvidia-and-congress"
+        },
+        {
+          "representativeTitle": "Tesla Pre-Orders Cybercab with Restrictions and Fee",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+              "pubDate": "2026-11-14T20:04:44.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "tesla-pre-orders-cybercab-with-restrictions-and-fee"
         },
         {
           "representativeTitle": "Tech Leaders Clash Over Nvidia China Restrictions",
@@ -1428,6 +1520,36 @@ export const newsData = {
           "slug": "tech-leaders-clash-over-nvidia-china-restrictions"
         },
         {
+          "representativeTitle": "Apple Launches Early Black Friday Sales Event Now",
+          "sources": [
+            "Wired",
+            "Google Tech"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "10 Best Early Black Friday Headphone Deals (2026): Up to 50% Off",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/best-early-black-friday-headphone-deals-11-14-26/",
+              "pubDate": "2026-11-14T11:30:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Apple Black Friday Starts Early: Save on Apple Watch, MacBook Air, and More",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DQmFzTVNZOTlPc2xwQXpzQl9feENmQy02aGVrUTFPUjNGOExGT3pYeUJaRmpKdzlseGpUU3RMUWZNZktkemYxdDNmajBGOGdVMWxwUklvVmxaOGFZTEZZUnFocHF2cTk2aWd5TkhFU29DNWhndGZaQjlB?oc=5",
+              "pubDate": "2026-11-14T15:25:09.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "apple-launches-early-black-friday-sales-event-now"
+        },
+        {
           "representativeTitle": "AI-Powered Ransomware Threat Escalates Cyber Security Risks",
           "sources": [
             "Wired"
@@ -1450,6 +1572,28 @@ export const newsData = {
           "slug": "ai-powered-ransomware-threat-escalates-cyber-security-risks"
         },
         {
+          "representativeTitle": "Tech Execs Petition Nvidia to Rehire Jensen Huang",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+              "pubDate": "2026-11-14T21:41:22.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "tech-execs-petition-nvidia-to-rehire-jensen-huang"
+        },
+        {
           "representativeTitle": "Nvidia faces lawsuits following Jensen Huang's departure.",
           "sources": [
             "FT International"
@@ -1470,28 +1614,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "nvidia-faces-lawsuits-following-jensen-huangs-departure"
-        },
-        {
-          "representativeTitle": "AI Failures Documented: Startups Struggle to Survive Now",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-              "pubDate": "2026-11-14T17:30:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ai-failures-documented-startups-struggle-to-survive-now"
         },
         {
           "representativeTitle": "Nvidia Board's Independence Sparks Governance Discussion",
@@ -1560,28 +1682,6 @@ export const newsData = {
           "slug": "audit-needed-for-shared-cloud-storage-links-now"
         },
         {
-          "representativeTitle": "Huang's Ouster Sparks Tech Industry Rethinking Strategy",
-          "sources": [
-            "WSJ US Business"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "In Jensen Huang’s Ouster, Tech Billionaires See a Mistake—and a Lesson",
-              "source": "WSJ US Business",
-              "link": "https://www.wsj.com/tech/in-jensen-huangs-ouster-tech-billionaires-see-a-mistakeand-a-lesson-2bea613c?mod=pls_whats_news_us_business_f",
-              "pubDate": "2026-11-14T10:30:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "huangs-ouster-sparks-tech-industry-rethinking-strategy"
-        },
-        {
           "representativeTitle": "New gadget promises to enhance home automation capabilities.",
           "sources": [
             "The Verge",
@@ -1617,64 +1717,138 @@ export const newsData = {
       "name": "Science",
       "children": [
         {
-          "representativeTitle": "SpaceX attempts second Starship rocket launch test.",
+          "representativeTitle": "Starship Achieves Milestone Mid-Air Catch During Return",
           "sources": [
-            "BBC US",
-            "BBC World",
+            "France 24",
             "SCMP"
           ],
-          "citationCount": 3,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Second catch attempt for SpaceX Starship rocket",
+              "title": "SpaceX's Starship completes first-ever mid-air catch after return from orbit",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/spacex-starship-set-for-return-to-earth-after-failed-booster-catch",
+              "pubDate": "2026-11-14T20:51:24.000Z",
+              "tier": 1
+            },
+            {
+              "title": "SpaceX successfully carries out first-ever spaceship catch",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3374463/spacex-successfully-carries-out-first-ever-spaceship-catch",
+              "pubDate": "2026-11-14T21:32:46.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 9,
+          "importance": 65,
+          "slug": "starship-achieves-milestone-mid-air-catch-during-return"
+        },
+        {
+          "representativeTitle": "SpaceX Successfully Recovers After Starship Setback",
+          "sources": [
+            "FT International",
+            "WSJ US Business"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "SpaceX catches returning Starship rocket in breakthrough for Musk",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/ce7c8ab1-8337-4c32-8494-5142ec1697dd?syn-25a6b1a6=1",
+              "pubDate": "2026-11-14T22:33:56.000Z",
+              "tier": 1
+            },
+            {
+              "title": "SpaceX Catches Starship After Early Setback",
+              "source": "WSJ US Business",
+              "link": "https://www.wsj.com/science/space-astronomy/spacex-launches-starship-on-ambitious-bid-to-catch-spacecraft-5c806c9b?mod=pls_whats_news_us_business_f",
+              "pubDate": "2026-11-14T22:58:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "spacex-successfully-recovers-after-starship-setback"
+        },
+        {
+          "representativeTitle": "SpaceX Achieves Major Milestone With Starship Rocketry",
+          "sources": [
+            "BBC US",
+            "NPR"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "SpaceX successfully catches top of huge Starship rocket for first time",
               "source": "BBC US",
               "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T14:18:41.000Z",
+              "pubDate": "2026-11-14T22:15:52.000Z",
               "tier": 1
             },
             {
-              "title": "Second catch attempt for SpaceX Starship rocket",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T14:18:41.000Z",
-              "tier": 1
-            },
-            {
-              "title": "SpaceX’s bid for Starship double catch thwarted, as booster ends up in ocean",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3374413/spacexs-bid-starship-double-catch-thwarted-booster-ends-ocean",
-              "pubDate": "2026-11-13T23:23:21.000Z",
+              "title": "SpaceX successfully catches Starship and makes history",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
+              "pubDate": "2026-11-14T21:42:41.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "Science",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 70,
-          "slug": "spacex-attempts-second-starship-rocket-launch-test"
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "spacex-achieves-major-milestone-with-starship-rocketry"
         },
         {
-          "representativeTitle": "NHS misses cancer treatment target by ten thousand.",
+          "representativeTitle": "SpaceX Starship Completes Orbital Return Successfully",
           "sources": [
             "The Guardian"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "NHS England on track to miss key cancer treatment target by 10,000 patients",
+              "title": "SpaceX’s Starship returns to launch pad from orbit in victory for company",
               "source": "The Guardian",
-              "link": "https://www.theguardian.com/society/2026/nov/14/nhs-england-62-day-cancer-treatment-target-by-10000-patients",
-              "pubDate": "2026-11-14T17:00:49.000Z",
+              "link": "https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch",
+              "pubDate": "2026-11-14T22:35:06.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "Science",
-          "sentiment": -0.4,
+          "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "nhs-misses-cancer-treatment-target-by-ten-thousand"
+          "slug": "spacex-starship-completes-orbital-return-successfully"
+        },
+        {
+          "representativeTitle": "SpaceX Successfully Lands Starship in Novel Demonstration",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "(Digital) SpaceX Catches Starship in Novel Landing",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-14/-digital-spacex-catches-starship-in-novel-landing",
+              "pubDate": "2026-11-14T22:25:41.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "spacex-successfully-lands-starship-in-novel-demonstration"
         },
         {
           "representativeTitle": "Voyager 1 Sets New Record in Interstellar Space Travel",
@@ -1759,79 +1933,6 @@ export const newsData = {
           "slug": "major-freshwater-lake-shows-signs-of-recovery"
         },
         {
-          "representativeTitle": "Measles Surge Strains Doctors With Novel Illnesses",
-          "sources": [
-            "Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Surging measles cases are forcing doctors to treat conditions they’ve never seen",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/health/2026/11/14/doctors-are-learning-fly-measles-surge-presents-rare-cases/",
-              "pubDate": "2026-11-14T10:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "measles-surge-strains-doctors-with-novel-illnesses"
-        },
-        {
-          "representativeTitle": "Galaxies lose dark matter; new cosmic insights emerge.",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "These ‘Ghostly’ Galaxies Have Lost Their Dark Matter",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/these-ghostly-galaxies-have-lost-their-dark-matter/",
-              "pubDate": "2026-11-14T10:00:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "These ‘Ghostly’ Galaxies Have Lost Their Dark Matter",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/these-ghostly-galaxies-have-lost-their-dark-matter/",
-              "pubDate": "2026-11-14T10:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Science",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 55,
-          "slug": "galaxies-lose-dark-matter-new-cosmic-insights-emerge"
-        },
-        {
-          "representativeTitle": "SpaceX Booster Recovery Aborted Due To Technical Issues",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Elon Musk's SpaceX aborts booster recovery due to technical issues",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/elon-musk-s-spacex-aborts-booster-recovery-due-to-technical-issues",
-              "pubDate": "2026-11-14T17:33:37.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Science",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "spacex-booster-recovery-aborted-due-to-technical-issues"
-        },
-        {
           "representativeTitle": "Polar Vortex Breakdown Signals Increased Cold Weather Risks",
           "sources": [
             "FT International"
@@ -1854,48 +1955,26 @@ export const newsData = {
           "slug": "polar-vortex-breakdown-signals-increased-cold-weather-risks"
         },
         {
-          "representativeTitle": "Stanford Finds Signals Predicting Alzheimer's Years Early",
+          "representativeTitle": "Urban growth causes severe ecological collapse in streams.",
           "sources": [
-            "Science Daily"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Stanford scientists discover hidden brain signals that predict Alzheimer’s years before symptoms",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
-              "pubDate": "2026-11-14T12:25:05.000Z",
+              "title": "Urban expansion causes ecological collapse in streams in the São Paulo Metropolitan Area",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-urban-expansion-ecological-collapse-streams.html",
+              "pubDate": "2026-11-14T22:00:01.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "stanford-finds-signals-predicting-alzheimers-years-early"
-        },
-        {
-          "representativeTitle": "JWST Detects Ancient Ice Preceding Host Star's Formation",
-          "sources": [
-            "Google Science"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "James Webb telescope finds ice older than the star it orbits",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTUtCUUNCem5PdU5aZGZnWEtUOTBJVWIzY2Jja01lb2N1amI0dDhsMURyanUwLUVzaWl2NlhndDVPYW1vU1F0aEJJTjFEQkNIYk9xN0FNYW10VDI3OTg1ZDVnUE12Yk1rbDBYenJBbGhMLWZpNHZiemZjN0FCN2NhaHRDTVNRMlpQVHd1YzdaRDF2Nl9lVnJuVFIwUkdxTEZlaVhn?oc=5",
-              "pubDate": "2026-11-14T12:15:48.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "jwst-detects-ancient-ice-preceding-host-stars-formation"
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "urban-growth-causes-severe-ecological-collapse-in-streams"
         },
         {
           "representativeTitle": "Cameron Expresses Optimism Regarding Alzheimer's Research Progress",
@@ -1940,6 +2019,28 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "food-emulsifier-could-solve-major-rocket-fuel-issue"
+        },
+        {
+          "representativeTitle": "Galaxies lose dark matter; new cosmic insights emerge.",
+          "sources": [
+            "Wired"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "These ‘Ghostly’ Galaxies Have Lost Their Dark Matter",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/these-ghostly-galaxies-have-lost-their-dark-matter/",
+              "pubDate": "2026-11-14T10:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "galaxies-lose-dark-matter-new-cosmic-insights-emerge"
         },
         {
           "representativeTitle": "Starship Return Continues After Booster Catch Failure",
