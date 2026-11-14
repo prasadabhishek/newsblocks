@@ -1,6 +1,6 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-11-14T15:17:41.575Z",
+  "lastUpdated": "2026-11-14T19:24:13.984Z",
   "children": [
     {
       "name": "World",
@@ -22,7 +22,7 @@ export const newsData = {
               "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T15:15:57.000Z",
+              "pubDate": "2026-11-14T19:21:10.000Z",
               "tier": 1
             },
             {
@@ -61,10 +61,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "US floats Nato membership for Donbas withdrawal deal, Zelenskyy says",
+              "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNi1IdTRFRXk4dnlyWE9ycGhxcHVNVjNSU1VBendhRjdFSHNYcVM5d0wwUGN3VUktaTM2b2R2UVIxZ3NMbjcybDlsa3llTGNUOFgzOVllMjg5UW9Db2FmQzB4QUJEcS1RODdNU3JhTy04QlJwY0duelNBTTdROEJMQTcyaTQ?oc=5",
-              "pubDate": "2026-11-14T11:41:15.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Sc2FZdms0a2VhSnZ3bHhCakcwcnl4SWhTWi1HaDJUdmZXdzVKTmtocFp0aFRYQk9VYllVZ1Uzdkp5OV9Ic2l5NmtUUXU4WVBaNFpMdDVselhoS2c?oc=5",
+              "pubDate": "2026-11-14T15:15:57.000Z",
               "tier": 2
             }
           ],
@@ -79,24 +79,16 @@ export const newsData = {
           "representativeTitle": "Trump, Putin, Xi Plan Major China Summit Next Week",
           "sources": [
             "BBC World",
-            "France 24",
             "Sky News",
             "Euronews"
           ],
-          "citationCount": 4,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T05:52:31.000Z",
-              "tier": 1
-            },
-            {
-              "title": "China to host first-ever trilateral meeting between Trump, Xi and Putin next week",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/asia-pacific/20261114-china-to-host-first-ever-trilateral-meeting-between-trump-xi-and-putin-next-week-us-says",
-              "pubDate": "2026-11-14T05:09:23.000Z",
+              "pubDate": "2026-11-14T15:53:55.000Z",
               "tier": 1
             },
             {
@@ -118,54 +110,8 @@ export const newsData = {
           "aiCategory": "World",
           "sentiment": 0,
           "relevance_score": 10,
-          "importance": 90,
+          "importance": 75,
           "slug": "trump-putin-xi-plan-major-china-summit-next-week"
-        },
-        {
-          "representativeTitle": "Corruption Probe Uncovers Millions in Hungarian Assets",
-          "sources": [
-            "The Guardian",
-            "Al Jazeera",
-            "Euronews",
-            "Google World"
-          ],
-          "citationCount": 4,
-          "rawArticles": [
-            {
-              "title": "Hungary seizes $19.5m in cash found buried in forests amid graft inquiry",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry",
-              "pubDate": "2026-11-13T22:12:54.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Nearly $20m found in Hungary’s forests, buildings amid corruption probe",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/14/hungarian-investigators-uncover-19-5m-hidden-in-forests-and-buildings?traffic_source=rss",
-              "pubDate": "2026-11-14T09:08:21.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Hungary seizes millions in cash found buried in forests amid corruption investigation",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/14/hungary-seizes-millions-in-cash-found-buried-in-forests-amid-corruption-investigation",
-              "pubDate": "2026-11-14T11:31:19.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Hungary seizes millions in cash amid corruption investigation",
-              "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObTBvQVlJTldjYkZPQVIxZXpzNmhFemxrSFNZeEpqUVZ0MlBWWEJvMjNQUkl1dVVXYXlHUFJUeTVoNWt1Y2NmcjdSY3RpX2RMc0JTb2tWemw1eER3TENGNEZJb0duUkpRb3c0ZXgtcHJmRk5tNUN2Sm83c2x3STkzV0gtaW0wczh4bUdJZnR3Tm5nbjBSVjJ6ZFlIY3FTa3NBQWI1Mnc0SWowLWtiWG5kc2FDbkxEVmpUUkhnZjdB?oc=5",
-              "pubDate": "2026-11-14T11:31:19.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 70,
-          "slug": "corruption-probe-uncovers-millions-in-hungarian-assets"
         },
         {
           "representativeTitle": "Gaza Faces Water Crisis: Clean vs. Sewage Dilemma",
@@ -195,6 +141,126 @@ export const newsData = {
           "relevance_score": 10,
           "importance": 75,
           "slug": "gaza-faces-water-crisis-clean-vs-sewage-dilemma"
+        },
+        {
+          "representativeTitle": "Hungary Corruption Case Unearths Nearly Twenty Million Euros",
+          "sources": [
+            "The Guardian",
+            "Euronews",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Hungary seizes $19.5m in cash found buried in forests amid graft inquiry",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry",
+              "pubDate": "2026-11-13T22:12:54.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Hungary seizes millions in cash found buried in forests amid corruption investigation",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/11/14/hungary-seizes-millions-in-cash-found-buried-in-forests-amid-corruption-investigation",
+              "pubDate": "2026-11-14T11:31:19.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Nearly €20m in cash found buried, hidden in Hungary corruption case",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRWpaQ0R5clFucEpOR09uNV91cEcwUi1SMGdiWjhVYWM3VkFfTnJibzRLR013M2FXQWNlRXVHaV9fRXJVaEtvWWxmdm5DOXZ2RlFXRWJCbm54MWdLQnNVOXYzblRKUDRrMjh6WEFCSXY1NGpNeXVraVVrVWtmS25jQjdDZGRld0VBUFpHdUFxaTU3R09IS0NiaW1Wb3lOblc1?oc=5",
+              "pubDate": "2026-11-14T13:16:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "hungary-corruption-case-unearths-nearly-twenty-million-euros"
+        },
+        {
+          "representativeTitle": "China's Intelligence Targets Focus on Technology Sector",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "How China’s Intelligence Operations Target Tech",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-14/how-china-s-intelligence-operations-target-tech-video",
+              "pubDate": "2026-11-14T15:41:12.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 60,
+          "slug": "chinas-intelligence-targets-focus-on-technology-sector"
+        },
+        {
+          "representativeTitle": "Burnham: Brexit Caused More Losses Than Gains",
+          "sources": [
+            "The Guardian",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Andy Burnham says UK has ‘lost more than we gained’ through Brexit",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/14/andy-burnham-says-uk-lost-more-than-we-gained-brexit",
+              "pubDate": "2026-11-14T15:34:54.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Andy Burnham says UK has ‘lost more than we gained’ through Brexit",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMnVxNDdMX2ljdURYTEI2QS1hVlJlamZ3TEpqU0lHZ2Y0ei1fLW5DWFEyREVzcXVKOXJ5RE9obXE2THpJU0xvc1BQODdocmtwMFBIRWp0MmVDS2k4Qnh4aVJFRFZIMC00bHNxZDJnZXI1NDlLY2lTb2lCaVp1MnpwaE9OeXhnSHZEZGhtMEN6T0VhZEFqZURST2pLYkpjOVU?oc=5",
+              "pubDate": "2026-11-14T15:52:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "burnham-brexit-caused-more-losses-than-gains"
+        },
+        {
+          "representativeTitle": "Riner rejects Macron support amid political friction.",
+          "sources": [
+            "France 24",
+            "Le Monde"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "'Poisoned chalice': French presidential hopeful Riner rebuffs Macron's backing",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/france/20261114-judo-star-and-presidential-hopeful-riner-calls-macron",
+              "pubDate": "2026-11-14T14:57:22.000Z",
+              "tier": 1
+            },
+            {
+              "title": "France presidential hopeful Riner distances himself from Macron",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/politics/article/2026/11/14/france-presidential-hopeful-riner-distances-himself-from-macron_6780787_5.html",
+              "pubDate": "2026-11-14T15:21:40.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "riner-rejects-macron-support-amid-political-friction"
         },
         {
           "representativeTitle": "Trump Visits China for Talks with Xi and Putin",
@@ -241,48 +307,34 @@ export const newsData = {
           "slug": "peace-talks-shift-focus-to-nato-and-donbas"
         },
         {
-          "representativeTitle": "Extreme Weather Forecasts Signal Global Climate Crisis Ahead",
+          "representativeTitle": "France Protests Over Costs and Police Tactics",
           "sources": [
-            "The Guardian"
+            "France 24",
+            "Euronews"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
-              "pubDate": "2026-11-14T13:00:44.000Z",
+              "title": "France protests for fifth Saturday against living costs and heavy-handed policing",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/france-protests-for-fifth-saturday-against-living-costs-and-heavy-handed-policing",
+              "pubDate": "2026-11-14T10:15:42.000Z",
               "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.9,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "extreme-weather-forecasts-signal-global-climate-crisis-ahead"
-        },
-        {
-          "representativeTitle": "Report details Russian casualties in Ukraine conflict.",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
+            },
             {
-              "title": "Russian casualties ‘reach 450,000’: What that means for the Ukraine war",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/14/russian-casualties-reach-450000-what-that-means-for-the-ukraine-war?traffic_source=rss",
-              "pubDate": "2026-11-14T12:57:36.000Z",
-              "tier": 1
+              "title": "France sees fifth consecutive Saturday of nationwide protests",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/11/14/france-sees-fifth-consecutive-saturday-of-nationwide-protests",
+              "pubDate": "2026-11-14T18:11:18.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "report-details-russian-casualties-in-ukraine-conflict"
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "france-protests-over-costs-and-police-tactics"
         },
         {
           "representativeTitle": "Ukraine Links NATO Membership to Donbas Withdrawal Deal",
@@ -307,72 +359,6 @@ export const newsData = {
           "slug": "ukraine-links-nato-membership-to-donbas-withdrawal-deal"
         },
         {
-          "representativeTitle": "Documentary alleges unlawful detention of torture survivors.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Torture survivors may have been sent to Sussex asylum camp unlawfully, documentary reveals",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/uk-news/2026/nov/14/asylum-seekers-crowborough-torture-survivors-military-camp",
-              "pubDate": "2026-11-14T14:07:47.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "documentary-alleges-unlawful-detention-of-torture-survivors"
-        },
-        {
-          "representativeTitle": "White House Moves Strain Mexico Trade Negotiations Efforts",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Miller’s White House Ascent Rattles Mexico Trade Negotiators",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-14/miller-s-white-house-ascent-rattles-mexico-trade-negotiators",
-              "pubDate": "2026-11-14T13:30:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "white-house-moves-strain-mexico-trade-negotiations-efforts"
-        },
-        {
-          "representativeTitle": "Survivor Reveals German 'Baby Factory' Childhood Trauma",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "'I never imagined my father was a Nazi': Born in a German-run 'baby factory'",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/france/20261114-i-never-imagined-my-father-was-a-nazi-born-in-a-german-run-baby-factory",
-              "pubDate": "2026-11-14T13:25:35.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "survivor-reveals-german-baby-factory-childhood-trauma"
-        },
-        {
           "representativeTitle": "Trump's Oil Focus Strains Venezuelan National Identity",
           "sources": [
             "NY Times"
@@ -395,139 +381,29 @@ export const newsData = {
           "slug": "trumps-oil-focus-strains-venezuelan-national-identity"
         },
         {
-          "representativeTitle": "Extradition Bid Links Activist to Hamas Allegations in Spain",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How a US extradition bid over Hamas allegations put a wealthy activist before a Spanish court",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/14/activist-extradition-gaza-hamas-spanish-court",
-              "pubDate": "2026-11-14T15:00:47.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "extradition-bid-links-activist-to-hamas-allegations-in-spain"
-        },
-        {
-          "representativeTitle": "DR Congo, Rwanda Clash Over Francophonie Leadership Dispute",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "DR Congo, Rwanda clash over Francophonie leadership as Macron seeks compromise",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/africa/20261114-dr-congo-rwanda-clash-over-francophonie-leadership-as-macron-seeks-compromise",
-              "pubDate": "2026-11-14T14:54:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "dr-congo-rwanda-clash-over-francophonie-leadership-dispute"
-        },
-        {
-          "representativeTitle": "Tanker Attacks Threaten Global Oil Supply Routes",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The Oil Market Is Brimming With Crude Despite Tanker Attacks",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-14/the-oil-market-is-brimming-with-crude-despite-tanker-attacks",
-              "pubDate": "2026-11-14T08:30:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "tanker-attacks-threaten-global-oil-supply-routes"
-        },
-        {
-          "representativeTitle": "China Regulator Warns of Global Asset Repricing Risks",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "China’s Market Regulator Warns of Global Asset Repricing Risks",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-14/china-s-market-regulator-warns-of-global-asset-repricing-risks",
-              "pubDate": "2026-11-14T05:20:13.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "china-regulator-warns-of-global-asset-repricing-risks"
-        },
-        {
-          "representativeTitle": "Youth and Officials Discuss Peace and Security Efforts",
+          "representativeTitle": "Cost Rises Spark Protests Amid CAR Arrests",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Empower conference: officials and youth discuss peace and security",
+              "title": "Rising costs and arrests fuel protests in Central African Republic",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/empower-conference-officials-and-youth-discuss-peace-and-security?traffic_source=rss",
-              "pubDate": "2026-11-14T14:49:37.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/rising-costs-and-arrests-fuel-protests-in-central-african-republic?traffic_source=rss",
+              "pubDate": "2026-11-14T17:50:28.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": 0.4,
+          "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
-          "slug": "youth-and-officials-discuss-peace-and-security-efforts"
+          "slug": "cost-rises-spark-protests-amid-car-arrests"
         },
         {
-          "representativeTitle": "Music Bridges Divide Between Communities Along Line",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Young musicians connect a community across the Line of Control",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/editorial/longform/2026/11/14/young-musicians-connect-a-community-across-the-line-of-control?traffic_source=rss",
-              "pubDate": "2026-11-14T13:56:07.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "music-bridges-divide-between-communities-along-line"
-        },
-        {
-          "representativeTitle": "Canada Trade Talks Progress With Asia Expansion Focus",
+          "representativeTitle": "US-Canada Trade Talks Show Progress Toward Deal",
           "sources": [
             "ABC News US",
             "Google US"
@@ -542,19 +418,19 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Canada’s Carney reports progress in trade talks with Trump as he expands ties with Asia",
+              "title": "Carney says U.S. and Canada ‘making progress’ towards possible trade deal",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNX3VWTFFKXzZkZzJUZThSc0Y4cE5pWUF2TG1pR1A1UlY5N21QVUF6VjVmTjY0SzlVSUdXUjRoOVBtakhMMlVvazRqaVpwdGd6LWszcUtpcnp6emxFTDdoNGJKVTYzTXpJM1VWWUJDTDlXWGxpamhQb2NFeGIzSlQ2S25LVC11RUVBdHpjYk15RzJqdGNRQTVZSmM1MDFxYTNld1N4LTFRcWM?oc=5",
-              "pubDate": "2026-11-14T06:37:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRS1tRnE4a1I1bWhRRVhoazNuQS1XRXNPcm1yX0FVeVdPdUlPU3NmQmo0NkkwRmpJRWNfbWFhY0NLYmdtM2Z4aGQyQ1lnRkRvSHFGU0FwNWRFX1l6WEV1MWIyQ1ZxOUNhem5FQkt5S01vbkRySmw2MVpDdzQxbkZxVlNSV2VPTnVZNmFDUGZRb3JIdXVIaTdZdllxR2dDb1dXZ0J5YXkyNDllV1BJWXUyTzFZd0lFYnB3ZGc?oc=5",
+              "pubDate": "2026-11-14T18:48:54.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "World",
           "sentiment": 0.4,
-          "relevance_score": 7,
-          "importance": 45,
-          "slug": "canada-trade-talks-progress-with-asia-expansion-focus"
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "us-canada-trade-talks-show-progress-toward-deal"
         },
         {
           "representativeTitle": "Guinea Plans Bauxite Index to Boost Ore Prices",
@@ -598,7 +474,7 @@ export const newsData = {
               "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
               "source": "BBC World",
               "link": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T11:30:10.000Z",
+              "pubDate": "2026-11-14T19:14:33.000Z",
               "tier": 1
             },
             {
@@ -638,7 +514,7 @@ export const newsData = {
           "slug": "tanker-capsizes-near-cruise-ship-injuries-reported"
         },
         {
-          "representativeTitle": "All Aboard Survive Mississippi River Cruise Ship Crash",
+          "representativeTitle": "Cruise Ship Overturns After Collision in New Orleans",
           "sources": [
             "BBC US",
             "Washington Post",
@@ -650,7 +526,7 @@ export const newsData = {
               "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
               "source": "BBC US",
               "link": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T11:30:10.000Z",
+              "pubDate": "2026-11-14T19:14:33.000Z",
               "tier": 1
             },
             {
@@ -661,101 +537,27 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "All passengers and crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
+              "title": "Port of New Orleans sues tanker owners for over $1M after cruise ship crash",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNlM1d3RDejItNTdSdk9KWU9PaWZPanZTQmNHd3JRY1BPTGJOYWRkaWYweVVqSzUyVkFadl84SmdVT3pyVVk2RzJYZmxMZFBPazVhQ2RKbklvSnlKZHQtWnZuM0xROU1fSDlSZVAtdzg2Y1BKS3VBWlAwMGllM3pLUFkyT1lwcWgxa3YtS0hCYW5NNGFtcGNlT3AtS2YwZnJZbWowSWlXSUhCM0dJSkE?oc=5",
-              "pubDate": "2026-11-14T01:52:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdHhOSHEwdDUzX1RxRHJNRkFOMU5LczlMZXdzTV9LSF9kVWoyU1c2Y3dGQ2QydGRVdG1NVXBaTGlOM0RuV2lnUFA4dDkxTW5pQ2xKR3pqSjFGRjlfdDJuNVB4SW81R3d1R0dXVUZTQlhTMjNCNjB0Mk9Hb3p4bWNqTE9waVNkZ3VnODJlV2RlWWdXdmo4dExDVjRQcGxLZmtvWUdxRG50bXIwVDdRSWhGMXR2M1VXQjlxSkpHeUJVLWZWdnFMWmJqNFpZMUhQcFFoek5PM042QUExZGs?oc=5",
+              "pubDate": "2026-11-14T18:45:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 65,
-          "slug": "all-aboard-survive-mississippi-river-cruise-ship-crash"
-        },
-        {
-          "representativeTitle": "Air Travel Slowly Recovers After Ground Stop Chaos",
-          "sources": [
-            "The Guardian",
-            "France 24"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "US air travel slowly recovers from nationwide flight ground stop as chaos continues",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos",
-              "pubDate": "2026-11-14T15:03:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US nationwide flight ground stop: \"Our routers got overloaded with data\"",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/us-nationwide-flight-ground-stop-our-routers-got-overloaded-with-data",
-              "pubDate": "2026-11-14T10:14:09.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 60,
-          "slug": "air-travel-slowly-recovers-after-ground-stop-chaos"
-        },
-        {
-          "representativeTitle": "FAA Lifts Ground Stop After Major Air Travel Disruption",
-          "sources": [
-            "France 24",
-            "Euronews",
-            "IBTimes"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "FAA lifts nationwide ground stop on all US flights",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/video/20261114-faa-lifts-nationwide-ground-stop-on-all-us-flights",
-              "pubDate": "2026-11-14T02:50:21.000Z",
-              "tier": 1
-            },
-            {
-              "title": "US flights resume after nationwide ground stop lifted",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261114-us-flights-resume-after-nationwide-ground-stop-lifted-aviation",
-              "pubDate": "2026-11-14T02:35:48.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Passengers continue to face delays and cancellations after US lifts nationwide ground stop",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/14/passengers-continue-to-face-delays-and-cancellations-after-us-lifts-nationwide-ground-stop",
-              "pubDate": "2026-11-14T06:56:20.000Z",
-              "tier": 2
-            },
-            {
-              "title": "FAA Lifts Nationwide Ground Stop After Hourslong Shutdown. Duffy Blames Aging Technology.",
-              "source": "IBTimes",
-              "link": "https://www.ibtimes.com/faa-lifts-nationwide-ground-stop-air-traffic-failure-3809762",
-              "pubDate": "2026-11-14T02:07:05.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 65,
-          "slug": "faa-lifts-ground-stop-after-major-air-travel-disruption"
+          "sentiment": -0.9,
+          "relevance_score": 7,
+          "importance": 70,
+          "slug": "cruise-ship-overturns-after-collision-in-new-orleans"
         },
         {
           "representativeTitle": "FAA lifts ground stops; travel chaos persists across US.",
           "sources": [
-            "Washington Post"
+            "Washington Post",
+            "Fox News"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Travel chaos, flight cancellations continue following nationwide ground stop",
@@ -770,35 +572,12 @@ export const newsData = {
               "link": "https://www.washingtonpost.com/transportation/2026/11/13/faa-grounds-flights-all-us-airports-citing-communications-issue/",
               "pubDate": "2026-11-14T02:59:12.000Z",
               "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "faa-lifts-ground-stops-travel-chaos-persists-across-us"
-        },
-        {
-          "representativeTitle": "FAA Ground Stop Impacts Nationwide Air Travel Operations",
-          "sources": [
-            "BBC US",
-            "NPR"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "What we know about the US ground stop and what to do if your flight is affected",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T14:20:57.000Z",
-              "tier": 1
             },
             {
-              "title": "What we know about the FAA nationwide ground stop",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/13/nx-s1-6040388/what-we-know-about-the-faa-nationwide-ground-stop",
-              "pubDate": "2026-11-13T22:27:38.000Z",
+              "title": "4 critical travel issues for those delayed and disrupted by FAA nationwide ground stop",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/travel/4-critical-travel-issues-those-still-scrambling-after-faa-nationwide-ground-stop",
+              "pubDate": "2026-11-14T17:00:30.000Z",
               "tier": 2
             }
           ],
@@ -806,8 +585,82 @@ export const newsData = {
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "faa-ground-stop-impacts-nationwide-air-travel-operations"
+          "importance": 70,
+          "slug": "faa-lifts-ground-stops-travel-chaos-persists-across-us"
+        },
+        {
+          "representativeTitle": "Outdated Tech Cited for Widespread Flight Disruptions Nationally",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US blames outdated technology for nationwide flight disruption",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-blames-outdated-technology-for-nationwide-flight-disruption?traffic_source=rss",
+              "pubDate": "2026-11-14T18:32:40.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "outdated-tech-cited-for-widespread-flight-disruptions-nationally"
+        },
+        {
+          "representativeTitle": "Transport Chief Links Flight Delays to Old Wiring",
+          "sources": [
+            "BBC World",
+            "SCMP"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-14T19:12:25.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Transport chief blames US-wide flight disruptions on upgrade of old copper wiring",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3374456/transport-chief-blames-us-wide-flight-disruptions-upgrade-old-copper-wiring",
+              "pubDate": "2026-11-14T18:26:10.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "transport-chief-links-flight-delays-to-old-wiring"
+        },
+        {
+          "representativeTitle": "Flight grounding blamed on routine equipment upgrade.",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
+              "pubDate": "2026-11-14T17:45:04.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "flight-grounding-blamed-on-routine-equipment-upgrade"
         },
         {
           "representativeTitle": "Air Traffic Control Outage Causes Widespread Passenger Disruption",
@@ -820,7 +673,7 @@ export const newsData = {
               "title": "Passengers face widespread disruption after US air traffic control outage",
               "source": "FT International",
               "link": "https://www.ft.com/content/f66f9811-59a2-4e52-a944-c7ed81dabc50?syn-25a6b1a6=1",
-              "pubDate": "2026-11-14T13:52:46.000Z",
+              "pubDate": "2026-11-14T17:36:00.000Z",
               "tier": 1
             }
           ],
@@ -830,6 +683,88 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "air-traffic-control-outage-causes-widespread-passenger-disruption"
+        },
+        {
+          "representativeTitle": "FAA Lifts Ground Stop After Major Air Travel Disruption",
+          "sources": [
+            "Al Jazeera",
+            "IBTimes"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "US blames system upgrade for longest nationwide FAA ground stop since 9/11",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/14/us-blames-system-upgrade-for-longest-nationwide-faa-ground-stop-since-9?traffic_source=rss",
+              "pubDate": "2026-11-14T18:02:53.000Z",
+              "tier": 1
+            },
+            {
+              "title": "FAA Lifts Nationwide Ground Stop After Hourslong Shutdown. Duffy Blames Aging Technology.",
+              "source": "IBTimes",
+              "link": "https://www.ibtimes.com/faa-lifts-nationwide-ground-stop-air-traffic-failure-3809762",
+              "pubDate": "2026-11-14T02:07:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "faa-lifts-ground-stop-after-major-air-travel-disruption"
+        },
+        {
+          "representativeTitle": "FAA Ground Stop Halts Thousands of Flights Nationwide Saturday",
+          "sources": [
+            "NBC News",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Thousands of flights canceled or delayed Saturday after FAA’s nationwide ground stop",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+              "pubDate": "2026-11-13T21:09:53.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Thousands of Flights Are Canceled After Friday’s Nationwide Ground Stop: Live Updates",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeTRaYmRMM2tYYnJxcUpmYjNRQXpXdzd4Sjl0ZVNXNkRFWTBmTjJQUEFlVTdvWGNrN2FsVnotSnJXZ0RQbE13c1FjLWV6algtb3FmWTI1MGdqZ1d5Q1JFY3A0WnU1U2U1ZnFBRnFXQTVkRGY1eFBrSmZPSGlrd2RLdzA5NA?oc=5",
+              "pubDate": "2026-11-14T19:11:55.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "faa-ground-stop-halts-thousands-of-flights-nationwide-saturday"
+        },
+        {
+          "representativeTitle": "Telecom upgrades cause significant US flight disruptions.",
+          "sources": [
+            "BBC US"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "How telecoms upgrade work sparked US flight chaos",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-14T19:00:16.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 50,
+          "slug": "telecom-upgrades-cause-significant-us-flight-disruptions"
         },
         {
           "representativeTitle": "Air Travel Chaos Focuses Scrutiny on FAA Systems",
@@ -854,28 +789,6 @@ export const newsData = {
           "slug": "air-travel-chaos-focuses-scrutiny-on-faa-systems"
         },
         {
-          "representativeTitle": "Trump's Deportation Policy Sparks Afghan Turmoil Concerns",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Trump ‘whiplash’ on deportations putting Afghans in turmoil: ‘People already survived a war’",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/14/afghan-deportations-trump-administration",
-              "pubDate": "2026-11-14T13:00:47.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "trumps-deportation-policy-sparks-afghan-turmoil-concerns"
-        },
-        {
           "representativeTitle": "Evangelical voters shift away from Republican party.",
           "sources": [
             "Washington Post"
@@ -896,138 +809,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "evangelical-voters-shift-away-from-republican-party"
-        },
-        {
-          "representativeTitle": "Spy Plane Link Points to Florida Senior Community Site",
-          "sources": [
-            "Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "A spy plane tied to covert attacks leads back to Florida’s largest senior community",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/investigations/2026/11/14/spy-plane-tied-covert-attacks-leads-back-floridas-largest-senior-community/",
-              "pubDate": "2026-11-14T10:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "spy-plane-link-points-to-florida-senior-community-site"
-        },
-        {
-          "representativeTitle": "Ground stop impacts travel; know what to do.",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "What we know about the ground stop and what to do if you're affected",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T14:20:57.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ground-stop-impacts-travel-know-what-to-do"
-        },
-        {
-          "representativeTitle": "Measles Elimination Status Lost; Public Health Setback",
-          "sources": [
-            "Washington Post"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "U.S. loses measles-elimination status, erasing a landmark public health achievement",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/health/2026/11/13/us-loses-measles-elimination-status-erasing-landmark-achievement/",
-              "pubDate": "2026-11-14T04:20:15.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "measles-elimination-status-lost-public-health-setback"
-        },
-        {
-          "representativeTitle": "Bomb found at Illinois ethanol plant; evacuations ordered.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Bomb found at Illinois ethanol plant, prompting evacuations",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
-              "pubDate": "2026-11-14T14:13:49.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "bomb-found-at-illinois-ethanol-plant-evacuations-ordered"
-        },
-        {
-          "representativeTitle": "Ohio salt mine closure sparks safety and supply fears.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Underwater salt mine closure in Ohio raises safety and supply concerns for winter",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/14/salt-mine-ohio-flooding-safety-winter",
-              "pubDate": "2026-11-14T13:00:45.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ohio-salt-mine-closure-sparks-safety-and-supply-fears"
-        },
-        {
-          "representativeTitle": "California Redistricting Figure Flips Stance After Gains",
-          "sources": [
-            "Fox News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Dems' California redistricting mastermind flips script after helping party win 5 GOP seats: 'Kill'",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/politics/architect-dems-california-redistricting-win-makes-ironic-call-helping-flip-5-gop-seats-kill",
-              "pubDate": "2026-11-14T15:00:06.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "california-redistricting-figure-flips-stance-after-gains"
         },
         {
           "representativeTitle": "Democrat Wins Alaska Governorship Amid Political Shift",
@@ -1053,10 +834,10 @@ export const newsData = {
               "tier": 2
             },
             {
-              "title": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
+              "title": "Democrat wins Alaska governor’s seat for first time in nearly 30 years",
               "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZmF1V3p1V0dJZjlHUUtXSlFyYTE4LXQ2emRiTjB2TTI2Ukd3cm5BUlM0TmZlcDB6azdUdmE3Ni1XNXc4TG9YMW82SGV5TkZMSlZvbG1ramxDUEdFZEJTcWZqdmluMmw0RkFoN2IyeHl0ZG9STGRORV9TaWFoVHptOXVVc1EyQzl3QVE?oc=5",
-              "pubDate": "2026-11-14T05:12:43.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaHpOelhJaHVyV3hfZ1Qwa1FJM0w2aE45emVoZFZnOFdVb0xuMTdCN2VXSkYtRTV2VlN3QWhXQUpwaHh2YUs3ZUxWazd6eXJOV0p1QUhPSVJMdlBuTWNlalZKQllwazZiTDhOOTZhVDBLeFMzcmlTTmxDM29fbUstSHpUSWxyNkVzVXhmcTNyVUM0aVVWa05QazZCUFJ5ZUdxcHBR?oc=5",
+              "pubDate": "2026-11-14T16:58:00.000Z",
               "tier": 2
             }
           ],
@@ -1066,6 +847,154 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "democrat-wins-alaska-governorship-amid-political-shift"
+        },
+        {
+          "representativeTitle": "Spy Plane Link Points to Florida Senior Community Site",
+          "sources": [
+            "Washington Post"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "A spy plane tied to covert attacks leads back to Florida’s largest senior community",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/investigations/2026/11/14/spy-plane-tied-covert-attacks-leads-back-floridas-largest-senior-community/",
+              "pubDate": "2026-11-14T10:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "spy-plane-link-points-to-florida-senior-community-site"
+        },
+        {
+          "representativeTitle": "Labor MPs Question Premier's Youth Offender Plan",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Even Labor MPs are at a loss over the Victorian premier’s ‘tough love’ plan for youth offenders",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/nov/15/victoria-premier-ben-caroll-youth-crime-offenders-plan-ntwnfb",
+              "pubDate": "2026-11-14T19:00:53.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "labor-mps-question-premiers-youth-offender-plan"
+        },
+        {
+          "representativeTitle": "Senator warns AI policy must protect art culture.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Art ‘must not be sacrificed on the altar of corporate profit’ Liberal senator says as AI policy debate rages",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
+              "pubDate": "2026-11-14T19:00:52.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "senator-warns-ai-policy-must-protect-art-culture"
+        },
+        {
+          "representativeTitle": "Alaska Voters Support Ranked Choice Voting Primaries",
+          "sources": [
+            "NBC News",
+            "NPR",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Alaskans opt to stick with ranked choice voting",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/2026-election/alaskans-opt-stick-ranked-choice-voting-rcna607641",
+              "pubDate": "2026-11-14T05:08:58.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/14/nx-s1-6034952/alaska-results-ranked-choice-voting-nonpartisan-primary",
+              "pubDate": "2026-11-14T13:08:05.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYi0wWjZpZmFyTS0xMlZ2eEF2YXJzTDhBd3E0RXhpTWR1TzlGSEUteldFZUNYNmNRSlE5NEpZMFZFb1daVkZVS0pvUm5TSWFpZklPRzZfVkZ1TTh0cEdFWUJlZFRkSmF2ODR5MWgzTkllU1ZQQ19GSl9zcW5lZ21MMTI1cXhjdHJRT1JfWGZYWnVfM3IzM2hyUURTU21qOHMtd0E?oc=5",
+              "pubDate": "2026-11-14T13:08:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "alaska-voters-support-ranked-choice-voting-primaries"
+        },
+        {
+          "representativeTitle": "Flight Stoppages Continue Amid Routine Maintenance Claims",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US officials say flight stoppage stemmed from ‘routine maintenance’ as travel chaos continues",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos",
+              "pubDate": "2026-11-14T17:11:18.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "flight-stoppages-continue-amid-routine-maintenance-claims"
+        },
+        {
+          "representativeTitle": "FAA Ground Stop Continues Amid Safety Concerns",
+          "sources": [
+            "ABC News Top"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "FAA ground stop live updates: 'Zero evidence of anything nefarious,' FAA head says",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
+              "pubDate": "2026-11-14T19:21:07.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "faa-ground-stop-continues-amid-safety-concerns"
         },
         {
           "representativeTitle": "Texas Democrat Vows Moderation Over Culture Wars",
@@ -1090,66 +1019,6 @@ export const newsData = {
           "slug": "texas-democrat-vows-moderation-over-culture-wars"
         },
         {
-          "representativeTitle": "Pressure mounts on Commerce Secretary amid Nvidia fallout.",
-          "sources": [
-            "BBC US",
-            "NBC News"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-13T19:53:57.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Commerce Secretary Lutnick agrees to testify about Nvidia",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/video/commerce-secretary-lutnick-agrees-to-testify-about-nvidia-273452613709",
-              "pubDate": "2026-11-13T16:02:27.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "pressure-mounts-on-commerce-secretary-amid-nvidia-fallout"
-        },
-        {
-          "representativeTitle": "Alaska Voters Support Ranked Choice Voting Primaries",
-          "sources": [
-            "NBC News",
-            "NPR"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Alaskans opt to stick with ranked choice voting",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/2026-election/alaskans-opt-stick-ranked-choice-voting-rcna607641",
-              "pubDate": "2026-11-14T05:08:58.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/14/nx-s1-6034952/alaska-results-ranked-choice-voting-nonpartisan-primary",
-              "pubDate": "2026-11-14T13:08:05.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "alaska-voters-support-ranked-choice-voting-primaries"
-        },
-        {
           "representativeTitle": "FAA Groundstop Causes Major Weekend Air Travel Delays",
           "sources": [
             "WSJ US Business"
@@ -1170,55 +1039,6 @@ export const newsData = {
           "relevance_score": 7,
           "importance": 40,
           "slug": "faa-groundstop-causes-major-weekend-air-travel-delays"
-        },
-        {
-          "representativeTitle": "Napping Driver Who Killed Two Won't Face Charges",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Napping Kansas driver whose truck sped on to soccer field and killed two won’t be charged",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/us-news/2026/nov/14/kansas-driver-soccer-field-deaths-no-charges",
-              "pubDate": "2026-11-14T14:38:36.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 4,
-          "importance": 35,
-          "slug": "napping-driver-who-killed-two-wont-face-charges"
-        }
-      ]
-    },
-    {
-      "name": "Stocks",
-      "children": [
-        {
-          "representativeTitle": "Goldman Sachs Predicts Strong Asia Stock Returns by 2027",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-14/goldman-sachs-sees-19-return-on-asia-ex-japan-stocks-in-2027",
-              "pubDate": "2026-11-14T10:16:50.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Stocks",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "goldman-sachs-predicts-strong-asia-stock-returns-by-2027"
         }
       ]
     },
@@ -1226,56 +1046,48 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "BoE Chief Predicts Rising Interest Rates Ahead",
+          "representativeTitle": "Art Sale Challenged Over Allegations of Duress",
           "sources": [
-            "The Guardian"
+            "BBC World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist",
-              "pubDate": "2026-11-14T14:42:27.000Z",
+              "title": "Sotheby's auction of $180m Van Gogh challenged over claims it was 'sold under duress'",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cmwy05gg75lvo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-14T18:00:10.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "boe-chief-predicts-rising-interest-rates-ahead"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "art-sale-challenged-over-allegations-of-duress"
         },
         {
-          "representativeTitle": "Widespread flight cancellations halt national air travel operations.",
+          "representativeTitle": "Poppi Founders Face Business Setback After Changes",
           "sources": [
-            "ABC News US",
-            "Google US"
+            "Bloomberg Markets"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Thousands of flights canceled as airlines work to dig out from nationwide ground stop",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/thousands-flights-canceled-airlines-work-dig-nationwide-ground-138137419",
-              "pubDate": "2026-11-14T10:31:03.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Thousands of flights canceled as airlines work to dig out from nationwide ground stop",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQzlDRHBLSTNHTHRtbnpudnNXdXZpYnpEQ1hhLVNrU3ZRM0xRNm9NcUx2NjRIVFVOQVJKWXZGZzZCZ0hTcEdjd1ppTkFIelBlc282aU05SS1YYU45WTNwRUx1RzBCX3hwNW9Ed20wQ1JmQ3hHVmFSUktDSjM1eklkYTFPN3FkWUR0V1pUSjRIMHk3MjJjX0VrSm8zaFJ6a2paSnRwNzVrQlZpZw?oc=5",
-              "pubDate": "2026-11-14T14:34:00.000Z",
-              "tier": 2
+              "title": "The Entrepreneurs Behind Poppi Start Over",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-14/the-entrepreneurs-behind-poppi-start-over-video",
+              "pubDate": "2026-11-14T16:13:04.000Z",
+              "tier": 1
             }
           ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "Stocks",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 50,
-          "slug": "widespread-flight-cancellations-halt-national-air-travel-operations"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "poppi-founders-face-business-setback-after-changes"
         },
         {
           "representativeTitle": "Stadium Bidding Competition Impacts Midwest Market Dynamics",
@@ -1415,15 +1227,66 @@ export const newsData = {
       "name": "Technology",
       "children": [
         {
-          "representativeTitle": "Microsoft Restores Services After Global Outage Hits Governments",
+          "representativeTitle": "Italy Fines Meta Over Unauthorized User Data Access",
           "sources": [
             "BBC World",
-            "The Guardian",
-            "France 24",
-            "BBC Business",
-            "Google Stocks"
+            "Al Jazeera",
+            "Le Monde",
+            "IBTimes",
+            "Google World"
           ],
           "citationCount": 5,
+          "rawArticles": [
+            {
+              "title": "Italy fines Meta €805m over accessing users' photos",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-14T18:28:06.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Italy fines Meta $880m over photo privacy",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy?traffic_source=rss",
+              "pubDate": "2026-11-14T16:16:15.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Italy fines Meta $880mn over photo privacy",
+              "source": "Le Monde",
+              "link": "https://www.lemonde.fr/en/international/article/2026/11/14/italy-fines-meta-880mn-over-photo-privacy_6780820_4.html",
+              "pubDate": "2026-11-14T15:30:34.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Italy Fines Meta Nearly $1 Billion Over Company Accessing User Photos And Videos 'Without Consent'",
+              "source": "IBTimes",
+              "link": "https://www.ibtimes.com/italy-meta-fine-facebook-photo-access-consent-3809767",
+              "pubDate": "2026-11-14T14:04:21.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Italy fines Meta $887 million over Android users' data access",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSVFmcHRvNGEzVXRKbU5Kc0JhSDV4R2o0bnpXSUJMZnRMc1E2ckNCRzBaWDhzY2xObHVtNmtiWmdoX3g4NlVsYkc1bzFDbVB0T016LWczNHJ6bGx2ZXlQeDZPUGNjeXJPaWZ3Wm5DdU9za21PMXFlZVVDckh5Q1I0QnROcElOTnA2bGMzczBMbFJweW1ISkkwWUgzNXJpTU95N0NR?oc=5",
+              "pubDate": "2026-11-14T18:12:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 85,
+          "slug": "italy-fines-meta-over-unauthorized-user-data-access"
+        },
+        {
+          "representativeTitle": "Microsoft Restores Services After Global Outage Period",
+          "sources": [
+            "BBC World",
+            "Sky News"
+          ],
+          "citationCount": 2,
           "rawArticles": [
             {
               "title": "Microsoft says services fully restored after day-long global outage",
@@ -1433,31 +1296,10 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Microsoft says services fully restored after global outage hits governments",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage",
-              "pubDate": "2026-11-14T11:54:31.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Microsoft says all services 'fully recovered' after global outage",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/technology/20261114-microsoft-says-consumer-products-fully-recovered-business-services-improving",
-              "pubDate": "2026-11-14T06:07:56.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Microsoft says services fully restored after day-long global outage",
-              "source": "BBC Business",
-              "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T06:42:27.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Microsoft says services fully restored after global outage hits governments",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcVpSTUpTQVVaR0dJSEFmSzNEQWduRC1WRVNmOGt1cms0VFRjR3VvaC1GVTNaUjdmcW9LRWd4ZzJaaEpIU29kVjB0NzZGNko1UjIzdVlIQWlzdzF6Zk0xeVk4bVhUdDI0Z3d0UFlsMXVkTUhaNjZ4NXI2SldiU1JYS0R1NjJVRlBDYmt5cjdGbVV0UVkzQ3dZdEp2TWVjNm15WTcxQ3A2LW0zc0ZWX3c?oc=5",
-              "pubDate": "2026-11-14T10:52:00.000Z",
+              "title": "Microsoft confirms all services are restored after global outage",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/microsoft-confirms-all-services-are-restored-after-global-outage-13612219",
+              "pubDate": "2026-11-14T14:56:00.000Z",
               "tier": 2
             }
           ],
@@ -1465,8 +1307,8 @@ export const newsData = {
           "aiCategory": "Technology",
           "sentiment": -0.4,
           "relevance_score": 8,
-          "importance": 95,
-          "slug": "microsoft-restores-services-after-global-outage-hits-governments"
+          "importance": 60,
+          "slug": "microsoft-restores-services-after-global-outage-period"
         },
         {
           "representativeTitle": "Wall Street plans for Nvidia's next leadership chapter.",
@@ -1496,6 +1338,72 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 65,
           "slug": "wall-street-plans-for-nvidias-next-leadership-chapter"
+        },
+        {
+          "representativeTitle": "Ground Stop Lifts; Nvidia Scandal, Starship Test Report",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-14/bloomberg-this-weekend-11-14-2026-video",
+              "pubDate": "2026-11-14T16:45:01.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ground-stop-lifts-nvidia-scandal-starship-test-report"
+        },
+        {
+          "representativeTitle": "Asian Governments React to Nvidia CEO Departure",
+          "sources": [
+            "TechCrunch"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+              "source": "TechCrunch",
+              "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+              "pubDate": "2026-11-14T16:34:15.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Technology",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "asian-governments-react-to-nvidia-ceo-departure"
+        },
+        {
+          "representativeTitle": "AI Trade Outlook Hinges on Nvidia and Congress",
+          "sources": [
+            "CNBC Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+              "source": "CNBC Markets",
+              "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+              "pubDate": "2026-11-14T15:50:43.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ai-trade-outlook-hinges-on-nvidia-and-congress"
         },
         {
           "representativeTitle": "Tech Leaders Clash Over Nvidia China Restrictions",
@@ -1564,64 +1472,26 @@ export const newsData = {
           "slug": "nvidia-faces-lawsuits-following-jensen-huangs-departure"
         },
         {
-          "representativeTitle": "Microsoft Outage Hits Australia, Causing Major Disruption",
+          "representativeTitle": "AI Failures Documented: Startups Struggle to Survive Now",
           "sources": [
-            "The Guardian",
-            "SCMP"
+            "TechCrunch"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
-              "pubDate": "2026-11-14T06:19:04.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Microsoft ‘deeply sorry’ for global outage, says issue not caused by cyber or AI agents",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/article/3374408/microsoft-deeply-sorry-global-outage-says-issue-not-caused-cyber-or-ai-agents",
-              "pubDate": "2026-11-13T18:43:24.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 55,
-          "slug": "microsoft-outage-hits-australia-causing-major-disruption"
-        },
-        {
-          "representativeTitle": "AI Wallet Enables Agents to Make Purchases Directly",
-          "sources": [
-            "TechCrunch",
-            "The Verge"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+              "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
               "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-              "pubDate": "2026-11-13T16:00:12.000Z",
+              "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+              "pubDate": "2026-11-14T17:30:00.000Z",
               "tier": 1
-            },
-            {
-              "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-              "pubDate": "2026-11-13T20:45:10.000Z",
-              "tier": 2
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "ai-wallet-enables-agents-to-make-purchases-directly"
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ai-failures-documented-startups-struggle-to-survive-now"
         },
         {
           "representativeTitle": "Nvidia Board's Independence Sparks Governance Discussion",
@@ -1646,14 +1516,14 @@ export const newsData = {
           "slug": "nvidia-boards-independence-sparks-governance-discussion"
         },
         {
-          "representativeTitle": "Tesla Launches Autonomous Cybercab to Select Users",
+          "representativeTitle": "Tesla Begins Sales of Autonomous Cybercab Units",
           "sources": [
             "WSJ US Business"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Tesla Opens Sales Of Autonomous Cybercab for ‘Select’ Customers",
+              "title": "Tesla Opens Sales of Autonomous Cybercab for ‘Select’ Customers",
               "source": "WSJ US Business",
               "link": "https://www.wsj.com/business/autos/tesla-opens-sales-of-autonomous-cybercab-for-select-customers-8d2feae3?mod=pls_whats_news_us_business_f",
               "pubDate": "2026-11-14T15:02:00.000Z",
@@ -1665,29 +1535,7 @@ export const newsData = {
           "sentiment": 0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "tesla-launches-autonomous-cybercab-to-select-users"
-        },
-        {
-          "representativeTitle": "Board Member Questions Trust in AI Industry Leaders",
-          "sources": [
-            "The Verge"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
-              "source": "The Verge",
-              "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-              "pubDate": "2026-11-14T15:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "board-member-questions-trust-in-ai-industry-leaders"
+          "slug": "tesla-begins-sales-of-autonomous-cybercab-units"
         },
         {
           "representativeTitle": "Audit needed for shared cloud storage links now.",
@@ -1712,36 +1560,6 @@ export const newsData = {
           "slug": "audit-needed-for-shared-cloud-storage-links-now"
         },
         {
-          "representativeTitle": "Amazon launches premium Kindle e-reader with color display.",
-          "sources": [
-            "TechCrunch",
-            "Google Tech"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
-              "pubDate": "2026-11-13T23:00:00.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjRfY0E0Q2VJSE9YeVdSWjhJOGlWa0lSTXhiZzFUYmo0OW9qNFVQOWVwNUl4RTBNVGRmR1BDcEh5RDZoR21PeGJQanZWQWJzYlhsTnd1cHRoZGdVRGQ1VnFoYWtQT3VVTEVXMGdPOXgwZ1gtT2pUQTJuRm83Vks4b3hETDhLQVl2d1BOUVRzazR5bllabnVFWWJrTERJaTNRTjJFZ3NlbFdoQQ?oc=5",
-              "pubDate": "2026-11-13T23:00:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 50,
-          "slug": "amazon-launches-premium-kindle-e-reader-with-color-display"
-        },
-        {
           "representativeTitle": "Huang's Ouster Sparks Tech Industry Rethinking Strategy",
           "sources": [
             "WSJ US Business"
@@ -1764,26 +1582,34 @@ export const newsData = {
           "slug": "huangs-ouster-sparks-tech-industry-rethinking-strategy"
         },
         {
-          "representativeTitle": "Arm Boss Considered For Nvidia CEO Role",
+          "representativeTitle": "New gadget promises to enhance home automation capabilities.",
           "sources": [
-            "FT International"
+            "The Verge",
+            "Google Tech"
           ],
-          "citationCount": 1,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Arm boss Rene Haas approached in Nvidia CEO search",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926?syn-25a6b1a6=1",
-              "pubDate": "2026-11-13T17:45:54.000Z",
-              "tier": 1
+              "title": "A gadget to make your dumb house smarter",
+              "source": "The Verge",
+              "link": "https://www.theverge.com/tech/1033761/home-assistant-tk-tripod-tabletop-installer",
+              "pubDate": "2026-11-14T13:00:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "A gadget to make your dumb house smarter",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNM1V4aHZKdTlzSEw3NEN0QUZBZUx6RkxJeEU2eEFmN01kOWdiLU9jdUNmVW9hYS1LT2FIM0l5VjNuSjFITDAtcm5ySTNVR2kwU2x5MXc4UEN0cjRsckpBTmFWRzJmcGtmU0lQY056aHJJM3dnaVJBX3hQMmJzYi1xZmtkM0k4RV9l?oc=5",
+              "pubDate": "2026-11-14T13:00:00.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Business",
+          "ingestionCategory": "Technology",
           "aiCategory": "Technology",
           "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "arm-boss-considered-for-nvidia-ceo-role"
+          "relevance_score": 3,
+          "importance": 25,
+          "slug": "new-gadget-promises-to-enhance-home-automation-capabilities"
         }
       ]
     },
@@ -1829,6 +1655,58 @@ export const newsData = {
           "slug": "spacex-attempts-second-starship-rocket-launch-test"
         },
         {
+          "representativeTitle": "NHS misses cancer treatment target by ten thousand.",
+          "sources": [
+            "The Guardian"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "NHS England on track to miss key cancer treatment target by 10,000 patients",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/society/2026/nov/14/nhs-england-62-day-cancer-treatment-target-by-10000-patients",
+              "pubDate": "2026-11-14T17:00:49.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "nhs-misses-cancer-treatment-target-by-ten-thousand"
+        },
+        {
+          "representativeTitle": "Voyager 1 Sets New Record in Interstellar Space Travel",
+          "sources": [
+            "Phys.org",
+            "Google Science"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "NASA's Voyager 1 closes in on a light-day in interstellar space for a new distance record",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-nasa-voyager-day-interstellar-space.html",
+              "pubDate": "2026-11-14T18:37:10.000Z",
+              "tier": 2
+            },
+            {
+              "title": "NASA’s Voyager 1 to hit new space distance record of one light-day",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONjJVeVVUUTMxUjhqRXBIUzRwMW5pSTFleld2QWM2NERxQ0JYSkR3YllRd09oQWVtYUI2UVFQMWZGY21GcFdFNXNackNXcXhiZldCdHRhd25BVFdPaWUycW01MXZ3NWRtT0l4eXM4NjZXcDBoRG1XSVh1TmVTY2dpRjl1UzBfaW1lQ0k4ckFwQjNVakRmVFZDYTdiaFdKUkx0cnFfUURzY2dwUlHSAbABQVVfeXFMTUp2dm9kYV9UeTdPdkVzOE5SWTUxQXVZeXdqZ242UnRPRmlGZFBoUE1lenVwUG5uLW00VTh2Z2J2V1pjWGtELU1VNk5xazBvNDFaVVQyUVRjUUZyOU1DLUt1ZFJtaW9SbEl1US1vdlVxVVMzaGRDSnUwWnZRMWh5NjJzcWpfZFVsLXI0MnlfTWRsbmxZcWFyT0NnTVc0VS1kNUVMd0pkNUkwXzBzTHRvblE?oc=5",
+              "pubDate": "2026-11-14T15:17:06.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "voyager-1-sets-new-record-in-interstellar-space-travel"
+        },
+        {
           "representativeTitle": "SpaceX Tests Starship Reusability in New Flight Phase",
           "sources": [
             "Bloomberg Markets"
@@ -1849,6 +1727,36 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "spacex-tests-starship-reusability-in-new-flight-phase"
+        },
+        {
+          "representativeTitle": "Major Freshwater Lake Shows Signs Of Recovery",
+          "sources": [
+            "Phys.org",
+            "Google Science"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "World's largest freshwater lake is recovering after decades of decline",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-world-largest-freshwater-lake-recovering.html",
+              "pubDate": "2026-11-14T15:40:01.000Z",
+              "tier": 2
+            },
+            {
+              "title": "World's largest freshwater lake is recovering after decades of decline",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWS1sQ19fOFRxQ083VG9xVXA3ODZNVHJpNHJEWE5lRWZNXzg4U3E3Xzc5ZTMtM2dwVVZGc1NsMHhLVGhoTGxFVGZmN0ZyN0FUZWpGdVNxajBUYzRpSFhZaE1fVUdWcWs3WlhEUGpDNFZDZ2RiM0pjM0N1dWVyRngxSQ?oc=5",
+              "pubDate": "2026-11-14T15:40:01.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "Science",
+          "sentiment": 0.4,
+          "relevance_score": 8,
+          "importance": 50,
+          "slug": "major-freshwater-lake-shows-signs-of-recovery"
         },
         {
           "representativeTitle": "Measles Surge Strains Doctors With Novel Illnesses",
@@ -1900,6 +1808,28 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 55,
           "slug": "galaxies-lose-dark-matter-new-cosmic-insights-emerge"
+        },
+        {
+          "representativeTitle": "SpaceX Booster Recovery Aborted Due To Technical Issues",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Elon Musk's SpaceX aborts booster recovery due to technical issues",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/elon-musk-s-spacex-aborts-booster-recovery-due-to-technical-issues",
+              "pubDate": "2026-11-14T17:33:37.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Science",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "spacex-booster-recovery-aborted-due-to-technical-issues"
         },
         {
           "representativeTitle": "Polar Vortex Breakdown Signals Increased Cold Weather Risks",
@@ -1988,28 +1918,6 @@ export const newsData = {
           "relevance_score": 6,
           "importance": 45,
           "slug": "cameron-expresses-optimism-regarding-alzheimers-research-progress"
-        },
-        {
-          "representativeTitle": "Voyager 1 Sets New Record in Interstellar Space",
-          "sources": [
-            "Google Science"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "NASA’s Voyager 1 closes in on a light-day in interstellar space for a new distance record",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcjhSbmVIV2VsQXprSVowOFVLUWV3T1pPUGFNekUxc0xEeHJMV0dqRENUNDNLSDFFaHhpQWRsMDdadjNXZThxak9nbm5uLS1fRWdMQUJnZWd6UTFicjZBZEMzbEFrRTFGanB5ekdrQTdOZVJ4YzZzR2pBQjYwMk8tSkdibkxTYUxrdjV6UW5TRHlfRmRNOWpfX1lRSGtSY09GZDRB?oc=5",
-              "pubDate": "2026-11-14T13:01:00.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "voyager-1-sets-new-record-in-interstellar-space"
         },
         {
           "representativeTitle": "Food Emulsifier Could Solve Major Rocket Fuel Issue",
