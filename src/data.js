@@ -1,12 +1,12 @@
 export const newsData = {
   "name": "Top News",
-  "lastUpdated": "2026-11-15T11:52:11.927Z",
+  "lastUpdated": "2026-11-15T16:14:08.618Z",
   "children": [
     {
       "name": "World",
       "children": [
         {
-          "representativeTitle": "Jordan sentences men after fatal church shooting.",
+          "representativeTitle": "Iran Strikes US Radar in Bahrain; Tensions Rise",
           "sources": [
             "BBC World",
             "Al Jazeera",
@@ -15,78 +15,47 @@ export const newsData = {
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
+              "title": "Iran targets US military base in Bahrain with drone attack",
               "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-15T11:06:32.000Z",
+              "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-15T13:42:58.000Z",
               "tier": 1
             },
             {
-              "title": "Jordan sentences three men to death by hanging after deadly church attack",
+              "title": "Iran targets US military radar in Bahrain in ‘retaliatory’ drone strikes",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack?traffic_source=rss",
-              "pubDate": "2026-11-15T08:15:04.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/iran-targets-us-military-radar-in-bahrain-in-retaliatory-drone-strikes?traffic_source=rss",
+              "pubDate": "2026-11-15T12:15:51.000Z",
               "tier": 1
             },
             {
-              "title": "Three sentenced to death over Jordan church attack",
+              "title": "Iran claims drone attack on US military base in Bahrain",
               "source": "France 24",
-              "link": "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack",
-              "pubDate": "2026-11-15T08:53:39.000Z",
+              "link": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
+              "pubDate": "2026-11-15T15:29:22.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Iran claims attack on US military airbase in Bahrain",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain",
+              "pubDate": "2026-11-15T09:57:35.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 75,
-          "slug": "jordan-sentences-men-after-fatal-church-shooting"
+          "relevance_score": 8,
+          "importance": 95,
+          "slug": "iran-strikes-us-radar-in-bahrain-tensions-rise"
         },
         {
-          "representativeTitle": "Cape Verde polls open with female presidential candidate.",
-          "sources": [
-            "Al Jazeera",
-            "France 24",
-            "Euronews"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "Polls open in Cape Verde in race with first female presidential candidate",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/news/2026/11/15/polls-open-in-cape-verde-in-race-with-first-female-presidential-candidate?traffic_source=rss",
-              "pubDate": "2026-11-15T10:03:02.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Cape Verde could make election history with first female president",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/africa/20261115-cape-verde-could-make-election-history-with-first-female-president",
-              "pubDate": "2026-11-15T07:56:14.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Cape Verde heads to the polls in presidential election",
-              "source": "Euronews",
-              "link": "https://www.euronews.com/2026/11/15/cape-verde-heads-to-the-polls-in-presidential-election",
-              "pubDate": "2026-11-15T09:45:23.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 65,
-          "slug": "cape-verde-polls-open-with-female-presidential-candidate"
-        },
-        {
-          "representativeTitle": "Ukraine questioned on Donbas concessions for NATO entry.",
+          "representativeTitle": "Ukraine suggests territory trade for NATO membership.",
           "sources": [
             "BBC World",
-            "SCMP",
-            "Sky News"
+            "France 24",
+            "Google World"
           ],
           "citationCount": 3,
           "rawArticles": [
@@ -98,17 +67,55 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "Zelensky says US floated idea of Ukraine ceding Donbas for Nato membership",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/europe/article/3374450/zelensky-says-us-floated-idea-ukraine-ceding-donbas-nato-membership",
-              "pubDate": "2026-11-14T15:14:00.000Z",
+              "title": "Will Ukraine make territorial concessions for NATO membership?",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/will-ukraine-make-territorial-concessions-for-nato-membership",
+              "pubDate": "2026-11-15T12:14:54.000Z",
+              "tier": 1
+            },
+            {
+              "title": "U.S. floated exchanging Ukrainian territory for NATO membership, Zelenskyy says",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04V3RucGdlaGp6dm03UnM5TmRsMTQyVTBSZ1JxOHc3ZGJDeFRMOUFMUWlFR21wR05kaXJqcENqZG5URXJrMVN4MnMxVUU4UDhYNW05X2FVbHdyVzVZa3pSZk1NZFFObk0tZThid1RSX2g?oc=5",
+              "pubDate": "2026-11-15T08:51:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 80,
+          "slug": "ukraine-suggests-territory-trade-for-nato-membership"
+        },
+        {
+          "representativeTitle": "Netanyahu Pushes Escalation Amid Unity Government Talks",
+          "sources": [
+            "Al Jazeera",
+            "IBTimes",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Can Netanyahu and Eisenkot form a ‘unity’ government in Israel?",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/15/can-netanyahu-and-eisenkot-form-a-unity-government-in-israel?traffic_source=rss",
+              "pubDate": "2026-11-15T14:02:08.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Netanyahu Calls For Escalation Of Iran War In Plea For Unity Government With Eisenkot",
+              "source": "IBTimes",
+              "link": "https://www.ibtimes.com/netanyahu-eisenkot-unity-government-iran-nuclear-threat-3809771",
+              "pubDate": "2026-11-14T20:40:27.000Z",
               "tier": 2
             },
             {
-              "title": "US asked if Ukraine would give up parts of Donbas for NATO membership, Zelenskyy says",
-              "source": "Sky News",
-              "link": "https://news.sky.com/story/us-asks-if-ukraine-would-give-up-parts-of-donbas-for-nato-membership-zelenskyy-says-13612188",
-              "pubDate": "2026-11-14T13:12:00.000Z",
+              "title": "Netanyahu calls for Israeli unity government, Eisenkot dismisses 'tricks'",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWk5acEtkbU14ZGV3LVkycGxNTU1MaHlFV1VIR0JKYW52RVNPTVBmUGFvamF5eE9ncVlMbFFYNlJocDd4ME95Z3VtNXZUVU5qanNjaEN5cnR5U1VCY0VwOU85VWNJRHJNaGtVOXljOXJGU3VHNExmRllLeFdQMHVVcXRtbGNvRWJ4R3ZGTzNFWklPRnpHNzVOc2t4UFVWNE1MOWc?oc=5",
+              "pubDate": "2026-11-14T20:32:17.000Z",
               "tier": 2
             }
           ],
@@ -117,45 +124,16 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 9,
           "importance": 70,
-          "slug": "ukraine-questioned-on-donbas-concessions-for-nato-entry"
+          "slug": "netanyahu-pushes-escalation-amid-unity-government-talks"
         },
         {
-          "representativeTitle": "Trump, Putin, Xi Plan Major China Summit Next Week",
+          "representativeTitle": "Israeli Strike Kills Top Hamas Commander in Gaza",
           "sources": [
             "BBC World",
-            "Le Monde"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T15:53:55.000Z",
-              "tier": 1
-            },
-            {
-              "title": "Moscow confirms Trump, Xi and Putin to meet in China",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/international/article/2026/11/15/moscow-confirms-trump-xi-and-putin-to-meet-in-china_6781216_4.html",
-              "pubDate": "2026-11-15T04:18:28.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": 0,
-          "relevance_score": 9,
-          "importance": 65,
-          "slug": "trump-putin-xi-plan-major-china-summit-next-week"
-        },
-        {
-          "representativeTitle": "IDF Strikes Kill Hamas Commander in Gaza Operation",
-          "sources": [
-            "BBC World",
+            "SCMP",
             "Google World"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
@@ -165,32 +143,239 @@ export const newsData = {
               "tier": 1
             },
             {
-              "title": "IDF kills Hamas Rafah Brigade commander in Gaza strike",
+              "title": "Top Hamas commander killed in Israeli strike in Gaza",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3374498/top-hamas-commander-killed-israeli-strike-gaza",
+              "pubDate": "2026-11-15T12:02:08.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Israel kills Hamas commander in Gaza strike",
               "source": "Google World",
-              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1TVzAwY2JxbjM1NDlCV2wxRk9PZ1ctSE9kRThIbEpJOUhxN1JSYzVOTU05dElqeFVUakFpZUpaekNhM2I1a3UxTWlEa1ExX0VFWWxaV19B?oc=5",
-              "pubDate": "2026-11-14T23:17:00.000Z",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMHFqU3F4OHlZV1UtN1pWT2NnU09ZRFoxUmItWTV6VHlIS2ZINzZXdVQxN3NaVUQwTERPUnRpb1JST3dMZzNZNFpFSWNXMjNhVktPekZJTV9iX21yQ21pZWQxZlV6ZzhfZ2ZaY3BxNFBDOW0xd2FLVW9uNjZXdVN3ZGVB?oc=5",
+              "pubDate": "2026-11-15T09:43:00.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
           "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 60,
-          "slug": "idf-strikes-kill-hamas-commander-in-gaza-operation"
+          "relevance_score": 9,
+          "importance": 70,
+          "slug": "israeli-strike-kills-top-hamas-commander-in-gaza"
         },
         {
-          "representativeTitle": "Drone Attacks Plunge Sudan Cities Into Darkness",
+          "representativeTitle": "Russia Strikes Kyiv Hospital Amid Ongoing Conflict",
+          "sources": [
+            "Al Jazeera",
+            "Google World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Starshield restrictions help Russia’s energy attacks on Ukraine: Zelenskyy",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/news/2026/11/15/starshield-restrictions-help-russias-energy-attacks-on-ukraine-zelenskyy?traffic_source=rss",
+              "pubDate": "2026-11-15T13:37:08.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Ukraine war live: Russia strikes Kyiv hospital as Starshield restrictions continue",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLUdDWFpKYTFpLXBKakFwVW5DYjA5eXdONUZZUi1vVGlpcjZlSlJaQmFCNmk0ZDAyOWZMSlh4T2FwZVFCMVRYLWxQb3MwdmMzUHNhQWdFWGV2RHdsZmZPYzdMd3RTdHZ4QzFxazlDVzE4cll5MnBOSHFnM2IwX1Q5RHJPbW1DOXpmMFVJVzFTMVhvc0NuWmlYWEhFeFpaZ1dEN0hTUkJQS2x3Ql9IV2VVMWtvUWlYTndJbVRETFhvT2tCUQ?oc=5",
+              "pubDate": "2026-11-15T06:18:48.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 9,
+          "importance": 65,
+          "slug": "russia-strikes-kyiv-hospital-amid-ongoing-conflict"
+        },
+        {
+          "representativeTitle": "Bodies Recovered From Gaza Rubble; Thousands Missing",
           "sources": [
             "Al Jazeera"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Drone attacks on power stations plunge Sudan’s cities into darkness",
+              "title": "70 bodies recovered from Gaza rubble, thousands still missing",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/features/2026/11/15/drone-strikes-on-power-stations-plunges-sudans-cities-into-darkness?traffic_source=rss",
-              "pubDate": "2026-11-15T09:59:37.000Z",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/70-bodies-recovered-from-gaza-rubble-thousands-still-missing?traffic_source=rss",
+              "pubDate": "2026-11-15T15:32:43.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "bodies-recovered-from-gaza-rubble-thousands-missing"
+        },
+        {
+          "representativeTitle": "Al Jazeera marks twenty years covering global narratives.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "20 years of Al Jazeera English: Our story is still being written",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/opinions/2026/11/15/20-years-of-al-jazeera-english-our-story-is-still-being-written?traffic_source=rss",
+              "pubDate": "2026-11-15T15:21:12.000Z",
+              "tier": 1
+            },
+            {
+              "title": "20 Years of Al Jazeera English: The Counter Narrative",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/featured-documentaries/2026/11/15/twenty-years-of-al-jazeera-english-the?traffic_source=rss",
+              "pubDate": "2026-11-15T14:29:41.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Al Jazeera English celebrates 20 years on air",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/al-jazeera-english-celebrates-20-years-on-air?traffic_source=rss",
+              "pubDate": "2026-11-15T13:36:46.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "al-jazeera-marks-twenty-years-covering-global-narratives"
+        },
+        {
+          "representativeTitle": "Gaza funeral amid ongoing political tensions in Israel.",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Jerusalem Daily: Mass funeral in Gaza as Netanyahu clings to power",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/jerusalem-daily-mass-funeral-in-gaza-as-netanyahu-clings-to-power?traffic_source=rss",
+              "pubDate": "2026-11-15T15:01:54.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.9,
+          "relevance_score": 10,
+          "importance": 65,
+          "slug": "gaza-funeral-amid-ongoing-political-tensions-in-israel"
+        },
+        {
+          "representativeTitle": "Gulf Nations Condemn Alleged Iranian Attack on Bahrain",
+          "sources": [
+            "Google US",
+            "The Guardian"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZEl6dTh3bjNqcldTOVhOZEVsTVFxVDF3eE5kS0N5YTY0bGpHZTR0THVVRUZhZUh1QWZYcjJwVUdGUUxBOGVyMERUQ2tCMlBhMWtyMi1ZR1Q3b0xja1d1VkYxLXFhQm9mYzVvaVlBY3daM0tSQlFPS190TU16U1JJa09SV21UdzlXdWFrajctLTBkd2txdHl0MENwOHZBVzBTa2g5OHRHRlJFUnRzQXpHXzN0ejJKSEJRRFRqT2lBTU5XU0hhUVhGQzVfMVN5ZGlRZnNz?oc=5",
+              "pubDate": "2026-11-15T15:59:00.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+              "pubDate": "2026-11-15T15:59:04.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 60,
+          "slug": "gulf-nations-condemn-alleged-iranian-attack-on-bahrain"
+        },
+        {
+          "representativeTitle": "Jordan sentences men after fatal church shooting.",
+          "sources": [
+            "BBC World",
+            "SCMP",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-15T11:06:32.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Jordan sentences 3 men to death over deadly church attack",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/middle-east/article/3374499/jordan-sentences-3-men-death-over-deadly-church-attack",
+              "pubDate": "2026-11-15T12:13:48.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Three men sentenced to death in Jordan over church mass shooting",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TMmxDN1dmRnZTb2g3VEcxSC1RM0RPZHVqNjBRTWtiQThqT2tBQW5McW41aEQzc3NVTUpHYm11WEJWN2tBRnB5azhZdWRaanpEVml4U2cwRDJJNVk?oc=5",
+              "pubDate": "2026-11-15T11:06:32.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 55,
+          "slug": "jordan-sentences-men-after-fatal-church-shooting"
+        },
+        {
+          "representativeTitle": "Canaries Urge Action Over Migrant Influx Surge",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Canaries urge government action after 2,200 migrants reach the islands in 48h",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/video/20261115-canaries-urge-government-action-after-2-200-migrants-reach-the-islands-in-48h-1",
+              "pubDate": "2026-11-15T15:24:58.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "canaries-urge-action-over-migrant-influx-surge"
+        },
+        {
+          "representativeTitle": "Fire Destroys Syrian Refugee Camp in Lebanon",
+          "sources": [
+            "Al Jazeera"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Flames engulf Syrian refugee camp in eastern Lebanon",
+              "source": "Al Jazeera",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/flames-engulf-syrian-refugee-camp-in-eastern-lebanon?traffic_source=rss",
+              "pubDate": "2026-11-15T14:55:40.000Z",
               "tier": 1
             }
           ],
@@ -199,7 +384,7 @@ export const newsData = {
           "sentiment": -0.9,
           "relevance_score": 8,
           "importance": 55,
-          "slug": "drone-attacks-plunge-sudan-cities-into-darkness"
+          "slug": "fire-destroys-syrian-refugee-camp-in-lebanon"
         },
         {
           "representativeTitle": "Soldier Dies in Large Fire at Military Base",
@@ -232,70 +417,56 @@ export const newsData = {
           "slug": "soldier-dies-in-large-fire-at-military-base"
         },
         {
-          "representativeTitle": "Clashes Erupt Between Police and Protesters in Europe",
+          "representativeTitle": "Climate Summit Fails to Secure Key Emissions Targets",
           "sources": [
-            "Al Jazeera"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Police confront protesters in clashes across France and Germany",
+              "title": "Nations grapple with loss of 1.5C target at UN climate summit",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-nations-grapple-loss-15c-climate.html",
+              "pubDate": "2026-11-15T13:20:05.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Science",
+          "aiCategory": "World",
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "climate-summit-fails-to-secure-key-emissions-targets"
+        },
+        {
+          "representativeTitle": "El Hierro records immigration arrivals in Canary Islands.",
+          "sources": [
+            "Al Jazeera",
+            "Euronews"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Record number of migrants arrive in Spain’s Canary Islands",
               "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/police-confront-protesters-in-clashes-across-france-and-germany?traffic_source=rss",
-              "pubDate": "2026-11-15T11:04:10.000Z",
+              "link": "https://www.aljazeera.com/news/2026/11/15/record-number-of-migrants-arrive-in-spains-canary-islands?traffic_source=rss",
+              "pubDate": "2026-11-15T15:16:29.000Z",
               "tier": 1
+            },
+            {
+              "title": "Record immigration day in El Hierro as 1,488 arrive in Canary Islands",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/11/15/record-immigration-day-in-el-hierro-as-1488-arrive-in-canary-islands",
+              "pubDate": "2026-11-15T13:38:03.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "clashes-erupt-between-police-and-protesters-in-europe"
-        },
-        {
-          "representativeTitle": "Key opposition figure's political standing reportedly weakening.",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "France’s once best hope of stopping Marine Le Pen is losing ground",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/3d951137-cba3-47d5-a78c-0d82b9fd84e7?syn-25a6b1a6=1",
-              "pubDate": "2026-11-15T05:00:04.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "key-opposition-figures-political-standing-reportedly-weakening"
-        },
-        {
-          "representativeTitle": "Protests Target US Policies During ASEAN Summit Start",
-          "sources": [
-            "Al Jazeera"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Protesters condemn US policies as ASEAN summit begins in Manila",
-              "source": "Al Jazeera",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/protesters-condemn-us-policies-as-asean-summit-begins-in-manila?traffic_source=rss",
-              "pubDate": "2026-11-15T09:49:43.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "protests-target-us-policies-during-asean-summit-start"
+          "sentiment": 0,
+          "relevance_score": 4,
+          "importance": 40,
+          "slug": "el-hierro-records-immigration-arrivals-in-canary-islands"
         },
         {
           "representativeTitle": "China's narrative shapes global understanding of world.",
@@ -318,160 +489,6 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 55,
           "slug": "chinas-narrative-shapes-global-understanding-of-world"
-        },
-        {
-          "representativeTitle": "Prague protest signals major unrest over media freedom.",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Protest in Prague over media freedom expected to be one of biggest in Czechia’s history",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
-              "pubDate": "2026-11-15T11:17:18.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "prague-protest-signals-major-unrest-over-media-freedom"
-        },
-        {
-          "representativeTitle": "Mozambique Air Carrier Faces Flight Cancellations Over Fuel Shortage",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "AirMozambique Warns of Flight Cancellations Due to Fuel Shortage",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-15/airmozambique-warns-of-flight-cancellations-due-to-fuel-shortage",
-              "pubDate": "2026-11-15T11:09:59.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "mozambique-air-carrier-faces-flight-cancellations-over-fuel-shortage"
-        },
-        {
-          "representativeTitle": "Pope voices concern over impoverished Peruvian communities.",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Pope laments poverty-stricken Inca communities as locals leave Peru",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/americas/20261115-pope-laments-poverty-stricken-inca-communities-as-locals-leave-peru",
-              "pubDate": "2026-11-15T10:55:11.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "pope-voices-concern-over-impoverished-peruvian-communities"
-        },
-        {
-          "representativeTitle": "Pope Addresses Community Suffering During Andes Visit",
-          "sources": [
-            "BBC World"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-15T09:57:25.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "pope-addresses-community-suffering-during-andes-visit"
-        },
-        {
-          "representativeTitle": "SEA Leaders Summit Focus on Major Regional Conflicts",
-          "sources": [
-            "NBC News"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Southeast Asian leaders open annual summit with major conflicts topping the agenda",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/world/asia/southeast-asian-leaders-annual-summit-major-conflicts-impact-rcna609385",
-              "pubDate": "2026-11-15T10:04:56.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "sea-leaders-summit-focus-on-major-regional-conflicts"
-        },
-        {
-          "representativeTitle": "Taiwan's Atmosphere Reflects Geopolitical Tensions Rising",
-          "sources": [
-            "Google Stocks"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Tears and Disbelief in Taiwan, Where Jensen Huang Is a Celebrity",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZdTZsZlJDQ2h2VjdwSjBOeG5XYzZWdmV2X0QzeEN6Y01kd0tXVlVKdzJkZVJkOGtwbmRKS1F0WHdYNXVSNG9mTlJRckhmZjh2RE1WMXQ4QlRuN1JjNHdSUWhEaXJEUHI0WmEyQ211eHNZV1FZUlFZ?oc=5",
-              "pubDate": "2026-11-15T10:01:57.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "taiwans-atmosphere-reflects-geopolitical-tensions-rising"
-        },
-        {
-          "representativeTitle": "China's Intelligence Targets Focus on Technology Sector",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How China’s Intelligence Operations Target Tech",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-14/how-china-s-intelligence-operations-target-tech-video",
-              "pubDate": "2026-11-14T15:41:12.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "World",
-          "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 60,
-          "slug": "chinas-intelligence-targets-focus-on-technology-sector"
         }
       ]
     },
@@ -479,42 +496,191 @@ export const newsData = {
       "name": "US",
       "children": [
         {
-          "representativeTitle": "Secretary Seeks $30 Billion for Aviation Upgrades",
+          "representativeTitle": "Telecom upgrades cause widespread US flight disruptions.",
           "sources": [
-            "BBC World",
-            "France 24",
-            "SCMP"
+            "BBC US",
+            "BBC World"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "How telecoms upgrade work sparked US flight chaos",
+              "source": "BBC US",
+              "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-15T14:57:15.000Z",
+              "tier": 1
+            },
+            {
+              "title": "How telecoms upgrade work sparked US flight chaos",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-15T14:57:15.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 65,
+          "slug": "telecom-upgrades-cause-widespread-us-flight-disruptions"
+        },
+        {
+          "representativeTitle": "Two Aircraft Collide at Miami International Airport Today",
+          "sources": [
+            "The Guardian",
+            "Sky News",
+            "Euronews"
           ],
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
-              "source": "BBC World",
-              "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-15T07:10:31.000Z",
+              "title": "Two planes collide on taxiway at Miami airport one day after national grounding",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/us-news/2026/nov/15/miami-airport-planes-collide",
+              "pubDate": "2026-11-15T15:40:04.000Z",
               "tier": 1
             },
             {
-              "title": "US Transport Secretary asks Congress for $30 bn to upgrade aviation infrastructure",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/us-transport-secretary-asks-congress-for-30-bn-to-upgrade-aviation-infrastructure",
-              "pubDate": "2026-11-14T16:32:52.000Z",
-              "tier": 1
+              "title": "Two planes collide while taxiing at Miami airport",
+              "source": "Sky News",
+              "link": "https://news.sky.com/story/two-planes-collide-while-taxiing-at-miami-airport-as-two-suffer-minor-injuries-13612429",
+              "pubDate": "2026-11-15T10:23:00.000Z",
+              "tier": 2
             },
             {
-              "title": "Transport chief blames US-wide flight disruptions on upgrade of old copper wiring",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3374456/transport-chief-blames-us-wide-flight-disruptions-upgrade-old-copper-wiring",
-              "pubDate": "2026-11-14T18:26:10.000Z",
+              "title": "Two aircraft collide at Miami International Airport",
+              "source": "Euronews",
+              "link": "https://www.euronews.com/2026/11/15/two-aircraft-collide-at-miami-international-airport",
+              "pubDate": "2026-11-15T11:59:43.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "US",
-          "sentiment": 0,
+          "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 65,
-          "slug": "secretary-seeks-30-billion-for-aviation-upgrades"
+          "importance": 55,
+          "slug": "two-aircraft-collide-at-miami-international-airport-today"
+        },
+        {
+          "representativeTitle": "US Probes Nationwide Flight Stoppages Amid Travel Issues",
+          "sources": [
+            "France 24"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "US probes nationwide flights stoppage as travel disruptions persist",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/us-probes-nationwide-flights-stoppage-as-travel-disruptions-persist",
+              "pubDate": "2026-11-15T14:09:20.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Air travel issues persist in the US after nationwide ground stop",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/air-travel-issues-persist-in-the-us-after-nationwide-ground-stop",
+              "pubDate": "2026-11-15T12:12:28.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 60,
+          "slug": "us-probes-nationwide-flight-stoppages-amid-travel-issues"
+        },
+        {
+          "representativeTitle": "Secretary Defends FAA Ground Stop Amid Criticism",
+          "sources": [
+            "Washington Post",
+            "NBC News"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "FAA was warned for years about repair risks leading to nationwide ground stop",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/transportation/2026/11/14/faa-was-warned-years-about-repair-risks-leading-nationwide-ground-stop/",
+              "pubDate": "2026-11-15T01:37:42.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Transportation secretary says he doesn’t apologize for FAA’s nationwide ground stop",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/trump-administration/transportation-secretary-apologize-nationwide-ground-stop-airports-rcna609397",
+              "pubDate": "2026-11-15T14:56:29.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "secretary-defends-faa-ground-stop-amid-criticism"
+        },
+        {
+          "representativeTitle": "Republicans Blame Others For Midterm Election Losses",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Republicans blame everyone but Trump for midterm drubbing",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/d21caa78-65c1-4570-bec8-2ef71b5d65e7?syn-25a6b1a6=1",
+              "pubDate": "2026-11-15T13:00:05.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "republicans-blame-others-for-midterm-election-losses"
+        },
+        {
+          "representativeTitle": "Aircraft Collision Reported At Miami Airport Taxiway",
+          "sources": [
+            "NBC News",
+            "ABC News Top",
+            "Google US"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "Two people injured after taxiing planes collide at Miami International Airport",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/news/us-news/two-injured-taxiing-planes-collide-miami-airport-rcna608962",
+              "pubDate": "2026-11-15T16:04:02.000Z",
+              "tier": 2
+            },
+            {
+              "title": "UPS plane, Copa Airlines flight collide on taxiway at Miami International Airport",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/US/ups-plane-copa-airlines-flight-collide-taxiway-miami/story?id=138152923",
+              "pubDate": "2026-11-15T12:13:53.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Two aircraft collide at Miami International Airport",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOHVlVGh1dWI3dW56QU1pZG41M1QxTExEczZYS3U5aUlxSGQ4bkVDeXdoWU9wdFNUOUJlNkx5alAtZ014T3ZTS3g0V2M0c3RLa1F6TFpDTjlHU29KUzBHR25OalFTa2cwVGdpY2lUbDJnSzVkYVBZTW92QWFzeFZvUms5MWxnWEhJTmx3OUM2SzE?oc=5",
+              "pubDate": "2026-11-15T11:59:43.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "aircraft-collision-reported-at-miami-airport-taxiway"
         },
         {
           "representativeTitle": "Bomb found near Illinois plant forces local evacuations",
@@ -555,6 +721,82 @@ export const newsData = {
           "slug": "bomb-found-near-illinois-plant-forces-local-evacuations"
         },
         {
+          "representativeTitle": "Judge Halts Trump Golf Course Redevelopment in D.C.",
+          "sources": [
+            "NBC News",
+            "NPR",
+            "ABC News US",
+            "Google US"
+          ],
+          "citationCount": 4,
+          "rawArticles": [
+            {
+              "title": "Judge temporarily halts Trump’s ‘Trash Island’ golf course redevelopment in D.C.",
+              "source": "NBC News",
+              "link": "https://www.nbcnews.com/politics/trump-administration/judge-temporarily-blocks-trumps-plan-redevelop-east-potomac-golf-cours-rcna609366",
+              "pubDate": "2026-11-15T02:46:52.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
+              "source": "NPR",
+              "link": "https://www.npr.org/2026/11/14/nx-s1-6041152/judge-trump-golf-course-blocks",
+              "pubDate": "2026-11-15T04:28:45.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/judge-temporarily-blocks-trump-moving-ahead-washington-public-138150527",
+              "pubDate": "2026-11-15T03:25:05.000Z",
+              "tier": 2
+            },
+            {
+              "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPN0tfbHhPaGJZVW5XeHo1RUFLb0hycEtSSlhmRXF2Zmo3SF9mbFB0Y3pkX3VSX3RVT2VOb2p0elVSY1hhQ25Pb2szV1ZLYVJHOHlGM0xYTnIyS3hUV2p3eHVUWEExbm5ETFplQ2lHbDVfM2xNanFUclR1ek4yZUdLdw?oc=5",
+              "pubDate": "2026-11-15T04:28:45.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
+          "slug": "judge-halts-trump-golf-course-redevelopment-in-dc"
+        },
+        {
+          "representativeTitle": "Van Hollen launches campaign challenging Senate leader Schumer.",
+          "sources": [
+            "Washington Post",
+            "Google US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Chris Van Hollen revs up his public campaign to replace Chuck Schumer",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/politics/2026/11/14/chris-van-hollen-revs-up-his-public-campaign-replace-chuck-schumer/",
+              "pubDate": "2026-11-14T20:00:00.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Chris Van Hollen revs up his public campaign to replace Chuck Schumer",
+              "source": "Google US",
+              "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSERHVk8yN1FxN1Y1VmhPLURJZldHUlRHLV83Y0NWM2xFNVkzTVJ2Smw4R3VBQy1EdmJEZW5YdWExX3VKSWlKV1FkZnlkdmg1eEJfaVBkRXpNYlVYdHlMMzJYdTVubTlLZGdlcGpFYVIyMnJZVmJpeXA0d0FNdExnS1JPanY3LXF0eGJMNHgyX2YzYjJoTFdaLW5MMzAxbjJzcWNxS2NKUTNPZ1Bycl9FcllpQ0NucDdMMHc?oc=5",
+              "pubDate": "2026-11-15T04:00:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "US",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 7,
+          "importance": 55,
+          "slug": "van-hollen-launches-campaign-challenging-senate-leader-schumer"
+        },
+        {
           "representativeTitle": "Maintenance Failure Halts Nation's Ground Transportation System",
           "sources": [
             "Washington Post",
@@ -585,96 +827,34 @@ export const newsData = {
           "slug": "maintenance-failure-halts-nations-ground-transportation-system"
         },
         {
-          "representativeTitle": "Judge Blocks Closure of Trump Administration Golf Course",
+          "representativeTitle": "Transport Chief Links Flight Issues to Old Wiring",
           "sources": [
-            "NBC News",
-            "Fox News",
-            "NPR",
-            "ABC News US",
-            "Google US"
+            "BBC World",
+            "SCMP"
           ],
-          "citationCount": 5,
+          "citationCount": 2,
           "rawArticles": [
             {
-              "title": "Judge temporarily halts Trump’s ‘Trash Island’ golf course redevelopment in D.C.",
-              "source": "NBC News",
-              "link": "https://www.nbcnews.com/politics/trump-administration/judge-temporarily-blocks-trumps-plan-redevelop-east-potomac-golf-cours-rcna609366",
-              "pubDate": "2026-11-15T02:46:52.000Z",
-              "tier": 2
+              "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-15T07:10:31.000Z",
+              "tier": 1
             },
             {
-              "title": "Federal judge blocks Trump's renovations of DC golf course hours before its closure",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/outkick-sports/federal-judge-blocks-trumps-renovations-dc-golf-course-hours-before-closure",
-              "pubDate": "2026-11-15T03:00:05.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
-              "source": "NPR",
-              "link": "https://www.npr.org/2026/11/14/nx-s1-6041152/judge-trump-golf-course-blocks",
-              "pubDate": "2026-11-15T04:28:45.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/judge-temporarily-blocks-trump-moving-ahead-washington-public-138150527",
-              "pubDate": "2026-11-15T03:25:05.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Trump Administration Can’t Close D.C. Golf Course for Now, Judge Rules",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYkVMNjVRckJySmpBWXRobFFXaW55UVRnLW4yOUJBRFdxVVJ1QV9TVUo4Y0xJMjBadnFwb09MWlZiZnotaWZ6UFRubkxnRkhUTklkeml0TUM0Q19QVURwbVJfeUxnZHVoZGp2cjBDdUVIMDB4R2loWEs5b1k1ZXhCMTN6SkQ4MXB6eUxrUVQzYTBPaVpJTzdKeHdpYmZ4UDJpM1FkbTVXOVN5S3RQbS1Oc2RB?oc=5",
-              "pubDate": "2026-11-15T02:53:00.000Z",
+              "title": "Transport chief blames US-wide flight disruptions on upgrade of old copper wiring",
+              "source": "SCMP",
+              "link": "https://www.scmp.com/news/world/united-states-canada/article/3374456/transport-chief-blames-us-wide-flight-disruptions-upgrade-old-copper-wiring",
+              "pubDate": "2026-11-14T18:26:10.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 4,
-          "importance": 45,
-          "slug": "judge-blocks-closure-of-trump-administration-golf-course"
-        },
-        {
-          "representativeTitle": "Aircraft Collision Reported at Miami International Airport",
-          "sources": [
-            "Fox News",
-            "ABC News Top",
-            "Google US"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "UPS cargo plane, Copa Airlines passenger jet collide at Miami airport, leaving 2 injured",
-              "source": "Fox News",
-              "link": "https://www.foxnews.com/us/ups-cargo-plane-copa-airlines-passenger-jet-collide-miami-airport-leaving-2-injured",
-              "pubDate": "2026-11-15T07:43:15.000Z",
-              "tier": 2
-            },
-            {
-              "title": "UPS plane, Copa Airlines flight collide on taxiway at Miami International Airport",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/ups-plane-copa-airlines-flight-collide-taxiway-miami/story?id=138152923",
-              "pubDate": "2026-11-15T11:49:04.000Z",
-              "tier": 2
-            },
-            {
-              "title": "UPS plane, Copa Airlines jet collide at Miami International Airport, officials say",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPekEzQ21XR2ljd25BdEtWV0Q2dHUyc1RGRllwS2l1NEllVV96Y0UyVHptaFd1cGlzbk1TZndqc3RIOWFoSnNZVWg2X0xSSEFmVXU5RXY3QkEyUm5OWXBlQzJSZVQ3YlVIT2M3eGlFazZBSTNIS1dhSEhleUdFejlPRUNtOEpZNUlVVDJMRFU3QldXNGpyWVJkMUdjcDJyaWtE?oc=5",
-              "pubDate": "2026-11-15T11:46:43.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
+          "ingestionCategory": "World",
           "aiCategory": "US",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 45,
-          "slug": "aircraft-collision-reported-at-miami-international-airport"
+          "importance": 50,
+          "slug": "transport-chief-links-flight-issues-to-old-wiring"
         },
         {
           "representativeTitle": "Democrats shift focus from culture to class issues.",
@@ -699,26 +879,78 @@ export const newsData = {
           "slug": "democrats-shift-focus-from-culture-to-class-issues"
         },
         {
-          "representativeTitle": "FAA warned years on repair risks causing ground stop.",
+          "representativeTitle": "Judge Blocks Trump Golf Course Closure in D.C.",
           "sources": [
-            "Washington Post"
+            "BBC World"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "FAA was warned for years about repair risks leading to nationwide ground stop",
-              "source": "Washington Post",
-              "link": "https://www.washingtonpost.com/transportation/2026/11/14/faa-was-warned-years-about-repair-risks-leading-nationwide-ground-stop/",
-              "pubDate": "2026-11-15T01:37:42.000Z",
+              "title": "Judge blocks Trump closure of 'Trash Island' Washington DC golf course on Sunday",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-15T15:57:03.000Z",
               "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "US",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "judge-blocks-trump-golf-course-closure-in-dc"
+        },
+        {
+          "representativeTitle": "EV CEOs Question Democratic Support For Federal Aid",
+          "sources": [
+            "CNBC Economy"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Rivian, Lucid, Scout CEOs aren’t counting on Democrats to restore EV federal support after midterm wins",
+              "source": "CNBC Economy",
+              "link": "https://www.cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html",
+              "pubDate": "2026-11-15T13:00:02.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "US",
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "ev-ceos-question-democratic-support-for-federal-aid"
+        },
+        {
+          "representativeTitle": "FAA Predicts Air Travel Recovery By End of Week",
+          "sources": [
+            "ABC News Top",
+            "ABC News US"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "FAA ground stop live updates: FAA chief says when he expects air travel to recover",
+              "source": "ABC News Top",
+              "link": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
+              "pubDate": "2026-11-15T16:09:30.000Z",
+              "tier": 2
+            },
+            {
+              "title": "US air travel schedule should recover from ground stop by the end of Sunday, FAA says",
+              "source": "ABC News US",
+              "link": "https://abcnews.com/US/wireStory/thousands-flights-canceled-airlines-work-dig-nationwide-ground-138137419",
+              "pubDate": "2026-11-14T17:06:14.000Z",
+              "tier": 2
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "faa-warned-years-on-repair-risks-causing-ground-stop"
+          "sentiment": 0.4,
+          "relevance_score": 6,
+          "importance": 40,
+          "slug": "faa-predicts-air-travel-recovery-by-end-of-week"
         },
         {
           "representativeTitle": "University Diploma Issued Amid Rape Investigation Controversy",
@@ -817,72 +1049,6 @@ export const newsData = {
           "slug": "wire-upgrade-cited-for-us-flight-suspension-issues"
         },
         {
-          "representativeTitle": "Telecom upgrades cause widespread US flight disruptions.",
-          "sources": [
-            "BBC US"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "How telecoms upgrade work sparked US flight chaos",
-              "source": "BBC US",
-              "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T23:11:27.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "telecom-upgrades-cause-widespread-us-flight-disruptions"
-        },
-        {
-          "representativeTitle": "Flight grounding blamed on routine equipment upgrade.",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
-              "pubDate": "2026-11-14T17:45:04.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "US",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "flight-grounding-blamed-on-routine-equipment-upgrade"
-        },
-        {
-          "representativeTitle": "Socialists Back Ocasio-Cortez for Future Presidential Bid",
-          "sources": [
-            "FT International"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "New York socialists back Alexandria Ocasio-Cortez for 2028 presidential race",
-              "source": "FT International",
-              "link": "https://www.ft.com/content/3f1fd9f6-8f96-4178-bf5a-8fce8954b811?syn-25a6b1a6=1",
-              "pubDate": "2026-11-15T01:52:51.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "US",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "socialists-back-ocasio-cortez-for-future-presidential-bid"
-        },
-        {
           "representativeTitle": "Legal action halts wardens crossing private property lines.",
           "sources": [
             "Washington Post"
@@ -903,36 +1069,6 @@ export const newsData = {
           "relevance_score": 4,
           "importance": 35,
           "slug": "legal-action-halts-wardens-crossing-private-property-lines"
-        },
-        {
-          "representativeTitle": "FAA Predicts Air Travel Recovery By End of Week",
-          "sources": [
-            "ABC News Top",
-            "ABC News US"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "FAA ground stop live updates: FAA chief says when he expects air travel to recover",
-              "source": "ABC News Top",
-              "link": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
-              "pubDate": "2026-11-15T03:33:55.000Z",
-              "tier": 2
-            },
-            {
-              "title": "US air travel schedule should recover from ground stop by the end of Sunday, FAA says",
-              "source": "ABC News US",
-              "link": "https://abcnews.com/US/wireStory/thousands-flights-canceled-airlines-work-dig-nationwide-ground-138137419",
-              "pubDate": "2026-11-14T17:06:14.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "US",
-          "aiCategory": "US",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "faa-predicts-air-travel-recovery-by-end-of-week"
         }
       ]
     },
@@ -962,48 +1098,290 @@ export const newsData = {
           "slug": "ai-trade-slowdown-hits-data-center-stocks-hard"
         },
         {
-          "representativeTitle": "Major Banks Caution on European Market Rally Strength",
+          "representativeTitle": "Bookmarked: News Stories On Our Reading List",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "State Street, Pictet Call Time on Europe’s Stock Market Rally",
+              "title": "Bookmarked: News Stories On Our Reading List",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-15/state-street-pictet-call-time-on-europe-s-stock-market-rally",
-              "pubDate": "2026-11-15T08:00:00.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-15/bookmarked-news-stories-on-our-reading-list-video",
+              "pubDate": "2026-11-15T15:51:05.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
           "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "major-banks-caution-on-european-market-rally-strength"
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "bookmarked-news-stories-on-our-reading-list"
         },
         {
-          "representativeTitle": "High Bond Yields Attract Investors Amid Tech Volatility",
+          "representativeTitle": "By The Way: Headlines You May Have Missed",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+              "title": "By The Way: Headlines You May Have Missed",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
-              "pubDate": "2026-11-14T20:00:00.000Z",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-15/by-the-way-headlines-you-may-have-missed-video",
+              "pubDate": "2026-11-15T15:46:06.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "Stocks",
           "aiCategory": "Stocks",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "high-bond-yields-attract-investors-amid-tech-volatility"
+          "sentiment": 0,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "by-the-way-headlines-you-may-have-missed"
+        },
+        {
+          "representativeTitle": "White House Braces for Democratic Investigations",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "White House Braces for Democratic Investigations",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-15/white-house-braces-for-democratic-investigations-video",
+              "pubDate": "2026-11-15T15:14:45.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "white-house-braces-for-democratic-investigations"
+        },
+        {
+          "representativeTitle": "Inside India’s $130 Billion Wedding Economy",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Inside India’s $130 Billion Wedding Economy",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-15/inside-india-s-130-billion-wedding-economy-video",
+              "pubDate": "2026-11-15T15:03:37.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "inside-indias-130-billion-wedding-economy"
+        },
+        {
+          "representativeTitle": "Traders Turn to Kalshi Stock ‘Perps’ on Nvidia and SpaceX as Leverage Fears Grow",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Traders Turn to Kalshi Stock ‘Perps’ on Nvidia and SpaceX as Leverage Fears Grow",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-15/traders-turn-to-kalshi-stock-perps-on-nvidia-and-spacex-as-leverage-fears-grow",
+              "pubDate": "2026-11-15T15:00:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "traders-turn-to-kalshi-stock-perps-on-nvidia-and-spacex-as-leverage-fears-grow"
+        },
+        {
+          "representativeTitle": "Congress Presses Nvidia Over China Chip Access",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Congress Presses Nvidia Over China Chip Access",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-15/congress-presses-nvidia-over-china-chip-access-video",
+              "pubDate": "2026-11-15T14:50:56.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "congress-presses-nvidia-over-china-chip-access"
+        },
+        {
+          "representativeTitle": "The 1973 Oil Crisis Still Matters Today",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "The 1973 Oil Crisis Still Matters Today",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-15/the-1973-oil-crisis-still-matters-today-video",
+              "pubDate": "2026-11-15T14:27:05.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": -0.4,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "the-1973-oil-crisis-still-matters-today"
+        },
+        {
+          "representativeTitle": "Nvidia Crisis Reshapes Washington’s Tech Debate",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Nvidia Crisis Reshapes Washington’s Tech Debate",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-15/nvidia-crisis-reshapes-washington-s-tech-debate-video",
+              "pubDate": "2026-11-15T14:10:32.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": -0.4,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "nvidia-crisis-reshapes-washingtons-tech-debate"
+        },
+        {
+          "representativeTitle": "Router Failure Exposes Risks in FAA Network",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Router Failure Exposes Risks in FAA Network",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-15/router-failure-exposes-risks-in-faa-network-video",
+              "pubDate": "2026-11-15T13:28:26.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "router-failure-exposes-risks-in-faa-network"
+        },
+        {
+          "representativeTitle": "Anthropic IPO Arrives at a Pivotal AI Moment",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Anthropic IPO Arrives at a Pivotal AI Moment",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-15/anthropic-ipo-arrives-at-a-pivotal-ai-moment-video",
+              "pubDate": "2026-11-15T13:17:16.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "anthropic-ipo-arrives-at-a-pivotal-ai-moment"
+        },
+        {
+          "representativeTitle": "Nvidia Crisis Complicates Trump’s China Trip",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Nvidia Crisis Complicates Trump’s China Trip",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-15/nvidia-crisis-complicates-trump-s-china-trip-video",
+              "pubDate": "2026-11-15T13:05:46.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": -0.4,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "nvidia-crisis-complicates-trumps-china-trip"
+        },
+        {
+          "representativeTitle": "Trump Heads to Asia With Trade, Security at Stake",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Trump Heads to Asia With Trade, Security at Stake",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/videos/2026-11-15/trump-heads-to-asia-with-trade-security-at-stake-video",
+              "pubDate": "2026-11-15T12:52:36.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": 0,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "trump-heads-to-asia-with-trade-security-at-stake"
+        },
+        {
+          "representativeTitle": "Bond Drought in Emerging Markets Lifts Prices as Sales Slump 41%",
+          "sources": [
+            "Bloomberg Markets"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Bond Drought in Emerging Markets Lifts Prices as Sales Slump 41%",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-15/bond-drought-in-emerging-markets-lifts-prices-as-sales-slump-41",
+              "pubDate": "2026-11-15T12:30:00.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Stocks",
+          "sentiment": -0.4,
+          "relevance_score": 5,
+          "importance": 40,
+          "slug": "bond-drought-in-emerging-markets-lifts-prices-as-sales-slump-41"
         }
       ]
     },
@@ -1011,62 +1389,19 @@ export const newsData = {
       "name": "Business",
       "children": [
         {
-          "representativeTitle": "Diesel prices softening as winter season nears approach.",
-          "sources": [
-            "France 24"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Global diesel prices ease as winter approaches",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/global-diesel-prices-ease-as-winter-approaches",
-              "pubDate": "2026-11-15T10:40:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "diesel-prices-softening-as-winter-season-nears-approach"
-        },
-        {
-          "representativeTitle": "Steel Supplier Questions Royal Navy Contract Status",
-          "sources": [
-            "The Guardian"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Troubled Scottish steel supplier raises questions over Royal Navy contracts",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/business/2026/nov/15/liberty-steel-dalzell-scotland-royal-navy-contracts-warships",
-              "pubDate": "2026-11-15T10:00:10.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "steel-supplier-questions-royal-navy-contract-status"
-        },
-        {
           "representativeTitle": "Port Sues Over Major Mississippi Tanker Collision Damage",
           "sources": [
             "BBC US",
-            "Google US"
+            "Google US",
+            "BBC World"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
               "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
               "source": "BBC US",
               "link": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "2026-11-14T22:27:06.000Z",
+              "pubDate": "2026-11-15T14:33:59.000Z",
               "tier": 1
             },
             {
@@ -1075,27 +1410,34 @@ export const newsData = {
               "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TQXdmUW84QjZxYUtEc2NMZ0gwMlJ0LXNDOUt5TWw5VFlTeGpnN2FQc2NQNXAySUlsbjdRQm85dGoxQ29JLUc0X0prZ3RPcjViYm4zNld0cVdUcEk?oc=5",
               "pubDate": "2026-11-14T22:27:06.000Z",
               "tier": 2
+            },
+            {
+              "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-15T14:33:59.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "Business",
           "sentiment": -0.4,
           "relevance_score": 6,
-          "importance": 50,
+          "importance": 65,
           "slug": "port-sues-over-major-mississippi-tanker-collision-damage"
         },
         {
-          "representativeTitle": "Crypto Market Downturn Leaves Investors Feeling Discouraged",
+          "representativeTitle": "Peru's Economy Slows Amid Mining and Farming Slumps",
           "sources": [
             "Bloomberg Markets"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Crypto’s Slow-Motion Selloff Leaves Traders Weary and Hopeless",
+              "title": "Peru’s Economy Unexpectedly Slows as Mining, Farming Slump",
               "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless",
-              "pubDate": "2026-11-15T05:10:27.000Z",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-15/peru-s-economy-unexpectedly-slows-as-mining-farming-slump",
+              "pubDate": "2026-11-15T15:54:54.000Z",
               "tier": 1
             }
           ],
@@ -1104,29 +1446,59 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 6,
           "importance": 45,
+          "slug": "perus-economy-slows-amid-mining-and-farming-slumps"
+        },
+        {
+          "representativeTitle": "Crypto Market Downturn Leaves Investors Feeling Discouraged",
+          "sources": [
+            "Bloomberg Markets",
+            "Google Stocks"
+          ],
+          "citationCount": 2,
+          "rawArticles": [
+            {
+              "title": "Crypto’s Slow-Motion Selloff Leaves Traders Weary and Hopeless",
+              "source": "Bloomberg Markets",
+              "link": "https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless",
+              "pubDate": "2026-11-15T05:10:27.000Z",
+              "tier": 1
+            },
+            {
+              "title": "Crypto’s Slow-Motion Selloff Leaves Traders Weary and Hopeless",
+              "source": "Google Stocks",
+              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbkNtd29JSVN3NktDZF9RamdWQlQySzg4UzBEUFZkeWkxY2JINnFlZEFyMHd1c1FoSEsxcjZEN3F5V2R4WlZ6djdQQllXNDNqVWo1SnZWTlNpY3Ywb2w3QVNuTlI3UzdtUFg2RWFUYnktM3VRWFJUSWY0a1BIYUdxc19HVnk2ZGZxY2t3UXdEeGpqY0lhclFZVXhFN01vUXFxcFZ5b2E5WmxYX1lXSnJWMnprTQ?oc=5",
+              "pubDate": "2026-11-15T05:10:00.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "Stocks",
+          "aiCategory": "Business",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 50,
           "slug": "crypto-market-downturn-leaves-investors-feeling-discouraged"
         },
         {
-          "representativeTitle": "Lutnick Pressured to Loosen Rules Favoring Family Business",
+          "representativeTitle": "Airlines struggle to resume flights amid cancellations.",
           "sources": [
-            "Google US"
+            "Washington Post"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Lutnick Pushed to Weaken Chip Rules That Overlap With His Family Business",
-              "source": "Google US",
-              "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNmlDTE1xbEwwa3NwamwyY09wSXoyaE1UZ2prNXJ3OHItZGZlTkdneDB5RjRtRGQwal8tWERrRUhxSGJFa3F1SkFIV2ZpdHd1MWFqZDV1R0ZweHlWbXB4TW56UDBuaUdRYWhzZndoc3R1a0RscWxSZTRoSUlYMDI2TGxEeC1TTUF1bFJoZ1lwOHYxcERFRkUwa01ETFpJNF9LT3p3R1Yybmk5aDUtWDJ3M3NUZWpESnVJU1RGZ25Hdnl0d1U?oc=5",
-              "pubDate": "2026-11-15T10:02:04.000Z",
-              "tier": 2
+              "title": "Airlines scramble to resume flights after ground stop as cancellations continue",
+              "source": "Washington Post",
+              "link": "https://www.washingtonpost.com/transportation/2026/11/15/airlines-scramble-resume-flights-after-ground-stop-cancellations-continue/",
+              "pubDate": "2026-11-15T12:47:42.000Z",
+              "tier": 1
             }
           ],
           "ingestionCategory": "US",
           "aiCategory": "Business",
           "sentiment": -0.4,
-          "relevance_score": 7,
-          "importance": 40,
-          "slug": "lutnick-pressured-to-loosen-rules-favoring-family-business"
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "airlines-struggle-to-resume-flights-amid-cancellations"
         },
         {
           "representativeTitle": "Air Travel Meltdown Linked to Infrastructure Failures",
@@ -1149,78 +1521,94 @@ export const newsData = {
           "relevance_score": 8,
           "importance": 45,
           "slug": "air-travel-meltdown-linked-to-infrastructure-failures"
-        },
-        {
-          "representativeTitle": "Poppi Founders Face Business Setback After Changes",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The Entrepreneurs Behind Poppi Start Over",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-14/the-entrepreneurs-behind-poppi-start-over-video",
-              "pubDate": "2026-11-14T16:13:04.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "poppi-founders-face-business-setback-after-changes"
-        },
-        {
-          "representativeTitle": "Stadium Bidding Wars Create Midwest Economic Uncertainty Now",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The Stadium Bidding War Shaking Up the Midwest",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video",
-              "pubDate": "2026-11-14T15:04:14.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Business",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "stadium-bidding-wars-create-midwest-economic-uncertainty-now"
-        },
-        {
-          "representativeTitle": "Retailers Use Entertainment to Capture Consumer Attention Now",
-          "sources": [
-            "CNBC Economy"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Retailers are turning to entertainment to win shoppers’ attention",
-              "source": "CNBC Economy",
-              "link": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
-              "pubDate": "2026-11-14T13:00:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Business",
-          "aiCategory": "Business",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "retailers-use-entertainment-to-capture-consumer-attention-now"
         }
       ]
     },
     {
       "name": "Technology",
       "children": [
+        {
+          "representativeTitle": "Top Scorer Admits AI Cheating on South Korean Exam",
+          "sources": [
+            "BBC World",
+            "The Guardian",
+            "Google World"
+          ],
+          "citationCount": 3,
+          "rawArticles": [
+            {
+              "title": "South Korea's top scorer in tax accountancy exam admits cheating",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-15T13:37:45.000Z",
+              "tier": 1
+            },
+            {
+              "title": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
+              "source": "The Guardian",
+              "link": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
+              "pubDate": "2026-11-15T08:56:11.000Z",
+              "tier": 1
+            },
+            {
+              "title": "South Korea's top scorer in tax accountancy exam admits cheating",
+              "source": "Google World",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lOUVQZFp1akk1cEpBcHBndHRjTEhzbGx1TzlHZGx0Wkt4LTk1dlNPVGZ1RjNqWkJ5by1FSG1HdnJGTjZBU0JGeGp3ZF91R2trSUFpeU1kUmdQc1E?oc=5",
+              "pubDate": "2026-11-15T13:37:45.000Z",
+              "tier": 2
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 6,
+          "importance": 65,
+          "slug": "top-scorer-admits-ai-cheating-on-south-korean-exam"
+        },
+        {
+          "representativeTitle": "Ex-Nvidia Boss Linked to Suspected China Spy Activity",
+          "sources": [
+            "BBC World"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+              "source": "BBC World",
+              "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "2026-11-15T14:56:21.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "World",
+          "aiCategory": "Technology",
+          "sentiment": -0.4,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "ex-nvidia-boss-linked-to-suspected-china-spy-activity"
+        },
+        {
+          "representativeTitle": "Anthropic IPO signals major test for AI sector.",
+          "sources": [
+            "FT International"
+          ],
+          "citationCount": 1,
+          "rawArticles": [
+            {
+              "title": "Anthropic’s IPO is the next big test for AI",
+              "source": "FT International",
+              "link": "https://www.ft.com/content/bc8ac781-9837-46de-b7ed-958886ba43af?syn-25a6b1a6=1",
+              "pubDate": "2026-11-15T11:40:44.000Z",
+              "tier": 1
+            }
+          ],
+          "ingestionCategory": "Business",
+          "aiCategory": "Technology",
+          "sentiment": 0,
+          "relevance_score": 8,
+          "importance": 55,
+          "slug": "anthropic-ipo-signals-major-test-for-ai-sector"
+        },
         {
           "representativeTitle": "Congress tightens AI chip export rules after Nvidia.",
           "sources": [
@@ -1244,78 +1632,48 @@ export const newsData = {
           "slug": "congress-tightens-ai-chip-export-rules-after-nvidia"
         },
         {
-          "representativeTitle": "Digital Finance Exploits Young Women, Girls in UK",
+          "representativeTitle": "Huang discusses French ties amid tech developments.",
           "sources": [
-            "The Guardian"
+            "France 24"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Digital finance products used to abuse almost 20% of young women and girls, UK report finds",
-              "source": "The Guardian",
-              "link": "https://www.theguardian.com/society/2026/nov/15/digital-finance-products-abuse-against-young-women-and-girls-report",
-              "pubDate": "2026-11-15T09:22:39.000Z",
+              "title": "Jensen Huang: The French Connection",
+              "source": "France 24",
+              "link": "https://www.france24.com/en/tv-shows/spotlight/20261115-jensen-huang-the-french-connection",
+              "pubDate": "2026-11-15T15:03:56.000Z",
               "tier": 1
             }
           ],
           "ingestionCategory": "World",
           "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "digital-finance-exploits-young-women-girls-in-uk"
+          "sentiment": 0,
+          "relevance_score": 6,
+          "importance": 45,
+          "slug": "huang-discusses-french-ties-amid-tech-developments"
         },
         {
-          "representativeTitle": "Huang's Route Keeps Beijing Engaged in AI Race",
+          "representativeTitle": "Phishing Scams Target Major Tech Company Logins",
           "sources": [
-            "Google Stocks"
+            "Fox News"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WRVRId0ZUcVRGRlNaOFhjRE5vUUVQWnZ6OElxc0llcUVsaXAxbDFxdXJocTh6UTc2OGN6VnZuN2sxMnZROVhnaU1aTWVVUlZLbU1KRzFYT2ljczNYTV9FTVQxWnFrS2xNdDdZQ2FHejNDUjh2d29PbHRROA?oc=5",
-              "pubDate": "2026-11-15T09:48:00.000Z",
+              "title": "Fake AI event invites target Microsoft and Google logins",
+              "source": "Fox News",
+              "link": "https://www.foxnews.com/tech/fake-ai-event-invites-target-microsoft-google-logins",
+              "pubDate": "2026-11-15T15:51:15.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "US",
           "aiCategory": "Technology",
           "sentiment": -0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "huangs-route-keeps-beijing-engaged-in-ai-race"
-        },
-        {
-          "representativeTitle": "AI Trade Outlook Hinges on Nvidia and Congress",
-          "sources": [
-            "CNBC Markets",
-            "Google Stocks"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-              "source": "CNBC Markets",
-              "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
-              "pubDate": "2026-11-14T15:50:43.000Z",
-              "tier": 1
-            },
-            {
-              "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iUTd1amNDQzhvSy1kWGcwdk1CZjRGZG9rTFc4VEFRX3p2Y3VTdzd6dDRkSnJnR21nUkt1OVVlajV4R3VJTElDYUpJQlBfbzhKRFB5RUdWdEJWLVotUVJQS2hqZFpJZGpERlJFWUNJb2ZZbUtNYWVtN2pNb3liSGvSAYQBQVVfeXFMTVZlLXNUMVl0Qkc4M2ZKWGFwNnB6U05GSEw5LXlXQlNKN2MwMUg1by1Pb3pyd3JoWHRzQkcxRFJmOG45RzlzcVNybHJ0Q3VyZEtfdlctNDdZSGpYU2NlaUpIUFFrdkE2akpLdFdBRkppeFBWYk1qT0gyd3ByLXhaVmdySDYy?oc=5",
-              "pubDate": "2026-11-14T15:50:43.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Technology",
-          "sentiment": 0,
           "relevance_score": 8,
-          "importance": 60,
-          "slug": "ai-trade-outlook-hinges-on-nvidia-and-congress"
+          "importance": 45,
+          "slug": "phishing-scams-target-major-tech-company-logins"
         },
         {
           "representativeTitle": "Human Judgment Flaws Highlighted By New Systems",
@@ -1340,94 +1698,6 @@ export const newsData = {
           "slug": "human-judgment-flaws-highlighted-by-new-systems"
         },
         {
-          "representativeTitle": "Google releases Gemini 4 Hydrogen AI capabilities freely.",
-          "sources": [
-            "Google Tech"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Google's Gemini 4 Hydrogen is free — here are 5 impressive things you can do with it",
-              "source": "Google Tech",
-              "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR3N4YlROTEk1cmQyWDlqLTdIcHhNdXZ2bjkzTTBhYUo5RDZJeFJxVUJxM01lejduTW5MVUJadG1IWGdzVm0xc2hzZHEtY1d3SWFtemhkbGpzU24xaEFWSDZYWjlvSlQ5ZXhRUDZUdlgxUVQ3NDhqTzEzbDR0ZlVlV19UeUg1bUFRSWhaUk1pekxkRGVfOFMwaEZ3VWJBOG9nM1RRZmo3dzc4VVlybGQ4a2FrYmlpMThkaElaR0pSU1FSQQ?oc=5",
-              "pubDate": "2026-11-15T05:56:27.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "google-releases-gemini-4-hydrogen-ai-capabilities-freely"
-        },
-        {
-          "representativeTitle": "Ground Stop Lifts; Nvidia Scandal, Starship Test Report",
-          "sources": [
-            "Bloomberg Markets"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-14/bloomberg-this-weekend-11-14-2026-video",
-              "pubDate": "2026-11-14T16:45:01.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Stocks",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ground-stop-lifts-nvidia-scandal-starship-test-report"
-        },
-        {
-          "representativeTitle": "Asian Governments React to Nvidia CEO's Departure",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-              "pubDate": "2026-11-14T16:34:15.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "asian-governments-react-to-nvidia-ceos-departure"
-        },
-        {
-          "representativeTitle": "Tesla Pre-orders Cybercab with Restrictions and Fee",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
-              "pubDate": "2026-11-14T20:04:44.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 7,
-          "importance": 50,
-          "slug": "tesla-pre-orders-cybercab-with-restrictions-and-fee"
-        },
-        {
           "representativeTitle": "AI Tamagotchi Uses Objects to Create Virtual Pets",
           "sources": [
             "Wired"
@@ -1450,50 +1720,6 @@ export const newsData = {
           "slug": "ai-tamagotchi-uses-objects-to-create-virtual-pets"
         },
         {
-          "representativeTitle": "AI-Powered Ransomware Threat Escalates Cyber Security Risks",
-          "sources": [
-            "Wired"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Beware the New AI-Fueled Ransomware Boom",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
-              "pubDate": "2026-11-14T13:00:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "ai-powered-ransomware-threat-escalates-cyber-security-risks"
-        },
-        {
-          "representativeTitle": "Tech Execs Petition Nvidia to Rehire Jensen Huang",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-              "pubDate": "2026-11-14T21:41:22.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "tech-execs-petition-nvidia-to-rehire-jensen-huang"
-        },
-        {
           "representativeTitle": "M6 Mac Mini Sale Announced For Black Friday 2026",
           "sources": [
             "Wired"
@@ -1514,28 +1740,6 @@ export const newsData = {
           "relevance_score": 3,
           "importance": 30,
           "slug": "m6-mac-mini-sale-announced-for-black-friday-2026"
-        },
-        {
-          "representativeTitle": "AI Failures Documented: Startups Struggle to Survive Now",
-          "sources": [
-            "TechCrunch"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-              "source": "TechCrunch",
-              "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-              "pubDate": "2026-11-14T17:30:00.000Z",
-              "tier": 1
-            }
-          ],
-          "ingestionCategory": "Technology",
-          "aiCategory": "Technology",
-          "sentiment": -0.4,
-          "relevance_score": 6,
-          "importance": 45,
-          "slug": "ai-failures-documented-startups-struggle-to-survive-now"
         }
       ]
     },
@@ -1543,80 +1747,41 @@ export const newsData = {
       "name": "Science",
       "children": [
         {
-          "representativeTitle": "Starship Achieves Milestone Mid-Air Catch After Orbit Return",
+          "representativeTitle": "New Giant Fungus Species Discovered in China's Ecosystem",
           "sources": [
-            "France 24",
-            "SCMP",
-            "Le Monde"
+            "Wired",
+            "Google Science"
           ],
           "citationCount": 3,
           "rawArticles": [
             {
-              "title": "SpaceX's Starship completes first-ever mid-air catch after return from orbit",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/spacex-starship-set-for-return-to-earth-after-failed-booster-catch",
-              "pubDate": "2026-11-14T20:51:24.000Z",
+              "title": "New Species of Giant Fungus Discovered in China Grows up to 20 Inches Tall",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/new-species-of-giant-fungus-discovered-in-china-grows-up-to-20-inches-tall/",
+              "pubDate": "2026-11-15T10:00:00.000Z",
               "tier": 1
             },
             {
-              "title": "SpaceX successfully carries out first-ever spaceship catch",
-              "source": "SCMP",
-              "link": "https://www.scmp.com/news/world/united-states-canada/article/3374463/spacex-successfully-carries-out-first-ever-spaceship-catch",
-              "pubDate": "2026-11-14T21:32:46.000Z",
-              "tier": 2
-            },
-            {
-              "title": "SpaceX pulls off first-ever spaceship 'catch'",
-              "source": "Le Monde",
-              "link": "https://www.lemonde.fr/en/science/article/2026/11/15/spacex-pulls-off-first-ever-spaceship-catch_6781084_10.html",
-              "pubDate": "2026-11-14T23:25:33.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "World",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 70,
-          "slug": "starship-achieves-milestone-mid-air-catch-after-orbit-return"
-        },
-        {
-          "representativeTitle": "SpaceX Successfully Lands Starship in Novel Demonstration",
-          "sources": [
-            "MarketWatch",
-            "Bloomberg Markets",
-            "Google Stocks"
-          ],
-          "citationCount": 3,
-          "rawArticles": [
-            {
-              "title": "SpaceX successfully catches Starship rocket in huge milestone for the space industry",
-              "source": "MarketWatch",
-              "link": "https://www.marketwatch.com/story/spacex-successfully-catches-starship-rocket-in-huge-milestone-for-the-space-industry-f42c136c?mod=mw_rss_topstories",
-              "pubDate": "2026-11-15T00:33:00.000Z",
-              "tier": 2
-            },
-            {
-              "title": "(Digital) SpaceX Catches Starship in Novel Landing",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-14/-digital-spacex-catches-starship-in-novel-landing",
-              "pubDate": "2026-11-14T22:25:41.000Z",
+              "title": "New Species of Giant Fungus Discovered in China Grows up to 20 Inches Tall",
+              "source": "Wired",
+              "link": "https://www.wired.com/story/new-species-of-giant-fungus-discovered-in-china-grows-up-to-20-inches-tall/",
+              "pubDate": "2026-11-15T10:00:00.000Z",
               "tier": 1
             },
             {
-              "title": "SpaceX successfully catches part of Starship rocket on its return to Earth",
-              "source": "Google Stocks",
-              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UZVdqTVRVZU9PZVY2cFB2c0M5WEljcmFlQ3VXbVpCbVQ5ekxhaDdQRDgzdDFfemZYVW84NlQ1TnRaLUI0N092R0t3SjFaeVpaams2ZEVR?oc=5",
-              "pubDate": "2026-11-14T22:07:24.000Z",
+              "title": "New Species of Giant Fungus Discovered in China Grows up to 20 Inches Tall",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWHkwYVRvV1VxeS1ic2F0eUJyRWEzTjg1OXQ0LUcyM080UXNNZEwzelZxbzl3eFdMUl9kVk1uMmFuYlBWWHJwclVWOUt6aXo4Ry1LMTFDWDhiNDdIQ3g0TV9rYTJtQmNKdHNkRlg3dktwUHBPM0x4cy1kMFdTMlhsWm15MXNGNTVfZm1vRWRKZktEaWh6OUsxTUdSQ2VuNURJUF9jRWtB?oc=5",
+              "pubDate": "2026-11-15T10:00:00.000Z",
               "tier": 2
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Technology",
           "aiCategory": "Science",
           "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 65,
-          "slug": "spacex-successfully-lands-starship-in-novel-demonstration"
+          "relevance_score": 6,
+          "importance": 60,
+          "slug": "new-giant-fungus-species-discovered-in-chinas-ecosystem"
         },
         {
           "representativeTitle": "Drought Intensifies, Threatening Ecosystem Survival Worldwide Now",
@@ -1648,55 +1813,64 @@ export const newsData = {
           "slug": "drought-intensifies-threatening-ecosystem-survival-worldwide-now"
         },
         {
-          "representativeTitle": "New Giant Fungus Species Discovered in China's Ecosystem",
+          "representativeTitle": "Astronomers find dead star emitting mysterious radio pulses",
           "sources": [
-            "Wired"
+            "Science Daily",
+            "Phys.org",
+            "Google Science"
           ],
-          "citationCount": 2,
+          "citationCount": 3,
           "rawArticles": [
             {
-              "title": "New Species of Giant Fungus Discovered in China Grows up to 20 Inches Tall",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/new-species-of-giant-fungus-discovered-in-china-grows-up-to-20-inches-tall/",
-              "pubDate": "2026-11-15T10:00:00.000Z",
-              "tier": 1
+              "title": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+              "pubDate": "2026-11-15T13:04:09.000Z",
+              "tier": 2
             },
             {
-              "title": "New Species of Giant Fungus Discovered in China Grows up to 20 Inches Tall",
-              "source": "Wired",
-              "link": "https://www.wired.com/story/new-species-of-giant-fungus-discovered-in-china-grows-up-to-20-inches-tall/",
-              "pubDate": "2026-11-15T10:00:00.000Z",
-              "tier": 1
+              "title": "A dead star is flashing radio waves every 8 minutes, and its partner looks a lot like the sun",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-dead-star-radio-minutes-partner.html",
+              "pubDate": "2026-11-14T21:00:01.000Z",
+              "tier": 2
+            },
+            {
+              "title": "A dead star is flashing radio waves every 8 minutes, and its partner looks a lot like the sun",
+              "source": "Google Science",
+              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lMlJxdmFRZGV3NWxRcG5mR0NNcmtSMkplTkxMVk1Ud2dQQzFRSVRZak92WnZOVkhra3hLZDBtYnNhOFVZMmxINGMzRmZMemoxR2d2c09sZzVWWlZKdk1ra3llT2tPQ1NNRDBicWhkS3ppUU5k?oc=5",
+              "pubDate": "2026-11-14T21:00:01.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Technology",
+          "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": 0.4,
+          "sentiment": 0,
           "relevance_score": 6,
-          "importance": 55,
-          "slug": "new-giant-fungus-species-discovered-in-chinas-ecosystem"
+          "importance": 45,
+          "slug": "astronomers-find-dead-star-emitting-mysterious-radio-pulses"
         },
         {
-          "representativeTitle": "SpaceX Recaptures Rocketship, Marking Major Engineering Milestone",
+          "representativeTitle": "Past Warming Impacts Shape Future Climate Response Needs",
           "sources": [
-            "France 24"
+            "Phys.org"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "SpaceX makes rocketry history by recapturing massive reusable rocketship",
-              "source": "France 24",
-              "link": "https://www.france24.com/en/spacex-makes-rocketry-history-by-recapturing-massive-reusable-rocketship",
-              "pubDate": "2026-11-15T09:42:55.000Z",
-              "tier": 1
+              "title": "Climate response: Why previous warming makes all the difference",
+              "source": "Phys.org",
+              "link": "https://phys.org/news/2026-11-climate-response-previous-difference.html",
+              "pubDate": "2026-11-15T15:30:01.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "World",
+          "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "spacex-recaptures-rocketship-marking-major-engineering-milestone"
+          "sentiment": -0.4,
+          "relevance_score": 9,
+          "importance": 50,
+          "slug": "past-warming-impacts-shape-future-climate-response-needs"
         },
         {
           "representativeTitle": "SpaceX Achieves Major Milestone With Starship Rocketry",
@@ -1729,61 +1903,17 @@ export const newsData = {
           "slug": "spacex-achieves-major-milestone-with-starship-rocketry"
         },
         {
-          "representativeTitle": "SpaceX Achieves Historic First Spaceship Capture Milestone",
-          "sources": [
-            "Google Science"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "SpaceX carries out first-ever spaceship capture",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVG5kQzFndkNIZlhDbmNHS05ZU3FRbjBFbHVOSzkzaDgtQzN5Yl9CWXZpNHpyM0xBZHV3SFdBMGpqZVlCQjhsVjU4T3VhMG1Eakd5T0p2MEotbWt6eng3TVV3bmFhUjlldmpWY1owOUxNa20tRER3N0ZpaGRPbmVBU09odDBPMDjSAYcBQVVfeXFMTWZZR0JnSHpMdGpsNzhDR3dlM1UyZHZHenVLODBlWFpHelN3dWZ4ZFc3QjI0cjhMdzBSNzRCdkhkZVNOVjlCUHV4TjM4dHlodTlLWFRUTEp0VTBDN0hXWjhxMTc0dloxakNFZnRZMzBESFhSN0lERFBZMGFSdVFZallsRUVzRjlF?oc=5",
-              "pubDate": "2026-11-15T08:06:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "spacex-achieves-historic-first-spaceship-capture-milestone"
-        },
-        {
-          "representativeTitle": "Euclid Discovers Ancient Cosmic Beacons From Deep Space",
+          "representativeTitle": "NASA warns of potentially massive El Niño event.",
           "sources": [
             "Science Daily"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "Euclid discovers ancient cosmic beacons from the dawn of time, shining like a trillion suns",
+              "title": "NASA warns this year's Monster El Niño could be even bigger than legendary 1997 event",
               "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/11/261112230504.htm",
-              "pubDate": "2026-11-15T01:52:47.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.9,
-          "relevance_score": 9,
-          "importance": 50,
-          "slug": "euclid-discovers-ancient-cosmic-beacons-from-deep-space"
-        },
-        {
-          "representativeTitle": "Brain Shrinkage Signals Alzheimer's Years Before Symptoms",
-          "sources": [
-            "Science Daily"
-          ],
-          "citationCount": 1,
-          "rawArticles": [
-            {
-              "title": "Alzheimer’s may start shrinking two brain regions years before memory loss",
-              "source": "Science Daily",
-              "link": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
-              "pubDate": "2026-11-15T04:31:56.000Z",
+              "link": "https://www.sciencedaily.com/releases/2026/11/261114202227.htm",
+              "pubDate": "2026-11-15T13:53:25.000Z",
               "tier": 2
             }
           ],
@@ -1792,28 +1922,20 @@ export const newsData = {
           "sentiment": -0.4,
           "relevance_score": 8,
           "importance": 45,
-          "slug": "brain-shrinkage-signals-alzheimers-years-before-symptoms"
+          "slug": "nasa-warns-of-potentially-massive-el-nio-event"
         },
         {
-          "representativeTitle": "Voyager 1 Sets New Record in Interstellar Space",
+          "representativeTitle": "SpaceX Starship Successfully Returns From Orbit Landing",
           "sources": [
-            "Phys.org",
-            "Google Science"
+            "Phys.org"
           ],
-          "citationCount": 2,
+          "citationCount": 1,
           "rawArticles": [
             {
-              "title": "NASA's Voyager 1 closes in on a light-day in interstellar space for a new distance record",
+              "title": "SpaceX's Starship returns from orbit and is captured by launch pad arms in a dramatic first",
               "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-nasa-voyager-day-interstellar-space.html",
-              "pubDate": "2026-11-14T18:37:10.000Z",
-              "tier": 2
-            },
-            {
-              "title": "NASA's Voyager 1 closes in on a light-day in interstellar space for a new distance record",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB3ZXpoQlFPN0U5WUJIelllclVrX3FjWFZOc3ItU0NMZFBDSGhwLVZDM0VYbk5xNFViN2JReHM4VE9NMWVFRVhBOXQ0T2dVdGE0bmVvVWNKMjlEMGhHNlV5X2tJY2dKUlVXUzNNUUpLcjd0d3cyRnI0dnJn?oc=5",
-              "pubDate": "2026-11-14T18:37:10.000Z",
+              "link": "https://phys.org/news/2026-11-spacex-starship-orbit-captured-pad.html",
+              "pubDate": "2026-11-15T13:06:43.000Z",
               "tier": 2
             }
           ],
@@ -1821,142 +1943,52 @@ export const newsData = {
           "aiCategory": "Science",
           "sentiment": 0.4,
           "relevance_score": 8,
-          "importance": 50,
-          "slug": "voyager-1-sets-new-record-in-interstellar-space"
+          "importance": 45,
+          "slug": "spacex-starship-successfully-returns-from-orbit-landing"
         },
         {
-          "representativeTitle": "SpaceX Tests Starship Reusability in New Flight Attempt",
+          "representativeTitle": "Drug Blocks Spinal Damage in Osteoporosis Study",
           "sources": [
-            "Bloomberg Markets"
+            "Science Daily"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "SpaceX Pushes Starship Reusability to New Test",
-              "source": "Bloomberg Markets",
-              "link": "https://www.bloomberg.com/news/videos/2026-11-14/spacex-pushes-starship-reusability-to-new-test-video",
-              "pubDate": "2026-11-14T14:36:01.000Z",
-              "tier": 1
+              "title": "A common osteoporosis drug blocked spinal damage in a surprising new study",
+              "source": "Science Daily",
+              "link": "https://www.sciencedaily.com/releases/2026/11/261113232105.htm",
+              "pubDate": "2026-11-15T14:03:39.000Z",
+              "tier": 2
             }
           ],
-          "ingestionCategory": "Stocks",
+          "ingestionCategory": "Science",
           "aiCategory": "Science",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 55,
-          "slug": "spacex-tests-starship-reusability-in-new-flight-attempt"
+          "sentiment": 0.4,
+          "relevance_score": 7,
+          "importance": 40,
+          "slug": "drug-blocks-spinal-damage-in-osteoporosis-study"
         },
         {
-          "representativeTitle": "SpaceX Starship Returns; Details Reveal Key Caveats",
+          "representativeTitle": "Space Data Centers Threaten Traditional Astronomical Viewing Experiences",
           "sources": [
-            "Ars Technica"
+            "Google Tech"
           ],
           "citationCount": 1,
           "rawArticles": [
             {
-              "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
-              "source": "Ars Technica",
-              "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
-              "pubDate": "2026-11-15T00:40:59.000Z",
+              "title": "Space data centers could end stargazing as we know it",
+              "source": "Google Tech",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNS2ljTFo0bEZDRHhEbnFNNnRYT0F1TV9BT1pwX2JMM25udl9zd25mMDB4VU9sNnFTa1pHeHp3cVUyOS1DZnFLTWRDd1lxOVdyaEZPZktfSWVfZjYzbUZkaktkMktGSHMyVTY2V1hzQXo5SnI3dEw4TUhPQXp1Zi1Ddw?oc=5",
+              "pubDate": "2026-11-15T12:08:53.000Z",
               "tier": 2
             }
           ],
           "ingestionCategory": "Technology",
           "aiCategory": "Science",
-          "sentiment": 0,
-          "relevance_score": 8,
-          "importance": 45,
-          "slug": "spacex-starship-returns-details-reveal-key-caveats"
-        },
-        {
-          "representativeTitle": "Dead Star Flashes Radio Waves Near Sun-like Object",
-          "sources": [
-            "Phys.org",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "A dead star is flashing radio waves every 8 minutes, and its partner looks a lot like the sun",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-dead-star-radio-minutes-partner.html",
-              "pubDate": "2026-11-14T21:00:01.000Z",
-              "tier": 2
-            },
-            {
-              "title": "A dead star is flashing radio waves every 8 minutes, and its partner looks a lot like the sun",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lMlJxdmFRZGV3NWxRcG5mR0NNcmtSMkplTkxMVk1Ud2dQQzFRSVRZak92WnZOVkhra3hLZDBtYnNhOFVZMmxINGMzRmZMemoxR2d2c09sZzVWWlZKdk1ra3llT2tPQ1NNRDBicWhkS3ppUU5k?oc=5",
-              "pubDate": "2026-11-14T21:00:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0,
-          "relevance_score": 6,
+          "sentiment": -0.4,
+          "relevance_score": 7,
           "importance": 40,
-          "slug": "dead-star-flashes-radio-waves-near-sun-like-object"
-        },
-        {
-          "representativeTitle": "Cosmic Glass Predicts Supernova Visibility Over Decades",
-          "sources": [
-            "Phys.org",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "A cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html",
-              "pubDate": "2026-11-14T18:20:01.000Z",
-              "tier": 2
-            },
-            {
-              "title": "A cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPU21DbHJHdEpYUndXWUFtemVKMThwVmVXM3phREtBdmFEeTlwZDhoWlZNakZYRm1paVJpZzFTek51VkJMYml5UmJFd21SVEtabjgwYTBkNW43NnJzYVNqUGVMMFZGNm9QbHB5LWhLekJ4alQ1aGVpTVNfUFJvdG5pMw?oc=5",
-              "pubDate": "2026-11-14T18:20:01.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "cosmic-glass-predicts-supernova-visibility-over-decades"
-        },
-        {
-          "representativeTitle": "Ancient Rocks Reveal Deep Insights Into Earth's Past",
-          "sources": [
-            "Phys.org",
-            "Google Science"
-          ],
-          "citationCount": 2,
-          "rawArticles": [
-            {
-              "title": "Some of the oldest rocks ever discovered shed light on Earth's early history",
-              "source": "Phys.org",
-              "link": "https://phys.org/news/2026-11-oldest-earth-early-history.html",
-              "pubDate": "2026-11-14T17:00:33.000Z",
-              "tier": 2
-            },
-            {
-              "title": "Some of the oldest rocks ever discovered shed light on Earth's early history",
-              "source": "Google Science",
-              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DVGdrbWdUU0tPQ3ZKUUItUWpYcHNzaDhjeGMwTzVENmQyYWFoUkdxci1YSVpWYkFmb0M3dUN4czF3eVJQOFpCQ1RwNWxpSzZtUmV3VVNZcjd2WDRCV0g1YlY1SXBTVnE5RTFYSHBR?oc=5",
-              "pubDate": "2026-11-14T17:00:33.000Z",
-              "tier": 2
-            }
-          ],
-          "ingestionCategory": "Science",
-          "aiCategory": "Science",
-          "sentiment": 0.4,
-          "relevance_score": 6,
-          "importance": 40,
-          "slug": "ancient-rocks-reveal-deep-insights-into-earths-past"
+          "slug": "space-data-centers-threaten-traditional-astronomical-viewing-experiences"
         }
       ]
     }
